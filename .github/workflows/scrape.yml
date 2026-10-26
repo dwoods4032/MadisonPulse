@@ -16,7 +16,8 @@ on:
         default: false
   push:
     branches: [main]
-    paths: ["site/**", "scraper/**", "data/recurring.json", "data/venue_overrides.json", "data/sources.json"]
+    # Scraper code or hand-edited data changed: re-scrape. Site-only changes use site.yml (fast).
+    paths: ["scraper/**", "data/recurring.json", "data/venue_overrides.json", "data/sources.json"]
 
 permissions:
   contents: write
@@ -53,6 +54,11 @@ jobs:
           fi
 
       - name: Scrape events
+        env:
+          # Optional. Each source switches on when its key is added under
+          # Settings > Secrets and variables > Actions.
+          TICKETMASTER_KEY: ${{ secrets.TICKETMASTER_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           ARGS=""
           if [ "${{ inputs.rediscover }}" = "true" ]; then ARGS="--rediscover"; fi
@@ -74,6 +80,7 @@ jobs:
           mkdir -p _site/data
           cp -r site/. _site/
           cp data/events.json data/venues.json data/report.json _site/data/
+          if [ -f data/restaurants.json ]; then cp data/restaurants.json _site/data/; fi
 
       - uses: actions/upload-pages-artifact@v3
         with:
@@ -82,6 +89,9 @@ jobs:
   deploy:
     needs: scrape
     runs-on: ubuntu-latest
+    concurrency:
+      group: pages-deploy
+      cancel-in-progress: false
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

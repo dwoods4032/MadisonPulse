@@ -1,0 +1,42 @@
+name: Publish site
+
+# Look-and-feel changes go live in a minute or two, using the most recently
+# scraped events. Scraping itself runs on its own schedule (scrape.yml).
+on:
+  push:
+    branches: [main]
+    paths: ["site/**"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build site
+        run: |
+          mkdir -p _site/data
+          cp -r site/. _site/
+          cp data/events.json data/venues.json data/report.json _site/data/
+          if [ -f data/restaurants.json ]; then cp data/restaurants.json _site/data/; fi
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    concurrency:
+      group: pages-deploy
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

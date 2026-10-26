@@ -36,6 +36,79 @@ out center tags;
 """
 
 
+RESTAURANT_QUERY = f"""
+[out:json][timeout:120];
+(
+  nwr["amenity"~"^(restaurant|fast_food|food_court)$"]["name"]({BBOX});
+);
+out center tags;
+"""
+# Rough per-person dinner cost (food plus a soft drink) by cuisine, when OSM has no price.
+CHEAP = r"pizza|burger|sandwich|hot_dog|taco|mexican|burrito|kebab|falafel|noodle|ramen|pho|vietnamese|chicken|wings|donut|bagel|deli|bubble_tea|ice_cream|food_cart"
+PRICEY = r"steak_house|steak|seafood|french|fine_dining|sushi|tapas|wine|supper_club|oyster"
+CUISINE_VIBES = [
+    (r"pizza|burger|sandwich|hot_dog|taco|burrito|chicken|wings|deli|diner", ["cheap", "chill"]),
+    (r"steak|seafood|french|italian|sushi|tapas|wine|fine_dining|mediterranean|spanish", ["date"]),
+    (r"american|regional|supper_club|german|fish|friture|cheese|brewpub|polish", ["classic"]),
+    (r"pub|bar|tavern|grill", ["dive"]),
+    (r"vegan|vegetarian|coffee|cafe|tea|bakery|brunch|breakfast", ["chill"]),
+]
+
+
+def restaurant_of(el: dict) -> dict | None:
+    from .hours import parse as parse_hours
+    t = el.get("tags", {})
+    name = t.get("name")
+    if not name or t.get("brand:wikidata"):  # national and regional chains are left out
+        return None
+    lat = el.get("lat") or el.get("center", {}).get("lat")
+    lon = el.get("lon") or el.get("center", {}).get("lon")
+    if lat is None:
+        return None
+    cuisine = (t.get("cuisine") or "").lower()
+    fast = t.get("amenity") == "fast_food"
+    price = 12 if fast else 16 if re.search(CHEAP, cuisine) else 40 if re.search(PRICEY, cuisine) else 24
+    vibes = []
+    for pat, vs in CUISINE_VIBES:
+        if re.search(pat, cuisine) or re.search(pat, name.lower()):
+            vibes += [v for v in vs if v not in vibes]
+    hrs = parse_hours(t.get("opening_hours"))
+    return {
+        "id": f"osm:{el['type']}/{el['id']}",
+        "name": name,
+        "cuisine": cuisine.replace("_", " ").replace(";", ", "),
+        "fast": fast,
+        "price": price,
+        "vibes": vibes,
+        "address": " ".join(x for x in (t.get("addr:housenumber"), t.get("addr:street")) if x),
+        "lat": round(lat, 6), "lon": round(lon, 6),
+        "website": clean_url(t.get("website") or t.get("contact:website") or t.get("url")),
+        "hours": hrs,
+        "bar": t.get("amenity") == "restaurant" and bool(re.search(r"pub|bar|tavern|brew", (name + " " + cuisine).lower())),
+    }
+
+
+def build_restaurants() -> dict:
+    out, seen = [], set()
+    for el in fetch_osm(RESTAURANT_QUERY):
+        r = restaurant_of(el)
+        if not r:
+            continue
+        key = (r["name"].lower(), round(r["lat"], 3), round(r["lon"], 3))
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append(r)
+    out.sort(key=lambda r: r["name"].lower())
+    return {
+        "generated_at": now().isoformat(timespec="seconds"),
+        "count": len(out),
+        "with_hours": sum(1 for r in out if r["hours"]),
+        "with_website": sum(1 for r in out if r["website"]),
+        "restaurants": out,
+    }
+
+
 def kind_of(t: dict) -> str:
     name = t.get("name", "")
     a, craft = t.get("amenity", ""), t.get("craft", "")
@@ -65,11 +138,11 @@ def clean_url(u: str | None) -> str:
     return u
 
 
-def fetch_osm() -> list[dict]:
+def fetch_osm(query: str = QUERY) -> list[dict]:
     last = None
     for url in MIRRORS:
         try:
-            r = requests.post(url, data={"data": QUERY}, headers={"User-Agent": UA}, timeout=180)
+            r = requests.post(url, data={"data": query}, headers={"User-Agent": UA}, timeout=180)
             if r.status_code == 200:
                 return r.json().get("elements", [])
             last = f"{url}: HTTP {r.status_code}"
@@ -158,15 +231,20 @@ def main(argv=None):
     ap.add_argument("--if-stale", type=float, metavar="DAYS", help="only refresh when older than DAYS")
     a = ap.parse_args(argv)
     path = DATA / "venues.json"
+    rpath = DATA / "restaurants.json"
     if a.if_stale is not None:
         cur = load_json(path, {})
         ts = cur.get("generated_at")
-        if ts and now() - datetime.fromisoformat(ts) < timedelta(days=a.if_stale):
+        fresh = ts and now() - datetime.fromisoformat(ts) < timedelta(days=a.if_stale)
+        if fresh and rpath.exists():
             print(f"Venue list is fresh ({ts}); skipping.")
             return
     data = build()
     save_json(path, data)
     print(f"Saved {data['count']} venues ({data['with_website']} with websites): {data['by_kind']}")
+    rdata = build_restaurants()
+    save_json(rpath, rdata)
+    print(f"Saved {rdata['count']} restaurants ({rdata['with_hours']} with hours, {rdata['with_website']} with websites)")
 
 
 if __name__ == "__main__":

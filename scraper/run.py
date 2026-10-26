@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import argparse
 import html
+import os
 import json
 import re
 import sys
@@ -196,7 +197,7 @@ def pick_feeds(feeds: list[dict]) -> list[dict]:
     return rest + [f for _, f in icals[:3]] + jsonld
 
 
-def scrape_venue(f: Fetcher, venue: dict, cache: dict, start, end, rediscover: bool) -> tuple[list[dict], dict]:
+def scrape_venue(f: Fetcher, venue: dict, cache: dict, start, end, rediscover: bool, reader=None):
     vid = venue["id"]
     info = cache.get(vid)
     stale = (not info or rediscover or info.get("site") != venue["website"]
@@ -220,10 +221,55 @@ def scrape_venue(f: Fetcher, venue: dict, cache: dict, start, end, rediscover: b
         if by_rank[r]:
             raw = by_rank[r]
             break
+    source = "scraped"
+    # No calendar data: have Claude read the event pages as plain text (when a key is set).
+    if not raw and reader is not None and reader.enabled and not info.get("error"):
+        pages = info.get("pages_checked") or [venue["website"]]
+        eventish = [u for u in pages[1:] if X.EVENT_LINK.search(u)]
+        for url in (eventish[:2] or pages[:1]):
+            try:
+                r = f.get(url)
+                if r is not None:
+                    raw += reader.read(url, r.text, venue["name"], start, end)
+            except Exception as e:
+                errors.append(f"ai: {type(e).__name__}: {e}"[:200])
+        if raw:
+            source = "ai"
+            feeds = feeds + [{"type": "ai", "url": ""}]
     status = {"name": venue["name"], "kind": venue["kind"], "website": venue["website"],
               "feeds": [x["type"] for x in feeds], "raw_events": len(raw),
               "error": info.get("error") or ("; ".join(errors) if errors else "")}
-    return [normalize(e, venue, "scraped") for e in raw], info, status
+    return [normalize(e, venue, source) for e in raw], info, status
+
+
+def vkey(name: str) -> str:
+    """Venue name for matching across sources ("The Majestic Theatre" ~ "Majestic")."""
+    n = re.sub(r"[^a-z0-9 ]+", " ", name.lower())
+    n = re.sub(r"\b(the|theatre|theater|madison|bar|and|saloon|music hall|hall|club|lounge)\b", " ", n)
+    return re.sub(r"\s+", " ", n).strip()
+
+
+def ticketmaster_events(venues: list[dict], start, end) -> tuple[list[dict], dict]:
+    from . import ticketmaster
+    if not os.environ.get("TICKETMASTER_KEY"):
+        return [], {"name": "Ticketmaster", "kind": "source", "website": "", "feeds": [], "raw_events": 0,
+                    "error": "off (no TICKETMASTER_KEY)"}
+    by_key = {}
+    for v in venues:
+        by_key.setdefault(vkey(v["name"]), v)
+    out = []
+    try:
+        raw = ticketmaster.fetch(start, end)
+    except Exception as e:
+        return [], {"name": "Ticketmaster", "kind": "source", "website": "", "feeds": ["ticketmaster"],
+                    "raw_events": 0, "error": f"{type(e).__name__}: {e}"[:200]}
+    for e in raw:
+        v = by_key.get(vkey(e["venue_name"])) or {
+            "id": "tm:" + (e["venue_tm_id"] or e["venue_name"]), "name": e["venue_name"] or "Ticketmaster venue",
+            "kind": "venue", "address": e["venue_address"], "website": "", "lat": e["venue_lat"], "lon": e["venue_lon"]}
+        out.append(normalize(e, v, "ticketmaster"))
+    return out, {"name": "Ticketmaster", "kind": "source", "website": "", "feeds": ["ticketmaster"],
+                 "raw_events": len(out), "error": ""}
 
 
 # ---------------------------------------------------------------- shaping
@@ -275,16 +321,16 @@ def expand_recurring(items: list[dict], venues_by: dict, start: datetime, end: d
 
 def dedupe(events: list[dict]) -> list[dict]:
     """Keep one copy per venue, start time and title. Scraped beats weekly."""
-    rank = {"scraped": 0, "extra": 1, "weekly": 2}
+    rank = {"scraped": 0, "ticketmaster": 1, "extra": 2, "ai": 3, "weekly": 4}
     best = {}
-    for e in sorted(events, key=lambda e: rank.get(e["source"], 3)):
-        v = e["venue"].lower()
-        k1 = (v, e["start"][:13], norm_title(e["title"])[:40])
+    for e in sorted(events, key=lambda e: rank.get(e["source"], 5)):
+        v = vkey(e["venue"])
+        k1 = (v, e["start"][:13], norm_title(e["title"])[:12])
         k2 = (v, e["start"][:10], e["category"])
         if k1 in best:
             continue
         if e["source"] == "weekly" and any(
-                (x["venue"].lower(), x["start"][:10], x["category"]) == k2 for x in best.values()):
+                (vkey(x["venue"]), x["start"][:10], x["category"]) == k2 for x in best.values()):
             continue  # the venue posted this night itself
         best[k1] = e
     return list(best.values())
@@ -311,9 +357,11 @@ def main(argv=None):
         targets = targets[: a.limit]
 
     f = Fetcher()
+    from .ai_read import Reader
+    reader = Reader()
     events, report = [], []
     with ThreadPoolExecutor(max_workers=a.workers) as pool:
-        futs = {pool.submit(scrape_venue, f, v, cache, start, end, a.rediscover): v for v in targets}
+        futs = {pool.submit(scrape_venue, f, v, cache, start, end, a.rediscover, reader): v for v in targets}
         for fut in as_completed(futs):
             v = futs[fut]
             try:
@@ -338,6 +386,14 @@ def main(argv=None):
             report.append({"name": src["name"], "kind": "source", "website": src["url"], "feeds": [src["type"]],
                            "raw_events": 0, "error": str(e)[:200]})
 
+    tm, tm_status = ticketmaster_events(venues, start, end)
+    events += tm
+    report.append(tm_status)
+    report.append({"name": "AI page reading", "kind": "source", "website": "", "feeds": ["ai"] if reader.enabled else [],
+                   "raw_events": sum(1 for e in events if e["source"] == "ai"),
+                   "error": "" if reader.enabled else "off (no ANTHROPIC_API_KEY)", "calls": reader.calls})
+    if reader.enabled:
+        reader.save()
     events += expand_recurring(load_json(DATA / "recurring.json", []), by_name, start, end)
     events = [e for e in events if start <= datetime.fromisoformat(e["end"] or e["start"]) and
               datetime.fromisoformat(e["start"]) < end]
