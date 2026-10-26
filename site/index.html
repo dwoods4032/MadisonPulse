@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>MadisonPulse</title>
+<meta name="description" content="Plan a night out in Madison, WI: bars, VFW halls, coffee shops and venues, with the next two weeks of events.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: one calm column. Five questions in one card, a two-week day strip, the night as a route, then everything on that day. */
+:root{
+  --bg:#eef2f5; --surface:#ffffff; --ink:#14202b; --muted:#5d6b78; --line:#d6dde4;
+  --lake:#1f5a7a; --lamp:#c9781a; --lamp-soft:#f6e3c8; --ok:#2f7d4f; --over:#b3412e;
+  --display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
+  --body:"Figtree",system-ui,-apple-system,sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0c1620; --surface:#13212d; --ink:#e6edf2; --muted:#93a3b1; --line:#24384a;
+  --lake:#6fb3d6; --lamp:#f0a53c; --lamp-soft:#3a2a14; --ok:#6cc48f; --over:#ef7d68; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0c1620; --surface:#13212d; --ink:#e6edf2; --muted:#93a3b1; --line:#24384a;
+  --lake:#6fb3d6; --lamp:#f0a53c; --lamp-soft:#3a2a14; --ok:#6cc48f; --over:#ef7d68; color-scheme:dark}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.5;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:32px 64px}
+.wrap{max-width:680px;margin:0 auto;display:flex;flex-direction:column;gap:40px}
+header{display:flex;flex-direction:column;gap:8px}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--lake)}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(32px,6.5vw,48px);line-height:1.02;margin:0;text-wrap:balance;letter-spacing:-.02em}
+h1 span{color:var(--lamp)}
+.sub{color:var(--muted);margin:0;max-width:50ch}
+h2{font-family:var(--display);font-weight:700;font-size:22px;margin:0;text-wrap:balance}
+button{font:inherit;color:inherit}
+a{color:var(--lake)}
+:focus-visible{outline:2px solid var(--lamp);outline-offset:2px}
+
+.ask{background:var(--surface);border:1px solid var(--line);border-radius:18px;overflow:hidden}
+.steps{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));border-bottom:1px solid var(--line)}
+.step{background:none;border:0;border-right:1px solid var(--line);padding:12px 12px 11px;text-align:left;cursor:pointer;display:flex;flex-direction:column;gap:2px;min-width:0;position:relative}
+.step:last-child{border-right:0}
+.step::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:3px;background:transparent}
+.step[aria-current="step"]::after{background:var(--lamp)}
+.step .k{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.step .a{font-size:14px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.step[aria-current="step"] .k{color:var(--lamp)}
+@media (max-width:560px){.step{padding:10px 6px 9px;align-items:center;text-align:center}.step .a{display:none}}
+.q{padding:26px 24px 24px}
+@media (max-width:560px){.q{padding:22px 16px 18px}}
+.q-body{display:flex;flex-direction:column;gap:20px}
+.q-num{font-family:var(--mono);font-size:12px;color:var(--muted);letter-spacing:.06em}
+.q h2{font-size:clamp(24px,4.6vw,30px);line-height:1.15;margin-top:4px}
+.hint{color:var(--muted);font-size:14px;margin:6px 0 0}
+.q-foot{display:flex;justify-content:space-between;align-items:center;gap:12px;padding-top:4px}
+.big{font-family:var(--display);font-weight:800;font-size:56px;line-height:1;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.big small{font-family:var(--body);font-size:16px;font-weight:500;color:var(--muted);letter-spacing:0;margin-left:6px}
+.big-row{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.big-side{font-size:14px;color:var(--muted);font-variant-numeric:tabular-nums}
+input[type=range]{width:100%;accent-color:var(--lamp);height:28px;margin:0}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{font-size:15px;font-weight:500;padding:9px 15px;border-radius:999px;border:1px solid var(--line);background:transparent;cursor:pointer}
+.chip.sm{font-size:14px;padding:6px 12px}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.stepper{display:flex;align-items:center;gap:18px}
+.round{width:52px;height:52px;border-radius:50%;border:1px solid var(--line);background:transparent;font-size:24px;line-height:1;cursor:pointer;display:grid;place-items:center}
+.round:disabled{opacity:.35;cursor:default}
+.opts{display:grid;gap:10px}
+.opts.two{grid-template-columns:1fr 1fr}
+@media (max-width:480px){.opts.two{grid-template-columns:1fr}}
+.opt{display:grid;grid-template-columns:22px 1fr;gap:2px 12px;align-items:start;text-align:left;padding:14px 16px;border-radius:12px;border:1px solid var(--line);background:transparent;cursor:pointer}
+.opt .mark{grid-row:1/3;width:20px;height:20px;border-radius:50%;border:1.5px solid var(--line);margin-top:2px;display:grid;place-items:center}
+.opt.box .mark{border-radius:6px}
+.opt .t{font-weight:600}
+.opt .d{color:var(--muted);font-size:14px}
+.opt[aria-pressed="true"],.opt[aria-checked="true"]{border-color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}
+.opt[aria-pressed="true"] .mark,.opt[aria-checked="true"] .mark{background:var(--ink);border-color:var(--ink)}
+.opt[aria-pressed="true"] .mark::after{content:"";width:8px;height:8px;border-radius:2px;background:var(--surface)}
+.opt[aria-checked="true"] .mark::after{content:"";width:8px;height:8px;border-radius:50%;background:var(--surface)}
+.warn{color:var(--over);font-size:14px;margin:0}
+.btn{font-weight:600;font-size:15px;padding:12px 20px;border-radius:10px;border:1px solid var(--ink);background:var(--ink);color:var(--bg);cursor:pointer}
+.btn.ghost{background:transparent;color:var(--ink);border-color:var(--line)}
+.btn.small{padding:7px 13px;font-size:14px}
+.link{background:none;border:0;padding:8px 0;color:var(--muted);font-weight:500;cursor:pointer}
+.link:disabled{visibility:hidden}
+
+/* day strip */
+.days-wrap{overflow-x:auto;margin:0 -4px 18px;padding:4px;scrollbar-width:thin}
+.days{display:flex;gap:6px;width:max-content}
+.day{display:flex;flex-direction:column;align-items:center;gap:0;min-width:58px;padding:8px 6px 7px;border-radius:12px;border:1px solid var(--line);background:var(--surface);cursor:pointer}
+.day .w{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.day .n{font-family:var(--display);font-weight:700;font-size:20px;line-height:1.1;font-variant-numeric:tabular-nums}
+.day .c{font-size:11px;color:var(--muted);font-variant-numeric:tabular-nums}
+.day[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+.day[aria-pressed="true"] .w,.day[aria-pressed="true"] .c{color:var(--bg);opacity:.8}
+
+.plan-head{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;flex-wrap:wrap;margin-bottom:18px}
+.totals{display:flex;flex-direction:column;align-items:flex-end;gap:2px;font-variant-numeric:tabular-nums}
+.totals .pp{font-family:var(--mono);font-size:14px;padding:5px 10px;border-radius:999px;background:var(--lamp-soft)}
+.totals .grp{font-size:13px;color:var(--muted)}
+.route{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.stop{display:grid;grid-template-columns:64px 20px minmax(0,1fr) auto;gap:0 12px;align-items:start}
+.time{font-family:var(--mono);font-size:13px;color:var(--muted);padding-top:3px;font-variant-numeric:tabular-nums}
+.rail{position:relative;height:100%;display:flex;justify-content:center}
+.rail::before{content:"";position:absolute;top:0;bottom:0;width:2px;background:var(--line)}
+.stop:first-child .rail::before{top:9px}
+.stop:last-child .rail::before{bottom:auto;height:9px}
+.dot{position:relative;flex:none;align-self:flex-start;width:12px;height:12px;border-radius:50%;background:var(--lamp);margin-top:5px;box-shadow:0 0 0 4px var(--bg)}
+.dot.ev{background:var(--lake)}
+.stop-body{padding-bottom:22px;min-width:0}
+.kind{font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--lake)}
+.name{font-family:var(--display);font-weight:700;font-size:19px;line-height:1.2;margin:1px 0 3px}
+.why{color:var(--muted);font-size:14px;margin:0}
+.where{font-size:13px;color:var(--muted);margin-top:4px}
+.cost{font-family:var(--mono);font-size:14px;font-variant-numeric:tabular-nums;padding-top:3px;white-space:nowrap}
+.empty{color:var(--muted);background:var(--surface);border:1px dashed var(--line);border-radius:12px;padding:18px;margin:0}
+.note{font-size:13px;color:var(--muted);margin:6px 0 0}
+.plan-foot{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-top:4px}
+
+.list-head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:12px}
+.filters{display:flex;flex-direction:column;gap:10px;margin-bottom:14px}
+.evlist{display:flex;flex-direction:column;border-top:1px solid var(--line)}
+.dayhead{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--lake);padding:18px 0 6px;border-bottom:1px solid var(--line)}
+.ev{display:grid;grid-template-columns:64px minmax(0,1fr) auto;gap:2px 14px;padding:14px 0;border-bottom:1px solid var(--line);align-items:start}
+.ev .tm{font-family:var(--mono);font-size:13px;color:var(--muted);padding-top:2px;font-variant-numeric:tabular-nums}
+.ev .t{font-weight:600;min-width:0;overflow-wrap:anywhere}
+.ev .m{color:var(--muted);font-size:14px;min-width:0;overflow-wrap:anywhere}
+.ev .c{font-family:var(--mono);font-size:14px;font-variant-numeric:tabular-nums}
+.ev .tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:6px}
+.tag{font-size:12px;padding:2px 8px;border-radius:6px;background:var(--bg);color:var(--muted);border:1px solid var(--line);text-decoration:none}
+.tag.weekly{background:var(--lamp-soft);color:var(--ink);border-color:transparent}
+a.tag{color:var(--lake)}
+.more{margin-top:14px}
+footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:16px;display:flex;flex-direction:column;gap:4px}
+@media (prefers-reduced-motion:no-preference){.stop{animation:rise .35s ease both}.q-body{animation:fade .25s ease both}}
+@keyframes rise{from{transform:translateY(6px)}to{transform:none}}
+@keyframes fade{from{transform:translateX(8px)}to{transform:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Madison, WI · 43.07° N</div>
+    <h1>Plan your night in <span>Madison</span></h1>
+    <p class="sub">Five quick questions. We'll build a night from local spots and the next two weeks of events, including the bars, VFW halls and coffee shops the big calendars miss.</p>
+  </header>
+
+  <section class="ask" aria-label="Plan your night">
+    <nav class="steps" id="steps" aria-label="Questions"></nav>
+    <div class="q" id="q"></div>
+  </section>
+
+  <section id="planSec" aria-live="polite">
+    <div class="days-wrap"><div class="days" id="days" role="group" aria-label="Which night"></div></div>
+    <div class="plan-head">
+      <h2 id="planTitle">Your night</h2>
+      <div class="totals"><span class="pp" id="totalPP"></span><span class="grp" id="totalGrp"></span></div>
+    </div>
+    <ol class="route" id="route"></ol>
+    <div class="plan-foot">
+      <p class="note">Rough per-person estimates for food, drinks and cover. Check the venue before you go.</p>
+      <button class="btn ghost small" id="shuffleBtn" type="button">Try another</button>
+    </div>
+  </section>
+
+  <section id="eventsSec">
+    <div class="list-head">
+      <h2 id="evTitle">What's on</h2>
+      <span class="note" id="evCount"></span>
+    </div>
+    <div class="filters">
+      <div class="chips" id="catChips" role="group" aria-label="Type of event"></div>
+      <div class="chips" id="placeChips" role="group" aria-label="Type of place"></div>
+    </div>
+    <div id="events" class="evlist"><p class="empty">Loading events…</p></div>
+    <button class="btn ghost small more" id="allDays" type="button">Show all 14 days</button>
+  </section>
+
+  <footer>
+    <span id="updated">Event listings refresh every few hours.</span>
+    <span>Pulled from venue websites and public calendars. Weekly specials are marked “Weekly”; confirm with the venue before heading out.</span>
+  </footer>
+</div>
+<script src="spots.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
