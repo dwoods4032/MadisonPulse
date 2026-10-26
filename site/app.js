@@ -135,7 +135,7 @@ function eventStop(e){
   const food = role === "dinner" ? (e.price ?? 15) : (e.price ?? 0);
   return {id:e.id, n:e.title, k:role, lat:e.lat, lon:e.lon, venue:e.venue, p:Math.round(food + drinks),
     v:[...(CAT_VIBES[e.category]||[]), ...(PLACE_VIBES[e.venue_kind]||[])],
-    w:e.venue + (e.address ? " · " + e.address : ""), d:e.description || (CAT_LABEL[e.category] || "Event") + " at " + e.venue,
+    w:e.venue + (e.address ? " · " + e.address : ""), d:e.description || (CAT_LABEL[e.category] || "Event") + " at " + e.venue + (e.via ? " (listed by " + e.via + ")" : ""),
     at:e.all_day ? null : hhmm(e.start), live:true, cat:e.category, dropin: DROPIN_CATS.has(e.category) || DROPIN_TITLE.test(e.title), weekly:e.source === "weekly", url:e.url,
     g:e.venue_kind === "veterans" || e.venue_kind === "lodge" ? 1 : 0};
 }
@@ -451,7 +451,8 @@ function evRow(e){
   const tags = [CAT_LABEL[e.category] || "Event", PLACE_LABEL[e.venue_kind] ? PLACE_LABEL[e.venue_kind].replace(/s$/,"") : ""].filter(Boolean)
     .map(t => '<span class="tag">'+esc(t)+'</span>').join("") +
     (e.source === "weekly" ? '<span class="tag weekly">Weekly</span>' : "") +
-    (e.url ? '<a class="tag" href="'+esc(e.url)+'" target="_blank" rel="noopener">Details</a>' : "") +
+    (e.via ? '<a class="tag" href="'+esc(e.url)+'" target="_blank" rel="noopener">via '+esc(e.via)+' ↗</a>'
+           : e.url ? '<a class="tag" href="'+esc(e.url)+'" target="_blank" rel="noopener">Details</a>' : "") +
     (e.confirm ? '<a class="tag" href="'+esc(e.confirm)+'" target="_blank" rel="noopener">Confirm</a>' : "");
   const price = e.price == null ? "" : +e.price ? "$" + (+e.price).toFixed(+e.price % 1 ? 2 : 0) : "Free";
   const on = e.id === state.pin;
@@ -508,7 +509,7 @@ Promise.all([getJSON("data/restaurants.json").catch(() => null), getJSON("data/v
 });
 getJSON("data/events.json").then(data => {
   META = data; EVENTS = (data.events || []).filter(e => evDay(e) >= todayKey());
-  $("updated").textContent = "Events updated " + ago(data.generated_at) + ". Listings refresh every few hours.";
+  $("updated").textContent = "Events updated " + ago(data.generated_at) + ". Listings refresh twice a day.";
   renderDays(); renderFilters(); renderEvents(); renderPlan();
 }).catch(() => {
   $("events").innerHTML = '<p class="empty">Event listings aren\'t available right now. The plan above uses our regular spots; try again in a bit for events.</p>';

@@ -242,6 +242,64 @@ def scrape_venue(f: Fetcher, venue: dict, cache: dict, start, end, rediscover: b
     return [normalize(e, venue, source) for e in raw], info, status
 
 
+def calendar_events(f: Fetcher, src: dict, venues: list[dict], start, end) -> tuple[list[dict], dict]:
+    """A city-wide iCal feed (e.g. Isthmus). Read at most once a day; keep facts only
+    (title, time, venue) and link every listing back to the source."""
+    state_path = DATA / "calendar_cache.json"
+    cache = load_json(state_path, {})
+    name, today = src["name"], now().date().isoformat()
+    status = {"name": name, "kind": "source", "website": src["url"], "feeds": ["calendar"], "raw_events": 0, "error": ""}
+    hit = cache.get(name)
+    if hit and hit.get("on") == today and src.get("daily", True):
+        raw = [{**e, "start": datetime.fromisoformat(e["start"]), "end": datetime.fromisoformat(e["end"]) if e.get("end") else None}
+               for e in hit["events"]]
+        status["error"] = "used today's copy (read once a day)"
+    else:
+        raw, seen = [], set()
+        for page in range(1, int(src.get("max_pages", 15)) + 1):
+            url = src["url"] if page == 1 else f"{src['url']}{'&' if '?' in src['url'] else '?'}page={page}"
+            try:
+                r = f.get(url)
+            except Exception as e:
+                status["error"] = f"{type(e).__name__}: {e}"[:200]
+                break
+            if r is None:
+                break
+            got = X.read_ics(r.text, start, end)
+            fresh = [e for e in got if (e.get("uid"), e["start"].isoformat()) not in seen]
+            if not fresh:
+                break  # no paging, or past the last page
+            for e in fresh:
+                seen.add((e.get("uid"), e["start"].isoformat()))
+            raw += fresh
+            if max(e["start"] for e in got) >= end:
+                break  # covered the two weeks
+        cache[name] = {"on": today, "events": [{"title": e["title"], "start": e["start"].isoformat(),
+                       "end": e["end"].isoformat() if e.get("end") else None, "allday": e.get("allday", False),
+                       "location": e.get("location", "")} for e in raw]}
+        save_json(state_path, cache)
+    by_key = {}
+    for v in venues:
+        by_key.setdefault(vkey(v["name"]), v)
+    out = []
+    for e in raw:
+        loc = (e.get("location") or "").split(",")[0].strip()
+        v = by_key.get(vkey(loc)) or {"id": "cal:" + slug_(loc or name), "name": loc or name, "kind": "venue",
+                                     "address": "", "website": "", "lat": None, "lon": None}
+        if e.get("end") and e["end"] <= e["start"]:
+            e = {**e, "end": None}
+        ev = normalize({"title": e["title"], "start": e["start"], "end": e.get("end"), "allday": e.get("allday"),
+                        "description": "", "url": src.get("link", src["url"]), "price": None}, v, "extra")
+        ev["via"] = src.get("attribution", name)
+        out.append(ev)
+    status["raw_events"] = len(out)
+    return out, status
+
+
+def slug_(t: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "-", t.lower()).strip("-")[:60]
+
+
 def vkey(name: str) -> str:
     """Venue name for matching across sources ("The Majestic Theatre" ~ "Majestic")."""
     n = re.sub(r"[^a-z0-9 ]+", " ", name.lower())
@@ -377,6 +435,11 @@ def main(argv=None):
     # extra calendars that aren't one venue's website (a library system, a neighborhood group)
     by_name = {v["name"].lower(): v for v in venues}
     for src in load_json(DATA / "sources.json", []):
+        if src.get("type") == "calendar":  # a city-wide calendar: many venues, facts only
+            evs, st = calendar_events(f, src, venues, start, end)
+            events += evs
+            report.append(st)
+            continue
         v = by_name.get(src.get("venue", "").lower()) or {
             "id": "source:" + src["name"], "name": src.get("venue") or src["name"], "kind": src.get("kind", "venue"),
             "address": "", "website": src["url"], "lat": None, "lon": None}

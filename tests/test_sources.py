@@ -96,3 +96,39 @@ class PlaceTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class CalendarFeedTests(unittest.TestCase):
+    def test_city_calendar_facts_only_and_daily(self):
+        import tempfile, pathlib
+        from scraper import run
+        ics = ("BEGIN:VCALENDAR\r\nBEGIN:VEVENT\r\nSUMMARY:Trio 5\r\nDTSTART:20261027T010000Z\r\nDTEND:20261027T010000Z\r\n"
+               "UID:a1\r\nDESCRIPTION:Free. Long house-written blurb.\r\nLOCATION:High Noon Saloon\r\nEND:VEVENT\r\n"
+               "BEGIN:VEVENT\r\nSUMMARY:Poetry night\r\nDTSTART:20261028T000000Z\r\nUID:a2\r\nLOCATION:Somewhere New, 1 Main St\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n")
+        calls = []
+        class F:
+            def get(self, url):
+                calls.append(url)
+                return mock.Mock(text=ics, url=url)  # same page every time: feed ignores paging
+        venues = [{"id": "osm:1", "name": "High Noon Saloon", "kind": "bar", "address": "701 E Washington",
+                   "website": "https://high-noon.com", "lat": 43.08, "lon": -89.37}]
+        src = {"name": "Isthmus calendar", "type": "calendar", "attribution": "Isthmus", "url": "https://x/calendar.ics",
+               "link": "https://x/calendar/", "daily": True}
+        with tempfile.TemporaryDirectory() as d, mock.patch.object(run, "DATA", pathlib.Path(d)), \
+                mock.patch("scraper.run.now", return_value=START):
+            evs, st = run.calendar_events(F(), src, venues, START, END)
+            self.assertEqual(len(calls), 2)                      # page 2 repeated page 1, so it stopped
+            self.assertEqual(sorted(e["title"] for e in evs), ["Poetry night", "Trio 5"])
+            trio = next(e for e in evs if e["title"] == "Trio 5")
+            self.assertEqual((trio["venue"], trio["lat"], trio["description"], trio["via"], trio["url"]),
+                             ("High Noon Saloon", 43.08, "", "Isthmus", "https://x/calendar/"))
+            self.assertEqual(trio["start"][11:16], "20:00")      # 01:00 UTC = 8 pm Central
+            evs2, st2 = run.calendar_events(F(), src, venues, START, END)
+            self.assertEqual(len(calls), 2)                      # second run the same day: no new requests
+            self.assertEqual(len(evs2), 2)
+
+    def test_ai_reader_skips_opted_out_sites(self):
+        r = ai_read.Reader(key="x")
+        with mock.patch.object(r.s, "post") as post:
+            self.assertEqual(r.read("https://isthmus.com/events/x/", "<p>Tue Oct 27 trivia 7pm Fri Oct 30</p>" * 5, "X", START, END), [])
+            post.assert_not_called()

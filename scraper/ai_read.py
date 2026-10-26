@@ -21,6 +21,8 @@ API = "https://api.anthropic.com/v1/messages"
 MODEL = os.environ.get("AI_MODEL", "claude-haiku-5-5")
 MAX_CALLS = int(os.environ.get("AI_MAX_CALLS", "60"))
 MAX_CHARS = 9000
+# Sites that have opted out of AI tools (robots.txt blocks AI crawlers): never sent to Claude.
+NO_AI = re.compile(r"https?://(?:[^/]*\.)?(?:isthmus\.com)(?:/|$)", re.I)
 DATEISH = re.compile(r"\b(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\.?\s+\d{1,2}\b|\b\d{1,2}/\d{1,2}\b|"
                      r"\b(mon|tues?|wed(nes)?|thu(rs)?|fri|sat(ur)?|sun)(day)?s?\b", re.I)
 SYSTEM = (
@@ -53,7 +55,7 @@ class Reader:
         return re.sub(r"[ \t]+", " ", text).strip()[:MAX_CHARS]
 
     def read(self, url: str, html: str, venue: str, start: datetime, end: datetime) -> list[dict]:
-        if not self.enabled:
+        if not self.enabled or NO_AI.search(url):
             return []
         text = self.page_text(html)
         if len(text) < 80 or len(DATEISH.findall(text)) < 2:

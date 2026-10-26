@@ -1,1 +1,12 @@
-[]
+[
+ {
+  "name": "Isthmus calendar",
+  "type": "calendar",
+  "attribution": "Isthmus",
+  "url": "https://isthmus.com/search/event/calendar-of-events/calendar.ics",
+  "link": "https://isthmus.com/search/event/calendar-of-events/",
+  "daily": true,
+  "max_pages": 15,
+  "note": "Facts only (title, time, venue), linked back. Read once a day. Never sent to the AI reader; Isthmus opts out of AI crawlers."
+ }
+]
