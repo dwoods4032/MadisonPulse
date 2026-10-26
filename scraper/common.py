@@ -63,6 +63,7 @@ class Fetcher:
         self._last: dict[str, float] = {}
         self._lock = threading.Lock()
         self._host_locks: dict[str, threading.Lock] = {}
+        self.why: dict[str, str] = {}  # url -> why the last request returned nothing
 
     def _host_lock(self, host: str) -> threading.Lock:
         with self._lock:
@@ -89,6 +90,7 @@ class Fetcher:
         if not url.startswith(("http://", "https://")):
             return None
         if not self.allowed(url):
+            self.why[url] = "blocked by the site's robots.txt"
             raise PermissionError(f"robots.txt disallows {url}")
         host = urlparse(url).netloc
         with self._host_lock(host):
@@ -96,13 +98,20 @@ class Fetcher:
             if wait > 0:
                 time.sleep(wait)
             try:
-                r = self.s.get(url, timeout=self.timeout, stream=True, **kw)
+                try:
+                    r = self.s.get(url, timeout=self.timeout, stream=True, **kw)
+                except requests.RequestException as e:
+                    self.why[url] = f"could not connect ({type(e).__name__})"
+                    raise
                 body = r.raw.read(MAX_BYTES, decode_content=True)
                 r._content = body
                 r._content_consumed = True
             finally:
                 self._last[host] = time.monotonic()
         if r.status_code >= 400:
+            server = r.headers.get("server", "")
+            self.why[url] = f"HTTP {r.status_code}" + (f" from {server}" if server else "") + (
+                " (the site refused the request; often a block on cloud servers)" if r.status_code in (401, 403, 429) else "")
             return None
         if not r.encoding or r.encoding.lower() == "iso-8859-1":
             r.encoding = r.apparent_encoding or "utf-8"

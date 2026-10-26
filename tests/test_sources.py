@@ -132,3 +132,35 @@ class CalendarFeedTests(unittest.TestCase):
         with mock.patch.object(r.s, "post") as post:
             self.assertEqual(r.read("https://isthmus.com/events/x/", "<p>Tue Oct 27 trivia 7pm Fri Oct 30</p>" * 5, "X", START, END), [])
             post.assert_not_called()
+
+
+class FailureReportingTests(unittest.TestCase):
+    def test_calendar_failure_is_explained_and_retried(self):
+        import tempfile, pathlib
+        from scraper import run
+        page = mock.Mock(text="<html><title>Just a moment...</title></html>", url="u", headers={"content-type": "text/html; charset=utf-8"})
+        class F:
+            why = {}
+            calls = 0
+            def get(self, url):
+                F.calls += 1
+                return page
+        src = {"name": "Cal", "type": "calendar", "url": "https://x/c.ics", "daily": True}
+        with tempfile.TemporaryDirectory() as d, mock.patch.object(run, "DATA", pathlib.Path(d)), \
+                mock.patch("scraper.run.now", return_value=START):
+            evs, st = run.calendar_events(F(), src, [], START, END)
+            self.assertEqual(evs, [])
+            self.assertIn("got text/html instead of a calendar file", st["error"])
+            self.assertIn("Just a moment", st["error"])
+            run.calendar_events(F(), src, [], START, END)
+            self.assertEqual(F.calls, 2)  # the failed read was not saved as "done today"
+
+    def test_blocked_request_reason(self):
+        from scraper.common import Fetcher
+        f = Fetcher(delay=0)
+        f._robots["https://x.example"] = None
+        resp = mock.Mock(status_code=403, headers={"server": "cloudflare"})
+        resp.raw.read.return_value = b""
+        with mock.patch.object(f.s, "get", return_value=resp):
+            self.assertIsNone(f.get("https://x.example/c.ics"))
+        self.assertIn("HTTP 403 from cloudflare", f.why["https://x.example/c.ics"])

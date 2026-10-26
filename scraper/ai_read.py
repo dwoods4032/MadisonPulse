@@ -39,6 +39,7 @@ class Reader:
         self.key = key or os.environ.get("ANTHROPIC_API_KEY")
         self.cache = load_json(DATA / "ai_cache.json", {})
         self.calls = 0
+        self.tokens_in = self.tokens_out = 0
         self.lock = threading.Lock()
         self.s = requests.Session()
 
@@ -81,7 +82,12 @@ class Reader:
                   "messages": [{"role": "user", "content": prompt}]})
         if r.status_code != 200:
             raise RuntimeError(f"AI read HTTP {r.status_code}: {r.text[:150]}")
-        raw = "".join(b.get("text", "") for b in r.json().get("content", []))
+        body = r.json()
+        usage = body.get("usage") or {}
+        with self.lock:
+            self.tokens_in += int(usage.get("input_tokens") or 0)
+            self.tokens_out += int(usage.get("output_tokens") or 0)
+        raw = "".join(b.get("text", "") for b in body.get("content", []))
         items = parse_reply(raw)
         with self.lock:
             self.cache[url] = {"hash": h, "asked": now().isoformat(timespec="seconds"), "on": today, "events": items}

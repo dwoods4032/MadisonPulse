@@ -256,7 +256,7 @@ def calendar_events(f: Fetcher, src: dict, venues: list[dict], start, end) -> tu
     name, today = src["name"], now().date().isoformat()
     status = {"name": name, "kind": "source", "website": src["url"], "feeds": ["calendar"], "raw_events": 0, "error": ""}
     hit = cache.get(name)
-    if hit and hit.get("on") == today and src.get("daily", True):
+    if hit and hit.get("on") == today and hit.get("events") and src.get("daily", True):
         raw = [{**e, "start": datetime.fromisoformat(e["start"]), "end": datetime.fromisoformat(e["end"]) if e.get("end") else None}
                for e in hit["events"]]
         status["error"] = "used today's copy (read once a day)"
@@ -267,11 +267,20 @@ def calendar_events(f: Fetcher, src: dict, venues: list[dict], start, end) -> tu
             try:
                 r = f.get(url)
             except Exception as e:
-                status["error"] = f"{type(e).__name__}: {e}"[:200]
+                status["error"] = f.why.get(url) or f"{type(e).__name__}: {e}"[:200]
                 break
             if r is None:
+                status["error"] = f.why.get(url, "no response")
                 break
             got = X.read_ics(r.text, start, end)
+            if page == 1 and not got:
+                ctype = r.headers.get("content-type", "?").split(";")[0]
+                title = re.search(r"<title[^>]*>([^<]{0,80})", r.text, re.I)
+                cal = "BEGIN:VCALENDAR" in r.text[:2000].upper()
+                status["error"] = (f"calendar file had no events in the next 14 days" if cal else
+                                   f"got {ctype} instead of a calendar file" + (f' (page title: "{title.group(1).strip()}")' if title else "")
+                                   + f", {len(r.text)} bytes")
+                break
             fresh = [e for e in got if (e.get("uid"), e["start"].isoformat()) not in seen]
             if not fresh:
                 break  # no paging, or past the last page
@@ -280,10 +289,11 @@ def calendar_events(f: Fetcher, src: dict, venues: list[dict], start, end) -> tu
             raw += fresh
             if max(e["start"] for e in got) >= end:
                 break  # covered the two weeks
-        cache[name] = {"on": today, "events": [{"title": e["title"], "start": e["start"].isoformat(),
-                       "end": e["end"].isoformat() if e.get("end") else None, "allday": e.get("allday", False),
-                       "location": e.get("location", "")} for e in raw]}
-        save_json(state_path, cache)
+        if raw:  # only a successful read counts as today's read; failures retry next run
+            cache[name] = {"on": today, "events": [{"title": e["title"], "start": e["start"].isoformat(),
+                           "end": e["end"].isoformat() if e.get("end") else None, "allday": e.get("allday", False),
+                           "location": e.get("location", "")} for e in raw]}
+            save_json(state_path, cache)
     by_key = {}
     for v in venues:
         by_key.setdefault(vkey(v["name"]), v)
@@ -460,7 +470,9 @@ def main(argv=None):
     report.append(tm_status)
     report.append({"name": "AI page reading", "kind": "source", "website": "", "feeds": ["ai"] if reader.enabled else [],
                    "raw_events": sum(1 for e in events if e["source"] == "ai"),
-                   "error": "" if reader.enabled else "off (no ANTHROPIC_API_KEY)", "calls": reader.calls})
+                   "error": "" if reader.enabled else "off (no ANTHROPIC_API_KEY)", "calls": reader.calls,
+                   "tokens_in": reader.tokens_in, "tokens_out": reader.tokens_out,
+                   "est_cost_usd": round(reader.tokens_in / 1e6 * 0.10 + reader.tokens_out / 1e6 * 0.50, 4)})
     if reader.enabled:
         reader.save()
     events += expand_recurring(load_json(DATA / "recurring.json", []), by_name, start, end)
