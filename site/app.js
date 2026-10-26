@@ -9,6 +9,7 @@ const CAT_LABEL = Object.fromEntries(CATS), PLACE_LABEL = Object.fromEntries(PLA
 const CAT_VIBES = {music:["music"],trivia:["chill"],karaoke:["dive"],bingo:["dive","classic"],food:["classic","cheap"],comedy:["date"],open_mic:["music","chill"],dance:["date"],sports:["classic","dive"],other:[]};
 const PLACE_VIBES = {veterans:["classic","dive","cheap"],lodge:["classic"],cafe:["chill"],brewery:["chill","classic"],bar:["dive"]};
 const DRINKY = new Set(["bar","brewery","veterans","lodge"]);
+const BARLIKE = new Set(["bar","brewery"]);  // skipped entirely when nobody is drinking
 const esc = x => String(x ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const $ = id => document.getElementById(id);
 
@@ -106,9 +107,10 @@ function stopScore(s){
 const toMin = t => { if (!t) return null; let [h,m] = t.split(":").map(Number); if (h < 6) h += 24; return h*60 + m; };
 function plans(){
   if (!state.dinner && !state.show && state.drinks === "none") return [];
-  const evening = eventsOn(state.day).filter(e => e.all_day || toMin(hhmm(e.start)) >= 15*60).map(eventStop)
+  const dry = state.drinks === "none";
+  const evening = eventsOn(state.day).filter(e => (e.all_day || toMin(hhmm(e.start)) >= 15*60) && !(dry && BARLIKE.has(e.venue_kind))).map(eventStop)
     .sort((a,b) => stopScore(b) - stopScore(a)).slice(0, 24);
-  const pool = k => SPOTS.filter(s => s.k === k).concat(evening.filter(s => s.k === k));
+  const pool = k => SPOTS.filter(s => s.k === k && !(dry && s.tav)).concat(evening.filter(s => s.k === k));
   const dinners = state.dinner ? pool("dinner") : [null];
   const shows = state.show ? pool("show") : [null];
   const bars = pool("bar"), lates = [null, ...pool("late")];
@@ -138,12 +140,14 @@ function plans(){
 }
 const DUR = {dinner:90, show:120, bar:75, late:30};
 const ORDER = {dinner:0, show:1, bar:2, late:3};
+let PLAN_COUNT = 1;
 function renderPlan(){
   const list = plans(), route = $("route");
+  PLAN_COUNT = Math.max(1, list.length);
   route.innerHTML = "";
   if (!list.length){
     $("totalPP").textContent = ""; $("totalGrp").textContent = "";
-    $("planTitle").textContent = dayName(state.day);
+    $("planTitle").textContent = dayName(state.day); $("pager").hidden = true;
     const why = (!state.dinner && !state.show && state.drinks === "none") ? "Pick dinner or a show so there's something to plan." : "Nothing fits $"+state.budget+" a person with these answers. Raise the budget or drop the show.";
     route.innerHTML = '<li class="empty">'+why+'</li>'; return;
   }
@@ -169,9 +173,12 @@ function renderPlan(){
   });
   $("totalPP").textContent = "~$"+p.cost+" of $"+state.budget+" each";
   $("totalGrp").textContent = state.people > 1 ? "About $"+p.cost*state.people+" for "+state.people : "";
-  $("planTitle").textContent = dayName(state.day) + (list.length > 1 ? " ("+((state.rank % list.length)+1)+" of "+list.length+")" : "");
+  $("planTitle").textContent = dayName(state.day);
+  $("pager").hidden = list.length < 2;
+  $("pageOf").textContent = ((state.rank % list.length)+1) + " of " + list.length;
 }
-$("shuffleBtn").onclick = () => { state.rank++; renderPlan(); };
+$("nextPlan").onclick = () => { state.rank++; renderPlan(); };
+$("prevPlan").onclick = () => { state.rank = state.rank > 0 ? state.rank - 1 : PLAN_COUNT - 1; renderPlan(); };
 
 // ---------- day strip ----------
 function renderDays(){

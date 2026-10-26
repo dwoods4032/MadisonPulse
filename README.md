@@ -25,7 +25,7 @@ OpenStreetMap ──► data/venues.json ──► scraper visits each venue web
 
 1. **Turn on Pages:** repo Settings → Pages → Source: **GitHub Actions**.
 2. **Run it the first time:** Actions → "Scrape events and publish site" → Run workflow (tick *Re-pull the venue list*).
-3. The site appears at `https://dwoods4032.github.io/madisonpulse/`.
+3. The site appears at `https://dwoods4032.github.io/MadisonPulse/`.
 
 ## Files you edit
 

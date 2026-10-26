@@ -1,11 +1,12 @@
 // Hand-picked dinner, show, bar and late-night spots used to build a plan.
+// tav = a tavern or brewpub (left out when the group isn't drinking).
 // p = rough per-person spend with beer-level drinks. c = known for cocktails. g = roomy, good for groups. t = tiny room.
 window.SPOTS = [
   {n:"The Old Fashioned",k:"dinner",a:"downtown",p:30,v:["classic","date"],c:1,w:"Capitol Square",d:"Wisconsin supper-club food. Get the cheese curds and a brandy Old Fashioned."},
   {n:"Tornado Steakhouse",k:"dinner",a:"downtown",p:60,v:["date","classic"],c:1,w:"Near the Capitol",d:"Old-school steakhouse with a proper martini. Pricey at dinner."},
-  {n:"Weary Traveler Freehouse",k:"dinner",a:"east",p:22,v:["chill","classic"],g:1,w:"1201 Williamson St",d:"Laid-back Willy Street pub with a globally inspired menu."},
-  {n:"Villa Tap",k:"dinner",a:"north",p:20,v:["dive","classic"],g:1,w:"2302 Packers Ave",d:"North-side tavern since 1978. Strong Friday fish fry, local beer."},
-  {n:"Great Dane Pub & Brewing",k:"dinner",a:"downtown",p:25,v:["chill","classic"],g:1,w:"123 E Doty St",d:"Brewpub with house beers and a big menu. Easy group pick."},
+  {n:"Weary Traveler Freehouse",tav:1,k:"dinner",a:"east",p:22,v:["chill","classic"],g:1,w:"1201 Williamson St",d:"Laid-back Willy Street pub with a globally inspired menu."},
+  {n:"Villa Tap",tav:1,k:"dinner",a:"north",p:20,v:["dive","classic"],g:1,w:"2302 Packers Ave",d:"North-side tavern since 1978. Strong Friday fish fry, local beer."},
+  {n:"Great Dane Pub & Brewing",tav:1,k:"dinner",a:"downtown",p:25,v:["chill","classic"],g:1,w:"123 E Doty St",d:"Brewpub with house beers and a big menu. Easy group pick."},
   {n:"Ian's Pizza",k:"dinner",a:"downtown",p:10,v:["cheap","chill"],g:1,w:"State St",d:"Big New York-style slices with wild toppings like mac and cheese."},
   {n:"High Noon Saloon",k:"show",a:"east",p:18,v:["music"],g:1,w:"701 E Washington Ave",d:"Mid-size room for touring and local bands."},
   {n:"The Rigby Pub",k:"show",a:"downtown",p:8,v:["music","cheap"],g:1,w:"119 E Main St",d:"Pub on the Square that books local acts. Often low or no cover."},
