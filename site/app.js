@@ -2,9 +2,17 @@
 const SPOTS = window.SPOTS || [];
 const TZ = "America/Chicago";
 const KIND = {dinner:"Dinner", show:"Show", bar:"Drinks", late:"Late bite"};
-const VIBES = [["dive","Dive bars"],["chill","Chill"],["music","Live music"],["date","Date night"],["classic","Wisconsin classic"],["cheap","Cheap eats"]];
-const CATS = [["all","All"],["music","Live music"],["trivia","Trivia & games"],["karaoke","Karaoke"],["bingo","Bingo & raffles"],["food","Food & specials"],["comedy","Comedy"],["open_mic","Open mic"],["dance","Dancing"],["sports","Watch parties"],["other","Other"]];
-const PLACES = [["all","Anywhere"],["bar","Bars"],["brewery","Breweries"],["veterans","VFW & Legion"],["lodge","Lodges & clubs"],["cafe","Coffee shops"],["venue","Venues"],["library","Libraries"],["community","Community"]];
+const FOOD = [["date","Date night"],["cheap","Cheap eats"],["dive","Dive bars"],["classic","Wisconsin classic"]];
+const FUN = [["music","Live music"],["comedy","Comedy"],["theater","Theater"],["games","Games & trivia"],["bowling","Bowling & pool"],["movies","Movies"],["karaoke","Karaoke"],["dancing","Dancing"],["sports","Sports"]];
+const FUN_OF_CAT = {music:"music", open_mic:"music", comedy:"comedy", theater:"theater", film:"movies", trivia:"games", bingo:"games", karaoke:"karaoke", dance:"dancing", sports:"sports"};
+const FUN_OF_ACT = {bowling:"bowling", billiards:"bowling", darts:"bowling", cinema:"movies", arcade:"games", minigolf:"games", escape:"games", axe:"games", trampoline:"games", karaoke:"karaoke"};
+// Parts of town: a place belongs to the closest-fitting area (smaller areas win ties).
+const AREAS = [
+  ["downtown","Downtown",43.0745,-89.3895,1.8], ["willy","Willy St",43.0835,-89.3655,1.0], ["east","East side",43.0960,-89.3420,4.5],
+  ["west","West side",43.0660,-89.4550,5.0], ["north","North side",43.1350,-89.3600,4.0], ["south","South side",43.0300,-89.3950,4.0],
+  ["middleton","Middleton",43.1000,-89.5050,4.0], ["sunprairie","Sun Prairie",43.1836,-89.2350,5.0]];
+const CATS = [["all","All"],["music","Live music"],["trivia","Trivia & games"],["karaoke","Karaoke"],["bingo","Bingo & raffles"],["food","Food & specials"],["comedy","Comedy"],["theater","Theater"],["film","Movies"],["open_mic","Open mic"],["dance","Dancing"],["sports","Sports"],["other","Other"]];
+const PLACES = [["all","Any place"],["bar","Bars"],["brewery","Breweries"],["veterans","VFW & Legion"],["lodge","Lodges & clubs"],["cafe","Coffee shops"],["venue","Venues"],["library","Libraries"],["community","Community"]];
 const CAT_LABEL = Object.fromEntries(CATS), PLACE_LABEL = Object.fromEntries(PLACES);
 const CAT_VIBES = {music:["music"],trivia:["chill"],karaoke:["dive"],bingo:["dive","classic"],food:["classic","cheap"],comedy:["date"],open_mic:["music","chill"],dance:["date"],sports:["classic","dive"],other:[]};
 const PLACE_VIBES = {veterans:["classic","dive","cheap"],lodge:["classic"],cafe:["chill"],brewery:["chill","classic"],bar:["dive"]};
@@ -13,9 +21,9 @@ const BARLIKE = new Set(["bar","brewery"]);  // skipped entirely when nobody is 
 const esc = x => String(x ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const $ = id => document.getElementById(id);
 
-const state = {budget:60, people:2, vibes:["dive","music"], drinks:"cocktails", dinner:true, show:true, from:18*60, to:23*60, rank:0, swap:{}, removed:[], day:null, cat:"all", place:"all", allDays:false};
-try { const s = JSON.parse(localStorage.getItem("mp-answers") || "null"); if (s) Object.assign(state, s, {rank:0, swap:{}, removed:[], day:null, allDays:false}); } catch (e) {}
-function save(){ try { const {budget,people,vibes,drinks,dinner,show,from,to,cat,place} = state; localStorage.setItem("mp-answers", JSON.stringify({budget,people,vibes,drinks,dinner,show,from,to,cat,place})); } catch (e) {} }
+const state = {budget:60, people:2, food:[], fun:[], areas:[], drinks:"cocktails", dinner:true, show:true, from:18*60, to:23*60, rank:0, swap:{}, removed:[], day:null, cat:"all", place:"all", allDays:false};
+try { const s = JSON.parse(localStorage.getItem("mp-answers2") || "null"); if (s) Object.assign(state, s, {rank:0, swap:{}, removed:[], day:null, allDays:false}); } catch (e) {}
+function save(){ try { const {budget,people,food,fun,areas,drinks,dinner,show,from,to,cat,place} = state; localStorage.setItem("mp-answers2", JSON.stringify({budget,people,food,fun,areas,drinks,dinner,show,from,to,cat,place})); } catch (e) {} }
 
 // ---------- dates in Madison time ----------
 const dayKey = d => new Intl.DateTimeFormat("en-CA", {timeZone:TZ, year:"numeric", month:"2-digit", day:"2-digit"}).format(d);
@@ -45,6 +53,9 @@ function timeSelect(id, val, fromH, toH, label){
   }
   return '<select id="'+id+'" class="sel" aria-label="'+label+'">'+o+'</select>';
 }
+function chipRow(id, items, on){
+  return '<div class="chips" id="'+id+'">'+items.map(([v,l]) => '<button type="button" class="chip" id="'+id+'-'+v+'" data-v="'+v+'" aria-pressed="'+on.includes(v)+'">'+l+'</button>').join("")+'</div>';
+}
 function renderForm(){
   const bad = !state.dinner && !state.show && state.drinks === "none";
   $("form").innerHTML =
@@ -56,8 +67,9 @@ function renderForm(){
       '<button type="button" class="round" id="plus" aria-label="More people"'+(state.people>=12?" disabled":"")+'>+</button></div></div>'+
     '<div class="row inline"><div class="lbl"><span>Time</span></div>'+
       '<div class="times">'+timeSelect("fromSel", state.from, 10, 22, "Start time")+'<span class="to">to</span>'+timeSelect("toSel", state.to, 12, 26, "End time")+'</div></div>'+
-    '<div class="row"><div class="lbl"><span>Vibe</span><span class="aside">up to two</span></div>'+
-      '<div class="chips" id="vibeChips">'+VIBES.map(([id,l]) => '<button type="button" class="chip" id="vibe-'+id+'" data-v="'+id+'" aria-pressed="'+state.vibes.includes(id)+'">'+l+'</button>').join("")+'</div></div>'+
+    '<div class="row"><div class="lbl"><span>Area</span><span class="aside">'+(state.areas.length ? "pick any" : "anywhere")+'</span></div>'+chipRow("areaChips", AREAS.map(a => [a[0], a[1]]), state.areas)+'</div>'+
+    '<div class="row"><div class="lbl"><span>Food & drink</span><span class="aside">pick any</span></div>'+chipRow("foodChips", FOOD, state.food)+'</div>'+
+    '<div class="row"><div class="lbl"><span>Fun</span><span class="aside">'+(state.fun.length ? "pick any" : "anything")+'</span></div>'+chipRow("funChips", FUN, state.fun)+'</div>'+
     '<div class="row"><div class="lbl"><span>Drinks</span></div>'+
       seg("drinkSeg", [["cocktails","Cocktails"],["beer","Beer"],["none","No drinks"]], v => state.drinks === v)+'</div>'+
     '<div class="row"><div class="lbl"><span>Plans</span><span class="aside">pick any</span></div>'+
@@ -87,7 +99,11 @@ $("form").addEventListener("click", e => {
   if (b.id === "go"){ state.rank = 0; renderPlan(); $("planSec").scrollIntoView({behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block:"start"}); return; }
   if (b.id === "minus") state.people = Math.max(1, state.people-1);
   else if (b.id === "plus") state.people = Math.min(12, state.people+1);
-  else if (b.closest("#vibeChips")){ const v = b.dataset.v, i = state.vibes.indexOf(v); if (i >= 0) state.vibes.splice(i,1); else { state.vibes.push(v); if (state.vibes.length > 2) state.vibes.shift(); } }
+  else if (b.closest("#areaChips, #foodChips, #funChips")){
+    const list = state[{areaChips:"areas", foodChips:"food", funChips:"fun"}[b.parentElement.id]], v = b.dataset.v, i = list.indexOf(v);
+    if (i >= 0) list.splice(i, 1); else list.push(v);
+    if (b.parentElement.id === "areaChips") renderDays(), renderEvents();
+  }
   else if (b.closest("#drinkSeg")) state.drinks = b.dataset.v;
   else if (b.closest("#planSeg")) state[b.dataset.v] = !state[b.dataset.v];
   else return;
@@ -97,7 +113,34 @@ $("form").addEventListener("click", e => {
 
 // ---------- turning events into plan stops ----------
 // ---------- places ----------
-let RESTAURANTS = [], BARS = [];  // from OpenStreetMap, loaded with the events
+let RESTAURANTS = [], BARS = [], ACTS = [];  // from OpenStreetMap, loaded with the events
+const CAPITOL = {lat:43.0747, lon:-89.3841};
+function areaOf(p){
+  if (!p || p.lat == null) return null;
+  let best = null, bestR = 1e9;
+  for (const [id,, la, lo, rKm] of AREAS){
+    const d = miles(p, {lat:la, lon:lo}) * 1.609;
+    if (d <= rKm && rKm < bestR){ best = id; bestR = rKm; }
+  }
+  return best || "outside";
+}
+const inAreas = p => !state.areas.length || (p && p.lat != null && state.areas.includes(areaOf(p)));
+const outOfTown = p => p && p.lat != null && miles(p, CAPITOL) > 20;
+const funOk = f => !state.fun.length || state.fun.includes(f);
+// Rough price when a listing doesn't give one, by kind of event.
+const EST = {music:15, comedy:25, theater:35, film:12, sports:30, dance:12, trivia:0, bingo:5, karaoke:0, open_mic:0, food:0, other:10};
+// Links never go to a third-party calendar; without a venue or event site, search for the event.
+function eventUrl(e){
+  const u = e.url || "";
+  if (u && !/isthmus\.com/i.test(u)) return u;
+  return "https://www.google.com/search?q=" + encodeURIComponent(e.title + " " + e.venue + " Madison");
+}
+const FOODKINDS = /pizza|burger|taco|mexican|burrito|sushi|japanese|thai|chinese|indian|bbq|barbecue|diner|breakfast|pancake|wings?|chicken|sandwich|deli|ramen|noodle|pho|vietnamese|italian|pasta|donut|dessert|ice cream|steak|seafood|fish|kebab|mediterranean|korean|cuban|bakery/;
+const foodKind = s => { const m = (s.d + " " + s.n).toLowerCase().match(FOODKINDS); return m ? m[0].replace(/s$/, "").replace(/^(burrito|taco)$/, "mexican") : null; };
+function activityStop(a){
+  return {n:a.name, k:"show", act:true, lat:a.lat, lon:a.lon, p:a.price, dur:a.minutes, hrs:a.hours, osm:true, tav:a.bar,
+    v:[], fun:FUN_OF_ACT[a.type], d:a.label + (a.type === "cinema" ? " (check showtimes)" : ""), w:a.address || "", url:a.website || "", mapId:a.id, label:a.label};
+}
 const FAMILY = /\bfamil(?:y|ies)\b|\bkids?\b|children|toddler|all ages matinee/i;  // left out of night plans unless picked
 const pinned = () => state.pin ? EVENTS.find(e => e.id === state.pin) || null : null;
 const norm = n => String(n).toLowerCase().replace(/&/g," and ").replace(/[^a-z0-9 ]+/g," ").replace(/\b(the|and|bar|pub|tavern|restaurant|grill|lounge|cocktail|company|co)\b/g," ").replace(/\s+/g," ").trim();
@@ -138,11 +181,12 @@ function eventStop(e){
   // Events are never the meal: when dinner is on, every plan gets a real dinner stop.
   const role = (!state.show && DRINKY.has(e.venue_kind) && e.category !== "food") ? "bar" : (!state.dinner && e.category === "food") ? "dinner" : "show";
   const drinks = DRINKY.has(e.venue_kind) ? (state.drinks === "cocktails" ? 14 : state.drinks === "beer" ? 10 : 0) : 0;
-  const food = role === "dinner" ? (evPrice(e) ?? 15) : (evPrice(e) ?? 0);
+  const known = evPrice(e);
+  const food = role === "dinner" ? (known ?? 15) : (known ?? EST[e.category] ?? 10);
   return {id:e.id, n:e.title, k:role, lat:e.lat, lon:e.lon, venue:e.venue, p:Math.round(food + drinks),
     v:[...(CAT_VIBES[e.category]||[]), ...(PLACE_VIBES[e.venue_kind]||[])],
     w:e.venue + (e.address ? " · " + e.address : ""), d:e.description || (CAT_LABEL[e.category] || "Event") + " at " + e.venue + (e.via ? " (listed by " + e.via + ")" : ""),
-    at:e.all_day ? null : hhmm(e.start), live:true, cat:e.category, dropin: DROPIN_CATS.has(e.category) || DROPIN_TITLE.test(e.title), weekly:e.source === "weekly", url:e.url,
+    at:e.all_day ? null : hhmm(e.start), live:true, cat:e.category, fun:FUN_OF_CAT[e.category], est:known == null, dropin: DROPIN_CATS.has(e.category) || DROPIN_TITLE.test(e.title), weekly:e.source === "weekly", url:eventUrl(e), urlSearch:eventUrl(e).startsWith("https://www.google.com/search"),
     g:e.venue_kind === "veterans" || e.venue_kind === "lodge" ? 1 : 0};
 }
 function cost(s){
@@ -155,20 +199,20 @@ function cost(s){
 }
 function stopScore(s){
   let x = 0;
-  s.v.forEach(v => { if (state.vibes.includes(v)) x += 2; });
+  if (!s.live && !s.act) s.v.forEach(v => { if (state.food.includes(v)) x += 2; });
   if (state.drinks === "cocktails" && s.c) x += s.k === "bar" ? 5 : 2;
-  if (state.drinks === "cocktails" && s.k === "bar" && s.v.includes("dive") && !state.vibes.includes("dive")) x -= 2;
+  if (state.drinks === "cocktails" && s.k === "bar" && s.v.includes("dive") && !state.food.includes("dive")) x -= 2;
   if (state.drinks === "beer" && s.k === "bar"){ if (s.v.includes("dive")) x += 1; if (s.c) x -= 1; }
   const n = state.people;
   if (n >= 5){ if (s.t === 1) x -= 6; if (s.g) x += 2; } else if (n >= 3){ if (s.t === 1) x -= 2; if (s.g) x += 1; }
-  if (s.live) x += s.v.some(v => state.vibes.includes(v)) ? 4 : 1;
+  if (s.live || s.act) x += state.fun.length && state.fun.includes(s.fun) ? 4 : 2;
   if (!s.osm && !s.live) x += 1;   // hand-picked favorites get a small nudge
   if (s.osm && s.url) x += 0.5;    // a place with a website is easier to check
   return x;
 }
 const toMin = t => { if (!t) return null; let [h,m] = t.split(":").map(Number); if (h < 6) h += 24; return h*60 + m; };
 const DUR = {dinner:90, show:120, bar:75, late:30};
-const durOf = s => s.dropin ? 90 : (DUR[s.k] || 60);
+const durOf = s => s.dur || (s.dropin ? 90 : (DUR[s.k] || 60));
 const ORDER = {dinner:0, show:1, bar:2, late:3};
 const toMinX = t => { const [h,m] = t.split(":").map(Number); return h*60 + m; };  // no wrap: "26:30" = 2:30 am
 function weekday(key){ return (new Date(key + "T12:00:00Z").getUTCDay() + 6) % 7; }  // 0 = Monday
@@ -234,6 +278,7 @@ function candidates(anchor){
       .map(r => restaurantStop(r, "late"))].filter(s => !(dry && s.tav) && lateWindow(s, state.day));
   const byScore = arr => [...arr].sort((a,b) => stopScore(b) - stopScore(a));
   const pick = (arr, n) => {
+    if (state.areas.length){ const inside = arr.filter(inAreas); if (inside.length >= 3) arr = inside; }
     if (anchor && anchor.lat != null){
       for (const r of [0.8, 1.5, 3]){ const near = nearest(byScore(arr), anchor, 40, r); if (near.length >= Math.min(n, 4)) return byScore(near).slice(0, n); }
       return nearest(arr, anchor, n, 99);
@@ -243,19 +288,25 @@ function candidates(anchor){
   return {dinners: pick(dinnerAll, 8), bars: pick(barAll, 7), lates: pick(lateAll, 4)};
 }
 let PLAN_NOTE = "";
+const MAX_PLANS = 20;
 function plans(opts = {}){
   if (!opts.probe) PLAN_NOTE = "";
   const pinEv = pinned(), pin = pinEv ? eventStop(pinEv) : null;
   if (!pin && !state.dinner && !state.show && state.drinks === "none") return [];
   const dry = state.drinks === "none";
   const inWindow = e => { const m = toMin(hhmm(e.start)); return m >= state.from - 30 && m <= state.to - 60; };
-  const evening = eventsOn(state.day).filter(e => !e.all_day && inWindow(e) && !(dry && BARLIKE.has(e.venue_kind)) && !(pin && e.id === pin.id) && !FAMILY.test(e.title)).map(eventStop)
+  const evening = eventsOn(state.day).filter(e => !e.all_day && inWindow(e) && !(dry && BARLIKE.has(e.venue_kind)) && !(pin && e.id === pin.id)
+      && e.lat != null && !FAMILY.test(e.title) && inAreas(e) && !outOfTown(e) && funOk(FUN_OF_CAT[e.category])).map(eventStop)
     .sort((a,b) => stopScore(b) - stopScore(a));
+  // anytime activities (bowling, a movie...) when those are picked under Fun
+  const wantActs = state.show && state.fun.some(f => Object.values(FUN_OF_ACT).includes(f));
+  const acts = wantActs ? ACTS.map(activityStop).filter(s => state.fun.includes(s.fun) && inAreas(s) && !outOfTown(s) && !(dry && s.tav)
+      && openWindow(s, state.day) !== null && cost(s) <= state.budget).sort((a,b) => stopScore(b) - stopScore(a) || (miles(a, CAPITOL) - miles(b, CAPITOL))).slice(0, 8) : [];
   const role = pin ? pin.k : null;
   // each plan is built around one anchor: the pinned event, a show, or (no show) a dinner spot
   let anchors;
   if (pin) anchors = [pin];
-  else if (state.show && evening.some(s => s.k === "show")) anchors = evening.filter(s => s.k === "show").slice(0, 14);
+  else if (state.show && (evening.some(s => s.k === "show") || acts.length)) anchors = [...evening.filter(s => s.k === "show").slice(0, 16), ...acts];
   else anchors = [null];
   let out = [];
   for (const anchor of anchors){
@@ -284,14 +335,22 @@ function plans(opts = {}){
     const c = candidates(pin);
     out = build(Infinity, pin, c, pin.k === "dinner" ? [pin] : state.dinner ? c.dinners : [null], pin.k === "show" ? [pin] : [null], [[]], [null]);
   }
-  out.sort((a,b) => b.score - a.score);
+  // Variety: take the best plan for each event in turn, then the second best, and so on,
+  // so the list rotates through the night's events instead of repeating one.
+  const groups = new Map();
+  for (const p of out){ const k = p.anchor ? p.anchor.n : ""; if (!groups.has(k)) groups.set(k, []); groups.get(k).push(p); }
+  const order = [...groups.values()].map(g => g.sort((a,b) => b.score - a.score)).sort((a,b) => b[0].score - a[0].score);
   const seen = new Set(), used = {}, uniq = [];
-  for (const p of out){
-    const rest = p.stops.filter(s => s !== pin && !s.live);  // events may repeat; places should vary
-    const key = p.stops.map(s => s.n).join("|");
-    if (seen.has(key) || rest.some(s => (used[s.n] || 0) >= 2)) continue;
-    seen.add(key); rest.forEach(s => used[s.n] = (used[s.n] || 0) + 1);
-    uniq.push(p); if (uniq.length >= 12) break;
+  for (let round = 0; uniq.length < MAX_PLANS && order.some(g => g.length > round); round++){
+    for (const g of order){
+      const p = g[round]; if (!p) continue;
+      const rest = p.stops.filter(s => s !== pin && !s.live && !s.act);  // places should vary
+      const key = p.stops.map(s => s.n).join("|");
+      if (seen.has(key) || rest.some(s => (used[s.n] || 0) >= 2)) continue;
+      seen.add(key); rest.forEach(s => used[s.n] = (used[s.n] || 0) + 1);
+      uniq.push(p); if (uniq.length >= MAX_PLANS) break;
+    }
+    if (round > 40) break;
   }
   return uniq;
 
@@ -309,9 +368,9 @@ function plans(opts = {}){
       // walking between stops: free within half a mile, then it costs
       for (let i = 1; i < sc.items.length; i++){ const m = miles(sc.items[i-1].s, sc.items[i].s); if (m != null) score -= Math.max(0, m - 0.5) * 2.5; }
       const use = cst / Math.min(limit, state.budget);
-      score += state.vibes.includes("cheap") ? (1 - use)*4 : use*8;  // use the money unless they asked for cheap
+      score += state.food.includes("cheap") ? (1 - use)*4 : use*8;  // use the money unless they asked for cheap
       if (state.budget >= 90) stops.forEach(s => { if (s.c || s.v.includes("date")) score += 1.5; });  // a bigger budget leans nicer
-      if (d && l && norm(d.n).split(" ")[0] === norm(l.n).split(" ")[0]) score -= 6;
+      if (d && l && (norm(d.n).split(" ")[0] === norm(l.n).split(" ")[0] || (foodKind(d) && foodKind(d) === foodKind(l)))) continue;  // no pizza after pizza
       if (!d && !sh && bs.length < 2) score -= 3;
       if (state.drinks !== "none" && !bs.length) score -= 2;  // drinking, but no bar stop
       const di = sc.items.findIndex(x => x.s.k === "dinner"), si = sc.items.findIndex(x => x.s.at);
@@ -336,7 +395,8 @@ function alternatives(p, role){
   if (!cur) return [];
   const pool = role === "dinner" ? p.c.dinners : p.c.lates;
   const ref = p.anchor && p.anchor.lat != null ? p.anchor : cur;
-  const others = pool.filter(s => s !== cur && s.n !== cur.n).filter(s => {
+  const other = p.stops.find(s => s.k === (role === "dinner" ? "late" : "dinner") && !s.live);
+  const others = pool.filter(s => s !== cur && s.n !== cur.n).filter(s => !(other && foodKind(other) && foodKind(other) === foodKind(s))).filter(s => {
     const stops = p.stops.map(x => x === cur ? s : x);
     const cst = stops.reduce((t,x) => t + cost(x), 0);
     return cst <= Math.max(state.budget, p.cost) && schedule(stops, state.day).ok;
@@ -389,11 +449,11 @@ function renderPlan(){
   schedule(p.stops, state.day).items.forEach(({s, t}, idx) => {
     const li = document.createElement("li"); li.className = "stop"; li.style.animationDelay = (idx*60)+"ms";
     const meal = s.k === "dinner" ? (t < 11*60 ? "Brunch" : t < 15*60 ? "Lunch" : "Dinner") : KIND[s.k];
-    const label = s.live ? (s.id === state.pin ? "Your pick · " : "") + (CAT_LABEL[s.cat] || "Event") + (s.weekly ? " · Weekly" : "")
+    const label = s.act ? s.label + " · Anytime" : s.live ? (s.id === state.pin ? "Your pick · " : "") + (CAT_LABEL[s.cat] || "Event") + (s.weekly ? " · Weekly" : "")
       : meal + (s.c && state.drinks === "cocktails" ? " · Cocktails" : "");
-    const dist = !s.live && anchor && anchor !== s && anchor.lat != null ? miles(anchor, s) : null;
+    const dist = !s.live && !s.act && anchor && anchor !== s && anchor.lat != null ? miles(anchor, s) : null;
     const near = dist != null ? '<span class="dist">'+(dist < 0.1 ? "Next door to " : fmtMi(dist)+" from ")+esc(anchor.venue || anchor.n)+'</span>' : "";
-    const site = s.url ? ' · <a href="'+esc(s.url)+'" target="_blank" rel="noopener">'+(s.live ? "Event page" : "Website")+' ↗</a>' : "";
+    const site = s.url ? ' · <a href="'+esc(s.url)+'" target="_blank" rel="noopener">'+(s.live ? (s.urlSearch ? "Find tickets & info" : "Event page") : "Website")+' ↗</a>' : "";
     const alts = SWAP_ROLES.includes(s.k) && !s.live ? alternatives({...base, stops: p.stops}, s.k) : [];
     const removable = !s.live && (s.k === "bar" || s.k === "late");  // dinner and the event stay
     const rm = removable ? '<button type="button" class="link sm rm" data-n="'+esc(s.n)+'">Remove this stop</button>' : "";
@@ -401,7 +461,7 @@ function renderPlan(){
     li.innerHTML = '<div class="time">'+fmt12(Math.floor(t/60)%24, t%60)+'</div><div class="rail"><span class="dot'+(s.live?" live":"")+'"></span></div>'+
       '<div class="stop-body"><div class="kind">'+esc(label)+'</div><div class="name">'+(s.live && s.url ? '<a href="'+esc(s.url)+'" target="_blank" rel="noopener">'+esc(s.n)+'</a>' : esc(s.n))+'</div>'+
       '<p class="why">'+esc(s.d)+'</p><div class="where">'+esc(s.w)+site+near+'</div>'+swap+rm+'</div>'+
-      '<div class="cost">~$'+cost(s)+'</div>';
+      '<div class="cost">~$'+cost(s)+(s.est ? '<small>est.</small>' : '')+'</div>';
     route.appendChild(li);
   });
   if (PLAN_NOTE === "noshow"){
@@ -459,7 +519,7 @@ function renderDays(){
   if (!state.day || state.day < t) state.day = t;
   let h = "";
   for (let i = 0; i < 14; i++){
-    const k = addDays(t, i), p = dayParts(k), n = eventsOn(k).length;
+    const k = addDays(t, i), p = dayParts(k), n = eventsOn(k).filter(inAreas).length;
     h += '<button type="button" class="day" id="day-'+k+'" data-k="'+k+'" aria-pressed="'+(k===state.day)+'" aria-label="'+esc(dayName(k))+', '+n+' events"><span class="w">'+(i===0?"Today":p.w)+'</span><span class="n">'+p.n+'</span><span class="c">'+(META ? n+" on" : "")+'</span></button>';
   }
   $("days").innerHTML = h;
@@ -479,19 +539,19 @@ function renderFilters(){
 }
 $("catChips").addEventListener("click", e => { const b = e.target.closest(".chip"); if (!b) return; state.cat = b.dataset.v; save(); renderFilters(); renderEvents(); });
 $("placeChips").addEventListener("click", e => { const b = e.target.closest(".chip"); if (!b) return; state.place = b.dataset.v; save(); renderFilters(); renderEvents(); });
-$("allDays").onclick = () => { state.allDays = !state.allDays; renderEvents(); };
 
 function evRow(e){
   const tags = [CAT_LABEL[e.category] || "Event", PLACE_LABEL[e.venue_kind] ? PLACE_LABEL[e.venue_kind].replace(/s$/,"") : ""].filter(Boolean)
     .map(t => '<span class="tag">'+esc(t)+'</span>').join("") +
     (e.source === "weekly" ? '<span class="tag weekly">Weekly</span>' : "") +
-    (e.via ? '<a class="tag" href="'+esc(e.url)+'" target="_blank" rel="noopener">via '+esc(e.via)+' ↗</a>'
-           : e.url ? '<a class="tag" href="'+esc(e.url)+'" target="_blank" rel="noopener">Details</a>' : "") +
+    '<a class="tag" href="'+esc(eventUrl(e))+'" target="_blank" rel="noopener">'+(eventUrl(e).startsWith("https://www.google.com/search") ? "Find tickets & info" : "Details")+' ↗</a>' +
+    (e.via ? '<span class="tag">Listed by '+esc(e.via)+'</span>' : "") +
+    (outOfTown(e) ? '<span class="tag">Out of town'+(e.city ? ": "+esc(e.city) : "")+'</span>' : "") +
     (e.confirm ? '<a class="tag" href="'+esc(e.confirm)+'" target="_blank" rel="noopener">Confirm</a>' : "");
   const pr = evPrice(e);
-  const price = pr == null ? "" : +pr ? "$" + (+pr).toFixed(+pr % 1 ? 2 : 0) : "Free";
+  const price = pr == null ? '<span class="est">~$'+(EST[e.category] ?? 10)+' est.</span>' : +pr ? "$" + (+pr).toFixed(+pr % 1 ? 2 : 0) : "Free";
   const on = e.id === state.pin;
-  const btn = e.all_day ? "" : on
+  const btn = (e.all_day || hhmm(e.start) < "10:00") ? "" : on  // the planner's day starts at 10 am
     ? '<button type="button" class="incl on" data-id="'+esc(e.id)+'" aria-pressed="true">✓ In your night</button>'
     : '<button type="button" class="incl" data-id="'+esc(e.id)+'" aria-pressed="false">Include in my night</button>';
   return '<div class="ev'+(on ? " picked" : "")+'"><div class="tm">'+(e.all_day ? "All day" : fmtTime(e.start))+'</div><div><div class="t">'+esc(e.title)+'</div><div class="m">'+esc(e.venue)+(e.address ? " · "+esc(e.address) : "")+'</div><div class="tags">'+tags+'</div>'+btn+'</div><div class="c">'+price+'</div></div>';
@@ -499,17 +559,15 @@ function evRow(e){
 function renderEvents(){
   const el = $("events");
   if (!META){ return; }
-  let list = state.allDays ? EVENTS : eventsOn(state.day);
+  let list = eventsOn(state.day).filter(inAreas);
   if (state.cat !== "all") list = list.filter(e => e.category === state.cat);
   if (state.place !== "all") list = list.filter(e => e.venue_kind === state.place);
-  $("evTitle").textContent = state.allDays ? "Next two weeks" : "What's on " + (["Tonight","Tomorrow"].includes(dayName(state.day)) ? dayName(state.day).toLowerCase() : dayName(state.day));
+  $("evTitle").textContent = "What's on " + (["Tonight","Tomorrow"].includes(dayName(state.day)) ? dayName(state.day).toLowerCase() : dayName(state.day));
   $("evCount").textContent = list.length + (list.length === 1 ? " event" : " events");
-  $("allDays").textContent = state.allDays ? "Show one day" : "Show all 14 days";
-  if (!list.length){ el.innerHTML = '<p class="empty">Nothing listed'+(state.cat!=="all"||state.place!=="all" ? " with these filters" : "")+' yet. Small spots often post late, so check back.</p>'; return; }
+  if (!list.length){ el.innerHTML = '<p class="empty">Nothing listed'+(state.cat!=="all"||state.place!=="all"||state.areas.length ? " with these filters" : "")+' yet. Small spots often post late, so check back.</p>'; return; }
   let h = "", last = "";
   for (const e of list){
     const k = evDay(e);
-    if (state.allDays && k !== last){ h += '<div class="dayhead">'+esc(dayName(k))+'</div>'; last = k; }
     h += evRow(e);
   }
   el.innerHTML = h;
@@ -537,7 +595,8 @@ function ago(iso){ const m = Math.round((Date.now() - new Date(iso)) / 60000); r
 renderForm(); renderDays(); renderPlan();
 const getJSON = url => fetch(url, {cache:"no-cache"}).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); });
 // places load alongside the events; the plan works (with fewer options) if they're missing
-Promise.all([getJSON("data/restaurants.json").catch(() => null), getJSON("data/venues.json").catch(() => null)]).then(([rest, ven]) => {
+Promise.all([getJSON("data/restaurants.json").catch(() => null), getJSON("data/venues.json").catch(() => null), getJSON("data/activities.json").catch(() => null)]).then(([rest, ven, act]) => {
+  ACTS = (act && act.activities || []).filter(a => a.lat != null);
   RESTAURANTS = (rest && rest.restaurants || []).filter(r => r.lat != null);
   BARS = (ven && ven.venues || []).filter(v => (v.kind === "bar" || v.kind === "brewery") && v.lat != null);
   enrichSpots(); renderPlan();

@@ -19,7 +19,7 @@ from .common import DATA, TZ, load_json, now, save_json
 
 API = "https://api.anthropic.com/v1/messages"
 MODEL = os.environ.get("AI_MODEL", "claude-haiku-5-5")
-MAX_CALLS = int(os.environ.get("AI_MAX_CALLS", "60"))
+MAX_CALLS = int(os.environ.get("AI_MAX_CALLS", "200"))
 MAX_CHARS = 9000
 # Sites that have opted out of AI tools (robots.txt blocks AI crawlers): never sent to Claude.
 NO_AI = re.compile(r"https?://(?:[^/]*\.)?(?:isthmus\.com)(?:/|$)", re.I)
@@ -74,7 +74,9 @@ class Reader:
         prompt = (f"Venue: {venue}\nPage: {url}\nToday is {now():%A, %B %d, %Y} (Central time). "
                   f"Window: {start.date()} to {end.date()}.\n\n"
                   'Reply with {"events": [{"title": str, "date": "YYYY-MM-DD", "start": "HH:MM" or null, '
-                  '"end": "HH:MM" or null, "price": number or null, "description": short str}]}. '
+                  '"end": "HH:MM" or null, "price": number or null, "description": short str, '
+                  '"category": one of music, comedy, theater, film, trivia, karaoke, bingo, open_mic, dance, sports, food, other}]}. '
+                  'Use "music" for any band, DJ or performer billing. '
                   'Use 24-hour times. Return {"events": []} if there are none.\n\nPAGE TEXT:\n' + text)
         r = self.s.post(API, timeout=60, headers={
             "x-api-key": self.key, "anthropic-version": "2023-06-01", "content-type": "application/json"},
@@ -115,6 +117,7 @@ class Reader:
                 continue
             price = it.get("price")
             out.append({"title": str(it.get("title", "")).strip()[:140], "start": s, "end": e, "allday": allday,
+                        "category_hint": str(it.get("category") or ""),
                         "description": str(it.get("description") or "")[:300],
                         "price": float(price) if isinstance(price, (int, float)) else None})
         return [x for x in out if x["title"]]

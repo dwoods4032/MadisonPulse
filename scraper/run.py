@@ -30,8 +30,29 @@ CATEGORIES = [
     ("open_mic", r"open mic|open jam|jam session|poetry|slam"),
     ("food", r"fish fry|happy hour|special|steak|burger|taco|wing|brunch|supper|dinner|tasting|pairing|potluck|pancake|breakfast|fry"),
     ("dance", r"dance|drag|line danc|salsa|swing|disco"),
-    ("sports", r"packers|badgers|brewers|bucks|watch party|game day|ufc|football|hockey"),
+    ("sports", r"packers|badgers|brewers|bucks|watch party|game day|ufc|football|hockey|basketball|volleyball|soccer|\bvs\.?\b|\bat\b.*\bgame\b"),
+    ("film", r"^film:|\bfilm\b|movie|screening|cinema"),
+    ("theater", r"theat(?:re|er)|\bplay\b|musical|opera|ballet|symphony|chorale|choir|recital|premiere|matinee|cabaret|burlesque"),
 ]
+# Words that mark a band or artist billing ("X w/ Y", "presents", "album release").
+BAND_BILLING = re.compile(r"\bw/|\bwith special guest|\bft\.?\s|\bfeat\.?\s|\bpresents\b|album release|\b(?:EP|LP) release|\btour\b|\b& the\b|\band the\b", re.I)
+THEATER_VENUE = re.compile(r"theat(?:re|er)|playhouse|opera|overture|players|stage", re.I)
+MUSIC_VENUE = re.compile(r"music hall|saloon|sylvee|majestic|high noon|cafe coda|gamma ray|crystal corner|harmony|north street cabaret|barrymore|bur oak|wisco|rigby|bayou|liquid|the cardinal", re.I)
+
+
+def categorize_event(title: str, description: str, venue: str, venue_kind: str, hint: str = "") -> str:
+    """Category using the title first, then hints from the source and the kind of venue."""
+    hint = (hint or "").lower()
+    if hint in {"music", "trivia", "karaoke", "bingo", "comedy", "open_mic", "food", "dance", "sports", "film", "theater"}:
+        return hint
+    c = categorize(title, description)
+    if c != "other":
+        return c
+    if BAND_BILLING.search(title) or (MUSIC_VENUE.search(venue) and not THEATER_VENUE.search(venue)):
+        return "music"
+    if THEATER_VENUE.search(venue):
+        return "theater"
+    return c
 
 
 def categorize(title: str, description: str = "") -> str:
@@ -248,7 +269,7 @@ def scrape_venue(f: Fetcher, venue: dict, cache: dict, start, end, rediscover: b
     return [normalize(e, venue, source) for e in raw], info, status
 
 
-def calendar_events(f: Fetcher, src: dict, venues: list[dict], start, end) -> tuple[list[dict], dict]:
+def calendar_events(f: Fetcher, src: dict, venues: list[dict], start, end, geo=None) -> tuple[list[dict], dict]:
     """A city-wide iCal feed (e.g. Isthmus). Read at most once a day; keep facts only
     (title, time, venue) and link every listing back to the source."""
     state_path = DATA / "calendar_cache.json"
@@ -292,21 +313,36 @@ def calendar_events(f: Fetcher, src: dict, venues: list[dict], start, end) -> tu
         if raw:  # only a successful read counts as today's read; failures retry next run
             cache[name] = {"on": today, "events": [{"title": e["title"], "start": e["start"].isoformat(),
                            "end": e["end"].isoformat() if e.get("end") else None, "allday": e.get("allday", False),
-                           "location": e.get("location", "")} for e in raw]}
+                           "location": e.get("location", ""), "desc": (e.get("description") or "")[:200]} for e in raw]}
             save_json(state_path, cache)
     by_key = {}
     for v in venues:
         by_key.setdefault(vkey(v["name"]), v)
     out = []
     for e in raw:
-        loc = (e.get("location") or "").split(",")[0].strip()
-        v = by_key.get(vkey(loc)) or {"id": "cal:" + slug_(loc or name), "name": loc or name, "kind": "venue",
-                                     "address": "", "website": "", "lat": None, "lon": None}
+        full = (e.get("location") or "").strip()
+        loc = full.split(",")[0].strip()
+        v = by_key.get(vkey(loc))
+        if not v:
+            v = {"id": "cal:" + slug_(loc or "unknown"), "name": loc or "Location not listed", "kind": "venue",
+                 "address": "", "website": "", "lat": None, "lon": None}
+            hit = geo.find(full or loc) if (geo and (full or loc)) else None
+            if hit:
+                v.update(lat=hit["lat"], lon=hit["lon"], address=hit["address"])
+                if hit.get("city") and hit["city"].lower() != "madison":
+                    v["city"] = hit["city"]
         if e.get("end") and e["end"] <= e["start"]:
             e = {**e, "end": None}
+        # The listing's short note ("Classical. Free/donations.") is used only to label and
+        # price the event; it is not shown. Links go to the venue, never back to the calendar.
+        desc = e.get("desc") or e.get("description") or ""
+        hint = categorize(desc) if desc else ""
         ev = normalize({"title": e["title"], "start": e["start"], "end": e.get("end"), "allday": e.get("allday"),
-                        "description": "", "url": src.get("link", src["url"]), "price": None}, v, "extra")
+                        "description": "", "url": v.get("website", ""), "price": price_from_text(desc) if desc else None,
+                        "category_hint": "" if hint == "other" else hint}, v, "extra")
         ev["via"] = src.get("attribution", name)
+        if v.get("city"):
+            ev["city"] = v["city"]
         out.append(ev)
     status["raw_events"] = len(out)
     return out, status
@@ -356,7 +392,7 @@ def normalize(e: dict, venue: dict, source: str) -> dict:
         "start": s.isoformat(timespec="minutes"),
         "end": e["end"].isoformat(timespec="minutes") if e.get("end") else None,
         "all_day": bool(e.get("allday")),
-        "category": categorize(title, e.get("description", "")),
+        "category": categorize_event(title, e.get("description", ""), venue["name"], venue.get("kind", ""), e.get("category_hint", "")),
         "price": e.get("price") if e.get("price") is not None else price_from_text(e.get("description") or ""),
         "description": re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", e.get("description") or ""))).strip()[:300],
         "url": e.get("url") or venue.get("website", ""),
@@ -413,6 +449,15 @@ def dedupe(events: list[dict]) -> list[dict]:
         k1 = (v, e["start"][:13], norm_title(e["title"])[:12])
         k2 = (v, e["start"][:10], e["category"])
         lab = source_label(e)
+        if k1 not in best:
+            nt = norm_title(e["title"])
+            for k, x in best.items():
+                if k[0] == v and k[1] == k1[1]:
+                    xt = norm_title(x["title"])
+                    m = min(len(nt), len(xt), 10)
+                    if m >= 5 and nt[:m] == xt[:m]:
+                        k1 = k  # same show under a longer or shorter name
+                        break
         if k1 in best:
             if lab not in best[k1]["sources"]:
                 best[k1]["sources"].append(lab)
@@ -468,6 +513,8 @@ def main(argv=None):
         targets = targets[: a.limit]
 
     f = Fetcher()
+    from .geocode import Geocoder
+    geo = Geocoder()
     from .ai_read import Reader
     reader = Reader()
     events, report = [], []
@@ -489,7 +536,7 @@ def main(argv=None):
     by_name = {v["name"].lower(): v for v in venues}
     for src in load_json(DATA / "sources.json", []):
         if src.get("type") == "calendar":  # a city-wide calendar: many venues, facts only
-            evs, st = calendar_events(f, src, venues, start, end)
+            evs, st = calendar_events(f, src, venues, start, end, geo)
             events += evs
             report.append(st)
             continue
@@ -538,6 +585,7 @@ def main(argv=None):
         "events": len(events), "filtered_out": dropped, "venues": report})
     save_json(DATA / "weekly_suggestions.json", suggestions)
     save_json(DATA / "sources_report.json", source_report(events))
+    geo.save()
     print(f"{len(events)} events from {sum(1 for r in report if r['raw_events'])} of {len(report)} venues; "
           f"{len(suggestions)} weekly suggestions to review.")
 

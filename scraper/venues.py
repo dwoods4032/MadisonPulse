@@ -88,6 +88,78 @@ def restaurant_of(el: dict) -> dict | None:
     }
 
 
+ACTIVITY_QUERY = f"""
+[out:json][timeout:120];
+(
+  nwr["leisure"~"^(bowling_alley|amusement_arcade|miniature_golf|escape_game|trampoline_park)$"]["name"]({BBOX});
+  nwr["amenity"~"^(cinema|karaoke_box)$"]["name"]({BBOX});
+  nwr["sport"~"billiards|axe_throwing|darts"]["name"]["access"!="private"]({BBOX});
+);
+out center tags;
+"""
+# type, label, rough per-person cost, typical length in minutes
+ACTIVITY_TYPES = [
+    ("bowling", "Bowling", 20, 90), ("cinema", "Movie", 14, 150), ("arcade", "Arcade", 15, 75),
+    ("billiards", "Pool & billiards", 14, 90), ("minigolf", "Mini golf", 12, 60), ("escape", "Escape room", 35, 75),
+    ("axe", "Axe throwing", 30, 75), ("trampoline", "Trampoline park", 20, 75), ("karaoke", "Karaoke room", 15, 90),
+    ("darts", "Darts", 10, 75),
+]
+
+
+def activity_type(t: dict) -> str | None:
+    lei, am, sport = t.get("leisure", ""), t.get("amenity", ""), t.get("sport", "")
+    if lei == "bowling_alley" or "bowling" in sport:
+        return "bowling"
+    if am == "cinema":
+        return "cinema"
+    if lei == "amusement_arcade":
+        return "arcade"
+    if lei == "miniature_golf":
+        return "minigolf"
+    if lei == "escape_game":
+        return "escape"
+    if lei == "trampoline_park":
+        return "trampoline"
+    if am == "karaoke_box":
+        return "karaoke"
+    if "axe_throwing" in sport:
+        return "axe"
+    if "billiards" in sport:
+        return "billiards"
+    if "darts" in sport:
+        return "darts"
+    return None
+
+
+def build_activities() -> dict:
+    from .hours import parse as parse_hours
+    info = {k: (label, price, mins) for k, label, price, mins in ACTIVITY_TYPES}
+    out, seen = [], set()
+    for el in fetch_osm(ACTIVITY_QUERY):
+        t = el.get("tags", {})
+        kind = activity_type(t)
+        lat = el.get("lat") or el.get("center", {}).get("lat")
+        lon = el.get("lon") or el.get("center", {}).get("lon")
+        if not kind or lat is None or not t.get("name"):
+            continue
+        key = (t["name"].lower(), kind)
+        if key in seen:
+            continue
+        seen.add(key)
+        label, price, mins = info[kind]
+        out.append({"id": f"osm:{el['type']}/{el['id']}", "name": t["name"], "type": kind, "label": label,
+                    "price": price, "minutes": mins, "lat": round(lat, 6), "lon": round(lon, 6),
+                    "address": " ".join(x for x in (t.get("addr:housenumber"), t.get("addr:street")) if x),
+                    "website": clean_url(t.get("website") or t.get("contact:website") or t.get("url")),
+                    "hours": parse_hours(t.get("opening_hours")),
+                    "bar": t.get("amenity") in ("bar", "pub")})
+    out.sort(key=lambda a: (a["type"], a["name"].lower()))
+    by = {}
+    for a in out:
+        by[a["type"]] = by.get(a["type"], 0) + 1
+    return {"generated_at": now().isoformat(timespec="seconds"), "count": len(out), "by_type": by, "activities": out}
+
+
 def build_restaurants() -> dict:
     out, seen = [], set()
     for el in fetch_osm(RESTAURANT_QUERY):
@@ -236,7 +308,7 @@ def main(argv=None):
         cur = load_json(path, {})
         ts = cur.get("generated_at")
         fresh = ts and now() - datetime.fromisoformat(ts) < timedelta(days=a.if_stale)
-        if fresh and rpath.exists():
+        if fresh and rpath.exists() and (DATA / "activities.json").exists():
             print(f"Venue list is fresh ({ts}); skipping.")
             return
     data = build()
@@ -245,6 +317,9 @@ def main(argv=None):
     rdata = build_restaurants()
     save_json(rpath, rdata)
     print(f"Saved {rdata['count']} restaurants ({rdata['with_hours']} with hours, {rdata['with_website']} with websites)")
+    adata = build_activities()
+    save_json(DATA / "activities.json", adata)
+    print(f"Saved {adata['count']} activities: {adata['by_type']}")
 
 
 if __name__ == "__main__":

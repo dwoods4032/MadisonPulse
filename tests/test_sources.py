@@ -121,7 +121,9 @@ class CalendarFeedTests(unittest.TestCase):
             self.assertEqual(sorted(e["title"] for e in evs), ["Poetry night", "Trio 5"])
             trio = next(e for e in evs if e["title"] == "Trio 5")
             self.assertEqual((trio["venue"], trio["lat"], trio["description"], trio["via"], trio["url"]),
-                             ("High Noon Saloon", 43.08, "", "Isthmus", "https://x/calendar/"))
+                             ("High Noon Saloon", 43.08, "", "Isthmus", "https://high-noon.com"))
+            self.assertEqual(trio["price"], 0.0)                 # "Free." used internally, not shown
+            self.assertNotIn("isthmus", (trio["url"] + str(trio)).lower().replace("'via': 'isthmus'", ""))
             self.assertEqual(trio["start"][11:16], "20:00")      # 01:00 UTC = 8 pm Central
             evs2, st2 = run.calendar_events(F(), src, venues, START, END)
             self.assertEqual(len(calls), 2)                      # second run the same day: no new requests

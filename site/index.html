@@ -114,6 +114,8 @@ input[type=range]{width:100%;accent-color:var(--lamp);height:28px;margin:0}
 .incl:hover{background:var(--ink);color:var(--bg)}
 .incl.on{background:var(--lamp-soft);border-color:transparent}
 .ev.picked{background:var(--lamp-soft);margin:0 -12px;padding-left:12px;padding-right:12px;border-radius:12px}
+.cost small{display:block;font-size:11px;color:var(--muted);text-align:right}
+.ev .c .est{color:var(--muted);font-size:13px}
 .go-row{display:flex;justify-content:flex-end;align-items:center;gap:16px;flex-wrap:wrap;margin:4px 0 14px}
 .go-row .btn.go{margin:0;text-decoration:none;display:inline-flex;align-items:center;gap:8px}
 .go-row .btn.go::after{content:"↗";font-weight:400}
@@ -191,7 +193,6 @@ footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);paddin
       <div class="chips" id="placeChips" role="group" aria-label="Type of place"></div>
     </div>
     <div id="events" class="evlist"><p class="empty">Loading events…</p></div>
-    <button class="btn ghost small more" id="allDays" type="button">Show all 14 days</button>
   </section>
 
   <footer>

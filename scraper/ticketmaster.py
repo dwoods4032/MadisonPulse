@@ -44,6 +44,22 @@ def fetch(start: datetime, end: datetime, key: str | None = None, session=None) 
     return out
 
 
+def tm_category(cls: dict) -> str:
+    seg = (cls.get("segment") or {}).get("name", "")
+    genre = (cls.get("genre") or {}).get("name", "")
+    if genre == "Comedy":
+        return "comedy"
+    if seg == "Music":
+        return "music"
+    if seg == "Sports":
+        return "sports"
+    if seg == "Film":
+        return "film"
+    if seg == "Arts & Theatre":
+        return "theater"
+    return ""
+
+
 def parse(data: dict) -> list[dict]:
     out = []
     for ev in data.get("_embedded", {}).get("events", []):
@@ -71,5 +87,6 @@ def parse(data: dict) -> list[dict]:
             "venue_lon": float(loc["longitude"]) if loc.get("longitude") else None,
             "venue_tm_id": v.get("id", ""),
             "segment": cls.get("segment", {}).get("name", ""),
+            "category_hint": tm_category(cls),
         })
     return out
