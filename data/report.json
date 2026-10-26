@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-26T13:25:12-05:00",
- "venues_checked": 234,
+ "generated_at": "2026-10-26T13:58:54-05:00",
+ "venues_checked": 236,
  "venues_with_events": 23,
  "venues_with_feeds": 46,
  "events": 83,
@@ -277,6 +277,15 @@
    ],
    "raw_events": 1,
    "error": ""
+  },
+  {
+   "name": "AI page reading",
+   "kind": "source",
+   "website": "",
+   "feeds": [],
+   "raw_events": 0,
+   "error": "off (no ANTHROPIC_API_KEY)",
+   "calls": 0
   },
   {
    "name": "Aftershock Classic Arcade",
@@ -1815,6 +1824,14 @@
    "feeds": [],
    "raw_events": 0,
    "error": ""
+  },
+  {
+   "name": "Ticketmaster",
+   "kind": "source",
+   "website": "",
+   "feeds": [],
+   "raw_events": 0,
+   "error": "off (no TICKETMASTER_KEY)"
   },
   {
    "name": "Tiny's Tap House",
