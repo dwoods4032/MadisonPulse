@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-26T13:58:54-05:00",
+ "generated_at": "2026-10-26T14:35:15-05:00",
  "window": {
-  "from": "2026-10-26T07:58-05:00",
-  "to": "2026-11-09T13:58-06:00"
+  "from": "2026-10-26T08:34-05:00",
+  "to": "2026-11-09T14:34-06:00"
  },
  "count": 83,
  "events": [
@@ -175,7 +175,7 @@
    "end": "2026-10-27T21:00-05:00",
    "all_day": false,
    "category": "other",
-   "price": 30.0,
+   "price": 35.0,
    "description": "Doors 7PM Show 8PM All Ages General Admission Standing Room Only: $30ADV / $35DOS Seated Balcony: $50ADV / $55DOS",
    "url": "https://www.theatwoodmusichall.com/shows/2026-10-27",
    "venue": "Atwood Music Hall",
@@ -481,7 +481,7 @@
    "end": "2026-10-30T20:00-05:00",
    "all_day": false,
    "category": "music",
-   "price": 25.0,
+   "price": 30.0,
    "description": "Doors 7PM show 8PM Seated Show Front Row Seating: $45ADV / $50DOS General Admission Seating: $25ADV / $30DOS VIP Ticket (meet & greet, book, signing): $80",
    "url": "https://www.theatwoodmusichall.com/shows/2026-10-30",
    "venue": "Atwood Music Hall",
@@ -985,7 +985,7 @@
    "end": "2026-11-04T20:00-06:00",
    "all_day": false,
    "category": "music",
-   "price": 20.0,
+   "price": 25.0,
    "description": "Doors 7PM Show 8PM Seated Show Front Row Seating: $35ADV / $40DOS General Admission Seating: $20ADV / $25DOS",
    "url": "https://www.theatwoodmusichall.com/shows/2026-11-4",
    "venue": "Atwood Music Hall",
@@ -1363,7 +1363,7 @@
    "end": "2026-11-07T20:00-06:00",
    "all_day": false,
    "category": "other",
-   "price": 30.0,
+   "price": 35.0,
    "description": "Doors 7PM Show 8PM General Admission Standing Room: $30ADV / $35DOS Reserved Balcony Seating: $45ADV / $50DOS",
    "url": "https://www.theatwoodmusichall.com/shows/2026-11-7",
    "venue": "Atwood Music Hall",
