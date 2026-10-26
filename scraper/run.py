@@ -72,12 +72,18 @@ def keep(e: dict) -> bool:
 
 
 def price_from_text(text: str):
-    """Lowest dollar amount in a description ("$25 adv / $30 door" -> 25), 0 for free, else None."""
+    """Ticket price from a description: the door price when listed ("$25 adv / $30 door" -> 30),
+    otherwise the lowest amount; 0 for free; None if no price."""
     t = text[:600]
     if re.search(r"\bfree (?:entry|admission|show|event)\b|\bno cover\b|\bfree to (?:attend|enter)\b", t, re.I):
         return 0.0
     if re.search(r"\bfree\b(?! parking| refill)", t, re.I) and "$" not in t:
         return 0.0
+    # someone planning the night pays at the door: prefer "day of show" / door prices when listed
+    door = [float(v) for v in re.findall(r"\$\s?(\d{1,3}(?:\.\d{2})?)\s*(?:DOS\b|day of(?: the)? show|at the door|door)", t, re.I)]
+    door = [v for v in door if 0 < v <= 250]
+    if door:
+        return min(door)
     vals = [float(v) for v in re.findall(r"\$\s?(\d{1,3}(?:\.\d{2})?)", t)]
     vals = [v for v in vals if 0 < v <= 250]
     return min(vals) if vals else None

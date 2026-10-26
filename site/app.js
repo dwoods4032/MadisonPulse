@@ -13,8 +13,8 @@ const BARLIKE = new Set(["bar","brewery"]);  // skipped entirely when nobody is 
 const esc = x => String(x ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const $ = id => document.getElementById(id);
 
-const state = {budget:60, people:2, vibes:["dive","music"], drinks:"cocktails", dinner:true, show:true, from:18*60, to:23*60, rank:0, swap:{}, day:null, cat:"all", place:"all", allDays:false};
-try { const s = JSON.parse(localStorage.getItem("mp-answers") || "null"); if (s) Object.assign(state, s, {rank:0, swap:{}, day:null, allDays:false}); } catch (e) {}
+const state = {budget:60, people:2, vibes:["dive","music"], drinks:"cocktails", dinner:true, show:true, from:18*60, to:23*60, rank:0, swap:{}, removed:[], day:null, cat:"all", place:"all", allDays:false};
+try { const s = JSON.parse(localStorage.getItem("mp-answers") || "null"); if (s) Object.assign(state, s, {rank:0, swap:{}, removed:[], day:null, allDays:false}); } catch (e) {}
 function save(){ try { const {budget,people,vibes,drinks,dinner,show,from,to,cat,place} = state; localStorage.setItem("mp-answers", JSON.stringify({budget,people,vibes,drinks,dinner,show,from,to,cat,place})); } catch (e) {} }
 
 // ---------- dates in Madison time ----------
@@ -65,7 +65,7 @@ function renderForm(){
       (bad ? '<p class="warn">Pick dinner or a show so there\'s a night to plan.</p>' : '')+'</div>'+
     '<button type="button" class="btn go" id="go">Plan my night</button>';
 }
-function changed(){ state.rank = 0; state.swap = {}; save(); renderPlan(); }
+function changed(){ state.rank = 0; state.swap = {}; state.removed = []; save(); renderPlan(); }
 
 $("form").addEventListener("change", e => {
   if (e.target.id !== "fromSel" && e.target.id !== "toSel") return;
@@ -129,10 +129,16 @@ function barStop(v){
 // Drop-in events (karaoke, trivia, watch parties...) don't need you there at the first minute.
 const DROPIN_CATS = new Set(["karaoke","trivia","bingo","open_mic","sports","dance"]);
 const DROPIN_TITLE = /\bdj\b|open (?:mic|jam)|happy hour|watch party|karaoke|trivia|bingo|game night/i;
+// What you'd pay walking in: the door / day-of-show price when the listing gives one.
+function evPrice(e){
+  const d = [...String(e.description || "").matchAll(/\$\s?(\d{1,3}(?:\.\d{2})?)\s*(?:DOS\b|day of(?: the)? show|at the door|door)/gi)].map(m => +m[1]).filter(v => v > 0);
+  return d.length ? Math.min(...d) : e.price;
+}
 function eventStop(e){
-  const role = e.category === "food" ? "dinner" : (!state.show && DRINKY.has(e.venue_kind)) ? "bar" : "show";
+  // Events are never the meal: when dinner is on, every plan gets a real dinner stop.
+  const role = (!state.show && DRINKY.has(e.venue_kind) && e.category !== "food") ? "bar" : (!state.dinner && e.category === "food") ? "dinner" : "show";
   const drinks = DRINKY.has(e.venue_kind) ? (state.drinks === "cocktails" ? 14 : state.drinks === "beer" ? 10 : 0) : 0;
-  const food = role === "dinner" ? (e.price ?? 15) : (e.price ?? 0);
+  const food = role === "dinner" ? (evPrice(e) ?? 15) : (evPrice(e) ?? 0);
   return {id:e.id, n:e.title, k:role, lat:e.lat, lon:e.lon, venue:e.venue, p:Math.round(food + drinks),
     v:[...(CAT_VIBES[e.category]||[]), ...(PLACE_VIBES[e.venue_kind]||[])],
     w:e.venue + (e.address ? " · " + e.address : ""), d:e.description || (CAT_LABEL[e.category] || "Event") + " at " + e.venue + (e.via ? " (listed by " + e.via + ")" : ""),
@@ -292,6 +298,7 @@ function plans(opts = {}){
   function build(limit, anchor, c, dinners, shows, barSets, lates){
     const out = [];
     for (const d of dinners) for (const sh of shows) for (const bs of barSets) for (const l of lates){
+      if (state.dinner && !d) continue;  // dinner was asked for: every plan has one
       const stops = [d, sh, ...bs, l].filter(Boolean);
       if (!stops.length) continue;
       const cst = stops.reduce((t,s) => t + cost(s), 0);
@@ -367,14 +374,15 @@ function renderPlan(){
   PLAN_COUNT = Math.max(1, list.length);
   route.innerHTML = "";
   if (!list.length){
-    CURRENT = null;
+    CURRENT = null; $("goBtn").hidden = true; $("restore").hidden = true;
     $("totalPP").textContent = ""; $("totalGrp").textContent = "";
     $("planTitle").textContent = dayName(state.day); $("pager").hidden = true;
     const why = (!state.dinner && !state.show && state.drinks === "none") ? "Pick dinner or a show so there's something to plan." : "Nothing fits $"+state.budget+" a person between "+fmt12(Math.floor(state.from/60)%24, state.from%60)+" and "+fmt12(Math.floor(state.to/60)%24, state.to%60)+". Try a longer evening, a bigger budget, or fewer stops.";
     route.innerHTML = '<li class="empty">'+why+'</li>'; return;
   }
   const base = list[state.rank % list.length];
-  const stops = applySwaps(base);
+  const all = applySwaps(base);
+  const stops = all.filter(s => !state.removed.includes(s.n));
   const p = {...base, stops, cost: stops.reduce((t,s) => t + cost(s), 0)};
   CURRENT = base;
   const pinS = pinned(), anchor = base.anchor;
@@ -387,10 +395,12 @@ function renderPlan(){
     const near = dist != null ? '<span class="dist">'+(dist < 0.1 ? "Next door to " : fmtMi(dist)+" from ")+esc(anchor.venue || anchor.n)+'</span>' : "";
     const site = s.url ? ' · <a href="'+esc(s.url)+'" target="_blank" rel="noopener">'+(s.live ? "Event page" : "Website")+' ↗</a>' : "";
     const alts = SWAP_ROLES.includes(s.k) && !s.live ? alternatives({...base, stops: p.stops}, s.k) : [];
+    const removable = !s.live && (s.k === "bar" || s.k === "late");  // dinner and the event stay
+    const rm = removable ? '<button type="button" class="link sm rm" data-n="'+esc(s.n)+'">Remove this stop</button>' : "";
     const swap = alts.length > 1 ? '<div class="swap" data-role="'+s.k+'"><button type="button" class="arrow sm" data-dir="-1" aria-label="Previous '+meal.toLowerCase()+' option">‹</button><span>'+(((state.swap[s.k]||0) % alts.length)+1)+' of '+alts.length+' nearby</span><button type="button" class="arrow sm" data-dir="1" aria-label="Next '+meal.toLowerCase()+' option">›</button></div>' : "";
     li.innerHTML = '<div class="time">'+fmt12(Math.floor(t/60)%24, t%60)+'</div><div class="rail"><span class="dot'+(s.live?" live":"")+'"></span></div>'+
       '<div class="stop-body"><div class="kind">'+esc(label)+'</div><div class="name">'+(s.live && s.url ? '<a href="'+esc(s.url)+'" target="_blank" rel="noopener">'+esc(s.n)+'</a>' : esc(s.n))+'</div>'+
-      '<p class="why">'+esc(s.d)+'</p><div class="where">'+esc(s.w)+site+near+'</div>'+swap+'</div>'+
+      '<p class="why">'+esc(s.d)+'</p><div class="where">'+esc(s.w)+site+near+'</div>'+swap+rm+'</div>'+
       '<div class="cost">~$'+cost(s)+'</div>';
     route.appendChild(li);
   });
@@ -399,6 +409,11 @@ function renderPlan(){
     route.insertAdjacentHTML("afterbegin", '<li class="note-box">No listed event fits between '+fmtM(state.from)+' and '+fmtM(state.to)+' with dinner, so this plan skips the show.'+
       (sug ? ' <button type="button" class="link sm" id="applySug" data-from="'+sug.from+'" data-to="'+sug.to+'">Change to '+fmtM(sug.from)+'–'+fmtM(sug.to)+' to fit '+esc(sug.title)+' ('+fmtM(toMin(sug.at))+')</button>' : '')+'</li>');
   }
+  const gone = all.filter(s => state.removed.includes(s.n));
+  $("restore").hidden = !gone.length;
+  if (gone.length) $("restore").textContent = "Put back " + gone.map(s => s.n).join(" and ");
+  const dir = directionsUrl(schedule(p.stops, state.day).items.map(x => x.s));
+  $("goBtn").hidden = !dir; if (dir) $("goBtn").href = dir;
   $("totalPP").textContent = "~$"+p.cost+" of $"+state.budget+" each";
   $("totalPP").classList.toggle("over", p.cost > state.budget);
   $("totalGrp").textContent = state.people > 1 ? "About $"+p.cost*state.people+" for "+state.people : "";
@@ -407,6 +422,8 @@ function renderPlan(){
   $("pageOf").textContent = ((state.rank % list.length)+1) + " of " + list.length;
 }
 $("route").addEventListener("click", e => {
+  const rmb = e.target.closest(".rm");
+  if (rmb){ state.removed.push(rmb.dataset.n); renderPlan(); $("goBtn").focus(); return; }
   const sug = e.target.closest("#applySug");
   if (sug){ state.from = +sug.dataset.from; state.to = +sug.dataset.to; state.rank = 0; state.swap = {}; save(); renderForm(); renderPlan(); return; }
   const b = e.target.closest(".swap .arrow"); if (!b || !CURRENT) return;
@@ -416,8 +433,25 @@ $("route").addEventListener("click", e => {
   renderPlan();
   const again = document.querySelector('.swap[data-role="'+role+'"] .arrow[data-dir="'+b.dataset.dir+'"]'); if (again) again.focus();
 });
-$("nextPlan").onclick = () => { state.rank++; state.swap = {}; renderPlan(); };
-$("prevPlan").onclick = () => { state.rank = state.rank > 0 ? state.rank - 1 : PLAN_COUNT - 1; state.swap = {}; renderPlan(); };
+$("nextPlan").onclick = () => { state.rank++; state.swap = {}; state.removed = []; renderPlan(); };
+$("prevPlan").onclick = () => { state.rank = state.rank > 0 ? state.rank - 1 : PLAN_COUNT - 1; state.swap = {}; state.removed = []; renderPlan(); };
+$("restore").onclick = () => { state.removed = []; renderPlan(); };
+// Google Maps directions through every stop, in order, starting from wherever the person is.
+function placeText(s){
+  const where = s.live ? [s.venue, (s.w.split(" · ")[1] || "")] : [s.n, s.w];
+  const text = where.filter(Boolean).join(", ");
+  if (text) return text + ", Madison, WI";  // names find the right place in Maps better than coordinates
+  return s.lat != null ? s.lat.toFixed(6) + "," + s.lon.toFixed(6) : null;
+}
+function directionsUrl(stops){
+  const pts = stops.map(placeText).filter(Boolean);
+  if (!pts.length) return "";
+  const u = new URL("https://www.google.com/maps/dir/");
+  u.searchParams.set("api", "1");
+  u.searchParams.set("destination", pts[pts.length - 1]);
+  if (pts.length > 1) u.searchParams.set("waypoints", pts.slice(0, -1).join("|"));
+  return u.toString();
+}
 
 // ---------- day strip ----------
 function renderDays(){
@@ -432,7 +466,7 @@ function renderDays(){
 }
 $("days").addEventListener("click", e => {
   const b = e.target.closest(".day"); if (!b) return;
-  state.day = b.dataset.k; state.rank = 0; state.swap = {}; state.allDays = false;
+  state.day = b.dataset.k; state.rank = 0; state.swap = {}; state.removed = []; state.allDays = false;
   const pe = pinned(); if (pe && evDay(pe) !== state.day) state.pin = null;
   renderDays(); renderPlan(); renderEvents();
 });
@@ -454,7 +488,8 @@ function evRow(e){
     (e.via ? '<a class="tag" href="'+esc(e.url)+'" target="_blank" rel="noopener">via '+esc(e.via)+' ↗</a>'
            : e.url ? '<a class="tag" href="'+esc(e.url)+'" target="_blank" rel="noopener">Details</a>' : "") +
     (e.confirm ? '<a class="tag" href="'+esc(e.confirm)+'" target="_blank" rel="noopener">Confirm</a>' : "");
-  const price = e.price == null ? "" : +e.price ? "$" + (+e.price).toFixed(+e.price % 1 ? 2 : 0) : "Free";
+  const pr = evPrice(e);
+  const price = pr == null ? "" : +pr ? "$" + (+pr).toFixed(+pr % 1 ? 2 : 0) : "Free";
   const on = e.id === state.pin;
   const btn = e.all_day ? "" : on
     ? '<button type="button" class="incl on" data-id="'+esc(e.id)+'" aria-pressed="true">✓ In your night</button>'
@@ -491,7 +526,7 @@ function pinEvent(id){
     if (at - need < state.from) state.from = Math.max(10*60, snap(at - need - 15));
     if (at + (DUR[role] || 60) + 15 > state.to) state.to = Math.min(26*60, snap(at + (DUR[role] || 60) + 45));
   }
-  state.rank = 0; state.swap = {}; save(); renderForm(); renderDays(); renderPlan(); renderEvents();
+  state.rank = 0; state.swap = {}; state.removed = []; save(); renderForm(); renderDays(); renderPlan(); renderEvents();
   if (state.pin) $("planSec").scrollIntoView({behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block:"start"});
 }
 $("events").addEventListener("click", ev => { const b = ev.target.closest(".incl"); if (b) pinEvent(b.dataset.id); });
