@@ -55,12 +55,64 @@ CUISINE_VIBES = [
 ]
 
 
+# Cuisine groups shown on the site. Every restaurant gets the closest one.
+CUISINE_GROUPS = [  # order matters: first match wins
+    ("sushi", r"sushi|japanese|ramen|izakaya|hibachi|teriyaki|udon"),
+    ("indian", r"indian|nepal|pakistan|tandoor|masala|himalayan|biryani"),
+    ("med", r"mediterranean|greek|lebanese|turkish|middle.?eastern|falafel|kebab|afghan|persian|ethiopian|african|somali|tajik|moroccan|uzbek|gyro|shawarma"),
+    ("latin", r"mexican|taco|taquer|burrito|latin|salvador|peruvian|cuban|tex.?mex|colombian|venezuel|puerto|jamaican|caribbean|brazil|empanada|cantina|tamal"),
+    ("asian", r"chinese|thai|vietnam|pho|korean|asian|noodle|dumpling|\blao|hmong|tibetan|filipino|malaysian|mongolian|hot pot|poke|szechuan|sichuan|bao|curry"),
+    ("italian", r"italian|pizza|pasta|gelato|trattoria|osteria"),
+    ("pub", r"\bpub\b|tavern|brewpub|brewery|beer hall|german|gastropub|bar & grill|bar and grill|\btap\b|saloon|ale house|alehouse"),
+    ("american", r"american|burger|diner|steak|bbq|barbecue|chicken|wings|sandwich|deli|hot.?dog|regional|supper|fish|seafood|breakfast|pancake|brunch|cajun|creole|southern|grill|french|russian|cornish|pasty|bistro|soul|bagel|donut|bakery|cafe|coffee|crepe|waffle"),
+]
+# Not dinner spots: still listed, never suggested for dinner.
+NOT_DINNER = r"juice|smoothie|protein|bagel|ice.?cream|frozen.?yogurt|custard|donut|doughnut|bubble.?tea|coffee|\bcafe\b|\btea\b|dessert|bakery|salad"
+# Restaurants whose name and tags don't say; closest best guess, and the AI tag (when the
+# restaurant has a website) replaces these on the next venue refresh.
+CUISINE_GUESS = {
+    "world buffet": "asian", "yes buffet": "asian", "kj's curry bowl": "asian", "sofra family bistro": "med",
+    "king's cross": "pub", "lola's hi/lo lounge": "pub", "ale tuna": "american", "kpeppers": "american",
+    "tom's red pepper": "american", "spit and fire": "american", "glacier grille": "american",
+    "highland corner grill": "american", "liberty station": "american", "sir hobo's restaurant": "american",
+    "the boathouse": "american", "north and south": "american", "concession stand": "american",
+    "four lakes market": "american", "frostwood farms": "american", "rheta's market": "american",
+    "robinia courtyard": "american", "jardin": "american", "feast": "american", "cassiopeia": "american",
+    "circ": "american", "delaney's": "american", "tipsy cow": "american", "villa dolce": "italian",
+    "la mestiza": "latin", "justveggiez": "american",
+}
+# Chains without a brand tag in OpenStreetMap (most chains are caught by their brand tag).
+CHAINS = r"^(mcdonald|taco bell|burger king|wendy'?s|subway|culver|kfc|popeyes|arby|chipotle|panera|qdoba|jimmy john|domino|pizza hut|papa john|little caesar|five guys|chick-fil|starbucks|dunkin|noodles & company|potbelly|jersey mike|firehouse subs|dairy queen|sonic drive|hardee|white castle|applebee|olive garden|chili'?s|red robin|buffalo wild|panda express|cousins subs|portillo|raising cane|wingstop|freddy'?s|steak n shake|perkins|denny'?s|ihop|toppers|marco'?s pizza|jet'?s pizza|erbert|einstein|caribou|kwik trip|qdoba|culver'?s)"
+
+
+def cuisine_group(name: str, cuisine: str) -> tuple[str, bool]:
+    """Closest cuisine group, and whether it's a real dinner spot."""
+    text = (cuisine + " " + name).lower()
+    tokens = [x.strip() for x in re.split(r"[;,]", cuisine.lower()) if x.strip()]
+    if tokens:  # not dinner only when everything it serves is juice, coffee, bagels or sweets
+        dinner = not all(re.search(NOT_DINNER, x) for x in tokens)
+    else:
+        dinner = not re.search(r"juice|smoothie|bagel|donut|ice.?cream|custard|frozen yogurt|bubble.?tea", name.lower())
+    if re.search(r"restaurant|grill|kitchen|bistro|tacos|food hall", name.lower()):
+        dinner = True
+    guess = CUISINE_GUESS.get(name.lower().strip())
+    for g, pat in CUISINE_GROUPS:
+        if re.search(pat, cuisine.lower()):
+            return g, dinner
+    if guess:
+        return guess, dinner
+    for g, pat in CUISINE_GROUPS:
+        if re.search(pat, text):
+            return g, dinner
+    return "american", dinner  # unknown: the most common group
+
+
 def restaurant_of(el: dict) -> dict | None:
     from .hours import parse as parse_hours
     t = el.get("tags", {})
     name = t.get("name")
-    if not name or t.get("brand:wikidata"):  # national and regional chains are left out
-        return None
+    if not name or t.get("brand:wikidata") or t.get("brand") or re.search(CHAINS, name.lower()):
+        return None  # national and regional chains are left out
     lat = el.get("lat") or el.get("center", {}).get("lat")
     lon = el.get("lon") or el.get("center", {}).get("lon")
     if lat is None:
@@ -73,7 +125,9 @@ def restaurant_of(el: dict) -> dict | None:
         if re.search(pat, cuisine) or re.search(pat, name.lower()):
             vibes += [v for v in vs if v not in vibes]
     hrs = parse_hours(t.get("opening_hours"))
+    group, dinner = cuisine_group(name, cuisine)
     return {
+        "group": group, "dinner": dinner,
         "id": f"osm:{el['type']}/{el['id']}",
         "name": name,
         "cuisine": cuisine.replace("_", " ").replace(";", ", "),
@@ -160,6 +214,51 @@ def build_activities() -> dict:
     return {"generated_at": now().isoformat(timespec="seconds"), "count": len(out), "by_type": by, "activities": out}
 
 
+GROUP_NAMES = {"american": "American", "latin": "Mexican & Latin", "italian": "Italian & Pizza", "asian": "Asian",
+               "sushi": "Sushi & Japanese", "indian": "Indian", "med": "Mediterranean & Middle Eastern", "pub": "Bar & pub food"}
+
+
+def ai_cuisine(rows: list[dict], limit: int = 40) -> int:
+    """For restaurants with no cuisine listed but a website, ask Claude which group fits,
+    from the homepage text. Cached in data/cuisine_cache.json; needs ANTHROPIC_API_KEY."""
+    import os
+    key = os.environ.get("ANTHROPIC_API_KEY")
+    cache = load_json(DATA / "cuisine_cache.json", {})
+    todo = [r for r in rows if not r["cuisine"] and r["website"] and r["id"] not in cache]
+    done = 0
+    if key and todo:
+        from .ai_read import Reader, NO_AI
+        from .common import Fetcher
+        f, reader = Fetcher(), Reader(key)
+        for r in todo[:limit]:
+            if NO_AI.search(r["website"]):
+                continue
+            try:
+                page = f.get(r["website"])
+            except Exception:
+                page = None
+            text = reader.page_text(page.text)[:4000] if page is not None else ""
+            prompt = (f"Restaurant: {r['name']}, Madison WI. Website text:\n{text}\n\nWhich ONE group fits its food best? "
+                      "Answer with only one of: " + ", ".join(GROUP_NAMES) + ".")
+            try:
+                resp = requests.post("https://api.anthropic.com/v1/messages", timeout=40, headers={
+                    "x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json"},
+                    json={"model": os.environ.get("AI_MODEL", "claude-haiku-5-5"), "max_tokens": 10,
+                          "messages": [{"role": "user", "content": prompt}]})
+                ans = "".join(b.get("text", "") for b in resp.json().get("content", [])).strip().lower()
+            except Exception:
+                continue
+            g = next((k for k in GROUP_NAMES if k in ans), None)
+            if g:
+                cache[r["id"]] = g
+                done += 1
+        save_json(DATA / "cuisine_cache.json", cache)
+    for r in rows:
+        if r["id"] in cache:
+            r["group"] = cache[r["id"]]
+    return done
+
+
 def build_restaurants() -> dict:
     out, seen = [], set()
     for el in fetch_osm(RESTAURANT_QUERY):
@@ -172,6 +271,9 @@ def build_restaurants() -> dict:
         seen.add(key)
         out.append(r)
     out.sort(key=lambda r: r["name"].lower())
+    tagged = ai_cuisine(out)
+    if tagged:
+        print(f"AI tagged {tagged} restaurants' cuisine")
     return {
         "generated_at": now().isoformat(timespec="seconds"),
         "count": len(out),
@@ -308,7 +410,8 @@ def main(argv=None):
         cur = load_json(path, {})
         ts = cur.get("generated_at")
         fresh = ts and now() - datetime.fromisoformat(ts) < timedelta(days=a.if_stale)
-        if fresh and rpath.exists() and (DATA / "activities.json").exists():
+        has_groups = bool((load_json(rpath, {}).get("restaurants") or [{}])[0].get("group"))
+        if fresh and rpath.exists() and (DATA / "activities.json").exists() and has_groups:
             print(f"Venue list is fresh ({ts}); skipping.")
             return
     data = build()

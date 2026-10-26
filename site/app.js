@@ -3,6 +3,7 @@ const SPOTS = window.SPOTS || [];
 const TZ = "America/Chicago";
 const KIND = {dinner:"Dinner", show:"Show", bar:"Drinks", late:"Late bite"};
 const FOOD = [["date","Date night"],["cheap","Cheap eats"],["dive","Dive bars"],["classic","Wisconsin classic"]];
+const CUISINES = [["american","American"],["latin","Mexican & Latin"],["italian","Italian & Pizza"],["asian","Asian"],["sushi","Sushi & Japanese"],["indian","Indian"],["med","Mediterranean"],["pub","Bar & pub food"]];
 const FUN = [["music","Live music"],["comedy","Comedy"],["theater","Theater"],["games","Games & trivia"],["bowling","Bowling & pool"],["movies","Movies"],["karaoke","Karaoke"],["dancing","Dancing"],["sports","Sports"]];
 const FUN_OF_CAT = {music:"music", open_mic:"music", comedy:"comedy", theater:"theater", film:"movies", trivia:"games", bingo:"games", karaoke:"karaoke", dance:"dancing", sports:"sports"};
 const FUN_OF_ACT = {bowling:"bowling", billiards:"bowling", darts:"bowling", cinema:"movies", arcade:"games", minigolf:"games", escape:"games", axe:"games", trampoline:"games", karaoke:"karaoke"};
@@ -21,9 +22,9 @@ const BARLIKE = new Set(["bar","brewery"]);  // skipped entirely when nobody is 
 const esc = x => String(x ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const $ = id => document.getElementById(id);
 
-const state = {budget:60, people:2, food:[], fun:[], areas:[], drinks:"cocktails", dinner:true, show:true, from:18*60, to:23*60, rank:0, swap:{}, removed:[], day:null, cat:"all", place:"all", allDays:false};
+const state = {budget:60, people:2, food:[], cuisine:[], fun:[], areas:[], drinks:"cocktails", dinner:true, show:true, from:18*60, to:23*60, rank:0, swap:{}, removed:[], day:null, cat:"all", place:"all", allDays:false};
 try { const s = JSON.parse(localStorage.getItem("mp-answers2") || "null"); if (s) Object.assign(state, s, {rank:0, swap:{}, removed:[], day:null, allDays:false}); } catch (e) {}
-function save(){ try { const {budget,people,food,fun,areas,drinks,dinner,show,from,to,cat,place} = state; localStorage.setItem("mp-answers2", JSON.stringify({budget,people,food,fun,areas,drinks,dinner,show,from,to,cat,place})); } catch (e) {} }
+function save(){ try { const {budget,people,food,cuisine,fun,areas,drinks,dinner,show,from,to,cat,place} = state; localStorage.setItem("mp-answers2", JSON.stringify({budget,people,food,cuisine,fun,areas,drinks,dinner,show,from,to,cat,place})); } catch (e) {} }
 
 // ---------- dates in Madison time ----------
 const dayKey = d => new Intl.DateTimeFormat("en-CA", {timeZone:TZ, year:"numeric", month:"2-digit", day:"2-digit"}).format(d);
@@ -69,6 +70,7 @@ function renderForm(){
       '<div class="times">'+timeSelect("fromSel", state.from, 10, 22, "Start time")+'<span class="to">to</span>'+timeSelect("toSel", state.to, 12, 26, "End time")+'</div></div>'+
     '<div class="row"><div class="lbl"><span>Area</span><span class="aside">'+(state.areas.length ? "pick any" : "anywhere")+'</span></div>'+chipRow("areaChips", AREAS.map(a => [a[0], a[1]]), state.areas)+'</div>'+
     '<div class="row"><div class="lbl"><span>Food & drink</span><span class="aside">pick any</span></div>'+chipRow("foodChips", FOOD, state.food)+'</div>'+
+'<div class="row"><div class="lbl"><span>Cuisine</span><span class="aside">'+(state.cuisine.length ? "pick any" : "anything")+'</span></div>'+chipRow("cuisineChips", CUISINES, state.cuisine)+'</div>'+
     '<div class="row"><div class="lbl"><span>Fun</span><span class="aside">'+(state.fun.length ? "pick any" : "anything")+'</span></div>'+chipRow("funChips", FUN, state.fun)+'</div>'+
     '<div class="row"><div class="lbl"><span>Drinks</span></div>'+
       seg("drinkSeg", [["cocktails","Cocktails"],["beer","Beer"],["none","No drinks"]], v => state.drinks === v)+'</div>'+
@@ -99,8 +101,8 @@ $("form").addEventListener("click", e => {
   if (b.id === "go"){ state.rank = 0; renderPlan(); $("planSec").scrollIntoView({behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block:"start"}); return; }
   if (b.id === "minus") state.people = Math.max(1, state.people-1);
   else if (b.id === "plus") state.people = Math.min(12, state.people+1);
-  else if (b.closest("#areaChips, #foodChips, #funChips")){
-    const list = state[{areaChips:"areas", foodChips:"food", funChips:"fun"}[b.parentElement.id]], v = b.dataset.v, i = list.indexOf(v);
+  else if (b.closest("#areaChips, #foodChips, #cuisineChips, #funChips")){
+    const list = state[{areaChips:"areas", foodChips:"food", cuisineChips:"cuisine", funChips:"fun"}[b.parentElement.id]], v = b.dataset.v, i = list.indexOf(v);
     if (i >= 0) list.splice(i, 1); else list.push(v);
     if (b.parentElement.id === "areaChips") renderDays(), renderEvents();
   }
@@ -161,8 +163,9 @@ function enrichSpots(){
     if (m){ if (s.lat == null){ s.lat = m.lat; s.lon = m.lon; } if (!s.url && m.website) s.url = m.website; s.mapId = m.id; }
   }
 }
+const GROUP_LABEL = Object.fromEntries(CUISINES);
 function restaurantStop(r, role){
-  return {n:r.name, k:role, lat:r.lat, lon:r.lon, p:r.price, v:r.vibes || [], tav:r.bar, hrs:r.hours, osm:true,
+  return {n:r.name, k:role, lat:r.lat, lon:r.lon, p:r.price, v:r.vibes || [], tav:r.bar, hrs:r.hours, osm:true, grp:r.group, notDinner:r.dinner === false,
     w:r.address || "", d:(r.cuisine ? r.cuisine.replace(/\b\w/g, c => c.toUpperCase()) : (r.fast ? "Quick bite" : "Restaurant")), url:r.website || "", mapId:r.id};
 }
 function barStop(v){
@@ -269,8 +272,12 @@ function nearest(list, anchor, n, maxMi){
 function candidates(anchor){
   const dry = state.drinks === "none";
   const fits = s => !(dry && s.tav) && cost(s) <= state.budget;
-  const dinnerAll = [...SPOTS.filter(s => s.k === "dinner"),
-    ...RESTAURANTS.filter(r => !SPOTS.some(s => s.mapId === r.id)).map(r => restaurantStop(r, "dinner"))].filter(fits);
+  let dinnerAll = [...SPOTS.filter(s => s.k === "dinner"),
+    ...RESTAURANTS.filter(r => !SPOTS.some(s => s.mapId === r.id)).map(r => restaurantStop(r, "dinner"))].filter(s => fits(s) && !s.notDinner);
+  if (state.cuisine.length){  // only the cuisines picked (if none match anywhere, ignore the choice)
+    const want = dinnerAll.filter(s => state.cuisine.includes(s.grp));
+    if (want.length) dinnerAll = want;
+  }
   const barAll = dry ? [] : [...SPOTS.filter(s => s.k === "bar"),
     ...BARS.filter(v => !SPOTS.some(s => s.mapId === v.id)).map(barStop)];
   const lateAll = [...SPOTS.filter(s => s.k === "late"),
