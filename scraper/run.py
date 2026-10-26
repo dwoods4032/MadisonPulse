@@ -70,6 +70,18 @@ def keep(e: dict) -> bool:
     return True
 
 
+def price_from_text(text: str):
+    """Lowest dollar amount in a description ("$25 adv / $30 door" -> 25), 0 for free, else None."""
+    t = text[:600]
+    if re.search(r"\bfree (?:entry|admission|show|event)\b|\bno cover\b|\bfree to (?:attend|enter)\b", t, re.I):
+        return 0.0
+    if re.search(r"\bfree\b(?! parking| refill)", t, re.I) and "$" not in t:
+        return 0.0
+    vals = [float(v) for v in re.findall(r"\$\s?(\d{1,3}(?:\.\d{2})?)", t)]
+    vals = [v for v in vals if 0 < v <= 250]
+    return min(vals) if vals else None
+
+
 def norm_title(t: str) -> str:
     return re.sub(r"[^a-z0-9]+", " ", t.lower()).strip()
 
@@ -225,7 +237,7 @@ def normalize(e: dict, venue: dict, source: str) -> dict:
         "end": e["end"].isoformat(timespec="minutes") if e.get("end") else None,
         "all_day": bool(e.get("allday")),
         "category": categorize(title, e.get("description", "")),
-        "price": e.get("price"),
+        "price": e.get("price") if e.get("price") is not None else price_from_text(e.get("description") or ""),
         "description": re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", e.get("description") or ""))).strip()[:300],
         "url": e.get("url") or venue.get("website", ""),
         "venue": venue["name"], "venue_id": venue["id"], "venue_kind": venue["kind"],

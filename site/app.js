@@ -55,7 +55,7 @@ function renderForm(){
       '<span class="count" id="peopleOut">'+state.people+' <small>'+(state.people===1?"person":"people")+'</small></span>'+
       '<button type="button" class="round" id="plus" aria-label="More people"'+(state.people>=12?" disabled":"")+'>+</button></div></div>'+
     '<div class="row inline"><div class="lbl"><span>Time</span></div>'+
-      '<div class="times">'+timeSelect("fromSel", state.from, 16, 22, "Start time")+'<span class="to">to</span>'+timeSelect("toSel", state.to, 20, 26, "End time")+'</div></div>'+
+      '<div class="times">'+timeSelect("fromSel", state.from, 10, 22, "Start time")+'<span class="to">to</span>'+timeSelect("toSel", state.to, 12, 26, "End time")+'</div></div>'+
     '<div class="row"><div class="lbl"><span>Vibe</span><span class="aside">up to two</span></div>'+
       '<div class="chips" id="vibeChips">'+VIBES.map(([id,l]) => '<button type="button" class="chip" id="vibe-'+id+'" data-v="'+id+'" aria-pressed="'+state.vibes.includes(id)+'">'+l+'</button>').join("")+'</div></div>'+
     '<div class="row"><div class="lbl"><span>Drinks</span></div>'+
@@ -71,7 +71,7 @@ $("form").addEventListener("change", e => {
   if (e.target.id !== "fromSel" && e.target.id !== "toSel") return;
   state.from = +$("fromSel").value; state.to = +$("toSel").value;
   if (state.to < state.from + 120){  // keep at least two hours
-    if (e.target.id === "fromSel") state.to = Math.min(26*60, state.from + 120); else state.from = Math.max(16*60, state.to - 120);
+    if (e.target.id === "fromSel") state.to = Math.min(26*60, state.from + 120); else state.from = Math.max(10*60, state.to - 120);
     renderForm();
   }
   changed();
@@ -96,11 +96,20 @@ $("form").addEventListener("click", e => {
 });
 
 // ---------- turning events into plan stops ----------
+const AREA_CENTERS = {downtown:[43.0747,-89.3841], east:[43.0880,-89.3540], north:[43.1250,-89.3650], west:[43.0600,-89.4500]};
+function areaOf(e){
+  if (e.lat == null || e.lon == null) return "local";
+  let best = "local", bd = 1e9;
+  for (const [k,[la,lo]] of Object.entries(AREA_CENTERS)){ const d = (e.lat-la)**2 + ((e.lon-lo)*0.73)**2; if (d < bd){ bd = d; best = k; } }
+  return Math.sqrt(bd) > 0.045 ? "local" : best;  // about 5 km from every area: out of town
+}
+const FAMILY = /\bfamil(?:y|ies)\b|\bkids?\b|children|toddler|all ages matinee/i;  // left out of night plans unless picked
+const pinned = () => state.pin ? EVENTS.find(e => e.id === state.pin) || null : null;
 function eventStop(e){
   const role = e.category === "food" ? "dinner" : (!state.show && DRINKY.has(e.venue_kind)) ? "bar" : "show";
   const drinks = DRINKY.has(e.venue_kind) ? (state.drinks === "cocktails" ? 14 : state.drinks === "beer" ? 10 : 0) : 0;
   const food = role === "dinner" ? (e.price ?? 15) : (e.price ?? 0);
-  return {n:e.title, k:role, a:"local", p:Math.round(food + drinks), v:[...(CAT_VIBES[e.category]||[]), ...(PLACE_VIBES[e.venue_kind]||[])],
+  return {id:e.id, n:e.title, k:role, a:areaOf(e), venue:e.venue, p:Math.round(food + drinks), v:[...(CAT_VIBES[e.category]||[]), ...(PLACE_VIBES[e.venue_kind]||[])],
     w:e.venue + (e.address ? " · " + e.address : ""), d:e.description || (CAT_LABEL[e.category] || "Event") + " at " + e.venue,
     at:e.all_day ? null : hhmm(e.start), live:true, cat:e.category, weekly:e.source === "weekly", url:e.url, g:e.venue_kind === "veterans" || e.venue_kind === "lodge" ? 1 : 0};
 }
@@ -120,43 +129,66 @@ function stopScore(s){
   if (state.drinks === "beer" && s.k === "bar"){ if (s.v.includes("dive")) x += 1; if (s.c) x -= 1; }
   const n = state.people;
   if (n >= 5){ if (s.t === 1) x -= 6; if (s.g) x += 2; } else if (n >= 3){ if (s.t === 1) x -= 2; if (s.g) x += 1; }
-  if (s.live) x += 6;
+  if (s.live){
+    const match = s.v.some(v => state.vibes.includes(v));
+    x += match ? 4 : 1;
+  }
   return x;
 }
 const toMin = t => { if (!t) return null; let [h,m] = t.split(":").map(Number); if (h < 6) h += 24; return h*60 + m; };
 function plans(){
-  if (!state.dinner && !state.show && state.drinks === "none") return [];
+  const pinEv = pinned(), pin = pinEv ? eventStop(pinEv) : null;
+  if (!pin && !state.dinner && !state.show && state.drinks === "none") return [];
   const dry = state.drinks === "none";
   const inWindow = e => { const m = toMin(hhmm(e.start)); return m >= state.from - 30 && m <= state.to - 60; };
-  const evening = eventsOn(state.day).filter(e => !e.all_day && inWindow(e) && !(dry && BARLIKE.has(e.venue_kind))).map(eventStop)
+  const evening = eventsOn(state.day).filter(e => !e.all_day && inWindow(e) && !(dry && BARLIKE.has(e.venue_kind)) && !(pin && e.id === pin.id) && !FAMILY.test(e.title)).map(eventStop)
     .sort((a,b) => stopScore(b) - stopScore(a)).slice(0, 24);
   const pool = k => SPOTS.filter(s => s.k === k && !(dry && s.tav)).concat(evening.filter(s => s.k === k));
-  const dinners = state.dinner ? pool("dinner") : [null];
-  const shows = state.show ? pool("show") : [null];
+  const role = pin ? pin.k : null;
+  const dinners = role === "dinner" ? [pin] : state.dinner ? pool("dinner") : [null];
+  const shows = role === "show" ? [pin] : (state.show && !pin) ? pool("show") : [null];
   const bars = pool("bar"), lates = [null, ...pool("late").filter(s => lateWindow(s, state.day))];
   const barSets = [];
-  if (state.drinks === "none" || state.dinner || state.show) barSets.push([]);  // drinks can happen at dinner or the show
-  if (state.drinks !== "none") for (let i = 0; i < bars.length; i++){ barSets.push([bars[i]]); for (let j = i+1; j < bars.length; j++) barSets.push([bars[i], bars[j]]); }
+  if (role === "bar"){
+    barSets.push([pin]); if (!dry) bars.forEach(b => barSets.push([pin, b]));
+  } else {
+    if (dry || state.dinner || state.show || pin) barSets.push([]);  // drinks can happen at dinner or the show
+    if (!dry) for (let i = 0; i < bars.length; i++){ barSets.push([bars[i]]); for (let j = i+1; j < bars.length; j++) barSets.push([bars[i], bars[j]]); }
+  }
+  let out = build(state.budget);
+  if (!out.length && pin) out = build(Infinity);  // the event alone is over budget: still show the best night around it
+  out.sort((a,b) => b.score - a.score);
+  const seen = new Set(), used = {}, uniq = [];
+  for (const p of out){
+    const rest = p.stops.filter(s => s !== pin);
+    const key = rest.slice(0,2).map(s => s.n).join("|");
+    if (seen.has(key) || rest.some(s => (used[s.n] || 0) >= 3)) continue;
+    seen.add(key); rest.forEach(s => used[s.n] = (used[s.n] || 0) + 1);
+    uniq.push(p); if (uniq.length >= 12) break;
+  }
+  return uniq;
+
+  function build(limit){
   const out = [];
   for (const d of dinners) for (const sh of shows) for (const bs of barSets) for (const l of lates){
     const stops = [d, sh, ...bs, l].filter(Boolean);
     if (!stops.length) continue;
     const c = stops.reduce((t,s) => t + cost(s), 0);
-    if (c > state.budget) continue;
+    if (c > limit) continue;
     if (!schedule(stops, state.day).ok) continue;  // closed, or two things at once
     let score = stops.reduce((t,s) => t + stopScore(s), 0);
     const areas = new Set(stops.filter(s => s.a !== "local").map(s => s.a)); score -= Math.max(0, areas.size-1)*2.5;
-    score += (c/state.budget)*3;
-    if (state.vibes.includes("cheap")) score += (1 - c/state.budget)*3;
+    const use = c / Math.min(limit, state.budget);
+    score += state.vibes.includes("cheap") ? (1 - use)*4 : use*8;  // use the money unless they asked for cheap
+    if (state.budget >= 90) stops.forEach(s => { if (s.c || s.v.includes("date")) score += 1.5; });  // a bigger budget leans nicer
     if (d && l && d.n.split(" ")[0] === l.n.split(" ")[0]) score -= 6;
     if (!d && !sh && bs.length < 2) score -= 3;
     if (state.drinks !== "none" && !bs.length) score -= 2;  // drinking, but no bar stop
+    if (pin && pin.a !== "local") stops.forEach(s => { if (s !== pin && s.a !== "local" && s.a !== pin.a) score -= 4; });  // stay near the event
     out.push({stops, cost:c, score});
   }
-  out.sort((a,b) => b.score - a.score);
-  const seen = new Set(), uniq = [];
-  for (const p of out){ const key = p.stops.slice(0,2).map(s => s.n).join("|"); if (seen.has(key)) continue; seen.add(key); uniq.push(p); if (uniq.length >= 12) break; }
-  return uniq;
+  return out;
+  }
 }
 const DUR = {dinner:90, show:120, bar:75, late:30};
 const ORDER = {dinner:0, show:1, bar:2, late:3};
@@ -192,7 +224,13 @@ function schedule(stops, key){
   return {items, ok};
 }
 let PLAN_COUNT = 1;
+function renderPin(){
+  const e = pinned();
+  $("pinNote").hidden = !e;
+  if (e) $("pinName").textContent = e.title + " at " + e.venue + ", " + fmtTime(e.start);
+}
 function renderPlan(){
+  renderPin();
   const list = plans(), route = $("route");
   PLAN_COUNT = Math.max(1, list.length);
   route.innerHTML = "";
@@ -203,15 +241,18 @@ function renderPlan(){
     route.innerHTML = '<li class="empty">'+why+'</li>'; return;
   }
   const p = list[state.rank % list.length];
-  schedule(p.stops, state.day).items.forEach(({s, t}, idx) => {
+  schedule(p.stops, state.day).items.forEach(({s, t}, idx) => {  // t is used for the meal label too
     const li = document.createElement("li"); li.className = "stop"; li.style.animationDelay = (idx*60)+"ms";
-    const label = s.live ? (CAT_LABEL[s.cat] || "Event") + (s.weekly ? " · Weekly" : "") : KIND[s.k] + (s.c && state.drinks === "cocktails" ? " · Cocktails" : "");
+    const pinS = pinned(), near = pinS && !s.live && s.k === "dinner" && s.a === areaOf(pinS);
+    const label = s.live ? (s.id === state.pin ? "Your pick · " : "") + (CAT_LABEL[s.cat] || "Event") + (s.weekly ? " · Weekly" : "")
+      : (s.k === "dinner" ? (t < 11*60 ? "Brunch" : t < 15*60 ? "Lunch" : "Dinner") : KIND[s.k]) + (near ? " · Near " + pinS.venue : "") + (s.c && state.drinks === "cocktails" ? " · Cocktails" : "");
     li.innerHTML = '<div class="time">'+fmt12(Math.floor(t/60)%24, t%60)+'</div><div class="rail"><span class="dot'+(s.live?" live":"")+'"></span></div>'+
       '<div class="stop-body"><div class="kind">'+esc(label)+'</div><div class="name">'+(s.url ? '<a href="'+esc(s.url)+'" target="_blank" rel="noopener">'+esc(s.n)+'</a>' : esc(s.n))+'</div><p class="why">'+esc(s.d)+'</p><div class="where">'+esc(s.w)+'</div></div>'+
       '<div class="cost">~$'+cost(s)+'</div>';
     route.appendChild(li);
   });
   $("totalPP").textContent = "~$"+p.cost+" of $"+state.budget+" each";
+  $("totalPP").classList.toggle("over", p.cost > state.budget);
   $("totalGrp").textContent = state.people > 1 ? "About $"+p.cost*state.people+" for "+state.people : "";
   $("planTitle").textContent = dayName(state.day);
   $("pager").hidden = list.length < 2;
@@ -234,6 +275,7 @@ function renderDays(){
 $("days").addEventListener("click", e => {
   const b = e.target.closest(".day"); if (!b) return;
   state.day = b.dataset.k; state.rank = 0; state.allDays = false;
+  const pe = pinned(); if (pe && evDay(pe) !== state.day) state.pin = null;
   renderDays(); renderPlan(); renderEvents();
 });
 
@@ -254,7 +296,11 @@ function evRow(e){
     (e.url ? '<a class="tag" href="'+esc(e.url)+'" target="_blank" rel="noopener">Details</a>' : "") +
     (e.confirm ? '<a class="tag" href="'+esc(e.confirm)+'" target="_blank" rel="noopener">Confirm</a>' : "");
   const price = e.price == null ? "" : +e.price ? "$" + (+e.price).toFixed(+e.price % 1 ? 2 : 0) : "Free";
-  return '<div class="ev"><div class="tm">'+(e.all_day ? "All day" : fmtTime(e.start))+'</div><div><div class="t">'+esc(e.title)+'</div><div class="m">'+esc(e.venue)+(e.address ? " · "+esc(e.address) : "")+'</div><div class="tags">'+tags+'</div></div><div class="c">'+price+'</div></div>';
+  const on = e.id === state.pin;
+  const btn = e.all_day ? "" : on
+    ? '<button type="button" class="incl on" data-id="'+esc(e.id)+'" aria-pressed="true">✓ In your night</button>'
+    : '<button type="button" class="incl" data-id="'+esc(e.id)+'" aria-pressed="false">Include in my night</button>';
+  return '<div class="ev'+(on ? " picked" : "")+'"><div class="tm">'+(e.all_day ? "All day" : fmtTime(e.start))+'</div><div><div class="t">'+esc(e.title)+'</div><div class="m">'+esc(e.venue)+(e.address ? " · "+esc(e.address) : "")+'</div><div class="tags">'+tags+'</div>'+btn+'</div><div class="c">'+price+'</div></div>';
 }
 function renderEvents(){
   const el = $("events");
@@ -274,6 +320,23 @@ function renderEvents(){
   }
   el.innerHTML = h;
 }
+function pinEvent(id){
+  const e = EVENTS.find(x => x.id === id);
+  if (!e || state.pin === id){ state.pin = null; }
+  else {
+    state.pin = id; state.day = evDay(e); state.allDays = false;
+    // stretch the evening so the event fits, with room for dinner before it
+    const at = toMin(hhmm(e.start)), role = eventStop(e).k;
+    const need = role === "dinner" ? 0 : state.dinner ? 120 : 30;
+    const snap = m => Math.round(m / 30) * 30;
+    if (at - need < state.from) state.from = Math.max(10*60, snap(at - need - 15));
+    if (at + (DUR[role] || 60) + 15 > state.to) state.to = Math.min(26*60, snap(at + (DUR[role] || 60) + 45));
+  }
+  state.rank = 0; save(); renderForm(); renderDays(); renderPlan(); renderEvents();
+  if (state.pin) $("planSec").scrollIntoView({behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block:"start"});
+}
+$("events").addEventListener("click", ev => { const b = ev.target.closest(".incl"); if (b) pinEvent(b.dataset.id); });
+$("pinClear").onclick = () => { state.pin = null; state.rank = 0; renderPlan(); renderEvents(); };
 function ago(iso){ const m = Math.round((Date.now() - new Date(iso)) / 60000); return m < 60 ? m + " minutes ago" : m < 1440 ? Math.round(m/60) + " hours ago" : Math.round(m/1440) + " days ago"; }
 
 // ---------- start ----------

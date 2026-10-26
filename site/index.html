@@ -106,6 +106,14 @@ input[type=range]{width:100%;accent-color:var(--lamp);height:28px;margin:0}
 .pager span{min-width:5.5ch;text-align:center}
 .arrow{width:34px;height:34px;border-radius:50%;border:1px solid var(--line);background:var(--surface);font-size:20px;line-height:1;cursor:pointer;display:grid;place-items:center;padding-bottom:2px}
 .arrow:hover{border-color:var(--ink)}
+.pin{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 8px;margin:-6px 0 18px;padding:10px 14px;border-radius:12px;background:var(--lamp-soft);font-size:14px}
+.pin strong{font-weight:600}
+.link.sm{background:none;border:0;padding:0;color:var(--lake);font-weight:600;font-size:14px;cursor:pointer;text-decoration:underline}
+.totals .pp.over{color:var(--over)}
+.incl{margin-top:10px;font-size:14px;font-weight:600;padding:7px 13px;border-radius:9px;border:1px solid var(--ink);background:transparent;color:var(--ink);cursor:pointer}
+.incl:hover{background:var(--ink);color:var(--bg)}
+.incl.on{background:var(--lamp-soft);border-color:transparent}
+.ev.picked{background:var(--lamp-soft);margin:0 -12px;padding-left:12px;padding-right:12px;border-radius:12px}
 .plan-foot{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-top:4px}
 
 .list-head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:12px}
@@ -151,6 +159,7 @@ footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);paddin
       </div>
       <div class="totals"><span class="pp" id="totalPP"></span><span class="grp" id="totalGrp"></span></div>
     </div>
+    <p class="pin" id="pinNote" hidden>Built around <strong id="pinName"></strong> <button type="button" class="link sm" id="pinClear">Remove</button></p>
     <ol class="route" id="route"></ol>
     <div class="plan-foot">
       <p class="note">Rough per-person estimates for food, drinks and cover. Check the venue before you go.</p>
