@@ -1,6 +1,1008 @@
 {
  "Isthmus calendar": {
   "on": "2026-10-26",
-  "events": []
+  "events": [
+   {
+    "title": "The Sound of Turbulence: Making Wind Energy and Transportation Quieter and More Efficient",
+    "start": "2026-10-26T15:30:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": ""
+   },
+   {
+    "title": "Children's International Story Hour",
+    "start": "2026-10-26T16:00:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "Pinney Library"
+   },
+   {
+    "title": "Dairyland Dancers",
+    "start": "2026-10-26T17:00:00-05:00",
+    "end": "2026-10-26T21:00:00-05:00",
+    "allday": false,
+    "location": "Five Nightclub"
+   },
+   {
+    "title": "Dairyland Dancers",
+    "start": "2026-11-02T17:00:00-06:00",
+    "end": "2026-11-02T21:00:00-06:00",
+    "allday": false,
+    "location": "Five Nightclub"
+   },
+   {
+    "title": "Jerry Fitzpatrick",
+    "start": "2026-10-26T17:00:00-05:00",
+    "end": "2026-10-26T19:00:00-05:00",
+    "allday": false,
+    "location": "Park Hotel-The Post"
+   },
+   {
+    "title": "Ced Ba'etch'",
+    "start": "2026-10-26T17:00:00-05:00",
+    "end": "2026-10-26T19:00:00-05:00",
+    "allday": false,
+    "location": "The Perch"
+   },
+   {
+    "title": "Ced Ba'etch'",
+    "start": "2026-11-02T17:00:00-06:00",
+    "end": "2026-11-02T19:00:00-06:00",
+    "allday": false,
+    "location": "The Perch"
+   },
+   {
+    "title": "David Landau",
+    "start": "2026-10-26T17:30:00-05:00",
+    "end": "2026-10-26T18:15:00-05:00",
+    "allday": false,
+    "location": "Harmony Bar and Grill"
+   },
+   {
+    "title": "David Landau",
+    "start": "2026-11-02T17:30:00-06:00",
+    "end": "2026-11-02T18:15:00-06:00",
+    "allday": false,
+    "location": "Harmony Bar and Grill"
+   },
+   {
+    "title": "Full Moon & Halloween Luminary Hike",
+    "start": "2026-10-26T17:30:00-05:00",
+    "end": "2026-10-26T19:30:00-05:00",
+    "allday": false,
+    "location": "Badger Prairie County Park, Verona"
+   },
+   {
+    "title": "Creative Recovery Lab",
+    "start": "2026-10-26T17:30:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "East Madison Community Center"
+   },
+   {
+    "title": "MMSD Board of Education",
+    "start": "2026-10-26T18:00:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "Madison Metropolitan School District Doyle Administration Building"
+   },
+   {
+    "title": "Trans Social Night",
+    "start": "2026-10-26T18:00:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "Crucible"
+   },
+   {
+    "title": "A Wilderness Act",
+    "start": "2026-10-26T18:00:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "Morgridge Hall"
+   },
+   {
+    "title": "DJ 45 Freakout",
+    "start": "2026-10-26T18:00:00-05:00",
+    "end": "2026-10-26T20:59:00-05:00",
+    "allday": false,
+    "location": "Lola's Hi/Lo Lounge"
+   },
+   {
+    "title": "Henry Blaney Trio",
+    "start": "2026-10-26T18:00:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "UW Union South"
+   },
+   {
+    "title": "Open Studio Night",
+    "start": "2026-10-26T18:30:00-05:00",
+    "end": "2026-10-26T20:30:00-05:00",
+    "allday": false,
+    "location": "Neighborhood House"
+   },
+   {
+    "title": "Open Studio Night",
+    "start": "2026-11-02T18:30:00-06:00",
+    "end": "2026-11-02T20:30:00-06:00",
+    "allday": false,
+    "location": "Neighborhood House"
+   },
+   {
+    "title": "Lego Night",
+    "start": "2026-10-26T18:30:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "Working Draft Beer Company"
+   },
+   {
+    "title": "Lego Night",
+    "start": "2026-11-02T18:30:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Working Draft Beer Company"
+   },
+   {
+    "title": "Songwriters Circle",
+    "start": "2026-10-26T18:30:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "Muso"
+   },
+   {
+    "title": "Bingo",
+    "start": "2026-10-26T19:00:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "Mickey's Tavern"
+   },
+   {
+    "title": "Bingo",
+    "start": "2026-11-02T19:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Mickey's Tavern"
+   },
+   {
+    "title": "Rebecca",
+    "start": "2026-10-26T19:00:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "Taliesin-Hillside Theater, Spring Green"
+   },
+   {
+    "title": "Bluegrass Jam",
+    "start": "2026-10-26T19:00:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "Muskellounge and Sporting Club"
+   },
+   {
+    "title": "Bluegrass Jam",
+    "start": "2026-11-02T19:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Muskellounge and Sporting Club"
+   },
+   {
+    "title": "Badgers on Tap",
+    "start": "2026-10-26T19:00:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "State Line Distillery"
+   },
+   {
+    "title": "Trivia",
+    "start": "2026-10-26T19:00:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "Vintage Brewing Company Capitol East"
+   },
+   {
+    "title": "Trivia",
+    "start": "2026-11-02T19:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Vintage Brewing Company Capitol East"
+   },
+   {
+    "title": "Turbo Trivia",
+    "start": "2026-10-26T19:00:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "Headquarters, Oregon"
+   },
+   {
+    "title": "Turbo Trivia",
+    "start": "2026-11-02T19:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Headquarters, Oregon"
+   },
+   {
+    "title": "Showtune Showdown",
+    "start": "2026-10-26T19:00:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "The Core, Middleton"
+   },
+   {
+    "title": "Open Mic with Sky Crowe",
+    "start": "2026-10-26T19:00:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "The Bur Oak"
+   },
+   {
+    "title": "Medieval Dance Practice",
+    "start": "2026-10-26T19:30:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "Wil-Mar Center"
+   },
+   {
+    "title": "Open Mic with Dylan Harris",
+    "start": "2026-10-26T19:30:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "Slowpoke Lounge & Cabaret, Spring Green"
+   },
+   {
+    "title": "American Aquarium",
+    "start": "2026-10-26T20:00:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "High Noon Saloon"
+   },
+   {
+    "title": "An ACOTAR 6 Midnight Release Ball",
+    "start": "2026-10-26T20:00:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "Mineral Point Opera House"
+   },
+   {
+    "title": "Fair Meadows Birding Day",
+    "start": "2026-10-27T06:00:00-05:00",
+    "end": "2026-10-27T12:00:00-05:00",
+    "allday": false,
+    "location": ""
+   },
+   {
+    "title": "Universities of Wisconsin System President Search",
+    "start": "2026-10-27T08:00:00-05:00",
+    "end": "2026-10-27T12:00:00-05:00",
+    "allday": false,
+    "location": "UW Memorial Union"
+   },
+   {
+    "title": "Climate Change and Global Displacement",
+    "start": "2026-10-27T09:00:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": ""
+   },
+   {
+    "title": "Tuesday Morning Booktalks",
+    "start": "2026-10-27T10:00:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "The Village on Park"
+   },
+   {
+    "title": "Seeds of Hope",
+    "start": "2026-10-27T11:00:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": ""
+   },
+   {
+    "title": "Crude Futures: Venezuela, the US, and the new Landscapes of Oil Dependency",
+    "start": "2026-10-27T12:00:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "UW Ingraham Hall"
+   },
+   {
+    "title": "Psycho + Bill Gillard",
+    "start": "2026-10-27T12:15:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "Madison Senior Center"
+   },
+   {
+    "title": "South Madison Farmers' Market",
+    "start": "2026-10-27T14:00:00-05:00",
+    "end": "2026-10-27T18:00:00-05:00",
+    "allday": false,
+    "location": "Madison Labor Temple"
+   },
+   {
+    "title": "Eastside Farmers' Market",
+    "start": "2026-10-27T16:00:00-05:00",
+    "end": "2026-10-27T19:00:00-05:00",
+    "allday": false,
+    "location": "McPike Park"
+   },
+   {
+    "title": "Go Big Read Book Discussion",
+    "start": "2026-10-27T16:30:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "Meadowridge Library"
+   },
+   {
+    "title": "Madison Board Games & Beer",
+    "start": "2026-10-27T17:00:00-05:00",
+    "end": "2026-10-27T21:00:00-05:00",
+    "allday": false,
+    "location": "Starkweather Brewing Company"
+   },
+   {
+    "title": "Dungeons & Dragons",
+    "start": "2026-10-27T17:00:00-05:00",
+    "end": "2026-10-27T21:00:00-05:00",
+    "allday": false,
+    "location": "Doundrins Distilling, Cottage Grove"
+   },
+   {
+    "title": "Stu Levitan",
+    "start": "2026-10-27T17:30:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "Central Library"
+   },
+   {
+    "title": "Children's African Story Hour",
+    "start": "2026-10-27T17:30:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "Eagle Heights Community Center"
+   },
+   {
+    "title": "Jerry Fitzpatrick",
+    "start": "2026-10-27T17:30:00-05:00",
+    "end": "2026-10-27T20:30:00-05:00",
+    "allday": false,
+    "location": "Buck and Honey's, Sun Prairie"
+   },
+   {
+    "title": "Jerry Fitzpatrick",
+    "start": "2026-11-03T17:30:00-06:00",
+    "end": "2026-11-03T20:30:00-06:00",
+    "allday": false,
+    "location": "Buck and Honey's, Sun Prairie"
+   },
+   {
+    "title": "Draft Data Center Regulation Framework",
+    "start": "2026-10-27T17:30:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": ""
+   },
+   {
+    "title": "UW Men's Basketball",
+    "start": "2026-10-27T18:00:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "Kohl Center"
+   },
+   {
+    "title": "Brazilian Choro Jam",
+    "start": "2026-10-27T18:00:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "Muso"
+   },
+   {
+    "title": "Optimizing Your Home's Energy Performance",
+    "start": "2026-10-27T18:00:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "Waunakee Library"
+   },
+   {
+    "title": "Dog Training",
+    "start": "2026-10-27T18:00:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": ""
+   },
+   {
+    "title": "Inside Wisconsin Politics Live",
+    "start": "2026-10-27T18:00:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "High Noon Saloon"
+   },
+   {
+    "title": "Open Mic with Martin Hunt",
+    "start": "2026-10-27T18:00:00-05:00",
+    "end": "2026-10-27T21:00:00-05:00",
+    "allday": false,
+    "location": "East Side Club"
+   },
+   {
+    "title": "Open Mic with Martin Hunt",
+    "start": "2026-11-03T18:00:00-06:00",
+    "end": "2026-11-03T21:00:00-06:00",
+    "allday": false,
+    "location": "East Side Club"
+   },
+   {
+    "title": "Alex Salcido",
+    "start": "2026-10-27T18:00:00-05:00",
+    "end": "2026-10-27T21:00:00-05:00",
+    "allday": false,
+    "location": "Up North Pub"
+   },
+   {
+    "title": "Madison West Coast Swing Club",
+    "start": "2026-10-27T18:15:00-05:00",
+    "end": "2026-10-27T21:00:00-05:00",
+    "allday": false,
+    "location": "Dancesport"
+   },
+   {
+    "title": "Madison West Coast Swing Club",
+    "start": "2026-11-03T18:15:00-06:00",
+    "end": "2026-11-03T21:00:00-06:00",
+    "allday": false,
+    "location": "Dancesport"
+   },
+   {
+    "title": "DJ Tamel",
+    "start": "2026-10-27T18:30:00-05:00",
+    "end": "2026-10-27T20:30:00-05:00",
+    "allday": false,
+    "location": "GlouGlou"
+   },
+   {
+    "title": "Open Mic with Sam Sturtevant",
+    "start": "2026-10-27T18:30:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "Locker Room Sports Bar"
+   },
+   {
+    "title": "Open Mic with Sam Sturtevant",
+    "start": "2026-11-03T18:30:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Locker Room Sports Bar"
+   },
+   {
+    "title": "Inga Orth",
+    "start": "2026-10-27T18:30:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": ""
+   },
+   {
+    "title": "Trivia",
+    "start": "2026-10-27T18:30:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "The Kickback, Middleton"
+   },
+   {
+    "title": "Trivia",
+    "start": "2026-11-03T18:30:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "The Kickback, Middleton"
+   },
+   {
+    "title": "Quizmaster Trivia",
+    "start": "2026-10-27T18:30:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "Lake Louie Brewing/Wisconsin Brewing Co., Verona"
+   },
+   {
+    "title": "Quizmaster Trivia",
+    "start": "2026-11-03T18:30:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Lake Louie Brewing/Wisconsin Brewing Co., Verona"
+   },
+   {
+    "title": "Bigtooth",
+    "start": "2026-10-27T18:30:00-05:00",
+    "end": "2026-10-27T20:30:00-05:00",
+    "allday": false,
+    "location": "Harmony Bar and Grill"
+   },
+   {
+    "title": "Taproom Trivia",
+    "start": "2026-10-27T18:30:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "Octopi Brewing, Waunakee"
+   },
+   {
+    "title": "Taproom Trivia",
+    "start": "2026-11-03T18:30:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Octopi Brewing, Waunakee"
+   },
+   {
+    "title": "Taproom Trivia",
+    "start": "2026-10-27T18:30:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "Public Parking"
+   },
+   {
+    "title": "Bingo",
+    "start": "2026-10-27T18:30:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "Working Draft Beer Company"
+   },
+   {
+    "title": "Bingo",
+    "start": "2026-11-03T18:30:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Working Draft Beer Company"
+   },
+   {
+    "title": "Capital City Toastmasters",
+    "start": "2026-10-27T18:30:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "Fitchburg Library"
+   },
+   {
+    "title": "Saber Combat Club",
+    "start": "2026-10-27T18:30:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "Vilas Park"
+   },
+   {
+    "title": "Saber Combat Club",
+    "start": "2026-11-03T18:30:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Vilas Park"
+   },
+   {
+    "title": "Trivia",
+    "start": "2026-10-27T19:00:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "Mickey's Tavern"
+   },
+   {
+    "title": "Bingo",
+    "start": "2026-10-27T19:00:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "Vintage Brewing Company Capitol East"
+   },
+   {
+    "title": "Bingo",
+    "start": "2026-11-03T19:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Vintage Brewing Company Capitol East"
+   },
+   {
+    "title": "Tango Tuesday",
+    "start": "2026-10-27T19:00:00-05:00",
+    "end": "2026-10-27T22:30:00-05:00",
+    "allday": false,
+    "location": "Cafe Coda"
+   },
+   {
+    "title": "Tango Tuesday",
+    "start": "2026-11-03T19:00:00-06:00",
+    "end": "2026-11-03T22:30:00-06:00",
+    "allday": false,
+    "location": "Cafe Coda"
+   },
+   {
+    "title": "Slipjig",
+    "start": "2026-10-27T19:00:00-05:00",
+    "end": "2026-10-27T21:00:00-05:00",
+    "allday": false,
+    "location": "Malt House"
+   },
+   {
+    "title": "Trivia",
+    "start": "2026-10-27T19:00:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "The Rigby"
+   },
+   {
+    "title": "Trivia",
+    "start": "2026-11-03T19:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "The Rigby"
+   },
+   {
+    "title": "Zen Meditation & Chanting",
+    "start": "2026-10-27T19:00:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "Shambhala Meditation Center"
+   },
+   {
+    "title": "Zen Meditation & Chanting",
+    "start": "2026-11-03T19:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Shambhala Meditation Center"
+   },
+   {
+    "title": "Madison Gem & Mineral Club",
+    "start": "2026-10-27T19:00:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "UW Weeks Hall"
+   },
+   {
+    "title": "Bluegrass Jam",
+    "start": "2026-10-27T19:00:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "Goodman Community Center-Brassworks"
+   },
+   {
+    "title": "Bluegrass Jam",
+    "start": "2026-11-03T19:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Goodman Community Center-Brassworks"
+   },
+   {
+    "title": "Knit Night",
+    "start": "2026-10-27T19:00:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "Communication"
+   },
+   {
+    "title": "Knit Night",
+    "start": "2026-11-03T19:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Communication"
+   },
+   {
+    "title": "Emy Castro",
+    "start": "2026-10-27T19:00:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "North Street Cabaret"
+   },
+   {
+    "title": "Making Sense of the Midterm Elections",
+    "start": "2026-10-27T19:00:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": ""
+   },
+   {
+    "title": "Drum Circle with Elmore Lawson",
+    "start": "2026-10-27T19:00:00-05:00",
+    "end": "2026-10-27T21:00:00-05:00",
+    "allday": false,
+    "location": "Minocqua Brewing Company Tap Room"
+   },
+   {
+    "title": "Trivia",
+    "start": "2026-10-27T19:00:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "The Green Room Public House"
+   },
+   {
+    "title": "Trivia",
+    "start": "2026-11-03T19:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "The Green Room Public House"
+   },
+   {
+    "title": "Witch",
+    "start": "2026-10-27T19:00:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "American Players Theatre, Spring Green"
+   },
+   {
+    "title": "Witch",
+    "start": "2026-10-28T19:00:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "American Players Theatre, Spring Green"
+   },
+   {
+    "title": "Witch",
+    "start": "2026-10-29T13:00:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "American Players Theatre, Spring Green"
+   },
+   {
+    "title": "Witch",
+    "start": "2026-10-30T19:00:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "American Players Theatre, Spring Green"
+   },
+   {
+    "title": "Witch",
+    "start": "2026-10-31T13:00:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "American Players Theatre, Spring Green"
+   },
+   {
+    "title": "Witch",
+    "start": "2026-11-01T13:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "American Players Theatre, Spring Green"
+   },
+   {
+    "title": "Witch",
+    "start": "2026-11-01T18:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "American Players Theatre, Spring Green"
+   },
+   {
+    "title": "Witch",
+    "start": "2026-11-04T13:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "American Players Theatre, Spring Green"
+   },
+   {
+    "title": "Witch",
+    "start": "2026-11-05T19:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "American Players Theatre, Spring Green"
+   },
+   {
+    "title": "Witch",
+    "start": "2026-11-06T13:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "American Players Theatre, Spring Green"
+   },
+   {
+    "title": "Witch",
+    "start": "2026-11-07T13:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "American Players Theatre, Spring Green"
+   },
+   {
+    "title": "Witch",
+    "start": "2026-11-07T18:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "American Players Theatre, Spring Green"
+   },
+   {
+    "title": "Witch",
+    "start": "2026-11-08T13:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "American Players Theatre, Spring Green"
+   },
+   {
+    "title": "Django Jazz Jam",
+    "start": "2026-10-27T19:00:00-05:00",
+    "end": "2026-10-27T21:00:00-05:00",
+    "allday": false,
+    "location": "Leopold's Books Bar Caffe"
+   },
+   {
+    "title": "Django Jazz Jam",
+    "start": "2026-11-03T19:00:00-06:00",
+    "end": "2026-11-03T21:00:00-06:00",
+    "allday": false,
+    "location": "Leopold's Books Bar Caffe"
+   },
+   {
+    "title": "Salsa Dance",
+    "start": "2026-10-27T19:30:00-05:00",
+    "end": "2026-10-27T22:30:00-05:00",
+    "allday": false,
+    "location": "Cafe Coda"
+   },
+   {
+    "title": "Salsa Dance",
+    "start": "2026-11-03T19:30:00-06:00",
+    "end": "2026-11-03T22:30:00-06:00",
+    "allday": false,
+    "location": "Cafe Coda"
+   },
+   {
+    "title": "Madison Contra Dance",
+    "start": "2026-10-27T19:30:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "Wil-Mar Center"
+   },
+   {
+    "title": "The Longest Johns, Seán Dagher",
+    "start": "2026-10-27T20:00:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "Atwood Music Hall"
+   },
+   {
+    "title": "The Tallest Man on Earth, Gwenifer Raymond",
+    "start": "2026-10-27T20:00:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "Majestic Theatre"
+   },
+   {
+    "title": "Open Mic",
+    "start": "2026-10-27T20:00:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "Madison's"
+   },
+   {
+    "title": "Open Mic",
+    "start": "2026-11-03T20:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Madison's"
+   },
+   {
+    "title": "Delicate Steve, Yellow Ostrich",
+    "start": "2026-10-27T20:00:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "The Bur Oak"
+   },
+   {
+    "title": "King Falcon, The Forty Twos",
+    "start": "2026-10-27T20:00:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "Gamma Ray Bar"
+   },
+   {
+    "title": "Argus Underground Open Mic",
+    "start": "2026-10-27T20:00:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "Argus BarGrille"
+   },
+   {
+    "title": "Argus Underground Open Mic",
+    "start": "2026-11-03T20:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Argus BarGrille"
+   },
+   {
+    "title": "Knitted Dimensions: Knit, Technology and Spatial Practices",
+    "start": "2026-10-28T00:00:00-05:00",
+    "end": "2027-05-03T00:00:00-05:00",
+    "allday": true,
+    "location": "UW Nancy Nicholas Hall"
+   },
+   {
+    "title": "RSVP for Crown Shyness Embroidery",
+    "start": "2026-10-28T00:00:00-05:00",
+    "end": "2026-10-29T00:00:00-05:00",
+    "allday": true,
+    "location": "Monroe Street Arts Center"
+   },
+   {
+    "title": "Hilldale Farmers' Market",
+    "start": "2026-10-28T08:00:00-05:00",
+    "end": "2026-10-28T13:00:00-05:00",
+    "allday": false,
+    "location": "Hilldale"
+   },
+   {
+    "title": "Hilldale Farmers' Market",
+    "start": "2026-10-31T08:00:00-05:00",
+    "end": "2026-10-31T13:00:00-05:00",
+    "allday": false,
+    "location": "Hilldale"
+   },
+   {
+    "title": "Wisconsin Senior Safety Resource Fair",
+    "start": "2026-10-28T08:00:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": ""
+   },
+   {
+    "title": "Dane County Farmers' Market",
+    "start": "2026-10-28T08:30:00-05:00",
+    "end": "2026-10-28T13:15:00-05:00",
+    "allday": false,
+    "location": "Martin Luther King Jr. Boulevard"
+   },
+   {
+    "title": "Dane County Farmers' Market",
+    "start": "2026-11-04T08:30:00-06:00",
+    "end": "2026-11-04T13:15:00-06:00",
+    "allday": false,
+    "location": "Martin Luther King Jr. Boulevard"
+   },
+   {
+    "title": "Baby's First Halloween",
+    "start": "2026-10-28T09:00:00-05:00",
+    "end": "2026-10-28T11:30:00-05:00",
+    "allday": false,
+    "location": "Madison Children's Museum"
+   },
+   {
+    "title": "Sports for Active Seniors Tennis",
+    "start": "2026-10-28T09:00:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "Bordner Park"
+   },
+   {
+    "title": "Sports for Active Seniors Tennis",
+    "start": "2026-10-30T09:00:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "Bordner Park"
+   },
+   {
+    "title": "Sports for Active Seniors Golf",
+    "start": "2026-10-28T09:00:00-05:00",
+    "end": null,
+    "allday": false,
+    "location": "Nine Springs Golf Course, Fitchburg"
+   },
+   {
+    "title": "New Beginnings",
+    "start": "2026-10-28T10:00:00-05:00",
+    "end": "2026-10-28T12:00:00-05:00",
+    "allday": false,
+    "location": "Neighborhood House"
+   },
+   {
+    "title": "New Beginnings",
+    "start": "2026-10-30T10:00:00-05:00",
+    "end": "2026-10-30T12:00:00-05:00",
+    "allday": false,
+    "location": "Neighborhood House"
+   },
+   {
+    "title": "New Beginnings",
+    "start": "2026-11-04T10:00:00-06:00",
+    "end": "2026-11-04T12:00:00-06:00",
+    "allday": false,
+    "location": "Neighborhood House"
+   },
+   {
+    "title": "New Beginnings",
+    "start": "2026-11-06T10:00:00-06:00",
+    "end": "2026-11-06T12:00:00-06:00",
+    "allday": false,
+    "location": "Neighborhood House"
+   },
+   {
+    "title": "Free Vet Care",
+    "start": "2026-10-28T10:00:00-05:00",
+    "end": "2026-10-28T14:00:00-05:00",
+    "allday": false,
+    "location": "Underdog Pet Rescue"
+   }
+  ]
  }
 }

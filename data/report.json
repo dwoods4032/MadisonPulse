@@ -1,11 +1,35 @@
 {
- "generated_at": "2026-10-26T14:35:15-05:00",
+ "generated_at": "2026-10-26T15:21:10-05:00",
  "venues_checked": 237,
- "venues_with_events": 22,
- "venues_with_feeds": 47,
- "events": 83,
- "filtered_out": 117,
+ "venues_with_events": 48,
+ "venues_with_feeds": 69,
+ "events": 347,
+ "filtered_out": 135,
  "venues": [
+  {
+   "name": "Isthmus calendar",
+   "kind": "source",
+   "website": "https://isthmus.com/search/event/calendar-of-events/calendar.ics",
+   "feeds": [
+    "calendar"
+   ],
+   "raw_events": 143,
+   "error": ""
+  },
+  {
+   "name": "AI page reading",
+   "kind": "source",
+   "website": "",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 108,
+   "error": "",
+   "calls": 60,
+   "tokens_in": 77473,
+   "tokens_out": 30726,
+   "est_cost_usd": 0.0231
+  },
   {
    "name": "Bayview Community Center",
    "kind": "community",
@@ -15,6 +39,16 @@
     "jsonld"
    ],
    "raw_events": 83,
+   "error": ""
+  },
+  {
+   "name": "Ticketmaster",
+   "kind": "source",
+   "website": "",
+   "feeds": [
+    "ticketmaster"
+   ],
+   "raw_events": 56,
    "error": ""
   },
   {
@@ -112,6 +146,66 @@
    "error": ""
   },
   {
+   "name": "Harmony Bar & Grill",
+   "kind": "bar",
+   "website": "https://www.harmonybarandgrill.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 12,
+   "error": ""
+  },
+  {
+   "name": "High Noon Saloon",
+   "kind": "bar",
+   "website": "https://www.high-noon.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 12,
+   "error": ""
+  },
+  {
+   "name": "Grey Market",
+   "kind": "bar",
+   "website": "https://www.madisongreymarket.com",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 10,
+   "error": ""
+  },
+  {
+   "name": "Gamma Ray Bar",
+   "kind": "bar",
+   "website": "https://gammaray.bar",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 9,
+   "error": ""
+  },
+  {
+   "name": "Lazy Oaf Lounge",
+   "kind": "bar",
+   "website": "https://www.lazyoaflounge.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 8,
+   "error": ""
+  },
+  {
+   "name": "The Kickback",
+   "kind": "bar",
+   "website": "https://thekickback.bar/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 8,
+   "error": ""
+  },
+  {
    "name": "Bridge Lakepoint Waunona Neighborhood Center",
    "kind": "community",
    "website": "https://www.blwcenter.org/",
@@ -121,6 +215,27 @@
     "jsonld"
    ],
    "raw_events": 7,
+   "error": ""
+  },
+  {
+   "name": "Crystal Corner Bar",
+   "kind": "bar",
+   "website": "https://thecrystalcornerbar.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 6,
+   "error": ""
+  },
+  {
+   "name": "Delta Beer Lab",
+   "kind": "brewery",
+   "website": "https://www.delta.beer/",
+   "feeds": [
+    "squarespace",
+    "ai"
+   ],
+   "raw_events": 6,
    "error": ""
   },
   {
@@ -170,11 +285,42 @@
    "error": ""
   },
   {
+   "name": "The Malt House",
+   "kind": "bar",
+   "website": "http://malthousetavern.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 5,
+   "error": ""
+  },
+  {
    "name": "Children's Theater of Madison",
    "kind": "venue",
    "website": "https://ctmtheater.org/",
    "feeds": [
     "tribe"
+   ],
+   "raw_events": 4,
+   "error": ""
+  },
+  {
+   "name": "Dexter's Pub",
+   "kind": "bar",
+   "website": "https://www.dexterspubmadison.com/",
+   "feeds": [
+    "squarespace",
+    "ai"
+   ],
+   "raw_events": 4,
+   "error": ""
+  },
+  {
+   "name": "Laurel Tavern",
+   "kind": "bar",
+   "website": "http://www.thelaureltavern.com",
+   "feeds": [
+    "ai"
    ],
    "raw_events": 4,
    "error": ""
@@ -186,6 +332,16 @@
    "feeds": [
     "tribe",
     "jsonld"
+   ],
+   "raw_events": 4,
+   "error": ""
+  },
+  {
+   "name": "State Line Distillery",
+   "kind": "brewery",
+   "website": "https://www.statelinedistillery.com/",
+   "feeds": [
+    "ai"
    ],
    "raw_events": 4,
    "error": ""
@@ -204,6 +360,27 @@
    "error": ""
   },
   {
+   "name": "Come Back Inn",
+   "kind": "bar",
+   "website": "https://comebackintavern.com/",
+   "feeds": [
+    "tribe",
+    "jsonld"
+   ],
+   "raw_events": 3,
+   "error": ""
+  },
+  {
+   "name": "Flight Wine & Bourbon Bar",
+   "kind": "bar",
+   "website": "https://flightwi.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 3,
+   "error": ""
+  },
+  {
    "name": "State Street Brats",
    "kind": "bar",
    "website": "https://statestreetbrats.com/",
@@ -213,6 +390,16 @@
     "jsonld"
    ],
    "raw_events": 3,
+   "error": ""
+  },
+  {
+   "name": "Aftershock Classic Arcade",
+   "kind": "bar",
+   "website": "https://www.aftershockclassicarcade.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 2,
    "error": ""
   },
   {
@@ -235,6 +422,86 @@
     "jsonld"
    ],
    "raw_events": 2,
+   "error": ""
+  },
+  {
+   "name": "Double Tap",
+   "kind": "bar",
+   "website": "https://www.doubletapbeercade.com/location/madison/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 2,
+   "error": ""
+  },
+  {
+   "name": "Doundrins Distilling",
+   "kind": "brewery",
+   "website": "https://doundrinsdistilling.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 2,
+   "error": ""
+  },
+  {
+   "name": "Karben4 Brewing",
+   "kind": "brewery",
+   "website": "https://www.karben4.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 2,
+   "error": ""
+  },
+  {
+   "name": "Monkeyshines Bar & Grill",
+   "kind": "bar",
+   "website": "http://www.monkeyshinesbarandgrill.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 2,
+   "error": ""
+  },
+  {
+   "name": "Old Sugar Distillery",
+   "kind": "brewery",
+   "website": "https://oldsugardistillery.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 2,
+   "error": ""
+  },
+  {
+   "name": "Roxxy",
+   "kind": "bar",
+   "website": "https://www.roxxybar.com/location/madison/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 2,
+   "error": ""
+  },
+  {
+   "name": "Wando's Bar & Grill",
+   "kind": "bar",
+   "website": "https://wandosbar.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 2,
+   "error": ""
+  },
+  {
+   "name": "Below Deck Concession Stand",
+   "kind": "cafe",
+   "website": "https://www.mymonona.com/1395/Below-Deck-Concession-Stand",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 1,
    "error": ""
   },
   {
@@ -265,23 +532,6 @@
     "jsonld"
    ],
    "raw_events": 1,
-   "error": ""
-  },
-  {
-   "name": "AI page reading",
-   "kind": "source",
-   "website": "",
-   "feeds": [],
-   "raw_events": 0,
-   "error": "off (no ANTHROPIC_API_KEY)",
-   "calls": 0
-  },
-  {
-   "name": "Aftershock Classic Arcade",
-   "kind": "bar",
-   "website": "https://www.aftershockclassicarcade.com/",
-   "feeds": [],
-   "raw_events": 0,
    "error": ""
   },
   {
@@ -400,14 +650,6 @@
    "name": "Bartell Theatre",
    "kind": "venue",
    "website": "https://bartelltheatre.org/",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Below Deck Concession Stand",
-   "kind": "cafe",
-   "website": "https://www.mymonona.com/1395/Below-Deck-Concession-Stand",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -575,17 +817,6 @@
    "error": ""
   },
   {
-   "name": "Come Back Inn",
-   "kind": "bar",
-   "website": "https://comebackintavern.com/",
-   "feeds": [
-    "tribe",
-    "jsonld"
-   ],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
    "name": "Communication",
    "kind": "venue",
    "website": "https://communicationmadison.com/",
@@ -612,56 +843,12 @@
    "error": ""
   },
   {
-   "name": "Crystal Corner Bar",
-   "kind": "bar",
-   "website": "https://thecrystalcornerbar.com/",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
    "name": "D'Vino",
    "kind": "bar",
    "website": "https://www.dvinomadison.com/",
    "feeds": [
     "squarespace"
    ],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Delta Beer Lab",
-   "kind": "brewery",
-   "website": "https://www.delta.beer/",
-   "feeds": [
-    "squarespace"
-   ],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Dexter's Pub",
-   "kind": "bar",
-   "website": "https://www.dexterspubmadison.com/",
-   "feeds": [
-    "squarespace"
-   ],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Double Tap",
-   "kind": "bar",
-   "website": "https://www.doubletapbeercade.com/location/madison/",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Doundrins Distilling",
-   "kind": "brewery",
-   "website": "https://doundrinsdistilling.com/",
-   "feeds": [],
    "raw_events": 0,
    "error": ""
   },
@@ -746,14 +933,6 @@
    "error": ""
   },
   {
-   "name": "Flight Wine & Bourbon Bar",
-   "kind": "bar",
-   "website": "https://flightwi.com/",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
    "name": "Flynn Hall",
    "kind": "community",
    "website": "https://www.tn.cottagegrove.wi.gov/hall-rental-information/",
@@ -764,14 +943,6 @@
    ],
    "raw_events": 0,
    "error": "ical: PermissionError: robots.txt disallows https://calendar.google.com/calendar/ical/bnmftglj834vll16kahe1p9m58%40group.calendar.google.com/public/basic.ics; ical: PermissionError: robots.txt disallows https://calendar.google.com/calendar/ical/en.usa%23holiday%40group.v.calendar.google.com/public/basic.ics; ical: PermissionError: robots.txt disallows https://calendar.google.com/calendar/ical/khj1apqtd875hhj4javgr1a2t0%40group.calendar.google.com/public/basic.ics"
-  },
-  {
-   "name": "Gamma Ray Bar",
-   "kind": "bar",
-   "website": "https://gammaray.bar",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
   },
   {
    "name": "Garth's Brew Bar",
@@ -872,22 +1043,6 @@
    "error": ""
   },
   {
-   "name": "Grey Market",
-   "kind": "bar",
-   "website": "https://www.madisongreymarket.com",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Harmony Bar & Grill",
-   "kind": "bar",
-   "website": "https://www.harmonybarandgrill.com/",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
    "name": "Hawk's",
    "kind": "bar",
    "website": "https://www.hawksbar.com/",
@@ -913,14 +1068,6 @@
    "feeds": [],
    "raw_events": 0,
    "error": "PermissionError: robots.txt disallows https://highcrowdcafe.com"
-  },
-  {
-   "name": "High Noon Saloon",
-   "kind": "bar",
-   "website": "https://www.high-noon.com/",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
   },
   {
    "name": "Honey Barrel",
@@ -971,16 +1118,6 @@
    "error": ""
   },
   {
-   "name": "Isthmus calendar",
-   "kind": "source",
-   "website": "https://isthmus.com/search/event/calendar-of-events/calendar.ics",
-   "feeds": [
-    "calendar"
-   ],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
    "name": "Italian Workmen's Club",
    "kind": "community",
    "website": "https://iwcmadison.com/",
@@ -1005,14 +1142,6 @@
    "error": ""
   },
   {
-   "name": "Karben4 Brewing",
-   "kind": "brewery",
-   "website": "https://www.karben4.com/",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
    "name": "Kehl School of Dance",
    "kind": "venue",
    "website": "https://www.kehldance.com/",
@@ -1029,25 +1158,9 @@
    "error": ""
   },
   {
-   "name": "Laurel Tavern",
-   "kind": "bar",
-   "website": "http://www.thelaureltavern.com",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
    "name": "Lazy Jane's Cafe and Bakery",
    "kind": "cafe",
    "website": "https://www.lazyjanes.com",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Lazy Oaf Lounge",
-   "kind": "bar",
-   "website": "https://www.lazyoaflounge.com/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1219,7 +1332,7 @@
   {
    "name": "Moka",
    "kind": "cafe",
-   "website": "https://www.mymokacoffee.com/",
+   "website": "https://mymokacoffee.com/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1227,7 +1340,7 @@
   {
    "name": "Moka",
    "kind": "cafe",
-   "website": "https://mymokacoffee.com/",
+   "website": "https://www.mymokacoffee.com/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1244,14 +1357,6 @@
    "name": "Monday's",
    "kind": "bar",
    "website": "https://mondaysbar.com/",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Monkeyshines Bar & Grill",
-   "kind": "bar",
-   "website": "http://www.monkeyshinesbarandgrill.com/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1334,14 +1439,6 @@
    "name": "Ohio Tavern",
    "kind": "bar",
    "website": "https://theohiotavern.com/",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Old Sugar Distillery",
-   "kind": "brewery",
-   "website": "https://oldsugardistillery.com/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1496,14 +1593,6 @@
    "name": "Rotunda Cafe",
    "kind": "cafe",
    "website": "https://www.rotundacafeatwood.com/",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Roxxy",
-   "kind": "bar",
-   "website": "https://www.roxxybar.com/location/madison/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1671,14 +1760,6 @@
    "error": ""
   },
   {
-   "name": "State Line Distillery",
-   "kind": "brewery",
-   "website": "https://www.statelinedistillery.com/",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
    "name": "Stuffed Olive",
    "kind": "bar",
    "website": "https://www.thestuffedolive.com/location/madison/",
@@ -1751,28 +1832,12 @@
    "error": ""
   },
   {
-   "name": "The Kickback",
-   "kind": "bar",
-   "website": "https://thekickback.bar/",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
    "name": "The Library",
    "kind": "bar",
    "website": "https://www.librarycafeandbar.com",
    "feeds": [
     "squarespace"
    ],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "The Malt House",
-   "kind": "bar",
-   "website": "http://malthousetavern.com/",
-   "feeds": [],
    "raw_events": 0,
    "error": ""
   },
@@ -1834,14 +1899,6 @@
    "feeds": [],
    "raw_events": 0,
    "error": ""
-  },
-  {
-   "name": "Ticketmaster",
-   "kind": "source",
-   "website": "",
-   "feeds": [],
-   "raw_events": 0,
-   "error": "off (no TICKETMASTER_KEY)"
   },
   {
    "name": "Tiny's Tap House",
@@ -1941,14 +1998,6 @@
    "name": "Wake n Bakery",
    "kind": "cafe",
    "website": "https://www.wakenbakery.net/locations/madison/",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Wando's Bar & Grill",
-   "kind": "bar",
-   "website": "https://wandosbar.com/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
