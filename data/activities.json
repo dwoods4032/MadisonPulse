@@ -1,0 +1,514 @@
+{
+ "generated_at": "2026-10-26T16:00:20-05:00",
+ "count": 30,
+ "by_type": {
+  "arcade": 9,
+  "axe": 1,
+  "bowling": 9,
+  "cinema": 6,
+  "darts": 1,
+  "escape": 1,
+  "minigolf": 1,
+  "trampoline": 2
+ },
+ "activities": [
+  {
+   "id": "osm:node/6431684446",
+   "name": "Aftershock Classic Arcade",
+   "type": "arcade",
+   "label": "Arcade",
+   "price": 15,
+   "minutes": 75,
+   "lat": 43.08978,
+   "lon": -89.363228,
+   "address": "1444 East Washington Avenue",
+   "website": "https://www.aftershockclassicarcade.com/",
+   "hours": null,
+   "bar": true
+  },
+  {
+   "id": "osm:way/1135060528",
+   "name": "Castlecade",
+   "type": "arcade",
+   "label": "Arcade",
+   "price": 15,
+   "minutes": 75,
+   "lat": 43.12565,
+   "lon": -89.304317,
+   "address": "",
+   "website": "",
+   "hours": null,
+   "bar": false
+  },
+  {
+   "id": "osm:way/105823620",
+   "name": "Chuck E. Cheese",
+   "type": "arcade",
+   "label": "Arcade",
+   "price": 15,
+   "minutes": 75,
+   "lat": 43.058536,
+   "lon": -89.497288,
+   "address": "438 Grand Canyon Drive",
+   "website": "https://locations.chuckecheese.com/us/wi/madison/438-grand-canyon-dr.",
+   "hours": null,
+   "bar": false
+  },
+  {
+   "id": "osm:node/5425792364",
+   "name": "Dave & Buster's",
+   "type": "arcade",
+   "label": "Arcade",
+   "price": 15,
+   "minutes": 75,
+   "lat": 43.055364,
+   "lon": -89.505936,
+   "address": "",
+   "website": "",
+   "hours": null,
+   "bar": false
+  },
+  {
+   "id": "osm:node/12112935176",
+   "name": "Double Tap",
+   "type": "arcade",
+   "label": "Arcade",
+   "price": 15,
+   "minutes": 75,
+   "lat": 43.074677,
+   "lon": -89.391385,
+   "address": "347 State Street",
+   "website": "https://www.doubletapbeercade.com/location/madison/",
+   "hours": null,
+   "bar": true
+  },
+  {
+   "id": "osm:node/5503513787",
+   "name": "Geeks Mania Arcade",
+   "type": "arcade",
+   "label": "Arcade",
+   "price": 15,
+   "minutes": 75,
+   "lat": 43.055524,
+   "lon": -89.491782,
+   "address": "6502 Odana Road",
+   "website": "https://www.geeksmania.com/home.html",
+   "hours": [
+    [
+     [
+      0,
+      1,
+      2,
+      3,
+      6
+     ],
+     "10:00",
+     "22:00"
+    ],
+    [
+     [
+      4,
+      5
+     ],
+     "10:00",
+     "24:00"
+    ]
+   ],
+   "bar": false
+  },
+  {
+   "id": "osm:way/385735932",
+   "name": "I/O Arcade Bar",
+   "type": "arcade",
+   "label": "Arcade",
+   "price": 15,
+   "minutes": 75,
+   "lat": 43.080173,
+   "lon": -89.369264,
+   "address": "920;720 Williamson Street",
+   "website": "",
+   "hours": null,
+   "bar": true
+  },
+  {
+   "id": "osm:node/12142917276",
+   "name": "Nerdhaven Arcade",
+   "type": "arcade",
+   "label": "Arcade",
+   "price": 15,
+   "minutes": 75,
+   "lat": 43.083346,
+   "lon": -89.323535,
+   "address": "",
+   "website": "",
+   "hours": null,
+   "bar": false
+  },
+  {
+   "id": "osm:way/322768190",
+   "name": "Rossi's Pizza",
+   "type": "arcade",
+   "label": "Arcade",
+   "price": 15,
+   "minutes": 75,
+   "lat": 43.071617,
+   "lon": -89.326433,
+   "address": "4503 Monona Drive",
+   "website": "https://rossispizzamonona.com/",
+   "hours": null,
+   "bar": false
+  },
+  {
+   "id": "osm:node/13104814630",
+   "name": "Madison Axe",
+   "type": "axe",
+   "label": "Axe throwing",
+   "price": 30,
+   "minutes": 75,
+   "lat": 43.063316,
+   "lon": -89.308173,
+   "address": "2427 South Stoughton Road",
+   "website": "https://www.madisonaxe.com/",
+   "hours": null,
+   "bar": false
+  },
+  {
+   "id": "osm:way/105672048",
+   "name": "Bowl-A-Vard Lanes",
+   "type": "bowling",
+   "label": "Bowling",
+   "price": 20,
+   "minutes": 90,
+   "lat": 43.126454,
+   "lon": -89.292489,
+   "address": "",
+   "website": "https://bowlavard.com/",
+   "hours": null,
+   "bar": false
+  },
+  {
+   "id": "osm:way/438200040",
+   "name": "Dream Lanes",
+   "type": "bowling",
+   "label": "Bowling",
+   "price": 20,
+   "minutes": 90,
+   "lat": 43.086741,
+   "lon": -89.306872,
+   "address": "",
+   "website": "",
+   "hours": null,
+   "bar": false
+  },
+  {
+   "id": "osm:node/6193010119",
+   "name": "Prairie Lanes",
+   "type": "bowling",
+   "label": "Bowling",
+   "price": 20,
+   "minutes": 90,
+   "lat": 43.17517,
+   "lon": -89.242684,
+   "address": "430 Clarmar Drive",
+   "website": "",
+   "hours": null,
+   "bar": false
+  },
+  {
+   "id": "osm:way/105823610",
+   "name": "Schwoegler's Entertainment Center",
+   "type": "bowling",
+   "label": "Bowling",
+   "price": 20,
+   "minutes": 90,
+   "lat": 43.057805,
+   "lon": -89.497471,
+   "address": "444 Grand Canyon Drive",
+   "website": "",
+   "hours": null,
+   "bar": false
+  },
+  {
+   "id": "osm:way/106497401",
+   "name": "Spartan Bowl",
+   "type": "bowling",
+   "label": "Bowling",
+   "price": 20,
+   "minutes": 90,
+   "lat": 43.01281,
+   "lon": -89.301953,
+   "address": "",
+   "website": "",
+   "hours": null,
+   "bar": false
+  },
+  {
+   "id": "osm:way/107655171",
+   "name": "Ten Pin Alley",
+   "type": "bowling",
+   "label": "Bowling",
+   "price": 20,
+   "minutes": 90,
+   "lat": 43.007992,
+   "lon": -89.481423,
+   "address": "",
+   "website": "https://www.tenpinalleys.com/",
+   "hours": null,
+   "bar": false
+  },
+  {
+   "id": "osm:way/97601589",
+   "name": "The Sport Bowl",
+   "type": "bowling",
+   "label": "Bowling",
+   "price": 20,
+   "minutes": 90,
+   "lat": 43.096686,
+   "lon": -89.499731,
+   "address": "",
+   "website": "",
+   "hours": null,
+   "bar": true
+  },
+  {
+   "id": "osm:node/5065146259",
+   "name": "Village Lanes",
+   "type": "bowling",
+   "label": "Bowling",
+   "price": 20,
+   "minutes": 90,
+   "lat": 43.056238,
+   "lon": -89.328008,
+   "address": "",
+   "website": "",
+   "hours": null,
+   "bar": false
+  },
+  {
+   "id": "osm:way/241950471",
+   "name": "Waun-A-Bowl",
+   "type": "bowling",
+   "label": "Bowling",
+   "price": 20,
+   "minutes": 90,
+   "lat": 43.189482,
+   "lon": -89.462891,
+   "address": "",
+   "website": "",
+   "hours": null,
+   "bar": false
+  },
+  {
+   "id": "osm:way/370277876",
+   "name": "AMC Fitchburg 18",
+   "type": "cinema",
+   "label": "Movie",
+   "price": 14,
+   "minutes": 150,
+   "lat": 43.014339,
+   "lon": -89.466215,
+   "address": "6091 McKee Road",
+   "website": "https://www.amctheatres.com/movie-theatres/madison/amc-fitchburg-18",
+   "hours": null,
+   "bar": false
+  },
+  {
+   "id": "osm:way/783129314",
+   "name": "Auditorium",
+   "type": "cinema",
+   "label": "Movie",
+   "price": 14,
+   "minutes": 150,
+   "lat": 43.074056,
+   "lon": -89.398608,
+   "address": "",
+   "website": "https://cinema.wisc.edu/",
+   "hours": null,
+   "bar": false
+  },
+  {
+   "id": "osm:way/1135060542",
+   "name": "Flix Brewhouse",
+   "type": "cinema",
+   "label": "Movie",
+   "price": 14,
+   "minutes": 150,
+   "lat": 43.124946,
+   "lon": -89.303571,
+   "address": "85 E Towne Mall",
+   "website": "https://www.flixbrewhouse.com/madison",
+   "hours": null,
+   "bar": false
+  },
+  {
+   "id": "osm:way/539042285",
+   "name": "Marcus Palace Cinema",
+   "type": "cinema",
+   "label": "Movie",
+   "price": 14,
+   "minutes": 150,
+   "lat": 43.169751,
+   "lon": -89.272649,
+   "address": "2830 Hoepker Road",
+   "website": "https://www.marcustheatres.com/theatre-locations/palace-cinema-sun-prairie",
+   "hours": null,
+   "bar": false
+  },
+  {
+   "id": "osm:way/49982470",
+   "name": "Marcus Point Cinema",
+   "type": "cinema",
+   "label": "Movie",
+   "price": 14,
+   "minutes": 150,
+   "lat": 43.057795,
+   "lon": -89.51951,
+   "address": "7825 Big Sky Drive",
+   "website": "http://marcustheatres.com/Theatre/TheatreDetail/141/",
+   "hours": null,
+   "bar": false
+  },
+  {
+   "id": "osm:node/2969024345",
+   "name": "The Marquee",
+   "type": "cinema",
+   "label": "Movie",
+   "price": 14,
+   "minutes": 150,
+   "lat": 43.071771,
+   "lon": -89.407826,
+   "address": "",
+   "website": "https://union.wisc.edu/marquee.htm",
+   "hours": null,
+   "bar": false
+  },
+  {
+   "id": "osm:way/90922863",
+   "name": "Tanner's Bar & Grill",
+   "type": "darts",
+   "label": "Darts",
+   "price": 10,
+   "minutes": 75,
+   "lat": 43.098053,
+   "lon": -89.519275,
+   "address": "2259 Deming Way",
+   "website": "https://tannersbarandgrill.com/",
+   "hours": [
+    [
+     [
+      0,
+      1,
+      2,
+      3
+     ],
+     "11:00",
+     "23:00"
+    ],
+    [
+     [
+      4,
+      5
+     ],
+     "11:00",
+     "24:00"
+    ],
+    [
+     [
+      6
+     ],
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "bar": false
+  },
+  {
+   "id": "osm:node/5642132121",
+   "name": "Escape This!",
+   "type": "escape",
+   "label": "Escape room",
+   "price": 35,
+   "minutes": 75,
+   "lat": 43.07407,
+   "lon": -89.37964,
+   "address": "120 East Wilson Street",
+   "website": "",
+   "hours": null,
+   "bar": false
+  },
+  {
+   "id": "osm:node/9160574717",
+   "name": "Indoor Course",
+   "type": "minigolf",
+   "label": "Mini golf",
+   "price": 12,
+   "minutes": 60,
+   "lat": 43.045271,
+   "lon": -89.474695,
+   "address": "",
+   "website": "",
+   "hours": null,
+   "bar": false
+  },
+  {
+   "id": "osm:node/5457526617",
+   "name": "Sky Zone",
+   "type": "trampoline",
+   "label": "Trampoline park",
+   "price": 20,
+   "minutes": 75,
+   "lat": 43.036644,
+   "lon": -89.414802,
+   "address": "2134 West Beltline Highway",
+   "website": "https://www.skyzone.com/madison",
+   "hours": null,
+   "bar": false
+  },
+  {
+   "id": "osm:way/86579194",
+   "name": "Urban Air",
+   "type": "trampoline",
+   "label": "Trampoline park",
+   "price": 20,
+   "minutes": 75,
+   "lat": 43.054222,
+   "lon": -89.508475,
+   "address": "7309 West Towne Way",
+   "website": "https://www.urbanairtrampolinepark.com/locations/wisconsin/madison",
+   "hours": [
+    [
+     [
+      0,
+      1,
+      2,
+      3
+     ],
+     "16:00",
+     "20:00"
+    ],
+    [
+     [
+      4
+     ],
+     "12:00",
+     "23:00"
+    ],
+    [
+     [
+      5
+     ],
+     "10:00",
+     "23:00"
+    ],
+    [
+     [
+      6
+     ],
+     "10:00",
+     "20:00"
+    ]
+   ],
+   "bar": false
+  }
+ ]
+}

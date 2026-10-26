@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-10-26T15:23:19-05:00",
- "total_events": 401,
- "in_more_than_one_source": 23,
+ "generated_at": "2026-10-26T16:02:59-05:00",
+ "total_events": 392,
+ "in_more_than_one_source": 26,
  "sources": {
   "AI page reading": {
-   "events": 158,
-   "unique_events": 140,
+   "events": 152,
+   "unique_events": 131,
    "overlap": {
-    "Isthmus": 5,
-    "Ticketmaster": 14,
+    "Isthmus": 7,
+    "Ticketmaster": 15,
     "Venue websites": 0
    },
-   "venues": 40,
+   "venues": 37,
    "unique_venues": [
     "Aftershock Classic Arcade",
     "Arts + Literature Laboratory",
@@ -25,7 +25,6 @@
     "Ebling Library",
     "Flight Wine & Bourbon Bar",
     "Grey Market",
-    "Imagination Center",
     "Italian Workmen's Club",
     "Karben4 Brewing",
     "Lakeside Street Coffee House",
@@ -37,9 +36,7 @@
     "Old Sugar Distillery",
     "Oscar Rennebohm Library",
     "Overture Center for the Arts",
-    "Pinney Library",
     "Reindahl Park Pavillion",
-    "Sequoya Library",
     "Sun Prairie Public Library",
     "Veterans Memorial Park",
     "Wando's Bar & Grill"
@@ -47,9 +44,9 @@
   },
   "Isthmus": {
    "events": 130,
-   "unique_events": 123,
+   "unique_events": 121,
    "overlap": {
-    "AI page reading": 5,
+    "AI page reading": 7,
     "Ticketmaster": 2,
     "Venue websites": 1
    },
@@ -72,9 +69,9 @@
     "Green Room Public House",
     "Headquarters",
     "Hilldale",
-    "Isthmus calendar",
     "Lake Louie Brewing/Wisconsin Brewing Co.",
     "Leopold's Books Bar Caffe",
+    "Location not listed",
     "Locker Room Sports Bar",
     "Lola's Hi/Lo Lounge",
     "Madison Metropolitan School District Doyle Administration Building",
@@ -117,9 +114,9 @@
   },
   "Ticketmaster": {
    "events": 54,
-   "unique_events": 36,
+   "unique_events": 35,
    "overlap": {
-    "AI page reading": 14,
+    "AI page reading": 15,
     "Isthmus": 2,
     "Venue websites": 3
    },

@@ -37,8 +37,8 @@
   ]
  },
  "https://thecrystalcornerbar.com/Calendar.htm": {
-  "hash": "434d5b351ac83bbb341e3111663d3618beba7529",
-  "asked": "2026-10-26T15:19:28-05:00",
+  "hash": "b1ad04e4dbffef1c397cf10597ac3cb4e877e2df",
+  "asked": "2026-10-26T16:00:25-05:00",
   "on": "2026-10-26",
   "events": [
    {
@@ -47,15 +47,44 @@
     "start": "20:00",
     "end": null,
     "price": 15,
-    "description": "Sabbath Dweller (Ruin Dweller / Black Sabbath cover set), Yotuma, Tubal Cain, Red Museum (solo synth horror movie soundtrack)."
+    "description": "Metal Halloween show: Sabbath Dweller (Black Sabbath cover set), Yotuma, Whippets, Red Museum (solo synth horror soundtrack)",
+    "category": "music"
    },
    {
-    "title": "The Dead Johnnys, Tom Howl & The Scowl, Lummox",
+    "title": "ROCK rock ROCK rock show: The Dead Johnnys, Tom Howl & The Scowl, Lummox",
     "date": "2026-11-07",
     "start": "21:00",
     "end": null,
     "price": 10,
-    "description": "Rock show with The Dead Johnnys, Tom Howl & The Scowl, and Lummox."
+    "description": "Rock show featuring The Dead Johnnys, Tom Howl & The Scowl, and Lummox",
+    "category": "music"
+   },
+   {
+    "title": "Free pool until 7PM",
+    "date": "2026-10-26",
+    "start": null,
+    "end": "19:00",
+    "price": null,
+    "description": "Free pool until 7PM on Mondays",
+    "category": "other"
+   },
+   {
+    "title": "Free pool until 7PM",
+    "date": "2026-11-02",
+    "start": null,
+    "end": "19:00",
+    "price": null,
+    "description": "Free pool until 7PM on Mondays",
+    "category": "other"
+   },
+   {
+    "title": "Free pool until 7PM",
+    "date": "2026-11-09",
+    "start": null,
+    "end": "19:00",
+    "price": null,
+    "description": "Free pool until 7PM on Mondays",
+    "category": "other"
    }
   ]
  },
@@ -238,49 +267,27 @@
   ]
  },
  "https://www.thecrystalcornerbar.com/Calendar.htm": {
-  "hash": "434d5b351ac83bbb341e3111663d3618beba7529",
-  "asked": "2026-10-26T15:19:32-05:00",
+  "hash": "b1ad04e4dbffef1c397cf10597ac3cb4e877e2df",
+  "asked": "2026-10-26T16:00:28-05:00",
   "on": "2026-10-26",
   "events": [
-   {
-    "title": "Free Pool",
-    "date": "2026-10-26",
-    "start": null,
-    "end": "19:00",
-    "price": 0,
-    "description": "Free pool until 7PM on Mondays."
-   },
-   {
-    "title": "Free Pool",
-    "date": "2026-11-02",
-    "start": null,
-    "end": "19:00",
-    "price": 0,
-    "description": "Free pool until 7PM on Mondays."
-   },
-   {
-    "title": "Free Pool",
-    "date": "2026-11-09",
-    "start": null,
-    "end": "19:00",
-    "price": 0,
-    "description": "Free pool until 7PM on Mondays."
-   },
    {
     "title": "Metal Halloween Show",
     "date": "2026-10-31",
     "start": "20:00",
     "end": null,
     "price": 15,
-    "description": "Sabbath Dweller (Ruin Dweller, Black Sabbath cover set), Yotuma, Tubal Cain, Red Museum (solo synth horror movie soundtrack)."
+    "description": "Sabbath Dweller (Black Sabbath cover set), Yotuma, Whippets, Red Museum (solo synth horror movie soundtrack)",
+    "category": "music"
    },
    {
-    "title": "The Dead Johnnys / Tom Howl & The Scowl / Lummox",
+    "title": "ROCK rock show",
     "date": "2026-11-07",
     "start": "21:00",
     "end": null,
     "price": 10,
-    "description": "Rock show with The Dead Johnnys, Tom Howl & The Scowl, and Lummox."
+    "description": "The Dead Johnnys, Tom Howl & The Scowl, Lummox",
+    "category": "music"
    }
   ]
  },
@@ -589,8 +596,8 @@
   ]
  },
  "https://high-noon.com/calendar/": {
-  "hash": "bbe1f3712e2efab8e073310d6d1065ba05198ae9",
-  "asked": "2026-10-26T15:19:37-05:00",
+  "hash": "c14df3619efed57f15715d34e0b854aa33e777a3",
+  "asked": "2026-10-26T16:00:31-05:00",
   "on": "2026-10-26",
   "events": [
    {
@@ -599,15 +606,17 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents at High Noon Saloon. Doors 7:00 pm, show 8:00 pm."
+    "description": "FPC Live presents. Doors 7:00 pm.",
+    "category": "music"
    },
    {
-    "title": "Inside Wisconsin Politics Live",
+    "title": "Inside Wisconsin Politics LIVE",
     "date": "2026-10-27",
     "start": "18:00",
     "end": null,
     "price": 0,
-    "description": "Wisconsin Public Radio presents a live show. Doors 5:00 pm, show 6:00 pm. Free, registration required."
+    "description": "Wisconsin Public Radio presents. Free, registration required. Doors 5:00 pm.",
+    "category": "other"
    },
    {
     "title": "The Remix DJ Battle: Get Out The Vote Rally",
@@ -615,7 +624,8 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "Urban League of Greater Madison Young Professionals presents. Doors 6:30 pm, show 7:30 pm."
+    "description": "Urban League of Greater Madison Young Professionals presents. Doors 6:30 pm.",
+    "category": "music"
    },
    {
     "title": "Ska-lloween",
@@ -623,7 +633,8 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents, with One Beer Please, Lost Island Society, and Meskales. Doors 7:00 pm."
+    "description": "FPC Live presents, with One Beer Please, Lost Island Society, and Meskales. Doors 7:00 pm.",
+    "category": "music"
    },
    {
     "title": "HalloWEEN '26",
@@ -631,7 +642,8 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents, with BAMM and Wild Violets. Doors 7:00 pm."
+    "description": "FPC Live presents, with BAMM and Wild Violets. Doors 7:00 pm.",
+    "category": "music"
    },
    {
     "title": "Halloween Hangover III",
@@ -639,7 +651,8 @@
     "start": "17:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents Halloween tribute acts: The Marilyns as The Misfits, Iron Metal Jackson as Metallica, and You First as Me First And The Gimme Gimmes. Doors 4:00 pm."
+    "description": "FPC Live presents, with The Marilyns as 'The Misfits', Iron Metal Jackson as 'Metallica', and You First as 'Me First And The Gimme Gimmes'. Doors 4:00 pm.",
+    "category": "music"
    },
    {
     "title": "Noah Gundersen",
@@ -647,7 +660,8 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "FPC Live presents, with Runner and Breakup Shoes. Doors 6:30 pm."
+    "description": "FPC Live presents, with Runner and Breakup Shoes. Doors 6:30 pm.",
+    "category": "music"
    },
    {
     "title": "Sophie Hunter",
@@ -655,7 +669,8 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents, with Reysha Rami. Doors 7:00 pm. Low tickets listed."
+    "description": "FPC Live presents, with Reysha Rami. Doors 7:00 pm.",
+    "category": "music"
    },
    {
     "title": "The Bends",
@@ -663,7 +678,8 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents, with The Braymores. Doors 7:00 pm. Low tickets listed."
+    "description": "FPC Live presents, with The Braymores. Doors 7:00 pm.",
+    "category": "music"
    },
    {
     "title": "Six Foot Blonde",
@@ -671,7 +687,8 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents, with Genevieve Heyward. Doors 7:00 pm."
+    "description": "FPC Live presents, with Genevieve Heyward. Doors 7:00 pm.",
+    "category": "music"
    },
    {
     "title": "Unrest Fest 2026",
@@ -679,7 +696,8 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents, with Tenmonthsummer, Barely Civil, Los Kausas, Ourvanity, The Up & Up, The Brash Menagerie, and Irish Goodbyes. Doors 6:00 pm."
+    "description": "FPC Live presents, with Tenmonthsummer, Barely Civil, Los Kausas, Ourvanity, The Up & Up, The Brash Menagerie, and Irish Goodbyes. Doors 6:00 pm.",
+    "category": "music"
    },
    {
     "title": "Psychostick",
@@ -687,7 +705,8 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "FPC Live presents, with Texas Toast Chainsaw Massacre. Doors 6:30 pm."
+    "description": "FPC Live presents, with Texas Toast Chainsaw Massacre. Doors 6:30 pm.",
+    "category": "music"
    },
    {
     "title": "Madison StorySLAM: Home for the Holidays",
@@ -695,7 +714,8 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "The Moth presents a storytelling event. Doors 6:30 pm, show 7:30 pm."
+    "description": "The Moth presents a storytelling event. Doors 6:30 pm.",
+    "category": "other"
    }
   ]
  },
@@ -821,8 +841,8 @@
   ]
  },
  "https://high-noon.com/event/fruition/": {
-  "hash": "222ed9248ca8c3f96b5546d9ff755ccddd8a69ad",
-  "asked": "2026-10-26T15:19:39-05:00",
+  "hash": "a43e4f3301ecf5239e47bebe7bfbf79567880806",
+  "asked": "2026-10-26T16:00:33-05:00",
   "on": "2026-10-26",
   "events": []
  },
@@ -1538,8 +1558,8 @@
   "events": []
  },
  "https://www.madisonpubliclibrary.org/spaces/events": {
-  "hash": "6f6c954b467df8109864c3a7a3b46412ee76a360",
-  "asked": "2026-10-26T15:22:58-05:00",
+  "hash": "de6ef437d1439ca6eec904fb26c12174c8e0adc9",
+  "asked": "2026-10-26T16:01:29-05:00",
   "on": "2026-10-26",
   "events": []
  },
@@ -2047,5 +2067,11 @@
     "description": "Listed as a related event on the Orpheum Theatre page; no time or price given."
    }
   ]
+ },
+ "https://rootedwi.org/get-involved/events-calendar/": {
+  "hash": "16f6102e9935a6de935842881b2239fa0381b16e",
+  "asked": "2026-10-26T16:01:15-05:00",
+  "on": "2026-10-26",
+  "events": []
  }
 }
