@@ -1,4 +1,5 @@
-// Hand-picked dinner, show, bar and late-night spots used to build a plan.
+// Hand-picked dinner, bar and late-night spots, mixed with restaurants and bars from OpenStreetMap.
+// Shows always come from real scraped events.
 // Checked against 2025-2026 closing roundups on 2026-10-26: removed Short Stack (closed Jan 2025)
 // and Jolly Bob's (closed Dec 2014). Ian's hours from ianspizza.com; Tornado and Greenbush from
 // Madison Magazine and Table Journey listings.
@@ -13,11 +14,6 @@ window.SPOTS = [
   {n:"Villa Tap",tav:1,k:"dinner",a:"north",p:20,v:["dive","classic"],g:1,w:"2302 Packers Ave",d:"North-side tavern since 1978. Strong Friday fish fry, local beer."},
   {n:"Great Dane Pub & Brewing",tav:1,k:"dinner",a:"downtown",p:25,v:["chill","classic"],g:1,w:"123 E Doty St",d:"Brewpub with house beers and a big menu. Easy group pick."},
   {n:"Ian's Pizza",k:"dinner",a:"downtown",p:10,v:["cheap","chill"],g:1,w:"100 State St",d:"Big New York-style slices with wild toppings like mac and cheese."},
-  {n:"High Noon Saloon",k:"show",a:"east",p:18,v:["music"],g:1,w:"701 E Washington Ave",d:"Mid-size room for touring and local bands."},
-  {n:"The Rigby Pub",k:"show",a:"downtown",p:8,v:["music","cheap"],g:1,w:"119 E Main St",d:"Pub on the Square that books local acts. Often low or no cover."},
-  {n:"Barrymore Theatre",k:"show",a:"east",p:30,v:["music","date"],g:1,w:"Atwood Ave",d:"1929 theater hosting music, comedy and film in the SASY neighborhood."},
-  {n:"North Street Cabaret",k:"show",a:"north",p:15,v:["music","chill"],t:1,w:"North St",d:"Small room dedicated to roots music."},
-  {n:"Majestic Theatre",k:"show",a:"downtown",p:35,v:["music"],g:1,w:"115 King St",d:"Historic downtown venue for bigger touring shows."},
   {n:"Ideal Bar",k:"bar",a:"east",p:12,v:["dive","cheap"],w:"1968 Atwood Ave",d:"Pinball and a jukebox. Start of the classic Atwood dive crawl."},
   {n:"Woody & Anne's",k:"bar",a:"east",p:12,v:["dive","cheap"],t:1,w:"2236 Winnebago St",d:"Tiny east-side dive with a 22-foot vintage shuffleboard table."},
   {n:"Wilson's Bar & Grill",k:"bar",a:"east",p:15,v:["chill","classic"],g:1,w:"2144 Atwood Ave",d:"Neighborhood spot that's good for watching a game."},

@@ -21,6 +21,20 @@ OpenStreetMap ──► data/venues.json ──► scraper visits each venue web
 3. **Weekly routines** in `data/recurring.json` (fish fry, meat raffles, bingo, trivia) fill in the many places that never post dates online. A scraped listing for the same night replaces the weekly one.
 4. **GitHub Actions** (`.github/workflows/scrape.yml`) runs all of this, commits the data, and publishes `site/` to GitHub Pages.
 
+## Optional sources (off until you add a key)
+
+Add keys under repo **Settings → Secrets and variables → Actions → New repository secret**. The next scheduled run picks them up.
+
+| Secret | What it turns on | Cost |
+|---|---|---|
+| `TICKETMASTER_KEY` | Ticketed shows at the Majestic, High Noon, Sylvee, Orpheum and other Ticketmaster venues | Free key from developer.ticketmaster.com |
+| `ANTHROPIC_API_KEY` | Claude reads venue pages that list events as plain text (about 4 in 5 venue sites) | Pay as you go; capped at `AI_MAX_CALLS` pages per run (default 60), unchanged pages are not re-sent |
+
+## Places in plans
+
+- **Shows** are always real events from the scraper; there are no stand-in venues.
+- **Dinner, bars and late-night food** come from `data/restaurants.json` and `data/venues.json` (OpenStreetMap, refreshed weekly) plus the hand-picked list in `site/spots.js`. They're chosen by walking distance from the event, and opening hours are respected where OpenStreetMap has them.
+
 ## One-time setup
 
 1. **Turn on Pages:** repo Settings → Pages → Source: **GitHub Actions**.
