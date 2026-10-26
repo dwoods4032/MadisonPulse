@@ -1,0 +1,4490 @@
+{
+ "osm:way/162500218": {
+  "checked": "2026-10-26T12:54:44-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://thebadgertavern.com/"
+  ],
+  "weekly": [],
+  "site": "https://thebadgertavern.com/"
+ },
+ "osm:way/1548491247": {
+  "checked": "2026-10-26T12:54:44-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://cervatowine.com/"
+  ],
+  "weekly": [],
+  "site": "https://cervatowine.com/"
+ },
+ "osm:node/12112935176": {
+  "checked": "2026-10-26T12:54:45-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.doubletapbeercade.com/location/madison/"
+  ],
+  "weekly": [],
+  "site": "https://www.doubletapbeercade.com/location/madison/"
+ },
+ "osm:node/2656676198": {
+  "checked": "2026-10-26T12:54:44-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.balaomadison608.com"
+  ],
+  "weekly": [],
+  "site": "https://www.balaomadison.com/"
+ },
+ "osm:way/417755093": {
+  "checked": "2026-10-26T12:54:45-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.fivenightclubmadison.com/"
+  ],
+  "weekly": [],
+  "site": "https://www.fivenightclubmadison.com/"
+ },
+ "osm:node/1348850923": {
+  "checked": "2026-10-26T12:54:44-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.thebrassringmadison.com/"
+  ],
+  "weekly": [],
+  "site": "https://thebrassringmadison.com/"
+ },
+ "osm:node/6431684446": {
+  "checked": "2026-10-26T12:54:44-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://aftershockclassicarcade.com/",
+   "https://aftershockclassicarcade.com/events/",
+   "https://aftershockclassicarcade.com/specials/"
+  ],
+  "weekly": [],
+  "site": "https://www.aftershockclassicarcade.com/"
+ },
+ "osm:node/4494607229": {
+  "checked": "2026-10-26T12:54:45-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "http://www.drackenbergs.com/",
+   "http://www.drackenbergs.com/events.html"
+  ],
+  "weekly": [],
+  "site": "http://www.drackenbergs.com/"
+ },
+ "osm:node/2611543703": {
+  "checked": "2026-10-26T12:54:46-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://gatesandbrovi.com/"
+  ],
+  "weekly": [],
+  "site": "https://gatesandbrovi.com/"
+ },
+ "osm:node/1191241583": {
+  "checked": "2026-10-26T12:54:47-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.gennaslounge.com/"
+  ],
+  "weekly": [],
+  "site": "https://www.gennaslounge.com/"
+ },
+ "osm:node/11537268930": {
+  "checked": "2026-10-26T12:54:45-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://flightwi.com/",
+   "https://flightwi.com/events"
+  ],
+  "weekly": [
+   {
+    "activity": "bingo",
+    "days": [
+     6
+    ],
+    "time": "11:00",
+    "text": "Mark your calendars for the first Sunday of every month for Bingo at Flight! We will be open from 11am-3pm, with Bingo starting at 12pm.",
+    "source_url": "https://flightwi.com/events"
+   }
+  ],
+  "site": "https://flightwi.com/"
+ },
+ "osm:node/567936558": {
+  "checked": "2026-10-26T12:54:44-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://thecrystalcornerbar.com/",
+   "https://thecrystalcornerbar.com/Calendar.htm",
+   "https://www.thecrystalcornerbar.com/Calendar.htm"
+  ],
+  "weekly": [],
+  "site": "https://thecrystalcornerbar.com/"
+ },
+ "osm:node/5648139900": {
+  "checked": "2026-10-26T12:54:47-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.madisongreymarket.com/",
+   "https://www.madisongreymarket.com/schedule"
+  ],
+  "weekly": [
+   {
+    "activity": "happy hour",
+    "days": [
+     1,
+     3
+    ],
+    "time": "16:00",
+    "text": "Tuesday/Thursday - Happy Hour 4 pm - 6 pm",
+    "source_url": "https://www.madisongreymarket.com/schedule"
+   },
+   {
+    "activity": "happy hour",
+    "days": [
+     4
+    ],
+    "time": "14:00",
+    "text": "Friday - Happy Hour 2 pm - 6 pm",
+    "source_url": "https://www.madisongreymarket.com/schedule"
+   }
+  ],
+  "site": "https://www.madisongreymarket.com"
+ },
+ "osm:way/677658703": {
+  "checked": "2026-10-26T12:54:47-05:00",
+  "feeds": [
+   {
+    "type": "squarespace",
+    "url": "https://www.gibs.bar/event-calendar"
+   }
+  ],
+  "pages_checked": [
+   "https://www.gibs.bar/",
+   "https://www.gibs.bar/event-calendar"
+  ],
+  "weekly": [],
+  "site": "https://www.gibs.bar/"
+ },
+ "osm:node/13204722501": {
+  "checked": "2026-10-26T12:54:44-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.cieloonstate.com/",
+   "https://www.cieloonstate.com/events/",
+   "https://www.cieloonstate.com/events/",
+   "https://www.cieloonstate.com/private-events/",
+   "https://www.cieloonstate.com/private-events/"
+  ],
+  "weekly": [],
+  "site": "https://www.cieloonstate.com/"
+ },
+ "osm:way/345773988": {
+  "checked": "2026-10-26T12:54:48-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.harmonybarandgrill.com/",
+   "https://www.harmonybarandgrill.com/madison-atwood-the-harmony-bar-and-grill-events",
+   "https://www.harmonybarandgrill.com/madison-atwood-the-harmony-bar-and-grill-happy-hours-specials"
+  ],
+  "weekly": [],
+  "site": "https://www.harmonybarandgrill.com/"
+ },
+ "osm:node/10209821506": {
+  "checked": "2026-10-26T12:54:51-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.honeybarrelwi.com/",
+   "https://www.honeybarrelwi.com/new-page"
+  ],
+  "weekly": [],
+  "site": "https://www.honeybarrelwi.com/"
+ },
+ "osm:node/7216954964": {
+  "checked": "2026-10-26T12:54:49-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.hawksbar.com/",
+   "https://www.hawksbar.com/events/"
+  ],
+  "weekly": [],
+  "site": "https://www.hawksbar.com/"
+ },
+ "osm:way/175151597": {
+  "checked": "2026-10-26T12:54:44-05:00",
+  "feeds": [
+   {
+    "type": "squarespace",
+    "url": "https://www.dexterspubmadison.com/our-calendar-2"
+   }
+  ],
+  "pages_checked": [
+   "https://www.dexterspubmadison.com/",
+   "https://www.dexterspubmadison.com/our-calendar-2",
+   "https://www.dexterspubmadison.com/news",
+   "https://www.dexterspubmadison.com/fish-fry",
+   "https://www.dexterspubmadison.com/daily-specials"
+  ],
+  "weekly": [
+   {
+    "activity": "fish fry",
+    "days": [
+     4
+    ],
+    "time": "11:00",
+    "text": "We serve our full fish fry Friday’s 11am-10pm.",
+    "source_url": "https://www.dexterspubmadison.com/fish-fry"
+   },
+   {
+    "activity": "fish fry",
+    "days": [
+     2
+    ],
+    "time": "11:00",
+    "text": "We offer a limited fish fry on Wednesdays too from 11am-9pm.",
+    "source_url": "https://www.dexterspubmadison.com/fish-fry"
+   }
+  ],
+  "site": "https://www.dexterspubmadison.com/"
+ },
+ "osm:way/243105469": {
+  "checked": "2026-10-26T12:54:53-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "http://luckysbarandgrille.com/waunakee"
+  ],
+  "weekly": [],
+  "site": "http://luckysbarandgrille.com/waunakee"
+ },
+ "osm:way/158465758": {
+  "checked": "2026-10-26T12:54:52-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "http://www.thelaureltavern.com/",
+   "http://www.thelaureltavern.com/specials-1.html"
+  ],
+  "weekly": [],
+  "site": "http://www.thelaureltavern.com"
+ },
+ "osm:way/362334384": {
+  "checked": "2026-10-26T12:54:47-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.greatdanepub.com/locations/eastside-madison/",
+   "https://www.greatdanepub.com/eventmenu/",
+   "https://www.greatdanepub.com/large-party-events/",
+   "https://www.greatdanepub.com/large-party-events/"
+  ],
+  "weekly": [],
+  "site": "https://www.greatdanepub.com/locations/eastside-madison/"
+ },
+ "osm:node/2991072393": {
+  "checked": "2026-10-26T12:54:54-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.themasonlounge.com/"
+  ],
+  "weekly": [],
+  "site": "https://www.themasonlounge.com/"
+ },
+ "osm:way/158464045": {
+  "checked": "2026-10-26T12:54:54-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.mickeysmadison.com/"
+  ],
+  "weekly": [],
+  "site": "https://www.mickeysmadison.com/"
+ },
+ "osm:way/1441901386": {
+  "checked": "2026-10-26T12:54:54-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://mondaysbar.com/"
+  ],
+  "weekly": [],
+  "site": "https://mondaysbar.com/"
+ },
+ "osm:node/2853170837": {
+  "checked": "2026-10-26T12:54:54-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.midtownpub.com/"
+  ],
+  "weekly": [],
+  "site": "https://www.midtownpub.com/"
+ },
+ "osm:node/5473218360": {
+  "checked": "2026-10-26T12:54:54-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.muskellounge.com/"
+  ],
+  "weekly": [],
+  "site": "https://www.muskellounge.com"
+ },
+ "osm:way/416454699": {
+  "checked": "2026-10-26T12:54:54-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.oakcresttavernmadison.com/"
+  ],
+  "weekly": [],
+  "site": "https://www.oakcresttavernmadison.com"
+ },
+ "osm:node/12156142686": {
+  "checked": "2026-10-26T12:54:45-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://gammaray.bar/",
+   "https://gammaray.bar/shows/",
+   "https://gammaray.bar/show/king-falcon-w-the-forty-twos/",
+   "https://gammaray.bar/show/axis-sova-slick-the-moss-men/",
+   "https://gammaray.bar/show/halloween-with-friend-request/",
+   "https://gammaray.bar/show/nice-strong-arm-dad-bods-sex-fear/"
+  ],
+  "weekly": [],
+  "site": "https://gammaray.bar"
+ },
+ "osm:way/322240003": {
+  "checked": "2026-10-26T12:54:55-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.theohiotavern.com/"
+  ],
+  "weekly": [],
+  "site": "https://theohiotavern.com/"
+ },
+ "osm:node/10559841309": {
+  "checked": "2026-10-26T12:54:55-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.ozbyozmadison.com/",
+   "https://www.ozbyozmadison.com/reservations"
+  ],
+  "weekly": [],
+  "site": "https://www.ozbyozmadison.com/"
+ },
+ "osm:node/2522523791": {
+  "checked": "2026-10-26T12:54:57-05:00",
+  "feeds": [],
+  "pages_checked": [],
+  "weekly": [],
+  "error": "site unreachable",
+  "site": "https://thenewparadiselounge.com/"
+ },
+ "osm:node/1743291684": {
+  "checked": "2026-10-26T12:54:53-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.lazyoaflounge.com/",
+   "https://www.lazyoaflounge.com/events",
+   "https://www.lazyoaflounge.com/menu",
+   "https://www.lazyoaflounge.com/specials"
+  ],
+  "weekly": [],
+  "site": "https://www.lazyoaflounge.com/"
+ },
+ "osm:way/107655168": {
+  "checked": "2026-10-26T12:54:54-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "http://www.monkeyshinesbarandgrill.com/",
+   "http://www.monkeyshinesbarandgrill.com/events/",
+   "http://www.monkeyshinesbarandgrill.com/delivery/"
+  ],
+  "weekly": [],
+  "site": "http://www.monkeyshinesbarandgrill.com/"
+ },
+ "osm:node/2522817555": {
+  "checked": "2026-10-26T12:54:58-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://theplazatavern.com/"
+  ],
+  "weekly": [],
+  "site": "https://theplazatavern.com/"
+ },
+ "osm:node/6431684444": {
+  "checked": "2026-10-26T12:54:57-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://parchedeaglebrewpub.com/",
+   "https://parchedeaglebrewpub.com/category/events/"
+  ],
+  "weekly": [],
+  "site": "http://parchedeaglebrewpub.com/"
+ },
+ "osm:way/589481664": {
+  "checked": "2026-10-26T12:55:00-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://redroostermadison.com/"
+  ],
+  "weekly": [],
+  "site": "https://redroostermadison.com/"
+ },
+ "osm:node/2522752359": {
+  "checked": "2026-10-26T12:54:44-05:00",
+  "feeds": [
+   {
+    "type": "ical",
+    "url": "https://comebackintavern.com/events/?ical=1"
+   },
+   {
+    "type": "jsonld",
+    "url": "https://comebackintavern.com/events/category/events/"
+   },
+   {
+    "type": "tribe",
+    "url": "https://comebackintavern.com/wp-json/tribe/events/v1/events?per_page=50&start_date=2026-10-26&end_date=2026-11-09"
+   }
+  ],
+  "pages_checked": [
+   "https://comebackintavern.com/",
+   "https://comebackintavern.com/events/",
+   "https://comebackintavern.com/events/category/events/"
+  ],
+  "weekly": [],
+  "site": "https://comebackintavern.com/"
+ },
+ "osm:node/12285111370": {
+  "checked": "2026-10-26T12:54:58-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.publicparkingbar.com/",
+   "https://www.publicparkingbar.com/sign-up",
+   "https://www.publicparkingbar.com/private-dining"
+  ],
+  "weekly": [],
+  "site": "https://www.publicparkingbar.com"
+ },
+ "osm:node/7569982837": {
+  "checked": "2026-10-26T12:55:01-05:00",
+  "feeds": [
+   {
+    "type": "squarespace",
+    "url": "https://www.settledownmadison.com/private-event"
+   }
+  ],
+  "pages_checked": [
+   "https://www.settledownmadison.com/",
+   "https://www.settledownmadison.com/private-event"
+  ],
+  "weekly": [
+   {
+    "activity": "happy hour",
+    "days": [
+     1,
+     4
+    ],
+    "time": "14:00",
+    "text": "JOIN US FOR HAPPY HOUR! 2-6PM TUESDAY- FRIDAY. PULL TABS, DRINK SPECIALS, PATIO, ATRIUM GOOD VIBES ONLY!",
+    "source_url": "https://www.settledownmadison.com/"
+   },
+   {
+    "activity": "bingo",
+    "days": [
+     2
+    ],
+    "time": "18:00",
+    "text": "FREE BINGO! 1st & 3rd wednesday of the month 6-8pm!",
+    "source_url": "https://www.settledownmadison.com/"
+   }
+  ],
+  "site": "https://www.settledownmadison.com/"
+ },
+ "osm:node/1348850872": {
+  "checked": "2026-10-26T12:54:50-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://high-noon.com/",
+   "https://high-noon.com/calendar/",
+   "https://high-noon.com/event/fruition/",
+   "https://high-noon.com/event/the-bends/",
+   "https://high-noon.com/event/bo-staloch/",
+   "https://high-noon.com/event/ska-lloween/"
+  ],
+  "weekly": [],
+  "site": "https://www.high-noon.com/"
+ },
+ "osm:node/4479808708": {
+  "checked": "2026-10-26T12:55:05-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.thedoubleubar.com/"
+  ],
+  "weekly": [],
+  "site": "https://www.thedoubleubar.com/"
+ },
+ "osm:node/12112935178": {
+  "checked": "2026-10-26T12:55:00-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.roxxybar.com/location/madison/",
+   "https://www.roxxybar.com/madison-events/",
+   "https://www.roxxybar.com/iowacity-events/",
+   "https://www.roxxybar.com/cedarfalls-events/"
+  ],
+  "weekly": [],
+  "site": "https://www.roxxybar.com/location/madison/"
+ },
+ "osm:way/107655096": {
+  "checked": "2026-10-26T12:54:59-05:00",
+  "feeds": [
+   {
+    "type": "jsonld",
+    "url": "https://www.quiveysgrove.com/event-details"
+   }
+  ],
+  "pages_checked": [
+   "https://www.quiveysgrove.com/stable-grill",
+   "https://www.quiveysgrove.com/events",
+   "https://www.quiveysgrove.com/event-details",
+   "https://www.quiveysgrove.com/nightly-specials"
+  ],
+  "weekly": [],
+  "site": "https://www.quiveysgrove.com/stable-grill"
+ },
+ "osm:node/12112935177": {
+  "checked": "2026-10-26T12:55:04-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.thestuffedolive.com/location/madison/",
+   "https://www.thestuffedolive.com/privateparties/"
+  ],
+  "weekly": [],
+  "site": "https://www.thestuffedolive.com/location/madison/"
+ },
+ "osm:way/592859743": {
+  "checked": "2026-10-26T12:55:06-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "http://malthousetavern.com/"
+  ],
+  "weekly": [],
+  "site": "http://malthousetavern.com/"
+ },
+ "osm:node/5448871359": {
+  "checked": "2026-10-26T12:55:07-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "http://www.robinroombar.com/"
+  ],
+  "weekly": [],
+  "site": "http://www.robinroombar.com/"
+ },
+ "osm:node/13312456631": {
+  "checked": "2026-10-26T12:54:55-05:00",
+  "feeds": [
+   {
+    "type": "ical",
+    "url": "https://onesocialmadison.com/district-events/?ical=1"
+   },
+   {
+    "type": "jsonld",
+    "url": "https://onesocialmadison.com/district-events/"
+   },
+   {
+    "type": "tribe",
+    "url": "https://onesocialmadison.com/wp-json/tribe/events/v1/events?per_page=50&start_date=2026-10-26&end_date=2026-11-09"
+   }
+  ],
+  "pages_checked": [
+   "https://onesocialmadison.com/vendor/one-social-bar/",
+   "https://onesocialmadison.com/district-events/"
+  ],
+  "weekly": [],
+  "site": "https://onesocialmadison.com/vendor/one-social-bar/"
+ },
+ "osm:node/3228848967": {
+  "checked": "2026-10-26T12:55:08-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://wiscobar.com/"
+  ],
+  "weekly": [],
+  "site": "https://wiscobar.com"
+ },
+ "osm:node/12128270670": {
+  "checked": "2026-10-26T12:55:07-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.rustybeelounge.com/",
+   "https://www.rustybeelounge.com/menu/"
+  ],
+  "weekly": [],
+  "site": "https://www.rustybeelounge.com"
+ },
+ "osm:node/5642308355": {
+  "checked": "2026-10-26T12:55:09-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://tipsycowmadison.com/"
+  ],
+  "weekly": [],
+  "site": "https://www.tipsycowmadison.com/"
+ },
+ "osm:node/2522840414": {
+  "checked": "2026-10-26T12:55:06-05:00",
+  "feeds": [
+   {
+    "type": "squarespace",
+    "url": "https://www.librarycafeandbar.com/events"
+   }
+  ],
+  "pages_checked": [
+   "https://www.librarycafeandbar.com/",
+   "https://www.librarycafeandbar.com/events",
+   "https://www.librarycafeandbar.com/weekly-specials"
+  ],
+  "weekly": [],
+  "site": "https://www.librarycafeandbar.com"
+ },
+ "osm:way/102737839": {
+  "checked": "2026-10-26T12:55:07-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.thegritty.com/",
+   "https://www.thegritty.com/charity-events/",
+   "https://www.thegritty.com/specials-events/",
+   "https://www.thegritty.com/parties-private-events/"
+  ],
+  "weekly": [],
+  "site": "https://www.thegritty.com/"
+ },
+ "osm:way/102744374": {
+  "checked": "2026-10-26T12:55:11-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://vintagemadison.com/",
+   "https://vintagemadison.com/specials/"
+  ],
+  "weekly": [
+   {
+    "activity": "happy hour",
+    "days": [
+     0,
+     4
+    ],
+    "time": "15:00",
+    "text": "Happy Hour – Monday – Friday 3-5:30pm",
+    "source_url": "https://vintagemadison.com/specials/"
+   }
+  ],
+  "site": "https://vintagemadison.com/"
+ },
+ "osm:node/13908478268": {
+  "checked": "2026-10-26T12:55:08-05:00",
+  "feeds": [
+   {
+    "type": "ical",
+    "url": "https://tinystaphouse.com/events/?ical=1"
+   },
+   {
+    "type": "tribe",
+    "url": "https://tinystaphouse.com/wp-json/tribe/events/v1/events?per_page=50&start_date=2026-10-26&end_date=2026-11-09"
+   }
+  ],
+  "pages_checked": [
+   "https://tinystaphouse.com/"
+  ],
+  "weekly": [],
+  "site": "https://tinystaphouse.com/"
+ },
+ "osm:node/11870284269": {
+  "checked": "2026-10-26T12:54:54-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://madison-tap.com/",
+   "https://madison-tap.com/cara-tepat-membaca-bocoran-rtp-live-slot-untuk-kemenangan-maksimal/",
+   "https://madison-tap.com/live-casino-roulette-online-dan-perkembangan-teknologi-permainan-kasino/",
+   "https://madison-tap.com/situs-rtp-slot-terbaik-rahasia-menang-jackpot-dengan-bocoran-live-terakurat/",
+   "https://madison-tap.com/slot-hongkong-gampang-menang-dengan-rtp-live-terbaru-dan-bonus-yang-melimpah/",
+   "https://madison-tap.com/cara-tepat-membaca-bocoran-rtp-live-slot-untuk-kemenangan-maksimal/?noamp=mobile"
+  ],
+  "weekly": [],
+  "site": "https://madison-tap.com/"
+ },
+ "osm:node/2522523816": {
+  "checked": "2026-10-26T12:55:14-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://madwoofs.com/",
+   "https://madwoofs.com/specials.html"
+  ],
+  "weekly": [],
+  "site": "http://madwoofs.com/"
+ },
+ "osm:way/875584137": {
+  "checked": "2026-10-26T12:55:11-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://wandosbar.com/",
+   "https://wandosbar.com/madison-downtown-wando-s-events-happenings",
+   "https://wandosbar.com/-events-happenings?source=header&spot_id=301&destination=events&promotion=nba_season",
+   "https://wandosbar.com/-events-happenings?source=header&spot_id=301&destination=events&promotion=mlb_world_series",
+   "https://wandosbar.com/madison-downtown-wando-s-gameday-specials"
+  ],
+  "weekly": [],
+  "site": "https://wandosbar.com/"
+ },
+ "osm:node/7006164854": {
+  "checked": "2026-10-26T12:55:15-05:00",
+  "feeds": [
+   {
+    "type": "squarespace",
+    "url": "https://www.delta.beer/events"
+   }
+  ],
+  "pages_checked": [
+   "https://www.delta.beer/",
+   "https://www.delta.beer/events"
+  ],
+  "weekly": [],
+  "site": "https://www.delta.beer/"
+ },
+ "osm:way/886357869": {
+  "checked": "2026-10-26T12:55:03-05:00",
+  "feeds": [
+   {
+    "type": "jsonld",
+    "url": "https://statestreetbrats.com/events/"
+   },
+   {
+    "type": "jsonld",
+    "url": "https://statestreetbrats.com/event/pacers-bucks-20261026/"
+   },
+   {
+    "type": "jsonld",
+    "url": "https://statestreetbrats.com/watch-at-brats/"
+   }
+  ],
+  "pages_checked": [
+   "https://statestreetbrats.com/",
+   "https://statestreetbrats.com/events/",
+   "https://statestreetbrats.com/event/pacers-bucks-20261026/",
+   "https://statestreetbrats.com/specials/",
+   "https://statestreetbrats.com/private-party/",
+   "https://statestreetbrats.com/watch-at-brats/"
+  ],
+  "weekly": [],
+  "site": "https://statestreetbrats.com/"
+ },
+ "osm:node/10157420353": {
+  "checked": "2026-10-26T12:55:20-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://giantjones.com/"
+  ],
+  "weekly": [],
+  "site": "https://giantjones.com/"
+ },
+ "osm:node/7090615650": {
+  "checked": "2026-10-26T12:55:19-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.garthsbrewbar.com/"
+  ],
+  "weekly": [],
+  "site": "https://www.garthsbrewbar.com/"
+ },
+ "osm:node/12209575339": {
+  "checked": "2026-10-26T12:55:17-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://doundrins.com/",
+   "https://doundrins.com/pages/events",
+   "https://doundrins.com/pages/private-events-rentals",
+   "https://doundrins.com/collections/rentals-fees"
+  ],
+  "weekly": [],
+  "site": "https://doundrinsdistilling.com/"
+ },
+ "osm:node/4184659489": {
+  "checked": "2026-10-26T12:55:12-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://whiskeyjacksmadtown.com/",
+   "https://whiskeyjacksmadtown.com/calendar/",
+   "https://whiskeyjacksmadtown.com/weekly-specials/",
+   "https://whiskeyjacksmadtown.com/band-submission/"
+  ],
+  "weekly": [],
+  "site": "https://www.whiskeyjacksmadtown.com/"
+ },
+ "osm:way/97601507": {
+  "checked": "2026-10-26T12:55:15-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.capitalbrewery.com/",
+   "https://www.capitalbrewery.com/events-2/",
+   "https://www.capitalbrewery.com/on-site-events/",
+   "https://www.capitalbrewery.com/off-site-events/",
+   "https://www.capitalbrewery.com/whats-on-tap/"
+  ],
+  "weekly": [],
+  "site": "https://www.capital-brewery.com/"
+ },
+ "osm:node/2424444561": {
+  "checked": "2026-10-26T12:55:20-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.greatdanepub.com/",
+   "https://www.greatdanepub.com/eventmenu/",
+   "https://www.greatdanepub.com/large-party-events/"
+  ],
+  "weekly": [],
+  "site": "https://www.greatdanepub.com/"
+ },
+ "osm:node/6568529944": {
+  "checked": "2026-10-26T12:55:23-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.hophausbrewing.com/",
+   "https://www.hophausbrewing.com/book-an-event"
+  ],
+  "weekly": [],
+  "site": "https://www.hophausbrewing.com/"
+ },
+ "osm:node/6431214833": {
+  "checked": "2026-10-26T12:55:23-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.karben4.com/",
+   "https://www.karben4.com/events"
+  ],
+  "weekly": [],
+  "site": "https://www.karben4.com/"
+ },
+ "osm:node/8250181191": {
+  "checked": "2026-10-26T12:55:24-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://oldsugardistillery.com/",
+   "https://oldsugardistillery.com/private-events/"
+  ],
+  "weekly": [],
+  "site": "https://oldsugardistillery.com/"
+ },
+ "osm:node/7569982836": {
+  "checked": "2026-10-26T12:55:26-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.youngbloodbeerco.com/"
+  ],
+  "weekly": [],
+  "site": "https://www.youngbloodbeerco.com/"
+ },
+ "osm:node/12641566168": {
+  "checked": "2026-10-26T12:54:53-05:00",
+  "feeds": [
+   {
+    "type": "ical",
+    "url": "https://thelonegirl.com/events/?ical=1"
+   },
+   {
+    "type": "ical",
+    "url": "https://thelonegirl.com/events/month/?ical=1"
+   },
+   {
+    "type": "jsonld",
+    "url": "https://thelonegirl.com/events/"
+   },
+   {
+    "type": "ical",
+    "url": "https://thelonegirl.com/event/murder-mystery/?ical=1"
+   },
+   {
+    "type": "jsonld",
+    "url": "https://thelonegirl.com/event/murder-mystery/"
+   },
+   {
+    "type": "ical",
+    "url": "https://thelonegirl.com/event/murder-mystery-2/?ical=1"
+   },
+   {
+    "type": "jsonld",
+    "url": "https://thelonegirl.com/event/murder-mystery-2/"
+   },
+   {
+    "type": "ical",
+    "url": "https://thelonegirl.com/event/murder-mystery-2-2/?ical=1"
+   },
+   {
+    "type": "jsonld",
+    "url": "https://thelonegirl.com/event/murder-mystery-2-2/"
+   },
+   {
+    "type": "tribe",
+    "url": "https://thelonegirl.com/wp-json/tribe/events/v1/events?per_page=50&start_date=2026-10-26&end_date=2026-11-09"
+   }
+  ],
+  "pages_checked": [
+   "https://thelonegirl.com/",
+   "https://thelonegirl.com/events/",
+   "https://thelonegirl.com/events/",
+   "https://thelonegirl.com/event/murder-mystery/",
+   "https://thelonegirl.com/event/murder-mystery-2/",
+   "https://thelonegirl.com/event/murder-mystery-2-2/"
+  ],
+  "weekly": [
+   {
+    "activity": "fish fry",
+    "days": [
+     4
+    ],
+    "time": "18:00",
+    "text": "Madison's Magic Rob provides FREE, family-friendly tableside and waiting area entertainment from 6-8pm EVERY FRIDAY. You never know when he'll magically appear... be ready! Enjoy all-day Fish Fry Every Friday!",
+    "source_url": "https://thelonegirl.com/events/"
+   },
+   {
+    "activity": "trivia",
+    "days": [
+     2
+    ],
+    "time": "18:30",
+    "text": "PUB TRIVIA with King Trivia every Wednesday night at LG-Waunakee at 6:30PM! Free to Play! Grab your crew. Let the bragging rights begin. Drink Up. Dig In. Have Fun. Repeat weekly.",
+    "source_url": "https://thelonegirl.com/events/"
+   },
+   {
+    "activity": "fish fry",
+    "days": [
+     4
+    ],
+    "time": "18:00",
+    "text": "Madison's Magic Rob provides FREE, family-friendly tableside and waiting area entertainment from 6-8pm EVERY FRIDAY. You never know when he'll magically appear... be ready! Enjoy all-day Fish Fry Every Friday!",
+    "source_url": "https://thelonegirl.com/events/"
+   },
+   {
+    "activity": "trivia",
+    "days": [
+     2
+    ],
+    "time": "18:30",
+    "text": "PUB TRIVIA with King Trivia every Wednesday night at LG-Waunakee at 6:30PM! Free to Play! Grab your crew. Let the bragging rights begin. Drink Up. Dig In. Have Fun. Repeat weekly.",
+    "source_url": "https://thelonegirl.com/events/"
+   }
+  ],
+  "site": "https://thelonegirl.com"
+ },
+ "osm:node/12893915539": {
+  "checked": "2026-10-26T12:55:26-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.ancoracafes.com/monona-drive/"
+  ],
+  "weekly": [],
+  "site": "https://www.ancoracafes.com/monona-drive/"
+ },
+ "osm:node/3391146301": {
+  "checked": "2026-10-26T12:55:26-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://alicegood.co/"
+  ],
+  "weekly": [],
+  "site": "https://alicegood.co/"
+ },
+ "osm:node/6904292567": {
+  "checked": "2026-10-26T12:55:25-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://yaharabay.com/",
+   "https://yaharabay.com/pages/event-space"
+  ],
+  "weekly": [],
+  "site": "https://yaharabay.com/"
+ },
+ "osm:node/845149797": {
+  "checked": "2026-10-26T12:55:27-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.ancoracafes.com/"
+  ],
+  "weekly": [],
+  "site": "https://www.ancoracafes.com/"
+ },
+ "osm:node/12292190391": {
+  "checked": "2026-10-26T12:55:06-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://thekickback.bar/",
+   "https://thekickback.bar/upcoming-events/",
+   "https://thekickback.bar/drag-bingo-nov/",
+   "https://thekickback.bar/premier-trivia-tuesday-oct-27/"
+  ],
+  "weekly": [
+   {
+    "activity": "pinball",
+    "days": [
+     4
+    ],
+    "time": "19:00",
+    "text": "– Short and Sweet Pinball Tourney every Friday @ 7PM.",
+    "source_url": "https://thekickback.bar/"
+   }
+  ],
+  "site": "https://thekickback.bar/"
+ },
+ "osm:node/13097616132": {
+  "checked": "2026-10-26T12:55:22-05:00",
+  "feeds": [
+   {
+    "type": "squarespace",
+    "url": "https://herbiery.com/calendar"
+   },
+   {
+    "type": "squarespace",
+    "url": "https://herbiery.com/private-events"
+   }
+  ],
+  "pages_checked": [
+   "https://herbiery.com/",
+   "https://herbiery.com/calendar",
+   "https://herbiery.com/private-events"
+  ],
+  "weekly": [],
+  "site": "https://herbiery.com/"
+ },
+ "osm:node/5266700571": {
+  "checked": "2026-10-26T12:55:25-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.statelinedistillery.com/",
+   "https://www.statelinedistillery.com/cocktail-lounge/events",
+   "https://www.statelinedistillery.com/cocktail-lounge/private-events",
+   "https://www.statelinedistillery.com/cocktail-recipes/smoke-show"
+  ],
+  "weekly": [],
+  "site": "https://www.statelinedistillery.com/"
+ },
+ "osm:node/2491591586": {
+  "checked": "2026-10-26T12:54:44-05:00",
+  "feeds": [
+   {
+    "type": "ical",
+    "url": "https://www.dvinomadison.com/events/mothers-day-brunch?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.dvinomadison.com/events/easter-brunch?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.dvinomadison.com/events/valentines-day?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.dvinomadison.com/events/valentines-eve?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.dvinomadison.com/events/valentines-day-brunch?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.dvinomadison.com/events/o-solo-vino?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.dvinomadison.com/events/wine-tasting?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.dvinomadison.com/events/dvino-restaurant-week?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.dvinomadison.com/events/new-years-eve?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.dvinomadison.com/events/christmas-eve?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.dvinomadison.com/events/movie-night-at-dvino-roman-holiday?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.dvinomadison.com/events/movie-night-la-dolce-vita?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.dvinomadison.com/events/dinner-saturday-1-dglhy-pf8z8-9fk97-6zhc4-7e8ww-fzehm?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.dvinomadison.com/events/lasagne-dinner-saturday-1-dglhy-pf8z8-xcry8-26zcl-y2ezx-g8wzf-hhla2?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.dvinomadison.com/events/salsiccia-di-venerdi-fgnn3-3pmnx-7pf49-en4ax-9xeyp-j6jba-4xtdh-6h8j6-gnpx2?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.dvinomadison.com/events/take-n-bake-74f7g-np6e4-ac7lw-9bcj4-x9646-dc9sm-brh9s-npw73-ykk8r-ss2ss-jpprj-xsmrm?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.dvinomadison.com/events/meatball-mondays-033020-cre5l-et4kn-2j29a-rszb5-4z66g-amdpb-mks3r-k9n8j-7brzy-8m4w5-624ww?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.dvinomadison.com/events/dinner-saturday-1-dglhy-pf8z8-9fk97-6zhc4-7e8ww?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.dvinomadison.com/events/lasagne-dinner-saturday-1-dglhy-pf8z8-xcry8-26zcl-y2ezx-g8wzf?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.dvinomadison.com/events/salsiccia-di-venerdi-fgnn3-3pmnx-7pf49-en4ax-9xeyp-j6jba-4xtdh-6h8j6?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.dvinomadison.com/events/take-n-bake-74f7g-np6e4-ac7lw-9bcj4-x9646-dc9sm-brh9s-npw73-ykk8r-ss2ss-jpprj?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.dvinomadison.com/events/meatball-mondays-033020-cre5l-et4kn-2j29a-rszb5-4z66g-amdpb-mks3r-k9n8j-7brzy-8m4w5?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.dvinomadison.com/events/salsiccia-di-venerdi-fgnn3-3pmnx-7pf49-en4ax-9xeyp-j6jba-4xtdh?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.dvinomadison.com/events/take-n-bake-74f7g-np6e4-ac7lw-9bcj4-x9646-dc9sm-brh9s-npw73-ykk8r-ss2ss?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.dvinomadison.com/events/meatball-mondays-033020-cre5l-et4kn-2j29a-rszb5-4z66g-amdpb-mks3r-k9n8j-7brzy?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.dvinomadison.com/events/lasagne-dinner-saturday-1-dglhy-pf8z8-9fk97-6zhc4?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.dvinomadison.com/events/lasagne-dinner-saturday-1-dglhy-pf8z8-xcry8-26zcl-y2ezx?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.dvinomadison.com/events/salsiccia-di-venerdi-fgnn3-3pmnx-7pf49-en4ax-9xeyp-j6jba?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.dvinomadison.com/events/take-n-bake-74f7g-np6e4-ac7lw-9bcj4-x9646-dc9sm-brh9s-npw73-ykk8r?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.dvinomadison.com/events/meatball-mondays-033020-cre5l-et4kn-2j29a-rszb5-4z66g-amdpb-mks3r-k9n8j?format=ical"
+   },
+   {
+    "type": "squarespace",
+    "url": "https://www.dvinomadison.com/events"
+   }
+  ],
+  "pages_checked": [
+   "https://www.dvinomadison.com/",
+   "https://www.dvinomadison.com/events"
+  ],
+  "weekly": [],
+  "site": "https://www.dvinomadison.com/"
+ },
+ "osm:node/8632908350": {
+  "checked": "2026-10-26T12:55:39-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.mymonona.com/1395/Below-Deck-Concession-Stand",
+   "https://www.mymonona.com/1587/Special-Events",
+   "https://www.mymonona.com/2781/Trivia-Nights"
+  ],
+  "weekly": [],
+  "site": "https://www.mymonona.com/1395/Below-Deck-Concession-Stand"
+ },
+ "osm:node/11819633355": {
+  "checked": "2026-10-26T12:55:44-05:00",
+  "feeds": [],
+  "pages_checked": [],
+  "weekly": [],
+  "error": "site unreachable",
+  "site": "https://blacklocustcafe.com/"
+ },
+ "osm:node/762399415": {
+  "checked": "2026-10-26T12:55:45-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.bradburyscoffee.com/"
+  ],
+  "weekly": [],
+  "site": "https://www.bradburyscoffee.com/"
+ },
+ "osm:node/4773349424": {
+  "checked": "2026-10-26T12:55:46-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "http://www.cafedomestiquemadison.com/"
+  ],
+  "weekly": [],
+  "site": "http://www.cafedomestique.cc/"
+ },
+ "osm:node/835544967": {
+  "checked": "2026-10-26T12:55:46-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.cafedomestiquemadison.com/"
+  ],
+  "weekly": [],
+  "site": "https://www.cafedomestiquemadison.com/"
+ },
+ "osm:node/13201662821": {
+  "checked": "2026-10-26T12:55:46-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.candycloudcompany.com/locations/madison"
+  ],
+  "weekly": [],
+  "site": "https://www.candycloudcompany.com/locations/madison"
+ },
+ "osm:node/4633498438": {
+  "checked": "2026-10-26T12:55:27-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://barriquesmarket.com/pages/fitchburg",
+   "https://barriquesmarket.com/pages/events",
+   "https://barriquesmarket.com/pages/tastings-events",
+   "https://barriquesmarket.com/collections/specialty-foods-and-beverages"
+  ],
+  "weekly": [],
+  "site": "https://barriquesmarket.com/pages/fitchburg"
+ },
+ "osm:way/1441716336": {
+  "checked": "2026-10-26T12:55:48-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://colectivo.com/"
+  ],
+  "weekly": [],
+  "site": "https://colectivocoffee.com/"
+ },
+ "osm:node/2308608143": {
+  "checked": "2026-10-26T12:55:48-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://colectivo.com/pages/on-the-square"
+  ],
+  "weekly": [],
+  "site": "https://colectivo.com/pages/on-the-square"
+ },
+ "osm:node/3402479220": {
+  "checked": "2026-10-26T12:55:49-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://colectivo.com/pages/monroe-street"
+  ],
+  "weekly": [],
+  "site": "https://colectivocoffee.com/cafes/monroe-street"
+ },
+ "osm:node/13351366668": {
+  "checked": "2026-10-26T12:55:50-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://colectivo.com/pages/madison-cafes"
+  ],
+  "weekly": [],
+  "site": "https://colectivo.com/pages/madison-cafes"
+ },
+ "osm:node/12757595298": {
+  "checked": "2026-10-26T12:55:47-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://union.wisc.edu/dine/find-food-and-drink/chazen-cafe",
+   "https://union.wisc.edu/host-your-event",
+   "https://union.wisc.edu/events-and-activities",
+   "https://union.wisc.edu/events-activities/on-tv",
+   "https://union.wisc.edu/host-your-event/catering",
+   "https://union.wisc.edu/host-your-event/weddings"
+  ],
+  "weekly": [],
+  "site": "https://union.wisc.edu/dine/find-food-and-drink/chazen-cafe"
+ },
+ "osm:node/5028990698": {
+  "checked": "2026-10-26T12:55:29-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://barriquesmarket.com/pages/university-avenue",
+   "https://barriquesmarket.com/pages/events",
+   "https://barriquesmarket.com/pages/tastings-events",
+   "https://barriquesmarket.com/collections/specialty-foods-and-beverages"
+  ],
+  "weekly": [],
+  "site": "https://www.barriquesmarket.com/our-cafes/university/"
+ },
+ "osm:way/1134399553": {
+  "checked": "2026-10-26T12:55:57-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://crescendomadison.com/"
+  ],
+  "weekly": [],
+  "site": "http://crescendomadison.com/"
+ },
+ "osm:node/2969076899": {
+  "checked": "2026-10-26T12:55:59-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://evpcoffee.com/index.html"
+  ],
+  "weekly": [],
+  "site": "https://evpcoffee.com/"
+ },
+ "osm:way/1435809466": {
+  "checked": "2026-10-26T12:55:59-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://fairtradecoffeehouse.com/"
+  ],
+  "weekly": [],
+  "site": "https://www.fairtradecoffeehouse.com/"
+ },
+ "osm:node/7006164870": {
+  "checked": "2026-10-26T12:56:00-05:00",
+  "feeds": [],
+  "pages_checked": [],
+  "weekly": [],
+  "error": "site unreachable",
+  "site": "https://www.fincamadison.com/"
+ },
+ "osm:way/282307906": {
+  "checked": "2026-10-26T12:55:59-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://evpcoffee.com/index.html"
+  ],
+  "weekly": [],
+  "site": "https://evpcoffee.com/"
+ },
+ "osm:node/4200734703": {
+  "checked": "2026-10-26T12:55:27-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://barriquesmarket.com/pages/middleton",
+   "https://barriquesmarket.com/pages/events",
+   "https://barriquesmarket.com/pages/tastings-events",
+   "https://barriquesmarket.com/collections/specialty-foods-and-beverages"
+  ],
+  "weekly": [],
+  "site": "https://barriquesmarket.com/pages/middleton"
+ },
+ "osm:way/339083286": {
+  "checked": "2026-10-26T12:55:28-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://barriquesmarket.com/pages/monroe-st",
+   "https://barriquesmarket.com/pages/events",
+   "https://barriquesmarket.com/pages/tastings-events",
+   "https://barriquesmarket.com/collections/specialty-foods-and-beverages"
+  ],
+  "weekly": [],
+  "site": "https://barriquesmarket.com/pages/monroe-st"
+ },
+ "osm:node/12195575300": {
+  "checked": "2026-10-26T12:55:29-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://barriquesmarket.com/pages/old-sauk",
+   "https://barriquesmarket.com/pages/events",
+   "https://barriquesmarket.com/pages/tastings-events",
+   "https://barriquesmarket.com/collections/specialty-foods-and-beverages"
+  ],
+  "weekly": [],
+  "site": "https://barriquesmarket.com/pages/old-sauk"
+ },
+ "osm:node/1191251821": {
+  "checked": "2026-10-26T12:55:30-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://barriquesmarket.com/pages/west-wash",
+   "https://barriquesmarket.com/pages/events",
+   "https://barriquesmarket.com/pages/tastings-events",
+   "https://barriquesmarket.com/collections/specialty-foods-and-beverages"
+  ],
+  "weekly": [],
+  "site": "https://barriquesmarket.com/pages/west-wash"
+ },
+ "osm:node/2834984736": {
+  "checked": "2026-10-26T12:56:00-05:00",
+  "feeds": [
+   {
+    "type": "squarespace",
+    "url": "https://www.gracecoffeewi.com/events-catering"
+   }
+  ],
+  "pages_checked": [
+   "https://www.gracecoffeewi.com/",
+   "https://www.gracecoffeewi.com/events-catering"
+  ],
+  "weekly": [],
+  "site": "http://www.gracecoffeewi.com"
+ },
+ "osm:node/790678751": {
+  "checked": "2026-10-26T12:56:07-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://ickisticki.com/"
+  ],
+  "weekly": [],
+  "site": "https://ickisticki.com/"
+ },
+ "osm:way/323930565": {
+  "checked": "2026-10-26T12:56:07-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://indiecoffee.net/index.html"
+  ],
+  "weekly": [],
+  "site": "https://indiecoffee.net/index.html"
+ },
+ "osm:way/683474538": {
+  "checked": "2026-10-26T12:56:07-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://javacatmadison.com/"
+  ],
+  "weekly": [],
+  "site": "https://javacatmadison.com/"
+ },
+ "osm:way/655259407": {
+  "checked": "2026-10-26T12:56:07-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.jph4ever.com/"
+  ],
+  "weekly": [],
+  "site": "https://www.jph4ever.com/"
+ },
+ "osm:way/677658130": {
+  "checked": "2026-10-26T12:56:08-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.lazyjanes.com/"
+  ],
+  "weekly": [],
+  "site": "https://www.lazyjanes.com"
+ },
+ "osm:node/9396823242": {
+  "checked": "2026-10-26T12:56:09-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.ledgercoffee.com/"
+  ],
+  "weekly": [],
+  "site": "https://www.ledgercoffee.com/"
+ },
+ "osm:node/1706559870": {
+  "checked": "2026-10-26T12:56:08-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://lakesidestcoffeehouse.com/",
+   "https://lakesidestcoffeehouse.com/host-an-event",
+   "https://lakesidestcoffeehouse.com/music-calendar"
+  ],
+  "weekly": [],
+  "site": "https://lakesidestcoffeehouse.com/"
+ },
+ "osm:way/554322765": {
+  "checked": "2026-10-26T12:56:09-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.ledgercoffee.com/"
+  ],
+  "weekly": [],
+  "site": "https://www.ledgercoffee.com/"
+ },
+ "osm:node/9947724536": {
+  "checked": "2026-10-26T12:56:11-05:00",
+  "feeds": [
+   {
+    "type": "squarespace",
+    "url": "https://www.leopoldsmadison.com/events"
+   }
+  ],
+  "pages_checked": [
+   "https://www.leopoldsmadison.com/",
+   "https://www.leopoldsmadison.com/events"
+  ],
+  "weekly": [],
+  "site": "https://www.leopoldsmadison.com/"
+ },
+ "osm:node/8439097406": {
+  "checked": "2026-10-26T12:56:01-05:00",
+  "feeds": [
+   {
+    "type": "squarespace",
+    "url": "https://www.gracecoffeewi.com/events-catering"
+   }
+  ],
+  "pages_checked": [
+   "https://www.gracecoffeewi.com/",
+   "https://www.gracecoffeewi.com/events-catering"
+  ],
+  "weekly": [],
+  "site": "https://www.gracecoffeewi.com/"
+ },
+ "osm:way/241952313": {
+  "checked": "2026-10-26T12:56:15-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.mnmcoffeehouse.com/",
+   "https://www.mnmcoffeehouse.com/events"
+  ],
+  "weekly": [],
+  "site": "https://www.mnmcoffeehouse.com/"
+ },
+ "osm:node/11128285524": {
+  "checked": "2026-10-26T12:56:17-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.madisonchocolatecompany.com/"
+  ],
+  "weekly": [],
+  "site": "https://www.madisonchocolatecompany.com"
+ },
+ "osm:node/10560537009": {
+  "checked": "2026-10-26T12:56:16-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.madisonchocolatecompany.com"
+  ],
+  "weekly": [],
+  "site": "https://madisonchocolate.com"
+ },
+ "osm:way/1453960368": {
+  "checked": "2026-10-26T12:56:17-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.michelangeloscoffeehouse.com/"
+  ],
+  "weekly": [],
+  "site": "https://www.michelangeloscoffeehouse.com"
+ },
+ "osm:node/12095147554": {
+  "checked": "2026-10-26T12:56:11-05:00",
+  "feeds": [
+   {
+    "type": "ical",
+    "url": "https://www.livsdrinks.com/events/?ical=1"
+   },
+   {
+    "type": "tribe",
+    "url": "https://www.livsdrinks.com/wp-json/tribe/events/v1/events?per_page=50&start_date=2026-10-26&end_date=2026-11-09"
+   }
+  ],
+  "pages_checked": [
+   "https://www.livsdrinks.com/",
+   "https://www.livsdrinks.com/events/"
+  ],
+  "weekly": [],
+  "site": "https://www.livsdrinks.com"
+ },
+ "osm:node/1222115614": {
+  "checked": "2026-10-26T12:56:17-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://merciescoffeewi.com/"
+  ],
+  "weekly": [],
+  "site": "https://merciescoffeewi.com/"
+ },
+ "osm:node/8969922197": {
+  "checked": "2026-10-26T12:56:02-05:00",
+  "feeds": [
+   {
+    "type": "squarespace",
+    "url": "https://www.gracecoffeewi.com/events-catering"
+   }
+  ],
+  "pages_checked": [
+   "https://www.gracecoffeewi.com/",
+   "https://www.gracecoffeewi.com/events-catering"
+  ],
+  "weekly": [],
+  "site": "https://www.gracecoffeewi.com/"
+ },
+ "osm:node/3185907161": {
+  "checked": "2026-10-26T12:56:17-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://mymokacoffee.com/",
+   "https://mymokacoffee.com/pages/events"
+  ],
+  "weekly": [],
+  "site": "https://www.mymokacoffee.com/"
+ },
+ "osm:way/754652382": {
+  "checked": "2026-10-26T12:55:18-05:00",
+  "feeds": [
+   {
+    "type": "ical",
+    "url": "https://www.fullmilebeercompany.com/events/2026/10/31/brew-ha-halloween-2026?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.fullmilebeercompany.com/events/2026/11/01-karaoke?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.fullmilebeercompany.com/events/2026/11/15-karaoke?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.fullmilebeercompany.com/events/2026/11/29-karaoke?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.fullmilebeercompany.com/events/2026/12/19/8-year-annviersary-party?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.fullmilebeercompany.com/events/2026/10/18-karaoke?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.fullmilebeercompany.com/events/2026/10/10/pupy-costello?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.fullmilebeercompany.com/events/2026/10/04-karaoke?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.fullmilebeercompany.com/events/2026/09/20-karaoke?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.fullmilebeercompany.com/events/2026/9/19/oktoberfest?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.fullmilebeercompany.com/events/2026/09/12/railhopper?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.fullmilebeercompany.com/events/2026/08/30-karaoke?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.fullmilebeercompany.com/events/2026/08/29/ryan-mcgrath-band?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.fullmilebeercompany.com/events/2026/07/20/the-real-roots-rockers?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.fullmilebeercompany.com/events/2026/08/15/ruthie-and-the-ramblin-kind?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.fullmilebeercompany.com/events/2026/08/08/great-taste-shuttle?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.fullmilebeercompany.com/events/2026/08/02-karaoke?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.fullmilebeercompany.com/events/2026/07/26-karaoke?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.fullmilebeercompany.com/events/2026/07/25/dan-walkner-band?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.fullmilebeercompany.com/events/2026/07/19-karaoke?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.fullmilebeercompany.com/events/2026/7/18/fox-crossing-stringband?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.fullmilebeercompany.com/events/2026/07/05-karaoke?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.fullmilebeercompany.com/events/2025/07/02/evan-murdock?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.fullmilebeercompany.com/events/2026/6/24/euchre-wednesday?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.fullmilebeercompany.com/events/2026/06/21/karaoke?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.fullmilebeercompany.com/events/2024/06/20/smokin-meerkats?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.fullmilebeercompany.com/events/2025/06/18/dont-spook-the-horse?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.fullmilebeercompany.com/events/2026/6/17/euchre-wednesday?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.fullmilebeercompany.com/events/2026/06/04/los-bad-hombres?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.fullmilebeercompany.com/events/2026/6/10/euchre-wednesday?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.fullmilebeercompany.com/events/2026/06/07?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.fullmilebeercompany.com/events/2026/06/04/dry-river-goats?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.fullmilebeercompany.com/events/2026/05/31?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.fullmilebeercompany.com/events/2026/5/31/bourbon-raffle-prize-drawing?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.fullmilebeercompany.com/events/2026/06/30/pupy-costello?format=ical"
+   },
+   {
+    "type": "squarespace",
+    "url": "https://www.fullmilebeercompany.com/events"
+   }
+  ],
+  "pages_checked": [
+   "https://www.fullmilebeercompany.com/",
+   "https://www.fullmilebeercompany.com/events"
+  ],
+  "weekly": [
+   {
+    "activity": "karaoke",
+    "days": [
+     6
+    ],
+    "time": "19:00",
+    "text": "Sunday nights are for…KARAOKE! Stop through and sing your heart out for free on stage from 7PM to 10PM. Karaoke by Stankaraoke!",
+    "source_url": "https://www.fullmilebeercompany.com/events"
+   }
+  ],
+  "site": "https://www.fullmilebeercompany.com/"
+ },
+ "osm:node/5290968305": {
+  "checked": "2026-10-26T12:56:20-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://oasiscafefitchburg.com/"
+  ],
+  "weekly": [],
+  "site": "https://oasiscafefitchburg.com/"
+ },
+ "osm:node/8975102411": {
+  "checked": "2026-10-26T12:56:04-05:00",
+  "feeds": [
+   {
+    "type": "squarespace",
+    "url": "https://www.gracecoffeewi.com/events-catering"
+   }
+  ],
+  "pages_checked": [
+   "https://www.gracecoffeewi.com/",
+   "https://www.gracecoffeewi.com/events-catering"
+  ],
+  "weekly": [],
+  "site": "https://www.gracecoffeewi.com/"
+ },
+ "osm:node/2969000796": {
+  "checked": "2026-10-26T12:56:21-05:00",
+  "feeds": [],
+  "pages_checked": [],
+  "weekly": [],
+  "error": "site unreachable",
+  "site": "https://union.wisc.edu/prairiefire.htm"
+ },
+ "osm:node/13984094447": {
+  "checked": "2026-10-26T12:56:21-05:00",
+  "feeds": [],
+  "pages_checked": [],
+  "weekly": [],
+  "error": "site unreachable",
+  "site": "https://www.rastabarista.com/"
+ },
+ "osm:node/11178672889": {
+  "checked": "2026-10-26T12:56:21-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.rotundacafeatwood.com/"
+  ],
+  "weekly": [],
+  "site": "https://www.rotundacafeatwood.com/"
+ },
+ "osm:way/801280591": {
+  "checked": "2026-10-26T12:56:17-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://mymokacoffee.com/",
+   "https://mymokacoffee.com/pages/events"
+  ],
+  "weekly": [],
+  "site": "https://mymokacoffee.com/"
+ },
+ "osm:node/1191367707": {
+  "checked": "2026-10-26T12:56:22-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.starbucks.com/store-locator/store/16482/capitol-square-main-mlk-1-e-main-st-madison-wi-537033373-us"
+  ],
+  "weekly": [],
+  "site": "https://www.starbucks.com/store-locator/store/16482/capitol-square-main-mlk-1-e-main-st-madison-wi-537033373-us"
+ },
+ "osm:way/1015101058": {
+  "checked": "2026-10-26T12:56:05-05:00",
+  "feeds": [
+   {
+    "type": "squarespace",
+    "url": "https://www.gracecoffeewi.com/events-catering"
+   }
+  ],
+  "pages_checked": [
+   "https://www.gracecoffeewi.com/",
+   "https://www.gracecoffeewi.com/events-catering"
+  ],
+  "weekly": [],
+  "site": "https://www.gracecoffeewi.com"
+ },
+ "osm:node/567937911": {
+  "checked": "2026-10-26T12:56:19-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.motherfools.com/",
+   "https://motherfools.com/event/20261106/mad-city-story-slam-rebellion",
+   "https://www.motherfools.com/event/20261106/mad-city-story-slam-rebellion",
+   "https://motherfools.com/event/20261114/singles-swap-musical-speed-dating-30s-edition",
+   "https://www.motherfools.com/event/20261114/singles-swap-musical-speed-dating-30s-edition"
+  ],
+  "weekly": [],
+  "site": "https://www.motherfools.com/"
+ },
+ "osm:node/2768622488": {
+  "checked": "2026-10-26T12:56:21-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://slowfood-uw.org/",
+   "https://slowfood-uw.org/calendar/"
+  ],
+  "weekly": [],
+  "site": "https://slowfood-uw.org/"
+ },
+ "osm:node/1349224278": {
+  "checked": "2026-10-26T12:56:22-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.starbucks.com/store-locator/store/12525/university-north-blackhawk-3515-university-avenue-madison-wi-537052140-us"
+  ],
+  "weekly": [],
+  "site": "https://www.starbucks.com/store-locator/store/12525/university-north-blackhawk-3515-university-avenue-madison-wi-537052140-us"
+ },
+ "osm:node/12207153649": {
+  "checked": "2026-10-26T12:56:20-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.olivmadison.com/new-here-coffee/",
+   "https://www.olivmadison.com/contact-us/",
+   "https://www.olivmadison.com/special-offers/"
+  ],
+  "weekly": [],
+  "site": "https://www.olivmadison.com/new-here-coffee"
+ },
+ "osm:node/3171584151": {
+  "checked": "2026-10-26T12:56:22-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.starbucks.com/store-locator/store/16495/south-gammon-mineral-point-434-gammon-place-3-madison-wi-537191090-us"
+  ],
+  "weekly": [],
+  "site": "https://www.starbucks.com/store-locator/store/16495/south-gammon-mineral-point-434-gammon-place-3-madison-wi-537191090-us"
+ },
+ "osm:way/1502711470": {
+  "checked": "2026-10-26T12:56:19-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://mymokacoffee.com/",
+   "https://mymokacoffee.com/pages/events"
+  ],
+  "weekly": [],
+  "site": "https://mymokacoffee.com/"
+ },
+ "osm:node/13338599277": {
+  "checked": "2026-10-26T12:56:21-05:00",
+  "feeds": [
+   {
+    "type": "squarespace",
+    "url": "https://www.qamariacoffee.com/events"
+   }
+  ],
+  "pages_checked": [
+   "https://www.qamariacoffee.com/",
+   "https://www.qamariacoffee.com/events",
+   "https://www.qamariacoffee.com/shop/special-blends"
+  ],
+  "weekly": [],
+  "site": "https://www.qamariacoffee.com/"
+ },
+ "osm:node/3590387894": {
+  "checked": "2026-10-26T12:56:22-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.starbucks.com/store-locator/store/1010275/greenway-boulevard-8230-greenway-boulevard-middleton-wi-535623579-us"
+  ],
+  "weekly": [],
+  "site": "https://www.starbucks.com/store-locator/store/1010275/greenway-boulevard-8230-greenway-boulevard-middleton-wi-535623579-us"
+ },
+ "osm:node/3892054366": {
+  "checked": "2026-10-26T12:56:23-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.starbucks.com/store-locator/store/9233/monona-broadway-6512-monona-drive-monona-wi-537164026-us"
+  ],
+  "weekly": [],
+  "site": "https://www.starbucks.com/store-locator/store/9233/monona-broadway-6512-monona-drive-monona-wi-537164026-us"
+ },
+ "osm:node/4512429199": {
+  "checked": "2026-10-26T12:56:23-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.starbucks.com/store-locator/store/1016244/allen-boulevard-2602-allen-boulevard-middleton-wi-535622214-us"
+  ],
+  "weekly": [],
+  "site": "https://www.starbucks.com/store-locator/store/1016244/allen-boulevard-2602-allen-boulevard-middleton-wi-535622214-us"
+ },
+ "osm:node/4632205306": {
+  "checked": "2026-10-26T12:56:24-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.starbucks.com/store-locator/store/16460/mc-kee-triverton-pike-2981-triverton-pike-dr-fitchburg-wi-537117507-us"
+  ],
+  "weekly": [],
+  "site": "https://www.starbucks.com/store-locator/store/16460/mc-kee-triverton-pike-2981-triverton-pike-dr-fitchburg-wi-537117507-us"
+ },
+ "osm:node/7196134726": {
+  "checked": "2026-10-26T12:56:24-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.starbucks.com/store-locator/store/20035/target-madison-2765-750-hilldale-way-madison-wi-537052644-us"
+  ],
+  "weekly": [],
+  "site": "https://www.starbucks.com/store-locator/store/20035/target-madison-2765-750-hilldale-way-madison-wi-537052644-us"
+ },
+ "osm:node/7485565396": {
+  "checked": "2026-10-26T12:56:25-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.starbucks.com/store-locator/store/1005697/prairie-lakes-grand-2804-prairie-lakes-drive-sun-prairie-wi-535908504-"
+  ],
+  "weekly": [],
+  "site": "https://www.starbucks.com/store-locator/store/1005697/prairie-lakes-grand-2804-prairie-lakes-drive-sun-prairie-wi-535908504-"
+ },
+ "osm:way/374898542": {
+  "checked": "2026-10-26T12:56:35-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://tacomadrewi.com/"
+  ],
+  "weekly": [],
+  "site": "https://tacomadrewi.com/"
+ },
+ "osm:node/8597023271": {
+  "checked": "2026-10-26T12:56:25-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.starbucks.com/store-locator/store/68852/east-washington-continental-4202-e-washington-ave-madison-wi-537043720-us"
+  ],
+  "weekly": [],
+  "site": "https://www.starbucks.com/store-locator/store/68852/east-washington-continental-4202-e-washington-ave-madison-wi-537043720-us"
+ },
+ "osm:node/11762673079": {
+  "checked": "2026-10-26T12:56:35-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.tatimarketplace.com"
+  ],
+  "weekly": [],
+  "site": "https://tatimarketplace.com"
+ },
+ "osm:node/1855698714": {
+  "checked": "2026-10-26T12:56:36-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.bubblingteapot.com/"
+  ],
+  "weekly": [],
+  "site": "https://www.bubblingteapot.com/"
+ },
+ "osm:node/11327733569": {
+  "checked": "2026-10-26T12:56:36-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.teasider.com/"
+  ],
+  "weekly": [],
+  "site": "https://www.teasider.com/"
+ },
+ "osm:node/9395309323": {
+  "checked": "2026-10-26T12:56:26-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.starbucks.com/store-locator/store/1030539/fish-hatchery-greenway-1605-greenway-cross-madison-wi-537133007-us"
+  ],
+  "weekly": [],
+  "site": "https://www.starbucks.com/store-locator/store/1030539/fish-hatchery-greenway-1605-greenway-cross-madison-wi-537133007-us"
+ },
+ "osm:node/11201281106": {
+  "checked": "2026-10-26T12:56:37-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.twistedgrounds.com/",
+   "https://www.twistedgrounds.com/events"
+  ],
+  "weekly": [],
+  "site": "https://www.twistedgrounds.com/"
+ },
+ "osm:node/2522840402": {
+  "checked": "2026-10-26T12:56:38-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.valentiacoffee.com/"
+  ],
+  "weekly": [],
+  "site": "https://www.valentiacoffee.com/"
+ },
+ "osm:node/10135541842": {
+  "checked": "2026-10-26T12:56:27-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.starbucks.com/store-locator/store/7527/target-fitchburg-2106-6321-mc-kee-rd-fitchburg-wi-537195017-us"
+  ],
+  "weekly": [],
+  "site": "https://www.starbucks.com/store-locator/store/7527/target-fitchburg-2106-6321-mc-kee-rd-fitchburg-wi-537195017-us"
+ },
+ "osm:node/8947332228": {
+  "checked": "2026-10-26T12:56:39-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://wonderstate.com/pages/madison-cafe",
+   "https://wonderstate.com/collections/events"
+  ],
+  "weekly": [],
+  "site": "https://wonderstate.com/pages/madison-cafe"
+ },
+ "osm:way/385639191": {
+  "checked": "2026-10-26T12:54:44-05:00",
+  "feeds": [
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/karaoke-nabjl-22c3f-gw57n-2m79c-a47wx-jblcs-4bcsl-mkd7s-ctsf4-p4hcx-t4n3x-xd9mh-c5tsy-cpczx-w6dsr-tg854?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/tango-classsocial-by-madison-tango-society-tybcn-cpa6k-d3s5m-tzwnl-x3hj8-cp48m-z5lgd-c6kyy-dxfs6-f8rrm-ynaa6-pdnf2-5c27n-aafxh-t5ajm-tshpj-hdb66?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/bachata-classsalsa-dance-social-4e42w-l8pzx-3tkt4-dhkec-db3g2-ay4jy-as6dh-mtac9-mfmtd-x4c2p-92hm7-jwkls-d98n3-79jpe-j5j8m-8my8e-hfkhg?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/jumptown-swing-pdfmn-59jkp-yjsp4-fbnmd-mlydx-t82hk-cxh26-yjmcz-24589-r35gr-bj2kg-w8zz3-rycxr-9jdhz-593dz-h2mx8?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/tani-diakite-and-afrofunkstarks-2m2he-l9nje-t7e27?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/cool-school-1-mwk5m-6mm75-4gl5k-x3bxx-2l3ky?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/adem-tesfaye-1?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/dj-terrence-j-halloween-bash?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/jumptown-swing-pdfmn-59jkp-yjsp4-fbnmd-mlydx-t82hk-cxh26-yjmcz-24589-r35gr-bj2kg-w8zz3-rycxr-9jdhz-9zrws?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/karaoke-nabjl-22c3f-gw57n-2m79c-a47wx-jblcs-4bcsl-mkd7s-ctsf4-p4hcx-t4n3x-xd9mh-c5tsy-cpczx-w6dsr-l2pex?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/night-of-the-improviser-z76xb?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/happy-hour-gerri-dimaggio-trio-free-g7kkl-chk7g?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/sista-sensi-the-buds?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/cool-school-1-mwk5m-6mm75-4gl5k-x3bxx-2l3ky-wk7lh-m59ge-aep6w?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/julian-reid?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/sophisticated-saturdays-nrpf3?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/jumptown-swing-pdfmn-59jkp-yjsp4-fbnmd-mlydx-t82hk-cxh26-yjmcz-24589-r35gr-bj2kg-w8zz3-rycxr-9jdhz-9zrws-lb23r?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/karaoke-nabjl-22c3f-gw57n-2m79c-a47wx-jblcs-4bcsl-mkd7s-ctsf4-p4hcx-t4n3x-xd9mh-c5tsy-cpczx-w6dsr-l2pex-rcndw?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/playin-the-standards-a-jam-session-hosted-by-janni-hora-kkkd4?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/gabriel-wade-arun-lthr-quintet?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/cool-school-1-mwk5m-6mm75-4gl5k-x3bxx-2l3ky-wk7lh-m59ge-aep6w-pnxbz?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/isabella-isherwood?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/karaoke-nabjl-22c3f-gw57n-2m79c-a47wx-jblcs-4bcsl-mkd7s-ctsf4-p4hcx-t4n3x-xd9mh-c5tsy-cpczx-w6dsr-tg854-3pze2?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/jumptown-swing-pdfmn-59jkp-yjsp4-fbnmd-mlydx-t82hk-cxh26-yjmcz-24589-r35gr-bj2kg-w8zz3-rycxr-9jdhz-9zrws-lb23r-s8kwh?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/vzsiav3m9zmaag4lx827ulsv0zptk0?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/cool-school-1-mwk5m-6mm75-4gl5k-x3bxx-2l3ky-wk7lh-m59ge-aep6w-pnxbz-mebby?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/thaddeus-tukes?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/jumptown-swing-pdfmn-59jkp-yjsp4-fbnmd-mlydx-t82hk-cxh26-yjmcz-24589-r35gr-bj2kg-w8zz3-rycxr-9jdhz-9zrws-lb23r-s8kwh-z37e3?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/karaoke-nabjl-22c3f-gw57n-2m79c-a47wx-jblcs-4bcsl-mkd7s-ctsf4-p4hcx-t4n3x-xd9mh-c5tsy-cpczx-w6dsr-l2pex-rcndw-8e8pb?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/cool-school-1-mwk5m-6mm75-4gl5k-x3bxx-2l3ky-wk7lh-m59ge-aep6w-pnxbz-mc556?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/essensual-beatz-with-virigina-rose?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/karaoke-nabjl-22c3f-gw57n-2m79c-a47wx-jblcs-4bcsl-mkd7s-ctsf4-p4hcx-t4n3x-xd9mh-c5tsy-cpczx-w6dsr-tg854-3pze2-858ht?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/haunted-house-party-dj-cowboy?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/jose-guzman?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/dj-francis-medrano-latin-night-ngyxh?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/samba-novistas?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/astro-1-4n8jl?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/jumptown-swing-pdfmn-59jkp-yjsp4-fbnmd-mlydx-t82hk-cxh26-yjmcz-24589-r35gr-bj2kg-w8zz3-rycxr-9jdhz-593dz?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/bachata-classsalsa-dance-social-4e42w-l8pzx-3tkt4-dhkec-db3g2-ay4jy-as6dh-mtac9-mfmtd-x4c2p-92hm7-jwkls-d98n3-79jpe-j5j8m-8my8e?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/tango-classsocial-by-madison-tango-society-tybcn-cpa6k-d3s5m-tzwnl-x3hj8-cp48m-z5lgd-c6kyy-dxfs6-f8rrm-ynaa6-pdnf2-5c27n-aafxh-t5ajm-tshpj?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/karaoke-nabjl-22c3f-gw57n-2m79c-a47wx-jblcs-4bcsl-mkd7s-ctsf4-p4hcx-t4n3x-xd9mh-c5tsy-cpczx-w6dsr?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/showtime-saturday-night-dj-iron-mike?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/event-horizon-jazz-quartet?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/tango-class-2-3-pm-social-3-5-pm-2aden-s34kk-erc3e?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/cool-school-1-mwk5m-6mm75?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/7jnfe2ltop8l5s6zv5bqejboudxd8g?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/fred-cantu?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/madison-jazz-orchestra-3-384y9-wapp4-2rmm5?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/jumptown-swing-pdfmn-59jkp-yjsp4-fbnmd-mlydx-t82hk-cxh26-yjmcz-24589-r35gr-bj2kg-w8zz3-rycxr-9jdhz?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/bachata-classsalsa-dance-social-4e42w-l8pzx-3tkt4-dhkec-db3g2-ay4jy-as6dh-mtac9-mfmtd-x4c2p-92hm7-jwkls-d98n3-79jpe-j5j8m?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/tango-classsocial-by-madison-tango-society-tybcn-cpa6k-d3s5m-tzwnl-x3hj8-cp48m-z5lgd-c6kyy-dxfs6-f8rrm-ynaa6-pdnf2-5c27n-aafxh-t5ajm?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/karaoke-nabjl-22c3f-gw57n-2m79c-a47wx-jblcs-4bcsl-mkd7s-ctsf4-p4hcx-t4n3x-xd9mh-c5tsy-cpczx?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/kzy7rfyvojs8oyt2og0kmvljvc6mot?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/cool-school-1-mwk5m?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/dj-francis-medrano-latin-night?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/la-vaporera-grupo-candela?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/la-vaporera-scienceart-talk?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/doug-white-quartet-1-6gly7-eypa9-63rsz?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/nzinga?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/playin-the-standards-a-jam-session-hosted-by-janni-hora-kwm8w?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/jumptown-swing-pdfmn-59jkp-yjsp4-fbnmd-mlydx-t82hk-cxh26-yjmcz-24589-r35gr-bj2kg-w8zz3-rycxr?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.cafecoda.club/events-1/bachata-classsalsa-dance-social-4e42w-l8pzx-3tkt4-dhkec-db3g2-ay4jy-as6dh-mtac9-mfmtd-x4c2p-92hm7-jwkls-d98n3-79jpe?format=ical"
+   },
+   {
+    "type": "squarespace",
+    "url": "https://www.cafecoda.club/events-1"
+   },
+   {
+    "type": "jsonld",
+    "url": "https://www.cafecoda.club/events-1/karaoke-nabjl-22c3f-gw57n-2m79c-a47wx-jblcs-4bcsl-mkd7s-ctsf4-p4hcx-t4n3x-xd9mh-c5tsy-cpczx-w6dsr-tg854"
+   },
+   {
+    "type": "jsonld",
+    "url": "https://www.cafecoda.club/events-1/jumptown-swing-pdfmn-59jkp-yjsp4-fbnmd-mlydx-t82hk-cxh26-yjmcz-24589-r35gr-bj2kg-w8zz3-rycxr-9jdhz-593dz-h2mx8"
+   },
+   {
+    "type": "jsonld",
+    "url": "https://www.cafecoda.club/events-1/tango-classsocial-by-madison-tango-society-tybcn-cpa6k-d3s5m-tzwnl-x3hj8-cp48m-z5lgd-c6kyy-dxfs6-f8rrm-ynaa6-pdnf2-5c27n-aafxh-t5ajm-tshpj-hdb66"
+   }
+  ],
+  "pages_checked": [
+   "https://www.cafecoda.club/",
+   "https://www.cafecoda.club/events-1",
+   "https://www.cafecoda.club/events-1/karaoke-nabjl-22c3f-gw57n-2m79c-a47wx-jblcs-4bcsl-mkd7s-ctsf4-p4hcx-t4n3x-xd9mh-c5tsy-cpczx-w6dsr-tg854",
+   "https://www.cafecoda.club/events-1/jumptown-swing-pdfmn-59jkp-yjsp4-fbnmd-mlydx-t82hk-cxh26-yjmcz-24589-r35gr-bj2kg-w8zz3-rycxr-9jdhz-593dz-h2mx8",
+   "https://www.cafecoda.club/events-1/tango-classsocial-by-madison-tango-society-tybcn-cpa6k-d3s5m-tzwnl-x3hj8-cp48m-z5lgd-c6kyy-dxfs6-f8rrm-ynaa6-pdnf2-5c27n-aafxh-t5ajm-tshpj-hdb66"
+  ],
+  "weekly": [
+   {
+    "activity": "dance",
+    "days": [
+     1
+    ],
+    "time": "19:00",
+    "text": "Madison Tango Society hosts the Tango Classes (7 - 8:30 PM) at Cafe CODA on the main dance Floor every Tuesday!",
+    "source_url": "https://www.cafecoda.club/events-1"
+   }
+  ],
+  "site": "https://cafecoda.club"
+ },
+ "osm:way/960152446": {
+  "checked": "2026-10-26T12:56:30-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.starbucks.com/store-locator/store/1030659/rimrock-beltline-2157-rimrock-rd-madison-wi-537131443-us"
+  ],
+  "weekly": [],
+  "site": "https://www.starbucks.com/store-locator/store/1030659/rimrock-beltline-2157-rimrock-rd-madison-wi-537131443-us"
+ },
+ "osm:way/1165515989": {
+  "checked": "2026-10-26T12:56:32-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.starbucks.com/store-locator/store/1040048/verona-ave-west-end-circle-147-west-end-circle-verona-wi-53593-us"
+  ],
+  "weekly": [],
+  "site": "https://www.starbucks.com/store-locator/store/1040048/verona-ave-west-end-circle-147-west-end-circle-verona-wi-53593-us"
+ },
+ "osm:way/1304261421": {
+  "checked": "2026-10-26T12:56:33-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.starbucks.com/store-locator/store/17653/state-lake-661-state-street-madison-wi-537031049-us"
+  ],
+  "weekly": [],
+  "site": "https://www.starbucks.com/store-locator/store/17653/state-lake-661-state-street-madison-wi-537031049-us"
+ },
+ "osm:way/1314277036": {
+  "checked": "2026-10-26T12:56:43-05:00",
+  "feeds": [
+   {
+    "type": "squarespace",
+    "url": "https://www.micentro.org/events"
+   }
+  ],
+  "pages_checked": [
+   "https://www.micentro.org/",
+   "https://www.micentro.org/events"
+  ],
+  "weekly": [],
+  "site": "https://www.micentro.org/"
+ },
+ "osm:node/6568529943": {
+  "checked": "2026-10-26T12:56:37-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://thesowsearwi.com/",
+   "https://thesowsearwi.com/products/2027-tear-off-postcard-illustrated-calendar",
+   "https://thesowsearwi.com/blogs/news/autumn-2025-events-classes-at-the-sows-ear",
+   "https://thesowsearwi.com/products/2027-gnomes-mushrooms-postcard-wall-calendar-phoebe-wahl",
+   "https://thesowsearwi.com/pages/classes",
+   "https://thesowsearwi.com/collections/knitting-for-olive"
+  ],
+  "weekly": [],
+  "site": "https://www.knitandsip.com/"
+ },
+ "osm:way/1441901385": {
+  "checked": "2026-10-26T12:56:39-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://wakenbakery.net/madison-closed/",
+   "https://wakenbakery.net/events/",
+   "https://wakenbakery.net/deals/",
+   "https://wakenbakery.net/shipping/",
+   "https://wakenbakery.net/locations/"
+  ],
+  "weekly": [],
+  "site": "https://www.wakenbakery.net/locations/madison/"
+ },
+ "osm:node/12802797091": {
+  "checked": "2026-10-26T12:56:29-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.starbucks.com/",
+   "https://www.starbucks.com/stores-and-ordering/delivery"
+  ],
+  "weekly": [],
+  "site": "https://www.starbucks.com"
+ },
+ "osm:way/683589486": {
+  "checked": "2026-10-26T12:56:46-05:00",
+  "feeds": [
+   {
+    "type": "ical",
+    "url": "https://calendar.google.com/calendar/ical/bnmftglj834vll16kahe1p9m58%40group.calendar.google.com/public/basic.ics"
+   },
+   {
+    "type": "ical",
+    "url": "https://calendar.google.com/calendar/ical/en.usa%23holiday%40group.v.calendar.google.com/public/basic.ics"
+   },
+   {
+    "type": "ical",
+    "url": "https://calendar.google.com/calendar/ical/khj1apqtd875hhj4javgr1a2t0%40group.calendar.google.com/public/basic.ics"
+   },
+   {
+    "type": "ical",
+    "url": "https://calendar.google.com/calendar/ical/dG93bmNnLm5ldF90NmFxYzA5Yjg5ZHY2ZHUwMjBtM3RyajlqOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t/public/basic.ics"
+   },
+   {
+    "type": "ical",
+    "url": "https://calendar.google.com/calendar/ical/dG93bmNnLm5ldF9qZzFra25lZHQ2b3QycWYwZ2tzdHJmb3Vwb0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t/public/basic.ics"
+   }
+  ],
+  "pages_checked": [
+   "https://www.tn.cottagegrove.wi.gov/hall-rental-information/",
+   "https://www.tn.cottagegrove.wi.gov/calendar-of-events/"
+  ],
+  "weekly": [],
+  "site": "https://www.tn.cottagegrove.wi.gov/hall-rental-information/"
+ },
+ "osm:node/4349999365": {
+  "checked": "2026-10-26T12:56:48-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.outreachmadisonlgbt.org/",
+   "https://www.outreachmadisonlgbt.org/calendar",
+   "https://www.outreachmadisonlgbt.org/special-events"
+  ],
+  "weekly": [],
+  "site": "https://www.lgbtoutreach.org/"
+ },
+ "osm:way/310376486": {
+  "checked": "2026-10-26T12:56:47-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://iwcmadison.com/",
+   "https://iwcmadison.com/calendar/"
+  ],
+  "weekly": [],
+  "site": "https://iwcmadison.com/"
+ },
+ "osm:node/6022440083": {
+  "checked": "2026-10-26T12:56:50-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.centerforblackwomen.org/",
+   "https://www.centerforblackwomen.org/calendar/"
+  ],
+  "weekly": [],
+  "site": "https://www.centerforblackwomen.org/"
+ },
+ "osm:way/370999144": {
+  "checked": "2026-10-26T12:56:47-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.madisonmuslims.org/",
+   "https://www.madisonmuslims.org/events",
+   "https://www.madisonmuslims.org/events/lesson-on-delivering-the-friday-khutbah",
+   "https://www.madisonmuslims.org/connect",
+   "https://www.madisonmuslims.org/services/marriage",
+   "https://www.madisonmuslims.org/services/banquet-rental"
+  ],
+  "weekly": [],
+  "site": "https://madisonmuslims.org/"
+ },
+ "osm:node/13430436319": {
+  "checked": "2026-10-26T12:56:53-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.theblackcenter.org/",
+   "https://www.theblackcenter.org/spaces/event-spaces/"
+  ],
+  "weekly": [],
+  "site": "https://www.theblackcenter.org/"
+ },
+ "osm:way/323930008": {
+  "checked": "2026-10-26T12:56:55-05:00",
+  "feeds": [
+   {
+    "type": "ical",
+    "url": "https://calendar.google.com/calendar/ical/c_r4o4fclp59aup7jfsh4aiei0ec%40group.calendar.google.com/public/basic.ics"
+   },
+   {
+    "type": "squarespace",
+    "url": "https://www.neighborhoodhousemadison.org/calendar"
+   }
+  ],
+  "pages_checked": [
+   "https://www.neighborhoodhousemadison.org/",
+   "https://www.neighborhoodhousemadison.org/calendar"
+  ],
+  "weekly": [],
+  "site": "https://neighborhoodhousemadison.org"
+ },
+ "osm:node/4648368474": {
+  "checked": "2026-10-26T12:56:44-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "http://www.fitchburgwi.gov/621/Senior-Center",
+   "http://www.fitchburgwi.gov/Calendar.aspx?EID=19913",
+   "http://www.fitchburgwi.gov/Calendar.aspx?EID=19958",
+   "http://www.fitchburgwi.gov/Calendar.aspx?EID=19837",
+   "http://www.fitchburgwi.gov/Calendar.aspx?EID=19807",
+   "http://www.fitchburgwi.gov/calendar.aspx?CID=25,42,26,43,27"
+  ],
+  "weekly": [],
+  "site": "http://www.fitchburgwi.gov/621/Senior-Center"
+ },
+ "osm:node/13421586427": {
+  "checked": "2026-10-26T12:56:39-05:00",
+  "feeds": [
+   {
+    "type": "ical",
+    "url": "https://rootedwi.org/events/?ical=1"
+   },
+   {
+    "type": "ical",
+    "url": "https://rootedwi.org/?post_type=tribe_events&ical=1&eventDisplay=list"
+   },
+   {
+    "type": "ical",
+    "url": "https://rootedwi.org/events/list/?shortcode=f0b1cb7d&ical=1"
+   },
+   {
+    "type": "ical",
+    "url": "https://rootedwi.org/events/list/?shortcode=f0b1cb7d&outlook-ical=1#038;ical=1"
+   },
+   {
+    "type": "jsonld",
+    "url": "https://rootedwi.org/get-involved/events-calendar/"
+   },
+   {
+    "type": "tribe",
+    "url": "https://rootedwi.org/wp-json/tribe/events/v1/events?per_page=50&start_date=2026-10-26&end_date=2026-11-09"
+   }
+  ],
+  "pages_checked": [
+   "https://rootedwi.org/badger-rock-neighborhood-center/",
+   "https://rootedwi.org/get-involved/events-calendar/"
+  ],
+  "weekly": [],
+  "site": "https://rootedwi.org/badger-rock-neighborhood-center/"
+ },
+ "osm:way/1323648187": {
+  "checked": "2026-10-26T12:56:41-05:00",
+  "feeds": [
+   {
+    "type": "ical",
+    "url": "https://bayviewfoundation.org/events/?ical=1"
+   },
+   {
+    "type": "ical",
+    "url": "https://bayviewfoundation.org/?post_type=tribe_events&ical=1&eventDisplay=list"
+   },
+   {
+    "type": "ical",
+    "url": "https://bayviewfoundation.org/events/list/?ical=1"
+   },
+   {
+    "type": "ical",
+    "url": "https://bayviewfoundation.org/events/list/?outlook-ical=1"
+   },
+   {
+    "type": "jsonld",
+    "url": "https://bayviewfoundation.org/events/"
+   },
+   {
+    "type": "tribe",
+    "url": "https://bayviewfoundation.org/wp-json/tribe/events/v1/events?per_page=50&start_date=2026-10-26&end_date=2026-11-09"
+   }
+  ],
+  "pages_checked": [
+   "https://bayviewfoundation.org/",
+   "https://bayviewfoundation.org/events/",
+   "https://bayviewfoundation.org/events/"
+  ],
+  "weekly": [],
+  "site": "https://www.bayviewfoundation.org"
+ },
+ "osm:way/675800916": {
+  "checked": "2026-10-26T12:56:57-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.veronawi.gov/941/Community-Center",
+   "https://www.veronawi.gov/513/Schedules"
+  ],
+  "weekly": [],
+  "site": "https://www.veronawi.gov/941/Community-Center"
+ },
+ "osm:way/274589426": {
+  "checked": "2026-10-26T12:56:59-05:00",
+  "feeds": [
+   {
+    "type": "squarespace",
+    "url": "https://wil-mar.org/weekly-events"
+   }
+  ],
+  "pages_checked": [
+   "https://wil-mar.org/",
+   "https://wil-mar.org/weekly-events",
+   "https://wil-mar.org/space"
+  ],
+  "weekly": [],
+  "site": "https://www.wil-mar.org/"
+ },
+ "osm:way/1562302804": {
+  "checked": "2026-10-26T12:56:53-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.cityofmadison.com/parks/find-a-park/reindahl/pavilion-at-the-imagination-center",
+   "https://www.cityofmadison.com/parks/events",
+   "https://www.cityofmadison.com/parks/find-a-park/specialty-facilities",
+   "https://www.cityofmadison.com/parks/find-a-park/specialty-facilities/biking",
+   "https://www.cityofmadison.com/parks/find-a-park/specialty-facilities/disc-golf",
+   "https://www.cityofmadison.com/parks/find-a-park/specialty-facilities/dog-parks"
+  ],
+  "weekly": [],
+  "site": "https://www.cityofmadison.com/parks/find-a-park/reindahl/pavilion-at-the-imagination-center"
+ },
+ "osm:way/239151331": {
+  "checked": "2026-10-26T12:56:59-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.waunakee.gov/187/Village-Center",
+   "https://www.waunakee.gov/calendar.aspx?CID=25",
+   "https://www.waunakee.gov/Calendar.aspx?EID=6370",
+   "https://www.waunakee.gov/Calendar.aspx?EID=6371",
+   "https://www.waunakee.gov/m/faq?cat=21#question-80",
+   "https://www.waunakee.gov/473/Gym-Schedule"
+  ],
+  "weekly": [],
+  "site": "https://www.vil.waunakee.wi.us/187/Village-Center"
+ },
+ "osm:way/386578862": {
+  "checked": "2026-10-26T12:57:03-05:00",
+  "feeds": [
+   {
+    "type": "ical",
+    "url": "https://https://www.mcfarlandlibrary.org/calendar/month"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.mcfarlandlibrary.org/calendar/month/iCal.ics"
+   }
+  ],
+  "pages_checked": [
+   "https://www.mcfarlandlibrary.org/",
+   "https://www.mcfarlandlibrary.org/adult-events",
+   "https://www.mcfarlandlibrary.org/calendar/month",
+   "https://www.mcfarlandlibrary.org/special-programs"
+  ],
+  "weekly": [],
+  "site": "https://www.mcfarlandlibrary.org/home"
+ },
+ "osm:node/3680614959": {
+  "checked": "2026-10-26T12:57:10-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://ebling.library.wisc.edu/",
+   "https://ebling.library.wisc.edu/event/introduction-to-embase/",
+   "https://ebling.library.wisc.edu/ebling-library-classes-events/",
+   "https://ebling.library.wisc.edu/event/let-there-be-light-film-screening/",
+   "https://ebling.library.wisc.edu/event/playful-pedagogy-plagued-demo-and-reflections/",
+   "https://ebling.library.wisc.edu/materials/delivery-services/"
+  ],
+  "weekly": [],
+  "site": "https://ebling.library.wisc.edu/"
+ },
+ "osm:node/790662052": {
+  "checked": "2026-10-26T12:57:02-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.madisonpubliclibrary.org/locations/alicia-ashman-library",
+   "https://www.madisonpubliclibrary.org/spaces/events",
+   "https://www.madisonpubliclibrary.org/spaces/events/search",
+   "https://www.madisonpubliclibrary.org/spaces/special-events",
+   "https://www.madisonpubliclibrary.org/spaces/events/baby-time-253346",
+   "https://www.madisonpubliclibrary.org/spaces/events/toddler-time-253327"
+  ],
+  "weekly": [],
+  "site": "https://www.madisonpubliclibrary.org/about/ashman.html"
+ },
+ "osm:way/106202711": {
+  "checked": "2026-10-26T12:57:20-05:00",
+  "feeds": [],
+  "pages_checked": [],
+  "weekly": [],
+  "error": "site unreachable",
+  "site": "https://mymonona.com/131/Library"
+ },
+ "osm:way/158454817": {
+  "checked": "2026-10-26T12:56:47-05:00",
+  "feeds": [
+   {
+    "type": "jsonld",
+    "url": "https://www.goodmancenter.org/community-services/activities-calendar/tuesday-food-pantry"
+   }
+  ],
+  "pages_checked": [
+   "https://www.goodmancenter.org/",
+   "https://www.goodmancenter.org/get-involved/events",
+   "https://www.goodmancenter.org/rooms/event-rental-faqs",
+   "https://www.goodmancenter.org/community-services/activities-calendar/all",
+   "https://www.goodmancenter.org/get-involved/events/thanksgiving-baskets",
+   "https://www.goodmancenter.org/community-services/activities-calendar/tuesday-food-pantry"
+  ],
+  "weekly": [],
+  "site": "https://www.goodmancenter.org/"
+ },
+ "osm:way/158454828": {
+  "checked": "2026-10-26T12:56:47-05:00",
+  "feeds": [
+   {
+    "type": "jsonld",
+    "url": "https://www.goodmancenter.org/community-services/activities-calendar/tuesday-food-pantry"
+   }
+  ],
+  "pages_checked": [
+   "https://www.goodmancenter.org/",
+   "https://www.goodmancenter.org/get-involved/events",
+   "https://www.goodmancenter.org/rooms/event-rental-faqs",
+   "https://www.goodmancenter.org/community-services/activities-calendar/all",
+   "https://www.goodmancenter.org/get-involved/events/thanksgiving-baskets",
+   "https://www.goodmancenter.org/community-services/activities-calendar/tuesday-food-pantry"
+  ],
+  "weekly": [],
+  "site": "https://www.goodmancenter.org/"
+ },
+ "osm:way/470661279": {
+  "checked": "2026-10-26T12:57:10-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "http://www.fitchburgwi.gov/2775/Library",
+   "http://www.fitchburgwi.gov/calendar.aspx?CID=24",
+   "http://www.fitchburgwi.gov/calendar.aspx?CID=22",
+   "http://www.fitchburgwi.gov/calendar.aspx?CID=23",
+   "http://www.fitchburgwi.gov/Calendar.aspx?EID=20481",
+   "http://www.fitchburgwi.gov/Calendar.aspx?EID=20383"
+  ],
+  "weekly": [],
+  "site": "http://www.fitchburgwi.gov/822/Library"
+ },
+ "osm:way/159047889": {
+  "checked": "2026-10-26T12:57:23-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://library.edgewood.edu/home"
+  ],
+  "weekly": [],
+  "site": "https://library.edgewood.edu/home"
+ },
+ "osm:way/101606146": {
+  "checked": "2026-10-26T12:57:20-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.library.wisc.edu/memorial/",
+   "https://www.library.wisc.edu/memorial/workshops-events/",
+   "https://www.library.wisc.edu/music/",
+   "https://www.library.wisc.edu/specialcollections/"
+  ],
+  "weekly": [],
+  "site": "https://www.library.wisc.edu/memorial/"
+ },
+ "osm:node/5501718844": {
+  "checked": "2026-10-26T12:55:25-05:00",
+  "feeds": [
+   {
+    "type": "squarespace",
+    "url": "https://www.workingdraftbeer.com/calendar"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/10/31/halloween-at-wdbc-2026?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/11/7/swedish-lager-dovetail-brewery-collab-release-party?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/11/8/brats-bloodys?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/11/14/pickle-day-palooza?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/12/13/brats-bloodys?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/10/17/between-the-intangible-and-tangible-erika-rosales-art-opening?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/10/15/samba-night?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/10/10/cuban-salsa-social?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/10/8/close-enough-to-perfect-iipa-debut?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/9/25/food-truck-friday?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/9/18/food-truck-friday?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/9/17/samba-night?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/9/11/working-draft-oktoberfest-2026?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/9/6/brats-bloodys?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/9/4/food-truck-friday?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/9/4/celebrate-working-drafts-2nd-underversary?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/8/28/food-truck-friday?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/8/22/cuban-heritage-day?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/8/21/food-truck-friday?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/8/20/samba-night?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/8/15/oyster-night-w-sardine-at-wdbc?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/8/14/food-truck-friday?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/8/14/oyster-stout-release-at-sardine?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/8/9/brats-bloodys-lil-drifty?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/8/7/lager-kings-pre-great-taste-party?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/7/31/food-truck-friday?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/7/24/food-truck-friday?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/7/17/above-ground-pool-party?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/7/16/samba-night?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/7/13/lego-night-sern-sapp?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/7/12/brats-bloodys?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/7/10/food-truck-friday?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/7/5/sabor-regio-taco-truck-75-from-1-4pm?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/7/4/july-4th-cook-out-at-wdbc?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/7/3/food-truck-friday?format=ical"
+   },
+   {
+    "type": "squarespace",
+    "url": "https://www.workingdraftbeer.com/events?category=food"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/10/26/game-three-of-the-fall-classic-go-crew?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/10/27/game-four-of-the-fall-classic-go-crew?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/10/28/game-five-of-the-fall-classic-go-crew?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/10/29/pints-with-purpose-for-gildas-club-wi-at-wdbc?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/10/30/game-six-of-the-fall-classic-go-crew?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/11/5/blankets-brews-w-the-united-way-of-dane-county?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/11/17/astronomy-on-tap?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/20269/11/21/yoga-on-tap-with-the-local-movement?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/11/29/meat-raffle-sunday-nov-29th?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/12/5/holiday-wreath-workshop-w-allen-centennial-garden-125-1230pm?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/12/10/holiday-wreath-workshop-w-allen-centennial-garden-1210-630pm?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/20269/12/13/yoga-on-tap-with-the-local-movement?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/12/27/meat-raffle-sunday-nov-27th?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/10/25/meat-raffle-sunday-oct-25th?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/10/24/game-two-of-the-fall-classic-go-crew?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/10/23/game-one-of-the-fall-classic-go-crew?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/10/19/blood-drive-at-wdbc?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/9/27/meat-raffle-sunday-sept-27th?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/9/26/madison-makers-summer-market?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/20269/20/yoga-on-tap-with-the-local-movement?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/9/19/dried-flower-wreath-workshop-w-allen-centennial-garden?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/9/15/astronomy-on-tap?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/8/30/meat-raffle-sunday-august-30th?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/8/27/drag-bingo-w-bianca-lynn-breeze?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/7/26/meat-raffle-sunday-july-26th?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/7/15/world-cup-semis-england-vs-argentina?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.workingdraftbeer.com/events/2026/7/14/world-cup-semis-france-vs-spain?format=ical"
+   },
+   {
+    "type": "squarespace",
+    "url": "https://www.workingdraftbeer.com/events?category=events,games"
+   },
+   {
+    "type": "jsonld",
+    "url": "https://www.workingdraftbeer.com/events/2026/11/8/brats-bloodys"
+   },
+   {
+    "type": "jsonld",
+    "url": "https://www.workingdraftbeer.com/events/2026/12/13/brats-bloodys"
+   }
+  ],
+  "pages_checked": [
+   "https://www.workingdraftbeer.com/",
+   "https://www.workingdraftbeer.com/calendar",
+   "https://www.workingdraftbeer.com/events?category=food",
+   "https://www.workingdraftbeer.com/events?category=events,games",
+   "https://www.workingdraftbeer.com/events/2026/11/8/brats-bloodys",
+   "https://www.workingdraftbeer.com/events/2026/12/13/brats-bloodys"
+  ],
+  "weekly": [],
+  "site": "https://www.workingdraftbeer.com/"
+ },
+ "osm:way/102890906": {
+  "checked": "2026-10-26T12:57:21-05:00",
+  "feeds": [
+   {
+    "type": "tribe",
+    "url": "https://www.nagcnl.org/wp-json/tribe/events/v1/events?per_page=50&start_date=2026-10-26&end_date=2026-11-09"
+   }
+  ],
+  "pages_checked": [
+   "https://www.nagcnl.org/",
+   "https://nagcnl.app.neoncrm.com/nx/portal/neonevents/events?path=%2Fportal%2Fevents"
+  ],
+  "weekly": [],
+  "site": "https://www.nagcnl.org/"
+ },
+ "osm:way/708130272": {
+  "checked": "2026-10-26T12:57:25-05:00",
+  "feeds": [],
+  "pages_checked": [],
+  "weekly": [],
+  "error": "site unreachable",
+  "site": "https://www.waunakeepubliclibrary.org/"
+ },
+ "osm:way/37804099": {
+  "checked": "2026-10-26T12:57:26-05:00",
+  "feeds": [],
+  "pages_checked": [],
+  "weekly": [],
+  "error": "site unreachable",
+  "site": "https://www.wisconsinhistory.org"
+ },
+ "osm:way/600866560": {
+  "checked": "2026-10-26T12:57:25-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.sunprairiepubliclibrary.org/",
+   "https://www.sunprairiepubliclibrary.org/home-delivery-service"
+  ],
+  "weekly": [],
+  "site": "https://www.sunprairiepubliclibrary.org/"
+ },
+ "osm:way/102316433": {
+  "checked": "2026-10-26T12:57:02-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.madisonpubliclibrary.org/locations/central-library",
+   "https://www.madisonpubliclibrary.org/spaces/events",
+   "https://www.madisonpubliclibrary.org/spaces/events/search",
+   "https://www.madisonpubliclibrary.org/spaces/special-events",
+   "https://www.madisonpubliclibrary.org/spaces/events/red-cross-blood-drive-184504",
+   "https://www.madisonpubliclibrary.org/spaces/events/family-halloween-library-270778"
+  ],
+  "weekly": [],
+  "site": "https://www.madisonpubliclibrary.org/central"
+ },
+ "osm:way/104542099": {
+  "checked": "2026-10-26T12:57:25-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.veronapubliclibrary.org/",
+   "https://www.veronapubliclibrary.org/programs",
+   "https://www.veronapubliclibrary.org/verona-community"
+  ],
+  "weekly": [],
+  "site": "https://www.veronapubliclibrary.org/"
+ },
+ "osm:way/541940185": {
+  "checked": "2026-10-26T12:57:26-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://escmadison.com/",
+   "https://escmadison.com/events",
+   "https://escmadison.com/event-rentals",
+   "https://escmadison.com"
+  ],
+  "weekly": [],
+  "site": "https://escmadison.com"
+ },
+ "osm:node/10815180247": {
+  "checked": "2026-10-26T12:57:28-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://artlitlab.org/",
+   "https://artlitlab.org/calendar",
+   "https://artlitlab.org/events/write-ins",
+   "https://artlitlab.org/events/galaxy-quartet",
+   "https://artlitlab.org/what-we-do/past-events",
+   "https://artlitlab.org/events/native-art-market-2026"
+  ],
+  "weekly": [],
+  "site": "https://artlitlab.org/"
+ },
+ "osm:way/776904505": {
+  "checked": "2026-10-26T12:57:33-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://barnwoodeventswi.com/",
+   "https://barnwoodeventswi.com/inquire",
+   "https://barnwoodeventswi.com/contact-us/",
+   "https://barnwoodeventswi.com/event-space-madison-wi"
+  ],
+  "weekly": [],
+  "site": "https://www.barnwoodeventswi.com/"
+ },
+ "osm:way/265137656": {
+  "checked": "2026-10-26T12:57:41-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://bartelltheatre.org/"
+  ],
+  "weekly": [],
+  "site": "https://bartelltheatre.org/"
+ },
+ "osm:way/1180774916": {
+  "checked": "2026-10-26T12:57:28-05:00",
+  "feeds": [
+   {
+    "type": "jsonld",
+    "url": "https://www.arthouse360.com/event-details/comedy-improv-show-2026-09-17-19-00"
+   },
+   {
+    "type": "jsonld",
+    "url": "https://www.arthouse360.com/event-details/monthly-song-swap-with-beth-kille-ellen-damschen-2026-03-09-18-30"
+   }
+  ],
+  "pages_checked": [
+   "https://www.arthouse360.com/",
+   "https://www.arthouse360.com/event-details/comedy-improv-show-2026-09-17-19-00",
+   "https://www.arthouse360.com/event-details/monthly-song-swap-with-beth-kille-ellen-damschen-2026-03-09-18-30",
+   "https://www.arthouse360.com/summer"
+  ],
+  "weekly": [],
+  "site": "https://www.arthouse360.com/"
+ },
+ "osm:way/1562302805": {
+  "checked": "2026-10-26T12:57:12-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.madisonpubliclibrary.org/locations/imagination-center",
+   "https://www.madisonpubliclibrary.org/spaces/events",
+   "https://www.madisonpubliclibrary.org/spaces/events/search",
+   "https://www.madisonpubliclibrary.org/spaces/special-events",
+   "https://www.madisonpubliclibrary.org/spaces/events/mmsd-play-learn-272896",
+   "https://www.madisonpubliclibrary.org/spaces/events/multi-age-storytime-261985"
+  ],
+  "weekly": [],
+  "site": "https://www.madisonpubliclibrary.org/locations/imagination-center"
+ },
+ "osm:way/484828872": {
+  "checked": "2026-10-26T12:56:42-05:00",
+  "feeds": [
+   {
+    "type": "ical",
+    "url": "https://www.blwcenter.org/events/strong-bodies-gcbz6-r5hwx-aygjn-hyzc3-e9pp7-kf5wk-s5ccc-y4bhk-by9kj-f97fx-rw7tn-4d5e4?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.blwcenter.org/events/knitting-social-1-7r6zj-akkae?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.blwcenter.org/events/senior-breakfast-1-654mk?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.blwcenter.org/events/senior-nutrition-classes-xrn9a?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.blwcenter.org/events/strong-bodies-gcbz6-r5hwx-aygjn-hyzc3-e9pp7-kf5wk-s5ccc-y4bhk-by9kj-f97fx-rw7tn-4d5e4-4ha45?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.blwcenter.org/events/retail-pantry-2-xb9tp-ypk9c-s4wj9-29478-nctmd-e7yfs-34tc3-kbe9m?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.blwcenter.org/events/community-meal-1-bmdw7-fjhla-nww5h-nxwps-lkghr-9f3hy-jpdm6?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.blwcenter.org/events/chair-yoga-hkhgl-fdgfs-t98mx-cclhf-76ks5-c3sa8?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.blwcenter.org/events/retail-pantry-2-xb9tp-hxtch-xjkds-r8z9f-ftwt3-hnfry-lw2cb?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.blwcenter.org/events/community-meal-1-bmdw7-fjhla-nww5h-nxwps-lkghr-9f3hy?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.blwcenter.org/events/retail-pantry-2-xb9tp-ypk9c-s4wj9-29478-nctmd-e7yfs-34tc3?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.blwcenter.org/events/blw-grief-group?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.blwcenter.org/events/monona-senior-fair?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.blwcenter.org/events/strong-bodies-gcbz6-r5hwx-aygjn-hyzc3-e9pp7-kf5wk-s5ccc-y4bhk-by9kj-f97fx-rw7tn?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.blwcenter.org/events/chair-yoga-hkhgl-fdgfs-t98mx-cclhf-76ks5?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.blwcenter.org/events/retail-pantry-2-xb9tp-hxtch-xjkds-r8z9f-ftwt3-hnfry?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.blwcenter.org/events/loteria?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.blwcenter.org/events/community-meal-1-bmdw7-fjhla-nww5h-nxwps-lkghr-j6wde?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.blwcenter.org/events/retail-pantry-2-xb9tp-ypk9c-s4wj9-29478-nctmd-e7yfs?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.blwcenter.org/events/center-closed-230pm?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.blwcenter.org/events/strong-bodies-gcbz6-r5hwx-aygjn-hyzc3-e9pp7-kf5wk-s5ccc-y4bhk-by9kj-f97fx?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.blwcenter.org/events/senior-nutrition-classes?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.blwcenter.org/events/foot-clinic-1-269jc?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.blwcenter.org/events/gleam?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.blwcenter.org/events/knitting-social-1-7r6zj?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.blwcenter.org/events/strong-bodies-gcbz6-r5hwx-aygjn-hyzc3-e9pp7-kf5wk-s5ccc-y4bhk-by9kj?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.blwcenter.org/events/chair-yoga-hkhgl-fdgfs-t98mx-cclhf?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.blwcenter.org/events/retail-pantry-2-xb9tp-hxtch-xjkds-r8z9f-ftwt3?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.blwcenter.org/events/k813b84j0azq1k6lt87q1ggtgdcnh9?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.blwcenter.org/events/community-meal-1-bmdw7-fjhla-nww5h-nxwps-lkghr?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.blwcenter.org/events/retail-pantry-2-xb9tp-ypk9c-s4wj9-29478-nctmd-k26tx?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.blwcenter.org/events/strong-bodies-gcbz6-r5hwx-aygjn-hyzc3-e9pp7-kf5wk-s5ccc-y4bhk?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.blwcenter.org/events/strong-bodies-gcbz6-r5hwx-aygjn-hyzc3-e9pp7-kf5wk-s5ccc?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.blwcenter.org/events/chair-yoga-hkhgl-fdgfs-t98mx?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.blwcenter.org/events/retail-pantry-2-xb9tp-hxtch-xjkds-r8z9f?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.blwcenter.org/events/community-meal-1-bmdw7-fjhla-nww5h-nxwps?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.blwcenter.org/events/retail-pantry-2-xb9tp-ypk9c-s4wj9-29478-nctmd?format=ical"
+   },
+   {
+    "type": "squarespace",
+    "url": "https://www.blwcenter.org/events"
+   },
+   {
+    "type": "jsonld",
+    "url": "https://www.blwcenter.org/events/senior-breakfast-1-654mk"
+   },
+   {
+    "type": "jsonld",
+    "url": "https://www.blwcenter.org/events/knitting-social-1-7r6zj-akkae"
+   }
+  ],
+  "pages_checked": [
+   "https://www.blwcenter.org/",
+   "https://www.blwcenter.org/events",
+   "https://www.blwcenter.org/events",
+   "https://www.blwcenter.org/events/senior-breakfast-1-654mk",
+   "https://www.blwcenter.org/events/knitting-social-1-7r6zj-akkae"
+  ],
+  "weekly": [],
+  "site": "https://www.blwcenter.org/"
+ },
+ "osm:way/678313464": {
+  "checked": "2026-10-26T12:56:56-05:00",
+  "feeds": [
+   {
+    "type": "ical",
+    "url": "https://www.veracourt.org/events/family-law-clinic-1-jsbr4-pjd59-sch8e-x28kj-zgpe9-ex89h-acjh4-l3edt-8gw7f-hj6c2-y7945?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.veracourt.org/events/fresh-food-pantry-2-6tn5z-64br9-45lnn-myg38-rj7ke-8k8yg-pz85r?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.veracourt.org/events/family-law-clinic-1-jsbr4-pjd59-sch8e-x28kj-zgpe9-ex89h-acjh4-l3edt-8gw7f-hj6c2-y7945-c8f6s?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.veracourt.org/events/fresh-food-pantry-2-6tn5z-64br9-45lnn-myg38-rj7ke-8k8yg-pz85r-4y8yf?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.veracourt.org/events/fresh-food-pantry-2-6tn5z-64br9-45lnn-myg38-rj7ke-8k8yg?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.veracourt.org/events/family-law-clinic-1-jsbr4-pjd59-sch8e-x28kj-zgpe9-ex89h-acjh4-l3edt-8gw7f-hj6c2?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.veracourt.org/events/fresh-food-pantry-2-6tn5z-64br9-45lnn-myg38-rj7ke?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.veracourt.org/events/family-law-clinic-1-jsbr4-pjd59-sch8e-x28kj-zgpe9-ex89h-acjh4-l3edt-8gw7f?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.veracourt.org/events/fresh-food-pantry-2-6tn5z-64br9-45lnn-myg38?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.veracourt.org/events/family-law-clinic-1-jsbr4-pjd59-sch8e-x28kj-zgpe9-ex89h-acjh4-l3edt?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.veracourt.org/events/fresh-food-pantry-2-6tn5z-64br9-45lnn?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.veracourt.org/events/family-law-clinic-1-jsbr4-pjd59-sch8e-x28kj-zgpe9-ex89h-acjh4?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.veracourt.org/events/fresh-food-pantry-2-6tn5z-64br9?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.veracourt.org/events/family-law-clinic-1-jsbr4-pjd59-sch8e-x28kj-zgpe9-ex89h?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.veracourt.org/events/fresh-food-pantry-2-6tn5z?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.veracourt.org/events/family-law-clinic-1-jsbr4-pjd59-sch8e-x28kj-zgpe9?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.veracourt.org/events/summer-camp-open-house?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.veracourt.org/events/community-coffee?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.veracourt.org/events/prom-encore-diamond-of-the-season?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.veracourt.org/events/fresh-food-pantry-2-6tn5z-yl8kx?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.veracourt.org/events/family-law-clinic-1-jsbr4-pjd59-sch8e-x28kj?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.veracourt.org/events/dpu9shviizfdnmfh1ncchhu023hgbd?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.veracourt.org/events/fresh-food-pantry-3?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.veracourt.org/events/family-law-clinic-1-jsbr4-pjd59-sch8e?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.veracourt.org/events/community-resource-fair?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.veracourt.org/events/community-coffee-hour?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.veracourt.org/events/black-history-month-community-night-black-wealth?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.veracourt.org/events/essentials-pantry-7pw4e?format=ical"
+   },
+   {
+    "type": "squarespace",
+    "url": "https://www.veracourt.org/events"
+   },
+   {
+    "type": "jsonld",
+    "url": "https://www.veracourt.org/events/fresh-food-pantry-2-6tn5z-64br9-45lnn-myg38-rj7ke-8k8yg-pz85r"
+   },
+   {
+    "type": "jsonld",
+    "url": "https://www.veracourt.org/events/fresh-food-pantry-2-6tn5z-64br9-45lnn-myg38-rj7ke-8k8yg-pz85r-4y8yf"
+   },
+   {
+    "type": "jsonld",
+    "url": "https://www.veracourt.org/events/family-law-clinic-1-jsbr4-pjd59-sch8e-x28kj-zgpe9-ex89h-acjh4-l3edt-8gw7f-hj6c2-y7945"
+   }
+  ],
+  "pages_checked": [
+   "https://www.veracourt.org/",
+   "https://www.veracourt.org/events",
+   "https://www.veracourt.org/events",
+   "https://www.veracourt.org/events/fresh-food-pantry-2-6tn5z-64br9-45lnn-myg38-rj7ke-8k8yg-pz85r",
+   "https://www.veracourt.org/events/fresh-food-pantry-2-6tn5z-64br9-45lnn-myg38-rj7ke-8k8yg-pz85r-4y8yf",
+   "https://www.veracourt.org/events/family-law-clinic-1-jsbr4-pjd59-sch8e-x28kj-zgpe9-ex89h-acjh4-l3edt-8gw7f-hj6c2-y7945"
+  ],
+  "weekly": [],
+  "site": "https://www.veracourt.org/"
+ },
+ "osm:way/241508509": {
+  "checked": "2026-10-26T12:57:21-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.madisonpubliclibrary.org/locations/monroe-street-library",
+   "https://www.madisonpubliclibrary.org/spaces/events",
+   "https://www.madisonpubliclibrary.org/spaces/events/search",
+   "https://www.madisonpubliclibrary.org/spaces/special-events",
+   "https://www.madisonpubliclibrary.org/spaces/events/read-dog-258566",
+   "https://www.madisonpubliclibrary.org/spaces/events/art-little-ones-268089"
+  ],
+  "weekly": [],
+  "site": "https://www.madisonpubliclibrary.org/monroe-street"
+ },
+ "osm:way/105672048": {
+  "checked": "2026-10-26T12:57:44-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://letsbowl.com/bowl-a-vard",
+   "https://letsbowl.com/pinz-fiesta/group-events/",
+   "https://letsbowl.com/bowl-a-vard/group-events",
+   "https://letsbowl.com/bowl-a-vard/local-events",
+   "https://letsbowl.com/bowl-a-vard/social-events",
+   "https://letsbowl.com/bowl-a-vard/holiday-events"
+  ],
+  "weekly": [],
+  "site": "https://bowlavard.com/"
+ },
+ "osm:node/10833984405": {
+  "checked": "2026-10-26T12:57:49-05:00",
+  "feeds": [
+   {
+    "type": "ical",
+    "url": "https://ctmtheater.org/events/?ical=1"
+   },
+   {
+    "type": "tribe",
+    "url": "https://ctmtheater.org/wp-json/tribe/events/v1/events?per_page=50&start_date=2026-10-26&end_date=2026-11-09"
+   }
+  ],
+  "pages_checked": [
+   "https://ctmtheater.org/",
+   "https://ctmtheater.org/see-a-show/2023-2024-season-calendar/",
+   "https://ctmtheater.org/see-a-show-pre-season/",
+   "https://ctmtheater.org/see-a-show/group-sales/",
+   "https://ctmtheater.org/see-a-show/2026-27-season/",
+   "https://ctmtheater.org/see-a-show/ctm-box-office/"
+  ],
+  "weekly": [],
+  "site": "https://ctmtheater.org/"
+ },
+ "osm:node/10102228862": {
+  "checked": "2026-10-26T12:58:00-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://madisonlocalmotive.com/"
+  ],
+  "weekly": [],
+  "site": "https://madisonlocalmotive.com"
+ },
+ "osm:node/7234376294": {
+  "checked": "2026-10-26T12:57:24-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.madisonpubliclibrary.org/locations/pinney-library",
+   "https://www.madisonpubliclibrary.org/spaces/events",
+   "https://www.madisonpubliclibrary.org/spaces/events/search",
+   "https://www.madisonpubliclibrary.org/spaces/special-events",
+   "https://www.madisonpubliclibrary.org/spaces/events/minecraft-club-261126",
+   "https://www.madisonpubliclibrary.org/spaces/events/after-school-art-amy-267334"
+  ],
+  "weekly": [],
+  "site": "https://www.madisonpubliclibrary.org/locations/pinney-library"
+ },
+ "osm:way/648491905": {
+  "checked": "2026-10-26T12:58:00-05:00",
+  "feeds": [
+   {
+    "type": "squarespace",
+    "url": "https://www.communicationmadison.com/events"
+   }
+  ],
+  "pages_checked": [
+   "https://www.communicationmadison.com/",
+   "https://www.communicationmadison.com/events"
+  ],
+  "weekly": [],
+  "site": "https://communicationmadison.com/"
+ },
+ "osm:node/1473488018": {
+  "checked": "2026-10-26T12:57:24-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.madisonpubliclibrary.org/locations/sequoya-library",
+   "https://www.madisonpubliclibrary.org/spaces/events",
+   "https://www.madisonpubliclibrary.org/spaces/events/search",
+   "https://www.madisonpubliclibrary.org/spaces/special-events",
+   "https://www.madisonpubliclibrary.org/spaces/events/monday-meetup-258415",
+   "https://www.madisonpubliclibrary.org/spaces/events/storytime-very-young-258436"
+  ],
+  "weekly": [],
+  "site": "https://www.madisonpubliclibrary.org/sequoya"
+ },
+ "osm:node/7463800712": {
+  "checked": "2026-10-26T12:58:00-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://kehldance.com/"
+  ],
+  "weekly": [],
+  "site": "https://www.kehldance.com/"
+ },
+ "osm:way/107655171": {
+  "checked": "2026-10-26T12:58:04-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.tenpinalleys.com/",
+   "https://www.tenpinalleys.com/childrens-entertainment-oregon-wi"
+  ],
+  "weekly": [],
+  "site": "https://www.tenpinalleys.com/"
+ },
+ "osm:relation/18793475": {
+  "checked": "2026-10-26T12:58:06-05:00",
+  "feeds": [],
+  "pages_checked": [],
+  "weekly": [],
+  "error": "site unreachable",
+  "site": "https://uclub.wisc.edu/"
+ },
+ "osm:node/10983441694": {
+  "checked": "2026-10-26T12:58:00-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://madisonyoutharts.org/",
+   "https://madisonyoutharts.org/upcoming-events/",
+   "https://madisonyoutharts.org/upcoming-events/news/",
+   "https://madisonyoutharts.org/art-classes-groups/?_activity_type=music"
+  ],
+  "weekly": [],
+  "site": "https://www.madisonyoutharts.org/"
+ },
+ "osm:way/345755104": {
+  "checked": "2026-10-26T12:57:37-05:00",
+  "feeds": [
+   {
+    "type": "ical",
+    "url": "https://barrymorelive.com/events/?ical=1"
+   },
+   {
+    "type": "jsonld",
+    "url": "https://barrymorelive.com/"
+   },
+   {
+    "type": "ical",
+    "url": "https://barrymorelive.com/?post_type=tribe_events&ical=1&eventDisplay=list"
+   },
+   {
+    "type": "ical",
+    "url": "https://barrymorelive.com/events/list/?ical=1"
+   },
+   {
+    "type": "ical",
+    "url": "https://barrymorelive.com/events/list/?outlook-ical=1"
+   },
+   {
+    "type": "jsonld",
+    "url": "https://barrymorelive.com/events/"
+   },
+   {
+    "type": "ical",
+    "url": "https://barrymorelive.com/event/brian-regan/?ical=1"
+   },
+   {
+    "type": "jsonld",
+    "url": "https://barrymorelive.com/event/brian-regan/"
+   },
+   {
+    "type": "ical",
+    "url": "https://barrymorelive.com/event/marc-maron-3/?ical=1"
+   },
+   {
+    "type": "jsonld",
+    "url": "https://barrymorelive.com/event/marc-maron-3/"
+   },
+   {
+    "type": "ical",
+    "url": "https://barrymorelive.com/event/jordan-jensen/?ical=1"
+   },
+   {
+    "type": "jsonld",
+    "url": "https://barrymorelive.com/event/jordan-jensen/"
+   },
+   {
+    "type": "tribe",
+    "url": "https://barrymorelive.com/wp-json/tribe/events/v1/events?per_page=50&start_date=2026-10-26&end_date=2026-11-09"
+   }
+  ],
+  "pages_checked": [
+   "https://barrymorelive.com/",
+   "https://barrymorelive.com/events/",
+   "https://barrymorelive.com/events/",
+   "https://barrymorelive.com/event/brian-regan/",
+   "https://barrymorelive.com/event/marc-maron-3/",
+   "https://barrymorelive.com/event/jordan-jensen/"
+  ],
+  "weekly": [],
+  "site": "https://barrymorelive.com/"
+ },
+ "osm:way/98799451": {
+  "checked": "2026-10-26T12:58:02-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.overture.org/",
+   "https://www.overture.org/calendar/",
+   "https://www.overture.org/tickets-events/",
+   "https://www.overture.org/tickets-events/upcoming-events/",
+   "https://www.overture.org/tickets-events/fringe-festival/",
+   "https://www.overture.org/tickets-events/subscriptions/make-your-own-subscriptions/"
+  ],
+  "weekly": [],
+  "site": "http://overturecenter.com"
+ },
+ "osm:way/102371335": {
+  "checked": "2026-10-26T12:58:02-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://madisonorpheum.com/",
+   "https://madisonorpheum.com/calendar/",
+   "https://madisonorpheum.com/event/kip-moore/",
+   "https://madisonorpheum.com/event/eric-andre/",
+   "https://madisonorpheum.com/event/nurse-john/",
+   "https://madisonorpheum.com/event/dave-attell/"
+  ],
+  "weekly": [],
+  "site": "https://madisonorpheum.com/"
+ },
+ "osm:node/5661434234": {
+  "checked": "2026-10-26T12:57:58-05:00",
+  "feeds": [
+   {
+    "type": "ical",
+    "url": "https://www.madisoncomedy.com/eventz/?ical=1"
+   },
+   {
+    "type": "jsonld",
+    "url": "https://www.madisoncomedy.com/"
+   },
+   {
+    "type": "jsonld",
+    "url": "https://www.madisoncomedy.com/events/"
+   },
+   {
+    "type": "jsonld",
+    "url": "https://www.madisoncomedy.com/event/lizglazer26/"
+   },
+   {
+    "type": "jsonld",
+    "url": "https://www.madisoncomedy.com/event/leah-rudick26/"
+   },
+   {
+    "type": "jsonld",
+    "url": "https://www.madisoncomedy.com/events/comedy-calendar/"
+   },
+   {
+    "type": "jsonld",
+    "url": "https://www.madisoncomedy.com/event/bomw26/2026-11-05/"
+   },
+   {
+    "type": "tribe",
+    "url": "https://www.madisoncomedy.com/wp-json/tribe/events/v1/events?per_page=50&start_date=2026-10-26&end_date=2026-11-09"
+   }
+  ],
+  "pages_checked": [
+   "https://www.madisoncomedy.com/",
+   "https://www.madisoncomedy.com/events/",
+   "https://www.madisoncomedy.com/event/lizglazer26/",
+   "https://www.madisoncomedy.com/event/leah-rudick26/",
+   "https://www.madisoncomedy.com/events/comedy-calendar/",
+   "https://www.madisoncomedy.com/event/bomw26/2026-11-05/"
+  ],
+  "weekly": [],
+  "site": "https://www.madisoncomedy.com/"
+ },
+ "osm:node/7066864451": {
+  "checked": "2026-10-26T12:58:00-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.monroestreetarts.org/",
+   "https://www.monroestreetarts.org/calendar",
+   "https://www.monroestreetarts.org/private-music",
+   "https://www.monroestreetarts.org/music-together",
+   "https://www.monroestreetarts.org/music-resources",
+   "https://www.monroestreetarts.org/music/group-violin"
+  ],
+  "weekly": [],
+  "site": "https://www.monroestreetarts.org/"
+ },
+ "osm:node/1962212443": {
+  "checked": "2026-10-26T12:58:07-05:00",
+  "feeds": [
+   {
+    "type": "ical",
+    "url": "https://www.youngshakespeareplayers.org/events/?ical=1"
+   },
+   {
+    "type": "tribe",
+    "url": "https://www.youngshakespeareplayers.org/wp-json/tribe/events/v1/events?per_page=50&start_date=2026-10-26&end_date=2026-11-09"
+   }
+  ],
+  "pages_checked": [
+   "https://www.youngshakespeareplayers.org/",
+   "https://www.youngshakespeareplayers.org/shaws-don-juan-in-hell/",
+   "https://www.youngshakespeareplayers.org/henry-iv-part-1/"
+  ],
+  "weekly": [],
+  "site": "http://ysp.org"
+ },
+ "osm:way/406680688": {
+  "checked": "2026-10-26T12:58:10-05:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.cityofmadison.com/parks/find-a-park/veterans-memorial",
+   "https://www.cityofmadison.com/parks/events",
+   "https://www.cityofmadison.com/parks/find-a-park/specialty-facilities",
+   "https://www.cityofmadison.com/parks/find-a-park/specialty-facilities/biking",
+   "https://www.cityofmadison.com/parks/find-a-park/specialty-facilities/disc-golf",
+   "https://www.cityofmadison.com/parks/find-a-park/specialty-facilities/dog-parks"
+  ],
+  "weekly": [],
+  "site": "https://www.cityofmadison.com/parks/find-a-park/park.cfm?id=1364"
+ },
+ "osm:way/667694679": {
+  "checked": "2026-10-26T12:58:07-05:00",
+  "feeds": [
+   {
+    "type": "squarespace",
+    "url": "https://www.vact.org/direct-a-show"
+   },
+   {
+    "type": "squarespace",
+    "url": "https://www.vact.org/show-selection"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.vact.org/upcoming-schedule-1/2026/11/19/101-dalmatians-kids?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.vact.org/upcoming-schedule-1/2026/11/19/xanadu-jr?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.vact.org/upcoming-schedule-1/2026/12/4/holiday-inn?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.vact.org/upcoming-schedule-1/2026/8/18/blue-ribbons-a-play-by-thomas-bakken?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.vact.org/upcoming-schedule-1/2027/4/8/madagascar-kids?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.vact.org/upcoming-schedule-1/2027/4/8/k81l82veze3gc8ojpvc42gm2unags5?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.vact.org/upcoming-schedule-1/2027/4/15/disneys-frozen-the-broadway-musical?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.vact.org/upcoming-schedule-1/2027/5/16/the-drowsy-chaperone-sr?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.vact.org/upcoming-schedule-1/2026/8/18/rodgers-amp-hammersteins-cinderella?format=ical"
+   },
+   {
+    "type": "squarespace",
+    "url": "https://www.vact.org/audition-for-a-show"
+   }
+  ],
+  "pages_checked": [
+   "https://www.vact.org/",
+   "https://www.vact.org/direct-a-show",
+   "https://www.vact.org/show-selection",
+   "https://www.vact.org/upcoming-schedule-1",
+   "https://www.vact.org/audition-for-a-show"
+  ],
+  "weekly": [],
+  "site": "https://www.vact.org/"
+ },
+ "osm:way/385639211": {
+  "checked": "2026-10-26T12:57:44-05:00",
+  "feeds": [
+   {
+    "type": "ical",
+    "url": "https://bstonline.org/events/?ical=1"
+   },
+   {
+    "type": "jsonld",
+    "url": "https://bstonline.org/"
+   },
+   {
+    "type": "ical",
+    "url": "https://bstonline.org/?post_type=tribe_events&ical=1&eventDisplay=list"
+   },
+   {
+    "type": "ical",
+    "url": "https://bstonline.org/events/list/?ical=1"
+   },
+   {
+    "type": "ical",
+    "url": "https://bstonline.org/events/list/?outlook-ical=1"
+   },
+   {
+    "type": "jsonld",
+    "url": "https://bstonline.org/events/"
+   },
+   {
+    "type": "ical",
+    "url": "https://bstonline.org/event/dragonsocks-and-the-queen-of-the-universe/?ical=1"
+   },
+   {
+    "type": "jsonld",
+    "url": "https://bstonline.org/event/dragonsocks-and-the-queen-of-the-universe/"
+   },
+   {
+    "type": "ical",
+    "url": "https://bstonline.org/event/dragonsocks-and-the-queen-of-the-universe-2/?ical=1"
+   },
+   {
+    "type": "jsonld",
+    "url": "https://bstonline.org/event/dragonsocks-and-the-queen-of-the-universe-2/"
+   },
+   {
+    "type": "ical",
+    "url": "https://bstonline.org/event/dragonsocks-and-the-queen-of-the-universe-3/?ical=1"
+   },
+   {
+    "type": "jsonld",
+    "url": "https://bstonline.org/event/dragonsocks-and-the-queen-of-the-universe-3/"
+   },
+   {
+    "type": "ical",
+    "url": "https://bstonline.org/event/dragonsocks-and-the-queen-of-the-universe-4/?ical=1"
+   },
+   {
+    "type": "jsonld",
+    "url": "https://bstonline.org/event/dragonsocks-and-the-queen-of-the-universe-4/"
+   },
+   {
+    "type": "tribe",
+    "url": "https://bstonline.org/wp-json/tribe/events/v1/events?per_page=50&start_date=2026-10-26&end_date=2026-11-09"
+   }
+  ],
+  "pages_checked": [
+   "https://bstonline.org/",
+   "https://bstonline.org/events/",
+   "https://bstonline.org/event/dragonsocks-and-the-queen-of-the-universe/",
+   "https://bstonline.org/event/dragonsocks-and-the-queen-of-the-universe-2/",
+   "https://bstonline.org/event/dragonsocks-and-the-queen-of-the-universe-3/",
+   "https://bstonline.org/event/dragonsocks-and-the-queen-of-the-universe-4/"
+  ],
+  "weekly": [],
+  "site": "https://bstonline.org/"
+ },
+ "osm:node/14072692008": {
+  "checked": "2026-10-26T12:58:04-05:00",
+  "feeds": [
+   {
+    "type": "ical",
+    "url": "https://www.textileartsmadison.org/exhibitions-events/nothing-new?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.textileartsmadison.org/exhibitions-events/members-show-bfg9s-kycfj?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.textileartsmadison.org/exhibitions-events/gallery-night-may3-kwn36-3jr45-rhy2p-nemkt?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.textileartsmadison.org/exhibitions-events/textile-art-market-1?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.textileartsmadison.org/exhibitions-events/tac-resale-ptsp4-mpl47-w8pmr-m5b2d-8zfpc-n438s?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.textileartsmadison.org/exhibitions-events/moving-the-needle?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.textileartsmadison.org/exhibitions-events/homegrown-77e8r?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.textileartsmadison.org/exhibitions-events/the-work-of-remembering?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.textileartsmadison.org/exhibitions-events/lars-shimabukuro?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.textileartsmadison.org/exhibitions-events/ian-danner?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.textileartsmadison.org/exhibitions-events/ordinary-topographies?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.textileartsmadison.org/exhibitions-events/interwoven2025?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.textileartsmadison.org/exhibitions-events/statement-pieces-quilts-with-something-to-say?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.textileartsmadison.org/exhibitions-events/quantum-color?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.textileartsmadison.org/exhibitions-events/100-knittings?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.textileartsmadison.org/exhibitions-events/convergence?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.textileartsmadison.org/exhibitions-events/the-fabric-of-stories-narratives-in-fiber-art?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.textileartsmadison.org/exhibitions-events/members-show?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.textileartsmadison.org/exhibitions-events/from-fiber-to-hand?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.textileartsmadison.org/exhibitions-events/soft-opening?format=ical"
+   },
+   {
+    "type": "squarespace",
+    "url": "https://www.textileartsmadison.org/exhibitions-events"
+   },
+   {
+    "type": "jsonld",
+    "url": "https://www.textileartsmadison.org/exhibitions-events/textile-art-market-1"
+   },
+   {
+    "type": "jsonld",
+    "url": "https://www.textileartsmadison.org/exhibitions-events/members-show-bfg9s-kycfj"
+   }
+  ],
+  "pages_checked": [
+   "https://www.textileartsmadison.org/",
+   "https://www.textileartsmadison.org/exhibitions-events",
+   "https://www.textileartsmadison.org/exhibitions-events/textile-art-market-1",
+   "https://www.textileartsmadison.org/exhibitions-events/members-show-bfg9s-kycfj"
+  ],
+  "weekly": [],
+  "site": "https://www.textileartsmadison.org/"
+ },
+ "osm:way/440518288": {
+  "checked": "2026-10-26T12:57:30-05:00",
+  "feeds": [
+   {
+    "type": "squarespace",
+    "url": "https://www.theatwoodmusichall.com/"
+   },
+   {
+    "type": "squarespace",
+    "url": "https://www.theatwoodmusichall.com/private-events"
+   },
+   {
+    "type": "squarespace",
+    "url": "https://www.theatwoodmusichall.com/community-events"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-10-27?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-10-29?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-10-30?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-10-31?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-11-1?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-11-4?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-11-7?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-11-8?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-11-11?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-11-12?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-11-13?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-11-14?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-11-19?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-11-20?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-11-21?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-11-22?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-11-28?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-12-45?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-12-8?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-12-11?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-12-12?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-12-13?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-12-19?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2027-1-15?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2027-1-23?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-9-9?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-9-10?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-9-11?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-9-12b?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-9-12?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-9-13b?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-9-13?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2027-2-4?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2027-2-26?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2027-3-5?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2027-3-6?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-10-22-r8fcz?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2027-3-19?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2027-4-3?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2027-4-15?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-4-16?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2027-4-4?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2027-6-26?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-10-24?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-10-23?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-10-22?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-10-20?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-10-17?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-10-17b?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-10-16?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-10-15?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-10-14?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-2-15?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-10-11?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-10-10?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-10-9?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-10-8?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-10-7?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-10-4?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-9-30?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-9-26?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-9-25?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-9-22?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-9-20?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-9-19?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-9-15?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-9-6?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-8-28?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-8-15?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-8-14?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-8-10?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-8-9?format=ical"
+   },
+   {
+    "type": "ical",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-8-7?format=ical"
+   },
+   {
+    "type": "squarespace",
+    "url": "https://www.theatwoodmusichall.com/shows"
+   },
+   {
+    "type": "jsonld",
+    "url": "https://www.theatwoodmusichall.com/shows/2026-11-1"
+   }
+  ],
+  "pages_checked": [
+   "https://www.theatwoodmusichall.com/",
+   "https://www.theatwoodmusichall.com/private-events",
+   "https://www.theatwoodmusichall.com/community-events",
+   "https://www.theatwoodmusichall.com/shows",
+   "https://www.theatwoodmusichall.com/shows/2026-11-1"
+  ],
+  "weekly": [],
+  "site": "https://www.theatwoodmusichall.com/"
+ }
+}
