@@ -3,7 +3,6 @@ const SPOTS = window.SPOTS || [];
 const TZ = "America/Chicago";
 const KIND = {dinner:"Dinner", show:"Show", bar:"Drinks", late:"Late bite"};
 const VIBES = [["dive","Dive bars"],["chill","Chill"],["music","Live music"],["date","Date night"],["classic","Wisconsin classic"],["cheap","Cheap eats"]];
-const DRINKS = [["cocktails","Yes, cocktails","Cocktail bars and a proper drink with dinner."],["beer","Beer's fine","Taps, tallboys and the corner bar."],["none","Not drinking","Skip the bars. Food and fun only."]];
 const CATS = [["all","All"],["music","Live music"],["trivia","Trivia & games"],["karaoke","Karaoke"],["bingo","Bingo & raffles"],["food","Food & specials"],["comedy","Comedy"],["open_mic","Open mic"],["dance","Dancing"],["sports","Watch parties"],["other","Other"]];
 const PLACES = [["all","Anywhere"],["bar","Bars"],["brewery","Breweries"],["veterans","VFW & Legion"],["lodge","Lodges & clubs"],["cafe","Coffee shops"],["venue","Venues"],["library","Libraries"],["community","Community"]];
 const CAT_LABEL = Object.fromEntries(CATS), PLACE_LABEL = Object.fromEntries(PLACES);
@@ -13,8 +12,8 @@ const DRINKY = new Set(["bar","brewery","veterans","lodge"]);
 const esc = x => String(x ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const $ = id => document.getElementById(id);
 
-const state = {budget:60, people:2, vibes:["dive","music"], drinks:"cocktails", dinner:true, show:true, step:0, rank:0, day:null, cat:"all", place:"all", allDays:false};
-try { const s = JSON.parse(localStorage.getItem("mp-answers") || "null"); if (s) Object.assign(state, s, {step:0, rank:0, day:null, allDays:false}); } catch (e) {}
+const state = {budget:60, people:2, vibes:["dive","music"], drinks:"cocktails", dinner:true, show:true, rank:0, day:null, cat:"all", place:"all", allDays:false};
+try { const s = JSON.parse(localStorage.getItem("mp-answers") || "null"); if (s) Object.assign(state, s, {rank:0, day:null, allDays:false}); } catch (e) {}
 function save(){ try { const {budget,people,vibes,drinks,dinner,show,cat,place} = state; localStorage.setItem("mp-answers", JSON.stringify({budget,people,vibes,drinks,dinner,show,cat,place})); } catch (e) {} }
 
 // ---------- dates in Madison time ----------
@@ -32,75 +31,48 @@ let EVENTS = [], META = null;
 function evDay(e){ return e.start.slice(0,10); }
 function eventsOn(key){ return EVENTS.filter(e => evDay(e) === key); }
 
-// ---------- the questions ----------
-const STEPS = [
-  {k:"Budget", a:() => "$" + state.budget + " each"},
-  {k:"Group", a:() => state.people === 1 ? "Just me" : state.people + " people"},
-  {k:"Vibe", a:() => state.vibes.length ? state.vibes.map(v => VIBES.find(x => x[0] === v)[1]).join(", ") : "Anything"},
-  {k:"Drinks", a:() => ({cocktails:"Cocktails", beer:"Beer", none:"No drinks"})[state.drinks]},
-  {k:"Plans", a:() => state.dinner && state.show ? "Dinner + show" : state.dinner ? "Dinner" : state.show ? "A show" : "Just drinks"}
-];
-function renderSteps(){
-  $("steps").innerHTML = STEPS.map((s,i) => '<button type="button" class="step" id="step-'+i+'" data-i="'+i+'"'+(i===state.step?' aria-current="step"':'')+'><span class="k">'+(i+1)+' · '+s.k+'</span><span class="a">'+esc(s.a())+'</span></button>').join("");
+// ---------- the form ----------
+function seg(id, items, isOn, multi){
+  return '<div class="seg" id="'+id+'" role="group">'+items.map(([v,l]) =>
+    '<button type="button" id="'+id+'-'+v+'" data-v="'+v+'" aria-pressed="'+isOn(v)+'">'+l+'</button>').join("")+'</div>';
 }
-$("steps").addEventListener("click", e => { const b = e.target.closest(".step"); if (!b) return; state.step = +b.dataset.i; renderAsk(); });
-function peopleLabel(n){ return n === 1 ? "Just you" : n === 2 ? "The two of you" : "A group of " + n; }
-function renderQ(){
-  const s = state.step; let h = "";
-  if (s === 0){
-    h = '<div><div class="q-num">1 of 5</div><h2>What do you want to spend?</h2><p class="hint">Per person, covering food, drinks and any cover charge.</p></div>'+
-      '<div class="big-row"><div class="big" id="budgetOut">$'+state.budget+'<small>per person</small></div><span class="big-side" id="budgetGrp">'+(state.people>1?"$"+state.budget*state.people+" for "+state.people:"")+'</span></div>'+
-      '<input id="budget" type="range" min="10" max="200" step="5" value="'+state.budget+'" aria-label="Budget per person">'+
-      '<div class="chips" id="presets">'+[20,40,60,100,150].map(v => '<button type="button" class="chip" data-v="'+v+'" aria-pressed="'+(state.budget===v)+'">$'+v+'</button>').join("")+'</div>';
-  } else if (s === 1){
-    h = '<div><div class="q-num">2 of 5</div><h2>How many people?</h2><p class="hint">Bigger groups get roomier spots instead of tiny bars.</p></div>'+
-      '<div class="stepper"><button type="button" class="round" id="minus" aria-label="Fewer people"'+(state.people<=1?" disabled":"")+'>−</button><div class="big" id="peopleOut">'+state.people+'</div><button type="button" class="round" id="plus" aria-label="More people"'+(state.people>=12?" disabled":"")+'>+</button></div>'+
-      '<p class="hint" style="margin:0">'+peopleLabel(state.people)+'</p>';
-  } else if (s === 2){
-    h = '<div><div class="q-num">3 of 5</div><h2>What kind of night?</h2><p class="hint">Pick up to two.</p></div>'+
-      '<div class="chips" id="vibeChips">'+VIBES.map(([id,l]) => '<button type="button" class="chip" id="vibe-'+id+'" data-v="'+id+'" aria-pressed="'+state.vibes.includes(id)+'">'+l+'</button>').join("")+'</div>';
-  } else if (s === 3){
-    h = '<div><div class="q-num">4 of 5</div><h2>Having cocktails?</h2></div>'+
-      '<div class="opts" role="radiogroup" id="drinkOpts">'+DRINKS.map(([id,t,d]) => '<button type="button" class="opt" role="radio" id="drink-'+id+'" data-v="'+id+'" aria-checked="'+(state.drinks===id)+'"><span class="mark"></span><span class="t">'+t+'</span><span class="d">'+d+'</span></button>').join("")+'</div>';
-  } else {
-    const bad = !state.dinner && !state.show && state.drinks === "none";
-    h = '<div><div class="q-num">5 of 5</div><h2>Dinner, a show, or both?</h2><p class="hint">Pick either, both, or neither for a drinks-only night.</p></div>'+
-      '<div class="opts two" id="planOpts">'+
-      '<button type="button" class="opt box" id="want-dinner" data-v="dinner" aria-pressed="'+state.dinner+'"><span class="mark"></span><span class="t">Dinner</span><span class="d">Sit down somewhere first.</span></button>'+
-      '<button type="button" class="opt box" id="want-show" data-v="show" aria-pressed="'+state.show+'"><span class="mark"></span><span class="t">A show or event</span><span class="d">Live music, trivia, comedy and more.</span></button></div>'+
-      (bad ? '<p class="warn">With no drinks, pick dinner or a show so there\'s a night to plan.</p>' : '');
-  }
-  h += '<div class="q-foot"><button type="button" class="link" id="back"'+(s===0?" disabled":"")+'>← Back</button><button type="button" class="btn" id="next">'+(s===4?"Plan my night":"Next")+'</button></div>';
-  $("q").innerHTML = '<div class="q-body">'+h+'</div>';
+function renderForm(){
+  const bad = !state.dinner && !state.show && state.drinks === "none";
+  $("form").innerHTML =
+    '<div class="row"><div class="lbl"><span>Budget</span><span class="val" id="budgetOut">$'+state.budget+' <small>per person</small></span></div>'+
+      '<input id="budget" type="range" min="10" max="200" step="5" value="'+state.budget+'" aria-label="Budget per person"></div>'+
+    '<div class="row inline"><div class="lbl"><span>Group</span></div>'+
+      '<div class="stepper"><button type="button" class="round" id="minus" aria-label="Fewer people"'+(state.people<=1?" disabled":"")+'>−</button>'+
+      '<span class="count" id="peopleOut">'+state.people+' <small>'+(state.people===1?"person":"people")+'</small></span>'+
+      '<button type="button" class="round" id="plus" aria-label="More people"'+(state.people>=12?" disabled":"")+'>+</button></div></div>'+
+    '<div class="row"><div class="lbl"><span>Vibe</span><span class="aside">up to two</span></div>'+
+      '<div class="chips" id="vibeChips">'+VIBES.map(([id,l]) => '<button type="button" class="chip" id="vibe-'+id+'" data-v="'+id+'" aria-pressed="'+state.vibes.includes(id)+'">'+l+'</button>').join("")+'</div></div>'+
+    '<div class="row"><div class="lbl"><span>Drinks</span></div>'+
+      seg("drinkSeg", [["cocktails","Cocktails"],["beer","Beer"],["none","No drinks"]], v => state.drinks === v)+'</div>'+
+    '<div class="row"><div class="lbl"><span>Plans</span><span class="aside">pick any</span></div>'+
+      seg("planSeg", [["dinner","Dinner"],["show","Show or event"]], v => state[v])+
+      (bad ? '<p class="warn">Pick dinner or a show so there\'s a night to plan.</p>' : '')+'</div>'+
+    '<button type="button" class="btn go" id="go">Plan my night</button>';
 }
-function renderAsk(){ renderSteps(); renderQ(); }
-function changed(){ state.rank = 0; save(); renderSteps(); renderPlan(); }
+function changed(){ state.rank = 0; save(); renderPlan(); }
 
-$("q").addEventListener("input", e => {
+$("form").addEventListener("input", e => {
   if (e.target.id !== "budget") return;
   state.budget = +e.target.value;
-  $("budgetOut").innerHTML = "$"+state.budget+"<small>per person</small>";
-  $("budgetGrp").textContent = state.people>1 ? "$"+state.budget*state.people+" for "+state.people : "";
-  document.querySelectorAll("#presets .chip").forEach(c => c.setAttribute("aria-pressed", +c.dataset.v === state.budget));
+  $("budgetOut").innerHTML = "$"+state.budget+" <small>per person</small>";
   changed();
 });
-$("q").addEventListener("click", e => {
+$("form").addEventListener("click", e => {
   const b = e.target.closest("button"); if (!b) return;
-  if (b.id === "back"){ state.step = Math.max(0, state.step-1); renderAsk(); return; }
-  if (b.id === "next"){
-    if (state.step < 4){ state.step++; renderAsk(); }
-    else { state.rank = 0; renderPlan(); $("planSec").scrollIntoView({behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block:"start"}); }
-    return;
-  }
-  if (b.closest("#presets")) state.budget = +b.dataset.v;
-  else if (b.id === "minus") state.people = Math.max(1, state.people-1);
+  if (b.id === "go"){ state.rank = 0; renderPlan(); $("planSec").scrollIntoView({behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block:"start"}); return; }
+  if (b.id === "minus") state.people = Math.max(1, state.people-1);
   else if (b.id === "plus") state.people = Math.min(12, state.people+1);
   else if (b.closest("#vibeChips")){ const v = b.dataset.v, i = state.vibes.indexOf(v); if (i >= 0) state.vibes.splice(i,1); else { state.vibes.push(v); if (state.vibes.length > 2) state.vibes.shift(); } }
-  else if (b.closest("#drinkOpts")) state.drinks = b.dataset.v;
-  else if (b.closest("#planOpts")) state[b.dataset.v] = !state[b.dataset.v];
+  else if (b.closest("#drinkSeg")) state.drinks = b.dataset.v;
+  else if (b.closest("#planSeg")) state[b.dataset.v] = !state[b.dataset.v];
   else return;
-  changed(); renderQ();
-  const again = document.getElementById(b.id) || document.querySelector('#q [data-v="'+b.dataset.v+'"]'); if (again) again.focus();
+  const id = b.id; changed(); renderForm();
+  const again = document.getElementById(id); if (again && !again.disabled) again.focus();
 });
 
 // ---------- turning events into plan stops ----------
@@ -178,12 +150,18 @@ function renderPlan(){
   const p = list[state.rank % list.length];
   const stops = [...p.stops].sort((a,b) => (toMin(a.at) ?? ORDER[a.k]*120+19*60) - (toMin(b.at) ?? ORDER[b.k]*120+19*60) || ORDER[a.k]-ORDER[b.k]);
   let t = stops[0].k === "dinner" ? 19*60 : stops[0].k === "show" ? 20*60 : 21*60;
+  // leave room before the first fixed-time event (dinner ends before the show starts)
+  const firstFixed = stops.findIndex(s => s.at);
+  if (firstFixed > 0){
+    const lead = stops.slice(0, firstFixed).reduce((n, s) => n + (DUR[s.k] || 60), 0);
+    t = Math.min(t, toMin(stops[firstFixed].at) - lead);
+  }
   stops.forEach((s, idx) => {
     if (s.at){ t = toMin(s.at); }
     if (s.k === "late") t = Math.max(t, 24*60+30);
     const li = document.createElement("li"); li.className = "stop"; li.style.animationDelay = (idx*60)+"ms";
     const label = s.live ? (CAT_LABEL[s.cat] || "Event") + (s.weekly ? " · Weekly" : "") : KIND[s.k] + (s.c && state.drinks === "cocktails" ? " · Cocktails" : "");
-    li.innerHTML = '<div class="time">'+fmt12(Math.floor(t/60)%24, t%60)+'</div><div class="rail"><span class="dot'+(s.live?" ev":"")+'"></span></div>'+
+    li.innerHTML = '<div class="time">'+fmt12(Math.floor(t/60)%24, t%60)+'</div><div class="rail"><span class="dot'+(s.live?" live":"")+'"></span></div>'+
       '<div class="stop-body"><div class="kind">'+esc(label)+'</div><div class="name">'+(s.url ? '<a href="'+esc(s.url)+'" target="_blank" rel="noopener">'+esc(s.n)+'</a>' : esc(s.n))+'</div><p class="why">'+esc(s.d)+'</p><div class="where">'+esc(s.w)+'</div></div>'+
       '<div class="cost">~$'+cost(s)+'</div>';
     route.appendChild(li);
@@ -252,7 +230,7 @@ function renderEvents(){
 function ago(iso){ const m = Math.round((Date.now() - new Date(iso)) / 60000); return m < 60 ? m + " minutes ago" : m < 1440 ? Math.round(m/60) + " hours ago" : Math.round(m/1440) + " days ago"; }
 
 // ---------- start ----------
-renderAsk(); renderDays(); renderPlan();
+renderForm(); renderDays(); renderPlan();
 fetch("data/events.json", {cache:"no-cache"}).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(data => {
   META = data; EVENTS = (data.events || []).filter(e => evDay(e) >= todayKey());
   $("updated").textContent = "Events updated " + ago(data.generated_at) + ". Listings refresh every few hours.";

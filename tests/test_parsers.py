@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 from scraper import extract as X
 from scraper.common import TZ
 from scraper.ical import parse_ics
-from scraper.run import categorize, dedupe, expand_recurring, normalize
+from scraper.run import categorize, dedupe, expand_recurring, keep, normalize, pick_feeds
 from scraper.venues import apply_overrides, kind_of
 
 START = datetime(2026, 10, 26, 12, 0, tzinfo=TZ)  # a Monday
@@ -139,6 +139,30 @@ class ShapingTests(unittest.TestCase):
                                    {"name": "Back Room", "kind": "bar", "website": "https://br.example"}])
         self.assertEqual([(v["name"], v["website"]) for v in out],
                          [("Test Tap", "https://testtap.com"), ("Back Room", "https://br.example")])
+
+
+    def test_keep(self):
+        lib = {**VENUE, "kind": "library"}
+        mk = lambda t, s, v=VENUE, e=None: normalize({"title": t, "start": s, "end": e}, v, "scraped")
+        tue = datetime(2026, 10, 27, 10, 0, tzinfo=TZ)
+        self.assertFalse(keep(mk("Food Pantry", tue)))
+        self.assertFalse(keep(mk("Toddler Storytime", tue.replace(hour=18), lib)))
+        self.assertFalse(keep(mk("Book Club", tue, lib)))                    # weekday daytime at a library
+        self.assertTrue(keep(mk("Library Trivia Night", tue.replace(hour=18), lib)))
+        self.assertFalse(keep(mk("Members Show", tue, VENUE, tue + timedelta(days=40))))
+        self.assertTrue(keep(mk("Snack &amp;amp; Chat", tue.replace(hour=19))))
+        self.assertEqual(mk("Snack &amp;amp; Chat", tue)["title"], "Snack & Chat")
+        self.assertEqual(categorize("Fitness Room", "weights and resistance bands"), "other")
+
+    def test_pick_feeds(self):
+        feeds = [{"type": "tribe", "url": "https://x/wp-json/tribe/events/v1/events"},
+                 {"type": "ical", "url": "https://x/events/?ical=1"},
+                 {"type": "ical", "url": "https://x/event/trivia/2026-10-27/?ical=1"},
+                 {"type": "ical", "url": "https://calendar.google.com/calendar/ical/a/public/basic.ics"},
+                 {"type": "ical", "url": "https://x/feed.ics"}]
+        self.assertEqual([f["url"] for f in pick_feeds(feeds)],
+                         ["https://x/wp-json/tribe/events/v1/events",
+                          "https://calendar.google.com/calendar/ical/a/public/basic.ics", "https://x/feed.ics"])
 
 
 if __name__ == "__main__":

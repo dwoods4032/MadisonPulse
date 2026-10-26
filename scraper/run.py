@@ -8,6 +8,7 @@
 from __future__ import annotations
 
 import argparse
+import html
 import json
 import re
 import sys
@@ -33,14 +34,40 @@ CATEGORIES = [
 
 
 def categorize(title: str, description: str = "") -> str:
-    t = f"{title} {description[:200]}".lower()
     for name, pat in CATEGORIES:
         if re.search(pat, title.lower()):
             return name
+    d = description[:200].lower()
     for name, pat in CATEGORIES:
-        if re.search(pat, t):
+        if name == "music":
+            pat = r"live music|concert|\bdj\b|singer|songwriter"
+        if re.search(pat, d):
             return name
     return "other"
+
+
+# Not a night out: social services, kids' programs, meetings, long exhibits.
+SKIP_TITLE = re.compile(
+    r"food pantry|\bpantry\b|food distribution|fitness room|open gym|storytime|story time|toddler|\bbaby\b|babies|"
+    r"preschool|pre-k|homework|tutor|\besl\b|\bged\b|citizenship|senior meal|community meal|\bmeeting\b|"
+    r"office hours|\bclosed\b|\bclinic\b|vaccin|tax prep|job fair|resume|support group|after.?school|"
+    r"\bkids?\b|children|\byouth\b|\bteens?\b|tween|\bcamp\b|family storytime|lego|playgroup|"
+    r"registration (?:required|open|deadline)|volunteer orientation|blood drive|\bmass\b|worship|bible study",
+    re.I)
+DAYTIME_KINDS = {"library", "community"}
+
+
+def keep(e: dict) -> bool:
+    if SKIP_TITLE.search(e["title"]):
+        return False
+    s = datetime.fromisoformat(e["start"])
+    if e.get("end"):
+        if datetime.fromisoformat(e["end"]) - s > timedelta(hours=36):
+            return False  # exhibits and season-long runs
+    # libraries and community centers: evening and weekend events only
+    if e["venue_kind"] in DAYTIME_KINDS and not e["all_day"] and s.weekday() < 5 and s.hour < 17:
+        return False
+    return True
 
 
 def norm_title(t: str) -> str:
@@ -128,6 +155,35 @@ def read_feed(f: Fetcher, feed: dict, start, end) -> list[dict]:
     return []
 
 
+FEED_RANK = {"tribe": 0, "ical": 1, "squarespace": 1, "jsonld": 2, "page": 2}
+
+
+def pick_feeds(feeds: list[dict]) -> list[dict]:
+    """Drop per-event "add to calendar" links and keep a few real feeds."""
+    types = {f["type"] for f in feeds}
+    out, icals = [], []
+    for f in feeds:
+        u = f["url"]
+        if f["type"] != "ical":
+            if not any(x["type"] == f["type"] and x["url"] == u for x in out):
+                out.append(f)
+            continue
+        if "calendar.google.com" in u:
+            icals.append((0, f))
+        elif "tribe" in types and "ical=1" in u:
+            continue  # the Events Calendar API already covers these
+        elif "squarespace" in types and "format=ical" in u:
+            continue  # one event each; the Squarespace feed covers them
+        elif re.search(r"/events?/[^/?]+/[^?]+|[?&](?:tribe-bar-date|eventDate|occurrence)=", u):
+            continue  # a single event's link
+        else:
+            icals.append((len(u), f))
+    icals.sort(key=lambda x: x[0])
+    jsonld = [f for f in out if f["type"] == "jsonld"][:4]
+    rest = [f for f in out if f["type"] != "jsonld"]
+    return rest + [f for _, f in icals[:3]] + jsonld
+
+
 def scrape_venue(f: Fetcher, venue: dict, cache: dict, start, end, rediscover: bool) -> tuple[list[dict], dict]:
     vid = venue["id"]
     info = cache.get(vid)
@@ -136,13 +192,22 @@ def scrape_venue(f: Fetcher, venue: dict, cache: dict, start, end, rediscover: b
     if stale:
         info = discover(f, venue, start, end)
         info["site"] = venue["website"]
-    feeds = list(venue.get("feeds") or []) + info.get("feeds", [])
-    raw, errors = [], []
+    feeds = list(venue.get("feeds") or []) + pick_feeds(info.get("feeds", []))
+    by_rank, errors = {}, []
     for feed in feeds:
         try:
-            raw += read_feed(f, feed, start, end)
+            got = read_feed(f, feed, start, end)
         except Exception as e:  # one bad feed shouldn't sink the venue
             errors.append(f"{feed['type']}: {type(e).__name__}: {e}"[:200])
+            continue
+        by_rank.setdefault(FEED_RANK.get(feed["type"], 2), []).extend(got)
+    # Use the most reliable kind of source that returned anything. Many WordPress
+    # sites publish page data with a wrong time-zone offset, so it is the fallback.
+    raw = []
+    for r in sorted(by_rank):
+        if by_rank[r]:
+            raw = by_rank[r]
+            break
     status = {"name": venue["name"], "kind": venue["kind"], "website": venue["website"],
               "feeds": [x["type"] for x in feeds], "raw_events": len(raw),
               "error": info.get("error") or ("; ".join(errors) if errors else "")}
@@ -152,7 +217,7 @@ def scrape_venue(f: Fetcher, venue: dict, cache: dict, start, end, rediscover: b
 # ---------------------------------------------------------------- shaping
 def normalize(e: dict, venue: dict, source: str) -> dict:
     s: datetime = e["start"]
-    title = re.sub(r"\s+", " ", e.get("title") or "").strip() or "Event"
+    title = re.sub(r"\s+", " ", html.unescape(html.unescape(e.get("title") or ""))).strip() or "Event"
     return {
         "id": short_hash(venue["id"], s.isoformat(), norm_title(title)),
         "title": title[:140],
@@ -161,7 +226,7 @@ def normalize(e: dict, venue: dict, source: str) -> dict:
         "all_day": bool(e.get("allday")),
         "category": categorize(title, e.get("description", "")),
         "price": e.get("price"),
-        "description": (e.get("description") or "").strip()[:300],
+        "description": re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", e.get("description") or ""))).strip()[:300],
         "url": e.get("url") or venue.get("website", ""),
         "venue": venue["name"], "venue_id": venue["id"], "venue_kind": venue["kind"],
         "address": venue.get("address", ""),
@@ -201,12 +266,13 @@ def dedupe(events: list[dict]) -> list[dict]:
     rank = {"scraped": 0, "extra": 1, "weekly": 2}
     best = {}
     for e in sorted(events, key=lambda e: rank.get(e["source"], 3)):
-        k1 = (e["venue_id"], e["start"], norm_title(e["title"]))
-        k2 = (e["venue_id"], e["start"][:10], e["category"])
+        v = e["venue"].lower()
+        k1 = (v, e["start"][:13], norm_title(e["title"])[:40])
+        k2 = (v, e["start"][:10], e["category"])
         if k1 in best:
             continue
         if e["source"] == "weekly" and any(
-                (x["venue_id"], x["start"][:10], x["category"]) == k2 for x in best.values()):
+                (x["venue"].lower(), x["start"][:10], x["category"]) == k2 for x in best.values()):
             continue  # the venue posted this night itself
         best[k1] = e
     return list(best.values())
@@ -263,7 +329,8 @@ def main(argv=None):
     events += expand_recurring(load_json(DATA / "recurring.json", []), by_name, start, end)
     events = [e for e in events if start <= datetime.fromisoformat(e["end"] or e["start"]) and
               datetime.fromisoformat(e["start"]) < end]
-    events = sorted(dedupe(events), key=lambda e: (e["start"], e["venue"]))
+    dropped = sum(1 for e in events if not keep(e))
+    events = sorted(dedupe([e for e in events if keep(e)]), key=lambda e: (e["start"], e["venue"]))
 
     suggestions = []
     for vid, info in cache.items():
@@ -282,7 +349,7 @@ def main(argv=None):
         "venues_checked": len(report),
         "venues_with_events": sum(1 for r in report if r["raw_events"]),
         "venues_with_feeds": sum(1 for r in report if r["feeds"]),
-        "events": len(events), "venues": report})
+        "events": len(events), "filtered_out": dropped, "venues": report})
     save_json(DATA / "weekly_suggestions.json", suggestions)
     print(f"{len(events)} events from {sum(1 for r in report if r['raw_events'])} of {len(report)} venues; "
           f"{len(suggestions)} weekly suggestions to review.")
