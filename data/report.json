@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-26T13:21:28-05:00",
+ "generated_at": "2026-10-26T13:25:12-05:00",
  "venues_checked": 234,
- "venues_with_events": 22,
+ "venues_with_events": 23,
  "venues_with_feeds": 46,
  "events": 83,
  "filtered_out": 116,
@@ -201,6 +201,17 @@
     "jsonld"
    ],
    "raw_events": 4,
+   "error": ""
+  },
+  {
+   "name": "Come Back Inn",
+   "kind": "bar",
+   "website": "https://comebackintavern.com/",
+   "feeds": [
+    "tribe",
+    "jsonld"
+   ],
+   "raw_events": 3,
    "error": ""
   },
   {
@@ -562,17 +573,6 @@
    "kind": "cafe",
    "website": "https://colectivo.com/pages/madison-cafes",
    "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Come Back Inn",
-   "kind": "bar",
-   "website": "https://comebackintavern.com/",
-   "feeds": [
-    "tribe",
-    "jsonld"
-   ],
    "raw_events": 0,
    "error": ""
   },
@@ -2016,7 +2016,7 @@
     "tribe"
    ],
    "raw_events": 0,
-   "error": "tribe: ConnectTimeout: HTTPSConnectionPool(host='www.youngshakespeareplayers.org', port=443): Max retries exceeded with url: /wp-json/tribe/events/v1/events?per_page=50&start_date=2026-10-26&end_date="
+   "error": ""
   }
  ]
 }
