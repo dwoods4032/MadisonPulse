@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>MadisonPulse Sources</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Figtree:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: one column; summary line, then one row per source with its unique share as a bar, then the overlap grid. */
+:root{
+  --bg:#eef2f5; --surface:#ffffff; --ink:#14202b; --muted:#5d6b78; --line:#d6dde4;
+  --lake:#1f5a7a; --lamp:#c9781a; --lamp-soft:#f6e3c8; --over:#b3412e;
+  --display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
+  --body:"Figtree",system-ui,-apple-system,sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0c1620; --surface:#13212d; --ink:#e6edf2; --muted:#93a3b1; --line:#24384a;
+  --lake:#6fb3d6; --lamp:#f0a53c; --lamp-soft:#3a2a14; --over:#ef7d68; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0c1620; --surface:#13212d; --ink:#e6edf2; --muted:#93a3b1; --line:#24384a;
+  --lake:#6fb3d6; --lamp:#f0a53c; --lamp-soft:#3a2a14; --over:#ef7d68; color-scheme:dark}
+*{box-sizing:border-box}
+html{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.5;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:32px 64px}
+.wrap{max-width:760px;margin:0 auto;display:flex;flex-direction:column;gap:28px}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--lake)}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(28px,5vw,40px);line-height:1.05;margin:6px 0 8px;letter-spacing:-.02em}
+h2{font-family:var(--display);font-weight:700;font-size:20px;margin:0 0 10px}
+.sub,.note{color:var(--muted);margin:0}
+.note{font-size:13px}
+a{color:var(--lake)}
+.src{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px 18px;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px 16px}
+.src .n{font-weight:600}
+.src .num{font-family:var(--mono);font-size:14px;font-variant-numeric:tabular-nums;text-align:right;color:var(--muted)}
+.bar{grid-column:1/-1;height:8px;border-radius:999px;background:var(--line);overflow:hidden;display:flex}
+.bar span{display:block;height:100%}
+.bar .u{background:var(--lamp)} .bar .s{background:var(--lake);opacity:.45}
+.src .d{grid-column:1/-1;font-size:14px;color:var(--muted)}
+.verdict{display:inline-block;font-size:12px;font-weight:600;padding:1px 8px;border-radius:6px;margin-left:8px;background:var(--lamp-soft);color:var(--ink)}
+.list{display:flex;flex-direction:column;gap:10px}
+.key{display:flex;gap:16px;flex-wrap:wrap;font-size:13px;color:var(--muted)}
+.key i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+.grid-wrap{overflow-x:auto;background:var(--surface);border:1px solid var(--line);border-radius:14px}
+table{border-collapse:collapse;width:100%;font-size:14px;font-variant-numeric:tabular-nums}
+th,td{padding:10px 12px;border-bottom:1px solid var(--line);text-align:right;white-space:nowrap}
+th:first-child,td:first-child{text-align:left}
+thead th{font-size:12px;color:var(--muted);font-weight:600}
+tr:last-child td{border-bottom:0}
+td.zero{color:var(--muted)}
+.empty{color:var(--muted);background:var(--surface);border:1px dashed var(--line);border-radius:12px;padding:18px;margin:0}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="eyebrow"><a href="./">MadisonPulse</a> · Behind the scenes</div>
+    <h1>Where the events come from</h1>
+    <p class="sub" id="summary">Loading the latest source report…</p>
+  </header>
+
+  <section>
+    <h2>Each source</h2>
+    <div class="key"><span><i style="background:var(--lamp)"></i>Only this source had it</span><span><i style="background:var(--lake);opacity:.45"></i>Another source had it too</span></div>
+    <div class="list" id="list" style="margin-top:12px"></div>
+  </section>
+
+  <section>
+    <h2>Overlap</h2>
+    <p class="note" style="margin-bottom:10px">Each number is how many of the row's events the column's source also found.</p>
+    <div class="grid-wrap"><table id="grid"></table></div>
+  </section>
+
+  <p class="note">Covers the next 14 days, after removing listings that aren't a night out. Updated with every scrape.</p>
+</div>
+<script>
+"use strict";
+const esc = x => String(x ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const $ = id => document.getElementById(id);
+function ago(iso){ const m = Math.round((Date.now() - new Date(iso)) / 60000); return m < 60 ? m + " minutes ago" : m < 1440 ? Math.round(m/60) + " hours ago" : Math.round(m/1440) + " days ago"; }
+fetch("data/sources_report.json", {cache:"no-cache"}).then(r => { if (!r.ok) throw 0; return r.json(); }).then(rep => {
+  const S = rep.sources || {}, names = Object.keys(S).sort((a,b) => S[b].events - S[a].events);
+  $("summary").textContent = rep.total_events + " events in the next two weeks from " + names.length + " sources. " +
+    rep.in_more_than_one_source + " were found by more than one. Updated " + ago(rep.generated_at) + ".";
+  if (!names.length){ $("list").innerHTML = '<p class="empty">No events yet.</p>'; return; }
+  const max = Math.max(...names.map(n => S[n].events));
+  $("list").innerHTML = names.map(n => {
+    const s = S[n], shared = s.events - s.unique_events, pct = s.events ? Math.round(100 * s.unique_events / s.events) : 0;
+    const verdict = s.events && s.unique_events === 0 ? '<span class="verdict">Adds nothing new</span>' : s.events && pct < 15 ? '<span class="verdict">Mostly duplicates</span>' : "";
+    const uv = s.unique_venues.length ? "Only source for " + s.unique_venues.length + " venue" + (s.unique_venues.length === 1 ? "" : "s") + ": " + esc(s.unique_venues.slice(0, 8).join(", ")) + (s.unique_venues.length > 8 ? ", and more" : "") + "." : "Every venue it covers is also covered by another source.";
+    return '<div class="src"><div class="n">' + esc(n) + verdict + '</div><div class="num">' + s.events + ' events · ' + s.unique_events + ' only here (' + pct + '%)</div>' +
+      '<div class="bar" role="img" aria-label="' + s.unique_events + ' unique of ' + s.events + '"><span class="u" style="width:' + (100*s.unique_events/max) + '%"></span><span class="s" style="width:' + (100*shared/max) + '%"></span></div>' +
+      '<div class="d">' + uv + '</div></div>';
+  }).join("");
+  $("grid").innerHTML = '<thead><tr><th>Source</th>' + names.map(n => '<th>' + esc(n) + '</th>').join("") + '</tr></thead><tbody>' +
+    names.map(r => '<tr><td>' + esc(r) + '</td>' + names.map(c => r === c ? '<td class="zero">·</td>' : '<td class="' + (S[r].overlap[c] ? "" : "zero") + '">' + (S[r].overlap[c] || 0) + '</td>').join("") + '</tr>').join("") + '</tbody>';
+}).catch(() => { $("summary").textContent = "The source report isn't available yet. It appears after the next scrape."; });
+</script>
+</body>
+</html>

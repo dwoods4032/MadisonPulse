@@ -164,3 +164,23 @@ class FailureReportingTests(unittest.TestCase):
         with mock.patch.object(f.s, "get", return_value=resp):
             self.assertIsNone(f.get("https://x.example/c.ics"))
         self.assertIn("HTTP 403 from cloudflare", f.why["https://x.example/c.ics"])
+
+
+class SourceReportTests(unittest.TestCase):
+    def test_overlap_and_unique(self):
+        from scraper.run import dedupe, normalize, source_report
+        hn = {"id": "osm:1", "name": "High Noon Saloon", "kind": "bar", "website": ""}
+        tap = {"id": "osm:2", "name": "Corner Tap", "kind": "bar", "website": ""}
+        s = datetime(2026, 10, 30, 20, 0, tzinfo=TZ)
+        a = normalize({"title": "Low Cut Connie", "start": s}, hn, "ticketmaster")
+        b = normalize({"title": "Low Cut Connie", "start": s}, hn, "extra"); b["via"] = "Isthmus"
+        c = normalize({"title": "Big Show", "start": s.replace(day=31)}, hn, "extra"); c["via"] = "Isthmus"
+        d = normalize({"title": "Meat raffle", "start": s.replace(hour=15)}, tap, "weekly")
+        out = dedupe([a, b, c, d])
+        rep = source_report(out)
+        self.assertEqual(rep["total_events"], 3)
+        self.assertEqual(rep["in_more_than_one_source"], 1)
+        tm, ist = rep["sources"]["Ticketmaster"], rep["sources"]["Isthmus"]
+        self.assertEqual((tm["events"], tm["unique_events"], tm["overlap"]["Isthmus"]), (1, 0, 1))
+        self.assertEqual((ist["events"], ist["unique_events"]), (2, 1))
+        self.assertEqual(rep["sources"]["Weekly routines"]["unique_venues"], ["Corner Tap"])

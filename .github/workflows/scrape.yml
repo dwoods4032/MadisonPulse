@@ -81,6 +81,7 @@ jobs:
           cp -r site/. _site/
           cp data/events.json data/venues.json data/report.json _site/data/
           if [ -f data/restaurants.json ]; then cp data/restaurants.json _site/data/; fi
+          if [ -f data/sources_report.json ]; then cp data/sources_report.json _site/data/; fi
 
       - uses: actions/upload-pages-artifact@v3
         with:

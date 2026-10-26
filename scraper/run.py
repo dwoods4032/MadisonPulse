@@ -393,21 +393,58 @@ def expand_recurring(items: list[dict], venues_by: dict, start: datetime, end: d
     return out
 
 
+SOURCE_LABEL = {"scraped": "Venue websites", "ticketmaster": "Ticketmaster", "ai": "AI page reading",
+                "weekly": "Weekly routines"}
+
+
+def source_label(e: dict) -> str:
+    if e["source"] == "extra":
+        return e.get("via") or "Other calendars"
+    return SOURCE_LABEL.get(e["source"], e["source"])
+
+
 def dedupe(events: list[dict]) -> list[dict]:
-    """Keep one copy per venue, start time and title. Scraped beats weekly."""
+    """Keep one copy per venue, start time and title (scraped beats weekly), and record
+    every source that had the event in e["sources"]."""
     rank = {"scraped": 0, "ticketmaster": 1, "extra": 2, "ai": 3, "weekly": 4}
     best = {}
     for e in sorted(events, key=lambda e: rank.get(e["source"], 5)):
         v = vkey(e["venue"])
         k1 = (v, e["start"][:13], norm_title(e["title"])[:12])
         k2 = (v, e["start"][:10], e["category"])
+        lab = source_label(e)
         if k1 in best:
+            if lab not in best[k1]["sources"]:
+                best[k1]["sources"].append(lab)
             continue
-        if e["source"] == "weekly" and any(
-                (vkey(x["venue"]), x["start"][:10], x["category"]) == k2 for x in best.values()):
-            continue  # the venue posted this night itself
+        if e["source"] == "weekly":
+            same = next((x for x in best.values() if (vkey(x["venue"]), x["start"][:10], x["category"]) == k2), None)
+            if same:  # the venue posted this night itself
+                if lab not in same["sources"]:
+                    same["sources"].append(lab)
+                continue
+        e["sources"] = [lab]
         best[k1] = e
     return list(best.values())
+
+
+def source_report(events: list[dict]) -> dict:
+    """What each source adds: total, unique (no other source had it), overlap, venues only it covers."""
+    labels = sorted({l for e in events for l in e.get("sources", [])})
+    out = {}
+    for lab in labels:
+        mine = [e for e in events if lab in e["sources"]]
+        venues = {e["venue"] for e in mine}
+        others = {e["venue"] for e in events if any(l != lab for l in e["sources"])}
+        out[lab] = {
+            "events": len(mine),
+            "unique_events": sum(1 for e in mine if e["sources"] == [lab]),
+            "overlap": {o: sum(1 for e in mine if o in e["sources"]) for o in labels if o != lab},
+            "venues": len(venues),
+            "unique_venues": sorted(venues - others),
+        }
+    return {"generated_at": now().isoformat(timespec="seconds"), "total_events": len(events),
+            "in_more_than_one_source": sum(1 for e in events if len(e.get("sources", [])) > 1), "sources": out}
 
 
 def main(argv=None):
@@ -500,6 +537,7 @@ def main(argv=None):
         "venues_with_feeds": sum(1 for r in report if r["feeds"]),
         "events": len(events), "filtered_out": dropped, "venues": report})
     save_json(DATA / "weekly_suggestions.json", suggestions)
+    save_json(DATA / "sources_report.json", source_report(events))
     print(f"{len(events)} events from {sum(1 for r in report if r['raw_events'])} of {len(report)} venues; "
           f"{len(suggestions)} weekly suggestions to review.")
 
