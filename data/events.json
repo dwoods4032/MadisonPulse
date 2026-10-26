@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-26T15:21:10-05:00",
+ "generated_at": "2026-10-26T15:23:19-05:00",
  "window": {
-  "from": "2026-10-26T09:19-05:00",
-  "to": "2026-11-09T15:19-06:00"
+  "from": "2026-10-26T09:21-05:00",
+  "to": "2026-11-09T15:21-06:00"
  },
- "count": 347,
+ "count": 401,
  "events": [
   {
    "id": "e30a014b6843",
@@ -22,7 +22,10 @@
    "address": "",
    "lat": 43.0809695,
    "lon": -89.3757466,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "ac6d883faa6f",
@@ -41,7 +44,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "b69674f14a32",
@@ -60,7 +66,10 @@
    "lat": 43.0326048,
    "lon": -89.4070039,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "64f7dba1dc23",
@@ -79,7 +88,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "e7e1b232a030",
@@ -98,7 +110,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "df3abdf91b94",
@@ -117,7 +132,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "fd9f60cbc8dd",
@@ -136,7 +154,10 @@
    "lat": 43.1183548,
    "lon": -89.3286211,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "9d9b9d311f88",
@@ -155,7 +176,10 @@
    "lat": 43.0930561,
    "lon": -89.3492054,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "9ce1f69bf876",
@@ -174,7 +198,10 @@
    "lat": 43.1071484,
    "lon": -89.3359941,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "2110c5ad3233",
@@ -193,7 +220,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "b9c9e2a6e511",
@@ -212,7 +242,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "0f6e80dcde59",
@@ -231,7 +264,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "d1a8990cb8a5",
@@ -250,7 +286,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "911c4c6582cf",
@@ -269,7 +308,52 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
+  },
+  {
+   "id": "0de2bdbfb83e",
+   "title": "Pen Pals Writing Group",
+   "start": "2026-10-26T18:30-05:00",
+   "end": "2026-10-26T20:30-05:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Writing group in Community Room A for people working on fiction such as novels or screenplays and looking for writing companions.",
+   "url": "https://www.madisonpubliclibrary.org/locations/pinney-library",
+   "venue": "Pinney Library",
+   "venue_id": "osm:node/7234376294",
+   "venue_kind": "library",
+   "address": "516 Cottage Grove Road",
+   "lat": 43.0841729,
+   "lon": -89.3176486,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
+  },
+  {
+   "id": "deda08d28a86",
+   "title": "Pen Pals Writing Group",
+   "start": "2026-10-26T18:30-05:00",
+   "end": "2026-10-26T20:30-05:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Writing group in Community Room A for people working on fiction such as novels or screenplays and looking for writing companions.",
+   "url": "https://www.madisonpubliclibrary.org/sequoya",
+   "venue": "Sequoya Library",
+   "venue_id": "osm:node/1473488018",
+   "venue_kind": "library",
+   "address": "4340 Tokay Boulevard",
+   "lat": 43.0537698,
+   "lon": -89.4505289,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "8009afcbe83a",
@@ -288,7 +372,10 @@
    "lat": 43.0667347,
    "lon": -89.4037365,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "769f19f57334",
@@ -307,7 +394,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "38a14e5337ab",
@@ -326,7 +416,10 @@
    "lat": 43.0878835,
    "lon": -89.3587108,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "1462e5074706",
@@ -345,7 +438,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "20de7b571375",
@@ -364,7 +460,11 @@
    "lat": 43.0875602,
    "lon": -89.3622099,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus",
+    "AI page reading"
+   ]
   },
   {
    "id": "942ffc150115",
@@ -382,7 +482,10 @@
    "address": "603 State Street",
    "lat": 43.0746889,
    "lon": -89.395998,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "9e3bd589165b",
@@ -400,7 +503,10 @@
    "address": "603 State Street",
    "lat": 43.0746889,
    "lon": -89.395998,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "28bf39697557",
@@ -419,7 +525,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "b416878c722c",
@@ -438,7 +547,10 @@
    "lat": 43.0969662,
    "lon": -89.3517049,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "e4b62e47a08c",
@@ -457,7 +569,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "3552478920c7",
@@ -476,7 +591,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "f9deea7d220e",
@@ -494,7 +612,10 @@
    "address": "1129 East Wilson Street",
    "lat": 43.0833378,
    "lon": -89.3652802,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "dc856d76554d",
@@ -513,7 +634,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "a8f46270f66d",
@@ -532,7 +656,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "9af091662391",
@@ -550,7 +677,10 @@
    "address": "1224 Williamson Street",
    "lat": 43.0839938,
    "lon": -89.3638172,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "b0317babb550",
@@ -568,7 +698,12 @@
    "address": "701 E Washington Ave",
    "lat": 43.0797191,
    "lon": -89.3762962,
-   "source": "ticketmaster"
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster",
+    "Isthmus",
+    "AI page reading"
+   ]
   },
   {
    "id": "19efe9b08d22",
@@ -587,7 +722,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "58d39968ca04",
@@ -605,7 +743,10 @@
    "address": "1617 North Stoughton Road",
    "lat": 43.1199361,
    "lon": -89.3244342,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "a8628e074d91",
@@ -623,7 +764,10 @@
    "address": "2609 East Washington Avenue",
    "lat": 43.1005011,
    "lon": -89.3482198,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "22287827a4c3",
@@ -642,7 +786,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "f8890f8470e5",
@@ -661,7 +808,31 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
+  },
+  {
+   "id": "c7464f5943e9",
+   "title": "Premier Showcase",
+   "start": "2026-10-27T08:45-05:00",
+   "end": "2026-10-27T13:45-05:00",
+   "all_day": false,
+   "category": "other",
+   "price": 10.0,
+   "description": "One-day in-person preview of family-friendly performers for schools, libraries, camps and community groups; lunch included. Tickets $10-$20.",
+   "url": "https://www.madisonyoutharts.org/",
+   "venue": "Madison Youth Arts (MYArts)",
+   "venue_id": "osm:node/10983441694",
+   "venue_kind": "venue",
+   "address": "1055",
+   "lat": 43.0851284,
+   "lon": -89.3710814,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "288985577993",
@@ -680,7 +851,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "9798078bc433",
@@ -699,7 +873,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "ba7c7327bfeb",
@@ -718,7 +895,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "b01a456f4d51",
@@ -737,7 +917,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "14268dcb68f6",
@@ -755,7 +938,10 @@
    "address": "",
    "lat": 43.0809695,
    "lon": -89.3757466,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "be3da2cc4289",
@@ -774,7 +960,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "1ddbcadc18ff",
@@ -793,7 +982,31 @@
    "lat": 43.0773194,
    "lon": -89.2058376,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
+  },
+  {
+   "id": "b2d26eda2a37",
+   "title": "EHS Feeder Program Fall Academy",
+   "start": "2026-10-27T17:00-05:00",
+   "end": "2026-10-27T18:15-05:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "EHS Feeder Program Fall Academy at Warner Park Community Recreation Center, 1625 Northport Drive.",
+   "url": "https://www.cityofmadison.com/parks/find-a-park/reindahl/pavilion-at-the-imagination-center",
+   "venue": "Reindahl Park Pavillion",
+   "venue_id": "osm:way/1562302804",
+   "venue_kind": "community",
+   "address": "1814 Parkside Drive",
+   "lat": 43.1243555,
+   "lon": -89.3168108,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "d70417e3ae9b",
@@ -812,7 +1025,31 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
+  },
+  {
+   "id": "7f975bba2fb3",
+   "title": "EHS Feeder Program Fall Academy",
+   "start": "2026-10-27T17:00-05:00",
+   "end": "2026-10-27T18:15-05:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "EHS Feeder Program Fall Academy at Warner Park Community Recreation Center, 1625 Northport Drive.",
+   "url": "https://www.cityofmadison.com/parks/find-a-park/park.cfm?id=1364",
+   "venue": "Veterans Memorial Park",
+   "venue_id": "osm:way/406680688",
+   "venue_kind": "veterans",
+   "address": "4601 Star Spangled Trail",
+   "lat": 43.0324635,
+   "lon": -89.2926519,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "d9392113d465",
@@ -831,7 +1068,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "67fe7059e08a",
@@ -850,7 +1090,10 @@
    "lat": 43.0736214,
    "lon": -89.3875186,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "41a827e7eac4",
@@ -869,7 +1112,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "e6ebbf5d39de",
@@ -887,7 +1133,10 @@
    "address": "103 La Mariposa Lane",
    "lat": 43.0663858,
    "lon": -89.3975076,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "488c9322631c",
@@ -906,7 +1155,31 @@
    "lat": 43.0863319,
    "lon": -89.3272545,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
+  },
+  {
+   "id": "07db2d485c59",
+   "title": "Open Mic w/ Martin Hunt",
+   "start": "2026-10-27T18:00-05:00",
+   "end": "2026-10-27T21:00-05:00",
+   "all_day": false,
+   "category": "open_mic",
+   "price": 0.0,
+   "description": "Open mic hosted by Martin Hunt for all musical skill levels. Free. Bar opens at 5:00pm and food is available from the grill.",
+   "url": "https://escmadison.com",
+   "venue": "East Side Club",
+   "venue_id": "osm:way/541940185",
+   "venue_kind": "lodge",
+   "address": "3735 Monona Drive",
+   "lat": 43.0863319,
+   "lon": -89.3272545,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "37955e99a680",
@@ -924,7 +1197,10 @@
    "address": "4893 Lacy Road",
    "lat": 43.0112712,
    "lon": -89.3736621,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "fea7097852f6",
@@ -943,7 +1219,32 @@
    "lat": 43.0797191,
    "lon": -89.3762962,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus",
+    "AI page reading"
+   ]
+  },
+  {
+   "id": "5c5c7ecf3502",
+   "title": "Mini Figure Painting (5 of 6 part series)",
+   "start": "2026-10-27T18:00-05:00",
+   "end": "2026-10-27T19:30-05:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Part 5 of a 6-part mini figure painting series in the Community Room.",
+   "url": "https://www.madisonpubliclibrary.org/locations/imagination-center",
+   "venue": "Imagination Center",
+   "venue_id": "osm:way/1562302805",
+   "venue_kind": "library",
+   "address": "1814 Parkside Drive",
+   "lat": 43.1240118,
+   "lon": -89.3168809,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "b61bc3ab8ed4",
@@ -962,7 +1263,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "88d9e9d8f7c0",
@@ -980,7 +1284,10 @@
    "address": "601 W. Dayton St.",
    "lat": 43.016399,
    "lon": -89.420097,
-   "source": "ticketmaster"
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster"
+   ]
   },
   {
    "id": "93cf875a329f",
@@ -999,7 +1306,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "ca2e085dafd4",
@@ -1018,7 +1328,52 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
+  },
+  {
+   "id": "d1d6d9680887",
+   "title": "Mini Figure Painting (5 of 6 part series)",
+   "start": "2026-10-27T18:00-05:00",
+   "end": "2026-10-27T19:30-05:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Part 5 of a 6-part mini figure painting series in the Community Room.",
+   "url": "https://www.madisonpubliclibrary.org/locations/pinney-library",
+   "venue": "Pinney Library",
+   "venue_id": "osm:node/7234376294",
+   "venue_kind": "library",
+   "address": "516 Cottage Grove Road",
+   "lat": 43.0841729,
+   "lon": -89.3176486,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
+  },
+  {
+   "id": "c68b897a05e1",
+   "title": "Pumpkin Decorating",
+   "start": "2026-10-27T18:00-05:00",
+   "end": "2026-10-27T20:00-05:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Pumpkin decorating for family, teens and adults.",
+   "url": "https://www.sunprairiepubliclibrary.org/",
+   "venue": "Sun Prairie Public Library",
+   "venue_id": "osm:way/600866560",
+   "venue_kind": "library",
+   "address": "1350 Linnerud Drive",
+   "lat": 43.1757782,
+   "lon": -89.2353415,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "7c977aeafc86",
@@ -1037,7 +1392,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "e0e3db6699fa",
@@ -1056,7 +1414,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "7747b2ca1885",
@@ -1075,7 +1436,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "a503d3954522",
@@ -1094,7 +1458,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "36c4dd64678e",
@@ -1113,7 +1480,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "418ffc8ec256",
@@ -1132,7 +1502,11 @@
    "lat": 43.0930561,
    "lon": -89.3492054,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus",
+    "AI page reading"
+   ]
   },
   {
    "id": "d158a2fd10f6",
@@ -1151,7 +1525,31 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
+  },
+  {
+   "id": "b665203c1964",
+   "title": "Italian Language Conversation",
+   "start": "2026-10-27T18:30-05:00",
+   "end": "2026-10-27T20:00-05:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Open to members, friends, and anyone who wishes to learn or speak some basic Italian. At the Italian Workmen's Club.",
+   "url": "https://iwcmadison.com/",
+   "venue": "Italian Workmen's Club",
+   "venue_id": "osm:way/310376486",
+   "venue_kind": "community",
+   "address": "914 Regent Street",
+   "lat": 43.0678788,
+   "lon": -89.4018304,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "e6b16e857db8",
@@ -1170,7 +1568,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "a8e7e75f27e8",
@@ -1189,7 +1590,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "981beaec8246",
@@ -1208,7 +1612,10 @@
    "lat": 43.1846128,
    "lon": -89.425721,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "73ecf6a52d63",
@@ -1227,7 +1634,10 @@
    "lat": 43.0820943,
    "lon": -89.3792878,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "ad4e66e0c2d5",
@@ -1246,7 +1656,10 @@
    "lat": 43.1092621,
    "lon": -89.5123266,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "da3ef8676a43",
@@ -1264,7 +1677,10 @@
    "address": "7622 Lisa Lane",
    "lat": 43.1092621,
    "lon": -89.5123266,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "1380d5235401",
@@ -1283,7 +1699,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "39f3a107513b",
@@ -1302,7 +1721,10 @@
    "lat": 43.0833378,
    "lon": -89.3652802,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "3650d8be79db",
@@ -1321,7 +1743,31 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
+  },
+  {
+   "id": "acaff7505f2b",
+   "title": "Film: Seeds for Liberation",
+   "start": "2026-10-27T19:00-05:00",
+   "end": null,
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Documentary from Matthew Solomon and Donna Hadjikhani on Palestine, social media mobilization, and collective liberation. Listed as 'Tomorrow at 7:00pm'.",
+   "url": "https://bartelltheatre.org/",
+   "venue": "Bartell Theatre",
+   "venue_id": "osm:way/265137656",
+   "venue_kind": "venue",
+   "address": "113 East Mifflin Street",
+   "lat": 43.0765271,
+   "lon": -89.3833565,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "634555ba020e",
@@ -1339,7 +1785,10 @@
    "address": "1224 Williamson Street",
    "lat": 43.0839938,
    "lon": -89.3638172,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "868ccafda323",
@@ -1358,7 +1807,10 @@
    "lat": 43.0839938,
    "lon": -89.3638172,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "69afcf8ff221",
@@ -1377,7 +1829,10 @@
    "lat": 43.0998894,
    "lon": -89.3470086,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "7e084070d272",
@@ -1396,7 +1851,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "5d6488893e06",
@@ -1415,7 +1873,10 @@
    "lat": 43.0917953,
    "lon": -89.3549853,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "b6cf912c9694",
@@ -1434,7 +1895,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "cdc39c6e1234",
@@ -1453,7 +1917,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "0b0d83cf17a7",
@@ -1472,7 +1939,10 @@
    "lat": 43.0878835,
    "lon": -89.3587108,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "c9e62796cfe8",
@@ -1491,7 +1961,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "02507b4d6c32",
@@ -1510,7 +1983,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "02a90eb0b6b3",
@@ -1528,7 +2004,31 @@
    "address": "603 State Street",
    "lat": 43.0746889,
    "lon": -89.395998,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
+  },
+  {
+   "id": "68f84f602480",
+   "title": "Evening Book Club",
+   "start": "2026-10-27T19:00-05:00",
+   "end": "2026-10-27T20:00-05:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Book club for adults.",
+   "url": "https://www.sunprairiepubliclibrary.org/",
+   "venue": "Sun Prairie Public Library",
+   "venue_id": "osm:way/600866560",
+   "venue_kind": "library",
+   "address": "1350 Linnerud Drive",
+   "lat": 43.1757782,
+   "lon": -89.2353415,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "0ab40f7acd27",
@@ -1547,7 +2047,10 @@
    "lat": 43.1005011,
    "lon": -89.3482198,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "796499d55faf",
@@ -1566,7 +2069,10 @@
    "lat": 43.1073202,
    "lon": -89.3514635,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "1787b4c663b1",
@@ -1585,7 +2091,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "f1ed3776ca8d",
@@ -1604,7 +2113,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "e7add6f5d2a1",
@@ -1623,7 +2135,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "ac1d3520eaab",
@@ -1641,7 +2156,10 @@
    "address": "1129 East Wilson Street",
    "lat": 43.0833378,
    "lon": -89.3652802,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "6389815dac35",
@@ -1659,7 +2177,10 @@
    "address": "1224 Williamson Street",
    "lat": 43.0839938,
    "lon": -89.3638172,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "27e1cf82f2f0",
@@ -1678,7 +2199,10 @@
    "lat": 43.0839938,
    "lon": -89.3638172,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "be0ead5c3675",
@@ -1697,7 +2221,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "fca1b2f0bf0c",
@@ -1716,7 +2243,10 @@
    "lat": 43.0751144,
    "lon": -89.3809981,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "0495f7100a49",
@@ -1734,7 +2264,11 @@
    "address": "1925 Winnebago Street",
    "lat": 43.0909399,
    "lon": -89.3556544,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites",
+    "Isthmus"
+   ]
   },
   {
    "id": "a6ace526119b",
@@ -1753,7 +2287,11 @@
    "lat": 43.072436,
    "lon": -89.3848247,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus",
+    "AI page reading"
+   ]
   },
   {
    "id": "8913a7e5a9af",
@@ -1772,7 +2310,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "f32ae0da67c3",
@@ -1790,7 +2331,11 @@
    "address": "115 King Street",
    "lat": 43.0744152,
    "lon": -89.3808535,
-   "source": "ticketmaster"
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster",
+    "Isthmus"
+   ]
   },
   {
    "id": "3d471306d783",
@@ -1809,7 +2354,10 @@
    "lat": 43.0969662,
    "lon": -89.3517049,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "74764c9c9d40",
@@ -1827,7 +2375,10 @@
    "address": "",
    "lat": 43.0809695,
    "lon": -89.3757466,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "3af9b4105057",
@@ -1846,7 +2397,10 @@
    "lat": 43.0581186,
    "lon": -89.4277459,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "179b56075e0f",
@@ -1865,7 +2419,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "04341360a62f",
@@ -1884,7 +2441,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "f9429fd86da0",
@@ -1903,7 +2463,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "8cea2efffe6a",
@@ -1922,7 +2485,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "cdf9dddd2fd5",
@@ -1941,7 +2507,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "44ebb0680ba4",
@@ -1960,7 +2529,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "8384221b4aaf",
@@ -1978,7 +2550,31 @@
    "address": "301 North Street",
    "lat": 43.1034331,
    "lon": -89.3501827,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
+  },
+  {
+   "id": "c817f79deaf0",
+   "title": "Hayride Around the Capitol | Movie at the Top of State",
+   "start": "2026-10-28T15:00-05:00",
+   "end": "2026-10-28T19:45-05:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Hayride and movie event at multiple locations.",
+   "url": "https://www.cityofmadison.com/parks/find-a-park/park.cfm?id=1364",
+   "venue": "Veterans Memorial Park",
+   "venue_id": "osm:way/406680688",
+   "venue_kind": "veterans",
+   "address": "4601 Star Spangled Trail",
+   "lat": 43.0324635,
+   "lon": -89.2926519,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "837e4af80b96",
@@ -1996,7 +2592,52 @@
    "address": "2201 Atwood Avenue",
    "lat": 43.0930561,
    "lon": -89.3492054,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
+  },
+  {
+   "id": "6d23d7e6015f",
+   "title": "Journaling for Mental Health",
+   "start": "2026-10-28T17:30-05:00",
+   "end": "2026-10-28T18:30-05:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Journaling session focused on mental health in the Classroom.",
+   "url": "https://www.madisonpubliclibrary.org/locations/imagination-center",
+   "venue": "Imagination Center",
+   "venue_id": "osm:way/1562302805",
+   "venue_kind": "library",
+   "address": "1814 Parkside Drive",
+   "lat": 43.1240118,
+   "lon": -89.3168809,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
+  },
+  {
+   "id": "5748e76f99d7",
+   "title": "Journaling for Mental Health",
+   "start": "2026-10-28T17:30-05:00",
+   "end": "2026-10-28T18:30-05:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Journaling session focused on mental health in the Classroom.",
+   "url": "https://www.madisonpubliclibrary.org/locations/pinney-library",
+   "venue": "Pinney Library",
+   "venue_id": "osm:node/7234376294",
+   "venue_kind": "library",
+   "address": "516 Cottage Grove Road",
+   "lat": 43.0841729,
+   "lon": -89.3176486,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "463bd7fd3d0d",
@@ -2014,7 +2655,10 @@
    "address": "1817 East Washington Avenue",
    "lat": 43.0907077,
    "lon": -89.3608921,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "0ac6d5ed98d2",
@@ -2032,7 +2676,10 @@
    "address": "1119 Williamson Street",
    "lat": 43.0821088,
    "lon": -89.3652249,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "e5722cbd87c9",
@@ -2050,7 +2697,10 @@
    "address": "601 W. Dayton St.",
    "lat": 43.016399,
    "lon": -89.420097,
-   "source": "ticketmaster"
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster"
+   ]
   },
   {
    "id": "6516449751bd",
@@ -2068,7 +2718,10 @@
    "address": "1617 North Stoughton Road",
    "lat": 43.1199361,
    "lon": -89.3244342,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "3e0c7995f732",
@@ -2086,7 +2739,10 @@
    "address": "1817 East Washington Avenue",
    "lat": 43.0907077,
    "lon": -89.3608921,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "21c5929fce10",
@@ -2105,7 +2761,31 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
+  },
+  {
+   "id": "413ce4681d0f",
+   "title": "Film: American Doctor",
+   "start": "2026-10-28T19:00-05:00",
+   "end": null,
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Three American doctors enter Gaza to save lives and get caught between medicine and politics.",
+   "url": "https://bartelltheatre.org/",
+   "venue": "Bartell Theatre",
+   "venue_id": "osm:way/265137656",
+   "venue_kind": "venue",
+   "address": "113 East Mifflin Street",
+   "lat": 43.0765271,
+   "lon": -89.3833565,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "b73e3bb45154",
@@ -2123,7 +2803,10 @@
    "address": "167 East Badger Road",
    "lat": 43.0373542,
    "lon": -89.3823463,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "f6b5aaaa1240",
@@ -2141,7 +2824,10 @@
    "address": "1129 East Wilson Street",
    "lat": 43.0833378,
    "lon": -89.3652802,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "d966d1af8321",
@@ -2159,7 +2845,10 @@
    "address": "1224 Williamson Street",
    "lat": 43.0839938,
    "lon": -89.3638172,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "6a2969359a52",
@@ -2177,7 +2866,11 @@
    "address": "216 State Street",
    "lat": 43.0751836,
    "lon": -89.3887291,
-   "source": "ticketmaster"
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster",
+    "AI page reading"
+   ]
   },
   {
    "id": "0252b4712cb8",
@@ -2195,7 +2888,10 @@
    "address": "",
    "lat": 43.0749506,
    "lon": -89.3882204,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "09d3f20e3ee1",
@@ -2213,7 +2909,31 @@
    "address": "115 King Street",
    "lat": 43.0744152,
    "lon": -89.3808535,
-   "source": "ticketmaster"
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster"
+   ]
+  },
+  {
+   "id": "e06418197930",
+   "title": "43rd Annual Celebration at Mercadito",
+   "start": "2026-10-29T00:00-05:00",
+   "end": null,
+   "all_day": true,
+   "category": "other",
+   "price": null,
+   "description": "Annual celebration at Mercadito. Tickets are available and sponsorship opportunities are open.",
+   "url": "https://www.micentro.org/",
+   "venue": "Centro",
+   "venue_id": "osm:way/1314277036",
+   "venue_kind": "community",
+   "address": "2403 Cypress Way",
+   "lat": 43.0395717,
+   "lon": -89.396788,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "7bfa73812c02",
@@ -2231,7 +2951,31 @@
    "address": "327 West Gorham Street",
    "lat": 43.0745715,
    "lon": -89.3917569,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
+  },
+  {
+   "id": "7fbcdc01bde4",
+   "title": "Online Write-In (Zoom)",
+   "start": "2026-10-29T10:00-05:00",
+   "end": null,
+   "all_day": false,
+   "category": "other",
+   "price": 0.0,
+   "description": "Thursday online write-in via Zoom using the Pomodoro method, with check-in and check-out. Registration is free.",
+   "url": "https://artlitlab.org/",
+   "venue": "Arts + Literature Laboratory",
+   "venue_id": "osm:node/10815180247",
+   "venue_kind": "venue",
+   "address": "111 South Livingston Street",
+   "lat": 43.0804026,
+   "lon": -89.3734803,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "ca5d57a9dd70",
@@ -2250,7 +2994,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "c27f46a43748",
@@ -2268,7 +3015,10 @@
    "address": "",
    "lat": 43.0809695,
    "lon": -89.3757466,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "0ab86a7c5a09",
@@ -2286,7 +3036,10 @@
    "address": "6209 McKee Road",
    "lat": 43.0146693,
    "lon": -89.4753418,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "d2cd71f009c3",
@@ -2304,7 +3057,52 @@
    "address": "1129 East Wilson Street",
    "lat": 43.0833378,
    "lon": -89.3652802,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
+  },
+  {
+   "id": "5b25a0e6da3f",
+   "title": "EHS Feeder Program Fall Academy",
+   "start": "2026-10-29T17:00-05:00",
+   "end": "2026-10-29T18:15-05:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "EHS Feeder Program Fall Academy at Warner Park Community Recreation Center, 1625 Northport Drive.",
+   "url": "https://www.cityofmadison.com/parks/find-a-park/reindahl/pavilion-at-the-imagination-center",
+   "venue": "Reindahl Park Pavillion",
+   "venue_id": "osm:way/1562302804",
+   "venue_kind": "community",
+   "address": "1814 Parkside Drive",
+   "lat": 43.1243555,
+   "lon": -89.3168108,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
+  },
+  {
+   "id": "156bc75ec392",
+   "title": "EHS Feeder Program Fall Academy",
+   "start": "2026-10-29T17:00-05:00",
+   "end": "2026-10-29T18:15-05:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "EHS Feeder Program Fall Academy at Warner Park Community Recreation Center, 1625 Northport Drive.",
+   "url": "https://www.cityofmadison.com/parks/find-a-park/park.cfm?id=1364",
+   "venue": "Veterans Memorial Park",
+   "venue_id": "osm:way/406680688",
+   "venue_kind": "veterans",
+   "address": "4601 Star Spangled Trail",
+   "lat": 43.0324635,
+   "lon": -89.2926519,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "3e470233767b",
@@ -2322,7 +3120,10 @@
    "address": "1925 Winnebago Street",
    "lat": 43.0909399,
    "lon": -89.3556544,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "7ec465c89ae7",
@@ -2340,7 +3141,10 @@
    "address": "1817 East Washington Avenue",
    "lat": 43.0907077,
    "lon": -89.3608921,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "8486183c6465",
@@ -2358,7 +3162,10 @@
    "address": "1413 Northern Court",
    "lat": 43.0875602,
    "lon": -89.3622099,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "4e3968820b09",
@@ -2376,7 +3183,10 @@
    "address": "3698 Kinsman Boulevard",
    "lat": 43.1261629,
    "lon": -89.3257286,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "dd01b13fb64e",
@@ -2394,7 +3204,10 @@
    "address": "",
    "lat": 43.0738511,
    "lon": -89.378883,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "83c0bbd2c2e6",
@@ -2412,7 +3225,10 @@
    "address": "2090-2098 Atwood Avenue",
    "lat": 43.0929747,
    "lon": -89.3521777,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "e616fde54374",
@@ -2430,7 +3246,10 @@
    "address": "",
    "lat": 43.0749506,
    "lon": -89.3882204,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "65eb91823f54",
@@ -2448,7 +3267,10 @@
    "address": "121 West Main Street",
    "lat": 43.072436,
    "lon": -89.3848247,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "84103529731e",
@@ -2466,7 +3288,73 @@
    "address": "1380 Williamson Street",
    "lat": 43.0856186,
    "lon": -89.3613346,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
+  },
+  {
+   "id": "7f7669f01c65",
+   "title": "u.DL presents: dis•sonance",
+   "start": "2026-10-29T19:00-05:00",
+   "end": null,
+   "all_day": false,
+   "category": "dance",
+   "price": 10.0,
+   "description": "Unincorporated Dance Lab's 3rd season: original works on discordance and dissent. Tickets $10-30.",
+   "url": "https://www.madisonyoutharts.org/",
+   "venue": "Madison Youth Arts (MYArts)",
+   "venue_id": "osm:node/10983441694",
+   "venue_kind": "venue",
+   "address": "1055",
+   "lat": 43.0851284,
+   "lon": -89.3710814,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
+  },
+  {
+   "id": "332569e92739",
+   "title": "Madison Ballet: Jekyll & Hyde (preview performance)",
+   "start": "2026-10-29T19:00-05:00",
+   "end": null,
+   "all_day": false,
+   "category": "other",
+   "price": 58.0,
+   "description": "World-premiere contemporary ballet based on Stevenson's tale, set to Michael Nyman's music. About 2 hours with a 20-minute intermission. Tickets $58-89.",
+   "url": "https://www.madisonyoutharts.org/",
+   "venue": "Madison Youth Arts (MYArts)",
+   "venue_id": "osm:node/10983441694",
+   "venue_kind": "venue",
+   "address": "1055",
+   "lat": 43.0851284,
+   "lon": -89.3710814,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
+  },
+  {
+   "id": "8f072c42c0b7",
+   "title": "Film: North by Northwest",
+   "start": "2026-10-29T19:30-05:00",
+   "end": null,
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Film screening.",
+   "url": "https://bartelltheatre.org/",
+   "venue": "Bartell Theatre",
+   "venue_id": "osm:way/265137656",
+   "venue_kind": "venue",
+   "address": "113 East Mifflin Street",
+   "lat": 43.0765271,
+   "lon": -89.3833565,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "09cf123c4017",
@@ -2484,7 +3372,11 @@
    "address": "701 E Washington Ave",
    "lat": 43.0797191,
    "lon": -89.3762962,
-   "source": "ticketmaster"
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster",
+    "AI page reading"
+   ]
   },
   {
    "id": "7622c538b337",
@@ -2502,7 +3394,10 @@
    "address": "1617 North Stoughton Road",
    "lat": 43.1199361,
    "lon": -89.3244342,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "05a9c10dc078",
@@ -2520,7 +3415,10 @@
    "address": "115 King Street",
    "lat": 43.0744152,
    "lon": -89.3808535,
-   "source": "ticketmaster"
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster"
+   ]
   },
   {
    "id": "405583c8ee82",
@@ -2538,7 +3436,10 @@
    "address": "800 West Broadway",
    "lat": 43.0480098,
    "lon": -89.337189,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "b20d75574292",
@@ -2556,7 +3457,10 @@
    "address": "300 Progress Drive",
    "lat": 43.0773194,
    "lon": -89.2058376,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "01fdb03b6a89",
@@ -2574,7 +3478,10 @@
    "address": "2505 Monroe Street",
    "lat": 43.0579453,
    "lon": -89.4273621,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "11899b4ef892",
@@ -2592,7 +3499,10 @@
    "address": "1617 North Stoughton Road",
    "lat": 43.1199361,
    "lon": -89.3244342,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "16b888db232a",
@@ -2610,7 +3520,10 @@
    "address": "327 West Gorham Street",
    "lat": 43.0745715,
    "lon": -89.3917569,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "eebc5c8738d8",
@@ -2629,7 +3542,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "cc8ccf3bc072",
@@ -2647,7 +3563,10 @@
    "address": "301 North Street",
    "lat": 43.1034331,
    "lon": -89.3501827,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "87f5af801fff",
@@ -2665,7 +3584,10 @@
    "address": "2201 Atwood Avenue",
    "lat": 43.0930561,
    "lon": -89.3492054,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "9c01e75be2ce",
@@ -2683,7 +3605,52 @@
    "address": "",
    "lat": 43.0809695,
    "lon": -89.3757466,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
+  },
+  {
+   "id": "0ae39a6f4a3f",
+   "title": "Warner Family Fun Night | Halloween Celebration",
+   "start": "2026-10-30T17:00-05:00",
+   "end": "2026-10-30T19:30-05:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Halloween family celebration at Warner Park Community Recreation Center, 1625 Northport Drive.",
+   "url": "https://www.cityofmadison.com/parks/find-a-park/reindahl/pavilion-at-the-imagination-center",
+   "venue": "Reindahl Park Pavillion",
+   "venue_id": "osm:way/1562302804",
+   "venue_kind": "community",
+   "address": "1814 Parkside Drive",
+   "lat": 43.1243555,
+   "lon": -89.3168108,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
+  },
+  {
+   "id": "2fab9ac77ecb",
+   "title": "Warner Family Fun Night | Halloween Celebration",
+   "start": "2026-10-30T17:00-05:00",
+   "end": "2026-10-30T19:30-05:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Halloween family celebration at Warner Park Community Recreation Center, 1625 Northport Drive.",
+   "url": "https://www.cityofmadison.com/parks/find-a-park/park.cfm?id=1364",
+   "venue": "Veterans Memorial Park",
+   "venue_id": "osm:way/406680688",
+   "venue_kind": "veterans",
+   "address": "4601 Star Spangled Trail",
+   "lat": 43.0324635,
+   "lon": -89.2926519,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "7722b799a2b3",
@@ -2701,7 +3668,10 @@
    "address": "1817 East Washington Avenue",
    "lat": 43.0907077,
    "lon": -89.3608921,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "4f432113d589",
@@ -2719,7 +3689,10 @@
    "address": "1817 East Washington Avenue",
    "lat": 43.0907077,
    "lon": -89.3608921,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "0c6dc9c7393f",
@@ -2737,7 +3710,10 @@
    "address": "167 East Badger Road",
    "lat": 43.0373542,
    "lon": -89.3823463,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "8646844a90f1",
@@ -2755,7 +3731,10 @@
    "address": "",
    "lat": 43.0738511,
    "lon": -89.378883,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "8b98db7fc615",
@@ -2774,7 +3753,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "b36928738804",
@@ -2792,7 +3774,10 @@
    "address": "1925 Winnebago Street",
    "lat": 43.0909399,
    "lon": -89.3556544,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "93e6dcbd4b94",
@@ -2810,7 +3795,10 @@
    "address": "1224 Williamson Street",
    "lat": 43.0839938,
    "lon": -89.3638172,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "67ae56361a79",
@@ -2828,7 +3816,10 @@
    "address": "201 State Street",
    "lat": 43.079498,
    "lon": -89.377602,
-   "source": "ticketmaster"
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster"
+   ]
   },
   {
    "id": "d857cb3adaf4",
@@ -2846,7 +3837,10 @@
    "address": "",
    "lat": 43.0853024,
    "lon": -89.3708699,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "6a2f48d08119",
@@ -2864,7 +3858,52 @@
    "address": "601 W. Dayton St.",
    "lat": 43.016399,
    "lon": -89.420097,
-   "source": "ticketmaster"
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster"
+   ]
+  },
+  {
+   "id": "9d3ca8edee82",
+   "title": "u.DL presents: dis•sonance",
+   "start": "2026-10-30T19:00-05:00",
+   "end": null,
+   "all_day": false,
+   "category": "dance",
+   "price": 10.0,
+   "description": "Unincorporated Dance Lab's 3rd season: original works on discordance and dissent. Tickets $10-30.",
+   "url": "https://www.madisonyoutharts.org/",
+   "venue": "Madison Youth Arts (MYArts)",
+   "venue_id": "osm:node/10983441694",
+   "venue_kind": "venue",
+   "address": "1055",
+   "lat": 43.0851284,
+   "lon": -89.3710814,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
+  },
+  {
+   "id": "ebd1c1b3346e",
+   "title": "Madison Ballet: Jekyll & Hyde (opening night)",
+   "start": "2026-10-30T19:00-05:00",
+   "end": null,
+   "all_day": false,
+   "category": "other",
+   "price": 58.0,
+   "description": "World-premiere contemporary ballet based on Stevenson's tale, set to Michael Nyman's music. About 2 hours with a 20-minute intermission. Tickets $58-89.",
+   "url": "https://www.madisonyoutharts.org/",
+   "venue": "Madison Youth Arts (MYArts)",
+   "venue_id": "osm:node/10983441694",
+   "venue_kind": "venue",
+   "address": "1055",
+   "lat": 43.0851284,
+   "lon": -89.3710814,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "1818496b29ba",
@@ -2882,7 +3921,10 @@
    "address": "7622 Lisa Lane",
    "lat": 43.1092621,
    "lon": -89.5123266,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "a140f0f3c1b9",
@@ -2900,7 +3942,10 @@
    "address": "1129 East Wilson Street",
    "lat": 43.0833378,
    "lon": -89.3652802,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "bfc008b0d8a5",
@@ -2918,7 +3963,31 @@
    "address": "6251 Monticello Drive",
    "lat": 43.233799,
    "lon": -89.331802,
-   "source": "ticketmaster"
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster"
+   ]
+  },
+  {
+   "id": "b39e2c409716",
+   "title": "The Moors",
+   "start": "2026-10-30T19:30-05:00",
+   "end": null,
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Listed production; no further details on the page.",
+   "url": "https://bartelltheatre.org/",
+   "venue": "Bartell Theatre",
+   "venue_id": "osm:way/265137656",
+   "venue_kind": "venue",
+   "address": "113 East Mifflin Street",
+   "lat": 43.0765271,
+   "lon": -89.3833565,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "ea8c08c604b2",
@@ -2936,7 +4005,31 @@
    "address": "1119 Williamson Street",
    "lat": 43.0821088,
    "lon": -89.3652249,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
+  },
+  {
+   "id": "7f1e93e2a889",
+   "title": "Film: Re-Animator",
+   "start": "2026-10-30T20:00-05:00",
+   "end": null,
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Film screening.",
+   "url": "https://bartelltheatre.org/",
+   "venue": "Bartell Theatre",
+   "venue_id": "osm:way/265137656",
+   "venue_kind": "venue",
+   "address": "113 East Mifflin Street",
+   "lat": 43.0765271,
+   "lon": -89.3833565,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "6a0aafa6c35c",
@@ -2954,7 +4047,10 @@
    "address": "121 West Main Street",
    "lat": 43.072436,
    "lon": -89.3848247,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "4d258fee140b",
@@ -2972,7 +4068,10 @@
    "address": "1380 Williamson Street",
    "lat": 43.0856186,
    "lon": -89.3613346,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "fbf64345eabd",
@@ -2990,7 +4089,10 @@
    "address": "701 E Washington Ave",
    "lat": 43.0797191,
    "lon": -89.3762962,
-   "source": "ticketmaster"
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster"
+   ]
   },
   {
    "id": "f32bb0109fe6",
@@ -3008,7 +4110,10 @@
    "address": "701 E Washington Ave",
    "lat": 43.0797191,
    "lon": -89.3762962,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "e9b4d7539f10",
@@ -3026,7 +4131,10 @@
    "address": "115 King Street",
    "lat": 43.0744152,
    "lon": -89.3808535,
-   "source": "ticketmaster"
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster"
+   ]
   },
   {
    "id": "80ff573f30bc",
@@ -3044,7 +4152,31 @@
    "address": "",
    "lat": 43.080559,
    "lon": -89.3742549,
-   "source": "ticketmaster"
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster"
+   ]
+  },
+  {
+   "id": "8f7eafffb0e7",
+   "title": "Film: Hello Mary Lou: Prom Night II",
+   "start": "2026-10-30T21:30-05:00",
+   "end": null,
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Film screening.",
+   "url": "https://bartelltheatre.org/",
+   "venue": "Bartell Theatre",
+   "venue_id": "osm:way/265137656",
+   "venue_kind": "venue",
+   "address": "113 East Mifflin Street",
+   "lat": 43.0765271,
+   "lon": -89.3833565,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "1a8e50599a06",
@@ -3062,7 +4194,10 @@
    "address": "3698 Kinsman Boulevard",
    "lat": 43.1261629,
    "lon": -89.3257286,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "5af07d70b197",
@@ -3080,7 +4215,31 @@
    "address": "2505 Monroe Street",
    "lat": 43.0579453,
    "lon": -89.4273621,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
+  },
+  {
+   "id": "b8d7d0a458e3",
+   "title": "Wild Rumpus Circus",
+   "start": "2026-10-31T00:00-05:00",
+   "end": null,
+   "all_day": true,
+   "category": "other",
+   "price": null,
+   "description": "Circus performance at Overture Center; multiple showtimes, times not listed on page.",
+   "url": "http://overturecenter.com",
+   "venue": "Overture Center for the Arts",
+   "venue_id": "osm:way/98799451",
+   "venue_kind": "venue",
+   "address": "201 State Street",
+   "lat": 43.0741518,
+   "lon": -89.3885839,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "5f22d1f314b5",
@@ -3099,7 +4258,52 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
+  },
+  {
+   "id": "4c1075e83f50",
+   "title": "Anita Collin's Workshop: Music Learning and the Brain (morning session)",
+   "start": "2026-10-31T08:30-05:00",
+   "end": "2026-10-31T11:30-05:00",
+   "all_day": false,
+   "category": "music",
+   "price": 20.0,
+   "description": "For music educators: using brain science to strengthen teaching and advocacy. Check-in 8:00-8:30. Pay what you can ($20 suggested).",
+   "url": "https://www.madisonyoutharts.org/",
+   "venue": "Madison Youth Arts (MYArts)",
+   "venue_id": "osm:node/10983441694",
+   "venue_kind": "venue",
+   "address": "1055",
+   "lat": 43.0851284,
+   "lon": -89.3710814,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
+  },
+  {
+   "id": "4399e4c54334",
+   "title": "Free coffee & tea at the library",
+   "start": "2026-10-31T09:00-05:00",
+   "end": "2026-10-31T13:00-05:00",
+   "all_day": false,
+   "category": "other",
+   "price": 0.0,
+   "description": "Free coffee and tea at the Oscar Rennebohm Library on Saturdays, 9am to 1pm this fall.",
+   "url": "https://library.edgewood.edu/home",
+   "venue": "Oscar Rennebohm Library",
+   "venue_id": "osm:way/159047889",
+   "venue_kind": "library",
+   "address": "",
+   "lat": 43.0570556,
+   "lon": -89.4229279,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "5eef51149e6f",
@@ -3117,7 +4321,10 @@
    "address": "1224 Williamson Street",
    "lat": 43.0839938,
    "lon": -89.3638172,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "def78dadc093",
@@ -3135,7 +4342,31 @@
    "address": "602 University Avenue",
    "lat": 43.0734264,
    "lon": -89.3959888,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
+  },
+  {
+   "id": "c267f3e02dce",
+   "title": "Anita Collin's Workshop: The Music Advantage (afternoon session)",
+   "start": "2026-10-31T12:30-05:00",
+   "end": "2026-10-31T15:30-05:00",
+   "all_day": false,
+   "category": "music",
+   "price": 20.0,
+   "description": "For parents, educators and community groups: how music learning supports children, families and communities. Check-in 12:00-12:30. Pay what you can ($20 suggested).",
+   "url": "https://www.madisonyoutharts.org/",
+   "venue": "Madison Youth Arts (MYArts)",
+   "venue_id": "osm:node/10983441694",
+   "venue_kind": "venue",
+   "address": "1055",
+   "lat": 43.0851284,
+   "lon": -89.3710814,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "e1253a2c2c4d",
@@ -3154,7 +4385,31 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
+  },
+  {
+   "id": "6c6d72451e0c",
+   "title": "u.DL presents: dis•sonance",
+   "start": "2026-10-31T13:00-05:00",
+   "end": null,
+   "all_day": false,
+   "category": "dance",
+   "price": 10.0,
+   "description": "Unincorporated Dance Lab's 3rd season: original works on discordance and dissent. Tickets $10-30.",
+   "url": "https://www.madisonyoutharts.org/",
+   "venue": "Madison Youth Arts (MYArts)",
+   "venue_id": "osm:node/10983441694",
+   "venue_kind": "venue",
+   "address": "1055",
+   "lat": 43.0851284,
+   "lon": -89.3710814,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "47d7600c5b89",
@@ -3172,7 +4427,10 @@
    "address": "",
    "lat": 43.0823931,
    "lon": -89.3706293,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "67264999b886",
@@ -3190,7 +4448,10 @@
    "address": "201 State Street",
    "lat": 43.079498,
    "lon": -89.377602,
-   "source": "ticketmaster"
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster"
+   ]
   },
   {
    "id": "31f2a2f513bf",
@@ -3208,7 +4469,31 @@
    "address": "",
    "lat": 43.0853024,
    "lon": -89.3708699,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
+  },
+  {
+   "id": "2ed32ac9acd5",
+   "title": "Madison Ballet: Jekyll & Hyde",
+   "start": "2026-10-31T14:00-05:00",
+   "end": null,
+   "all_day": false,
+   "category": "other",
+   "price": 58.0,
+   "description": "World-premiere contemporary ballet based on Stevenson's tale, set to Michael Nyman's music. About 2 hours with a 20-minute intermission. Tickets $58-89.",
+   "url": "https://www.madisonyoutharts.org/",
+   "venue": "Madison Youth Arts (MYArts)",
+   "venue_id": "osm:node/10983441694",
+   "venue_kind": "venue",
+   "address": "1055",
+   "lat": 43.0851284,
+   "lon": -89.3710814,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "9591029c4b60",
@@ -3226,7 +4511,10 @@
    "address": "1413 Northern Court",
    "lat": 43.0875602,
    "lon": -89.3622099,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "42be962b8b4c",
@@ -3244,7 +4532,10 @@
    "address": "",
    "lat": 43.0738511,
    "lon": -89.378883,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "45d3362e8bfc",
@@ -3262,7 +4553,10 @@
    "address": "601 W. Dayton St.",
    "lat": 43.016399,
    "lon": -89.420097,
-   "source": "ticketmaster"
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster"
+   ]
   },
   {
    "id": "9b372496b54b",
@@ -3280,7 +4574,10 @@
    "address": "1129 East Wilson Street",
    "lat": 43.0833378,
    "lon": -89.3652802,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "88e4768bca24",
@@ -3298,7 +4595,10 @@
    "address": "1925 Winnebago Street",
    "lat": 43.0909399,
    "lon": -89.3556544,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "66396be8043e",
@@ -3316,7 +4616,10 @@
    "address": "1224 Williamson Street",
    "lat": 43.0839938,
    "lon": -89.3638172,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "2b2e503b899a",
@@ -3334,7 +4637,10 @@
    "address": "201 State Street",
    "lat": 43.079498,
    "lon": -89.377602,
-   "source": "ticketmaster"
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster"
+   ]
   },
   {
    "id": "eef6ae392f14",
@@ -3352,7 +4658,31 @@
    "address": "132 Market Street",
    "lat": 43.181916,
    "lon": -89.2114487,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
+  },
+  {
+   "id": "0717386ff7f1",
+   "title": "Madison Ballet: Jekyll & Hyde",
+   "start": "2026-10-31T19:00-05:00",
+   "end": null,
+   "all_day": false,
+   "category": "other",
+   "price": 58.0,
+   "description": "World-premiere contemporary ballet based on Stevenson's tale, set to Michael Nyman's music. About 2 hours with a 20-minute intermission. Tickets $58-89.",
+   "url": "https://www.madisonyoutharts.org/",
+   "venue": "Madison Youth Arts (MYArts)",
+   "venue_id": "osm:node/10983441694",
+   "venue_kind": "venue",
+   "address": "1055",
+   "lat": 43.0851284,
+   "lon": -89.3710814,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "dd11a79db530",
@@ -3370,7 +4700,10 @@
    "address": "1119 Williamson Street",
    "lat": 43.0821088,
    "lon": -89.3652249,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "5d3eb010142c",
@@ -3388,7 +4721,10 @@
    "address": "1817 East Washington Avenue",
    "lat": 43.0907077,
    "lon": -89.3608921,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "7bb1930adeab",
@@ -3406,7 +4742,10 @@
    "address": "1302 Williamson Street",
    "lat": 43.0846749,
    "lon": -89.36254,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "fea2148b3ad2",
@@ -3424,7 +4763,10 @@
    "address": "121 West Main Street",
    "lat": 43.072436,
    "lon": -89.3848247,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "b454542a910d",
@@ -3442,7 +4784,10 @@
    "address": "1380 Williamson Street",
    "lat": 43.0856186,
    "lon": -89.3613346,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "b3c58231eb98",
@@ -3460,7 +4805,11 @@
    "address": "701 E Washington Ave",
    "lat": 43.0797191,
    "lon": -89.3762962,
-   "source": "ticketmaster"
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster",
+    "AI page reading"
+   ]
   },
   {
    "id": "2a4590e87e7e",
@@ -3478,7 +4827,10 @@
    "address": "115 King Street",
    "lat": 43.0744152,
    "lon": -89.3808535,
-   "source": "ticketmaster"
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster"
+   ]
   },
   {
    "id": "8349332dfc07",
@@ -3496,7 +4848,10 @@
    "address": "327 West Gorham Street",
    "lat": 43.0745715,
    "lon": -89.3917569,
-   "source": "ticketmaster"
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster"
+   ]
   },
   {
    "id": "f2039c63f9ca",
@@ -3514,7 +4869,31 @@
    "address": "1224 Williamson Street",
    "lat": 43.0839938,
    "lon": -89.3638172,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
+  },
+  {
+   "id": "9635c78b473b",
+   "title": "Online Write-In (Zoom)",
+   "start": "2026-11-01T09:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "other",
+   "price": 0.0,
+   "description": "Sunday online write-in via Zoom using the Pomodoro method, with check-in and check-out. Registration is free.",
+   "url": "https://artlitlab.org/",
+   "venue": "Arts + Literature Laboratory",
+   "venue_id": "osm:node/10815180247",
+   "venue_kind": "venue",
+   "address": "111 South Livingston Street",
+   "lat": 43.0804026,
+   "lon": -89.3734803,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "3e4aad21d5f5",
@@ -3532,7 +4911,10 @@
    "address": "1817 East Washington Avenue",
    "lat": 43.0907077,
    "lon": -89.3608921,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "4fcd9e1e3c86",
@@ -3550,7 +4932,10 @@
    "address": "167 East Badger Road",
    "lat": 43.0373542,
    "lon": -89.3823463,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "36141fe19c06",
@@ -3568,7 +4953,10 @@
    "address": "4893 Lacy Road",
    "lat": 43.0112712,
    "lon": -89.3736621,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "6b5112b88c5a",
@@ -3587,7 +4975,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "141b2a3b635c",
@@ -3605,7 +4996,10 @@
    "address": "201 State Street",
    "lat": 43.079498,
    "lon": -89.377602,
-   "source": "ticketmaster"
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster"
+   ]
   },
   {
    "id": "4aac33cb5094",
@@ -3623,7 +5017,10 @@
    "address": "",
    "lat": 43.0853024,
    "lon": -89.3708699,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "3706872f0b72",
@@ -3641,7 +5038,10 @@
    "address": "7622 Lisa Lane",
    "lat": 43.1092621,
    "lon": -89.5123266,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "5d37d0217e7b",
@@ -3659,7 +5059,31 @@
    "address": "1119 Williamson Street",
    "lat": 43.0821088,
    "lon": -89.3652249,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
+  },
+  {
+   "id": "c5633954b05b",
+   "title": "Madison Ballet: Jekyll & Hyde",
+   "start": "2026-11-01T14:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "other",
+   "price": 58.0,
+   "description": "World-premiere contemporary ballet based on Stevenson's tale, set to Michael Nyman's music. About 2 hours with a 20-minute intermission. Tickets $58-89.",
+   "url": "https://www.madisonyoutharts.org/",
+   "venue": "Madison Youth Arts (MYArts)",
+   "venue_id": "osm:node/10983441694",
+   "venue_kind": "venue",
+   "address": "1055",
+   "lat": 43.0851284,
+   "lon": -89.3710814,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "fc4fd6c6d0f9",
@@ -3677,7 +5101,10 @@
    "address": "1817 East Washington Avenue",
    "lat": 43.0907077,
    "lon": -89.3608921,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "3481197758eb",
@@ -3695,7 +5122,10 @@
    "address": "2201 Atwood Avenue",
    "lat": 43.0930561,
    "lon": -89.3492054,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "cc539bebe2ca",
@@ -3713,7 +5143,11 @@
    "address": "701 E Washington Ave",
    "lat": 43.0797191,
    "lon": -89.3762962,
-   "source": "ticketmaster"
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster",
+    "AI page reading"
+   ]
   },
   {
    "id": "397387ce1759",
@@ -3732,7 +5166,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "af3782fb813f",
@@ -3750,7 +5187,10 @@
    "address": "1925 Winnebago Street",
    "lat": 43.0909399,
    "lon": -89.3556544,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "c304aa2da9b7",
@@ -3768,7 +5208,10 @@
    "address": "",
    "lat": 43.0853024,
    "lon": -89.3708699,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "4d2949e55094",
@@ -3786,7 +5229,10 @@
    "address": "132 Market Street",
    "lat": 43.181916,
    "lon": -89.2114487,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "183c8f4cbaa3",
@@ -3804,7 +5250,10 @@
    "address": "115 King Street",
    "lat": 43.0744152,
    "lon": -89.3808535,
-   "source": "ticketmaster"
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster"
+   ]
   },
   {
    "id": "e84786887d73",
@@ -3822,7 +5271,10 @@
    "address": "",
    "lat": 43.080559,
    "lon": -89.3742549,
-   "source": "ticketmaster"
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster"
+   ]
   },
   {
    "id": "c7a56e8aee5f",
@@ -3840,7 +5292,10 @@
    "address": "1444 East Washington Avenue",
    "lat": 43.0897796,
    "lon": -89.3632278,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "a633f22b8372",
@@ -3858,7 +5313,10 @@
    "address": "1302 Williamson Street",
    "lat": 43.0846749,
    "lon": -89.36254,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "fcacc213e613",
@@ -3876,7 +5334,10 @@
    "address": "347 State Street",
    "lat": 43.0746766,
    "lon": -89.3913852,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "ccc461a685d8",
@@ -3894,7 +5355,10 @@
    "address": "2609 East Washington Avenue",
    "lat": 43.1005011,
    "lon": -89.3482198,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "988c5f635705",
@@ -3913,7 +5377,10 @@
    "lat": 43.0326048,
    "lon": -89.4070039,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "2430fb94875b",
@@ -3931,7 +5398,10 @@
    "address": "",
    "lat": 43.0738511,
    "lon": -89.378883,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "a13d79616332",
@@ -3950,7 +5420,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "9b56650f6c03",
@@ -3969,7 +5442,10 @@
    "lat": 43.0930561,
    "lon": -89.3492054,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "d79b0b9fe43c",
@@ -3987,7 +5463,10 @@
    "address": "121 West Main Street",
    "lat": 43.072436,
    "lon": -89.3848247,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "a3ee0777954a",
@@ -4005,7 +5484,10 @@
    "address": "601 W. Dayton St.",
    "lat": 43.016399,
    "lon": -89.420097,
-   "source": "ticketmaster"
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster"
+   ]
   },
   {
    "id": "93550c0e159c",
@@ -4024,7 +5506,10 @@
    "lat": 43.0667347,
    "lon": -89.4037365,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "cf8cdf492908",
@@ -4043,7 +5528,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "f9ca90c50e18",
@@ -4062,7 +5550,10 @@
    "lat": 43.0878835,
    "lon": -89.3587108,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "218cdc1fb8ee",
@@ -4081,7 +5572,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "8bd974663eb6",
@@ -4100,7 +5594,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "afe056ec35b8",
@@ -4118,7 +5615,11 @@
    "address": "701 E Washington Ave",
    "lat": 43.0797191,
    "lon": -89.3762962,
-   "source": "ticketmaster"
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster",
+    "AI page reading"
+   ]
   },
   {
    "id": "e20343b51ef0",
@@ -4136,7 +5637,10 @@
    "address": "1617 North Stoughton Road",
    "lat": 43.1199361,
    "lon": -89.3244342,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "20d9e119b7b8",
@@ -4154,7 +5658,10 @@
    "address": "2609 East Washington Avenue",
    "lat": 43.1005011,
    "lon": -89.3482198,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "f135f1928c4d",
@@ -4172,7 +5679,10 @@
    "address": "",
    "lat": 43.0809695,
    "lon": -89.3757466,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "c3c9cf507f3f",
@@ -4191,7 +5701,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "b2deebc0d15b",
@@ -4209,7 +5722,10 @@
    "address": "103 La Mariposa Lane",
    "lat": 43.0663858,
    "lon": -89.3975076,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "0be3254a59c2",
@@ -4228,7 +5744,31 @@
    "lat": 43.0863319,
    "lon": -89.3272545,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
+  },
+  {
+   "id": "7e863e8f2125",
+   "title": "Open Mic w/ Martin Hunt",
+   "start": "2026-11-03T18:00-06:00",
+   "end": "2026-11-03T21:00-06:00",
+   "all_day": false,
+   "category": "open_mic",
+   "price": 0.0,
+   "description": "Open mic hosted by Martin Hunt for all musical skill levels. Free. Bar opens at 5:00pm and food is available from the grill.",
+   "url": "https://escmadison.com",
+   "venue": "East Side Club",
+   "venue_id": "osm:way/541940185",
+   "venue_kind": "lodge",
+   "address": "3735 Monona Drive",
+   "lat": 43.0863319,
+   "lon": -89.3272545,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "dd097e1eab2a",
@@ -4246,7 +5786,10 @@
    "address": "4893 Lacy Road",
    "lat": 43.0112712,
    "lon": -89.3736621,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "58837c4ea38c",
@@ -4265,7 +5808,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "8d1fbd9a7dd3",
@@ -4283,7 +5829,10 @@
    "address": "601 W. Dayton St.",
    "lat": 43.016399,
    "lon": -89.420097,
-   "source": "ticketmaster"
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster"
+   ]
   },
   {
    "id": "3fcc0c964af4",
@@ -4302,7 +5851,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "dade4e9a5934",
@@ -4321,7 +5873,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "3779a98b0d83",
@@ -4340,7 +5895,10 @@
    "lat": 43.1846128,
    "lon": -89.425721,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "5df6d1488c46",
@@ -4359,7 +5917,10 @@
    "lat": 43.1092621,
    "lon": -89.5123266,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "37f53e817215",
@@ -4377,7 +5938,10 @@
    "address": "7622 Lisa Lane",
    "lat": 43.1092621,
    "lon": -89.5123266,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "3d945fbc83af",
@@ -4396,7 +5960,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "e3a6eb1c4414",
@@ -4415,7 +5982,10 @@
    "lat": 43.0833378,
    "lon": -89.3652802,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "67a4a6c33b12",
@@ -4434,7 +6004,10 @@
    "lat": 43.0839938,
    "lon": -89.3638172,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "22fd767b0f91",
@@ -4453,7 +6026,10 @@
    "lat": 43.0998894,
    "lon": -89.3470086,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "481ef00e82cf",
@@ -4472,7 +6048,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "08f9ea0cb897",
@@ -4491,7 +6070,10 @@
    "lat": 43.0917953,
    "lon": -89.3549853,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "6f5d37284f3d",
@@ -4509,7 +6091,10 @@
    "address": "2201 Atwood Avenue",
    "lat": 43.0930561,
    "lon": -89.3492054,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "074b1c722b18",
@@ -4528,7 +6113,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "eb32072cfe2a",
@@ -4547,7 +6135,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "df30b7c86bf4",
@@ -4566,7 +6157,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "e6f66f0bbb53",
@@ -4585,7 +6179,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "5de23c1fb016",
@@ -4604,7 +6201,10 @@
    "lat": 43.0839938,
    "lon": -89.3638172,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "d53fc8b75ca3",
@@ -4623,7 +6223,10 @@
    "lat": 43.0751144,
    "lon": -89.3809981,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "9c4752f4d4e7",
@@ -4642,7 +6245,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "d4dde24deaa0",
@@ -4660,7 +6266,10 @@
    "address": "115 King Street",
    "lat": 43.0744152,
    "lon": -89.3808535,
-   "source": "ticketmaster"
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster"
+   ]
   },
   {
    "id": "d2aef7f8091c",
@@ -4678,7 +6287,10 @@
    "address": "",
    "lat": 43.080559,
    "lon": -89.3742549,
-   "source": "ticketmaster"
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster"
+   ]
   },
   {
    "id": "5de459a8dad1",
@@ -4696,7 +6308,10 @@
    "address": "",
    "lat": 43.0809695,
    "lon": -89.3757466,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "bc0a92208434",
@@ -4714,7 +6329,10 @@
    "address": "2609 East Washington Avenue",
    "lat": 43.1005011,
    "lon": -89.3482198,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "e77093bcd5de",
@@ -4733,7 +6351,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "4a84b416b724",
@@ -4751,7 +6372,10 @@
    "address": "301 North Street",
    "lat": 43.1034331,
    "lon": -89.3501827,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "330d07ada292",
@@ -4770,7 +6394,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "4b9e505b058a",
@@ -4788,7 +6415,10 @@
    "address": "5920 Milwaukee Street",
    "lat": 43.0136038,
    "lon": -89.2883391,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "df1f64a591cd",
@@ -4806,7 +6436,10 @@
    "address": "2201 Atwood Avenue",
    "lat": 43.0930561,
    "lon": -89.3492054,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "842dd6f4a13f",
@@ -4824,7 +6457,10 @@
    "address": "1617 North Stoughton Road",
    "lat": 43.1199361,
    "lon": -89.3244342,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "debeaff45c96",
@@ -4842,7 +6478,10 @@
    "address": "1817 East Washington Avenue",
    "lat": 43.0907077,
    "lon": -89.3608921,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "d4337791985d",
@@ -4860,7 +6499,10 @@
    "address": "7622 Lisa Lane",
    "lat": 43.1092621,
    "lon": -89.5123266,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "948a9296c69c",
@@ -4878,7 +6520,10 @@
    "address": "1925 Winnebago Street",
    "lat": 43.0909399,
    "lon": -89.3556544,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "abc9c33b79d3",
@@ -4896,7 +6541,10 @@
    "address": "2090-2098 Atwood Avenue",
    "lat": 43.0929747,
    "lon": -89.3521777,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "f4260ce6a12c",
@@ -4914,7 +6562,10 @@
    "address": "167 East Badger Road",
    "lat": 43.0373542,
    "lon": -89.3823463,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "017962e83b24",
@@ -4932,7 +6583,10 @@
    "address": "1224 Williamson Street",
    "lat": 43.0839938,
    "lon": -89.3638172,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "56d80859477b",
@@ -4950,7 +6604,10 @@
    "address": "601 West Dayton Street",
    "lat": 43.069828,
    "lon": -89.395924,
-   "source": "ticketmaster"
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster"
+   ]
   },
   {
    "id": "5cf61d0995fe",
@@ -4968,7 +6625,10 @@
    "address": "1224 Williamson Street",
    "lat": 43.0839938,
    "lon": -89.3638172,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "89c167e6f788",
@@ -4986,7 +6646,10 @@
    "address": "121 West Main Street",
    "lat": 43.072436,
    "lon": -89.3848247,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "cf826840401f",
@@ -5004,7 +6667,11 @@
    "address": "701 E Washington Ave",
    "lat": 43.0797191,
    "lon": -89.3762962,
-   "source": "ticketmaster"
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster",
+    "AI page reading"
+   ]
   },
   {
    "id": "58ae4cf810e8",
@@ -5022,7 +6689,52 @@
    "address": "",
    "lat": 43.080559,
    "lon": -89.3742549,
-   "source": "ticketmaster"
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster"
+   ]
+  },
+  {
+   "id": "a176b7806d1e",
+   "title": "Auricle Presents: Drumming with Current",
+   "start": "2026-11-05T00:00-06:00",
+   "end": null,
+   "all_day": true,
+   "category": "other",
+   "price": null,
+   "description": "Auricle Presents event listed on the Arts + Literature Laboratory calendar.",
+   "url": "https://artlitlab.org/",
+   "venue": "Arts + Literature Laboratory",
+   "venue_id": "osm:node/10815180247",
+   "venue_kind": "venue",
+   "address": "111 South Livingston Street",
+   "lat": 43.0804026,
+   "lon": -89.3734803,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
+  },
+  {
+   "id": "7d3f1ee92e7c",
+   "title": "Online Write-In (Zoom)",
+   "start": "2026-11-05T10:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "other",
+   "price": 0.0,
+   "description": "Thursday online write-in via Zoom using the Pomodoro method, with check-in and check-out. Registration is free.",
+   "url": "https://artlitlab.org/",
+   "venue": "Arts + Literature Laboratory",
+   "venue_id": "osm:node/10815180247",
+   "venue_kind": "venue",
+   "address": "111 South Livingston Street",
+   "lat": 43.0804026,
+   "lon": -89.3734803,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "6ef50718aecc",
@@ -5040,7 +6752,10 @@
    "address": "",
    "lat": 43.0809695,
    "lon": -89.3757466,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "52e441da3032",
@@ -5058,7 +6773,10 @@
    "address": "6209 McKee Road",
    "lat": 43.0146693,
    "lon": -89.4753418,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "9d091331d52f",
@@ -5076,7 +6794,10 @@
    "address": "1817 East Washington Avenue",
    "lat": 43.0907077,
    "lon": -89.3608921,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "35f86e980a0a",
@@ -5094,7 +6815,10 @@
    "address": "2201 Atwood Avenue",
    "lat": 43.0930561,
    "lon": -89.3492054,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "ee47e425ffd4",
@@ -5112,7 +6836,10 @@
    "address": "601 W. Dayton St.",
    "lat": 43.016399,
    "lon": -89.420097,
-   "source": "ticketmaster"
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster"
+   ]
   },
   {
    "id": "c812a3250668",
@@ -5131,7 +6858,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "7379f6b694b3",
@@ -5149,7 +6879,10 @@
    "address": "1224 Williamson Street",
    "lat": 43.0839938,
    "lon": -89.3638172,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "58b5844e7274",
@@ -5167,7 +6900,10 @@
    "address": "",
    "lat": 43.0749506,
    "lon": -89.3882204,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "71b0393315e1",
@@ -5185,7 +6921,10 @@
    "address": "1450 Monroe St., Madison, WI 53706",
    "lat": 43.076,
    "lon": -89.411201,
-   "source": "ticketmaster"
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster"
+   ]
   },
   {
    "id": "ffc69aeb2d40",
@@ -5203,7 +6942,10 @@
    "address": "1129 East Wilson Street",
    "lat": 43.0833378,
    "lon": -89.3652802,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "55b86f4f1232",
@@ -5221,7 +6963,11 @@
    "address": "2090-2098 Atwood Avenue",
    "lat": 43.0929747,
    "lon": -89.3521777,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites",
+    "Ticketmaster"
+   ]
   },
   {
    "id": "20ed9a83c6e8",
@@ -5239,7 +6985,10 @@
    "address": "1119 Williamson Street",
    "lat": 43.0821088,
    "lon": -89.3652249,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "2a3cd63f85ff",
@@ -5257,7 +7006,11 @@
    "address": "701 E Washington Ave",
    "lat": 43.0797191,
    "lon": -89.3762962,
-   "source": "ticketmaster"
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster",
+    "AI page reading"
+   ]
   },
   {
    "id": "73b1190c919c",
@@ -5275,7 +7028,10 @@
    "address": "1617 North Stoughton Road",
    "lat": 43.1199361,
    "lon": -89.3244342,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "70c3ab929c6c",
@@ -5293,7 +7049,10 @@
    "address": "115 King Street",
    "lat": 43.0744152,
    "lon": -89.3808535,
-   "source": "ticketmaster"
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster"
+   ]
   },
   {
    "id": "a0b8acccf246",
@@ -5311,7 +7070,32 @@
    "address": "216 State Street",
    "lat": 43.0751836,
    "lon": -89.3887291,
-   "source": "ticketmaster"
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster",
+    "AI page reading"
+   ]
+  },
+  {
+   "id": "dbb74df76730",
+   "title": "Closing Reception, 10th Anniversary Retrospective",
+   "start": "2026-11-06T00:00-06:00",
+   "end": null,
+   "all_day": true,
+   "category": "other",
+   "price": null,
+   "description": "Closing reception for the 10th Anniversary Retrospective exhibition.",
+   "url": "https://artlitlab.org/",
+   "venue": "Arts + Literature Laboratory",
+   "venue_id": "osm:node/10815180247",
+   "venue_kind": "venue",
+   "address": "111 South Livingston Street",
+   "lat": 43.0804026,
+   "lon": -89.3734803,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "f5f43259ad24",
@@ -5329,7 +7113,10 @@
    "address": "2505 Monroe Street",
    "lat": 43.0579453,
    "lon": -89.4273621,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "adadf29688a6",
@@ -5347,7 +7134,31 @@
    "address": "1617 North Stoughton Road",
    "lat": 43.1199361,
    "lon": -89.3244342,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
+  },
+  {
+   "id": "d13d229b7510",
+   "title": "MDEV: The Kick-Off Event",
+   "start": "2026-11-06T00:00-06:00",
+   "end": null,
+   "all_day": true,
+   "category": "other",
+   "price": null,
+   "description": "Listed as a related event on the Orpheum Theatre page; no time or price given.",
+   "url": "https://madisonorpheum.com/",
+   "venue": "Orpheum Theatre",
+   "venue_id": "osm:way/102371335",
+   "venue_kind": "venue",
+   "address": "216 State Street",
+   "lat": 43.0751836,
+   "lon": -89.3887291,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "60e66004bd38",
@@ -5365,7 +7176,10 @@
    "address": "301 North Street",
    "lat": 43.1034331,
    "lon": -89.3501827,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "b573d146fadc",
@@ -5384,7 +7198,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "494ac25f98e3",
@@ -5402,7 +7219,10 @@
    "address": "",
    "lat": 43.0809695,
    "lon": -89.3757466,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "9603f11f225f",
@@ -5420,7 +7240,10 @@
    "address": "1224 Williamson Street",
    "lat": 43.0839938,
    "lon": -89.3638172,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "056fd71ce009",
@@ -5438,7 +7261,31 @@
    "address": "1702 South Park Street",
    "lat": 43.0483342,
    "lon": -89.3947928,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
+  },
+  {
+   "id": "5da3eb744d26",
+   "title": "LET THERE BE LIGHT Film Screening",
+   "start": "2026-11-06T18:00-06:00",
+   "end": "2026-11-06T19:00-06:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Screening of Huston's documentary on the rehabilitation of psychologically traumatized WWII veterans, in conjunction with UW-Madison Cinematheque. Presented by Hannah Swan. UW-Madison Cinematheque, 821 University Ave, 4070 Vilas Hall (Fourth Floor).",
+   "url": "https://ebling.library.wisc.edu/",
+   "venue": "Ebling Library",
+   "venue_id": "osm:node/3680614959",
+   "venue_kind": "library",
+   "address": "750 Highland Avenue",
+   "lat": 43.0777498,
+   "lon": -89.4297886,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "fa719323ecab",
@@ -5456,7 +7303,10 @@
    "address": "1817 East Washington Avenue",
    "lat": 43.0907077,
    "lon": -89.3608921,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "04de6562cf82",
@@ -5474,7 +7324,10 @@
    "address": "167 East Badger Road",
    "lat": 43.0373542,
    "lon": -89.3823463,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "42f180a90290",
@@ -5492,7 +7345,10 @@
    "address": "601 W. Dayton St.",
    "lat": 43.016399,
    "lon": -89.420097,
-   "source": "ticketmaster"
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster"
+   ]
   },
   {
    "id": "955900c4b26e",
@@ -5510,7 +7366,73 @@
    "address": "1224 Williamson Street",
    "lat": 43.0839938,
    "lon": -89.3638172,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
+  },
+  {
+   "id": "601639e3c8d2",
+   "title": "The Honey Pies",
+   "start": "2026-11-06T19:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "music",
+   "price": 0.0,
+   "description": "Live music at Lakeside Street Coffee House. Doors open one hour before showtime; no cover, suggested donation.",
+   "url": "https://lakesidestcoffeehouse.com/",
+   "venue": "Lakeside Street Coffee House",
+   "venue_id": "osm:node/1706559870",
+   "venue_kind": "cafe",
+   "address": "402 West Lakeside Street",
+   "lat": 43.056188,
+   "lon": -89.3889896,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
+  },
+  {
+   "id": "4ba01df91b89",
+   "title": "Comedy Variety Hour (and a half!)",
+   "start": "2026-11-06T19:00-06:00",
+   "end": "2026-11-06T20:30-06:00",
+   "all_day": false,
+   "category": "comedy",
+   "price": 20.0,
+   "description": "Hosted by Mark Hayward; 90-minute all-ages clean comedy and magic show in the Starlight Theater. Ages 6+. Tickets $20-$35.",
+   "url": "https://www.madisonyoutharts.org/",
+   "venue": "Madison Youth Arts (MYArts)",
+   "venue_id": "osm:node/10983441694",
+   "venue_kind": "venue",
+   "address": "1055",
+   "lat": 43.0851284,
+   "lon": -89.3710814,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
+  },
+  {
+   "id": "6c1bd708d408",
+   "title": "Mad City Story Slam - Rebellion",
+   "start": "2026-11-06T19:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "open_mic",
+   "price": 0.0,
+   "description": "Open mic storytelling night with guest host MEATMAN on the theme of rebellion. Share a 5-minute true story or come to listen. Sign-ups start at 6:30 PM.",
+   "url": "https://www.motherfools.com/",
+   "venue": "Mother Fool's",
+   "venue_id": "osm:node/567937911",
+   "venue_kind": "cafe",
+   "address": "1101 Williamson Street",
+   "lat": 43.0819904,
+   "lon": -89.3658896,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "7bfbe8f157b2",
@@ -5528,7 +7450,10 @@
    "address": "1413 Northern Court",
    "lat": 43.0875602,
    "lon": -89.3622099,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "1b6eabbfd8ad",
@@ -5546,7 +7471,10 @@
    "address": "7622 Lisa Lane",
    "lat": 43.1092621,
    "lon": -89.5123266,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "1b807b8c852b",
@@ -5564,7 +7492,31 @@
    "address": "",
    "lat": 43.080559,
    "lon": -89.3742549,
-   "source": "ticketmaster"
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster"
+   ]
+  },
+  {
+   "id": "b83784cf36e5",
+   "title": "Romeo and Juliet",
+   "start": "2026-11-06T19:30-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Listed production; no further details on the page.",
+   "url": "https://bartelltheatre.org/",
+   "venue": "Bartell Theatre",
+   "venue_id": "osm:way/265137656",
+   "venue_kind": "venue",
+   "address": "113 East Mifflin Street",
+   "lat": 43.0765271,
+   "lon": -89.3833565,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "ddd7fe428d9a",
@@ -5582,7 +7534,11 @@
    "address": "2090-2098 Atwood Avenue",
    "lat": 43.0929747,
    "lon": -89.3521777,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites",
+    "Ticketmaster"
+   ]
   },
   {
    "id": "da326e73e898",
@@ -5600,7 +7556,11 @@
    "address": "701 E Washington Ave",
    "lat": 43.0797191,
    "lon": -89.3762962,
-   "source": "ticketmaster"
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster",
+    "AI page reading"
+   ]
   },
   {
    "id": "8f8b7a9b9475",
@@ -5618,7 +7578,10 @@
    "address": "115 King Street",
    "lat": 43.0744152,
    "lon": -89.3808535,
-   "source": "ticketmaster"
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster"
+   ]
   },
   {
    "id": "2f54b1ca28ed",
@@ -5636,7 +7599,11 @@
    "address": "216 State Street",
    "lat": 43.0751836,
    "lon": -89.3887291,
-   "source": "ticketmaster"
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster",
+    "AI page reading"
+   ]
   },
   {
    "id": "769e2abf1969",
@@ -5654,7 +7621,10 @@
    "address": "1440 Monroe St.",
    "lat": 43.016399,
    "lon": -89.420097,
-   "source": "ticketmaster"
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster"
+   ]
   },
   {
    "id": "e574baf64f03",
@@ -5672,7 +7642,10 @@
    "address": "300 Progress Drive",
    "lat": 43.0773194,
    "lon": -89.2058376,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "781dfb495bad",
@@ -5690,7 +7663,10 @@
    "address": "2505 Monroe Street",
    "lat": 43.0579453,
    "lon": -89.4273621,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "0054b5bf16b4",
@@ -5708,7 +7684,73 @@
    "address": "1817 East Washington Avenue",
    "lat": 43.0907077,
    "lon": -89.3608921,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
+  },
+  {
+   "id": "f928369145cb",
+   "title": "Stuart Stotts",
+   "start": "2026-11-07T00:00-06:00",
+   "end": null,
+   "all_day": true,
+   "category": "other",
+   "price": null,
+   "description": "Performance at Overture Center; multiple showtimes, times not listed on page.",
+   "url": "http://overturecenter.com",
+   "venue": "Overture Center for the Arts",
+   "venue_id": "osm:way/98799451",
+   "venue_kind": "venue",
+   "address": "201 State Street",
+   "lat": 43.0741518,
+   "lon": -89.3885839,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
+  },
+  {
+   "id": "ba5628e076fe",
+   "title": "East Side Club Holiday Craft and Vendor Fair",
+   "start": "2026-11-07T09:00-06:00",
+   "end": "2026-11-07T15:00-06:00",
+   "all_day": false,
+   "category": "other",
+   "price": 0.0,
+   "description": "Two floors of handmade crafts and vendors with a Bloody Mary Bar. Free admission; food available for purchase.",
+   "url": "https://escmadison.com",
+   "venue": "East Side Club",
+   "venue_id": "osm:way/541940185",
+   "venue_kind": "lodge",
+   "address": "3735 Monona Drive",
+   "lat": 43.0863319,
+   "lon": -89.3272545,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
+  },
+  {
+   "id": "016d1993cf46",
+   "title": "Free coffee & tea at the library",
+   "start": "2026-11-07T09:00-06:00",
+   "end": "2026-11-07T13:00-06:00",
+   "all_day": false,
+   "category": "other",
+   "price": 0.0,
+   "description": "Free coffee and tea at the Oscar Rennebohm Library on Saturdays, 9am to 1pm this fall.",
+   "url": "https://library.edgewood.edu/home",
+   "venue": "Oscar Rennebohm Library",
+   "venue_id": "osm:way/159047889",
+   "venue_kind": "library",
+   "address": "",
+   "lat": 43.0570556,
+   "lon": -89.4229279,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "658900e98584",
@@ -5726,7 +7768,10 @@
    "address": "1224 Williamson Street",
    "lat": 43.0839938,
    "lon": -89.3638172,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "ca2361d23e78",
@@ -5744,7 +7789,10 @@
    "address": "5920 Milwaukee Street",
    "lat": 43.0136038,
    "lon": -89.2883391,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "12f74e7d22a4",
@@ -5762,7 +7810,10 @@
    "address": "1702 South Park Street",
    "lat": 43.0483342,
    "lon": -89.3947928,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "8063b2a0d533",
@@ -5780,7 +7831,10 @@
    "address": "5920 Milwaukee Street",
    "lat": 43.0136038,
    "lon": -89.2883391,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "a6cf92ab6e69",
@@ -5798,7 +7852,10 @@
    "address": "1129 East Wilson Street",
    "lat": 43.0833378,
    "lon": -89.3652802,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "451ee84ede77",
@@ -5817,7 +7874,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "78868e578881",
@@ -5835,7 +7895,10 @@
    "address": "",
    "lat": 43.0823931,
    "lon": -89.3706293,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "96215fc54ce8",
@@ -5854,7 +7917,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "20220963969d",
@@ -5872,7 +7938,10 @@
    "address": "1925 Winnebago Street",
    "lat": 43.0909399,
    "lon": -89.3556544,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "6cf08f4fd62a",
@@ -5890,7 +7959,11 @@
    "address": "2090-2098 Atwood Avenue",
    "lat": 43.0929747,
    "lon": -89.3521777,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites",
+    "Ticketmaster"
+   ]
   },
   {
    "id": "87981458a66c",
@@ -5908,7 +7981,10 @@
    "address": "1224 Williamson Street",
    "lat": 43.0839938,
    "lon": -89.3638172,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "33d1752d06e4",
@@ -5926,7 +8002,32 @@
    "address": "701 E Washington Ave",
    "lat": 43.0797191,
    "lon": -89.3762962,
-   "source": "ticketmaster"
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster",
+    "AI page reading"
+   ]
+  },
+  {
+   "id": "8fcb52fcc1ee",
+   "title": "LunArt: DARK TALES: An Evening of Music and Mystery",
+   "start": "2026-11-07T19:30-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "music",
+   "price": 35.0,
+   "description": "Evening of choral music from LunART Treble Choir plus a world-premiere staging of Poe's 'The Cask of Amontillado.' Tickets $35-45.",
+   "url": "https://www.madisonyoutharts.org/",
+   "venue": "Madison Youth Arts (MYArts)",
+   "venue_id": "osm:node/10983441694",
+   "venue_kind": "venue",
+   "address": "1055",
+   "lat": 43.0851284,
+   "lon": -89.3710814,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "3f9ebc23ca2d",
@@ -5944,7 +8045,10 @@
    "address": "121 West Main Street",
    "lat": 43.072436,
    "lon": -89.3848247,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "d65e7c81a215",
@@ -5962,7 +8066,10 @@
    "address": "2201 Atwood Avenue",
    "lat": 43.0930561,
    "lon": -89.3492054,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "c7f77a42fc88",
@@ -5980,7 +8087,10 @@
    "address": "115 King Street",
    "lat": 43.0744152,
    "lon": -89.3808535,
-   "source": "ticketmaster"
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster"
+   ]
   },
   {
    "id": "def7e3e88fc4",
@@ -5998,7 +8108,11 @@
    "address": "216 State Street",
    "lat": 43.0751836,
    "lon": -89.3887291,
-   "source": "ticketmaster"
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster",
+    "AI page reading"
+   ]
   },
   {
    "id": "360f6082832b",
@@ -6016,7 +8130,10 @@
    "address": "",
    "lat": 43.080559,
    "lon": -89.3742549,
-   "source": "ticketmaster"
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster"
+   ]
   },
   {
    "id": "2a9ac1358dcb",
@@ -6034,7 +8151,10 @@
    "address": "1302 Williamson Street",
    "lat": 43.0846749,
    "lon": -89.36254,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "d8bd757bb3cb",
@@ -6052,7 +8172,10 @@
    "address": "1224 Williamson Street",
    "lat": 43.0839938,
    "lon": -89.3638172,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "4abaaa3d840a",
@@ -6070,7 +8193,31 @@
    "address": "1450 Monroe St., Madison, WI 53706",
    "lat": 43.076,
    "lon": -89.411201,
-   "source": "ticketmaster"
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster"
+   ]
+  },
+  {
+   "id": "f2d5355a08aa",
+   "title": "Online Write-In (Zoom)",
+   "start": "2026-11-08T09:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "other",
+   "price": 0.0,
+   "description": "Sunday online write-in via Zoom using the Pomodoro method, with check-in and check-out. Registration is free.",
+   "url": "https://artlitlab.org/",
+   "venue": "Arts + Literature Laboratory",
+   "venue_id": "osm:node/10815180247",
+   "venue_kind": "venue",
+   "address": "111 South Livingston Street",
+   "lat": 43.0804026,
+   "lon": -89.3734803,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "e02ea467461c",
@@ -6088,7 +8235,10 @@
    "address": "1817 East Washington Avenue",
    "lat": 43.0907077,
    "lon": -89.3608921,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "a67ab68eba6c",
@@ -6106,7 +8256,10 @@
    "address": "1925 Winnebago Street",
    "lat": 43.0909399,
    "lon": -89.3556544,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "2bc976dbef58",
@@ -6124,7 +8277,10 @@
    "address": "167 East Badger Road",
    "lat": 43.0373542,
    "lon": -89.3823463,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "0ed22b63a77a",
@@ -6142,7 +8298,10 @@
    "address": "7622 Lisa Lane",
    "lat": 43.1092621,
    "lon": -89.5123266,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "76df5ac11709",
@@ -6160,7 +8319,10 @@
    "address": "1129 East Wilson Street",
    "lat": 43.0833378,
    "lon": -89.3652802,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "d4cfc8bc221f",
@@ -6179,7 +8341,10 @@
    "lat": null,
    "lon": null,
    "source": "extra",
-   "via": "Isthmus"
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ]
   },
   {
    "id": "016cb3c4f8c5",
@@ -6197,7 +8362,10 @@
    "address": "601 W. Dayton St.",
    "lat": 43.016399,
    "lon": -89.420097,
-   "source": "ticketmaster"
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster"
+   ]
   },
   {
    "id": "cedaea8de567",
@@ -6215,7 +8383,10 @@
    "address": "1817 East Washington Avenue",
    "lat": 43.0907077,
    "lon": -89.3608921,
-   "source": "scraped"
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ]
   },
   {
    "id": "d61d6761b2c4",
@@ -6233,7 +8404,10 @@
    "address": "2201 Atwood Avenue",
    "lat": 43.0930561,
    "lon": -89.3492054,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "8e5791170560",
@@ -6251,7 +8425,11 @@
    "address": "701 E Washington Ave",
    "lat": 43.0797191,
    "lon": -89.3762962,
-   "source": "ticketmaster"
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster",
+    "AI page reading"
+   ]
   },
   {
    "id": "0e6775bb0c43",
@@ -6269,7 +8447,10 @@
    "address": "121 West Main Street",
    "lat": 43.072436,
    "lon": -89.3848247,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "5101c96e82eb",
@@ -6287,7 +8468,10 @@
    "address": "",
    "lat": 43.080559,
    "lon": -89.3742549,
-   "source": "ticketmaster"
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster"
+   ]
   },
   {
    "id": "87883ee9bbcf",
@@ -6305,7 +8489,10 @@
    "address": "1444 East Washington Avenue",
    "lat": 43.0897796,
    "lon": -89.3632278,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "8ccf202e5db5",
@@ -6323,7 +8510,10 @@
    "address": "1302 Williamson Street",
    "lat": 43.0846749,
    "lon": -89.36254,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "b34b43106bb3",
@@ -6341,7 +8531,10 @@
    "address": "347 State Street",
    "lat": 43.0746766,
    "lon": -89.3913852,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "15a54a968b7b",
@@ -6359,7 +8552,10 @@
    "address": "2609 East Washington Avenue",
    "lat": 43.1005011,
    "lon": -89.3482198,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   },
   {
    "id": "f09ce3fc8fc2",
@@ -6377,7 +8573,10 @@
    "address": "",
    "lat": 43.0809695,
    "lon": -89.3757466,
-   "source": "ai"
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
   }
  ]
 }

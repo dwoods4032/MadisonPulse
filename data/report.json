@@ -1,11 +1,25 @@
 {
- "generated_at": "2026-10-26T15:21:10-05:00",
+ "generated_at": "2026-10-26T15:23:19-05:00",
  "venues_checked": 237,
- "venues_with_events": 48,
- "venues_with_feeds": 69,
- "events": 347,
- "filtered_out": 135,
+ "venues_with_events": 69,
+ "venues_with_feeds": 89,
+ "events": 401,
+ "filtered_out": 168,
  "venues": [
+  {
+   "name": "AI page reading",
+   "kind": "source",
+   "website": "",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 204,
+   "error": "",
+   "calls": 44,
+   "tokens_in": 84836,
+   "tokens_out": 24882,
+   "est_cost_usd": 0.0209
+  },
   {
    "name": "Isthmus calendar",
    "kind": "source",
@@ -14,21 +28,7 @@
     "calendar"
    ],
    "raw_events": 143,
-   "error": ""
-  },
-  {
-   "name": "AI page reading",
-   "kind": "source",
-   "website": "",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 108,
-   "error": "",
-   "calls": 60,
-   "tokens_in": 77473,
-   "tokens_out": 30726,
-   "est_cost_usd": 0.0231
+   "error": "used today's copy (read once a day)"
   },
   {
    "name": "Bayview Community Center",
@@ -132,6 +132,16 @@
    "error": ""
   },
   {
+   "name": "Madison Youth Arts (MYArts)",
+   "kind": "venue",
+   "website": "https://www.madisonyoutharts.org/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 14,
+   "error": ""
+  },
+  {
    "name": "Broom Street Theater",
    "kind": "venue",
    "website": "https://bstonline.org/",
@@ -196,6 +206,16 @@
    "error": ""
   },
   {
+   "name": "Pinney Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 8,
+   "error": ""
+  },
+  {
    "name": "The Kickback",
    "kind": "bar",
    "website": "https://thekickback.bar/",
@@ -203,6 +223,16 @@
     "ai"
    ],
    "raw_events": 8,
+   "error": ""
+  },
+  {
+   "name": "Bartell Theatre",
+   "kind": "venue",
+   "website": "https://bartelltheatre.org/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 7,
    "error": ""
   },
   {
@@ -215,6 +245,36 @@
     "jsonld"
    ],
    "raw_events": 7,
+   "error": ""
+  },
+  {
+   "name": "Reindahl Park Pavillion",
+   "kind": "community",
+   "website": "https://www.cityofmadison.com/parks/find-a-park/reindahl/pavilion-at-the-imagination-center",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 7,
+   "error": ""
+  },
+  {
+   "name": "Veterans Memorial Park",
+   "kind": "veterans",
+   "website": "https://www.cityofmadison.com/parks/find-a-park/park.cfm?id=1364",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 7,
+   "error": ""
+  },
+  {
+   "name": "Arts + Literature Laboratory",
+   "kind": "venue",
+   "website": "https://artlitlab.org/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 6,
    "error": ""
   },
   {
@@ -236,6 +296,26 @@
     "ai"
    ],
    "raw_events": 6,
+   "error": ""
+  },
+  {
+   "name": "Imagination Center",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 6,
+   "error": ""
+  },
+  {
+   "name": "Alicia Ashman Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 5,
    "error": ""
   },
   {
@@ -268,6 +348,36 @@
    "website": "https://www.gibs.bar/",
    "feeds": [
     "squarespace"
+   ],
+   "raw_events": 5,
+   "error": ""
+  },
+  {
+   "name": "Monroe Street Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/monroe-street",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 5,
+   "error": ""
+  },
+  {
+   "name": "Orpheum Theatre",
+   "kind": "venue",
+   "website": "https://madisonorpheum.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 5,
+   "error": ""
+  },
+  {
+   "name": "Sun Prairie Public Library",
+   "kind": "library",
+   "website": "https://www.sunprairiepubliclibrary.org/",
+   "feeds": [
+    "ai"
    ],
    "raw_events": 5,
    "error": ""
@@ -360,6 +470,17 @@
    "error": ""
   },
   {
+   "name": "Centro",
+   "kind": "community",
+   "website": "https://www.micentro.org/",
+   "feeds": [
+    "squarespace",
+    "ai"
+   ],
+   "raw_events": 3,
+   "error": ""
+  },
+  {
    "name": "Come Back Inn",
    "kind": "bar",
    "website": "https://comebackintavern.com/",
@@ -371,9 +492,39 @@
    "error": ""
   },
   {
+   "name": "East Side Club",
+   "kind": "lodge",
+   "website": "https://escmadison.com",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 3,
+   "error": ""
+  },
+  {
    "name": "Flight Wine & Bourbon Bar",
    "kind": "bar",
    "website": "https://flightwi.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 3,
+   "error": ""
+  },
+  {
+   "name": "Overture Center for the Arts",
+   "kind": "venue",
+   "website": "http://overturecenter.com",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 3,
+   "error": ""
+  },
+  {
+   "name": "Sequoya Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/sequoya",
    "feeds": [
     "ai"
    ],
@@ -445,6 +596,16 @@
    "error": ""
   },
   {
+   "name": "Ebling Library",
+   "kind": "library",
+   "website": "https://ebling.library.wisc.edu/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 2,
+   "error": ""
+  },
+  {
    "name": "Karben4 Brewing",
    "kind": "brewery",
    "website": "https://www.karben4.com/",
@@ -465,9 +626,29 @@
    "error": ""
   },
   {
+   "name": "Mother Fool's",
+   "kind": "cafe",
+   "website": "https://www.motherfools.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 2,
+   "error": ""
+  },
+  {
    "name": "Old Sugar Distillery",
    "kind": "brewery",
    "website": "https://oldsugardistillery.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 2,
+   "error": ""
+  },
+  {
+   "name": "Oscar Rennebohm Library",
+   "kind": "library",
+   "website": "https://library.edgewood.edu/home",
    "feeds": [
     "ai"
    ],
@@ -505,6 +686,16 @@
    "error": ""
   },
   {
+   "name": "Central Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/central",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 1,
+   "error": ""
+  },
+  {
    "name": "Goodman Community Center",
    "kind": "community",
    "website": "https://www.goodmancenter.org/",
@@ -520,6 +711,26 @@
    "website": "https://www.goodmancenter.org/",
    "feeds": [
     "jsonld"
+   ],
+   "raw_events": 1,
+   "error": ""
+  },
+  {
+   "name": "Italian Workmen's Club",
+   "kind": "community",
+   "website": "https://iwcmadison.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 1,
+   "error": ""
+  },
+  {
+   "name": "Lakeside Street Coffee House",
+   "kind": "cafe",
+   "website": "https://lakesidestcoffeehouse.com/",
+   "feeds": [
+    "ai"
    ],
    "raw_events": 1,
    "error": ""
@@ -543,14 +754,6 @@
    "error": ""
   },
   {
-   "name": "Alicia Ashman Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
    "name": "Ancora",
    "kind": "cafe",
    "website": "https://www.ancoracafes.com/monona-drive/",
@@ -562,14 +765,6 @@
    "name": "Ancora Cafe",
    "kind": "cafe",
    "website": "https://www.ancoracafes.com/",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Arts + Literature Laboratory",
-   "kind": "venue",
-   "website": "https://artlitlab.org/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -642,14 +837,6 @@
    "name": "Barriques - West Wash",
    "kind": "cafe",
    "website": "https://barriquesmarket.com/pages/west-wash",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Bartell Theatre",
-   "kind": "venue",
-   "website": "https://bartelltheatre.org/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -741,24 +928,6 @@
    "feeds": [],
    "raw_events": 0,
    "error": "PermissionError: robots.txt disallows https://www.facebook.com/cargocoffeeeast/"
-  },
-  {
-   "name": "Central Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/central",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Centro",
-   "kind": "community",
-   "website": "https://www.micentro.org/",
-   "feeds": [
-    "squarespace"
-   ],
-   "raw_events": 0,
-   "error": ""
   },
   {
    "name": "Cervato Wine & Tapas",
@@ -872,22 +1041,6 @@
    "name": "EVP Coffee",
    "kind": "cafe",
    "website": "https://evpcoffee.com/",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "East Side Club",
-   "kind": "lodge",
-   "website": "https://escmadison.com",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Ebling Library",
-   "kind": "library",
-   "website": "https://ebling.library.wisc.edu/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1102,25 +1255,9 @@
    "error": "PermissionError: robots.txt disallows https://imaginary-factory.com/"
   },
   {
-   "name": "Imagination Center",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
    "name": "Indie Coffee",
    "kind": "cafe",
    "website": "https://indiecoffee.net/index.html",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Italian Workmen's Club",
-   "kind": "community",
-   "website": "https://iwcmadison.com/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1145,14 +1282,6 @@
    "name": "Kehl School of Dance",
    "kind": "venue",
    "website": "https://www.kehldance.com/",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Lakeside Street Coffee House",
-   "kind": "cafe",
-   "website": "https://lakesidestcoffeehouse.com/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1244,7 +1373,7 @@
   {
    "name": "Madison Chocolate Company",
    "kind": "cafe",
-   "website": "https://madisonchocolate.com",
+   "website": "https://www.madisonchocolatecompany.com",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1252,7 +1381,7 @@
   {
    "name": "Madison Chocolate Company",
    "kind": "cafe",
-   "website": "https://www.madisonchocolatecompany.com",
+   "website": "https://madisonchocolate.com",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1261,14 +1390,6 @@
    "name": "Madison Tap",
    "kind": "bar",
    "website": "https://madison-tap.com/",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Madison Youth Arts (MYArts)",
-   "kind": "venue",
-   "website": "https://www.madisonyoutharts.org/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1332,7 +1453,7 @@
   {
    "name": "Moka",
    "kind": "cafe",
-   "website": "https://mymokacoffee.com/",
+   "website": "https://www.mymokacoffee.com/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1340,7 +1461,7 @@
   {
    "name": "Moka",
    "kind": "cafe",
-   "website": "https://www.mymokacoffee.com/",
+   "website": "https://mymokacoffee.com/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1373,22 +1494,6 @@
    "name": "Monroe Street Arts Center",
    "kind": "venue",
    "website": "https://www.monroestreetarts.org/",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Monroe Street Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/monroe-street",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Mother Fool's",
-   "kind": "cafe",
-   "website": "https://www.motherfools.com/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1444,33 +1549,9 @@
    "error": ""
   },
   {
-   "name": "Orpheum Theatre",
-   "kind": "venue",
-   "website": "https://madisonorpheum.com/",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Oscar Rennebohm Library",
-   "kind": "library",
-   "website": "https://library.edgewood.edu/home",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
    "name": "OutReach LGBT Community Center",
    "kind": "community",
    "website": "https://www.lgbtoutreach.org/",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Overture Center for the Arts",
-   "kind": "venue",
-   "website": "http://overturecenter.com",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1506,14 +1587,6 @@
    "feeds": [],
    "raw_events": 0,
    "error": "PermissionError: robots.txt disallows https://linktr.ee/pksuw"
-  },
-  {
-   "name": "Pinney Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
   },
   {
    "name": "Plaza Bar",
@@ -1574,14 +1647,6 @@
    "error": ""
   },
   {
-   "name": "Reindahl Park Pavillion",
-   "kind": "community",
-   "website": "https://www.cityofmadison.com/parks/find-a-park/reindahl/pavilion-at-the-imagination-center",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
    "name": "Right Bauer Brewing",
    "kind": "brewery",
    "website": "https://rightbauerbrewing.com/",
@@ -1593,14 +1658,6 @@
    "name": "Rotunda Cafe",
    "kind": "cafe",
    "website": "https://www.rotundacafeatwood.com/",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Sequoya Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/sequoya",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1763,14 +1820,6 @@
    "name": "Stuffed Olive",
    "kind": "bar",
    "website": "https://www.thestuffedolive.com/location/madison/",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Sun Prairie Public Library",
-   "kind": "library",
-   "website": "https://www.sunprairiepubliclibrary.org/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1974,14 +2023,6 @@
    "name": "Verona Public Library",
    "kind": "library",
    "website": "https://www.veronapubliclibrary.org/",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Veterans Memorial Park",
-   "kind": "veterans",
-   "website": "https://www.cityofmadison.com/parks/find-a-park/park.cfm?id=1364",
    "feeds": [],
    "raw_events": 0,
    "error": ""

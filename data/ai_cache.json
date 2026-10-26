@@ -1298,5 +1298,754 @@
   "asked": "2026-10-26T15:19:58-05:00",
   "on": "2026-10-26",
   "events": []
+ },
+ "https://colectivo.com/pages/madison-cafes": {
+  "hash": "f294012347e69f5080ae5a6fb107ca16124b31f5",
+  "asked": "2026-10-26T15:22:14-05:00",
+  "on": "2026-10-26",
+  "events": []
+ },
+ "https://www.lazyjanes.com/": {
+  "hash": "49105d1f49595c33fa9c4e052c327824a2259e47",
+  "asked": "2026-10-26T15:22:18-05:00",
+  "on": "2026-10-26",
+  "events": []
+ },
+ "https://lakesidestcoffeehouse.com/music-calendar": {
+  "hash": "66cd9d9546269d2439e396833a0a78a02b92179d",
+  "asked": "2026-10-26T15:22:20-05:00",
+  "on": "2026-10-26",
+  "events": [
+   {
+    "title": "The Honey Pies",
+    "date": "2026-11-06",
+    "start": "19:00",
+    "end": null,
+    "price": null,
+    "description": "Live music at Lakeside Street Coffee House. Doors open one hour before showtime; no cover, suggested donation."
+   }
+  ]
+ },
+ "https://merciescoffeewi.com/": {
+  "hash": "bb0825e96de7ac1f5aeb200dc9a61ffaf1ff5d37",
+  "asked": "2026-10-26T15:22:23-05:00",
+  "on": "2026-10-26",
+  "events": []
+ },
+ "https://motherfools.com/event/20261106/mad-city-story-slam-rebellion": {
+  "hash": "34297813aa7ff6f69af25931593c36729d8a85a7",
+  "asked": "2026-10-26T15:22:24-05:00",
+  "on": "2026-10-26",
+  "events": [
+   {
+    "title": "Mad City Story Slam - Rebellion",
+    "date": "2026-11-06",
+    "start": "19:00",
+    "end": null,
+    "price": 0,
+    "description": "Open mic storytelling night with guest host MEATMAN on the theme of rebellion. Share a 5-minute true story or come to listen. Sign-ups start at 6:30 PM."
+   }
+  ]
+ },
+ "https://oasiscafefitchburg.com/": {
+  "hash": "c58806cd35b91d512f482e6365c8e9bdb00d19b6",
+  "asked": "2026-10-26T15:22:24-05:00",
+  "on": "2026-10-26",
+  "events": []
+ },
+ "https://mymokacoffee.com/pages/events": {
+  "hash": "e986fb19daf3fdd4b49ced3db90904e2e0c857de",
+  "asked": "2026-10-26T15:22:29-05:00",
+  "on": "2026-10-26",
+  "events": []
+ },
+ "https://www.livsdrinks.com/events/": {
+  "hash": "4292a6cb6e1882cda0c071d8095c277227077e8b",
+  "asked": "2026-10-26T15:22:25-05:00",
+  "on": "2026-10-26",
+  "events": []
+ },
+ "https://slowfood-uw.org/calendar/": {
+  "hash": "05ee6db98061d4a74acae6e1d9783f9fb20c25b2",
+  "asked": "2026-10-26T15:22:26-05:00",
+  "on": "2026-10-26",
+  "events": []
+ },
+ "https://www.motherfools.com/event/20261106/mad-city-story-slam-rebellion": {
+  "hash": "34297813aa7ff6f69af25931593c36729d8a85a7",
+  "asked": "2026-10-26T15:22:27-05:00",
+  "on": "2026-10-26",
+  "events": [
+   {
+    "title": "Mad City Story Slam - Rebellion",
+    "date": "2026-11-06",
+    "start": "19:00",
+    "end": null,
+    "price": 0,
+    "description": "Open mic story slam on the theme of rebellion, guest host MEATMAN. Share a 5-minute true story or come to listen. Sign-ups start at 6:30pm."
+   }
+  ]
+ },
+ "https://tacomadrewi.com/": {
+  "hash": "112c80b18ffdc42710dec5ce81385ce5df090c7a",
+  "asked": "2026-10-26T15:22:37-05:00",
+  "on": "2026-10-26",
+  "events": []
+ },
+ "https://www.teasider.com/": {
+  "hash": "bdeb5ec6ee94d329b27020203f5a12bdd9073328",
+  "asked": "2026-10-26T15:22:39-05:00",
+  "on": "2026-10-26",
+  "events": []
+ },
+ "https://wakenbakery.net/events/": {
+  "hash": "c94b39f69312a01a9dd545b9772e0ad585e2f494",
+  "asked": "2026-10-26T15:22:40-05:00",
+  "on": "2026-10-26",
+  "events": []
+ },
+ "https://thesowsearwi.com/blogs/news/autumn-2025-events-classes-at-the-sows-ear": {
+  "hash": "6298f7db3eea89d7bd415acd65fa4d091f0153ab",
+  "asked": "2026-10-26T15:22:42-05:00",
+  "on": "2026-10-26",
+  "events": []
+ },
+ "https://www.micentro.org/events": {
+  "hash": "9280e8dc2b4ba9395b50469f6524923ab5019843",
+  "asked": "2026-10-26T15:22:45-05:00",
+  "on": "2026-10-26",
+  "events": [
+   {
+    "title": "43rd Annual Celebration at Mercadito",
+    "date": "2026-10-29",
+    "start": null,
+    "end": null,
+    "price": null,
+    "description": "Annual celebration at Mercadito. Tickets are available and sponsorship opportunities are open."
+   },
+   {
+    "title": "Mercadito community farmer's market",
+    "date": "2026-10-29",
+    "start": "16:00",
+    "end": "20:00",
+    "price": null,
+    "description": "Weekly open-air community market at 2403 Cypress Way with food vendors, fresh produce, artisanal goods, kids' games and a weekly raffle."
+   },
+   {
+    "title": "Mercadito community farmer's market",
+    "date": "2026-11-05",
+    "start": "16:00",
+    "end": "20:00",
+    "price": null,
+    "description": "Weekly open-air community market at 2403 Cypress Way with food vendors, fresh produce, artisanal goods, kids' games and a weekly raffle."
+   }
+  ]
+ },
+ "https://www.madisonmuslims.org/events": {
+  "hash": "ac97f1be534939d321950145c577a3f3669933aa",
+  "asked": "2026-10-26T15:22:46-05:00",
+  "on": "2026-10-26",
+  "events": []
+ },
+ "https://iwcmadison.com/calendar/": {
+  "hash": "d65ac9b2158df2a172e85537608ab9c573968e26",
+  "asked": "2026-10-26T15:22:47-05:00",
+  "on": "2026-10-26",
+  "events": [
+   {
+    "title": "Italian Language Conversation",
+    "date": "2026-10-27",
+    "start": "18:30",
+    "end": "20:00",
+    "price": null,
+    "description": "Open to members, friends, and anyone who wishes to learn or speak some basic Italian. At the Italian Workmen's Club."
+   }
+  ]
+ },
+ "https://www.veronawi.gov/513/Schedules": {
+  "hash": "cdc2aa46ed8c744d78b794eb72fd481fcaf360d5",
+  "asked": "2026-10-26T15:22:49-05:00",
+  "on": "2026-10-26",
+  "events": []
+ },
+ "https://www.cityofmadison.com/parks/events": {
+  "hash": "c419c44114d85ebd207f93524cdef8f7c8f8e050",
+  "asked": "2026-10-26T15:22:51-05:00",
+  "on": "2026-10-26",
+  "events": [
+   {
+    "title": "EHS Feeder Program Fall Academy",
+    "date": "2026-10-27",
+    "start": "17:00",
+    "end": "18:15",
+    "price": null,
+    "description": "EHS Feeder Program Fall Academy at Warner Park Community Recreation Center, 1625 Northport Drive."
+   },
+   {
+    "title": "EHS Feeder Program BDL Open Tryouts",
+    "date": "2026-10-27",
+    "start": "17:00",
+    "end": "18:15",
+    "price": null,
+    "description": "EHS Feeder Program BDL Open Tryouts at Warner Park Community Recreation Center, 1625 Northport Drive."
+   },
+   {
+    "title": "Hayride Around the Capitol | Movie at the Top of State",
+    "date": "2026-10-28",
+    "start": "15:00",
+    "end": "19:45",
+    "price": null,
+    "description": "Hayride and movie event at multiple locations."
+   },
+   {
+    "title": "EHS Feeder Program Fall Academy",
+    "date": "2026-10-29",
+    "start": "17:00",
+    "end": "18:15",
+    "price": null,
+    "description": "EHS Feeder Program Fall Academy at Warner Park Community Recreation Center, 1625 Northport Drive."
+   },
+   {
+    "title": "EHS Feeder Program BDL Open Tryouts",
+    "date": "2026-10-29",
+    "start": "17:00",
+    "end": "18:15",
+    "price": null,
+    "description": "EHS Feeder Program BDL Open Tryouts at Warner Park Community Recreation Center, 1625 Northport Drive."
+   },
+   {
+    "title": "Warner Family Fun Night | Halloween Celebration",
+    "date": "2026-10-30",
+    "start": "17:00",
+    "end": "19:30",
+    "price": null,
+    "description": "Halloween family celebration at Warner Park Community Recreation Center, 1625 Northport Drive."
+   },
+   {
+    "title": "Public Meeting - Odana Hills Golf Course and Park",
+    "date": "2026-11-05",
+    "start": "18:00",
+    "end": "19:30",
+    "price": null,
+    "description": "Virtual public meeting about Odana Hills Golf Course and Park."
+   }
+  ]
+ },
+ "https://www.madisonmuslims.org/events/lesson-on-delivering-the-friday-khutbah": {
+  "hash": "9490797fa2fb2bb85e8d1c173402c1acdd2dbae6",
+  "asked": "2026-10-26T15:22:51-05:00",
+  "on": "2026-10-26",
+  "events": []
+ },
+ "https://www.madisonpubliclibrary.org/spaces/events": {
+  "hash": "6f6c954b467df8109864c3a7a3b46412ee76a360",
+  "asked": "2026-10-26T15:22:58-05:00",
+  "on": "2026-10-26",
+  "events": []
+ },
+ "https://ebling.library.wisc.edu/ebling-library-classes-events/": {
+  "hash": "82be7c5b61db9a0779ad9e6ed5e1be8dc4154f7f",
+  "asked": "2026-10-26T15:22:54-05:00",
+  "on": "2026-10-26",
+  "events": [
+   {
+    "title": "Playful Pedagogy: Plagued! Demo and Reflections",
+    "date": "2026-11-04",
+    "start": "12:00",
+    "end": "13:00",
+    "price": null,
+    "description": "In-person workshop on playful pedagogy and games in instruction, with a chance to play Plagued! Age of Enlightenment. Instructors: Hannah Swan and Susan Vandagriff. Ebling Library Meeting Room."
+   },
+   {
+    "title": "LET THERE BE LIGHT Film Screening",
+    "date": "2026-11-06",
+    "start": "18:00",
+    "end": "19:00",
+    "price": null,
+    "description": "Screening of Huston's documentary on the rehabilitation of psychologically traumatized WWII veterans, in conjunction with UW-Madison Cinematheque. Presented by Hannah Swan. UW-Madison Cinematheque, 821 University Ave, 4070 Vilas Hall (Fourth Floor)."
+   }
+  ]
+ },
+ "https://www.library.wisc.edu/music/": {
+  "hash": "c35ff73c89af79d05fd2b3791d5949c3798b653f",
+  "asked": "2026-10-26T15:22:54-05:00",
+  "on": "2026-10-26",
+  "events": []
+ },
+ "https://www.sunprairiepubliclibrary.org/home-delivery-service": {
+  "hash": "0f8d14b8f2c97f87a90fc0860e5d29f1a1a2e55e",
+  "asked": "2026-10-26T15:22:57-05:00",
+  "on": "2026-10-26",
+  "events": [
+   {
+    "title": "Little Kid Storytime",
+    "date": "2026-10-27",
+    "start": "10:00",
+    "end": "10:30",
+    "price": null,
+    "description": "Storytime for family and children ages 0-5."
+   },
+   {
+    "title": "Big Kid Storytime",
+    "date": "2026-10-27",
+    "start": "11:15",
+    "end": "11:45",
+    "price": null,
+    "description": "Storytime for family and children ages 0-5."
+   },
+   {
+    "title": "Pumpkin Decorating",
+    "date": "2026-10-27",
+    "start": "18:00",
+    "end": "20:00",
+    "price": null,
+    "description": "Pumpkin decorating for family, teens and adults."
+   },
+   {
+    "title": "Evening Book Club",
+    "date": "2026-10-27",
+    "start": "19:00",
+    "end": "20:00",
+    "price": null,
+    "description": "Book club for adults."
+   },
+   {
+    "title": "Outdoor Family Storytime",
+    "date": "2026-10-28",
+    "start": "10:00",
+    "end": "10:30",
+    "price": null,
+    "description": "Outdoor storytime for family and children ages 0-5."
+   }
+  ]
+ },
+ "https://library.edgewood.edu/home": {
+  "hash": "5c99f4ece6b264dae11af1013f63e625e96d6c68",
+  "asked": "2026-10-26T15:22:58-05:00",
+  "on": "2026-10-26",
+  "events": [
+   {
+    "title": "Free coffee & tea at the library",
+    "date": "2026-10-31",
+    "start": "09:00",
+    "end": "13:00",
+    "price": 0,
+    "description": "Free coffee and tea at the Oscar Rennebohm Library on Saturdays, 9am to 1pm this fall."
+   },
+   {
+    "title": "Free coffee & tea at the library",
+    "date": "2026-11-07",
+    "start": "09:00",
+    "end": "13:00",
+    "price": 0,
+    "description": "Free coffee and tea at the Oscar Rennebohm Library on Saturdays, 9am to 1pm this fall."
+   }
+  ]
+ },
+ "https://wil-mar.org/weekly-events": {
+  "hash": "e0359c79dbdba34d3edecb2c542be1f51739d413",
+  "asked": "2026-10-26T15:22:58-05:00",
+  "on": "2026-10-26",
+  "events": []
+ },
+ "https://escmadison.com/events": {
+  "hash": "6f320e1a3c0864e0bb8dff27ab24bb8c4d9474fc",
+  "asked": "2026-10-26T15:22:58-05:00",
+  "on": "2026-10-26",
+  "events": [
+   {
+    "title": "Open Mic w/ Martin Hunt",
+    "date": "2026-10-27",
+    "start": "18:00",
+    "end": "21:00",
+    "price": 0,
+    "description": "Open mic hosted by Martin Hunt for all musical skill levels. Free. Bar opens at 5:00pm and food is available from the grill."
+   },
+   {
+    "title": "Open Mic w/ Martin Hunt",
+    "date": "2026-11-03",
+    "start": "18:00",
+    "end": "21:00",
+    "price": 0,
+    "description": "Open mic hosted by Martin Hunt for all musical skill levels. Free. Bar opens at 5:00pm and food is available from the grill."
+   },
+   {
+    "title": "East Side Club Holiday Craft and Vendor Fair",
+    "date": "2026-11-07",
+    "start": "09:00",
+    "end": "15:00",
+    "price": 0,
+    "description": "Two floors of handmade crafts and vendors with a Bloody Mary Bar. Free admission; food available for purchase."
+   }
+  ]
+ },
+ "https://www.madisonpubliclibrary.org/spaces/events/search": {
+  "hash": "a669ca0b6b9c8ab2618b1d9b6e7806fa00d6fb0f",
+  "asked": "2026-10-26T15:23:09-05:00",
+  "on": "2026-10-26",
+  "events": []
+ },
+ "https://artlitlab.org/calendar": {
+  "hash": "0f520ecc389dd7a6729b797cd08c708119db82f7",
+  "asked": "2026-10-26T15:23:07-05:00",
+  "on": "2026-10-26",
+  "events": [
+   {
+    "title": "Auricle Presents: Drumming with Current",
+    "date": "2026-11-05",
+    "start": null,
+    "end": null,
+    "price": null,
+    "description": "Auricle Presents event listed on the Arts + Literature Laboratory calendar."
+   },
+   {
+    "title": "Closing Reception, 10th Anniversary Retrospective",
+    "date": "2026-11-06",
+    "start": null,
+    "end": null,
+    "price": null,
+    "description": "Closing reception for the 10th Anniversary Retrospective exhibition."
+   }
+  ]
+ },
+ "https://bartelltheatre.org/": {
+  "hash": "6703ecf384440c73515c0d9778cb830f5e370f86",
+  "asked": "2026-10-26T15:23:08-05:00",
+  "on": "2026-10-26",
+  "events": [
+   {
+    "title": "Film: Seeds for Liberation",
+    "date": "2026-10-27",
+    "start": "19:00",
+    "end": null,
+    "price": null,
+    "description": "Documentary from Matthew Solomon and Donna Hadjikhani on Palestine, social media mobilization, and collective liberation. Listed as 'Tomorrow at 7:00pm'."
+   },
+   {
+    "title": "Film: American Doctor",
+    "date": "2026-10-28",
+    "start": "19:00",
+    "end": null,
+    "price": null,
+    "description": "Three American doctors enter Gaza to save lives and get caught between medicine and politics."
+   },
+   {
+    "title": "Film: North by Northwest",
+    "date": "2026-10-29",
+    "start": "19:30",
+    "end": null,
+    "price": null,
+    "description": "Film screening."
+   },
+   {
+    "title": "The Moors",
+    "date": "2026-10-30",
+    "start": "19:30",
+    "end": null,
+    "price": null,
+    "description": "Listed production; no further details on the page."
+   },
+   {
+    "title": "Film: Re-Animator",
+    "date": "2026-10-30",
+    "start": "20:00",
+    "end": null,
+    "price": null,
+    "description": "Film screening."
+   },
+   {
+    "title": "Film: Hello Mary Lou: Prom Night II",
+    "date": "2026-10-30",
+    "start": "21:30",
+    "end": null,
+    "price": null,
+    "description": "Film screening."
+   },
+   {
+    "title": "Romeo and Juliet",
+    "date": "2026-11-06",
+    "start": "19:30",
+    "end": null,
+    "price": null,
+    "description": "Listed production; no further details on the page."
+   },
+   {
+    "title": "A Valentine's Affair 2027 - First Audition",
+    "date": "2026-11-09",
+    "start": "18:30",
+    "end": null,
+    "price": null,
+    "description": "First audition for A Valentine's Affair 2027."
+   }
+  ]
+ },
+ "https://www.tenpinalleys.com/childrens-entertainment-oregon-wi": {
+  "hash": "534d736f209fd1960e246d3cb5c42fba2eb9d990",
+  "asked": "2026-10-26T15:23:09-05:00",
+  "on": "2026-10-26",
+  "events": []
+ },
+ "https://www.monroestreetarts.org/private-music": {
+  "hash": "aa2d67560356ab03cc351d6759d57b8eafe6c6c0",
+  "asked": "2026-10-26T15:23:11-05:00",
+  "on": "2026-10-26",
+  "events": []
+ },
+ "https://madisonorpheum.com/calendar/": {
+  "hash": "2c8ca5422cec04ba19cd9ea327651780062e0882",
+  "asked": "2026-10-26T15:23:12-05:00",
+  "on": "2026-10-26",
+  "events": [
+   {
+    "title": "William Shatner Live On-stage with Star Trek II: The Wrath of Khan",
+    "date": "2026-10-28",
+    "start": "19:30",
+    "end": null,
+    "price": null,
+    "description": "FPC Live presents William Shatner live on stage with Star Trek II screening. Doors 6:30 pm."
+   },
+   {
+    "title": "Scott Bradlee's Postmodern Jukebox",
+    "date": "2026-11-05",
+    "start": "20:00",
+    "end": null,
+    "price": null,
+    "description": "FPC Live presents Scott Bradlee's Postmodern Jukebox. Doors 7:00 pm."
+   },
+   {
+    "title": "MDEV: The Kick-Off Event",
+    "date": "2026-11-06",
+    "start": "20:00",
+    "end": null,
+    "price": null,
+    "description": "Wisconsin Games Alliance presents MDEV: The Kick-Off Event. Doors 7:00 pm."
+   },
+   {
+    "title": "Dave Attell",
+    "date": "2026-11-07",
+    "start": "20:00",
+    "end": null,
+    "price": null,
+    "description": "FPC Live presents comedian Dave Attell. Doors 7:00 pm."
+   },
+   {
+    "title": "Daniel Sloss",
+    "date": "2026-11-09",
+    "start": "19:00",
+    "end": null,
+    "price": null,
+    "description": "FPC Live presents comedian Daniel Sloss. Doors 6:00 pm."
+   }
+  ]
+ },
+ "https://www.overture.org/tickets-events/": {
+  "hash": "7f5d48388844691d3fdd8c543d4f3bd698ec69ef",
+  "asked": "2026-10-26T15:23:12-05:00",
+  "on": "2026-10-26",
+  "events": [
+   {
+    "title": "Karaoke for Kids with Sock Monkey Pyramid",
+    "date": "2026-10-28",
+    "start": null,
+    "end": null,
+    "price": null,
+    "description": "Karaoke for kids at Overture Center; multiple showtimes, times not listed on page."
+   },
+   {
+    "title": "Wild Rumpus Circus",
+    "date": "2026-10-31",
+    "start": null,
+    "end": null,
+    "price": null,
+    "description": "Circus performance at Overture Center; multiple showtimes, times not listed on page."
+   },
+   {
+    "title": "Stuart Stotts",
+    "date": "2026-11-07",
+    "start": null,
+    "end": null,
+    "price": null,
+    "description": "Performance at Overture Center; multiple showtimes, times not listed on page."
+   }
+  ]
+ },
+ "https://artlitlab.org/events/write-ins": {
+  "hash": "6110597e2b00793e541ceae79a34a2c2dcd1a276",
+  "asked": "2026-10-26T15:23:12-05:00",
+  "on": "2026-10-26",
+  "events": [
+   {
+    "title": "Online Write-In (Zoom)",
+    "date": "2026-10-29",
+    "start": "10:00",
+    "end": null,
+    "price": 0,
+    "description": "Thursday online write-in via Zoom using the Pomodoro method, with check-in and check-out. Registration is free."
+   },
+   {
+    "title": "Online Write-In (Zoom)",
+    "date": "2026-11-01",
+    "start": "09:00",
+    "end": null,
+    "price": 0,
+    "description": "Sunday online write-in via Zoom using the Pomodoro method, with check-in and check-out. Registration is free."
+   },
+   {
+    "title": "Online Write-In (Zoom)",
+    "date": "2026-11-05",
+    "start": "10:00",
+    "end": null,
+    "price": 0,
+    "description": "Thursday online write-in via Zoom using the Pomodoro method, with check-in and check-out. Registration is free."
+   },
+   {
+    "title": "Online Write-In (Zoom)",
+    "date": "2026-11-08",
+    "start": "09:00",
+    "end": null,
+    "price": 0,
+    "description": "Sunday online write-in via Zoom using the Pomodoro method, with check-in and check-out. Registration is free."
+   }
+  ]
+ },
+ "https://madisonyoutharts.org/upcoming-events/": {
+  "hash": "8d209eede58c63ce0ff8691b44d96a73b4a88c4b",
+  "asked": "2026-10-26T15:23:15-05:00",
+  "on": "2026-10-26",
+  "events": [
+   {
+    "title": "Premier Showcase",
+    "date": "2026-10-27",
+    "start": "08:45",
+    "end": "13:45",
+    "price": 10,
+    "description": "One-day in-person preview of family-friendly performers for schools, libraries, camps and community groups; lunch included. Tickets $10-$20."
+   },
+   {
+    "title": "u.DL presents: dis•sonance",
+    "date": "2026-10-29",
+    "start": "19:00",
+    "end": null,
+    "price": 10,
+    "description": "Unincorporated Dance Lab's 3rd season: original works on discordance and dissent. Tickets $10-30."
+   },
+   {
+    "title": "u.DL presents: dis•sonance",
+    "date": "2026-10-30",
+    "start": "19:00",
+    "end": null,
+    "price": 10,
+    "description": "Unincorporated Dance Lab's 3rd season: original works on discordance and dissent. Tickets $10-30."
+   },
+   {
+    "title": "u.DL presents: dis•sonance",
+    "date": "2026-10-31",
+    "start": "13:00",
+    "end": null,
+    "price": 10,
+    "description": "Unincorporated Dance Lab's 3rd season: original works on discordance and dissent. Tickets $10-30."
+   },
+   {
+    "title": "Madison Ballet: Jekyll & Hyde (preview performance)",
+    "date": "2026-10-29",
+    "start": "19:00",
+    "end": null,
+    "price": 58,
+    "description": "World-premiere contemporary ballet based on Stevenson's tale, set to Michael Nyman's music. About 2 hours with a 20-minute intermission. Tickets $58-89."
+   },
+   {
+    "title": "Madison Ballet: Jekyll & Hyde (opening night)",
+    "date": "2026-10-30",
+    "start": "19:00",
+    "end": null,
+    "price": 58,
+    "description": "World-premiere contemporary ballet based on Stevenson's tale, set to Michael Nyman's music. About 2 hours with a 20-minute intermission. Tickets $58-89."
+   },
+   {
+    "title": "Madison Ballet: Jekyll & Hyde",
+    "date": "2026-10-31",
+    "start": "14:00",
+    "end": null,
+    "price": 58,
+    "description": "World-premiere contemporary ballet based on Stevenson's tale, set to Michael Nyman's music. About 2 hours with a 20-minute intermission. Tickets $58-89."
+   },
+   {
+    "title": "Madison Ballet: Jekyll & Hyde",
+    "date": "2026-10-31",
+    "start": "19:00",
+    "end": null,
+    "price": 58,
+    "description": "World-premiere contemporary ballet based on Stevenson's tale, set to Michael Nyman's music. About 2 hours with a 20-minute intermission. Tickets $58-89."
+   },
+   {
+    "title": "Madison Ballet: Jekyll & Hyde",
+    "date": "2026-11-01",
+    "start": "14:00",
+    "end": null,
+    "price": 58,
+    "description": "World-premiere contemporary ballet based on Stevenson's tale, set to Michael Nyman's music. About 2 hours with a 20-minute intermission. Tickets $58-89."
+   },
+   {
+    "title": "Anita Collin's Workshop: Music Learning and the Brain (morning session)",
+    "date": "2026-10-31",
+    "start": "08:30",
+    "end": "11:30",
+    "price": 20,
+    "description": "For music educators: using brain science to strengthen teaching and advocacy. Check-in 8:00-8:30. Pay what you can ($20 suggested)."
+   },
+   {
+    "title": "Anita Collin's Workshop: The Music Advantage (afternoon session)",
+    "date": "2026-10-31",
+    "start": "12:30",
+    "end": "15:30",
+    "price": 20,
+    "description": "For parents, educators and community groups: how music learning supports children, families and communities. Check-in 12:00-12:30. Pay what you can ($20 suggested)."
+   },
+   {
+    "title": "Comedy Variety Hour (and a half!)",
+    "date": "2026-11-06",
+    "start": "19:00",
+    "end": "20:30",
+    "price": 20,
+    "description": "Hosted by Mark Hayward; 90-minute all-ages clean comedy and magic show in the Starlight Theater. Ages 6+. Tickets $20-$35."
+   },
+   {
+    "title": "Madison Youth Choirs presents: Sing a Song",
+    "date": "2026-11-07",
+    "start": "10:15",
+    "end": "11:00",
+    "price": null,
+    "description": "Special reading of Kelly Starling Lyons' 'Sing a Song' on the history of 'Lift Every Voice and Sing,' with music and audience singing. RSVP required; seating first come, first served."
+   },
+   {
+    "title": "LunArt: DARK TALES: An Evening of Music and Mystery",
+    "date": "2026-11-07",
+    "start": "19:30",
+    "end": null,
+    "price": 35,
+    "description": "Evening of choral music from LunART Treble Choir plus a world-premiere staging of Poe's 'The Cask of Amontillado.' Tickets $35-45."
+   }
+  ]
+ },
+ "https://madisonyoutharts.org/upcoming-events/news/": {
+  "hash": "d5f0a03c7b9473c6f2850a66cb87b3229e3f6e73",
+  "asked": "2026-10-26T15:23:17-05:00",
+  "on": "2026-10-26",
+  "events": []
+ },
+ "https://madisonorpheum.com/event/kip-moore/": {
+  "hash": "b157d5d9f309db0e07ad00d3302d09cef010d533",
+  "asked": "2026-10-26T15:23:19-05:00",
+  "on": "2026-10-26",
+  "events": [
+   {
+    "title": "MDEV: The Kick-Off Event",
+    "date": "2026-11-06",
+    "start": null,
+    "end": null,
+    "price": null,
+    "description": "Listed as a related event on the Orpheum Theatre page; no time or price given."
+   }
+  ]
  }
 }
