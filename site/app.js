@@ -629,9 +629,9 @@ function renderPlan(){
   $("totalPP").classList.toggle("over", p.cost > state.budget);
   $("totalGrp").textContent = state.people > 1 ? "About $"+p.cost*state.people+" for "+state.people : "";
   $("planTitle").textContent = dayName(state.day);
-  $("pager").hidden = list.length < 2 || !!FORCED;
+  $("pager").hidden = list.length < 2 && !FORCED;
   $("randRow").hidden = !list.length;
-  $("pageOf").textContent = ((state.rank % list.length)+1) + " of " + list.length;
+  $("pageOf").textContent = FORCED ? "Your spin" : ((state.rank % list.length)+1) + " of " + list.length;
 }
 $("route").addEventListener("click", e => {
   const rmb = e.target.closest(".rm");
@@ -647,8 +647,8 @@ $("route").addEventListener("click", e => {
   renderPlan();
   const again = document.querySelector('.swap[data-role="'+role+'"] .arrow[data-dir="'+b.dataset.dir+'"]'); if (again) again.focus();
 });
-$("nextPlan").onclick = () => { exitSlots(true); state.rank++; state.swap = {}; state.removed = []; renderPlan(); };
-$("prevPlan").onclick = () => { exitSlots(true); state.rank = state.rank > 0 ? state.rank - 1 : PLAN_COUNT - 1; state.swap = {}; state.removed = []; renderPlan(); };
+$("nextPlan").onclick = () => { if (FORCED){ exitSlots(); state.rank = -1; } state.rank++; state.swap = {}; state.removed = []; renderPlan(); };
+$("prevPlan").onclick = () => { if (FORCED){ exitSlots(); state.rank = 1; } state.rank = state.rank > 0 ? state.rank - 1 : PLAN_COUNT - 1; state.swap = {}; state.removed = []; renderPlan(); };
 $("restore").onclick = () => { state.removed = []; renderPlan(); };
 // Google Maps directions through every stop, in order, starting from wherever the person is.
 function placeText(s){
@@ -829,10 +829,12 @@ function spin(p, pool, before){
   document.body.classList.add("spinning");  // the plan below waits for the reels
   el.innerHTML = '<div class="cab"><div class="cab-head"><span class="cab-title">'+esc(title)+'</span>'+
     '<button type="button" class="snd" id="sndBtn" aria-pressed="'+SOUND+'" aria-label="Sound">'+(SOUND ? "Sound on" : "Sound off")+'</button></div>'+
-    reels.map(r => '<div class="reel'+(r.held ? " held" : "")+'" data-i="'+r.i+'"><div class="reel-lbl">'+esc(REEL_LABEL(r.s))+'<small>'+fmt12(Math.floor(r.t/60)%24, r.t%60)+'</small></div>'+
-      '<div class="reel-win"><div class="reel-strip">'+r.strip.map(x => '<div class="reel-it"><b>'+esc(x.n)+'</b><small>'+esc(shortD(x))+'</small></div>').join("")+'</div></div>'+
+    reels.map(r => '<div class="reel'+(r.held ? " held" : "")+'" data-i="'+r.i+'"><div class="reel-lbl">'+esc(REEL_LABEL(r.s))+'<small class="reel-time">'+(r.held ? fmt12(Math.floor(r.t/60)%24, r.t%60) : "·  ·  ·")+'</small></div>'+
+      '<div class="reel-win"><div class="reel-strip">'+r.strip.map(x => '<div class="reel-it"><b>'+esc(x.n)+'</b><small><span class="reel-p">~$'+cost(x)+'</span> '+esc(shortD(x))+'</small></div>').join("")+'</div></div>'+
       '<button type="button" class="hold" data-n="'+esc(r.s.n)+'" aria-pressed="'+r.held+'">'+(r.held ? "Held" : "Hold")+'</button></div>').join("")+
-    '<div class="cab-row"><button type="button" class="btn spin" id="respin">Respin</button><button type="button" class="link sm cab-done">Done</button></div></div>';
+    '<div class="cab-total" id="cabTotal">&nbsp;</div>'+
+    '<div class="cab-row"><button type="button" class="btn spin" id="respin">Respin</button><button type="button" class="btn cab-use cab-done">Use this night</button></div></div>';
+  const reveal = r => { const n = el.querySelector('.reel[data-i="'+r.i+'"] .reel-time'); if (n) n.textContent = fmt12(Math.floor(r.t/60)%24, r.t%60); };
   $("respin").disabled = true;
   el.scrollIntoView({behavior: reduceMotion() ? "auto" : "smooth", block: "start"});
   const still = reduceMotion();
@@ -840,7 +842,7 @@ function spin(p, pool, before){
   reels.forEach((r, n) => {
     const node = el.querySelector('.reel[data-i="'+r.i+'"]'), strip = node.querySelector(".reel-strip"), win = node.querySelector(".reel-win");
     const target = (r.strip.length - 1) * ITEM;
-    if (r.held || still || !target){ strip.style.transform = "translateY(" + -target + "px)"; if (!r.held && still) setTimeout(SFX.clunk, 150 + n*180); return; }
+    if (r.held || still || !target){ strip.style.transform = "translateY(" + -target + "px)"; if (!r.held && still) setTimeout(() => { SFX.clunk(); reveal(r); }, 150 + n*180); else reveal(r); return; }
     left++;
     const D = 1300 + n * 600, t0 = performance.now();
     let lastIdx = 0;
@@ -851,7 +853,7 @@ function spin(p, pool, before){
       if (k > 0.72) strip.classList.remove("fast");
       const idx = Math.round(y / ITEM); if (idx !== lastIdx){ lastIdx = idx; SFX.tick(); }
       if (k < 1) requestAnimationFrame(step);
-      else { SFX.clunk(); win.classList.add("landed"); if (--left === 0) done(); }
+      else { SFX.clunk(); win.classList.add("landed"); reveal(r); if (--left === 0) done(); }
     };
     requestAnimationFrame(step);
   });
@@ -859,6 +861,8 @@ function spin(p, pool, before){
   function done(){
     SPINNING = false; SFX.chime(); document.body.classList.remove("spinning");
     $("respin").disabled = false; $("randBtn").textContent = "Spin again";
+    const pp = p.stops.reduce((t, x) => t + cost(x), 0);
+    $("cabTotal").innerHTML = '<b>~$'+pp+'</b> each'+(state.people > 1 ? ' · about $'+pp*state.people+' for '+state.people : '')+(pp > state.budget ? ' <span class="over">over budget</span>' : '');
     renderPlan();
   }
 }
@@ -868,7 +872,14 @@ $("slots").addEventListener("click", e => {
   if (h){ if (SPINNING) return; const n = h.dataset.n; HOLD.has(n) ? HOLD.delete(n) : HOLD.add(n);
     h.setAttribute("aria-pressed", HOLD.has(n)); h.textContent = HOLD.has(n) ? "Held" : "Hold"; h.closest(".reel").classList.toggle("held", HOLD.has(n)); return; }
   if (e.target.closest("#respin")){ randomize(); return; }
-  if (e.target.closest(".cab-done")){ exitSlots(); renderPlan(); return; }
+  if (e.target.closest(".cab-done")){
+    if (SPINNING) return;
+    if (!FORCED){ exitSlots(); renderPlan(); return; }
+    $("slots").hidden = true; $("slots").innerHTML = ""; HOLD.clear();  // keep the spun night as the plan
+    renderPlan();
+    $("planSec").scrollIntoView({behavior: reduceMotion() ? "auto" : "smooth", block: "start"});
+    return;
+  }
   if (e.target.closest("#sndBtn")){ SOUND = !SOUND; try { localStorage.setItem("mp-sound", SOUND ? "on" : "off"); } catch (er) {}
     const b = $("sndBtn"); b.setAttribute("aria-pressed", SOUND); b.textContent = SOUND ? "Sound on" : "Sound off"; if (SOUND) SFX.clunk(); }
 });
