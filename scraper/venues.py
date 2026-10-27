@@ -275,13 +275,32 @@ def ai_tag(rows: list[dict], what: str, limit: int = 400) -> int:
             except Exception:
                 page = None
             text = reader.page_text(page.text)[:4000] if page is not None else ""
-            if not text:
+            menu = ""
+            if r.get("menu") and not r["menu"].lower().endswith(".pdf"):
+                try:
+                    mp = f.get(r["menu"])
+                    menu = reader.page_text(mp.text)[:4000] if mp is not None else ""
+                except Exception:
+                    pass
+            if not text and not menu:
                 stats["no_page"] += 1
                 return r, None
+            both = (text + " " + menu).lower()
+            # the menu or homepage often settles it without asking anyone
+            if re.search(r"\bbyob\b|alcohol.free (?:restaurant|cafe|bar)|we do not serve alcohol|no alcohol (?:is )?served", both):
+                stats["by_keywords"] = stats.get("by_keywords", 0) + 1
+                return r, {"alcohol": "no", "_how": "keywords"}
+            if what != "restaurant" or r.get("cuisine"):
+                if re.search(r"\b(?:craft beers?|draft beers?|beers? on tap|tap list|wine list|by the glass|cocktails?|margaritas?|happy hour|full bar|bloody mar(?:y|ies)|old fashioned)\b", both):
+                    stats["by_keywords"] = stats.get("by_keywords", 0) + 1
+                    return r, {"alcohol": "yes", "_how": "keywords"}
+            text = (text[:2500] + ("\n\nMENU PAGE:\n" + menu[:2500] if menu else ""))
             group_q = ('"group": one of ' + ", ".join(GROUP_NAMES) + ", ") if what == "restaurant" else ""
             prompt = (f"Place: {r['name']} ({what}), Madison WI. Website text:\n{text}\n\n"
-                      "Reply with JSON only: {" + group_q + '"alcohol": "yes" if it serves beer, wine or liquor, '
-                      '"no" if it clearly does not, "unknown" if the page does not say}.')
+                      "Reply with JSON only: {" + group_q + '"alcohol": "yes" if it serves beer, wine or liquor '
+                      '(a drinks/bar section, beer or wine on the menu, happy hour, a bar), '
+                      '"no" only if the page shows it does not (BYOB, alcohol-free, a juice/coffee/dessert counter with no drinks menu), '
+                      '"unknown" if you cannot tell}.')
             import time
             for attempt in range(5):  # rate limits: wait and try again
                 try:
@@ -322,6 +341,7 @@ def ai_tag(rows: list[dict], what: str, limit: int = 400) -> int:
                 al = str(ans.get("alcohol", "")).lower()
                 if al in ("yes", "no"):
                     c["alcohol"] = al == "yes"
+                    c["alcohol_how"] = ans.get("_how", "AI")
                 else:
                     c["alcohol_checked"] = now().isoformat()  # page doesn't say: don't ask again for a while
                 done += 1
@@ -335,7 +355,7 @@ def ai_tag(rows: list[dict], what: str, limit: int = 400) -> int:
             r["group"] = c["group"]
         if r.get("alcohol") is None and "alcohol" in c:
             r["alcohol"] = c["alcohol"]
-            r["alcohol_src"] = "AI website check"
+            r["alcohol_src"] = "menu/homepage keywords" if c.get("alcohol_how") == "keywords" else "AI website check"
     return done
 
 
@@ -594,11 +614,11 @@ def retag_existing() -> None:
             print(f"Venue pictures skipped ({type(e).__name__})", file=sys.stderr)
         save_json(vpath, v)
     if r.get("restaurants"):
-        ai_tag(r["restaurants"], "restaurant")
         try:
             print(f"Restaurant homepages read for menus & pictures: {page_info(r['restaurants'], True)}")
         except Exception as e:
             print(f"Menu check skipped ({type(e).__name__})", file=sys.stderr)
+        ai_tag(r["restaurants"], "restaurant")
         r["with_menu"] = sum(1 for x in r["restaurants"] if x.get("menu"))
         save_json(rpath, r)
     if a.get("activities"):
