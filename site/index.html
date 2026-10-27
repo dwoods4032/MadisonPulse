@@ -214,6 +214,11 @@ footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);paddin
 .reel.held .reel-win{box-shadow:inset 0 0 0 3px #f0a53c}
 .hold{font:inherit;font-size:13px;font-weight:700;border-radius:10px;padding:8px 0;border:1px solid #3a4c5e;background:transparent;color:#f4ece0;cursor:pointer}
 .hold[aria-pressed="true"]{background:#f0a53c;border-color:#f0a53c;color:#101a24}
+.bonus-flash{font-family:var(--mono);font-size:13px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;text-align:center;color:#101a24;background:#f0a53c;border-radius:8px;padding:4px;margin:8px 0 2px;animation:flash .5s ease-out 3}
+@keyframes flash{0%{opacity:.35}100%{opacity:1}}
+.reel.bonus .reel-win{box-shadow:inset 0 0 0 3px #f0a53c}
+.reel.bonus .reel-lbl{color:#ffd28a}
+@media (prefers-reduced-motion: reduce){.bonus-flash{animation:none}}
 .cab-total{font-family:var(--mono);font-size:14px;color:#f4ece0;text-align:right;padding:8px 4px 0;font-variant-numeric:tabular-nums;min-height:1.5em}
 .cab-total b{color:#f0a53c;font-size:16px}
 .cab-total .over{color:#ef7d68;margin-left:6px}
