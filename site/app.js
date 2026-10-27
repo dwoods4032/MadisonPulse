@@ -1,7 +1,7 @@
 "use strict";
 const SPOTS = window.SPOTS || [];
 const TZ = "America/Chicago";
-const KIND = {dinner:"Dinner", show:"Show", bar:"Drinks", late:"Late bite"};
+const KIND = {dinner:"Dinner", show:"Show", bar:"Drinks", late:"Late bite", dessert:"Dessert"};
 const FOOD = [["date","Date night"],["cheap","Cheap eats"],["dive","Dive bars"],["classic","Wisconsin classic"]];
 const CUISINES = [["american","American"],["latin","Mexican & Latin"],["italian","Italian & Pizza"],["asian","Asian"],["sushi","Sushi & Japanese"],["indian","Indian"],["med","Mediterranean"],["pub","Bar & pub food"]];
 const FUN = [["music","Live music"],["comedy","Comedy"],["theater","Theater"],["games","Games & trivia"],["bowling","Bowling & pool"],["movies","Movies"],["karaoke","Karaoke"],["dancing","Dancing"],["sports","Sports"]];
@@ -317,9 +317,9 @@ function stopScore(s){
   return x;
 }
 const toMin = t => { if (!t) return null; let [h,m] = t.split(":").map(Number); if (h < 6) h += 24; return h*60 + m; };
-const DUR = {dinner:90, show:120, bar:75, late:30};
+const DUR = {dinner:90, show:120, bar:75, late:30, dessert:30};
 const durOf = s => s.dur || (s.dropin ? 90 : (DUR[s.k] || 60));
-const ORDER = {dinner:0, show:1, bar:2, late:3};
+const ORDER = {dinner:0, show:1, bar:2, late:3, dessert:4};
 const toMinX = t => { const [h,m] = t.split(":").map(Number); return h*60 + m; };  // no wrap: "26:30" = 2:30 am
 function weekday(key){ return (new Date(key + "T12:00:00Z").getUTCDay() + 6) % 7; }  // 0 = Monday
 // Opening window for a place on a given night. undefined = hours unknown (assume open); null = closed.
@@ -340,8 +340,8 @@ function schedule(stops, key){
 }
 function timeline(stops, key, dinnerAfter){
   const fixedEnd = Math.max(...stops.filter(s => s.at).map(s => toMin(s.at) + durOf(s)));
-  const sortKey = s => s.at ? toMin(s.at) : (dinnerAfter && s.k === "dinner") ? fixedEnd - 1 : ORDER[s.k]*120 + 19*60;
-  const list = [...stops].sort((a,b) => sortKey(a) - sortKey(b) || ORDER[a.k]-ORDER[b.k]);
+  const sortKey = s => s.at ? toMin(s.at) : (dinnerAfter && s.k === "dinner") ? fixedEnd - 1 : (s.ord ?? ORDER[s.k])*120 + 19*60;
+  const list = [...stops].sort((a,b) => sortKey(a) - sortKey(b) || (a.ord ?? ORDER[a.k]) - (b.ord ?? ORDER[b.k]));
   let t = state.from;
   const firstFixed = list.findIndex(s => s.at);
   if (firstFixed > 0){
@@ -437,7 +437,8 @@ function plans(opts = {}){
     const c = candidates(anchor);
     const evDinners = evening.filter(s => s.k === "dinner");
     const dinners = (anchor && anchor.k === "dinner") ? [anchor] : state.dinner ? [...c.dinners, ...(anchor ? [] : evDinners)] : [null];
-    const shows = (anchor && anchor.k === "show") ? [anchor] : [null];
+    // one event, or on a long evening (5+ hours) a second one nearby that doesn't overlap
+    const shows = (anchor && anchor.k === "show") ? [[anchor], ...secondEvents(anchor, evening)] : [[]];
     const lates = [null, ...c.lates];
     const barSets = [];
     if (anchor && anchor.k === "bar"){ barSets.push([anchor]); c.bars.forEach(b => barSets.push([anchor, b])); }
@@ -453,11 +454,11 @@ function plans(opts = {}){
     const c = candidates(null);
     const barSets = [[]];
     if (!dry) for (let i = 0; i < c.bars.length; i++){ barSets.push([c.bars[i]]); for (let k = i+1; k < c.bars.length; k++) barSets.push([c.bars[i], c.bars[k]]); }
-    out = build(state.budget, null, c, state.dinner ? c.dinners : [null], [null], barSets, [null, ...c.lates]);
+    out = build(state.budget, null, c, state.dinner ? c.dinners : [null], [[]], barSets, [null, ...c.lates]);
   }
   if (!out.length && pin){  // the event alone is over budget: still show the best night around it
     const c = candidates(pin);
-    out = build(Infinity, pin, c, pin.k === "dinner" ? [pin] : state.dinner ? c.dinners : [null], pin.k === "show" ? [pin] : [null], [[]], [null]);
+    out = build(Infinity, pin, c, pin.k === "dinner" ? [pin] : state.dinner ? c.dinners : [null], pin.k === "show" ? [[pin]] : [[]], [[]], [null]);
   }
   // Variety: take the best plan for each event in turn, then the second best, and so on,
   // so the list rotates through the night's events instead of repeating one.
@@ -465,16 +466,17 @@ function plans(opts = {}){
   for (const p of out){ const k = p.anchor ? p.anchor.n : ""; if (!groups.has(k)) groups.set(k, []); groups.get(k).push(p); }
   const order = [...groups.values()].map(g => g.sort((a,b) => b.score - a.score)).sort((a,b) => b[0].score - a[0].score);
   const seen = new Set(), used = {}, uniq = [];
-  for (let round = 0; uniq.length < MAX_PLANS && order.some(g => g.length > round); round++){
+  const cap = opts.pool ? 400 : MAX_PLANS;  // Randomize draws from a much bigger pool
+  for (let round = 0; uniq.length < cap && order.some(g => g.length > round); round++){
     for (const g of order){
       const p = g[round]; if (!p) continue;
       const rest = p.stops.filter(s => s !== pin && !s.live && !s.act);  // places should vary
       const key = p.stops.map(s => s.n).join("|");
-      if (seen.has(key) || rest.some(s => (used[s.n] || 0) >= 2)) continue;
+      if (seen.has(key) || (!opts.pool && rest.some(s => (used[s.n] || 0) >= 2))) continue;
       seen.add(key); rest.forEach(s => used[s.n] = (used[s.n] || 0) + 1);
-      uniq.push(p); if (uniq.length >= MAX_PLANS) break;
+      uniq.push(p); if (uniq.length >= cap) break;
     }
-    if (round > 40) break;
+    if (round > (opts.pool ? 200 : 40)) break;
   }
   return uniq;
 
@@ -482,7 +484,7 @@ function plans(opts = {}){
     const out = [];
     for (const d of dinners) for (const sh of shows) for (const bs of barSets) for (const l of lates){
       if (state.dinner && !d) continue;  // dinner was asked for: every plan has one
-      const stops = [d, sh, ...bs, l].filter(Boolean);
+      const stops = [d, ...sh, ...bs, l].filter(Boolean);
       if (!stops.length) continue;
       const cst = stops.reduce((t,s) => t + cost(s), 0);
       if (cst > limit) continue;
@@ -495,7 +497,8 @@ function plans(opts = {}){
       score += state.food.includes("cheap") ? (1 - use)*4 : use*8;  // use the money unless they asked for cheap
       if (state.budget >= 90) stops.forEach(s => { if (s.c || s.v.includes("date")) score += 1.5; });  // a bigger budget leans nicer
       if (d && l && (norm(d.n).split(" ")[0] === norm(l.n).split(" ")[0] || (foodKind(d) && foodKind(d) === foodKind(l)))) continue;  // no pizza after pizza
-      if (!d && !sh && bs.length < 2) score -= 3;
+      if (!d && !sh.length && bs.length < 2) score -= 3;
+      if (sh.length > 1 && bs.length > 1) continue;  // two events and two bars is too much running around
       if (state.drinks !== "none" && !bs.length) score -= 2;  // drinking, but no bar stop
       const di = sc.items.findIndex(x => x.s.k === "dinner"), si = sc.items.findIndex(x => x.s.at);
       if (di > si && si >= 0 && di >= 0) score -= 1.5;  // prefer dinner before the show
@@ -503,6 +506,15 @@ function plans(opts = {}){
     }
     return out;
   }
+}
+
+// Second events for a long evening: close by (1.5 mi), not at the same place, and not overlapping.
+function secondEvents(a, evening){
+  if (state.to - state.from < 300 || !a.at || a.act) return [];
+  const aS = toMin(a.at), aE = aS + durOf(a);
+  return evening.filter(e => e.k === "show" && e !== a && e.at && e.venue !== a.venue && (miles(a, e) ?? 9) <= 1.5)
+    .filter(e => { const s = toMin(e.at), en = s + durOf(e); return s >= aE + 15 - (e.dropin ? 45 : 0) || en <= aS - 15; })
+    .slice(0, 4).map(e => toMin(e.at) < aS ? [e, a] : [a, e]);
 }
 
 // ---------- the plan on screen ----------
@@ -570,14 +582,15 @@ function renderPlan(){
   PLAN_COUNT = Math.max(1, list.length);
   route.innerHTML = "";
   if (!list.length){
-    CURRENT = null; $("goBtn").hidden = true; $("restore").hidden = true;
+    CURRENT = null; $("goBtn").hidden = true; $("restore").hidden = true; $("randRow").hidden = true;
     $("totalPP").textContent = ""; $("totalGrp").textContent = "";
     $("planTitle").textContent = dayName(state.day); $("pager").hidden = true;
     const why = (!state.dinner && !state.show && isDry()) ? "Pick dinner or a show so there's something to plan." :
       sober() ? "Sober mode only suggests places we know don't serve alcohol, and none fit these choices yet. Try a wider area, more time, or another day." : "Nothing fits $"+state.budget+" a person between "+fmt12(Math.floor(state.from/60)%24, state.from%60)+" and "+fmt12(Math.floor(state.to/60)%24, state.to%60)+". Try a longer evening, a bigger budget, or fewer stops.";
     route.innerHTML = '<li class="empty">'+why+'</li>'; return;
   }
-  const base = list[state.rank % list.length];
+  if (FORCED && FORCED_SIG !== slotSig()) exitSlots(true);  // settings changed since the spin
+  const base = FORCED || list[state.rank % list.length];
   const all = applySwaps(base);
   const stops = all.filter(s => !state.removed.includes(s.n));
   const p = {...base, stops, cost: stops.reduce((t,s) => t + cost(s), 0)};
@@ -590,13 +603,13 @@ function renderPlan(){
       : meal + (s.c && state.drinks === "cocktails" ? " · Cocktails" : "");
     const dist = !s.live && !s.act && anchor && anchor !== s && anchor.lat != null ? miles(anchor, s) : null;
     const near = dist != null ? '<span class="dist">'+(dist < 0.1 ? "Next door to " : fmtMi(dist)+" from ")+esc(anchor.venue || anchor.n)+'</span>' : "";
-    const food = !s.live && !s.act && (s.k === "dinner" || s.k === "late");
+    const food = !s.live && !s.act && (s.k === "dinner" || s.k === "late" || s.k === "dessert");
     const menuUrl = food ? (s.menu || "https://www.google.com/search?q=" + encodeURIComponent((s.base || s.n.replace(/ (late-night menu|slice)$/i, "")) + " Madison WI menu")) : "";
     const site = food ? ' · <a href="'+esc(menuUrl)+'" target="_blank" rel="noopener">'+(s.menu ? "Menu" : "Find the menu")+' ↗</a>'
       : s.url ? ' · <a href="'+esc(s.url)+'" target="_blank" rel="noopener">'+(s.live ? (s.urlSearch ? "Find tickets & info" : "Event page") : "Website")+' ↗</a>' : "";
     const pic = okImg(s.img) ? '<img class="thumb" src="'+esc(s.img)+'" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">' : "";
     const alts = SWAP_ROLES.includes(s.k) && !s.live ? alternatives({...base, stops: p.stops}, s.k) : [];
-    const removable = !s.live && (s.k === "bar" || s.k === "late");  // dinner and the event stay
+    const removable = !s.live && (s.k === "bar" || s.k === "late" || s.k === "dessert");  // dinner and the event stay
     const rm = removable ? '<button type="button" class="link sm rm" data-n="'+esc(s.n)+'">Remove this stop</button>' : "";
     const swap = alts.length > 1 ? '<div class="swap" data-role="'+s.k+'"><button type="button" class="arrow sm" data-dir="-1" aria-label="Previous '+meal.toLowerCase()+' option">‹</button><span>'+(((state.swap[s.k]||0) % alts.length)+1)+' of '+alts.length+' nearby</span><button type="button" class="arrow sm" data-dir="1" aria-label="Next '+meal.toLowerCase()+' option">›</button></div>' : "";
     li.innerHTML = '<div class="time">'+fmt12(Math.floor(t/60)%24, t%60)+'</div><div class="rail"><span class="dot'+(s.live?" live":"")+'"></span></div>'+
@@ -627,8 +640,9 @@ function renderPlan(){
   $("totalPP").classList.toggle("over", p.cost > state.budget);
   $("totalGrp").textContent = state.people > 1 ? "About $"+p.cost*state.people+" for "+state.people : "";
   $("planTitle").textContent = dayName(state.day);
-  $("pager").hidden = list.length < 2;
-  $("pageOf").textContent = ((state.rank % list.length)+1) + " of " + list.length;
+  $("pager").hidden = list.length < 2 && !FORCED;
+  $("randRow").hidden = !list.length;
+  $("pageOf").textContent = FORCED ? "Your spin" : ((state.rank % list.length)+1) + " of " + list.length;
 }
 $("route").addEventListener("click", e => {
   const rmb = e.target.closest(".rm");
@@ -644,8 +658,8 @@ $("route").addEventListener("click", e => {
   renderPlan();
   const again = document.querySelector('.swap[data-role="'+role+'"] .arrow[data-dir="'+b.dataset.dir+'"]'); if (again) again.focus();
 });
-$("nextPlan").onclick = () => { state.rank++; state.swap = {}; state.removed = []; renderPlan(); };
-$("prevPlan").onclick = () => { state.rank = state.rank > 0 ? state.rank - 1 : PLAN_COUNT - 1; state.swap = {}; state.removed = []; renderPlan(); };
+$("nextPlan").onclick = () => { if (FORCED){ exitSlots(); state.rank = -1; } state.rank++; state.swap = {}; state.removed = []; renderPlan(); };
+$("prevPlan").onclick = () => { if (FORCED){ exitSlots(); state.rank = 1; } state.rank = state.rank > 0 ? state.rank - 1 : PLAN_COUNT - 1; state.swap = {}; state.removed = []; renderPlan(); };
 $("restore").onclick = () => { state.removed = []; renderPlan(); };
 // Google Maps directions through every stop, in order, starting from wherever the person is.
 function placeText(s){
@@ -677,7 +691,7 @@ function renderDays(){
 }
 $("days").addEventListener("click", e => {
   const b = e.target.closest(".day"); if (!b) return;
-  state.day = b.dataset.k; state.rank = 0; state.swap = {}; state.removed = []; state.allDays = false;
+  state.day = b.dataset.k; state.rank = 0; state.swap = {}; state.removed = []; state.allDays = false; exitSlots();
   const pe = pinned(); if (pe && evDay(pe) !== state.day) state.pin = null;
   renderDays(); renderPlan(); renderEvents();
 });
@@ -744,6 +758,219 @@ function pinEvent(id){
 $("events").addEventListener("click", ev => { const b = ev.target.closest(".incl"); if (b) pinEvent(b.dataset.id); });
 $("pinClear").onclick = () => { state.pin = null; state.rank = 0; state.swap = {}; renderPlan(); renderEvents(); };
 function ago(iso){ const m = Math.round((Date.now() - new Date(iso)) / 60000); return m < 60 ? m + " minutes ago" : m < 1440 ? Math.round(m/60) + " hours ago" : Math.round(m/1440) + " days ago"; }
+
+// ---------- Randomize: a slot machine for the night ----------
+// It spins through real nearby options and lands on one of the plans that fit the settings,
+// so whatever it lands on works. Tap Hold on a reel to keep it; Respin spins the rest.
+let FORCED = null, FORCED_SIG = "", SPINNING = false;
+const HOLD = new Set();
+let SOUND = true; try { SOUND = localStorage.getItem("mp-sound") !== "off"; } catch (e) {}
+const slotSig = () => JSON.stringify([state.day, state.budget, state.people, state.drinks, state.dinner, state.show, state.from, state.to, state.fun, state.areas, state.cuisine, state.pin]);
+const REEL_LABEL = s => s.live || s.act ? (s.act ? s.label : CAT_LABEL[s.cat] || "Event") : s.k === "dinner" ? "Dinner" : KIND[s.k];
+const ROLL_LABELS = ["Dinner", "Drinks", "Late bite", "Live music", "Comedy", "Theater", "Trivia & games", "Karaoke", "Bowling"];
+const shortD = s => String(s.live ? (s.venue || "") : s.d || "").split(/[.;·]/)[0].slice(0, 48);
+const slotKey = p => p.stops.map(s => s.n).join("|");
+const reduceMotion = () => matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+// sounds made on the fly in the browser: no files to load or license
+let AC = null;
+function audio(){
+  if (!SOUND) return null;
+  if (!AC){ const C = window.AudioContext || window.webkitAudioContext; if (!C) return null; AC = new C(); }
+  if (AC.state === "suspended") AC.resume();
+  return AC;
+}
+function tone(f, dur, type, vol, when = 0, slideTo){
+  const c = audio(); if (!c) return;
+  const t = c.currentTime + when, o = c.createOscillator(), g = c.createGain();
+  o.type = type; o.frequency.setValueAtTime(f, t);
+  if (slideTo) o.frequency.exponentialRampToValueAtTime(slideTo, t + dur);
+  g.gain.setValueAtTime(vol, t); g.gain.exponentialRampToValueAtTime(0.0001, t + dur);
+  o.connect(g); g.connect(c.destination); o.start(t); o.stop(t + dur + 0.03);
+}
+let lastTick = 0;
+const SFX = {
+  tick(){ const n = performance.now(); if (n - lastTick < 38) return; lastTick = n; tone(1500 + Math.random()*400, 0.022, "square", 0.035); },
+  clunk(){ tone(190, 0.2, "triangle", 0.32, 0, 70); tone(95, 0.14, "sine", 0.28); try { navigator.vibrate && navigator.vibrate(12); } catch (e) {} },
+  bonus(){ [784, 988, 1175, 1568, 1976].forEach((f, i) => tone(f, 0.12, "square", 0.05, i*0.06)); },
+  chime(){ [523, 659, 784, 1047].forEach((f, i) => tone(f, 0.55, "triangle", 0.16, 0.05 + i*0.09)); },
+};
+
+function exitSlots(keepHolds){
+  FORCED = null; FORCED_SIG = ""; SPINNING = false; document.body.classList.remove("spinning");
+  if (!keepHolds){ HOLD.clear(); BONUS_HELD = null; }
+  const el = $("slots"); if (el){ el.hidden = true; el.innerHTML = ""; }
+  $("randBtn").textContent = "Randomize";
+}
+function slotMsg(text){
+  const el = $("slots"); el.hidden = false;
+  el.innerHTML = '<div class="cab"><p class="cab-msg">'+esc(text)+'</p><div class="cab-row"><button type="button" class="link sm cab-done">Close</button></div></div>';
+}
+function randomize(){
+  if (SPINNING) return;
+  audio();  // browsers only allow sound that starts from a tap
+  let pool = plans({pool: true});
+  const held = [...HOLD].filter(n => !BONUS_HELD || n !== BONUS_HELD.n);
+  if (held.length) pool = pool.filter(p => held.every(n => p.stops.some(s => s.n === n)));
+  if (BONUS_HELD && HOLD.has(BONUS_HELD.n)){  // a held dessert: only nights it fits (near a stop, open, in budget)
+    const d = BONUS_HELD;
+    const fits = pool.filter(p => p.stops.some(x => (miles(x, d) ?? 9) <= 1.5) && p.stops.reduce((t, x) => t + cost(x), 0) + cost(d) <= state.budget
+      && schedule([...p.stops, d], state.day).ok);
+    if (fits.length) pool = fits;
+  }
+  if (!pool.length){ slotMsg(held.length ? "Nothing else fits with what you're holding. Release a reel and spin again." : "Nothing fits these settings yet. Try a bigger budget, a longer evening or another day."); return; }
+  pool.sort((a, b) => b.score - a.score);
+  const top = pool.slice(0, Math.max(8, Math.min(60, Math.ceil(pool.length * 0.6))));  // good nights, still a surprise
+  let pick = top[0];
+  for (let i = 0; i < 6; i++){ pick = top[Math.floor(Math.random() * top.length)]; if (!FORCED || slotKey(pick) !== slotKey(FORCED)) break; }
+  const before = FORCED;
+  FORCED = pick; FORCED_SIG = slotSig(); state.swap = {}; state.removed = [];
+  spin(pick, pool, before);
+}
+// Dessert bonus: about 1 spin in 4, a bonus reel lands on a dessert spot near the night's last stop
+// (or near dinner), only when it's open then and still fits the budget.
+const BONUS_ODDS = 0.25;
+let BONUS_HELD = null;
+const DESSERT = /ice ?cream|custard|frozen yogurt|gelato|dessert|donut|doughnut|bakery|pastr|crepe|cupcake|cookie|\bpies?\b|chocolate|candy|sweets|churro|boba|bubble tea/i;
+function dessertStops(){
+  const picked = SPOTS.filter(s => s.k === "late" && DESSERT.test(s.n + " " + s.d)).map(s => ({...s, k:"dessert", p:Math.min(s.p, 10)}));
+  const map = RESTAURANTS.filter(r => DESSERT.test(r.name + " " + (r.cuisine || "")) && !picked.some(x => x.mapId === r.id))
+    .map(r => ({...restaurantStop(r, "dessert"), p:8}));
+  return [...picked, ...map].filter(s => allowed(s) && !(sober() && s.alc === true));
+}
+function findBonus(p){
+  const base = p.stops, used = new Set(base.map(s => s.n)), spent = base.reduce((t, s) => t + cost(s), 0);
+  const items = schedule(base, state.day).items, last = items[items.length - 1]?.s, din = items.find(x => x.s.k === "dinner")?.s;
+  for (const [ord, ref] of [[5, last], [0.5, din]]){
+    if (!ref || ref.lat == null) continue;
+    const near = dessertStops().filter(s => !used.has(s.n) && s.lat != null && miles(ref, s) <= 1.2 && spent + cost(s) <= state.budget)
+      .sort((x, y) => miles(ref, x) - miles(ref, y)).slice(0, 6).sort(() => Math.random() - 0.5);
+    for (const d of near){ const st = {...d, ord}; if (schedule([...base, st], state.day).ok) return st; }
+  }
+  return null;
+}
+const ITEM = 64, LAB = 22;
+const fmtT = t => fmt12(Math.floor(t/60)%24, t%60);
+function reelHTML(r){
+  return '<div class="reel'+(r.held ? " held" : "")+(r.bonus ? " bonus" : "")+'" data-i="'+r.i+'"><div class="reel-lbl"><div class="lbl-win"><div class="lbl-strip">'+
+    (r.held ? [r.labs[r.labs.length-1]] : r.labs).map(l => '<div class="lbl-it">'+esc(l)+'</div>').join("")+'</div></div>'+
+    '<small class="reel-time">'+(r.held ? fmtT(r.t) : "·  ·  ·")+'</small></div>'+
+    '<div class="reel-win"><div class="reel-strip">'+(r.held ? [r.s] : r.strip).map(x => '<div class="reel-it"><b>'+esc(x.n)+'</b><small><span class="reel-p">~$'+cost(x)+'</span> '+esc(shortD(x))+'</small></div>').join("")+'</div></div>'+
+    '<button type="button" class="hold" data-n="'+esc(r.s.n)+'" aria-pressed="'+r.held+'">'+(r.held ? "Held" : "Hold")+'</button></div>';
+}
+// Spin one reel (name and label together) and call land() when it stops.
+function runReel(node, r, D, land){
+  const strip = node.querySelector(".reel-strip"), lstrip = node.querySelector(".lbl-strip"), win = node.querySelector(".reel-win");
+  const target = (strip.children.length - 1) * ITEM, ltarget = (lstrip.children.length - 1) * LAB;
+  const time = () => { const n = node.querySelector(".reel-time"); if (n) n.textContent = fmtT(r.t); };
+  if (r.held || reduceMotion() || !target){
+    strip.style.transform = "translateY(" + -target + "px)"; lstrip.style.transform = "translateY(" + -ltarget + "px)";
+    setTimeout(() => { if (!r.held) SFX.clunk(); time(); land(); }, r.held ? 0 : 150 + r.i * 180);
+    return;
+  }
+  const t0 = performance.now(); let lastIdx = 0;
+  strip.classList.add("fast");
+  const step = now => {
+    const k = Math.min(1, (now - t0) / D), e = 1 - Math.pow(1 - k, 3.2), y = e * target;
+    strip.style.transform = "translateY(" + -y + "px)";
+    lstrip.style.transform = "translateY(" + -(e * ltarget) + "px)";
+    if (k > 0.72) strip.classList.remove("fast");
+    const idx = Math.round(y / ITEM); if (idx !== lastIdx){ lastIdx = idx; SFX.tick(); }
+    if (k < 1) requestAnimationFrame(step);
+    else { SFX.clunk(); win.classList.add("landed"); time(); land(); }
+  };
+  requestAnimationFrame(step);
+}
+const shuffle = a => { for (let k = a.length - 1; k > 0; k--){ const j = Math.floor(Math.random() * (k + 1)); [a[k], a[j]] = [a[j], a[k]]; } return a; };
+function spin(p, pool, before){
+  const el = $("slots"); el.hidden = false; SPINNING = true;
+  const items = schedule(p.stops, state.day).items;
+  // filler from every kind of stop, so the names don't hint at the order
+  const seen = new Set(), allStops = [];
+  for (const q of pool) for (const x of q.stops) if (!seen.has(x.n)){ seen.add(x.n); allStops.push(x); }
+  const reels = items.map(({s, t}, i) => {
+    let strip = shuffle(allStops.filter(x => x.n !== s.n)).slice(0, 16);
+    while (strip.length && strip.length < 10) strip = strip.concat(strip.slice(0, 10 - strip.length));
+    const prev = before && before.stops[i];
+    strip = [prev || strip[0] || s, ...strip.slice(1), s];
+    // the label rolls too (the order depends on the event's time), landing with the name
+    const labs = strip.map((x, k) => k === strip.length - 1 ? REEL_LABEL(s) : ROLL_LABELS[Math.floor(Math.random() * ROLL_LABELS.length)]);
+    return {s, t, held: HOLD.has(s.n), strip, labs, i};
+  });
+  const dn = dayName(state.day), title = dn === "Tonight" ? "Tonight’s spin" : dn === "Tomorrow" ? "Tomorrow’s spin" : new Date(state.day + "T12:00:00Z").toLocaleDateString("en-US", {weekday:"long", timeZone:"UTC"}) + "’s spin";
+  document.body.classList.add("spinning");  // the plan below waits for the reels
+  el.innerHTML = '<div class="cab"><div class="cab-head"><span class="cab-title">'+esc(title)+'</span>'+
+    '<button type="button" class="snd" id="sndBtn" aria-pressed="'+SOUND+'" aria-label="Sound">'+(SOUND ? "Sound on" : "Sound off")+'</button></div>'+
+    reels.map(reelHTML).join("")+'<div id="bonusSlot"></div>'+
+    '<div class="cab-total" id="cabTotal">&nbsp;</div>'+
+    '<div class="cab-row"><button type="button" class="btn spin" id="respin">Respin</button><button type="button" class="btn cab-use cab-done">Use this night</button></div></div>';
+  $("respin").disabled = true;
+  // a held dessert stays on screen through the respin
+  const keep = BONUS_HELD && HOLD.has(BONUS_HELD.n) ? BONUS_HELD : null;
+  const keepFits = keep && p.stops.reduce((t, s) => t + cost(s), 0) + cost(keep) <= state.budget && schedule([...p.stops, keep], state.day).ok;
+  if (keep){
+    const kt = keepFits ? schedule([...p.stops, keep], state.day).items.find(x => x.s === keep).t : 0;
+    $("bonusSlot").innerHTML = '<div class="bonus-flash still">Bonus held</div>' + reelHTML({s:keep, t:kt, held:true, strip:[keep], labs:["Dessert"], i:reels.length, bonus:true});
+    if (!keepFits) $("bonusSlot").querySelector(".reel-time").textContent = "·  ·  ·";
+  }
+  el.scrollIntoView({behavior: reduceMotion() ? "auto" : "smooth", block: "start"});
+  let left = reels.length, spun = 0;
+  reels.forEach(r => { const D = 1300 + (r.held ? 0 : spun++) * 600; runReel(el.querySelector('.reel[data-i="'+r.i+'"]'), r, D, () => { if (--left === 0) bonus(); }); });
+
+  function bonus(){
+    if (keep && !keepFits){  // the held dessert doesn't fit this new night
+      HOLD.delete(keep.n); BONUS_HELD = null;
+      $("bonusSlot").innerHTML = '<p class="cab-msg">'+esc(keep.n)+' doesn’t fit this night, so the bonus was dropped.</p>';
+      return finish(p.stops);
+    }
+    if (keep){
+      const full = [...p.stops, keep], sched = schedule(full, state.day).items;
+      for (const x of sched){ const rr = reels.find(q => q.s === x.s); if (rr){ rr.t = x.t; const n = el.querySelector('.reel[data-i="'+rr.i+'"] .reel-time'); if (n) n.textContent = fmtT(x.t); } }
+      FORCED = {...p, stops: full, cost: full.reduce((tt, s) => tt + cost(s), 0)};
+      return finish(full);
+    }
+    let b = Math.random() < BONUS_ODDS ? findBonus(p) : null;
+    if (!b){ BONUS_HELD = null; return finish(p.stops); }
+    const full = [...p.stops, b], sched = schedule(full, state.day).items;
+    const t = sched.find(x => x.s === b).t;
+    let strip = shuffle(dessertStops().filter(x => x.n !== b.n)).slice(0, 12);
+    strip = [...(strip.length ? strip : [b]), b];
+    const r = {s:b, t, held: false, strip, labs: strip.map((x, k) => k === strip.length - 1 ? "Dessert" : k % 2 ? "Bonus" : "Sweet"), i: reels.length, bonus: true};
+    $("bonusSlot").innerHTML = '<div class="bonus-flash" aria-live="polite">Bonus round</div>' + reelHTML(r);
+    SFX.bonus();
+    runReel(el.querySelector('.reel[data-i="'+r.i+'"]'), r, 1700, () => {
+      // the dessert can shift later stops: refresh the times already shown
+      for (const x of sched){ const rr = reels.find(q => q.s === x.s); if (rr){ rr.t = x.t; const n = el.querySelector('.reel[data-i="'+rr.i+'"] .reel-time'); if (n) n.textContent = fmtT(x.t); } }
+      BONUS_HELD = b;
+      FORCED = {...p, stops: full, cost: full.reduce((tt, s) => tt + cost(s), 0)};
+      finish(full);
+    });
+  }
+  function finish(stops){
+    SPINNING = false; SFX.chime(); document.body.classList.remove("spinning");
+    $("respin").disabled = false; $("randBtn").textContent = "Spin again";
+    const pp = stops.reduce((t, x) => t + cost(x), 0);
+    $("cabTotal").innerHTML = '<b>~$'+pp+'</b> each'+(state.people > 1 ? ' · about $'+pp*state.people+' for '+state.people : '')+(pp > state.budget ? ' <span class="over">over budget</span>' : '');
+    renderPlan();
+  }
+}
+$("randBtn").onclick = () => randomize();
+$("slots").addEventListener("click", e => {
+  const h = e.target.closest(".hold");
+  if (h){ if (SPINNING) return; const n = h.dataset.n; HOLD.has(n) ? HOLD.delete(n) : HOLD.add(n);
+    h.setAttribute("aria-pressed", HOLD.has(n)); h.textContent = HOLD.has(n) ? "Held" : "Hold"; h.closest(".reel").classList.toggle("held", HOLD.has(n)); return; }
+  if (e.target.closest("#respin")){ randomize(); return; }
+  if (e.target.closest(".cab-done")){
+    if (SPINNING) return;
+    if (!FORCED){ exitSlots(); renderPlan(); return; }
+    $("slots").hidden = true; $("slots").innerHTML = ""; HOLD.clear();  // keep the spun night as the plan
+    renderPlan();
+    $("planSec").scrollIntoView({behavior: reduceMotion() ? "auto" : "smooth", block: "start"});
+    return;
+  }
+  if (e.target.closest("#sndBtn")){ SOUND = !SOUND; try { localStorage.setItem("mp-sound", SOUND ? "on" : "off"); } catch (er) {}
+    const b = $("sndBtn"); b.setAttribute("aria-pressed", SOUND); b.textContent = SOUND ? "Sound on" : "Sound off"; if (SOUND) SFX.clunk(); }
+});
 
 // ---------- start ----------
 renderForm(); renderDays(); renderPlan();
