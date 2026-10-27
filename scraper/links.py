@@ -78,7 +78,7 @@ def main():
         v = cache.get(u)
         counts["not checked yet" if not v else "ok" if v["ok"] else "broken" if v["ok"] is False else "couldn't check"] += 1
     save_json(DATA / "link_report.json", {"generated_at": now().isoformat(), "links": len(urls), "checked_this_run": len(todo),
-                                          **counts, "broken": sorted(broken)[:200]})
+                                          **counts, "broken_links": sorted(broken)[:200]})
     print(f"Links: {len(urls)} in use, {len(todo)} checked this run; {counts}")
 
 
