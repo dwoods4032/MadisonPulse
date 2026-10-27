@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-10-27T17:48:50-05:00",
- "total_events": 414,
- "in_more_than_one_source": 24,
+ "generated_at": "2026-10-27T18:06:32-05:00",
+ "total_events": 417,
+ "in_more_than_one_source": 22,
  "sources": {
   "AI page reading": {
-   "events": 150,
-   "unique_events": 131,
+   "events": 149,
+   "unique_events": 132,
    "overlap": {
-    "Isthmus": 4,
+    "Isthmus": 2,
     "Ticketmaster": 15,
     "Venue websites": 0
    },
@@ -23,6 +23,7 @@
     "Dexter's Pub",
     "Double Tap",
     "Doundrins Distilling",
+    "East Side Club",
     "Ebling Library",
     "Flight Wine & Bourbon Bar",
     "Grey Market",
@@ -48,19 +49,21 @@
    ]
   },
   "Isthmus": {
-   "events": 152,
-   "unique_events": 146,
+   "events": 154,
+   "unique_events": 150,
    "overlap": {
-    "AI page reading": 4,
+    "AI page reading": 2,
     "Ticketmaster": 1,
     "Venue websites": 1
    },
-   "venues": 76,
+   "venues": 75,
    "unique_venues": [
+    "A Room of One's Own",
     "American Players Theatre",
     "Argus BarGrille",
     "Black Business Hub",
     "Bordner Park",
+    "Brass Ring",
     "Capitol Square",
     "Capitol Theater",
     "Central Library",
@@ -70,6 +73,7 @@
     "East Towne Mall",
     "Fitchburg Library",
     "Fontana Sports",
+    "Forward Club",
     "GlouGlou",
     "Goodman Community Center-Brassworks",
     "Goodman South Madison Library",
@@ -115,18 +119,16 @@
     "UW Union South-The Sett",
     "UW Weeks Hall",
     "Underdog Pet Rescue",
-    "Up North Pub",
     "VFW Post 7591-Cottage Grove Road",
     "Vilas Park",
     "Vintage Brewing Company Capitol East",
-    "Waunakee Library",
     "Wil-Mar Center",
     "Zafferano Ristorante"
    ]
   },
   "Ticketmaster": {
-   "events": 55,
-   "unique_events": 36,
+   "events": 54,
+   "unique_events": 35,
    "overlap": {
     "AI page reading": 15,
     "Isthmus": 1,
@@ -142,8 +144,8 @@
    ]
   },
   "Venue websites": {
-   "events": 81,
-   "unique_events": 77,
+   "events": 82,
+   "unique_events": 78,
    "overlap": {
     "AI page reading": 0,
     "Isthmus": 1,

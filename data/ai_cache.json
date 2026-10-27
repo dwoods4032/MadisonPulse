@@ -1434,9 +1434,9 @@
   "events": []
  },
  "https://www.cityofmadison.com/parks/events": {
-  "hash": "c419c44114d85ebd207f93524cdef8f7c8f8e050",
-  "asked": "2026-10-26T15:22:51-05:00",
-  "on": "2026-10-26",
+  "hash": "3b4bf4a4952ba2b7ae2a44eda9c836fb5f8166fb",
+  "asked": "2026-10-27T18:06:04-05:00",
+  "on": "2026-10-27",
   "events": [
    {
     "title": "EHS Feeder Program Fall Academy",
@@ -1444,7 +1444,8 @@
     "start": "17:00",
     "end": "18:15",
     "price": null,
-    "description": "EHS Feeder Program Fall Academy at Warner Park Community Recreation Center, 1625 Northport Drive."
+    "description": "Fall Academy at Warner Park Community Recreation Center, 1625 Northport Drive.",
+    "category": "other"
    },
    {
     "title": "EHS Feeder Program BDL Open Tryouts",
@@ -1452,7 +1453,8 @@
     "start": "17:00",
     "end": "18:15",
     "price": null,
-    "description": "EHS Feeder Program BDL Open Tryouts at Warner Park Community Recreation Center, 1625 Northport Drive."
+    "description": "BDL open tryouts at Warner Park Community Recreation Center, 1625 Northport Drive.",
+    "category": "sports"
    },
    {
     "title": "Hayride Around the Capitol | Movie at the Top of State",
@@ -1460,7 +1462,8 @@
     "start": "15:00",
     "end": "19:45",
     "price": null,
-    "description": "Hayride and movie event at multiple locations."
+    "description": "Hayride around the Capitol and movie at the Top of State, multiple locations.",
+    "category": "film"
    },
    {
     "title": "EHS Feeder Program Fall Academy",
@@ -1468,7 +1471,8 @@
     "start": "17:00",
     "end": "18:15",
     "price": null,
-    "description": "EHS Feeder Program Fall Academy at Warner Park Community Recreation Center, 1625 Northport Drive."
+    "description": "Fall Academy at Warner Park Community Recreation Center, 1625 Northport Drive.",
+    "category": "other"
    },
    {
     "title": "EHS Feeder Program BDL Open Tryouts",
@@ -1476,7 +1480,8 @@
     "start": "17:00",
     "end": "18:15",
     "price": null,
-    "description": "EHS Feeder Program BDL Open Tryouts at Warner Park Community Recreation Center, 1625 Northport Drive."
+    "description": "BDL open tryouts at Warner Park Community Recreation Center, 1625 Northport Drive.",
+    "category": "sports"
    },
    {
     "title": "Warner Family Fun Night | Halloween Celebration",
@@ -1484,7 +1489,17 @@
     "start": "17:00",
     "end": "19:30",
     "price": null,
-    "description": "Halloween family celebration at Warner Park Community Recreation Center, 1625 Northport Drive."
+    "description": "Halloween celebration at Warner Park Community Recreation Center, 1625 Northport Drive.",
+    "category": "other"
+   },
+   {
+    "title": "Parks Alive Fall | Warner",
+    "date": "2026-11-04",
+    "start": "17:00",
+    "end": "19:00",
+    "price": null,
+    "description": "Parks Alive Fall event at Warner Park Community Recreation Center, 1625 Northport Dr.",
+    "category": "other"
    },
    {
     "title": "Public Meeting - Odana Hills Golf Course and Park",
@@ -1492,7 +1507,8 @@
     "start": "18:00",
     "end": "19:30",
     "price": null,
-    "description": "Virtual public meeting about Odana Hills Golf Course and Park."
+    "description": "Virtual public meeting on Odana Hills Golf Course and Park.",
+    "category": "other"
    }
   ]
  },
@@ -1650,8 +1666,8 @@
   ]
  },
  "https://www.madisonpubliclibrary.org/spaces/events/search": {
-  "hash": "d8c4dba2e3f6e64b86bef1544cdf593112dffb1f",
-  "asked": "2026-10-27T17:21:48-05:00",
+  "hash": "cef88601c5d8dced5f81f10ff78b54ca7d62a4aa",
+  "asked": "2026-10-27T18:06:24-05:00",
   "on": "2026-10-27",
   "events": []
  },

@@ -44,11 +44,6 @@
   "why": "",
   "checked": "2026-10-27T14:37:10.347398-05:00"
  },
- "https://www.ticketmaster.com/event/Z7r9jZ1AAZOff": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-10-27T14:37:10.347406-05:00"
- },
  "https://www.sunprairiepubliclibrary.org/": {
   "ok": true,
   "why": "",
@@ -2973,5 +2968,15 @@
   "ok": true,
   "why": "",
   "checked": "2026-10-27T17:49:52.227241-05:00"
+ },
+ "https://thebrassringmadison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T18:06:33.847877-05:00"
+ },
+ "https://bayviewfoundation.org/event/zumba/2026-11-10/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T18:06:33.847907-05:00"
  }
 }

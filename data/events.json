@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-27T17:48:50-05:00",
+ "generated_at": "2026-10-27T18:06:32-05:00",
  "window": {
-  "from": "2026-10-27T11:47-05:00",
-  "to": "2026-11-10T17:47-06:00"
+  "from": "2026-10-27T12:05-05:00",
+  "to": "2026-11-10T18:05-06:00"
  },
- "count": 414,
+ "count": 417,
  "events": [
   {
    "id": "c7464f5943e9",
@@ -60,7 +60,7 @@
    "all_day": false,
    "category": "other",
    "price": null,
-   "description": "EHS Feeder Program Fall Academy at Warner Park Community Recreation Center, 1625 Northport Drive.",
+   "description": "Fall Academy at Warner Park Community Recreation Center, 1625 Northport Drive.",
    "url": "https://www.cityofmadison.com/parks/find-a-park/reindahl/pavilion-at-the-imagination-center",
    "image": "",
    "venue": "Reindahl Park Pavillion",
@@ -83,7 +83,7 @@
    "all_day": false,
    "category": "other",
    "price": null,
-   "description": "EHS Feeder Program Fall Academy at Warner Park Community Recreation Center, 1625 Northport Drive.",
+   "description": "Fall Academy at Warner Park Community Recreation Center, 1625 Northport Drive.",
    "url": "https://www.cityofmadison.com/parks/find-a-park/park.cfm?id=1364",
    "image": "",
    "venue": "Veterans Memorial Park",
@@ -122,14 +122,14 @@
    "link_ok": true
   },
   {
-   "id": "488c9322631c",
-   "title": "Open Mic with Martin Hunt",
+   "id": "07db2d485c59",
+   "title": "Open Mic w/ Martin Hunt",
    "start": "2026-10-27T18:00-05:00",
    "end": "2026-10-27T21:00-05:00",
    "all_day": false,
    "category": "open_mic",
-   "price": null,
-   "description": "",
+   "price": 0.0,
+   "description": "Open mic hosted by Martin Hunt for all musical skill levels. Free. Bar opens at 5:00pm and food is available from the grill.",
    "url": "https://escmadison.com",
    "image": "",
    "venue": "East Side Club",
@@ -138,11 +138,8 @@
    "address": "3735 Monona Drive",
    "lat": 43.0863319,
    "lon": -89.3272545,
-   "source": "extra",
-   "via": "Isthmus",
-   "city": "Madison",
+   "source": "ai",
    "sources": [
-    "Isthmus",
     "AI page reading"
    ],
    "link_ok": true
@@ -167,30 +164,6 @@
    "source": "ai",
    "sources": [
     "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "fea7097852f6",
-   "title": "Inside Wisconsin Politics Live",
-   "start": "2026-10-27T18:00-05:00",
-   "end": null,
-   "all_day": false,
-   "category": "music",
-   "price": 0.0,
-   "description": "",
-   "url": "https://www.high-noon.com/",
-   "image": "",
-   "venue": "High Noon Saloon",
-   "venue_id": "osm:node/1348850872",
-   "venue_kind": "bar",
-   "address": "701 E Washington Ave",
-   "lat": 43.0797191,
-   "lon": -89.3762962,
-   "source": "extra",
-   "via": "Isthmus",
-   "sources": [
-    "Isthmus"
    ],
    "link_ok": true
   },
@@ -223,9 +196,9 @@
    "start": "2026-10-27T18:00-05:00",
    "end": "2026-10-27T19:30-05:00",
    "all_day": false,
-   "category": "other",
+   "category": "trivia",
    "price": null,
-   "description": "Part 5 of a 6-part mini figure painting series in the Community Room.",
+   "description": "Hands-on five-part miniature painting series for adults 16+, creating miniature characters for Dungeons & Dragons and other games.",
    "url": "https://www.madisonpubliclibrary.org/locations/imagination-center",
    "image": "",
    "venue": "Imagination Center",
@@ -241,109 +214,14 @@
    "link_ok": true
   },
   {
-   "id": "88d9e9d8f7c0",
-   "title": "Wisconsin Badgers Mens Basketball vs. Oklahoma State Cowboys Mens Basketball",
-   "start": "2026-10-27T18:00-05:00",
-   "end": null,
-   "all_day": false,
-   "category": "sports",
-   "price": null,
-   "description": "Basketball / College",
-   "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZOff",
-   "image": "https://s1.ticketm.net/dam/a/8d2/8c0ae06b-7a6f-4ab8-9747-05509c79f8d2_1260851_RETINA_PORTRAIT_16_9.jpg",
-   "venue": "Kohl Center",
-   "venue_id": "tm:Z6r9jZaaee",
-   "venue_kind": "venue",
-   "address": "601 W. Dayton St.",
-   "lat": 43.016399,
-   "lon": -89.420097,
-   "source": "ticketmaster",
-   "sources": [
-    "Ticketmaster"
-   ],
-   "link_ok": null
-  },
-  {
-   "id": "93cf875a329f",
-   "title": "UW Men's Basketball",
-   "start": "2026-10-27T18:00-05:00",
-   "end": null,
-   "all_day": false,
-   "category": "sports",
-   "price": null,
-   "description": "",
-   "url": "",
-   "image": "",
-   "venue": "Kohl Center",
-   "venue_id": "cal:kohl-center",
-   "venue_kind": "venue",
-   "address": "601 West Dayton Street",
-   "lat": 43.069421,
-   "lon": -89.396878,
-   "source": "extra",
-   "via": "Isthmus",
-   "sources": [
-    "Isthmus"
-   ],
-   "link_ok": null
-  },
-  {
-   "id": "e0d57689a2ed",
-   "title": "Dog Training",
-   "start": "2026-10-27T18:00-05:00",
-   "end": null,
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "",
-   "url": "",
-   "image": "",
-   "venue": "Location not listed",
-   "venue_id": "cal:unknown",
-   "venue_kind": "venue",
-   "address": "",
-   "lat": null,
-   "lon": null,
-   "source": "extra",
-   "via": "Isthmus",
-   "sources": [
-    "Isthmus"
-   ],
-   "link_ok": null
-  },
-  {
-   "id": "ca2e085dafd4",
-   "title": "Brazilian Choro Jam",
-   "start": "2026-10-27T18:00-05:00",
-   "end": null,
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "",
-   "url": "",
-   "image": "",
-   "venue": "Muso",
-   "venue_id": "cal:muso",
-   "venue_kind": "venue",
-   "address": "Winnebago Street",
-   "lat": 43.093165,
-   "lon": -89.354489,
-   "source": "extra",
-   "via": "Isthmus",
-   "sources": [
-    "Isthmus"
-   ],
-   "link_ok": null
-  },
-  {
    "id": "d1d6d9680887",
    "title": "Mini Figure Painting (5 of 6 part series)",
    "start": "2026-10-27T18:00-05:00",
    "end": "2026-10-27T19:30-05:00",
    "all_day": false,
-   "category": "other",
+   "category": "trivia",
    "price": null,
-   "description": "Part 5 of a 6-part mini figure painting series in the Community Room.",
+   "description": "Hands-on five-part miniature painting series for adults 16+, creating miniature characters for Dungeons & Dragons and other games.",
    "url": "https://www.madisonpubliclibrary.org/locations/pinney-library",
    "image": "",
    "venue": "Pinney Library",
@@ -364,9 +242,9 @@
    "start": "2026-10-27T18:00-05:00",
    "end": "2026-10-27T19:30-05:00",
    "all_day": false,
-   "category": "other",
+   "category": "trivia",
    "price": null,
-   "description": "Part 5 of a 6-part mini figure painting series in the Community Room.",
+   "description": "Hands-on five-part miniature painting series for adults 16+, creating miniature characters for Dungeons & Dragons and other games.",
    "url": "https://www.madisonpubliclibrary.org/sequoya",
    "image": "",
    "venue": "Sequoya Library",
@@ -403,55 +281,6 @@
     "AI page reading"
    ],
    "link_ok": true
-  },
-  {
-   "id": "7c977aeafc86",
-   "title": "Alex Salcido",
-   "start": "2026-10-27T18:00-05:00",
-   "end": "2026-10-27T21:00-05:00",
-   "all_day": false,
-   "category": "other",
-   "price": 0.0,
-   "description": "",
-   "url": "",
-   "image": "",
-   "venue": "Up North Pub",
-   "venue_id": "cal:up-north-pub",
-   "venue_kind": "venue",
-   "address": "",
-   "lat": null,
-   "lon": null,
-   "source": "extra",
-   "via": "Isthmus",
-   "sources": [
-    "Isthmus"
-   ],
-   "link_ok": null
-  },
-  {
-   "id": "e0e3db6699fa",
-   "title": "Optimizing Your Home's Energy Performance",
-   "start": "2026-10-27T18:00-05:00",
-   "end": null,
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "",
-   "url": "",
-   "image": "",
-   "venue": "Waunakee Library",
-   "venue_id": "cal:waunakee-library",
-   "venue_kind": "venue",
-   "address": "201 North Madison Street",
-   "lat": 43.193936,
-   "lon": -89.45019,
-   "source": "extra",
-   "via": "Isthmus",
-   "city": "Waunakee",
-   "sources": [
-    "Isthmus"
-   ],
-   "link_ok": null
   },
   {
    "id": "7747b2ca1885",
@@ -2027,7 +1856,7 @@
    "all_day": false,
    "category": "film",
    "price": null,
-   "description": "Hayride and movie event at multiple locations.",
+   "description": "Hayride around the Capitol and movie at the Top of State, multiple locations.",
    "url": "https://www.cityofmadison.com/parks/find-a-park/park.cfm?id=1364",
    "image": "",
    "venue": "Veterans Memorial Park",
@@ -2260,29 +2089,6 @@
    "link_ok": true
   },
   {
-   "id": "6d23d7e6015f",
-   "title": "Journaling for Mental Health",
-   "start": "2026-10-28T17:30-05:00",
-   "end": "2026-10-28T18:30-05:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Journaling session focused on mental health in the Classroom.",
-   "url": "https://www.madisonpubliclibrary.org/locations/imagination-center",
-   "image": "",
-   "venue": "Imagination Center",
-   "venue_id": "osm:way/1562302805",
-   "venue_kind": "library",
-   "address": "1814 Parkside Drive",
-   "lat": 43.1240118,
-   "lon": -89.3168809,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "58de56c5f5c2",
    "title": "The Real Jaguar, DJ Chuck Money",
    "start": "2026-10-28T17:30-05:00",
@@ -2354,52 +2160,6 @@
     "Isthmus"
    ],
    "link_ok": null
-  },
-  {
-   "id": "5748e76f99d7",
-   "title": "Journaling for Mental Health",
-   "start": "2026-10-28T17:30-05:00",
-   "end": "2026-10-28T18:30-05:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Journaling session focused on mental health in the Classroom.",
-   "url": "https://www.madisonpubliclibrary.org/locations/pinney-library",
-   "image": "",
-   "venue": "Pinney Library",
-   "venue_id": "osm:node/7234376294",
-   "venue_kind": "library",
-   "address": "516 Cottage Grove Road",
-   "lat": 43.0841729,
-   "lon": -89.3176486,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "02c9bf1d1261",
-   "title": "Journaling for Mental Health",
-   "start": "2026-10-28T17:30-05:00",
-   "end": "2026-10-28T18:30-05:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Journaling session focused on mental health in the Classroom.",
-   "url": "https://www.madisonpubliclibrary.org/sequoya",
-   "image": "",
-   "venue": "Sequoya Library",
-   "venue_id": "osm:node/1473488018",
-   "venue_kind": "library",
-   "address": "4340 Tokay Boulevard",
-   "lat": 43.0537698,
-   "lon": -89.4505289,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
   },
   {
    "id": "3d26ea4eb91c",
@@ -2693,13 +2453,13 @@
    "link_ok": null
   },
   {
-   "id": "0e5140eb13c5",
-   "title": "Borris",
+   "id": "6c5bbbfd526c",
+   "title": "Trivia",
    "start": "2026-10-28T18:00-05:00",
-   "end": "2026-10-28T20:00-05:00",
+   "end": null,
    "all_day": false,
-   "category": "other",
-   "price": null,
+   "category": "trivia",
+   "price": 0.0,
    "description": "",
    "url": "",
    "image": "",
@@ -2718,13 +2478,13 @@
    "link_ok": null
   },
   {
-   "id": "6c5bbbfd526c",
-   "title": "Trivia",
+   "id": "0e5140eb13c5",
+   "title": "Borris",
    "start": "2026-10-28T18:00-05:00",
-   "end": null,
+   "end": "2026-10-28T20:00-05:00",
    "all_day": false,
-   "category": "trivia",
-   "price": 0.0,
+   "category": "other",
+   "price": null,
    "description": "",
    "url": "",
    "image": "",
@@ -2762,6 +2522,31 @@
    "source": "scraped",
    "sources": [
     "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "8d991d984f2d",
+   "title": "Night of the Living Dead",
+   "start": "2026-10-28T18:30-05:00",
+   "end": null,
+   "all_day": false,
+   "category": "film",
+   "price": 0.0,
+   "description": "",
+   "url": "https://www.madisonpubliclibrary.org/central",
+   "image": "",
+   "venue": "Central Library",
+   "venue_id": "osm:way/102316433",
+   "venue_kind": "library",
+   "address": "201 West Mifflin Street",
+   "lat": 43.0736214,
+   "lon": -89.3875186,
+   "source": "extra",
+   "via": "Isthmus",
+   "city": "Madison",
+   "sources": [
+    "Isthmus"
    ],
    "link_ok": true
   },
@@ -2933,6 +2718,30 @@
    "link_ok": null
   },
   {
+   "id": "54bf204a631a",
+   "title": "Trivia",
+   "start": "2026-10-28T18:30-05:00",
+   "end": null,
+   "all_day": false,
+   "category": "trivia",
+   "price": 0.0,
+   "description": "",
+   "url": "",
+   "image": "",
+   "venue": "Lone Girl Brewing Company",
+   "venue_id": "osm:node/4064427482",
+   "venue_kind": "brewery",
+   "address": "",
+   "lat": 43.1917558,
+   "lon": -89.454225,
+   "source": "extra",
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ],
+   "link_ok": null
+  },
+  {
    "id": "3e0c7995f732",
    "title": "Trivia Nights • Every Wednesday at The Lone Girl with King Trivia",
    "start": "2026-10-28T18:30-05:00",
@@ -3004,6 +2813,30 @@
    "link_ok": true
   },
   {
+   "id": "82d4fcec7f05",
+   "title": "Queer & Trans Open Mic",
+   "start": "2026-10-28T19:00-05:00",
+   "end": "2026-10-28T21:00-05:00",
+   "all_day": false,
+   "category": "open_mic",
+   "price": null,
+   "description": "",
+   "url": "",
+   "image": "",
+   "venue": "A Room of One's Own",
+   "venue_id": "cal:a-room-of-one-s-own",
+   "venue_kind": "venue",
+   "address": "2717 Atwood Avenue",
+   "lat": 43.093653,
+   "lon": -89.344224,
+   "source": "extra",
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ],
+   "link_ok": null
+  },
+  {
    "id": "21c5929fce10",
    "title": "Witch",
    "start": "2026-10-28T19:00-05:00",
@@ -3052,6 +2885,30 @@
    "link_ok": true
   },
   {
+   "id": "9827d124d912",
+   "title": "Trivia",
+   "start": "2026-10-28T19:00-05:00",
+   "end": null,
+   "all_day": false,
+   "category": "dance",
+   "price": 0.0,
+   "description": "",
+   "url": "https://thebrassringmadison.com/",
+   "image": "",
+   "venue": "Brass Ring",
+   "venue_id": "osm:node/1348850923",
+   "venue_kind": "bar",
+   "address": "",
+   "lat": 43.0798047,
+   "lon": -89.3763834,
+   "source": "extra",
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "b73e3bb45154",
    "title": "Trivia Night (Premier Trivia)",
    "start": "2026-10-28T19:00-05:00",
@@ -3075,6 +2932,30 @@
    "link_ok": true
   },
   {
+   "id": "9578300d3a0c",
+   "title": "Pop Culture Improv: Lord of the Rings",
+   "start": "2026-10-28T19:00-05:00",
+   "end": null,
+   "all_day": false,
+   "category": "comedy",
+   "price": null,
+   "description": "",
+   "url": "",
+   "image": "",
+   "venue": "Forward Club",
+   "venue_id": "cal:forward-club",
+   "venue_kind": "venue",
+   "address": "",
+   "lat": null,
+   "lon": null,
+   "source": "extra",
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ],
+   "link_ok": null
+  },
+  {
    "id": "35375fbc24c1",
    "title": "Brewers @ Rays",
    "start": "2026-10-28T19:00-05:00",
@@ -3094,6 +2975,30 @@
    "source": "scraped",
    "sources": [
     "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "2209f4b17cb2",
+   "title": "The Grazers",
+   "start": "2026-10-28T19:00-05:00",
+   "end": "2026-10-28T21:00-05:00",
+   "all_day": false,
+   "category": "other",
+   "price": 0.0,
+   "description": "",
+   "url": "http://malthousetavern.com/",
+   "image": "",
+   "venue": "The Malt House",
+   "venue_id": "osm:way/592859743",
+   "venue_kind": "bar",
+   "address": "2609 East Washington Avenue",
+   "lat": 43.1005011,
+   "lon": -89.3482198,
+   "source": "extra",
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
    ],
    "link_ok": true
   },
@@ -3432,7 +3337,7 @@
    "all_day": false,
    "category": "other",
    "price": null,
-   "description": "EHS Feeder Program Fall Academy at Warner Park Community Recreation Center, 1625 Northport Drive.",
+   "description": "Fall Academy at Warner Park Community Recreation Center, 1625 Northport Drive.",
    "url": "https://www.cityofmadison.com/parks/find-a-park/reindahl/pavilion-at-the-imagination-center",
    "image": "",
    "venue": "Reindahl Park Pavillion",
@@ -3455,7 +3360,7 @@
    "all_day": false,
    "category": "other",
    "price": null,
-   "description": "EHS Feeder Program Fall Academy at Warner Park Community Recreation Center, 1625 Northport Drive.",
+   "description": "Fall Academy at Warner Park Community Recreation Center, 1625 Northport Drive.",
    "url": "https://www.cityofmadison.com/parks/find-a-park/park.cfm?id=1364",
    "image": "",
    "venue": "Veterans Memorial Park",
@@ -3629,6 +3534,30 @@
    "source": "scraped",
    "sources": [
     "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "bc0fd0b52d26",
+   "title": "Trivia",
+   "start": "2026-10-29T19:00-05:00",
+   "end": null,
+   "all_day": false,
+   "category": "dance",
+   "price": 0.0,
+   "description": "",
+   "url": "https://thebrassringmadison.com/",
+   "image": "",
+   "venue": "Brass Ring",
+   "venue_id": "osm:node/1348850923",
+   "venue_kind": "bar",
+   "address": "",
+   "lat": 43.0798047,
+   "lon": -89.3763834,
+   "source": "extra",
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
    ],
    "link_ok": true
   },
@@ -4104,7 +4033,7 @@
    "all_day": false,
    "category": "other",
    "price": null,
-   "description": "Halloween family celebration at Warner Park Community Recreation Center, 1625 Northport Drive.",
+   "description": "Halloween celebration at Warner Park Community Recreation Center, 1625 Northport Drive.",
    "url": "https://www.cityofmadison.com/parks/find-a-park/reindahl/pavilion-at-the-imagination-center",
    "image": "",
    "venue": "Reindahl Park Pavillion",
@@ -4127,7 +4056,7 @@
    "all_day": false,
    "category": "other",
    "price": null,
-   "description": "Halloween family celebration at Warner Park Community Recreation Center, 1625 Northport Drive.",
+   "description": "Halloween celebration at Warner Park Community Recreation Center, 1625 Northport Drive.",
    "url": "https://www.cityofmadison.com/parks/find-a-park/park.cfm?id=1364",
    "image": "",
    "venue": "Veterans Memorial Park",
@@ -6184,14 +6113,14 @@
    "link_ok": true
   },
   {
-   "id": "0be3254a59c2",
-   "title": "Open Mic with Martin Hunt",
+   "id": "7e863e8f2125",
+   "title": "Open Mic w/ Martin Hunt",
    "start": "2026-11-03T18:00-06:00",
    "end": "2026-11-03T21:00-06:00",
    "all_day": false,
    "category": "open_mic",
-   "price": null,
-   "description": "",
+   "price": 0.0,
+   "description": "Open mic hosted by Martin Hunt for all musical skill levels. Free. Bar opens at 5:00pm and food is available from the grill.",
    "url": "https://escmadison.com",
    "image": "",
    "venue": "East Side Club",
@@ -6200,11 +6129,8 @@
    "address": "3735 Monona Drive",
    "lat": 43.0863319,
    "lon": -89.3272545,
-   "source": "extra",
-   "via": "Isthmus",
-   "city": "Madison",
+   "source": "ai",
    "sources": [
-    "Isthmus",
     "AI page reading"
    ],
    "link_ok": true
@@ -7049,6 +6975,52 @@
    "link_ok": null
   },
   {
+   "id": "57d8956e78e4",
+   "title": "Parks Alive Fall | Warner",
+   "start": "2026-11-04T17:00-06:00",
+   "end": "2026-11-04T19:00-06:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Parks Alive Fall event at Warner Park Community Recreation Center, 1625 Northport Dr.",
+   "url": "https://www.cityofmadison.com/parks/find-a-park/reindahl/pavilion-at-the-imagination-center",
+   "image": "",
+   "venue": "Reindahl Park Pavillion",
+   "venue_id": "osm:way/1562302804",
+   "venue_kind": "community",
+   "address": "1814 Parkside Drive",
+   "lat": 43.1243555,
+   "lon": -89.3168108,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "d3b00d9a314e",
+   "title": "Parks Alive Fall | Warner",
+   "start": "2026-11-04T17:00-06:00",
+   "end": "2026-11-04T19:00-06:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Parks Alive Fall event at Warner Park Community Recreation Center, 1625 Northport Dr.",
+   "url": "https://www.cityofmadison.com/parks/find-a-park/park.cfm?id=1364",
+   "image": "",
+   "venue": "Veterans Memorial Park",
+   "venue_id": "osm:way/406680688",
+   "venue_kind": "veterans",
+   "address": "4601 Star Spangled Trail",
+   "lat": 43.0324635,
+   "lon": -89.2926519,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "036d11f98abc",
    "title": "Trivia",
    "start": "2026-11-04T18:00-06:00",
@@ -7098,13 +7070,13 @@
    "link_ok": true
   },
   {
-   "id": "2f509b71f51b",
-   "title": "Borris",
+   "id": "43644e607c70",
+   "title": "Trivia",
    "start": "2026-11-04T18:00-06:00",
-   "end": "2026-11-04T20:00-06:00",
+   "end": null,
    "all_day": false,
-   "category": "other",
-   "price": null,
+   "category": "trivia",
+   "price": 0.0,
    "description": "",
    "url": "",
    "image": "",
@@ -7123,13 +7095,13 @@
    "link_ok": null
   },
   {
-   "id": "43644e607c70",
-   "title": "Trivia",
+   "id": "2f509b71f51b",
+   "title": "Borris",
    "start": "2026-11-04T18:00-06:00",
-   "end": null,
+   "end": "2026-11-04T20:00-06:00",
    "all_day": false,
-   "category": "trivia",
-   "price": 0.0,
+   "category": "other",
+   "price": null,
    "description": "",
    "url": "",
    "image": "",
@@ -7239,6 +7211,30 @@
     "AI page reading"
    ],
    "link_ok": true
+  },
+  {
+   "id": "dae9c2bab20c",
+   "title": "Trivia",
+   "start": "2026-11-04T18:30-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "trivia",
+   "price": 0.0,
+   "description": "",
+   "url": "",
+   "image": "",
+   "venue": "Lone Girl Brewing Company",
+   "venue_id": "osm:node/4064427482",
+   "venue_kind": "brewery",
+   "address": "",
+   "lat": 43.1917558,
+   "lon": -89.454225,
+   "source": "extra",
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ],
+   "link_ok": null
   },
   {
    "id": "debeaff45c96",
@@ -7353,6 +7349,30 @@
    "source": "scraped",
    "sources": [
     "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "63406725ba9e",
+   "title": "Trivia",
+   "start": "2026-11-04T19:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "dance",
+   "price": 0.0,
+   "description": "",
+   "url": "https://thebrassringmadison.com/",
+   "image": "",
+   "venue": "Brass Ring",
+   "venue_id": "osm:node/1348850923",
+   "venue_kind": "bar",
+   "address": "",
+   "lat": 43.0798047,
+   "lon": -89.3763834,
+   "source": "extra",
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
    ],
    "link_ok": true
   },
@@ -7704,6 +7724,30 @@
     "Isthmus"
    ],
    "link_ok": null
+  },
+  {
+   "id": "7d818e30d060",
+   "title": "Trivia",
+   "start": "2026-11-05T19:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "dance",
+   "price": 0.0,
+   "description": "",
+   "url": "https://thebrassringmadison.com/",
+   "image": "",
+   "venue": "Brass Ring",
+   "venue_id": "osm:node/1348850923",
+   "venue_kind": "bar",
+   "address": "",
+   "lat": 43.0798047,
+   "lon": -89.3763834,
+   "source": "extra",
+   "via": "Isthmus",
+   "sources": [
+    "Isthmus"
+   ],
+   "link_ok": true
   },
   {
    "id": "7379f6b694b3",
@@ -9752,6 +9796,29 @@
     "Isthmus"
    ],
    "link_ok": null
+  },
+  {
+   "id": "2321d8b58310",
+   "title": "Zumba",
+   "start": "2026-11-10T18:00-06:00",
+   "end": "2026-11-10T19:00-06:00",
+   "all_day": false,
+   "category": "dance",
+   "price": null,
+   "description": "Join us for a high-energy Zumba class, where you can dance, sweat, and have fun while getting fit with a great group of people! Pre-registration is not required.",
+   "url": "https://bayviewfoundation.org/event/zumba/2026-11-10/",
+   "image": "https://bayviewfoundation.org/wp-content/uploads/2024/12/health-wellness.png",
+   "venue": "Bayview Community Center",
+   "venue_id": "osm:way/1323648187",
+   "venue_kind": "community",
+   "address": "103 La Mariposa Lane",
+   "lat": 43.0663858,
+   "lon": -89.3975076,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
   }
  ]
 }
