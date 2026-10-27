@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-10-27T11:24:10-05:00",
- "total_events": 410,
- "in_more_than_one_source": 24,
+ "generated_at": "2026-10-27T11:39:36-05:00",
+ "total_events": 409,
+ "in_more_than_one_source": 22,
  "sources": {
   "AI page reading": {
-   "events": 154,
-   "unique_events": 135,
+   "events": 151,
+   "unique_events": 134,
    "overlap": {
-    "Isthmus": 4,
+    "Isthmus": 2,
     "Ticketmaster": 15,
     "Venue websites": 0
    },
-   "venues": 39,
+   "venues": 38,
    "unique_venues": [
     "Aftershock Classic Arcade",
     "Arts + Literature Laboratory",
@@ -37,8 +37,8 @@
     "Old Sugar Distillery",
     "Oscar Rennebohm Library",
     "Overture Center for the Arts",
-    "Pinney Library",
     "Reindahl Park Pavillion",
+    "Sequoya Library",
     "State Line Distillery",
     "Sun Prairie Public Library",
     "Veterans Memorial Park",
@@ -47,9 +47,9 @@
   },
   "Isthmus": {
    "events": 144,
-   "unique_events": 138,
+   "unique_events": 140,
    "overlap": {
-    "AI page reading": 4,
+    "AI page reading": 2,
     "Ticketmaster": 1,
     "Venue websites": 1
    },
@@ -66,6 +66,7 @@
     "City Center West",
     "Communication",
     "Dancesport",
+    "East Side Club",
     "East Towne Mall",
     "Fitchburg Library",
     "Fontana Sports",

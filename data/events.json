@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-27T11:24:10-05:00",
+ "generated_at": "2026-10-27T11:39:36-05:00",
  "window": {
-  "from": "2026-10-27T05:22-05:00",
-  "to": "2026-11-10T11:22-06:00"
+  "from": "2026-10-27T05:38-05:00",
+  "to": "2026-11-10T11:38-06:00"
  },
- "count": 410,
+ "count": 409,
  "events": [
   {
    "id": "c7464f5943e9",
@@ -286,8 +286,7 @@
    "via": "Isthmus",
    "city": "Madison",
    "sources": [
-    "Isthmus",
-    "AI page reading"
+    "Isthmus"
    ]
   },
   {
@@ -362,7 +361,7 @@
    "all_day": false,
    "category": "other",
    "price": null,
-   "description": "Part of a 6-part mini figure painting series, held in the Community Room.",
+   "description": "Part 5 of a 6-part mini figure painting series in the Community Room.",
    "url": "https://www.madisonpubliclibrary.org/locations/imagination-center",
    "venue": "Imagination Center",
    "venue_id": "osm:way/1562302805",
@@ -463,21 +462,21 @@
    ]
   },
   {
-   "id": "d1d6d9680887",
+   "id": "bca8178f23ab",
    "title": "Mini Figure Painting (5 of 6 part series)",
    "start": "2026-10-27T18:00-05:00",
    "end": "2026-10-27T19:30-05:00",
    "all_day": false,
    "category": "other",
    "price": null,
-   "description": "Part of a 6-part mini figure painting series, held in the Community Room.",
-   "url": "https://www.madisonpubliclibrary.org/locations/pinney-library",
-   "venue": "Pinney Library",
-   "venue_id": "osm:node/7234376294",
+   "description": "Part 5 of a 6-part mini figure painting series in the Community Room.",
+   "url": "https://www.madisonpubliclibrary.org/sequoya",
+   "venue": "Sequoya Library",
+   "venue_id": "osm:node/1473488018",
    "venue_kind": "library",
-   "address": "516 Cottage Grove Road",
-   "lat": 43.0841729,
-   "lon": -89.3176486,
+   "address": "4340 Tokay Boulevard",
+   "lat": 43.0537698,
+   "lon": -89.4505289,
    "source": "ai",
    "sources": [
     "AI page reading"
@@ -2213,7 +2212,7 @@
    "all_day": false,
    "category": "other",
    "price": null,
-   "description": "Journaling session focused on mental health, held in the Classroom.",
+   "description": "Journaling session focused on mental health in the Classroom.",
    "url": "https://www.madisonpubliclibrary.org/locations/imagination-center",
    "venue": "Imagination Center",
    "venue_id": "osm:way/1562302805",
@@ -2294,21 +2293,21 @@
    ]
   },
   {
-   "id": "5748e76f99d7",
+   "id": "02c9bf1d1261",
    "title": "Journaling for Mental Health",
    "start": "2026-10-28T17:30-05:00",
    "end": "2026-10-28T18:30-05:00",
    "all_day": false,
    "category": "other",
    "price": null,
-   "description": "Journaling session focused on mental health, held in the Classroom.",
-   "url": "https://www.madisonpubliclibrary.org/locations/pinney-library",
-   "venue": "Pinney Library",
-   "venue_id": "osm:node/7234376294",
+   "description": "Journaling session focused on mental health in the Classroom.",
+   "url": "https://www.madisonpubliclibrary.org/sequoya",
+   "venue": "Sequoya Library",
+   "venue_id": "osm:node/1473488018",
    "venue_kind": "library",
-   "address": "516 Cottage Grove Road",
-   "lat": 43.0841729,
-   "lon": -89.3176486,
+   "address": "4340 Tokay Boulevard",
+   "lat": 43.0537698,
+   "lon": -89.4505289,
    "source": "ai",
    "sources": [
     "AI page reading"
@@ -5630,8 +5629,7 @@
    "via": "Isthmus",
    "city": "Madison",
    "sources": [
-    "Isthmus",
-    "AI page reading"
+    "Isthmus"
    ]
   },
   {
@@ -7821,27 +7819,6 @@
    "address": "201 State Street",
    "lat": 43.0741518,
    "lon": -89.3885839,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ]
-  },
-  {
-   "id": "ba5628e076fe",
-   "title": "East Side Club Holiday Craft and Vendor Fair",
-   "start": "2026-11-07T09:00-06:00",
-   "end": "2026-11-07T15:00-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": 0.0,
-   "description": "Two floors of handmade crafts and vendors with a Bloody Mary Bar. Free admission; food available for purchase.",
-   "url": "https://escmadison.com",
-   "venue": "East Side Club",
-   "venue_id": "osm:way/541940185",
-   "venue_kind": "lodge",
-   "address": "3735 Monona Drive",
-   "lat": 43.0863319,
-   "lon": -89.3272545,
    "source": "ai",
    "sources": [
     "AI page reading"

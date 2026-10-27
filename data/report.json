@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-27T11:24:10-05:00",
+ "generated_at": "2026-10-27T11:39:36-05:00",
  "venues_checked": 237,
- "venues_with_events": 69,
- "venues_with_feeds": 89,
- "events": 410,
- "filtered_out": 164,
+ "venues_with_events": 67,
+ "venues_with_feeds": 87,
+ "events": 409,
+ "filtered_out": 166,
  "venues": [
   {
    "name": "AI page reading",
@@ -13,12 +13,12 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 200,
+   "raw_events": 197,
    "error": "",
-   "calls": 15,
-   "tokens_in": 42444,
-   "tokens_out": 16026,
-   "est_cost_usd": 0.0123
+   "calls": 3,
+   "tokens_in": 11336,
+   "tokens_out": 4259,
+   "est_cost_usd": 0.0033
   },
   {
    "name": "Isthmus calendar",
@@ -28,7 +28,7 @@
     "calendar"
    ],
    "raw_events": 160,
-   "error": ""
+   "error": "used today's copy (read once a day)"
   },
   {
    "name": "Bayview Community Center",
@@ -114,7 +114,7 @@
     "jsonld",
     "jsonld"
    ],
-   "raw_events": 29,
+   "raw_events": 30,
    "error": ""
   },
   {
@@ -246,16 +246,6 @@
    "error": ""
   },
   {
-   "name": "Alicia Ashman Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 6,
-   "error": ""
-  },
-  {
    "name": "Arts + Literature Laboratory",
    "kind": "venue",
    "website": "https://artlitlab.org/",
@@ -289,16 +279,6 @@
    "error": ""
   },
   {
-   "name": "Imagination Center",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 6,
-   "error": ""
-  },
-  {
    "name": "Orpheum Theatre",
    "kind": "venue",
    "website": "https://madisonorpheum.com/",
@@ -309,13 +289,13 @@
    "error": ""
   },
   {
-   "name": "Pinney Library",
+   "name": "Alicia Ashman Library",
    "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
+   "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
    "feeds": [
     "ai"
    ],
-   "raw_events": 6,
+   "raw_events": 5,
    "error": ""
   },
   {
@@ -353,9 +333,39 @@
    "error": ""
   },
   {
+   "name": "Imagination Center",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 5,
+   "error": ""
+  },
+  {
    "name": "Monroe Street Library",
    "kind": "library",
    "website": "https://www.madisonpubliclibrary.org/monroe-street",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 5,
+   "error": ""
+  },
+  {
+   "name": "Pinney Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 5,
+   "error": ""
+  },
+  {
+   "name": "Sequoya Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/sequoya",
    "feeds": [
     "ai"
    ],
@@ -477,16 +487,6 @@
    "feeds": [
     "tribe",
     "jsonld"
-   ],
-   "raw_events": 3,
-   "error": ""
-  },
-  {
-   "name": "East Side Club",
-   "kind": "lodge",
-   "website": "https://escmadison.com",
-   "feeds": [
-    "ai"
    ],
    "raw_events": 3,
    "error": ""
@@ -676,16 +676,6 @@
    "error": ""
   },
   {
-   "name": "Central Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/central",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 1,
-   "error": ""
-  },
-  {
    "name": "Goodman Community Center",
    "kind": "community",
    "website": "https://www.goodmancenter.org/",
@@ -731,16 +721,6 @@
    "website": "https://www.quiveysgrove.com/stable-grill",
    "feeds": [
     "jsonld"
-   ],
-   "raw_events": 1,
-   "error": ""
-  },
-  {
-   "name": "Sequoya Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/sequoya",
-   "feeds": [
-    "ai"
    ],
    "raw_events": 1,
    "error": ""
@@ -930,6 +910,14 @@
    "error": "PermissionError: robots.txt disallows https://www.facebook.com/cargocoffeeeast/"
   },
   {
+   "name": "Central Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/central",
+   "feeds": [],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
    "name": "Cervato Wine & Tapas",
    "kind": "bar",
    "website": "https://cervatowine.com/",
@@ -1044,6 +1032,14 @@
    "feeds": [],
    "raw_events": 0,
    "error": ""
+  },
+  {
+   "name": "East Side Club",
+   "kind": "lodge",
+   "website": "https://escmadison.com",
+   "feeds": [],
+   "raw_events": 0,
+   "error": "ai: ConnectionError: HTTPSConnectionPool(host='escmadison.com', port=443): Max retries exceeded with url: /events (Caused by NewConnectionError(\"HTTPSConnection(host='escmadison.com', port=443): Faile; ai: ConnectionError: HTTPSConnectionPool(host='escmadison.com', port=443): Max retries exceeded with url: /event-rentals (Caused by NewConnectionError(\"HTTPSConnection(host='escmadison.com', port=443)"
   },
   {
    "name": "FIVE Nightclub",
@@ -1373,7 +1369,7 @@
   {
    "name": "Madison Chocolate Company",
    "kind": "cafe",
-   "website": "https://madisonchocolate.com",
+   "website": "https://www.madisonchocolatecompany.com",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1381,7 +1377,7 @@
   {
    "name": "Madison Chocolate Company",
    "kind": "cafe",
-   "website": "https://www.madisonchocolatecompany.com",
+   "website": "https://madisonchocolate.com",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1453,7 +1449,7 @@
   {
    "name": "Moka",
    "kind": "cafe",
-   "website": "https://mymokacoffee.com/",
+   "website": "https://www.mymokacoffee.com/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1461,7 +1457,7 @@
   {
    "name": "Moka",
    "kind": "cafe",
-   "website": "https://www.mymokacoffee.com/",
+   "website": "https://mymokacoffee.com/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
