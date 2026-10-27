@@ -1,0 +1,32 @@
+{
+ "venue": {
+  "what": "venue",
+  "to_check": 23,
+  "answered": 20,
+  "no_page": 3,
+  "skipped_site": 0,
+  "api_errors": {},
+  "key_present": true,
+  "at": "2026-10-27T11:49:44.741867-05:00"
+ },
+ "restaurant": {
+  "what": "restaurant",
+  "to_check": 193,
+  "answered": 152,
+  "no_page": 41,
+  "skipped_site": 0,
+  "api_errors": {},
+  "key_present": true,
+  "at": "2026-10-27T11:51:17.672239-05:00"
+ },
+ "activity": {
+  "what": "activity",
+  "to_check": 8,
+  "answered": 4,
+  "no_page": 4,
+  "skipped_site": 0,
+  "api_errors": {},
+  "key_present": true,
+  "at": "2026-10-27T11:51:31.593078-05:00"
+ }
+}
