@@ -25,7 +25,8 @@
    "website": "https://www.aftershockclassicarcade.com/",
    "hours": null,
    "bar": true,
-   "alcohol": true
+   "alcohol": true,
+   "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
    "id": "osm:way/1135060528",
@@ -55,7 +56,8 @@
    "website": "https://locations.chuckecheese.com/us/wi/madison/438-grand-canyon-dr.",
    "hours": null,
    "bar": false,
-   "alcohol": null
+   "alcohol": null,
+   "image": "https://www.chuckecheese.com/wp-content/uploads/2025/09/CEC_Logo-01.png"
   },
   {
    "id": "osm:node/5425792364",
@@ -85,7 +87,9 @@
    "website": "https://www.doubletapbeercade.com/location/madison/",
    "hours": null,
    "bar": true,
-   "alcohol": true
+   "alcohol": true,
+   "alcohol_src": "OpenStreetMap tag or name/type rule",
+   "image": "https://images.getbento.com/accounts/86e4f8dbf7bab512b2bdbd5a8716a863/media/images/49176mario-kart-racing-arcade-games-madison.jpg?w=1200&fit=crop&auto=compress,format&cs=origin&h=600"
   },
   {
    "id": "osm:node/5503513787",
@@ -135,7 +139,8 @@
    "website": "",
    "hours": null,
    "bar": true,
-   "alcohol": true
+   "alcohol": true,
+   "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
    "id": "osm:node/12142917276",
@@ -180,7 +185,9 @@
    "website": "https://www.madisonaxe.com/",
    "hours": null,
    "bar": false,
-   "alcohol": true
+   "alcohol": true,
+   "alcohol_src": "OpenStreetMap tag or name/type rule",
+   "image": "https://static.wixstatic.com/media/13e550_addf7309482d436b9eeb8967f5dc8c22%7Emv2.png/v1/fit/w_2500,h_1330,al_c/13e550_addf7309482d436b9eeb8967f5dc8c22%7Emv2.png"
   },
   {
    "id": "osm:way/105672048",
@@ -195,7 +202,8 @@
    "website": "https://bowlavard.com/",
    "hours": null,
    "bar": false,
-   "alcohol": true
+   "alcohol": true,
+   "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
    "id": "osm:way/438200040",
@@ -210,7 +218,8 @@
    "website": "",
    "hours": null,
    "bar": false,
-   "alcohol": true
+   "alcohol": true,
+   "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
    "id": "osm:node/6193010119",
@@ -225,7 +234,8 @@
    "website": "",
    "hours": null,
    "bar": false,
-   "alcohol": true
+   "alcohol": true,
+   "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
    "id": "osm:way/105823610",
@@ -240,7 +250,8 @@
    "website": "",
    "hours": null,
    "bar": false,
-   "alcohol": true
+   "alcohol": true,
+   "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
    "id": "osm:way/106497401",
@@ -255,7 +266,8 @@
    "website": "",
    "hours": null,
    "bar": false,
-   "alcohol": true
+   "alcohol": true,
+   "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
    "id": "osm:way/107655171",
@@ -270,7 +282,9 @@
    "website": "https://www.tenpinalleys.com/",
    "hours": null,
    "bar": false,
-   "alcohol": true
+   "alcohol": true,
+   "alcohol_src": "OpenStreetMap tag or name/type rule",
+   "image": "https://irp.cdn-website.com/83ca9041/dms3rep/multi/opt/AdobeStock_623021486-1920w.jpeg"
   },
   {
    "id": "osm:way/97601589",
@@ -285,7 +299,8 @@
    "website": "",
    "hours": null,
    "bar": true,
-   "alcohol": true
+   "alcohol": true,
+   "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
    "id": "osm:node/5065146259",
@@ -300,7 +315,8 @@
    "website": "",
    "hours": null,
    "bar": false,
-   "alcohol": true
+   "alcohol": true,
+   "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
    "id": "osm:way/241950471",
@@ -315,7 +331,8 @@
    "website": "",
    "hours": null,
    "bar": false,
-   "alcohol": true
+   "alcohol": true,
+   "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
    "id": "osm:way/370277876",
@@ -360,7 +377,8 @@
    "website": "https://www.flixbrewhouse.com/madison",
    "hours": null,
    "bar": false,
-   "alcohol": null
+   "alcohol": true,
+   "alcohol_src": "AI website check"
   },
   {
    "id": "osm:way/539042285",
@@ -375,7 +393,8 @@
    "website": "https://www.marcustheatres.com/theatre-locations/palace-cinema-sun-prairie",
    "hours": null,
    "bar": false,
-   "alcohol": null
+   "alcohol": null,
+   "image": "https://www.marcustheatres.com/marcusog.png"
   },
   {
    "id": "osm:way/49982470",
@@ -390,7 +409,8 @@
    "website": "http://marcustheatres.com/Theatre/TheatreDetail/141/",
    "hours": null,
    "bar": false,
-   "alcohol": null
+   "alcohol": null,
+   "image": "https://www.marcustheatres.com/marcusog.png"
   },
   {
    "id": "osm:node/2969024345",
@@ -446,7 +466,9 @@
     ]
    ],
    "bar": false,
-   "alcohol": true
+   "alcohol": true,
+   "alcohol_src": "OpenStreetMap tag or name/type rule",
+   "image": "https://static.spotapps.co/website_images/ab_websites/253077_website_v1/social.jpg"
   },
   {
    "id": "osm:node/5642132121",
@@ -461,7 +483,8 @@
    "website": "",
    "hours": null,
    "bar": false,
-   "alcohol": false
+   "alcohol": false,
+   "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
    "id": "osm:node/9160574717",
@@ -476,7 +499,8 @@
    "website": "",
    "hours": null,
    "bar": false,
-   "alcohol": false
+   "alcohol": false,
+   "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
    "id": "osm:node/5457526617",
@@ -491,7 +515,8 @@
    "website": "https://www.skyzone.com/madison",
    "hours": null,
    "bar": false,
-   "alcohol": false
+   "alcohol": false,
+   "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
    "id": "osm:way/86579194",
@@ -538,7 +563,8 @@
     ]
    ],
    "bar": false,
-   "alcohol": false
+   "alcohol": false,
+   "alcohol_src": "OpenStreetMap tag or name/type rule"
   }
  ]
 }

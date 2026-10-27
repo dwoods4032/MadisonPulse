@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-10-27T11:39:36-05:00",
- "total_events": 409,
- "in_more_than_one_source": 22,
+ "generated_at": "2026-10-27T11:48:04-05:00",
+ "total_events": 406,
+ "in_more_than_one_source": 24,
  "sources": {
   "AI page reading": {
-   "events": 151,
-   "unique_events": 134,
+   "events": 150,
+   "unique_events": 131,
    "overlap": {
-    "Isthmus": 2,
+    "Isthmus": 4,
     "Ticketmaster": 15,
     "Venue websites": 0
    },
-   "venues": 38,
+   "venues": 37,
    "unique_venues": [
     "Aftershock Classic Arcade",
     "Arts + Literature Laboratory",
@@ -25,7 +25,6 @@
     "Ebling Library",
     "Flight Wine & Bourbon Bar",
     "Grey Market",
-    "Imagination Center",
     "Italian Workmen's Club",
     "Karben4 Brewing",
     "Lakeside Street Coffee House",
@@ -38,7 +37,6 @@
     "Oscar Rennebohm Library",
     "Overture Center for the Arts",
     "Reindahl Park Pavillion",
-    "Sequoya Library",
     "State Line Distillery",
     "Sun Prairie Public Library",
     "Veterans Memorial Park",
@@ -47,9 +45,9 @@
   },
   "Isthmus": {
    "events": 144,
-   "unique_events": 140,
+   "unique_events": 138,
    "overlap": {
-    "AI page reading": 2,
+    "AI page reading": 4,
     "Ticketmaster": 1,
     "Venue websites": 1
    },
@@ -66,7 +64,6 @@
     "City Center West",
     "Communication",
     "Dancesport",
-    "East Side Club",
     "East Towne Mall",
     "Fitchburg Library",
     "Fontana Sports",
