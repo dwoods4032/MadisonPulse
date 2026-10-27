@@ -169,75 +169,10 @@
   "events": []
  },
  "https://gammaray.bar/shows/": {
-  "hash": "fccb59876a237ebf15079e83308cf4469aff7fac",
-  "asked": "2026-10-26T15:19:30-05:00",
-  "on": "2026-10-26",
-  "events": [
-   {
-    "title": "King Falcon w/ The Forty Twos",
-    "date": "2026-10-27",
-    "start": "20:00",
-    "end": null,
-    "price": null,
-    "description": "Doors 7pm. Show 8pm."
-   },
-   {
-    "title": "Mariah Ann // Courtesy Call // Porchflowers // Eli Gray & The Steel Hearts",
-    "date": "2026-10-29",
-    "start": "19:00",
-    "end": null,
-    "price": null,
-    "description": "Doors 6pm. Show 7pm."
-   },
-   {
-    "title": "Monster Bash ft. Them & The Things, The Brush Strokes (Strokes Tribute) and American Literate (Green Day Tribute)",
-    "date": "2026-10-30",
-    "start": "20:00",
-    "end": null,
-    "price": null,
-    "description": "Doors 7pm. Show 8pm."
-   },
-   {
-    "title": "Halloween with Friend Request",
-    "date": "2026-10-31",
-    "start": "20:00",
-    "end": null,
-    "price": null,
-    "description": "Doors 7pm. Show 8pm."
-   },
-   {
-    "title": "Gamma Ray Bar Presents: Music Video Trivia",
-    "date": "2026-11-02",
-    "start": "18:00",
-    "end": null,
-    "price": null,
-    "description": "Doors 5:45pm. Show 6pm."
-   },
-   {
-    "title": "Axis: Sova // Slick // The Moss Men",
-    "date": "2026-11-04",
-    "start": "20:00",
-    "end": null,
-    "price": null,
-    "description": "Doors 7pm. Show 8pm."
-   },
-   {
-    "title": "Droids Attack // Peacemaker // The Eggs",
-    "date": "2026-11-07",
-    "start": "20:00",
-    "end": null,
-    "price": null,
-    "description": "Doors 7pm. Show 8pm."
-   },
-   {
-    "title": "Dusk // Visual Learner // Yuasa-Exide // Boo/Hiss",
-    "date": "2026-11-08",
-    "start": "20:00",
-    "end": null,
-    "price": null,
-    "description": "Doors 7pm. Show 8pm."
-   }
-  ]
+  "hash": "e70437bf01c54b2349dd534d6456d8786639e586",
+  "asked": "2026-10-27T17:20:41-05:00",
+  "on": "2026-10-27",
+  "events": []
  },
  "https://www.thecrystalcornerbar.com/Calendar.htm": {
   "hash": "743df6ac3ce38e1f07c9e023c2d51f3ed7d4b609",
@@ -952,9 +887,9 @@
   ]
  },
  "https://doundrins.com/pages/events": {
-  "hash": "5a27f7ca4fff8fb0b752177e9e697dd9f4490415",
-  "asked": "2026-10-26T15:19:44-05:00",
-  "on": "2026-10-26",
+  "hash": "a901c358b5d4924e596d10cb08235b998135f5d2",
+  "asked": "2026-10-27T17:20:43-05:00",
+  "on": "2026-10-27",
   "events": [
    {
     "title": "Paint & Sip: \"Little Boo\"",
@@ -962,7 +897,8 @@
     "start": null,
     "end": null,
     "price": 35,
-    "description": "Paint & Sip event, one of two dates listed (October 21st & 30th)."
+    "description": "Paint & Sip event at Doundrins, Oct 30 (listed with Oct 21 date).",
+    "category": "other"
    },
    {
     "title": "Rare Plant Bingo",
@@ -970,7 +906,8 @@
     "start": null,
     "end": null,
     "price": 50,
-    "description": "Rare Plant Bingo event at the tasting room."
+    "description": "Rare Plant Bingo at Doundrins on 11/7.",
+    "category": "bingo"
    }
   ]
  },
@@ -1566,8 +1503,8 @@
   "events": []
  },
  "https://www.madisonpubliclibrary.org/spaces/events": {
-  "hash": "e41a6932aa74d4b22d864f95bdede38683376ecb",
-  "asked": "2026-10-27T16:17:43-05:00",
+  "hash": "6c5ff84d1a1b441d29954864c6345fa2ac408a41",
+  "asked": "2026-10-27T17:21:36-05:00",
   "on": "2026-10-27",
   "events": []
  },
@@ -1601,8 +1538,8 @@
   "events": []
  },
  "https://www.sunprairiepubliclibrary.org/home-delivery-service": {
-  "hash": "ccb0022e2c9c391206269d7fe7fbaec2fc2208bc",
-  "asked": "2026-10-27T14:36:47-05:00",
+  "hash": "4e9edf75bdf152cc0977b9b9f80d61b1e6915444",
+  "asked": "2026-10-27T17:21:32-05:00",
   "on": "2026-10-27",
   "events": [
    {
@@ -1611,7 +1548,7 @@
     "start": "18:00",
     "end": "20:00",
     "price": null,
-    "description": "Library pumpkin decorating for family, teens and adults.",
+    "description": "Pumpkin decorating for family, teens and adults at Sun Prairie Public Library.",
     "category": "other"
    },
    {
@@ -1620,7 +1557,7 @@
     "start": "19:00",
     "end": "20:00",
     "price": null,
-    "description": "Adult evening book club at Sun Prairie Public Library.",
+    "description": "Evening book club for adults at Sun Prairie Public Library.",
     "category": "other"
    },
    {
@@ -1629,7 +1566,7 @@
     "start": "10:00",
     "end": "10:30",
     "price": null,
-    "description": "Outdoor storytime for family and children ages 0-5.",
+    "description": "Outdoor storytime for families and children ages 0-5.",
     "category": "other"
    },
    {
@@ -1638,7 +1575,7 @@
     "start": "17:00",
     "end": "17:30",
     "price": null,
-    "description": "Spanish-language storytime for family and children ages 0-5.",
+    "description": "Spanish-language storytime for families and children ages 0-5.",
     "category": "other"
    },
    {
@@ -1647,7 +1584,7 @@
     "start": "18:00",
     "end": "19:30",
     "price": null,
-    "description": "Handpan program for teens and adults.",
+    "description": "Handpan event for teens and adults at Sun Prairie Public Library.",
     "category": "music"
    }
   ]
@@ -1713,20 +1650,10 @@
   ]
  },
  "https://www.madisonpubliclibrary.org/spaces/events/search": {
-  "hash": "bbd97e263e74fe0622007ac3f0ef502da86481d4",
-  "asked": "2026-10-27T16:17:45-05:00",
+  "hash": "d8c4dba2e3f6e64b86bef1544cdf593112dffb1f",
+  "asked": "2026-10-27T17:21:48-05:00",
   "on": "2026-10-27",
-  "events": [
-   {
-    "title": "\"Parties, Issues, and Candidates in 2026\" with Charles Franklin, sponsored by Midvale Heights Community Association",
-    "date": "2026-10-27",
-    "start": "18:00",
-    "end": "19:30",
-    "price": null,
-    "description": "Charles Franklin, Director of the Marquette Law School Poll, discusses how voters are feeling about the 2026 election. Presented by the Midvale Heights Community Association and Sequoya Library.",
-    "category": "other"
-   }
-  ]
+  "events": []
  },
  "https://artlitlab.org/calendar": {
   "hash": "0f520ecc389dd7a6729b797cd08c708119db82f7",

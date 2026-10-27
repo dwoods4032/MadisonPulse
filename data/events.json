@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-27T16:17:55-05:00",
+ "generated_at": "2026-10-27T17:21:49-05:00",
  "window": {
-  "from": "2026-10-27T10:16-05:00",
-  "to": "2026-11-10T16:16-06:00"
+  "from": "2026-10-27T11:20-05:00",
+  "to": "2026-11-10T17:20-06:00"
  },
- "count": 413,
+ "count": 361,
  "events": [
   {
    "id": "c7464f5943e9",
@@ -268,52 +268,6 @@
    "link_ok": null
   },
   {
-   "id": "922c8def4558",
-   "title": "\"Parties, Issues, and Candidates in 2026\" with Charles Franklin, sponsored by Midvale Heights Community Association",
-   "start": "2026-10-27T18:00-05:00",
-   "end": "2026-10-27T19:30-05:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Charles Franklin, Director of the Marquette Law School Poll, discusses how voters are feeling about the 2026 election. Presented by the Midvale Heights Community Association and Sequoya Library.",
-   "url": "https://www.madisonpubliclibrary.org/about/ashman.html",
-   "image": "",
-   "venue": "Alicia Ashman Library",
-   "venue_id": "osm:node/790662052",
-   "venue_kind": "library",
-   "address": "733 North High Point Road",
-   "lat": 43.0760994,
-   "lon": -89.5175827,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "ecba6d91cb3a",
-   "title": "\"Parties, Issues, and Candidates in 2026\" with Charles Franklin, sponsored by Midvale Heights Community Association",
-   "start": "2026-10-27T18:00-05:00",
-   "end": "2026-10-27T19:30-05:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Charles Franklin, Director of the Marquette Law School Poll, discusses how voters are feeling about the 2026 election. Presented by the Midvale Heights Community Association and Sequoya Library.",
-   "url": "https://www.madisonpubliclibrary.org/central",
-   "image": "",
-   "venue": "Central Library",
-   "venue_id": "osm:way/102316433",
-   "venue_kind": "library",
-   "address": "201 West Mifflin Street",
-   "lat": 43.0736214,
-   "lon": -89.3875186,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "488c9322631c",
    "title": "Open Mic with Martin Hunt",
    "start": "2026-10-27T18:00-05:00",
@@ -417,7 +371,7 @@
    "all_day": false,
    "category": "other",
    "price": null,
-   "description": "Part of a 6-part mini figure painting series at Imagination Center Library, Community Room.",
+   "description": "Part 5 of a 6-part mini figure painting series in the Community Room.",
    "url": "https://www.madisonpubliclibrary.org/locations/imagination-center",
    "image": "",
    "venue": "Imagination Center",
@@ -504,29 +458,6 @@
    "link_ok": null
   },
   {
-   "id": "3dd34ab8be93",
-   "title": "Mini Figure Painting (5 of 6 part series)",
-   "start": "2026-10-27T18:00-05:00",
-   "end": "2026-10-27T19:30-05:00",
-   "all_day": false,
-   "category": "trivia",
-   "price": null,
-   "description": "Hands-on miniature painting series for adults 16+, creating characters for Dungeons & Dragons and other games. This listing is for the Oct 27 session.",
-   "url": "https://www.madisonpubliclibrary.org/monroe-street",
-   "image": "",
-   "venue": "Monroe Street Library",
-   "venue_id": "osm:way/241508509",
-   "venue_kind": "library",
-   "address": "1705 Monroe Street",
-   "lat": 43.0659388,
-   "lon": -89.4152059,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "ca2e085dafd4",
    "title": "Brazilian Choro Jam",
    "start": "2026-10-27T18:00-05:00",
@@ -551,29 +482,6 @@
    "link_ok": null
   },
   {
-   "id": "21cffa9fd514",
-   "title": "\"Parties, Issues, and Candidates in 2026\" with Charles Franklin, sponsored by Midvale Heights Community Association",
-   "start": "2026-10-27T18:00-05:00",
-   "end": "2026-10-27T19:30-05:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Charles Franklin, Director of the Marquette Law School Poll, discusses how voters are feeling about the 2026 election. Presented by the Midvale Heights Community Association and Sequoya Library.",
-   "url": "https://www.madisonpubliclibrary.org/locations/pinney-library",
-   "image": "",
-   "venue": "Pinney Library",
-   "venue_id": "osm:node/7234376294",
-   "venue_kind": "library",
-   "address": "516 Cottage Grove Road",
-   "lat": 43.0841729,
-   "lon": -89.3176486,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "bca8178f23ab",
    "title": "Mini Figure Painting (5 of 6 part series)",
    "start": "2026-10-27T18:00-05:00",
@@ -581,30 +489,7 @@
    "all_day": false,
    "category": "other",
    "price": null,
-   "description": "Part of a 6-part mini figure painting series at Imagination Center Library, Community Room.",
-   "url": "https://www.madisonpubliclibrary.org/sequoya",
-   "image": "",
-   "venue": "Sequoya Library",
-   "venue_id": "osm:node/1473488018",
-   "venue_kind": "library",
-   "address": "4340 Tokay Boulevard",
-   "lat": 43.0537698,
-   "lon": -89.4505289,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "798e64958f22",
-   "title": "\"Parties, Issues, and Candidates in 2026\" with Charles Franklin, sponsored by Midvale Heights Community Association",
-   "start": "2026-10-27T18:00-05:00",
-   "end": "2026-10-27T19:30-05:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Charles Franklin, Director of the Marquette Law School Poll, discusses how voters are feeling about the 2026 election. Presented by the Midvale Heights Community Association and Sequoya Library.",
+   "description": "Part 5 of a 6-part mini figure painting series in the Community Room.",
    "url": "https://www.madisonpubliclibrary.org/sequoya",
    "image": "",
    "venue": "Sequoya Library",
@@ -627,7 +512,7 @@
    "all_day": false,
    "category": "other",
    "price": null,
-   "description": "Library pumpkin decorating for family, teens and adults.",
+   "description": "Pumpkin decorating for family, teens and adults at Sun Prairie Public Library.",
    "url": "https://www.sunprairiepubliclibrary.org/",
    "image": "",
    "venue": "Sun Prairie Public Library",
@@ -1054,29 +939,6 @@
    "link_ok": null
   },
   {
-   "id": "acaff7505f2b",
-   "title": "Film: Seeds for Liberation",
-   "start": "2026-10-27T19:00-05:00",
-   "end": null,
-   "all_day": false,
-   "category": "film",
-   "price": null,
-   "description": "Documentary from Matthew Solomon and Donna Hadjikhani on Palestine's occupation, social media's role in global support, and paths to collective liberation.",
-   "url": "https://bartelltheatre.org/",
-   "image": "",
-   "venue": "Bartell Theatre",
-   "venue_id": "osm:way/265137656",
-   "venue_kind": "venue",
-   "address": "113 East Mifflin Street",
-   "lat": 43.0765271,
-   "lon": -89.3833565,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "634555ba020e",
    "title": "Tango Class/Social by Madison Tango Society",
    "start": "2026-10-27T19:00-05:00",
@@ -1351,7 +1213,7 @@
    "all_day": false,
    "category": "other",
    "price": null,
-   "description": "Adult evening book club at Sun Prairie Public Library.",
+   "description": "Evening book club for adults at Sun Prairie Public Library.",
    "url": "https://www.sunprairiepubliclibrary.org/",
    "image": "",
    "venue": "Sun Prairie Public Library",
@@ -1517,7 +1379,7 @@
    "start": "2026-10-27T19:00-05:00",
    "end": "2026-10-27T22:30-05:00",
    "all_day": false,
-   "category": "other",
+   "category": "sports",
    "price": null,
    "description": "",
    "url": "https://www.workingdraftbeer.com/events/2026/10/27/game-four-of-the-fall-classic-go-crew",
@@ -2505,7 +2367,7 @@
    "all_day": false,
    "category": "other",
    "price": null,
-   "description": "Journaling session focused on mental health at Imagination Center Library, Classroom.",
+   "description": "Journaling session focused on mental health in the Classroom.",
    "url": "https://www.madisonpubliclibrary.org/locations/imagination-center",
    "image": "",
    "venue": "Imagination Center",
@@ -2601,7 +2463,7 @@
    "all_day": false,
    "category": "other",
    "price": null,
-   "description": "Journaling session focused on mental health at Imagination Center Library, Classroom.",
+   "description": "Journaling session focused on mental health in the Classroom.",
    "url": "https://www.madisonpubliclibrary.org/sequoya",
    "image": "",
    "venue": "Sequoya Library",
@@ -2715,29 +2577,6 @@
    "link_ok": null
   },
   {
-   "id": "463bd7fd3d0d",
-   "title": "Murder Mystery",
-   "start": "2026-10-28T18:00-05:00",
-   "end": "2026-10-28T20:00-05:00",
-   "all_day": false,
-   "category": "theater",
-   "price": 60.0,
-   "description": "Join us for a Murder Mystery brought to you by The Lone Girl and Sun Prairie Civic Theater Costumes highly encouraged, but not required. Tickets are $60 and include a 3-course meal paired with the show. Entertainment and Murder Mystery fun by Sun Prairie Civic Theater Drink service is not included i",
-   "url": "https://thelonegirl.com/event/murder-mystery/",
-   "image": "https://thelonegirl.com/wp-content/uploads/2026/09/A-the-case-of-the-STRAIGHT-ARROW.png",
-   "venue": "Lone Girl Tap Room And Pizza Company",
-   "venue_id": "osm:node/12641566168",
-   "venue_kind": "bar",
-   "address": "1817 East Washington Avenue",
-   "lat": 43.0907077,
-   "lon": -89.3608921,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "4c487fe3cf44",
    "title": "The Frautschi Center: A Welcoming Gateway to the Lakeshore Nature Preserve",
    "start": "2026-10-28T18:00-05:00",
@@ -2786,29 +2625,6 @@
    "link_ok": null
   },
   {
-   "id": "11d44f936e81",
-   "title": "The Art of Neighborships: Open Studio with Artist-in-Residence Carrie Breunig",
-   "start": "2026-10-28T18:00-05:00",
-   "end": "2026-10-28T20:00-05:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Open studio with artist-in-residence Carrie Breunig in the Studio.",
-   "url": "https://www.madisonpubliclibrary.org/locations/pinney-library",
-   "image": "",
-   "venue": "Pinney Library",
-   "venue_id": "osm:node/7234376294",
-   "venue_kind": "library",
-   "address": "516 Cottage Grove Road",
-   "lat": 43.0841729,
-   "lon": -89.3176486,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "ee441ce5dc0e",
    "title": "Bingo",
    "start": "2026-10-28T18:00-05:00",
@@ -2840,7 +2656,7 @@
    "all_day": false,
    "category": "music",
    "price": null,
-   "description": "Handpan program for teens and adults.",
+   "description": "Handpan event for teens and adults at Sun Prairie Public Library.",
    "url": "https://www.sunprairiepubliclibrary.org/",
    "image": "",
    "venue": "Sun Prairie Public Library",
@@ -2950,29 +2766,6 @@
    "link_ok": true
   },
   {
-   "id": "3e0c7995f732",
-   "title": "Trivia Nights • Every Wednesday at The Lone Girl with King Trivia",
-   "start": "2026-10-28T18:30-05:00",
-   "end": "2026-10-28T20:30-05:00",
-   "all_day": false,
-   "category": "trivia",
-   "price": 0.0,
-   "description": "PUB TRIVIA with King Trivia every Wednesday night at LG-Waunakee at 6:30PM! Free to Play! Grab your crew. Let the bragging rights begin. Drink Up. Dig In. Have Fun. Repeat weekly.",
-   "url": "https://thelonegirl.com/event/trivia-every-wednesday-2-2/",
-   "image": "https://thelonegirl.com/wp-content/uploads/2026/04/Lone-Girl-Social-Square.jpg",
-   "venue": "Lone Girl Tap Room And Pizza Company",
-   "venue_id": "osm:node/12641566168",
-   "venue_kind": "bar",
-   "address": "1817 East Washington Avenue",
-   "lat": 43.0907077,
-   "lon": -89.3608921,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "21c5929fce10",
    "title": "Witch",
    "start": "2026-10-28T19:00-05:00",
@@ -2996,29 +2789,6 @@
     "Isthmus"
    ],
    "link_ok": null
-  },
-  {
-   "id": "413ce4681d0f",
-   "title": "Film: American Doctor",
-   "start": "2026-10-28T19:00-05:00",
-   "end": null,
-   "all_day": false,
-   "category": "film",
-   "price": null,
-   "description": "Three American doctors enter Gaza to save lives and find themselves caught between medicine and politics.",
-   "url": "https://bartelltheatre.org/",
-   "image": "",
-   "venue": "Bartell Theatre",
-   "venue_id": "osm:way/265137656",
-   "venue_kind": "venue",
-   "address": "113 East Mifflin Street",
-   "lat": 43.0765271,
-   "lon": -89.3833565,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
   },
   {
    "id": "b73e3bb45154",
@@ -3072,7 +2842,7 @@
    "start": "2026-10-28T19:00-05:00",
    "end": "2026-10-28T22:30-05:00",
    "all_day": false,
-   "category": "other",
+   "category": "sports",
    "price": null,
    "description": "",
    "url": "https://www.workingdraftbeer.com/events/2026/10/28/game-five-of-the-fall-classic-go-crew",
@@ -3348,29 +3118,6 @@
    "link_ok": true
   },
   {
-   "id": "0ab86a7c5a09",
-   "title": "Thursday Meat Raffle",
-   "start": "2026-10-29T16:30-05:00",
-   "end": "2026-10-29T18:00-05:00",
-   "all_day": false,
-   "category": "bingo",
-   "price": null,
-   "description": "Weekly Thursday meat raffle at Monkeyshines Bar and Grill.",
-   "url": "http://www.monkeyshinesbarandgrill.com/",
-   "image": "",
-   "venue": "Monkeyshines Bar & Grill",
-   "venue_id": "osm:way/107655168",
-   "venue_kind": "bar",
-   "address": "6209 McKee Road",
-   "lat": 43.0146693,
-   "lon": -89.4753418,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "d2cd71f009c3",
    "title": "Pints with Purpose for Gilda's Club WI at WDBC",
    "start": "2026-10-29T16:30-05:00",
@@ -3487,29 +3234,6 @@
    "link_ok": null
   },
   {
-   "id": "7ec465c89ae7",
-   "title": "Murder Mystery",
-   "start": "2026-10-29T18:00-05:00",
-   "end": "2026-10-29T20:00-05:00",
-   "all_day": false,
-   "category": "theater",
-   "price": 60.0,
-   "description": "Join us for a Murder Mystery brought to you by The Lone Girl and Sun Prairie Civic Theater Costumes highly encouraged, but not required. Tickets are $60 and include a 3-course meal paired with the show. Entertainment and Murder Mystery fun by Sun Prairie Civic Theater Drink service is not included i",
-   "url": "https://thelonegirl.com/event/murder-mystery-2/",
-   "image": "https://thelonegirl.com/wp-content/uploads/2026/09/A-the-case-of-the-STRAIGHT-ARROW.png",
-   "venue": "Lone Girl Tap Room And Pizza Company",
-   "venue_id": "osm:node/12641566168",
-   "venue_kind": "bar",
-   "address": "1817 East Washington Avenue",
-   "lat": 43.0907077,
-   "lon": -89.3608921,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "8486183c6465",
    "title": "Sabor Regio Food Truck",
    "start": "2026-10-29T18:00-05:00",
@@ -3552,29 +3276,6 @@
    "source": "ai",
    "sources": [
     "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "dd01b13fb64e",
-   "title": "Trivia Night",
-   "start": "2026-10-29T18:30-05:00",
-   "end": "2026-10-29T21:00-05:00",
-   "all_day": false,
-   "category": "trivia",
-   "price": 0.0,
-   "description": "Put your knowledge to the test at Trivia Night at One Social Food Hall, hosted by King Trivia! Gather your team, grab a drink, and dive into a fun, fast-paced evening of questions spanning pop culture, history, music, and more. With great food vendors, craft cocktails, and a lively atmosphere, it’s ",
-   "url": "https://onesocialmadison.com/event/trivia-night-5/",
-   "image": "",
-   "venue": "One Social Bar",
-   "venue_id": "osm:node/13312456631",
-   "venue_kind": "bar",
-   "address": "",
-   "lat": 43.0738511,
-   "lon": -89.378883,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
    ],
    "link_ok": true
   },
@@ -3648,29 +3349,6 @@
    "link_ok": true
   },
   {
-   "id": "65eb91823f54",
-   "title": "Mariah Ann // Courtesy Call // Porchflowers // Eli Gray & The Steel Hearts",
-   "start": "2026-10-29T19:00-05:00",
-   "end": null,
-   "all_day": false,
-   "category": "music",
-   "price": null,
-   "description": "Doors 6pm. Show 7pm.",
-   "url": "https://gammaray.bar",
-   "image": "",
-   "venue": "Gamma Ray Bar",
-   "venue_id": "osm:node/12156142686",
-   "venue_kind": "bar",
-   "address": "121 West Main Street",
-   "lat": 43.072436,
-   "lon": -89.3848247,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "84103529731e",
    "title": "Live Music - Possum Gator",
    "start": "2026-10-29T19:00-05:00",
@@ -3733,29 +3411,6 @@
    "address": "1055",
    "lat": 43.0851284,
    "lon": -89.3710814,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "8f072c42c0b7",
-   "title": "Film: North by Northwest",
-   "start": "2026-10-29T19:30-05:00",
-   "end": null,
-   "all_day": false,
-   "category": "film",
-   "price": null,
-   "description": "Screening of North by Northwest.",
-   "url": "https://bartelltheatre.org/",
-   "image": "",
-   "venue": "Bartell Theatre",
-   "venue_id": "osm:way/265137656",
-   "venue_kind": "venue",
-   "address": "113 East Mifflin Street",
-   "lat": 43.0765271,
-   "lon": -89.3833565,
    "source": "ai",
    "sources": [
     "AI page reading"
@@ -3863,7 +3518,7 @@
    "all_day": true,
    "category": "other",
    "price": 35.0,
-   "description": "Paint & Sip event, one of two dates listed (October 21st & 30th).",
+   "description": "Paint & Sip event at Doundrins, Oct 30 (listed with Oct 21 date).",
    "url": "https://doundrinsdistilling.com/",
    "image": "",
    "venue": "Doundrins Distilling",
@@ -4159,52 +3814,6 @@
    "link_ok": null
   },
   {
-   "id": "7722b799a2b3",
-   "title": "Murder Mystery",
-   "start": "2026-10-30T18:00-05:00",
-   "end": "2026-10-30T20:00-05:00",
-   "all_day": false,
-   "category": "theater",
-   "price": 60.0,
-   "description": "Join us for a Murder Mystery brought to you by The Lone Girl and Sun Prairie Civic Theater Costumes highly encouraged, but not required. Tickets are $60 and include a 3-course meal paired with the show. Entertainment and Murder Mystery fun by Sun Prairie Civic Theater Drink service is not included i",
-   "url": "https://thelonegirl.com/event/murder-mystery-2-2/",
-   "image": "https://thelonegirl.com/wp-content/uploads/2026/09/A-the-case-of-the-STRAIGHT-ARROW.png",
-   "venue": "Lone Girl Tap Room And Pizza Company",
-   "venue_id": "osm:node/12641566168",
-   "venue_kind": "bar",
-   "address": "1817 East Washington Avenue",
-   "lat": 43.0907077,
-   "lon": -89.3608921,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "4f432113d589",
-   "title": "Magic Rob EVERY Friday – tableside magic and family FUN!",
-   "start": "2026-10-30T18:00-05:00",
-   "end": "2026-10-30T20:00-05:00",
-   "all_day": false,
-   "category": "food",
-   "price": 0.0,
-   "description": "Madison’s Magic Rob provides FREE, family-friendly tableside and waiting area entertainment from 6-8pm EVERY FRIDAY. You never know when he’ll magically appear… be ready! Enjoy all-day Fish Fry Every Friday!",
-   "url": "https://thelonegirl.com/event/magic-rob-every-friday-tableside-2-2-2-3-2-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2/",
-   "image": "https://thelonegirl.com/wp-content/uploads/2023/08/Magic-Rob-Inside.jpg",
-   "venue": "Lone Girl Tap Room And Pizza Company",
-   "venue_id": "osm:node/12641566168",
-   "venue_kind": "bar",
-   "address": "1817 East Washington Avenue",
-   "lat": 43.0907077,
-   "lon": -89.3608921,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "0c6dc9c7393f",
    "title": "Euchre Night",
    "start": "2026-10-30T18:30-05:00",
@@ -4224,29 +3833,6 @@
    "source": "ai",
    "sources": [
     "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "8646844a90f1",
-   "title": "Live Music Fridays: Fringe Field",
-   "start": "2026-10-30T18:30-05:00",
-   "end": "2026-10-30T21:00-05:00",
-   "all_day": false,
-   "category": "music",
-   "price": null,
-   "description": "Since 2011, FRINGE FIELD is the Madison area’s original 90’s and early 00’s rock cover band. Your favorite grunge, alternative, punk, and garage rock hits brought to you in professional quality sound by lifelong musicians committed to your entertainment. We look forward to seeing you out there!",
-   "url": "https://onesocialmadison.com/event/live-music-fridays-fringe-field/",
-   "image": "",
-   "venue": "One Social Bar",
-   "venue_id": "osm:node/13312456631",
-   "venue_kind": "bar",
-   "address": "",
-   "lat": 43.0738511,
-   "lon": -89.378883,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
    ],
    "link_ok": true
   },
@@ -4442,7 +4028,7 @@
    "start": "2026-10-30T19:00-05:00",
    "end": "2026-10-30T23:00-05:00",
    "all_day": false,
-   "category": "other",
+   "category": "sports",
    "price": null,
    "description": "",
    "url": "https://www.workingdraftbeer.com/events/2026/10/30/game-six-of-the-fall-classic-go-crew",
@@ -4483,29 +4069,6 @@
    "link_ok": null
   },
   {
-   "id": "b39e2c409716",
-   "title": "The Moors",
-   "start": "2026-10-30T19:30-05:00",
-   "end": null,
-   "all_day": false,
-   "category": "theater",
-   "price": null,
-   "description": "Bartell Theatre production; the page gives no further details.",
-   "url": "https://bartelltheatre.org/",
-   "image": "",
-   "venue": "Bartell Theatre",
-   "venue_id": "osm:way/265137656",
-   "venue_kind": "venue",
-   "address": "113 East Mifflin Street",
-   "lat": 43.0765271,
-   "lon": -89.3833565,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "ea8c08c604b2",
    "title": "Dragonsocks & Queen of the Universe",
    "start": "2026-10-30T19:30-05:00",
@@ -4525,52 +4088,6 @@
    "source": "scraped",
    "sources": [
     "Venue websites"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "7f1e93e2a889",
-   "title": "Film: Re-Animator",
-   "start": "2026-10-30T20:00-05:00",
-   "end": null,
-   "all_day": false,
-   "category": "film",
-   "price": null,
-   "description": "Screening of Re-Animator.",
-   "url": "https://bartelltheatre.org/",
-   "image": "",
-   "venue": "Bartell Theatre",
-   "venue_id": "osm:way/265137656",
-   "venue_kind": "venue",
-   "address": "113 East Mifflin Street",
-   "lat": 43.0765271,
-   "lon": -89.3833565,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "6a0aafa6c35c",
-   "title": "Monster Bash ft. Them & The Things, The Brush Strokes (Strokes Tribute) and American Literate (Green Day Tribute)",
-   "start": "2026-10-30T20:00-05:00",
-   "end": null,
-   "all_day": false,
-   "category": "music",
-   "price": null,
-   "description": "Doors 7pm. Show 8pm.",
-   "url": "https://gammaray.bar",
-   "image": "",
-   "venue": "Gamma Ray Bar",
-   "venue_id": "osm:node/12156142686",
-   "venue_kind": "bar",
-   "address": "121 West Main Street",
-   "lat": 43.072436,
-   "lon": -89.3848247,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
    ],
    "link_ok": true
   },
@@ -4666,29 +4183,6 @@
     "Ticketmaster"
    ],
    "link_ok": null
-  },
-  {
-   "id": "8f7eafffb0e7",
-   "title": "Film: Hello Mary Lou: Prom Night II",
-   "start": "2026-10-30T21:30-05:00",
-   "end": null,
-   "all_day": false,
-   "category": "film",
-   "price": null,
-   "description": "Screening of Hello Mary Lou: Prom Night II.",
-   "url": "https://bartelltheatre.org/",
-   "image": "",
-   "venue": "Bartell Theatre",
-   "venue_id": "osm:way/265137656",
-   "venue_kind": "venue",
-   "address": "113 East Mifflin Street",
-   "lat": 43.0765271,
-   "lon": -89.3833565,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
   },
   {
    "id": "1a8e50599a06",
@@ -4807,29 +4301,6 @@
    "link_ok": true
   },
   {
-   "id": "2022d43228c8",
-   "title": "Trick or Treat on Monroe Street",
-   "start": "2026-10-31T09:00-05:00",
-   "end": "2026-10-31T17:00-05:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Trick-or-treating event in the library.",
-   "url": "https://www.madisonpubliclibrary.org/monroe-street",
-   "image": "",
-   "venue": "Monroe Street Library",
-   "venue_id": "osm:way/241508509",
-   "venue_kind": "library",
-   "address": "1705 Monroe Street",
-   "lat": 43.0659388,
-   "lon": -89.4152059,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "4399e4c54334",
    "title": "Free coffee & tea at the library",
    "start": "2026-10-31T09:00-05:00",
@@ -4898,29 +4369,6 @@
     "Isthmus"
    ],
    "link_ok": null
-  },
-  {
-   "id": "d826e941ad50",
-   "title": "Art Club for Families - Costume Masks",
-   "start": "2026-10-31T11:00-05:00",
-   "end": "2026-10-31T12:00-05:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Family art club making costume masks, held in the library.",
-   "url": "https://www.madisonpubliclibrary.org/monroe-street",
-   "image": "",
-   "venue": "Monroe Street Library",
-   "venue_id": "osm:way/241508509",
-   "venue_kind": "library",
-   "address": "1705 Monroe Street",
-   "lat": 43.0659388,
-   "lon": -89.4152059,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
   },
   {
    "id": "def78dadc093",
@@ -5017,29 +4465,6 @@
    "link_ok": true
   },
   {
-   "id": "47d7600c5b89",
-   "title": "Distillery Tour",
-   "start": "2026-10-31T13:30-05:00",
-   "end": null,
-   "all_day": false,
-   "category": "music",
-   "price": null,
-   "description": "Weekly Saturday tour at Old Sugar Distillery, listed on the page as Saturdays 1:30PM.",
-   "url": "https://oldsugardistillery.com/",
-   "image": "",
-   "venue": "Old Sugar Distillery",
-   "venue_id": "osm:node/8250181191",
-   "venue_kind": "brewery",
-   "address": "",
-   "lat": 43.0823931,
-   "lon": -89.3706293,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "67264999b886",
    "title": "Annie",
    "start": "2026-10-31T14:00-05:00",
@@ -5105,29 +4530,6 @@
    "source": "ai",
    "sources": [
     "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "42be962b8b4c",
-   "title": "Live Music Saturdays: Wild Cardz",
-   "start": "2026-10-31T17:00-05:00",
-   "end": "2026-10-31T19:00-05:00",
-   "all_day": false,
-   "category": "music",
-   "price": null,
-   "description": "The Wild Cardz Trio is a high-energy Wisconsin-based cover band featuring vocalist Sarah Hill, guitarist and singer-songwriter Phil Smithburg, and drummer/vocalist Tom Ellis.",
-   "url": "https://onesocialmadison.com/event/live-music-saturdays-wild-cardz/",
-   "image": "",
-   "venue": "One Social Bar",
-   "venue_id": "osm:node/13312456631",
-   "venue_kind": "bar",
-   "address": "",
-   "lat": 43.0738511,
-   "lon": -89.378883,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
    ],
    "link_ok": true
   },
@@ -5340,52 +4742,6 @@
    "link_ok": null
   },
   {
-   "id": "5d3eb010142c",
-   "title": "Halloween Night Murder Mystery",
-   "start": "2026-10-31T19:30-05:00",
-   "end": "2026-10-31T21:30-05:00",
-   "all_day": false,
-   "category": "theater",
-   "price": 60.0,
-   "description": "Join us for a Halloween Murder Mystery brought to you by The Lone Girl and Sun Prairie Civic Theater **Halloween Show** Costume Contest with Prizes Tickets are $60 and include a 3-course meal paired with the show. Entertainment and Murder Mystery fun by Sun Prairie Civic Theater Drink service is not",
-   "url": "https://thelonegirl.com/event/murder-mystery-2-2-2/",
-   "image": "https://thelonegirl.com/wp-content/uploads/2026/09/A-the-case-of-the-STRAIGHT-ARROW.png",
-   "venue": "Lone Girl Tap Room And Pizza Company",
-   "venue_id": "osm:node/12641566168",
-   "venue_kind": "bar",
-   "address": "1817 East Washington Avenue",
-   "lat": 43.0907077,
-   "lon": -89.3608921,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "fea2148b3ad2",
-   "title": "Halloween with Friend Request",
-   "start": "2026-10-31T20:00-05:00",
-   "end": null,
-   "all_day": false,
-   "category": "music",
-   "price": null,
-   "description": "Doors 7pm. Show 8pm.",
-   "url": "https://gammaray.bar",
-   "image": "",
-   "venue": "Gamma Ray Bar",
-   "venue_id": "osm:node/12156142686",
-   "venue_kind": "bar",
-   "address": "121 West Main Street",
-   "lat": 43.072436,
-   "lon": -89.3848247,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "b454542a910d",
    "title": "Gibs Halloween with DJ DarkenDabe and Abesm",
    "start": "2026-10-31T20:00-05:00",
@@ -5456,29 +4812,6 @@
    "link_ok": null
   },
   {
-   "id": "d7d04484fdd1",
-   "title": "Metal Halloween Show",
-   "start": "2026-10-31T21:00-05:00",
-   "end": null,
-   "all_day": false,
-   "category": "music",
-   "price": 15.0,
-   "description": "Metal Halloween show with Sabbath Dweller (Black Sabbath cover set), Yotuma, Whippets, and Red Museum (solo synth horror movie soundtrack)",
-   "url": "https://thecrystalcornerbar.com/",
-   "image": "",
-   "venue": "Crystal Corner Bar",
-   "venue_id": "osm:node/567936558",
-   "venue_kind": "bar",
-   "address": "1302 Williamson Street",
-   "lat": 43.0846749,
-   "lon": -89.36254,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "8349332dfc07",
    "title": "Roxxy Wicked Weekends 10/31 ft. NowRitmo",
    "start": "2026-10-31T22:00-05:00",
@@ -5544,29 +4877,6 @@
    "source": "ai",
    "sources": [
     "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "3e4aad21d5f5",
-   "title": "Bingo 10:30am and 1:00pm, Beer & Bloodies – #SundayFunday",
-   "start": "2026-11-01T10:30-06:00",
-   "end": "2026-11-01T14:00-06:00",
-   "all_day": false,
-   "category": "bingo",
-   "price": 0.0,
-   "description": "Double the Bingo, Double the FUN! Your #SundayFunday just leveled up — we’re serving up two rounds of Bingo mayhem every Sunday: 10:30AM and 1:00PM! Sip on bloodies, mimosas, or a cold craft beer while you munch, mingle, and shout BINGO! for awesome prizes. It’s F REE TO PLAY , family friendly, 10 r",
-   "url": "https://thelonegirl.com/event/sunday-bingo-lone-girl-brewing/",
-   "image": "https://thelonegirl.com/wp-content/uploads/2025/01/20231112_130804-e1737130911633.jpg",
-   "venue": "Lone Girl Tap Room And Pizza Company",
-   "venue_id": "osm:node/12641566168",
-   "venue_kind": "bar",
-   "address": "1817 East Washington Avenue",
-   "lat": 43.0907077,
-   "lon": -89.3608921,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
    ],
    "link_ok": true
   },
@@ -5730,29 +5040,6 @@
    "source": "ai",
    "sources": [
     "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "fc4fd6c6d0f9",
-   "title": "Meat Raffle and Fundraiser at The Lone Girl",
-   "start": "2026-11-01T15:00-06:00",
-   "end": "2026-11-01T16:30-06:00",
-   "all_day": false,
-   "category": "bingo",
-   "price": 0.0,
-   "description": "Meat Raffle at The Lone Girl Brewing Company in Waunakee. From brats to ribeyes, the prizes are stacked, the beer is cold, and your luck might just be championship-level. Even better? Every paddle supports local! Meat Raffle: 3 PM Cold craft beer: always flowing Premium cuts: ready to be won Not int",
-   "url": "https://thelonegirl.com/event/meat-raffle-126-4/",
-   "image": "",
-   "venue": "Lone Girl Tap Room And Pizza Company",
-   "venue_id": "osm:node/12641566168",
-   "venue_kind": "bar",
-   "address": "1817 East Washington Avenue",
-   "lat": 43.0907077,
-   "lon": -89.3608921,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
    ],
    "link_ok": true
   },
@@ -5967,75 +5254,6 @@
    "link_ok": true
   },
   {
-   "id": "ccc461a685d8",
-   "title": "Grandpa's Elixir (Bluegrassy)",
-   "start": "2026-11-02T00:00-06:00",
-   "end": null,
-   "all_day": true,
-   "category": "music",
-   "price": null,
-   "description": "Acoustic Music Mondays, 1st Monday.",
-   "url": "http://malthousetavern.com/",
-   "image": "",
-   "venue": "The Malt House",
-   "venue_id": "osm:way/592859743",
-   "venue_kind": "bar",
-   "address": "2609 East Washington Avenue",
-   "lat": 43.1005011,
-   "lon": -89.3482198,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "2430fb94875b",
-   "title": "Game Night with Game and Gather",
-   "start": "2026-11-02T17:00-06:00",
-   "end": "2026-11-02T21:00-06:00",
-   "all_day": false,
-   "category": "trivia",
-   "price": null,
-   "description": "Game night One Social Food Hall November 2nd at 5:00pm! Board games, Trading card games, and more available!",
-   "url": "https://onesocialmadison.com/event/game-night-with-game-and-gather/",
-   "image": "",
-   "venue": "One Social Bar",
-   "venue_id": "osm:node/13312456631",
-   "venue_kind": "bar",
-   "address": "",
-   "lat": 43.0738511,
-   "lon": -89.378883,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "d79b0b9fe43c",
-   "title": "Gamma Ray Bar Presents: Music Video Trivia",
-   "start": "2026-11-02T18:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "trivia",
-   "price": null,
-   "description": "Doors 5:45pm. Show 6pm.",
-   "url": "https://gammaray.bar",
-   "image": "",
-   "venue": "Gamma Ray Bar",
-   "venue_id": "osm:node/12156142686",
-   "venue_kind": "bar",
-   "address": "121 West Main Street",
-   "lat": 43.072436,
-   "lon": -89.3848247,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "a3ee0777954a",
    "title": "Wisconsin Badgers Mens Basketball vs. Denver Pioneers Mens Basketball",
    "start": "2026-11-02T18:30-06:00",
@@ -6099,29 +5317,6 @@
    "address": "1617 North Stoughton Road",
    "lat": 43.1199361,
    "lon": -89.3244342,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "20d9e119b7b8",
-   "title": "Cajun Strangers",
-   "start": "2026-11-03T00:00-06:00",
-   "end": null,
-   "all_day": true,
-   "category": "other",
-   "price": null,
-   "description": "Tuesday Music, 1st Tuesday.",
-   "url": "http://malthousetavern.com/",
-   "image": "",
-   "venue": "The Malt House",
-   "venue_id": "osm:way/592859743",
-   "venue_kind": "bar",
-   "address": "2609 East Washington Avenue",
-   "lat": 43.1005011,
-   "lon": -89.3482198,
    "source": "ai",
    "sources": [
     "AI page reading"
@@ -6825,29 +6020,6 @@
    "link_ok": true
   },
   {
-   "id": "bc0a92208434",
-   "title": "The North Westerns (Western Swing)",
-   "start": "2026-11-04T00:00-06:00",
-   "end": null,
-   "all_day": true,
-   "category": "food",
-   "price": null,
-   "description": "Wednesday Music, 1st Wednesday.",
-   "url": "http://malthousetavern.com/",
-   "image": "",
-   "venue": "The Malt House",
-   "venue_id": "osm:way/592859743",
-   "venue_kind": "bar",
-   "address": "2609 East Washington Avenue",
-   "lat": 43.1005011,
-   "lon": -89.3482198,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "e77093bcd5de",
    "title": "Dane County Farmers' Market",
    "start": "2026-11-04T08:30-06:00",
@@ -7183,29 +6355,6 @@
    "link_ok": true
   },
   {
-   "id": "debeaff45c96",
-   "title": "Trivia Nights • Every Wednesday at The Lone Girl with King Trivia",
-   "start": "2026-11-04T18:30-06:00",
-   "end": "2026-11-04T20:30-06:00",
-   "all_day": false,
-   "category": "trivia",
-   "price": 0.0,
-   "description": "PUB TRIVIA with King Trivia every Wednesday night at LG-Waunakee at 6:30PM! Free to Play! Grab your crew. Let the bragging rights begin. Drink Up. Dig In. Have Fun. Repeat weekly.",
-   "url": "https://thelonegirl.com/event/trivia-every-wednesday-2-2-2/",
-   "image": "https://thelonegirl.com/wp-content/uploads/2026/04/Lone-Girl-Social-Square.jpg",
-   "venue": "Lone Girl Tap Room And Pizza Company",
-   "venue_id": "osm:node/12641566168",
-   "venue_kind": "bar",
-   "address": "1817 East Washington Avenue",
-   "lat": 43.0907077,
-   "lon": -89.3608921,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "d4337791985d",
    "title": "Founders – Craft Beer Pinball League",
    "start": "2026-11-04T18:30-06:00",
@@ -7367,29 +6516,6 @@
    "link_ok": true
   },
   {
-   "id": "89c167e6f788",
-   "title": "Axis: Sova // Slick // The Moss Men",
-   "start": "2026-11-04T20:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "music",
-   "price": null,
-   "description": "Doors 7pm. Show 8pm.",
-   "url": "https://gammaray.bar",
-   "image": "",
-   "venue": "Gamma Ray Bar",
-   "venue_id": "osm:node/12156142686",
-   "venue_kind": "bar",
-   "address": "121 West Main Street",
-   "lat": 43.072436,
-   "lon": -89.3848247,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "cf826840401f",
    "title": "Sophie Hunter Presents: Stereoscope The Tour",
    "start": "2026-11-04T20:00-06:00",
@@ -7526,52 +6652,6 @@
    "source": "ai",
    "sources": [
     "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "52e441da3032",
-   "title": "Thursday Meat Raffle",
-   "start": "2026-11-05T16:30-06:00",
-   "end": "2026-11-05T18:00-06:00",
-   "all_day": false,
-   "category": "bingo",
-   "price": null,
-   "description": "Weekly Thursday meat raffle at Monkeyshines Bar and Grill.",
-   "url": "http://www.monkeyshinesbarandgrill.com/",
-   "image": "",
-   "venue": "Monkeyshines Bar & Grill",
-   "venue_id": "osm:way/107655168",
-   "venue_kind": "bar",
-   "address": "6209 McKee Road",
-   "lat": 43.0146693,
-   "lon": -89.4753418,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "9d091331d52f",
-   "title": "Line Dancing Party! Monthly at The Lone Girl",
-   "start": "2026-11-05T17:30-06:00",
-   "end": "2026-11-05T20:00-06:00",
-   "all_day": false,
-   "category": "dance",
-   "price": 4.0,
-   "description": "Line Dance Parties are BACK at The Lone Girl — once a month November – April! Instructor Natalie will lead the way with our beginner-friendly favorites, with a few chances to step it up for dancers who’ve already got a little boot-scootin’ under their belts. ️ $4 gets you in + 10% off food & drinks ",
-   "url": "https://thelonegirl.com/event/line-dancing-party-monthly-at-the-lone-girl/",
-   "image": "https://thelonegirl.com/wp-content/uploads/2026/10/Line-Dance-Party.png",
-   "venue": "Lone Girl Tap Room And Pizza Company",
-   "venue_id": "osm:node/12641566168",
-   "venue_kind": "bar",
-   "address": "1817 East Washington Avenue",
-   "lat": 43.0907077,
-   "lon": -89.3608921,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
    ],
    "link_ok": true
   },
@@ -8136,29 +7216,6 @@
    "link_ok": true
   },
   {
-   "id": "fa719323ecab",
-   "title": "Magic Rob EVERY Friday – tableside magic and family FUN!",
-   "start": "2026-11-06T18:00-06:00",
-   "end": "2026-11-06T20:00-06:00",
-   "all_day": false,
-   "category": "food",
-   "price": 0.0,
-   "description": "Madison’s Magic Rob provides FREE, family-friendly tableside and waiting area entertainment from 6-8pm EVERY FRIDAY. You never know when he’ll magically appear… be ready! Enjoy all-day Fish Fry Every Friday!",
-   "url": "https://thelonegirl.com/event/magic-rob-every-friday-tableside-2-2-2-3-2-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2/",
-   "image": "https://thelonegirl.com/wp-content/uploads/2023/08/Magic-Rob-Inside.jpg",
-   "venue": "Lone Girl Tap Room And Pizza Company",
-   "venue_id": "osm:node/12641566168",
-   "venue_kind": "bar",
-   "address": "1817 East Washington Avenue",
-   "lat": 43.0907077,
-   "lon": -89.3608921,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "04de6562cf82",
    "title": "Euchre Night",
    "start": "2026-11-06T18:30-06:00",
@@ -8389,29 +7446,6 @@
    "link_ok": null
   },
   {
-   "id": "b83784cf36e5",
-   "title": "Romeo and Juliet",
-   "start": "2026-11-06T19:30-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "theater",
-   "price": null,
-   "description": "Bartell Theatre production of Romeo and Juliet.",
-   "url": "https://bartelltheatre.org/",
-   "image": "",
-   "venue": "Bartell Theatre",
-   "venue_id": "osm:way/265137656",
-   "venue_kind": "venue",
-   "address": "113 East Mifflin Street",
-   "lat": 43.0765271,
-   "lon": -89.3833565,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "ddd7fe428d9a",
    "title": "Better Than Ezra",
    "start": "2026-11-06T20:00-06:00",
@@ -8537,7 +7571,7 @@
    "all_day": true,
    "category": "bingo",
    "price": 50.0,
-   "description": "Rare Plant Bingo event at the tasting room.",
+   "description": "Rare Plant Bingo at Doundrins on 11/7.",
    "url": "https://doundrinsdistilling.com/",
    "image": "",
    "venue": "Doundrins Distilling",
@@ -8572,29 +7606,6 @@
    "source": "ai",
    "sources": [
     "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "0054b5bf16b4",
-   "title": "Badger Shuttle – roundtrip from The Lone Girl – Tickets here!",
-   "start": "2026-11-07T00:00-06:00",
-   "end": "2026-11-07T23:59-06:00",
-   "all_day": true,
-   "category": "sports",
-   "price": 10.0,
-   "description": "11/7/26 Shuttle Bus to Badgers VS Rutgers Avoid the parking and hassle downtown and hop a ride on the Lone Girl Badger Shuttle Bus. RSVP today – these seats will go quickly! Bus Leaves 2 hours before kickoff, departs Camp Randall 30 minutes after the end of the last play. Beverages available for pur",
-   "url": "https://thelonegirl.com/event/badger-shuttle-from-the-lone-girl-117/",
-   "image": "https://thelonegirl.com/wp-content/uploads/2025/08/badger-Football.jpg",
-   "venue": "Lone Girl Tap Room And Pizza Company",
-   "venue_id": "osm:node/12641566168",
-   "venue_kind": "bar",
-   "address": "1817 East Washington Avenue",
-   "lat": 43.0907077,
-   "lon": -89.3608921,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
    ],
    "link_ok": true
   },
@@ -8832,29 +7843,6 @@
    "link_ok": null
   },
   {
-   "id": "78868e578881",
-   "title": "Distillery Tour",
-   "start": "2026-11-07T13:30-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "music",
-   "price": null,
-   "description": "Weekly Saturday tour at Old Sugar Distillery, listed on the page as Saturdays 1:30PM.",
-   "url": "https://oldsugardistillery.com/",
-   "image": "",
-   "venue": "Old Sugar Distillery",
-   "venue_id": "osm:node/8250181191",
-   "venue_kind": "brewery",
-   "address": "",
-   "lat": 43.0823931,
-   "lon": -89.3706293,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "96215fc54ce8",
    "title": "Witch",
    "start": "2026-11-07T18:00-06:00",
@@ -8997,29 +7985,6 @@
    "link_ok": true
   },
   {
-   "id": "3f9ebc23ca2d",
-   "title": "Droids Attack // Peacemaker // The Eggs",
-   "start": "2026-11-07T20:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "music",
-   "price": null,
-   "description": "Doors 7pm. Show 8pm.",
-   "url": "https://gammaray.bar",
-   "image": "",
-   "venue": "Gamma Ray Bar",
-   "venue_id": "osm:node/12156142686",
-   "venue_kind": "bar",
-   "address": "121 West Main Street",
-   "lat": 43.072436,
-   "lon": -89.3848247,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "d65e7c81a215",
    "title": "Lochanside",
    "start": "2026-11-07T20:00-06:00",
@@ -9113,52 +8078,6 @@
    "link_ok": null
   },
   {
-   "id": "9e9d7e8c79cb",
-   "title": "ROCK rock ROCK rock show",
-   "start": "2026-11-07T21:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "music",
-   "price": 10.0,
-   "description": "Rock show with The Dead Johnnys, Tom Howl & The Scowl, and Lummox",
-   "url": "https://thecrystalcornerbar.com/",
-   "image": "",
-   "venue": "Crystal Corner Bar",
-   "venue_id": "osm:node/567936558",
-   "venue_kind": "bar",
-   "address": "1302 Williamson Street",
-   "lat": 43.0846749,
-   "lon": -89.36254,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "2a9ac1358dcb",
-   "title": "The Dead Johnnys, Tom Howl & The Scowl, Lummox",
-   "start": "2026-11-07T21:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "music",
-   "price": 10.0,
-   "description": "Rock show with The Dead Johnnys, Tom Howl & The Scowl and Lummox.",
-   "url": "https://thecrystalcornerbar.com/",
-   "image": "",
-   "venue": "Crystal Corner Bar",
-   "venue_id": "osm:node/567936558",
-   "venue_kind": "bar",
-   "address": "1302 Williamson Street",
-   "lat": 43.0846749,
-   "lon": -89.36254,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "d8bd757bb3cb",
    "title": "Sophisticated Saturdays",
    "start": "2026-11-07T22:00-06:00",
@@ -9224,29 +8143,6 @@
    "source": "ai",
    "sources": [
     "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "e02ea467461c",
-   "title": "Bingo 10:30am and 1:00pm, Beer & Bloodies – #SundayFunday",
-   "start": "2026-11-08T10:30-06:00",
-   "end": "2026-11-08T14:00-06:00",
-   "all_day": false,
-   "category": "bingo",
-   "price": 0.0,
-   "description": "Double the Bingo, Double the FUN! Your #SundayFunday just leveled up — we’re serving up two rounds of Bingo mayhem every Sunday: 10:30AM and 1:00PM! Sip on bloodies, mimosas, or a cold craft beer while you munch, mingle, and shout BINGO! for awesome prizes. It’s F REE TO PLAY , family friendly, 10 r",
-   "url": "https://thelonegirl.com/event/sunday-bingo-lone-girl-brewing-2/",
-   "image": "https://thelonegirl.com/wp-content/uploads/2025/01/20231112_130804-e1737130911633.jpg",
-   "venue": "Lone Girl Tap Room And Pizza Company",
-   "venue_id": "osm:node/12641566168",
-   "venue_kind": "bar",
-   "address": "1817 East Washington Avenue",
-   "lat": 43.0907077,
-   "lon": -89.3608921,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
    ],
    "link_ok": true
   },
@@ -9391,29 +8287,6 @@
    "link_ok": null
   },
   {
-   "id": "cedaea8de567",
-   "title": "Meat Raffle at The Lone Girl",
-   "start": "2026-11-08T15:00-06:00",
-   "end": "2026-11-08T16:30-06:00",
-   "all_day": false,
-   "category": "bingo",
-   "price": null,
-   "description": "❤️ MEAT RAFFLE. SERIOUSLY GOOD CAUSE. Come try your luck at our Sunday, November 8 Meat Raffle , where lucky paddles could turn into a freezer full of glorious meat. Even better, this one benefits Gilda’s Club Wisconsin , supporting people and families impacted by cancer in our community. So every p",
-   "url": "https://thelonegirl.com/event/meat-raffle-118/",
-   "image": "https://thelonegirl.com/wp-content/uploads/2026/09/Gildas-11.8-1.png",
-   "venue": "Lone Girl Tap Room And Pizza Company",
-   "venue_id": "osm:node/12641566168",
-   "venue_kind": "bar",
-   "address": "1817 East Washington Avenue",
-   "lat": 43.0907077,
-   "lon": -89.3608921,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "d61d6761b2c4",
    "title": "O'Darby Irish Pub Band",
    "start": "2026-11-08T19:30-06:00",
@@ -9459,29 +8332,6 @@
     "AI page reading"
    ],
    "link_ok": null
-  },
-  {
-   "id": "0e6775bb0c43",
-   "title": "Dusk // Visual Learner // Yuasa-Exide // Boo/Hiss",
-   "start": "2026-11-08T20:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "music",
-   "price": null,
-   "description": "Doors 7pm. Show 8pm.",
-   "url": "https://gammaray.bar",
-   "image": "",
-   "venue": "Gamma Ray Bar",
-   "venue_id": "osm:node/12156142686",
-   "venue_kind": "bar",
-   "address": "121 West Main Street",
-   "lat": 43.072436,
-   "lon": -89.3848247,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
   },
   {
    "id": "5101c96e82eb",
@@ -9553,29 +8403,6 @@
    "link_ok": true
   },
   {
-   "id": "15a54a968b7b",
-   "title": "The Kissers (Traditional Irish trad/pub set)",
-   "start": "2026-11-09T00:00-06:00",
-   "end": null,
-   "all_day": true,
-   "category": "music",
-   "price": null,
-   "description": "Acoustic Music Mondays, 2nd Monday.",
-   "url": "http://malthousetavern.com/",
-   "image": "",
-   "venue": "The Malt House",
-   "venue_id": "osm:way/592859743",
-   "venue_kind": "bar",
-   "address": "2609 East Washington Avenue",
-   "lat": 43.1005011,
-   "lon": -89.3482198,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "f09ce3fc8fc2",
    "title": "Onigiri Pop-Up with Chef Itaru Nagano from Fairchild",
    "start": "2026-11-09T15:00-06:00",
@@ -9592,29 +8419,6 @@
    "address": "",
    "lat": 43.0809695,
    "lon": -89.3757466,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "17ea44748651",
-   "title": "A Valentine's Affair 2027 Auditions (First Audition)",
-   "start": "2026-11-09T18:30-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "theater",
-   "price": null,
-   "description": "First audition for A Valentine's Affair 2027.",
-   "url": "https://bartelltheatre.org/",
-   "image": "",
-   "venue": "Bartell Theatre",
-   "venue_id": "osm:way/265137656",
-   "venue_kind": "venue",
-   "address": "113 East Mifflin Street",
-   "lat": 43.0765271,
-   "lon": -89.3833565,
    "source": "ai",
    "sources": [
     "AI page reading"
