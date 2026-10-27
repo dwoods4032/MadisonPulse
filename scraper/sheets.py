@@ -144,7 +144,7 @@ def main():
           [[r["name"], weight_of(w, "restaurant", r["name"]), yn(r["name"] in picked), CUISINE.get(r.get("group"), r.get("group") or ""),
             r.get("cuisine", ""), yn(r.get("dinner")), r.get("price"), yn(r.get("fast")), yn(r.get("alcohol")), r.get("alcohol_src", ""),
             area_of(r.get("lat"), r.get("lon")), r.get("address", ""),
-            r.get("menu") or "(none found: site links a Google menu search)", r.get("menu_src", ""), r.get("image", ""), r.get("website", ""),
+            r.get("menu") or ("(broken: " + r["menu_broken"] + ")" if r.get("menu_broken") else "(none found: site links a Google menu search)"), r.get("menu_src", ""), r.get("image", ""), r.get("website", ""),
             hours_text(r.get("hours")), r.get("lat"), r.get("lon"), "OpenStreetMap", r["id"]]
            for r in sorted(rest, key=lambda r: r["name"].lower())])
 
@@ -176,12 +176,13 @@ def main():
         return round(x, 2)
     write("events.csv",
           ["date", "start", "end", "title", "list category", "detailed category", "venue", "venue kind", "area", "address",
-           "price", "price is", "weight", "link", "picture", "found by", "all sources", "listed by", "description", "latitude", "longitude", "id"],
+           "price", "price is", "weight", "link", "link check", "picture", "found by", "all sources", "listed by", "description", "latitude", "longitude", "id"],
           [[ex(e.get("start"))[:10], "all day" if e.get("all_day") else ex(e.get("start"))[11:16], ex(e.get("end"))[11:16],
             e.get("title", ""), GROUPS.get(e.get("category"), "Other (All only)"), e.get("category", ""), e.get("venue", ""),
             e.get("venue_kind", ""), area_of(e.get("lat"), e.get("lon")), e.get("address", ""),
             "" if e.get("price") is None else e["price"], "from the listing" if e.get("price") is not None else "estimated on site",
-            ev_weight(e), e.get("url", "") if "isthmus.com" not in ex(e.get("url")) else "", e.get("image", ""), e.get("source", ""),
+            ev_weight(e), e.get("url", "") if "isthmus.com" not in ex(e.get("url")) else "",
+            {True: "works", False: "broken (site uses a search)", None: ""}.get(e.get("link_ok"), ""), e.get("image", ""), e.get("source", ""),
             "; ".join(e.get("sources") or []), e.get("via", ""), ex(e.get("description"))[:500], e.get("lat"), e.get("lon"), e.get("id", "")]
            for e in sorted(events, key=lambda e: (ex(e.get("start")), e.get("title", "")))])
 
