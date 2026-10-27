@@ -7,7 +7,7 @@
   "skipped_site": 0,
   "api_errors": {},
   "key_present": true,
-  "at": "2026-10-27T14:35:24.837291-05:00"
+  "at": "2026-10-27T14:39:21.909534-05:00"
  },
  "restaurant": {
   "what": "restaurant",
@@ -19,12 +19,12 @@
   "samples": [
    {
     "place": "Robinia Courtyard",
-    "reply": "{\"group\": \"unknown\", \"alcohol\": \"unknown\"}",
+    "reply": "{\"group\": null, \"alcohol\": \"unknown\"}",
     "stop": "end_turn"
    }
   ],
   "key_present": true,
-  "at": "2026-10-27T14:35:35.201639-05:00"
+  "at": "2026-10-27T14:39:30.057617-05:00"
  },
  "activity": {
   "what": "activity",
@@ -34,6 +34,6 @@
   "skipped_site": 0,
   "api_errors": {},
   "key_present": true,
-  "at": "2026-10-27T14:35:41.371324-05:00"
+  "at": "2026-10-27T14:39:36.298698-05:00"
  }
 }

@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-27T14:37:05-05:00",
+ "generated_at": "2026-10-27T14:41:01-05:00",
  "window": {
-  "from": "2026-10-27T08:35-05:00",
-  "to": "2026-11-10T14:35-06:00"
+  "from": "2026-10-27T08:39-05:00",
+  "to": "2026-11-10T14:39-06:00"
  },
- "count": 416,
+ "count": 407,
  "events": [
   {
    "id": "c7464f5943e9",
@@ -387,29 +387,6 @@
    "link_ok": true
   },
   {
-   "id": "5c5c7ecf3502",
-   "title": "Mini Figure Painting (5 of 6 part series)",
-   "start": "2026-10-27T18:00-05:00",
-   "end": "2026-10-27T19:30-05:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Part of a 6-part mini figure painting series, Community Room.",
-   "url": "https://www.madisonpubliclibrary.org/locations/imagination-center",
-   "image": "",
-   "venue": "Imagination Center",
-   "venue_id": "osm:way/1562302805",
-   "venue_kind": "library",
-   "address": "1814 Parkside Drive",
-   "lat": 43.1240118,
-   "lon": -89.3168809,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "88d9e9d8f7c0",
    "title": "Wisconsin Badgers Mens Basketball vs. Oklahoma State Cowboys Mens Basketball",
    "start": "2026-10-27T18:00-05:00",
@@ -481,29 +458,6 @@
    "link_ok": null
   },
   {
-   "id": "3dd34ab8be93",
-   "title": "Mini Figure Painting (5 of 6 part series)",
-   "start": "2026-10-27T18:00-05:00",
-   "end": "2026-10-27T19:30-05:00",
-   "all_day": false,
-   "category": "trivia",
-   "price": null,
-   "description": "Five-part hands-on miniature painting series for adults (16+), creating miniature characters for Dungeons & Dragons and other games. Part 1 of 5 on this date.",
-   "url": "https://www.madisonpubliclibrary.org/monroe-street",
-   "image": "",
-   "venue": "Monroe Street Library",
-   "venue_id": "osm:way/241508509",
-   "venue_kind": "library",
-   "address": "1705 Monroe Street",
-   "lat": 43.0659388,
-   "lon": -89.4152059,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "ca2e085dafd4",
    "title": "Brazilian Choro Jam",
    "start": "2026-10-27T18:00-05:00",
@@ -526,52 +480,6 @@
     "Isthmus"
    ],
    "link_ok": null
-  },
-  {
-   "id": "d1d6d9680887",
-   "title": "Mini Figure Painting (5 of 6 part series)",
-   "start": "2026-10-27T18:00-05:00",
-   "end": "2026-10-27T19:30-05:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Part of a 6-part mini figure painting series, Community Room.",
-   "url": "https://www.madisonpubliclibrary.org/locations/pinney-library",
-   "image": "",
-   "venue": "Pinney Library",
-   "venue_id": "osm:node/7234376294",
-   "venue_kind": "library",
-   "address": "516 Cottage Grove Road",
-   "lat": 43.0841729,
-   "lon": -89.3176486,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "bca8178f23ab",
-   "title": "Mini Figure Painting (5 of 6 part series)",
-   "start": "2026-10-27T18:00-05:00",
-   "end": "2026-10-27T19:30-05:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Part of a 6-part mini figure painting series, Community Room.",
-   "url": "https://www.madisonpubliclibrary.org/sequoya",
-   "image": "",
-   "venue": "Sequoya Library",
-   "venue_id": "osm:node/1473488018",
-   "venue_kind": "library",
-   "address": "4340 Tokay Boulevard",
-   "lat": 43.0537698,
-   "lon": -89.4505289,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
   },
   {
    "id": "c68b897a05e1",
@@ -2452,29 +2360,6 @@
    "link_ok": true
   },
   {
-   "id": "6d23d7e6015f",
-   "title": "Journaling for Mental Health",
-   "start": "2026-10-28T17:30-05:00",
-   "end": "2026-10-28T18:30-05:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Journaling session focused on mental health, Classroom.",
-   "url": "https://www.madisonpubliclibrary.org/locations/imagination-center",
-   "image": "",
-   "venue": "Imagination Center",
-   "venue_id": "osm:way/1562302805",
-   "venue_kind": "library",
-   "address": "1814 Parkside Drive",
-   "lat": 43.1240118,
-   "lon": -89.3168809,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "58de56c5f5c2",
    "title": "The Real Jaguar, DJ Chuck Money",
    "start": "2026-10-28T17:30-05:00",
@@ -2546,52 +2431,6 @@
     "Isthmus"
    ],
    "link_ok": null
-  },
-  {
-   "id": "5748e76f99d7",
-   "title": "Journaling for Mental Health",
-   "start": "2026-10-28T17:30-05:00",
-   "end": "2026-10-28T18:30-05:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Journaling session focused on mental health, Classroom.",
-   "url": "https://www.madisonpubliclibrary.org/locations/pinney-library",
-   "image": "",
-   "venue": "Pinney Library",
-   "venue_id": "osm:node/7234376294",
-   "venue_kind": "library",
-   "address": "516 Cottage Grove Road",
-   "lat": 43.0841729,
-   "lon": -89.3176486,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "02c9bf1d1261",
-   "title": "Journaling for Mental Health",
-   "start": "2026-10-28T17:30-05:00",
-   "end": "2026-10-28T18:30-05:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Journaling session focused on mental health, Classroom.",
-   "url": "https://www.madisonpubliclibrary.org/sequoya",
-   "image": "",
-   "venue": "Sequoya Library",
-   "venue_id": "osm:node/1473488018",
-   "venue_kind": "library",
-   "address": "4340 Tokay Boulevard",
-   "lat": 43.0537698,
-   "lon": -89.4505289,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
   },
   {
    "id": "3d26ea4eb91c",
@@ -4784,29 +4623,6 @@
    "link_ok": true
   },
   {
-   "id": "2022d43228c8",
-   "title": "Trick or Treat on Monroe Street",
-   "start": "2026-10-31T09:00-05:00",
-   "end": "2026-10-31T17:00-05:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Trick or treat event in Monroe Street Library.",
-   "url": "https://www.madisonpubliclibrary.org/monroe-street",
-   "image": "",
-   "venue": "Monroe Street Library",
-   "venue_id": "osm:way/241508509",
-   "venue_kind": "library",
-   "address": "1705 Monroe Street",
-   "lat": 43.0659388,
-   "lon": -89.4152059,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "4399e4c54334",
    "title": "Free coffee & tea at the library",
    "start": "2026-10-31T09:00-05:00",
@@ -4875,29 +4691,6 @@
     "Isthmus"
    ],
    "link_ok": null
-  },
-  {
-   "id": "d826e941ad50",
-   "title": "Art Club for Families - Costume Masks",
-   "start": "2026-10-31T11:00-05:00",
-   "end": "2026-10-31T12:00-05:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Family art club making costume masks, in Monroe Street Library.",
-   "url": "https://www.madisonpubliclibrary.org/monroe-street",
-   "image": "",
-   "venue": "Monroe Street Library",
-   "venue_id": "osm:way/241508509",
-   "venue_kind": "library",
-   "address": "1705 Monroe Street",
-   "lat": 43.0659388,
-   "lon": -89.4152059,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
   },
   {
    "id": "def78dadc093",

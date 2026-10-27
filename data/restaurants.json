@@ -4623,7 +4623,7 @@
    "menu": "https://www.eatforage.com/menu",
    "menu_src": "restaurant homepage",
    "image": "https://cdn.prod.website-files.com/62c493e3dccd2e962050a90e/62e1bcc71ff08469262abc82_Forage-OG-image-1200x630.jpg",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "american",
@@ -4718,7 +4718,7 @@
    "menu": "https://freshfinpoke.com/menu/",
    "menu_src": "restaurant homepage",
    "image": "https://freshfinpoke.com/wp-content/uploads/2025/08/Asset-14.png",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "sushi",
@@ -4755,7 +4755,7 @@
    "menu": "https://freshfinpoke.com/menu/",
    "menu_src": "restaurant homepage",
    "image": "https://freshfinpoke.com/wp-content/uploads/2025/08/Asset-14.png",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "indian",
@@ -4798,7 +4798,7 @@
    "menu_src": "restaurant homepage",
    "image": "http://static1.squarespace.com/static/69b1b63e4ef1947365ad86b9/t/69b1ba9bb191e22085412c71/1773255323622/friendsscriptlogo.png?format=1500w",
    "alcohol_src": "menu/homepage keywords",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "american",
@@ -4871,7 +4871,7 @@
    "menu": "https://www.fujimiddleton.com/menu",
    "menu_src": "restaurant homepage",
    "alcohol_src": "menu/homepage keywords",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "asian",
@@ -4956,7 +4956,7 @@
    "menu_src": "restaurant homepage",
    "image": "https://static.spotapps.co/website_images/ab_websites/768240_website_v1/shared_image.jpg",
    "alcohol_src": "menu/homepage keywords",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "latin",
@@ -4978,7 +4978,7 @@
    "menu_src": "restaurant homepage",
    "image": "https://static.spotapps.co/website_images/ab_websites/96000_website_v1/order_left.jpg",
    "alcohol_src": "menu/homepage keywords",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "asian",
@@ -4996,7 +4996,7 @@
    "hours": null,
    "bar": false,
    "alcohol": null,
-   "website_ok": null
+   "website_ok": false
   },
   {
    "group": "american",
@@ -5293,7 +5293,7 @@
    "menu": "https://goldennestpancake.com/wauwatosa-golden-nest-pancake-and-cafe-food-menu",
    "menu_src": "restaurant homepage",
    "alcohol_src": "menu/homepage keywords",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "american",
@@ -5354,7 +5354,7 @@
    "menu": "https://www.gothambagels.com/menu/",
    "menu_src": "restaurant homepage",
    "image": "https://www.gothambagels.com/images/og-gotham-sandwiches.jpg",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "italian",
@@ -5399,7 +5399,7 @@
    "menu_src": "restaurant homepage",
    "image": "http://static1.squarespace.com/static/56137b9be4b0ef382da90ed6/t/561c5963e4b0a03d3e7f5638/1444698467733/grampaspizzeria_BW.png?format=1500w",
    "alcohol_src": "AI website check",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "asian",
@@ -5465,7 +5465,7 @@
    "menu": "https://grandhaveliverona.com/food-menu/",
    "menu_src": "restaurant homepage",
    "image": "https://grandhaveliverona.com/wp-content/uploads/2026/05/WhatsApp-Image-2026-05-28-at-12.32.37-PM.jpeg",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "american",
@@ -5519,7 +5519,7 @@
    "menu": "https://www.grazemadison.com",
    "menu_src": "restaurant homepage",
    "alcohol_src": "menu/homepage keywords",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "asian",
@@ -5616,7 +5616,7 @@
    "menu": "https://greenowlcafe.com/madison-schenk-s-corners-green-owl-cafe-food-menu",
    "menu_src": "restaurant homepage",
    "alcohol_src": "AI website check",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "italian",
@@ -5654,7 +5654,7 @@
    "menu": "https://www.greenbushbaronregent.com/s/14x85in-Greenbush-Bar-Dinner-Menu.pdf",
    "menu_src": "restaurant homepage",
    "image": "http://static1.squarespace.com/static/66ba6cc29e626517cdc728cd/t/66be7d6ed0b857115901d383/1723759982721/Logo+6+Brown+Circle+%282%29.png?format=1500w",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "american",
@@ -5699,7 +5699,7 @@
    "menu_src": "restaurant homepage",
    "image": "https://static.spotapps.co/website_images/ab_websites/95983_website_v1/events.jpg",
    "alcohol_src": "AI website check",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "american",
@@ -5805,7 +5805,7 @@
    "alcohol": null,
    "menu": "http://www.halongbaymadison.com/#new-page-section",
    "menu_src": "restaurant homepage",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "latin",
@@ -5825,7 +5825,7 @@
    "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://primary.jwwb.nl/public/u/w/y/temp-ugbszwpfdyivsrixoffb/working2-high.png?enable-io=true&enable=upscale&fit=bounds&width=1200",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "latin",
@@ -5904,7 +5904,7 @@
    "menu": "https://www.happywokmadison.com/#menu",
    "menu_src": "restaurant homepage",
    "image": "https://ehc-west-0-bucket.s3.us-west-2.amazonaws.com/web/documents/happywokwi/open_graph_image/",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "asian",
@@ -5982,7 +5982,7 @@
    "hours": null,
    "bar": false,
    "alcohol": null,
-   "website_ok": null
+   "website_ok": false
   },
   {
    "group": "med",
@@ -6072,7 +6072,7 @@
    "menu": "https://heritagetavern.com/menus",
    "menu_src": "restaurant homepage",
    "image": "https://img1.wsimg.com/isteam/ip/3a982894-24d7-44d1-ba2d-b4d554b670b5/eggs.jpg",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "pub",
@@ -6115,7 +6115,7 @@
    "menu": "https://inntowner.com/uploads/editor/files/New%20Menu%20(June)%202025.pdf",
    "menu_src": "restaurant homepage",
    "alcohol_src": "AI website check",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "american",
@@ -6265,7 +6265,7 @@
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "menu": "https://flow.page/hophausbrewing",
    "menu_src": "restaurant homepage",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "asian",
@@ -6377,7 +6377,7 @@
    "menu": "https://www.hubbardavenuediner.com/menus/",
    "menu_src": "restaurant homepage",
    "image": "https://images.getbento.com/accounts/9778649823f836f62706f82a6ce1048e/media/images/82996logo.png?w=1200&fit=fill&auto=compress,format&cs=origin&h=600&bg=fff&pad=100",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "asian",
@@ -6431,7 +6431,7 @@
    "menu_src": "restaurant homepage",
    "image": "https://images.getbento.com/accounts/2b0b0c4e317d92d80eb7683c535236f2/media/images/75209JoPSqPFTjSTZote9c4ea_HWY1_logo_orange-05.png?w=1200&fit=fill&auto=compress,format&cs=origin&h=600&bg=EDEDF1&pad=100",
    "alcohol_src": "menu/homepage keywords",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "italian",
@@ -6469,7 +6469,7 @@
    "menu": "https://ianspizza.com/menu/",
    "menu_src": "restaurant homepage",
    "image": "https://ianspizza.com/wp-content/uploads/2021/07/Ians-Pizza-Pizza-Slices-1024x562.png",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "italian",
@@ -6555,7 +6555,7 @@
    "menu": "https://ianspizza.com/menu/",
    "menu_src": "restaurant homepage",
    "image": "https://ianspizza.com/wp-content/uploads/2020/10/Ians-Pizza_State-Street_1200w-1.jpg",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "italian",
@@ -6580,7 +6580,7 @@
    "menu": "https://ianspizza.com/menu/",
    "menu_src": "restaurant homepage",
    "image": "https://ianspizza.com/wp-content/uploads/2026/06/Ians-Pizza-Verona-Interior.jpeg",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "asian",
@@ -6633,7 +6633,7 @@
    "bar": false,
    "alcohol": null,
    "image": "https://images.eatermenu.com/gallery/305c9b8f-ec6e-445c-b348-bc3e14217b63/03%20(10).jpg",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "asian",
@@ -6790,7 +6790,7 @@
    "menu": "https://www.jaliscomadison.com/menu",
    "menu_src": "restaurant homepage",
    "alcohol_src": "menu/homepage keywords",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "indian",
@@ -6824,7 +6824,7 @@
    "menu_src": "restaurant homepage",
    "image": "https://www.jardin-madison.com/static/5a1034e6d74cffd6f6acdaa2/t/5aaacb5b8a922d7ea750c3a3/1521142620620/Jardin-Logo-Horizontal_format-1500w.jpg",
    "alcohol_src": "AI website check",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "italian",
@@ -6845,7 +6845,7 @@
    "hours": null,
    "bar": false,
    "alcohol": null,
-   "website_ok": null
+   "website_ok": false
   },
   {
    "group": "american",
@@ -7266,7 +7266,7 @@
    ],
    "bar": false,
    "alcohol": null,
-   "website_ok": null
+   "website_ok": false
   },
   {
    "group": "american",
@@ -7308,7 +7308,7 @@
    "menu_src": "restaurant homepage",
    "image": "https://static.wixstatic.com/media/335a7b_767e1bcd80c443aebd381689b681daa1~mv2.jpg/v1/fill/w_2500,h_1666,al_c/335a7b_767e1bcd80c443aebd381689b681daa1~mv2.jpg",
    "alcohol_src": "menu/homepage keywords",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "latin",
@@ -7657,7 +7657,7 @@
    "menu_src": "restaurant homepage",
    "image": "http://static1.squarespace.com/static/63f9322001c6ed6e929d7e6a/t/6436bdfdbf9f96651a827537/1681309181980/Lallande-Social-Share.png?format=1500w",
    "alcohol_src": "AI website check",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "latin",
@@ -7752,7 +7752,7 @@
    "menu_src": "restaurant homepage",
    "image": "http://laredosmadison.com/cdn/shop/files/Untitled_design_12_ca5d3566-9e66-4246-bc07-9bb9ab97d010.png?height=628&pad_color=fff&v=1709538514&width=1200",
    "alcohol_src": "AI website check",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "latin",
@@ -7774,7 +7774,7 @@
    "menu_src": "restaurant homepage",
    "image": "http://laredosrestaurante.com/cdn/shop/files/Untitled_design_12_1a61d17e-4b81-41dd-abf4-8365fe2e6dba.webp?height=628&pad_color=fff&v=1709541473&width=1200",
    "alcohol_src": "AI website check",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "american",
@@ -7863,7 +7863,7 @@
    "menu": "https://www.littletibetmadison.com",
    "menu_src": "restaurant homepage",
    "image": "https://static.wixstatic.com/media/5b39a0_7ea0b0e8933b4d43af1c81febe60c2a0~mv2.jpg/v1/fill/w_1536,h_1024,al_c/5b39a0_7ea0b0e8933b4d43af1c81febe60c2a0~mv2.jpg",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "pub",
@@ -7885,7 +7885,7 @@
    "menu": "https://www.lolasmadison.com/menu",
    "menu_src": "restaurant homepage",
    "image": "http://static1.squarespace.com/static/645d1aa01fc32f1016783970/t/646d1f6a40abfd1a39385f83/1684873066726/LolaSocial.jpg?format=1500w",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "italian",
@@ -7907,7 +7907,7 @@
    "bar": true,
    "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "american",
@@ -7993,7 +7993,7 @@
    "menu": "https://www.louisiannes.com/menu.html",
    "menu_src": "restaurant homepage",
    "alcohol_src": "menu/homepage keywords",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "latin",
@@ -8099,7 +8099,7 @@
    "menu_src": "restaurant homepage",
    "image": "https://static.wixstatic.com/media/50d0a5_ff180554c80a41e1bfa7a708bc19050d~mv2.jpg/v1/fill/w_1960,h_996,al_c/50d0a5_ff180554c80a41e1bfa7a708bc19050d~mv2.jpg",
    "alcohol_src": "menu/homepage keywords",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "italian",
@@ -8144,7 +8144,7 @@
    "menu_src": "restaurant homepage",
    "image": "https://images.getbento.com/accounts/9a3326bb05078934b72d687167785710/media/images/29644logo.png?w=1200&fit=fill&auto=compress,format&cs=origin&h=600&bg=E9B720&pad=100",
    "alcohol_src": "menu/homepage keywords",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "american",
@@ -8256,7 +8256,7 @@
    "menu_src": "restaurant homepage",
    "image": "http://macandcheeseshop.com/wp-content/uploads/2017/11/macs-macaroni-and-cheese-shop.jpg",
    "alcohol_src": "AI website check",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "american",
@@ -8376,7 +8376,7 @@
    "menu": "https://madseafoodboiler.com/menu",
    "menu_src": "restaurant homepage",
    "image": "https://img1.wsimg.com/isteam/ip/c8c09028-cd7a-4acc-aefb-1a00c77db1a4/Extoerior.PNG",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "indian",
@@ -8477,7 +8477,7 @@
    "hours": null,
    "bar": false,
    "alcohol": null,
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "american",
@@ -8580,7 +8580,7 @@
    "menu_src": "restaurant homepage",
    "image": "http://static1.squarespace.com/static/634ebfc51a8a0d51fd623c90/t/634ec13e40ce1e3ab4af7e51/1666105662312/Me+and+Julio+Logo+White.png?format=1500w",
    "alcohol_src": "AI website check",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "med",
@@ -8663,7 +8663,7 @@
    "menu_src": "restaurant homepage",
    "image": "https://static.wixstatic.com/media/50d0a5_9f77c569ed7a46429c23d7b15a181ee1~mv2.jpg/v1/fill/w_2500,h_1666,al_c/50d0a5_9f77c569ed7a46429c23d7b15a181ee1~mv2.jpg",
    "alcohol_src": "menu/homepage keywords",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "med",
@@ -8711,7 +8711,7 @@
    "menu": "https://www.mezemediterranean.com/menu-lbzsq",
    "menu_src": "restaurant homepage",
    "image": "https://static.wixstatic.com/media/bbba39_a1417b1ac1fa4478a90a98b33408bc91~mv2.jpg/v1/fill/w_1906,h_1069,al_c/bbba39_a1417b1ac1fa4478a90a98b33408bc91~mv2.jpg",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "american",
@@ -8887,7 +8887,7 @@
    "menu_src": "restaurant homepage",
    "image": "http://static1.squarespace.com/static/59d7bd9a0abd040fe2b057ea/t/663e416d7d726467b0e72470/1715356013433/MM_Coin_2C_Mint.png?format=1500w",
    "alcohol_src": "AI website check",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "indian",
@@ -8944,7 +8944,7 @@
    "bar": false,
    "alcohol": null,
    "image": "https://www.mishquiperu.com/uploads/b/23e5c800-97cf-11eb-ad41-8dae5850458e/Mishqui%20spread.jpeg",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "italian",
@@ -8981,7 +8981,7 @@
    "menu_src": "restaurant homepage",
    "image": "https://images.getbento.com/accounts/99b09dae587f60ed52d7b16725df035a/media/images/53675yellow.png?w=1200&fit=fill&auto=compress,format&cs=origin&h=600&bg=E9FE2F&pad=100",
    "alcohol_src": "AI website check",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "american",
@@ -9005,7 +9005,7 @@
    "menu": "https://www.monksbarandgrill.com/wisconsin-dells-menu/",
    "menu_src": "restaurant homepage",
    "image": "https://images.getbento.com/accounts/c039f461ff61bb50ca3e698d66e3ea0b/media/images/74866MONKS_STOCK25_CRANBERY_MANDARIN.jpg?w=1200&fit=crop&auto=compress,format&cs=origin&h=600",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "american",
@@ -9030,7 +9030,7 @@
    "menu": "https://www.monksbarandgrill.com/wisconsin-dells-menu/",
    "menu_src": "restaurant homepage",
    "image": "https://images.getbento.com/accounts/c039f461ff61bb50ca3e698d66e3ea0b/media/images/12066logo.png?w=1200&fit=fill&auto=compress,format&cs=origin&h=600&bg=ffffff&pad=100",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "american",
@@ -9130,7 +9130,7 @@
    "menu": "https://www.montysblueplatediner.com/menus/",
    "menu_src": "restaurant homepage",
    "image": "https://images.getbento.com/accounts/c52a222421d4c7bc274ea317e089f0e8/media/images/5000montys-blue-logo.png?w=1200&fit=fill&auto=compress,format&cs=origin&h=600&bg=EDEDF1&pad=100",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "italian",
@@ -9204,7 +9204,7 @@
    "menu_src": "restaurant homepage",
    "image": "https://static.wixstatic.com/media/ff6dfd_a3267e35583d10f29d3e5798a652d974.jpg/v1/fit/w_2500,h_1330,al_c/ff6dfd_a3267e35583d10f29d3e5798a652d974.jpg",
    "alcohol_src": "AI website check",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "sushi",
@@ -9226,7 +9226,7 @@
    "menu": "https://nani.restaurant/madison-west-nani-restaurant-food-menu",
    "menu_src": "restaurant homepage",
    "image": "https://static.spotapps.co/website_images/ab_websites/267351_website_v1/social_share_img.jpg",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "italian",
@@ -9268,7 +9268,7 @@
    "menu": "https://naples15.com/menu/",
    "menu_src": "restaurant homepage",
    "alcohol_src": "AI website check",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "italian",
@@ -9293,7 +9293,7 @@
    "menu_src": "restaurant homepage",
    "image": "https://s0.wp.com/i/blank.jpg",
    "alcohol_src": "AI website check",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "latin",
@@ -9403,7 +9403,7 @@
    "menu_src": "restaurant homepage",
    "image": "https://images.getbento.com/accounts/e4822fbaf7aad9e143030840d27381a3/media/images/44557NG.logo.png?w=1200&fit=fill&auto=compress,format&cs=origin&h=600&bg=fff&pad=100",
    "alcohol_src": "menu/homepage keywords",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "italian",
@@ -9448,7 +9448,7 @@
    "menu_src": "restaurant homepage",
    "image": "https://static.wixstatic.com/media/394483_94a5e9771c5846a5ac53c67532997161%7Emv2.png/v1/fit/w_2500,h_1330,al_c/394483_94a5e9771c5846a5ac53c67532997161%7Emv2.png",
    "alcohol_src": "menu/homepage keywords",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "sushi",
@@ -9613,7 +9613,7 @@
    "menu": "https://oishimadison.com/menu/",
    "menu_src": "restaurant homepage",
    "alcohol_src": "AI website check",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "med",
@@ -9689,7 +9689,7 @@
    "menu": "https://www.olliesmadison.com/menus",
    "menu_src": "restaurant homepage",
    "image": "http://static1.squarespace.com/static/6328b2805efa8c67f8dd77d3/t/68e952f65c09ba55fb9943a0/1760121591023/Ollie%27s+Madison+Dining+Experience.jpg?format=1500w",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "american",
@@ -9735,7 +9735,7 @@
    "bar": false,
    "alcohol": true,
    "alcohol_src": "menu/homepage keywords",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "american",
@@ -9853,7 +9853,7 @@
    "menu": "https://cdn.prod.website-files.com/688e4869abcb5db8c508256c/6a8cb6496126f823e09d2d13_osteria-novella-menu-updated.pdf",
    "menu_src": "restaurant homepage",
    "alcohol_src": "AI website check",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "italian",
@@ -9952,7 +9952,7 @@
    "alcohol": null,
    "menu": "https://paqueroberto.com/paque-roberto/",
    "menu_src": "restaurant homepage",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "latin",
@@ -10014,7 +10014,7 @@
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "menu": "https://paddymacspubverona.com/menu",
    "menu_src": "restaurant homepage",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "latin",
@@ -10057,7 +10057,7 @@
    "menu": "https://www.palettegrill.com/menu",
    "menu_src": "restaurant homepage",
    "image": "https://static.wixstatic.com/media/968194_cf44f4d5a45b42d198c651c0a2955b15%7Emv2.png/v1/fit/w_2500,h_1330,al_c/968194_cf44f4d5a45b42d198c651c0a2955b15%7Emv2.png",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "italian",
@@ -10077,7 +10077,7 @@
    "hours": null,
    "bar": false,
    "alcohol": null,
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "latin",
@@ -10252,7 +10252,7 @@
    "menu": "https://parkwayfamilyrestaurant.com/madison-fish-hatchery-rd-parkway-family-restaurant-food-menu",
    "menu_src": "restaurant homepage",
    "image": "https://static.spotapps.co/website_images/ab_websites/99744_website_v1/social.jpg",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "med",
@@ -10286,7 +10286,7 @@
    "alcohol": null,
    "menu": "https://www.parthenongyros.com",
    "menu_src": "restaurant homepage",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "latin",
@@ -10352,7 +10352,7 @@
    "menu": "https://pastureandplenty.com/wp-content/uploads/2026/10/cafemenu_260804.pdf",
    "menu_src": "restaurant homepage",
    "image": "https://pastureandplenty.com/wp-content/uploads/2017/08/PP_Logo_Horizontal_BLUE_WEB.svg",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "american",
@@ -10448,7 +10448,7 @@
    "bar": false,
    "alcohol": true,
    "alcohol_src": "AI website check",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "med",
@@ -10545,7 +10545,7 @@
    "alcohol": null,
    "menu": "https://www.pinkflamingobrunch.com/menu",
    "menu_src": "restaurant homepage",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "italian",
@@ -10583,7 +10583,7 @@
    "menu": "https://www.pizzabrutta.com/madison-dudgeon-monroe-neighborhood-pizza-brutta-food-menu",
    "menu_src": "restaurant homepage",
    "alcohol_src": "menu/homepage keywords",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "italian",
@@ -10607,7 +10607,7 @@
    "menu": "https://pizzaextremes.com/menus",
    "menu_src": "restaurant homepage",
    "image": "https://img1.wsimg.com/isteam/ip/a52bf3e4-cdd6-4ee7-b8ac-02a531625783/Pizza-Extreme-Extreme-Pizza-with-Friends.png",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "italian",
@@ -10653,7 +10653,7 @@
    "menu": "https://www.pokeitup.com/#menu",
    "menu_src": "restaurant homepage",
    "image": "https://ehc-west-0-bucket.s3.us-west-2.amazonaws.com/web/documents/pokeitupmadison/open_graph_image/",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "asian",
@@ -10691,9 +10691,9 @@
    ],
    "bar": false,
    "alcohol": null,
-   "menu": "https://orderdive.com/poke-teriyaki",
    "menu_src": "restaurant homepage",
-   "website_ok": null
+   "website_ok": true,
+   "menu_broken": "https://orderdive.com/poke-teriyaki"
   },
   {
    "group": "asian",
@@ -10749,7 +10749,7 @@
    "menu": "https://www.prairiecafeandbakery.com/cafe_menu.html",
    "menu_src": "restaurant homepage",
    "alcohol_src": "AI website check",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "pub",
@@ -10770,7 +10770,7 @@
    "bar": false,
    "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
-   "website_ok": null
+   "website_ok": false
   },
   {
    "group": "american",
@@ -10927,7 +10927,7 @@
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "menu": "https://rajnimadison.com/#menu",
    "menu_src": "restaurant homepage",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "asian",
@@ -10968,7 +10968,7 @@
    "menu": "https://www.ramenstationwi.com/order",
    "menu_src": "restaurant homepage",
    "image": "https://imagedelivery.net/9lr8zq_Jvl7h6OFWqEi9IA/314141bf-74aa-4c4b-69f6-7d4a932c4500/public",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "american",
@@ -11022,7 +11022,7 @@
    "hours": null,
    "bar": false,
    "alcohol": null,
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "sushi",
@@ -11065,7 +11065,7 @@
    "menu": "https://red-madison.com/menus/",
    "menu_src": "restaurant homepage",
    "alcohol_src": "menu/homepage keywords",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "american",
@@ -11090,7 +11090,7 @@
    "menu": "https://redrockmadison.com/madison-red-rock-saloon-madison-food-menu",
    "menu_src": "restaurant homepage",
    "image": "https://static.spotapps.co/website_images/ab_websites/3301_website_v2/social.jpg",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "asian",
@@ -11144,7 +11144,7 @@
    "menu_src": "restaurant homepage",
    "image": "https://static.spotapps.co/website_images/ab_websites/99733_website_v1/events_back.jpg",
    "alcohol_src": "menu/homepage keywords",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "american",
@@ -11166,7 +11166,7 @@
    "menu": "https://wisc-housingdining.nutrislice.com/menu/",
    "menu_src": "restaurant homepage",
    "image": "https://www.housing.wisc.edu/wp-content/uploads/sites/168/2023/02/2014-07-02-rhetas-market-28-3000x2000.jpg",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "asian",
@@ -11226,7 +11226,7 @@
    "bar": false,
    "alcohol": null,
    "image": "https://www.hellorisingsons.com/uploads/b/c6149920-b529-11e9-a45a-1392175299d3/RSD.jpg",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "american",
@@ -11245,7 +11245,7 @@
    "bar": false,
    "alcohol": null,
    "image": "https://kembartogell.org/img/situsgacor.png",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "american",
@@ -11375,7 +11375,7 @@
    "menu": "https://ruyihandpullednoodle.com/menu.html",
    "menu_src": "restaurant homepage",
    "image": "https://ruyihandpullednoodle.com/assets/img/og-image.jpg",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "american",
@@ -11427,7 +11427,7 @@
    "alcohol": null,
    "menu": "https://www.sabaithong.com/menus/",
    "menu_src": "restaurant homepage",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "asian",
@@ -11505,7 +11505,7 @@
    "bar": false,
    "alcohol": null,
    "image": "https://saigonsandwichwi.square.site/uploads/b/430c3710-c812-11ec-b9f9-ffd732670023/Saigon%20Sandwich%20Logo_2_green_background_MTc3Mj.png",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "sushi",
@@ -11589,7 +11589,7 @@
    ],
    "bar": false,
    "alcohol": null,
-   "website_ok": null
+   "website_ok": false
   },
   {
    "group": "italian",
@@ -11632,7 +11632,7 @@
    "menu": "https://images.getbento.com/accounts/a52820c0a1182f9381511e1c925a66db/media/wwfMoq7xRZ2qbpTo8Yjg_Buffet%20Menu%20(2026-2027).pdf",
    "menu_src": "restaurant homepage",
    "image": "https://images.getbento.com/accounts/a52820c0a1182f9381511e1c925a66db/media/images/33614IMG_20200524_152833.jpg?w=1200&fit=crop&auto=compress,format&cs=origin&h=600",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "italian",
@@ -11694,7 +11694,7 @@
    "menu": "https://sambabraziliangrill.com/-food-menu?source=header&spot_id=3360&destination=food_menu&promotion=chocolate_day",
    "menu_src": "restaurant homepage",
    "image": "https://static.spotapps.co/website_images/ab_websites/3360_website_v1/social_share.jpg",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "american",
@@ -11715,7 +11715,7 @@
    "bar": false,
    "alcohol": true,
    "alcohol_src": "AI website check",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "asian",
@@ -11765,7 +11765,7 @@
    "hours": null,
    "bar": false,
    "alcohol": null,
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "sushi",
@@ -11883,7 +11883,7 @@
    "menu": "https://www.senormachetes.com/menu-1",
    "menu_src": "restaurant homepage",
    "image": "https://www.senormachetes.com/media/9e3667_178b0a46f27149ada7def4d5ebc7f052-mv2_d_2489_1710_s_2_png/v1/fit/w_2500-h_1330-al_c/9e3667_178b0a46f27149ada7def4d5ebc7f052-mv2_d_2489_1710_s_2.png",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "american",
@@ -11906,7 +11906,7 @@
    "menu": "https://eatstreet.com/the-side-door-grill-and-tap-madison/menu?order-source=ORDER_NOW_IFRAME",
    "menu_src": "restaurant homepage",
    "alcohol_src": "menu/homepage keywords",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "med",
@@ -11926,7 +11926,7 @@
    "alcohol": null,
    "menu": "https://www.silkroadmadison.com/menu",
    "menu_src": "restaurant homepage",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "american",
@@ -11979,7 +11979,7 @@
    "menu": "https://www.sgdrestaurant.com/menu",
    "menu_src": "restaurant homepage",
    "image": "https://static.wixstatic.com/media/c39e23_14b484a7dd4e49ae8a80fa846d7c57f3~mv2.png/v1/fill/w_1633,h_926,al_c/c39e23_14b484a7dd4e49ae8a80fa846d7c57f3~mv2.png",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "med",
@@ -12106,7 +12106,7 @@
    "hours": null,
    "bar": false,
    "alcohol": null,
-   "website_ok": null
+   "website_ok": false
   },
   {
    "group": "american",
@@ -12176,7 +12176,7 @@
    "menu": "https://springgardenrestaurantwi.com/optimamedia/products/P_39928/f5808160-997a-40b9-b56d-c5c598e5881e.pdf",
    "menu_src": "restaurant homepage",
    "image": "https://du9m0k402rjmo.cloudfront.net/images/P_39928/94738395-72c5-4030-8a5f-c0b3744b7c46.jpg",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "american",
@@ -12215,7 +12215,7 @@
    "menu": "https://stadiumtakeout.com/menu",
    "menu_src": "restaurant homepage",
    "image": "https://img1.wsimg.com/isteam/getty/499483590",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "american",
@@ -12239,7 +12239,7 @@
    "menu": "https://stalzysdeli.com/catering/",
    "menu_src": "restaurant homepage",
    "alcohol_src": "AI website check",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "pub",
@@ -12261,7 +12261,7 @@
    "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://img1.wsimg.com/isteam/ip/84551fb6-395f-485c-b5ee-89d5e3ff65a2/header1_rg.png",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "american",
@@ -12297,7 +12297,7 @@
    "menu_src": "restaurant homepage",
    "image": "https://images.getbento.com/accounts/b908295adb2daf3b7fbac2c27bb1705e/media/images/87830Steenbocks-1.png?w=1200&fit=fill&auto=compress,format&cs=origin&h=600&bg=EDEDF1&pad=100",
    "alcohol_src": "menu/homepage keywords",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "italian",
@@ -12374,7 +12374,7 @@
    "menu": "https://www.ramenstrings.com/menu",
    "menu_src": "restaurant homepage",
    "image": "http://static1.squarespace.com/static/589ca25159cc68a6aa2874dc/t/589ce9e203596e50dabf476f/1613682511376/Strings+logo.png?format=1500w",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "italian",
@@ -12455,7 +12455,7 @@
    "menu_src": "restaurant homepage",
    "image": "https://static.spotapps.co/website_images/ab_websites/267323_website_v2/abt_right.jpg",
    "alcohol_src": "menu/homepage keywords",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "sushi",
@@ -12531,7 +12531,7 @@
    "alcohol": null,
    "menu": "https://sunnyphowi.com/sunny-pho/",
    "menu_src": "restaurant homepage",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "sushi",
@@ -12676,7 +12676,7 @@
    "menu": "https://www.swagatmadison.com/menus-1",
    "menu_src": "restaurant homepage",
    "image": "http://static1.squarespace.com/static/62e3212e0a80db051a3554a5/t/62e32321c7018c5c630e832a/1659052833292/Swagat+Red.png?format=1500w",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "indian",
@@ -12999,7 +12999,7 @@
    "menu": "https://eattaj.com/menu",
    "menu_src": "restaurant homepage",
    "image": "https://eattaj.com/__l5e/assets-v1/33bdbaaf-f85a-428b-ac60-4e9e2a5328fb/taj-bar-interior.webp",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "sushi",
@@ -13090,7 +13090,7 @@
    "menu": "https://tannersbarandgrill.com/overland-park-tanner-s-bar-and-grill-143rd-and-metcalf-menus",
    "menu_src": "restaurant homepage",
    "image": "https://static.spotapps.co/website_images/ab_websites/253077_website_v1/social.jpg",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "latin",
@@ -13141,7 +13141,7 @@
    "bar": false,
    "alcohol": true,
    "alcohol_src": "menu/homepage keywords",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "latin",
@@ -13247,7 +13247,7 @@
    "alcohol": null,
    "menu": "https://www.tasteofindiamadison.com/menu.php",
    "menu_src": "restaurant homepage",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "asian",
@@ -13322,7 +13322,7 @@
    "menu": "https://www.tavernakaya.com/menus",
    "menu_src": "restaurant homepage",
    "image": "http://static1.squarespace.com/static/59651623d482e9030f764c54/t/5c0d5a7c032be4548e70dce2/1544379006677/TK+Letters+Blue.png?format=1500w",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "med",
@@ -13345,7 +13345,7 @@
    "menu": "https://www.tazamediterranean.com/menu",
    "menu_src": "restaurant homepage",
    "image": "https://irp.cdn-website.com/f2c6c1d3/dms3rep/multi/opt/Tazalogo-4e1805a3-1920w.png",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "american",
@@ -13436,7 +13436,7 @@
    ],
    "bar": false,
    "alcohol": null,
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "latin",
@@ -13481,7 +13481,7 @@
    "menu_src": "restaurant homepage",
    "image": "https://images.getbento.com/accounts/620956f44fafb698af8a233a2e6d1278/media/images/44130logo-white.png?w=1200&fit=fill&auto=compress,format&cs=origin&h=600&bg=A7322C&pad=100",
    "alcohol_src": "menu/homepage keywords",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "asian",
@@ -13516,7 +13516,7 @@
    "menu": "https://www.thaibasilfoodmadison.com/menu",
    "menu_src": "restaurant homepage",
    "image": "https://static.wixstatic.com/media/689e13_d4716f506fab418d8cdf7f59ea8df313%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/689e13_d4716f506fab418d8cdf7f59ea8df313%7Emv2.jpg",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "asian",
@@ -13691,7 +13691,7 @@
    "menu": "https://www.icehousemadison.com/wp-content/uploads/2025/12/Ice-House-Menu-Winter-2026.pdf",
    "menu_src": "restaurant homepage",
    "image": "https://www.icehousemadison.com/wp-content/uploads/2021/12/ivan-torres-MQUqbmszGGM-unsplash-2048x1365.jpg",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "sushi",
@@ -13792,7 +13792,7 @@
    "alcohol": true,
    "image": "https://img1.wsimg.com/isteam/ip/2906bc6c-985d-44d9-8d0a-0c43c0331cad/OFLogo_color%20-%20Copy%20(Small).png",
    "alcohol_src": "menu/homepage keywords",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "american",
@@ -13836,7 +13836,7 @@
    "menu_src": "restaurant homepage",
    "image": "https://assets.milestoneinternet.com/cdn-cgi/image/f=auto/park-hotel-madison-best-western-premiere/menu-11-25/lunch-and-dinner/untitled-81.jpg?width=1200&height=630",
    "alcohol_src": "menu/homepage keywords",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "american",
@@ -13878,7 +13878,7 @@
    "menu_src": "restaurant homepage",
    "image": "https://static.wixstatic.com/media/735b12_2ffadae24498410ca693ad0e279c03cc%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/735b12_2ffadae24498410ca693ad0e279c03cc%7Emv2.jpg",
    "alcohol_src": "AI website check",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "latin",
@@ -13910,7 +13910,7 @@
    ],
    "bar": false,
    "alcohol": null,
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "american",
@@ -13957,7 +13957,7 @@
    "menu": "https://thirstygoatbrew.com/food-menu",
    "menu_src": "restaurant homepage",
    "image": "https://static.spotapps.co/website_images/ab_websites/251171_website_v1/social_share.jpg",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "asian",
@@ -14051,7 +14051,7 @@
    "bar": false,
    "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "sushi",
@@ -14096,7 +14096,7 @@
    ],
    "bar": false,
    "alcohol": null,
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "american",
@@ -14160,7 +14160,7 @@
    "menu": "https://www.tornadosteakhouse.com/s/166983-Tornado_Dinner-Menu_UPDATED-10-1-25_P2.pdf",
    "menu_src": "restaurant homepage",
    "image": "http://static1.squarespace.com/static/5b27db784611a05434987cbf/t/681e25f3fa6e0733503408f3/1746806260054/Logo.png?format=1500w",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "sushi",
@@ -14180,7 +14180,7 @@
    "alcohol": null,
    "menu": "https://www.trioramen.com/menu",
    "menu_src": "restaurant homepage",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "med",
@@ -14221,7 +14221,7 @@
    "menu": "https://turkishkitchenmadison.com/madison-dudgeon-monroe-turkish-kitchen-menus",
    "menu_src": "restaurant homepage",
    "image": "https://static.spotapps.co/website_images/ab_websites/404515_website_v1/social.jpg",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "american",
@@ -14272,7 +14272,7 @@
    "menu": "https://www.turnkeymadison.com/working-menu",
    "menu_src": "restaurant homepage",
    "image": "http://static1.squarespace.com/static/63323ae875e692009222a204/t/643371ccdf29aa1cf679e373/1681093073569/turnkey_tuesday_chicken.jpg?format=1500w",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "pub",
@@ -14341,7 +14341,7 @@
    "menu": "https://www.umamimadison.com/menus.html",
    "menu_src": "restaurant homepage",
    "image": "https://www.umamimadison.com/uploads/8/4/7/2/8472758/umami-happy-hour_orig.png",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "american",
@@ -14364,7 +14364,7 @@
    "menu": "https://updowncatering.com/business-menu.html",
    "menu_src": "restaurant homepage",
    "image": "https://nebula.wsimg.com/c43e1094de258393e2fbba1c6df00d23?AccessKeyId=6D0FADA3670624A8CEC6&disposition=0&alloworigin=1",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "latin",
@@ -14503,7 +14503,7 @@
    "alcohol": null,
    "menu": "https://skiplinow.com/shop/286936z",
    "menu_src": "restaurant homepage",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "italian",
@@ -14545,7 +14545,7 @@
    "menu": "https://vintagebrewingcompany.com/capitoleast/wp-content/uploads/sites/4/2026/05/VBC-Lunch-Menu-May-2026-M_compressed.pdf",
    "menu_src": "restaurant homepage",
    "image": "https://vintagebrewingcompany.com/capitoleast/wp-content/uploads/sites/4/2024/09/vintage-round2-046-1024x683.jpg",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "american",
@@ -14567,7 +14567,7 @@
    "menu": "https://vitality-protein-nutrition-1.ueniweb.com/#products",
    "menu_src": "restaurant homepage",
    "image": "https://img77.uenicdn.com/image/upload/v1627145714/business/6b45d062-7d7c-46e6-8b01-d41c605fe940.jpg",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "american",
@@ -14591,7 +14591,7 @@
    "menu_src": "restaurant homepage",
    "image": "http://wearytravelerfreehouse.com/wp-content/uploads/2018/02/cropped-DSC_0068.jpg",
    "alcohol_src": "menu/homepage keywords",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "american",
@@ -14637,7 +14637,7 @@
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "menu": "https://wingsover.com/menu/",
    "menu_src": "restaurant homepage",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "asian",
@@ -14736,7 +14736,7 @@
    ],
    "bar": false,
    "alcohol": null,
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "asian",
@@ -14778,7 +14778,7 @@
    "menu_src": "restaurant homepage",
    "image": "http://static1.squarespace.com/static/6938b062fef0ab5b07634fd2/t/695d971a3b532f56779de9f2/1767741210809/Yeeshan_weblogo_whiteglow_Ver3.gif?format=1500w",
    "alcohol_src": "menu/homepage keywords",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "asian",
@@ -14898,7 +14898,7 @@
    "menu_src": "restaurant homepage",
    "image": "https://static.spotapps.co/website_images/ab_websites/467577_website_v1/social_share.jpg",
    "alcohol_src": "menu/homepage keywords",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "latin",
@@ -14920,7 +14920,7 @@
    "menu": "https://zavalasmarketandtaqueria-madison-wi.com/madison-west-zavala-s-market-and-taqueria-food-menu",
    "menu_src": "restaurant homepage",
    "image": "https://static.spotapps.co/website_images/ab_websites/307956_website_v1/main.jpg",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "sushi",
@@ -14989,7 +14989,7 @@
    ],
    "bar": false,
    "alcohol": null,
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "american",
@@ -15027,7 +15027,7 @@
    "menu": "https://www.zippylubemadison.com/menu",
    "menu_src": "restaurant homepage",
    "image": "http://static1.squarespace.com/static/634094465de72264de546ae9/t/654bd88c68ea301e22e6ba37/1699469452120/socialimage.png?format=1500w",
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "italian",
@@ -15052,7 +15052,7 @@
    "menu": "https://www.zoespizzeria.com/",
    "menu_src": "restaurant homepage",
    "image": "https://www.zoespizzeria.com/wp-content/uploads/2023/12/blog-head2.jpg",
-   "website_ok": null
+   "website_ok": true
   }
  ],
  "with_menu": 163

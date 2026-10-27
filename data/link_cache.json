@@ -49,30 +49,10 @@
   "why": "",
   "checked": "2026-10-27T14:37:10.347398-05:00"
  },
- "https://www.madisonpubliclibrary.org/locations/imagination-center": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:37:10.347402-05:00"
- },
  "https://www.ticketmaster.com/event/Z7r9jZ1AAZOff": {
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
   "checked": "2026-10-27T14:37:10.347406-05:00"
- },
- "https://www.madisonpubliclibrary.org/monroe-street": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:37:10.347409-05:00"
- },
- "https://www.madisonpubliclibrary.org/locations/pinney-library": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:37:11.609713-05:00"
- },
- "https://www.madisonpubliclibrary.org/sequoya": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:37:12.808822-05:00"
  },
  "https://www.sunprairiepubliclibrary.org/": {
   "ok": true,
@@ -1498,5 +1478,1480 @@
   "ok": true,
   "why": "",
   "checked": "2026-10-27T14:38:29.628183-05:00"
+ },
+ "http://www.foragemadison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:01.860186-05:00"
+ },
+ "https://freshfinpoke.com/menu/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:01.860212-05:00"
+ },
+ "https://freshfinpoke.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:02.750441-05:00"
+ },
+ "https://www.freshfinpoke.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:02.750466-05:00"
+ },
+ "https://friedshack.com/": {
+  "ok": null,
+  "why": "HTTP 403 from cloudflare (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-10-27T14:41:02.750474-05:00"
+ },
+ "https://www.friendsapplaud.com/menu": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:02.750480-05:00"
+ },
+ "https://www.friendsapplaud.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:02.750486-05:00"
+ },
+ "https://www.fujimiddleton.com/menu": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:03.084774-05:00"
+ },
+ "https://www.fujimiddleton.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:03.084798-05:00"
+ },
+ "https://fyasydekitchen.com/drink-menu": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:03.084805-05:00"
+ },
+ "https://www.fyasydekitchen.com": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:03.084810-05:00"
+ },
+ "https://garibaldimexicanwi.com/madison-madison-garibaldi-mexican-restaurant-food-menu": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:03.084815-05:00"
+ },
+ "https://garibaldimexicanwi.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:03.515589-05:00"
+ },
+ "https://union.wisc.edu/gingerroot.htm": {
+  "ok": false,
+  "why": "HTTP 404 from nginx",
+  "checked": "2026-10-27T14:41:03.515615-05:00"
+ },
+ "https://www.facebook.com/people/Gobi-Mongolian-Grill-Hot-Pot/61574612458274/": {
+  "ok": null,
+  "why": "robots.txt asks bots not to visit",
+  "checked": "2026-10-27T14:41:03.515622-05:00"
+ },
+ "https://goldennestpancake.com/wauwatosa-golden-nest-pancake-and-cafe-food-menu": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:03.515629-05:00"
+ },
+ "https://goldennestpancake.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:03.925095-05:00"
+ },
+ "https://www.gothambagels.com/menu/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:03.925123-05:00"
+ },
+ "https://www.gothambagels.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:04.213928-05:00"
+ },
+ "https://www.grampaspizzeria.com/menu": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:04.327534-05:00"
+ },
+ "https://www.grampaspizzeria.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:04.327562-05:00"
+ },
+ "http://www.grandchinamiddleton.com": {
+  "ok": null,
+  "why": "HTTP 429 from Vercel (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-10-27T14:41:04.327571-05:00"
+ },
+ "https://grandhaveliverona.com/food-menu/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:04.327578-05:00"
+ },
+ "https://grandhaveliverona.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:04.327586-05:00"
+ },
+ "https://www.grazemadison.com": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:04.339711-05:00"
+ },
+ "https://www.grazemadison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:05.554512-05:00"
+ },
+ "https://greenowlcafe.com/madison-schenk-s-corners-green-owl-cafe-food-menu": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:05.554540-05:00"
+ },
+ "https://greenowlcafe.com": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:05.554548-05:00"
+ },
+ "https://www.greenbushbaronregent.com/s/14x85in-Greenbush-Bar-Dinner-Menu.pdf": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:05.554553-05:00"
+ },
+ "https://www.greenbushbaronregent.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:05.554558-05:00"
+ },
+ "https://gussdiner.com/food-menu": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:05.554563-05:00"
+ },
+ "https://www.gussdiner.com/location/guss-diner-sun-prairie/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:05.554568-05:00"
+ },
+ "http://www.halongbaymadison.com/#new-page-section": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:05.554573-05:00"
+ },
+ "http://www.halongbaymadison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:05.554578-05:00"
+ },
+ "https://www.habanerosparillamexicangrill.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:05.987295-05:00"
+ },
+ "https://www.happywokmadison.com/#menu": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:06.178623-05:00"
+ },
+ "https://www.happywokmadison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:06.178650-05:00"
+ },
+ "https://www.opentable.com/harvest-wisconsin": {
+  "ok": null,
+  "why": "robots.txt asks bots not to visit",
+  "checked": "2026-10-27T14:41:06.178658-05:00"
+ },
+ "https://union.wisc.edu/harvestgrains.htm": {
+  "ok": false,
+  "why": "HTTP 404 from nginx",
+  "checked": "2026-10-27T14:41:06.178664-05:00"
+ },
+ "https://haven-wi.com/": {
+  "ok": null,
+  "why": "HTTP 403 from cloudflare (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-10-27T14:41:06.178669-05:00"
+ },
+ "https://heritagetavern.com/menus": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:06.543404-05:00"
+ },
+ "https://heritagetavern.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:06.543433-05:00"
+ },
+ "https://inntowner.com/uploads/editor/files/New%20Menu%20(June)%202025.pdf": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:06.938387-05:00"
+ },
+ "https://inntowner.com/dining": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:06.938413-05:00"
+ },
+ "https://flow.page/hophausbrewing": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:06.938423-05:00"
+ },
+ "https://www.hophausbrewing.com": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:06.938431-05:00"
+ },
+ "https://www.hubbardavenuediner.com/menus/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:06.938439-05:00"
+ },
+ "https://www.hubbardavenuediner.com": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:06.938448-05:00"
+ },
+ "https://www.hwy1restaurant.com/menus/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:07.019344-05:00"
+ },
+ "https://www.hwy1restaurant.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:07.019367-05:00"
+ },
+ "https://ianspizza.com/menu/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:07.019373-05:00"
+ },
+ "https://ianspizza.com/madison/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:07.811004-05:00"
+ },
+ "https://ianspizza.com/location/state-street-madison/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:09.301855-05:00"
+ },
+ "https://ianspizza.com/location/verona/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:10.551004-05:00"
+ },
+ "https://www.ichibanmadison.com/": {
+  "ok": null,
+  "why": "HTTP 429 from Vercel (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-10-27T14:41:10.551030-05:00"
+ },
+ "https://ilikesushimiddleton.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:10.551038-05:00"
+ },
+ "https://www.jadetruefoodwi.com/": {
+  "ok": null,
+  "why": "HTTP 429 from Vercel (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-10-27T14:41:10.551044-05:00"
+ },
+ "https://www.jaliscomadison.com/menu": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:10.551049-05:00"
+ },
+ "https://www.jaliscomadison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:10.551055-05:00"
+ },
+ "https://www.jardin-madison.com/menu": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:10.551059-05:00"
+ },
+ "https://www.jardin-madison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:10.551064-05:00"
+ },
+ "https://www.jbsitaliangrille.com": {
+  "ok": false,
+  "why": "site no longer exists",
+  "checked": "2026-10-27T14:41:10.551069-05:00"
+ },
+ "https://www.juicy-organics.com": {
+  "ok": null,
+  "why": "HTTP 403 from cloudflare (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-10-27T14:41:20.916545-05:00"
+ },
+ "http://k-peppers.com": {
+  "ok": null,
+  "why": "TooManyRedirects",
+  "checked": "2026-10-27T14:41:20.916600-05:00"
+ },
+ "https://www.kosharie.com/": {
+  "ok": false,
+  "why": "site no longer exists",
+  "checked": "2026-10-27T14:41:20.916607-05:00"
+ },
+ "https://www.letoile-restaurant.com/menus": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:20.916614-05:00"
+ },
+ "http://www.letoile-restaurant.com": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:20.916619-05:00"
+ },
+ "https://lataguara-madison.com/": {
+  "ok": null,
+  "why": "HTTP 403 from cloudflare (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-10-27T14:41:20.916624-05:00"
+ },
+ "https://www.lallandemadison.com/menu": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:20.916629-05:00"
+ },
+ "https://www.lallandemadison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:20.916634-05:00"
+ },
+ "https://laredosmadison.com/pages/our-menu": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:20.916639-05:00"
+ },
+ "https://laredosmadison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:20.916643-05:00"
+ },
+ "https://laredosrestaurante.com/pages/our-menu": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:20.916649-05:00"
+ },
+ "https://laredosrestaurante.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:20.916654-05:00"
+ },
+ "https://www.littletibetmadison.com": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:20.916658-05:00"
+ },
+ "https://www.littletibetmadison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:20.916663-05:00"
+ },
+ "https://www.lolasmadison.com/menu": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:20.916668-05:00"
+ },
+ "https://www.lolasmadison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:20.916672-05:00"
+ },
+ "https://www.lombardinos.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:20.916676-05:00"
+ },
+ "https://www.louisiannes.com/menu.html": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:22.657433-05:00"
+ },
+ "https://www.louisiannes.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:22.657454-05:00"
+ },
+ "https://www.lucillemadison.com/catering-menu": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:22.657461-05:00"
+ },
+ "https://www.lucillemadison.com": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:22.657467-05:00"
+ },
+ "https://www.luigismadison.com/menus/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:22.657472-05:00"
+ },
+ "https://www.luigismadison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:22.657476-05:00"
+ },
+ "https://macandcheeseshop.com/menu/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:22.657480-05:00"
+ },
+ "https://macandcheeseshop.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:22.657485-05:00"
+ },
+ "https://www.themadrabbitcafe.com/": {
+  "ok": null,
+  "why": "could not connect",
+  "checked": "2026-10-27T14:41:22.657490-05:00"
+ },
+ "https://madseafoodboiler.com/menu": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:22.657494-05:00"
+ },
+ "https://madseafoodboiler.com": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:22.657499-05:00"
+ },
+ "https://madistanwi.com/": {
+  "ok": null,
+  "why": "could not connect",
+  "checked": "2026-10-27T14:41:22.657503-05:00"
+ },
+ "https://www.maharaniindianrestaurant.com": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:22.657508-05:00"
+ },
+ "https://www.meandjuliorestaurant.com/menu-fitchburg": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:22.657513-05:00"
+ },
+ "https://www.meandjuliorestaurant.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:22.657517-05:00"
+ },
+ "https://www.merchantmadison.com/kids": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:22.657522-05:00"
+ },
+ "https://www.merchantmadison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:22.657526-05:00"
+ },
+ "https://www.mezemediterranean.com/menu-lbzsq": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:22.657531-05:00"
+ },
+ "https://www.mezemediterranean.com": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:22.657535-05:00"
+ },
+ "https://www.migrantsmadison.com/": {
+  "ok": null,
+  "why": "could not connect",
+  "checked": "2026-10-27T14:41:22.657539-05:00"
+ },
+ "https://www.mintmarkmadison.com/food-menu": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:22.657544-05:00"
+ },
+ "https://www.mintmarkmadison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:22.657548-05:00"
+ },
+ "https://www.mishquiperu.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:22.657552-05:00"
+ },
+ "https://www.moltenmonkey.com/menus/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:22.657556-05:00"
+ },
+ "https://www.moltenmonkey.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:22.657560-05:00"
+ },
+ "https://www.monksbarandgrill.com/wisconsin-dells-menu/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:22.657565-05:00"
+ },
+ "https://www.monksbarandgrill.com/location/monks-bar-and-grill-middleton/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:22.657569-05:00"
+ },
+ "https://www.monksbarandgrill.com": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:22.657573-05:00"
+ },
+ "https://order.toasttab.com/online/monsoon-siam-madison": {
+  "ok": null,
+  "why": "HTTP 403 from cloudflare (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-10-27T14:41:22.657577-05:00"
+ },
+ "https://www.montysblueplatediner.com/menus/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:22.657582-05:00"
+ },
+ "https://www.montysblueplatediner.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:22.657586-05:00"
+ },
+ "https://www.namnoodle.com/nams-noodle-menu": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:22.657591-05:00"
+ },
+ "https://www.namnoodle.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:22.657595-05:00"
+ },
+ "https://nani.restaurant/madison-west-nani-restaurant-food-menu": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:22.657600-05:00"
+ },
+ "https://nani.restaurant/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:22.657604-05:00"
+ },
+ "https://naples15.com/menu/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:22.657608-05:00"
+ },
+ "https://naples15.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:22.657613-05:00"
+ },
+ "https://nattspil.com/dinner-menu/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:22.657617-05:00"
+ },
+ "https://www.nattspil.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:22.657621-05:00"
+ },
+ "https://www.thegritty.com/menus/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:22.657625-05:00"
+ },
+ "https://www.thegritty.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:22.657629-05:00"
+ },
+ "https://www.nonnosristoranteitaliano.com/menus": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:22.657634-05:00"
+ },
+ "https://www.nonnosristoranteitaliano.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:22.657638-05:00"
+ },
+ "https://www.norisushieats.com/": {
+  "ok": null,
+  "why": "HTTP 403 from cloudflare (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-10-27T14:41:22.657643-05:00"
+ },
+ "https://www.facebook.com/TheBayouMadison/": {
+  "ok": null,
+  "why": "robots.txt asks bots not to visit",
+  "checked": "2026-10-27T14:41:22.657648-05:00"
+ },
+ "https://www.facebook.com/Ogdens-North-Street-Diner-350282905130008/": {
+  "ok": null,
+  "why": "robots.txt asks bots not to visit",
+  "checked": "2026-10-27T14:41:22.657652-05:00"
+ },
+ "https://oishimadison.com/menu/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:22.657657-05:00"
+ },
+ "https://oishimadison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:22.657661-05:00"
+ },
+ "https://www.olliesmadison.com/menus": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:22.657666-05:00"
+ },
+ "https://www.olliesmadison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:22.657670-05:00"
+ },
+ "https://onesocialmadison.com/food-hall/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:31.152275-05:00"
+ },
+ "https://orchardrestaurants.com/": {
+  "ok": null,
+  "why": "HTTP 403 from cloudflare (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-10-27T14:41:31.152302-05:00"
+ },
+ "https://cdn.prod.website-files.com/688e4869abcb5db8c508256c/6a8cb6496126f823e09d2d13_osteria-novella-menu-updated.pdf": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:31.152310-05:00"
+ },
+ "https://osterianovella.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:31.152316-05:00"
+ },
+ "https://paqueroberto.com/paque-roberto/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:31.152320-05:00"
+ },
+ "https://paqueroberto.com": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:31.152325-05:00"
+ },
+ "https://paddymacspubverona.com/menu": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:31.152329-05:00"
+ },
+ "https://paddymacspubverona.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:31.152333-05:00"
+ },
+ "https://www.palettegrill.com/menu": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:31.152338-05:00"
+ },
+ "https://www.palettegrill.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:31.152343-05:00"
+ },
+ "https://onesocialmadison.com/vendor/palio/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:31.152348-05:00"
+ },
+ "https://parkwayfamilyrestaurant.com/madison-fish-hatchery-rd-parkway-family-restaurant-food-menu": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:31.152353-05:00"
+ },
+ "https://www.parkwayfamilyrestaurant.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:31.152359-05:00"
+ },
+ "https://www.parthenongyros.com": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:31.152363-05:00"
+ },
+ "https://www.parthenongyros.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:31.152368-05:00"
+ },
+ "https://pastureandplenty.com/wp-content/uploads/2026/10/cafemenu_260804.pdf": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:31.152372-05:00"
+ },
+ "https://pastureandplenty.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:31.152376-05:00"
+ },
+ "https://paulspelmenimadison.com/39592": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:31.152380-05:00"
+ },
+ "https://petrabakeryandrestaurantwi.com/": {
+  "ok": null,
+  "why": "could not connect",
+  "checked": "2026-10-27T14:41:31.152385-05:00"
+ },
+ "https://www.pinkflamingobrunch.com/menu": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:31.152389-05:00"
+ },
+ "https://www.pinkflamingobrunch.com": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:31.152393-05:00"
+ },
+ "https://www.pizzabrutta.com/madison-dudgeon-monroe-neighborhood-pizza-brutta-food-menu": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:31.152397-05:00"
+ },
+ "https://www.pizzabrutta.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:31.152402-05:00"
+ },
+ "https://pizzaextremes.com/menus": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:31.152406-05:00"
+ },
+ "https://pizzaextremes.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:31.152411-05:00"
+ },
+ "https://www.pokeitup.com/#menu": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:31.152415-05:00"
+ },
+ "https://www.pokeitup.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:31.152419-05:00"
+ },
+ "https://orderdive.com/poke-teriyaki": {
+  "ok": false,
+  "why": "HTTP 404 from Vercel",
+  "checked": "2026-10-27T14:41:31.152424-05:00"
+ },
+ "https://poketeriyaki.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:31.152428-05:00"
+ },
+ "https://www.prairiecafeandbakery.com/cafe_menu.html": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:31.152432-05:00"
+ },
+ "https://www.prairiecafeandbakery.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:31.152437-05:00"
+ },
+ "https://www.letsprost.com": {
+  "ok": false,
+  "why": "site no longer exists",
+  "checked": "2026-10-27T14:41:31.152442-05:00"
+ },
+ "https://rajnimadison.com/#menu": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:31.152446-05:00"
+ },
+ "https://rajnimadison.com": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:31.152450-05:00"
+ },
+ "https://www.ramenstationwi.com/order": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:31.152454-05:00"
+ },
+ "https://www.ramenstationwi.com": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:31.152458-05:00"
+ },
+ "https://onesocialmadison.com/vendor/real-seafood-co/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:31.152463-05:00"
+ },
+ "https://red-madison.com/menus/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:31.152467-05:00"
+ },
+ "https://red-madison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:31.152472-05:00"
+ },
+ "https://redrockmadison.com/madison-red-rock-saloon-madison-food-menu": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:31.152477-05:00"
+ },
+ "https://redrockmadison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:31.152481-05:00"
+ },
+ "https://rexsinnkeeper.com/waunakee-waunakee-rex-s-innkeeper-food-menu": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:31.152485-05:00"
+ },
+ "https://rexsinnkeeper.com": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:31.152489-05:00"
+ },
+ "https://wisc-housingdining.nutrislice.com/menu/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:31.152493-05:00"
+ },
+ "https://www.housing.wisc.edu/dining/locations/rhetas/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:31.152498-05:00"
+ },
+ "https://www.risingsonswi.com/": {
+  "ok": null,
+  "why": "could not connect",
+  "checked": "2026-10-27T14:41:31.152502-05:00"
+ },
+ "https://www.hellorisingsons.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:31.152506-05:00"
+ },
+ "https://robiniacourtyard.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:31.152510-05:00"
+ },
+ "https://rossispizzamonona.com/": {
+  "ok": null,
+  "why": "HTTP 523 from cloudflare",
+  "checked": "2026-10-27T14:41:33.770315-05:00"
+ },
+ "https://ruyihandpullednoodle.com/menu.html": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396315-05:00"
+ },
+ "https://ruyihandpullednoodle.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396339-05:00"
+ },
+ "https://www.sabaithong.com/menus/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396347-05:00"
+ },
+ "https://www.sabaithong.com/index.php": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396353-05:00"
+ },
+ "https://saigonsandwichwi.square.site/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396358-05:00"
+ },
+ "https://www.salvatorestomatopies.com/location/dark-horse/": {
+  "ok": false,
+  "why": "HTTP 404",
+  "checked": "2026-10-27T14:41:37.396364-05:00"
+ },
+ "https://images.getbento.com/accounts/a52820c0a1182f9381511e1c925a66db/media/wwfMoq7xRZ2qbpTo8Yjg_Buffet%20Menu%20(2026-2027).pdf": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396369-05:00"
+ },
+ "https://www.salvatorestomatopies.com/location/monona/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396374-05:00"
+ },
+ "https://sambabraziliangrill.com/-food-menu?source=header&spot_id=3360&destination=food_menu&promotion=chocolate_day": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396379-05:00"
+ },
+ "https://sambabraziliangrill.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396383-05:00"
+ },
+ "http://sardinemadison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396388-05:00"
+ },
+ "https://onesocialmadison.com/vendor/senora-machetes/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396393-05:00"
+ },
+ "https://www.seequoia.com/": {
+  "ok": null,
+  "why": "robots.txt asks bots not to visit",
+  "checked": "2026-10-27T14:41:37.396397-05:00"
+ },
+ "https://www.senormachetes.com/menu-1": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396402-05:00"
+ },
+ "https://senormachetes.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396407-05:00"
+ },
+ "https://eatstreet.com/the-side-door-grill-and-tap-madison/menu?order-source=ORDER_NOW_IFRAME": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396412-05:00"
+ },
+ "http://thesidedoorgrill.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396416-05:00"
+ },
+ "https://www.silkroadmadison.com/menu": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396420-05:00"
+ },
+ "https://www.silkroadmadison.com": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396425-05:00"
+ },
+ "https://www.sgdrestaurant.com/menu": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396428-05:00"
+ },
+ "https://www.sgdrestaurant.com": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396433-05:00"
+ },
+ "https://union.wisc.edu/dine/find-food-and-drink/urban-slice/": {
+  "ok": false,
+  "why": "HTTP 404 from nginx",
+  "checked": "2026-10-27T14:41:37.396438-05:00"
+ },
+ "https://springgardenrestaurantwi.com/optimamedia/products/P_39928/f5808160-997a-40b9-b56d-c5c598e5881e.pdf": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396442-05:00"
+ },
+ "https://www.springgardenrestaurantwi.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396447-05:00"
+ },
+ "https://stadiumtakeout.com/menu": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396451-05:00"
+ },
+ "https://stadiumtakeout.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396456-05:00"
+ },
+ "https://stalzysdeli.com/catering/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396460-05:00"
+ },
+ "https://www.stalzysdeli.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396464-05:00"
+ },
+ "https://starkweatherbrewing.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396469-05:00"
+ },
+ "https://www.steenbocksonorchard.com/menus/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396474-05:00"
+ },
+ "https://www.steenbocksonorchard.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396478-05:00"
+ },
+ "https://www.ramenstrings.com/menu": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396483-05:00"
+ },
+ "https://www.stringsramen.com": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396487-05:00"
+ },
+ "https://sultanmadison.com/food-menu": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396492-05:00"
+ },
+ "https://sultanmadison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396496-05:00"
+ },
+ "https://sunnyphowi.com/sunny-pho/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396500-05:00"
+ },
+ "https://sunnyphowi.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396505-05:00"
+ },
+ "http://www.sushiexpresswi.com": {
+  "ok": null,
+  "why": "HTTP 429 from Vercel (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-10-27T14:41:37.396509-05:00"
+ },
+ "https://www.swagatmadison.com/menus-1": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396513-05:00"
+ },
+ "https://www.swagatmadison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396518-05:00"
+ },
+ "http://www.swagatindianrestaurant.com/": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-10-27T14:41:37.396522-05:00"
+ },
+ "https://eattaj.com/menu": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396526-05:00"
+ },
+ "https://eattaj.com": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396530-05:00"
+ },
+ "https://www.takara88.com/": {
+  "ok": null,
+  "why": "HTTP 429 from Vercel (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-10-27T14:41:37.396535-05:00"
+ },
+ "https://tannersbarandgrill.com/overland-park-tanner-s-bar-and-grill-143rd-and-metcalf-menus": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396540-05:00"
+ },
+ "https://tannersbarandgrill.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396544-05:00"
+ },
+ "https://taqueriaeljalapenomadison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396549-05:00"
+ },
+ "https://www.tasteofindiamadison.com/menu.php": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396553-05:00"
+ },
+ "https://tasteofindiamadison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396557-05:00"
+ },
+ "https://www.tavernakaya.com/menus": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396562-05:00"
+ },
+ "https://www.tavernakaya.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396566-05:00"
+ },
+ "https://www.tazamediterranean.com/menu": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396571-05:00"
+ },
+ "https://www.tazamediterranean.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396576-05:00"
+ },
+ "https://tempestoysterbar.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396580-05:00"
+ },
+ "https://www.textubbstacos.com/menus/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396584-05:00"
+ },
+ "https://www.textubbstacos.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396588-05:00"
+ },
+ "https://www.thaibasilfoodmadison.com/menu": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396593-05:00"
+ },
+ "https://www.thaibasilfoodmadison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396597-05:00"
+ },
+ "https://www.icehousemadison.com/wp-content/uploads/2025/12/Ice-House-Menu-Winter-2026.pdf": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396602-05:00"
+ },
+ "https://www.icehousemadison.com/slice-house/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396606-05:00"
+ },
+ "https://themediterraneanjoint.com": {
+  "ok": null,
+  "why": "HTTP 403 from cloudflare (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-10-27T14:41:37.396610-05:00"
+ },
+ "https://theoldfashioned.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396614-05:00"
+ },
+ "https://www.thepostmadison.com/menus": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396619-05:00"
+ },
+ "https://thepostmadison.com": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396622-05:00"
+ },
+ "https://www.quiveysgrove.com/_files/ugd/735b12_a8142e2deaf849f689496c5e3617bea5.pdf": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396626-05:00"
+ },
+ "https://www.quiveysgrove.com/stone-house-restaurant": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396631-05:00"
+ },
+ "https://www.thewalkingjerk.com": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396635-05:00"
+ },
+ "https://thirstygoatbrew.com/food-menu": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396640-05:00"
+ },
+ "https://thirstygoatbrew.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396645-05:00"
+ },
+ "https://www.tobyssupperclub.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396649-05:00"
+ },
+ "https://tokyosushimadison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396653-05:00"
+ },
+ "https://www.tornadosteakhouse.com/s/166983-Tornado_Dinner-Menu_UPDATED-10-1-25_P2.pdf": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396657-05:00"
+ },
+ "https://www.tornadosteakhouse.com": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396662-05:00"
+ },
+ "https://www.trioramen.com/menu": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.396667-05:00"
+ },
+ "https://www.trioramen.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.414796-05:00"
+ },
+ "https://turkishkitchenmadison.com/madison-dudgeon-monroe-turkish-kitchen-menus": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.414818-05:00"
+ },
+ "https://turkishkitchenmadison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.414825-05:00"
+ },
+ "https://www.turnkeymadison.com/working-menu": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.414830-05:00"
+ },
+ "https://www.turnkeymadison.com": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.414834-05:00"
+ },
+ "https://www.umamimadison.com/menus.html": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.414839-05:00"
+ },
+ "https://www.umamimadison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.743748-05:00"
+ },
+ "https://updowncatering.com/business-menu.html": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.743775-05:00"
+ },
+ "https://updowncatering.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.818709-05:00"
+ },
+ "https://skiplinow.com/shop/286936z": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.818734-05:00"
+ },
+ "https://www.viettownmadison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.818740-05:00"
+ },
+ "https://vintagebrewingcompany.com/capitoleast/wp-content/uploads/sites/4/2026/05/VBC-Lunch-Menu-May-2026-M_compressed.pdf": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:37.818746-05:00"
+ },
+ "https://vintagebrewingcompany.com/capitoleast/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:39.027449-05:00"
+ },
+ "https://vitality-protein-nutrition-1.ueniweb.com/#products": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:39.027479-05:00"
+ },
+ "https://vitality-protein-nutrition-1.ueniweb.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:39.027488-05:00"
+ },
+ "https://wearytravelerfreehouse.com/weary-traveler-catering-menu/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:39.027497-05:00"
+ },
+ "https://www.wearytravelerfreehouse.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:39.027506-05:00"
+ },
+ "https://wingsover.com/menu/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:39.629701-05:00"
+ },
+ "https://wingsover.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:40.872240-05:00"
+ },
+ "https://yakosushimadison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:40.872267-05:00"
+ },
+ "https://www.yeeshaneatery.com/menu": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:40.872274-05:00"
+ },
+ "https://www.yeeshaneatery.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:40.872281-05:00"
+ },
+ "https://zafferanoristorante.com/fitchburg-fitchburg-zafferano-ristorante-food-menu?menu_id=1399641": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:40.872287-05:00"
+ },
+ "https://zafferanoristorante.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:40.872292-05:00"
+ },
+ "https://zavalasmarketandtaqueria-madison-wi.com/madison-west-zavala-s-market-and-taqueria-food-menu": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:40.872297-05:00"
+ },
+ "https://zavalasmarketandtaqueria-madison-wi.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:40.872302-05:00"
+ },
+ "http://www.jpi-us.com": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:51.255798-05:00"
+ },
+ "https://www.zippylubemadison.com/menu": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:51.255824-05:00"
+ },
+ "https://www.zippylubemadison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:51.255831-05:00"
+ },
+ "https://www.zoespizzeria.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:51.255837-05:00"
+ },
+ "https://locations.chuckecheese.com/us/wi/madison/438-grand-canyon-dr.": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:51.255843-05:00"
+ },
+ "https://www.geeksmania.com/home.html": {
+  "ok": null,
+  "why": "HTTP 400 from cloudflare",
+  "checked": "2026-10-27T14:41:51.255848-05:00"
+ },
+ "https://www.madisonaxe.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:51.255854-05:00"
+ },
+ "https://bowlavard.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:53.387204-05:00"
+ },
+ "https://www.tenpinalleys.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:53.387233-05:00"
+ },
+ "https://www.amctheatres.com/movie-theatres/madison/amc-fitchburg-18": {
+  "ok": null,
+  "why": "HTTP 403 from cloudflare (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-10-27T14:41:53.387241-05:00"
+ },
+ "https://cinema.wisc.edu/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:53.387246-05:00"
+ },
+ "https://www.flixbrewhouse.com/madison": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:53.387251-05:00"
+ },
+ "https://www.marcustheatres.com/theatre-locations/palace-cinema-sun-prairie": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:53.387256-05:00"
+ },
+ "http://marcustheatres.com/Theatre/TheatreDetail/141/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:53.387261-05:00"
+ },
+ "https://union.wisc.edu/marquee.htm": {
+  "ok": false,
+  "why": "HTTP 404 from nginx",
+  "checked": "2026-10-27T14:41:53.387266-05:00"
+ },
+ "https://www.skyzone.com/madison": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:53.387270-05:00"
+ },
+ "https://www.urbanairtrampolinepark.com/locations/wisconsin/madison": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T14:41:53.387275-05:00"
  }
 }
