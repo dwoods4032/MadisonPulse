@@ -1,0 +1,31 @@
+name,type,weight,est. price per person,typical minutes,serves alcohol,alcohol info from,area,address,website,picture,hours,latitude,longitude,place data from,id
+Aftershock Classic Arcade,Arcade,1.0,15,75,yes,,Willy St,1444 East Washington Avenue,https://www.aftershockclassicarcade.com/,,,43.08978,-89.363228,OpenStreetMap,osm:node/6431684446
+AMC Fitchburg 18,Movie,1.0,14,150,,,Outside the named areas,6091 McKee Road,https://www.amctheatres.com/movie-theatres/madison/amc-fitchburg-18,,,43.014339,-89.466215,OpenStreetMap,osm:way/370277876
+Auditorium,Movie,1.0,14,150,,,Downtown,,https://cinema.wisc.edu/,,,43.074056,-89.398608,OpenStreetMap,osm:way/783129314
+Bowl-A-Vard Lanes,Bowling,1.0,20,90,yes,,Outside the named areas,,https://bowlavard.com/,,,43.126454,-89.292489,OpenStreetMap,osm:way/105672048
+Castlecade,Arcade,1.0,15,75,,,East side,,,,,43.12565,-89.304317,OpenStreetMap,osm:way/1135060528
+Chuck E. Cheese,Arcade,1.0,15,75,,,West side,438 Grand Canyon Drive,https://locations.chuckecheese.com/us/wi/madison/438-grand-canyon-dr.,,,43.058536,-89.497288,OpenStreetMap,osm:way/105823620
+Dave & Buster's,Arcade,1.0,15,75,,,West side,,,,,43.055364,-89.505936,OpenStreetMap,osm:node/5425792364
+Double Tap,Arcade,1.0,15,75,yes,,Downtown,347 State Street,https://www.doubletapbeercade.com/location/madison/,,,43.074677,-89.391385,OpenStreetMap,osm:node/12112935176
+Dream Lanes,Bowling,1.0,20,90,yes,,East side,,,,,43.086741,-89.306872,OpenStreetMap,osm:way/438200040
+Escape This!,Escape room,1.0,35,75,no,,Downtown,120 East Wilson Street,,,,43.07407,-89.37964,OpenStreetMap,osm:node/5642132121
+Flix Brewhouse,Movie,1.0,14,150,,,East side,85 E Towne Mall,https://www.flixbrewhouse.com/madison,,,43.124946,-89.303571,OpenStreetMap,osm:way/1135060542
+Geeks Mania Arcade,Arcade,1.0,15,75,,,West side,6502 Odana Road,https://www.geeksmania.com/home.html,,"Mon,Tue,Wed,Thu,Sun 10:00-22:00; Fri,Sat 10:00-24:00",43.055524,-89.491782,OpenStreetMap,osm:node/5503513787
+I/O Arcade Bar,Arcade,1.0,15,75,yes,,Willy St,920;720 Williamson Street,,,,43.080173,-89.369264,OpenStreetMap,osm:way/385735932
+Indoor Course,Mini golf,1.0,12,60,no,,West side,,,,,43.045271,-89.474695,OpenStreetMap,osm:node/9160574717
+Madison Axe,Axe throwing,1.0,30,75,yes,,Outside the named areas,2427 South Stoughton Road,https://www.madisonaxe.com/,,,43.063316,-89.308173,OpenStreetMap,osm:node/13104814630
+Marcus Palace Cinema,Movie,1.0,14,150,,,Sun Prairie,2830 Hoepker Road,https://www.marcustheatres.com/theatre-locations/palace-cinema-sun-prairie,,,43.169751,-89.272649,OpenStreetMap,osm:way/539042285
+Marcus Point Cinema,Movie,1.0,14,150,,,Outside the named areas,7825 Big Sky Drive,http://marcustheatres.com/Theatre/TheatreDetail/141/,,,43.057795,-89.51951,OpenStreetMap,osm:way/49982470
+Nerdhaven Arcade,Arcade,1.0,15,75,,,East side,,,,,43.083346,-89.323535,OpenStreetMap,osm:node/12142917276
+Prairie Lanes,Bowling,1.0,20,90,yes,,Sun Prairie,430 Clarmar Drive,,,,43.17517,-89.242684,OpenStreetMap,osm:node/6193010119
+Rossi's Pizza,Arcade,1.0,15,75,,,East side,4503 Monona Drive,https://rossispizzamonona.com/,,,43.071617,-89.326433,OpenStreetMap,osm:way/322768190
+Schwoegler's Entertainment Center,Bowling,1.0,20,90,yes,,West side,444 Grand Canyon Drive,,,,43.057805,-89.497471,OpenStreetMap,osm:way/105823610
+Sky Zone,Trampoline park,1.0,20,75,no,,South side,2134 West Beltline Highway,https://www.skyzone.com/madison,,,43.036644,-89.414802,OpenStreetMap,osm:node/5457526617
+Spartan Bowl,Bowling,1.0,20,90,yes,,Outside the named areas,,,,,43.01281,-89.301953,OpenStreetMap,osm:way/106497401
+Tanner's Bar & Grill,Darts,1.0,10,75,yes,,Middleton,2259 Deming Way,https://tannersbarandgrill.com/,,"Mon,Tue,Wed,Thu 11:00-23:00; Fri,Sat 11:00-24:00; Sun 11:00-22:00",43.098053,-89.519275,OpenStreetMap,osm:way/90922863
+Ten Pin Alley,Bowling,1.0,20,90,yes,,Outside the named areas,,https://www.tenpinalleys.com/,,,43.007992,-89.481423,OpenStreetMap,osm:way/107655171
+The Marquee,Movie,1.0,14,150,,,Downtown,,https://union.wisc.edu/marquee.htm,,,43.071771,-89.407826,OpenStreetMap,osm:node/2969024345
+The Sport Bowl,Bowling,1.0,20,90,yes,,Middleton,,,,,43.096686,-89.499731,OpenStreetMap,osm:way/97601589
+Urban Air,Trampoline park,1.0,20,75,no,,West side,7309 West Towne Way,https://www.urbanairtrampolinepark.com/locations/wisconsin/madison,,"Mon,Tue,Wed,Thu 16:00-20:00; Fri 12:00-23:00; Sat 10:00-23:00; Sun 10:00-20:00",43.054222,-89.508475,OpenStreetMap,osm:way/86579194
+Village Lanes,Bowling,1.0,20,90,yes,,Outside the named areas,,,,,43.056238,-89.328008,OpenStreetMap,osm:node/5065146259
+Waun-A-Bowl,Bowling,1.0,20,90,yes,,Outside the named areas,,,,,43.189482,-89.462891,OpenStreetMap,osm:way/241950471

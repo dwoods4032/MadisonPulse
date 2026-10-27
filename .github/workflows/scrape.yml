@@ -46,6 +46,9 @@ jobs:
         run: python -m unittest discover -s tests -t .
 
       - name: Venue list (weekly, or on request)
+        env:
+          # the alcohol check reads place websites with Claude
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           if [ "${{ inputs.refresh_venues }}" = "true" ]; then
             python -m scraper.venues
@@ -63,6 +66,9 @@ jobs:
           ARGS=""
           if [ "${{ inputs.rediscover }}" = "true" ]; then ARGS="--rediscover"; fi
           python -m scraper.run $ARGS
+
+      - name: Reference spreadsheets and weights
+        run: python -m scraper.sheets
 
       - name: Save data
         run: |
@@ -83,6 +89,7 @@ jobs:
           if [ -f data/restaurants.json ]; then cp data/restaurants.json _site/data/; fi
           if [ -f data/sources_report.json ]; then cp data/sources_report.json _site/data/; fi
           if [ -f data/activities.json ]; then cp data/activities.json _site/data/; fi
+          if [ -f data/weights.csv ]; then cp data/weights.csv _site/data/; fi
           # stamp scripts with this release so browsers never mix an old script with a new page
           V=$(echo "$GITHUB_SHA" | cut -c1-8)
           sed -i "s#src=\"spots.js\"#src=\"spots.js?v=$V\"#; s#src=\"app.js\"#src=\"app.js?v=$V\"#" _site/index.html

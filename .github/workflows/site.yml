@@ -5,7 +5,7 @@ name: Publish site
 on:
   push:
     branches: [main]
-    paths: ["site/**"]
+    paths: ["site/**", "data/weights.csv"]  # an edited weights file goes live in a couple of minutes
   workflow_dispatch:
 
 permissions:
@@ -26,6 +26,7 @@ jobs:
           if [ -f data/restaurants.json ]; then cp data/restaurants.json _site/data/; fi
           if [ -f data/sources_report.json ]; then cp data/sources_report.json _site/data/; fi
           if [ -f data/activities.json ]; then cp data/activities.json _site/data/; fi
+          if [ -f data/weights.csv ]; then cp data/weights.csv _site/data/; fi
           # stamp scripts with this release so browsers never mix an old script with a new page
           V=$(echo "$GITHUB_SHA" | cut -c1-8)
           sed -i "s#src=\"spots.js\"#src=\"spots.js?v=$V\"#; s#src=\"app.js\"#src=\"app.js?v=$V\"#" _site/index.html
