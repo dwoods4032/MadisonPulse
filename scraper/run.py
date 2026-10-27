@@ -279,6 +279,41 @@ def scrape_venue(f: Fetcher, venue: dict, cache: dict, start, end, rediscover: b
     return [normalize(e, venue, source) for e in raw], info, status
 
 
+def _shape(x, depth=0):
+    """Field names and types only: no values."""
+    if depth > 4:
+        return "…"
+    if isinstance(x, dict):
+        return {k: _shape(v, depth + 1) for k, v in list(x.items())[:40]}
+    if isinstance(x, list):
+        return [len(x), _shape(x[0], depth + 1) if x else None]
+    if isinstance(x, str):
+        kind = "html" if "<" in x and ">" in x else "text"
+        return f"{kind}({len(x)})"
+    return type(x).__name__
+
+
+def api_probe(f: Fetcher, template: str, day) -> dict:
+    """Ask the date search for one day and describe the reply's structure (not its content)."""
+    url = template.format(date=day.isoformat(), page=1)
+    try:
+        r = f.get(url)
+    except Exception as e:
+        return {"error": f.why.get(url) or f"{type(e).__name__}"}
+    if r is None:
+        return {"error": f.why.get(url, "no response")}
+    out = {"content_type": r.headers.get("content-type", ""), "bytes": len(r.text)}
+    try:
+        out["shape"] = _shape(r.json())
+    except ValueError:
+        soup = X.soup_of(r.text)
+        out["html_tags"] = {t: len(soup.find_all(t)) for t in ("article", "li", "div", "a", "time", "h2", "h3", "h4", "script")}
+        out["classes"] = sorted({c for el in soup.find_all(class_=True) for c in el.get("class", [])})[:80]
+        out["jsonld"] = len(soup.find_all("script", type="application/ld+json"))
+        out["datetime_attrs"] = len(soup.find_all(attrs={"datetime": True}))
+    return out
+
+
 def calendar_events(f: Fetcher, src: dict, venues: list[dict], start, end, geo=None) -> tuple[list[dict], dict]:
     """A city-wide iCal feed (e.g. Isthmus). Read at most once a day; keep facts only
     (title, time, venue) and link every listing back to the source."""
@@ -332,24 +367,11 @@ def calendar_events(f: Fetcher, src: dict, venues: list[dict], start, end, geo=N
             return got_any
 
         pages(src["url"], int(src.get("max_pages", 15)))
-        # Then each later day by date (what the calendar's date picker and Next button do),
-        # so the two weeks ahead are covered, not just the next couple of days.
-        if src.get("date_param") and raw:
-            covered = {e["start"].date().isoformat() for e in raw}
-            day0 = now().date()
-            by_date = 0
-            for i in range(1, 14):
-                d = (day0 + timedelta(days=i)).isoformat()
-                if d in covered and d != max(covered):
-                    continue
-                before = len(raw)
-                res = pages(f"{src['url']}?{src['date_param']}={d}", int(src.get("pages_per_day", 8)), day=d)
-                if res is None:
-                    status["by_date"] = "the calendar ignored the date"
-                    break
-                by_date += len(raw) - before
-            else:
-                status["by_date"] = f"{by_date} more events read by date"
+        # Then each later day by date, through the calendar's own date search (what its date
+        # picker and Next button use). The first run only records the reply's shape (field names
+        # and counts, no event text) so a reader can be written for it.
+        if src.get("api_url"):
+            status["api"] = api_probe(f, src["api_url"], now().date() + timedelta(days=3))
         if raw:  # only a successful read counts as today's read; failures retry next run
             cache[name] = {"on": today, "events": [{"title": e["title"], "start": e["start"].isoformat(),
                            "end": e["end"].isoformat() if e.get("end") else None, "allday": e.get("allday", False),
