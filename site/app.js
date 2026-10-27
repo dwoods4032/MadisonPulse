@@ -812,6 +812,12 @@ function randomize(){
   let pool = plans({pool: true});
   const held = [...HOLD].filter(n => !BONUS_HELD || n !== BONUS_HELD.n);
   if (held.length) pool = pool.filter(p => held.every(n => p.stops.some(s => s.n === n)));
+  if (BONUS_HELD && HOLD.has(BONUS_HELD.n)){  // a held dessert: only nights it fits (near a stop, open, in budget)
+    const d = BONUS_HELD;
+    const fits = pool.filter(p => p.stops.some(x => (miles(x, d) ?? 9) <= 1.5) && p.stops.reduce((t, x) => t + cost(x), 0) + cost(d) <= state.budget
+      && schedule([...p.stops, d], state.day).ok);
+    if (fits.length) pool = fits;
+  }
   if (!pool.length){ slotMsg(held.length ? "Nothing else fits with what you're holding. Release a reel and spin again." : "Nothing fits these settings yet. Try a bigger budget, a longer evening or another day."); return; }
   pool.sort((a, b) => b.score - a.score);
   const top = pool.slice(0, Math.max(8, Math.min(60, Math.ceil(pool.length * 0.6))));  // good nights, still a surprise
@@ -899,23 +905,39 @@ function spin(p, pool, before){
     '<div class="cab-total" id="cabTotal">&nbsp;</div>'+
     '<div class="cab-row"><button type="button" class="btn spin" id="respin">Respin</button><button type="button" class="btn cab-use cab-done">Use this night</button></div></div>';
   $("respin").disabled = true;
+  // a held dessert stays on screen through the respin
+  const keep = BONUS_HELD && HOLD.has(BONUS_HELD.n) ? BONUS_HELD : null;
+  const keepFits = keep && p.stops.reduce((t, s) => t + cost(s), 0) + cost(keep) <= state.budget && schedule([...p.stops, keep], state.day).ok;
+  if (keep){
+    const kt = keepFits ? schedule([...p.stops, keep], state.day).items.find(x => x.s === keep).t : 0;
+    $("bonusSlot").innerHTML = '<div class="bonus-flash still">Bonus held</div>' + reelHTML({s:keep, t:kt, held:true, strip:[keep], labs:["Dessert"], i:reels.length, bonus:true});
+    if (!keepFits) $("bonusSlot").querySelector(".reel-time").textContent = "·  ·  ·";
+  }
   el.scrollIntoView({behavior: reduceMotion() ? "auto" : "smooth", block: "start"});
   let left = reels.length, spun = 0;
   reels.forEach(r => { const D = 1300 + (r.held ? 0 : spun++) * 600; runReel(el.querySelector('.reel[data-i="'+r.i+'"]'), r, D, () => { if (--left === 0) bonus(); }); });
 
   function bonus(){
-    const keep = BONUS_HELD && HOLD.has(BONUS_HELD.n) ? BONUS_HELD : null;
-    let b = null;
-    if (keep){ const spent = p.stops.reduce((t, s) => t + cost(s), 0); if (spent + cost(keep) <= state.budget && schedule([...p.stops, keep], state.day).ok) b = keep; }
-    else if (Math.random() < BONUS_ODDS) b = findBonus(p);
-    if (!b){ if (!keep) BONUS_HELD = null; return finish(p.stops); }
+    if (keep && !keepFits){  // the held dessert doesn't fit this new night
+      HOLD.delete(keep.n); BONUS_HELD = null;
+      $("bonusSlot").innerHTML = '<p class="cab-msg">'+esc(keep.n)+' doesn’t fit this night, so the bonus was dropped.</p>';
+      return finish(p.stops);
+    }
+    if (keep){
+      const full = [...p.stops, keep], sched = schedule(full, state.day).items;
+      for (const x of sched){ const rr = reels.find(q => q.s === x.s); if (rr){ rr.t = x.t; const n = el.querySelector('.reel[data-i="'+rr.i+'"] .reel-time'); if (n) n.textContent = fmtT(x.t); } }
+      FORCED = {...p, stops: full, cost: full.reduce((tt, s) => tt + cost(s), 0)};
+      return finish(full);
+    }
+    let b = Math.random() < BONUS_ODDS ? findBonus(p) : null;
+    if (!b){ BONUS_HELD = null; return finish(p.stops); }
     const full = [...p.stops, b], sched = schedule(full, state.day).items;
     const t = sched.find(x => x.s === b).t;
     let strip = shuffle(dessertStops().filter(x => x.n !== b.n)).slice(0, 12);
     strip = [...(strip.length ? strip : [b]), b];
-    const r = {s:b, t, held: !!keep, strip, labs: strip.map((x, k) => k === strip.length - 1 ? "Dessert" : k % 2 ? "Bonus" : "Sweet"), i: reels.length, bonus: true};
+    const r = {s:b, t, held: false, strip, labs: strip.map((x, k) => k === strip.length - 1 ? "Dessert" : k % 2 ? "Bonus" : "Sweet"), i: reels.length, bonus: true};
     $("bonusSlot").innerHTML = '<div class="bonus-flash" aria-live="polite">Bonus round</div>' + reelHTML(r);
-    if (!keep) SFX.bonus();
+    SFX.bonus();
     runReel(el.querySelector('.reel[data-i="'+r.i+'"]'), r, 1700, () => {
       // the dessert can shift later stops: refresh the times already shown
       for (const x of sched){ const rr = reels.find(q => q.s === x.s); if (rr){ rr.t = x.t; const n = el.querySelector('.reel[data-i="'+rr.i+'"] .reel-time'); if (n) n.textContent = fmtT(x.t); } }
