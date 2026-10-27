@@ -6,6 +6,8 @@
   "url": "https://isthmus.com/search/event/calendar-of-events/calendar.ics",
   "daily": true,
   "max_pages": 15,
-  "note": "Facts only (title, time, venue). Read once a day. Links go to the venue's site, never Isthmus. Never sent to the AI reader; Isthmus opts out of AI crawlers."
+  "note": "Facts only (title, time, venue). Read once a day. Links go to the venue's site, never Isthmus. Never sent to the AI reader; Isthmus opts out of AI crawlers. Later days are read by date (search_date) page by page, like the calendar's own date picker and Next button.",
+  "date_param": "search_date",
+  "pages_per_day": 8
  }
 ]

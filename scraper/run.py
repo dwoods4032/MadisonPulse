@@ -293,33 +293,63 @@ def calendar_events(f: Fetcher, src: dict, venues: list[dict], start, end, geo=N
         status["error"] = "used today's copy (read once a day)"
     else:
         raw, seen = [], set()
-        for page in range(1, int(src.get("max_pages", 15)) + 1):
-            url = src["url"] if page == 1 else f"{src['url']}{'&' if '?' in src['url'] else '?'}page={page}"
-            try:
-                r = f.get(url)
-            except Exception as e:
-                status["error"] = f.why.get(url) or f"{type(e).__name__}: {e}"[:200]
-                break
-            if r is None:
-                status["error"] = f.why.get(url, "no response")
-                break
-            got = X.read_ics(r.text, start, end)
-            if page == 1 and not got:
-                ctype = r.headers.get("content-type", "?").split(";")[0]
-                title = re.search(r"<title[^>]*>([^<]{0,80})", r.text, re.I)
-                cal = "BEGIN:VCALENDAR" in r.text[:2000].upper()
-                status["error"] = (f"calendar file had no events in the next 14 days" if cal else
-                                   f"got {ctype} instead of a calendar file" + (f' (page title: "{title.group(1).strip()}")' if title else "")
-                                   + f", {len(r.text)} bytes")
-                break
-            fresh = [e for e in got if (e.get("uid"), e["start"].isoformat()) not in seen]
-            if not fresh:
-                break  # no paging, or past the last page
-            for e in fresh:
-                seen.add((e.get("uid"), e["start"].isoformat()))
-            raw += fresh
-            if max(e["start"] for e in got) >= end:
-                break  # covered the two weeks
+
+        def pages(base, max_pages, day=None):
+            """Read a listing page by page (like pressing Next) until it repeats or runs out.
+            With day set, stop once the listing moves past that day. Returns (events, ok)."""
+            got_any = False
+            for page in range(1, max_pages + 1):
+                url = base if page == 1 else f"{base}{'&' if '?' in base else '?'}page={page}"
+                try:
+                    r = f.get(url)
+                except Exception as e:
+                    status["error"] = f.why.get(url) or f"{type(e).__name__}: {e}"[:200]
+                    return got_any
+                if r is None:
+                    status["error"] = f.why.get(url, "no response")
+                    return got_any
+                got = X.read_ics(r.text, start, end)
+                if page == 1 and not got and day is None:
+                    ctype = r.headers.get("content-type", "?").split(";")[0]
+                    title = re.search(r"<title[^>]*>([^<]{0,80})", r.text, re.I)
+                    cal = "BEGIN:VCALENDAR" in r.text[:2000].upper()
+                    status["error"] = (f"calendar file had no events in the next 14 days" if cal else
+                                       f"got {ctype} instead of a calendar file" + (f' (page title: "{title.group(1).strip()}")' if title else "")
+                                       + f", {len(r.text)} bytes")
+                    return False
+                if day is not None and page == 1 and got and min(e["start"].date() for e in got).isoformat() < day:
+                    return None  # the calendar ignored the date: by-date reading isn't available
+                fresh = [e for e in got if (e.get("uid"), e["start"].isoformat()) not in seen]
+                if not fresh:
+                    return got_any  # no more pages
+                for e in fresh:
+                    seen.add((e.get("uid"), e["start"].isoformat()))
+                raw.extend(fresh)
+                got_any = True
+                last = max(e["start"] for e in got)
+                if last >= end or (day is not None and last.date().isoformat() > day):
+                    return got_any
+            return got_any
+
+        pages(src["url"], int(src.get("max_pages", 15)))
+        # Then each later day by date (what the calendar's date picker and Next button do),
+        # so the two weeks ahead are covered, not just the next couple of days.
+        if src.get("date_param") and raw:
+            covered = {e["start"].date().isoformat() for e in raw}
+            day0 = now().date()
+            by_date = 0
+            for i in range(1, 14):
+                d = (day0 + timedelta(days=i)).isoformat()
+                if d in covered and d != max(covered):
+                    continue
+                before = len(raw)
+                res = pages(f"{src['url']}?{src['date_param']}={d}", int(src.get("pages_per_day", 8)), day=d)
+                if res is None:
+                    status["by_date"] = "the calendar ignored the date"
+                    break
+                by_date += len(raw) - before
+            else:
+                status["by_date"] = f"{by_date} more events read by date"
         if raw:  # only a successful read counts as today's read; failures retry next run
             cache[name] = {"on": today, "events": [{"title": e["title"], "start": e["start"].isoformat(),
                            "end": e["end"].isoformat() if e.get("end") else None, "allday": e.get("allday", False),
