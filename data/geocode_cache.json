@@ -138,5 +138,36 @@
   "address": "101 South Webster Street",
   "city": "Madison"
  },
- "uw nancy nicholas hall": null
+ "uw nancy nicholas hall": null,
+ "hilldale": {
+  "lat": 43.073213,
+  "lon": -89.453124,
+  "address": "",
+  "city": "Madison"
+ },
+ "martin luther king jr. boulevard": {
+  "lat": 43.073229,
+  "lon": -89.382243,
+  "address": "Martin Luther King Junior Boulevard",
+  "city": "Madison"
+ },
+ "madison children's museum": {
+  "lat": 43.076815,
+  "lon": -89.38439,
+  "address": "100 North Hamilton Street",
+  "city": "Madison"
+ },
+ "bordner park": {
+  "lat": 43.072157,
+  "lon": -89.478685,
+  "address": "",
+  "city": "Madison"
+ },
+ "nine springs golf course, fitchburg": {
+  "lat": 43.023261,
+  "lon": -89.421783,
+  "address": "Longford Terrace",
+  "city": "Fitchburg"
+ },
+ "underdog pet rescue": null
 }

@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-26T16:02:59-05:00",
+ "generated_at": "2026-10-26T21:06:12-05:00",
  "venues_checked": 237,
  "venues_with_events": 67,
- "venues_with_feeds": 88,
- "events": 392,
- "filtered_out": 171,
+ "venues_with_feeds": 89,
+ "events": 394,
+ "filtered_out": 92,
  "venues": [
   {
    "name": "AI page reading",
@@ -13,12 +13,12 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 201,
+   "raw_events": 213,
    "error": "",
-   "calls": 7,
-   "tokens_in": 19580,
-   "tokens_out": 7118,
-   "est_cost_usd": 0.0055
+   "calls": 14,
+   "tokens_in": 42910,
+   "tokens_out": 17142,
+   "est_cost_usd": 0.0129
   },
   {
    "name": "Isthmus calendar",
@@ -31,24 +31,13 @@
    "error": "used today's copy (read once a day)"
   },
   {
-   "name": "Bayview Community Center",
-   "kind": "community",
-   "website": "https://www.bayviewfoundation.org",
-   "feeds": [
-    "tribe",
-    "jsonld"
-   ],
-   "raw_events": 83,
-   "error": ""
-  },
-  {
    "name": "Ticketmaster",
    "kind": "source",
    "website": "",
    "feeds": [
     "ticketmaster"
    ],
-   "raw_events": 56,
+   "raw_events": 58,
    "error": ""
   },
   {
@@ -100,7 +89,7 @@
     "ical",
     "ical"
    ],
-   "raw_events": 32,
+   "raw_events": 31,
    "error": "ical: ConnectionError: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //www.mcfarlandlibrary.org/calendar/month (Caused by NameResolutionError(\"HTTPSConnection(host='https"
   },
   {
@@ -132,6 +121,16 @@
    "error": ""
   },
   {
+   "name": "Harmony Bar & Grill",
+   "kind": "bar",
+   "website": "https://www.harmonybarandgrill.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 14,
+   "error": ""
+  },
+  {
    "name": "Madison Youth Arts (MYArts)",
    "kind": "venue",
    "website": "https://www.madisonyoutharts.org/",
@@ -139,6 +138,16 @@
     "ai"
    ],
    "raw_events": 14,
+   "error": ""
+  },
+  {
+   "name": "High Noon Saloon",
+   "kind": "bar",
+   "website": "https://www.high-noon.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 13,
    "error": ""
   },
   {
@@ -151,26 +160,6 @@
     "jsonld",
     "jsonld",
     "jsonld"
-   ],
-   "raw_events": 12,
-   "error": ""
-  },
-  {
-   "name": "Harmony Bar & Grill",
-   "kind": "bar",
-   "website": "https://www.harmonybarandgrill.com/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 12,
-   "error": ""
-  },
-  {
-   "name": "High Noon Saloon",
-   "kind": "bar",
-   "website": "https://www.high-noon.com/",
-   "feeds": [
-    "ai"
    ],
    "raw_events": 12,
    "error": ""
@@ -196,23 +185,13 @@
    "error": ""
   },
   {
-   "name": "Lazy Oaf Lounge",
-   "kind": "bar",
-   "website": "https://www.lazyoaflounge.com/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 8,
-   "error": ""
-  },
-  {
    "name": "The Kickback",
    "kind": "bar",
    "website": "https://thekickback.bar/",
    "feeds": [
     "ai"
    ],
-   "raw_events": 8,
+   "raw_events": 9,
    "error": ""
   },
   {
@@ -222,7 +201,17 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 7,
+   "raw_events": 8,
+   "error": ""
+  },
+  {
+   "name": "Lazy Oaf Lounge",
+   "kind": "bar",
+   "website": "https://www.lazyoaflounge.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 8,
    "error": ""
   },
   {
@@ -238,9 +227,39 @@
    "error": ""
   },
   {
+   "name": "Imagination Center",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 7,
+   "error": ""
+  },
+  {
+   "name": "Pinney Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 7,
+   "error": ""
+  },
+  {
    "name": "Reindahl Park Pavillion",
    "kind": "community",
    "website": "https://www.cityofmadison.com/parks/find-a-park/reindahl/pavilion-at-the-imagination-center",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 7,
+   "error": ""
+  },
+  {
+   "name": "Sequoya Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/sequoya",
    "feeds": [
     "ai"
    ],
@@ -268,21 +287,21 @@
    "error": ""
   },
   {
-   "name": "Crystal Corner Bar",
-   "kind": "bar",
-   "website": "https://thecrystalcornerbar.com/",
+   "name": "Delta Beer Lab",
+   "kind": "brewery",
+   "website": "https://www.delta.beer/",
    "feeds": [
+    "squarespace",
     "ai"
    ],
    "raw_events": 6,
    "error": ""
   },
   {
-   "name": "Delta Beer Lab",
-   "kind": "brewery",
-   "website": "https://www.delta.beer/",
+   "name": "Orpheum Theatre",
+   "kind": "venue",
+   "website": "https://madisonorpheum.com/",
    "feeds": [
-    "squarespace",
     "ai"
    ],
    "raw_events": 6,
@@ -333,49 +352,9 @@
    "error": ""
   },
   {
-   "name": "Imagination Center",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 5,
-   "error": ""
-  },
-  {
    "name": "Monroe Street Library",
    "kind": "library",
    "website": "https://www.madisonpubliclibrary.org/monroe-street",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 5,
-   "error": ""
-  },
-  {
-   "name": "Orpheum Theatre",
-   "kind": "venue",
-   "website": "https://madisonorpheum.com/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 5,
-   "error": ""
-  },
-  {
-   "name": "Pinney Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 5,
-   "error": ""
-  },
-  {
-   "name": "Sequoya Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/sequoya",
    "feeds": [
     "ai"
    ],
@@ -415,11 +394,11 @@
    "error": ""
   },
   {
-   "name": "Children's Theater of Madison",
-   "kind": "venue",
-   "website": "https://ctmtheater.org/",
+   "name": "Crystal Corner Bar",
+   "kind": "bar",
+   "website": "https://thecrystalcornerbar.com/",
    "feeds": [
-    "tribe"
+    "ai"
    ],
    "raw_events": 4,
    "error": ""
@@ -532,18 +511,6 @@
    "error": ""
   },
   {
-   "name": "State Street Brats",
-   "kind": "bar",
-   "website": "https://statestreetbrats.com/",
-   "feeds": [
-    "jsonld",
-    "jsonld",
-    "jsonld"
-   ],
-   "raw_events": 3,
-   "error": ""
-  },
-  {
    "name": "Aftershock Classic Arcade",
    "kind": "bar",
    "website": "https://www.aftershockclassicarcade.com/",
@@ -560,6 +527,27 @@
    "feeds": [
     "jsonld",
     "jsonld"
+   ],
+   "raw_events": 2,
+   "error": ""
+  },
+  {
+   "name": "Badger Rock Neighborhood Center",
+   "kind": "community",
+   "website": "https://rootedwi.org/badger-rock-neighborhood-center/",
+   "feeds": [
+    "tribe",
+    "jsonld"
+   ],
+   "raw_events": 2,
+   "error": ""
+  },
+  {
+   "name": "Central Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/central",
+   "feeds": [
+    "ai"
    ],
    "raw_events": 2,
    "error": ""
@@ -650,6 +638,18 @@
    "website": "https://www.roxxybar.com/location/madison/",
    "feeds": [
     "ai"
+   ],
+   "raw_events": 2,
+   "error": ""
+  },
+  {
+   "name": "State Street Brats",
+   "kind": "bar",
+   "website": "https://statestreetbrats.com/",
+   "feeds": [
+    "jsonld",
+    "jsonld",
+    "jsonld"
    ],
    "raw_events": 2,
    "error": ""
@@ -757,17 +757,6 @@
    "error": ""
   },
   {
-   "name": "Badger Rock Neighborhood Center",
-   "kind": "community",
-   "website": "https://rootedwi.org/badger-rock-neighborhood-center/",
-   "feeds": [
-    "tribe",
-    "jsonld"
-   ],
-   "raw_events": 0,
-   "error": "jsonld: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
-  },
-  {
    "name": "Badger Tavern",
    "kind": "bar",
    "website": "https://thebadgertavern.com/",
@@ -828,6 +817,17 @@
    "kind": "cafe",
    "website": "https://barriquesmarket.com/pages/west-wash",
    "feeds": [],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
+   "name": "Bayview Community Center",
+   "kind": "community",
+   "website": "https://www.bayviewfoundation.org",
+   "feeds": [
+    "tribe",
+    "jsonld"
+   ],
    "raw_events": 0,
    "error": ""
   },
@@ -920,14 +920,6 @@
    "error": "PermissionError: robots.txt disallows https://www.facebook.com/cargocoffeeeast/"
   },
   {
-   "name": "Central Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/central",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
    "name": "Cervato Wine & Tapas",
    "kind": "bar",
    "website": "https://cervatowine.com/",
@@ -940,6 +932,16 @@
    "kind": "cafe",
    "website": "https://union.wisc.edu/dine/find-food-and-drink/chazen-cafe",
    "feeds": [],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
+   "name": "Children's Theater of Madison",
+   "kind": "venue",
+   "website": "https://ctmtheater.org/",
+   "feeds": [
+    "tribe"
+   ],
    "raw_events": 0,
    "error": ""
   },
@@ -1451,7 +1453,7 @@
   {
    "name": "Moka",
    "kind": "cafe",
-   "website": "https://mymokacoffee.com/",
+   "website": "https://www.mymokacoffee.com/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1459,7 +1461,7 @@
   {
    "name": "Moka",
    "kind": "cafe",
-   "website": "https://www.mymokacoffee.com/",
+   "website": "https://mymokacoffee.com/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1697,22 +1699,6 @@
   {
    "name": "Starbucks",
    "kind": "cafe",
-   "website": "https://www.starbucks.com/store-locator/store/12525/university-north-blackhawk-3515-university-avenue-madison-wi-537052140-us",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Starbucks",
-   "kind": "cafe",
-   "website": "https://www.starbucks.com/store-locator/store/16495/south-gammon-mineral-point-434-gammon-place-3-madison-wi-537191090-us",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Starbucks",
-   "kind": "cafe",
    "website": "https://www.starbucks.com/store-locator/store/1010275/greenway-boulevard-8230-greenway-boulevard-middleton-wi-535623579-us",
    "feeds": [],
    "raw_events": 0,
@@ -1722,6 +1708,22 @@
    "name": "Starbucks",
    "kind": "cafe",
    "website": "https://www.starbucks.com/store-locator/store/9233/monona-broadway-6512-monona-drive-monona-wi-537164026-us",
+   "feeds": [],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
+   "name": "Starbucks",
+   "kind": "cafe",
+   "website": "https://www.starbucks.com/store-locator/store/12525/university-north-blackhawk-3515-university-avenue-madison-wi-537052140-us",
+   "feeds": [],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
+   "name": "Starbucks",
+   "kind": "cafe",
+   "website": "https://www.starbucks.com/store-locator/store/16495/south-gammon-mineral-point-434-gammon-place-3-madison-wi-537191090-us",
    "feeds": [],
    "raw_events": 0,
    "error": ""

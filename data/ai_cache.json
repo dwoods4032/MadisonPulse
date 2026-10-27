@@ -37,54 +37,27 @@
   ]
  },
  "https://thecrystalcornerbar.com/Calendar.htm": {
-  "hash": "b1ad04e4dbffef1c397cf10597ac3cb4e877e2df",
-  "asked": "2026-10-26T16:00:25-05:00",
+  "hash": "743df6ac3ce38e1f07c9e023c2d51f3ed7d4b609",
+  "asked": "2026-10-26T21:04:44-05:00",
   "on": "2026-10-26",
   "events": [
    {
     "title": "Metal Halloween Show",
     "date": "2026-10-31",
-    "start": "20:00",
+    "start": "21:00",
     "end": null,
     "price": 15,
-    "description": "Metal Halloween show: Sabbath Dweller (Black Sabbath cover set), Yotuma, Whippets, Red Museum (solo synth horror soundtrack)",
+    "description": "Metal Halloween show with Sabbath Dweller (Black Sabbath cover set), Yotuma, Whippets, and Red Museum (solo synth horror movie soundtrack)",
     "category": "music"
    },
    {
-    "title": "ROCK rock ROCK rock show: The Dead Johnnys, Tom Howl & The Scowl, Lummox",
+    "title": "ROCK rock ROCK rock show",
     "date": "2026-11-07",
     "start": "21:00",
     "end": null,
     "price": 10,
-    "description": "Rock show featuring The Dead Johnnys, Tom Howl & The Scowl, and Lummox",
+    "description": "Rock show with The Dead Johnnys, Tom Howl & The Scowl, and Lummox",
     "category": "music"
-   },
-   {
-    "title": "Free pool until 7PM",
-    "date": "2026-10-26",
-    "start": null,
-    "end": "19:00",
-    "price": null,
-    "description": "Free pool until 7PM on Mondays",
-    "category": "other"
-   },
-   {
-    "title": "Free pool until 7PM",
-    "date": "2026-11-02",
-    "start": null,
-    "end": "19:00",
-    "price": null,
-    "description": "Free pool until 7PM on Mondays",
-    "category": "other"
-   },
-   {
-    "title": "Free pool until 7PM",
-    "date": "2026-11-09",
-    "start": null,
-    "end": "19:00",
-    "price": null,
-    "description": "Free pool until 7PM on Mondays",
-    "category": "other"
    }
   ]
  },
@@ -267,26 +240,26 @@
   ]
  },
  "https://www.thecrystalcornerbar.com/Calendar.htm": {
-  "hash": "b1ad04e4dbffef1c397cf10597ac3cb4e877e2df",
-  "asked": "2026-10-26T16:00:28-05:00",
+  "hash": "743df6ac3ce38e1f07c9e023c2d51f3ed7d4b609",
+  "asked": "2026-10-26T21:04:49-05:00",
   "on": "2026-10-26",
   "events": [
    {
     "title": "Metal Halloween Show",
     "date": "2026-10-31",
-    "start": "20:00",
+    "start": "21:00",
     "end": null,
     "price": 15,
-    "description": "Sabbath Dweller (Black Sabbath cover set), Yotuma, Whippets, Red Museum (solo synth horror movie soundtrack)",
+    "description": "Metal Halloween show featuring Sabbath Dweller (Ruin Dweller, Black Sabbath cover set), Yotuma, Whippets and Red Museum.",
     "category": "music"
    },
    {
-    "title": "ROCK rock show",
+    "title": "The Dead Johnnys, Tom Howl & The Scowl, Lummox",
     "date": "2026-11-07",
     "start": "21:00",
     "end": null,
     "price": 10,
-    "description": "The Dead Johnnys, Tom Howl & The Scowl, Lummox",
+    "description": "Rock show with The Dead Johnnys, Tom Howl & The Scowl and Lummox.",
     "category": "music"
    }
   ]
@@ -445,8 +418,8 @@
   "events": []
  },
  "https://www.harmonybarandgrill.com/madison-atwood-the-harmony-bar-and-grill-events": {
-  "hash": "4634aeede475f2866b507661cbfd92d037b0466b",
-  "asked": "2026-10-26T15:19:34-05:00",
+  "hash": "1286a3de36823dbe0bb8010ed39c1efd99eb755d",
+  "asked": "2026-10-26T21:04:49-05:00",
   "on": "2026-10-26",
   "events": [
    {
@@ -455,7 +428,8 @@
     "start": "17:30",
     "end": "18:30",
     "price": 5,
-    "description": "Kids music show with David Landau, with the kid menu available. Family-friendly."
+    "description": "Kids music show with David Landau, with the kid menu available. Family-friendly.",
+    "category": "music"
    },
    {
     "title": "Bigtooth",
@@ -463,7 +437,8 @@
     "start": "18:00",
     "end": "19:00",
     "price": 0,
-    "description": "Abbreviated bluegrass-inspired set, followed by a pre-game show for World Series Game 4 at 7pm."
+    "description": "Abbreviated bluegrass-inspired set from 6-7pm, followed by a pre-game for World Series Game 4 at 7pm.",
+    "category": "music"
    },
    {
     "title": "Cork 'n Bottle String Band",
@@ -471,15 +446,26 @@
     "start": "17:30",
     "end": "19:00",
     "price": 0,
-    "description": "Madison bluegrass band mixing traditional bluegrass with humor and storytelling."
+    "description": "Madison bluegrass band mixing traditional bluegrass with humor and storytelling.",
+    "category": "music"
    },
    {
-    "title": "Gaines & Wagoner",
+    "title": "Gaines & Wagoner with guest Grandpa's Elixir",
     "date": "2026-11-01",
     "start": "16:00",
     "end": "19:00",
     "price": 15,
-    "description": "Madison husband-and-wife Americana duo with special guest Grandpa's Elixir (old-time string band). $15 suggested donation."
+    "description": "Madison husband-and-wife duo playing Americana, with old-timey string band Grandpa's Elixir as the monthly guest. $15 suggested donation.",
+    "category": "music"
+   },
+   {
+    "title": "David Landau Kid Show",
+    "date": "2026-11-02",
+    "start": "17:30",
+    "end": "18:30",
+    "price": 5,
+    "description": "Kids music show with David Landau, with the kid menu available. Family-friendly.",
+    "category": "music"
    },
    {
     "title": "Smarter Than You Trivia",
@@ -487,7 +473,8 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Trivia hosted by Paul, held the 1st and 3rd Wednesday of the month. Free."
+    "description": "Trivia hosted by Paul. Held the 1st and 3rd Wednesday of each month.",
+    "category": "trivia"
    },
    {
     "title": "Melissa Kieler (ft. Ethan Kister)",
@@ -495,7 +482,8 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Folk/rock/pop singer-songwriter Melissa Kieler with Ethan Kister. No cover."
+    "description": "Folk/rock/alt/pop singer-songwriter Melissa Kieler with a soulful voice and originals plus covers.",
+    "category": "music"
    },
    {
     "title": "Lochanside",
@@ -503,7 +491,8 @@
     "start": "20:00",
     "end": "22:00",
     "price": 0,
-    "description": "Scottish music with bagpipes, guitar, fiddle, whistle and bodhran. No cover."
+    "description": "Scottish music with bagpipes, guitar, fiddle, whistle and bodhran, from traditional songs to upbeat dance tunes.",
+    "category": "music"
    },
    {
     "title": "O'Darby Irish Pub Band",
@@ -511,7 +500,8 @@
     "start": "19:30",
     "end": "21:30",
     "price": 10,
-    "description": "Traditional Irish pub songs, ballads and humor, plus original songs. $10 suggested donation."
+    "description": "Traditional Irish pub songs, ballads and humor, plus original songs. $10 suggested donation.",
+    "category": "music"
    }
   ]
  },
@@ -596,8 +586,8 @@
   ]
  },
  "https://high-noon.com/calendar/": {
-  "hash": "c14df3619efed57f15715d34e0b854aa33e777a3",
-  "asked": "2026-10-26T16:00:31-05:00",
+  "hash": "6bf47d67ebb4dbdc3fc2b4c1ddb4f43ee4b54edb",
+  "asked": "2026-10-26T21:04:50-05:00",
   "on": "2026-10-26",
   "events": [
    {
@@ -606,16 +596,16 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents. Doors 7:00 pm.",
+    "description": "FPC Live presents American Aquarium at High Noon Saloon. Doors 7pm.",
     "category": "music"
    },
    {
-    "title": "Inside Wisconsin Politics LIVE",
+    "title": "Inside Wisconsin Politics Live",
     "date": "2026-10-27",
     "start": "18:00",
     "end": null,
     "price": 0,
-    "description": "Wisconsin Public Radio presents. Free, registration required. Doors 5:00 pm.",
+    "description": "Wisconsin Public Radio live show. Free, registration required. Doors 5pm.",
     "category": "other"
    },
    {
@@ -624,7 +614,7 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "Urban League of Greater Madison Young Professionals presents. Doors 6:30 pm.",
+    "description": "Urban League of Greater Madison Young Professionals presents a DJ battle and get-out-the-vote rally. Doors 6:30pm.",
     "category": "music"
    },
    {
@@ -633,7 +623,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents, with One Beer Please, Lost Island Society, and Meskales. Doors 7:00 pm.",
+    "description": "FPC Live presents Ska-lloween with One Beer Please, Lost Island Society, and Meskales. Doors 7pm.",
     "category": "music"
    },
    {
@@ -642,7 +632,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents, with BAMM and Wild Violets. Doors 7:00 pm.",
+    "description": "FPC Live Halloween show with BAMM and Wild Violets. Doors 7pm.",
     "category": "music"
    },
    {
@@ -651,7 +641,7 @@
     "start": "17:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents, with The Marilyns as 'The Misfits', Iron Metal Jackson as 'Metallica', and You First as 'Me First And The Gimme Gimmes'. Doors 4:00 pm.",
+    "description": "FPC Live presents Halloween Hangover III with The Marilyns as The Misfits, Iron Metal Jackson as Metallica, and You First as Me First And The Gimme Gimmes. Doors 4pm.",
     "category": "music"
    },
    {
@@ -660,7 +650,7 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "FPC Live presents, with Runner and Breakup Shoes. Doors 6:30 pm.",
+    "description": "FPC Live presents Noah Gundersen with Runner and Breakup Shoes. Doors 6:30pm.",
     "category": "music"
    },
    {
@@ -669,7 +659,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents, with Reysha Rami. Doors 7:00 pm.",
+    "description": "FPC Live presents Sophie Hunter with Reysha Rami. Doors 7pm.",
     "category": "music"
    },
    {
@@ -678,7 +668,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents, with The Braymores. Doors 7:00 pm.",
+    "description": "FPC Live presents The Bends with The Braymores. Doors 7pm. Low tickets.",
     "category": "music"
    },
    {
@@ -687,7 +677,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents, with Genevieve Heyward. Doors 7:00 pm.",
+    "description": "FPC Live presents Six Foot Blonde with Genevieve Heyward. Doors 7pm.",
     "category": "music"
    },
    {
@@ -696,7 +686,7 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents, with Tenmonthsummer, Barely Civil, Los Kausas, Ourvanity, The Up & Up, The Brash Menagerie, and Irish Goodbyes. Doors 6:00 pm.",
+    "description": "FPC Live presents Unrest Fest 2026 with Tenmonthsummer, Barely Civil, Los Kausas, Ourvanity, The Up & Up, The Brash Menagerie, and Irish Goodbyes. Doors 6pm.",
     "category": "music"
    },
    {
@@ -705,7 +695,7 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "FPC Live presents, with Texas Toast Chainsaw Massacre. Doors 6:30 pm.",
+    "description": "FPC Live presents Psychostick with Texas Toast Chainsaw Massacre. Doors 6:30pm.",
     "category": "music"
    },
    {
@@ -714,7 +704,7 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "The Moth presents a storytelling event. Doors 6:30 pm.",
+    "description": "The Moth presents Madison StorySLAM, theme Home for the Holidays. Doors 6:30pm.",
     "category": "other"
    }
   ]
@@ -841,8 +831,8 @@
   ]
  },
  "https://high-noon.com/event/fruition/": {
-  "hash": "a43e4f3301ecf5239e47bebe7bfbf79567880806",
-  "asked": "2026-10-26T16:00:33-05:00",
+  "hash": "915769adee97d9da2efbfe178f650b4086f32aa1",
+  "asked": "2026-10-26T21:04:52-05:00",
   "on": "2026-10-26",
   "events": []
  },
@@ -1143,8 +1133,8 @@
   "events": []
  },
  "https://thekickback.bar/upcoming-events/": {
-  "hash": "8da8a3c886514a8a85f5c8ef8cb3a8b94a6f6b05",
-  "asked": "2026-10-26T15:19:49-05:00",
+  "hash": "132c9b8b52db441849ec94da54cd1d2ebd530722",
+  "asked": "2026-10-26T21:04:56-05:00",
   "on": "2026-10-26",
   "events": [
    {
@@ -1153,7 +1143,8 @@
     "start": "18:30",
     "end": null,
     "price": null,
-    "description": "Tuesday Trivia at The Kickback."
+    "description": "Tuesday Trivia at The Kickback.",
+    "category": "trivia"
    },
    {
     "title": "Friday Night Strikes",
@@ -1161,7 +1152,8 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Craft beer and pinball night."
+    "description": "Friday Night Strikes with craft beer and pinball.",
+    "category": "other"
    },
    {
     "title": "Drag Bingo w/ Cynthia Mooseknuckle",
@@ -1169,7 +1161,8 @@
     "start": "13:00",
     "end": null,
     "price": null,
-    "description": "Drag bingo with Cynthia Mooseknuckle."
+    "description": "Drag bingo with Cynthia Mooseknuckle, with New Glarus Brewing Co.",
+    "category": "bingo"
    },
    {
     "title": "Premier Trivia Tuesday!",
@@ -1177,7 +1170,8 @@
     "start": "18:30",
     "end": null,
     "price": null,
-    "description": "Tuesday Trivia at The Kickback."
+    "description": "Tuesday Trivia at The Kickback.",
+    "category": "trivia"
    },
    {
     "title": "Founders – Craft Beer Pinball League",
@@ -1185,7 +1179,8 @@
     "start": "18:30",
     "end": null,
     "price": null,
-    "description": "League night featuring Founders Brewing Co. craft beer and pinball."
+    "description": "League night with Founders Brewing Co. craft beer and pinball.",
+    "category": "other"
    },
    {
     "title": "Friday Night Strikes",
@@ -1193,7 +1188,17 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Craft beer and pinball night."
+    "description": "Friday Night Strikes with craft beer and pinball.",
+    "category": "other"
+   },
+   {
+    "title": "Ultimate Super Smash Bros Tournament",
+    "date": "2026-11-06",
+    "start": "19:00",
+    "end": null,
+    "price": null,
+    "description": "Ultimate Super Smash Bros tournament on Switch 2.",
+    "category": "other"
    },
    {
     "title": "Yuengling Presents: Kickback9 Pin-Golf Tour 4 Session 2",
@@ -1201,7 +1206,8 @@
     "start": "12:00",
     "end": null,
     "price": null,
-    "description": "Kickback9 pin-golf tour session with Wisconsin Pin-Golf, craft beer and league night."
+    "description": "Kickback9 Pin-Golf tour session with Wisconsin Pin-Golf, craft beer and league play.",
+    "category": "other"
    }
   ]
  },
@@ -1236,8 +1242,8 @@
   "events": []
  },
  "https://thekickback.bar/drag-bingo-nov/": {
-  "hash": "78915f0b3d29616de38a7f310c90793428f98328",
-  "asked": "2026-10-26T15:19:52-05:00",
+  "hash": "bc8730b23dad2d05e4a35847b98a6fcc0f06f6a3",
+  "asked": "2026-10-26T21:05:08-05:00",
   "on": "2026-10-26",
   "events": [
    {
@@ -1246,7 +1252,8 @@
     "start": "13:00",
     "end": null,
     "price": 5,
-    "description": "Drag Bingo games and a performance by Cynthia Mooseknuckle. $5 to play, 5 rounds, prizes from The Kickback and New Glarus Brewing."
+    "description": "Drag Bingo games (5 rounds) with a live performance by Cynthia Mooseknuckle. Prizes from The Kickback and New Glarus Brewing.",
+    "category": "music"
    }
   ]
  },
@@ -1558,8 +1565,8 @@
   "events": []
  },
  "https://www.madisonpubliclibrary.org/spaces/events": {
-  "hash": "de6ef437d1439ca6eec904fb26c12174c8e0adc9",
-  "asked": "2026-10-26T16:01:29-05:00",
+  "hash": "0016bb5d7a3922438af20b115890195fbe8f3ce5",
+  "asked": "2026-10-26T21:05:49-05:00",
   "on": "2026-10-26",
   "events": []
  },
@@ -1700,8 +1707,8 @@
   ]
  },
  "https://www.madisonpubliclibrary.org/spaces/events/search": {
-  "hash": "a669ca0b6b9c8ab2618b1d9b6e7806fa00d6fb0f",
-  "asked": "2026-10-26T15:23:09-05:00",
+  "hash": "1f135ada0dcdfca0e87d6f26040dc627b16a0fda",
+  "asked": "2026-10-26T21:05:58-05:00",
   "on": "2026-10-26",
   "events": []
  },

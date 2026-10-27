@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-26T16:02:59-05:00",
+ "generated_at": "2026-10-26T21:06:12-05:00",
  "window": {
-  "from": "2026-10-26T10:00-05:00",
-  "to": "2026-11-09T16:00-06:00"
+  "from": "2026-10-26T15:04-05:00",
+  "to": "2026-11-09T21:04-06:00"
  },
- "count": 392,
+ "count": 394,
  "events": [
   {
    "id": "e30a014b6843",
@@ -429,48 +429,6 @@
    "sources": [
     "Isthmus",
     "AI page reading"
-   ]
-  },
-  {
-   "id": "942ffc150115",
-   "title": "Brewers @ Rays",
-   "start": "2026-10-26T19:00-05:00",
-   "end": null,
-   "all_day": false,
-   "category": "sports",
-   "price": null,
-   "description": "",
-   "url": "https://statestreetbrats.com/event/brewers-rays-guardians-20261026/",
-   "venue": "State Street Brats",
-   "venue_id": "osm:way/886357869",
-   "venue_kind": "bar",
-   "address": "603 State Street",
-   "lat": 43.0746889,
-   "lon": -89.395998,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
-   ]
-  },
-  {
-   "id": "9e3bd589165b",
-   "title": "Pacers @ Bucks",
-   "start": "2026-10-26T19:00-05:00",
-   "end": null,
-   "all_day": false,
-   "category": "sports",
-   "price": null,
-   "description": "",
-   "url": "https://statestreetbrats.com/event/pacers-bucks-20261026/",
-   "venue": "State Street Brats",
-   "venue_id": "osm:way/886357869",
-   "venue_kind": "bar",
-   "address": "603 State Street",
-   "lat": 43.0746889,
-   "lon": -89.395998,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
    ]
   },
   {
@@ -1085,27 +1043,6 @@
    ]
   },
   {
-   "id": "e6ebbf5d39de",
-   "title": "Zumba",
-   "start": "2026-10-27T18:00-05:00",
-   "end": "2026-10-27T19:00-05:00",
-   "all_day": false,
-   "category": "dance",
-   "price": null,
-   "description": "Join us for a high-energy Zumba class, where you can dance, sweat, and have fun while getting fit with a great group of people! Pre-registration is not required.",
-   "url": "https://bayviewfoundation.org/event/zumba/2026-10-27/",
-   "venue": "Bayview Community Center",
-   "venue_id": "osm:way/1323648187",
-   "venue_kind": "community",
-   "address": "103 La Mariposa Lane",
-   "lat": 43.0663858,
-   "lon": -89.3975076,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
-   ]
-  },
-  {
    "id": "488c9322631c",
    "title": "Open Mic with Martin Hunt",
    "start": "2026-10-27T18:00-05:00",
@@ -1170,6 +1107,27 @@
    "via": "Isthmus",
    "sources": [
     "Isthmus",
+    "AI page reading"
+   ]
+  },
+  {
+   "id": "5c5c7ecf3502",
+   "title": "Mini Figure Painting (5 of 6 part series)",
+   "start": "2026-10-27T18:00-05:00",
+   "end": "2026-10-27T19:30-05:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Part of a 6-part mini figure painting series in the Community Room; this is session 5.",
+   "url": "https://www.madisonpubliclibrary.org/locations/imagination-center",
+   "venue": "Imagination Center",
+   "venue_id": "osm:way/1562302805",
+   "venue_kind": "library",
+   "address": "1814 Parkside Drive",
+   "lat": 43.1240118,
+   "lon": -89.3168809,
+   "source": "ai",
+   "sources": [
     "AI page reading"
    ]
   },
@@ -1258,6 +1216,48 @@
    "via": "Isthmus",
    "sources": [
     "Isthmus"
+   ]
+  },
+  {
+   "id": "d1d6d9680887",
+   "title": "Mini Figure Painting (5 of 6 part series)",
+   "start": "2026-10-27T18:00-05:00",
+   "end": "2026-10-27T19:30-05:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Part of a 6-part mini figure painting series in the Community Room; this is session 5.",
+   "url": "https://www.madisonpubliclibrary.org/locations/pinney-library",
+   "venue": "Pinney Library",
+   "venue_id": "osm:node/7234376294",
+   "venue_kind": "library",
+   "address": "516 Cottage Grove Road",
+   "lat": 43.0841729,
+   "lon": -89.3176486,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
+  },
+  {
+   "id": "bca8178f23ab",
+   "title": "Mini Figure Painting (5 of 6 part series)",
+   "start": "2026-10-27T18:00-05:00",
+   "end": "2026-10-27T19:30-05:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Part of a 6-part mini figure painting series in the Community Room; this is session 5.",
+   "url": "https://www.madisonpubliclibrary.org/sequoya",
+   "venue": "Sequoya Library",
+   "venue_id": "osm:node/1473488018",
+   "venue_kind": "library",
+   "address": "4340 Tokay Boulevard",
+   "lat": 43.0537698,
+   "lon": -89.4505289,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
    ]
   },
   {
@@ -2334,8 +2334,8 @@
    "venue_id": "cal:hilldale",
    "venue_kind": "venue",
    "address": "",
-   "lat": null,
-   "lon": null,
+   "lat": 43.073213,
+   "lon": -89.453124,
    "source": "extra",
    "via": "Isthmus",
    "sources": [
@@ -2377,9 +2377,9 @@
    "venue": "Martin Luther King Jr. Boulevard",
    "venue_id": "cal:martin-luther-king-jr-boulevard",
    "venue_kind": "venue",
-   "address": "",
-   "lat": null,
-   "lon": null,
+   "address": "Martin Luther King Junior Boulevard",
+   "lat": 43.073229,
+   "lon": -89.382243,
    "source": "extra",
    "via": "Isthmus",
    "sources": [
@@ -2400,8 +2400,8 @@
    "venue_id": "cal:bordner-park",
    "venue_kind": "venue",
    "address": "",
-   "lat": null,
-   "lon": null,
+   "lat": 43.072157,
+   "lon": -89.478685,
    "source": "extra",
    "via": "Isthmus",
    "sources": [
@@ -2421,11 +2421,12 @@
    "venue": "Nine Springs Golf Course",
    "venue_id": "cal:nine-springs-golf-course",
    "venue_kind": "venue",
-   "address": "",
-   "lat": null,
-   "lon": null,
+   "address": "Longford Terrace",
+   "lat": 43.023261,
+   "lon": -89.421783,
    "source": "extra",
    "via": "Isthmus",
+   "city": "Fitchburg",
    "sources": [
     "Isthmus"
    ]
@@ -2510,6 +2511,69 @@
    "address": "2201 Atwood Avenue",
    "lat": 43.0930561,
    "lon": -89.3492054,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
+  },
+  {
+   "id": "6d23d7e6015f",
+   "title": "Journaling for Mental Health",
+   "start": "2026-10-28T17:30-05:00",
+   "end": "2026-10-28T18:30-05:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Journaling session for mental health in the Classroom.",
+   "url": "https://www.madisonpubliclibrary.org/locations/imagination-center",
+   "venue": "Imagination Center",
+   "venue_id": "osm:way/1562302805",
+   "venue_kind": "library",
+   "address": "1814 Parkside Drive",
+   "lat": 43.1240118,
+   "lon": -89.3168809,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
+  },
+  {
+   "id": "5748e76f99d7",
+   "title": "Journaling for Mental Health",
+   "start": "2026-10-28T17:30-05:00",
+   "end": "2026-10-28T18:30-05:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Journaling session for mental health in the Classroom.",
+   "url": "https://www.madisonpubliclibrary.org/locations/pinney-library",
+   "venue": "Pinney Library",
+   "venue_id": "osm:node/7234376294",
+   "venue_kind": "library",
+   "address": "516 Cottage Grove Road",
+   "lat": 43.0841729,
+   "lon": -89.3176486,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
+  },
+  {
+   "id": "02c9bf1d1261",
+   "title": "Journaling for Mental Health",
+   "start": "2026-10-28T17:30-05:00",
+   "end": "2026-10-28T18:30-05:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Journaling session for mental health in the Classroom.",
+   "url": "https://www.madisonpubliclibrary.org/sequoya",
+   "venue": "Sequoya Library",
+   "venue_id": "osm:node/1473488018",
+   "venue_kind": "library",
+   "address": "4340 Tokay Boulevard",
+   "lat": 43.0537698,
+   "lon": -89.4505289,
    "source": "ai",
    "sources": [
     "AI page reading"
@@ -3417,8 +3481,8 @@
    "venue_id": "cal:bordner-park",
    "venue_kind": "venue",
    "address": "",
-   "lat": null,
-   "lon": null,
+   "lat": 43.072157,
+   "lon": -89.478685,
    "source": "extra",
    "via": "Isthmus",
    "sources": [
@@ -3701,27 +3765,6 @@
    ]
   },
   {
-   "id": "d857cb3adaf4",
-   "title": "Annie",
-   "start": "2026-10-30T19:00-05:00",
-   "end": "2026-10-30T21:30-05:00",
-   "all_day": false,
-   "category": "theater",
-   "price": null,
-   "description": "",
-   "url": "https://ctmtheater.org/event/annie-4/",
-   "venue": "Children's Theater of Madison",
-   "venue_id": "osm:node/10833984405",
-   "venue_kind": "venue",
-   "address": "",
-   "lat": 43.0853024,
-   "lon": -89.3708699,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
-   ]
-  },
-  {
    "id": "6a2f48d08119",
    "title": "Wisconsin Badgers Hockey vs. Notre Dame Fighting Irish Hockey",
    "start": "2026-10-30T19:00-05:00",
@@ -3792,7 +3835,7 @@
    "all_day": false,
    "category": "trivia",
    "price": null,
-   "description": "Craft beer and pinball night.",
+   "description": "Friday Night Strikes with craft beer and pinball.",
    "url": "https://thekickback.bar/",
    "venue": "The Kickback",
    "venue_id": "osm:node/12292190391",
@@ -4114,8 +4157,8 @@
    "venue_id": "cal:hilldale",
    "venue_kind": "venue",
    "address": "",
-   "lat": null,
-   "lon": null,
+   "lat": 43.073213,
+   "lon": -89.453124,
    "source": "extra",
    "via": "Isthmus",
    "sources": [
@@ -4311,27 +4354,6 @@
    "source": "ticketmaster",
    "sources": [
     "Ticketmaster"
-   ]
-  },
-  {
-   "id": "31f2a2f513bf",
-   "title": "Annie",
-   "start": "2026-10-31T14:00-05:00",
-   "end": "2026-10-31T16:30-05:00",
-   "all_day": false,
-   "category": "theater",
-   "price": null,
-   "description": "",
-   "url": "https://ctmtheater.org/event/annie-5/",
-   "venue": "Children's Theater of Madison",
-   "venue_id": "osm:node/10833984405",
-   "venue_kind": "venue",
-   "address": "",
-   "lat": 43.0853024,
-   "lon": -89.3708699,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
    ]
   },
   {
@@ -4587,27 +4609,6 @@
    ]
   },
   {
-   "id": "7bb1930adeab",
-   "title": "Metal Halloween Show",
-   "start": "2026-10-31T20:00-05:00",
-   "end": null,
-   "all_day": false,
-   "category": "music",
-   "price": 15.0,
-   "description": "Metal Halloween show: Sabbath Dweller (Black Sabbath cover set), Yotuma, Whippets, Red Museum (solo synth horror soundtrack)",
-   "url": "https://thecrystalcornerbar.com/",
-   "venue": "Crystal Corner Bar",
-   "venue_id": "osm:node/567936558",
-   "venue_kind": "bar",
-   "address": "1302 Williamson Street",
-   "lat": 43.0846749,
-   "lon": -89.36254,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ]
-  },
-  {
    "id": "fea2148b3ad2",
    "title": "Halloween with Friend Request",
    "start": "2026-10-31T20:00-05:00",
@@ -4690,6 +4691,27 @@
    "source": "ticketmaster",
    "sources": [
     "Ticketmaster"
+   ]
+  },
+  {
+   "id": "d7d04484fdd1",
+   "title": "Metal Halloween Show",
+   "start": "2026-10-31T21:00-05:00",
+   "end": null,
+   "all_day": false,
+   "category": "music",
+   "price": 15.0,
+   "description": "Metal Halloween show with Sabbath Dweller (Black Sabbath cover set), Yotuma, Whippets, and Red Museum (solo synth horror movie soundtrack)",
+   "url": "https://thecrystalcornerbar.com/",
+   "venue": "Crystal Corner Bar",
+   "venue_id": "osm:node/567936558",
+   "venue_kind": "bar",
+   "address": "1302 Williamson Street",
+   "lat": 43.0846749,
+   "lon": -89.36254,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
    ]
   },
   {
@@ -4863,27 +4885,6 @@
    ]
   },
   {
-   "id": "4aac33cb5094",
-   "title": "Annie",
-   "start": "2026-11-01T13:00-06:00",
-   "end": "2026-11-01T15:30-06:00",
-   "all_day": false,
-   "category": "theater",
-   "price": null,
-   "description": "",
-   "url": "https://ctmtheater.org/event/annie-6/",
-   "venue": "Children's Theater of Madison",
-   "venue_id": "osm:node/10833984405",
-   "venue_kind": "venue",
-   "address": "",
-   "lat": 43.0853024,
-   "lon": -89.3708699,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
-   ]
-  },
-  {
    "id": "3706872f0b72",
    "title": "Drag Bingo w/ Cynthia Mooseknuckle",
    "start": "2026-11-01T13:00-06:00",
@@ -4891,7 +4892,7 @@
    "all_day": false,
    "category": "bingo",
    "price": null,
-   "description": "Drag bingo with Cynthia Mooseknuckle.",
+   "description": "Drag bingo with Cynthia Mooseknuckle, with New Glarus Brewing Co.",
    "url": "https://thekickback.bar/",
    "venue": "The Kickback",
    "venue_id": "osm:node/12292190391",
@@ -4968,14 +4969,14 @@
    ]
   },
   {
-   "id": "3481197758eb",
-   "title": "Gaines & Wagoner",
+   "id": "2cb27184d211",
+   "title": "Gaines & Wagoner with guest Grandpa's Elixir",
    "start": "2026-11-01T16:00-06:00",
    "end": "2026-11-01T19:00-06:00",
    "all_day": false,
-   "category": "food",
+   "category": "music",
    "price": 15.0,
-   "description": "Madison husband-and-wife Americana duo with special guest Grandpa's Elixir (old-time string band). $15 suggested donation.",
+   "description": "Madison husband-and-wife duo playing Americana, with old-timey string band Grandpa's Elixir as the monthly guest. $15 suggested donation.",
    "url": "https://www.harmonybarandgrill.com/",
    "venue": "Harmony Bar & Grill",
    "venue_id": "osm:way/345773988",
@@ -5049,27 +5050,6 @@
    "address": "1925 Winnebago Street",
    "lat": 43.0909399,
    "lon": -89.3556544,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
-   ]
-  },
-  {
-   "id": "c304aa2da9b7",
-   "title": "Annie",
-   "start": "2026-11-01T18:00-06:00",
-   "end": "2026-11-01T20:30-06:00",
-   "all_day": false,
-   "category": "theater",
-   "price": null,
-   "description": "",
-   "url": "https://ctmtheater.org/event/annie-7/",
-   "venue": "Children's Theater of Madison",
-   "venue_id": "osm:node/10833984405",
-   "venue_kind": "venue",
-   "address": "",
-   "lat": 43.0853024,
-   "lon": -89.3708699,
    "source": "scraped",
    "sources": [
     "Venue websites"
@@ -5154,27 +5134,6 @@
    "address": "1444 East Washington Avenue",
    "lat": 43.0897796,
    "lon": -89.3632278,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ]
-  },
-  {
-   "id": "be8bb6aed7ab",
-   "title": "Free pool until 7PM",
-   "start": "2026-11-02T00:00-06:00",
-   "end": null,
-   "all_day": true,
-   "category": "trivia",
-   "price": 0.0,
-   "description": "Free pool until 7PM on Mondays",
-   "url": "https://thecrystalcornerbar.com/",
-   "venue": "Crystal Corner Bar",
-   "venue_id": "osm:node/567936558",
-   "venue_kind": "bar",
-   "address": "1302 Williamson Street",
-   "lat": 43.0846749,
-   "lon": -89.36254,
    "source": "ai",
    "sources": [
     "AI page reading"
@@ -5570,27 +5529,6 @@
    "via": "Isthmus",
    "sources": [
     "Isthmus"
-   ]
-  },
-  {
-   "id": "b2deebc0d15b",
-   "title": "Zumba",
-   "start": "2026-11-03T18:00-06:00",
-   "end": "2026-11-03T19:00-06:00",
-   "all_day": false,
-   "category": "dance",
-   "price": null,
-   "description": "Join us for a high-energy Zumba class, where you can dance, sweat, and have fun while getting fit with a great group of people! Pre-registration is not required.",
-   "url": "https://bayviewfoundation.org/event/zumba/2026-11-03/",
-   "venue": "Bayview Community Center",
-   "venue_id": "osm:way/1323648187",
-   "venue_kind": "community",
-   "address": "103 La Mariposa Lane",
-   "lat": 43.0663858,
-   "lon": -89.3975076,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
    ]
   },
   {
@@ -6200,9 +6138,9 @@
    "venue": "Martin Luther King Jr. Boulevard",
    "venue_id": "cal:martin-luther-king-jr-boulevard",
    "venue_kind": "venue",
-   "address": "",
-   "lat": null,
-   "lon": null,
+   "address": "Martin Luther King Junior Boulevard",
+   "lat": 43.073229,
+   "lon": -89.382243,
    "source": "extra",
    "via": "Isthmus",
    "sources": [
@@ -6282,7 +6220,7 @@
    "all_day": false,
    "category": "trivia",
    "price": 0.0,
-   "description": "Trivia hosted by Paul, held the 1st and 3rd Wednesday of the month. Free.",
+   "description": "Trivia hosted by Paul. Held the 1st and 3rd Wednesday of each month.",
    "url": "https://www.harmonybarandgrill.com/",
    "venue": "Harmony Bar & Grill",
    "venue_id": "osm:way/345773988",
@@ -6345,7 +6283,7 @@
    "all_day": false,
    "category": "trivia",
    "price": null,
-   "description": "League night featuring Founders Brewing Co. craft beer and pinball.",
+   "description": "League night with Founders Brewing Co. craft beer and pinball.",
    "url": "https://thekickback.bar/",
    "venue": "The Kickback",
    "venue_id": "osm:node/12292190391",
@@ -6661,7 +6599,7 @@
    "all_day": false,
    "category": "music",
    "price": 0.0,
-   "description": "Folk/rock/pop singer-songwriter Melissa Kieler with Ethan Kister. No cover.",
+   "description": "Folk/rock/alt/pop singer-songwriter Melissa Kieler with a soulful voice and originals plus covers.",
    "url": "https://www.harmonybarandgrill.com/",
    "venue": "Harmony Bar & Grill",
    "venue_id": "osm:way/345773988",
@@ -7319,7 +7257,28 @@
    "all_day": false,
    "category": "trivia",
    "price": null,
-   "description": "Craft beer and pinball night.",
+   "description": "Friday Night Strikes with craft beer and pinball.",
+   "url": "https://thekickback.bar/",
+   "venue": "The Kickback",
+   "venue_id": "osm:node/12292190391",
+   "venue_kind": "bar",
+   "address": "7622 Lisa Lane",
+   "lat": 43.1092621,
+   "lon": -89.5123266,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
+  },
+  {
+   "id": "b6a84eb9a527",
+   "title": "Ultimate Super Smash Bros Tournament",
+   "start": "2026-11-06T19:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "trivia",
+   "price": null,
+   "description": "Ultimate Super Smash Bros tournament on Switch 2.",
    "url": "https://thekickback.bar/",
    "venue": "The Kickback",
    "venue_id": "osm:node/12292190391",
@@ -7916,7 +7875,7 @@
    "all_day": false,
    "category": "music",
    "price": 0.0,
-   "description": "Scottish music with bagpipes, guitar, fiddle, whistle and bodhran. No cover.",
+   "description": "Scottish music with bagpipes, guitar, fiddle, whistle and bodhran, from traditional songs to upbeat dance tunes.",
    "url": "https://www.harmonybarandgrill.com/",
    "venue": "Harmony Bar & Grill",
    "venue_id": "osm:way/345773988",
@@ -7994,14 +7953,35 @@
    ]
   },
   {
-   "id": "4ca2a2e82290",
-   "title": "ROCK rock ROCK rock show: The Dead Johnnys, Tom Howl & The Scowl, Lummox",
+   "id": "9e9d7e8c79cb",
+   "title": "ROCK rock ROCK rock show",
    "start": "2026-11-07T21:00-06:00",
    "end": null,
    "all_day": false,
    "category": "music",
    "price": 10.0,
-   "description": "Rock show featuring The Dead Johnnys, Tom Howl & The Scowl, and Lummox",
+   "description": "Rock show with The Dead Johnnys, Tom Howl & The Scowl, and Lummox",
+   "url": "https://thecrystalcornerbar.com/",
+   "venue": "Crystal Corner Bar",
+   "venue_id": "osm:node/567936558",
+   "venue_kind": "bar",
+   "address": "1302 Williamson Street",
+   "lat": 43.0846749,
+   "lon": -89.36254,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
+  },
+  {
+   "id": "2a9ac1358dcb",
+   "title": "The Dead Johnnys, Tom Howl & The Scowl, Lummox",
+   "start": "2026-11-07T21:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "music",
+   "price": 10.0,
+   "description": "Rock show with The Dead Johnnys, Tom Howl & The Scowl and Lummox.",
    "url": "https://thecrystalcornerbar.com/",
    "venue": "Crystal Corner Bar",
    "venue_id": "osm:node/567936558",
@@ -8148,7 +8128,7 @@
    "all_day": false,
    "category": "music",
    "price": null,
-   "description": "Kickback9 pin-golf tour session with Wisconsin Pin-Golf, craft beer and league night.",
+   "description": "Kickback9 Pin-Golf tour session with Wisconsin Pin-Golf, craft beer and league play.",
    "url": "https://thekickback.bar/",
    "venue": "The Kickback",
    "venue_id": "osm:node/12292190391",
@@ -8354,27 +8334,6 @@
    ]
   },
   {
-   "id": "e98833fdf419",
-   "title": "Free pool until 7PM",
-   "start": "2026-11-09T00:00-06:00",
-   "end": null,
-   "all_day": true,
-   "category": "trivia",
-   "price": 0.0,
-   "description": "Free pool until 7PM on Mondays",
-   "url": "https://thecrystalcornerbar.com/",
-   "venue": "Crystal Corner Bar",
-   "venue_id": "osm:node/567936558",
-   "venue_kind": "bar",
-   "address": "1302 Williamson Street",
-   "lat": 43.0846749,
-   "lon": -89.36254,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ]
-  },
-  {
    "id": "b34b43106bb3",
    "title": "Beat the Bartender Score",
    "start": "2026-11-09T00:00-06:00",
@@ -8435,6 +8394,91 @@
    "source": "ai",
    "sources": [
     "AI page reading"
+   ]
+  },
+  {
+   "id": "28e18fc7f1b2",
+   "title": "A Valentine's Affair 2027 - First Audition",
+   "start": "2026-11-09T18:30-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "theater",
+   "price": null,
+   "description": "First audition for A Valentine's Affair 2027.",
+   "url": "https://bartelltheatre.org/",
+   "venue": "Bartell Theatre",
+   "venue_id": "osm:way/265137656",
+   "venue_kind": "venue",
+   "address": "113 East Mifflin Street",
+   "lat": 43.0765271,
+   "lon": -89.3833565,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
+  },
+  {
+   "id": "041289807b92",
+   "title": "Daniel Sloss: BITTER (Brand New Tour!)",
+   "start": "2026-11-09T19:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "comedy",
+   "price": null,
+   "description": "Comedy / Comedy",
+   "url": "https://www.ticketmaster.com/daniel-sloss-bitter-brand-new-tour-madison-wisconsin-11-09-2026/event/07006442395F8E4A",
+   "venue": "Orpheum Theatre",
+   "venue_id": "osm:way/102371335",
+   "venue_kind": "venue",
+   "address": "216 State Street",
+   "lat": 43.0751836,
+   "lon": -89.3887291,
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster",
+    "AI page reading"
+   ]
+  },
+  {
+   "id": "be57ee6842d7",
+   "title": "Madison StorySLAM: Home for the Holidays",
+   "start": "2026-11-09T19:30-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "open_mic",
+   "price": null,
+   "description": "The Moth presents Madison StorySLAM, theme Home for the Holidays. Doors 6:30pm.",
+   "url": "https://www.high-noon.com/",
+   "venue": "High Noon Saloon",
+   "venue_id": "osm:node/1348850872",
+   "venue_kind": "bar",
+   "address": "701 E Washington Ave",
+   "lat": 43.0797191,
+   "lon": -89.3762962,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ]
+  },
+  {
+   "id": "400c817680e3",
+   "title": "JACK WHITE LIVE 2026",
+   "start": "2026-11-09T20:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "music",
+   "price": null,
+   "description": "Rock / Pop",
+   "url": "https://www.ticketmaster.com/jack-white-live-2026-madison-wisconsin-11-09-2026/event/07006488BBA658E6",
+   "venue": "The Sylvee",
+   "venue_id": "osm:node/6431700291",
+   "venue_kind": "venue",
+   "address": "",
+   "lat": 43.080559,
+   "lon": -89.3742549,
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster"
    ]
   }
  ]
