@@ -256,9 +256,11 @@ def ai_tag(rows: list[dict], what: str, limit: int = 400) -> int:
     def needs(r):
         c = cache.get(r["id"], {})
         return r.get("website") and ((what == "restaurant" and not r.get("cuisine") and "group" not in c)
-                                     or (r.get("alcohol") is None and "alcohol" not in c))
+                                     or (r.get("alcohol") is None and "alcohol" not in c
+                                         and c.get("alcohol_checked", "") < (now() - timedelta(days=30)).isoformat()))
     todo = [r for r in rows if needs(r)][:limit]
     done = 0
+    stats = {"what": what, "to_check": len(todo), "answered": 0, "no_page": 0, "skipped_site": 0, "api_errors": {}}
     if key and todo:
         from .ai_read import Reader, NO_AI
         from .common import Fetcher
@@ -266,6 +268,7 @@ def ai_tag(rows: list[dict], what: str, limit: int = 400) -> int:
 
         def ask(r):
             if NO_AI.search(r["website"]):
+                stats["skipped_site"] += 1
                 return r, None
             try:
                 page = f.get(r["website"])
@@ -273,26 +276,44 @@ def ai_tag(rows: list[dict], what: str, limit: int = 400) -> int:
                 page = None
             text = reader.page_text(page.text)[:4000] if page is not None else ""
             if not text:
+                stats["no_page"] += 1
                 return r, None
             group_q = ('"group": one of ' + ", ".join(GROUP_NAMES) + ", ") if what == "restaurant" else ""
             prompt = (f"Place: {r['name']} ({what}), Madison WI. Website text:\n{text}\n\n"
                       "Reply with JSON only: {" + group_q + '"alcohol": "yes" if it serves beer, wine or liquor, '
                       '"no" if it clearly does not, "unknown" if the page does not say}.')
-            try:
-                resp = requests.post("https://api.anthropic.com/v1/messages", timeout=40, headers={
-                    "x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json"},
-                    json={"model": os.environ.get("AI_MODEL", "claude-haiku-5-5"), "max_tokens": 40,
-                          "messages": [{"role": "user", "content": prompt}]})
-                ans = "".join(b.get("text", "") for b in resp.json().get("content", []))
-                m = re.search(r"\{.*\}", ans, re.S)
-                return r, (json.loads(m.group(0)) if m else None)
-            except Exception:
-                return r, None
+            import time
+            for attempt in range(5):  # rate limits: wait and try again
+                try:
+                    resp = requests.post("https://api.anthropic.com/v1/messages", timeout=40, headers={
+                        "x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json"},
+                        json={"model": os.environ.get("AI_MODEL", "claude-haiku-5-5"), "max_tokens": 40,
+                              "messages": [{"role": "user", "content": prompt}]})
+                except Exception as e:
+                    code = type(e).__name__
+                else:
+                    if resp.status_code == 200:
+                        ans = "".join(b.get("text", "") for b in resp.json().get("content", []))
+                        m = re.search(r"\{.*\}", ans, re.S)
+                        try:
+                            return r, (json.loads(m.group(0)) if m else {})
+                        except ValueError:
+                            return r, {}
+                    code = str(resp.status_code)
+                    if resp.status_code not in (408, 429, 500, 502, 503, 529):
+                        stats["api_errors"][code] = stats["api_errors"].get(code, 0) + 1
+                        return r, None
+                    time.sleep(float(resp.headers.get("retry-after") or 0) or 3 * 2 ** attempt)
+                    continue
+                time.sleep(3 * 2 ** attempt)
+            stats["api_errors"][code] = stats["api_errors"].get(code, 0) + 1
+            return r, None
 
-        with ThreadPoolExecutor(max_workers=8) as pool:
+        with ThreadPoolExecutor(max_workers=4) as pool:
             for r, ans in pool.map(ask, todo):
                 if not isinstance(ans, dict):
                     continue
+                stats["answered"] += 1
                 c = cache.setdefault(r["id"], {})
                 g = str(ans.get("group", "")).lower()
                 g = next((k for k, v in GROUP_NAMES.items() if k == g or v.lower() == g), None)
@@ -301,8 +322,13 @@ def ai_tag(rows: list[dict], what: str, limit: int = 400) -> int:
                 al = str(ans.get("alcohol", "")).lower()
                 if al in ("yes", "no"):
                     c["alcohol"] = al == "yes"
+                else:
+                    c["alcohol_checked"] = now().isoformat()  # page doesn't say: don't ask again for a while
                 done += 1
         save_json(DATA / "place_ai_cache.json", cache)
+    rep = load_json(DATA / "place_ai_report.json", {})
+    rep[what] = {**stats, "key_present": bool(key), "at": now().isoformat()}
+    save_json(DATA / "place_ai_report.json", rep)
     for r in rows:
         c = cache.get(r["id"], {})
         if "group" in c and what == "restaurant" and not r.get("cuisine"):
