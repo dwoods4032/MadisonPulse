@@ -18,12 +18,16 @@ const CAT_LABEL = Object.fromEntries(CATS), PLACE_LABEL = Object.fromEntries(PLA
 const CAT_VIBES = {music:["music"],trivia:["chill"],karaoke:["dive"],bingo:["dive","classic"],food:["classic","cheap"],comedy:["date"],open_mic:["music","chill"],dance:["date"],sports:["classic","dive"],other:[]};
 const PLACE_VIBES = {veterans:["classic","dive","cheap"],lodge:["classic"],cafe:["chill"],brewery:["chill","classic"],bar:["dive"]};
 const DRINKY = new Set(["bar","brewery","veterans","lodge"]);
+let VENUE_ALC = {};  // venue id -> serves alcohol (true / false / null), from the venue list
+const isDry = () => state.drinks === "none" || state.drinks === "sober";
+const sober = () => state.drinks === "sober";
+const alcFree = s => s.alc === false;
 const BARLIKE = new Set(["bar","brewery"]);  // skipped entirely when nobody is drinking
 const esc = x => String(x ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const $ = id => document.getElementById(id);
 
-const state = {budget:60, people:2, food:[], cuisine:[], fun:[], areas:[], drinks:"cocktails", dinner:true, show:true, from:18*60, to:23*60, rank:0, swap:{}, removed:[], day:null, cat:"all", place:"all", allDays:false};
-try { const s = JSON.parse(localStorage.getItem("mp-answers2") || "null"); if (s) Object.assign(state, s, {rank:0, swap:{}, removed:[], day:null, allDays:false}); } catch (e) {}
+const state = {budget:60, people:2, food:[], cuisine:[], fun:[], areas:[], panel:null, drinks:"cocktails", dinner:true, show:true, from:18*60, to:23*60, rank:0, swap:{}, removed:[], day:null, cat:"all", place:"all", allDays:false};
+try { const s = JSON.parse(localStorage.getItem("mp-answers2") || "null"); if (s) Object.assign(state, s, {food:[], panel:null, rank:0, swap:{}, removed:[], day:null, allDays:false}); } catch (e) {}
 function save(){ try { const {budget,people,food,cuisine,fun,areas,drinks,dinner,show,from,to,cat,place} = state; localStorage.setItem("mp-answers2", JSON.stringify({budget,people,food,cuisine,fun,areas,drinks,dinner,show,from,to,cat,place})); } catch (e) {} }
 
 // ---------- dates in Madison time ----------
@@ -57,10 +61,33 @@ function timeSelect(id, val, fromH, toH, label){
 function chipRow(id, items, on){
   return '<div class="chips" id="'+id+'">'+items.map(([v,l]) => '<button type="button" class="chip" id="'+id+'-'+v+'" data-v="'+v+'" aria-pressed="'+on.includes(v)+'">'+l+'</button>').join("")+'</div>';
 }
+// ---------- top bar and its dropdowns ----------
+const PANELS = [["night", null], ["area","Area"], ["cuisine","Cuisine"], ["fun","Fun"]];
+const DRINK_LABEL = {cocktails:"Cocktails", beer:"Beer", none:"No drinks", sober:"Sober"};
+function nightSummary(){
+  const short = m => fmtM(m).replace(":00","").replace(" pm","").replace(" am","a");
+  const t = short(state.from) + "–" + fmtM(state.to).replace(":00","").replace(" ", "");
+  return "$" + state.budget + " · " + state.people + " · " + t + (state.drinks === "sober" ? " · Sober" : "");
+}
+function renderBar(){
+  const count = {area: state.areas.length, cuisine: state.cuisine.length, fun: state.fun.length};
+  const btn = ([id, label]) => {
+    const n = count[id] || 0, open = state.panel === id;
+    return '<button type="button" class="fbtn'+(n ? " on" : "")+'" id="fb-'+id+'" data-panel="'+id+'" aria-expanded="'+open+'" aria-controls="form">'+
+      esc(label || nightSummary())+(n ? ' <span class="n">'+n+'</span>' : '')+'<span class="chev" aria-hidden="true">▾</span></button>';
+  };
+  $("barNight").innerHTML = btn(PANELS[0]);
+  $("bar").innerHTML = PANELS.slice(1).map(btn).join("");
+}
 function renderForm(){
-  const bad = !state.dinner && !state.show && state.drinks === "none";
-  $("form").innerHTML =
-    '<div class="row"><div class="lbl"><span>Budget</span><span class="val" id="budgetOut">$'+state.budget+' <small>per person</small></span></div>'+
+  renderBar();
+  const open = state.panel;
+  $("panelWrap").hidden = !open;
+  if (!open){ $("form").innerHTML = ""; return; }
+  const bad = !state.dinner && !state.show && (state.drinks === "none" || state.drinks === "sober");
+  let h = "";
+  if (open === "night"){
+    h = '<div class="row"><div class="lbl"><span>Budget</span><span class="val" id="budgetOut">$'+state.budget+' <small>per person</small></span></div>'+
       '<input id="budget" type="range" min="10" max="200" step="5" value="'+state.budget+'" aria-label="Budget per person"></div>'+
     '<div class="row inline"><div class="lbl"><span>Group</span></div>'+
       '<div class="stepper"><button type="button" class="round" id="minus" aria-label="Fewer people"'+(state.people<=1?" disabled":"")+'>−</button>'+
@@ -68,22 +95,39 @@ function renderForm(){
       '<button type="button" class="round" id="plus" aria-label="More people"'+(state.people>=12?" disabled":"")+'>+</button></div></div>'+
     '<div class="row inline"><div class="lbl"><span>Time</span></div>'+
       '<div class="times">'+timeSelect("fromSel", state.from, 10, 22, "Start time")+'<span class="to">to</span>'+timeSelect("toSel", state.to, 12, 26, "End time")+'</div></div>'+
-    '<div class="row"><div class="lbl"><span>Area</span><span class="aside">'+(state.areas.length ? "pick any" : "anywhere")+'</span></div>'+chipRow("areaChips", AREAS.map(a => [a[0], a[1]]), state.areas)+'</div>'+
-    '<div class="row"><div class="lbl"><span>Food & drink</span><span class="aside">pick any</span></div>'+chipRow("foodChips", FOOD, state.food)+'</div>'+
-'<div class="row"><div class="lbl"><span>Cuisine</span><span class="aside">'+(state.cuisine.length ? "pick any" : "anything")+'</span></div>'+chipRow("cuisineChips", CUISINES, state.cuisine)+'</div>'+
-    '<div class="row"><div class="lbl"><span>Fun</span><span class="aside">'+(state.fun.length ? "pick any" : "anything")+'</span></div>'+chipRow("funChips", FUN, state.fun)+'</div>'+
-    '<div class="row"><div class="lbl"><span>Drinks</span></div>'+
-      seg("drinkSeg", [["cocktails","Cocktails"],["beer","Beer"],["none","No drinks"]], v => state.drinks === v)+'</div>'+
+    '<div class="row"><div class="lbl"><span>Drinks</span>'+(state.drinks === "sober" ? '<span class="aside">only places that don\'t serve alcohol</span>' : '')+'</div>'+
+      seg("drinkSeg", Object.entries(DRINK_LABEL), v => state.drinks === v)+'</div>'+
     '<div class="row"><div class="lbl"><span>Plans</span><span class="aside">pick any</span></div>'+
       seg("planSeg", [["dinner","Dinner"],["show","Show or event"]], v => state[v])+
-      (bad ? '<p class="warn">Pick dinner or a show so there\'s a night to plan.</p>' : '')+'</div>'+
-    '<button type="button" class="btn go" id="go">Plan my night</button>';
+      (bad ? '<p class="warn">Pick dinner or a show so there\'s a night to plan.</p>' : '')+'</div>';
+  } else {
+    const [items, list, hint] = open === "area" ? [AREAS.map(a => [a[0], a[1]]), state.areas, "Leave empty for anywhere"]
+      : open === "cuisine" ? [CUISINES, state.cuisine, "Leave empty for any cuisine"] : [FUN, state.fun, "Leave empty for anything"];
+    const chipId = {area:"areaChips", cuisine:"cuisineChips", fun:"funChips"}[open];
+    h = '<div class="row"><div class="lbl"><span>'+{area:"Area", cuisine:"Cuisine", fun:"Fun"}[open]+'</span><span class="aside">'+hint+'</span></div>'+chipRow(chipId, items, list)+'</div>';
+  }
+  const canClear = open !== "night" && ({area:state.areas, cuisine:state.cuisine, fun:state.fun}[open]).length;
+  h += '<div class="panel-foot"><button type="button" class="link sm" id="clearPanel"'+(canClear ? "" : " hidden")+'>Clear</button><button type="button" class="btn go" id="go">Done</button></div>';
+  $("form").innerHTML = h;
 }
+$("topbar").addEventListener("click", e => {
+  const b = e.target.closest(".fbtn"); if (!b) return;
+  state.panel = state.panel === b.dataset.panel ? null : b.dataset.panel;
+  renderForm();
+});
+document.addEventListener("click", e => {  // tap outside closes the dropdown
+  // the path is captured when the tap happens, so a button redrawn by the tap still counts as inside
+  if (state.panel && !e.composedPath().includes($("topbar"))){ state.panel = null; renderForm(); }
+});
+document.addEventListener("keydown", e => {
+  if (e.key === "Escape" && state.panel){ const id = state.panel; state.panel = null; renderForm(); const b = $("fb-" + id); if (b) b.focus(); }
+});
 function changed(){ state.rank = 0; state.swap = {}; state.removed = []; save(); renderPlan(); }
 
 $("form").addEventListener("change", e => {
   if (e.target.id !== "fromSel" && e.target.id !== "toSel") return;
   state.from = +$("fromSel").value; state.to = +$("toSel").value;
+  renderBar();
   if (state.to < state.from + 120){  // keep at least two hours
     if (e.target.id === "fromSel") state.to = Math.min(26*60, state.from + 120); else state.from = Math.max(10*60, state.to - 120);
     renderForm();
@@ -94,11 +138,12 @@ $("form").addEventListener("input", e => {
   if (e.target.id !== "budget") return;
   state.budget = +e.target.value;
   $("budgetOut").innerHTML = "$"+state.budget+" <small>per person</small>";
-  changed();
+  changed(); renderBar();
 });
 $("form").addEventListener("click", e => {
   const b = e.target.closest("button"); if (!b) return;
-  if (b.id === "go"){ state.rank = 0; renderPlan(); $("planSec").scrollIntoView({behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block:"start"}); return; }
+  if (b.id === "go"){ state.panel = null; renderForm(); return; }
+  if (b.id === "clearPanel"){ ({area:state.areas, cuisine:state.cuisine, fun:state.fun}[state.panel]).length = 0; changed(); renderForm(); renderDays(); renderEvents(); return; }
   if (b.id === "minus") state.people = Math.max(1, state.people-1);
   else if (b.id === "plus") state.people = Math.min(12, state.people+1);
   else if (b.closest("#areaChips, #foodChips, #cuisineChips, #funChips")){
@@ -140,7 +185,7 @@ function eventUrl(e){
 const FOODKINDS = /pizza|burger|taco|mexican|burrito|sushi|japanese|thai|chinese|indian|bbq|barbecue|diner|breakfast|pancake|wings?|chicken|sandwich|deli|ramen|noodle|pho|vietnamese|italian|pasta|donut|dessert|ice cream|steak|seafood|fish|kebab|mediterranean|korean|cuban|bakery/;
 const foodKind = s => { const m = (s.d + " " + s.n).toLowerCase().match(FOODKINDS); return m ? m[0].replace(/s$/, "").replace(/^(burrito|taco)$/, "mexican") : null; };
 function activityStop(a){
-  return {n:a.name, k:"show", act:true, lat:a.lat, lon:a.lon, p:a.price, dur:a.minutes, hrs:a.hours, osm:true, tav:a.bar,
+  return {n:a.name, k:"show", act:true, lat:a.lat, lon:a.lon, p:a.price, dur:a.minutes, hrs:a.hours, osm:true, tav:a.bar, alc:a.alcohol,
     v:[], fun:FUN_OF_ACT[a.type], d:a.label + (a.type === "cinema" ? " (check showtimes)" : ""), w:a.address || "", url:a.website || "", mapId:a.id, label:a.label};
 }
 const FAMILY = /\bfamil(?:y|ies)\b|\bkids?\b|children|toddler|all ages matinee/i;  // left out of night plans unless picked
@@ -165,7 +210,7 @@ function enrichSpots(){
 }
 const GROUP_LABEL = Object.fromEntries(CUISINES);
 function restaurantStop(r, role){
-  return {n:r.name, k:role, lat:r.lat, lon:r.lon, p:r.price, v:r.vibes || [], tav:r.bar, hrs:r.hours, osm:true, grp:r.group, notDinner:r.dinner === false,
+  return {n:r.name, k:role, lat:r.lat, lon:r.lon, p:r.price, v:r.vibes || [], tav:r.bar, hrs:r.hours, osm:true, grp:r.group, notDinner:r.dinner === false, alc:r.alcohol,
     w:r.address || "", d:(r.cuisine ? r.cuisine.replace(/\b\w/g, c => c.toUpperCase()) : (r.fast ? "Quick bite" : "Restaurant")), url:r.website || "", mapId:r.id};
 }
 function barStop(v){
@@ -183,21 +228,21 @@ function evPrice(e){
 function eventStop(e){
   // Events are never the meal: when dinner is on, every plan gets a real dinner stop.
   const role = (!state.show && DRINKY.has(e.venue_kind) && e.category !== "food") ? "bar" : (!state.dinner && e.category === "food") ? "dinner" : "show";
-  const drinks = DRINKY.has(e.venue_kind) ? (state.drinks === "cocktails" ? 14 : state.drinks === "beer" ? 10 : 0) : 0;
+  const drinks = DRINKY.has(e.venue_kind) ? (state.drinks === "cocktails" ? 14 : state.drinks === "beer" ? 10 : 0) : 0;  // none for no drinks / sober
   const known = evPrice(e);
   const food = role === "dinner" ? (known ?? 15) : (known ?? EST[e.category] ?? 10);
   return {id:e.id, n:e.title, k:role, lat:e.lat, lon:e.lon, venue:e.venue, p:Math.round(food + drinks),
     v:[...(CAT_VIBES[e.category]||[]), ...(PLACE_VIBES[e.venue_kind]||[])],
     w:e.venue + (e.address ? " · " + e.address : ""), d:e.description || (CAT_LABEL[e.category] || "Event") + " at " + e.venue + (e.via ? " (listed by " + e.via + ")" : ""),
     at:e.all_day ? null : hhmm(e.start), live:true, cat:e.category, fun:FUN_OF_CAT[e.category], est:known == null, dropin: DROPIN_CATS.has(e.category) || DROPIN_TITLE.test(e.title), weekly:e.source === "weekly", url:eventUrl(e), urlSearch:eventUrl(e).startsWith("https://www.google.com/search"),
-    g:e.venue_kind === "veterans" || e.venue_kind === "lodge" ? 1 : 0};
+    g:e.venue_kind === "veterans" || e.venue_kind === "lodge" ? 1 : 0, alc: VENUE_ALC[e.venue_id] ?? null};
 }
 function cost(s){
   if (s.live) return s.p;
   let p = s.p;
   if (s.k === "bar" && state.drinks === "cocktails" && !s.c) p += 6;
   if (s.k === "dinner" && state.drinks === "cocktails") p += 6;
-  if (s.k === "dinner" && state.drinks === "none") p = Math.max(6, p-6);
+  if (s.k === "dinner" && isDry()) p = Math.max(6, p-6);
   return p;
 }
 function stopScore(s){
@@ -270,8 +315,8 @@ function nearest(list, anchor, n, maxMi){
 }
 // Candidate places for one plan: near the anchor (the event), else the best-scoring spread across town.
 function candidates(anchor){
-  const dry = state.drinks === "none";
-  const fits = s => !(dry && s.tav) && cost(s) <= state.budget;
+  const dry = isDry();
+  const fits = s => !(dry && s.tav) && cost(s) <= state.budget && (!sober() || alcFree(s));
   let dinnerAll = [...SPOTS.filter(s => s.k === "dinner"),
     ...RESTAURANTS.filter(r => !SPOTS.some(s => s.mapId === r.id)).map(r => restaurantStop(r, "dinner"))].filter(s => fits(s) && !s.notDinner);
   if (state.cuisine.length){  // only the cuisines picked (if none match anywhere, ignore the choice)
@@ -282,7 +327,7 @@ function candidates(anchor){
     ...BARS.filter(v => !SPOTS.some(s => s.mapId === v.id)).map(barStop)];
   const lateAll = [...SPOTS.filter(s => s.k === "late"),
     ...RESTAURANTS.filter(r => r.price <= 16 && r.hours && r.hours.some(w => toMinX(w[2]) >= 23*60+30) && !SPOTS.some(s => s.mapId === r.id))
-      .map(r => restaurantStop(r, "late"))].filter(s => !(dry && s.tav) && lateWindow(s, state.day));
+      .map(r => restaurantStop(r, "late"))].filter(s => !(dry && s.tav) && lateWindow(s, state.day) && (!sober() || alcFree(s)));
   const byScore = arr => [...arr].sort((a,b) => stopScore(b) - stopScore(a));
   const pick = (arr, n) => {
     if (state.areas.length){ const inside = arr.filter(inAreas); if (inside.length >= 3) arr = inside; }
@@ -299,15 +344,16 @@ const MAX_PLANS = 20;
 function plans(opts = {}){
   if (!opts.probe) PLAN_NOTE = "";
   const pinEv = pinned(), pin = pinEv ? eventStop(pinEv) : null;
-  if (!pin && !state.dinner && !state.show && state.drinks === "none") return [];
-  const dry = state.drinks === "none";
+  if (!pin && !state.dinner && !state.show && isDry()) return [];
+  const dry = isDry();
   const inWindow = e => { const m = toMin(hhmm(e.start)); return m >= state.from - 30 && m <= state.to - 60; };
   const evening = eventsOn(state.day).filter(e => !e.all_day && inWindow(e) && !(dry && BARLIKE.has(e.venue_kind)) && !(pin && e.id === pin.id)
-      && e.lat != null && !FAMILY.test(e.title) && inAreas(e) && !outOfTown(e) && funOk(FUN_OF_CAT[e.category])).map(eventStop)
+      && e.lat != null && !FAMILY.test(e.title) && inAreas(e) && !outOfTown(e) && funOk(FUN_OF_CAT[e.category])
+      && (!sober() || VENUE_ALC[e.venue_id] === false)).map(eventStop)
     .sort((a,b) => stopScore(b) - stopScore(a));
   // anytime activities (bowling, a movie...) when those are picked under Fun
   const wantActs = state.show && state.fun.some(f => Object.values(FUN_OF_ACT).includes(f));
-  const acts = wantActs ? ACTS.map(activityStop).filter(s => state.fun.includes(s.fun) && inAreas(s) && !outOfTown(s) && !(dry && s.tav)
+  const acts = wantActs ? ACTS.map(activityStop).filter(s => state.fun.includes(s.fun) && inAreas(s) && !outOfTown(s) && !(dry && s.tav) && (!sober() || alcFree(s))
       && openWindow(s, state.day) !== null && cost(s) <= state.budget).sort((a,b) => stopScore(b) - stopScore(a) || (miles(a, CAPITOL) - miles(b, CAPITOL))).slice(0, 8) : [];
   const role = pin ? pin.k : null;
   // each plan is built around one anchor: the pinned event, a show, or (no show) a dinner spot
@@ -444,7 +490,8 @@ function renderPlan(){
     CURRENT = null; $("goBtn").hidden = true; $("restore").hidden = true;
     $("totalPP").textContent = ""; $("totalGrp").textContent = "";
     $("planTitle").textContent = dayName(state.day); $("pager").hidden = true;
-    const why = (!state.dinner && !state.show && state.drinks === "none") ? "Pick dinner or a show so there's something to plan." : "Nothing fits $"+state.budget+" a person between "+fmt12(Math.floor(state.from/60)%24, state.from%60)+" and "+fmt12(Math.floor(state.to/60)%24, state.to%60)+". Try a longer evening, a bigger budget, or fewer stops.";
+    const why = (!state.dinner && !state.show && isDry()) ? "Pick dinner or a show so there's something to plan." :
+      sober() ? "Sober mode only suggests places we know don't serve alcohol, and none fit these choices yet. Try a wider area, more time, or another day." : "Nothing fits $"+state.budget+" a person between "+fmt12(Math.floor(state.from/60)%24, state.from%60)+" and "+fmt12(Math.floor(state.to/60)%24, state.to%60)+". Try a longer evening, a bigger budget, or fewer stops.";
     route.innerHTML = '<li class="empty">'+why+'</li>'; return;
   }
   const base = list[state.rank % list.length];
@@ -556,7 +603,7 @@ function evRow(e){
     (outOfTown(e) ? '<span class="tag">Out of town'+(e.city ? ": "+esc(e.city) : "")+'</span>' : "") +
     (e.confirm ? '<a class="tag" href="'+esc(e.confirm)+'" target="_blank" rel="noopener">Confirm</a>' : "");
   const pr = evPrice(e);
-  const price = pr == null ? '<span class="est">~$'+(EST[e.category] ?? 10)+' est.</span>' : +pr ? "$" + (+pr).toFixed(+pr % 1 ? 2 : 0) : "Free";
+  const price = pr == null ? ((EST[e.category] ?? 10) ? '<span class="est">~$'+(EST[e.category] ?? 10)+' est.</span>' : "") : +pr ? "$" + (+pr).toFixed(+pr % 1 ? 2 : 0) : "Free";
   const on = e.id === state.pin;
   const btn = (e.all_day || hhmm(e.start) < "10:00") ? "" : on  // the planner's day starts at 10 am
     ? '<button type="button" class="incl on" data-id="'+esc(e.id)+'" aria-pressed="true">✓ In your night</button>'
@@ -606,6 +653,7 @@ Promise.all([getJSON("data/restaurants.json").catch(() => null), getJSON("data/v
   ACTS = (act && act.activities || []).filter(a => a.lat != null);
   RESTAURANTS = (rest && rest.restaurants || []).filter(r => r.lat != null);
   BARS = (ven && ven.venues || []).filter(v => (v.kind === "bar" || v.kind === "brewery") && v.lat != null);
+  VENUE_ALC = Object.fromEntries((ven && ven.venues || []).map(v => [v.id, v.alcohol ?? (["bar","brewery","veterans","lodge"].includes(v.kind) ? true : ["library","community"].includes(v.kind) ? false : null)]));
   enrichSpots(); renderPlan();
 });
 getJSON("data/events.json").then(data => {
@@ -615,3 +663,8 @@ getJSON("data/events.json").then(data => {
 }).catch(() => {
   $("events").innerHTML = '<p class="empty">Event listings aren\'t available right now. The plan above uses our regular spots; try again in a bit for events.</p>';
 });
+
+// installable app: cache the page so it opens fast and works offline (events refresh when online)
+if ("serviceWorker" in navigator && location.protocol === "https:"){
+  window.addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {}));
+}

@@ -6,6 +6,7 @@
 from __future__ import annotations
 
 import argparse
+import json
 import re
 import sys
 from datetime import datetime, timedelta
@@ -126,8 +127,15 @@ def restaurant_of(el: dict) -> dict | None:
             vibes += [v for v in vs if v not in vibes]
     hrs = parse_hours(t.get("opening_hours"))
     group, dinner = cuisine_group(name, cuisine)
+    bar = t.get("amenity") == "restaurant" and bool(re.search(r"pub|bar|tavern|brew", (name + " " + cuisine).lower()))
+    alcohol = alcohol_from_tags(t)
+    if alcohol is None:
+        if bar or group == "pub" or re.search(r"wine|cocktail|brew|\btap\b|tavern|\bpub\b|lounge|saloon|supper club|steak", (name + " " + cuisine).lower()):
+            alcohol = True
+        elif not dinner or (fast and not bar):
+            alcohol = False  # counter service, juice, bagels, sweets
     return {
-        "group": group, "dinner": dinner,
+        "group": group, "dinner": dinner, "alcohol": alcohol,
         "id": f"osm:{el['type']}/{el['id']}",
         "name": name,
         "cuisine": cuisine.replace("_", " ").replace(";", ", "),
@@ -185,6 +193,17 @@ def activity_type(t: dict) -> str | None:
     return None
 
 
+def activity_alcohol(t: dict, kind: str):
+    tag = alcohol_from_tags(t)
+    if tag is not None:
+        return tag
+    if t.get("amenity") in ("bar", "pub") or kind in ("bowling", "billiards", "darts", "axe", "karaoke"):
+        return True  # these almost always have a bar
+    if kind in ("minigolf", "escape", "trampoline"):
+        return False
+    return None  # cinemas, arcades: the AI checks their website
+
+
 def build_activities() -> dict:
     from .hours import parse as parse_hours
     info = {k: (label, price, mins) for k, label, price, mins in ACTIVITY_TYPES}
@@ -206,8 +225,10 @@ def build_activities() -> dict:
                     "address": " ".join(x for x in (t.get("addr:housenumber"), t.get("addr:street")) if x),
                     "website": clean_url(t.get("website") or t.get("contact:website") or t.get("url")),
                     "hours": parse_hours(t.get("opening_hours")),
-                    "bar": t.get("amenity") in ("bar", "pub")})
+                    "bar": t.get("amenity") in ("bar", "pub"),
+                    "alcohol": activity_alcohol(t, kind)})
     out.sort(key=lambda a: (a["type"], a["name"].lower()))
+    ai_tag(out, "activity")
     by = {}
     for a in out:
         by[a["type"]] = by.get(a["type"], 0) + 1
@@ -218,44 +239,73 @@ GROUP_NAMES = {"american": "American", "latin": "Mexican & Latin", "italian": "I
                "sushi": "Sushi & Japanese", "indian": "Indian", "med": "Mediterranean & Middle Eastern", "pub": "Bar & pub food"}
 
 
-def ai_cuisine(rows: list[dict], limit: int = 40) -> int:
-    """For restaurants with no cuisine listed but a website, ask Claude which group fits,
-    from the homepage text. Cached in data/cuisine_cache.json; needs ANTHROPIC_API_KEY."""
+def ai_tag(rows: list[dict], what: str, limit: int = 400) -> int:
+    """Read each place's homepage once and ask Claude for what OpenStreetMap doesn't say:
+    the cuisine group (restaurants with none listed) and whether it serves alcohol.
+    Cached by place id in data/place_ai_cache.json; needs ANTHROPIC_API_KEY."""
     import os
+    from concurrent.futures import ThreadPoolExecutor
     key = os.environ.get("ANTHROPIC_API_KEY")
-    cache = load_json(DATA / "cuisine_cache.json", {})
-    todo = [r for r in rows if not r["cuisine"] and r["website"] and r["id"] not in cache]
+    cache = load_json(DATA / "place_ai_cache.json", {})
+    for k, g in load_json(DATA / "cuisine_cache.json", {}).items():  # older cache
+        cache.setdefault(k, {})["group"] = g
+
+    def needs(r):
+        c = cache.get(r["id"], {})
+        return r.get("website") and ((what == "restaurant" and not r.get("cuisine") and "group" not in c)
+                                     or (r.get("alcohol") is None and "alcohol" not in c))
+    todo = [r for r in rows if needs(r)][:limit]
     done = 0
     if key and todo:
         from .ai_read import Reader, NO_AI
         from .common import Fetcher
         f, reader = Fetcher(), Reader(key)
-        for r in todo[:limit]:
+
+        def ask(r):
             if NO_AI.search(r["website"]):
-                continue
+                return r, None
             try:
                 page = f.get(r["website"])
             except Exception:
                 page = None
             text = reader.page_text(page.text)[:4000] if page is not None else ""
-            prompt = (f"Restaurant: {r['name']}, Madison WI. Website text:\n{text}\n\nWhich ONE group fits its food best? "
-                      "Answer with only one of: " + ", ".join(GROUP_NAMES) + ".")
+            if not text:
+                return r, None
+            group_q = ('"group": one of ' + ", ".join(GROUP_NAMES) + ", ") if what == "restaurant" else ""
+            prompt = (f"Place: {r['name']} ({what}), Madison WI. Website text:\n{text}\n\n"
+                      "Reply with JSON only: {" + group_q + '"alcohol": "yes" if it serves beer, wine or liquor, '
+                      '"no" if it clearly does not, "unknown" if the page does not say}.')
             try:
                 resp = requests.post("https://api.anthropic.com/v1/messages", timeout=40, headers={
                     "x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json"},
-                    json={"model": os.environ.get("AI_MODEL", "claude-haiku-5-5"), "max_tokens": 10,
+                    json={"model": os.environ.get("AI_MODEL", "claude-haiku-5-5"), "max_tokens": 40,
                           "messages": [{"role": "user", "content": prompt}]})
-                ans = "".join(b.get("text", "") for b in resp.json().get("content", [])).strip().lower()
+                ans = "".join(b.get("text", "") for b in resp.json().get("content", []))
+                m = re.search(r"\{.*\}", ans, re.S)
+                return r, (json.loads(m.group(0)) if m else None)
             except Exception:
-                continue
-            g = next((k for k in GROUP_NAMES if k in ans), None)
-            if g:
-                cache[r["id"]] = g
+                return r, None
+
+        with ThreadPoolExecutor(max_workers=8) as pool:
+            for r, ans in pool.map(ask, todo):
+                if not isinstance(ans, dict):
+                    continue
+                c = cache.setdefault(r["id"], {})
+                g = str(ans.get("group", "")).lower()
+                g = next((k for k, v in GROUP_NAMES.items() if k == g or v.lower() == g), None)
+                if g:
+                    c["group"] = g
+                al = str(ans.get("alcohol", "")).lower()
+                if al in ("yes", "no"):
+                    c["alcohol"] = al == "yes"
                 done += 1
-        save_json(DATA / "cuisine_cache.json", cache)
+        save_json(DATA / "place_ai_cache.json", cache)
     for r in rows:
-        if r["id"] in cache:
-            r["group"] = cache[r["id"]]
+        c = cache.get(r["id"], {})
+        if "group" in c and what == "restaurant" and not r.get("cuisine"):
+            r["group"] = c["group"]
+        if r.get("alcohol") is None and "alcohol" in c:
+            r["alcohol"] = c["alcohol"]
     return done
 
 
@@ -271,9 +321,9 @@ def build_restaurants() -> dict:
         seen.add(key)
         out.append(r)
     out.sort(key=lambda r: r["name"].lower())
-    tagged = ai_cuisine(out)
+    tagged = ai_tag(out, "restaurant")
     if tagged:
-        print(f"AI tagged {tagged} restaurants' cuisine")
+        print(f"AI tagged {tagged} restaurants")
     return {
         "generated_at": now().isoformat(timespec="seconds"),
         "count": len(out),
@@ -281,6 +331,18 @@ def build_restaurants() -> dict:
         "with_website": sum(1 for r in out if r["website"]),
         "restaurants": out,
     }
+
+
+def alcohol_from_tags(t: dict):
+    """True / False when OpenStreetMap says; None when it doesn't."""
+    if (t.get("drink:alcohol") or t.get("alcohol") or "").lower() in ("no", "none"):
+        return False
+    if t.get("bar") == "yes" or (t.get("alcohol") or "").lower() in ("yes", "served"):
+        return True
+    for k in ("drink:beer", "drink:wine", "drink:spirits", "drink:cocktail", "drink:cocktails"):
+        if (t.get(k) or "").lower() in ("yes", "served", "retail"):
+            return True
+    return None
 
 
 def kind_of(t: dict) -> str:
@@ -301,6 +363,19 @@ def kind_of(t: dict) -> str:
     if a == "library":
         return "library"
     return "community"
+
+
+def venue_alcohol(t: dict, kind: str, name: str):
+    tag = alcohol_from_tags(t)
+    if tag is not None:
+        return tag
+    if kind in ("bar", "brewery", "veterans", "lodge"):
+        return True
+    if kind in ("library", "community"):
+        return False
+    if kind == "cafe":
+        return True if re.search(r"\bbar\b|pub|tavern|wine|tap", name.lower()) else False
+    return None  # theaters, music halls...: the AI checks their website
 
 
 def clean_url(u: str | None) -> str:
@@ -343,6 +418,7 @@ def to_venue(el: dict) -> dict | None:
         "lat": lat, "lon": lon,
         "website": clean_url(t.get("website") or t.get("contact:website") or t.get("url")),
         "facebook": clean_url(t.get("contact:facebook") or t.get("facebook")),
+        "alcohol": venue_alcohol(t, kind_of(t), name),
         "instagram": clean_url(t.get("contact:instagram") or t.get("instagram")),
         "feeds": [],
     }
@@ -387,6 +463,7 @@ def build() -> dict:
         seen.add(key)
         venues.append(v)
     venues = apply_overrides(venues, load_json(DATA / "venue_overrides.json", []))
+    ai_tag([v for v in venues if v["kind"] in ("venue", "cafe")], "venue")
     venues.sort(key=lambda v: (v["kind"], v["name"].lower()))
     counts = {}
     for v in venues:
@@ -410,7 +487,7 @@ def main(argv=None):
         cur = load_json(path, {})
         ts = cur.get("generated_at")
         fresh = ts and now() - datetime.fromisoformat(ts) < timedelta(days=a.if_stale)
-        has_groups = bool((load_json(rpath, {}).get("restaurants") or [{}])[0].get("group"))
+        has_groups = "alcohol" in ((load_json(rpath, {}).get("restaurants") or [{}])[0])
         if fresh and rpath.exists() and (DATA / "activities.json").exists() and has_groups:
             print(f"Venue list is fresh ({ts}); skipping.")
             return

@@ -5,6 +5,13 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>MadisonPulse</title>
 <meta name="description" content="Plan a night out in Madison, WI: bars, VFW halls, coffee shops and venues, with the next two weeks of events.">
+<meta name="theme-color" content="#14202b">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="MadisonPulse">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
 <style>
@@ -25,10 +32,35 @@
   --lake:#6fb3d6; --lamp:#f0a53c; --lamp-soft:#3a2a14; --ok:#6cc48f; --over:#ef7d68; color-scheme:dark}
 *{box-sizing:border-box}
 [hidden]{display:none!important}
-html{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
-body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.5;
-  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:32px 64px}
-.wrap{max-width:680px;margin:0 auto;display:flex;flex-direction:column;gap:40px}
+html{padding-bottom:env(safe-area-inset-bottom,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.5;-webkit-tap-highlight-color:transparent;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 64px}
+.wrap{max-width:680px;margin:0 auto;display:flex;flex-direction:column;gap:36px;padding-top:20px}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+/* Fixed top bar: brand + dropdown buttons; the open dropdown drops below it */
+.topbar{position:sticky;top:0;z-index:20;background:var(--surface);border-bottom:1px solid var(--line);
+  padding-top:env(safe-area-inset-top,0px);margin:0 calc(-1 * max(16px,env(safe-area-inset-right,0px))) 0 calc(-1 * max(16px,env(safe-area-inset-left,0px)));
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.bar-inner{max-width:680px;margin:0 auto;display:flex;flex-direction:column;gap:8px;padding-block:10px}
+.brand{display:flex;align-items:center;gap:8px;font-family:var(--display);font-weight:700;font-size:18px;letter-spacing:-.01em}
+.brand b{color:var(--lamp);font-weight:800}
+.pulse{width:10px;height:10px;border-radius:50%;background:var(--lamp);box-shadow:0 0 0 4px var(--lamp-soft)}
+.bar-top{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.filters-bar{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.filters-bar .fbtn{justify-content:center;min-width:0}
+#barNight .fbtn{font-size:14px;min-height:36px;padding:6px 10px 6px 12px}
+.fbtn{flex:none;display:inline-flex;align-items:center;gap:6px;min-height:40px;padding:8px 12px 8px 14px;border-radius:999px;border:1px solid var(--line);background:var(--bg);font-size:15px;font-weight:600;cursor:pointer;white-space:nowrap}
+.fbtn .chev{font-size:11px;color:var(--muted);transition:transform .15s}
+.fbtn[aria-expanded="true"]{border-color:var(--ink);background:var(--surface)}
+.fbtn[aria-expanded="true"] .chev{transform:rotate(180deg)}
+.fbtn.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.fbtn.on .chev{color:var(--bg)}
+.fbtn .n{font-size:12px;font-weight:700;background:var(--lamp);color:#fff;border-radius:999px;padding:0 6px;line-height:18px}
+.panel-wrap{border-top:1px solid var(--line);max-height:calc(100vh - 140px);overflow-y:auto;overscroll-behavior:contain}
+.panel{max-width:680px;margin:0 auto;padding:4px 0 16px;display:flex;flex-direction:column}
+.panel .row:last-of-type{border-bottom:0}
+.panel-foot{display:flex;justify-content:space-between;align-items:center;gap:12px;padding-top:8px}
+.panel-foot .btn{min-width:120px;margin-left:auto}
 header{display:flex;flex-direction:column;gap:8px}
 .eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--lake)}
 h1{font-family:var(--display);font-weight:800;font-size:clamp(32px,6.5vw,48px);line-height:1.02;margin:0;text-wrap:balance;letter-spacing:-.02em}
@@ -66,11 +98,12 @@ input[type=range]{width:100%;accent-color:var(--lamp);height:28px;margin:0}
 .seg button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
 .warn{color:var(--over);font-size:14px;margin:0}
 .btn{font-weight:600;font-size:15px;padding:12px 20px;border-radius:10px;border:1px solid var(--ink);background:var(--ink);color:var(--bg);cursor:pointer}
-.btn.go{margin-top:20px;padding:14px 20px;font-size:16px}
+.btn.go{padding:14px 20px;font-size:16px}
 .btn.ghost{background:transparent;color:var(--ink);border-color:var(--line)}
 .btn.small{padding:7px 13px;font-size:14px}
 
 /* day strip */
+#planSec,#eventsSec{scroll-margin-top:130px}
 .days-wrap{overflow-x:auto;margin:0 -4px 18px;padding:4px;scrollbar-width:thin}
 .days{display:flex;gap:6px;width:max-content}
 .day{display:flex;flex-direction:column;align-items:center;gap:0;min-width:58px;padding:8px 6px 7px;border-radius:12px;border:1px solid var(--line);background:var(--surface);cursor:pointer}
@@ -150,14 +183,20 @@ footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);paddin
 </style>
 </head>
 <body>
+<header class="topbar" id="topbar">
+  <div class="bar-inner">
+    <div class="bar-top">
+      <div class="brand"><span class="pulse" aria-hidden="true"></span><span>Madison<b>Pulse</b></span></div>
+      <div id="barNight"></div>
+    </div>
+    <nav class="filters-bar" id="bar" aria-label="Area, cuisine and fun"></nav>
+  </div>
+  <div class="panel-wrap" id="panelWrap" hidden>
+    <section class="panel" id="form" aria-label="Plan settings" role="dialog"></section>
+  </div>
+</header>
+<h1 class="sr-only">Plan your night in Madison</h1>
 <div class="wrap">
-  <header>
-    <div class="eyebrow">Madison, WI · 43.07° N</div>
-    <h1>Plan your night in <span>Madison</span></h1>
-    <p class="sub">Set your budget and what you're into. We'll build a night from local spots and the next two weeks of events, including the bars, VFW halls and coffee shops the big calendars miss.</p>
-  </header>
-
-  <section class="ask" id="form" aria-label="Plan your night"></section>
 
   <section id="planSec" aria-live="polite">
     <div class="days-wrap"><div class="days" id="days" role="group" aria-label="Which night"></div></div>
