@@ -186,6 +186,38 @@ def main():
             "; ".join(e.get("sources") or []), e.get("via", ""), ex(e.get("description"))[:500], e.get("lat"), e.get("lon"), e.get("id", "")]
            for e in sorted(events, key=lambda e: (ex(e.get("start")), e.get("title", "")))])
 
+    # music venues: how many events we find at each, and a place to add a calendar link
+    cal_path = DATA / "venue_calendars.csv"
+    cals = {}
+    if cal_path.exists():
+        with cal_path.open(newline="") as fh:
+            cals = {r["name"]: r for r in csv.DictReader(fh) if r.get("name")}
+    music = {}
+    for e in events:
+        if e.get("category") in ("music", "open_mic", "dance", "karaoke"):
+            music[e.get("venue_id")] = music.get(e.get("venue_id"), 0) + 1
+    rows = []
+    for v in venues:
+        is_music = (v.get("kind") in ("venue", "bar", "brewery") and (music.get(v["id"]) or re.search(
+            r"music|saloon|cabaret|tavern|pub\b|lounge|sylvee|majestic|bur oak|cardinal|rigby|liquid|harmony|gamma ray|up north|knuckle|red rooster|wisco|tip top|mickey|crystal corner|high noon|cafe coda|robinia|bos meadery|winnebago|come back in|brink|mr\.? robert", v["name"], re.I)))
+        if not is_music:
+            continue
+        src = vsrc.get(v["id"]) or {}
+        n_all = ev_count.get(v["id"], 0)
+        status = ("calendar link added" if v["name"] in cals and cals[v["name"]].get("calendar_url") else
+                  "no website" if not v.get("website") else "site unreachable" if src.get("error") else
+                  "reading OK" if n_all else "website has no readable calendar")
+        rows.append([v["name"], v.get("kind", ""), music.get(v["id"], 0), n_all, status, v.get("website", ""),
+                     (cals.get(v["name"]) or {}).get("calendar_url", ""), (cals.get(v["name"]) or {}).get("notes", "")])
+        cals.setdefault(v["name"], {"name": v["name"], "calendar_url": "", "notes": ""})
+    rows.sort(key=lambda r: (r[3] > 0, r[0].lower()))
+    write("music_venues.csv", ["name", "kind", "music events (2 weeks)", "all events (2 weeks)", "status", "website",
+                               "calendar_url", "notes"], rows)
+    with cal_path.open("w", newline="") as fh:  # keeps every link and note already filled in
+        cw = csv.DictWriter(fh, fieldnames=["name", "calendar_url", "notes"], extrasaction="ignore")
+        cw.writeheader()
+        cw.writerows(sorted(cals.values(), key=lambda r: (not r.get("calendar_url"), r["name"].lower())))
+
     (SHEETS / "README.md").write_text(README)
     try:
         write_xlsx()
@@ -217,7 +249,10 @@ def write_xlsx():
         ("Weights: change data/weights.csv on GitHub (1 = normal, 1.5 = more often, 2 = a lot more, 0.5 = less, 0 = never).", False),
         ("  The weight shown on each tab here is read from that file.", False),
         ("", False),
-        ("Tabs: Dead links, Restaurants, Bars & venues, Activities, Events, Weights.", False),
+        ("Music venues: places that host music. Ones with few or no events usually post them somewhere we can't read.", False),
+        ("  Fill in the yellow calendar_url with the page that lists their shows (or send the workbook back); the next scrape reads it.", False),
+        ("", False),
+        ("Tabs: Dead links, Music venues, Restaurants, Bars & venues, Activities, Events, Weights.", False),
     ]
     for i, (t, b) in enumerate(lines, 1):
         c = readme.cell(row=i, column=1, value=t)
@@ -254,6 +289,7 @@ def write_xlsx():
         ws.freeze_panes = "B2"
         ws.auto_filter.ref = ws.dimensions
     add("Dead links", DATA / "link_fixes.csv", fill_cols=("new_url", "notes"))
+    add("Music venues", SHEETS / "music_venues.csv", fill_cols=("calendar_url", "notes"))
     add("Restaurants", SHEETS / "restaurants.csv")
     add("Bars & venues", SHEETS / "bars_venues.csv")
     add("Activities", SHEETS / "activities.csv")

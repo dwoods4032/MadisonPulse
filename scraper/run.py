@@ -30,7 +30,7 @@ CATEGORIES = [
     ("open_mic", r"open mic|open jam|jam session|poetry|slam"),
     ("food", r"fish fry|happy hour|special|steak|burger|taco|wing|brunch|supper|dinner|prime rib|tasting|pairing|potluck|pancake|breakfast|fry"),
     ("dance", r"dance|\bdrag\b|line danc|salsa|swing|disco"),
-    ("sports", r"packers|badgers|brewers|bucks|watch party|game day|ufc|football|hockey|basketball|volleyball|soccer|\bvs\.?\b|\bat\b.*\bgame\b"),
+    ("sports", r"packers|badgers|brewers|bucks|world series|fall classic|playoff|super bowl|watch party|game day|ufc|football|hockey|basketball|volleyball|soccer|\bvs\.?\b|\bat\b.*\bgame\b"),
     ("film", r"^film:|\bfilm\b|movie|screening|cinema"),
     ("theater", r"theat(?:re|er)|\bplay\b|musical|opera|ballet|symphony|chorale|choir|recital|premiere|matinee|cabaret|burlesque"),
 ]
@@ -127,6 +127,13 @@ def discover(f: Fetcher, venue: dict, start, end) -> dict:
         return found
     home = r.url
     pages = [(home, r.text)]
+    if venue.get("calendar"):  # a calendar page set by hand in venue_overrides.json
+        try:
+            cr = f.get(venue["calendar"])
+            if cr is not None:
+                pages.append((cr.url, cr.text))
+        except PermissionError:
+            found["error"] = "calendar page blocked by robots.txt"
     soup = X.soup_of(r.text)
     for u in X.candidate_pages(soup, home):
         try:
@@ -229,11 +236,11 @@ def pick_feeds(feeds: list[dict]) -> list[dict]:
 def scrape_venue(f: Fetcher, venue: dict, cache: dict, start, end, rediscover: bool, reader=None):
     vid = venue["id"]
     info = cache.get(vid)
-    stale = (not info or rediscover or info.get("site") != venue["website"]
+    stale = (not info or rediscover or info.get("site") != venue["website"] or info.get("calendar") != venue.get("calendar")
              or now() - datetime.fromisoformat(info["checked"]) > timedelta(days=REDISCOVER_DAYS))
     if stale:
         info = discover(f, venue, start, end)
-        info["site"] = venue["website"]
+        info["site"], info["calendar"] = venue["website"], venue.get("calendar")
     feeds = list(venue.get("feeds") or []) + pick_feeds(info.get("feeds", []))
     by_rank, errors = {}, []
     for feed in feeds:
@@ -255,7 +262,8 @@ def scrape_venue(f: Fetcher, venue: dict, cache: dict, start, end, rediscover: b
     if not raw and reader is not None and reader.enabled and not info.get("error"):
         pages = info.get("pages_checked") or [venue["website"]]
         eventish = [u for u in pages[1:] if X.EVENT_LINK.search(u)]
-        for url in (eventish[:2] or pages[:1]):
+        targets = [venue["calendar"]] if venue.get("calendar") else (eventish[:2] or pages[:1])
+        for url in targets:
             try:
                 r = f.get(url)
                 if r is not None:
@@ -507,6 +515,19 @@ def main(argv=None):
 
     vdata = load_json(DATA / "venues.json", {})
     venues = vdata.get("venues", [])
+    # calendar pages added by hand (data/venue_calendars.csv): read first, by the AI reader if need be
+    import csv
+    cal_path = DATA / "venue_calendars.csv"
+    if cal_path.exists():
+        by_name = {v["name"].lower(): v for v in venues}
+        with cal_path.open(newline="") as fh:
+            for row in csv.DictReader(fh):
+                v = by_name.get((row.get("name") or "").strip().lower())
+                url = (row.get("calendar_url") or "").strip()
+                if v and url.startswith(("http://", "https://")):
+                    v["calendar"] = url
+                    if not v.get("website"):
+                        v["website"] = url
     if not venues:
         sys.exit("data/venues.json is empty. Run: python -m scraper.venues")
     start, end = window()
