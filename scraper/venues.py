@@ -306,13 +306,15 @@ def ai_tag(rows: list[dict], what: str, limit: int = 400) -> int:
                 try:
                     resp = requests.post("https://api.anthropic.com/v1/messages", timeout=40, headers={
                         "x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json"},
-                        json={"model": os.environ.get("AI_MODEL", "claude-haiku-5-5"), "max_tokens": 40,
+                        json={"model": os.environ.get("AI_MODEL", "claude-haiku-5-5"), "max_tokens": 120,
                               "messages": [{"role": "user", "content": prompt}]})
                 except Exception as e:
                     code = type(e).__name__
                 else:
                     if resp.status_code == 200:
                         ans = "".join(b.get("text", "") for b in resp.json().get("content", []))
+                        if len(stats.setdefault("samples", [])) < 6:
+                            stats["samples"].append({"place": r["name"], "reply": ans[:200], "page_chars": len(text)})
                         m = re.search(r"\{.*\}", ans, re.S)
                         try:
                             return r, (json.loads(m.group(0)) if m else {})
