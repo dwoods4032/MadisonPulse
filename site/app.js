@@ -465,16 +465,17 @@ function plans(opts = {}){
   for (const p of out){ const k = p.anchor ? p.anchor.n : ""; if (!groups.has(k)) groups.set(k, []); groups.get(k).push(p); }
   const order = [...groups.values()].map(g => g.sort((a,b) => b.score - a.score)).sort((a,b) => b[0].score - a[0].score);
   const seen = new Set(), used = {}, uniq = [];
-  for (let round = 0; uniq.length < MAX_PLANS && order.some(g => g.length > round); round++){
+  const cap = opts.pool ? 400 : MAX_PLANS;  // Randomize draws from a much bigger pool
+  for (let round = 0; uniq.length < cap && order.some(g => g.length > round); round++){
     for (const g of order){
       const p = g[round]; if (!p) continue;
       const rest = p.stops.filter(s => s !== pin && !s.live && !s.act);  // places should vary
       const key = p.stops.map(s => s.n).join("|");
-      if (seen.has(key) || rest.some(s => (used[s.n] || 0) >= 2)) continue;
+      if (seen.has(key) || (!opts.pool && rest.some(s => (used[s.n] || 0) >= 2))) continue;
       seen.add(key); rest.forEach(s => used[s.n] = (used[s.n] || 0) + 1);
-      uniq.push(p); if (uniq.length >= MAX_PLANS) break;
+      uniq.push(p); if (uniq.length >= cap) break;
     }
-    if (round > 40) break;
+    if (round > (opts.pool ? 200 : 40)) break;
   }
   return uniq;
 
@@ -570,14 +571,15 @@ function renderPlan(){
   PLAN_COUNT = Math.max(1, list.length);
   route.innerHTML = "";
   if (!list.length){
-    CURRENT = null; $("goBtn").hidden = true; $("restore").hidden = true;
+    CURRENT = null; $("goBtn").hidden = true; $("restore").hidden = true; $("randRow").hidden = true;
     $("totalPP").textContent = ""; $("totalGrp").textContent = "";
     $("planTitle").textContent = dayName(state.day); $("pager").hidden = true;
     const why = (!state.dinner && !state.show && isDry()) ? "Pick dinner or a show so there's something to plan." :
       sober() ? "Sober mode only suggests places we know don't serve alcohol, and none fit these choices yet. Try a wider area, more time, or another day." : "Nothing fits $"+state.budget+" a person between "+fmt12(Math.floor(state.from/60)%24, state.from%60)+" and "+fmt12(Math.floor(state.to/60)%24, state.to%60)+". Try a longer evening, a bigger budget, or fewer stops.";
     route.innerHTML = '<li class="empty">'+why+'</li>'; return;
   }
-  const base = list[state.rank % list.length];
+  if (FORCED && FORCED_SIG !== slotSig()) exitSlots(true);  // settings changed since the spin
+  const base = FORCED || list[state.rank % list.length];
   const all = applySwaps(base);
   const stops = all.filter(s => !state.removed.includes(s.n));
   const p = {...base, stops, cost: stops.reduce((t,s) => t + cost(s), 0)};
@@ -627,7 +629,8 @@ function renderPlan(){
   $("totalPP").classList.toggle("over", p.cost > state.budget);
   $("totalGrp").textContent = state.people > 1 ? "About $"+p.cost*state.people+" for "+state.people : "";
   $("planTitle").textContent = dayName(state.day);
-  $("pager").hidden = list.length < 2;
+  $("pager").hidden = list.length < 2 || !!FORCED;
+  $("randRow").hidden = !list.length;
   $("pageOf").textContent = ((state.rank % list.length)+1) + " of " + list.length;
 }
 $("route").addEventListener("click", e => {
@@ -644,8 +647,8 @@ $("route").addEventListener("click", e => {
   renderPlan();
   const again = document.querySelector('.swap[data-role="'+role+'"] .arrow[data-dir="'+b.dataset.dir+'"]'); if (again) again.focus();
 });
-$("nextPlan").onclick = () => { state.rank++; state.swap = {}; state.removed = []; renderPlan(); };
-$("prevPlan").onclick = () => { state.rank = state.rank > 0 ? state.rank - 1 : PLAN_COUNT - 1; state.swap = {}; state.removed = []; renderPlan(); };
+$("nextPlan").onclick = () => { exitSlots(true); state.rank++; state.swap = {}; state.removed = []; renderPlan(); };
+$("prevPlan").onclick = () => { exitSlots(true); state.rank = state.rank > 0 ? state.rank - 1 : PLAN_COUNT - 1; state.swap = {}; state.removed = []; renderPlan(); };
 $("restore").onclick = () => { state.removed = []; renderPlan(); };
 // Google Maps directions through every stop, in order, starting from wherever the person is.
 function placeText(s){
@@ -677,7 +680,7 @@ function renderDays(){
 }
 $("days").addEventListener("click", e => {
   const b = e.target.closest(".day"); if (!b) return;
-  state.day = b.dataset.k; state.rank = 0; state.swap = {}; state.removed = []; state.allDays = false;
+  state.day = b.dataset.k; state.rank = 0; state.swap = {}; state.removed = []; state.allDays = false; exitSlots();
   const pe = pinned(); if (pe && evDay(pe) !== state.day) state.pin = null;
   renderDays(); renderPlan(); renderEvents();
 });
@@ -744,6 +747,131 @@ function pinEvent(id){
 $("events").addEventListener("click", ev => { const b = ev.target.closest(".incl"); if (b) pinEvent(b.dataset.id); });
 $("pinClear").onclick = () => { state.pin = null; state.rank = 0; state.swap = {}; renderPlan(); renderEvents(); };
 function ago(iso){ const m = Math.round((Date.now() - new Date(iso)) / 60000); return m < 60 ? m + " minutes ago" : m < 1440 ? Math.round(m/60) + " hours ago" : Math.round(m/1440) + " days ago"; }
+
+// ---------- Randomize: a slot machine for the night ----------
+// It spins through real nearby options and lands on one of the plans that fit the settings,
+// so whatever it lands on works. Tap Hold on a reel to keep it; Respin spins the rest.
+let FORCED = null, FORCED_SIG = "", SPINNING = false;
+const HOLD = new Set();
+let SOUND = true; try { SOUND = localStorage.getItem("mp-sound") !== "off"; } catch (e) {}
+const slotSig = () => JSON.stringify([state.day, state.budget, state.people, state.drinks, state.dinner, state.show, state.from, state.to, state.fun, state.areas, state.cuisine, state.pin]);
+const REEL_LABEL = s => s.live || s.act ? (s.act ? s.label : CAT_LABEL[s.cat] || "Event") : s.k === "dinner" ? "Dinner" : KIND[s.k];
+const shortD = s => String(s.live ? (s.venue || "") : s.d || "").split(/[.;·]/)[0].slice(0, 48);
+const slotKey = p => p.stops.map(s => s.n).join("|");
+const reduceMotion = () => matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+// sounds made on the fly in the browser: no files to load or license
+let AC = null;
+function audio(){
+  if (!SOUND) return null;
+  if (!AC){ const C = window.AudioContext || window.webkitAudioContext; if (!C) return null; AC = new C(); }
+  if (AC.state === "suspended") AC.resume();
+  return AC;
+}
+function tone(f, dur, type, vol, when = 0, slideTo){
+  const c = audio(); if (!c) return;
+  const t = c.currentTime + when, o = c.createOscillator(), g = c.createGain();
+  o.type = type; o.frequency.setValueAtTime(f, t);
+  if (slideTo) o.frequency.exponentialRampToValueAtTime(slideTo, t + dur);
+  g.gain.setValueAtTime(vol, t); g.gain.exponentialRampToValueAtTime(0.0001, t + dur);
+  o.connect(g); g.connect(c.destination); o.start(t); o.stop(t + dur + 0.03);
+}
+let lastTick = 0;
+const SFX = {
+  tick(){ const n = performance.now(); if (n - lastTick < 38) return; lastTick = n; tone(1500 + Math.random()*400, 0.022, "square", 0.035); },
+  clunk(){ tone(190, 0.2, "triangle", 0.32, 0, 70); tone(95, 0.14, "sine", 0.28); try { navigator.vibrate && navigator.vibrate(12); } catch (e) {} },
+  chime(){ [523, 659, 784, 1047].forEach((f, i) => tone(f, 0.55, "triangle", 0.16, 0.05 + i*0.09)); },
+};
+
+function exitSlots(keepHolds){
+  FORCED = null; FORCED_SIG = ""; SPINNING = false; document.body.classList.remove("spinning");
+  if (!keepHolds) HOLD.clear();
+  const el = $("slots"); if (el){ el.hidden = true; el.innerHTML = ""; }
+  $("randBtn").textContent = "Randomize";
+}
+function slotMsg(text){
+  const el = $("slots"); el.hidden = false;
+  el.innerHTML = '<div class="cab"><p class="cab-msg">'+esc(text)+'</p><div class="cab-row"><button type="button" class="link sm cab-done">Close</button></div></div>';
+}
+function randomize(){
+  if (SPINNING) return;
+  audio();  // browsers only allow sound that starts from a tap
+  let pool = plans({pool: true});
+  const held = [...HOLD];
+  if (held.length) pool = pool.filter(p => held.every(n => p.stops.some(s => s.n === n)));
+  if (!pool.length){ slotMsg(held.length ? "Nothing else fits with what you're holding. Release a reel and spin again." : "Nothing fits these settings yet. Try a bigger budget, a longer evening or another day."); return; }
+  pool.sort((a, b) => b.score - a.score);
+  const top = pool.slice(0, Math.max(8, Math.min(60, Math.ceil(pool.length * 0.6))));  // good nights, still a surprise
+  let pick = top[0];
+  for (let i = 0; i < 6; i++){ pick = top[Math.floor(Math.random() * top.length)]; if (!FORCED || slotKey(pick) !== slotKey(FORCED)) break; }
+  const before = FORCED;
+  FORCED = pick; FORCED_SIG = slotSig(); state.swap = {}; state.removed = [];
+  spin(pick, pool, before);
+}
+function spin(p, pool, before){
+  const el = $("slots"); el.hidden = false; SPINNING = true;
+  const items = schedule(p.stops, state.day).items;
+  const ITEM = 64;
+  const reels = items.map(({s, t}, i) => {
+    const held = HOLD.has(s.n);
+    // filler: other real options for this slot from tonight's pool
+    const same = x => (s.live || s.act) ? (x.live || x.act) : x.k === s.k && !x.live && !x.act;
+    const seen = new Set([s.n]), fill = [];
+    for (const q of pool) for (const x of q.stops) if (same(x) && !seen.has(x.n)){ seen.add(x.n); fill.push(x); }
+    for (let k = fill.length - 1; k > 0; k--){ const j = Math.floor(Math.random() * (k + 1)); [fill[k], fill[j]] = [fill[j], fill[k]]; }
+    let strip = fill.slice(0, 16);
+    while (strip.length && strip.length < 10) strip = strip.concat(strip.slice(0, 10 - strip.length));
+    const prev = before && before.stops.find(same);
+    strip = held ? [s] : [prev || strip[0] || s, ...strip.slice(1), s];
+    return {s, t, held, strip, i};
+  });
+  const dn = dayName(state.day), title = dn === "Tonight" ? "Tonight’s spin" : dn === "Tomorrow" ? "Tomorrow’s spin" : new Date(state.day + "T12:00:00Z").toLocaleDateString("en-US", {weekday:"long", timeZone:"UTC"}) + "’s spin";
+  document.body.classList.add("spinning");  // the plan below waits for the reels
+  el.innerHTML = '<div class="cab"><div class="cab-head"><span class="cab-title">'+esc(title)+'</span>'+
+    '<button type="button" class="snd" id="sndBtn" aria-pressed="'+SOUND+'" aria-label="Sound">'+(SOUND ? "Sound on" : "Sound off")+'</button></div>'+
+    reels.map(r => '<div class="reel'+(r.held ? " held" : "")+'" data-i="'+r.i+'"><div class="reel-lbl">'+esc(REEL_LABEL(r.s))+'<small>'+fmt12(Math.floor(r.t/60)%24, r.t%60)+'</small></div>'+
+      '<div class="reel-win"><div class="reel-strip">'+r.strip.map(x => '<div class="reel-it"><b>'+esc(x.n)+'</b><small>'+esc(shortD(x))+'</small></div>').join("")+'</div></div>'+
+      '<button type="button" class="hold" data-n="'+esc(r.s.n)+'" aria-pressed="'+r.held+'">'+(r.held ? "Held" : "Hold")+'</button></div>').join("")+
+    '<div class="cab-row"><button type="button" class="btn spin" id="respin">Respin</button><button type="button" class="link sm cab-done">Done</button></div></div>';
+  $("respin").disabled = true;
+  el.scrollIntoView({behavior: reduceMotion() ? "auto" : "smooth", block: "start"});
+  const still = reduceMotion();
+  let left = 0;
+  reels.forEach((r, n) => {
+    const node = el.querySelector('.reel[data-i="'+r.i+'"]'), strip = node.querySelector(".reel-strip"), win = node.querySelector(".reel-win");
+    const target = (r.strip.length - 1) * ITEM;
+    if (r.held || still || !target){ strip.style.transform = "translateY(" + -target + "px)"; if (!r.held && still) setTimeout(SFX.clunk, 150 + n*180); return; }
+    left++;
+    const D = 1300 + n * 600, t0 = performance.now();
+    let lastIdx = 0;
+    strip.classList.add("fast");
+    const step = now => {
+      const k = Math.min(1, (now - t0) / D), e = 1 - Math.pow(1 - k, 3.2), y = e * target;
+      strip.style.transform = "translateY(" + -y + "px)";
+      if (k > 0.72) strip.classList.remove("fast");
+      const idx = Math.round(y / ITEM); if (idx !== lastIdx){ lastIdx = idx; SFX.tick(); }
+      if (k < 1) requestAnimationFrame(step);
+      else { SFX.clunk(); win.classList.add("landed"); if (--left === 0) done(); }
+    };
+    requestAnimationFrame(step);
+  });
+  if (!left) setTimeout(done, still ? 200 + reels.length * 180 : 0);
+  function done(){
+    SPINNING = false; SFX.chime(); document.body.classList.remove("spinning");
+    $("respin").disabled = false; $("randBtn").textContent = "Spin again";
+    renderPlan();
+  }
+}
+$("randBtn").onclick = () => randomize();
+$("slots").addEventListener("click", e => {
+  const h = e.target.closest(".hold");
+  if (h){ if (SPINNING) return; const n = h.dataset.n; HOLD.has(n) ? HOLD.delete(n) : HOLD.add(n);
+    h.setAttribute("aria-pressed", HOLD.has(n)); h.textContent = HOLD.has(n) ? "Held" : "Hold"; h.closest(".reel").classList.toggle("held", HOLD.has(n)); return; }
+  if (e.target.closest("#respin")){ randomize(); return; }
+  if (e.target.closest(".cab-done")){ exitSlots(); renderPlan(); return; }
+  if (e.target.closest("#sndBtn")){ SOUND = !SOUND; try { localStorage.setItem("mp-sound", SOUND ? "on" : "off"); } catch (er) {}
+    const b = $("sndBtn"); b.setAttribute("aria-pressed", SOUND); b.textContent = SOUND ? "Sound on" : "Sound off"; if (SOUND) SFX.clunk(); }
+});
 
 // ---------- start ----------
 renderForm(); renderDays(); renderPlan();
