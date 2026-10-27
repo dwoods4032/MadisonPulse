@@ -21,10 +21,11 @@
    "website": "https://www.1847stammhouse.com/home",
    "hours": null,
    "bar": false,
-   "alcohol": null,
+   "alcohol": true,
    "menu": "https://www.1847stammhouse.com/menus",
    "menu_src": "restaurant homepage",
-   "image": "http://static1.squarespace.com/static/5ec4a4d65436303b56662fda/t/5ec988a1bb99ad6e863dfa5e/1590266018129/Navigation_iPhoneRetinaIcon.png?format=1500w"
+   "image": "http://static1.squarespace.com/static/5ec4a4d65436303b56662fda/t/5ec988a1bb99ad6e863dfa5e/1590266018129/Navigation_iPhoneRetinaIcon.png?format=1500w",
+   "alcohol_src": "menu/homepage keywords"
   },
   {
    "group": "asian",
@@ -132,8 +133,9 @@
     ]
    ],
    "bar": false,
-   "alcohol": null,
-   "image": "https://static.hungerrush.com/menufy/width=1920,height=1080,fit=scale-down,format=auto/637423688952577580+327304.png"
+   "alcohol": true,
+   "image": "https://static.hungerrush.com/menufy/width=1920,height=1080,fit=scale-down,format=auto/637423688952577580+327304.png",
+   "alcohol_src": "menu/homepage keywords"
   },
   {
    "group": "asian",
@@ -242,9 +244,10 @@
     ]
    ],
    "bar": false,
-   "alcohol": null,
+   "alcohol": true,
    "menu": "https://www.ahanmadison608.com/ahan-menus",
-   "menu_src": "restaurant homepage"
+   "menu_src": "restaurant homepage",
+   "alcohol_src": "menu/homepage keywords"
   },
   {
    "group": "american",
@@ -950,10 +953,11 @@
     ]
    ],
    "bar": false,
-   "alcohol": null,
+   "alcohol": true,
    "menu": "https://www.brunchclubmadison.com/menus/",
    "menu_src": "restaurant homepage",
-   "image": "https://images.getbento.com/accounts/7fdf9c94e14fa47fcdabdb2da79ba678/media/images/20377Website_BC_1920x1080mageTemplate2121.jpg?w=1200&fit=crop&auto=compress,format&cs=origin&h=600"
+   "image": "https://images.getbento.com/accounts/7fdf9c94e14fa47fcdabdb2da79ba678/media/images/20377Website_BC_1920x1080mageTemplate2121.jpg?w=1200&fit=crop&auto=compress,format&cs=origin&h=600",
+   "alcohol_src": "menu/homepage keywords"
   },
   {
    "group": "american",
@@ -1067,10 +1071,11 @@
     ]
    ],
    "bar": false,
-   "alcohol": null,
+   "alcohol": true,
    "menu": "https://www.begoniamadison.com/menus",
    "menu_src": "restaurant homepage",
-   "image": "http://static1.squarespace.com/static/6a21e4c03d712b3bcbddeddf/t/6a344fa71890a327487b2fb6/1781813159435/begonia+logo+Indigo+RGB+3000x1180.png?format=1500w"
+   "image": "http://static1.squarespace.com/static/6a21e4c03d712b3bcbddeddf/t/6a344fa71890a327487b2fb6/1781813159435/begonia+logo+Indigo+RGB+3000x1180.png?format=1500w",
+   "alcohol_src": "menu/homepage keywords"
   },
   {
    "group": "american",
@@ -1299,10 +1304,11 @@
    "website": "https://breakwatermonona.com/",
    "hours": null,
    "bar": false,
-   "alcohol": null,
+   "alcohol": true,
    "menu": "https://breakwatermonona.com/monona-monona-breakwater-food-menu",
    "menu_src": "restaurant homepage",
-   "image": "https://static.spotapps.co/website_images/ab_websites/95976_website/shared_image.jpg"
+   "image": "https://static.spotapps.co/website_images/ab_websites/95976_website/shared_image.jpg",
+   "alcohol_src": "menu/homepage keywords"
   },
   {
    "group": "med",
@@ -1508,10 +1514,11 @@
     ]
    ],
    "bar": false,
-   "alcohol": null,
+   "alcohol": true,
    "menu": "https://www.butterbird.com/menu",
    "menu_src": "restaurant homepage",
-   "image": "https://cdn.prod.website-files.com/6480c628ead1916bfa964f5c/65a970499e88b8b111687e54_Butterbird_logo_open%20graph.png"
+   "image": "https://cdn.prod.website-files.com/6480c628ead1916bfa964f5c/65a970499e88b8b111687e54_Butterbird_logo_open%20graph.png",
+   "alcohol_src": "menu/homepage keywords"
   },
   {
    "group": "american",
@@ -1741,10 +1748,11 @@
     ]
    ],
    "bar": false,
-   "alcohol": null,
+   "alcohol": true,
    "menu": "https://www.canteentaco.com/menus/",
    "menu_src": "restaurant homepage",
-   "image": "https://images.getbento.com/accounts/696ee490623a91fc563c3a5316c744ee/media/images/3165logo.svg?w=1200&fit=fill&auto=compress,format&cs=origin&h=600&bg=EDEDF1&pad=100"
+   "image": "https://images.getbento.com/accounts/696ee490623a91fc563c3a5316c744ee/media/images/3165logo.svg?w=1200&fit=fill&auto=compress,format&cs=origin&h=600&bg=EDEDF1&pad=100",
+   "alcohol_src": "menu/homepage keywords"
   },
   {
    "group": "american",
@@ -1953,10 +1961,11 @@
    "website": "https://www.centomadison.com",
    "hours": null,
    "bar": false,
-   "alcohol": null,
+   "alcohol": true,
    "menu": "https://www.centomadison.com/menus/",
    "menu_src": "restaurant homepage",
-   "image": "https://images.getbento.com/accounts/ec018e0705f37fc545060f7bde8b6432/media/images/96177Cento_Color_300DPI_LG.png?w=1200&fit=fill&auto=compress,format&cs=origin&h=600&bg=EDEDF1&pad=100"
+   "image": "https://images.getbento.com/accounts/ec018e0705f37fc545060f7bde8b6432/media/images/96177Cento_Color_300DPI_LG.png?w=1200&fit=fill&auto=compress,format&cs=origin&h=600&bg=EDEDF1&pad=100",
+   "alcohol_src": "menu/homepage keywords"
   },
   {
    "group": "asian",
@@ -3961,10 +3970,11 @@
     ]
    ],
    "bar": false,
-   "alcohol": null,
+   "alcohol": true,
    "menu": "https://elouramediterranean.com/food-menu",
    "menu_src": "restaurant homepage",
-   "image": "https://static.spotapps.co/website_images/ab_websites/726627_website_v1/social_share.jpg"
+   "image": "https://static.spotapps.co/website_images/ab_websites/726627_website_v1/social_share.jpg",
+   "alcohol_src": "menu/homepage keywords"
   },
   {
    "group": "latin",
@@ -4181,10 +4191,11 @@
     ]
    ],
    "bar": false,
-   "alcohol": null,
+   "alcohol": true,
    "menu": "https://www.fairchildrestaurant.com/menus",
    "menu_src": "restaurant homepage",
-   "image": "http://static1.squarespace.com/static/5df25cb152336519c3b109c1/t/5dfa4ac3cda8467a3e861b98/1576684229286/Fairchild_Logo_Blue_web.png?format=1500w"
+   "image": "http://static1.squarespace.com/static/5df25cb152336519c3b109c1/t/5dfa4ac3cda8467a3e861b98/1576684229286/Fairchild_Logo_Blue_web.png?format=1500w",
+   "alcohol_src": "menu/homepage keywords"
   },
   {
    "group": "american",
@@ -4608,10 +4619,11 @@
    "website": "https://www.friendsapplaud.com/",
    "hours": null,
    "bar": false,
-   "alcohol": null,
+   "alcohol": true,
    "menu": "https://www.friendsapplaud.com/menu",
    "menu_src": "restaurant homepage",
-   "image": "http://static1.squarespace.com/static/69b1b63e4ef1947365ad86b9/t/69b1ba9bb191e22085412c71/1773255323622/friendsscriptlogo.png?format=1500w"
+   "image": "http://static1.squarespace.com/static/69b1b63e4ef1947365ad86b9/t/69b1ba9bb191e22085412c71/1773255323622/friendsscriptlogo.png?format=1500w",
+   "alcohol_src": "menu/homepage keywords"
   },
   {
    "group": "american",
@@ -4678,9 +4690,10 @@
    "website": "https://www.fujimiddleton.com/",
    "hours": null,
    "bar": false,
-   "alcohol": null,
+   "alcohol": true,
    "menu": "https://www.fujimiddleton.com/menu",
-   "menu_src": "restaurant homepage"
+   "menu_src": "restaurant homepage",
+   "alcohol_src": "menu/homepage keywords"
   },
   {
    "group": "asian",
@@ -4759,10 +4772,11 @@
     ]
    ],
    "bar": false,
-   "alcohol": null,
+   "alcohol": true,
    "menu": "https://fyasydekitchen.com/drink-menu",
    "menu_src": "restaurant homepage",
-   "image": "https://static.spotapps.co/website_images/ab_websites/768240_website_v1/shared_image.jpg"
+   "image": "https://static.spotapps.co/website_images/ab_websites/768240_website_v1/shared_image.jpg",
+   "alcohol_src": "menu/homepage keywords"
   },
   {
    "group": "latin",
@@ -4779,10 +4793,11 @@
    "website": "https://garibaldimexicanwi.com/",
    "hours": null,
    "bar": false,
-   "alcohol": null,
+   "alcohol": true,
    "menu": "https://garibaldimexicanwi.com/madison-madison-garibaldi-mexican-restaurant-food-menu",
    "menu_src": "restaurant homepage",
-   "image": "https://static.spotapps.co/website_images/ab_websites/96000_website_v1/order_left.jpg"
+   "image": "https://static.spotapps.co/website_images/ab_websites/96000_website_v1/order_left.jpg",
+   "alcohol_src": "menu/homepage keywords"
   },
   {
    "group": "asian",
@@ -5082,9 +5097,10 @@
     ]
    ],
    "bar": false,
-   "alcohol": null,
+   "alcohol": true,
    "menu": "https://goldennestpancake.com/wauwatosa-golden-nest-pancake-and-cafe-food-menu",
-   "menu_src": "restaurant homepage"
+   "menu_src": "restaurant homepage",
+   "alcohol_src": "menu/homepage keywords"
   },
   {
    "group": "american",
@@ -5300,9 +5316,10 @@
     ]
    ],
    "bar": false,
-   "alcohol": null,
+   "alcohol": true,
    "menu": "https://www.grazemadison.com",
-   "menu_src": "restaurant homepage"
+   "menu_src": "restaurant homepage",
+   "alcohol_src": "menu/homepage keywords"
   },
   {
    "group": "asian",
@@ -6176,10 +6193,11 @@
     ]
    ],
    "bar": false,
-   "alcohol": null,
+   "alcohol": true,
    "menu": "https://www.hwy1restaurant.com/menus/",
    "menu_src": "restaurant homepage",
-   "image": "https://images.getbento.com/accounts/2b0b0c4e317d92d80eb7683c535236f2/media/images/75209JoPSqPFTjSTZote9c4ea_HWY1_logo_orange-05.png?w=1200&fit=fill&auto=compress,format&cs=origin&h=600&bg=EDEDF1&pad=100"
+   "image": "https://images.getbento.com/accounts/2b0b0c4e317d92d80eb7683c535236f2/media/images/75209JoPSqPFTjSTZote9c4ea_HWY1_logo_orange-05.png?w=1200&fit=fill&auto=compress,format&cs=origin&h=600&bg=EDEDF1&pad=100",
+   "alcohol_src": "menu/homepage keywords"
   },
   {
    "group": "italian",
@@ -6524,9 +6542,10 @@
     ]
    ],
    "bar": false,
-   "alcohol": null,
+   "alcohol": true,
    "menu": "https://www.jaliscomadison.com/menu",
-   "menu_src": "restaurant homepage"
+   "menu_src": "restaurant homepage",
+   "alcohol_src": "menu/homepage keywords"
   },
   {
    "group": "american",
@@ -7020,10 +7039,11 @@
    "website": "http://www.letoile-restaurant.com",
    "hours": null,
    "bar": false,
-   "alcohol": null,
+   "alcohol": true,
    "menu": "https://www.letoile-restaurant.com/menus",
    "menu_src": "restaurant homepage",
-   "image": "https://static.wixstatic.com/media/335a7b_767e1bcd80c443aebd381689b681daa1~mv2.jpg/v1/fill/w_2500,h_1666,al_c/335a7b_767e1bcd80c443aebd381689b681daa1~mv2.jpg"
+   "image": "https://static.wixstatic.com/media/335a7b_767e1bcd80c443aebd381689b681daa1~mv2.jpg/v1/fill/w_2500,h_1666,al_c/335a7b_767e1bcd80c443aebd381689b681daa1~mv2.jpg",
+   "alcohol_src": "menu/homepage keywords"
   },
   {
    "group": "latin",
@@ -7678,9 +7698,10 @@
     ]
    ],
    "bar": false,
-   "alcohol": null,
+   "alcohol": true,
    "menu": "https://www.louisiannes.com/menu.html",
-   "menu_src": "restaurant homepage"
+   "menu_src": "restaurant homepage",
+   "alcohol_src": "menu/homepage keywords"
   },
   {
    "group": "latin",
@@ -7780,10 +7801,11 @@
     ]
    ],
    "bar": false,
-   "alcohol": null,
+   "alcohol": true,
    "menu": "https://www.lucillemadison.com/catering-menu",
    "menu_src": "restaurant homepage",
-   "image": "https://static.wixstatic.com/media/50d0a5_ff180554c80a41e1bfa7a708bc19050d~mv2.jpg/v1/fill/w_1960,h_996,al_c/50d0a5_ff180554c80a41e1bfa7a708bc19050d~mv2.jpg"
+   "image": "https://static.wixstatic.com/media/50d0a5_ff180554c80a41e1bfa7a708bc19050d~mv2.jpg/v1/fill/w_1960,h_996,al_c/50d0a5_ff180554c80a41e1bfa7a708bc19050d~mv2.jpg",
+   "alcohol_src": "menu/homepage keywords"
   },
   {
    "group": "italian",
@@ -7823,10 +7845,11 @@
     ]
    ],
    "bar": false,
-   "alcohol": null,
+   "alcohol": true,
    "menu": "https://www.luigismadison.com/menus/",
    "menu_src": "restaurant homepage",
-   "image": "https://images.getbento.com/accounts/9a3326bb05078934b72d687167785710/media/images/29644logo.png?w=1200&fit=fill&auto=compress,format&cs=origin&h=600&bg=E9B720&pad=100"
+   "image": "https://images.getbento.com/accounts/9a3326bb05078934b72d687167785710/media/images/29644logo.png?w=1200&fit=fill&auto=compress,format&cs=origin&h=600&bg=E9B720&pad=100",
+   "alcohol_src": "menu/homepage keywords"
   },
   {
    "group": "american",
@@ -8321,10 +8344,11 @@
     ]
    ],
    "bar": false,
-   "alcohol": null,
+   "alcohol": true,
    "menu": "https://www.merchantmadison.com/kids",
    "menu_src": "restaurant homepage",
-   "image": "https://static.wixstatic.com/media/50d0a5_9f77c569ed7a46429c23d7b15a181ee1~mv2.jpg/v1/fill/w_2500,h_1666,al_c/50d0a5_9f77c569ed7a46429c23d7b15a181ee1~mv2.jpg"
+   "image": "https://static.wixstatic.com/media/50d0a5_9f77c569ed7a46429c23d7b15a181ee1~mv2.jpg/v1/fill/w_2500,h_1666,al_c/50d0a5_9f77c569ed7a46429c23d7b15a181ee1~mv2.jpg",
+   "alcohol_src": "menu/homepage keywords"
   },
   {
    "group": "med",
@@ -9032,10 +9056,11 @@
     ]
    ],
    "bar": false,
-   "alcohol": null,
+   "alcohol": true,
    "menu": "https://www.thegritty.com/menus/",
    "menu_src": "restaurant homepage",
-   "image": "https://images.getbento.com/accounts/e4822fbaf7aad9e143030840d27381a3/media/images/44557NG.logo.png?w=1200&fit=fill&auto=compress,format&cs=origin&h=600&bg=fff&pad=100"
+   "image": "https://images.getbento.com/accounts/e4822fbaf7aad9e143030840d27381a3/media/images/44557NG.logo.png?w=1200&fit=fill&auto=compress,format&cs=origin&h=600&bg=fff&pad=100",
+   "alcohol_src": "menu/homepage keywords"
   },
   {
    "group": "italian",
@@ -9075,10 +9100,11 @@
     ]
    ],
    "bar": false,
-   "alcohol": null,
+   "alcohol": true,
    "menu": "https://www.nonnosristoranteitaliano.com/menus",
    "menu_src": "restaurant homepage",
-   "image": "https://static.wixstatic.com/media/394483_94a5e9771c5846a5ac53c67532997161%7Emv2.png/v1/fit/w_2500,h_1330,al_c/394483_94a5e9771c5846a5ac53c67532997161%7Emv2.png"
+   "image": "https://static.wixstatic.com/media/394483_94a5e9771c5846a5ac53c67532997161%7Emv2.png/v1/fit/w_2500,h_1330,al_c/394483_94a5e9771c5846a5ac53c67532997161%7Emv2.png",
+   "alcohol_src": "menu/homepage keywords"
   },
   {
    "group": "sushi",
@@ -9353,7 +9379,8 @@
    "website": "https://onesocialmadison.com/food-hall/",
    "hours": null,
    "bar": false,
-   "alcohol": null
+   "alcohol": true,
+   "alcohol_src": "menu/homepage keywords"
   },
   {
    "group": "american",
@@ -10167,9 +10194,10 @@
     ]
    ],
    "bar": false,
-   "alcohol": null,
+   "alcohol": true,
    "menu": "https://www.pizzabrutta.com/madison-dudgeon-monroe-neighborhood-pizza-brutta-food-menu",
-   "menu_src": "restaurant homepage"
+   "menu_src": "restaurant homepage",
+   "alcohol_src": "menu/homepage keywords"
   },
   {
    "group": "italian",
@@ -10631,9 +10659,10 @@
     ]
    ],
    "bar": false,
-   "alcohol": null,
+   "alcohol": true,
    "menu": "https://red-madison.com/menus/",
-   "menu_src": "restaurant homepage"
+   "menu_src": "restaurant homepage",
+   "alcohol_src": "menu/homepage keywords"
   },
   {
    "group": "american",
@@ -10705,10 +10734,11 @@
    "website": "https://rexsinnkeeper.com",
    "hours": null,
    "bar": false,
-   "alcohol": null,
+   "alcohol": true,
    "menu": "https://rexsinnkeeper.com/waunakee-waunakee-rex-s-innkeeper-food-menu",
    "menu_src": "restaurant homepage",
-   "image": "https://static.spotapps.co/website_images/ab_websites/99733_website_v1/events_back.jpg"
+   "image": "https://static.spotapps.co/website_images/ab_websites/99733_website_v1/events_back.jpg",
+   "alcohol_src": "menu/homepage keywords"
   },
   {
    "group": "american",
@@ -11438,9 +11468,10 @@
    "website": "http://thesidedoorgrill.com/",
    "hours": null,
    "bar": false,
-   "alcohol": null,
+   "alcohol": true,
    "menu": "https://eatstreet.com/the-side-door-grill-and-tap-madison/menu?order-source=ORDER_NOW_IFRAME",
-   "menu_src": "restaurant homepage"
+   "menu_src": "restaurant homepage",
+   "alcohol_src": "menu/homepage keywords"
   },
   {
    "group": "med",
@@ -11812,10 +11843,11 @@
     ]
    ],
    "bar": false,
-   "alcohol": null,
+   "alcohol": true,
    "menu": "https://www.steenbocksonorchard.com/menus/",
    "menu_src": "restaurant homepage",
-   "image": "https://images.getbento.com/accounts/b908295adb2daf3b7fbac2c27bb1705e/media/images/87830Steenbocks-1.png?w=1200&fit=fill&auto=compress,format&cs=origin&h=600&bg=EDEDF1&pad=100"
+   "image": "https://images.getbento.com/accounts/b908295adb2daf3b7fbac2c27bb1705e/media/images/87830Steenbocks-1.png?w=1200&fit=fill&auto=compress,format&cs=origin&h=600&bg=EDEDF1&pad=100",
+   "alcohol_src": "menu/homepage keywords"
   },
   {
    "group": "italian",
@@ -11965,10 +11997,11 @@
     ]
    ],
    "bar": false,
-   "alcohol": null,
+   "alcohol": true,
    "menu": "https://sultanmadison.com/food-menu",
    "menu_src": "restaurant homepage",
-   "image": "https://static.spotapps.co/website_images/ab_websites/267323_website_v2/abt_right.jpg"
+   "image": "https://static.spotapps.co/website_images/ab_websites/267323_website_v2/abt_right.jpg",
+   "alcohol_src": "menu/homepage keywords"
   },
   {
    "group": "sushi",
@@ -12632,7 +12665,8 @@
     ]
    ],
    "bar": false,
-   "alcohol": null
+   "alcohol": true,
+   "alcohol_src": "menu/homepage keywords"
   },
   {
    "group": "latin",
@@ -12958,10 +12992,11 @@
     ]
    ],
    "bar": false,
-   "alcohol": null,
+   "alcohol": true,
    "menu": "https://www.textubbstacos.com/menus/",
    "menu_src": "restaurant homepage",
-   "image": "https://images.getbento.com/accounts/620956f44fafb698af8a233a2e6d1278/media/images/44130logo-white.png?w=1200&fit=fill&auto=compress,format&cs=origin&h=600&bg=A7322C&pad=100"
+   "image": "https://images.getbento.com/accounts/620956f44fafb698af8a233a2e6d1278/media/images/44130logo-white.png?w=1200&fit=fill&auto=compress,format&cs=origin&h=600&bg=A7322C&pad=100",
+   "alcohol_src": "menu/homepage keywords"
   },
   {
    "group": "asian",
@@ -13260,8 +13295,9 @@
     ]
    ],
    "bar": false,
-   "alcohol": null,
-   "image": "https://img1.wsimg.com/isteam/ip/2906bc6c-985d-44d9-8d0a-0c43c0331cad/OFLogo_color%20-%20Copy%20(Small).png"
+   "alcohol": true,
+   "image": "https://img1.wsimg.com/isteam/ip/2906bc6c-985d-44d9-8d0a-0c43c0331cad/OFLogo_color%20-%20Copy%20(Small).png",
+   "alcohol_src": "menu/homepage keywords"
   },
   {
    "group": "american",
@@ -13300,10 +13336,11 @@
     ]
    ],
    "bar": false,
-   "alcohol": null,
+   "alcohol": true,
    "menu": "https://www.thepostmadison.com/menus",
    "menu_src": "restaurant homepage",
-   "image": "https://assets.milestoneinternet.com/cdn-cgi/image/f=auto/park-hotel-madison-best-western-premiere/menu-11-25/lunch-and-dinner/untitled-81.jpg?width=1200&height=630"
+   "image": "https://assets.milestoneinternet.com/cdn-cgi/image/f=auto/park-hotel-madison-best-western-premiere/menu-11-25/lunch-and-dinner/untitled-81.jpg?width=1200&height=630",
+   "alcohol_src": "menu/homepage keywords"
   },
   {
    "group": "american",
@@ -14027,10 +14064,11 @@
    "website": "https://www.wearytravelerfreehouse.com/",
    "hours": null,
    "bar": false,
-   "alcohol": null,
+   "alcohol": true,
    "menu": "https://wearytravelerfreehouse.com/weary-traveler-catering-menu/",
    "menu_src": "restaurant homepage",
-   "image": "http://wearytravelerfreehouse.com/wp-content/uploads/2018/02/cropped-DSC_0068.jpg"
+   "image": "http://wearytravelerfreehouse.com/wp-content/uploads/2018/02/cropped-DSC_0068.jpg",
+   "alcohol_src": "menu/homepage keywords"
   },
   {
    "group": "american",
@@ -14206,10 +14244,11 @@
     ]
    ],
    "bar": false,
-   "alcohol": null,
+   "alcohol": true,
    "menu": "https://www.yeeshaneatery.com/menu",
    "menu_src": "restaurant homepage",
-   "image": "http://static1.squarespace.com/static/6938b062fef0ab5b07634fd2/t/695d971a3b532f56779de9f2/1767741210809/Yeeshan_weblogo_whiteglow_Ver3.gif?format=1500w"
+   "image": "http://static1.squarespace.com/static/6938b062fef0ab5b07634fd2/t/695d971a3b532f56779de9f2/1767741210809/Yeeshan_weblogo_whiteglow_Ver3.gif?format=1500w",
+   "alcohol_src": "menu/homepage keywords"
   },
   {
    "group": "asian",
@@ -14321,10 +14360,11 @@
     ]
    ],
    "bar": false,
-   "alcohol": null,
+   "alcohol": true,
    "menu": "https://zafferanoristorante.com/fitchburg-fitchburg-zafferano-ristorante-food-menu?menu_id=1399641",
    "menu_src": "restaurant homepage",
-   "image": "https://static.spotapps.co/website_images/ab_websites/467577_website_v1/social_share.jpg"
+   "image": "https://static.spotapps.co/website_images/ab_websites/467577_website_v1/social_share.jpg",
+   "alcohol_src": "menu/homepage keywords"
   },
   {
    "group": "latin",

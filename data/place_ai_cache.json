@@ -8,5 +8,576 @@
  },
  "osm:way/1135060542": {
   "alcohol": true
+ },
+ "osm:way/1180774916": {
+  "alcohol": true,
+  "alcohol_how": "keywords"
+ },
+ "osm:node/10815180247": {
+  "alcohol_checked": "2026-10-27T11:54:46.675880-05:00"
+ },
+ "osm:way/440518288": {
+  "alcohol_checked": "2026-10-27T11:54:47.581019-05:00"
+ },
+ "osm:way/345755104": {
+  "alcohol_checked": "2026-10-27T11:54:47.581049-05:00"
+ },
+ "osm:way/265137656": {
+  "alcohol_checked": "2026-10-27T11:54:49.604797-05:00"
+ },
+ "osm:way/105672048": {
+  "alcohol_checked": "2026-10-27T11:54:49.604828-05:00"
+ },
+ "osm:way/385639211": {
+  "alcohol_checked": "2026-10-27T11:54:50.735737-05:00"
+ },
+ "osm:node/10833984405": {
+  "alcohol_checked": "2026-10-27T11:54:50.735767-05:00"
+ },
+ "osm:node/5661434234": {
+  "alcohol_checked": "2026-10-27T11:54:50.735777-05:00"
+ },
+ "osm:way/648491905": {
+  "alcohol_checked": "2026-10-27T11:54:51.057906-05:00"
+ },
+ "osm:node/7463800712": {
+  "alcohol_checked": "2026-10-27T11:54:54.598006-05:00"
+ },
+ "osm:node/10102228862": {
+  "alcohol_checked": "2026-10-27T11:54:54.598032-05:00"
+ },
+ "osm:node/10983441694": {
+  "alcohol": false,
+  "alcohol_how": "AI"
+ },
+ "osm:node/7066864451": {
+  "alcohol_checked": "2026-10-27T11:54:54.598051-05:00"
+ },
+ "osm:way/102371335": {
+  "alcohol_checked": "2026-10-27T11:54:54.717266-05:00"
+ },
+ "osm:way/98799451": {
+  "alcohol_checked": "2026-10-27T11:54:55.739208-05:00"
+ },
+ "osm:way/107655171": {
+  "alcohol": true,
+  "alcohol_how": "keywords"
+ },
+ "osm:node/14072692008": {
+  "alcohol_checked": "2026-10-27T11:54:56.240589-05:00"
+ },
+ "osm:way/667694679": {
+  "alcohol_checked": "2026-10-27T11:54:56.749085-05:00"
+ },
+ "osm:node/1962212443": {
+  "alcohol_checked": "2026-10-27T11:55:04.328518-05:00"
+ },
+ "osm:way/97601554": {
+  "alcohol": true,
+  "alcohol_how": "keywords"
+ },
+ "osm:node/7024502062": {
+  "alcohol_checked": "2026-10-27T11:55:06.258937-05:00"
+ },
+ "osm:node/2522478686": {
+  "alcohol": true,
+  "alcohol_how": "keywords"
+ },
+ "osm:node/11390453917": {
+  "alcohol": true,
+  "alcohol_how": "keywords"
+ },
+ "osm:node/13413565901": {
+  "alcohol_checked": "2026-10-27T11:55:09.290968-05:00"
+ },
+ "osm:node/2522752351": {
+  "alcohol_checked": "2026-10-27T11:55:09.290998-05:00"
+ },
+ "osm:node/12953949646": {
+  "alcohol_checked": "2026-10-27T11:55:10.766446-05:00"
+ },
+ "osm:way/282291147": {
+  "alcohol_checked": "2026-10-27T11:55:10.766474-05:00"
+ },
+ "osm:node/2295991249": {
+  "alcohol_checked": "2026-10-27T11:55:11.694767-05:00"
+ },
+ "osm:node/4420722628": {
+  "alcohol_checked": "2026-10-27T11:55:11.694795-05:00"
+ },
+ "osm:node/1186772403": {
+  "alcohol": true,
+  "alcohol_how": "keywords"
+ },
+ "osm:node/4085488658": {
+  "alcohol": true,
+  "alcohol_how": "keywords"
+ },
+ "osm:way/931096008": {
+  "alcohol": true,
+  "alcohol_how": "keywords"
+ },
+ "osm:node/2498035958": {
+  "alcohol_checked": "2026-10-27T11:55:13.789336-05:00"
+ },
+ "osm:way/1357872781": {
+  "alcohol_checked": "2026-10-27T11:55:16.327252-05:00"
+ },
+ "osm:way/504571755": {
+  "alcohol_checked": "2026-10-27T11:55:16.327280-05:00"
+ },
+ "osm:node/11543125598": {
+  "alcohol": true,
+  "alcohol_how": "keywords"
+ },
+ "osm:way/97601683": {
+  "alcohol_checked": "2026-10-27T11:55:16.343013-05:00"
+ },
+ "osm:node/12724389604": {
+  "alcohol_checked": "2026-10-27T11:55:16.343036-05:00"
+ },
+ "osm:node/11481066665": {
+  "alcohol_checked": "2026-10-27T11:55:18.867351-05:00"
+ },
+ "osm:node/9410942247": {
+  "alcohol": true,
+  "alcohol_how": "keywords"
+ },
+ "osm:node/11208803891": {
+  "alcohol_checked": "2026-10-27T11:55:18.867391-05:00"
+ },
+ "osm:node/4638924048": {
+  "alcohol": true,
+  "alcohol_how": "keywords"
+ },
+ "osm:node/478453964": {
+  "alcohol_checked": "2026-10-27T11:55:20.113755-05:00"
+ },
+ "osm:node/7369644694": {
+  "alcohol_checked": "2026-10-27T11:55:20.113781-05:00"
+ },
+ "osm:way/265142748": {
+  "alcohol_checked": "2026-10-27T11:55:20.113794-05:00"
+ },
+ "osm:way/1441716339": {
+  "alcohol_checked": "2026-10-27T11:55:20.790951-05:00"
+ },
+ "osm:node/10577941111": {
+  "alcohol_checked": "2026-10-27T11:55:21.361622-05:00"
+ },
+ "osm:way/105825551": {
+  "alcohol_checked": "2026-10-27T11:55:22.210428-05:00"
+ },
+ "osm:way/306596403": {
+  "alcohol_checked": "2026-10-27T11:55:22.844880-05:00"
+ },
+ "osm:node/1855692032": {
+  "alcohol_checked": "2026-10-27T11:55:23.281602-05:00"
+ },
+ "osm:node/9669189765": {
+  "alcohol_checked": "2026-10-27T11:55:23.281633-05:00"
+ },
+ "osm:way/568839475": {
+  "alcohol_checked": "2026-10-27T11:55:24.324657-05:00"
+ },
+ "osm:node/5065146254": {
+  "alcohol_checked": "2026-10-27T11:55:24.505628-05:00"
+ },
+ "osm:way/301610188": {
+  "alcohol_checked": "2026-10-27T11:55:55.099534-05:00"
+ },
+ "osm:node/6861380370": {
+  "alcohol_checked": "2026-10-27T11:55:55.099564-05:00"
+ },
+ "osm:node/5557859109": {
+  "alcohol_checked": "2026-10-27T11:55:55.099574-05:00"
+ },
+ "osm:node/6841099471": {
+  "alcohol_checked": "2026-10-27T11:55:55.099583-05:00"
+ },
+ "osm:node/13464385332": {
+  "alcohol_checked": "2026-10-27T11:55:55.099603-05:00"
+ },
+ "osm:node/7103345398": {
+  "alcohol_checked": "2026-10-27T11:55:55.099610-05:00"
+ },
+ "osm:node/13064704461": {
+  "alcohol": true,
+  "alcohol_how": "keywords"
+ },
+ "osm:node/1345484708": {
+  "alcohol_checked": "2026-10-27T11:55:55.099628-05:00"
+ },
+ "osm:node/1186808271": {
+  "alcohol_checked": "2026-10-27T11:55:55.099635-05:00"
+ },
+ "osm:node/11251886012": {
+  "alcohol": true,
+  "alcohol_how": "keywords"
+ },
+ "osm:node/12368220428": {
+  "alcohol_checked": "2026-10-27T11:55:55.099649-05:00"
+ },
+ "osm:node/14229564801": {
+  "alcohol_checked": "2026-10-27T11:55:55.099655-05:00"
+ },
+ "osm:node/8632908427": {
+  "alcohol_checked": "2026-10-27T11:55:55.099667-05:00"
+ },
+ "osm:way/1134399614": {
+  "alcohol_checked": "2026-10-27T11:55:55.099674-05:00"
+ },
+ "osm:node/6392030295": {
+  "alcohol_checked": "2026-10-27T11:55:55.099681-05:00"
+ },
+ "osm:node/11167096805": {
+  "alcohol": true,
+  "alcohol_how": "keywords"
+ },
+ "osm:node/504392321": {
+  "alcohol": true,
+  "alcohol_how": "keywords"
+ },
+ "osm:node/12838423896": {
+  "alcohol": true,
+  "alcohol_how": "keywords"
+ },
+ "osm:node/13264819061": {
+  "alcohol": true,
+  "alcohol_how": "keywords"
+ },
+ "osm:node/13990717101": {
+  "alcohol": true,
+  "alcohol_how": "keywords"
+ },
+ "osm:way/677658215": {
+  "alcohol_checked": "2026-10-27T11:55:55.099727-05:00"
+ },
+ "osm:node/14318530901": {
+  "alcohol_checked": "2026-10-27T11:55:55.099734-05:00"
+ },
+ "osm:node/2522523826": {
+  "alcohol": true,
+  "alcohol_how": "keywords"
+ },
+ "osm:node/1112503226": {
+  "alcohol_checked": "2026-10-27T11:55:55.099747-05:00"
+ },
+ "osm:node/3890973379": {
+  "alcohol_checked": "2026-10-27T11:55:55.099754-05:00"
+ },
+ "osm:node/5611826734": {
+  "alcohol_checked": "2026-10-27T11:55:55.099761-05:00"
+ },
+ "osm:node/4200734708": {
+  "alcohol_checked": "2026-10-27T11:55:55.099768-05:00"
+ },
+ "osm:node/3711907488": {
+  "alcohol_checked": "2026-10-27T11:55:55.099785-05:00"
+ },
+ "osm:node/5574746241": {
+  "alcohol": true,
+  "alcohol_how": "keywords"
+ },
+ "osm:node/5557859108": {
+  "alcohol_checked": "2026-10-27T11:55:55.099855-05:00"
+ },
+ "osm:node/3227574169": {
+  "alcohol_checked": "2026-10-27T11:55:57.227099-05:00"
+ },
+ "osm:node/14093574934": {
+  "alcohol_checked": "2026-10-27T11:55:57.227132-05:00"
+ },
+ "osm:node/11548459312": {
+  "alcohol": true,
+  "alcohol_how": "keywords"
+ },
+ "osm:node/11874818969": {
+  "alcohol_checked": "2026-10-27T11:55:57.858623-05:00"
+ },
+ "osm:node/2522523832": {
+  "alcohol": true,
+  "alcohol_how": "keywords"
+ },
+ "osm:way/274059853": {
+  "alcohol_checked": "2026-10-27T11:56:00.918445-05:00"
+ },
+ "osm:way/107261614": {
+  "alcohol_checked": "2026-10-27T11:56:01.802009-05:00"
+ },
+ "osm:node/4638859654": {
+  "alcohol_checked": "2026-10-27T11:56:01.802039-05:00"
+ },
+ "osm:node/9435273717": {
+  "alcohol_checked": "2026-10-27T11:56:01.802050-05:00"
+ },
+ "osm:node/2143517150": {
+  "alcohol_checked": "2026-10-27T11:56:04.038825-05:00"
+ },
+ "osm:node/4200763340": {
+  "alcohol": true,
+  "alcohol_how": "keywords"
+ },
+ "osm:node/5642308354": {
+  "alcohol": true,
+  "alcohol_how": "keywords"
+ },
+ "osm:node/2991634894": {
+  "alcohol": true,
+  "alcohol_how": "keywords"
+ },
+ "osm:node/7486288098": {
+  "alcohol_checked": "2026-10-27T11:56:06.067306-05:00"
+ },
+ "osm:node/5661434237": {
+  "alcohol_checked": "2026-10-27T11:56:06.547103-05:00"
+ },
+ "osm:node/2522478685": {
+  "alcohol_checked": "2026-10-27T11:56:06.547134-05:00"
+ },
+ "osm:way/479198040": {
+  "alcohol_checked": "2026-10-27T11:56:06.711504-05:00"
+ },
+ "osm:node/2522523802": {
+  "alcohol": true,
+  "alcohol_how": "keywords"
+ },
+ "osm:node/12277135590": {
+  "alcohol_checked": "2026-10-27T11:56:08.993233-05:00"
+ },
+ "osm:node/12030199280": {
+  "alcohol_checked": "2026-10-27T11:56:09.432886-05:00"
+ },
+ "osm:node/11833834069": {
+  "alcohol_checked": "2026-10-27T11:56:09.432915-05:00"
+ },
+ "osm:node/12415880767": {
+  "alcohol_checked": "2026-10-27T11:56:10.214618-05:00"
+ },
+ "osm:way/157654343": {
+  "alcohol_checked": "2026-10-27T11:56:10.898461-05:00"
+ },
+ "osm:node/6496279986": {
+  "alcohol_checked": "2026-10-27T11:56:12.556185-05:00"
+ },
+ "osm:node/9068716875": {
+  "alcohol_checked": "2026-10-27T11:56:16.744996-05:00"
+ },
+ "osm:node/2670540410": {
+  "alcohol_checked": "2026-10-27T11:56:16.745024-05:00"
+ },
+ "osm:node/3604307997": {
+  "alcohol": true,
+  "alcohol_how": "keywords"
+ },
+ "osm:node/13088211601": {
+  "alcohol": true,
+  "alcohol_how": "keywords"
+ },
+ "osm:node/2527415784": {
+  "alcohol_checked": "2026-10-27T11:56:16.745058-05:00"
+ },
+ "osm:way/468747676": {
+  "alcohol_checked": "2026-10-27T11:56:16.745067-05:00"
+ },
+ "osm:node/13265756065": {
+  "alcohol": true,
+  "alcohol_how": "keywords"
+ },
+ "osm:node/13296700849": {
+  "alcohol_checked": "2026-10-27T11:56:17.904457-05:00"
+ },
+ "osm:node/14167538858": {
+  "alcohol_checked": "2026-10-27T11:56:19.746501-05:00"
+ },
+ "osm:node/13312456627": {
+  "alcohol_checked": "2026-10-27T11:56:20.212341-05:00"
+ },
+ "osm:way/371450162": {
+  "alcohol_checked": "2026-10-27T11:56:20.212371-05:00"
+ },
+ "osm:way/1435799734": {
+  "alcohol_checked": "2026-10-27T11:56:20.952207-05:00"
+ },
+ "osm:node/8069368096": {
+  "alcohol_checked": "2026-10-27T11:56:20.952237-05:00"
+ },
+ "osm:way/1441901383": {
+  "alcohol_checked": "2026-10-27T11:56:21.173651-05:00"
+ },
+ "osm:way/1434977514": {
+  "alcohol_checked": "2026-10-27T11:56:23.975314-05:00"
+ },
+ "osm:way/339083288": {
+  "alcohol": true,
+  "alcohol_how": "keywords"
+ },
+ "osm:way/361992422": {
+  "alcohol_checked": "2026-10-27T11:56:23.975352-05:00"
+ },
+ "osm:way/1435681642": {
+  "alcohol_checked": "2026-10-27T11:56:23.975362-05:00"
+ },
+ "osm:node/4328519660": {
+  "alcohol_checked": "2026-10-27T11:56:26.426868-05:00"
+ },
+ "osm:node/5744931709": {
+  "alcohol_checked": "2026-10-27T11:56:26.426896-05:00"
+ },
+ "osm:node/13312456629": {
+  "alcohol_checked": "2026-10-27T11:56:26.426906-05:00"
+ },
+ "osm:node/5983730442": {
+  "alcohol": true,
+  "alcohol_how": "keywords"
+ },
+ "osm:way/242305046": {
+  "alcohol": true,
+  "alcohol_how": "keywords"
+ },
+ "osm:node/13929143204": {
+  "alcohol_checked": "2026-10-27T11:56:30.048957-05:00"
+ },
+ "osm:node/6841099469": {
+  "alcohol_checked": "2026-10-27T11:56:30.048989-05:00"
+ },
+ "osm:node/5180228467": {
+  "alcohol_checked": "2026-10-27T11:56:30.125339-05:00"
+ },
+ "osm:node/7180420369": {
+  "alcohol_checked": "2026-10-27T11:56:31.555866-05:00"
+ },
+ "osm:node/434789237": {
+  "alcohol_checked": "2026-10-27T11:56:34.135356-05:00"
+ },
+ "osm:node/14313871765": {
+  "alcohol_checked": "2026-10-27T11:56:34.135387-05:00"
+ },
+ "osm:node/9560931481": {
+  "alcohol_checked": "2026-10-27T11:56:34.135415-05:00"
+ },
+ "osm:node/1709850691": {
+  "alcohol_checked": "2026-10-27T11:56:34.971713-05:00"
+ },
+ "osm:way/1541052741": {
+  "alcohol_checked": "2026-10-27T11:56:34.971739-05:00"
+ },
+ "osm:node/13312456630": {
+  "alcohol_checked": "2026-10-27T11:56:34.971750-05:00"
+ },
+ "osm:node/9191892121": {
+  "alcohol_checked": "2026-10-27T11:56:38.876709-05:00"
+ },
+ "osm:node/3378171950": {
+  "alcohol": true,
+  "alcohol_how": "keywords"
+ },
+ "osm:way/224607281": {
+  "alcohol_checked": "2026-10-27T11:56:38.876747-05:00"
+ },
+ "osm:node/4085791927": {
+  "alcohol_checked": "2026-10-27T11:56:38.876756-05:00"
+ },
+ "osm:way/345756208": {
+  "alcohol_checked": "2026-10-27T11:56:39.340689-05:00"
+ },
+ "osm:node/2522840409": {
+  "alcohol": true,
+  "alcohol_how": "keywords"
+ },
+ "osm:node/9125264151": {
+  "alcohol_checked": "2026-10-27T11:56:39.529554-05:00"
+ },
+ "osm:node/11488199416": {
+  "alcohol": true,
+  "alcohol_how": "keywords"
+ },
+ "osm:node/2527415785": {
+  "alcohol_checked": "2026-10-27T11:56:42.216770-05:00"
+ },
+ "osm:way/1387374865": {
+  "alcohol_checked": "2026-10-27T11:56:42.361493-05:00"
+ },
+ "osm:node/5630838427": {
+  "alcohol": true,
+  "alcohol_how": "keywords"
+ },
+ "osm:node/2584271738": {
+  "alcohol_checked": "2026-10-27T11:56:42.949180-05:00"
+ },
+ "osm:node/4200704144": {
+  "alcohol_checked": "2026-10-27T11:56:44.039676-05:00"
+ },
+ "osm:node/5017044586": {
+  "alcohol_checked": "2026-10-27T11:56:44.588602-05:00"
+ },
+ "osm:way/345754680": {
+  "alcohol": true,
+  "alcohol_how": "keywords"
+ },
+ "osm:node/10932529753": {
+  "alcohol_checked": "2026-10-27T11:56:45.836641-05:00"
+ },
+ "osm:node/3151821562": {
+  "alcohol_checked": "2026-10-27T11:56:45.836670-05:00"
+ },
+ "osm:way/255228516": {
+  "alcohol": true,
+  "alcohol_how": "keywords"
+ },
+ "osm:node/1191241582": {
+  "alcohol": true,
+  "alcohol_how": "keywords"
+ },
+ "osm:way/107655115": {
+  "alcohol_checked": "2026-10-27T11:56:46.062051-05:00"
+ },
+ "osm:node/7068038652": {
+  "alcohol_checked": "2026-10-27T11:56:48.385339-05:00"
+ },
+ "osm:node/4453694941": {
+  "alcohol_checked": "2026-10-27T11:56:48.801585-05:00"
+ },
+ "osm:node/11251886011": {
+  "alcohol_checked": "2026-10-27T11:56:48.948489-05:00"
+ },
+ "osm:node/2296107853": {
+  "alcohol_checked": "2026-10-27T11:56:48.948518-05:00"
+ },
+ "osm:node/6776001050": {
+  "alcohol_checked": "2026-10-27T11:56:50.238131-05:00"
+ },
+ "osm:way/377060726": {
+  "alcohol": true,
+  "alcohol_how": "keywords"
+ },
+ "osm:way/678325943": {
+  "alcohol_checked": "2026-10-27T11:56:50.401374-05:00"
+ },
+ "osm:node/13459475888": {
+  "alcohol": true,
+  "alcohol_how": "keywords"
+ },
+ "osm:node/12603903664": {
+  "alcohol": true,
+  "alcohol_how": "keywords"
+ },
+ "osm:node/5170540040": {
+  "alcohol_checked": "2026-10-27T11:56:51.967661-05:00"
+ },
+ "osm:node/2484210263": {
+  "alcohol_checked": "2026-10-27T11:56:54.279488-05:00"
+ },
+ "osm:way/105823620": {
+  "alcohol_checked": "2026-10-27T11:56:55.960419-05:00"
+ },
+ "osm:way/783129314": {
+  "alcohol_checked": "2026-10-27T11:57:02.548282-05:00"
+ },
+ "osm:way/539042285": {
+  "alcohol_checked": "2026-10-27T11:57:02.548310-05:00"
+ },
+ "osm:way/49982470": {
+  "alcohol_checked": "2026-10-27T11:57:02.548320-05:00"
  }
 }

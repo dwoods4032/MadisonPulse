@@ -6,8 +6,9 @@
   "no_page": 3,
   "skipped_site": 0,
   "api_errors": {},
+  "by_keywords": 2,
   "key_present": true,
-  "at": "2026-10-27T11:49:44.741867-05:00"
+  "at": "2026-10-27T11:55:04.329430-05:00"
  },
  "restaurant": {
   "what": "restaurant",
@@ -16,8 +17,9 @@
   "no_page": 41,
   "skipped_site": 0,
   "api_errors": {},
+  "by_keywords": 40,
   "key_present": true,
-  "at": "2026-10-27T11:51:17.672239-05:00"
+  "at": "2026-10-27T11:56:54.280868-05:00"
  },
  "activity": {
   "what": "activity",
@@ -27,6 +29,6 @@
   "skipped_site": 0,
   "api_errors": {},
   "key_present": true,
-  "at": "2026-10-27T11:51:31.593078-05:00"
+  "at": "2026-10-27T11:57:02.549811-05:00"
  }
 }

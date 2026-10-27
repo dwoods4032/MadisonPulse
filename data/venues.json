@@ -6532,8 +6532,9 @@
    "facebook": "https://www.facebook.com/theARThouse360",
    "instagram": "https://www.instagram.com/thearthouse360/",
    "feeds": [],
-   "alcohol": null,
-   "image": "https://static.wixstatic.com/media/399a60_05945e6887ad4417a52cdcc29c09569e%7Emv2.png/v1/fit/w_2500,h_1330,al_c/399a60_05945e6887ad4417a52cdcc29c09569e%7Emv2.png"
+   "alcohol": true,
+   "image": "https://static.wixstatic.com/media/399a60_05945e6887ad4417a52cdcc29c09569e%7Emv2.png/v1/fit/w_2500,h_1330,al_c/399a60_05945e6887ad4417a52cdcc29c09569e%7Emv2.png",
+   "alcohol_src": "menu/homepage keywords"
   },
   {
    "id": "osm:node/13712490729",
@@ -6922,8 +6923,9 @@
    "facebook": "",
    "instagram": "",
    "feeds": [],
-   "alcohol": null,
-   "image": "https://madisonyoutharts.org/wp-content/uploads/2023/06/Childerns-Theater-of-Madison-3-madison-youth-arts-center-myarts.jpg"
+   "alcohol": false,
+   "image": "https://madisonyoutharts.org/wp-content/uploads/2023/06/Childerns-Theater-of-Madison-3-madison-youth-arts-center-myarts.jpg",
+   "alcohol_src": "AI website check"
   },
   {
    "id": "osm:way/416476672",
@@ -7205,8 +7207,9 @@
    "facebook": "",
    "instagram": "",
    "feeds": [],
-   "alcohol": null,
-   "image": "https://irp.cdn-website.com/83ca9041/dms3rep/multi/opt/AdobeStock_623021486-1920w.jpeg"
+   "alcohol": true,
+   "image": "https://irp.cdn-website.com/83ca9041/dms3rep/multi/opt/AdobeStock_623021486-1920w.jpeg",
+   "alcohol_src": "menu/homepage keywords"
   },
   {
    "id": "osm:node/14072692008",
