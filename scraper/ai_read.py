@@ -19,7 +19,7 @@ from .common import DATA, TZ, load_json, now, save_json
 
 API = "https://api.anthropic.com/v1/messages"
 MODEL = os.environ.get("AI_MODEL", "claude-haiku-5-5")
-MAX_CALLS = int(os.environ.get("AI_MAX_CALLS", "200"))
+MAX_CALLS = int(os.environ.get("AI_MAX_CALLS", "300"))
 MAX_CHARS = 9000
 # Sites that have opted out of AI tools (robots.txt blocks AI crawlers): never sent to Claude.
 NO_AI = re.compile(r"https?://(?:[^/]*\.)?(?:isthmus\.com)(?:/|$)", re.I)
