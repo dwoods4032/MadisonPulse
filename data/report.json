@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-27T12:06:28-05:00",
+ "generated_at": "2026-10-27T14:37:05-05:00",
  "venues_checked": 237,
- "venues_with_events": 63,
- "venues_with_feeds": 83,
- "events": 406,
- "filtered_out": 146,
+ "venues_with_events": 69,
+ "venues_with_feeds": 89,
+ "events": 416,
+ "filtered_out": 166,
  "venues": [
   {
    "name": "AI page reading",
@@ -13,12 +13,12 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 173,
+   "raw_events": 205,
    "error": "",
-   "calls": 0,
-   "tokens_in": 0,
-   "tokens_out": 0,
-   "est_cost_usd": 0.0
+   "calls": 9,
+   "tokens_in": 30026,
+   "tokens_out": 11176,
+   "est_cost_usd": 0.0086
   },
   {
    "name": "Isthmus calendar",
@@ -76,7 +76,7 @@
     "jsonld",
     "jsonld"
    ],
-   "raw_events": 36,
+   "raw_events": 38,
    "error": ""
   },
   {
@@ -114,7 +114,7 @@
     "jsonld",
     "jsonld"
    ],
-   "raw_events": 30,
+   "raw_events": 31,
    "error": ""
   },
   {
@@ -216,6 +216,16 @@
    "error": ""
   },
   {
+   "name": "Pinney Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 8,
+   "error": ""
+  },
+  {
    "name": "Lazy Oaf Lounge",
    "kind": "bar",
    "website": "https://www.lazyoaflounge.com/",
@@ -256,23 +266,31 @@
    "error": ""
   },
   {
-   "name": "Bridge Lakepoint Waunona Neighborhood Center",
-   "kind": "community",
-   "website": "https://www.blwcenter.org/",
-   "feeds": [
-    "squarespace",
-    "jsonld",
-    "jsonld"
-   ],
-   "raw_events": 6,
-   "error": ""
-  },
-  {
    "name": "Delta Beer Lab",
    "kind": "brewery",
    "website": "https://www.delta.beer/",
    "feeds": [
     "squarespace",
+    "ai"
+   ],
+   "raw_events": 6,
+   "error": ""
+  },
+  {
+   "name": "Imagination Center",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 6,
+   "error": ""
+  },
+  {
+   "name": "Monroe Street Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/monroe-street",
+   "feeds": [
     "ai"
    ],
    "raw_events": 6,
@@ -289,6 +307,16 @@
    "error": ""
   },
   {
+   "name": "Sequoya Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/sequoya",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 6,
+   "error": ""
+  },
+  {
    "name": "Barrymore Theatre",
    "kind": "venue",
    "website": "https://barrymorelive.com/",
@@ -296,6 +324,18 @@
     "tribe",
     "jsonld",
     "jsonld",
+    "jsonld",
+    "jsonld"
+   ],
+   "raw_events": 5,
+   "error": ""
+  },
+  {
+   "name": "Bridge Lakepoint Waunona Neighborhood Center",
+   "kind": "community",
+   "website": "https://www.blwcenter.org/",
+   "feeds": [
+    "squarespace",
     "jsonld",
     "jsonld"
    ],
@@ -417,6 +457,26 @@
     "jsonld"
    ],
    "raw_events": 4,
+   "error": ""
+  },
+  {
+   "name": "Alicia Ashman Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 3,
+   "error": ""
+  },
+  {
+   "name": "Central Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/central",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 3,
    "error": ""
   },
   {
@@ -694,14 +754,6 @@
    "error": ""
   },
   {
-   "name": "Alicia Ashman Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
    "name": "Ancora",
    "kind": "cafe",
    "website": "https://www.ancoracafes.com/monona-drive/",
@@ -876,14 +928,6 @@
    "feeds": [],
    "raw_events": 0,
    "error": "PermissionError: robots.txt disallows https://www.facebook.com/cargocoffeeeast/"
-  },
-  {
-   "name": "Central Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/central",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
   },
   {
    "name": "Cervato Wine & Tapas",
@@ -1211,14 +1255,6 @@
    "error": "PermissionError: robots.txt disallows https://imaginary-factory.com/"
   },
   {
-   "name": "Imagination Center",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
    "name": "Indie Coffee",
    "kind": "cafe",
    "website": "https://indiecoffee.net/index.html",
@@ -1463,14 +1499,6 @@
    "error": ""
   },
   {
-   "name": "Monroe Street Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/monroe-street",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
    "name": "Muskellounge and Sporting Club (Musky)",
    "kind": "bar",
    "website": "https://www.muskellounge.com",
@@ -1561,14 +1589,6 @@
    "error": "PermissionError: robots.txt disallows https://linktr.ee/pksuw"
   },
   {
-   "name": "Pinney Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
    "name": "Plaza Bar",
    "kind": "bar",
    "website": "https://theplazatavern.com/",
@@ -1643,14 +1663,6 @@
    "error": ""
   },
   {
-   "name": "Sequoya Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/sequoya",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
    "name": "Settle Down Tavern",
    "kind": "bar",
    "website": "https://www.settledownmadison.com/",
@@ -1695,7 +1707,7 @@
   {
    "name": "Starbucks",
    "kind": "cafe",
-   "website": "https://www.starbucks.com/store-locator/store/16495/south-gammon-mineral-point-434-gammon-place-3-madison-wi-537191090-us",
+   "website": "https://www.starbucks.com/store-locator/store/1010275/greenway-boulevard-8230-greenway-boulevard-middleton-wi-535623579-us",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1703,7 +1715,7 @@
   {
    "name": "Starbucks",
    "kind": "cafe",
-   "website": "https://www.starbucks.com/store-locator/store/1010275/greenway-boulevard-8230-greenway-boulevard-middleton-wi-535623579-us",
+   "website": "https://www.starbucks.com/store-locator/store/16495/south-gammon-mineral-point-434-gammon-place-3-madison-wi-537191090-us",
    "feeds": [],
    "raw_events": 0,
    "error": ""

@@ -1,118 +1,39 @@
 {
  "venue": {
   "what": "venue",
-  "to_check": 20,
-  "answered": 17,
+  "to_check": 3,
+  "answered": 0,
   "no_page": 3,
   "skipped_site": 0,
   "api_errors": {},
-  "samples": [
-   {
-    "place": "Barrymore Theatre",
-    "reply": "{\"alcohol\": \"unknown\"}",
-    "stop": "end_turn"
-   },
-   {
-    "place": "Arts + Literature Laboratory",
-    "reply": "{\"alcohol\": \"unknown\"}",
-    "stop": "end_turn"
-   },
-   {
-    "place": "Atwood Music Hall",
-    "reply": "{\"alcohol\": \"unknown\"}",
-    "stop": "end_turn"
-   },
-   {
-    "place": "Children's Theater of Madison",
-    "reply": "{\"alcohol\": \"unknown\"}",
-    "stop": "end_turn"
-   },
-   {
-    "place": "Bartell Theatre",
-    "reply": "{\"alcohol\": \"unknown\"}",
-    "stop": "end_turn"
-   },
-   {
-    "place": "Broom Street Theater",
-    "reply": "{\"alcohol\": \"unknown\"}",
-    "stop": "end_turn"
-   }
-  ],
   "key_present": true,
-  "at": "2026-10-27T12:03:14.562481-05:00"
+  "at": "2026-10-27T14:35:24.837291-05:00"
  },
  "restaurant": {
   "what": "restaurant",
-  "to_check": 150,
-  "answered": 109,
+  "to_check": 42,
+  "answered": 1,
   "no_page": 41,
   "skipped_site": 0,
   "api_errors": {},
   "samples": [
    {
-    "place": "5 Star Korean BBQ",
-    "reply": "{\"group\": \"asian\", \"alcohol\": \"unknown\"}",
-    "stop": "end_turn"
-   },
-   {
-    "place": "Ancora Cafe + Bakery",
-    "reply": "{\"group\": \"american\", \"alcohol\": \"no\"}",
-    "stop": "end_turn"
-   },
-   {
-    "place": "Asian Kitchen",
-    "reply": "{\"group\": \"asian\", \"alcohol\": \"unknown\"}",
-    "stop": "end_turn"
-   },
-   {
-    "place": "Aztec Taqueria",
-    "reply": "{\"group\": \"latin\", \"alcohol\": \"unknown\"}",
-    "stop": "end_turn"
-   },
-   {
-    "place": "Baldwin Street Grille",
-    "reply": "{\"group\": \"pub\", \"alcohol\": \"yes\"}",
-    "stop": "end_turn"
-   },
-   {
-    "place": "Buck and Honey's",
-    "reply": "{\"group\": \"sushi\", \"alcohol\": \"unknown\"}",
+    "place": "Robinia Courtyard",
+    "reply": "{\"group\": \"unknown\", \"alcohol\": \"unknown\"}",
     "stop": "end_turn"
    }
   ],
   "key_present": true,
-  "at": "2026-10-27T12:04:56.569029-05:00"
+  "at": "2026-10-27T14:35:35.201639-05:00"
  },
  "activity": {
   "what": "activity",
-  "to_check": 8,
-  "answered": 4,
+  "to_check": 4,
+  "answered": 0,
   "no_page": 4,
   "skipped_site": 0,
   "api_errors": {},
-  "samples": [
-   {
-    "place": "Auditorium",
-    "reply": "{\"alcohol\": \"unknown\"}",
-    "stop": "end_turn"
-   },
-   {
-    "place": "Chuck E. Cheese",
-    "reply": "{\"alcohol\": \"unknown\"}",
-    "stop": "end_turn"
-   },
-   {
-    "place": "Marcus Palace Cinema",
-    "reply": "{\"alcohol\": \"unknown\"}",
-    "stop": "end_turn"
-   },
-   {
-    "place": "Marcus Point Cinema",
-    "reply": "{\"alcohol\": \"unknown\"}",
-    "stop": "end_turn"
-   }
-  ],
   "key_present": true,
-  "at": "2026-10-27T12:05:04.550706-05:00"
+  "at": "2026-10-27T14:35:41.371324-05:00"
  }
 }

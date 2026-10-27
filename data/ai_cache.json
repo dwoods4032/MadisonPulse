@@ -586,8 +586,8 @@
   ]
  },
  "https://high-noon.com/calendar/": {
-  "hash": "af982c5e3735ee6e2a60e9347b2a266a09344ac1",
-  "asked": "2026-10-27T11:22:14-05:00",
+  "hash": "29d425b4f1f830e0581ffdd4256fe6c951a274d0",
+  "asked": "2026-10-27T14:35:52-05:00",
   "on": "2026-10-27",
   "events": [
    {
@@ -596,7 +596,7 @@
     "start": "18:00",
     "end": null,
     "price": 0,
-    "description": "Live WPR politics show at High Noon Saloon. Doors 5:00 pm.",
+    "description": "Live WPR politics show; doors 5:00 pm, free, registration required.",
     "category": "other"
    },
    {
@@ -609,21 +609,21 @@
     "category": "music"
    },
    {
-    "title": "Ska-lloween",
+    "title": "Ska-lloween with One Beer Please, Lost Island Society, and Meskales",
     "date": "2026-10-30",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live show with One Beer Please, Lost Island Society, and Meskales. Doors 7:00 pm.",
+    "description": "FPC Live ska show with three bands. Doors 7:00 pm.",
     "category": "music"
    },
    {
-    "title": "HalloWEEN '26",
+    "title": "HalloWEEN '26 with BAMM and Wild Violets",
     "date": "2026-10-31",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live show with BAMM and Wild Violets. Doors 7:00 pm.",
+    "description": "FPC Live Halloween show with BAMM (southern rock, funk, improv) and Wild Violets (R&B and pop). Doors 7:00 pm.",
     "category": "music"
    },
    {
@@ -632,43 +632,43 @@
     "start": "17:00",
     "end": null,
     "price": null,
-    "description": "FPC Live Halloween tribute show with The Marilyns, Iron Metal Jackson, and You First. Doors 4:00 pm.",
+    "description": "FPC Live tribute night: The Marilyns as The Misfits, Iron Metal Jackson as Metallica, You First as Me First and the Gimme Gimmes. Doors 4:00 pm.",
     "category": "music"
    },
    {
-    "title": "Noah Gundersen",
+    "title": "Noah Gundersen with Runner and Breakup Shoes",
     "date": "2026-11-02",
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "FPC Live show with Runner and Breakup Shoes. Doors 6:30 pm.",
+    "description": "FPC Live concert with openers Runner and Breakup Shoes. Doors 6:30 pm.",
     "category": "music"
    },
    {
-    "title": "Sophie Hunter",
+    "title": "Sophie Hunter with Reysha Rami",
     "date": "2026-11-04",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live show with Reysha Rami. Doors 7:00 pm. Low tickets available.",
+    "description": "FPC Live concert with Reysha Rami. Doors 7:00 pm. Low tickets listed.",
     "category": "music"
    },
    {
-    "title": "The Bends",
+    "title": "The Bends with The Braymores",
     "date": "2026-11-05",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live show with The Braymores. Doors 7:00 pm. Low tickets available.",
+    "description": "FPC Live concert with The Braymores. Doors 7:00 pm. Low tickets listed.",
     "category": "music"
    },
    {
-    "title": "Six Foot Blonde",
+    "title": "Six Foot Blonde with Genevieve Heyward",
     "date": "2026-11-06",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live show with Genevieve Heyward. Doors 7:00 pm.",
+    "description": "FPC Live concert with Genevieve Heyward. Doors 7:00 pm.",
     "category": "music"
    },
    {
@@ -677,16 +677,16 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "FPC Live festival with Tenmonthsummer, Barely Civil, Los Kausas, Ourvanity, The Up & Up, The Brash Menagerie, and Irish Goodbyes. Doors 6:00 pm.",
+    "description": "FPC Live festival-style show with seven acts including Tenmonthsummer, Barely Civil, Los Kausas and others. Doors 6:00 pm.",
     "category": "music"
    },
    {
-    "title": "Psychostick",
+    "title": "Psychostick with Texas Toast Chainsaw Massacre",
     "date": "2026-11-08",
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "FPC Live show with Texas Toast Chainsaw Massacre. Doors 6:30 pm.",
+    "description": "FPC Live concert with Texas Toast Chainsaw Massacre. Doors 6:30 pm.",
     "category": "music"
    },
    {
@@ -695,16 +695,16 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "The Moth presents a Madison StorySLAM storytelling night. Doors 6:30 pm.",
+    "description": "The Moth presents a storytelling slam on the theme Home for the Holidays. Doors 6:30 pm.",
     "category": "other"
    },
    {
-    "title": "Fruition",
+    "title": "Fruition with Gardener",
     "date": "2026-11-10",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live show with Gardener. Doors 7:00 pm.",
+    "description": "FPC Live concert with Gardener. Doors 7:00 pm.",
     "category": "music"
    }
   ]
@@ -1088,8 +1088,8 @@
   "events": []
  },
  "https://www.statelinedistillery.com/cocktail-lounge/events": {
-  "hash": "2e7848aea92572da2fd9d647b72e5d1ccb22454c",
-  "asked": "2026-10-27T11:22:20-05:00",
+  "hash": "fa34c078f3c1bc946c039af256a710c9887524b2",
+  "asked": "2026-10-27T14:35:57-05:00",
   "on": "2026-10-27",
   "events": [
    {
@@ -1107,7 +1107,7 @@
     "start": "15:00",
     "end": "00:00",
     "price": null,
-    "description": "Halloween party at the cocktail lounge.",
+    "description": "Halloween party at State Line Distillery.",
     "category": "other"
    },
    {
@@ -1566,8 +1566,8 @@
   "events": []
  },
  "https://www.madisonpubliclibrary.org/spaces/events": {
-  "hash": "60aa574c3e6a49e572f3f576ccb11e6f58746c3d",
-  "asked": "2026-10-27T11:39:20-05:00",
+  "hash": "f24363ad02397bd675b51d57809c634a970c7fab",
+  "asked": "2026-10-27T14:36:51-05:00",
   "on": "2026-10-27",
   "events": []
  },
@@ -1601,26 +1601,17 @@
   "events": []
  },
  "https://www.sunprairiepubliclibrary.org/home-delivery-service": {
-  "hash": "e846241c169c7cb8b66bcd7e6fdaa32aede45393",
-  "asked": "2026-10-27T11:23:19-05:00",
+  "hash": "ccb0022e2c9c391206269d7fe7fbaec2fc2208bc",
+  "asked": "2026-10-27T14:36:47-05:00",
   "on": "2026-10-27",
   "events": [
-   {
-    "title": "Big Kid Storytime",
-    "date": "2026-10-27",
-    "start": "11:15",
-    "end": "11:45",
-    "price": null,
-    "description": "Storytime for family and children ages 0-5.",
-    "category": "other"
-   },
    {
     "title": "Pumpkin Decorating",
     "date": "2026-10-27",
     "start": "18:00",
     "end": "20:00",
     "price": null,
-    "description": "Pumpkin decorating for family, teens and adults.",
+    "description": "Library pumpkin decorating for family, teens and adults.",
     "category": "other"
    },
    {
@@ -1629,7 +1620,7 @@
     "start": "19:00",
     "end": "20:00",
     "price": null,
-    "description": "Book club for adults.",
+    "description": "Adult evening book club at Sun Prairie Public Library.",
     "category": "other"
    },
    {
@@ -1649,6 +1640,15 @@
     "price": null,
     "description": "Spanish-language storytime for family and children ages 0-5.",
     "category": "other"
+   },
+   {
+    "title": "The Melodic and Expressive Handpan!",
+    "date": "2026-10-28",
+    "start": "18:00",
+    "end": "19:30",
+    "price": null,
+    "description": "Handpan program for teens and adults.",
+    "category": "music"
    }
   ]
  },
@@ -1713,10 +1713,38 @@
   ]
  },
  "https://www.madisonpubliclibrary.org/spaces/events/search": {
-  "hash": "f99fdad9ace679c13e10912f403b286fa6b29001",
-  "asked": "2026-10-27T11:23:26-05:00",
+  "hash": "96c1741339857e6fd1d8bb546cb925657000caae",
+  "asked": "2026-10-27T14:36:56-05:00",
   "on": "2026-10-27",
-  "events": []
+  "events": [
+   {
+    "title": "After-School Art with Amy",
+    "date": "2026-10-27",
+    "start": "16:00",
+    "end": "17:00",
+    "price": null,
+    "description": "Hands-on art projects with local artist Amy Mietzel. For ages 5-12.",
+    "category": "other"
+   },
+   {
+    "title": "Multi-age Storytime",
+    "date": "2026-10-28",
+    "start": "10:00",
+    "end": "10:30",
+    "price": null,
+    "description": "Read and play with children 5 & under: books, songs and playful experiences.",
+    "category": "other"
+   },
+   {
+    "title": "Baby Storytime (ages birth to 17 mo)",
+    "date": "2026-10-28",
+    "start": "11:15",
+    "end": "11:45",
+    "price": null,
+    "description": "Read and play with your baby: reading, singing, talking and playing.",
+    "category": "other"
+   }
+  ]
  },
  "https://artlitlab.org/calendar": {
   "hash": "0f520ecc389dd7a6729b797cd08c708119db82f7",

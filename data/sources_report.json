@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-10-27T12:06:28-05:00",
- "total_events": 406,
+ "generated_at": "2026-10-27T14:37:05-05:00",
+ "total_events": 416,
  "in_more_than_one_source": 24,
  "sources": {
   "AI page reading": {
-   "events": 150,
-   "unique_events": 131,
+   "events": 160,
+   "unique_events": 141,
    "overlap": {
     "Isthmus": 4,
     "Ticketmaster": 15,
     "Venue websites": 0
    },
-   "venues": 37,
+   "venues": 41,
    "unique_venues": [
     "Aftershock Classic Arcade",
     "Arts + Literature Laboratory",
@@ -25,6 +25,7 @@
     "Ebling Library",
     "Flight Wine & Bourbon Bar",
     "Grey Market",
+    "Imagination Center",
     "Italian Workmen's Club",
     "Karben4 Brewing",
     "Lakeside Street Coffee House",
@@ -32,11 +33,14 @@
     "Lazy Oaf Lounge",
     "Madison Youth Arts (MYArts)",
     "Monkeyshines Bar & Grill",
+    "Monroe Street Library",
     "Mother Fool's",
     "Old Sugar Distillery",
     "Oscar Rennebohm Library",
     "Overture Center for the Arts",
+    "Pinney Library",
     "Reindahl Park Pavillion",
+    "Sequoya Library",
     "State Line Distillery",
     "Sun Prairie Public Library",
     "Veterans Memorial Park",
