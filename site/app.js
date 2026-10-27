@@ -756,6 +756,7 @@ const HOLD = new Set();
 let SOUND = true; try { SOUND = localStorage.getItem("mp-sound") !== "off"; } catch (e) {}
 const slotSig = () => JSON.stringify([state.day, state.budget, state.people, state.drinks, state.dinner, state.show, state.from, state.to, state.fun, state.areas, state.cuisine, state.pin]);
 const REEL_LABEL = s => s.live || s.act ? (s.act ? s.label : CAT_LABEL[s.cat] || "Event") : s.k === "dinner" ? "Dinner" : KIND[s.k];
+const ROLL_LABELS = ["Dinner", "Drinks", "Late bite", "Live music", "Comedy", "Theater", "Trivia & games", "Karaoke", "Bowling"];
 const shortD = s => String(s.live ? (s.venue || "") : s.d || "").split(/[.;·]/)[0].slice(0, 48);
 const slotKey = p => p.stops.map(s => s.n).join("|");
 const reduceMotion = () => matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -817,19 +818,22 @@ function spin(p, pool, before){
     // filler: other real options for this slot from tonight's pool
     const same = x => (s.live || s.act) ? (x.live || x.act) : x.k === s.k && !x.live && !x.act;
     const seen = new Set([s.n]), fill = [];
-    for (const q of pool) for (const x of q.stops) if (same(x) && !seen.has(x.n)){ seen.add(x.n); fill.push(x); }
+    for (const q of pool) for (const x of q.stops) if (!seen.has(x.n)){ seen.add(x.n); fill.push(x); }  // every kind of stop: no hints
     for (let k = fill.length - 1; k > 0; k--){ const j = Math.floor(Math.random() * (k + 1)); [fill[k], fill[j]] = [fill[j], fill[k]]; }
     let strip = fill.slice(0, 16);
     while (strip.length && strip.length < 10) strip = strip.concat(strip.slice(0, 10 - strip.length));
     const prev = before && before.stops.find(same);
     strip = held ? [s] : [prev || strip[0] || s, ...strip.slice(1), s];
-    return {s, t, held, strip, i};
+    // the label rolls too (the order depends on the event's time), landing with the name
+    const labs = strip.map((x, k) => k === strip.length - 1 ? REEL_LABEL(s) : ROLL_LABELS[Math.floor(Math.random() * ROLL_LABELS.length)]);
+    return {s, t, held, strip, labs, i};
   });
   const dn = dayName(state.day), title = dn === "Tonight" ? "Tonight’s spin" : dn === "Tomorrow" ? "Tomorrow’s spin" : new Date(state.day + "T12:00:00Z").toLocaleDateString("en-US", {weekday:"long", timeZone:"UTC"}) + "’s spin";
   document.body.classList.add("spinning");  // the plan below waits for the reels
   el.innerHTML = '<div class="cab"><div class="cab-head"><span class="cab-title">'+esc(title)+'</span>'+
     '<button type="button" class="snd" id="sndBtn" aria-pressed="'+SOUND+'" aria-label="Sound">'+(SOUND ? "Sound on" : "Sound off")+'</button></div>'+
-    reels.map(r => '<div class="reel'+(r.held ? " held" : "")+'" data-i="'+r.i+'"><div class="reel-lbl">'+esc(REEL_LABEL(r.s))+'<small class="reel-time">'+(r.held ? fmt12(Math.floor(r.t/60)%24, r.t%60) : "·  ·  ·")+'</small></div>'+
+    reels.map(r => '<div class="reel'+(r.held ? " held" : "")+'" data-i="'+r.i+'"><div class="reel-lbl"><div class="lbl-win"><div class="lbl-strip">'+(r.held ? [REEL_LABEL(r.s)] : r.labs).map(l => '<div class="lbl-it">'+esc(l)+'</div>').join("")+'</div></div>'+
+      '<small class="reel-time">'+(r.held ? fmt12(Math.floor(r.t/60)%24, r.t%60) : "·  ·  ·")+'</small></div>'+
       '<div class="reel-win"><div class="reel-strip">'+r.strip.map(x => '<div class="reel-it"><b>'+esc(x.n)+'</b><small><span class="reel-p">~$'+cost(x)+'</span> '+esc(shortD(x))+'</small></div>').join("")+'</div></div>'+
       '<button type="button" class="hold" data-n="'+esc(r.s.n)+'" aria-pressed="'+r.held+'">'+(r.held ? "Held" : "Hold")+'</button></div>').join("")+
     '<div class="cab-total" id="cabTotal">&nbsp;</div>'+
@@ -841,8 +845,9 @@ function spin(p, pool, before){
   let left = 0;
   reels.forEach((r, n) => {
     const node = el.querySelector('.reel[data-i="'+r.i+'"]'), strip = node.querySelector(".reel-strip"), win = node.querySelector(".reel-win");
+    const lstrip = node.querySelector(".lbl-strip"), LAB = 22, ltarget = (lstrip.children.length - 1) * LAB;
     const target = (r.strip.length - 1) * ITEM;
-    if (r.held || still || !target){ strip.style.transform = "translateY(" + -target + "px)"; if (!r.held && still) setTimeout(() => { SFX.clunk(); reveal(r); }, 150 + n*180); else reveal(r); return; }
+    if (r.held || still || !target){ strip.style.transform = "translateY(" + -target + "px)"; lstrip.style.transform = "translateY(" + -ltarget + "px)"; if (!r.held && still) setTimeout(() => { SFX.clunk(); reveal(r); }, 150 + n*180); else reveal(r); return; }
     left++;
     const D = 1300 + n * 600, t0 = performance.now();
     let lastIdx = 0;
@@ -850,6 +855,7 @@ function spin(p, pool, before){
     const step = now => {
       const k = Math.min(1, (now - t0) / D), e = 1 - Math.pow(1 - k, 3.2), y = e * target;
       strip.style.transform = "translateY(" + -y + "px)";
+      lstrip.style.transform = "translateY(" + -(e * ltarget) + "px)";
       if (k > 0.72) strip.classList.remove("fast");
       const idx = Math.round(y / ITEM); if (idx !== lastIdx){ lastIdx = idx; SFX.tick(); }
       if (k < 1) requestAnimationFrame(step);
