@@ -820,7 +820,13 @@ function randomize(){
   }
   if (!pool.length){ slotMsg(held.length ? "Nothing else fits with what you're holding. Release a reel and spin again." : "Nothing fits these settings yet. Try a bigger budget, a longer evening or another day."); return; }
   pool.sort((a, b) => b.score - a.score);
-  const top = pool.slice(0, Math.max(8, Math.min(60, Math.ceil(pool.length * 0.6))));  // good nights, still a surprise
+  let top = pool.slice(0, Math.max(8, Math.min(60, Math.ceil(pool.length * 0.6))));  // good nights, still a surprise
+  // roll for the dessert bonus first, so the reels land on a night with room for it
+  const heldBonus = BONUS_HELD && HOLD.has(BONUS_HELD.n);
+  if (!heldBonus && Math.random() < BONUS_ODDS){
+    const room = top.map(p => [p, findBonus(p)]).filter(([, b]) => b);
+    if (room.length){ room.forEach(([p, b]) => p.bonus = b); top = room.map(([p]) => p); }
+  }
   let pick = top[0];
   for (let i = 0; i < 6; i++){ pick = top[Math.floor(Math.random() * top.length)]; if (!FORCED || slotKey(pick) !== slotKey(FORCED)) break; }
   const before = FORCED;
@@ -929,7 +935,7 @@ function spin(p, pool, before){
       FORCED = {...p, stops: full, cost: full.reduce((tt, s) => tt + cost(s), 0)};
       return finish(full);
     }
-    let b = Math.random() < BONUS_ODDS ? findBonus(p) : null;
+    let b = p.bonus || null;
     if (!b){ BONUS_HELD = null; return finish(p.stops); }
     const full = [...p.stops, b], sched = schedule(full, state.day).items;
     const t = sched.find(x => x.s === b).t;
