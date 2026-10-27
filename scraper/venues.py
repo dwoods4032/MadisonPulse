@@ -391,7 +391,7 @@ def fetch_osm(query: str = QUERY) -> list[dict]:
     last = None
     for url in MIRRORS:
         try:
-            r = requests.post(url, data={"data": query}, headers={"User-Agent": UA}, timeout=180)
+            r = requests.post(url, data={"data": query}, headers={"User-Agent": UA}, timeout=90)
             if r.status_code == 200:
                 return r.json().get("elements", [])
             last = f"{url}: HTTP {r.status_code}"
@@ -477,6 +477,37 @@ def build() -> dict:
     }
 
 
+def retag_existing() -> None:
+    """Apply the alcohol rules and the AI website check to the lists we already have,
+    so Sober mode works even when OpenStreetMap can't be reached."""
+    vpath, rpath, apath = DATA / "venues.json", DATA / "restaurants.json", DATA / "activities.json"
+    v, r, a = load_json(vpath, {}), load_json(rpath, {}), load_json(apath, {})
+    for x in v.get("venues", []):
+        if x.get("alcohol") is None:
+            x["alcohol"] = venue_alcohol({}, x.get("kind", ""), x.get("name", ""))
+    for x in r.get("restaurants", []):
+        if "alcohol" not in x or x["alcohol"] is None:
+            text = (x.get("name", "") + " " + x.get("cuisine", "")).lower()
+            if x.get("bar") or x.get("group") == "pub" or re.search(r"wine|cocktail|brew|\btap\b|tavern|\bpub\b|lounge|saloon|supper club|steak", text):
+                x["alcohol"] = True
+            elif x.get("dinner") is False or (x.get("fast") and not x.get("bar")):
+                x["alcohol"] = False
+            else:
+                x["alcohol"] = None
+    for x in a.get("activities", []):
+        if x.get("alcohol") is None:
+            x["alcohol"] = activity_alcohol({"amenity": "bar"} if x.get("bar") else {}, x.get("type", ""))
+    if v.get("venues"):
+        ai_tag([x for x in v["venues"] if x.get("kind") in ("venue", "cafe")], "venue")
+        save_json(vpath, v)
+    if r.get("restaurants"):
+        ai_tag(r["restaurants"], "restaurant")
+        save_json(rpath, r)
+    if a.get("activities"):
+        ai_tag(a["activities"], "activity")
+        save_json(apath, a)
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser()
     ap.add_argument("--if-stale", type=float, metavar="DAYS", help="only refresh when older than DAYS")
@@ -487,19 +518,20 @@ def main(argv=None):
         cur = load_json(path, {})
         ts = cur.get("generated_at")
         fresh = ts and now() - datetime.fromisoformat(ts) < timedelta(days=a.if_stale)
-        has_groups = "alcohol" in ((load_json(rpath, {}).get("restaurants") or [{}])[0])
-        if fresh and rpath.exists() and (DATA / "activities.json").exists() and has_groups:
-            print(f"Venue list is fresh ({ts}); skipping.")
+        if fresh and rpath.exists() and (DATA / "activities.json").exists():
+            print(f"Venue list is fresh ({ts}); refreshing tags only.")
+            retag_existing()
             return
-    data = build()
-    save_json(path, data)
-    print(f"Saved {data['count']} venues ({data['with_website']} with websites): {data['by_kind']}")
-    rdata = build_restaurants()
-    save_json(rpath, rdata)
-    print(f"Saved {rdata['count']} restaurants ({rdata['with_hours']} with hours, {rdata['with_website']} with websites)")
-    adata = build_activities()
-    save_json(DATA / "activities.json", adata)
-    print(f"Saved {adata['count']} activities: {adata['by_type']}")
+    # Each list refreshes on its own; if OpenStreetMap is down, keep the last copy and carry on.
+    steps = [("venues", path, build), ("restaurants", rpath, build_restaurants), ("activities", DATA / "activities.json", build_activities)]
+    for name, p, fn in steps:
+        try:
+            data = fn()
+            save_json(p, data)
+            print(f"Saved {data.get('count')} {name}")
+        except Exception as e:
+            print(f"Could not refresh {name} ({type(e).__name__}: {str(e)[:120]}); keeping the last copy.", file=sys.stderr)
+    retag_existing()
 
 
 if __name__ == "__main__":
