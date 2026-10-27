@@ -223,7 +223,8 @@ const EST = {music:15, comedy:25, theater:35, film:12, sports:30, dance:12, triv
 // Links never go to a third-party calendar; without a venue or event site, search for the event.
 function eventUrl(e){
   const u = e.url || "";
-  if (u && !/isthmus\.com/i.test(u) && e.link_ok !== false) return u;  // a dead page gets a search instead
+  if (e.link_ok === false) return "";  // dead page: marked "link down" until a new link is filled in
+  if (u && !/isthmus\.com/i.test(u)) return u;
   return "https://www.google.com/search?q=" + encodeURIComponent(e.title + " " + e.venue + " Madison");
 }
 const FOODKINDS = /pizza|burger|taco|mexican|burrito|sushi|japanese|thai|chinese|indian|bbq|barbecue|diner|breakfast|pancake|wings?|chicken|sandwich|deli|ramen|noodle|pho|vietnamese|italian|pasta|donut|dessert|ice cream|steak|seafood|fish|kebab|mediterranean|korean|cuban|bakery/;
@@ -266,7 +267,7 @@ const GROUP_LABEL = Object.fromEntries(CUISINES);
 function restaurantStop(r, role){
   return {n:r.name, k:role, lat:r.lat, lon:r.lon, p:r.price, v:r.vibes || [], tav:r.bar, hrs:r.hours, osm:true, grp:r.group, notDinner:r.dinner === false, alc:r.alcohol,
     w:r.address || "", d:(r.cuisine ? r.cuisine.replace(/\b\w/g, c => c.toUpperCase()) : (r.fast ? "Quick bite" : "Restaurant")), url:r.website || "", mapId:r.id,
-    menu:r.menu || "", img:r.image || ""};
+    menu:r.menu || "", menuDown:!!r.menu_broken, img:r.image || ""};
 }
 function barStop(v){
   return {n:v.name, k:"bar", lat:v.lat, lon:v.lon, p:v.kind === "brewery" ? 14 : 13, v:v.kind === "brewery" ? ["chill"] : [], osm:true,
@@ -637,8 +638,10 @@ function renderPlan(){
     const near = dist != null ? '<span class="dist">'+(dist < 0.1 ? "Next door to " : fmtMi(dist)+" from ")+esc(anchor.venue || anchor.n)+'</span>' : "";
     const food = !s.live && !s.act && (s.k === "dinner" || s.k === "late" || s.k === "dessert");
     const menuUrl = food ? (s.menu || "https://www.google.com/search?q=" + encodeURIComponent((s.base || s.n.replace(/ (late-night menu|slice)$/i, "")) + " Madison WI menu")) : "";
-    const site = food ? ' · <a href="'+esc(menuUrl)+'" target="_blank" rel="noopener">'+(s.menu ? "Menu" : "Find the menu")+' ↗</a>'
-      : s.url ? ' · <a href="'+esc(s.url)+'" target="_blank" rel="noopener">'+(s.live ? (s.urlSearch ? "Find tickets & info" : "Event page") : "Website")+' ↗</a>' : "";
+    const site = food && s.menuDown && !s.menu ? ' · <span class="down">Menu link down</span>'
+      : food ? ' · <a href="'+esc(menuUrl)+'" target="_blank" rel="noopener">'+(s.menu ? "Menu" : "Find the menu")+' ↗</a>'
+      : s.url ? ' · <a href="'+esc(s.url)+'" target="_blank" rel="noopener">'+(s.live ? (s.urlSearch ? "Find tickets & info" : "Event page") : "Website")+' ↗</a>'
+      : s.live ? ' · <span class="down">Link down</span>' : "";
     const pic = okImg(s.img) ? '<img class="thumb" src="'+esc(s.img)+'" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">' : "";
     const alts = SWAP_ROLES.includes(s.k) && !s.live ? alternatives({...base, stops: p.stops}, s.k) : [];
     const removable = !s.live && (s.k === "bar" || s.k === "late" || s.k === "dessert");  // dinner and the event stay
@@ -743,7 +746,7 @@ function evRow(e){
   const tags = [(LIST_GROUPS.find(g => g[0] === GROUP_OF[e.category]) || [, CAT_LABEL[e.category] || "Event"])[1], PLACE_ONE[e.venue_kind] || ""].filter(Boolean)
     .map(t => '<span class="tag">'+esc(t)+'</span>').join("") +
     (e.source === "weekly" ? '<span class="tag weekly">Weekly</span>' : "") +
-    '<a class="tag" href="'+esc(eventUrl(e))+'" target="_blank" rel="noopener">'+(eventUrl(e).startsWith("https://www.google.com/search") ? "Find tickets & info" : "Details")+' ↗</a>' +
+    (eventUrl(e) ? '<a class="tag" href="'+esc(eventUrl(e))+'" target="_blank" rel="noopener">'+(eventUrl(e).startsWith("https://www.google.com/search") ? "Find tickets & info" : "Details")+' ↗</a>' : '<span class="tag down">Link down</span>') +
     (e.via ? '<span class="tag">Listed by '+esc(e.via)+'</span>' : "") +
     (outOfTown(e) ? '<span class="tag">Out of town'+(e.city ? ": "+esc(e.city) : "")+'</span>' : "") +
     (e.confirm ? '<a class="tag" href="'+esc(e.confirm)+'" target="_blank" rel="noopener">Confirm</a>' : "");

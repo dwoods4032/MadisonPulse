@@ -5,10 +5,13 @@ at most once a week, a few hundred per run, robots.txt respected). A link counts
 a clear answer (404/410 or a site that no longer exists); sites that refuse cloud servers (401/403/429)
 count as "couldn't check", since they usually work for people.
 
-Broken event links fall back to a search on the site, broken menu links to a menu search.
+Broken links are marked "link down" on the site. Every dead link is listed in data/link_fixes.csv
+with a blank new_url column: fill it in and the next scrape uses the new link everywhere.
 Results: data/link_cache.json (per link) and data/link_report.json (summary).
 """
 from __future__ import annotations
+
+import csv
 
 import re
 from concurrent.futures import ThreadPoolExecutor
@@ -39,11 +42,40 @@ def check(f: Fetcher, url: str) -> dict:
     return {"ok": None, "why": why or "no answer"}
 
 
+FIXES = DATA / "link_fixes.csv"
+FIX_COLS = ["dead_url", "new_url", "what", "name", "why", "first_seen", "notes"]
+
+
+def read_fixes() -> dict[str, dict]:
+    if not FIXES.exists():
+        return {}
+    with FIXES.open(newline="") as f:
+        return {r["dead_url"].strip(): r for r in csv.DictReader(f) if r.get("dead_url")}
+
+
+def apply_fixes(fixes, events, rests, acts, venues) -> int:
+    """Swap in the replacement links the user filled in."""
+    new = {u: r["new_url"].strip() for u, r in fixes.items() if r.get("new_url", "").strip().startswith(("http://", "https://"))}
+    n = 0
+    for rows, keys in ((events, ("url",)), (rests, ("menu", "menu_broken", "website")), (acts, ("website",)), (venues, ("website",))):
+        for x in rows:
+            for k in keys:
+                if x.get(k) in new:
+                    x["menu" if k == "menu_broken" else k] = new[x[k]]
+                    if k == "menu_broken":
+                        x.pop("menu_broken")
+                    n += 1
+    return n
+
+
 def main():
     events_doc = load_json(DATA / "events.json", {})
+    venues_doc = load_json(DATA / "venues.json", {})
     rest_doc = load_json(DATA / "restaurants.json", {})
     acts_doc = load_json(DATA / "activities.json", {})
     events, rests, acts = events_doc.get("events", []), rest_doc.get("restaurants", []), acts_doc.get("activities", [])
+    fixes = read_fixes()
+    swapped = apply_fixes(fixes, events, rests, acts, venues_doc.get("venues", []))
     urls = []
     for e in events:
         if e.get("url") and "isthmus.com" not in e["url"]:
@@ -72,6 +104,33 @@ def main():
         r["website_ok"] = cache.get(r.get("website") or "", {}).get("ok")
     save_json(DATA / "events.json", events_doc)
     save_json(DATA / "restaurants.json", rest_doc)
+    save_json(DATA / "activities.json", acts_doc)
+    if swapped:
+        save_json(DATA / "venues.json", venues_doc)
+
+    # list every dead link for the user to fix; their new links and notes are never overwritten
+    where = {}
+    for e in events:
+        if e.get("url"):
+            where.setdefault(e["url"], ("event page", e.get("title", "") + " at " + e.get("venue", "")))
+    for r in rests:
+        for k, label in (("menu", "restaurant menu"), ("menu_broken", "restaurant menu"), ("website", "restaurant website")):
+            if r.get(k):
+                where.setdefault(r[k], (label, r["name"]))
+    for a in acts:
+        if a.get("website"):
+            where.setdefault(a["website"], ("activity website", a["name"]))
+    for u in broken:
+        if u not in fixes:
+            what, name = where.get(u, ("", ""))
+            fixes[u] = {"dead_url": u, "new_url": "", "what": what, "name": name, "why": cache[u].get("why", ""),
+                        "first_seen": now().date().isoformat(), "notes": ""}
+        else:
+            fixes[u]["why"] = cache[u].get("why", fixes[u].get("why", ""))
+    with FIXES.open("w", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=FIX_COLS, extrasaction="ignore")
+        w.writeheader()
+        w.writerows(sorted(fixes.values(), key=lambda r: (bool(r.get("new_url")), r.get("what", ""), r.get("name", "").lower())))
 
     counts = {"ok": 0, "broken": 0, "couldn't check": 0, "not checked yet": 0}
     for u in urls:
@@ -79,7 +138,7 @@ def main():
         counts["not checked yet" if not v else "ok" if v["ok"] else "broken" if v["ok"] is False else "couldn't check"] += 1
     save_json(DATA / "link_report.json", {"generated_at": now().isoformat(), "links": len(urls), "checked_this_run": len(todo),
                                           **counts, "broken_links": sorted(broken)[:200]})
-    print(f"Links: {len(urls)} in use, {len(todo)} checked this run; {counts}")
+    print(f"Links: {len(urls)} in use, {len(todo)} checked this run, {swapped} replaced from link_fixes.csv; {counts}")
 
 
 if __name__ == "__main__":

@@ -1154,11 +1154,6 @@
   "why": "",
   "checked": "2026-10-27T14:38:05.174317-05:00"
  },
- "https://changjiangverona.com/changjiangverona/menu": {
-  "ok": false,
-  "why": "HTTP 404 from Vercel",
-  "checked": "2026-10-27T14:38:05.174320-05:00"
- },
  "https://changjiangverona.com/": {
   "ok": true,
   "why": "",
@@ -1248,11 +1243,6 @@
   "ok": true,
   "why": "",
   "checked": "2026-10-27T14:38:06.088377-05:00"
- },
- "http://cranberrycreekcatering.com/menu/entrees/": {
-  "ok": false,
-  "why": "HTTP 404 from Apache",
-  "checked": "2026-10-27T14:38:06.088382-05:00"
  },
  "http://www.cranberrycreek-cafe.com/": {
   "ok": true,
@@ -2258,11 +2248,6 @@
   "ok": true,
   "why": "",
   "checked": "2026-10-27T14:41:31.152419-05:00"
- },
- "https://orderdive.com/poke-teriyaki": {
-  "ok": false,
-  "why": "HTTP 404 from Vercel",
-  "checked": "2026-10-27T14:41:31.152424-05:00"
  },
  "https://poketeriyaki.com/": {
   "ok": true,

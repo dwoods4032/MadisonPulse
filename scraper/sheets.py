@@ -187,8 +187,84 @@ def main():
            for e in sorted(events, key=lambda e: (ex(e.get("start")), e.get("title", "")))])
 
     (SHEETS / "README.md").write_text(README)
+    try:
+        write_xlsx()
+    except Exception as e:  # the CSVs are still there
+        print(f"Workbook skipped ({type(e).__name__}: {e})")
     print(f"Sheets: {len(rest)} restaurants, {len(venues)} bars & venues, {len(acts)} activities, {len(events)} events; "
           f"{len(w)} weight rows")
+
+
+def write_xlsx():
+    """One workbook with every sheet, for opening in Excel or Google Sheets: data/sheets/MadisonPulse.xlsx."""
+    from openpyxl import Workbook
+    from openpyxl.styles import Alignment, Font, PatternFill
+    from openpyxl.utils import get_column_letter
+    font, bold = Font(name="Arial", size=10), Font(name="Arial", size=10, bold=True, color="FFFFFF")
+    head = PatternFill("solid", fgColor="14202B")
+    fill_in = PatternFill("solid", fgColor="FFF2A8")
+    link = Font(name="Arial", size=10, color="1F5A7A", underline="single")
+    wb = Workbook()
+    readme = wb.active
+    readme.title = "Read me"
+    lines = [
+        ("MadisonPulse reference workbook", True),
+        ("Rebuilt automatically after every scrape (about 6 am and 6 pm). Latest copy: data/sheets/MadisonPulse.xlsx in the GitHub repo.", False),
+        ("", False),
+        ("Dead links: fill in the yellow New link column (and Notes if you like), then either edit data/link_fixes.csv on GitHub", False),
+        ("  or send this workbook back to Claude. The next scrape uses your new link everywhere that dead link appeared.", False),
+        ("  Until then the site shows \"Link down\" for it. A dead website can also mean the place has closed.", False),
+        ("Weights: change data/weights.csv on GitHub (1 = normal, 1.5 = more often, 2 = a lot more, 0.5 = less, 0 = never).", False),
+        ("  The weight shown on each tab here is read from that file.", False),
+        ("", False),
+        ("Tabs: Dead links, Restaurants, Bars & venues, Activities, Events, Weights.", False),
+    ]
+    for i, (t, b) in enumerate(lines, 1):
+        c = readme.cell(row=i, column=1, value=t)
+        c.font = Font(name="Arial", size=14 if b else 10, bold=b)
+    readme.column_dimensions["A"].width = 120
+
+    def add(title, path, fill_cols=(), example=None):
+        if not path.exists():
+            return
+        with path.open(newline="") as f:
+            rows = list(csv.reader(f))
+        if not rows:
+            return
+        ws = wb.create_sheet(title)
+        cols = rows[0]
+        ws.append(cols)
+        for c in ws[1]:
+            c.font, c.fill = bold, head
+            c.alignment = Alignment(vertical="center", wrap_text=True)
+        for r in rows[1:]:
+            ws.append([float(v) if v and re.fullmatch(r"-?\d+(\.\d+)?", v) and len(v) < 12 else v for v in r])
+        for col_i, name in enumerate(cols, 1):
+            width = max([len(str(name))] + [len(str(r[col_i - 1])) for r in rows[1:200] if len(r) >= col_i])
+            ws.column_dimensions[get_column_letter(col_i)].width = min(max(10, width + 2), 48)
+            fill = name in fill_cols
+            for cell in ws.iter_cols(min_col=col_i, max_col=col_i, min_row=2, max_row=ws.max_row).__next__():
+                v = cell.value
+                if isinstance(v, str) and v.startswith(("http://", "https://")):
+                    cell.hyperlink, cell.font = v, link
+                else:
+                    cell.font = font
+                if fill:
+                    cell.fill = fill_in
+        ws.freeze_panes = "B2"
+        ws.auto_filter.ref = ws.dimensions
+    add("Dead links", DATA / "link_fixes.csv", fill_cols=("new_url", "notes"))
+    add("Restaurants", SHEETS / "restaurants.csv")
+    add("Bars & venues", SHEETS / "bars_venues.csv")
+    add("Activities", SHEETS / "activities.csv")
+    add("Events", SHEETS / "events.csv")
+    add("Weights", WEIGHTS)
+    if "Dead links" in wb.sheetnames:
+        ws = wb["Dead links"]
+        for c in ws[1]:
+            c.value = {"dead_url": "Dead link", "new_url": "New link (fill in)", "what": "What it is", "name": "Place / event",
+                       "why": "Why it's dead", "first_seen": "First seen", "notes": "Notes (fill in)"}.get(c.value, c.value)
+    wb.save(SHEETS / "MadisonPulse.xlsx")
 
 
 README = """# MadisonPulse reference sheets
