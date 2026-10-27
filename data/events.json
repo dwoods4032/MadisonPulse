@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-27T14:41:01-05:00",
+ "generated_at": "2026-10-27T16:17:55-05:00",
  "window": {
-  "from": "2026-10-27T08:39-05:00",
-  "to": "2026-11-10T14:39-06:00"
+  "from": "2026-10-27T10:16-05:00",
+  "to": "2026-11-10T16:16-06:00"
  },
- "count": 407,
+ "count": 413,
  "events": [
   {
    "id": "c7464f5943e9",
@@ -268,25 +268,48 @@
    "link_ok": null
   },
   {
-   "id": "e6ebbf5d39de",
-   "title": "Zumba",
+   "id": "922c8def4558",
+   "title": "\"Parties, Issues, and Candidates in 2026\" with Charles Franklin, sponsored by Midvale Heights Community Association",
    "start": "2026-10-27T18:00-05:00",
-   "end": "2026-10-27T19:00-05:00",
+   "end": "2026-10-27T19:30-05:00",
    "all_day": false,
-   "category": "dance",
+   "category": "other",
    "price": null,
-   "description": "Join us for a high-energy Zumba class, where you can dance, sweat, and have fun while getting fit with a great group of people! Pre-registration is not required.",
-   "url": "https://bayviewfoundation.org/event/zumba/2026-10-27/",
-   "image": "https://bayviewfoundation.org/wp-content/uploads/2024/12/health-wellness.png",
-   "venue": "Bayview Community Center",
-   "venue_id": "osm:way/1323648187",
-   "venue_kind": "community",
-   "address": "103 La Mariposa Lane",
-   "lat": 43.0663858,
-   "lon": -89.3975076,
-   "source": "scraped",
+   "description": "Charles Franklin, Director of the Marquette Law School Poll, discusses how voters are feeling about the 2026 election. Presented by the Midvale Heights Community Association and Sequoya Library.",
+   "url": "https://www.madisonpubliclibrary.org/about/ashman.html",
+   "image": "",
+   "venue": "Alicia Ashman Library",
+   "venue_id": "osm:node/790662052",
+   "venue_kind": "library",
+   "address": "733 North High Point Road",
+   "lat": 43.0760994,
+   "lon": -89.5175827,
+   "source": "ai",
    "sources": [
-    "Venue websites"
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "ecba6d91cb3a",
+   "title": "\"Parties, Issues, and Candidates in 2026\" with Charles Franklin, sponsored by Midvale Heights Community Association",
+   "start": "2026-10-27T18:00-05:00",
+   "end": "2026-10-27T19:30-05:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Charles Franklin, Director of the Marquette Law School Poll, discusses how voters are feeling about the 2026 election. Presented by the Midvale Heights Community Association and Sequoya Library.",
+   "url": "https://www.madisonpubliclibrary.org/central",
+   "image": "",
+   "venue": "Central Library",
+   "venue_id": "osm:way/102316433",
+   "venue_kind": "library",
+   "address": "201 West Mifflin Street",
+   "lat": 43.0736214,
+   "lon": -89.3875186,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
    ],
    "link_ok": true
   },
@@ -387,6 +410,29 @@
    "link_ok": true
   },
   {
+   "id": "5c5c7ecf3502",
+   "title": "Mini Figure Painting (5 of 6 part series)",
+   "start": "2026-10-27T18:00-05:00",
+   "end": "2026-10-27T19:30-05:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Part of a 6-part mini figure painting series at Imagination Center Library, Community Room.",
+   "url": "https://www.madisonpubliclibrary.org/locations/imagination-center",
+   "image": "",
+   "venue": "Imagination Center",
+   "venue_id": "osm:way/1562302805",
+   "venue_kind": "library",
+   "address": "1814 Parkside Drive",
+   "lat": 43.1240118,
+   "lon": -89.3168809,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "88d9e9d8f7c0",
    "title": "Wisconsin Badgers Mens Basketball vs. Oklahoma State Cowboys Mens Basketball",
    "start": "2026-10-27T18:00-05:00",
@@ -458,6 +504,29 @@
    "link_ok": null
   },
   {
+   "id": "3dd34ab8be93",
+   "title": "Mini Figure Painting (5 of 6 part series)",
+   "start": "2026-10-27T18:00-05:00",
+   "end": "2026-10-27T19:30-05:00",
+   "all_day": false,
+   "category": "trivia",
+   "price": null,
+   "description": "Hands-on miniature painting series for adults 16+, creating characters for Dungeons & Dragons and other games. This listing is for the Oct 27 session.",
+   "url": "https://www.madisonpubliclibrary.org/monroe-street",
+   "image": "",
+   "venue": "Monroe Street Library",
+   "venue_id": "osm:way/241508509",
+   "venue_kind": "library",
+   "address": "1705 Monroe Street",
+   "lat": 43.0659388,
+   "lon": -89.4152059,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "ca2e085dafd4",
    "title": "Brazilian Choro Jam",
    "start": "2026-10-27T18:00-05:00",
@@ -480,6 +549,75 @@
     "Isthmus"
    ],
    "link_ok": null
+  },
+  {
+   "id": "21cffa9fd514",
+   "title": "\"Parties, Issues, and Candidates in 2026\" with Charles Franklin, sponsored by Midvale Heights Community Association",
+   "start": "2026-10-27T18:00-05:00",
+   "end": "2026-10-27T19:30-05:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Charles Franklin, Director of the Marquette Law School Poll, discusses how voters are feeling about the 2026 election. Presented by the Midvale Heights Community Association and Sequoya Library.",
+   "url": "https://www.madisonpubliclibrary.org/locations/pinney-library",
+   "image": "",
+   "venue": "Pinney Library",
+   "venue_id": "osm:node/7234376294",
+   "venue_kind": "library",
+   "address": "516 Cottage Grove Road",
+   "lat": 43.0841729,
+   "lon": -89.3176486,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "bca8178f23ab",
+   "title": "Mini Figure Painting (5 of 6 part series)",
+   "start": "2026-10-27T18:00-05:00",
+   "end": "2026-10-27T19:30-05:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Part of a 6-part mini figure painting series at Imagination Center Library, Community Room.",
+   "url": "https://www.madisonpubliclibrary.org/sequoya",
+   "image": "",
+   "venue": "Sequoya Library",
+   "venue_id": "osm:node/1473488018",
+   "venue_kind": "library",
+   "address": "4340 Tokay Boulevard",
+   "lat": 43.0537698,
+   "lon": -89.4505289,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "798e64958f22",
+   "title": "\"Parties, Issues, and Candidates in 2026\" with Charles Franklin, sponsored by Midvale Heights Community Association",
+   "start": "2026-10-27T18:00-05:00",
+   "end": "2026-10-27T19:30-05:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Charles Franklin, Director of the Marquette Law School Poll, discusses how voters are feeling about the 2026 election. Presented by the Midvale Heights Community Association and Sequoya Library.",
+   "url": "https://www.madisonpubliclibrary.org/sequoya",
+   "image": "",
+   "venue": "Sequoya Library",
+   "venue_id": "osm:node/1473488018",
+   "venue_kind": "library",
+   "address": "4340 Tokay Boulevard",
+   "lat": 43.0537698,
+   "lon": -89.4505289,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
   },
   {
    "id": "c68b897a05e1",
@@ -2360,6 +2498,29 @@
    "link_ok": true
   },
   {
+   "id": "6d23d7e6015f",
+   "title": "Journaling for Mental Health",
+   "start": "2026-10-28T17:30-05:00",
+   "end": "2026-10-28T18:30-05:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Journaling session focused on mental health at Imagination Center Library, Classroom.",
+   "url": "https://www.madisonpubliclibrary.org/locations/imagination-center",
+   "image": "",
+   "venue": "Imagination Center",
+   "venue_id": "osm:way/1562302805",
+   "venue_kind": "library",
+   "address": "1814 Parkside Drive",
+   "lat": 43.1240118,
+   "lon": -89.3168809,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "58de56c5f5c2",
    "title": "The Real Jaguar, DJ Chuck Money",
    "start": "2026-10-28T17:30-05:00",
@@ -2431,6 +2592,29 @@
     "Isthmus"
    ],
    "link_ok": null
+  },
+  {
+   "id": "02c9bf1d1261",
+   "title": "Journaling for Mental Health",
+   "start": "2026-10-28T17:30-05:00",
+   "end": "2026-10-28T18:30-05:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Journaling session focused on mental health at Imagination Center Library, Classroom.",
+   "url": "https://www.madisonpubliclibrary.org/sequoya",
+   "image": "",
+   "venue": "Sequoya Library",
+   "venue_id": "osm:node/1473488018",
+   "venue_kind": "library",
+   "address": "4340 Tokay Boulevard",
+   "lat": 43.0537698,
+   "lon": -89.4505289,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
   },
   {
    "id": "3d26ea4eb91c",
@@ -2600,6 +2784,29 @@
     "Isthmus"
    ],
    "link_ok": null
+  },
+  {
+   "id": "11d44f936e81",
+   "title": "The Art of Neighborships: Open Studio with Artist-in-Residence Carrie Breunig",
+   "start": "2026-10-28T18:00-05:00",
+   "end": "2026-10-28T20:00-05:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Open studio with artist-in-residence Carrie Breunig in the Studio.",
+   "url": "https://www.madisonpubliclibrary.org/locations/pinney-library",
+   "image": "",
+   "venue": "Pinney Library",
+   "venue_id": "osm:node/7234376294",
+   "venue_kind": "library",
+   "address": "516 Cottage Grove Road",
+   "lat": 43.0841729,
+   "lon": -89.3176486,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
   },
   {
    "id": "ee441ce5dc0e",
@@ -4138,29 +4345,6 @@
    "link_ok": null
   },
   {
-   "id": "d857cb3adaf4",
-   "title": "Annie",
-   "start": "2026-10-30T19:00-05:00",
-   "end": "2026-10-30T21:30-05:00",
-   "all_day": false,
-   "category": "theater",
-   "price": null,
-   "description": "",
-   "url": "https://ctmtheater.org/event/annie-4/",
-   "image": "",
-   "venue": "Children's Theater of Madison",
-   "venue_id": "osm:node/10833984405",
-   "venue_kind": "venue",
-   "address": "",
-   "lat": 43.0853024,
-   "lon": -89.3708699,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "6a2f48d08119",
    "title": "Wisconsin Badgers Hockey vs. Notre Dame Fighting Irish Hockey",
    "start": "2026-10-30T19:00-05:00",
@@ -4623,6 +4807,29 @@
    "link_ok": true
   },
   {
+   "id": "2022d43228c8",
+   "title": "Trick or Treat on Monroe Street",
+   "start": "2026-10-31T09:00-05:00",
+   "end": "2026-10-31T17:00-05:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Trick-or-treating event in the library.",
+   "url": "https://www.madisonpubliclibrary.org/monroe-street",
+   "image": "",
+   "venue": "Monroe Street Library",
+   "venue_id": "osm:way/241508509",
+   "venue_kind": "library",
+   "address": "1705 Monroe Street",
+   "lat": 43.0659388,
+   "lon": -89.4152059,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "4399e4c54334",
    "title": "Free coffee & tea at the library",
    "start": "2026-10-31T09:00-05:00",
@@ -4691,6 +4898,29 @@
     "Isthmus"
    ],
    "link_ok": null
+  },
+  {
+   "id": "d826e941ad50",
+   "title": "Art Club for Families - Costume Masks",
+   "start": "2026-10-31T11:00-05:00",
+   "end": "2026-10-31T12:00-05:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Family art club making costume masks, held in the library.",
+   "url": "https://www.madisonpubliclibrary.org/monroe-street",
+   "image": "",
+   "venue": "Monroe Street Library",
+   "venue_id": "osm:way/241508509",
+   "venue_kind": "library",
+   "address": "1705 Monroe Street",
+   "lat": 43.0659388,
+   "lon": -89.4152059,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
   },
   {
    "id": "def78dadc093",
@@ -4831,29 +5061,6 @@
     "Ticketmaster"
    ],
    "link_ok": null
-  },
-  {
-   "id": "31f2a2f513bf",
-   "title": "Annie",
-   "start": "2026-10-31T14:00-05:00",
-   "end": "2026-10-31T16:30-05:00",
-   "all_day": false,
-   "category": "theater",
-   "price": null,
-   "description": "",
-   "url": "https://ctmtheater.org/event/annie-5/",
-   "image": "",
-   "venue": "Children's Theater of Madison",
-   "venue_id": "osm:node/10833984405",
-   "venue_kind": "venue",
-   "address": "",
-   "lat": 43.0853024,
-   "lon": -89.3708699,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
-   ],
-   "link_ok": true
   },
   {
    "id": "2ed32ac9acd5",
@@ -5458,29 +5665,6 @@
    "link_ok": null
   },
   {
-   "id": "4aac33cb5094",
-   "title": "Annie",
-   "start": "2026-11-01T13:00-06:00",
-   "end": "2026-11-01T15:30-06:00",
-   "all_day": false,
-   "category": "theater",
-   "price": null,
-   "description": "",
-   "url": "https://ctmtheater.org/event/annie-6/",
-   "image": "",
-   "venue": "Children's Theater of Madison",
-   "venue_id": "osm:node/10833984405",
-   "venue_kind": "venue",
-   "address": "",
-   "lat": 43.0853024,
-   "lon": -89.3708699,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "3706872f0b72",
    "title": "Drag Bingo w/ Cynthia Mooseknuckle",
    "start": "2026-11-01T13:00-06:00",
@@ -5661,29 +5845,6 @@
    "address": "1925 Winnebago Street",
    "lat": 43.0909399,
    "lon": -89.3556544,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "c304aa2da9b7",
-   "title": "Annie",
-   "start": "2026-11-01T18:00-06:00",
-   "end": "2026-11-01T20:30-06:00",
-   "all_day": false,
-   "category": "theater",
-   "price": null,
-   "description": "",
-   "url": "https://ctmtheater.org/event/annie-7/",
-   "image": "",
-   "venue": "Children's Theater of Madison",
-   "venue_id": "osm:node/10833984405",
-   "venue_kind": "venue",
-   "address": "",
-   "lat": 43.0853024,
-   "lon": -89.3708699,
    "source": "scraped",
    "sources": [
     "Venue websites"
@@ -6037,29 +6198,6 @@
     "Isthmus"
    ],
    "link_ok": null
-  },
-  {
-   "id": "b2deebc0d15b",
-   "title": "Zumba",
-   "start": "2026-11-03T18:00-06:00",
-   "end": "2026-11-03T19:00-06:00",
-   "all_day": false,
-   "category": "dance",
-   "price": null,
-   "description": "Join us for a high-energy Zumba class, where you can dance, sweat, and have fun while getting fit with a great group of people! Pre-registration is not required.",
-   "url": "https://bayviewfoundation.org/event/zumba/2026-11-03/",
-   "image": "https://bayviewfoundation.org/wp-content/uploads/2024/12/health-wellness.png",
-   "venue": "Bayview Community Center",
-   "venue_id": "osm:way/1323648187",
-   "venue_kind": "community",
-   "address": "103 La Mariposa Lane",
-   "lat": 43.0663858,
-   "lon": -89.3975076,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
-   ],
-   "link_ok": true
   },
   {
    "id": "0be3254a59c2",

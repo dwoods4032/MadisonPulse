@@ -1566,8 +1566,8 @@
   "events": []
  },
  "https://www.madisonpubliclibrary.org/spaces/events": {
-  "hash": "f24363ad02397bd675b51d57809c634a970c7fab",
-  "asked": "2026-10-27T14:36:51-05:00",
+  "hash": "e41a6932aa74d4b22d864f95bdede38683376ecb",
+  "asked": "2026-10-27T16:17:43-05:00",
   "on": "2026-10-27",
   "events": []
  },
@@ -1713,35 +1713,17 @@
   ]
  },
  "https://www.madisonpubliclibrary.org/spaces/events/search": {
-  "hash": "96c1741339857e6fd1d8bb546cb925657000caae",
-  "asked": "2026-10-27T14:36:56-05:00",
+  "hash": "bbd97e263e74fe0622007ac3f0ef502da86481d4",
+  "asked": "2026-10-27T16:17:45-05:00",
   "on": "2026-10-27",
   "events": [
    {
-    "title": "After-School Art with Amy",
+    "title": "\"Parties, Issues, and Candidates in 2026\" with Charles Franklin, sponsored by Midvale Heights Community Association",
     "date": "2026-10-27",
-    "start": "16:00",
-    "end": "17:00",
+    "start": "18:00",
+    "end": "19:30",
     "price": null,
-    "description": "Hands-on art projects with local artist Amy Mietzel. For ages 5-12.",
-    "category": "other"
-   },
-   {
-    "title": "Multi-age Storytime",
-    "date": "2026-10-28",
-    "start": "10:00",
-    "end": "10:30",
-    "price": null,
-    "description": "Read and play with children 5 & under: books, songs and playful experiences.",
-    "category": "other"
-   },
-   {
-    "title": "Baby Storytime (ages birth to 17 mo)",
-    "date": "2026-10-28",
-    "start": "11:15",
-    "end": "11:45",
-    "price": null,
-    "description": "Read and play with your baby: reading, singing, talking and playing.",
+    "description": "Charles Franklin, Director of the Marquette Law School Poll, discusses how voters are feeling about the 2026 election. Presented by the Midvale Heights Community Association and Sequoya Library.",
     "category": "other"
    }
   ]

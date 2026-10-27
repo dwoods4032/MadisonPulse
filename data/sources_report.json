@@ -1,19 +1,20 @@
 {
- "generated_at": "2026-10-27T14:41:01-05:00",
- "total_events": 407,
+ "generated_at": "2026-10-27T16:17:55-05:00",
+ "total_events": 413,
  "in_more_than_one_source": 24,
  "sources": {
   "AI page reading": {
-   "events": 151,
-   "unique_events": 132,
+   "events": 163,
+   "unique_events": 144,
    "overlap": {
     "Isthmus": 4,
     "Ticketmaster": 15,
     "Venue websites": 0
    },
-   "venues": 37,
+   "venues": 43,
    "unique_venues": [
     "Aftershock Classic Arcade",
+    "Alicia Ashman Library",
     "Arts + Literature Laboratory",
     "Bartell Theatre",
     "Below Deck Concession Stand",
@@ -25,6 +26,7 @@
     "Ebling Library",
     "Flight Wine & Bourbon Bar",
     "Grey Market",
+    "Imagination Center",
     "Italian Workmen's Club",
     "Karben4 Brewing",
     "Lakeside Street Coffee House",
@@ -32,11 +34,14 @@
     "Lazy Oaf Lounge",
     "Madison Youth Arts (MYArts)",
     "Monkeyshines Bar & Grill",
+    "Monroe Street Library",
     "Mother Fool's",
     "Old Sugar Distillery",
     "Oscar Rennebohm Library",
     "Overture Center for the Arts",
+    "Pinney Library",
     "Reindahl Park Pavillion",
+    "Sequoya Library",
     "State Line Distillery",
     "Sun Prairie Public Library",
     "Veterans Memorial Park",
@@ -60,7 +65,6 @@
     "Buck and Honey's",
     "Capitol Square",
     "Capitol Theater",
-    "Central Library",
     "City Center West",
     "Communication",
     "Dancesport",
@@ -137,18 +141,16 @@
    ]
   },
   "Venue websites": {
-   "events": 81,
-   "unique_events": 77,
+   "events": 75,
+   "unique_events": 71,
    "overlap": {
     "AI page reading": 0,
     "Isthmus": 1,
     "Ticketmaster": 3
    },
-   "venues": 15,
+   "venues": 13,
    "unique_venues": [
-    "Bayview Community Center",
     "Broom Street Theater",
-    "Children's Theater of Madison",
     "Comedy Club on State",
     "E.D. Locke Public Library",
     "Full Mile Beer Company & Kitchen",

@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-27T14:41:01-05:00",
+ "generated_at": "2026-10-27T16:17:55-05:00",
  "venues_checked": 237,
- "venues_with_events": 69,
+ "venues_with_events": 67,
  "venues_with_feeds": 89,
- "events": 407,
- "filtered_out": 163,
+ "events": 413,
+ "filtered_out": 83,
  "venues": [
   {
    "name": "AI page reading",
@@ -13,12 +13,12 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 191,
+   "raw_events": 201,
    "error": "",
-   "calls": 0,
-   "tokens_in": 0,
-   "tokens_out": 0,
-   "est_cost_usd": 0.0
+   "calls": 7,
+   "tokens_in": 25724,
+   "tokens_out": 8611,
+   "est_cost_usd": 0.0069
   },
   {
    "name": "Isthmus calendar",
@@ -29,17 +29,6 @@
    ],
    "raw_events": 160,
    "error": "used today's copy (read once a day)"
-  },
-  {
-   "name": "Bayview Community Center",
-   "kind": "community",
-   "website": "https://www.bayviewfoundation.org",
-   "feeds": [
-    "tribe",
-    "jsonld"
-   ],
-   "raw_events": 82,
-   "error": ""
   },
   {
    "name": "Ticketmaster",
@@ -216,9 +205,29 @@
    "error": ""
   },
   {
+   "name": "Imagination Center",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 7,
+   "error": ""
+  },
+  {
    "name": "Lazy Oaf Lounge",
    "kind": "bar",
    "website": "https://www.lazyoaflounge.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 7,
+   "error": ""
+  },
+  {
+   "name": "Monroe Street Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/monroe-street",
    "feeds": [
     "ai"
    ],
@@ -270,6 +279,26 @@
    "name": "Orpheum Theatre",
    "kind": "venue",
    "website": "https://madisonorpheum.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 6,
+   "error": ""
+  },
+  {
+   "name": "Pinney Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 6,
+   "error": ""
+  },
+  {
+   "name": "Sequoya Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/sequoya",
    "feeds": [
     "ai"
    ],
@@ -345,16 +374,6 @@
    "error": ""
   },
   {
-   "name": "Children's Theater of Madison",
-   "kind": "venue",
-   "website": "https://ctmtheater.org/",
-   "feeds": [
-    "tribe"
-   ],
-   "raw_events": 4,
-   "error": ""
-  },
-  {
    "name": "Crystal Corner Bar",
    "kind": "bar",
    "website": "https://thecrystalcornerbar.com/",
@@ -420,26 +439,6 @@
    "error": ""
   },
   {
-   "name": "Alicia Ashman Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 3,
-   "error": ""
-  },
-  {
-   "name": "Central Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/central",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 3,
-   "error": ""
-  },
-  {
    "name": "Centro",
    "kind": "community",
    "website": "https://www.micentro.org/",
@@ -482,49 +481,9 @@
    "error": ""
   },
   {
-   "name": "Imagination Center",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 3,
-   "error": ""
-  },
-  {
-   "name": "Monroe Street Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/monroe-street",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 3,
-   "error": ""
-  },
-  {
    "name": "Overture Center for the Arts",
    "kind": "venue",
    "website": "http://overturecenter.com",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 3,
-   "error": ""
-  },
-  {
-   "name": "Pinney Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 3,
-   "error": ""
-  },
-  {
-   "name": "Sequoya Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/sequoya",
    "feeds": [
     "ai"
    ],
@@ -686,9 +645,29 @@
    "error": ""
   },
   {
+   "name": "Alicia Ashman Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 1,
+   "error": ""
+  },
+  {
    "name": "Below Deck Concession Stand",
    "kind": "cafe",
    "website": "https://www.mymonona.com/1395/Below-Deck-Concession-Stand",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 1,
+   "error": ""
+  },
+  {
+   "name": "Central Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/central",
    "feeds": [
     "ai"
    ],
@@ -842,6 +821,17 @@
    "error": ""
   },
   {
+   "name": "Bayview Community Center",
+   "kind": "community",
+   "website": "https://www.bayviewfoundation.org",
+   "feeds": [
+    "tribe",
+    "jsonld"
+   ],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
    "name": "Black Locust Cafe",
    "kind": "cafe",
    "website": "https://blacklocustcafe.com/",
@@ -942,6 +932,16 @@
    "kind": "cafe",
    "website": "https://union.wisc.edu/dine/find-food-and-drink/chazen-cafe",
    "feeds": [],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
+   "name": "Children's Theater of Madison",
+   "kind": "venue",
+   "website": "https://ctmtheater.org/",
+   "feeds": [
+    "tribe"
+   ],
    "raw_events": 0,
    "error": ""
   },
@@ -1691,7 +1691,7 @@
   {
    "name": "Starbucks",
    "kind": "cafe",
-   "website": "https://www.starbucks.com/store-locator/store/16482/capitol-square-main-mlk-1-e-main-st-madison-wi-537033373-us",
+   "website": "https://www.starbucks.com/store-locator/store/12525/university-north-blackhawk-3515-university-avenue-madison-wi-537052140-us",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1699,7 +1699,7 @@
   {
    "name": "Starbucks",
    "kind": "cafe",
-   "website": "https://www.starbucks.com/store-locator/store/12525/university-north-blackhawk-3515-university-avenue-madison-wi-537052140-us",
+   "website": "https://www.starbucks.com/store-locator/store/16482/capitol-square-main-mlk-1-e-main-st-madison-wi-537033373-us",
    "feeds": [],
    "raw_events": 0,
    "error": ""

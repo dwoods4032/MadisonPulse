@@ -29,11 +29,6 @@
   "why": "",
   "checked": "2026-10-27T14:37:10.347381-05:00"
  },
- "https://bayviewfoundation.org/event/zumba/2026-10-27/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:37:10.347386-05:00"
- },
  "https://escmadison.com": {
   "ok": true,
   "why": "",
@@ -344,11 +339,6 @@
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
   "checked": "2026-10-27T14:37:18.225960-05:00"
  },
- "https://ctmtheater.org/event/annie-4/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:37:18.225963-05:00"
- },
  "https://www.ticketmaster.com/event/Z7r9jZ1AAevv_": {
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
@@ -418,11 +408,6 @@
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
   "checked": "2026-10-27T14:37:23.347526-05:00"
- },
- "https://ctmtheater.org/event/annie-5/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:37:23.347553-05:00"
  },
  "https://onesocialmadison.com/event/live-music-saturdays-wild-cardz/": {
   "ok": true,
@@ -509,11 +494,6 @@
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
   "checked": "2026-10-27T14:37:28.736415-05:00"
  },
- "https://ctmtheater.org/event/annie-6/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:37:28.736438-05:00"
- },
  "https://bstonline.org/event/dragonsocks-and-the-queen-of-the-universe-3/": {
   "ok": true,
   "why": "",
@@ -533,11 +513,6 @@
   "ok": true,
   "why": "",
   "checked": "2026-10-27T14:37:29.815553-05:00"
- },
- "https://ctmtheater.org/event/annie-7/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:37:29.815559-05:00"
  },
  "https://www.fullmilebeercompany.com/events/2026/11/01-karaoke": {
   "ok": true,
@@ -578,11 +553,6 @@
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
   "checked": "2026-10-27T14:37:34.126502-05:00"
- },
- "https://bayviewfoundation.org/event/zumba/2026-11-03/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:37:34.126528-05:00"
  },
  "https://www.ticketmaster.com/event/Z7r9jZ1AAv64p": {
   "ok": null,
@@ -2938,5 +2908,45 @@
   "ok": true,
   "why": "",
   "checked": "2026-10-27T14:41:53.387275-05:00"
+ },
+ "https://www.madisonpubliclibrary.org/about/ashman.html": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T16:18:00.671635-05:00"
+ },
+ "https://www.madisonpubliclibrary.org/locations/imagination-center": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T16:18:00.671665-05:00"
+ },
+ "https://www.madisonpubliclibrary.org/monroe-street": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T16:18:02.356891-05:00"
+ },
+ "https://www.madisonpubliclibrary.org/locations/pinney-library": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T16:18:02.356923-05:00"
+ },
+ "https://www.madisonpubliclibrary.org/sequoya": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-27T16:18:02.356931-05:00"
+ },
+ "https://changjiangverona.com/changjiangverona/menu": {
+  "ok": false,
+  "why": "HTTP 404 from Vercel",
+  "checked": "2026-10-27T16:18:02.356937-05:00"
+ },
+ "http://cranberrycreekcatering.com/menu/entrees/": {
+  "ok": false,
+  "why": "HTTP 404 from Apache",
+  "checked": "2026-10-27T16:18:02.356944-05:00"
+ },
+ "https://orderdive.com/poke-teriyaki": {
+  "ok": false,
+  "why": "HTTP 404 from Vercel",
+  "checked": "2026-10-27T16:18:02.356950-05:00"
  }
 }
