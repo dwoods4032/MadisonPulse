@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T11:58:24-05:00",
+ "generated_at": "2026-10-27T12:01:04-05:00",
  "venues_checked": 237,
  "venues_with_events": 63,
  "venues_with_feeds": 83,
@@ -1067,7 +1067,7 @@
    "website": "https://gatesandbrovi.com/",
    "feeds": [],
    "raw_events": 0,
-   "error": ""
+   "error": "ai: ConnectTimeout: HTTPSConnectionPool(host='gatesandbrovi.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='gatesandbrovi.com', port=443) at 0x7"
   },
   {
    "name": "Genna's Cocktail Lounge",
@@ -1679,7 +1679,7 @@
   {
    "name": "Starbucks",
    "kind": "cafe",
-   "website": "https://www.starbucks.com/store-locator/store/16482/capitol-square-main-mlk-1-e-main-st-madison-wi-537033373-us",
+   "website": "https://www.starbucks.com/store-locator/store/12525/university-north-blackhawk-3515-university-avenue-madison-wi-537052140-us",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1687,7 +1687,7 @@
   {
    "name": "Starbucks",
    "kind": "cafe",
-   "website": "https://www.starbucks.com/store-locator/store/12525/university-north-blackhawk-3515-university-avenue-madison-wi-537052140-us",
+   "website": "https://www.starbucks.com/store-locator/store/16482/capitol-square-main-mlk-1-e-main-st-madison-wi-537033373-us",
    "feeds": [],
    "raw_events": 0,
    "error": ""

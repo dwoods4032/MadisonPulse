@@ -184,7 +184,10 @@
   "alcohol_checked": "2026-10-27T11:55:24.505628-05:00"
  },
  "osm:way/301610188": {
-  "alcohol_checked": "2026-10-27T11:55:55.099534-05:00"
+  "alcohol_checked": "2026-10-27T11:55:55.099534-05:00",
+  "group": "american",
+  "alcohol": true,
+  "alcohol_how": "AI"
  },
  "osm:node/6861380370": {
   "alcohol_checked": "2026-10-27T11:55:55.099564-05:00"
@@ -216,7 +219,7 @@
   "alcohol_how": "keywords"
  },
  "osm:node/12368220428": {
-  "alcohol_checked": "2026-10-27T11:55:55.099649-05:00"
+  "alcohol_checked": "2026-10-27T11:59:39.318137-05:00"
  },
  "osm:node/14229564801": {
   "alcohol_checked": "2026-10-27T11:55:55.099655-05:00"
@@ -273,7 +276,7 @@
   "alcohol_checked": "2026-10-27T11:55:55.099768-05:00"
  },
  "osm:node/3711907488": {
-  "alcohol_checked": "2026-10-27T11:55:55.099785-05:00"
+  "alcohol_checked": "2026-10-27T11:59:39.318176-05:00"
  },
  "osm:node/5574746241": {
   "alcohol": true,
@@ -293,7 +296,7 @@
   "alcohol_how": "keywords"
  },
  "osm:node/11874818969": {
-  "alcohol_checked": "2026-10-27T11:55:57.858623-05:00"
+  "alcohol_checked": "2026-10-27T11:59:39.318188-05:00"
  },
  "osm:node/2522523832": {
   "alcohol": true,
@@ -312,7 +315,10 @@
   "alcohol_checked": "2026-10-27T11:56:01.802050-05:00"
  },
  "osm:node/2143517150": {
-  "alcohol_checked": "2026-10-27T11:56:04.038825-05:00"
+  "alcohol_checked": "2026-10-27T11:56:04.038825-05:00",
+  "group": "pub",
+  "alcohol": true,
+  "alcohol_how": "AI"
  },
  "osm:node/4200763340": {
   "alcohol": true,
@@ -436,13 +442,13 @@
   "alcohol_how": "keywords"
  },
  "osm:node/13929143204": {
-  "alcohol_checked": "2026-10-27T11:56:30.048957-05:00"
+  "alcohol_checked": "2026-10-27T11:59:39.318228-05:00"
  },
  "osm:node/6841099469": {
   "alcohol_checked": "2026-10-27T11:56:30.048989-05:00"
  },
  "osm:node/5180228467": {
-  "alcohol_checked": "2026-10-27T11:56:30.125339-05:00"
+  "alcohol_checked": "2026-10-27T11:59:39.318236-05:00"
  },
  "osm:node/7180420369": {
   "alcohol_checked": "2026-10-27T11:56:31.555866-05:00"
@@ -530,7 +536,10 @@
   "alcohol_how": "keywords"
  },
  "osm:way/107655115": {
-  "alcohol_checked": "2026-10-27T11:56:46.062051-05:00"
+  "alcohol_checked": "2026-10-27T11:56:46.062051-05:00",
+  "group": "american",
+  "alcohol": true,
+  "alcohol_how": "AI"
  },
  "osm:node/7068038652": {
   "alcohol_checked": "2026-10-27T11:56:48.385339-05:00"

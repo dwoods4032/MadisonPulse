@@ -3092,9 +3092,10 @@
    "website": "http://www.experiencedelaneys.com/",
    "hours": null,
    "bar": false,
-   "alcohol": null,
+   "alcohol": true,
    "menu": "https://experiencedelaneys.com/menu/",
-   "menu_src": "restaurant homepage"
+   "menu_src": "restaurant homepage",
+   "alcohol_src": "AI website check"
   },
   {
    "group": "med",
@@ -13376,10 +13377,11 @@
    "website": "https://www.quiveysgrove.com/stone-house-restaurant",
    "hours": null,
    "bar": false,
-   "alcohol": null,
+   "alcohol": true,
    "menu": "https://www.quiveysgrove.com/_files/ugd/735b12_a8142e2deaf849f689496c5e3617bea5.pdf",
    "menu_src": "restaurant homepage",
-   "image": "https://static.wixstatic.com/media/735b12_2ffadae24498410ca693ad0e279c03cc%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/735b12_2ffadae24498410ca693ad0e279c03cc%7Emv2.jpg"
+   "image": "https://static.wixstatic.com/media/735b12_2ffadae24498410ca693ad0e279c03cc%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/735b12_2ffadae24498410ca693ad0e279c03cc%7Emv2.jpg",
+   "alcohol_src": "AI website check"
   },
   {
    "group": "latin",
