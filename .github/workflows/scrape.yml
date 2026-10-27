@@ -77,7 +77,8 @@ jobs:
           git add data
           if ! git diff --cached --quiet; then
             git commit -m "Update events $(date -u +%Y-%m-%dT%H:%MZ)"
-            git pull --rebase --autostash origin main
+            # another run may have saved data meanwhile: generated files keep this (newer) run's copy
+            git pull --rebase --autostash -X theirs origin main
             git push
           fi
 
