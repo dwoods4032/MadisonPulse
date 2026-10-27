@@ -418,26 +418,17 @@
   "events": []
  },
  "https://www.harmonybarandgrill.com/madison-atwood-the-harmony-bar-and-grill-events": {
-  "hash": "1286a3de36823dbe0bb8010ed39c1efd99eb755d",
-  "asked": "2026-10-26T21:04:49-05:00",
-  "on": "2026-10-26",
+  "hash": "7c353a563dda8c33560ddc1930f6e52a534a6869",
+  "asked": "2026-10-27T11:22:12-05:00",
+  "on": "2026-10-27",
   "events": [
-   {
-    "title": "David Landau Kid Show",
-    "date": "2026-10-26",
-    "start": "17:30",
-    "end": "18:30",
-    "price": 5,
-    "description": "Kids music show with David Landau, with the kid menu available. Family-friendly.",
-    "category": "music"
-   },
    {
     "title": "Bigtooth",
     "date": "2026-10-27",
     "start": "18:00",
     "end": "19:00",
     "price": 0,
-    "description": "Abbreviated bluegrass-inspired set from 6-7pm, followed by a pre-game for World Series Game 4 at 7pm.",
+    "description": "Abbreviated bluegrass-inspired show before World Series Game 4; page also says 6:30 start time. No cover.",
     "category": "music"
    },
    {
@@ -446,16 +437,16 @@
     "start": "17:30",
     "end": "19:00",
     "price": 0,
-    "description": "Madison bluegrass band mixing traditional bluegrass with humor and storytelling.",
+    "description": "Madison bluegrass band blending traditional bluegrass with humor and storytelling. No cover.",
     "category": "music"
    },
    {
-    "title": "Gaines & Wagoner with guest Grandpa's Elixir",
+    "title": "Gaines & Wagoner with Grandpa's Elixir",
     "date": "2026-11-01",
     "start": "16:00",
     "end": "19:00",
     "price": 15,
-    "description": "Madison husband-and-wife duo playing Americana, with old-timey string band Grandpa's Elixir as the monthly guest. $15 suggested donation.",
+    "description": "Madison husband-and-wife Americana duo with special guest Grandpa's Elixir (old-time string band). $15 suggested donation.",
     "category": "music"
    },
    {
@@ -464,7 +455,7 @@
     "start": "17:30",
     "end": "18:30",
     "price": 5,
-    "description": "Kids music show with David Landau, with the kid menu available. Family-friendly.",
+    "description": "Children's music show with David Landau; kid menu available. $5 cover.",
     "category": "music"
    },
    {
@@ -473,7 +464,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Trivia hosted by Paul. Held the 1st and 3rd Wednesday of each month.",
+    "description": "Trivia hosted by Paul, held the 1st and 3rd Wednesday of the month. Free.",
     "category": "trivia"
    },
    {
@@ -482,7 +473,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Folk/rock/alt/pop singer-songwriter Melissa Kieler with a soulful voice and originals plus covers.",
+    "description": "Folk/rock/alt/pop singer-songwriter Melissa Kieler with Ethan Kister. No cover.",
     "category": "music"
    },
    {
@@ -491,7 +482,7 @@
     "start": "20:00",
     "end": "22:00",
     "price": 0,
-    "description": "Scottish music with bagpipes, guitar, fiddle, whistle and bodhran, from traditional songs to upbeat dance tunes.",
+    "description": "Scottish music with bagpipes, guitar, fiddle, whistle and bodhran. No cover.",
     "category": "music"
    },
    {
@@ -500,7 +491,16 @@
     "start": "19:30",
     "end": "21:30",
     "price": 10,
-    "description": "Traditional Irish pub songs, ballads and humor, plus original songs. $10 suggested donation.",
+    "description": "Traditional Irish pub songs, ballads and original songs. $10 suggested donation.",
+    "category": "music"
+   },
+   {
+    "title": "The Sorry Mountain Band",
+    "date": "2026-11-10",
+    "start": "18:30",
+    "end": "20:30",
+    "price": 0,
+    "description": "Bluegrass, vintage country and swing with three-part harmonies. No cover.",
     "category": "music"
    }
   ]
@@ -586,26 +586,17 @@
   ]
  },
  "https://high-noon.com/calendar/": {
-  "hash": "6bf47d67ebb4dbdc3fc2b4c1ddb4f43ee4b54edb",
-  "asked": "2026-10-26T21:04:50-05:00",
-  "on": "2026-10-26",
+  "hash": "af982c5e3735ee6e2a60e9347b2a266a09344ac1",
+  "asked": "2026-10-27T11:22:14-05:00",
+  "on": "2026-10-27",
   "events": [
    {
-    "title": "American Aquarium",
-    "date": "2026-10-26",
-    "start": "20:00",
-    "end": null,
-    "price": null,
-    "description": "FPC Live presents American Aquarium at High Noon Saloon. Doors 7pm.",
-    "category": "music"
-   },
-   {
-    "title": "Inside Wisconsin Politics Live",
+    "title": "Wisconsin Public Radio Presents: Inside Wisconsin Politics Live",
     "date": "2026-10-27",
     "start": "18:00",
     "end": null,
     "price": 0,
-    "description": "Wisconsin Public Radio live show. Free, registration required. Doors 5pm.",
+    "description": "Live WPR politics show at High Noon Saloon. Doors 5:00 pm.",
     "category": "other"
    },
    {
@@ -614,7 +605,7 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "Urban League of Greater Madison Young Professionals presents a DJ battle and get-out-the-vote rally. Doors 6:30pm.",
+    "description": "Urban League of Greater Madison Young Professionals DJ battle and get-out-the-vote rally. Doors 6:30 pm.",
     "category": "music"
    },
    {
@@ -623,7 +614,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents Ska-lloween with One Beer Please, Lost Island Society, and Meskales. Doors 7pm.",
+    "description": "FPC Live show with One Beer Please, Lost Island Society, and Meskales. Doors 7:00 pm.",
     "category": "music"
    },
    {
@@ -632,7 +623,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live Halloween show with BAMM and Wild Violets. Doors 7pm.",
+    "description": "FPC Live show with BAMM and Wild Violets. Doors 7:00 pm.",
     "category": "music"
    },
    {
@@ -641,7 +632,7 @@
     "start": "17:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents Halloween Hangover III with The Marilyns as The Misfits, Iron Metal Jackson as Metallica, and You First as Me First And The Gimme Gimmes. Doors 4pm.",
+    "description": "FPC Live Halloween tribute show with The Marilyns, Iron Metal Jackson, and You First. Doors 4:00 pm.",
     "category": "music"
    },
    {
@@ -650,7 +641,7 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "FPC Live presents Noah Gundersen with Runner and Breakup Shoes. Doors 6:30pm.",
+    "description": "FPC Live show with Runner and Breakup Shoes. Doors 6:30 pm.",
     "category": "music"
    },
    {
@@ -659,7 +650,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents Sophie Hunter with Reysha Rami. Doors 7pm.",
+    "description": "FPC Live show with Reysha Rami. Doors 7:00 pm. Low tickets available.",
     "category": "music"
    },
    {
@@ -668,7 +659,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents The Bends with The Braymores. Doors 7pm. Low tickets.",
+    "description": "FPC Live show with The Braymores. Doors 7:00 pm. Low tickets available.",
     "category": "music"
    },
    {
@@ -677,7 +668,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents Six Foot Blonde with Genevieve Heyward. Doors 7pm.",
+    "description": "FPC Live show with Genevieve Heyward. Doors 7:00 pm.",
     "category": "music"
    },
    {
@@ -686,7 +677,7 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents Unrest Fest 2026 with Tenmonthsummer, Barely Civil, Los Kausas, Ourvanity, The Up & Up, The Brash Menagerie, and Irish Goodbyes. Doors 6pm.",
+    "description": "FPC Live festival with Tenmonthsummer, Barely Civil, Los Kausas, Ourvanity, The Up & Up, The Brash Menagerie, and Irish Goodbyes. Doors 6:00 pm.",
     "category": "music"
    },
    {
@@ -695,7 +686,7 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "FPC Live presents Psychostick with Texas Toast Chainsaw Massacre. Doors 6:30pm.",
+    "description": "FPC Live show with Texas Toast Chainsaw Massacre. Doors 6:30 pm.",
     "category": "music"
    },
    {
@@ -704,8 +695,17 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "The Moth presents Madison StorySLAM, theme Home for the Holidays. Doors 6:30pm.",
+    "description": "The Moth presents a Madison StorySLAM storytelling night. Doors 6:30 pm.",
     "category": "other"
+   },
+   {
+    "title": "Fruition",
+    "date": "2026-11-10",
+    "start": "20:00",
+    "end": null,
+    "price": null,
+    "description": "FPC Live show with Gardener. Doors 7:00 pm.",
+    "category": "music"
    }
   ]
  },
@@ -784,41 +784,18 @@
   "events": []
  },
  "https://www.harmonybarandgrill.com/madison-atwood-the-harmony-bar-and-grill-happy-hours-specials": {
-  "hash": "1810b5207806803065b947b23fb1833afb093f32",
-  "asked": "2026-10-26T15:19:39-05:00",
-  "on": "2026-10-26",
+  "hash": "793074db65b389db8d2616a4e21d6b5fad67871d",
+  "asked": "2026-10-27T11:22:17-05:00",
+  "on": "2026-10-27",
   "events": [
-   {
-    "title": "David Landau Kids Show!",
-    "date": "2026-10-26",
-    "start": "17:30",
-    "end": "18:30",
-    "price": 5.0,
-    "description": "Kids show, every Monday, $5.00."
-   },
-   {
-    "title": "David Landau Kids Show!",
-    "date": "2026-11-02",
-    "start": "17:30",
-    "end": "18:30",
-    "price": 5.0,
-    "description": "Kids show, every Monday, $5.00."
-   },
-   {
-    "title": "David Landau Kids Show!",
-    "date": "2026-11-09",
-    "start": "17:30",
-    "end": "18:30",
-    "price": 5.0,
-    "description": "Kids show, every Monday, $5.00."
-   },
    {
     "title": "Mixed Mic",
     "date": "2026-11-03",
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Mixed mic on the first Tuesday of the month."
+    "description": "Mixed mic, held on the first Tuesday of every month.",
+    "category": "open_mic"
    },
    {
     "title": "Friday Fish Fry",
@@ -826,15 +803,44 @@
     "start": "11:00",
     "end": "22:00",
     "price": null,
-    "description": "Friday fish fry special."
+    "description": "Friday fish fry special.",
+    "category": "food"
+   },
+   {
+    "title": "David Landau Kids Show",
+    "date": "2026-11-02",
+    "start": "17:30",
+    "end": "18:30",
+    "price": 5.0,
+    "description": "Kids show, held every Monday.",
+    "category": "music"
+   },
+   {
+    "title": "David Landau Kids Show",
+    "date": "2026-11-09",
+    "start": "17:30",
+    "end": "18:30",
+    "price": 5.0,
+    "description": "Kids show, held every Monday.",
+    "category": "music"
    }
   ]
  },
  "https://high-noon.com/event/fruition/": {
-  "hash": "915769adee97d9da2efbfe178f650b4086f32aa1",
-  "asked": "2026-10-26T21:04:52-05:00",
-  "on": "2026-10-26",
-  "events": []
+  "hash": "8f0910a2aadce2ccd6bdab192ab6dd710007989a",
+  "asked": "2026-10-27T11:22:16-05:00",
+  "on": "2026-10-27",
+  "events": [
+   {
+    "title": "Fruition: Something More - The Final Tour (with Gardener)",
+    "date": "2026-11-10",
+    "start": "20:00",
+    "end": null,
+    "price": null,
+    "description": "Americana band Fruition's final tour in support of the album Something More, with Gardener. Doors 7:00 pm, ages 18+.",
+    "category": "music"
+   }
+  ]
  },
  "https://wandosbar.com/madison-downtown-wando-s-events-happenings": {
   "hash": "da0a864397938f62880227e9e3a5278b02c62db8",
@@ -1082,25 +1088,18 @@
   "events": []
  },
  "https://www.statelinedistillery.com/cocktail-lounge/events": {
-  "hash": "2c2004f330723ea76fc6c80377b31b387054bdff",
-  "asked": "2026-10-26T15:19:48-05:00",
-  "on": "2026-10-26",
+  "hash": "2e7848aea92572da2fd9d647b72e5d1ccb22454c",
+  "asked": "2026-10-27T11:22:20-05:00",
+  "on": "2026-10-27",
   "events": [
-   {
-    "title": "Badgers on Tap: Creepy Crawlers of Microbiology",
-    "date": "2026-10-26",
-    "start": "19:00",
-    "end": "21:00",
-    "price": null,
-    "description": "Badgers on Tap science event at State Line Distillery."
-   },
    {
     "title": "Sabor Regio Food Truck",
     "date": "2026-10-29",
     "start": "18:00",
     "end": "20:00",
     "price": null,
-    "description": "Food truck visit at State Line Distillery."
+    "description": "Sabor Regio food truck at State Line Distillery.",
+    "category": "food"
    },
    {
     "title": "Dead & Distilled: Halloween Party",
@@ -1108,7 +1107,8 @@
     "start": "15:00",
     "end": "00:00",
     "price": null,
-    "description": "Halloween party at State Line Distillery."
+    "description": "Halloween party at the cocktail lounge.",
+    "category": "other"
    },
    {
     "title": "Christa Lee Music",
@@ -1116,7 +1116,8 @@
     "start": "19:00",
     "end": "21:00",
     "price": null,
-    "description": "Live music with Christa Lee at State Line Distillery."
+    "description": "Live music with Christa Lee.",
+    "category": "music"
    }
   ]
  },
@@ -1354,9 +1355,9 @@
   ]
  },
  "https://merciescoffeewi.com/": {
-  "hash": "bb0825e96de7ac1f5aeb200dc9a61ffaf1ff5d37",
-  "asked": "2026-10-26T15:22:23-05:00",
-  "on": "2026-10-26",
+  "hash": "8a3ff4f80480a56b1c06ea2c6d2edbbc1325b4b1",
+  "asked": "2026-10-27T11:22:40-05:00",
+  "on": "2026-10-27",
   "events": []
  },
  "https://motherfools.com/event/20261106/mad-city-story-slam-rebellion": {
@@ -1565,9 +1566,9 @@
   "events": []
  },
  "https://www.madisonpubliclibrary.org/spaces/events": {
-  "hash": "0016bb5d7a3922438af20b115890195fbe8f3ce5",
-  "asked": "2026-10-26T21:05:49-05:00",
-  "on": "2026-10-26",
+  "hash": "e5a33814d1cb5cdc31cf2a4401825ede826a2b7a",
+  "asked": "2026-10-27T11:23:11-05:00",
+  "on": "2026-10-27",
   "events": []
  },
  "https://ebling.library.wisc.edu/ebling-library-classes-events/": {
@@ -1600,25 +1601,18 @@
   "events": []
  },
  "https://www.sunprairiepubliclibrary.org/home-delivery-service": {
-  "hash": "0f8d14b8f2c97f87a90fc0860e5d29f1a1a2e55e",
-  "asked": "2026-10-26T15:22:57-05:00",
-  "on": "2026-10-26",
+  "hash": "e846241c169c7cb8b66bcd7e6fdaa32aede45393",
+  "asked": "2026-10-27T11:23:19-05:00",
+  "on": "2026-10-27",
   "events": [
-   {
-    "title": "Little Kid Storytime",
-    "date": "2026-10-27",
-    "start": "10:00",
-    "end": "10:30",
-    "price": null,
-    "description": "Storytime for family and children ages 0-5."
-   },
    {
     "title": "Big Kid Storytime",
     "date": "2026-10-27",
     "start": "11:15",
     "end": "11:45",
     "price": null,
-    "description": "Storytime for family and children ages 0-5."
+    "description": "Storytime for family and children ages 0-5.",
+    "category": "other"
    },
    {
     "title": "Pumpkin Decorating",
@@ -1626,7 +1620,8 @@
     "start": "18:00",
     "end": "20:00",
     "price": null,
-    "description": "Pumpkin decorating for family, teens and adults."
+    "description": "Pumpkin decorating for family, teens and adults.",
+    "category": "other"
    },
    {
     "title": "Evening Book Club",
@@ -1634,7 +1629,8 @@
     "start": "19:00",
     "end": "20:00",
     "price": null,
-    "description": "Book club for adults."
+    "description": "Book club for adults.",
+    "category": "other"
    },
    {
     "title": "Outdoor Family Storytime",
@@ -1642,7 +1638,17 @@
     "start": "10:00",
     "end": "10:30",
     "price": null,
-    "description": "Outdoor storytime for family and children ages 0-5."
+    "description": "Outdoor storytime for family and children ages 0-5.",
+    "category": "other"
+   },
+   {
+    "title": "Cuentos Infantiles (Spanish Storytime)",
+    "date": "2026-10-28",
+    "start": "17:00",
+    "end": "17:30",
+    "price": null,
+    "description": "Spanish-language storytime for family and children ages 0-5.",
+    "category": "other"
    }
   ]
  },
@@ -1707,9 +1713,9 @@
   ]
  },
  "https://www.madisonpubliclibrary.org/spaces/events/search": {
-  "hash": "1f135ada0dcdfca0e87d6f26040dc627b16a0fda",
-  "asked": "2026-10-26T21:05:58-05:00",
-  "on": "2026-10-26",
+  "hash": "f99fdad9ace679c13e10912f403b286fa6b29001",
+  "asked": "2026-10-27T11:23:26-05:00",
+  "on": "2026-10-27",
   "events": []
  },
  "https://artlitlab.org/calendar": {
@@ -1736,9 +1742,9 @@
   ]
  },
  "https://bartelltheatre.org/": {
-  "hash": "6703ecf384440c73515c0d9778cb830f5e370f86",
-  "asked": "2026-10-26T15:23:08-05:00",
-  "on": "2026-10-26",
+  "hash": "c10e976ee0e5dfd868fcb45b71997fc396873491",
+  "asked": "2026-10-27T11:23:21-05:00",
+  "on": "2026-10-27",
   "events": [
    {
     "title": "Film: Seeds for Liberation",
@@ -1746,7 +1752,8 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Documentary from Matthew Solomon and Donna Hadjikhani on Palestine, social media mobilization, and collective liberation. Listed as 'Tomorrow at 7:00pm'."
+    "description": "Documentary from Matthew Solomon and Donna Hadjikhani on Palestine's occupation, social media's role in global support, and paths to collective liberation.",
+    "category": "film"
    },
    {
     "title": "Film: American Doctor",
@@ -1754,7 +1761,8 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Three American doctors enter Gaza to save lives and get caught between medicine and politics."
+    "description": "Three American doctors enter Gaza to save lives and find themselves caught between medicine and politics.",
+    "category": "film"
    },
    {
     "title": "Film: North by Northwest",
@@ -1762,7 +1770,8 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "Film screening."
+    "description": "Screening of North by Northwest.",
+    "category": "film"
    },
    {
     "title": "The Moors",
@@ -1770,7 +1779,8 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "Listed production; no further details on the page."
+    "description": "Bartell Theatre production; the page gives no further details.",
+    "category": "other"
    },
    {
     "title": "Film: Re-Animator",
@@ -1778,7 +1788,8 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Film screening."
+    "description": "Screening of Re-Animator.",
+    "category": "film"
    },
    {
     "title": "Film: Hello Mary Lou: Prom Night II",
@@ -1786,7 +1797,8 @@
     "start": "21:30",
     "end": null,
     "price": null,
-    "description": "Film screening."
+    "description": "Screening of Hello Mary Lou: Prom Night II.",
+    "category": "film"
    },
    {
     "title": "Romeo and Juliet",
@@ -1794,15 +1806,17 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "Listed production; no further details on the page."
+    "description": "Bartell Theatre production of Romeo and Juliet.",
+    "category": "theater"
    },
    {
-    "title": "A Valentine's Affair 2027 - First Audition",
+    "title": "A Valentine's Affair 2027 Auditions (First Audition)",
     "date": "2026-11-09",
     "start": "18:30",
     "end": null,
     "price": null,
-    "description": "First audition for A Valentine's Affair 2027."
+    "description": "First audition for A Valentine's Affair 2027.",
+    "category": "other"
    }
   ]
  },
@@ -1819,9 +1833,9 @@
   "events": []
  },
  "https://madisonorpheum.com/calendar/": {
-  "hash": "2c8ca5422cec04ba19cd9ea327651780062e0882",
-  "asked": "2026-10-26T15:23:12-05:00",
-  "on": "2026-10-26",
+  "hash": "6189d18b8e08410990af15d7f50717337bb80d39",
+  "asked": "2026-10-27T11:23:27-05:00",
+  "on": "2026-10-27",
   "events": [
    {
     "title": "William Shatner Live On-stage with Star Trek II: The Wrath of Khan",
@@ -1829,7 +1843,8 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "FPC Live presents William Shatner live on stage with Star Trek II screening. Doors 6:30 pm."
+    "description": "Live on-stage event with Star Trek II: The Wrath of Khan. Doors 6:30 pm.",
+    "category": "other"
    },
    {
     "title": "Scott Bradlee's Postmodern Jukebox",
@@ -1837,7 +1852,8 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents Scott Bradlee's Postmodern Jukebox. Doors 7:00 pm."
+    "description": "Presented by FPC Live. Doors 7:00 pm.",
+    "category": "music"
    },
    {
     "title": "MDEV: The Kick-Off Event",
@@ -1845,7 +1861,8 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Wisconsin Games Alliance presents MDEV: The Kick-Off Event. Doors 7:00 pm."
+    "description": "Presented by Wisconsin Games Alliance. Doors 7:00 pm.",
+    "category": "other"
    },
    {
     "title": "Dave Attell",
@@ -1853,7 +1870,8 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents comedian Dave Attell. Doors 7:00 pm."
+    "description": "Stand-up comedy presented by FPC Live. Doors 7:00 pm.",
+    "category": "comedy"
    },
    {
     "title": "Daniel Sloss",
@@ -1861,7 +1879,8 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents comedian Daniel Sloss. Doors 6:00 pm."
+    "description": "Stand-up comedy presented by FPC Live. Doors 6:00 pm.",
+    "category": "comedy"
    }
   ]
  },
@@ -2061,9 +2080,9 @@
   "events": []
  },
  "https://madisonorpheum.com/event/kip-moore/": {
-  "hash": "b157d5d9f309db0e07ad00d3302d09cef010d533",
-  "asked": "2026-10-26T15:23:19-05:00",
-  "on": "2026-10-26",
+  "hash": "986186b2736205ecad7cea29f0894596cf7a6785",
+  "asked": "2026-10-27T11:23:30-05:00",
+  "on": "2026-10-27",
   "events": [
    {
     "title": "MDEV: The Kick-Off Event",
@@ -2071,7 +2090,8 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Listed as a related event on the Orpheum Theatre page; no time or price given."
+    "description": "Kick-off event listed on the Orpheum Theatre related-events section; no time or price stated.",
+    "category": "other"
    }
   ]
  },

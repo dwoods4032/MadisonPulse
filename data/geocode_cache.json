@@ -169,5 +169,97 @@
   "address": "Longford Terrace",
   "city": "Fitchburg"
  },
- "underdog pet rescue": null
+ "underdog pet rescue": null,
+ "uw union south-the sett": null,
+ "tradition children's market, middleton": null,
+ "east towne mall": {
+  "lat": 43.125232,
+  "lon": -89.305199,
+  "address": "89 East Towne Mall",
+  "city": "Madison"
+ },
+ "city center west": {
+  "lat": 43.016492,
+  "lon": -88.002886,
+  "address": "7211,7213 West Greenfield Avenue",
+  "city": "West Allis"
+ },
+ "green county courthouse square, monroe": null,
+ "uw irving & dorothy levy hall": null,
+ "kadampa meditation center madison": {
+  "lat": 43.046981,
+  "lon": -89.393448,
+  "address": "Beld Street",
+  "city": "Madison"
+ },
+ "uw discovery building": null,
+ "the courtyard at fitchburg, fitchburg": {
+  "lat": 43.012728,
+  "lon": -89.434094,
+  "address": "5669",
+  "city": "Fitchburg"
+ },
+ "capitol square": {
+  "lat": 43.074698,
+  "lon": -89.384177,
+  "address": "",
+  "city": "Madison"
+ },
+ "madison public market": {
+  "lat": 43.093346,
+  "lon": -89.361765,
+  "address": "202 North 1st Street",
+  "city": "Madison"
+ },
+ "overture center-rotunda stage": null,
+ "uw pyle center": null,
+ "hop garden brewing & tap room, evansville": null,
+ "hop garden, belleville": {
+  "lat": 42.859804,
+  "lon": -89.535493,
+  "address": "107 West Main Street",
+  "city": "Belleville"
+ },
+ "black business hub": {
+  "lat": 43.040376,
+  "lon": -89.394401,
+  "address": "2344 South Park Street",
+  "city": "Madison"
+ },
+ "fontana sports": {
+  "lat": 43.07437,
+  "lon": -89.389761,
+  "address": "216 North Henry Street",
+  "city": "Madison"
+ },
+ "palette bar & grill": {
+  "lat": 43.082395,
+  "lon": -89.372743,
+  "address": "East Washington Avenue",
+  "city": "Madison"
+ },
+ "movin' shoes": {
+  "lat": 43.061267,
+  "lon": -89.401002,
+  "address": "528 South Park Street",
+  "city": "Madison"
+ },
+ "zafferano ristorante, fitchburg": {
+  "lat": 43.016532,
+  "lon": -89.423407,
+  "address": "2969 Cahill Main",
+  "city": "Fitchburg"
+ },
+ "monona terrace": {
+  "lat": 43.07167,
+  "lon": -89.380023,
+  "address": "Monona Terrace",
+  "city": "Madison"
+ },
+ "mystery to me": {
+  "lat": 43.064672,
+  "lon": -89.417169,
+  "address": "1863 Monroe Street",
+  "city": "Madison"
+ }
 }

@@ -20,7 +20,8 @@
    "lon": -89.494556,
    "website": "https://www.1847stammhouse.com/home",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -36,7 +37,8 @@
    "lon": -89.376361,
    "website": "https://5starkoreanbbq.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -56,7 +58,8 @@
    "lon": -89.378122,
    "website": "",
    "hours": null,
-   "bar": true
+   "bar": true,
+   "alcohol": true
   },
   {
    "group": "latin",
@@ -91,7 +94,8 @@
      "21:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -123,7 +127,8 @@
      "22:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -153,7 +158,8 @@
      "22:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "med",
@@ -188,7 +194,8 @@
      "15:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -229,7 +236,8 @@
      "20:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -267,7 +275,8 @@
      "22:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -283,7 +292,8 @@
    "lon": -89.226479,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -322,7 +332,8 @@
      "21:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "indian",
@@ -338,7 +349,8 @@
    "lon": -89.370841,
    "website": "https://amakitchenmadison.com",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "indian",
@@ -354,7 +366,8 @@
    "lon": -89.500939,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -370,7 +383,8 @@
    "lon": -89.529257,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -388,7 +402,8 @@
    "lon": -89.381222,
    "website": "https://www.ancoracafes.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "italian",
@@ -407,7 +422,8 @@
    "lon": -89.240341,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -425,7 +441,8 @@
    "lon": -89.392165,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -441,7 +458,8 @@
    "lon": -89.301377,
    "website": "https://arodstexmex.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "group": "indian",
@@ -457,7 +475,8 @@
    "lon": -89.387734,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -473,7 +492,8 @@
    "lon": -89.454815,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -502,7 +522,8 @@
      "27:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -518,7 +539,8 @@
    "lon": -89.401412,
    "website": "https://www.asiannoodlemadisonwi.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "group": "med",
@@ -536,7 +558,8 @@
    "lon": -89.414858,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -584,7 +607,8 @@
      "22:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -620,7 +644,8 @@
      "18:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "group": "american",
@@ -665,7 +690,8 @@
      "22:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -698,7 +724,8 @@
      "26:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -737,7 +764,8 @@
      "21:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -765,7 +793,8 @@
      "20:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "med",
@@ -793,7 +822,8 @@
      "21:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "italian",
@@ -839,7 +869,8 @@
      "21:00"
     ]
    ],
-   "bar": true
+   "bar": true,
+   "alcohol": true
   },
   {
    "group": "american",
@@ -884,7 +915,8 @@
      "20:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -928,7 +960,8 @@
      "22:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -960,7 +993,8 @@
      "20:00"
     ]
    ],
-   "bar": true
+   "bar": true,
+   "alcohol": true
   },
   {
    "group": "latin",
@@ -991,7 +1025,8 @@
      "22:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -1007,7 +1042,8 @@
    "lon": -89.531695,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "group": "italian",
@@ -1025,7 +1061,8 @@
    "lon": -89.529263,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -1041,7 +1078,8 @@
    "lon": -89.511693,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -1059,7 +1097,8 @@
    "lon": -89.207055,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -1095,7 +1134,8 @@
      "17:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "group": "american",
@@ -1130,7 +1170,8 @@
      "24:00"
     ]
    ],
-   "bar": true
+   "bar": true,
+   "alcohol": true
   },
   {
    "group": "american",
@@ -1151,7 +1192,8 @@
    "lon": -89.422412,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": true
   },
   {
    "group": "asian",
@@ -1167,7 +1209,8 @@
    "lon": -89.300704,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "group": "american",
@@ -1186,7 +1229,8 @@
    "lon": -89.399938,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "group": "american",
@@ -1204,7 +1248,8 @@
    "lon": -89.337148,
    "website": "https://breakwatermonona.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "med",
@@ -1220,7 +1265,8 @@
    "lon": -89.502613,
    "website": "https://www.brotherscafeandrestaurant.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -1236,7 +1282,8 @@
    "lon": -89.444411,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "group": "american",
@@ -1254,7 +1301,8 @@
    "lon": -89.226224,
    "website": "https://sunprairie.buckandhoneys.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -1272,7 +1320,8 @@
    "lon": -89.336965,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -1290,7 +1339,8 @@
    "lon": -89.461088,
    "website": "https://waunakee.buckandhoneys.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "italian",
@@ -1309,7 +1359,8 @@
    "lon": -89.321856,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "med",
@@ -1344,7 +1395,8 @@
      "21:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -1360,7 +1412,8 @@
    "lon": -89.266731,
    "website": "https://locations.burrachos.com/wisconsin/sun-prairie/2691-windsor-st/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -1392,7 +1445,8 @@
      "22:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -1424,7 +1478,8 @@
      "13:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -1454,7 +1509,8 @@
      "20:30"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -1472,7 +1528,8 @@
    "lon": -89.453843,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -1509,7 +1566,8 @@
      "14:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -1529,7 +1587,8 @@
    "lon": -89.534465,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -1564,7 +1623,8 @@
      "22:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -1612,7 +1672,8 @@
      "22:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -1631,7 +1692,8 @@
    "lon": -89.380441,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": true
   },
   {
    "group": "american",
@@ -1649,7 +1711,8 @@
    "lon": -89.484781,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -1667,7 +1730,8 @@
    "lon": -89.301219,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -1683,7 +1747,8 @@
    "lon": -89.361908,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "group": "latin",
@@ -1725,7 +1790,8 @@
      "26:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -1756,7 +1822,8 @@
      "14:30"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -1775,7 +1842,8 @@
    "lon": -89.378857,
    "website": "https://onesocialmadison.com/vendor/caseys-tavern/",
    "hours": null,
-   "bar": true
+   "bar": true,
+   "alcohol": true
   },
   {
    "group": "american",
@@ -1791,7 +1859,8 @@
    "lon": -89.56739,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "italian",
@@ -1809,7 +1878,8 @@
    "lon": -89.387309,
    "website": "https://www.centomadison.com",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -1850,7 +1920,8 @@
      "21:30"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -1866,7 +1937,8 @@
    "lon": -89.477997,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -1882,7 +1954,8 @@
    "lon": -89.503855,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "group": "asian",
@@ -1898,7 +1971,8 @@
    "lon": -89.510368,
    "website": "https://www.changjiangtogo.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -1933,7 +2007,8 @@
      "21:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -1969,7 +2044,8 @@
      "23:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -2003,7 +2079,8 @@
      "26:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -2032,7 +2109,8 @@
      "21:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -2048,7 +2126,8 @@
    "lon": -89.528408,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -2064,7 +2143,8 @@
    "lon": -89.505043,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "group": "asian",
@@ -2080,7 +2160,8 @@
    "lon": -89.305682,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -2127,7 +2208,8 @@
      "21:30"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -2162,7 +2244,8 @@
      "22:15"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -2198,7 +2281,8 @@
      "22:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "group": "asian",
@@ -2226,7 +2310,8 @@
      "13:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -2245,7 +2330,8 @@
    "lon": -89.361892,
    "website": "https://cinncitysmash.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "group": "american",
@@ -2275,7 +2361,8 @@
      "23:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -2293,7 +2380,8 @@
    "lon": -89.503464,
    "website": "",
    "hours": null,
-   "bar": true
+   "bar": true,
+   "alcohol": true
   },
   {
    "group": "latin",
@@ -2309,7 +2397,8 @@
    "lon": -89.487218,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -2341,7 +2430,8 @@
      "17:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -2357,7 +2447,8 @@
    "lon": -89.513044,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -2373,7 +2464,8 @@
    "lon": -89.341228,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "group": "american",
@@ -2393,7 +2485,8 @@
    "lon": -89.395094,
    "website": "https://www.conradsgrill.com/madison-wi",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -2432,7 +2525,8 @@
      "22:00"
     ]
    ],
-   "bar": true
+   "bar": true,
+   "alcohol": true
   },
   {
    "group": "american",
@@ -2465,7 +2559,8 @@
      "14:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "italian",
@@ -2506,7 +2601,8 @@
      "15:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -2525,7 +2621,8 @@
    "lon": -89.497585,
    "website": "https://www.craftsmantableandtap.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": true
   },
   {
    "group": "american",
@@ -2543,7 +2640,8 @@
    "lon": -89.497786,
    "website": "https://www.craftsmantableandtap.com/",
    "hours": null,
-   "bar": true
+   "bar": true,
+   "alcohol": true
   },
   {
    "group": "american",
@@ -2561,7 +2659,8 @@
    "lon": -89.340271,
    "website": "http://www.cranberrycreek-cafe.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -2577,7 +2676,8 @@
    "lon": -89.503178,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "group": "italian",
@@ -2621,7 +2721,8 @@
      "17:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -2651,7 +2752,8 @@
      "27:00"
     ]
    ],
-   "bar": true
+   "bar": true,
+   "alcohol": true
   },
   {
    "group": "latin",
@@ -2667,7 +2769,8 @@
    "lon": -89.461303,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -2683,7 +2786,8 @@
    "lon": -89.418793,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -2713,7 +2817,8 @@
      "21:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -2758,7 +2863,8 @@
      "22:00"
     ]
    ],
-   "bar": true
+   "bar": true,
+   "alcohol": true
   },
   {
    "group": "asian",
@@ -2788,7 +2894,8 @@
      "22:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -2821,7 +2928,8 @@
      "21:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -2837,7 +2945,8 @@
    "lon": -89.315245,
    "website": "https://davidsjamaicancuisine.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -2853,7 +2962,8 @@
    "lon": -89.495488,
    "website": "http://www.experiencedelaneys.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "med",
@@ -2903,7 +3013,8 @@
      "20:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "pub",
@@ -2923,7 +3034,8 @@
    "lon": -89.399831,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": true
   },
   {
    "group": "indian",
@@ -2953,7 +3065,8 @@
      "22:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "indian",
@@ -2969,7 +3082,8 @@
    "lon": -89.458206,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -3014,7 +3128,8 @@
      "24:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -3055,7 +3170,8 @@
      "21:30"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -3096,7 +3212,8 @@
      "21:30"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "italian",
@@ -3140,7 +3257,8 @@
      "23:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": true
   },
   {
    "group": "american",
@@ -3170,7 +3288,8 @@
      "18:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "group": "asian",
@@ -3186,7 +3305,8 @@
    "lon": -89.301158,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -3202,7 +3322,8 @@
    "lon": -89.42356,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "italian",
@@ -3235,7 +3356,8 @@
      "24:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "group": "asian",
@@ -3265,7 +3387,8 @@
      "21:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -3297,7 +3420,8 @@
      "26:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -3316,7 +3440,8 @@
    "lon": -89.42065,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -3334,7 +3459,8 @@
    "lon": -89.389233,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -3352,7 +3478,8 @@
    "lon": -89.41299,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -3368,7 +3495,8 @@
    "lon": -89.325494,
    "website": "https://elgallomc.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -3387,7 +3515,8 @@
    "lon": -89.46904,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -3403,7 +3532,8 @@
    "lon": -89.499538,
    "website": "https://elimperiomexicanfoodwi.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -3419,7 +3549,8 @@
    "lon": -89.394476,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -3437,7 +3568,8 @@
    "lon": -89.235107,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -3453,7 +3585,8 @@
    "lon": -89.228823,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -3469,7 +3602,8 @@
    "lon": -89.386526,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -3510,7 +3644,8 @@
      "18:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -3528,7 +3663,8 @@
    "lon": -89.303353,
    "website": "https://www.elranchogrill2.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -3571,7 +3707,8 @@
      "22:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -3587,7 +3724,8 @@
    "lon": -89.360628,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -3603,7 +3741,8 @@
    "lon": -89.300338,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -3635,7 +3774,8 @@
      "14:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "med",
@@ -3673,7 +3813,8 @@
      "10:30"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -3689,7 +3830,8 @@
    "lon": -89.372006,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -3707,7 +3849,8 @@
    "lon": -89.418701,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -3737,7 +3880,8 @@
      "21:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -3787,7 +3931,8 @@
      "21:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "italian",
@@ -3829,7 +3974,8 @@
      "20:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -3848,7 +3994,8 @@
    "lon": -89.334166,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "italian",
@@ -3879,7 +4026,8 @@
      "21:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -3897,7 +4045,8 @@
    "lon": -89.325616,
    "website": "",
    "hours": null,
-   "bar": true
+   "bar": true,
+   "alcohol": true
   },
   {
    "group": "american",
@@ -3939,7 +4088,8 @@
      "22:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "sushi",
@@ -3977,7 +4127,8 @@
      "21:30"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -3993,7 +4144,8 @@
    "lon": -89.504952,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "group": "asian",
@@ -4009,7 +4161,8 @@
    "lon": -89.308961,
    "website": "https://www.flamingwokmadison.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -4025,7 +4178,8 @@
    "lon": -89.528885,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -4057,7 +4211,8 @@
      "20:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -4087,7 +4242,8 @@
      "21:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -4117,7 +4273,8 @@
      "20:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "group": "american",
@@ -4133,7 +4290,8 @@
    "lon": -89.417851,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "italian",
@@ -4152,7 +4310,8 @@
    "lon": -89.395624,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "group": "italian",
@@ -4170,7 +4329,8 @@
    "lon": -89.326098,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -4200,7 +4360,8 @@
      "21:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "sushi",
@@ -4232,7 +4393,8 @@
      "20:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "indian",
@@ -4248,7 +4410,8 @@
    "lon": -89.371785,
    "website": "https://friedshack.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "group": "american",
@@ -4266,7 +4429,8 @@
    "lon": -89.392058,
    "website": "https://www.friendsapplaud.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -4282,7 +4446,8 @@
    "lon": -89.523464,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -4312,7 +4477,8 @@
      "22:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "sushi",
@@ -4330,7 +4496,8 @@
    "lon": -89.527583,
    "website": "https://www.fujimiddleton.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -4372,7 +4539,8 @@
      "22:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -4407,7 +4575,8 @@
      "21:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -4423,7 +4592,8 @@
    "lon": -89.379436,
    "website": "https://garibaldimexicanwi.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -4439,7 +4609,8 @@
    "lon": -89.408204,
    "website": "https://union.wisc.edu/gingerroot.htm",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -4457,7 +4628,8 @@
    "lon": -89.40953,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "group": "italian",
@@ -4490,7 +4662,8 @@
      "22:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "italian",
@@ -4509,7 +4682,8 @@
    "lon": -89.34131,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "italian",
@@ -4528,7 +4702,8 @@
    "lon": -89.510575,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "italian",
@@ -4547,7 +4722,8 @@
    "lon": -89.209391,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -4563,7 +4739,8 @@
    "lon": -89.301213,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "group": "latin",
@@ -4599,7 +4776,8 @@
      "22:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -4617,7 +4795,8 @@
    "lon": -89.269418,
    "website": "",
    "hours": null,
-   "bar": true
+   "bar": true,
+   "alcohol": true
   },
   {
    "group": "asian",
@@ -4652,7 +4831,8 @@
      "19:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -4670,7 +4850,8 @@
    "lon": -89.526462,
    "website": "https://www.facebook.com/people/Gobi-Mongolian-Grill-Hot-Pot/61574612458274/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -4708,7 +4889,8 @@
      "15:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -4726,7 +4908,8 @@
    "lon": -89.382038,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -4761,7 +4944,8 @@
      "12:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "group": "italian",
@@ -4800,7 +4984,8 @@
      "22:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -4842,7 +5027,8 @@
      "22:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "group": "indian",
@@ -4858,7 +5044,8 @@
    "lon": -89.531718,
    "website": "https://grandhaveliverona.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -4907,7 +5094,8 @@
      "13:30"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -4941,7 +5129,8 @@
      "22:30"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -4957,7 +5146,8 @@
    "lon": -89.453617,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -4995,7 +5185,8 @@
      "20:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "italian",
@@ -5027,7 +5218,8 @@
      "24:00"
     ]
    ],
-   "bar": true
+   "bar": true,
+   "alcohol": true
   },
   {
    "group": "american",
@@ -5066,7 +5258,8 @@
      "20:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -5086,7 +5279,8 @@
    "lon": -89.518379,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "med",
@@ -5122,7 +5316,8 @@
      "20:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -5164,7 +5359,8 @@
      "19:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -5180,7 +5376,8 @@
    "lon": -89.308361,
    "website": "https://www.habanerosparillamexicangrill.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "group": "latin",
@@ -5196,7 +5393,8 @@
    "lon": -89.360896,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "indian",
@@ -5212,7 +5410,8 @@
    "lon": -89.512142,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -5232,7 +5431,8 @@
    "lon": -89.323273,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -5248,7 +5448,8 @@
    "lon": -89.513648,
    "website": "https://www.happywokmadison.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -5264,7 +5465,8 @@
    "lon": -89.351192,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -5301,7 +5503,8 @@
      "23:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -5320,7 +5523,8 @@
    "lon": -89.408126,
    "website": "https://union.wisc.edu/harvestgrains.htm",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "med",
@@ -5352,7 +5556,8 @@
      "22:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -5402,7 +5607,8 @@
      "14:00"
     ]
    ],
-   "bar": true
+   "bar": true,
+   "alcohol": true
   },
   {
    "group": "american",
@@ -5440,7 +5646,8 @@
      "22:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -5458,7 +5665,8 @@
    "lon": -89.323202,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "indian",
@@ -5493,7 +5701,8 @@
      "22:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -5509,7 +5718,8 @@
    "lon": -89.300625,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "med",
@@ -5525,7 +5735,8 @@
    "lon": -89.3013,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -5557,7 +5768,8 @@
      "20:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -5575,7 +5787,8 @@
    "lon": -89.458773,
    "website": "https://www.hophausbrewing.com",
    "hours": null,
-   "bar": true
+   "bar": true,
+   "alcohol": true
   },
   {
    "group": "asian",
@@ -5591,7 +5804,8 @@
    "lon": -89.325413,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -5624,7 +5838,8 @@
      "20:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -5640,7 +5855,8 @@
    "lon": -89.300773,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -5675,7 +5891,8 @@
      "20:00"
     ]
    ],
-   "bar": true
+   "bar": true,
+   "alcohol": true
   },
   {
    "group": "asian",
@@ -5691,7 +5908,8 @@
    "lon": -89.377281,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -5721,7 +5939,8 @@
      "21:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "italian",
@@ -5754,7 +5973,8 @@
      "26:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "italian",
@@ -5787,7 +6007,8 @@
      "21:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "group": "italian",
@@ -5832,7 +6053,8 @@
      "26:30"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "italian",
@@ -5851,7 +6073,8 @@
    "lon": -89.537,
    "website": "https://ianspizza.com/location/verona/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "group": "asian",
@@ -5881,7 +6104,8 @@
      "21:45"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "sushi",
@@ -5899,7 +6123,8 @@
    "lon": -89.485445,
    "website": "https://ilikesushimiddleton.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -5915,7 +6140,8 @@
    "lon": -89.485185,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "sushi",
@@ -5945,7 +6171,8 @@
      "24:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "sushi",
@@ -5983,7 +6210,8 @@
      "21:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -6002,7 +6230,8 @@
    "lon": -89.511117,
    "website": "https://www.jadetruefoodwi.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -6043,7 +6272,8 @@
      "22:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -6071,7 +6301,8 @@
      "21:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "italian",
@@ -6090,7 +6321,8 @@
    "lon": -89.2322,
    "website": "https://www.jbsitaliangrille.com",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -6121,7 +6353,8 @@
      "21:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": true
   },
   {
    "group": "italian",
@@ -6140,7 +6373,8 @@
    "lon": -89.526764,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": true
   },
   {
    "group": "american",
@@ -6159,7 +6393,8 @@
    "lon": -89.270113,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": true
   },
   {
    "group": "american",
@@ -6194,7 +6429,8 @@
      "25:30"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "group": "american",
@@ -6234,7 +6470,8 @@
      "22:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -6269,7 +6506,8 @@
      "20:30"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -6285,7 +6523,8 @@
    "lon": -89.301137,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -6301,7 +6540,8 @@
    "lon": -89.30566,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "group": "sushi",
@@ -6317,7 +6557,8 @@
    "lon": -89.300947,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "med",
@@ -6349,7 +6590,8 @@
      "15:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "pub",
@@ -6377,7 +6619,8 @@
      "14:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": true
   },
   {
    "group": "med",
@@ -6393,7 +6636,8 @@
    "lon": -89.359987,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -6409,7 +6653,8 @@
    "lon": -89.503192,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -6425,7 +6670,8 @@
    "lon": -89.306123,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -6475,7 +6721,8 @@
      "01:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -6491,7 +6738,8 @@
    "lon": -89.525619,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -6509,7 +6757,8 @@
    "lon": -89.382322,
    "website": "http://www.letoile-restaurant.com",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -6525,7 +6774,8 @@
    "lon": -89.503892,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "group": "asian",
@@ -6572,7 +6822,8 @@
      "21:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -6602,7 +6853,8 @@
      "22:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -6650,7 +6902,8 @@
      "14:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -6666,7 +6919,8 @@
    "lon": -89.49434,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -6702,7 +6956,8 @@
      "20:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -6718,7 +6973,8 @@
    "lon": -89.325184,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -6734,7 +6990,8 @@
    "lon": -89.325966,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -6752,7 +7009,8 @@
    "lon": -89.290833,
    "website": "https://lataguara-madison.com/",
    "hours": null,
-   "bar": true
+   "bar": true,
+   "alcohol": true
   },
   {
    "group": "latin",
@@ -6800,7 +7058,8 @@
      "15:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -6830,7 +7089,8 @@
      "22:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -6846,7 +7106,8 @@
    "lon": -89.475619,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -6881,7 +7142,8 @@
      "21:30"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -6897,7 +7159,8 @@
    "lon": -89.474645,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -6913,7 +7176,8 @@
    "lon": -89.314642,
    "website": "https://laredosmadison.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -6929,7 +7193,8 @@
    "lon": -89.427333,
    "website": "https://laredosrestaurante.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -6963,7 +7228,8 @@
      "15:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "group": "american",
@@ -6979,7 +7245,8 @@
    "lon": -89.377082,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -7008,7 +7275,8 @@
      "21:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "pub",
@@ -7024,7 +7292,8 @@
    "lon": -89.363426,
    "website": "https://www.lolasmadison.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": true
   },
   {
    "group": "italian",
@@ -7043,7 +7312,8 @@
    "lon": -89.428908,
    "website": "https://www.lombardinos.com/",
    "hours": null,
-   "bar": true
+   "bar": true,
+   "alcohol": true
   },
   {
    "group": "american",
@@ -7061,7 +7331,8 @@
    "lon": -89.512775,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -7090,7 +7361,8 @@
      "21:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -7120,7 +7392,8 @@
      "21:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -7166,7 +7439,8 @@
      "02:00"
     ]
    ],
-   "bar": true
+   "bar": true,
+   "alcohol": true
   },
   {
    "group": "italian",
@@ -7217,7 +7491,8 @@
      "24:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "italian",
@@ -7256,7 +7531,8 @@
      "21:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -7289,7 +7565,8 @@
      "14:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "pub",
@@ -7307,7 +7584,8 @@
    "lon": -89.306033,
    "website": "",
    "hours": null,
-   "bar": true
+   "bar": true,
+   "alcohol": true
   },
   {
    "group": "latin",
@@ -7323,7 +7601,8 @@
    "lon": -89.497775,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "italian",
@@ -7355,7 +7634,8 @@
      "21:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -7373,7 +7653,8 @@
    "lon": -89.507474,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "group": "american",
@@ -7416,7 +7697,8 @@
      "14:30"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -7465,7 +7747,8 @@
      "21:30"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "indian",
@@ -7483,7 +7766,8 @@
    "lon": -89.393768,
    "website": "https://madistanwi.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -7503,7 +7787,8 @@
    "lon": -89.363301,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "group": "american",
@@ -7523,7 +7808,8 @@
    "lon": -89.498064,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "indian",
@@ -7539,7 +7825,8 @@
    "lon": -89.310749,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "indian",
@@ -7555,7 +7842,8 @@
    "lon": -89.388933,
    "website": "https://www.maharaniindianrestaurant.com",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -7571,7 +7859,8 @@
    "lon": -89.303886,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": true
   },
   {
    "group": "american",
@@ -7589,7 +7878,8 @@
    "lon": -89.381558,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -7608,7 +7898,8 @@
    "lon": -89.347203,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "group": "latin",
@@ -7644,7 +7935,8 @@
      "20:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "med",
@@ -7676,7 +7968,8 @@
      "20:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -7719,7 +8012,8 @@
      "15:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "med",
@@ -7762,7 +8056,8 @@
      "21:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -7801,7 +8096,8 @@
      "22:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "group": "american",
@@ -7839,7 +8135,8 @@
      "14:00"
     ]
    ],
-   "bar": true
+   "bar": true,
+   "alcohol": true
   },
   {
    "group": "latin",
@@ -7855,7 +8152,8 @@
    "lon": -89.422098,
    "website": "https://www.migrantsmadison.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -7886,7 +8184,8 @@
      "13:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -7922,7 +8221,8 @@
      "24:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "indian",
@@ -7938,7 +8238,8 @@
    "lon": -89.495514,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -7974,7 +8275,8 @@
      "20:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "italian",
@@ -8005,7 +8307,8 @@
      "22:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -8023,7 +8326,8 @@
    "lon": -89.524128,
    "website": "https://www.monksbarandgrill.com/location/monks-bar-and-grill-middleton/",
    "hours": null,
-   "bar": true
+   "bar": true,
+   "alcohol": true
   },
   {
    "group": "american",
@@ -8042,7 +8346,8 @@
    "lon": -89.270982,
    "website": "https://www.monksbarandgrill.com",
    "hours": null,
-   "bar": true
+   "bar": true,
+   "alcohol": true
   },
   {
    "group": "american",
@@ -8062,7 +8367,8 @@
    "lon": -89.532828,
    "website": "",
    "hours": null,
-   "bar": true
+   "bar": true,
+   "alcohol": true
   },
   {
    "group": "asian",
@@ -8098,7 +8404,8 @@
      "20:30"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -8132,7 +8439,8 @@
      "21:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "italian",
@@ -8162,7 +8470,8 @@
      "19:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -8198,7 +8507,8 @@
      "22:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "sushi",
@@ -8214,7 +8524,8 @@
    "lon": -89.497476,
    "website": "https://nani.restaurant/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "italian",
@@ -8251,7 +8562,8 @@
      "23:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "italian",
@@ -8270,7 +8582,8 @@
    "lon": -89.379736,
    "website": "https://www.nattspil.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -8286,7 +8599,8 @@
    "lon": -89.392964,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "group": "american",
@@ -8304,7 +8618,8 @@
    "lon": -89.404193,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "sushi",
@@ -8322,7 +8637,8 @@
    "lon": -89.307956,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -8367,7 +8683,8 @@
      "22:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "italian",
@@ -8406,7 +8723,8 @@
      "22:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "sushi",
@@ -8439,7 +8757,8 @@
      "22:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "sushi",
@@ -8471,7 +8790,8 @@
      "22:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -8487,7 +8807,8 @@
    "lon": -89.495948,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -8503,7 +8824,8 @@
    "lon": -89.309515,
    "website": "https://www.facebook.com/TheBayouMadison/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -8540,7 +8862,8 @@
      "14:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "sushi",
@@ -8556,7 +8879,8 @@
    "lon": -89.401003,
    "website": "https://oishimadison.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "med",
@@ -8607,7 +8931,8 @@
      "21:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -8625,7 +8950,8 @@
    "lon": -89.430064,
    "website": "https://www.olliesmadison.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -8644,7 +8970,8 @@
    "lon": -89.379064,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": true
   },
   {
    "group": "latin",
@@ -8665,7 +8992,8 @@
    "lon": -89.378904,
    "website": "https://onesocialmadison.com/food-hall/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -8702,7 +9030,8 @@
      "16:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -8737,7 +9066,8 @@
      "22:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "italian",
@@ -8774,7 +9104,8 @@
      "22:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "italian",
@@ -8805,7 +9136,8 @@
      "21:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -8823,7 +9155,8 @@
    "lon": -89.490628,
    "website": "",
    "hours": null,
-   "bar": true
+   "bar": true,
+   "alcohol": true
   },
   {
    "group": "latin",
@@ -8864,7 +9197,8 @@
      "18:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -8883,7 +9217,8 @@
    "lon": -89.405489,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "group": "american",
@@ -8918,7 +9253,8 @@
      "23:00"
     ]
    ],
-   "bar": true
+   "bar": true,
+   "alcohol": true
   },
   {
    "group": "latin",
@@ -8934,7 +9270,8 @@
    "lon": -89.302953,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -8953,7 +9290,8 @@
    "lon": -89.372743,
    "website": "https://www.palettegrill.com/",
    "hours": null,
-   "bar": true
+   "bar": true,
+   "alcohol": true
   },
   {
    "group": "italian",
@@ -8971,7 +9309,8 @@
    "lon": -89.378921,
    "website": "https://onesocialmadison.com/vendor/palio/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -8989,7 +9328,8 @@
    "lon": -89.312511,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -9008,7 +9348,8 @@
    "lon": -89.503707,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -9040,7 +9381,8 @@
      "14:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -9056,7 +9398,8 @@
    "lon": -89.413133,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -9074,7 +9417,8 @@
    "lon": -89.481133,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "group": "asian",
@@ -9109,7 +9453,8 @@
      "22:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -9128,7 +9473,8 @@
    "lon": -89.405102,
    "website": "https://www.parkwayfamilyrestaurant.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "med",
@@ -9158,7 +9504,8 @@
      "22:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -9174,7 +9521,8 @@
    "lon": -89.528847,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -9217,7 +9565,8 @@
      "14:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -9256,7 +9605,8 @@
      "14:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "italian",
@@ -9289,7 +9639,8 @@
      "21:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "group": "american",
@@ -9305,7 +9656,8 @@
    "lon": -89.394072,
    "website": "https://paulspelmenimadison.com/39592",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "med",
@@ -9324,7 +9676,8 @@
    "lon": -89.486271,
    "website": "https://petrabakeryandrestaurantwi.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -9340,7 +9693,8 @@
    "lon": -89.526717,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -9356,7 +9710,8 @@
    "lon": -89.50915,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -9392,7 +9747,8 @@
      "16:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "italian",
@@ -9425,7 +9781,8 @@
      "21:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "italian",
@@ -9444,7 +9801,8 @@
    "lon": -89.414205,
    "website": "https://pizzaextremes.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "italian",
@@ -9463,7 +9821,8 @@
    "lon": -89.218585,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "group": "sushi",
@@ -9481,7 +9840,8 @@
    "lon": -89.395649,
    "website": "https://www.pokeitup.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "group": "asian",
@@ -9517,7 +9877,8 @@
      "19:45"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -9533,7 +9894,8 @@
    "lon": -89.301269,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -9566,7 +9928,8 @@
      "14:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "pub",
@@ -9584,7 +9947,8 @@
    "lon": -89.379908,
    "website": "https://www.letsprost.com",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": true
   },
   {
    "group": "american",
@@ -9600,7 +9964,8 @@
    "lon": -89.38071,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "group": "american",
@@ -9630,7 +9995,8 @@
      "21:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "group": "asian",
@@ -9666,7 +10032,8 @@
      "21:30"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -9710,7 +10077,8 @@
      "24:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "indian",
@@ -9726,7 +10094,8 @@
    "lon": -89.523607,
    "website": "https://rajnimadison.com",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "group": "asian",
@@ -9762,7 +10131,8 @@
      "21:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -9793,7 +10163,8 @@
      "21:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": true
   },
   {
    "group": "american",
@@ -9811,7 +10182,8 @@
    "lon": -89.378886,
    "website": "https://onesocialmadison.com/vendor/real-seafood-co/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "sushi",
@@ -9849,7 +10221,8 @@
      "22:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -9868,7 +10241,8 @@
    "lon": -89.391759,
    "website": "https://redrockmadison.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": true
   },
   {
    "group": "asian",
@@ -9896,7 +10270,8 @@
      "14:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -9914,7 +10289,8 @@
    "lon": -89.46247,
    "website": "https://rexsinnkeeper.com",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -9930,7 +10306,8 @@
    "lon": -89.401661,
    "website": "https://www.housing.wisc.edu/dining/locations/rhetas/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "group": "asian",
@@ -9949,7 +10326,8 @@
    "lon": -89.396204,
    "website": "https://www.risingsonswi.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -9985,7 +10363,8 @@
      "19:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -10001,7 +10380,8 @@
    "lon": -89.373532,
    "website": "https://robiniacourtyard.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -10020,7 +10400,8 @@
    "lon": -89.293078,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -10041,7 +10422,8 @@
    "lon": -89.33956,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": true
   },
   {
    "group": "american",
@@ -10061,7 +10443,8 @@
    "lon": -89.325714,
    "website": "",
    "hours": null,
-   "bar": true
+   "bar": true,
+   "alcohol": true
   },
   {
    "group": "italian",
@@ -10080,7 +10463,8 @@
    "lon": -89.326433,
    "website": "https://rossispizzamonona.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -10116,7 +10500,8 @@
      "22:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -10132,7 +10517,8 @@
    "lon": -89.300341,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -10162,7 +10548,8 @@
      "21:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -10178,7 +10565,8 @@
    "lon": -89.500145,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -10196,7 +10584,8 @@
    "lon": -89.393314,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -10212,7 +10601,8 @@
    "lon": -89.4995,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -10231,7 +10621,8 @@
    "lon": -89.405653,
    "website": "https://saigonsandwichwi.square.site/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "sushi",
@@ -10249,7 +10640,8 @@
    "lon": -89.496542,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -10265,7 +10657,8 @@
    "lon": -89.333833,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "italian",
@@ -10309,7 +10702,8 @@
      "22:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "italian",
@@ -10347,7 +10741,8 @@
      "21:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "italian",
@@ -10366,7 +10761,8 @@
    "lon": -89.212879,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -10402,7 +10798,8 @@
      "21:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -10420,7 +10817,8 @@
    "lon": -89.374513,
    "website": "http://sardinemadison.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -10450,7 +10848,8 @@
      "21:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -10466,7 +10865,8 @@
    "lon": -89.378957,
    "website": "https://onesocialmadison.com/vendor/senora-machetes/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "sushi",
@@ -10498,7 +10898,8 @@
      "21:30"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": true
   },
   {
    "group": "asian",
@@ -10533,7 +10934,8 @@
      "14:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -10574,7 +10976,8 @@
      "20:30"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -10592,7 +10995,8 @@
    "lon": -89.393101,
    "website": "http://thesidedoorgrill.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "med",
@@ -10608,7 +11012,8 @@
    "lon": -89.394512,
    "website": "https://www.silkroadmadison.com",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -10624,7 +11029,8 @@
    "lon": -89.225602,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -10654,7 +11060,8 @@
      "20:30"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "med",
@@ -10670,7 +11077,8 @@
    "lon": -89.511034,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -10698,7 +11106,8 @@
      "14:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -10714,7 +11123,8 @@
    "lon": -89.422849,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -10755,7 +11165,8 @@
      "24:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -10771,7 +11182,8 @@
    "lon": -89.408024,
    "website": "https://union.wisc.edu/dine/find-food-and-drink/urban-slice/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -10799,7 +11211,8 @@
      "13:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -10833,7 +11246,8 @@
      "15:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": true
   },
   {
    "group": "american",
@@ -10866,7 +11280,8 @@
      "22:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "group": "american",
@@ -10885,7 +11300,8 @@
    "lon": -89.344879,
    "website": "https://www.stalzysdeli.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "pub",
@@ -10903,7 +11319,8 @@
    "lon": -89.34572,
    "website": "https://starkweatherbrewing.com/",
    "hours": null,
-   "bar": true
+   "bar": true,
+   "alcohol": true
   },
   {
    "group": "american",
@@ -10933,7 +11350,8 @@
      "19:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "italian",
@@ -10973,7 +11391,8 @@
      "22:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -11003,7 +11422,8 @@
      "21:30"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "italian",
@@ -11042,7 +11462,8 @@
      "22:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -11076,7 +11497,8 @@
      "21:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "sushi",
@@ -11115,7 +11537,8 @@
      "21:30"
     ]
    ],
-   "bar": true
+   "bar": true,
+   "alcohol": true
   },
   {
    "group": "asian",
@@ -11145,7 +11568,8 @@
      "21:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "sushi",
@@ -11183,7 +11607,8 @@
      "23:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "sushi",
@@ -11221,7 +11646,8 @@
      "21:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "indian",
@@ -11250,7 +11676,8 @@
      "21:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "indian",
@@ -11279,7 +11706,8 @@
      "21:30"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "indian",
@@ -11309,7 +11737,8 @@
      "22:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -11358,7 +11787,8 @@
      "21:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -11400,7 +11830,8 @@
      "21:30"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -11419,7 +11850,8 @@
    "lon": -89.31026,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -11451,7 +11883,8 @@
      "21:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -11467,7 +11900,8 @@
    "lon": -89.47559,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -11483,7 +11917,8 @@
    "lon": -89.47262,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -11525,7 +11960,8 @@
      "19:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -11541,7 +11977,8 @@
    "lon": -89.301059,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "indian",
@@ -11578,7 +12015,8 @@
      "21:00"
     ]
    ],
-   "bar": true
+   "bar": true,
+   "alcohol": true
   },
   {
    "group": "sushi",
@@ -11596,7 +12034,8 @@
    "lon": -89.514419,
    "website": "https://www.takara88.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "sushi",
@@ -11612,7 +12051,8 @@
    "lon": -89.474496,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -11659,7 +12099,8 @@
      "22:00"
     ]
    ],
-   "bar": true
+   "bar": true,
+   "alcohol": true
   },
   {
    "group": "latin",
@@ -11675,7 +12116,8 @@
    "lon": -89.423077,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -11705,7 +12147,8 @@
      "21:30"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -11721,7 +12164,8 @@
    "lon": -89.397484,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -11756,7 +12200,8 @@
      "15:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -11772,7 +12217,8 @@
    "lon": -89.30919,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "indian",
@@ -11801,7 +12247,8 @@
      "21:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -11831,7 +12278,8 @@
      "21:45"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "sushi",
@@ -11868,7 +12316,8 @@
      "21:00"
     ]
    ],
-   "bar": true
+   "bar": true,
+   "alcohol": true
   },
   {
    "group": "med",
@@ -11886,7 +12335,8 @@
    "lon": -89.514662,
    "website": "https://www.tazamediterranean.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -11928,7 +12378,8 @@
      "15:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "group": "american",
@@ -11972,7 +12423,8 @@
      "21:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -12011,7 +12463,8 @@
      "22:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -12041,7 +12494,8 @@
      "21:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -12057,7 +12511,8 @@
    "lon": -89.457934,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "indian",
@@ -12073,7 +12528,8 @@
    "lon": -89.361847,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "group": "american",
@@ -12107,7 +12563,8 @@
      "13:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "indian",
@@ -12142,7 +12599,8 @@
      "22:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -12179,7 +12637,8 @@
      "21:30"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "italian",
@@ -12200,7 +12659,8 @@
    "lon": -89.389989,
    "website": "https://www.icehousemadison.com/slice-house/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "sushi",
@@ -12218,7 +12678,8 @@
    "lon": -89.306036,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "med",
@@ -12250,7 +12711,8 @@
      "23:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -12293,7 +12755,8 @@
      "22:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -12331,7 +12794,8 @@
      "23:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -12349,7 +12813,8 @@
    "lon": -89.389563,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -12365,7 +12830,8 @@
    "lon": -89.478797,
    "website": "https://www.quiveysgrove.com/stone-house-restaurant",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -12395,7 +12861,8 @@
      "19:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -12415,7 +12882,8 @@
    "lon": -89.379694,
    "website": "",
    "hours": null,
-   "bar": true
+   "bar": true,
+   "alcohol": true
   },
   {
    "group": "american",
@@ -12433,7 +12901,8 @@
    "lon": -89.419161,
    "website": "https://thirstygoatbrew.com/",
    "hours": null,
-   "bar": true
+   "bar": true,
+   "alcohol": true
   },
   {
    "group": "asian",
@@ -12468,7 +12937,8 @@
      "21:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -12484,7 +12954,8 @@
    "lon": -89.497604,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -12500,7 +12971,8 @@
    "lon": -89.267932,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -12518,7 +12990,8 @@
    "lon": -89.302795,
    "website": "https://www.tobyssupperclub.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": true
   },
   {
    "group": "sushi",
@@ -12561,7 +13034,8 @@
      "21:30"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -12577,7 +13051,8 @@
    "lon": -89.501532,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -12617,7 +13092,8 @@
      "24:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": true
   },
   {
    "group": "sushi",
@@ -12633,7 +13109,8 @@
    "lon": -89.510061,
    "website": "https://www.trioramen.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "med",
@@ -12669,7 +13146,8 @@
      "22:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -12714,7 +13192,8 @@
      "14:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": true
   },
   {
    "group": "pub",
@@ -12732,7 +13211,8 @@
    "lon": -89.495851,
    "website": "",
    "hours": null,
-   "bar": true
+   "bar": true,
+   "alcohol": true
   },
   {
    "group": "asian",
@@ -12774,7 +13254,8 @@
      "21:00"
     ]
    ],
-   "bar": true
+   "bar": true,
+   "alcohol": true
   },
   {
    "group": "american",
@@ -12792,7 +13273,8 @@
    "lon": -89.324153,
    "website": "https://updowncatering.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -12830,7 +13312,8 @@
      "17:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -12862,7 +13345,8 @@
      "24:00"
     ]
    ],
-   "bar": true
+   "bar": true,
+   "alcohol": true
   },
   {
    "group": "asian",
@@ -12891,7 +13375,8 @@
      "19:30"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -12920,7 +13405,8 @@
      "20:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "italian",
@@ -12936,7 +13422,8 @@
    "lon": -89.511816,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -12954,7 +13441,8 @@
    "lon": -89.374745,
    "website": "https://vintagebrewingcompany.com/capitoleast/",
    "hours": null,
-   "bar": true
+   "bar": true,
+   "alcohol": true
   },
   {
    "group": "american",
@@ -12970,7 +13458,8 @@
    "lon": -89.497612,
    "website": "https://vitality-protein-nutrition-1.ueniweb.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "group": "american",
@@ -12988,7 +13477,8 @@
    "lon": -89.364,
    "website": "https://www.wearytravelerfreehouse.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -13008,7 +13498,8 @@
    "lon": -89.36086,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -13027,7 +13518,8 @@
    "lon": -89.435411,
    "website": "https://wingsover.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "group": "asian",
@@ -13043,7 +13535,8 @@
    "lon": -89.352102,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -13059,7 +13552,8 @@
    "lon": -89.513586,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -13075,7 +13569,8 @@
    "lon": -89.212327,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "sushi",
@@ -13118,7 +13613,8 @@
      "21:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -13154,7 +13650,8 @@
      "22:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -13170,7 +13667,8 @@
    "lon": -89.414868,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "sushi",
@@ -13214,7 +13712,8 @@
      "22:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -13230,7 +13729,8 @@
    "lon": -89.487399,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "group": "indian",
@@ -13261,7 +13761,8 @@
      "23:59"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "latin",
@@ -13277,7 +13778,8 @@
    "lon": -89.502615,
    "website": "https://zavalasmarketandtaqueria-madison-wi.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "group": "sushi",
@@ -13293,7 +13795,8 @@
    "lon": -89.300921,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": true
   },
   {
    "group": "asian",
@@ -13309,7 +13812,8 @@
    "lon": -89.301094,
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "asian",
@@ -13339,7 +13843,8 @@
      "21:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "group": "american",
@@ -13371,7 +13876,8 @@
      "20:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "group": "italian",
@@ -13391,7 +13897,8 @@
    "lon": -89.446391,
    "website": "https://www.zoespizzeria.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   }
  ]
 }

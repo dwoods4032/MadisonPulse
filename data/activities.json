@@ -24,7 +24,8 @@
    "address": "1444 East Washington Avenue",
    "website": "https://www.aftershockclassicarcade.com/",
    "hours": null,
-   "bar": true
+   "bar": true,
+   "alcohol": true
   },
   {
    "id": "osm:way/1135060528",
@@ -38,7 +39,8 @@
    "address": "",
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "id": "osm:way/105823620",
@@ -52,7 +54,8 @@
    "address": "438 Grand Canyon Drive",
    "website": "https://locations.chuckecheese.com/us/wi/madison/438-grand-canyon-dr.",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "id": "osm:node/5425792364",
@@ -66,7 +69,8 @@
    "address": "",
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "id": "osm:node/12112935176",
@@ -80,7 +84,8 @@
    "address": "347 State Street",
    "website": "https://www.doubletapbeercade.com/location/madison/",
    "hours": null,
-   "bar": true
+   "bar": true,
+   "alcohol": true
   },
   {
    "id": "osm:node/5503513787",
@@ -114,7 +119,8 @@
      "24:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "id": "osm:way/385735932",
@@ -128,7 +134,8 @@
    "address": "920;720 Williamson Street",
    "website": "",
    "hours": null,
-   "bar": true
+   "bar": true,
+   "alcohol": true
   },
   {
    "id": "osm:node/12142917276",
@@ -142,7 +149,8 @@
    "address": "",
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "id": "osm:way/322768190",
@@ -156,7 +164,8 @@
    "address": "4503 Monona Drive",
    "website": "https://rossispizzamonona.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "id": "osm:node/13104814630",
@@ -170,7 +179,8 @@
    "address": "2427 South Stoughton Road",
    "website": "https://www.madisonaxe.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": true
   },
   {
    "id": "osm:way/105672048",
@@ -184,7 +194,8 @@
    "address": "",
    "website": "https://bowlavard.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": true
   },
   {
    "id": "osm:way/438200040",
@@ -198,7 +209,8 @@
    "address": "",
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": true
   },
   {
    "id": "osm:node/6193010119",
@@ -212,7 +224,8 @@
    "address": "430 Clarmar Drive",
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": true
   },
   {
    "id": "osm:way/105823610",
@@ -226,7 +239,8 @@
    "address": "444 Grand Canyon Drive",
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": true
   },
   {
    "id": "osm:way/106497401",
@@ -240,7 +254,8 @@
    "address": "",
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": true
   },
   {
    "id": "osm:way/107655171",
@@ -254,7 +269,8 @@
    "address": "",
    "website": "https://www.tenpinalleys.com/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": true
   },
   {
    "id": "osm:way/97601589",
@@ -268,7 +284,8 @@
    "address": "",
    "website": "",
    "hours": null,
-   "bar": true
+   "bar": true,
+   "alcohol": true
   },
   {
    "id": "osm:node/5065146259",
@@ -282,7 +299,8 @@
    "address": "",
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": true
   },
   {
    "id": "osm:way/241950471",
@@ -296,7 +314,8 @@
    "address": "",
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": true
   },
   {
    "id": "osm:way/370277876",
@@ -310,7 +329,8 @@
    "address": "6091 McKee Road",
    "website": "https://www.amctheatres.com/movie-theatres/madison/amc-fitchburg-18",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "id": "osm:way/783129314",
@@ -324,7 +344,8 @@
    "address": "",
    "website": "https://cinema.wisc.edu/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "id": "osm:way/1135060542",
@@ -338,7 +359,8 @@
    "address": "85 E Towne Mall",
    "website": "https://www.flixbrewhouse.com/madison",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "id": "osm:way/539042285",
@@ -352,7 +374,8 @@
    "address": "2830 Hoepker Road",
    "website": "https://www.marcustheatres.com/theatre-locations/palace-cinema-sun-prairie",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "id": "osm:way/49982470",
@@ -366,7 +389,8 @@
    "address": "7825 Big Sky Drive",
    "website": "http://marcustheatres.com/Theatre/TheatreDetail/141/",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "id": "osm:node/2969024345",
@@ -380,7 +404,8 @@
    "address": "",
    "website": "https://union.wisc.edu/marquee.htm",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": null
   },
   {
    "id": "osm:way/90922863",
@@ -420,7 +445,8 @@
      "22:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": true
   },
   {
    "id": "osm:node/5642132121",
@@ -434,7 +460,8 @@
    "address": "120 East Wilson Street",
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "id": "osm:node/9160574717",
@@ -448,7 +475,8 @@
    "address": "",
    "website": "",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "id": "osm:node/5457526617",
@@ -462,7 +490,8 @@
    "address": "2134 West Beltline Highway",
    "website": "https://www.skyzone.com/madison",
    "hours": null,
-   "bar": false
+   "bar": false,
+   "alcohol": false
   },
   {
    "id": "osm:way/86579194",
@@ -508,7 +537,8 @@
      "20:00"
     ]
    ],
-   "bar": false
+   "bar": false,
+   "alcohol": false
   }
  ]
 }
