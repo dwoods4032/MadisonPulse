@@ -198,5 +198,533 @@
  "osm:node/12603903664": {
   "alcohol": true,
   "alcohol_how": "keywords"
+ },
+ "osm:node/10815180247": {
+  "alcohol_checked": "2026-10-27T12:02:59.197292-05:00"
+ },
+ "osm:way/440518288": {
+  "alcohol_checked": "2026-10-27T12:02:59.725702-05:00"
+ },
+ "osm:way/345755104": {
+  "alcohol_checked": "2026-10-27T12:02:59.725731-05:00"
+ },
+ "osm:way/265137656": {
+  "alcohol_checked": "2026-10-27T12:03:01.844252-05:00"
+ },
+ "osm:way/105672048": {
+  "alcohol_checked": "2026-10-27T12:03:02.969671-05:00"
+ },
+ "osm:way/385639211": {
+  "alcohol_checked": "2026-10-27T12:03:02.969700-05:00"
+ },
+ "osm:node/10833984405": {
+  "alcohol_checked": "2026-10-27T12:03:02.969709-05:00"
+ },
+ "osm:node/5661434234": {
+  "alcohol_checked": "2026-10-27T12:03:03.468199-05:00"
+ },
+ "osm:way/648491905": {
+  "alcohol_checked": "2026-10-27T12:03:03.519510-05:00"
+ },
+ "osm:node/7463800712": {
+  "alcohol_checked": "2026-10-27T12:03:07.965470-05:00"
+ },
+ "osm:node/10102228862": {
+  "alcohol_checked": "2026-10-27T12:03:07.965502-05:00"
+ },
+ "osm:node/7066864451": {
+  "alcohol_checked": "2026-10-27T12:03:07.965516-05:00"
+ },
+ "osm:way/102371335": {
+  "alcohol_checked": "2026-10-27T12:03:07.965523-05:00"
+ },
+ "osm:way/98799451": {
+  "alcohol_checked": "2026-10-27T12:03:07.965531-05:00"
+ },
+ "osm:node/14072692008": {
+  "alcohol_checked": "2026-10-27T12:03:07.965539-05:00"
+ },
+ "osm:way/667694679": {
+  "alcohol_checked": "2026-10-27T12:03:10.951020-05:00"
+ },
+ "osm:node/1962212443": {
+  "alcohol_checked": "2026-10-27T12:03:14.545415-05:00"
+ },
+ "osm:node/7024502062": {
+  "group": "asian",
+  "alcohol_checked": "2026-10-27T12:03:16.070213-05:00"
+ },
+ "osm:node/13413565901": {
+  "group": "american",
+  "alcohol": false,
+  "alcohol_how": "AI"
+ },
+ "osm:node/2522752351": {
+  "group": "asian",
+  "alcohol_checked": "2026-10-27T12:03:18.850174-05:00"
+ },
+ "osm:node/12953949646": {
+  "group": "latin",
+  "alcohol_checked": "2026-10-27T12:03:19.001550-05:00"
+ },
+ "osm:way/282291147": {
+  "group": "pub",
+  "alcohol": true,
+  "alcohol_how": "AI"
+ },
+ "osm:node/2295991249": {
+  "group": "asian",
+  "alcohol_checked": "2026-10-27T12:03:22.517546-05:00"
+ },
+ "osm:node/4420722628": {
+  "group": "med",
+  "alcohol_checked": "2026-10-27T12:03:22.890624-05:00"
+ },
+ "osm:node/2498035958": {
+  "group": "sushi",
+  "alcohol_checked": "2026-10-27T12:03:22.913570-05:00"
+ },
+ "osm:way/1357872781": {
+  "group": "sushi",
+  "alcohol_checked": "2026-10-27T12:03:22.913604-05:00"
+ },
+ "osm:way/504571755": {
+  "group": "latin",
+  "alcohol_checked": "2026-10-27T12:03:25.037676-05:00"
+ },
+ "osm:way/97601683": {
+  "group": "american",
+  "alcohol": false,
+  "alcohol_how": "AI"
+ },
+ "osm:node/12724389604": {
+  "group": "asian",
+  "alcohol_checked": "2026-10-27T12:03:27.016926-05:00"
+ },
+ "osm:node/11481066665": {
+  "group": "latin",
+  "alcohol_checked": "2026-10-27T12:03:28.201562-05:00"
+ },
+ "osm:node/11208803891": {
+  "group": "italian",
+  "alcohol_checked": "2026-10-27T12:03:28.201595-05:00"
+ },
+ "osm:node/478453964": {
+  "group": "asian",
+  "alcohol_checked": "2026-10-27T12:03:28.411562-05:00"
+ },
+ "osm:node/7369644694": {
+  "group": "asian",
+  "alcohol_checked": "2026-10-27T12:03:28.657951-05:00"
+ },
+ "osm:way/265142748": {
+  "group": "asian",
+  "alcohol_checked": "2026-10-27T12:03:28.658016-05:00"
+ },
+ "osm:way/1441716339": {
+  "group": "american",
+  "alcohol": false,
+  "alcohol_how": "AI"
+ },
+ "osm:node/10577941111": {
+  "group": "american",
+  "alcohol_checked": "2026-10-27T12:03:34.240033-05:00"
+ },
+ "osm:way/105825551": {
+  "group": "american",
+  "alcohol_checked": "2026-10-27T12:03:34.240066-05:00"
+ },
+ "osm:way/306596403": {
+  "group": "american",
+  "alcohol_checked": "2026-10-27T12:03:34.240074-05:00"
+ },
+ "osm:node/1855692032": {
+  "group": "american",
+  "alcohol": false,
+  "alcohol_how": "AI"
+ },
+ "osm:node/9669189765": {
+  "group": "asian",
+  "alcohol": true,
+  "alcohol_how": "AI"
+ },
+ "osm:way/568839475": {
+  "group": "american",
+  "alcohol_checked": "2026-10-27T12:03:35.921928-05:00"
+ },
+ "osm:node/5065146254": {
+  "group": "latin",
+  "alcohol": true,
+  "alcohol_how": "AI"
+ },
+ "osm:node/6861380370": {
+  "group": "indian",
+  "alcohol_checked": "2026-10-27T12:03:38.052208-05:00"
+ },
+ "osm:node/5557859109": {
+  "group": "pub",
+  "alcohol_checked": "2026-10-27T12:03:40.098318-05:00"
+ },
+ "osm:node/6841099471": {
+  "group": "asian",
+  "alcohol_checked": "2026-10-27T12:03:43.089863-05:00"
+ },
+ "osm:node/13464385332": {
+  "group": "latin",
+  "alcohol_checked": "2026-10-27T12:03:43.089907-05:00"
+ },
+ "osm:node/7103345398": {
+  "group": "latin",
+  "alcohol_checked": "2026-10-27T12:03:43.089915-05:00"
+ },
+ "osm:node/1345484708": {
+  "alcohol_checked": "2026-10-27T12:03:43.089928-05:00"
+ },
+ "osm:node/1186808271": {
+  "group": "italian",
+  "alcohol": true,
+  "alcohol_how": "AI"
+ },
+ "osm:node/12368220428": {
+  "group": "asian",
+  "alcohol": true,
+  "alcohol_how": "AI"
+ },
+ "osm:node/14229564801": {
+  "group": "sushi",
+  "alcohol_checked": "2026-10-27T12:03:44.988893-05:00"
+ },
+ "osm:node/8632908427": {
+  "group": "american",
+  "alcohol": false,
+  "alcohol_how": "AI"
+ },
+ "osm:way/1134399614": {
+  "group": "sushi",
+  "alcohol_checked": "2026-10-27T12:03:48.214107-05:00"
+ },
+ "osm:node/6392030295": {
+  "group": "sushi",
+  "alcohol_checked": "2026-10-27T12:03:49.546942-05:00"
+ },
+ "osm:way/677658215": {
+  "group": "italian",
+  "alcohol": true,
+  "alcohol_how": "AI"
+ },
+ "osm:node/14318530901": {
+  "group": "indian",
+  "alcohol_checked": "2026-10-27T12:03:50.689367-05:00"
+ },
+ "osm:node/1112503226": {
+  "group": "american",
+  "alcohol": true,
+  "alcohol_how": "AI"
+ },
+ "osm:node/3890973379": {
+  "group": "american",
+  "alcohol": false,
+  "alcohol_how": "AI"
+ },
+ "osm:node/5611826734": {
+  "group": "asian",
+  "alcohol_checked": "2026-10-27T12:03:52.525130-05:00"
+ },
+ "osm:node/4200734708": {
+  "group": "asian",
+  "alcohol_checked": "2026-10-27T12:03:53.978183-05:00"
+ },
+ "osm:node/3711907488": {
+  "group": "pub",
+  "alcohol": true,
+  "alcohol_how": "AI"
+ },
+ "osm:node/5557859108": {
+  "group": "italian",
+  "alcohol_checked": "2026-10-27T12:03:57.761511-05:00"
+ },
+ "osm:node/3227574169": {
+  "group": "italian",
+  "alcohol_checked": "2026-10-27T12:03:59.514919-05:00"
+ },
+ "osm:node/14093574934": {
+  "group": "sushi",
+  "alcohol_checked": "2026-10-27T12:03:59.514957-05:00"
+ },
+ "osm:node/11874818969": {
+  "group": "indian",
+  "alcohol": true,
+  "alcohol_how": "AI"
+ },
+ "osm:way/274059853": {
+  "group": "med",
+  "alcohol": true,
+  "alcohol_how": "AI"
+ },
+ "osm:way/107261614": {
+  "group": "latin",
+  "alcohol": true,
+  "alcohol_how": "AI"
+ },
+ "osm:node/4638859654": {
+  "group": "latin",
+  "alcohol": true,
+  "alcohol_how": "AI"
+ },
+ "osm:node/9435273717": {
+  "group": "asian",
+  "alcohol_checked": "2026-10-27T12:04:04.781469-05:00"
+ },
+ "osm:node/7486288098": {
+  "group": "american",
+  "alcohol": true,
+  "alcohol_how": "AI"
+ },
+ "osm:node/5661434237": {
+  "group": "sushi",
+  "alcohol_checked": "2026-10-27T12:04:07.988228-05:00"
+ },
+ "osm:node/2522478685": {
+  "group": "indian",
+  "alcohol_checked": "2026-10-27T12:04:07.988261-05:00"
+ },
+ "osm:way/479198040": {
+  "group": "latin",
+  "alcohol": true,
+  "alcohol_how": "AI"
+ },
+ "osm:node/12277135590": {
+  "group": "med",
+  "alcohol_checked": "2026-10-27T12:04:09.423517-05:00"
+ },
+ "osm:node/12030199280": {
+  "group": "american",
+  "alcohol": true,
+  "alcohol_how": "AI"
+ },
+ "osm:node/11833834069": {
+  "group": "latin",
+  "alcohol_checked": "2026-10-27T12:04:10.535111-05:00"
+ },
+ "osm:node/12415880767": {
+  "group": "italian",
+  "alcohol": true,
+  "alcohol_how": "AI"
+ },
+ "osm:way/157654343": {
+  "group": "american",
+  "alcohol_checked": "2026-10-27T12:04:13.130046-05:00"
+ },
+ "osm:node/6496279986": {
+  "group": "asian",
+  "alcohol": true,
+  "alcohol_how": "AI"
+ },
+ "osm:node/9068716875": {
+  "group": "italian",
+  "alcohol": true,
+  "alcohol_how": "AI"
+ },
+ "osm:node/2670540410": {
+  "group": "asian",
+  "alcohol": true,
+  "alcohol_how": "AI"
+ },
+ "osm:node/2527415784": {
+  "group": "sushi",
+  "alcohol": true,
+  "alcohol_how": "AI"
+ },
+ "osm:way/468747676": {
+  "group": "american",
+  "alcohol_checked": "2026-10-27T12:04:17.603201-05:00"
+ },
+ "osm:node/13296700849": {
+  "group": "italian",
+  "alcohol": true,
+  "alcohol_how": "AI"
+ },
+ "osm:node/14167538858": {
+  "group": "latin",
+  "alcohol_checked": "2026-10-27T12:04:19.902622-05:00"
+ },
+ "osm:node/13312456627": {
+  "group": "italian",
+  "alcohol_checked": "2026-10-27T12:04:20.922506-05:00"
+ },
+ "osm:way/371450162": {
+  "group": "american",
+  "alcohol_checked": "2026-10-27T12:04:20.922538-05:00"
+ },
+ "osm:way/1435799734": {
+  "group": "med",
+  "alcohol_checked": "2026-10-27T12:04:22.087038-05:00"
+ },
+ "osm:node/8069368096": {
+  "group": "american",
+  "alcohol_checked": "2026-10-27T12:04:22.736869-05:00"
+ },
+ "osm:way/1441901383": {
+  "group": "asian",
+  "alcohol": true,
+  "alcohol_how": "AI"
+ },
+ "osm:way/1434977514": {
+  "group": "american",
+  "alcohol_checked": "2026-10-27T12:04:24.799944-05:00"
+ },
+ "osm:way/361992422": {
+  "group": "italian",
+  "alcohol_checked": "2026-10-27T12:04:25.783384-05:00"
+ },
+ "osm:way/1435681642": {
+  "group": "asian",
+  "alcohol_checked": "2026-10-27T12:04:25.783416-05:00"
+ },
+ "osm:node/4328519660": {
+  "group": "american",
+  "alcohol": false,
+  "alcohol_how": "AI"
+ },
+ "osm:node/5744931709": {
+  "group": "asian",
+  "alcohol_checked": "2026-10-27T12:04:29.382135-05:00"
+ },
+ "osm:node/13312456629": {
+  "group": "american",
+  "alcohol_checked": "2026-10-27T12:04:29.382163-05:00"
+ },
+ "osm:node/13929143204": {
+  "group": "american",
+  "alcohol_checked": "2026-10-27T12:04:34.557564-05:00"
+ },
+ "osm:node/6841099469": {
+  "group": "asian",
+  "alcohol_checked": "2026-10-27T12:04:34.557598-05:00"
+ },
+ "osm:node/5180228467": {
+  "alcohol_checked": "2026-10-27T12:04:34.557609-05:00"
+ },
+ "osm:node/7180420369": {
+  "group": "asian",
+  "alcohol_checked": "2026-10-27T12:04:36.643487-05:00"
+ },
+ "osm:node/434789237": {
+  "group": "asian",
+  "alcohol_checked": "2026-10-27T12:04:37.094284-05:00"
+ },
+ "osm:node/14313871765": {
+  "group": "asian",
+  "alcohol_checked": "2026-10-27T12:04:37.094312-05:00"
+ },
+ "osm:node/9560931481": {
+  "group": "italian",
+  "alcohol_checked": "2026-10-27T12:04:37.588949-05:00"
+ },
+ "osm:node/1709850691": {
+  "group": "latin",
+  "alcohol_checked": "2026-10-27T12:04:38.383165-05:00"
+ },
+ "osm:way/1541052741": {
+  "group": "med",
+  "alcohol": true,
+  "alcohol_how": "AI"
+ },
+ "osm:node/13312456630": {
+  "group": "latin",
+  "alcohol_checked": "2026-10-27T12:04:39.717737-05:00"
+ },
+ "osm:node/9191892121": {
+  "group": "latin",
+  "alcohol_checked": "2026-10-27T12:04:42.833655-05:00"
+ },
+ "osm:way/224607281": {
+  "group": "med",
+  "alcohol_checked": "2026-10-27T12:04:42.833686-05:00"
+ },
+ "osm:node/4085791927": {
+  "group": "asian",
+  "alcohol_checked": "2026-10-27T12:04:42.833696-05:00"
+ },
+ "osm:way/345756208": {
+  "group": "american",
+  "alcohol": false,
+  "alcohol_how": "AI"
+ },
+ "osm:node/9125264151": {
+  "group": "asian",
+  "alcohol_checked": "2026-10-27T12:04:44.082565-05:00"
+ },
+ "osm:node/2527415785": {
+  "group": "asian",
+  "alcohol_checked": "2026-10-27T12:04:45.559599-05:00"
+ },
+ "osm:way/1387374865": {
+  "group": "indian",
+  "alcohol_checked": "2026-10-27T12:04:46.207393-05:00"
+ },
+ "osm:node/2584271738": {
+  "group": "indian",
+  "alcohol_checked": "2026-10-27T12:04:46.883570-05:00"
+ },
+ "osm:node/4200704144": {
+  "group": "med",
+  "alcohol_checked": "2026-10-27T12:04:47.582012-05:00"
+ },
+ "osm:node/5017044586": {
+  "group": "american",
+  "alcohol_checked": "2026-10-27T12:04:47.582044-05:00"
+ },
+ "osm:node/10932529753": {
+  "group": "asian",
+  "alcohol_checked": "2026-10-27T12:04:49.621097-05:00"
+ },
+ "osm:node/3151821562": {
+  "group": "italian",
+  "alcohol_checked": "2026-10-27T12:04:49.621126-05:00"
+ },
+ "osm:node/7068038652": {
+  "group": "sushi",
+  "alcohol_checked": "2026-10-27T12:04:49.621141-05:00"
+ },
+ "osm:node/4453694941": {
+  "group": "asian",
+  "alcohol_checked": "2026-10-27T12:04:51.955483-05:00"
+ },
+ "osm:node/11251886011": {
+  "group": "med",
+  "alcohol_checked": "2026-10-27T12:04:52.601445-05:00"
+ },
+ "osm:node/2296107853": {
+  "group": "american",
+  "alcohol_checked": "2026-10-27T12:04:52.601483-05:00"
+ },
+ "osm:node/6776001050": {
+  "group": "asian",
+  "alcohol_checked": "2026-10-27T12:04:52.601492-05:00"
+ },
+ "osm:way/678325943": {
+  "group": "sushi",
+  "alcohol_checked": "2026-10-27T12:04:54.065365-05:00"
+ },
+ "osm:node/5170540040": {
+  "group": "asian",
+  "alcohol_checked": "2026-10-27T12:04:54.065397-05:00"
+ },
+ "osm:node/2484210263": {
+  "group": "american",
+  "alcohol_checked": "2026-10-27T12:04:56.567284-05:00"
+ },
+ "osm:way/105823620": {
+  "alcohol_checked": "2026-10-27T12:04:59.156783-05:00"
+ },
+ "osm:way/783129314": {
+  "alcohol_checked": "2026-10-27T12:05:04.548850-05:00"
+ },
+ "osm:way/539042285": {
+  "alcohol_checked": "2026-10-27T12:05:04.548881-05:00"
+ },
+ "osm:way/49982470": {
+  "alcohol_checked": "2026-10-27T12:05:04.548890-05:00"
  }
 }
