@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-27T18:06:32-05:00",
+ "generated_at": "2026-10-27T18:08:50-05:00",
  "venues_checked": 237,
- "venues_with_events": 66,
- "venues_with_feeds": 86,
- "events": 417,
- "filtered_out": 144,
+ "venues_with_events": 63,
+ "venues_with_feeds": 83,
+ "events": 414,
+ "filtered_out": 141,
  "venues": [
   {
    "name": "AI page reading",
@@ -13,12 +13,12 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 173,
+   "raw_events": 167,
    "error": "",
-   "calls": 3,
-   "tokens_in": 8197,
-   "tokens_out": 4334,
-   "est_cost_usd": 0.003
+   "calls": 0,
+   "tokens_in": 0,
+   "tokens_out": 0,
+   "est_cost_usd": 0.0
   },
   {
    "name": "Isthmus calendar",
@@ -28,10 +28,7 @@
     "calendar"
    ],
    "raw_events": 166,
-   "error": "",
-   "api": {
-    "error": "blocked by the site's robots.txt"
-   }
+   "error": "used today's copy (read once a day)"
   },
   {
    "name": "Bayview Community Center",
@@ -537,16 +534,6 @@
    "error": ""
   },
   {
-   "name": "Imagination Center",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 2,
-   "error": ""
-  },
-  {
    "name": "Karben4 Brewing",
    "kind": "brewery",
    "website": "https://www.karben4.com/",
@@ -597,29 +584,9 @@
    "error": ""
   },
   {
-   "name": "Pinney Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 2,
-   "error": ""
-  },
-  {
    "name": "Roxxy",
    "kind": "bar",
    "website": "https://www.roxxybar.com/location/madison/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 2,
-   "error": ""
-  },
-  {
-   "name": "Sequoya Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/sequoya",
    "feeds": [
     "ai"
    ],
@@ -1244,6 +1211,14 @@
    "error": "PermissionError: robots.txt disallows https://imaginary-factory.com/"
   },
   {
+   "name": "Imagination Center",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
+   "feeds": [],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
    "name": "Indie Coffee",
    "kind": "cafe",
    "website": "https://indiecoffee.net/index.html",
@@ -1586,6 +1561,14 @@
    "error": "PermissionError: robots.txt disallows https://linktr.ee/pksuw"
   },
   {
+   "name": "Pinney Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
+   "feeds": [],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
    "name": "Plaza Bar",
    "kind": "bar",
    "website": "https://theplazatavern.com/",
@@ -1655,6 +1638,14 @@
    "name": "Rotunda Cafe",
    "kind": "cafe",
    "website": "https://www.rotundacafeatwood.com/",
+   "feeds": [],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
+   "name": "Sequoya Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/sequoya",
    "feeds": [],
    "raw_events": 0,
    "error": ""

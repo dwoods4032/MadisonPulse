@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-27T18:06:32-05:00",
+ "generated_at": "2026-10-27T18:08:50-05:00",
  "window": {
-  "from": "2026-10-27T12:05-05:00",
-  "to": "2026-11-10T18:05-06:00"
+  "from": "2026-10-27T12:07-05:00",
+  "to": "2026-11-10T18:07-06:00"
  },
- "count": 417,
+ "count": 414,
  "events": [
   {
    "id": "c7464f5943e9",
@@ -184,75 +184,6 @@
    "address": "701 E Washington Ave",
    "lat": 43.0797191,
    "lon": -89.3762962,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "5c5c7ecf3502",
-   "title": "Mini Figure Painting (5 of 6 part series)",
-   "start": "2026-10-27T18:00-05:00",
-   "end": "2026-10-27T19:30-05:00",
-   "all_day": false,
-   "category": "trivia",
-   "price": null,
-   "description": "Hands-on five-part miniature painting series for adults 16+, creating miniature characters for Dungeons & Dragons and other games.",
-   "url": "https://www.madisonpubliclibrary.org/locations/imagination-center",
-   "image": "",
-   "venue": "Imagination Center",
-   "venue_id": "osm:way/1562302805",
-   "venue_kind": "library",
-   "address": "1814 Parkside Drive",
-   "lat": 43.1240118,
-   "lon": -89.3168809,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "d1d6d9680887",
-   "title": "Mini Figure Painting (5 of 6 part series)",
-   "start": "2026-10-27T18:00-05:00",
-   "end": "2026-10-27T19:30-05:00",
-   "all_day": false,
-   "category": "trivia",
-   "price": null,
-   "description": "Hands-on five-part miniature painting series for adults 16+, creating miniature characters for Dungeons & Dragons and other games.",
-   "url": "https://www.madisonpubliclibrary.org/locations/pinney-library",
-   "image": "",
-   "venue": "Pinney Library",
-   "venue_id": "osm:node/7234376294",
-   "venue_kind": "library",
-   "address": "516 Cottage Grove Road",
-   "lat": 43.0841729,
-   "lon": -89.3176486,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "bca8178f23ab",
-   "title": "Mini Figure Painting (5 of 6 part series)",
-   "start": "2026-10-27T18:00-05:00",
-   "end": "2026-10-27T19:30-05:00",
-   "all_day": false,
-   "category": "trivia",
-   "price": null,
-   "description": "Hands-on five-part miniature painting series for adults 16+, creating miniature characters for Dungeons & Dragons and other games.",
-   "url": "https://www.madisonpubliclibrary.org/sequoya",
-   "image": "",
-   "venue": "Sequoya Library",
-   "venue_id": "osm:node/1473488018",
-   "venue_kind": "library",
-   "address": "4340 Tokay Boulevard",
-   "lat": 43.0537698,
-   "lon": -89.4505289,
    "source": "ai",
    "sources": [
     "AI page reading"

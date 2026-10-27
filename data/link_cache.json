@@ -2794,16 +2794,6 @@
   "why": "",
   "checked": "2026-10-27T14:41:53.387275-05:00"
  },
- "https://www.madisonpubliclibrary.org/locations/imagination-center": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T16:18:00.671665-05:00"
- },
- "https://www.madisonpubliclibrary.org/sequoya": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T16:18:02.356931-05:00"
- },
  "https://changjiangverona.com/changjiangverona/menu": {
   "ok": false,
   "why": "HTTP 404 from Vercel",
@@ -2823,11 +2813,6 @@
   "ok": true,
   "why": "",
   "checked": "2026-10-27T17:48:51.340853-05:00"
- },
- "https://www.madisonpubliclibrary.org/locations/pinney-library": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T17:48:51.813670-05:00"
  },
  "https://bartelltheatre.org/": {
   "ok": true,
