@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-27T17:21:49-05:00",
+ "generated_at": "2026-10-27T17:48:50-05:00",
  "venues_checked": 237,
- "venues_with_events": 58,
- "venues_with_feeds": 84,
- "events": 361,
- "filtered_out": 92,
+ "venues_with_events": 68,
+ "venues_with_feeds": 88,
+ "events": 414,
+ "filtered_out": 160,
  "venues": [
   {
    "name": "AI page reading",
@@ -13,12 +13,12 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 174,
+   "raw_events": 189,
    "error": "",
-   "calls": 9,
-   "tokens_in": 24839,
-   "tokens_out": 13561,
-   "est_cost_usd": 0.0093
+   "calls": 3,
+   "tokens_in": 11249,
+   "tokens_out": 4104,
+   "est_cost_usd": 0.0032
   },
   {
    "name": "Isthmus calendar",
@@ -27,8 +27,20 @@
    "feeds": [
     "calendar"
    ],
-   "raw_events": 160,
-   "error": "used today's copy (read once a day)"
+   "raw_events": 164,
+   "error": "",
+   "by_date": "the calendar ignored the date"
+  },
+  {
+   "name": "Bayview Community Center",
+   "kind": "community",
+   "website": "https://www.bayviewfoundation.org",
+   "feeds": [
+    "tribe",
+    "jsonld"
+   ],
+   "raw_events": 82,
+   "error": ""
   },
   {
    "name": "Ticketmaster",
@@ -107,6 +119,20 @@
    "error": "ical: ConnectionError: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //www.mcfarlandlibrary.org/calendar/month (Caused by NameResolutionError(\"HTTPSConnection(host='https"
   },
   {
+   "name": "Lone Girl Tap Room And Pizza Company",
+   "kind": "bar",
+   "website": "https://thelonegirl.com",
+   "feeds": [
+    "tribe",
+    "jsonld",
+    "jsonld",
+    "jsonld",
+    "jsonld"
+   ],
+   "raw_events": 15,
+   "error": ""
+  },
+  {
    "name": "Madison Youth Arts (MYArts)",
    "kind": "venue",
    "website": "https://www.madisonyoutharts.org/",
@@ -161,14 +187,24 @@
    "error": ""
   },
   {
+   "name": "Bartell Theatre",
+   "kind": "venue",
+   "website": "https://bartelltheatre.org/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 8,
+   "error": ""
+  },
+  {
    "name": "The Kickback",
    "kind": "bar",
    "website": "https://thekickback.bar/",
    "feeds": [
     "ai"
    ],
-   "raw_events": 9,
-   "error": ""
+   "raw_events": 8,
+   "error": "ai: ReadTimeout: HTTPSConnectionPool(host='thekickback.bar', port=443): Read timed out. (read timeout=15)"
   },
   {
    "name": "Lazy Oaf Lounge",
@@ -201,16 +237,6 @@
    "error": ""
   },
   {
-   "name": "Alicia Ashman Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 6,
-   "error": ""
-  },
-  {
    "name": "Arts + Literature Laboratory",
    "kind": "venue",
    "website": "https://artlitlab.org/",
@@ -232,16 +258,6 @@
    "error": ""
   },
   {
-   "name": "Imagination Center",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 6,
-   "error": ""
-  },
-  {
    "name": "Orpheum Theatre",
    "kind": "venue",
    "website": "https://madisonorpheum.com/",
@@ -252,13 +268,13 @@
    "error": ""
   },
   {
-   "name": "Sequoya Library",
+   "name": "Alicia Ashman Library",
    "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/sequoya",
+   "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
    "feeds": [
     "ai"
    ],
-   "raw_events": 6,
+   "raw_events": 5,
    "error": ""
   },
   {
@@ -308,6 +324,16 @@
    "error": ""
   },
   {
+   "name": "Imagination Center",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 5,
+   "error": ""
+  },
+  {
    "name": "Monroe Street Library",
    "kind": "library",
    "website": "https://www.madisonpubliclibrary.org/monroe-street",
@@ -321,6 +347,16 @@
    "name": "Pinney Library",
    "kind": "library",
    "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 5,
+   "error": ""
+  },
+  {
+   "name": "Sequoya Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/sequoya",
    "feeds": [
     "ai"
    ],
@@ -350,6 +386,26 @@
    "error": ""
   },
   {
+   "name": "Children's Theater of Madison",
+   "kind": "venue",
+   "website": "https://ctmtheater.org/",
+   "feeds": [
+    "tribe"
+   ],
+   "raw_events": 4,
+   "error": ""
+  },
+  {
+   "name": "Crystal Corner Bar",
+   "kind": "bar",
+   "website": "https://thecrystalcornerbar.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 4,
+   "error": ""
+  },
+  {
    "name": "Dexter's Pub",
    "kind": "bar",
    "website": "https://www.dexterspubmadison.com/",
@@ -364,6 +420,27 @@
    "name": "Laurel Tavern",
    "kind": "bar",
    "website": "http://www.thelaureltavern.com",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 4,
+   "error": ""
+  },
+  {
+   "name": "One Social Bar",
+   "kind": "bar",
+   "website": "https://onesocialmadison.com/vendor/one-social-bar/",
+   "feeds": [
+    "tribe",
+    "jsonld"
+   ],
+   "raw_events": 4,
+   "error": ""
+  },
+  {
+   "name": "The Malt House",
+   "kind": "bar",
+   "website": "http://malthousetavern.com/",
    "feeds": [
     "ai"
    ],
@@ -518,9 +595,29 @@
    "error": ""
   },
   {
+   "name": "Monkeyshines Bar & Grill",
+   "kind": "bar",
+   "website": "http://www.monkeyshinesbarandgrill.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 2,
+   "error": ""
+  },
+  {
    "name": "Mother Fool's",
    "kind": "cafe",
    "website": "https://www.motherfools.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 2,
+   "error": ""
+  },
+  {
+   "name": "Old Sugar Distillery",
+   "kind": "brewery",
+   "website": "https://oldsugardistillery.com/",
    "feeds": [
     "ai"
    ],
@@ -580,9 +677,9 @@
    "error": ""
   },
   {
-   "name": "Central Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/central",
+   "name": "Gamma Ray Bar",
+   "kind": "bar",
+   "website": "https://gammaray.bar",
    "feeds": [
     "ai"
    ],
@@ -590,11 +687,21 @@
    "error": ""
   },
   {
-   "name": "Gamma Ray Bar",
-   "kind": "bar",
-   "website": "https://gammaray.bar",
+   "name": "Goodman Community Center",
+   "kind": "community",
+   "website": "https://www.goodmancenter.org/",
    "feeds": [
-    "ai"
+    "jsonld"
+   ],
+   "raw_events": 1,
+   "error": ""
+  },
+  {
+   "name": "Goodman Community Center",
+   "kind": "community",
+   "website": "https://www.goodmancenter.org/",
+   "feeds": [
+    "jsonld"
    ],
    "raw_events": 1,
    "error": ""
@@ -726,25 +833,6 @@
    "error": ""
   },
   {
-   "name": "Bartell Theatre",
-   "kind": "venue",
-   "website": "https://bartelltheatre.org/",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Bayview Community Center",
-   "kind": "community",
-   "website": "https://www.bayviewfoundation.org",
-   "feeds": [
-    "tribe",
-    "jsonld"
-   ],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
    "name": "Black Locust Cafe",
    "kind": "cafe",
    "website": "https://blacklocustcafe.com/",
@@ -833,6 +921,14 @@
    "error": "PermissionError: robots.txt disallows https://www.facebook.com/cargocoffeeeast/"
   },
   {
+   "name": "Central Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/central",
+   "feeds": [],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
    "name": "Cervato Wine & Tapas",
    "kind": "bar",
    "website": "https://cervatowine.com/",
@@ -845,16 +941,6 @@
    "kind": "cafe",
    "website": "https://union.wisc.edu/dine/find-food-and-drink/chazen-cafe",
    "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Children's Theater of Madison",
-   "kind": "venue",
-   "website": "https://ctmtheater.org/",
-   "feeds": [
-    "tribe"
-   ],
    "raw_events": 0,
    "error": ""
   },
@@ -920,14 +1006,6 @@
    "name": "Crescendo Espresso Bar",
    "kind": "cafe",
    "website": "http://crescendomadison.com/",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Crystal Corner Bar",
-   "kind": "bar",
-   "website": "https://thecrystalcornerbar.com/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1047,26 +1125,6 @@
    "kind": "brewery",
    "website": "https://giantjones.com/",
    "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Goodman Community Center",
-   "kind": "community",
-   "website": "https://www.goodmancenter.org/",
-   "feeds": [
-    "jsonld"
-   ],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Goodman Community Center",
-   "kind": "community",
-   "website": "https://www.goodmancenter.org/",
-   "feeds": [
-    "jsonld"
-   ],
    "raw_events": 0,
    "error": ""
   },
@@ -1288,20 +1346,6 @@
    "error": ""
   },
   {
-   "name": "Lone Girl Tap Room And Pizza Company",
-   "kind": "bar",
-   "website": "https://thelonegirl.com",
-   "feeds": [
-    "tribe",
-    "jsonld",
-    "jsonld",
-    "jsonld",
-    "jsonld"
-   ],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
    "name": "Loxley",
    "kind": "venue",
    "website": "https://www.loxleyvenue.com/",
@@ -1438,14 +1482,6 @@
    "error": ""
   },
   {
-   "name": "Monkeyshines Bar & Grill",
-   "kind": "bar",
-   "website": "http://www.monkeyshinesbarandgrill.com/",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
    "name": "Monona Public Library",
    "kind": "library",
    "website": "https://mymonona.com/131/Library",
@@ -1508,25 +1544,6 @@
    "kind": "bar",
    "website": "https://theohiotavern.com/",
    "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Old Sugar Distillery",
-   "kind": "brewery",
-   "website": "https://oldsugardistillery.com/",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "One Social Bar",
-   "kind": "bar",
-   "website": "https://onesocialmadison.com/vendor/one-social-bar/",
-   "feeds": [
-    "tribe",
-    "jsonld"
-   ],
    "raw_events": 0,
    "error": ""
   },
@@ -1869,14 +1886,6 @@
    "feeds": [
     "squarespace"
    ],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "The Malt House",
-   "kind": "bar",
-   "website": "http://malthousetavern.com/",
-   "feeds": [],
    "raw_events": 0,
    "error": ""
   },
