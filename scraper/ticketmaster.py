@@ -60,6 +60,14 @@ def tm_category(cls: dict) -> str:
     return ""
 
 
+def best_image(images: list[dict]) -> str:
+    """A wide picture about 640 px across (Ticketmaster lists several sizes)."""
+    wide = [i for i in images if i.get("ratio") == "16_9" and i.get("url")] or [i for i in images if i.get("url")]
+    if not wide:
+        return ""
+    return min(wide, key=lambda i: abs((i.get("width") or 0) - 640))["url"]
+
+
 def parse(data: dict) -> list[dict]:
     out = []
     for ev in data.get("_embedded", {}).get("events", []):
@@ -79,6 +87,7 @@ def parse(data: dict) -> list[dict]:
             "title": ev.get("name", "").strip(),
             "start": start, "end": None, "allday": not t,
             "url": ev.get("url", ""),
+            "image": best_image(ev.get("images") or []),
             "price": prices[0].get("min") if prices else None,
             "description": " / ".join(x for x in (cls.get("genre", {}).get("name"), cls.get("subGenre", {}).get("name")) if x and x != "Undefined"),
             "venue_name": v.get("name", ""),

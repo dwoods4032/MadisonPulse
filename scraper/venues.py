@@ -129,13 +129,15 @@ def restaurant_of(el: dict) -> dict | None:
     group, dinner = cuisine_group(name, cuisine)
     bar = t.get("amenity") == "restaurant" and bool(re.search(r"pub|bar|tavern|brew", (name + " " + cuisine).lower()))
     alcohol = alcohol_from_tags(t)
+    alcohol_src = "OpenStreetMap tag" if alcohol is not None else ""
     if alcohol is None:
+        alcohol_src = "name/type rule"
         if bar or group == "pub" or re.search(r"wine|cocktail|brew|\btap\b|tavern|\bpub\b|lounge|saloon|supper club|steak", (name + " " + cuisine).lower()):
             alcohol = True
         elif not dinner or (fast and not bar):
             alcohol = False  # counter service, juice, bagels, sweets
     return {
-        "group": group, "dinner": dinner, "alcohol": alcohol,
+        "group": group, "dinner": dinner, "alcohol": alcohol, "alcohol_src": alcohol_src if alcohol is not None else "",
         "id": f"osm:{el['type']}/{el['id']}",
         "name": name,
         "cuisine": cuisine.replace("_", " ").replace(";", ", "),
@@ -145,6 +147,7 @@ def restaurant_of(el: dict) -> dict | None:
         "address": " ".join(x for x in (t.get("addr:housenumber"), t.get("addr:street")) if x),
         "lat": round(lat, 6), "lon": round(lon, 6),
         "website": clean_url(t.get("website") or t.get("contact:website") or t.get("url")),
+        "menu": clean_url(t.get("website:menu") or t.get("contact:menu") or t.get("menu:url") or t.get("menu")),
         "hours": hrs,
         "bar": t.get("amenity") == "restaurant" and bool(re.search(r"pub|bar|tavern|brew", (name + " " + cuisine).lower())),
     }
@@ -306,6 +309,7 @@ def ai_tag(rows: list[dict], what: str, limit: int = 400) -> int:
             r["group"] = c["group"]
         if r.get("alcohol") is None and "alcohol" in c:
             r["alcohol"] = c["alcohol"]
+            r["alcohol_src"] = "AI website check"
     return done
 
 
@@ -477,6 +481,62 @@ def build() -> dict:
     }
 
 
+MENU_TEXT = re.compile(r"\b(?:dinner |food |our |view |see )?menus?\b", re.I)
+
+
+def page_info(rows: list[dict], menus: bool, limit: int = 250, days: int = 30) -> int:
+    """Read each place's homepage (no AI, just its links and preview tags) for the picture it
+    publishes for link previews, and for restaurants the "Menu" link.
+    Cached in data/page_cache.json and re-checked monthly. Returns how many pages were read."""
+    from concurrent.futures import ThreadPoolExecutor
+    from urllib.parse import urljoin
+    from bs4 import BeautifulSoup
+    from .common import Fetcher
+    from .extract import page_image
+    path = DATA / "page_cache.json"
+    cache = load_json(path, {})
+    stale = (now() - timedelta(days=days)).isoformat()
+    todo = [r for r in rows if r.get("website") and cache.get(r["id"], {}).get("checked", "") < stale][:limit]
+    f = Fetcher()
+
+    def look(r):
+        try:
+            page = f.get(r["website"])
+        except Exception:
+            page = None
+        if page is None:
+            return r, None
+        soup = BeautifulSoup(page.text, "html.parser")
+        menu = ""
+        if menus:
+            for a in soup.find_all("a", href=True):
+                href, text = a["href"].strip(), " ".join(a.get_text(" ").split())
+                if href.startswith(("mailto:", "tel:", "javascript:")):
+                    continue
+                if (len(text) < 30 and MENU_TEXT.search(text)) or re.search(r"/menus?\b|menu\.pdf|[-_]menu", href, re.I):
+                    u = urljoin(page.url, href)
+                    if not re.search(r"doordash|ubereats|grubhub|facebook|instagram", u, re.I):
+                        menu = u  # delivery apps and social pages aren't the menu we want
+                        break
+        img = page_image(soup)
+        return r, {"menu": menu, "image": urljoin(page.url, img) if img else ""}
+
+    if todo:
+        with ThreadPoolExecutor(max_workers=8) as pool:
+            for r, info in pool.map(look, todo):
+                cache[r["id"]] = {**(info or {"menu": "", "image": ""}), "checked": now().isoformat()}
+        save_json(path, cache)
+    for r in rows:
+        c = cache.get(r["id"], {})
+        if menus and not r.get("menu") and c.get("menu"):
+            r["menu"], r["menu_src"] = c["menu"], "restaurant homepage"
+        elif menus and r.get("menu") and not r.get("menu_src"):
+            r["menu_src"] = "OpenStreetMap tag"
+        if c.get("image"):
+            r["image"] = c["image"]
+    return len(todo)
+
+
 def retag_existing() -> None:
     """Apply the alcohol rules and the AI website check to the lists we already have,
     so Sober mode works even when OpenStreetMap can't be reached."""
@@ -497,14 +557,30 @@ def retag_existing() -> None:
     for x in a.get("activities", []):
         if x.get("alcohol") is None:
             x["alcohol"] = activity_alcohol({"amenity": "bar"} if x.get("bar") else {}, x.get("type", ""))
+    for x in v.get("venues", []) + r.get("restaurants", []) + a.get("activities", []):
+        if x.get("alcohol") is not None and not x.get("alcohol_src"):
+            x["alcohol_src"] = "OpenStreetMap tag or name/type rule"
     if v.get("venues"):
         ai_tag([x for x in v["venues"] if x.get("kind") in ("venue", "cafe")], "venue")
+        try:
+            print(f"Venue homepages read for pictures: {page_info(v['venues'], False, limit=150)}")
+        except Exception as e:
+            print(f"Venue pictures skipped ({type(e).__name__})", file=sys.stderr)
         save_json(vpath, v)
     if r.get("restaurants"):
         ai_tag(r["restaurants"], "restaurant")
+        try:
+            print(f"Restaurant homepages read for menus & pictures: {page_info(r['restaurants'], True)}")
+        except Exception as e:
+            print(f"Menu check skipped ({type(e).__name__})", file=sys.stderr)
+        r["with_menu"] = sum(1 for x in r["restaurants"] if x.get("menu"))
         save_json(rpath, r)
     if a.get("activities"):
         ai_tag(a["activities"], "activity")
+        try:
+            page_info(a["activities"], False, limit=50)
+        except Exception as e:
+            print(f"Activity pictures skipped ({type(e).__name__})", file=sys.stderr)
         save_json(apath, a)
 
 

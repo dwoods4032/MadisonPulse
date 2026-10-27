@@ -119,6 +119,25 @@ def _walk(node):
                 yield from _walk(node[k])
 
 
+def _image(v) -> str:
+    """First usable picture URL from the many shapes feeds use (string, list, {url: ...})."""
+    if isinstance(v, list):
+        v = v[0] if v else ""
+    if isinstance(v, dict):
+        v = v.get("url") or v.get("contentUrl") or ""
+    v = str(v or "").strip()
+    return v if v.startswith(("http://", "https://")) and "isthmus.com" not in v else ""
+
+
+def page_image(soup) -> str:
+    """The picture a page publishes for link previews (og:image / twitter:image)."""
+    for attr, val in (("property", "og:image"), ("name", "og:image"), ("name", "twitter:image"), ("property", "twitter:image")):
+        m = soup.find("meta", attrs={attr: val})
+        if m and m.get("content") and "isthmus.com" not in m["content"]:
+            return m["content"].strip()  # may be relative; the caller joins it to the page URL
+    return ""
+
+
 def jsonld_events(html: str, base: str) -> list[dict]:
     soup = soup_of(html)
     out = []
@@ -152,6 +171,7 @@ def jsonld_events(html: str, base: str) -> list[dict]:
                 "url": urljoin(base, node.get("url") or "") if node.get("url") else base,
                 "price": _price(offers.get("price") if isinstance(offers, dict) else None),
                 "status": str(node.get("eventStatus", "")),
+                "image": urljoin(base, _image(node.get("image"))) if _image(node.get("image")) else "",
             })
     return [e for e in out if "Cancelled" not in e.get("status", "")]
 
@@ -175,6 +195,7 @@ def tribe_events(payload: dict) -> list[dict]:
             "description": htmllib.unescape(re.sub("<[^>]+>", " ", ev.get("description", "") or ""))[:400].strip(),
             "location": venue.get("venue", "") if isinstance(venue, dict) else "",
             "url": ev.get("url", ""), "price": _price(ev.get("cost")),
+            "image": _image(ev.get("image")),
         })
     return out
 
@@ -195,6 +216,7 @@ def squarespace_events(payload: dict, base: str) -> list[dict]:
             "description": re.sub("<[^>]+>", " ", it.get("excerpt", "") or "")[:400].strip(),
             "location": (it.get("location") or {}).get("addressTitle", ""),
             "url": urljoin(base, it.get("fullUrl", "")), "price": None,
+            "image": _image(it.get("assetUrl")),
         })
     return out
 

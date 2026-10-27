@@ -14,6 +14,11 @@ const AREAS = [
   ["middleton","Middleton",43.1000,-89.5050,4.0], ["sunprairie","Sun Prairie",43.1836,-89.2350,5.0]];
 const CATS = [["all","All"],["music","Live music"],["trivia","Trivia & games"],["karaoke","Karaoke"],["bingo","Bingo & raffles"],["food","Food & specials"],["comedy","Comedy"],["theater","Theater"],["film","Movies"],["open_mic","Open mic"],["dance","Dancing"],["sports","Sports"],["other","Other"]];
 const PLACES = [["all","Any place"],["bar","Bars"],["brewery","Breweries"],["veterans","VFW & Legion"],["lodge","Lodges & clubs"],["cafe","Coffee shops"],["venue","Venues"],["library","Libraries"],["community","Community"]];
+const PLACE_ONE = {bar:"Bar", brewery:"Brewery", veterans:"VFW / Legion", lodge:"Lodge / club", cafe:"Coffee shop", venue:"Venue", library:"Library", community:"Community center"};
+// The event list at the bottom groups the detailed categories into four.
+const LIST_GROUPS = [["all","All"],["games","Games & trivia"],["music","Music"],["theater","Theater"],["comedy","Comedy"]];
+const GROUP_OF = {trivia:"games", bingo:"games", karaoke:"games", music:"music", open_mic:"music", dance:"music", theater:"theater", film:"theater", comedy:"comedy"};
+const listed = e => NOT_NIGHTLIFE.test(e.title) && e.category === "other" ? null : GROUP_OF[e.category] || (e.category === "other" && (e.all_day || hhmm(e.start) < "17:00") ? null : "all");  // daytime odds and ends stay off the list
 const CAT_LABEL = Object.fromEntries(CATS), PLACE_LABEL = Object.fromEntries(PLACES);
 const CAT_VIBES = {music:["music"],trivia:["chill"],karaoke:["dive"],bingo:["dive","classic"],food:["classic","cheap"],comedy:["date"],open_mic:["music","chill"],dance:["date"],sports:["classic","dive"],other:[]};
 const PLACE_VIBES = {veterans:["classic","dive","cheap"],lodge:["classic"],cafe:["chill"],brewery:["chill","classic"],bar:["dive"]};
@@ -161,6 +166,45 @@ $("form").addEventListener("click", e => {
 // ---------- turning events into plan stops ----------
 // ---------- places ----------
 let RESTAURANTS = [], BARS = [], ACTS = [];  // from OpenStreetMap, loaded with the events
+// Popularity weights from data/weights.csv (1 = normal, 2 = much more often, 0.5 = less, 0 = never).
+let WEIGHTS = {}, TITLE_WEIGHTS = [], VENUE_EVENTS = {}, VENUE_IMG = {};
+const okImg = u => /^https?:\/\//.test(u || "") && !/isthmus\.com/i.test(u) ? u : "";
+const evImage = e => okImg(e.image) || okImg(VENUE_IMG[e.venue_id]);
+function parseCSV(text){
+  const rows = []; let row = [], f = "", q = false;
+  for (let i = 0; i < text.length; i++){
+    const c = text[i];
+    if (q){ if (c === '"'){ if (text[i+1] === '"'){ f += '"'; i++; } else q = false; } else f += c; }
+    else if (c === '"') q = true;
+    else if (c === ","){ row.push(f); f = ""; }
+    else if (c === "\n" || c === "\r"){ if (c === "\r" && text[i+1] === "\n") i++; row.push(f); rows.push(row); row = []; f = ""; }
+    else f += c;
+  }
+  if (f || row.length){ row.push(f); rows.push(row); }
+  return rows;
+}
+function loadWeights(text){
+  const rows = parseCSV(text), head = rows.shift() || [];
+  const ki = head.indexOf("kind"), ni = head.indexOf("name"), wi = head.indexOf("weight");
+  WEIGHTS = {}; TITLE_WEIGHTS = [];
+  for (const r of rows){
+    const w = parseFloat(r[wi]); if (!r[ni] || isNaN(w) || w === 1) continue;
+    if (r[ki] === "event title"){ if (!/^Example:/.test(r[ni])) TITLE_WEIGHTS.push([r[ni].toLowerCase(), w]); }
+    else WEIGHTS[r[ki] + "|" + r[ni]] = w;
+  }
+}
+// One number per stop: the place's weight, or for an event its venue's weight times any title weights.
+function weightOf(s){
+  if (s.live){
+    let w = WEIGHTS["event venue|" + s.venue] ?? 1;
+    const t = s.n.toLowerCase(); for (const [k, x] of TITLE_WEIGHTS) if (t.includes(k)) w *= x;
+    return w;
+  }
+  const kinds = s.act ? ["activity"] : s.k === "bar" ? ["bar", "venue"] : ["restaurant"];
+  for (const k of kinds){ const w = WEIGHTS[k + "|" + (s.base || s.n)]; if (w != null) return w; }
+  return 1;
+}
+const allowed = s => weightOf(s) > 0;
 const CAPITOL = {lat:43.0747, lon:-89.3841};
 function areaOf(p){
   if (!p || p.lat == null) return null;
@@ -186,8 +230,15 @@ const FOODKINDS = /pizza|burger|taco|mexican|burrito|sushi|japanese|thai|chinese
 const foodKind = s => { const m = (s.d + " " + s.n).toLowerCase().match(FOODKINDS); return m ? m[0].replace(/s$/, "").replace(/^(burrito|taco)$/, "mexican") : null; };
 function activityStop(a){
   return {n:a.name, k:"show", act:true, lat:a.lat, lon:a.lon, p:a.price, dur:a.minutes, hrs:a.hours, osm:true, tav:a.bar, alc:a.alcohol,
-    v:[], fun:FUN_OF_ACT[a.type], d:a.label + (a.type === "cinema" ? " (check showtimes)" : ""), w:a.address || "", url:a.website || "", mapId:a.id, label:a.label};
+    v:[], fun:FUN_OF_ACT[a.type], d:a.type === "darts" ? "Bar with darts" : a.label + (a.type === "cinema" ? " (check showtimes)" : ""), w:a.address || "", url:a.website || "", mapId:a.id,
+    label:a.type === "darts" ? "Darts" : a.label, dart:a.type === "darts", img:a.image || ""};
 }
+// Places that are on the map as food but aren't a sit-down dinner out.
+const NOT_A_DINNER = /\bcater(?:ing|ers?)\b|\bgrocery\b|\b(?:farmers )?market\b(?!.*(?:grill|kitchen|restaurant|cuisine|cafe))|^(?!.*(?:grill|kitchen|restaurant|cuisine)).*\bdeli\b/i;
+// Arcades and fun centers meant for kids.
+const KIDS_PLACE = /chuck e\.? cheese|kids?\b|\bplay ?(?:place|ground|zone)|jump|bounce|little gym/i;
+// Classes, clubs and meetings: real events, but not a night out.
+const NOT_NIGHTLIFE = /\bzumba\b|\byoga\b|fitness|work ?out|book club|language|conversation|support group|\bmeeting\b|\bclass(?:es)?\b|workshop|\bseniors?\b|story ?time|homework|tutoring|\bacademy\b|training|farmers.? market/i;
 const FAMILY = /\bfamil(?:y|ies)\b|\bkids?\b|children|toddler|all ages matinee/i;  // left out of night plans unless picked
 const pinned = () => state.pin ? EVENTS.find(e => e.id === state.pin) || null : null;
 const norm = n => String(n).toLowerCase().replace(/&/g," and ").replace(/[^a-z0-9 ]+/g," ").replace(/\b(the|and|bar|pub|tavern|restaurant|grill|lounge|cocktail|company|co)\b/g," ").replace(/\s+/g," ").trim();
@@ -204,18 +255,22 @@ function enrichSpots(){
   for (const r of RESTAURANTS) byName[norm(r.name)] = byName[norm(r.name)] || r;
   for (const v of BARS) byName[norm(v.name)] = byName[norm(v.name)] || v;
   for (const s of SPOTS){
-    const m = byName[norm(s.n.replace(/ (late-night menu|slice)$/i, ""))];
-    if (m){ if (s.lat == null){ s.lat = m.lat; s.lon = m.lon; } if (!s.url && m.website) s.url = m.website; s.mapId = m.id; }
+    const key = norm(s.n.replace(/ (late-night menu|slice)$/i, ""));
+    // exact name, else a map place whose name starts the same way ("Ian's Pizza on State" = "Ian's Pizza")
+    const m = byName[key] || Object.entries(byName).find(([k]) => k.length >= 6 && (key.startsWith(k + " ") || k.startsWith(key + " ")))?.[1];
+    if (m){ if (s.lat == null){ s.lat = m.lat; s.lon = m.lon; } if (!s.url && m.website) s.url = m.website; s.mapId = m.id; s.base = m.name;
+      if (!s.menu && m.menu) s.menu = m.menu; if (!s.img && m.image) s.img = m.image; }
   }
 }
 const GROUP_LABEL = Object.fromEntries(CUISINES);
 function restaurantStop(r, role){
   return {n:r.name, k:role, lat:r.lat, lon:r.lon, p:r.price, v:r.vibes || [], tav:r.bar, hrs:r.hours, osm:true, grp:r.group, notDinner:r.dinner === false, alc:r.alcohol,
-    w:r.address || "", d:(r.cuisine ? r.cuisine.replace(/\b\w/g, c => c.toUpperCase()) : (r.fast ? "Quick bite" : "Restaurant")), url:r.website || "", mapId:r.id};
+    w:r.address || "", d:(r.cuisine ? r.cuisine.replace(/\b\w/g, c => c.toUpperCase()) : (r.fast ? "Quick bite" : "Restaurant")), url:r.website || "", mapId:r.id,
+    menu:r.menu || "", img:r.image || ""};
 }
 function barStop(v){
   return {n:v.name, k:"bar", lat:v.lat, lon:v.lon, p:v.kind === "brewery" ? 14 : 13, v:v.kind === "brewery" ? ["chill"] : [], osm:true,
-    w:v.address || "", d:v.kind === "brewery" ? "Brewery taproom" : "Neighborhood bar", url:v.website || "", mapId:v.id};
+    w:v.address || "", d:v.kind === "brewery" ? "Brewery taproom" : "Neighborhood bar", url:v.website || "", mapId:v.id, img:v.image || ""};
 }
 // Drop-in events (karaoke, trivia, watch parties...) don't need you there at the first minute.
 const DROPIN_CATS = new Set(["karaoke","trivia","bingo","open_mic","sports","dance"]);
@@ -235,14 +290,14 @@ function eventStop(e){
     v:[...(CAT_VIBES[e.category]||[]), ...(PLACE_VIBES[e.venue_kind]||[])],
     w:e.venue + (e.address ? " · " + e.address : ""), d:e.description || (CAT_LABEL[e.category] || "Event") + " at " + e.venue + (e.via ? " (listed by " + e.via + ")" : ""),
     at:e.all_day ? null : hhmm(e.start), live:true, cat:e.category, fun:FUN_OF_CAT[e.category], est:known == null, dropin: DROPIN_CATS.has(e.category) || DROPIN_TITLE.test(e.title), weekly:e.source === "weekly", url:eventUrl(e), urlSearch:eventUrl(e).startsWith("https://www.google.com/search"),
-    g:e.venue_kind === "veterans" || e.venue_kind === "lodge" ? 1 : 0, alc: VENUE_ALC[e.venue_id] ?? null};
+    g:e.venue_kind === "veterans" || e.venue_kind === "lodge" ? 1 : 0, alc: VENUE_ALC[e.venue_id] ?? null, img:evImage(e)};
 }
 function cost(s){
   if (s.live) return s.p;
   let p = s.p;
   if (s.k === "bar" && state.drinks === "cocktails" && !s.c) p += 6;
   if (s.k === "dinner" && state.drinks === "cocktails") p += 6;
-  if (s.k === "dinner" && isDry()) p = Math.max(6, p-6);
+  if (s.k === "dinner" && isDry()) p = Math.max(10, p-4);  // no drinks: a little less, never a $6 dinner
   return p;
 }
 function stopScore(s){
@@ -256,6 +311,9 @@ function stopScore(s){
   if (s.live || s.act) x += state.fun.length && state.fun.includes(s.fun) ? 4 : 2;
   if (!s.osm && !s.live) x += 1;   // hand-picked favorites get a small nudge
   if (s.osm && s.url) x += 0.5;    // a place with a website is easier to check
+  if (s.k === "bar" && !s.live && s.mapId) x += Math.min(VENUE_EVENTS[s.mapId] || 0, 6) * 0.25;  // busy bars are popular bars
+  if (s.dart) x -= 1.5;            // a bar with a dartboard is a bar first
+  x += (weightOf(s) - 1) * 6;      // your weights: 1.5 = +3, 2 = +6, 0.5 = -3
   return x;
 }
 const toMin = t => { if (!t) return null; let [h,m] = t.split(":").map(Number); if (h < 6) h += 24; return h*60 + m; };
@@ -297,6 +355,10 @@ function timeline(stops, key, dinnerAfter){
       if (at < t - grace) ok = false;
       t = Math.max(t, at);
     }
+    if (s.k === "late" && !s.live){  // a late bite is late: after a show or drinks, not straight after dinner
+      const prev = items[items.length - 1];
+      if (t < 20*60 + 30 || (prev && prev.s.k === "dinner")) ok = false;
+    }
     if (!s.live){
       const w = openWindow(s, key);
       if (w === null) ok = false;
@@ -316,21 +378,29 @@ function nearest(list, anchor, n, maxMi){
 // Candidate places for one plan: near the anchor (the event), else the best-scoring spread across town.
 function candidates(anchor){
   const dry = isDry();
-  const fits = s => !(dry && s.tav) && cost(s) <= state.budget && (!sober() || alcFree(s));
+  const fits = s => !(dry && s.tav) && cost(s) <= state.budget && (!sober() || alcFree(s)) && allowed(s);
   let dinnerAll = [...SPOTS.filter(s => s.k === "dinner"),
-    ...RESTAURANTS.filter(r => !SPOTS.some(s => s.mapId === r.id)).map(r => restaurantStop(r, "dinner"))].filter(s => fits(s) && !s.notDinner);
+    ...RESTAURANTS.filter(r => !SPOTS.some(s => s.mapId === r.id)).map(r => restaurantStop(r, "dinner"))].filter(s => fits(s) && !s.notDinner && !NOT_A_DINNER.test(s.n));
   if (state.cuisine.length){  // only the cuisines picked (if none match anywhere, ignore the choice)
     const want = dinnerAll.filter(s => state.cuisine.includes(s.grp));
     if (want.length) dinnerAll = want;
   }
   const barAll = dry ? [] : [...SPOTS.filter(s => s.k === "bar"),
-    ...BARS.filter(v => !SPOTS.some(s => s.mapId === v.id)).map(barStop)];
+    ...BARS.filter(v => !SPOTS.some(s => s.mapId === v.id)).map(barStop)].filter(allowed);
   const lateAll = [...SPOTS.filter(s => s.k === "late"),
     ...RESTAURANTS.filter(r => r.price <= 16 && r.hours && r.hours.some(w => toMinX(w[2]) >= 23*60+30) && !SPOTS.some(s => s.mapId === r.id))
-      .map(r => restaurantStop(r, "late"))].filter(s => !(dry && s.tav) && lateWindow(s, state.day) && (!sober() || alcFree(s)));
+      .map(r => restaurantStop(r, "late"))].filter(s => !(dry && s.tav) && lateWindow(s, state.day) && (!sober() || alcFree(s)) && allowed(s));
   const byScore = arr => [...arr].sort((a,b) => stopScore(b) - stopScore(a));
   const pick = (arr, n) => {
-    if (state.areas.length){ const inside = arr.filter(inAreas); if (inside.length >= 3) arr = inside; }
+    if (state.areas.length){  // stay in the picked areas; if they're nearly empty, the closest places just outside
+      const inside = arr.filter(inAreas);
+      if (inside.length >= Math.min(n, 3)) arr = inside;
+      else {
+        const centers = AREAS.filter(a => state.areas.includes(a[0])).map(a => ({lat:a[2], lon:a[3]}));
+        const d = s => Math.min(...centers.map(c => miles(c, s) ?? 99));
+        arr = [...inside, ...arr.filter(s => !inside.includes(s) && s.lat != null && d(s) <= 3).sort((a,b) => d(a) - d(b))];
+      }
+    }
     if (anchor && anchor.lat != null){
       for (const r of [0.8, 1.5, 3]){ const near = nearest(byScore(arr), anchor, 40, r); if (near.length >= Math.min(n, 4)) return byScore(near).slice(0, n); }
       return nearest(arr, anchor, n, 99);
@@ -348,12 +418,12 @@ function plans(opts = {}){
   const dry = isDry();
   const inWindow = e => { const m = toMin(hhmm(e.start)); return m >= state.from - 30 && m <= state.to - 60; };
   const evening = eventsOn(state.day).filter(e => !e.all_day && inWindow(e) && !(dry && BARLIKE.has(e.venue_kind)) && !(pin && e.id === pin.id)
-      && e.lat != null && !FAMILY.test(e.title) && inAreas(e) && !outOfTown(e) && funOk(FUN_OF_CAT[e.category])
-      && (!sober() || VENUE_ALC[e.venue_id] === false)).map(eventStop)
+      && e.lat != null && !FAMILY.test(e.title) && !NOT_NIGHTLIFE.test(e.title) && inAreas(e) && !outOfTown(e) && funOk(FUN_OF_CAT[e.category])
+      && (!sober() || VENUE_ALC[e.venue_id] === false)).map(eventStop).filter(allowed)
     .sort((a,b) => stopScore(b) - stopScore(a));
   // anytime activities (bowling, a movie...) when those are picked under Fun
   const wantActs = state.show && state.fun.some(f => Object.values(FUN_OF_ACT).includes(f));
-  const acts = wantActs ? ACTS.map(activityStop).filter(s => state.fun.includes(s.fun) && inAreas(s) && !outOfTown(s) && !(dry && s.tav) && (!sober() || alcFree(s))
+  const acts = wantActs ? ACTS.map(activityStop).filter(s => state.fun.includes(s.fun) && allowed(s) && !KIDS_PLACE.test(s.n) && inAreas(s) && !outOfTown(s) && !(dry && s.tav) && (!sober() || alcFree(s))
       && openWindow(s, state.day) !== null && cost(s) <= state.budget).sort((a,b) => stopScore(b) - stopScore(a) || (miles(a, CAPITOL) - miles(b, CAPITOL))).slice(0, 8) : [];
   const role = pin ? pin.k : null;
   // each plan is built around one anchor: the pinned event, a show, or (no show) a dinner spot
@@ -361,6 +431,7 @@ function plans(opts = {}){
   if (pin) anchors = [pin];
   else if (state.show && (evening.some(s => s.k === "show") || acts.length)) anchors = [...evening.filter(s => s.k === "show").slice(0, 16), ...acts];
   else anchors = [null];
+  if (!opts.probe && !pin && state.show && anchors[0] === null) PLAN_NOTE = "nofun";  // nothing that fits the Fun/area picks tonight
   let out = [];
   for (const anchor of anchors){
     const c = candidates(anchor);
@@ -465,6 +536,18 @@ function applySwaps(p){
   }
   return stops;
 }
+// The next day (within two weeks) with an event or activity that fits the Fun and area picks.
+function nextDayWithFun(){
+  const keep = state.day; let k = keep, found = null;
+  for (let i = 0; i < 13 && !found; i++){
+    k = addDays(k, 1); if (!EVENTS.some(e => evDay(e) === k) && !ACTS.length) break;
+    state.day = k;
+    const L = plans({probe: true});
+    if (L.some(p => p.stops.some(s => s.live || s.act))) found = k;
+  }
+  state.day = keep; PLAN_NOTE = "nofun";
+  return found;
+}
 // Find a nearby time window where an event does fit, to offer as a one-click change.
 function showSuggestion(){
   const keep = {from: state.from, to: state.to};
@@ -507,17 +590,29 @@ function renderPlan(){
       : meal + (s.c && state.drinks === "cocktails" ? " · Cocktails" : "");
     const dist = !s.live && !s.act && anchor && anchor !== s && anchor.lat != null ? miles(anchor, s) : null;
     const near = dist != null ? '<span class="dist">'+(dist < 0.1 ? "Next door to " : fmtMi(dist)+" from ")+esc(anchor.venue || anchor.n)+'</span>' : "";
-    const site = s.url ? ' · <a href="'+esc(s.url)+'" target="_blank" rel="noopener">'+(s.live ? (s.urlSearch ? "Find tickets & info" : "Event page") : "Website")+' ↗</a>' : "";
+    const food = !s.live && !s.act && (s.k === "dinner" || s.k === "late");
+    const menuUrl = food ? (s.menu || "https://www.google.com/search?q=" + encodeURIComponent((s.base || s.n.replace(/ (late-night menu|slice)$/i, "")) + " Madison WI menu")) : "";
+    const site = food ? ' · <a href="'+esc(menuUrl)+'" target="_blank" rel="noopener">'+(s.menu ? "Menu" : "Find the menu")+' ↗</a>'
+      : s.url ? ' · <a href="'+esc(s.url)+'" target="_blank" rel="noopener">'+(s.live ? (s.urlSearch ? "Find tickets & info" : "Event page") : "Website")+' ↗</a>' : "";
+    const pic = okImg(s.img) ? '<img class="thumb" src="'+esc(s.img)+'" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">' : "";
     const alts = SWAP_ROLES.includes(s.k) && !s.live ? alternatives({...base, stops: p.stops}, s.k) : [];
     const removable = !s.live && (s.k === "bar" || s.k === "late");  // dinner and the event stay
     const rm = removable ? '<button type="button" class="link sm rm" data-n="'+esc(s.n)+'">Remove this stop</button>' : "";
     const swap = alts.length > 1 ? '<div class="swap" data-role="'+s.k+'"><button type="button" class="arrow sm" data-dir="-1" aria-label="Previous '+meal.toLowerCase()+' option">‹</button><span>'+(((state.swap[s.k]||0) % alts.length)+1)+' of '+alts.length+' nearby</span><button type="button" class="arrow sm" data-dir="1" aria-label="Next '+meal.toLowerCase()+' option">›</button></div>' : "";
     li.innerHTML = '<div class="time">'+fmt12(Math.floor(t/60)%24, t%60)+'</div><div class="rail"><span class="dot'+(s.live?" live":"")+'"></span></div>'+
-      '<div class="stop-body"><div class="kind">'+esc(label)+'</div><div class="name">'+(s.live && s.url ? '<a href="'+esc(s.url)+'" target="_blank" rel="noopener">'+esc(s.n)+'</a>' : esc(s.n))+'</div>'+
+      '<div class="stop-body">'+pic+'<div class="kind">'+esc(label)+'</div><div class="name">'+(s.live && s.url ? '<a href="'+esc(s.url)+'" target="_blank" rel="noopener">'+esc(s.n)+'</a>' : esc(s.n))+'</div>'+
       '<p class="why">'+esc(s.d)+'</p><div class="where">'+esc(s.w)+site+near+'</div>'+swap+rm+'</div>'+
       '<div class="cost">~$'+cost(s)+(s.est ? '<small>est.</small>' : '')+'</div>';
     route.appendChild(li);
   });
+  if (PLAN_NOTE === "nofun"){
+    const what = state.fun.length ? state.fun.map(f => (FUN.find(x => x[0] === f) || [,f])[1].toLowerCase()).join(" or ") : "events";
+    const IN = {downtown:"downtown", willy:"on Willy St", east:"on the East side", west:"on the West side", north:"on the North side", south:"on the South side", middleton:"in Middleton", sunprairie:"in Sun Prairie"};
+    const where = state.areas.length ? " " + state.areas.map(a => IN[a] || a).join(" or ") : "";
+    const next = nextDayWithFun();
+    route.insertAdjacentHTML("afterbegin", '<li class="note-box">No '+esc(what)+where+' listed '+esc(dayName(state.day) === "Tonight" ? "tonight" : "on " + dayName(state.day))+', so this plan skips the show.'+
+      (next ? ' <button type="button" class="link sm" id="goDay" data-k="'+next+'">See '+esc(dayName(next))+' instead</button>' : '')+'</li>');
+  }
   if (PLAN_NOTE === "noshow"){
     const sug = showSuggestion();
     route.insertAdjacentHTML("afterbegin", '<li class="note-box">No listed event fits between '+fmtM(state.from)+' and '+fmtM(state.to)+' with dinner, so this plan skips the show.'+
@@ -538,6 +633,8 @@ function renderPlan(){
 $("route").addEventListener("click", e => {
   const rmb = e.target.closest(".rm");
   if (rmb){ state.removed.push(rmb.dataset.n); renderPlan(); $("goBtn").focus(); return; }
+  const gd = e.target.closest("#goDay");
+  if (gd){ state.day = gd.dataset.k; state.rank = 0; state.swap = {}; state.removed = []; renderDays(); renderPlan(); renderEvents(); return; }
   const sug = e.target.closest("#applySug");
   if (sug){ state.from = +sug.dataset.from; state.to = +sug.dataset.to; state.rank = 0; state.swap = {}; save(); renderForm(); renderPlan(); return; }
   const b = e.target.closest(".swap .arrow"); if (!b || !CURRENT) return;
@@ -588,14 +685,16 @@ $("days").addEventListener("click", e => {
 // ---------- event list ----------
 function renderFilters(){
   const present = new Set(EVENTS.map(e => e.category)), places = new Set(EVENTS.map(e => e.venue_kind));
-  $("catChips").innerHTML = CATS.filter(([id]) => id === "all" || present.has(id)).map(([id,l]) => '<button type="button" class="chip sm" data-v="'+id+'" aria-pressed="'+(state.cat===id)+'">'+l+'</button>').join("");
+  const groups = new Set(EVENTS.map(e => GROUP_OF[e.category]));
+  if (!LIST_GROUPS.some(([id]) => id === state.cat)) state.cat = "all";
+  $("catChips").innerHTML = LIST_GROUPS.filter(([id]) => id === "all" || groups.has(id)).map(([id,l]) => '<button type="button" class="chip sm" data-v="'+id+'" aria-pressed="'+(state.cat===id)+'">'+l+'</button>').join("");
   $("placeChips").innerHTML = PLACES.filter(([id]) => id === "all" || places.has(id)).map(([id,l]) => '<button type="button" class="chip sm" data-v="'+id+'" aria-pressed="'+(state.place===id)+'">'+l+'</button>').join("");
 }
 $("catChips").addEventListener("click", e => { const b = e.target.closest(".chip"); if (!b) return; state.cat = b.dataset.v; save(); renderFilters(); renderEvents(); });
 $("placeChips").addEventListener("click", e => { const b = e.target.closest(".chip"); if (!b) return; state.place = b.dataset.v; save(); renderFilters(); renderEvents(); });
 
 function evRow(e){
-  const tags = [CAT_LABEL[e.category] || "Event", PLACE_LABEL[e.venue_kind] ? PLACE_LABEL[e.venue_kind].replace(/s$/,"") : ""].filter(Boolean)
+  const tags = [(LIST_GROUPS.find(g => g[0] === GROUP_OF[e.category]) || [, CAT_LABEL[e.category] || "Event"])[1], PLACE_ONE[e.venue_kind] || ""].filter(Boolean)
     .map(t => '<span class="tag">'+esc(t)+'</span>').join("") +
     (e.source === "weekly" ? '<span class="tag weekly">Weekly</span>' : "") +
     '<a class="tag" href="'+esc(eventUrl(e))+'" target="_blank" rel="noopener">'+(eventUrl(e).startsWith("https://www.google.com/search") ? "Find tickets & info" : "Details")+' ↗</a>' +
@@ -608,13 +707,14 @@ function evRow(e){
   const btn = (e.all_day || hhmm(e.start) < "10:00") ? "" : on  // the planner's day starts at 10 am
     ? '<button type="button" class="incl on" data-id="'+esc(e.id)+'" aria-pressed="true">✓ In your night</button>'
     : '<button type="button" class="incl" data-id="'+esc(e.id)+'" aria-pressed="false">Include in my night</button>';
-  return '<div class="ev'+(on ? " picked" : "")+'"><div class="tm">'+(e.all_day ? "All day" : fmtTime(e.start))+'</div><div><div class="t">'+esc(e.title)+'</div><div class="m">'+esc(e.venue)+(e.address ? " · "+esc(e.address) : "")+'</div><div class="tags">'+tags+'</div>'+btn+'</div><div class="c">'+price+'</div></div>';
+  const img = evImage(e), pic = img ? '<img class="thumb" src="'+esc(img)+'" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">' : "";
+  return '<div class="ev'+(on ? " picked" : "")+'"><div class="tm">'+(e.all_day ? "All day" : fmtTime(e.start))+'</div><div>'+pic+'<div class="t">'+esc(e.title)+'</div><div class="m">'+esc(e.venue)+(e.address ? " · "+esc(e.address) : "")+'</div><div class="tags">'+tags+'</div>'+btn+'</div><div class="c">'+price+'</div></div>';
 }
 function renderEvents(){
   const el = $("events");
   if (!META){ return; }
-  let list = eventsOn(state.day).filter(inAreas);
-  if (state.cat !== "all") list = list.filter(e => e.category === state.cat);
+  let list = eventsOn(state.day).filter(inAreas).filter(e => listed(e) && (WEIGHTS["event venue|" + e.venue] ?? 1) > 0);
+  if (state.cat !== "all") list = list.filter(e => GROUP_OF[e.category] === state.cat);
   if (state.place !== "all") list = list.filter(e => e.venue_kind === state.place);
   $("evTitle").textContent = "What's on " + (["Tonight","Tomorrow"].includes(dayName(state.day)) ? dayName(state.day).toLowerCase() : dayName(state.day));
   $("evCount").textContent = list.length + (list.length === 1 ? " event" : " events");
@@ -653,11 +753,17 @@ Promise.all([getJSON("data/restaurants.json").catch(() => null), getJSON("data/v
   ACTS = (act && act.activities || []).filter(a => a.lat != null);
   RESTAURANTS = (rest && rest.restaurants || []).filter(r => r.lat != null);
   BARS = (ven && ven.venues || []).filter(v => (v.kind === "bar" || v.kind === "brewery") && v.lat != null);
+  // the map sometimes has one place twice ("Craftsman Table & Tap" / "Craftsman Table and Tap")
+  const once = list => { const out = []; for (const x of list) if (!out.some(y => norm(y.name) === norm(x.name) && (miles(x, y) ?? 9) < 0.3)) out.push(x); return out; };
+  RESTAURANTS = once(RESTAURANTS); BARS = once(BARS);
+  VENUE_IMG = Object.fromEntries((ven && ven.venues || []).filter(v => v.image).map(v => [v.id, v.image]));
   VENUE_ALC = Object.fromEntries((ven && ven.venues || []).map(v => [v.id, v.alcohol ?? (["bar","brewery","veterans","lodge"].includes(v.kind) ? true : ["library","community"].includes(v.kind) ? false : null)]));
   enrichSpots(); renderPlan();
 });
+fetch("data/weights.csv", {cache:"no-cache"}).then(r => r.ok ? r.text() : "").then(t => { if (t){ loadWeights(t); renderPlan(); } }).catch(() => {});
 getJSON("data/events.json").then(data => {
   META = data; EVENTS = (data.events || []).filter(e => evDay(e) >= todayKey());
+  VENUE_EVENTS = {}; EVENTS.forEach(e => { if (e.venue_id) VENUE_EVENTS[e.venue_id] = (VENUE_EVENTS[e.venue_id] || 0) + 1; });
   $("updated").textContent = "Events updated " + ago(data.generated_at) + ". Listings refresh twice a day.";
   renderDays(); renderFilters(); renderEvents(); renderPlan();
 }).catch(() => {

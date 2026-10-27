@@ -22,14 +22,14 @@ from .common import DATA, Fetcher, TZ, load_json, now, save_json, short_hash, wi
 
 REDISCOVER_DAYS = 7
 CATEGORIES = [
-    ("trivia", r"trivia|quiz|game night|board game|euchre|sheepshead|cribbage|\bdarts?\b|\bpool\b|\bbags\b|cornhole|pinball|tournament|\bleague"),
-    ("music", r"live music|\bbands?\b|concert|\bdj\b|acoustic|jazz|blues|bluegrass|singer|songwriter|\btour\b|\bduo\b|\btrio\b|quartet|polka|orchestra|hip.?hop|\bpunk|\bfolk\b|country|music"),
+    ("trivia", r"trivia|quiz|game night|board game|dungeons|\bd&d\b|tabletop|euchre|sheepshead|cribbage|\bdarts?\b|\bpool\b|\bbags\b|cornhole|pinball|tournament|\bleague"),
+    ("music", r"live music|\bbands?\b|concert|\bdj\b|acoustic|jazz|blues|bluegrass|singer|songwriter|\btour\b|\bduo\b|\btrio\b|quartet|polka|orchestra|hip.?hop|\bpunk|\bfolk\b|country|music|\btrad\b|celtic|fiddle"),
     ("karaoke", r"karaoke"),
     ("bingo", r"bingo|raffle|pull.?tab"),
-    ("comedy", r"comedy|stand.?up|improv|comedian|roast"),
+    ("comedy", r"comedy|stand.?up|improv|comedian|\broast of\b|comedy roast"),
     ("open_mic", r"open mic|open jam|jam session|poetry|slam"),
-    ("food", r"fish fry|happy hour|special|steak|burger|taco|wing|brunch|supper|dinner|tasting|pairing|potluck|pancake|breakfast|fry"),
-    ("dance", r"dance|drag|line danc|salsa|swing|disco"),
+    ("food", r"fish fry|happy hour|special|steak|burger|taco|wing|brunch|supper|dinner|prime rib|tasting|pairing|potluck|pancake|breakfast|fry"),
+    ("dance", r"dance|\bdrag\b|line danc|salsa|swing|disco"),
     ("sports", r"packers|badgers|brewers|bucks|watch party|game day|ufc|football|hockey|basketball|volleyball|soccer|\bvs\.?\b|\bat\b.*\bgame\b"),
     ("film", r"^film:|\bfilm\b|movie|screening|cinema"),
     ("theater", r"theat(?:re|er)|\bplay\b|musical|opera|ballet|symphony|chorale|choir|recital|premiere|matinee|cabaret|burlesque"),
@@ -46,6 +46,8 @@ def categorize_event(title: str, description: str, venue: str, venue_kind: str, 
     if hint in {"music", "trivia", "karaoke", "bingo", "comedy", "open_mic", "food", "dance", "sports", "film", "theater"}:
         return hint
     c = categorize(title, description)
+    if c in ("dance", "other") and THEATER_VENUE.search(venue):
+        return "theater"  # a show at a theater (dance performances included) is theater
     if c != "other":
         return c
     if BAND_BILLING.search(title) or (MUSIC_VENUE.search(venue) and not THEATER_VENUE.search(venue)):
@@ -396,6 +398,7 @@ def normalize(e: dict, venue: dict, source: str) -> dict:
         "price": e.get("price") if e.get("price") is not None else price_from_text(e.get("description") or ""),
         "description": re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", e.get("description") or ""))).strip()[:300],
         "url": e.get("url") or venue.get("website", ""),
+        "image": e.get("image") if str(e.get("image") or "").startswith("http") and "isthmus.com" not in str(e.get("image")) else "",
         "venue": venue["name"], "venue_id": venue["id"], "venue_kind": venue["kind"],
         "address": venue.get("address", ""),
         "lat": venue.get("lat"), "lon": venue.get("lon"),
@@ -461,6 +464,8 @@ def dedupe(events: list[dict]) -> list[dict]:
         if k1 in best:
             if lab not in best[k1]["sources"]:
                 best[k1]["sources"].append(lab)
+            if not best[k1].get("image") and e.get("image"):
+                best[k1]["image"] = e["image"]  # another source had a picture
             continue
         if e["source"] == "weekly":
             same = next((x for x in best.values() if (vkey(x["venue"]), x["start"][:10], x["category"]) == k2), None)
