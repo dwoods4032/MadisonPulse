@@ -67,6 +67,9 @@ jobs:
           if [ "${{ inputs.rediscover }}" = "true" ]; then ARGS="--rediscover"; fi
           python -m scraper.run $ARGS
 
+      - name: Check links
+        run: python -m scraper.links || echo "Link check skipped"
+
       - name: Reference spreadsheets and weights
         run: python -m scraper.sheets
 
