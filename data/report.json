@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-27T18:08:50-05:00",
+ "generated_at": "2026-10-27T21:16:29-05:00",
  "venues_checked": 237,
- "venues_with_events": 63,
- "venues_with_feeds": 83,
- "events": 414,
- "filtered_out": 141,
+ "venues_with_events": 67,
+ "venues_with_feeds": 87,
+ "events": 419,
+ "filtered_out": 164,
  "venues": [
   {
    "name": "AI page reading",
@@ -13,12 +13,12 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 167,
+   "raw_events": 198,
    "error": "",
-   "calls": 0,
-   "tokens_in": 0,
-   "tokens_out": 0,
-   "est_cost_usd": 0.0
+   "calls": 10,
+   "tokens_in": 25249,
+   "tokens_out": 11671,
+   "est_cost_usd": 0.0084
   },
   {
    "name": "Isthmus calendar",
@@ -48,7 +48,7 @@
    "feeds": [
     "ticketmaster"
    ],
-   "raw_events": 56,
+   "raw_events": 58,
    "error": ""
   },
   {
@@ -132,13 +132,33 @@
    "error": ""
   },
   {
+   "name": "High Noon Saloon",
+   "kind": "bar",
+   "website": "https://www.high-noon.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 14,
+   "error": ""
+  },
+  {
+   "name": "Harmony Bar & Grill",
+   "kind": "bar",
+   "website": "https://www.harmonybarandgrill.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 13,
+   "error": ""
+  },
+  {
    "name": "Madison Youth Arts (MYArts)",
    "kind": "venue",
    "website": "https://www.madisonyoutharts.org/",
    "feeds": [
     "ai"
    ],
-   "raw_events": 14,
+   "raw_events": 13,
    "error": ""
   },
   {
@@ -156,23 +176,23 @@
    "error": ""
   },
   {
-   "name": "Harmony Bar & Grill",
-   "kind": "bar",
-   "website": "https://www.harmonybarandgrill.com/",
+   "name": "Reindahl Park Pavillion",
+   "kind": "community",
+   "website": "https://www.cityofmadison.com/parks/find-a-park/reindahl/pavilion-at-the-imagination-center",
    "feeds": [
     "ai"
    ],
-   "raw_events": 12,
+   "raw_events": 10,
    "error": ""
   },
   {
-   "name": "High Noon Saloon",
-   "kind": "bar",
-   "website": "https://www.high-noon.com/",
+   "name": "Veterans Memorial Park",
+   "kind": "veterans",
+   "website": "https://www.cityofmadison.com/parks/find-a-park/park.cfm?id=1364",
    "feeds": [
     "ai"
    ],
-   "raw_events": 12,
+   "raw_events": 10,
    "error": ""
   },
   {
@@ -202,33 +222,43 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 8,
+   "raw_events": 7,
    "error": ""
   },
   {
-   "name": "Reindahl Park Pavillion",
-   "kind": "community",
-   "website": "https://www.cityofmadison.com/parks/find-a-park/reindahl/pavilion-at-the-imagination-center",
+   "name": "Imagination Center",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
    "feeds": [
     "ai"
    ],
-   "raw_events": 8,
-   "error": ""
-  },
-  {
-   "name": "Veterans Memorial Park",
-   "kind": "veterans",
-   "website": "https://www.cityofmadison.com/parks/find-a-park/park.cfm?id=1364",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 8,
+   "raw_events": 7,
    "error": ""
   },
   {
    "name": "Lazy Oaf Lounge",
    "kind": "bar",
    "website": "https://www.lazyoaflounge.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 7,
+   "error": ""
+  },
+  {
+   "name": "Monroe Street Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/monroe-street",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 7,
+   "error": ""
+  },
+  {
+   "name": "Pinney Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
    "feeds": [
     "ai"
    ],
@@ -264,6 +294,16 @@
     "ai"
    ],
    "raw_events": 6,
+   "error": ""
+  },
+  {
+   "name": "Alicia Ashman Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 5,
    "error": ""
   },
   {
@@ -689,14 +729,6 @@
    "name": "Alice Good",
    "kind": "cafe",
    "website": "https://alicegood.co/",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Alicia Ashman Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1211,14 +1243,6 @@
    "error": "PermissionError: robots.txt disallows https://imaginary-factory.com/"
   },
   {
-   "name": "Imagination Center",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
    "name": "Indie Coffee",
    "kind": "cafe",
    "website": "https://indiecoffee.net/index.html",
@@ -1463,14 +1487,6 @@
    "error": ""
   },
   {
-   "name": "Monroe Street Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/monroe-street",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
    "name": "Muskellounge and Sporting Club (Musky)",
    "kind": "bar",
    "website": "https://www.muskellounge.com",
@@ -1559,14 +1575,6 @@
    "feeds": [],
    "raw_events": 0,
    "error": "PermissionError: robots.txt disallows https://linktr.ee/pksuw"
-  },
-  {
-   "name": "Pinney Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
   },
   {
    "name": "Plaza Bar",
@@ -1679,7 +1687,7 @@
   {
    "name": "Starbucks",
    "kind": "cafe",
-   "website": "https://www.starbucks.com/store-locator/store/16482/capitol-square-main-mlk-1-e-main-st-madison-wi-537033373-us",
+   "website": "https://www.starbucks.com/store-locator/store/12525/university-north-blackhawk-3515-university-avenue-madison-wi-537052140-us",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1687,7 +1695,7 @@
   {
    "name": "Starbucks",
    "kind": "cafe",
-   "website": "https://www.starbucks.com/store-locator/store/12525/university-north-blackhawk-3515-university-avenue-madison-wi-537052140-us",
+   "website": "https://www.starbucks.com/store-locator/store/16482/capitol-square-main-mlk-1-e-main-st-madison-wi-537033373-us",
    "feeds": [],
    "raw_events": 0,
    "error": ""

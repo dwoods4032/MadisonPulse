@@ -1071,26 +1071,17 @@
   "events": []
  },
  "https://thekickback.bar/upcoming-events/": {
-  "hash": "132c9b8b52db441849ec94da54cd1d2ebd530722",
-  "asked": "2026-10-26T21:04:56-05:00",
-  "on": "2026-10-26",
+  "hash": "c7c437c485e8a7953f54fed4d5ea0fc8b14b2bcc",
+  "asked": "2026-10-27T21:15:22-05:00",
+  "on": "2026-10-27",
   "events": [
-   {
-    "title": "Premier Trivia Tuesday!",
-    "date": "2026-10-27",
-    "start": "18:30",
-    "end": null,
-    "price": null,
-    "description": "Tuesday Trivia at The Kickback.",
-    "category": "trivia"
-   },
    {
     "title": "Friday Night Strikes",
     "date": "2026-10-30",
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Friday Night Strikes with craft beer and pinball.",
+    "description": "Craft beer and pinball night",
     "category": "other"
    },
    {
@@ -1099,7 +1090,7 @@
     "start": "13:00",
     "end": null,
     "price": null,
-    "description": "Drag bingo with Cynthia Mooseknuckle, with New Glarus Brewing Co.",
+    "description": "Drag bingo with Cynthia Mooseknuckle",
     "category": "bingo"
    },
    {
@@ -1108,7 +1099,7 @@
     "start": "18:30",
     "end": null,
     "price": null,
-    "description": "Tuesday Trivia at The Kickback.",
+    "description": "Tuesday trivia night",
     "category": "trivia"
    },
    {
@@ -1117,7 +1108,7 @@
     "start": "18:30",
     "end": null,
     "price": null,
-    "description": "League night with Founders Brewing Co. craft beer and pinball.",
+    "description": "Pinball league night featuring Founders Brewing Co. craft beer",
     "category": "other"
    },
    {
@@ -1126,7 +1117,7 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Friday Night Strikes with craft beer and pinball.",
+    "description": "Craft beer and pinball night",
     "category": "other"
    },
    {
@@ -1135,7 +1126,7 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Ultimate Super Smash Bros tournament on Switch 2.",
+    "description": "Super Smash Bros Ultimate tournament on Switch 2",
     "category": "other"
    },
    {
@@ -1144,8 +1135,17 @@
     "start": "12:00",
     "end": null,
     "price": null,
-    "description": "Kickback9 Pin-Golf tour session with Wisconsin Pin-Golf, craft beer and league play.",
+    "description": "Pin-golf tour session with craft beer and league night",
     "category": "other"
+   },
+   {
+    "title": "Premier Trivia Tuesday!",
+    "date": "2026-11-10",
+    "start": "18:30",
+    "end": null,
+    "price": null,
+    "description": "Tuesday trivia night",
+    "category": "trivia"
    }
   ]
  },
@@ -1180,9 +1180,9 @@
   "events": []
  },
  "https://thekickback.bar/drag-bingo-nov/": {
-  "hash": "bc8730b23dad2d05e4a35847b98a6fcc0f06f6a3",
-  "asked": "2026-10-26T21:05:08-05:00",
-  "on": "2026-10-26",
+  "hash": "63b8dc6db038ec7025ea8a888cafdef67067323e",
+  "asked": "2026-10-27T21:15:27-05:00",
+  "on": "2026-10-27",
   "events": [
    {
     "title": "Drag Bingo w/ Cynthia Mooseknuckle",
@@ -1190,7 +1190,7 @@
     "start": "13:00",
     "end": null,
     "price": 5,
-    "description": "Drag Bingo games (5 rounds) with a live performance by Cynthia Mooseknuckle. Prizes from The Kickback and New Glarus Brewing.",
+    "description": "Drag Bingo games (5 rounds) and a live performance by Cynthia Mooseknuckle; prizes from The Kickback and New Glarus Brewing.",
     "category": "music"
    }
   ]
@@ -1292,8 +1292,8 @@
   ]
  },
  "https://merciescoffeewi.com/": {
-  "hash": "8a3ff4f80480a56b1c06ea2c6d2edbbc1325b4b1",
-  "asked": "2026-10-27T11:22:40-05:00",
+  "hash": "7fdafa7e087cef7a0a2a35117d93f3d11f1a1bfc",
+  "asked": "2026-10-27T21:15:39-05:00",
   "on": "2026-10-27",
   "events": []
  },
@@ -1434,8 +1434,8 @@
   "events": []
  },
  "https://www.cityofmadison.com/parks/events": {
-  "hash": "3b4bf4a4952ba2b7ae2a44eda9c836fb5f8166fb",
-  "asked": "2026-10-27T18:06:04-05:00",
+  "hash": "0947cd6a9d5dd4eccb10fc62138c24274c02be0d",
+  "asked": "2026-10-27T21:16:06-05:00",
   "on": "2026-10-27",
   "events": [
    {
@@ -1444,7 +1444,7 @@
     "start": "17:00",
     "end": "18:15",
     "price": null,
-    "description": "Fall Academy at Warner Park Community Recreation Center, 1625 Northport Drive.",
+    "description": "EHS Feeder Program Fall Academy at Warner Park Community Recreation Center, 1625 Northport Drive.",
     "category": "other"
    },
    {
@@ -1453,7 +1453,7 @@
     "start": "17:00",
     "end": "18:15",
     "price": null,
-    "description": "BDL open tryouts at Warner Park Community Recreation Center, 1625 Northport Drive.",
+    "description": "BDL Open Tryouts at Warner Park Community Recreation Center, 1625 Northport Drive.",
     "category": "sports"
    },
    {
@@ -1462,7 +1462,7 @@
     "start": "15:00",
     "end": "19:45",
     "price": null,
-    "description": "Hayride around the Capitol and movie at the Top of State, multiple locations.",
+    "description": "Hayride around the Capitol and movie at the Top of State; multiple locations.",
     "category": "film"
    },
    {
@@ -1471,7 +1471,7 @@
     "start": "17:00",
     "end": "18:15",
     "price": null,
-    "description": "Fall Academy at Warner Park Community Recreation Center, 1625 Northport Drive.",
+    "description": "EHS Feeder Program Fall Academy at Warner Park Community Recreation Center, 1625 Northport Drive.",
     "category": "other"
    },
    {
@@ -1480,7 +1480,7 @@
     "start": "17:00",
     "end": "18:15",
     "price": null,
-    "description": "BDL open tryouts at Warner Park Community Recreation Center, 1625 Northport Drive.",
+    "description": "BDL Open Tryouts at Warner Park Community Recreation Center, 1625 Northport Drive.",
     "category": "sports"
    },
    {
@@ -1489,7 +1489,16 @@
     "start": "17:00",
     "end": "19:30",
     "price": null,
-    "description": "Halloween celebration at Warner Park Community Recreation Center, 1625 Northport Drive.",
+    "description": "Halloween celebration family fun night at Warner Park Community Recreation Center, 1625 Northport Drive.",
+    "category": "other"
+   },
+   {
+    "title": "Parks Alive Fall | Galaxy",
+    "date": "2026-11-02",
+    "start": "17:00",
+    "end": "19:00",
+    "price": null,
+    "description": "Parks Alive Fall event at Harmony Apartments Community Room, 116 Milky Way.",
     "category": "other"
    },
    {
@@ -1498,7 +1507,16 @@
     "start": "17:00",
     "end": "19:00",
     "price": null,
-    "description": "Parks Alive Fall event at Warner Park Community Recreation Center, 1625 Northport Dr.",
+    "description": "Parks Alive Fall event at Warner Park Community Recreation Center, 1625 Northport Drive.",
+    "category": "other"
+   },
+   {
+    "title": "Parks Alive Fall | Allied",
+    "date": "2026-11-05",
+    "start": "17:00",
+    "end": "19:00",
+    "price": null,
+    "description": "Parks Alive Fall event at Revival Ridge Community Room, 2313 Allied Dr.",
     "category": "other"
    },
    {
@@ -1507,7 +1525,7 @@
     "start": "18:00",
     "end": "19:30",
     "price": null,
-    "description": "Virtual public meeting on Odana Hills Golf Course and Park.",
+    "description": "Public meeting about Odana Hills Golf Course and Park; virtual event.",
     "category": "other"
    }
   ]
@@ -1519,8 +1537,8 @@
   "events": []
  },
  "https://www.madisonpubliclibrary.org/spaces/events": {
-  "hash": "77d6fe53760b44d17d93821a9f5dc4851dc5d345",
-  "asked": "2026-10-27T17:48:20-05:00",
+  "hash": "1cf524f32e7f6744901d97642dc7c4539d0d2f96",
+  "asked": "2026-10-27T21:16:12-05:00",
   "on": "2026-10-27",
   "events": []
  },
@@ -1554,35 +1572,17 @@
   "events": []
  },
  "https://www.sunprairiepubliclibrary.org/home-delivery-service": {
-  "hash": "4e9edf75bdf152cc0977b9b9f80d61b1e6915444",
-  "asked": "2026-10-27T17:21:32-05:00",
+  "hash": "a0c535b21277de3b5c65260f148702186bf3fd5e",
+  "asked": "2026-10-27T21:16:09-05:00",
   "on": "2026-10-27",
   "events": [
-   {
-    "title": "Pumpkin Decorating",
-    "date": "2026-10-27",
-    "start": "18:00",
-    "end": "20:00",
-    "price": null,
-    "description": "Pumpkin decorating for family, teens and adults at Sun Prairie Public Library.",
-    "category": "other"
-   },
-   {
-    "title": "Evening Book Club",
-    "date": "2026-10-27",
-    "start": "19:00",
-    "end": "20:00",
-    "price": null,
-    "description": "Evening book club for adults at Sun Prairie Public Library.",
-    "category": "other"
-   },
    {
     "title": "Outdoor Family Storytime",
     "date": "2026-10-28",
     "start": "10:00",
     "end": "10:30",
     "price": null,
-    "description": "Outdoor storytime for families and children ages 0-5.",
+    "description": "Outdoor family storytime at Sun Prairie Public Library. Ages 0-5 and family.",
     "category": "other"
    },
    {
@@ -1591,7 +1591,7 @@
     "start": "17:00",
     "end": "17:30",
     "price": null,
-    "description": "Spanish-language storytime for families and children ages 0-5.",
+    "description": "Spanish-language storytime at Sun Prairie Public Library. Ages 0-5 and family.",
     "category": "other"
    },
    {
@@ -1600,8 +1600,26 @@
     "start": "18:00",
     "end": "19:30",
     "price": null,
-    "description": "Handpan event for teens and adults at Sun Prairie Public Library.",
-    "category": "music"
+    "description": "Library program on the handpan. Teens and adults.",
+    "category": "other"
+   },
+   {
+    "title": "Dream Bus Mobile Library @ Creekside and Westside Elementary",
+    "date": "2026-10-29",
+    "start": "13:45",
+    "end": "15:00",
+    "price": null,
+    "description": "Dream Bus mobile library stop at Creekside and Westside Elementary. All ages.",
+    "category": "other"
+   },
+   {
+    "title": "Family Storytime",
+    "date": "2026-10-29",
+    "start": "18:30",
+    "end": "19:00",
+    "price": null,
+    "description": "Family storytime at Sun Prairie Public Library. Ages 0-5 and family.",
+    "category": "other"
    }
   ]
  },
@@ -1666,8 +1684,8 @@
   ]
  },
  "https://www.madisonpubliclibrary.org/spaces/events/search": {
-  "hash": "cef88601c5d8dced5f81f10ff78b54ca7d62a4aa",
-  "asked": "2026-10-27T18:06:24-05:00",
+  "hash": "e56f68e4c0fb215a5000c43ed45fd6899ac02f1a",
+  "asked": "2026-10-27T21:16:17-05:00",
   "on": "2026-10-27",
   "events": []
  },
@@ -1695,19 +1713,10 @@
   ]
  },
  "https://bartelltheatre.org/": {
-  "hash": "c10e976ee0e5dfd868fcb45b71997fc396873491",
-  "asked": "2026-10-27T11:23:21-05:00",
+  "hash": "391cf69edb3eaf8679cdc043a9396205c5712748",
+  "asked": "2026-10-27T21:16:18-05:00",
   "on": "2026-10-27",
   "events": [
-   {
-    "title": "Film: Seeds for Liberation",
-    "date": "2026-10-27",
-    "start": "19:00",
-    "end": null,
-    "price": null,
-    "description": "Documentary from Matthew Solomon and Donna Hadjikhani on Palestine's occupation, social media's role in global support, and paths to collective liberation.",
-    "category": "film"
-   },
    {
     "title": "Film: American Doctor",
     "date": "2026-10-28",
@@ -1723,7 +1732,7 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "Screening of North by Northwest.",
+    "description": "Hitchcock's 'wrong man' thriller starring Cary Grant, pursued across the country by spies.",
     "category": "film"
    },
    {
@@ -1732,8 +1741,8 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "Bartell Theatre production; the page gives no further details.",
-    "category": "other"
+    "description": "Production at Bartell Theatre.",
+    "category": "theater"
    },
    {
     "title": "Film: Re-Animator",
@@ -1741,7 +1750,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Screening of Re-Animator.",
+    "description": "Screening at Bartell Theatre.",
     "category": "film"
    },
    {
@@ -1750,7 +1759,7 @@
     "start": "21:30",
     "end": null,
     "price": null,
-    "description": "Screening of Hello Mary Lou: Prom Night II.",
+    "description": "Screening at Bartell Theatre.",
     "category": "film"
    },
    {
@@ -1759,11 +1768,11 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "Bartell Theatre production of Romeo and Juliet.",
+    "description": "Production at Bartell Theatre.",
     "category": "theater"
    },
    {
-    "title": "A Valentine's Affair 2027 Auditions (First Audition)",
+    "title": "A Valentine's Affair 2027 Auditions: First Audition",
     "date": "2026-11-09",
     "start": "18:30",
     "end": null,
