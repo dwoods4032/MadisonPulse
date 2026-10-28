@@ -1,6 +1,6 @@
 name: New places preview (held branch only)
 # Runs the closed/missing/new restaurant step on the held branch without publishing
-# anything; results are attached to the run for review.
+# anything; results (and the log) go to the new-places-results branch for review.
 on:
   push:
     branches: [new-places]
@@ -16,17 +16,14 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
-      - name: New places
+      - name: New places, link check, apply again, sheets
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: python -m scraper.newplaces
-      - name: Check candidate websites, then apply again
         run: |
-          python -m scraper.links
-          python -m scraper.newplaces
-      - name: Sheets
-        run: python -m scraper.sheets
+          set -o pipefail
+          { python -m scraper.newplaces && python -m scraper.links && python -m scraper.newplaces && python -m scraper.sheets; } 2>&1 | tee data/preview_log.txt
       - name: Save results to a review branch (not main, not published)
+        if: always()
         run: |
           git config user.name "madisonpulse-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
