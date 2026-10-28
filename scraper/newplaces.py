@@ -40,7 +40,7 @@ BARLIKE = re.compile(r"^(bar|pub|cocktail_bar|wine_bar|sports_bar|lounge|dive_ba
                      r"night_club|beer_garden|whiskey_bar|hookah_bar)$", re.I)
 
 
-MORE_CHAINS = (r"^(outback|quiznos|milio'?s|wow bao|krispy krunchy|fox'?s pizza|chuck e|olive garden|texas roadhouse|"
+MORE_CHAINS = (r"^(wahlburgers|mrbeast|smokey bones|outback|quiznos|milio'?s|wow bao|krispy krunchy|fox'?s pizza|chuck e|olive garden|texas roadhouse|"
                r"buffalo wild|red lobster|longhorn|cracker barrel|bj'?s rest|noodles|taco john|del taco|jimmy john|"
                r"papa murphy|marco'?s|hungry howie|cici|godfather|sbarro|auntie anne|cinnabon|wetzel|jamba|smoothie king|"
                r"tropical smoothie|potbelly|which wich|firehouse|jersey mike|pita pit|zaxby|culver|cousins|toppers|"
@@ -145,7 +145,10 @@ def agenda_links(html: str) -> list[tuple[str, str]]:
         if "View.ashx" not in a["href"] or "M=A" not in a["href"]:
             continue
         ctx, el = "", a
-        for _ in range(4):  # look up a few levels for the meeting's date
+        m = DATE_RX.search(a.get("title", ""))  # "Agenda of the Wednesday, Oct. 21, 2026 5:30pm meeting…"
+        if m:
+            ctx = datetime.strptime(f"{m.group(1)[:3]} {m.group(2)} {m.group(3)}", "%b %d %Y").date().isoformat()
+        for _ in range(0 if ctx else 8):  # else look up a few levels for the meeting's date
             el = el.parent
             if el is None:
                 break
@@ -248,13 +251,22 @@ def apply(rest_doc: dict, ven_doc: dict, ovt: dict, lic: dict) -> dict:
     vkeep = [v for v in venues if v.get("kind") not in ("bar", "brewery") or not is_closed(v)]
     stats["closed_removed"] += len(venues) - len(vkeep)
 
-    # 2. additions: open, confident, not a chain, not already on our lists
+    # 2. additions: open, confident, not a chain, not already on our lists, website alive
+    link_cache = load_json(DATA / "link_cache.json", {})
+    candidates = []
     for p in places:
         if p["status"] not in ("", "open") or p["confidence"] < 0.7 or re.search(CHAINS, p["name"].lower()) \
                 or re.search(MORE_CHAINS, p["name"].lower()) or counts.get(norm(p["name"]), 0) >= 4:
             continue
-        if ENTITY.search(p["name"]) and not p["website"]:
+        if ENTITY.search(p["name"]):
             continue  # a company's registered name ("Pizza Ventures III LLC"), not what's on the sign
+        # Overture keeps some long-closed places marked open, so a place it alone knows about is added only
+        # when Overture says open, is confident, and the place's website answers (checked by scraper.links)
+        if p["status"] != "open" or p["confidence"] < 0.9 or not p["website"]:
+            continue
+        candidates.append({"name": p["name"], "website": p["website"], "id": p["id"]})
+        if (link_cache.get(p["website"]) or {}).get("ok") is not True:
+            continue
         if BARLIKE.match(p["category"]) or not re.search(r"restaurant|diner|bistro|steakhouse|pizz|burger|taco|sushi|ramen|"
                                                         r"noodle|bbq|barbecue|gastropub|brewpub|supper_club|seafood|tapas|wings",
                                                         p["category"] + " " + p["alt"], re.I):
@@ -290,6 +302,8 @@ def apply(rest_doc: dict, ven_doc: dict, ovt: dict, lic: dict) -> dict:
                 stats["new"] += 1
                 break
 
+    save_json(DATA / "overture_candidates.json", candidates)  # scraper.links checks these websites
+    stats["candidates_waiting"] = sum(1 for c in candidates if (link_cache.get(c["website"]) or {}).get("ok") is not True)
     rest_doc["restaurants"] = sorted(keep, key=lambda r: r["name"].lower())
     rest_doc["count"] = len(rest_doc["restaurants"])
     ven_doc["venues"] = vkeep

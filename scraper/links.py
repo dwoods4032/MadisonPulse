@@ -83,6 +83,7 @@ def main():
     for r in rests:
         urls += [u for u in (r.get("menu"), r.get("website")) if u]
     urls += [a["website"] for a in acts if a.get("website")]
+    urls += [c["website"] for c in load_json(DATA / "overture_candidates.json", []) if c.get("website")]  # places to confirm
     urls = list(dict.fromkeys(u for u in urls if u.startswith(("http://", "https://"))))
 
     cache = load_json(DATA / "link_cache.json", {})

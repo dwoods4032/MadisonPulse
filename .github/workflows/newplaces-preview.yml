@@ -20,6 +20,10 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python -m scraper.newplaces
+      - name: Check candidate websites, then apply again
+        run: |
+          python -m scraper.links
+          python -m scraper.newplaces
       - name: Sheets
         run: python -m scraper.sheets
       - name: Save results to a review branch (not main, not published)
