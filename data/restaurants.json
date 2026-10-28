@@ -1,6 +1,6 @@
 {
  "generated_at": "2026-10-26T15:59:49-05:00",
- "count": 507,
+ "count": 500,
  "with_hours": 245,
  "with_website": 247,
  "restaurants": [
@@ -1112,7 +1112,9 @@
    "menu_src": "restaurant homepage",
    "image": "http://static1.squarespace.com/static/6a21e4c03d712b3bcbddeddf/t/6a344fa71890a327487b2fb6/1781813159435/begonia+logo+Indigo+RGB+3000x1180.png?format=1500w",
    "alcohol_src": "menu/homepage keywords",
-   "website_ok": true
+   "website_ok": true,
+   "new_since": "2026-08-19",
+   "new_evidence": "New alcohol license approved at the 2026-08-19 ALRC meeting"
   },
   {
    "group": "american",
@@ -3705,27 +3707,6 @@
    "bar": false,
    "alcohol": null,
    "website_ok": false
-  },
-  {
-   "group": "american",
-   "dinner": true,
-   "id": "osm:node/5465861346",
-   "name": "Egg & I",
-   "cuisine": "american, breakfast",
-   "fast": false,
-   "price": 24,
-   "vibes": [
-    "classic",
-    "chill"
-   ],
-   "address": "2501 W Beltline Hwy",
-   "lat": 43.034536,
-   "lon": -89.42065,
-   "website": "",
-   "hours": null,
-   "bar": false,
-   "alcohol": null,
-   "website_ok": null
   },
   {
    "group": "latin",
@@ -7008,43 +6989,6 @@
   {
    "group": "asian",
    "dinner": true,
-   "id": "osm:node/4439281800",
-   "name": "K-Peppers",
-   "cuisine": "korean",
-   "fast": false,
-   "price": 24,
-   "vibes": [],
-   "address": "1901 Cayuga Street",
-   "lat": 43.096289,
-   "lon": -89.513639,
-   "website": "http://k-peppers.com",
-   "hours": [
-    [
-     [
-      0,
-      5
-     ],
-     "17:00",
-     "20:30"
-    ],
-    [
-     [
-      1,
-      2,
-      3,
-      4
-     ],
-     "11:00",
-     "20:30"
-    ]
-   ],
-   "bar": false,
-   "alcohol": null,
-   "website_ok": null
-  },
-  {
-   "group": "asian",
-   "dinner": true,
    "id": "osm:node/14136456479",
    "name": "Kanto Fiesta",
    "cuisine": "asian",
@@ -7174,24 +7118,6 @@
    "address": "1865 Northport Drive",
    "lat": 43.128897,
    "lon": -89.359987,
-   "website": "",
-   "hours": null,
-   "bar": false,
-   "alcohol": null,
-   "website_ok": null
-  },
-  {
-   "group": "asian",
-   "dinner": true,
-   "id": "osm:node/3722176852",
-   "name": "KJ's Curry Bowl",
-   "cuisine": "",
-   "fast": false,
-   "price": 24,
-   "vibes": [],
-   "address": "7005 Tree Lane",
-   "lat": 43.065258,
-   "lon": -89.503192,
    "website": "",
    "hours": null,
    "bar": false,
@@ -10289,24 +10215,6 @@
    "website_ok": true
   },
   {
-   "group": "latin",
-   "dinner": true,
-   "id": "osm:way/566156907",
-   "name": "Pasqual's Cantina",
-   "cuisine": "mexican",
-   "fast": false,
-   "price": 16,
-   "vibes": [],
-   "address": "",
-   "lat": 43.001922,
-   "lon": -89.528847,
-   "website": "",
-   "hours": null,
-   "bar": false,
-   "alcohol": null,
-   "website_ok": null
-  },
-  {
    "group": "american",
    "dinner": true,
    "id": "osm:node/8069368096",
@@ -12091,24 +11999,6 @@
    "website_ok": null
   },
   {
-   "group": "latin",
-   "dinner": true,
-   "id": "osm:node/2969004826",
-   "name": "South Cantina",
-   "cuisine": "mexican",
-   "fast": false,
-   "price": 16,
-   "vibes": [],
-   "address": "",
-   "lat": 43.071828,
-   "lon": -89.408024,
-   "website": "https://union.wisc.edu/dine/find-food-and-drink/urban-slice/",
-   "hours": null,
-   "bar": false,
-   "alcohol": null,
-   "website_ok": false
-  },
-  {
    "group": "american",
    "dinner": true,
    "id": "osm:node/7120221969",
@@ -13711,7 +13601,9 @@
    "hours": null,
    "bar": false,
    "alcohol": null,
-   "website_ok": null
+   "website_ok": null,
+   "new_since": "2026-09-16",
+   "new_evidence": "New alcohol license approved at the 2026-09-16 ALRC meeting"
   },
   {
    "group": "med",
@@ -14275,27 +14167,6 @@
    "website_ok": true
   },
   {
-   "group": "pub",
-   "dinner": true,
-   "id": "osm:node/1692599119",
-   "name": "Twist Bar and Grill",
-   "cuisine": "",
-   "fast": false,
-   "price": 24,
-   "vibes": [
-    "dive"
-   ],
-   "address": "",
-   "lat": 43.055423,
-   "lon": -89.495851,
-   "website": "",
-   "hours": null,
-   "bar": true,
-   "alcohol": true,
-   "alcohol_src": "OpenStreetMap tag or name/type rule",
-   "website_ok": null
-  },
-  {
    "group": "asian",
    "dinner": true,
    "id": "osm:way/489458979",
@@ -14779,24 +14650,6 @@
    "image": "http://static1.squarespace.com/static/6938b062fef0ab5b07634fd2/t/695d971a3b532f56779de9f2/1767741210809/Yeeshan_weblogo_whiteglow_Ver3.gif?format=1500w",
    "alcohol_src": "menu/homepage keywords",
    "website_ok": true
-  },
-  {
-   "group": "asian",
-   "dinner": true,
-   "id": "osm:node/558652388",
-   "name": "Yes Buffet",
-   "cuisine": "",
-   "fast": false,
-   "price": 24,
-   "vibes": [],
-   "address": "",
-   "lat": 43.025814,
-   "lon": -89.414868,
-   "website": "",
-   "hours": null,
-   "bar": false,
-   "alcohol": null,
-   "website_ok": null
   },
   {
    "group": "sushi",

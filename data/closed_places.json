@@ -1,0 +1,50 @@
+{
+ "osm:node/5465861346": {
+  "name": "Egg & I",
+  "address": "2501 W Beltline Hwy",
+  "why": "Overture: permanently closed",
+  "since": "2026-10-28"
+ },
+ "osm:node/4439281800": {
+  "name": "K-Peppers",
+  "address": "1901 Cayuga Street",
+  "why": "Overture: permanently closed",
+  "since": "2026-10-28"
+ },
+ "osm:node/3722176852": {
+  "name": "KJ's Curry Bowl",
+  "address": "7005 Tree Lane",
+  "why": "Overture: permanently closed",
+  "since": "2026-10-28"
+ },
+ "osm:way/566156907": {
+  "name": "Pasqual's Cantina",
+  "address": "",
+  "why": "Overture: permanently closed",
+  "since": "2026-10-28"
+ },
+ "osm:node/2969004826": {
+  "name": "South Cantina",
+  "address": "",
+  "why": "Overture: permanently closed",
+  "since": "2026-10-28"
+ },
+ "osm:node/1692599119": {
+  "name": "Twist Bar and Grill",
+  "address": "",
+  "why": "Overture: permanently closed",
+  "since": "2026-10-28"
+ },
+ "osm:node/558652388": {
+  "name": "Yes Buffet",
+  "address": "",
+  "why": "Overture: permanently closed",
+  "since": "2026-10-28"
+ },
+ "osm:node/7039682063": {
+  "name": "Monk's Bar and Grill",
+  "address": "",
+  "why": "Overture: permanently closed",
+  "since": "2026-10-28"
+ }
+}
