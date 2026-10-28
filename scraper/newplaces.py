@@ -40,6 +40,23 @@ BARLIKE = re.compile(r"^(bar|pub|cocktail_bar|wine_bar|sports_bar|lounge|dive_ba
                      r"night_club|beer_garden|whiskey_bar|hookah_bar)$", re.I)
 
 
+MORE_CHAINS = (r"^(outback|quiznos|milio'?s|wow bao|krispy krunchy|fox'?s pizza|chuck e|olive garden|texas roadhouse|"
+               r"buffalo wild|red lobster|longhorn|cracker barrel|bj'?s rest|noodles|taco john|del taco|jimmy john|"
+               r"papa murphy|marco'?s|hungry howie|cici|godfather|sbarro|auntie anne|cinnabon|wetzel|jamba|smoothie king|"
+               r"tropical smoothie|potbelly|which wich|firehouse|jersey mike|pita pit|zaxby|culver|cousins|toppers|"
+               r"jet'?s|qdoba|moe'?s|chipotle|sweetgreen|cava|panda|pei wei|benihana|hooters|twin peaks|ihop|denny|perkins|"
+               r"village inn|bob evans|golden corral|old country|famous dave|dickey'?s|arby|sonic|a&w|dairy queen|"
+               r"freddy|steak n shake|white castle|krystal|wingstop|wing ?stop|buffalo wings & rings|charleys|"
+               r"great harvest|einstein|bruegger|panera|caribou|starbucks|dunkin|tim horton|biggby|scooter'?s)")
+ENTITY = re.compile(r"\b(llc|l\.l\.c|inc|incorporated|corp|corporation|ltd|enterprises?|holdings?|ventures?|franchising|group)\b\.?", re.I)
+
+
+def public_name(n: str) -> str:
+    """'Four Pond LLC dba Mint Mark' -> 'Mint Mark'."""
+    m = re.search(r"\b(?:dba|d/b/a|doing business as)\b[:\s]+(.+)$", n or "", re.I)
+    return m.group(1).strip() if m else (n or "").strip()
+
+
 def norm(n: str) -> str:
     n = (n or "").lower().replace("&", " and ")
     n = re.sub(r"[^a-z0-9 ]+", " ", n)
@@ -156,6 +173,8 @@ def read_licenses(cache: dict) -> dict:
     agendas = cache.setdefault("agendas", {})
     links = agenda_links(page.text)
     cache["links_on_page"] = len(links)
+    cache["page_debug"] = {"bytes": len(page.text), "view_ashx": page.text.count("View.ashx"), "legistar": page.text.count("legistar"),
+                           "final_url": page.url}
     for day, url in links:
         if day < since or url in agendas or day > date.today().isoformat():
             continue
@@ -209,6 +228,12 @@ def apply(rest_doc: dict, ven_doc: dict, ovt: dict, lic: dict) -> dict:
     stats = {"overture_added": 0, "closed_removed": 0, "new": 0}
 
     places = [p for p in ovt.get("places", []) if p.get("name") and not p.get("chain")]
+    for p in places:
+        p["name"] = public_name(p["name"])
+    # a name with 4+ locations in the area is a chain
+    counts = {}
+    for p in places:
+        counts[norm(p["name"])] = counts.get(norm(p["name"]), 0) + 1
     # 1. closed: a place Overture says is permanently closed comes off the list
     gone = [p for p in places if p["status"] == "permanently_closed"]
     def is_closed(x):
@@ -225,8 +250,11 @@ def apply(rest_doc: dict, ven_doc: dict, ovt: dict, lic: dict) -> dict:
 
     # 2. additions: open, confident, not a chain, not already on our lists
     for p in places:
-        if p["status"] not in ("", "open") or p["confidence"] < 0.6 or re.search(CHAINS, p["name"].lower()):
+        if p["status"] not in ("", "open") or p["confidence"] < 0.7 or re.search(CHAINS, p["name"].lower()) \
+                or re.search(MORE_CHAINS, p["name"].lower()) or counts.get(norm(p["name"]), 0) >= 4:
             continue
+        if ENTITY.search(p["name"]) and not p["website"]:
+            continue  # a company's registered name ("Pizza Ventures III LLC"), not what's on the sign
         if BARLIKE.match(p["category"]) or not re.search(r"restaurant|diner|bistro|steakhouse|pizz|burger|taco|sushi|ramen|"
                                                         r"noodle|bbq|barbecue|gastropub|brewpub|supper_club|seafood|tapas|wings",
                                                         p["category"] + " " + p["alt"], re.I):
