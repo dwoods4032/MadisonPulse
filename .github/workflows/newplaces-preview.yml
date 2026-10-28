@@ -5,7 +5,7 @@ on:
   push:
     branches: [new-places]
 permissions:
-  contents: read
+  contents: write
 jobs:
   preview:
     runs-on: ubuntu-latest
@@ -22,14 +22,11 @@ jobs:
         run: python -m scraper.newplaces
       - name: Sheets
         run: python -m scraper.sheets
-      - uses: actions/upload-artifact@v4
-        with:
-          name: newplaces
-          path: |
-            data/newplaces_report.json
-            data/overture_places.json
-            data/licenses.json
-            data/closed_places.json
-            data/restaurants.json
-            data/venues.json
-            data/sheets/MadisonPulse.xlsx
+      - name: Save results to a review branch (not main, not published)
+        run: |
+          git config user.name "madisonpulse-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b new-places-results
+          git add -f data
+          git commit -q -m "New places preview results" || true
+          git push -f origin new-places-results
