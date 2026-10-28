@@ -287,7 +287,7 @@ def apply(rest_doc: dict, ven_doc: dict, ovt: dict, lic: dict) -> dict:
     lic_items = [(a["date"], i, url) for url, a in (lic.get("agendas") or {}).items() for i in a.get("items", [])]
     for x in keep + vkeep:
         x.pop("new_since", None); x.pop("new_evidence", None)
-        for day, i, url in sorted(lic_items, reverse=True):
+        for day, i, url in sorted(lic_items, key=lambda t: t[0], reverse=True):
             if day < cutoff:
                 continue
             names = [norm(i.get("trade_name", "")), norm(i.get("business", ""))]
