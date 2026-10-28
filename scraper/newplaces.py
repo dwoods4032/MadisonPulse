@@ -89,9 +89,11 @@ def fetch_overture() -> dict:
     out = []
     for row in cur.fetchall():
         p = dict(zip(cols, row))
-        cats = p.get("categories") or {}
-        cat = (cats.get("primary") or "") if isinstance(cats, dict) else ""
-        alt = " ".join((cats.get("alternate") or []) if isinstance(cats, dict) else [])
+        # categories moved to "taxonomy" (primary / hierarchy / alternate) in 2026; older releases used "categories"
+        tax = p.get("taxonomy") or p.get("categories") or {}
+        tax = tax if isinstance(tax, dict) else {}
+        cat = tax.get("primary") or p.get("basic_category") or ""
+        alt = " ".join([*(tax.get("alternate") or []), *(tax.get("hierarchy") or []), p.get("basic_category") or ""])
         if not (FOOD.search(cat + " " + alt) or BARLIKE.match(cat)):
             continue
         names = p.get("names") or {}
@@ -114,7 +116,7 @@ def fetch_overture() -> dict:
 
 # ---------------------------------------------------------------- city alcohol licenses
 ALRC_PAGE = "https://www.cityofmadison.com/city-hall/committees/alcohol-license-review-committee"
-DATE_RX = re.compile(r"(January|February|March|April|May|June|July|August|September|October|November|December)\.?\s+(\d{1,2}),\s+(20\d\d)")
+DATE_RX = re.compile(r"\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\.?\s+(\d{1,2}),\s+(20\d\d)")
 
 
 def agenda_links(html: str) -> list[tuple[str, str]]:
@@ -132,7 +134,7 @@ def agenda_links(html: str) -> list[tuple[str, str]]:
                 break
             m = DATE_RX.search(el.get_text(" "))
             if m:
-                ctx = datetime.strptime(" ".join(m.groups()), "%B %d %Y").date().isoformat()
+                ctx = datetime.strptime(f"{m.group(1)[:3]} {m.group(2)} {m.group(3)}", "%b %d %Y").date().isoformat()
                 break
         if ctx:
             out.append((ctx, requests.compat.urljoin(ALRC_PAGE, a["href"])))
@@ -152,7 +154,9 @@ def read_licenses(cache: dict) -> dict:
     key = os.environ.get("ANTHROPIC_API_KEY")
     since = (date.today() - timedelta(days=NEW_DAYS + 60)).isoformat()
     agendas = cache.setdefault("agendas", {})
-    for day, url in agenda_links(page.text):
+    links = agenda_links(page.text)
+    cache["links_on_page"] = len(links)
+    for day, url in links:
         if day < since or url in agendas or day > date.today().isoformat():
             continue
         try:
