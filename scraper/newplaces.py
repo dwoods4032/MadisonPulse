@@ -120,7 +120,7 @@ def fetch_overture() -> dict:
         out.append({
             "id": "ovt:" + str(p.get("id")),
             "name": names.get("primary") if isinstance(names, dict) else "",
-            "category": cat, "alt": alt,
+            "category": cat, "alt": alt, "path": " ".join(tax.get("hierarchy") or []),
             "confidence": round(float(p.get("confidence") or 0), 2),
             "status": p.get("operating_status") or "",
             "website": ((p.get("websites") or [""])[0] or ""),
@@ -251,36 +251,51 @@ def apply(rest_doc: dict, ven_doc: dict, ovt: dict, lic: dict) -> dict:
     vkeep = [v for v in venues if v.get("kind") not in ("bar", "brewery") or not is_closed(v)]
     stats["closed_removed"] += len(venues) - len(vkeep)
 
-    # 2. additions: open, confident, not a chain, not already on our lists, website alive
+    # 2. possible missing places: Overture keeps some long-closed places marked open and mixes in
+    # non-restaurants, so these go to data/missing_places.csv for the user to approve (add = yes).
+    import csv
     link_cache = load_json(DATA / "link_cache.json", {})
-    candidates = []
+    path = DATA / "missing_places.csv"
+    answers = {}
+    if path.exists():
+        with path.open(newline="") as fh:
+            answers = {r["id"]: r for r in csv.DictReader(fh) if r.get("id")}
+    rows, candidates = [], []
     for p in places:
-        if p["status"] not in ("", "open") or p["confidence"] < 0.7 or re.search(CHAINS, p["name"].lower()) \
-                or re.search(MORE_CHAINS, p["name"].lower()) or counts.get(norm(p["name"]), 0) >= 4:
-            continue
-        if ENTITY.search(p["name"]):
-            continue  # a company's registered name ("Pizza Ventures III LLC"), not what's on the sign
-        # Overture keeps some long-closed places marked open, so a place it alone knows about is added only
-        # when Overture says open, is confident, and the place's website answers (checked by scraper.links)
+        kind = (p.get("path") or p["category"])
         if p["status"] != "open" or p["confidence"] < 0.9 or not p["website"]:
             continue
-        candidates.append({"name": p["name"], "website": p["website"], "id": p["id"]})
-        if (link_cache.get(p["website"]) or {}).get("ok") is not True:
+        if ENTITY.search(p["name"]) or re.search(CHAINS, p["name"].lower()) or re.search(MORE_CHAINS, p["name"].lower()) \
+                or counts.get(norm(p["name"]), 0) >= 4:
             continue
         if BARLIKE.match(p["category"]) or not re.search(r"restaurant|diner|bistro|steakhouse|pizz|burger|taco|sushi|ramen|"
-                                                        r"noodle|bbq|barbecue|gastropub|brewpub|supper_club|seafood|tapas|wings",
-                                                        p["category"] + " " + p["alt"], re.I):
+                                                        r"noodle|bbq|barbecue|gastropub|brewpub|supper_club|seafood|tapas|wings", kind, re.I):
             continue
-        if any(same_place(p, r) for r in keep) or any(same_place(p, v) for v in vkeep):
+        near = lambda x: x.get("lat") is not None and miles((p["lat"], p["lon"]), (x["lat"], x["lon"])) <= 0.3 and \
+            (lambda a, b: a and b and (a == b or (min(len(a), len(b)) >= 4 and (a in b or b in a))))(norm(p["name"]), norm(x.get("name", "")))
+        if any(near(r) for r in keep) or any(near(v) for v in vkeep):
             continue
-        cuisine = re.sub(r"_?restaurant$", "", p["category"]).replace("_", " ").strip()
-        group, dinner = cuisine_group(p["name"], cuisine)
-        fast = "fast_food" in p["category"]
-        keep.append({"group": group, "dinner": dinner, "alcohol": None, "id": p["id"], "name": p["name"],
-                     "cuisine": cuisine, "fast": fast, "price": 12 if fast else 24, "vibes": [],
-                     "address": p["address"], "lat": p["lat"], "lon": p["lon"], "website": p["website"],
-                     "hours": None, "bar": False, "source": "Overture Maps"})
-        stats["overture_added"] += 1
+        candidates.append({"name": p["name"], "website": p["website"], "id": p["id"]})
+        ok = (link_cache.get(p["website"]) or {}).get("ok")
+        prev = answers.get(p["id"], {})
+        rows.append({"add (yes/no)": prev.get("add (yes/no)", ""), "name": p["name"], "address": p["address"], "city": p["city"],
+                     "type": p["category"].replace("_", " "), "website": p["website"],
+                     "website works": {True: "yes", False: "no"}.get(ok, "not checked yet"), "notes": prev.get("notes", ""), "id": p["id"]})
+        if prev.get("add (yes/no)", "").strip().lower().startswith("y"):
+            cuisine = re.sub(r"_?restaurant$", "", p["category"]).replace("_", " ").strip()
+            group, dinner = cuisine_group(p["name"], cuisine)
+            fast = "fast_food" in p["category"]
+            keep.append({"group": group, "dinner": dinner, "alcohol": None, "id": p["id"], "name": p["name"],
+                         "cuisine": cuisine, "fast": fast, "price": 12 if fast else 24, "vibes": [],
+                         "address": p["address"], "lat": p["lat"], "lon": p["lon"], "website": p["website"],
+                         "hours": None, "bar": False, "source": "Overture Maps (approved)"})
+            stats["overture_added"] += 1
+    rows.sort(key=lambda r: (r["add (yes/no)"] != "", r["website works"] != "yes", r["name"].lower()))
+    with path.open("w", newline="") as fh:  # keeps every yes/no and note already filled in
+        w = csv.DictWriter(fh, fieldnames=["add (yes/no)", "name", "address", "city", "type", "website", "website works", "notes", "id"])
+        w.writeheader()
+        w.writerows(rows)
+    stats["possible_missing"] = len(rows)
 
     # 3. new: dated evidence of a new license in the last 6 months
     cutoff = (date.today() - timedelta(days=NEW_DAYS)).isoformat()
@@ -303,7 +318,6 @@ def apply(rest_doc: dict, ven_doc: dict, ovt: dict, lic: dict) -> dict:
                 break
 
     save_json(DATA / "overture_candidates.json", candidates)  # scraper.links checks these websites
-    stats["candidates_waiting"] = sum(1 for c in candidates if (link_cache.get(c["website"]) or {}).get("ok") is not True)
     rest_doc["restaurants"] = sorted(keep, key=lambda r: r["name"].lower())
     rest_doc["count"] = len(rest_doc["restaurants"])
     ven_doc["venues"] = vkeep

@@ -266,8 +266,10 @@ def write_xlsx():
         ("", False),
         ("Restaurants: places marked New opened in the last 6 months (dated by a new alcohol license at the city's ALRC).", False),
         ("  Closed (removed) lists every place taken off as closed and why; New licenses lists what the city approved, including places not open yet.", False),
+        ("Possible missing places: restaurants Overture Maps knows that our list doesn't. Type yes in the yellow column to add one", False),
+        ("  (no to dismiss it), then edit data/missing_places.csv on GitHub or send this workbook back. Only places you approve are added.", False),
         ("", False),
-        ("Tabs: Dead links, Music venues, Restaurants, Closed (removed), New licenses, Bars & venues, Activities, Events, Weights.", False),
+        ("Tabs: Dead links, Music venues, Restaurants, Possible missing places, Closed (removed), New licenses, Bars & venues, Activities, Events, Weights.", False),
     ]
     for i, (t, b) in enumerate(lines, 1):
         c = readme.cell(row=i, column=1, value=t)
@@ -306,6 +308,7 @@ def write_xlsx():
     add("Dead links", DATA / "link_fixes.csv", fill_cols=("new_url", "notes"))
     add("Music venues", SHEETS / "music_venues.csv", fill_cols=("calendar_url", "notes"))
     add("Restaurants", SHEETS / "restaurants.csv")
+    add("Possible missing places", DATA / "missing_places.csv", fill_cols=("add (yes/no)", "notes"))
     add("Closed (removed)", SHEETS / "closed_removed.csv")
     add("New licenses", SHEETS / "new_licenses.csv")
     add("Bars & venues", SHEETS / "bars_venues.csv")
