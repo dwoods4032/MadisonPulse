@@ -7,17 +7,24 @@
   "skipped_site": 0,
   "api_errors": {},
   "key_present": true,
-  "at": "2026-10-27T21:14:45.865651-05:00"
+  "at": "2026-10-28T12:10:02.452540-05:00"
  },
  "restaurant": {
   "what": "restaurant",
   "to_check": 41,
-  "answered": 0,
-  "no_page": 41,
+  "answered": 1,
+  "no_page": 40,
   "skipped_site": 0,
   "api_errors": {},
+  "samples": [
+   {
+    "place": "K-Peppers",
+    "reply": "{\"group\": \"latin\", \"alcohol\": \"unknown\"}",
+    "stop": "end_turn"
+   }
+  ],
   "key_present": true,
-  "at": "2026-10-27T21:14:58.623820-05:00"
+  "at": "2026-10-28T12:10:22.839969-05:00"
  },
  "activity": {
   "what": "activity",
@@ -27,6 +34,6 @@
   "skipped_site": 0,
   "api_errors": {},
   "key_present": true,
-  "at": "2026-10-27T21:15:04.842669-05:00"
+  "at": "2026-10-28T12:10:29.023291-05:00"
  }
 }

@@ -281,5 +281,67 @@
   "lon": -89.344224,
   "address": "2717 Atwood Avenue",
   "city": "Madison"
+ },
+ "buffalo wild wings - monona": {
+  "lat": 43.047223,
+  "lon": -89.321613,
+  "address": "6544 Monona Drive",
+  "city": "Monona"
+ },
+ "quarry arts building": {
+  "lat": 43.074503,
+  "lon": -89.443005,
+  "address": "Hill Street",
+  "city": "Madison"
+ },
+ "uw memorial union-terrace": null,
+ "diamond way buddhist center": null,
+ "uw hamel music center-collins recital hall": null,
+ "lucille": {
+  "lat": 43.074535,
+  "lon": -89.381497,
+  "address": "101 King Street",
+  "city": "Madison"
+ },
+ "ivory room": {
+  "lat": 43.074402,
+  "lon": -89.387146,
+  "address": "116 West Mifflin Street",
+  "city": "Madison"
+ },
+ "uw social sciences building": null,
+ "ymca of dane county-east": null,
+ "agora pavilion, fitchburg": {
+  "lat": 43.005272,
+  "lon": -89.423944,
+  "address": "East Cheryl Parkway",
+  "city": "Fitchburg"
+ },
+ "garver feed mill": {
+  "lat": 43.094727,
+  "lon": -89.334831,
+  "address": "Capital City State Trail",
+  "city": "Madison"
+ },
+ "history maker space": null,
+ "chazen museum of art": {
+  "lat": 43.073856,
+  "lon": -89.398655,
+  "address": "750 University Avenue",
+  "city": "Madison"
+ },
+ "uw red gym": null,
+ "giant jones brewing company": null,
+ "freedom inc.": {
+  "lat": 43.03312,
+  "lon": -89.416354,
+  "address": "2110 Luann Lane",
+  "city": "Madison"
+ },
+ "madison museum of contemporary art": {
+  "lat": 43.074521,
+  "lon": -89.388908,
+  "address": "227 State Street",
+  "city": "Madison"
  }
 }

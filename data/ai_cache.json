@@ -353,35 +353,26 @@
   "events": []
  },
  "https://www.harmonybarandgrill.com/madison-atwood-the-harmony-bar-and-grill-events": {
-  "hash": "7c353a563dda8c33560ddc1930f6e52a534a6869",
-  "asked": "2026-10-27T11:22:12-05:00",
-  "on": "2026-10-27",
+  "hash": "b7007e8b5cfd7132fe513b85e10ac80824ffd091",
+  "asked": "2026-10-28T12:10:37-05:00",
+  "on": "2026-10-28",
   "events": [
-   {
-    "title": "Bigtooth",
-    "date": "2026-10-27",
-    "start": "18:00",
-    "end": "19:00",
-    "price": 0,
-    "description": "Abbreviated bluegrass-inspired show before World Series Game 4; page also says 6:30 start time. No cover.",
-    "category": "music"
-   },
    {
     "title": "Cork 'n Bottle String Band",
     "date": "2026-10-28",
     "start": "17:30",
     "end": "19:00",
     "price": 0,
-    "description": "Madison bluegrass band blending traditional bluegrass with humor and storytelling. No cover.",
+    "description": "Madison bluegrass band blending traditional bluegrass with humor and storytelling. Start time 5:30, no cover.",
     "category": "music"
    },
    {
-    "title": "Gaines & Wagoner with Grandpa's Elixir",
+    "title": "Gaines & Wagoner",
     "date": "2026-11-01",
     "start": "16:00",
     "end": "19:00",
     "price": 15,
-    "description": "Madison husband-and-wife Americana duo with special guest Grandpa's Elixir (old-time string band). $15 suggested donation.",
+    "description": "Madison husband-and-wife duo playing Americana; this month's guest is Grandpa's Elixir (old-time string band). $15 suggested donation.",
     "category": "music"
    },
    {
@@ -390,7 +381,7 @@
     "start": "17:30",
     "end": "18:30",
     "price": 5,
-    "description": "Children's music show with David Landau; kid menu available. $5 cover.",
+    "description": "Children's music show with David Landau; kid menu available. $5 cover, 5:30 start.",
     "category": "music"
    },
    {
@@ -399,7 +390,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Trivia hosted by Paul, held the 1st and 3rd Wednesday of the month. Free.",
+    "description": "Trivia hosted by Paul, held the 1st and 3rd Wednesday of the month. Free, 6:30 start.",
     "category": "trivia"
    },
    {
@@ -408,7 +399,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Folk/rock/alt/pop singer-songwriter Melissa Kieler with Ethan Kister. No cover.",
+    "description": "Folk/rock/alt/pop singer-songwriter performing originals and covers. No cover, 6:30 start.",
     "category": "music"
    },
    {
@@ -417,7 +408,7 @@
     "start": "20:00",
     "end": "22:00",
     "price": 0,
-    "description": "Scottish music with bagpipes, guitar, fiddle, whistle and bodhran. No cover.",
+    "description": "Scottish music with bagpipes, guitar, fiddle, whistle and bodhran. 8pm start, no cover.",
     "category": "music"
    },
    {
@@ -426,7 +417,7 @@
     "start": "19:30",
     "end": "21:30",
     "price": 10,
-    "description": "Traditional Irish pub songs, ballads and original songs. $10 suggested donation.",
+    "description": "Traditional Irish pub songs, ballads and originals. 7:30 start, $10 suggested donation.",
     "category": "music"
    },
    {
@@ -435,7 +426,16 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Bluegrass, vintage country and swing with three-part harmonies. No cover.",
+    "description": "Bluegrass, vintage country and swing with three-part vocal harmonies. 6:30 start, no cover.",
+    "category": "music"
+   },
+   {
+    "title": "Annie & the Oakies",
+    "date": "2026-11-11",
+    "start": "18:30",
+    "end": "20:30",
+    "price": 0,
+    "description": "Classic bluegrass-based band with members formerly of the Oak Street Ramblers. 6:30 start, no cover.",
     "category": "music"
    }
   ]
@@ -521,44 +521,35 @@
   ]
  },
  "https://high-noon.com/calendar/": {
-  "hash": "29d425b4f1f830e0581ffdd4256fe6c951a274d0",
-  "asked": "2026-10-27T14:35:52-05:00",
-  "on": "2026-10-27",
+  "hash": "a6c1f8bc2edb4d46e25f3b24b147603e6283d8da",
+  "asked": "2026-10-28T12:10:40-05:00",
+  "on": "2026-10-28",
   "events": [
-   {
-    "title": "Wisconsin Public Radio Presents: Inside Wisconsin Politics Live",
-    "date": "2026-10-27",
-    "start": "18:00",
-    "end": null,
-    "price": 0,
-    "description": "Live WPR politics show; doors 5:00 pm, free, registration required.",
-    "category": "other"
-   },
    {
     "title": "The Remix DJ Battle: Get Out The Vote Rally",
     "date": "2026-10-29",
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "Urban League of Greater Madison Young Professionals DJ battle and get-out-the-vote rally. Doors 6:30 pm.",
+    "description": "Urban League of Greater Madison Young Professionals presents a DJ battle and get-out-the-vote rally. Doors 6:30 pm.",
     "category": "music"
    },
    {
-    "title": "Ska-lloween with One Beer Please, Lost Island Society, and Meskales",
+    "title": "Ska-lloween",
     "date": "2026-10-30",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live ska show with three bands. Doors 7:00 pm.",
+    "description": "FPC Live with One Beer Please, Lost Island Society, and Meskales. Doors 7:00 pm.",
     "category": "music"
    },
    {
-    "title": "HalloWEEN '26 with BAMM and Wild Violets",
+    "title": "HalloWEEN '26",
     "date": "2026-10-31",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live Halloween show with BAMM (southern rock, funk, improv) and Wild Violets (R&B and pop). Doors 7:00 pm.",
+    "description": "FPC Live with BAMM (southern rock, funk & high-energy improv) and Wild Violets (all-female R&B and pop). Doors 7:00 pm.",
     "category": "music"
    },
    {
@@ -567,43 +558,43 @@
     "start": "17:00",
     "end": null,
     "price": null,
-    "description": "FPC Live tribute night: The Marilyns as The Misfits, Iron Metal Jackson as Metallica, You First as Me First and the Gimme Gimmes. Doors 4:00 pm.",
+    "description": "FPC Live tribute night: The Marilyns as The Misfits, Iron Metal Jackson as Metallica, You First as Me First And The Gimme Gimmes. Doors 4:00 pm.",
     "category": "music"
    },
    {
-    "title": "Noah Gundersen with Runner and Breakup Shoes",
+    "title": "Noah Gundersen",
     "date": "2026-11-02",
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "FPC Live concert with openers Runner and Breakup Shoes. Doors 6:30 pm.",
+    "description": "FPC Live with Runner and Breakup Shoes. Doors 6:30 pm.",
     "category": "music"
    },
    {
-    "title": "Sophie Hunter with Reysha Rami",
+    "title": "Sophie Hunter",
     "date": "2026-11-04",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live concert with Reysha Rami. Doors 7:00 pm. Low tickets listed.",
+    "description": "FPC Live with Reysha Rami. Doors 7:00 pm.",
     "category": "music"
    },
    {
-    "title": "The Bends with The Braymores",
+    "title": "The Bends",
     "date": "2026-11-05",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live concert with The Braymores. Doors 7:00 pm. Low tickets listed.",
+    "description": "FPC Live with The Braymores. Doors 7:00 pm.",
     "category": "music"
    },
    {
-    "title": "Six Foot Blonde with Genevieve Heyward",
+    "title": "Six Foot Blonde",
     "date": "2026-11-06",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live concert with Genevieve Heyward. Doors 7:00 pm.",
+    "description": "FPC Live with Genevieve Heyward. Doors 7:00 pm.",
     "category": "music"
    },
    {
@@ -612,16 +603,25 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "FPC Live festival-style show with seven acts including Tenmonthsummer, Barely Civil, Los Kausas and others. Doors 6:00 pm.",
+    "description": "FPC Live festival with Tenmonthsummer, Barely Civil, Los Kausas, Ourvanity, The Up & Up, The Brash Menagerie, and Irish Goodbyes. Doors 6:00 pm.",
     "category": "music"
    },
    {
-    "title": "Psychostick with Texas Toast Chainsaw Massacre",
+    "title": "Friends of Shabazz Launch Party & Music Benefit",
+    "date": "2026-11-08",
+    "start": "12:00",
+    "end": null,
+    "price": 20,
+    "description": "FPC Live benefit with Low Czars. Suggested $20 donation at the door. Doors 11:00 am.",
+    "category": "music"
+   },
+   {
+    "title": "Psychostick",
     "date": "2026-11-08",
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "FPC Live concert with Texas Toast Chainsaw Massacre. Doors 6:30 pm.",
+    "description": "FPC Live with Texas Toast Chainsaw Massacre. Doors 6:30 pm.",
     "category": "music"
    },
    {
@@ -630,16 +630,25 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "The Moth presents a storytelling slam on the theme Home for the Holidays. Doors 6:30 pm.",
+    "description": "The Moth presents a Madison StorySLAM storytelling event themed Home for the Holidays. Doors 6:30 pm.",
     "category": "other"
    },
    {
-    "title": "Fruition with Gardener",
+    "title": "Fruition",
     "date": "2026-11-10",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live concert with Gardener. Doors 7:00 pm.",
+    "description": "FPC Live with Gardener. Doors 7:00 pm.",
+    "category": "music"
+   },
+   {
+    "title": "Low Cut Connie",
+    "date": "2026-11-11",
+    "start": "20:00",
+    "end": null,
+    "price": null,
+    "description": "FPC Live with Free Dirt. Doors 7:00 pm.",
     "category": "music"
    }
   ]
@@ -719,60 +728,69 @@
   "events": []
  },
  "https://www.harmonybarandgrill.com/madison-atwood-the-harmony-bar-and-grill-happy-hours-specials": {
-  "hash": "793074db65b389db8d2616a4e21d6b5fad67871d",
-  "asked": "2026-10-27T11:22:17-05:00",
-  "on": "2026-10-27",
+  "hash": "4dbe5f6da92e12cc225faafecfd6f2707632c93f",
+  "asked": "2026-10-28T12:10:41-05:00",
+  "on": "2026-10-28",
   "events": [
    {
-    "title": "Mixed Mic",
-    "date": "2026-11-03",
-    "start": "19:00",
-    "end": null,
-    "price": null,
-    "description": "Mixed mic, held on the first Tuesday of every month.",
-    "category": "open_mic"
-   },
-   {
-    "title": "Friday Fish Fry",
+    "title": "Friday Fish Fry!",
     "date": "2026-10-30",
     "start": "11:00",
     "end": "22:00",
     "price": null,
-    "description": "Friday fish fry special.",
+    "description": "Friday fish fry special at The Harmony Bar and Grill.",
     "category": "food"
    },
    {
-    "title": "David Landau Kids Show",
+    "title": "David Landau Kids Show!",
     "date": "2026-11-02",
     "start": "17:30",
     "end": "18:30",
     "price": 5.0,
-    "description": "Kids show, held every Monday.",
+    "description": "Kids show with David Landau, every Monday.",
     "category": "music"
    },
    {
-    "title": "David Landau Kids Show",
+    "title": "David Landau Kids Show!",
     "date": "2026-11-09",
     "start": "17:30",
     "end": "18:30",
     "price": 5.0,
-    "description": "Kids show, held every Monday.",
+    "description": "Kids show with David Landau, every Monday.",
     "category": "music"
+   },
+   {
+    "title": "Mixed Mic!",
+    "date": "2026-11-03",
+    "start": "19:00",
+    "end": null,
+    "price": null,
+    "description": "Mixed mic night, first Tuesday of the month.",
+    "category": "open_mic"
    }
   ]
  },
  "https://high-noon.com/event/fruition/": {
-  "hash": "8f0910a2aadce2ccd6bdab192ab6dd710007989a",
-  "asked": "2026-10-27T11:22:16-05:00",
-  "on": "2026-10-27",
+  "hash": "3311d7d4f802211ab1a1d848f5aa587dbd1a3940",
+  "asked": "2026-10-28T12:10:44-05:00",
+  "on": "2026-10-28",
   "events": [
    {
-    "title": "Fruition: Something More - The Final Tour (with Gardener)",
+    "title": "Fruition: Something More: The Final Tour (with Gardener)",
     "date": "2026-11-10",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Americana band Fruition's final tour in support of the album Something More, with Gardener. Doors 7:00 pm, ages 18+.",
+    "description": "Americana band Fruition's final tour in support of the album Something More. Doors 7:00 pm, show 8:00 pm. Ages 18+ (minors with parent or guardian).",
+    "category": "music"
+   },
+   {
+    "title": "Friends of Shabazz Launch Party & Music Benefit",
+    "date": "2026-11-08",
+    "start": null,
+    "end": null,
+    "price": 20,
+    "description": "Launch party and music benefit. Suggested $20 donation at the door.",
     "category": "music"
    }
   ]
@@ -1292,9 +1310,9 @@
   ]
  },
  "https://merciescoffeewi.com/": {
-  "hash": "7fdafa7e087cef7a0a2a35117d93f3d11f1a1bfc",
-  "asked": "2026-10-27T21:15:39-05:00",
-  "on": "2026-10-27",
+  "hash": "b1daa89623d302afea47c7db1e115ec4fb4a7471",
+  "asked": "2026-10-28T12:11:05-05:00",
+  "on": "2026-10-28",
   "events": []
  },
  "https://motherfools.com/event/20261106/mad-city-story-slam-rebellion": {
@@ -1434,35 +1452,17 @@
   "events": []
  },
  "https://www.cityofmadison.com/parks/events": {
-  "hash": "0947cd6a9d5dd4eccb10fc62138c24274c02be0d",
-  "asked": "2026-10-27T21:16:06-05:00",
-  "on": "2026-10-27",
+  "hash": "298fba9e9b220a1a3f95d131df6112a1ac728cd8",
+  "asked": "2026-10-28T12:11:37-05:00",
+  "on": "2026-10-28",
   "events": [
-   {
-    "title": "EHS Feeder Program Fall Academy",
-    "date": "2026-10-27",
-    "start": "17:00",
-    "end": "18:15",
-    "price": null,
-    "description": "EHS Feeder Program Fall Academy at Warner Park Community Recreation Center, 1625 Northport Drive.",
-    "category": "other"
-   },
-   {
-    "title": "EHS Feeder Program BDL Open Tryouts",
-    "date": "2026-10-27",
-    "start": "17:00",
-    "end": "18:15",
-    "price": null,
-    "description": "BDL Open Tryouts at Warner Park Community Recreation Center, 1625 Northport Drive.",
-    "category": "sports"
-   },
    {
     "title": "Hayride Around the Capitol | Movie at the Top of State",
     "date": "2026-10-28",
     "start": "15:00",
     "end": "19:45",
     "price": null,
-    "description": "Hayride around the Capitol and movie at the Top of State; multiple locations.",
+    "description": "Hayride Around the Capitol and movie at the Top of State, multiple locations",
     "category": "film"
    },
    {
@@ -1471,8 +1471,8 @@
     "start": "17:00",
     "end": "18:15",
     "price": null,
-    "description": "EHS Feeder Program Fall Academy at Warner Park Community Recreation Center, 1625 Northport Drive.",
-    "category": "other"
+    "description": "EHS Feeder Program Fall Academy at Warner Park Community Recreation Center, 1625 Northport Drive",
+    "category": "sports"
    },
    {
     "title": "EHS Feeder Program BDL Open Tryouts",
@@ -1480,7 +1480,7 @@
     "start": "17:00",
     "end": "18:15",
     "price": null,
-    "description": "BDL Open Tryouts at Warner Park Community Recreation Center, 1625 Northport Drive.",
+    "description": "EHS Feeder Program BDL open tryouts at Warner Park Community Recreation Center, 1625 Northport Drive",
     "category": "sports"
    },
    {
@@ -1489,7 +1489,16 @@
     "start": "17:00",
     "end": "19:30",
     "price": null,
-    "description": "Halloween celebration family fun night at Warner Park Community Recreation Center, 1625 Northport Drive.",
+    "description": "Halloween family celebration at Warner Park Community Recreation Center, 1625 Northport Drive",
+    "category": "other"
+   },
+   {
+    "title": "Bird & Nature Adventures | Cherokee Marsh Conservation Park",
+    "date": "2026-11-01",
+    "start": "13:30",
+    "end": "15:00",
+    "price": null,
+    "description": "Guided bird and nature outing; meet at the Cherokee Marsh North Unit parking lot, 6098 North Sherman Avenue",
     "category": "other"
    },
    {
@@ -1498,7 +1507,7 @@
     "start": "17:00",
     "end": "19:00",
     "price": null,
-    "description": "Parks Alive Fall event at Harmony Apartments Community Room, 116 Milky Way.",
+    "description": "Parks Alive Fall event at Harmony Apartments Community Room, 116 Milky Way",
     "category": "other"
    },
    {
@@ -1507,7 +1516,7 @@
     "start": "17:00",
     "end": "19:00",
     "price": null,
-    "description": "Parks Alive Fall event at Warner Park Community Recreation Center, 1625 Northport Drive.",
+    "description": "Parks Alive Fall event at Warner Park Community Recreation Center, 1625 Northport Dr",
     "category": "other"
    },
    {
@@ -1525,7 +1534,16 @@
     "start": "18:00",
     "end": "19:30",
     "price": null,
-    "description": "Public meeting about Odana Hills Golf Course and Park; virtual event.",
+    "description": "Virtual public meeting about Odana Hills Golf Course and Park",
+    "category": "other"
+   },
+   {
+    "title": "Bird & Nature Adventures | Tenney Park",
+    "date": "2026-11-07",
+    "start": "13:30",
+    "end": "15:00",
+    "price": null,
+    "description": "Guided bird and nature outing; meet at the Tenney Park beach parking lot, 1330 Sherman Ave.",
     "category": "other"
    }
   ]
@@ -1537,9 +1555,9 @@
   "events": []
  },
  "https://www.madisonpubliclibrary.org/spaces/events": {
-  "hash": "1cf524f32e7f6744901d97642dc7c4539d0d2f96",
-  "asked": "2026-10-27T21:16:12-05:00",
-  "on": "2026-10-27",
+  "hash": "4531aa3df72e6b83c9106a791360619aca36f2bc",
+  "asked": "2026-10-28T12:11:45-05:00",
+  "on": "2026-10-28",
   "events": []
  },
  "https://ebling.library.wisc.edu/ebling-library-classes-events/": {
@@ -1572,26 +1590,17 @@
   "events": []
  },
  "https://www.sunprairiepubliclibrary.org/home-delivery-service": {
-  "hash": "a0c535b21277de3b5c65260f148702186bf3fd5e",
-  "asked": "2026-10-27T21:16:09-05:00",
-  "on": "2026-10-27",
+  "hash": "e6c9ca02f6fc9bf87d58e1149fecee28514111a0",
+  "asked": "2026-10-28T12:11:38-05:00",
+  "on": "2026-10-28",
   "events": [
-   {
-    "title": "Outdoor Family Storytime",
-    "date": "2026-10-28",
-    "start": "10:00",
-    "end": "10:30",
-    "price": null,
-    "description": "Outdoor family storytime at Sun Prairie Public Library. Ages 0-5 and family.",
-    "category": "other"
-   },
    {
     "title": "Cuentos Infantiles (Spanish Storytime)",
     "date": "2026-10-28",
     "start": "17:00",
     "end": "17:30",
     "price": null,
-    "description": "Spanish-language storytime at Sun Prairie Public Library. Ages 0-5 and family.",
+    "description": "Spanish storytime for family and children ages 0-5 at Sun Prairie Public Library.",
     "category": "other"
    },
    {
@@ -1600,8 +1609,8 @@
     "start": "18:00",
     "end": "19:30",
     "price": null,
-    "description": "Library program on the handpan. Teens and adults.",
-    "category": "other"
+    "description": "Library program featuring the handpan, for teens and adults.",
+    "category": "music"
    },
    {
     "title": "Dream Bus Mobile Library @ Creekside and Westside Elementary",
@@ -1609,7 +1618,7 @@
     "start": "13:45",
     "end": "15:00",
     "price": null,
-    "description": "Dream Bus mobile library stop at Creekside and Westside Elementary. All ages.",
+    "description": "Mobile library stop at Creekside and Westside Elementary for family, children ages 0-5, teens and adults.",
     "category": "other"
    },
    {
@@ -1618,7 +1627,16 @@
     "start": "18:30",
     "end": "19:00",
     "price": null,
-    "description": "Family storytime at Sun Prairie Public Library. Ages 0-5 and family.",
+    "description": "Storytime for family and children ages 0-5 at Sun Prairie Public Library.",
+    "category": "other"
+   },
+   {
+    "title": "The Spice Box with Huma Siddiqui-Seitz",
+    "date": "2026-10-29",
+    "start": "18:30",
+    "end": "19:30",
+    "price": null,
+    "description": "Library program with Huma Siddiqui-Seitz for adults.",
     "category": "other"
    }
   ]
@@ -1653,25 +1671,18 @@
   "events": []
  },
  "https://escmadison.com/events": {
-  "hash": "6f320e1a3c0864e0bb8dff27ab24bb8c4d9474fc",
-  "asked": "2026-10-26T15:22:58-05:00",
-  "on": "2026-10-26",
+  "hash": "2c35a46faa2a44e3a186f19029e72a3a6b2c7850",
+  "asked": "2026-10-28T12:11:39-05:00",
+  "on": "2026-10-28",
   "events": [
-   {
-    "title": "Open Mic w/ Martin Hunt",
-    "date": "2026-10-27",
-    "start": "18:00",
-    "end": "21:00",
-    "price": 0,
-    "description": "Open mic hosted by Martin Hunt for all musical skill levels. Free. Bar opens at 5:00pm and food is available from the grill."
-   },
    {
     "title": "Open Mic w/ Martin Hunt",
     "date": "2026-11-03",
     "start": "18:00",
     "end": "21:00",
     "price": 0,
-    "description": "Open mic hosted by Martin Hunt for all musical skill levels. Free. Bar opens at 5:00pm and food is available from the grill."
+    "description": "Host Martin Hunt's open mic for all skill levels. Free. Bar opens at 5pm; food available from the grill.",
+    "category": "open_mic"
    },
    {
     "title": "East Side Club Holiday Craft and Vendor Fair",
@@ -1679,14 +1690,24 @@
     "start": "09:00",
     "end": "15:00",
     "price": 0,
-    "description": "Two floors of handmade crafts and vendors with a Bloody Mary Bar. Free admission; food available for purchase."
+    "description": "Two floors of handmade crafts and vendors, with a Bloody Mary bar. Free admission; food available for purchase.",
+    "category": "other"
+   },
+   {
+    "title": "Open Mic w/ Martin Hunt",
+    "date": "2026-11-10",
+    "start": "18:00",
+    "end": "21:00",
+    "price": 0,
+    "description": "Host Martin Hunt's open mic for all skill levels. Free. Bar opens at 5pm; food available from the grill.",
+    "category": "open_mic"
    }
   ]
  },
  "https://www.madisonpubliclibrary.org/spaces/events/search": {
-  "hash": "e56f68e4c0fb215a5000c43ed45fd6899ac02f1a",
-  "asked": "2026-10-27T21:16:17-05:00",
-  "on": "2026-10-27",
+  "hash": "422675a9ca5d2afcf7f662336efa99237868561a",
+  "asked": "2026-10-28T12:11:51-05:00",
+  "on": "2026-10-28",
   "events": []
  },
  "https://artlitlab.org/calendar": {
@@ -1713,9 +1734,9 @@
   ]
  },
  "https://bartelltheatre.org/": {
-  "hash": "391cf69edb3eaf8679cdc043a9396205c5712748",
-  "asked": "2026-10-27T21:16:18-05:00",
-  "on": "2026-10-27",
+  "hash": "02e9fb3e304052ab86a28773c8553b6cb3918c94",
+  "asked": "2026-10-28T12:11:50-05:00",
+  "on": "2026-10-28",
   "events": [
    {
     "title": "Film: American Doctor",
@@ -1723,7 +1744,7 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Three American doctors enter Gaza to save lives and find themselves caught between medicine and politics.",
+    "description": "Film about three American doctors who enter Gaza to save lives and find themselves caught between medicine and politics.",
     "category": "film"
    },
    {
@@ -1732,7 +1753,7 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "Hitchcock's 'wrong man' thriller starring Cary Grant, pursued across the country by spies.",
+    "description": "Hitchcock's 'wrong man' thriller starring Cary Grant, pursued by spies in a cross-country chase.",
     "category": "film"
    },
    {
@@ -1741,7 +1762,7 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "Production at Bartell Theatre.",
+    "description": "Theatre production at the Bartell Theatre.",
     "category": "theater"
    },
    {
@@ -1750,7 +1771,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Screening at Bartell Theatre.",
+    "description": "Film screening at the Bartell Theatre.",
     "category": "film"
    },
    {
@@ -1759,8 +1780,17 @@
     "start": "21:30",
     "end": null,
     "price": null,
-    "description": "Screening at Bartell Theatre.",
+    "description": "Film screening at the Bartell Theatre.",
     "category": "film"
+   },
+   {
+    "title": "A Valentine's Affair 2027 Auditions (First Audition)",
+    "date": "2026-11-09",
+    "start": "18:30",
+    "end": null,
+    "price": null,
+    "description": "First audition for A Valentine's Affair 2027.",
+    "category": "theater"
    },
    {
     "title": "Romeo and Juliet",
@@ -1768,17 +1798,8 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "Production at Bartell Theatre.",
+    "description": "Theatre production at the Bartell Theatre.",
     "category": "theater"
-   },
-   {
-    "title": "A Valentine's Affair 2027 Auditions: First Audition",
-    "date": "2026-11-09",
-    "start": "18:30",
-    "end": null,
-    "price": null,
-    "description": "First audition for A Valentine's Affair 2027.",
-    "category": "other"
    }
   ]
  },
@@ -2061,6 +2082,12 @@
   "hash": "16f6102e9935a6de935842881b2239fa0381b16e",
   "asked": "2026-10-26T16:01:15-05:00",
   "on": "2026-10-26",
+  "events": []
+ },
+ "https://www.veronapubliclibrary.org/": {
+  "hash": "c4514cc25b8f04cf5ace56454246f90650f7f8c5",
+  "asked": "2026-10-28T12:11:37-05:00",
+  "on": "2026-10-28",
   "events": []
  }
 }

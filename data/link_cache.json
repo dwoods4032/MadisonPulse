@@ -54,16 +54,6 @@
   "why": "",
   "checked": "2026-10-27T14:37:12.808857-05:00"
  },
- "https://iwcmadison.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:37:12.808861-05:00"
- },
- "https://www.publicparkingbar.com": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:37:12.808866-05:00"
- },
  "https://thekickback.bar/": {
   "ok": true,
   "why": "",
@@ -73,16 +63,6 @@
   "ok": true,
   "why": "",
   "checked": "2026-10-27T14:37:15.552028-05:00"
- },
- "https://cafecoda.club": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:37:15.552041-05:00"
- },
- "https://communicationmadison.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:37:15.552044-05:00"
  },
  "https://www.mickeysmadison.com/": {
   "ok": true,
@@ -94,35 +74,10 @@
   "why": "",
   "checked": "2026-10-27T14:37:15.552055-05:00"
  },
- "https://www.northstreetcabaret.com/": {
-  "ok": null,
-  "why": "robots.txt asks bots not to visit",
-  "checked": "2026-10-27T14:37:15.552058-05:00"
- },
- "https://www.workingdraftbeer.com/events/2026/10/27/game-four-of-the-fall-classic-go-crew": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:37:15.552061-05:00"
- },
- "https://www.theatwoodmusichall.com/shows/2026-10-27": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:37:15.552067-05:00"
- },
  "https://gammaray.bar": {
   "ok": true,
   "why": "",
   "checked": "2026-10-27T14:37:15.552070-05:00"
- },
- "https://www.ticketmaster.com/the-tallest-man-on-earth-madison-wisconsin-10-27-2026/event/070064B532DBA024": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-10-27T14:37:15.552074-05:00"
- },
- "https://www.monroestreetarts.org/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:37:15.552077-05:00"
  },
  "https://www.dexterspubmadison.com/": {
   "ok": true,
@@ -2794,11 +2749,6 @@
   "why": "HTTP 404 from Vercel",
   "checked": "2026-10-27T16:18:02.356950-05:00"
  },
- "https://bayviewfoundation.org/event/zumba/2026-10-27/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T17:48:51.340853-05:00"
- },
  "https://bartelltheatre.org/": {
   "ok": true,
   "why": "",
@@ -2978,5 +2928,20 @@
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
   "checked": "2026-10-27T21:16:33.148041-05:00"
+ },
+ "https://www.madisonpubliclibrary.org/about/ashman.html": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-28T12:12:35.672145-05:00"
+ },
+ "https://www.madisonpubliclibrary.org/sequoya": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-28T12:12:37.344249-05:00"
+ },
+ "https://statestreetbrats.com/event/rockets-bucks-20261028/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-28T12:12:37.344275-05:00"
  }
 }
