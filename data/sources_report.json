@@ -1,20 +1,19 @@
 {
- "generated_at": "2026-10-28T12:12:34-05:00",
- "total_events": 407,
- "in_more_than_one_source": 22,
+ "generated_at": "2026-10-28T21:28:53-05:00",
+ "total_events": 401,
+ "in_more_than_one_source": 23,
  "sources": {
   "AI page reading": {
-   "events": 153,
-   "unique_events": 137,
+   "events": 152,
+   "unique_events": 135,
    "overlap": {
     "Isthmus": 1,
-    "Ticketmaster": 16,
+    "Ticketmaster": 17,
     "Venue websites": 0
    },
-   "venues": 40,
+   "venues": 36,
    "unique_venues": [
     "Aftershock Classic Arcade",
-    "Alicia Ashman Library",
     "Arts + Literature Laboratory",
     "Bartell Theatre",
     "Below Deck Concession Stand",
@@ -28,19 +27,16 @@
     "Ebling Library",
     "Flight Wine & Bourbon Bar",
     "Grey Market",
-    "Imagination Center",
     "Karben4 Brewing",
     "Lakeside Street Coffee House",
     "Laurel Tavern",
     "Lazy Oaf Lounge",
     "Madison Youth Arts (MYArts)",
     "Monkeyshines Bar & Grill",
-    "Monroe Street Library",
     "Mother Fool's",
     "Old Sugar Distillery",
     "Oscar Rennebohm Library",
     "Overture Center for the Arts",
-    "Pinney Library",
     "Reindahl Park Pavillion",
     "State Line Distillery",
     "Sun Prairie Public Library",
@@ -50,14 +46,14 @@
    ]
   },
   "Isthmus": {
-   "events": 144,
-   "unique_events": 140,
+   "events": 140,
+   "unique_events": 136,
    "overlap": {
     "AI page reading": 1,
     "Ticketmaster": 2,
     "Venue websites": 2
    },
-   "venues": 68,
+   "venues": 67,
    "unique_venues": [
     "A Room of One's Own",
     "Agora Pavilion",
@@ -75,7 +71,6 @@
     "Fontana Sports",
     "Forward Club",
     "Freedom Inc.",
-    "Gamma Ray Bar",
     "Garver Feed Mill",
     "Giant Jones Brewing Company",
     "GlouGlou",
@@ -101,6 +96,7 @@
     "Mystery to Me",
     "Palette Bar & Grill",
     "Quarry Arts Building",
+    "Sequoya Library",
     "Settle Down Tavern",
     "Starkweather Brewing Company",
     "The Atwood",
@@ -108,7 +104,6 @@
     "The Forum",
     "The Rigby",
     "Tradition Children's Market",
-    "UW Discovery Building",
     "UW Hamel Music Center-Collins Recital Hall",
     "UW Ingraham Hall",
     "UW Memorial Union-Terrace",
@@ -122,10 +117,10 @@
    ]
   },
   "Ticketmaster": {
-   "events": 55,
-   "unique_events": 35,
+   "events": 58,
+   "unique_events": 37,
    "overlap": {
-    "AI page reading": 16,
+    "AI page reading": 17,
     "Isthmus": 2,
     "Venue websites": 3
    },
@@ -139,19 +134,17 @@
    ]
   },
   "Venue websites": {
-   "events": 78,
-   "unique_events": 73,
+   "events": 75,
+   "unique_events": 70,
    "overlap": {
     "AI page reading": 0,
     "Isthmus": 2,
     "Ticketmaster": 3
    },
-   "venues": 15,
+   "venues": 13,
    "unique_venues": [
     "Atwood Music Hall",
-    "Bayview Community Center",
     "Broom Street Theater",
-    "Children's Theater of Madison",
     "Comedy Club on State",
     "E.D. Locke Public Library",
     "Full Mile Beer Company & Kitchen",

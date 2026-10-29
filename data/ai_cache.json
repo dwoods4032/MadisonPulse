@@ -169,10 +169,74 @@
   "events": []
  },
  "https://gammaray.bar/shows/": {
-  "hash": "e70437bf01c54b2349dd534d6456d8786639e586",
-  "asked": "2026-10-27T17:20:41-05:00",
-  "on": "2026-10-27",
-  "events": []
+  "hash": "06fe2404595172fba64b505dc1fa32d59e24f845",
+  "asked": "2026-10-28T21:27:38-05:00",
+  "on": "2026-10-28",
+  "events": [
+   {
+    "title": "Mariah Ann // Courtesy Call // Porchflowers // Eli Gray & The Steel Hearts",
+    "date": "2026-10-29",
+    "start": "19:00",
+    "end": null,
+    "price": null,
+    "description": "Doors 6pm.",
+    "category": "music"
+   },
+   {
+    "title": "Monster Bash ft. Them & The Things, The Brush Strokes (Strokes Tribute) and American Literate (Green Day Tribute)",
+    "date": "2026-10-30",
+    "start": "20:00",
+    "end": null,
+    "price": null,
+    "description": "Doors 7pm.",
+    "category": "music"
+   },
+   {
+    "title": "Halloween with Friend Request",
+    "date": "2026-10-31",
+    "start": "20:00",
+    "end": null,
+    "price": null,
+    "description": "Doors 7pm.",
+    "category": "music"
+   },
+   {
+    "title": "Gamma Ray Bar Presents: Music Video Trivia",
+    "date": "2026-11-02",
+    "start": "18:00",
+    "end": null,
+    "price": null,
+    "description": "Doors 5:45pm.",
+    "category": "trivia"
+   },
+   {
+    "title": "Axis: Sova // Slick // The Moss Men",
+    "date": "2026-11-04",
+    "start": "20:00",
+    "end": null,
+    "price": null,
+    "description": "Doors 7pm.",
+    "category": "music"
+   },
+   {
+    "title": "Droids Attack // Peacemaker // The Eggs",
+    "date": "2026-11-07",
+    "start": "20:00",
+    "end": null,
+    "price": null,
+    "description": "Doors 7pm.",
+    "category": "music"
+   },
+   {
+    "title": "Dusk // Visual Learner // Yuasa-Exide // Boo/Hiss",
+    "date": "2026-11-08",
+    "start": "20:00",
+    "end": null,
+    "price": null,
+    "description": "Doors 7pm.",
+    "category": "music"
+   }
+  ]
  },
  "https://www.thecrystalcornerbar.com/Calendar.htm": {
   "hash": "743df6ac3ce38e1f07c9e023c2d51f3ed7d4b609",
@@ -521,8 +585,8 @@
   ]
  },
  "https://high-noon.com/calendar/": {
-  "hash": "a6c1f8bc2edb4d46e25f3b24b147603e6283d8da",
-  "asked": "2026-10-28T12:10:40-05:00",
+  "hash": "adddfbaa9455b2d49d7a417babffd5d84bbe85aa",
+  "asked": "2026-10-28T21:27:40-05:00",
   "on": "2026-10-28",
   "events": [
    {
@@ -531,7 +595,7 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "Urban League of Greater Madison Young Professionals presents a DJ battle and get-out-the-vote rally. Doors 6:30 pm.",
+    "description": "Urban League of Greater Madison Young Professionals DJ battle; doors 6:30 pm",
     "category": "music"
    },
    {
@@ -540,7 +604,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live with One Beer Please, Lost Island Society, and Meskales. Doors 7:00 pm.",
+    "description": "With One Beer Please, Lost Island Society, and Meskales; doors 7:00 pm",
     "category": "music"
    },
    {
@@ -549,7 +613,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live with BAMM (southern rock, funk & high-energy improv) and Wild Violets (all-female R&B and pop). Doors 7:00 pm.",
+    "description": "With BAMM and Wild Violets; doors 7:00 pm",
     "category": "music"
    },
    {
@@ -558,7 +622,7 @@
     "start": "17:00",
     "end": null,
     "price": null,
-    "description": "FPC Live tribute night: The Marilyns as The Misfits, Iron Metal Jackson as Metallica, You First as Me First And The Gimme Gimmes. Doors 4:00 pm.",
+    "description": "Tribute acts: The Marilyns as The Misfits, Iron Metal Jackson as Metallica, You First as Me First And The Gimme Gimmes; doors 4:00 pm",
     "category": "music"
    },
    {
@@ -567,7 +631,7 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "FPC Live with Runner and Breakup Shoes. Doors 6:30 pm.",
+    "description": "With Runner and Breakup Shoes; doors 6:30 pm",
     "category": "music"
    },
    {
@@ -576,7 +640,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live with Reysha Rami. Doors 7:00 pm.",
+    "description": "With Reysha Rami; doors 7:00 pm",
     "category": "music"
    },
    {
@@ -585,7 +649,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live with The Braymores. Doors 7:00 pm.",
+    "description": "With The Braymores; doors 7:00 pm",
     "category": "music"
    },
    {
@@ -594,7 +658,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live with Genevieve Heyward. Doors 7:00 pm.",
+    "description": "With Genevieve Heyward; doors 7:00 pm",
     "category": "music"
    },
    {
@@ -603,7 +667,7 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "FPC Live festival with Tenmonthsummer, Barely Civil, Los Kausas, Ourvanity, The Up & Up, The Brash Menagerie, and Irish Goodbyes. Doors 6:00 pm.",
+    "description": "With Tenmonthsummer, Barely Civil, Los Kausas, Ourvanity, The Up & Up, The Brash Menagerie, and Irish Goodbyes; doors 6:00 pm",
     "category": "music"
    },
    {
@@ -612,7 +676,7 @@
     "start": "12:00",
     "end": null,
     "price": 20,
-    "description": "FPC Live benefit with Low Czars. Suggested $20 donation at the door. Doors 11:00 am.",
+    "description": "With Low Czars; suggested $20 donation at the door; doors 11:00 am",
     "category": "music"
    },
    {
@@ -621,7 +685,7 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "FPC Live with Texas Toast Chainsaw Massacre. Doors 6:30 pm.",
+    "description": "With Texas Toast Chainsaw Massacre; doors 6:30 pm",
     "category": "music"
    },
    {
@@ -630,7 +694,7 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "The Moth presents a Madison StorySLAM storytelling event themed Home for the Holidays. Doors 6:30 pm.",
+    "description": "The Moth presents a storytelling slam; doors 6:30 pm",
     "category": "other"
    },
    {
@@ -639,7 +703,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live with Gardener. Doors 7:00 pm.",
+    "description": "With Gardener; doors 7:00 pm",
     "category": "music"
    },
    {
@@ -648,7 +712,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live with Free Dirt. Doors 7:00 pm.",
+    "description": "With Free Dirt; doors 7:00 pm",
     "category": "music"
    }
   ]
@@ -905,9 +969,9 @@
   ]
  },
  "https://doundrins.com/pages/events": {
-  "hash": "a901c358b5d4924e596d10cb08235b998135f5d2",
-  "asked": "2026-10-27T17:20:43-05:00",
-  "on": "2026-10-27",
+  "hash": "36de4842ba3b7632b60184c45825d9a7029d9cfa",
+  "asked": "2026-10-28T21:27:43-05:00",
+  "on": "2026-10-28",
   "events": [
    {
     "title": "Paint & Sip: \"Little Boo\"",
@@ -915,7 +979,7 @@
     "start": null,
     "end": null,
     "price": 35,
-    "description": "Paint & Sip event at Doundrins, Oct 30 (listed with Oct 21 date).",
+    "description": "Paint & sip event at Doundrins Distilling (second date of the Oct 21 & 30 run).",
     "category": "other"
    },
    {
@@ -924,7 +988,7 @@
     "start": null,
     "end": null,
     "price": 50,
-    "description": "Rare Plant Bingo at Doundrins on 11/7.",
+    "description": "Rare Plant Bingo at Doundrins Distilling.",
     "category": "bingo"
    }
   ]
@@ -1555,8 +1619,8 @@
   "events": []
  },
  "https://www.madisonpubliclibrary.org/spaces/events": {
-  "hash": "4531aa3df72e6b83c9106a791360619aca36f2bc",
-  "asked": "2026-10-28T12:11:45-05:00",
+  "hash": "2cf6a458c33a47fc70c42e0f7552a548e1a312cc",
+  "asked": "2026-10-28T21:28:37-05:00",
   "on": "2026-10-28",
   "events": []
  },
@@ -1590,35 +1654,17 @@
   "events": []
  },
  "https://www.sunprairiepubliclibrary.org/home-delivery-service": {
-  "hash": "e6c9ca02f6fc9bf87d58e1149fecee28514111a0",
-  "asked": "2026-10-28T12:11:38-05:00",
+  "hash": "a041cd10556db188b99f247b2a07c2c4114ba951",
+  "asked": "2026-10-28T21:28:33-05:00",
   "on": "2026-10-28",
   "events": [
-   {
-    "title": "Cuentos Infantiles (Spanish Storytime)",
-    "date": "2026-10-28",
-    "start": "17:00",
-    "end": "17:30",
-    "price": null,
-    "description": "Spanish storytime for family and children ages 0-5 at Sun Prairie Public Library.",
-    "category": "other"
-   },
-   {
-    "title": "The Melodic and Expressive Handpan!",
-    "date": "2026-10-28",
-    "start": "18:00",
-    "end": "19:30",
-    "price": null,
-    "description": "Library program featuring the handpan, for teens and adults.",
-    "category": "music"
-   },
    {
     "title": "Dream Bus Mobile Library @ Creekside and Westside Elementary",
     "date": "2026-10-29",
     "start": "13:45",
     "end": "15:00",
     "price": null,
-    "description": "Mobile library stop at Creekside and Westside Elementary for family, children ages 0-5, teens and adults.",
+    "description": "Mobile library visit at Creekside and Westside Elementary. Ages: family, children 0-5, teens, adults.",
     "category": "other"
    },
    {
@@ -1627,7 +1673,7 @@
     "start": "18:30",
     "end": "19:00",
     "price": null,
-    "description": "Storytime for family and children ages 0-5 at Sun Prairie Public Library.",
+    "description": "Library storytime for families and children ages 0-5.",
     "category": "other"
    },
    {
@@ -1636,7 +1682,25 @@
     "start": "18:30",
     "end": "19:30",
     "price": null,
-    "description": "Library program with Huma Siddiqui-Seitz for adults.",
+    "description": "Library program for adults with Huma Siddiqui-Seitz.",
+    "category": "other"
+   },
+   {
+    "title": "Teen Librarian Roundtable",
+    "date": "2026-10-30",
+    "start": "09:00",
+    "end": "11:00",
+    "price": null,
+    "description": "Roundtable session led by the teen librarian.",
+    "category": "other"
+   },
+   {
+    "title": "Dream Bus Mobile Library @ Fun Friday Stops",
+    "date": "2026-10-30",
+    "start": "14:45",
+    "end": "17:00",
+    "price": null,
+    "description": "Mobile library stops for family, children 0-5, teens, and adults.",
     "category": "other"
    }
   ]
@@ -1705,8 +1769,8 @@
   ]
  },
  "https://www.madisonpubliclibrary.org/spaces/events/search": {
-  "hash": "422675a9ca5d2afcf7f662336efa99237868561a",
-  "asked": "2026-10-28T12:11:51-05:00",
+  "hash": "4f98a2cf675f80533f6d7dc0b856a9cfd2859d78",
+  "asked": "2026-10-28T21:28:48-05:00",
   "on": "2026-10-28",
   "events": []
  },
@@ -1734,26 +1798,17 @@
   ]
  },
  "https://bartelltheatre.org/": {
-  "hash": "02e9fb3e304052ab86a28773c8553b6cb3918c94",
-  "asked": "2026-10-28T12:11:50-05:00",
+  "hash": "231941031e0fe9fa2d884f11a9a6e0c5f474a51e",
+  "asked": "2026-10-28T21:28:46-05:00",
   "on": "2026-10-28",
   "events": [
    {
-    "title": "Film: American Doctor",
-    "date": "2026-10-28",
-    "start": "19:00",
-    "end": null,
-    "price": null,
-    "description": "Film about three American doctors who enter Gaza to save lives and find themselves caught between medicine and politics.",
-    "category": "film"
-   },
-   {
-    "title": "Film: North by Northwest",
+    "title": "North by Northwest",
     "date": "2026-10-29",
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "Hitchcock's 'wrong man' thriller starring Cary Grant, pursued by spies in a cross-country chase.",
+    "description": "Hitchcock thriller; Cary Grant is pursued across the country after being mistaken for a nonexistent U.S. agent.",
     "category": "film"
    },
    {
@@ -1762,35 +1817,26 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "Theatre production at the Bartell Theatre.",
+    "description": "Dark comedy about two sisters, a dog, and a hapless governess on the English moors.",
     "category": "theater"
    },
    {
-    "title": "Film: Re-Animator",
+    "title": "Re-Animator",
     "date": "2026-10-30",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Film screening at the Bartell Theatre.",
+    "description": "Film screening.",
     "category": "film"
    },
    {
-    "title": "Film: Hello Mary Lou: Prom Night II",
+    "title": "Hello Mary Lou: Prom Night II",
     "date": "2026-10-30",
     "start": "21:30",
     "end": null,
     "price": null,
-    "description": "Film screening at the Bartell Theatre.",
+    "description": "Film screening.",
     "category": "film"
-   },
-   {
-    "title": "A Valentine's Affair 2027 Auditions (First Audition)",
-    "date": "2026-11-09",
-    "start": "18:30",
-    "end": null,
-    "price": null,
-    "description": "First audition for A Valentine's Affair 2027.",
-    "category": "theater"
    },
    {
     "title": "Romeo and Juliet",
@@ -1798,7 +1844,7 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "Theatre production at the Bartell Theatre.",
+    "description": "Stage production of Romeo and Juliet.",
     "category": "theater"
    }
   ]
@@ -1868,25 +1914,18 @@
   ]
  },
  "https://www.overture.org/tickets-events/": {
-  "hash": "7f5d48388844691d3fdd8c543d4f3bd698ec69ef",
-  "asked": "2026-10-26T15:23:12-05:00",
-  "on": "2026-10-26",
+  "hash": "c997df70e494aa8c1660fc783e6388d0cd340d6b",
+  "asked": "2026-10-28T21:28:47-05:00",
+  "on": "2026-10-28",
   "events": [
-   {
-    "title": "Karaoke for Kids with Sock Monkey Pyramid",
-    "date": "2026-10-28",
-    "start": null,
-    "end": null,
-    "price": null,
-    "description": "Karaoke for kids at Overture Center; multiple showtimes, times not listed on page."
-   },
    {
     "title": "Wild Rumpus Circus",
     "date": "2026-10-31",
     "start": null,
     "end": null,
     "price": null,
-    "description": "Circus performance at Overture Center; multiple showtimes, times not listed on page."
+    "description": "Circus show at Overture Center, multiple showtimes.",
+    "category": "other"
    },
    {
     "title": "Stuart Stotts",
@@ -1894,7 +1933,8 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Performance at Overture Center; multiple showtimes, times not listed on page."
+    "description": "Performance by Stuart Stotts at Overture Center, multiple showtimes.",
+    "category": "music"
    }
   ]
  },
@@ -2085,8 +2125,8 @@
   "events": []
  },
  "https://www.veronapubliclibrary.org/": {
-  "hash": "c4514cc25b8f04cf5ace56454246f90650f7f8c5",
-  "asked": "2026-10-28T12:11:37-05:00",
+  "hash": "d972d21c84b3ac7eaad17edd5f2a079680a31bef",
+  "asked": "2026-10-28T21:28:30-05:00",
   "on": "2026-10-28",
   "events": []
  }

@@ -89,16 +89,6 @@
   "why": "",
   "checked": "2026-10-27T14:37:15.552086-05:00"
  },
- "https://bstonline.org/event/audition-lucid-dreaming-department-of-more-2/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:37:15.552089-05:00"
- },
- "https://www.ticketmaster.com/event/Z7r9jZ1AAv64_": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-10-27T14:37:15.552092-05:00"
- },
  "https://www.lazyoaflounge.com/": {
   "ok": true,
   "why": "",
@@ -108,11 +98,6 @@
   "ok": true,
   "why": "",
   "checked": "2026-10-27T14:37:15.552102-05:00"
- },
- "https://statestreetbrats.com/event/brewers-rays-guardians-20261028/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:37:15.552106-05:00"
  },
  "https://www.workingdraftbeer.com/events/2026/10/28/game-five-of-the-fall-classic-go-crew": {
   "ok": true,
@@ -2799,20 +2784,10 @@
   "why": "",
   "checked": "2026-10-27T17:49:15.212535-05:00"
  },
- "https://ctmtheater.org/event/annie-4/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T17:49:15.212541-05:00"
- },
  "https://oldsugardistillery.com/": {
   "ok": true,
   "why": "",
   "checked": "2026-10-27T17:49:15.212545-05:00"
- },
- "https://ctmtheater.org/event/annie-5/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T17:49:15.212550-05:00"
  },
  "https://onesocialmadison.com/event/live-music-saturdays-wild-cardz/": {
   "ok": true,
@@ -2834,30 +2809,15 @@
   "why": "",
   "checked": "2026-10-27T17:49:24.132492-05:00"
  },
- "https://ctmtheater.org/event/annie-6/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T17:49:24.132515-05:00"
- },
  "https://thelonegirl.com/event/meat-raffle-126-4/": {
   "ok": true,
   "why": "",
   "checked": "2026-10-27T17:49:30.366623-05:00"
  },
- "https://ctmtheater.org/event/annie-7/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T17:49:30.366651-05:00"
- },
  "https://onesocialmadison.com/event/game-night-with-game-and-gather/": {
   "ok": true,
   "why": "",
   "checked": "2026-10-27T17:49:30.366658-05:00"
- },
- "https://bayviewfoundation.org/event/zumba/2026-11-03/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T17:49:30.366662-05:00"
  },
  "https://thelonegirl.com/event/trivia-every-wednesday-2-2-2/": {
   "ok": true,
@@ -2894,26 +2854,6 @@
   "why": "",
   "checked": "2026-10-27T18:06:33.847877-05:00"
  },
- "https://bayviewfoundation.org/event/zumba/2026-11-10/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T18:06:33.847907-05:00"
- },
- "https://www.madisonpubliclibrary.org/locations/imagination-center": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T21:16:30.245703-05:00"
- },
- "https://www.madisonpubliclibrary.org/monroe-street": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T21:16:32.011758-05:00"
- },
- "https://www.madisonpubliclibrary.org/locations/pinney-library": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T21:16:33.148005-05:00"
- },
  "https://www.cafecoda.club/events-1/reggae-night-dj-sneaky-gator-8gnpe": {
   "ok": true,
   "why": "",
@@ -2929,19 +2869,59 @@
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
   "checked": "2026-10-27T21:16:33.148041-05:00"
  },
- "https://www.madisonpubliclibrary.org/about/ashman.html": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-28T12:12:35.672145-05:00"
- },
  "https://www.madisonpubliclibrary.org/sequoya": {
   "ok": true,
   "why": "",
   "checked": "2026-10-28T12:12:37.344249-05:00"
  },
- "https://statestreetbrats.com/event/rockets-bucks-20261028/": {
+ "https://statestreetbrats.com/event/panthers-packers-20261029/": {
   "ok": true,
   "why": "",
-  "checked": "2026-10-28T12:12:37.344275-05:00"
+  "checked": "2026-10-28T21:28:53.509452-05:00"
+ },
+ "https://bstonline.org/event/dragonsocks-and-the-queen-of-the-universe-5/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-28T21:28:54.866154-05:00"
+ },
+ "https://www.ticketmaster.com/event/Z7r9jZ1AA7eos": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-10-28T21:28:54.915067-05:00"
+ },
+ "https://thelonegirl.com/event/lone-girl-brewing-wednesday-trivia/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-28T21:28:54.915095-05:00"
+ },
+ "https://www.theatwoodmusichall.com/shows/2026-11-11": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-28T21:28:54.915105-05:00"
+ },
+ "https://www.cafecoda.club/events-1/jumptown-swing-pdfmn-59jkp-yjsp4-fbnmd-mlydx-t82hk-cxh26-yjmcz-24589-r35gr-bj2kg-w8zz3-rycxr-9jdhz-9zrws-lb23r": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-28T21:28:55.008916-05:00"
+ },
+ "https://www.ticketmaster.com/dr-neil-degrasse-tyson-search-for-madison-wisconsin-11-11-2026/event/0700648217A5C23C": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-10-28T21:28:56.060716-05:00"
+ },
+ "https://www.cafecoda.club/events-1/karaoke-nabjl-22c3f-gw57n-2m79c-a47wx-jblcs-4bcsl-mkd7s-ctsf4-p4hcx-t4n3x-xd9mh-c5tsy-cpczx-w6dsr-l2pex-rcndw": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-28T21:28:56.060745-05:00"
+ },
+ "https://www.ticketmaster.com/low-cut-connie-madison-wisconsin-11-11-2026/event/0700648ACF826844": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-10-28T21:28:56.060754-05:00"
+ },
+ "https://www.ticketmaster.com/day-made-tour-ft-big-red-madison-wisconsin-11-11-2026/event/070064FEA670411C": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-10-28T21:28:57.218655-05:00"
  }
 }
