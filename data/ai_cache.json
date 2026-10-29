@@ -37,9 +37,9 @@
   ]
  },
  "https://thecrystalcornerbar.com/Calendar.htm": {
-  "hash": "743df6ac3ce38e1f07c9e023c2d51f3ed7d4b609",
-  "asked": "2026-10-26T21:04:44-05:00",
-  "on": "2026-10-26",
+  "hash": "4225cc07b3bece0ff054762a0a8e3c8f740f2c59",
+  "asked": "2026-10-29T12:26:07-05:00",
+  "on": "2026-10-29",
   "events": [
    {
     "title": "Metal Halloween Show",
@@ -47,16 +47,16 @@
     "start": "21:00",
     "end": null,
     "price": 15,
-    "description": "Metal Halloween show with Sabbath Dweller (Black Sabbath cover set), Yotuma, Whippets, and Red Museum (solo synth horror movie soundtrack)",
+    "description": "Halloween metal show with Sabbath Dweller (Black Sabbath cover set), Yotuma, Whippets and Red Museum.",
     "category": "music"
    },
    {
-    "title": "ROCK rock ROCK rock show",
+    "title": "The Dead Johnnys, Tom Howl & The Scowl, Lummox",
     "date": "2026-11-07",
     "start": "21:00",
     "end": null,
     "price": 10,
-    "description": "Rock show with The Dead Johnnys, Tom Howl & The Scowl, and Lummox",
+    "description": "Rock show with The Dead Johnnys, Tom Howl & The Scowl and Lummox.",
     "category": "music"
    }
   ]
@@ -239,9 +239,9 @@
   ]
  },
  "https://www.thecrystalcornerbar.com/Calendar.htm": {
-  "hash": "743df6ac3ce38e1f07c9e023c2d51f3ed7d4b609",
-  "asked": "2026-10-26T21:04:49-05:00",
-  "on": "2026-10-26",
+  "hash": "4225cc07b3bece0ff054762a0a8e3c8f740f2c59",
+  "asked": "2026-10-29T12:26:10-05:00",
+  "on": "2026-10-29",
   "events": [
    {
     "title": "Metal Halloween Show",
@@ -249,7 +249,7 @@
     "start": "21:00",
     "end": null,
     "price": 15,
-    "description": "Metal Halloween show featuring Sabbath Dweller (Ruin Dweller, Black Sabbath cover set), Yotuma, Whippets and Red Museum.",
+    "description": "Halloween metal show with Sabbath Dweller (Black Sabbath cover set), Yotuma, Whippets and Red Museum",
     "category": "music"
    },
    {
@@ -258,7 +258,7 @@
     "start": "21:00",
     "end": null,
     "price": 10,
-    "description": "Rock show with The Dead Johnnys, Tom Howl & The Scowl and Lummox.",
+    "description": "Rock show with The Dead Johnnys, Tom Howl & The Scowl and Lummox",
     "category": "music"
    }
   ]
@@ -417,26 +417,17 @@
   "events": []
  },
  "https://www.harmonybarandgrill.com/madison-atwood-the-harmony-bar-and-grill-events": {
-  "hash": "b7007e8b5cfd7132fe513b85e10ac80824ffd091",
-  "asked": "2026-10-28T12:10:37-05:00",
-  "on": "2026-10-28",
+  "hash": "e75bf51df115f86d0f9b27fae6d3fa1a4ffde3ef",
+  "asked": "2026-10-29T12:26:11-05:00",
+  "on": "2026-10-29",
   "events": [
    {
-    "title": "Cork 'n Bottle String Band",
-    "date": "2026-10-28",
-    "start": "17:30",
-    "end": "19:00",
-    "price": 0,
-    "description": "Madison bluegrass band blending traditional bluegrass with humor and storytelling. Start time 5:30, no cover.",
-    "category": "music"
-   },
-   {
-    "title": "Gaines & Wagoner",
+    "title": "Gaines & Wagoner (guest: Grandpa's Elixir)",
     "date": "2026-11-01",
     "start": "16:00",
     "end": "19:00",
     "price": 15,
-    "description": "Madison husband-and-wife duo playing Americana; this month's guest is Grandpa's Elixir (old-time string band). $15 suggested donation.",
+    "description": "Madison husband-and-wife Americana duo with monthly special guest Grandpa's Elixir (old-timey string band). $15 suggested donation.",
     "category": "music"
    },
    {
@@ -445,7 +436,7 @@
     "start": "17:30",
     "end": "18:30",
     "price": 5,
-    "description": "Children's music show with David Landau; kid menu available. $5 cover, 5:30 start.",
+    "description": "Kids music show with David Landau; kid menu available. $5 cover.",
     "category": "music"
    },
    {
@@ -454,7 +445,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Trivia hosted by Paul, held the 1st and 3rd Wednesday of the month. Free, 6:30 start.",
+    "description": "Trivia hosted by Paul. Free. Runs the 1st and 3rd Wednesday of the month.",
     "category": "trivia"
    },
    {
@@ -463,7 +454,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Folk/rock/alt/pop singer-songwriter performing originals and covers. No cover, 6:30 start.",
+    "description": "Eclectic folk/rock/alt/pop singer-songwriter Melissa Kieler with Ethan Kister. No cover.",
     "category": "music"
    },
    {
@@ -472,7 +463,7 @@
     "start": "20:00",
     "end": "22:00",
     "price": 0,
-    "description": "Scottish music with bagpipes, guitar, fiddle, whistle and bodhran. 8pm start, no cover.",
+    "description": "Scottish music trio-plus with bagpipes, fiddle, whistle and bodhran. No cover.",
     "category": "music"
    },
    {
@@ -481,7 +472,7 @@
     "start": "19:30",
     "end": "21:30",
     "price": 10,
-    "description": "Traditional Irish pub songs, ballads and originals. 7:30 start, $10 suggested donation.",
+    "description": "Traditional Irish pub songs, ballads and originals. $10 suggested donation.",
     "category": "music"
    },
    {
@@ -490,7 +481,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Bluegrass, vintage country and swing with three-part vocal harmonies. 6:30 start, no cover.",
+    "description": "Bluegrass, vintage country and swing with three-part vocal harmonies. No cover.",
     "category": "music"
    },
    {
@@ -499,7 +490,16 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Classic bluegrass-based band with members formerly of the Oak Street Ramblers. 6:30 start, no cover.",
+    "description": "Classic bluegrass-based band from Madison, former Oak Street Ramblers members. No cover.",
+    "category": "music"
+   },
+   {
+    "title": "Honky Tonk Happy Hour ft. Canyon Arrow",
+    "date": "2026-11-12",
+    "start": "18:30",
+    "end": "20:30",
+    "price": 0,
+    "description": "Honky-tonk happy hour with Madison band Canyon Arrow. No cover.",
     "category": "music"
    }
   ]
@@ -1374,9 +1374,9 @@
   ]
  },
  "https://merciescoffeewi.com/": {
-  "hash": "b1daa89623d302afea47c7db1e115ec4fb4a7471",
-  "asked": "2026-10-28T12:11:05-05:00",
-  "on": "2026-10-28",
+  "hash": "d0b55b0b70a2e51f4116641a05e268f35e65f419",
+  "asked": "2026-10-29T12:26:39-05:00",
+  "on": "2026-10-29",
   "events": []
  },
  "https://motherfools.com/event/20261106/mad-city-story-slam-rebellion": {
@@ -1516,27 +1516,18 @@
   "events": []
  },
  "https://www.cityofmadison.com/parks/events": {
-  "hash": "298fba9e9b220a1a3f95d131df6112a1ac728cd8",
-  "asked": "2026-10-28T12:11:37-05:00",
-  "on": "2026-10-28",
+  "hash": "d6dc4a4234e7f64a462c1bbab03f3221de0c94a6",
+  "asked": "2026-10-29T12:27:06-05:00",
+  "on": "2026-10-29",
   "events": [
-   {
-    "title": "Hayride Around the Capitol | Movie at the Top of State",
-    "date": "2026-10-28",
-    "start": "15:00",
-    "end": "19:45",
-    "price": null,
-    "description": "Hayride Around the Capitol and movie at the Top of State, multiple locations",
-    "category": "film"
-   },
    {
     "title": "EHS Feeder Program Fall Academy",
     "date": "2026-10-29",
     "start": "17:00",
     "end": "18:15",
     "price": null,
-    "description": "EHS Feeder Program Fall Academy at Warner Park Community Recreation Center, 1625 Northport Drive",
-    "category": "sports"
+    "description": "Warner Park Community Recreation Center, 1625 Northport Drive",
+    "category": "other"
    },
    {
     "title": "EHS Feeder Program BDL Open Tryouts",
@@ -1544,7 +1535,7 @@
     "start": "17:00",
     "end": "18:15",
     "price": null,
-    "description": "EHS Feeder Program BDL open tryouts at Warner Park Community Recreation Center, 1625 Northport Drive",
+    "description": "Warner Park Community Recreation Center, 1625 Northport Drive",
     "category": "sports"
    },
    {
@@ -1553,7 +1544,7 @@
     "start": "17:00",
     "end": "19:30",
     "price": null,
-    "description": "Halloween family celebration at Warner Park Community Recreation Center, 1625 Northport Drive",
+    "description": "Warner Park Community Recreation Center, 1625 Northport Drive",
     "category": "other"
    },
    {
@@ -1562,7 +1553,7 @@
     "start": "13:30",
     "end": "15:00",
     "price": null,
-    "description": "Guided bird and nature outing; meet at the Cherokee Marsh North Unit parking lot, 6098 North Sherman Avenue",
+    "description": "Meet at the Cherokee Marsh North Unit parking lot, 6098 North Sherman Avenue",
     "category": "other"
    },
    {
@@ -1571,7 +1562,7 @@
     "start": "17:00",
     "end": "19:00",
     "price": null,
-    "description": "Parks Alive Fall event at Harmony Apartments Community Room, 116 Milky Way",
+    "description": "Harmony Apartments Community Room, 116 Milky Way",
     "category": "other"
    },
    {
@@ -1580,7 +1571,7 @@
     "start": "17:00",
     "end": "19:00",
     "price": null,
-    "description": "Parks Alive Fall event at Warner Park Community Recreation Center, 1625 Northport Dr",
+    "description": "Warner Park Community Recreation Center, 1625 Northport Dr.",
     "category": "other"
    },
    {
@@ -1589,7 +1580,7 @@
     "start": "17:00",
     "end": "19:00",
     "price": null,
-    "description": "Parks Alive Fall event at Revival Ridge Community Room, 2313 Allied Dr.",
+    "description": "Revival Ridge Community Room, 2313 Allied Dr.",
     "category": "other"
    },
    {
@@ -1598,7 +1589,7 @@
     "start": "18:00",
     "end": "19:30",
     "price": null,
-    "description": "Virtual public meeting about Odana Hills Golf Course and Park",
+    "description": "Virtual event",
     "category": "other"
    },
    {
@@ -1607,7 +1598,16 @@
     "start": "13:30",
     "end": "15:00",
     "price": null,
-    "description": "Guided bird and nature outing; meet at the Tenney Park beach parking lot, 1330 Sherman Ave.",
+    "description": "Meet at Tenney Park beach parking lot, 1330 Sherman Ave.",
+    "category": "other"
+   },
+   {
+    "title": "Bird & Nature Adventures | Turville Point",
+    "date": "2026-11-08",
+    "start": "13:30",
+    "end": "14:30",
+    "price": null,
+    "description": "Turville Point Conservation Park, 1202 Olin Turville Court",
     "category": "other"
    }
   ]
@@ -1619,9 +1619,9 @@
   "events": []
  },
  "https://www.madisonpubliclibrary.org/spaces/events": {
-  "hash": "2cf6a458c33a47fc70c42e0f7552a548e1a312cc",
-  "asked": "2026-10-28T21:28:37-05:00",
-  "on": "2026-10-28",
+  "hash": "0a410d3a43dfc192ffe0e769f9f9b2f11521b8b6",
+  "asked": "2026-10-29T12:27:11-05:00",
+  "on": "2026-10-29",
   "events": []
  },
  "https://ebling.library.wisc.edu/ebling-library-classes-events/": {
@@ -1769,9 +1769,9 @@
   ]
  },
  "https://www.madisonpubliclibrary.org/spaces/events/search": {
-  "hash": "4f98a2cf675f80533f6d7dc0b856a9cfd2859d78",
-  "asked": "2026-10-28T21:28:48-05:00",
-  "on": "2026-10-28",
+  "hash": "dc30426ac0b65c1a04fe8b623450abaf2cd60c74",
+  "asked": "2026-10-29T12:27:14-05:00",
+  "on": "2026-10-29",
   "events": []
  },
  "https://artlitlab.org/calendar": {
@@ -1798,9 +1798,9 @@
   ]
  },
  "https://bartelltheatre.org/": {
-  "hash": "231941031e0fe9fa2d884f11a9a6e0c5f474a51e",
-  "asked": "2026-10-28T21:28:46-05:00",
-  "on": "2026-10-28",
+  "hash": "bf0665d5ae348ea03e185469fb219b7d6dba6d1d",
+  "asked": "2026-10-29T12:27:19-05:00",
+  "on": "2026-10-29",
   "events": [
    {
     "title": "North by Northwest",
@@ -1808,7 +1808,7 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "Hitchcock thriller; Cary Grant is pursued across the country after being mistaken for a nonexistent U.S. agent.",
+    "description": "Hitchcock's 'wrong man' thriller starring Cary Grant.",
     "category": "film"
    },
    {
@@ -1817,7 +1817,7 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "Dark comedy about two sisters, a dog, and a hapless governess on the English moors.",
+    "description": "Dark comedy about two sisters and a dog on the English moors, with a hapless governess and a moor-hen.",
     "category": "theater"
    },
    {
@@ -1837,6 +1837,15 @@
     "price": null,
     "description": "Film screening.",
     "category": "film"
+   },
+   {
+    "title": "A Valentine's Affair 2027 Auditions (First Audition)",
+    "date": "2026-11-09",
+    "start": "18:30",
+    "end": null,
+    "price": null,
+    "description": "First audition for A Valentine's Affair 2027.",
+    "category": "other"
    },
    {
     "title": "Romeo and Juliet",
@@ -1862,26 +1871,17 @@
   "events": []
  },
  "https://madisonorpheum.com/calendar/": {
-  "hash": "6189d18b8e08410990af15d7f50717337bb80d39",
-  "asked": "2026-10-27T11:23:27-05:00",
-  "on": "2026-10-27",
+  "hash": "f9ddbc85e614b5817c369f4bd2fe9fbbcf10b1dc",
+  "asked": "2026-10-29T12:27:22-05:00",
+  "on": "2026-10-29",
   "events": [
-   {
-    "title": "William Shatner Live On-stage with Star Trek II: The Wrath of Khan",
-    "date": "2026-10-28",
-    "start": "19:30",
-    "end": null,
-    "price": null,
-    "description": "Live on-stage event with Star Trek II: The Wrath of Khan. Doors 6:30 pm.",
-    "category": "other"
-   },
    {
     "title": "Scott Bradlee's Postmodern Jukebox",
     "date": "2026-11-05",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Presented by FPC Live. Doors 7:00 pm.",
+    "description": "FPC Live presents Scott Bradlee's Postmodern Jukebox. Doors 7:00 pm.",
     "category": "music"
    },
    {
@@ -1890,7 +1890,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Presented by Wisconsin Games Alliance. Doors 7:00 pm.",
+    "description": "Wisconsin Games Alliance presents MDEV: The Kick-Off Event. Doors 7:00 pm.",
     "category": "other"
    },
    {
@@ -1899,7 +1899,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Stand-up comedy presented by FPC Live. Doors 7:00 pm.",
+    "description": "FPC Live presents comedian Dave Attell. Doors 7:00 pm.",
     "category": "comedy"
    },
    {
@@ -1908,8 +1908,17 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Stand-up comedy presented by FPC Live. Doors 6:00 pm.",
+    "description": "FPC Live presents comedian Daniel Sloss. Doors 6:00 pm.",
     "category": "comedy"
+   },
+   {
+    "title": "Dr. Neil deGrasse Tyson",
+    "date": "2026-11-11",
+    "start": "19:30",
+    "end": null,
+    "price": null,
+    "description": "FPC Live presents Dr. Neil deGrasse Tyson. Doors 6:30 pm. Listed as sold out.",
+    "category": "other"
    }
   ]
  },
@@ -1978,123 +1987,10 @@
   ]
  },
  "https://madisonyoutharts.org/upcoming-events/": {
-  "hash": "8d209eede58c63ce0ff8691b44d96a73b4a88c4b",
-  "asked": "2026-10-26T15:23:15-05:00",
-  "on": "2026-10-26",
-  "events": [
-   {
-    "title": "Premier Showcase",
-    "date": "2026-10-27",
-    "start": "08:45",
-    "end": "13:45",
-    "price": 10,
-    "description": "One-day in-person preview of family-friendly performers for schools, libraries, camps and community groups; lunch included. Tickets $10-$20."
-   },
-   {
-    "title": "u.DL presents: dis•sonance",
-    "date": "2026-10-29",
-    "start": "19:00",
-    "end": null,
-    "price": 10,
-    "description": "Unincorporated Dance Lab's 3rd season: original works on discordance and dissent. Tickets $10-30."
-   },
-   {
-    "title": "u.DL presents: dis•sonance",
-    "date": "2026-10-30",
-    "start": "19:00",
-    "end": null,
-    "price": 10,
-    "description": "Unincorporated Dance Lab's 3rd season: original works on discordance and dissent. Tickets $10-30."
-   },
-   {
-    "title": "u.DL presents: dis•sonance",
-    "date": "2026-10-31",
-    "start": "13:00",
-    "end": null,
-    "price": 10,
-    "description": "Unincorporated Dance Lab's 3rd season: original works on discordance and dissent. Tickets $10-30."
-   },
-   {
-    "title": "Madison Ballet: Jekyll & Hyde (preview performance)",
-    "date": "2026-10-29",
-    "start": "19:00",
-    "end": null,
-    "price": 58,
-    "description": "World-premiere contemporary ballet based on Stevenson's tale, set to Michael Nyman's music. About 2 hours with a 20-minute intermission. Tickets $58-89."
-   },
-   {
-    "title": "Madison Ballet: Jekyll & Hyde (opening night)",
-    "date": "2026-10-30",
-    "start": "19:00",
-    "end": null,
-    "price": 58,
-    "description": "World-premiere contemporary ballet based on Stevenson's tale, set to Michael Nyman's music. About 2 hours with a 20-minute intermission. Tickets $58-89."
-   },
-   {
-    "title": "Madison Ballet: Jekyll & Hyde",
-    "date": "2026-10-31",
-    "start": "14:00",
-    "end": null,
-    "price": 58,
-    "description": "World-premiere contemporary ballet based on Stevenson's tale, set to Michael Nyman's music. About 2 hours with a 20-minute intermission. Tickets $58-89."
-   },
-   {
-    "title": "Madison Ballet: Jekyll & Hyde",
-    "date": "2026-10-31",
-    "start": "19:00",
-    "end": null,
-    "price": 58,
-    "description": "World-premiere contemporary ballet based on Stevenson's tale, set to Michael Nyman's music. About 2 hours with a 20-minute intermission. Tickets $58-89."
-   },
-   {
-    "title": "Madison Ballet: Jekyll & Hyde",
-    "date": "2026-11-01",
-    "start": "14:00",
-    "end": null,
-    "price": 58,
-    "description": "World-premiere contemporary ballet based on Stevenson's tale, set to Michael Nyman's music. About 2 hours with a 20-minute intermission. Tickets $58-89."
-   },
-   {
-    "title": "Anita Collin's Workshop: Music Learning and the Brain (morning session)",
-    "date": "2026-10-31",
-    "start": "08:30",
-    "end": "11:30",
-    "price": 20,
-    "description": "For music educators: using brain science to strengthen teaching and advocacy. Check-in 8:00-8:30. Pay what you can ($20 suggested)."
-   },
-   {
-    "title": "Anita Collin's Workshop: The Music Advantage (afternoon session)",
-    "date": "2026-10-31",
-    "start": "12:30",
-    "end": "15:30",
-    "price": 20,
-    "description": "For parents, educators and community groups: how music learning supports children, families and communities. Check-in 12:00-12:30. Pay what you can ($20 suggested)."
-   },
-   {
-    "title": "Comedy Variety Hour (and a half!)",
-    "date": "2026-11-06",
-    "start": "19:00",
-    "end": "20:30",
-    "price": 20,
-    "description": "Hosted by Mark Hayward; 90-minute all-ages clean comedy and magic show in the Starlight Theater. Ages 6+. Tickets $20-$35."
-   },
-   {
-    "title": "Madison Youth Choirs presents: Sing a Song",
-    "date": "2026-11-07",
-    "start": "10:15",
-    "end": "11:00",
-    "price": null,
-    "description": "Special reading of Kelly Starling Lyons' 'Sing a Song' on the history of 'Lift Every Voice and Sing,' with music and audience singing. RSVP required; seating first come, first served."
-   },
-   {
-    "title": "LunArt: DARK TALES: An Evening of Music and Mystery",
-    "date": "2026-11-07",
-    "start": "19:30",
-    "end": null,
-    "price": 35,
-    "description": "Evening of choral music from LunART Treble Choir plus a world-premiere staging of Poe's 'The Cask of Amontillado.' Tickets $35-45."
-   }
-  ]
+  "hash": "075b8cf6ad36aba21aa1bcb96d34479d5babb01f",
+  "asked": "2026-10-29T12:27:25-05:00",
+  "on": "2026-10-29",
+  "events": []
  },
  "https://madisonyoutharts.org/upcoming-events/news/": {
   "hash": "d5f0a03c7b9473c6f2850a66cb87b3229e3f6e73",
@@ -2125,9 +2021,9 @@
   "events": []
  },
  "https://www.veronapubliclibrary.org/": {
-  "hash": "d972d21c84b3ac7eaad17edd5f2a079680a31bef",
-  "asked": "2026-10-28T21:28:30-05:00",
-  "on": "2026-10-28",
+  "hash": "b01104d7b038760291ba5f8458592c7b7e5585e7",
+  "asked": "2026-10-29T12:27:07-05:00",
+  "on": "2026-10-29",
   "events": []
  }
 }

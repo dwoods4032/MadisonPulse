@@ -343,5 +343,77 @@
   "lon": -89.388908,
   "address": "227 State Street",
   "city": "Madison"
- }
+ },
+ "uw mechanical engineering building": null,
+ "main street music, brooklyn": {
+  "lat": 42.853977,
+  "lon": -89.372111,
+  "address": "102 West Main Street",
+  "city": "Brooklyn"
+ },
+ "paoli schoolhouse american bistro": null,
+ "columbus sportsman's association, columbus": null,
+ "friends applaud": {
+  "lat": 43.050067,
+  "lon": -89.392058,
+  "address": "1602 Gilson Street",
+  "city": "Madison"
+ },
+ "uw stock pavilion": null,
+ "northstreet": {
+  "lat": 43.106618,
+  "lon": -89.35098,
+  "address": "557 North Street",
+  "city": "Madison"
+ },
+ "bernell's": null,
+ "uw union south-varsity hall": null,
+ "vfw post 1318-ski lane": null,
+ "uw library mall": null,
+ "madison youth arts": {
+  "lat": 43.085128,
+  "lon": -89.371081,
+  "address": "1055 East Mifflin Street",
+  "city": "Madison"
+ },
+ "echo tap": {
+  "lat": 43.068194,
+  "lon": -89.391362,
+  "address": "South Bedford Street",
+  "city": "Madison"
+ },
+ "the red zone/the annex": null,
+ "thrill factory entertainment": null,
+ "schuster's playtime farm, deerfield": null,
+ "east high school": {
+  "lat": 44.507568,
+  "lon": -87.992803,
+  "address": "East Walnut Street",
+  "city": "Green Bay"
+ },
+ "edgewater hotel-boathouse": null,
+ "yahara bay distillers, fitchburg": null,
+ "uw cinematheque": null,
+ "overture center-playhouse": null,
+ "peace lutheran church, waunakee": {
+  "lat": 43.185635,
+  "lon": -89.461116,
+  "address": "",
+  "city": "Waunakee"
+ },
+ "kiki's house of righteous music": null,
+ "greenbush bar": {
+  "lat": 43.0678,
+  "lon": -89.401832,
+  "address": "914 Regent Street",
+  "city": "Madison"
+ },
+ "pink heifer bbq saloon": null,
+ "alliant energy center": {
+  "lat": 43.047082,
+  "lon": -89.380291,
+  "address": "1919 Alliant Energy Way",
+  "city": "Madison"
+ },
+ "overture center-james watrous gallery of the wisconsin academy": null
 }

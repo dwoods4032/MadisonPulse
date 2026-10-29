@@ -1,9 +1,4 @@
 {
- "https://www.madisonyoutharts.org/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:37:07.924893-05:00"
- },
  "https://www.madisongreymarket.com": {
   "ok": true,
   "why": "",
@@ -23,11 +18,6 @@
   "ok": true,
   "why": "",
   "checked": "2026-10-27T14:37:10.347375-05:00"
- },
- "https://www.madisonpubliclibrary.org/central": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:37:10.347381-05:00"
  },
  "https://escmadison.com": {
   "ok": true,
@@ -59,16 +49,6 @@
   "why": "",
   "checked": "2026-10-27T14:37:15.551999-05:00"
  },
- "https://www.workingdraftbeer.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:37:15.552028-05:00"
- },
- "https://www.mickeysmadison.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:37:15.552048-05:00"
- },
  "http://malthousetavern.com/": {
   "ok": true,
   "why": "",
@@ -84,11 +64,6 @@
   "why": "",
   "checked": "2026-10-27T14:37:15.552080-05:00"
  },
- "https://www.settledownmadison.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:37:15.552086-05:00"
- },
  "https://www.lazyoaflounge.com/": {
   "ok": true,
   "why": "",
@@ -98,36 +73,6 @@
   "ok": true,
   "why": "",
   "checked": "2026-10-27T14:37:15.552102-05:00"
- },
- "https://www.workingdraftbeer.com/events/2026/10/28/game-five-of-the-fall-classic-go-crew": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:37:15.552110-05:00"
- },
- "https://www.cafecoda.club/events-1/jumptown-swing-pdfmn-59jkp-yjsp4-fbnmd-mlydx-t82hk-cxh26-yjmcz-24589-r35gr-bj2kg-w8zz3-rycxr-9jdhz-593dz-h2mx8": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:37:15.552113-05:00"
- },
- "https://www.ticketmaster.com/william-shatner-live-onstage-with-star-madison-wisconsin-10-28-2026/event/0700647ABB0A5FC2": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-10-27T14:37:15.552116-05:00"
- },
- "https://www.madisoncomedy.com/event/mic-on-state/2026-10-28/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:37:15.552119-05:00"
- },
- "https://www.ticketmaster.com/the-brook-the-bluff-the-werewolf-madison-wisconsin-10-28-2026/event/070064C1A6B72E56": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-10-27T14:37:15.552122-05:00"
- },
- "https://www.micentro.org/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:37:15.552125-05:00"
  },
  "https://www.roxxybar.com/location/madison/": {
   "ok": true,
@@ -218,11 +163,6 @@
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
   "checked": "2026-10-27T14:37:18.225966-05:00"
- },
- "https://www.workingdraftbeer.com/events/2026/10/30/game-six-of-the-fall-classic-go-crew": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:37:18.225970-05:00"
  },
  "https://www.ticketmaster.com/event/Z7r9jZ1AAvFGd": {
   "ok": null,
@@ -2739,21 +2679,6 @@
   "why": "",
   "checked": "2026-10-27T17:48:53.800332-05:00"
  },
- "https://javacatmadison.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T17:48:53.800358-05:00"
- },
- "https://thelonegirl.com/event/murder-mystery/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T17:48:54.166303-05:00"
- },
- "https://thelonegirl.com/event/trivia-every-wednesday-2-2/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T17:48:57.964581-05:00"
- },
  "http://www.monkeyshinesbarandgrill.com/": {
   "ok": true,
   "why": "",
@@ -2869,11 +2794,6 @@
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
   "checked": "2026-10-27T21:16:33.148041-05:00"
  },
- "https://www.madisonpubliclibrary.org/sequoya": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-28T12:12:37.344249-05:00"
- },
  "https://statestreetbrats.com/event/panthers-packers-20261029/": {
   "ok": true,
   "why": "",
@@ -2923,5 +2843,75 @@
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
   "checked": "2026-10-28T21:28:57.218655-05:00"
+ },
+ "https://communicationmadison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-29T12:28:09.930893-05:00"
+ },
+ "https://www.arthouse360.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-29T12:28:09.930920-05:00"
+ },
+ "https://barrymorelive.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-29T12:28:09.930928-05:00"
+ },
+ "https://cafecoda.club": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-29T12:28:09.930935-05:00"
+ },
+ "https://www.northstreetcabaret.com/": {
+  "ok": null,
+  "why": "robots.txt asks bots not to visit",
+  "checked": "2026-10-29T12:28:09.930940-05:00"
+ },
+ "https://www.madisoncomedy.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-29T12:28:09.930946-05:00"
+ },
+ "https://ctmtheater.org/event/annie-4/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-29T12:28:12.148065-05:00"
+ },
+ "https://statestreetbrats.com/event/rays-guardians-brewers-20261030/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-29T12:28:12.148090-05:00"
+ },
+ "https://ctmtheater.org/event/annie-5/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-29T12:28:12.148099-05:00"
+ },
+ "https://ctmtheater.org/event/annie-6/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-29T12:28:13.933461-05:00"
+ },
+ "https://ctmtheater.org/event/annie-7/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-29T12:28:15.715760-05:00"
+ },
+ "https://bayviewfoundation.org/event/zumba/2026-11-03/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-29T12:28:15.715787-05:00"
+ },
+ "https://www.madisoncomedy.com/event/mic-on-state/2026-11-04/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-29T12:28:15.715796-05:00"
+ },
+ "https://bayviewfoundation.org/event/zumba/2026-11-10/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-29T12:28:15.715802-05:00"
  }
 }
