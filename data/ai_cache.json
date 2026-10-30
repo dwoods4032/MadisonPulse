@@ -916,26 +916,17 @@
   ]
  },
  "https://doundrins.com/pages/events": {
-  "hash": "36de4842ba3b7632b60184c45825d9a7029d9cfa",
-  "asked": "2026-10-28T21:27:43-05:00",
-  "on": "2026-10-28",
+  "hash": "31179597845821f411945ae49945bb058106e226",
+  "asked": "2026-10-30T16:23:57-05:00",
+  "on": "2026-10-30",
   "events": [
-   {
-    "title": "Paint & Sip: \"Little Boo\"",
-    "date": "2026-10-30",
-    "start": null,
-    "end": null,
-    "price": 35,
-    "description": "Paint & sip event at Doundrins Distilling (second date of the Oct 21 & 30 run).",
-    "category": "other"
-   },
    {
     "title": "Rare Plant Bingo",
     "date": "2026-11-07",
     "start": null,
     "end": null,
-    "price": 50,
-    "description": "Rare Plant Bingo at Doundrins Distilling.",
+    "price": 50.0,
+    "description": "Rare Plant Bingo at Doundrins Distilling, listed as 11/7. The page gives no start time.",
     "category": "bingo"
    }
   ]
@@ -1065,25 +1056,16 @@
  },
  "https://www.statelinedistillery.com/cocktail-lounge/events": {
   "hash": "fa34c078f3c1bc946c039af256a710c9887524b2",
-  "asked": "2026-10-27T14:35:57-05:00",
-  "on": "2026-10-27",
+  "asked": "2026-10-30T16:23:59-05:00",
+  "on": "2026-10-30",
   "events": [
-   {
-    "title": "Sabor Regio Food Truck",
-    "date": "2026-10-29",
-    "start": "18:00",
-    "end": "20:00",
-    "price": null,
-    "description": "Sabor Regio food truck at State Line Distillery.",
-    "category": "food"
-   },
    {
     "title": "Dead & Distilled: Halloween Party",
     "date": "2026-10-31",
     "start": "15:00",
     "end": "00:00",
     "price": null,
-    "description": "Halloween party at State Line Distillery.",
+    "description": "Halloween party at State Line Distillery Cocktail Lounge.",
     "category": "other"
    },
    {
@@ -1583,8 +1565,8 @@
   "events": []
  },
  "https://www.madisonpubliclibrary.org/spaces/events": {
-  "hash": "285fbe699e4d4e8dfd230081ae2e3930963117db",
-  "asked": "2026-10-30T12:02:16-05:00",
+  "hash": "31e2d26d4571348de4ba4babe676bc1ff0074d7d",
+  "asked": "2026-10-30T16:24:51-05:00",
   "on": "2026-10-30",
   "events": []
  },
@@ -1755,8 +1737,8 @@
   ]
  },
  "https://www.madisonpubliclibrary.org/spaces/events/search": {
-  "hash": "1acb296b1e3049b9e3dc5cfddf44a20675d19115",
-  "asked": "2026-10-30T12:02:30-05:00",
+  "hash": "89e0f1846af3a228d6fbee65802c47a093141ff0",
+  "asked": "2026-10-30T16:25:02-05:00",
   "on": "2026-10-30",
   "events": []
  },
@@ -1859,8 +1841,8 @@
   "events": []
  },
  "https://madisonorpheum.com/calendar/": {
-  "hash": "d0abf2ab5903faaae93a4e412f0a943fdb7dacae",
-  "asked": "2026-10-30T12:02:28-05:00",
+  "hash": "15d1542aae2f5b0a0db6805d7dad57ad72be053b",
+  "asked": "2026-10-30T16:25:02-05:00",
   "on": "2026-10-30",
   "events": [
    {
@@ -1905,7 +1887,7 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "FPC Live presents Dr. Neil deGrasse Tyson. Doors 6:30 pm. Sold out.",
+    "description": "FPC Live presents Dr. Neil deGrasse Tyson. Doors 6:30 pm. Listed as sold out.",
     "category": "other"
    }
   ]
@@ -2000,8 +1982,8 @@
   "events": []
  },
  "https://madisonorpheum.com/event/kip-moore/": {
-  "hash": "6ebde890a7dabe9ac58f7c33f6cfe890661e4dcc",
-  "asked": "2026-10-30T12:02:32-05:00",
+  "hash": "fbfa55f6b22ab26a98df3dcc5af2e30ec3a1bf57",
+  "asked": "2026-10-30T16:25:05-05:00",
   "on": "2026-10-30",
   "events": [
    {
@@ -2010,7 +1992,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Listed as a related event at The Orpheum with a November 6, 2026 date. The page gives no time or details.",
+    "description": "Kick-off event listed on the Orpheum site; the page gives no time or price.",
     "category": "other"
    }
   ]
@@ -2022,9 +2004,9 @@
   "events": []
  },
  "https://www.veronapubliclibrary.org/": {
-  "hash": "742ae806208f3fbd102230d6191363a762510ac7",
-  "asked": "2026-10-29T21:38:14-05:00",
-  "on": "2026-10-29",
+  "hash": "b8c6519c0042d774ad54191fbbda2c7de53c6133",
+  "asked": "2026-10-30T16:24:46-05:00",
+  "on": "2026-10-30",
   "events": []
  },
  "https://www.waunakee.gov/calendar.aspx?CID=25": {
@@ -2036,6 +2018,18 @@
  "https://www.waunakee.gov/Calendar.aspx?EID=6370": {
   "hash": "01a41ec047c76e13907dc6c54adb6156740c4f39",
   "asked": "2026-10-30T12:02:09-05:00",
+  "on": "2026-10-30",
+  "events": []
+ },
+ "https://comebackintavern.com/events/": {
+  "hash": "31d87c3411648855f79e5de9d2d3cb1b51c195e6",
+  "asked": "2026-10-30T16:23:50-05:00",
+  "on": "2026-10-30",
+  "events": []
+ },
+ "https://comebackintavern.com/events/category/events/": {
+  "hash": "c47f0cb54889b41f9e1f43c5239935df27cba668",
+  "asked": "2026-10-30T16:23:51-05:00",
   "on": "2026-10-30",
   "events": []
  }

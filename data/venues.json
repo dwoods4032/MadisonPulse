@@ -375,7 +375,9 @@
    "feeds": [],
    "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
-   "image": "https://images.getbento.com/accounts/0559fe6fd8084d122796b1f88cdb88bd/media/images/49519logo.png?w=1200&fit=fill&auto=compress,format&cs=origin&h=600&bg=ebd7b4&pad=100"
+   "image": "https://images.getbento.com/accounts/0559fe6fd8084d122796b1f88cdb88bd/media/images/49519logo.png?w=1200&fit=fill&auto=compress,format&cs=origin&h=600&bg=ebd7b4&pad=100",
+   "new_since": "2026-09-16",
+   "new_evidence": "New alcohol license approved at the 2026-09-16 ALRC meeting"
   },
   {
    "id": "osm:way/1435231298",
@@ -1309,21 +1311,6 @@
    "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://img1.wsimg.com/isteam/ip/0bf1a035-6d5d-430c-afe6-3fc85ced0a00/20141203_135435.jpg"
-  },
-  {
-   "id": "osm:node/7039682063",
-   "name": "Monk's Bar and Grill",
-   "kind": "bar",
-   "address": "",
-   "city": "",
-   "lat": 43.0028432,
-   "lon": -89.5327934,
-   "website": "",
-   "facebook": "",
-   "instagram": "",
-   "feeds": [],
-   "alcohol": true,
-   "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
    "id": "osm:way/107655168",

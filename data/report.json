@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-30T12:03:41-05:00",
+ "generated_at": "2026-10-30T16:25:07-05:00",
  "venues_checked": 237,
- "venues_with_events": 63,
+ "venues_with_events": 60,
  "venues_with_feeds": 84,
- "events": 385,
- "filtered_out": 170,
+ "events": 381,
+ "filtered_out": 91,
  "venues": [
   {
    "name": "AI page reading",
@@ -15,10 +15,10 @@
    ],
    "raw_events": 175,
    "error": "",
-   "calls": 18,
-   "tokens_in": 46948,
-   "tokens_out": 19931,
-   "est_cost_usd": 0.0147
+   "calls": 15,
+   "tokens_in": 36504,
+   "tokens_out": 15235,
+   "est_cost_usd": 0.0113
   },
   {
    "name": "Isthmus calendar",
@@ -28,18 +28,7 @@
     "calendar"
    ],
    "raw_events": 158,
-   "error": ""
-  },
-  {
-   "name": "Bayview Community Center",
-   "kind": "community",
-   "website": "https://www.bayviewfoundation.org",
-   "feeds": [
-    "tribe",
-    "jsonld"
-   ],
-   "raw_events": 81,
-   "error": ""
+   "error": "used today's copy (read once a day)"
   },
   {
    "name": "Ticketmaster",
@@ -126,7 +115,7 @@
     "jsonld",
     "jsonld"
    ],
-   "raw_events": 25,
+   "raw_events": 24,
    "error": ""
   },
   {
@@ -228,16 +217,6 @@
    "error": ""
   },
   {
-   "name": "Imagination Center",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 7,
-   "error": ""
-  },
-  {
    "name": "Delta Beer Lab",
    "kind": "brewery",
    "website": "https://www.delta.beer/",
@@ -259,9 +238,29 @@
    "error": ""
   },
   {
+   "name": "Imagination Center",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 6,
+   "error": ""
+  },
+  {
    "name": "Orpheum Theatre",
    "kind": "venue",
    "website": "https://madisonorpheum.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 6,
+   "error": ""
+  },
+  {
+   "name": "Sequoya Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/sequoya",
    "feeds": [
     "ai"
    ],
@@ -329,16 +328,6 @@
    "error": ""
   },
   {
-   "name": "Sequoya Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/sequoya",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 5,
-   "error": ""
-  },
-  {
    "name": "Sun Prairie Public Library",
    "kind": "library",
    "website": "https://www.sunprairiepubliclibrary.org/",
@@ -385,16 +374,6 @@
    "error": ""
   },
   {
-   "name": "Children's Theater of Madison",
-   "kind": "venue",
-   "website": "https://ctmtheater.org/",
-   "feeds": [
-    "tribe"
-   ],
-   "raw_events": 4,
-   "error": ""
-  },
-  {
    "name": "Crystal Corner Bar",
    "kind": "bar",
    "website": "https://thecrystalcornerbar.com/",
@@ -435,17 +414,6 @@
     "jsonld"
    ],
    "raw_events": 4,
-   "error": ""
-  },
-  {
-   "name": "Come Back Inn",
-   "kind": "bar",
-   "website": "https://comebackintavern.com/",
-   "feeds": [
-    "tribe",
-    "jsonld"
-   ],
-   "raw_events": 3,
    "error": ""
   },
   {
@@ -781,6 +749,17 @@
    "error": ""
   },
   {
+   "name": "Bayview Community Center",
+   "kind": "community",
+   "website": "https://www.bayviewfoundation.org",
+   "feeds": [
+    "tribe",
+    "jsonld"
+   ],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
    "name": "Below Deck Concession Stand",
    "kind": "cafe",
    "website": "https://www.mymonona.com/1395/Below-Deck-Concession-Stand",
@@ -893,6 +872,16 @@
    "error": ""
   },
   {
+   "name": "Children's Theater of Madison",
+   "kind": "venue",
+   "website": "https://ctmtheater.org/",
+   "feeds": [
+    "tribe"
+   ],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
    "name": "Cielo",
    "kind": "bar",
    "website": "https://www.cieloonstate.com/",
@@ -929,6 +918,17 @@
    "kind": "cafe",
    "website": "https://colectivo.com/pages/madison-cafes",
    "feeds": [],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
+   "name": "Come Back Inn",
+   "kind": "bar",
+   "website": "https://comebackintavern.com/",
+   "feeds": [
+    "tribe",
+    "jsonld"
+   ],
    "raw_events": 0,
    "error": ""
   },
@@ -1688,14 +1688,6 @@
   {
    "name": "Starbucks",
    "kind": "cafe",
-   "website": "https://www.starbucks.com/store-locator/store/1010275/greenway-boulevard-8230-greenway-boulevard-middleton-wi-535623579-us",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Starbucks",
-   "kind": "cafe",
    "website": "https://www.starbucks.com/store-locator/store/12525/university-north-blackhawk-3515-university-avenue-madison-wi-537052140-us",
    "feeds": [],
    "raw_events": 0,
@@ -1705,6 +1697,14 @@
    "name": "Starbucks",
    "kind": "cafe",
    "website": "https://www.starbucks.com/store-locator/store/16495/south-gammon-mineral-point-434-gammon-place-3-madison-wi-537191090-us",
+   "feeds": [],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
+   "name": "Starbucks",
+   "kind": "cafe",
+   "website": "https://www.starbucks.com/store-locator/store/1010275/greenway-boulevard-8230-greenway-boulevard-middleton-wi-535623579-us",
    "feeds": [],
    "raw_events": 0,
    "error": ""

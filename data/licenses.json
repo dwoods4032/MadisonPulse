@@ -1,0 +1,56 @@
+{
+ "agendas": {
+  "https://madison.legistar.com/View.ashx?M=A&ID=1329296&GUID=05C9EF88-1BCE-4AAC-B7E8-A03A8747D6A1": {
+   "date": "2026-09-16",
+   "items": [
+    {
+     "business": "Journey Buffet Inc",
+     "trade_name": "The Journey Buffet & Grill",
+     "address": "4325 Lien Rd",
+     "kind": "restaurant"
+    },
+    {
+     "business": "Cielito LLC",
+     "trade_name": "Cielo",
+     "address": "118 State St",
+     "kind": "bar"
+    }
+   ]
+  },
+  "https://madison.legistar.com/View.ashx?M=A&ID=1329298&GUID=DA081951-70F6-4AA2-A23D-312E2652FDDC": {
+   "date": "2026-10-21",
+   "items": [
+    {
+     "business": "MNK Hospitality LLC",
+     "trade_name": "Motel 6 Madison East",
+     "address": "4202 East Towne Blvd",
+     "kind": "other"
+    },
+    {
+     "business": "Northstreet Social LLC",
+     "trade_name": "The Flying Fox",
+     "address": "557 North St",
+     "kind": "restaurant"
+    },
+    {
+     "business": "Raj Sunrise Hotel LLC",
+     "trade_name": "Tru by Hilton",
+     "address": "8102 Watts Rd",
+     "kind": "other"
+    }
+   ]
+  },
+  "https://madison.legistar.com/View.ashx?M=A&ID=1457171&GUID=A161A195-34AC-404A-9996-731343DACDCE": {
+   "date": "2026-10-28",
+   "items": []
+  }
+ },
+ "links_on_page": 3,
+ "page_debug": {
+  "bytes": 70078,
+  "view_ashx": 3,
+  "legistar": 10,
+  "final_url": "https://www.cityofmadison.com/city-hall/committees/alcohol-license-review-committee"
+ },
+ "checked": "2026-10-30T16:23:43-05:00"
+}

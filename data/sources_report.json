@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-10-30T12:03:41-05:00",
- "total_events": 385,
+ "generated_at": "2026-10-30T16:25:07-05:00",
+ "total_events": 381,
  "in_more_than_one_source": 26,
  "sources": {
   "AI page reading": {
-   "events": 126,
-   "unique_events": 108,
+   "events": 128,
+   "unique_events": 110,
    "overlap": {
     "Isthmus": 1,
     "Ticketmaster": 17,
     "Venue websites": 0
    },
-   "venues": 30,
+   "venues": 32,
    "unique_venues": [
     "Aftershock Classic Arcade",
     "Arts + Literature Laboratory",
@@ -24,6 +24,7 @@
     "Flight Wine & Bourbon Bar",
     "Grey Market",
     "Harmony Bar & Grill",
+    "Imagination Center",
     "Karben4 Brewing",
     "Lakeside Street Coffee House",
     "Laurel Tavern",
@@ -34,6 +35,7 @@
     "Oscar Rennebohm Library",
     "Overture Center for the Arts",
     "Reindahl Park Pavillion",
+    "Sequoya Library",
     "State Line Distillery",
     "The Kickback",
     "The Malt House",
@@ -141,18 +143,16 @@
    ]
   },
   "Venue websites": {
-   "events": 71,
-   "unique_events": 63,
+   "events": 65,
+   "unique_events": 57,
    "overlap": {
     "AI page reading": 0,
     "Isthmus": 5,
     "Ticketmaster": 3
    },
-   "venues": 15,
+   "venues": 13,
    "unique_venues": [
     "Atwood Music Hall",
-    "Bayview Community Center",
-    "Children's Theater of Madison",
     "E.D. Locke Public Library",
     "Full Mile Beer Company & Kitchen",
     "Gib's Bar",

@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-30T12:03:41-05:00",
+ "generated_at": "2026-10-30T16:25:07-05:00",
  "window": {
-  "from": "2026-10-30T06:01-05:00",
-  "to": "2026-11-13T12:01-06:00"
+  "from": "2026-10-30T10:23-05:00",
+  "to": "2026-11-13T16:23-06:00"
  },
- "count": 385,
+ "count": 381,
  "events": [
   {
    "id": "87f5af801fff",
@@ -1082,29 +1082,6 @@
     "Ticketmaster"
    ],
    "link_ok": null
-  },
-  {
-   "id": "d857cb3adaf4",
-   "title": "Annie",
-   "start": "2026-10-30T19:00-05:00",
-   "end": "2026-10-30T21:30-05:00",
-   "all_day": false,
-   "category": "theater",
-   "price": null,
-   "description": "",
-   "url": "https://ctmtheater.org/event/annie-4/",
-   "image": "",
-   "venue": "Children's Theater of Madison",
-   "venue_id": "osm:node/10833984405",
-   "venue_kind": "venue",
-   "address": "",
-   "lat": 43.0853024,
-   "lon": -89.3708699,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
-   ],
-   "link_ok": true
   },
   {
    "id": "732dbe02270b",
@@ -2900,29 +2877,6 @@
    "link_ok": null
   },
   {
-   "id": "31f2a2f513bf",
-   "title": "Annie",
-   "start": "2026-10-31T14:00-05:00",
-   "end": "2026-10-31T16:30-05:00",
-   "all_day": false,
-   "category": "theater",
-   "price": null,
-   "description": "",
-   "url": "https://ctmtheater.org/event/annie-5/",
-   "image": "",
-   "venue": "Children's Theater of Madison",
-   "venue_id": "osm:node/10833984405",
-   "venue_kind": "venue",
-   "address": "",
-   "lat": 43.0853024,
-   "lon": -89.3708699,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "e1f98713f18e",
    "title": "Madison Ballet",
    "start": "2026-10-31T14:00-05:00",
@@ -3002,7 +2956,7 @@
    "all_day": false,
    "category": "other",
    "price": null,
-   "description": "Halloween party at State Line Distillery.",
+   "description": "Halloween party at State Line Distillery Cocktail Lounge.",
    "url": "https://www.statelinedistillery.com/",
    "image": "",
    "venue": "State Line Distillery",
@@ -3722,29 +3676,6 @@
    "link_ok": null
   },
   {
-   "id": "4aac33cb5094",
-   "title": "Annie",
-   "start": "2026-11-01T13:00-06:00",
-   "end": "2026-11-01T15:30-06:00",
-   "all_day": false,
-   "category": "theater",
-   "price": null,
-   "description": "",
-   "url": "https://ctmtheater.org/event/annie-6/",
-   "image": "",
-   "venue": "Children's Theater of Madison",
-   "venue_id": "osm:node/10833984405",
-   "venue_kind": "venue",
-   "address": "",
-   "lat": 43.0853024,
-   "lon": -89.3708699,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "4ba810a82cf0",
    "title": "Annie",
    "start": "2026-11-01T13:00-06:00",
@@ -4102,29 +4033,6 @@
    "link_ok": true
   },
   {
-   "id": "c304aa2da9b7",
-   "title": "Annie",
-   "start": "2026-11-01T18:00-06:00",
-   "end": "2026-11-01T20:30-06:00",
-   "all_day": false,
-   "category": "theater",
-   "price": null,
-   "description": "",
-   "url": "https://ctmtheater.org/event/annie-7/",
-   "image": "",
-   "venue": "Children's Theater of Madison",
-   "venue_id": "osm:node/10833984405",
-   "venue_kind": "venue",
-   "address": "",
-   "lat": 43.0853024,
-   "lon": -89.3708699,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "3b1f1fcd2186",
    "title": "Annie",
    "start": "2026-11-01T18:00-06:00",
@@ -4449,29 +4357,6 @@
    "link_ok": true
   },
   {
-   "id": "b2deebc0d15b",
-   "title": "Zumba",
-   "start": "2026-11-03T18:00-06:00",
-   "end": "2026-11-03T19:00-06:00",
-   "all_day": false,
-   "category": "dance",
-   "price": null,
-   "description": "Join us for a high-energy Zumba class, where you can dance, sweat, and have fun while getting fit with a great group of people! Pre-registration is not required.",
-   "url": "https://bayviewfoundation.org/event/zumba/2026-11-03/",
-   "image": "https://bayviewfoundation.org/wp-content/uploads/2024/12/health-wellness.png",
-   "venue": "Bayview Community Center",
-   "venue_id": "osm:way/1323648187",
-   "venue_kind": "community",
-   "address": "103 La Mariposa Lane",
-   "lat": 43.0663858,
-   "lon": -89.3975076,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "7e863e8f2125",
    "title": "Open Mic w/ Martin Hunt",
    "start": "2026-11-03T18:00-06:00",
@@ -4511,6 +4396,52 @@
    "address": "4893 Lacy Road",
    "lat": 43.0112712,
    "lon": -89.3736621,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "1a5bdfc2013e",
+   "title": "Mini Figure Painting (6 of 6 part series)",
+   "start": "2026-11-03T18:00-06:00",
+   "end": "2026-11-03T19:30-06:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Part of a 6-part mini figure painting series in the Community Room at Imagination Center Library.",
+   "url": "https://www.madisonpubliclibrary.org/locations/imagination-center",
+   "image": "",
+   "venue": "Imagination Center",
+   "venue_id": "osm:way/1562302805",
+   "venue_kind": "library",
+   "address": "1814 Parkside Drive",
+   "lat": 43.1240118,
+   "lon": -89.3168809,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "c6519b45b95b",
+   "title": "Mini Figure Painting (6 of 6 part series)",
+   "start": "2026-11-03T18:00-06:00",
+   "end": "2026-11-03T19:30-06:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Part of a 6-part mini figure painting series in the Community Room at Imagination Center Library.",
+   "url": "https://www.madisonpubliclibrary.org/sequoya",
+   "image": "",
+   "venue": "Sequoya Library",
+   "venue_id": "osm:node/1473488018",
+   "venue_kind": "library",
+   "address": "4340 Tokay Boulevard",
+   "lat": 43.0537698,
+   "lon": -89.4505289,
    "source": "ai",
    "sources": [
     "AI page reading"
@@ -5338,7 +5269,7 @@
    "price": null,
    "description": "",
    "url": "https://www.cafecoda.club/events-1/night-of-the-improviser-z76xb",
-   "image": "https://images.squarespace-cdn.com/content/v1/6914abebeed4305fd5ea6ea5/1792769425811-WVP7MC73LS1FOLHXNIG4/Old+copy+I.png",
+   "image": "https://images.squarespace-cdn.com/content/v1/6914abebeed4305fd5ea6ea5/1793393851286-90SQDUXMUNPGVDURX4SZ/Night+of+the+Improvisor+redesign.png",
    "venue": "Cafe CODA",
    "venue_id": "osm:way/385639191",
    "venue_kind": "bar",
@@ -5713,7 +5644,7 @@
    "all_day": true,
    "category": "theater",
    "price": null,
-   "description": "Listed as a related event at The Orpheum with a November 6, 2026 date. The page gives no time or details.",
+   "description": "Kick-off event listed on the Orpheum site; the page gives no time or price.",
    "url": "https://madisonorpheum.com/",
    "image": "",
    "venue": "Orpheum Theatre",
@@ -6611,7 +6542,7 @@
    "all_day": true,
    "category": "bingo",
    "price": 50.0,
-   "description": "Rare Plant Bingo at Doundrins Distilling.",
+   "description": "Rare Plant Bingo at Doundrins Distilling, listed as 11/7. The page gives no start time.",
    "url": "https://doundrinsdistilling.com/",
    "image": "",
    "venue": "Doundrins Distilling",
@@ -8146,29 +8077,6 @@
     "Isthmus"
    ],
    "link_ok": null
-  },
-  {
-   "id": "2321d8b58310",
-   "title": "Zumba",
-   "start": "2026-11-10T18:00-06:00",
-   "end": "2026-11-10T19:00-06:00",
-   "all_day": false,
-   "category": "dance",
-   "price": null,
-   "description": "Join us for a high-energy Zumba class, where you can dance, sweat, and have fun while getting fit with a great group of people! Pre-registration is not required.",
-   "url": "https://bayviewfoundation.org/event/zumba/2026-11-10/",
-   "image": "https://bayviewfoundation.org/wp-content/uploads/2024/12/health-wellness.png",
-   "venue": "Bayview Community Center",
-   "venue_id": "osm:way/1323648187",
-   "venue_kind": "community",
-   "address": "103 La Mariposa Lane",
-   "lat": 43.0663858,
-   "lon": -89.3975076,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
-   ],
-   "link_ok": true
   },
   {
    "id": "917e91fded34",
