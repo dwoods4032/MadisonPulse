@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-30T16:25:07-05:00",
+ "generated_at": "2026-10-30T16:30:31-05:00",
  "window": {
-  "from": "2026-10-30T10:23-05:00",
-  "to": "2026-11-13T16:23-06:00"
+  "from": "2026-10-30T10:29-05:00",
+  "to": "2026-11-13T16:29-06:00"
  },
- "count": 381,
+ "count": 379,
  "events": [
   {
    "id": "87f5af801fff",
@@ -4396,52 +4396,6 @@
    "address": "4893 Lacy Road",
    "lat": 43.0112712,
    "lon": -89.3736621,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "1a5bdfc2013e",
-   "title": "Mini Figure Painting (6 of 6 part series)",
-   "start": "2026-11-03T18:00-06:00",
-   "end": "2026-11-03T19:30-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Part of a 6-part mini figure painting series in the Community Room at Imagination Center Library.",
-   "url": "https://www.madisonpubliclibrary.org/locations/imagination-center",
-   "image": "",
-   "venue": "Imagination Center",
-   "venue_id": "osm:way/1562302805",
-   "venue_kind": "library",
-   "address": "1814 Parkside Drive",
-   "lat": 43.1240118,
-   "lon": -89.3168809,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "c6519b45b95b",
-   "title": "Mini Figure Painting (6 of 6 part series)",
-   "start": "2026-11-03T18:00-06:00",
-   "end": "2026-11-03T19:30-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Part of a 6-part mini figure painting series in the Community Room at Imagination Center Library.",
-   "url": "https://www.madisonpubliclibrary.org/sequoya",
-   "image": "",
-   "venue": "Sequoya Library",
-   "venue_id": "osm:node/1473488018",
-   "venue_kind": "library",
-   "address": "4340 Tokay Boulevard",
-   "lat": 43.0537698,
-   "lon": -89.4505289,
    "source": "ai",
    "sources": [
     "AI page reading"

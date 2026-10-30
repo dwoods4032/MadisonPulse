@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-10-30T16:25:07-05:00",
- "total_events": 381,
+ "generated_at": "2026-10-30T16:30:31-05:00",
+ "total_events": 379,
  "in_more_than_one_source": 26,
  "sources": {
   "AI page reading": {
-   "events": 128,
-   "unique_events": 110,
+   "events": 126,
+   "unique_events": 108,
    "overlap": {
     "Isthmus": 1,
     "Ticketmaster": 17,
     "Venue websites": 0
    },
-   "venues": 32,
+   "venues": 30,
    "unique_venues": [
     "Aftershock Classic Arcade",
     "Arts + Literature Laboratory",
@@ -24,7 +24,6 @@
     "Flight Wine & Bourbon Bar",
     "Grey Market",
     "Harmony Bar & Grill",
-    "Imagination Center",
     "Karben4 Brewing",
     "Lakeside Street Coffee House",
     "Laurel Tavern",
@@ -35,7 +34,6 @@
     "Oscar Rennebohm Library",
     "Overture Center for the Arts",
     "Reindahl Park Pavillion",
-    "Sequoya Library",
     "State Line Distillery",
     "The Kickback",
     "The Malt House",

@@ -1112,7 +1112,9 @@
    "menu_src": "restaurant homepage",
    "image": "http://static1.squarespace.com/static/6a21e4c03d712b3bcbddeddf/t/6a344fa71890a327487b2fb6/1781813159435/begonia+logo+Indigo+RGB+3000x1180.png?format=1500w",
    "alcohol_src": "menu/homepage keywords",
-   "website_ok": true
+   "website_ok": true,
+   "new_since": "2026-08-19",
+   "new_evidence": "New alcohol license approved at the 2026-08-19 ALRC meeting"
   },
   {
    "group": "american",
@@ -6151,7 +6153,9 @@
    ],
    "bar": false,
    "alcohol": null,
-   "website_ok": null
+   "website_ok": null,
+   "new_since": "2026-06-17",
+   "new_evidence": "New alcohol license approved at the 2026-06-17 ALRC meeting"
   },
   {
    "group": "asian",
@@ -7138,7 +7142,9 @@
    "hours": null,
    "bar": false,
    "alcohol": null,
-   "website_ok": null
+   "website_ok": null,
+   "new_since": "2026-05-20",
+   "new_evidence": "New alcohol license approved at the 2026-05-20 ALRC meeting"
   },
   {
    "group": "american",
@@ -7495,7 +7501,9 @@
    "bar": true,
    "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
-   "website_ok": null
+   "website_ok": null,
+   "new_since": "2026-05-20",
+   "new_evidence": "New alcohol license approved at the 2026-05-20 ALRC meeting"
   },
   {
    "group": "latin",
@@ -7545,7 +7553,9 @@
    ],
    "bar": false,
    "alcohol": null,
-   "website_ok": null
+   "website_ok": null,
+   "new_since": "2026-05-20",
+   "new_evidence": "New alcohol license approved at the 2026-05-20 ALRC meeting"
   },
   {
    "group": "american",
@@ -12712,7 +12722,9 @@
    "hours": null,
    "bar": false,
    "alcohol": null,
-   "website_ok": null
+   "website_ok": null,
+   "new_since": "2026-07-15",
+   "new_evidence": "New alcohol license approved at the 2026-07-15 ALRC meeting"
   },
   {
    "group": "latin",

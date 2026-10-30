@@ -2819,16 +2819,6 @@
   "why": "",
   "checked": "2026-10-30T12:03:44.665405-05:00"
  },
- "https://www.madisonpubliclibrary.org/locations/imagination-center": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-30T16:25:09.618488-05:00"
- },
- "https://www.madisonpubliclibrary.org/sequoya": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-30T16:25:09.618520-05:00"
- },
  "https://www.caseys.com": {
   "ok": null,
   "why": "HTTP 403 from cloudflare (the site refused the request; often a block on cloud servers)",
