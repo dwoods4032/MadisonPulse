@@ -176,6 +176,27 @@ def read_licenses(cache: dict) -> dict:
     agendas = cache.setdefault("agendas", {})
     links = agenda_links(page.text)
     cache["links_on_page"] = len(links)
+    # The page lists only the last few meetings. Once, look up each Wednesday's meeting page
+    # (…/alcohol-license-review-committee/YYYY-MM-DD) for the past 8 months to fill the window.
+    tried = set(cache.setdefault("meeting_pages_tried", []))
+    day = date.today() - timedelta(days=NEW_DAYS + 60)
+    day += timedelta(days=(2 - day.weekday()) % 7)  # first Wednesday
+    while day < date.today():
+        d = day.isoformat()
+        if d not in tried and not any(x == d for x, _ in links):
+            tried.add(d)
+            try:
+                mp = f.get(f"{ALRC_PAGE}/{d}")
+            except PermissionError:
+                break
+            if mp is not None:
+                from bs4 import BeautifulSoup
+                for a in BeautifulSoup(mp.text, "html.parser").find_all("a", href=True):
+                    if "View.ashx" in a["href"] and "M=A" in a["href"]:
+                        links.append((d, requests.compat.urljoin(ALRC_PAGE, a["href"])))
+                        break
+        day += timedelta(days=7)
+    cache["meeting_pages_tried"] = sorted(tried)
     cache["page_debug"] = {"bytes": len(page.text), "view_ashx": page.text.count("View.ashx"), "legistar": page.text.count("legistar"),
                            "final_url": page.url}
     for day, url in links:
