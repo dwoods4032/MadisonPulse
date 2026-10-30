@@ -1,26 +1,25 @@
 {
- "generated_at": "2026-10-29T12:28:09-05:00",
- "total_events": 409,
+ "generated_at": "2026-10-29T21:38:36-05:00",
+ "total_events": 413,
  "in_more_than_one_source": 23,
  "sources": {
   "AI page reading": {
-   "events": 135,
-   "unique_events": 117,
+   "events": 136,
+   "unique_events": 118,
    "overlap": {
     "Isthmus": 2,
     "Ticketmaster": 17,
     "Venue websites": 0
    },
-   "venues": 34,
+   "venues": 32,
    "unique_venues": [
     "Aftershock Classic Arcade",
     "Arts + Literature Laboratory",
     "Bartell Theatre",
     "Below Deck Concession Stand",
+    "Capital Brewery",
     "Crystal Corner Bar",
     "Delta Beer Lab",
-    "Dexter's Pub",
-    "Double Tap",
     "East Side Club",
     "Ebling Library",
     "Flight Wine & Bourbon Bar",
@@ -36,7 +35,6 @@
     "Overture Center for the Arts",
     "Reindahl Park Pavillion",
     "State Line Distillery",
-    "Sun Prairie Public Library",
     "The Kickback",
     "The Malt House",
     "Veterans Memorial Park",
@@ -44,8 +42,8 @@
    ]
   },
   "Isthmus": {
-   "events": 165,
-   "unique_events": 161,
+   "events": 164,
+   "unique_events": 160,
    "overlap": {
     "AI page reading": 2,
     "Ticketmaster": 2,
@@ -122,8 +120,8 @@
    ]
   },
   "Ticketmaster": {
-   "events": 56,
-   "unique_events": 35,
+   "events": 59,
+   "unique_events": 38,
    "overlap": {
     "AI page reading": 17,
     "Isthmus": 2,
@@ -140,8 +138,8 @@
    ]
   },
   "Venue websites": {
-   "events": 77,
-   "unique_events": 73,
+   "events": 78,
+   "unique_events": 74,
    "overlap": {
     "AI page reading": 0,
     "Isthmus": 1,

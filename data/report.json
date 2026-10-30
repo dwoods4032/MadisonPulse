@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-29T12:28:09-05:00",
+ "generated_at": "2026-10-29T21:38:36-05:00",
  "venues_checked": 237,
- "venues_with_events": 66,
- "venues_with_feeds": 86,
- "events": 409,
+ "venues_with_events": 63,
+ "venues_with_feeds": 84,
+ "events": 413,
  "filtered_out": 167,
  "venues": [
   {
@@ -13,12 +13,12 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 177,
+   "raw_events": 181,
    "error": "",
-   "calls": 13,
-   "tokens_in": 35715,
-   "tokens_out": 13803,
-   "est_cost_usd": 0.0105
+   "calls": 85,
+   "tokens_in": 127040,
+   "tokens_out": 37129,
+   "est_cost_usd": 0.0313
   },
   {
    "name": "Isthmus calendar",
@@ -28,7 +28,7 @@
     "calendar"
    ],
    "raw_events": 174,
-   "error": ""
+   "error": "used today's copy (read once a day)"
   },
   {
    "name": "Bayview Community Center",
@@ -48,7 +48,7 @@
    "feeds": [
     "ticketmaster"
    ],
-   "raw_events": 58,
+   "raw_events": 61,
    "error": ""
   },
   {
@@ -76,7 +76,7 @@
     "jsonld",
     "jsonld"
    ],
-   "raw_events": 36,
+   "raw_events": 34,
    "error": ""
   },
   {
@@ -100,7 +100,7 @@
     "ical",
     "ical"
    ],
-   "raw_events": 31,
+   "raw_events": 30,
    "error": "ical: ConnectionError: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //www.mcfarlandlibrary.org/calendar/month (Caused by NameResolutionError(\"HTTPSConnection(host='https"
   },
   {
@@ -126,7 +126,7 @@
     "jsonld",
     "jsonld"
    ],
-   "raw_events": 21,
+   "raw_events": 26,
    "error": ""
   },
   {
@@ -154,6 +154,16 @@
    "error": ""
   },
   {
+   "name": "Harmony Bar & Grill",
+   "kind": "bar",
+   "website": "https://www.harmonybarandgrill.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 13,
+   "error": ""
+  },
+  {
    "name": "Broom Street Theater",
    "kind": "venue",
    "website": "https://bstonline.org/",
@@ -168,13 +178,13 @@
    "error": ""
   },
   {
-   "name": "Harmony Bar & Grill",
+   "name": "Lazy Oaf Lounge",
    "kind": "bar",
-   "website": "https://www.harmonybarandgrill.com/",
+   "website": "https://www.lazyoaflounge.com/",
    "feeds": [
     "ai"
    ],
-   "raw_events": 12,
+   "raw_events": 11,
    "error": ""
   },
   {
@@ -208,6 +218,16 @@
    "error": ""
   },
   {
+   "name": "Arts + Literature Laboratory",
+   "kind": "venue",
+   "website": "https://artlitlab.org/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 8,
+   "error": ""
+  },
+  {
    "name": "Gamma Ray Bar",
    "kind": "bar",
    "website": "https://gammaray.bar",
@@ -218,9 +238,9 @@
    "error": ""
   },
   {
-   "name": "Grey Market",
-   "kind": "bar",
-   "website": "https://www.madisongreymarket.com",
+   "name": "Imagination Center",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
    "feeds": [
     "ai"
    ],
@@ -228,30 +248,21 @@
    "error": ""
   },
   {
-   "name": "Arts + Literature Laboratory",
-   "kind": "venue",
-   "website": "https://artlitlab.org/",
+   "name": "Monroe Street Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/monroe-street",
    "feeds": [
     "ai"
    ],
-   "raw_events": 6,
+   "raw_events": 7,
    "error": ""
   },
   {
-   "name": "Bartell Theatre",
-   "kind": "venue",
-   "website": "https://bartelltheatre.org/",
+   "name": "Delta Beer Lab",
+   "kind": "brewery",
+   "website": "https://www.delta.beer/",
    "feeds": [
-    "ai"
-   ],
-   "raw_events": 6,
-   "error": ""
-  },
-  {
-   "name": "Lazy Oaf Lounge",
-   "kind": "bar",
-   "website": "https://www.lazyoaflounge.com/",
-   "feeds": [
+    "squarespace",
     "ai"
    ],
    "raw_events": 6,
@@ -292,11 +303,10 @@
    "error": ""
   },
   {
-   "name": "Delta Beer Lab",
-   "kind": "brewery",
-   "website": "https://www.delta.beer/",
+   "name": "Bartell Theatre",
+   "kind": "venue",
+   "website": "https://bartelltheatre.org/",
    "feeds": [
-    "squarespace",
     "ai"
    ],
    "raw_events": 5,
@@ -323,9 +333,9 @@
    "error": ""
   },
   {
-   "name": "Monroe Street Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/monroe-street",
+   "name": "Monkeyshines Bar & Grill",
+   "kind": "bar",
+   "website": "http://www.monkeyshinesbarandgrill.com/",
    "feeds": [
     "ai"
    ],
@@ -355,6 +365,16 @@
    "error": ""
   },
   {
+   "name": "The Malt House",
+   "kind": "bar",
+   "website": "http://malthousetavern.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 5,
+   "error": ""
+  },
+  {
    "name": "Children's Theater of Madison",
    "kind": "venue",
    "website": "https://ctmtheater.org/",
@@ -375,9 +395,9 @@
    "error": ""
   },
   {
-   "name": "Imagination Center",
+   "name": "Ebling Library",
    "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
+   "website": "https://ebling.library.wisc.edu/",
    "feeds": [
     "ai"
    ],
@@ -406,36 +426,6 @@
    "error": ""
   },
   {
-   "name": "Pinney Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 4,
-   "error": ""
-  },
-  {
-   "name": "Sequoya Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/sequoya",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 4,
-   "error": ""
-  },
-  {
-   "name": "The Malt House",
-   "kind": "bar",
-   "website": "http://malthousetavern.com/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 4,
-   "error": ""
-  },
-  {
    "name": "Vera Court Neighborhood Center",
    "kind": "community",
    "website": "https://www.veracourt.org/",
@@ -446,6 +436,17 @@
     "jsonld"
    ],
    "raw_events": 4,
+   "error": ""
+  },
+  {
+   "name": "Centro",
+   "kind": "community",
+   "website": "https://www.micentro.org/",
+   "feeds": [
+    "squarespace",
+    "ai"
+   ],
+   "raw_events": 3,
    "error": ""
   },
   {
@@ -460,20 +461,19 @@
    "error": ""
   },
   {
-   "name": "Dexter's Pub",
-   "kind": "bar",
-   "website": "https://www.dexterspubmadison.com/",
+   "name": "East Side Club",
+   "kind": "lodge",
+   "website": "https://escmadison.com",
    "feeds": [
-    "squarespace",
     "ai"
    ],
    "raw_events": 3,
    "error": ""
   },
   {
-   "name": "East Side Club",
-   "kind": "lodge",
-   "website": "https://escmadison.com",
+   "name": "Flight Wine & Bourbon Bar",
+   "kind": "bar",
+   "website": "https://flightwi.com/",
    "feeds": [
     "ai"
    ],
@@ -523,50 +523,9 @@
    "error": ""
   },
   {
-   "name": "Centro",
-   "kind": "community",
-   "website": "https://www.micentro.org/",
-   "feeds": [
-    "squarespace",
-    "ai"
-   ],
-   "raw_events": 2,
-   "error": ""
-  },
-  {
-   "name": "Double Tap",
-   "kind": "bar",
-   "website": "https://www.doubletapbeercade.com/location/madison/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 2,
-   "error": ""
-  },
-  {
    "name": "Doundrins Distilling",
    "kind": "brewery",
    "website": "https://doundrinsdistilling.com/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 2,
-   "error": ""
-  },
-  {
-   "name": "Ebling Library",
-   "kind": "library",
-   "website": "https://ebling.library.wisc.edu/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 2,
-   "error": ""
-  },
-  {
-   "name": "Flight Wine & Bourbon Bar",
-   "kind": "bar",
-   "website": "https://flightwi.com/",
    "feeds": [
     "ai"
    ],
@@ -584,9 +543,9 @@
    "error": ""
   },
   {
-   "name": "Monkeyshines Bar & Grill",
-   "kind": "bar",
-   "website": "http://www.monkeyshinesbarandgrill.com/",
+   "name": "Lakeside Street Coffee House",
+   "kind": "cafe",
+   "website": "https://lakesidestcoffeehouse.com/",
    "feeds": [
     "ai"
    ],
@@ -666,11 +625,11 @@
    "error": ""
   },
   {
-   "name": "Goodman Community Center",
-   "kind": "community",
-   "website": "https://www.goodmancenter.org/",
+   "name": "Capital Brewery",
+   "kind": "brewery",
+   "website": "https://www.capital-brewery.com/",
    "feeds": [
-    "jsonld"
+    "ai"
    ],
    "raw_events": 1,
    "error": ""
@@ -686,9 +645,19 @@
    "error": ""
   },
   {
-   "name": "Lakeside Street Coffee House",
-   "kind": "cafe",
-   "website": "https://lakesidestcoffeehouse.com/",
+   "name": "Goodman Community Center",
+   "kind": "community",
+   "website": "https://www.goodmancenter.org/",
+   "feeds": [
+    "jsonld"
+   ],
+   "raw_events": 1,
+   "error": ""
+  },
+  {
+   "name": "Grey Market",
+   "kind": "bar",
+   "website": "https://www.madisongreymarket.com",
    "feeds": [
     "ai"
    ],
@@ -884,14 +853,6 @@
    "error": ""
   },
   {
-   "name": "Capital Brewery",
-   "kind": "brewery",
-   "website": "https://www.capital-brewery.com/",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
    "name": "Cargo Coffee",
    "kind": "cafe",
    "website": "https://www.facebook.com/cargocoffeeeast/",
@@ -996,6 +957,24 @@
    "feeds": [
     "squarespace"
    ],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
+   "name": "Dexter's Pub",
+   "kind": "bar",
+   "website": "https://www.dexterspubmadison.com/",
+   "feeds": [
+    "squarespace"
+   ],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
+   "name": "Double Tap",
+   "kind": "bar",
+   "website": "https://www.doubletapbeercade.com/location/madison/",
+   "feeds": [],
    "raw_events": 0,
    "error": ""
   },
@@ -1447,7 +1426,7 @@
   {
    "name": "Moka",
    "kind": "cafe",
-   "website": "https://mymokacoffee.com/",
+   "website": "https://www.mymokacoffee.com/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1455,7 +1434,7 @@
   {
    "name": "Moka",
    "kind": "cafe",
-   "website": "https://www.mymokacoffee.com/",
+   "website": "https://mymokacoffee.com/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1583,6 +1562,14 @@
    "error": "PermissionError: robots.txt disallows https://linktr.ee/pksuw"
   },
   {
+   "name": "Pinney Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
+   "feeds": [],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
    "name": "Plaza Bar",
    "kind": "bar",
    "website": "https://theplazatavern.com/",
@@ -1652,6 +1639,14 @@
    "name": "Rotunda Cafe",
    "kind": "cafe",
    "website": "https://www.rotundacafeatwood.com/",
+   "feeds": [],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
+   "name": "Sequoya Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/sequoya",
    "feeds": [],
    "raw_events": 0,
    "error": ""

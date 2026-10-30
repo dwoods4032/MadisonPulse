@@ -34,11 +34,6 @@
   "why": "",
   "checked": "2026-10-27T14:37:10.347398-05:00"
  },
- "https://www.sunprairiepubliclibrary.org/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:37:12.808850-05:00"
- },
  "https://www.harmonybarandgrill.com/": {
   "ok": true,
   "why": "",
@@ -59,11 +54,6 @@
   "why": "",
   "checked": "2026-10-27T14:37:15.552070-05:00"
  },
- "https://www.dexterspubmadison.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:37:15.552080-05:00"
- },
  "https://www.lazyoaflounge.com/": {
   "ok": true,
   "why": "",
@@ -83,11 +73,6 @@
   "ok": true,
   "why": "",
   "checked": "2026-10-27T14:37:15.552131-05:00"
- },
- "https://www.workingdraftbeer.com/events/2026/10/29/pints-with-purpose-for-gildas-club-wi-at-wdbc": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:37:15.552137-05:00"
  },
  "https://www.theatwoodmusichall.com/shows/2026-10-29": {
   "ok": true,
@@ -2794,11 +2779,6 @@
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
   "checked": "2026-10-27T21:16:33.148041-05:00"
  },
- "https://statestreetbrats.com/event/panthers-packers-20261029/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-28T21:28:53.509452-05:00"
- },
  "https://bstonline.org/event/dragonsocks-and-the-queen-of-the-universe-5/": {
   "ok": true,
   "why": "",
@@ -2913,5 +2893,40 @@
   "ok": true,
   "why": "",
   "checked": "2026-10-29T12:28:15.715802-05:00"
+ },
+ "https://www.capital-brewery.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-29T21:38:38.172993-05:00"
+ },
+ "https://www.cafecoda.club/events-1/playin-the-standards-a-jam-session-hosted-by-janni-hora-kkkd4": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-29T21:38:38.173020-05:00"
+ },
+ "https://www.madisoncomedy.com/event/dylan-carlino/2026-11-12/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-29T21:38:38.173029-05:00"
+ },
+ "https://www.theatwoodmusichall.com/shows/2026-11-12": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-29T21:38:38.173035-05:00"
+ },
+ "https://www.ticketmaster.com/mustard-plug-w-something-to-do-madison-wisconsin-11-12-2026/event/070064C2C8885C5D": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-10-29T21:38:39.288754-05:00"
+ },
+ "https://www.ticketmaster.com/lily-rose-madison-wisconsin-11-12-2026/event/070064D6BCDB502E": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-10-29T21:38:39.288780-05:00"
+ },
+ "https://www.ticketmaster.com/sts9-human-dream-tour-madison-wisconsin-11-12-2026/event/070064C9CBA352B0": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-10-29T21:38:39.288790-05:00"
  }
 }
