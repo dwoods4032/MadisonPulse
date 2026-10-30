@@ -56,6 +56,11 @@ jobs:
             python -m scraper.venues --if-stale 7
           fi
 
+      - name: Keep restaurants current (closed, missing, new)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python -m scraper.newplaces || echo "New-places step skipped"
+
       - name: Scrape events
         env:
           # Optional. Each source switches on when its key is added under

@@ -140,12 +140,13 @@ def main():
     write("restaurants.csv",
           ["name", "weight", "hand-picked", "cuisine group", "cuisine (as listed)", "suggested for dinner", "est. price per person",
            "fast/counter service", "serves alcohol", "alcohol info from", "area", "address", "menu link", "menu link from", "picture", "website", "hours",
-           "latitude", "longitude", "place data from", "id"],
+           "latitude", "longitude", "place data from", "new since", "new because", "id"],
           [[r["name"], weight_of(w, "restaurant", r["name"]), yn(r["name"] in picked), CUISINE.get(r.get("group"), r.get("group") or ""),
             r.get("cuisine", ""), yn(r.get("dinner")), r.get("price"), yn(r.get("fast")), yn(r.get("alcohol")), r.get("alcohol_src", ""),
             area_of(r.get("lat"), r.get("lon")), r.get("address", ""),
             r.get("menu") or ("(broken: " + r["menu_broken"] + ")" if r.get("menu_broken") else "(none found: site links a Google menu search)"), r.get("menu_src", ""), r.get("image", ""), r.get("website", ""),
-            hours_text(r.get("hours")), r.get("lat"), r.get("lon"), "OpenStreetMap", r["id"]]
+            hours_text(r.get("hours")), r.get("lat"), r.get("lon"), r.get("source", "OpenStreetMap"),
+            r.get("new_since", ""), r.get("new_evidence", ""), r["id"]]
            for r in sorted(rest, key=lambda r: r["name"].lower())])
 
     def feeds(v):
@@ -218,6 +219,17 @@ def main():
         cw.writeheader()
         cw.writerows(sorted(cals.values(), key=lambda r: (not r.get("calendar_url"), r["name"].lower())))
 
+    # what was removed as closed, and the new alcohol licenses found in city agendas
+    closed = load_json(DATA / "closed_places.json", {})
+    write("closed_removed.csv", ["name", "address", "why", "removed on", "id"],
+          [[v.get("name", ""), v.get("address", ""), v.get("why", ""), v.get("since", ""), k] for k, v in sorted(closed.items(), key=lambda kv: kv[1].get("since", ""), reverse=True)])
+    lic = load_json(DATA / "licenses.json", {})
+    lic_rows = []
+    for url, a in (lic.get("agendas") or {}).items():
+        for i in a.get("items", []):
+            lic_rows.append([a.get("date", ""), i.get("trade_name", ""), i.get("business", ""), i.get("address", ""), i.get("kind", ""), url])
+    write("new_licenses.csv", ["ALRC meeting", "trade name", "business", "address", "kind", "agenda"], sorted(lic_rows, reverse=True))
+
     (SHEETS / "README.md").write_text(README)
     try:
         write_xlsx()
@@ -252,7 +264,12 @@ def write_xlsx():
         ("Music venues: places that host music. Ones with few or no events usually post them somewhere we can't read.", False),
         ("  Fill in the yellow calendar_url with the page that lists their shows (or send the workbook back); the next scrape reads it.", False),
         ("", False),
-        ("Tabs: Dead links, Music venues, Restaurants, Bars & venues, Activities, Events, Weights.", False),
+        ("Restaurants: places marked New opened in the last 6 months (dated by a new alcohol license at the city's ALRC).", False),
+        ("  Closed (removed) lists every place taken off as closed and why; New licenses lists what the city approved, including places not open yet.", False),
+        ("Possible missing places: restaurants Overture Maps knows that our list doesn't. Type yes in the yellow column to add one", False),
+        ("  (no to dismiss it), then edit data/missing_places.csv on GitHub or send this workbook back. Only places you approve are added.", False),
+        ("", False),
+        ("Tabs: Dead links, Music venues, Restaurants, Possible missing places, Closed (removed), New licenses, Bars & venues, Activities, Events, Weights.", False),
     ]
     for i, (t, b) in enumerate(lines, 1):
         c = readme.cell(row=i, column=1, value=t)
@@ -291,6 +308,9 @@ def write_xlsx():
     add("Dead links", DATA / "link_fixes.csv", fill_cols=("new_url", "notes"))
     add("Music venues", SHEETS / "music_venues.csv", fill_cols=("calendar_url", "notes"))
     add("Restaurants", SHEETS / "restaurants.csv")
+    add("Possible missing places", DATA / "missing_places.csv", fill_cols=("add (yes/no)", "notes"))
+    add("Closed (removed)", SHEETS / "closed_removed.csv")
+    add("New licenses", SHEETS / "new_licenses.csv")
     add("Bars & venues", SHEETS / "bars_venues.csv")
     add("Activities", SHEETS / "activities.csv")
     add("Events", SHEETS / "events.csv")

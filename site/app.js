@@ -168,6 +168,8 @@ $("form").addEventListener("click", e => {
 let RESTAURANTS = [], BARS = [], ACTS = [];  // from OpenStreetMap, loaded with the events
 // Popularity weights from data/weights.csv (1 = normal, 2 = much more often, 0.5 = less, 0 = never).
 let WEIGHTS = {}, TITLE_WEIGHTS = [], VENUE_EVENTS = {}, VENUE_IMG = {};
+// "New": opened in the last 6 months, going by a dated new-license approval (see scraper/newplaces.py)
+const isNew = d => d && (Date.now() - new Date(d + "T12:00:00").getTime()) / 86400000 <= 183 ? d : "";
 const okImg = u => /^https?:\/\//.test(u || "") && !/isthmus\.com/i.test(u) ? u : "";
 const evImage = e => okImg(e.image) || okImg(VENUE_IMG[e.venue_id]);
 function parseCSV(text){
@@ -260,18 +262,18 @@ function enrichSpots(){
     // exact name, else a map place whose name starts the same way ("Ian's Pizza on State" = "Ian's Pizza")
     const m = byName[key] || Object.entries(byName).find(([k]) => k.length >= 6 && (key.startsWith(k + " ") || k.startsWith(key + " ")))?.[1];
     if (m){ if (s.lat == null){ s.lat = m.lat; s.lon = m.lon; } if (!s.url && m.website) s.url = m.website; s.mapId = m.id; s.base = m.name;
-      if (!s.menu && m.menu) s.menu = m.menu; if (!s.img && m.image) s.img = m.image; }
+      if (!s.menu && m.menu) s.menu = m.menu; if (!s.img && m.image) s.img = m.image; if (m.new_since) s.newSince = isNew(m.new_since); }
   }
 }
 const GROUP_LABEL = Object.fromEntries(CUISINES);
 function restaurantStop(r, role){
   return {n:r.name, k:role, lat:r.lat, lon:r.lon, p:r.price, v:r.vibes || [], tav:r.bar, hrs:r.hours, osm:true, grp:r.group, notDinner:r.dinner === false, alc:r.alcohol,
     w:r.address || "", d:(r.cuisine ? r.cuisine.replace(/\b\w/g, c => c.toUpperCase()) : (r.fast ? "Quick bite" : "Restaurant")), url:r.website || "", mapId:r.id,
-    menu:r.menu || "", menuDown:!!r.menu_broken, img:r.image || ""};
+    menu:r.menu || "", menuDown:!!r.menu_broken, img:r.image || "", newSince:isNew(r.new_since)};
 }
 function barStop(v){
   return {n:v.name, k:"bar", lat:v.lat, lon:v.lon, p:v.kind === "brewery" ? 14 : 13, v:v.kind === "brewery" ? ["chill"] : [], osm:true,
-    w:v.address || "", d:v.kind === "brewery" ? "Brewery taproom" : "Neighborhood bar", url:v.website || "", mapId:v.id, img:v.image || ""};
+    w:v.address || "", d:v.kind === "brewery" ? "Brewery taproom" : "Neighborhood bar", url:v.website || "", mapId:v.id, img:v.image || "", newSince:isNew(v.new_since)};
 }
 // Drop-in events (karaoke, trivia, watch parties...) don't need you there at the first minute.
 const DROPIN_CATS = new Set(["karaoke","trivia","bingo","open_mic","sports","dance"]);
@@ -641,7 +643,7 @@ function renderPlan(){
     const li = document.createElement("li"); li.className = "stop"; li.style.animationDelay = (idx*60)+"ms";
     const meal = s.k === "dinner" ? (t < 11*60 ? "Brunch" : t < 15*60 ? "Lunch" : "Dinner") : KIND[s.k];
     const label = s.act ? s.label + " · Anytime" : s.live ? (s.id === state.pin ? "Your pick · " : "") + (CAT_LABEL[s.cat] || "Event") + (s.weekly ? " · Weekly" : "")
-      : meal + (s.c && state.drinks === "cocktails" ? " · Cocktails" : "");
+      : meal + (s.c && state.drinks === "cocktails" ? " · Cocktails" : "") + (s.newSince ? " · New" : "");
     const dist = !s.live && !s.act && anchor && anchor !== s && anchor.lat != null ? miles(anchor, s) : null;
     const near = dist != null ? '<span class="dist">'+(dist < 0.1 ? "Next door to " : fmtMi(dist)+" from ")+esc(anchor.venue || anchor.n)+'</span>' : "";
     const food = !s.live && !s.act && (s.k === "dinner" || s.k === "late" || s.k === "dessert");
@@ -924,7 +926,7 @@ function reelHTML(r){
   return '<div class="reel'+(r.held ? " held" : "")+(r.bonus ? " bonus" : "")+'" data-i="'+r.i+'"><div class="reel-lbl"><div class="lbl-win"><div class="lbl-strip">'+
     (r.held ? [r.labs[r.labs.length-1]] : r.labs).map(l => '<div class="lbl-it">'+esc(l)+'</div>').join("")+'</div></div>'+
     '<small class="reel-time">'+(r.held ? fmtT(r.t) : "·  ·  ·")+'</small></div>'+
-    '<div class="reel-win"><div class="reel-strip">'+(r.held ? [r.s] : r.strip).map(x => '<div class="reel-it"><b>'+esc(x.n)+'</b><small><span class="reel-p">~$'+cost(x)+'</span> '+esc(shortD(x))+'</small></div>').join("")+'</div></div>'+
+    '<div class="reel-win"><div class="reel-strip">'+(r.held ? [r.s] : r.strip).map(x => '<div class="reel-it"><b>'+(x.newSince ? '<span class="reel-new">New</span> ' : '')+esc(x.n)+'</b><small><span class="reel-p">~$'+cost(x)+'</span> '+esc(shortD(x))+'</small></div>').join("")+'</div></div>'+
     '<button type="button" class="hold" data-n="'+esc(r.s.n)+'" aria-pressed="'+r.held+'">'+(r.held ? "Held" : "Hold")+'</button></div>';
 }
 // Spin one reel (name and label together) and call land() when it stops.
