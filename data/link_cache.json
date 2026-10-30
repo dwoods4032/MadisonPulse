@@ -64,20 +64,10 @@
   "why": "",
   "checked": "2026-10-27T14:37:15.552102-05:00"
  },
- "https://www.roxxybar.com/location/madison/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:37:15.552128-05:00"
- },
  "https://artlitlab.org/": {
   "ok": true,
   "why": "",
   "checked": "2026-10-27T14:37:15.552131-05:00"
- },
- "https://www.theatwoodmusichall.com/shows/2026-10-29": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:37:15.552141-05:00"
  },
  "https://www.statelinedistillery.com/": {
   "ok": true,
@@ -88,41 +78,6 @@
   "ok": true,
   "why": "",
   "checked": "2026-10-27T14:37:15.552150-05:00"
- },
- "https://barrymorelive.com/event/warren-millers-days-off/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:37:15.552157-05:00"
- },
- "https://www.cafecoda.club/events-1/thaddeus-tukes-ln4kd": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:37:15.552159-05:00"
- },
- "https://www.madisoncomedy.com/event/malikelassal/2026-10-29/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:37:15.552162-05:00"
- },
- "https://www.gibs.bar/event-calendar/2026/10/29/live-music-possum-gator": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:37:15.552165-05:00"
- },
- "https://www.ticketmaster.com/the-remix-dj-battle-get-out-madison-wisconsin-10-29-2026/event/07006538C65A6696": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-10-27T14:37:15.552168-05:00"
- },
- "https://www.ticketmaster.com/phillip-phillips-lets-go-far-tour-madison-wisconsin-10-29-2026/event/070064D2A5615B28": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-10-27T14:37:15.805312-05:00"
- },
- "https://www.mymonona.com/1395/Below-Deck-Concession-Stand": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:37:15.805346-05:00"
  },
  "http://www.thelaureltavern.com": {
   "ok": true,
@@ -2669,16 +2624,6 @@
   "why": "",
   "checked": "2026-10-27T17:48:57.964604-05:00"
  },
- "https://thelonegirl.com/event/murder-mystery-2/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T17:49:04.632383-05:00"
- },
- "https://onesocialmadison.com/event/trivia-night-5/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T17:49:04.632409-05:00"
- },
  "https://thelonegirl.com/event/murder-mystery-2-2/": {
   "ok": true,
   "why": "",
@@ -2759,11 +2704,6 @@
   "why": "",
   "checked": "2026-10-27T17:49:52.227241-05:00"
  },
- "https://thebrassringmadison.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T18:06:33.847877-05:00"
- },
  "https://www.cafecoda.club/events-1/reggae-night-dj-sneaky-gator-8gnpe": {
   "ok": true,
   "why": "",
@@ -2778,11 +2718,6 @@
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
   "checked": "2026-10-27T21:16:33.148041-05:00"
- },
- "https://bstonline.org/event/dragonsocks-and-the-queen-of-the-universe-5/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-28T21:28:54.866154-05:00"
  },
  "https://www.ticketmaster.com/event/Z7r9jZ1AA7eos": {
   "ok": null,
@@ -2824,21 +2759,6 @@
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
   "checked": "2026-10-28T21:28:57.218655-05:00"
  },
- "https://communicationmadison.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-29T12:28:09.930893-05:00"
- },
- "https://www.arthouse360.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-29T12:28:09.930920-05:00"
- },
- "https://barrymorelive.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-29T12:28:09.930928-05:00"
- },
  "https://cafecoda.club": {
   "ok": true,
   "why": "",
@@ -2858,11 +2778,6 @@
   "ok": true,
   "why": "",
   "checked": "2026-10-29T12:28:12.148065-05:00"
- },
- "https://statestreetbrats.com/event/rays-guardians-brewers-20261030/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-29T12:28:12.148090-05:00"
  },
  "https://ctmtheater.org/event/annie-5/": {
   "ok": true,
@@ -2928,5 +2843,20 @@
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
   "checked": "2026-10-29T21:38:39.288790-05:00"
+ },
+ "https://www.madisoncomedy.com/event/malikelassal/2026-10-30/1/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-30T12:03:43.865311-05:00"
+ },
+ "https://statestreetbrats.com/event/wisconsin-usc-20261030/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-30T12:03:43.865343-05:00"
+ },
+ "https://bstonline.org/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-30T12:03:44.665405-05:00"
  }
 }

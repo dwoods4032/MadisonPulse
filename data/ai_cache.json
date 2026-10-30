@@ -508,26 +508,17 @@
   ]
  },
  "https://high-noon.com/calendar/": {
-  "hash": "adddfbaa9455b2d49d7a417babffd5d84bbe85aa",
-  "asked": "2026-10-28T21:27:40-05:00",
-  "on": "2026-10-28",
+  "hash": "939bd1d46a41869335bd0313ca4cf63dc9df434a",
+  "asked": "2026-10-30T12:01:18-05:00",
+  "on": "2026-10-30",
   "events": [
-   {
-    "title": "The Remix DJ Battle: Get Out The Vote Rally",
-    "date": "2026-10-29",
-    "start": "19:30",
-    "end": null,
-    "price": null,
-    "description": "Urban League of Greater Madison Young Professionals DJ battle; doors 6:30 pm",
-    "category": "music"
-   },
    {
     "title": "Ska-lloween",
     "date": "2026-10-30",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "With One Beer Please, Lost Island Society, and Meskales; doors 7:00 pm",
+    "description": "FPC Live presents, with One Beer Please, Lost Island Society, and Meskales. Doors 7:00 pm.",
     "category": "music"
    },
    {
@@ -536,7 +527,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "With BAMM and Wild Violets; doors 7:00 pm",
+    "description": "FPC Live presents, with BAMM (Southern rock, funk & high-energy improv) and Wild Violets (all female R&B and pop). Doors 7:00 pm.",
     "category": "music"
    },
    {
@@ -545,7 +536,7 @@
     "start": "17:00",
     "end": null,
     "price": null,
-    "description": "Tribute acts: The Marilyns as The Misfits, Iron Metal Jackson as Metallica, You First as Me First And The Gimme Gimmes; doors 4:00 pm",
+    "description": "FPC Live presents tribute acts: The Marilyns as The Misfits, Iron Metal Jackson as Metallica, and You First as Me First and the Gimme Gimmes. Doors 4:00 pm.",
     "category": "music"
    },
    {
@@ -554,7 +545,7 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "With Runner and Breakup Shoes; doors 6:30 pm",
+    "description": "FPC Live presents, with Runner and Breakup Shoes. Doors 6:30 pm.",
     "category": "music"
    },
    {
@@ -563,7 +554,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "With Reysha Rami; doors 7:00 pm",
+    "description": "FPC Live presents, with Reysha Rami. Doors 7:00 pm.",
     "category": "music"
    },
    {
@@ -572,7 +563,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "With The Braymores; doors 7:00 pm",
+    "description": "FPC Live presents, with The Braymores. Doors 7:00 pm.",
     "category": "music"
    },
    {
@@ -581,7 +572,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "With Genevieve Heyward; doors 7:00 pm",
+    "description": "FPC Live presents, with Genevieve Heyward. Doors 7:00 pm.",
     "category": "music"
    },
    {
@@ -590,7 +581,7 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "With Tenmonthsummer, Barely Civil, Los Kausas, Ourvanity, The Up & Up, The Brash Menagerie, and Irish Goodbyes; doors 6:00 pm",
+    "description": "FPC Live presents, with Tenmonthsummer, Barely Civil, Los Kausas, Ourvanity, The Up & Up, The Brash Menagerie, and Irish Goodbyes. Doors 6:00 pm.",
     "category": "music"
    },
    {
@@ -599,7 +590,7 @@
     "start": "12:00",
     "end": null,
     "price": 20,
-    "description": "With Low Czars; suggested $20 donation at the door; doors 11:00 am",
+    "description": "With Low Czars. Suggested $20 donation at the door. Doors 11:00 am.",
     "category": "music"
    },
    {
@@ -608,7 +599,7 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "With Texas Toast Chainsaw Massacre; doors 6:30 pm",
+    "description": "FPC Live presents, with Texas Toast Chainsaw Massacre. Doors 6:30 pm.",
     "category": "music"
    },
    {
@@ -617,7 +608,7 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "The Moth presents a storytelling slam; doors 6:30 pm",
+    "description": "The Moth presents a storytelling slam, theme 'Home for the Holidays'. Doors 6:30 pm.",
     "category": "other"
    },
    {
@@ -626,7 +617,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "With Gardener; doors 7:00 pm",
+    "description": "FPC Live presents, with Gardener. Doors 7:00 pm.",
     "category": "music"
    },
    {
@@ -635,7 +626,25 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "With Free Dirt; doors 7:00 pm",
+    "description": "FPC Live presents, with Free Dirt. Doors 7:00 pm.",
+    "category": "music"
+   },
+   {
+    "title": "Mustard Plug",
+    "date": "2026-11-12",
+    "start": "20:00",
+    "end": null,
+    "price": null,
+    "description": "FPC Live presents, with Something To Do and Deven Kay & The Solutions. Doors 7:00 pm.",
+    "category": "music"
+   },
+   {
+    "title": "Hottt Probs, Heet Deth & Sex Scenes",
+    "date": "2026-11-13",
+    "start": "19:00",
+    "end": null,
+    "price": null,
+    "description": "FPC Live presents. Doors 6:00 pm.",
     "category": "music"
    }
   ]
@@ -764,17 +773,17 @@
   ]
  },
  "https://high-noon.com/event/fruition/": {
-  "hash": "3311d7d4f802211ab1a1d848f5aa587dbd1a3940",
-  "asked": "2026-10-28T12:10:44-05:00",
-  "on": "2026-10-28",
+  "hash": "bbde9730cbfefa494e9780e14e0426f516a8201f",
+  "asked": "2026-10-30T12:01:22-05:00",
+  "on": "2026-10-30",
   "events": [
    {
-    "title": "Fruition: Something More: The Final Tour (with Gardener)",
+    "title": "Fruition: Something More: The Final Tour, with Gardener",
     "date": "2026-11-10",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Americana band Fruition's final tour in support of the album Something More. Doors 7:00 pm, show 8:00 pm. Ages 18+ (minors with parent or guardian).",
+    "description": "Americana band Fruition's final tour in support of the album Something More, with Gardener. Doors 7:00 pm. Ages 18+ (minors with parent or guardian).",
     "category": "music"
    },
    {
@@ -1333,9 +1342,9 @@
   ]
  },
  "https://merciescoffeewi.com/": {
-  "hash": "20546f4ae4e5fe88a89332fd9c5a1f691c27c098",
-  "asked": "2026-10-29T21:37:40-05:00",
-  "on": "2026-10-29",
+  "hash": "2147f89e56a0f1d05fce776add043f9c03609e40",
+  "asked": "2026-10-30T12:01:43-05:00",
+  "on": "2026-10-30",
   "events": []
  },
  "https://motherfools.com/event/20261106/mad-city-story-slam-rebellion": {
@@ -1480,35 +1489,17 @@
   "events": []
  },
  "https://www.cityofmadison.com/parks/events": {
-  "hash": "d6dc4a4234e7f64a462c1bbab03f3221de0c94a6",
-  "asked": "2026-10-29T12:27:06-05:00",
-  "on": "2026-10-29",
+  "hash": "98029ce5c86cbc59b873ec280a94fac275f3cae0",
+  "asked": "2026-10-30T12:02:11-05:00",
+  "on": "2026-10-30",
   "events": [
-   {
-    "title": "EHS Feeder Program Fall Academy",
-    "date": "2026-10-29",
-    "start": "17:00",
-    "end": "18:15",
-    "price": null,
-    "description": "Warner Park Community Recreation Center, 1625 Northport Drive",
-    "category": "other"
-   },
-   {
-    "title": "EHS Feeder Program BDL Open Tryouts",
-    "date": "2026-10-29",
-    "start": "17:00",
-    "end": "18:15",
-    "price": null,
-    "description": "Warner Park Community Recreation Center, 1625 Northport Drive",
-    "category": "sports"
-   },
    {
     "title": "Warner Family Fun Night | Halloween Celebration",
     "date": "2026-10-30",
     "start": "17:00",
     "end": "19:30",
     "price": null,
-    "description": "Warner Park Community Recreation Center, 1625 Northport Drive",
+    "description": "Halloween celebration at Warner Park Community Recreation Center, 1625 Northport Drive.",
     "category": "other"
    },
    {
@@ -1517,7 +1508,7 @@
     "start": "13:30",
     "end": "15:00",
     "price": null,
-    "description": "Meet at the Cherokee Marsh North Unit parking lot, 6098 North Sherman Avenue",
+    "description": "Guided bird and nature outing; meet at the Cherokee Marsh North Unit parking lot, 6098 North Sherman Avenue.",
     "category": "other"
    },
    {
@@ -1526,7 +1517,7 @@
     "start": "17:00",
     "end": "19:00",
     "price": null,
-    "description": "Harmony Apartments Community Room, 116 Milky Way",
+    "description": "Parks Alive Fall program at Harmony Apartments Community Room, 116 Milky Way.",
     "category": "other"
    },
    {
@@ -1535,7 +1526,7 @@
     "start": "17:00",
     "end": "19:00",
     "price": null,
-    "description": "Warner Park Community Recreation Center, 1625 Northport Dr.",
+    "description": "Parks Alive Fall program at Warner Park Community Recreation Center, 1625 Northport Dr.",
     "category": "other"
    },
    {
@@ -1544,7 +1535,7 @@
     "start": "17:00",
     "end": "19:00",
     "price": null,
-    "description": "Revival Ridge Community Room, 2313 Allied Dr.",
+    "description": "Parks Alive Fall program at Revival Ridge Community Room, 2313 Allied Dr.",
     "category": "other"
    },
    {
@@ -1553,7 +1544,7 @@
     "start": "18:00",
     "end": "19:30",
     "price": null,
-    "description": "Virtual event",
+    "description": "Virtual public meeting about Odana Hills Golf Course and Park.",
     "category": "other"
    },
    {
@@ -1562,7 +1553,7 @@
     "start": "13:30",
     "end": "15:00",
     "price": null,
-    "description": "Meet at Tenney Park beach parking lot, 1330 Sherman Ave.",
+    "description": "Guided bird and nature outing; meet at the Tenney Park beach parking lot, 1330 Sherman Ave.",
     "category": "other"
    },
    {
@@ -1571,7 +1562,16 @@
     "start": "13:30",
     "end": "14:30",
     "price": null,
-    "description": "Turville Point Conservation Park, 1202 Olin Turville Court",
+    "description": "Guided bird and nature outing at Turville Point Conservation Park, 1202 Olin Turville Court.",
+    "category": "other"
+   },
+   {
+    "title": "Parks Alive Fall | Elver",
+    "date": "2026-11-09",
+    "start": "17:00",
+    "end": "19:00",
+    "price": null,
+    "description": "Parks Alive Fall program at Elver Park Shelter, 1250 McKenna Blvd.",
     "category": "other"
    }
   ]
@@ -1583,9 +1583,9 @@
   "events": []
  },
  "https://www.madisonpubliclibrary.org/spaces/events": {
-  "hash": "c052003123d179536fa44c46bd4adad1f4f55f36",
-  "asked": "2026-10-29T21:38:15-05:00",
-  "on": "2026-10-29",
+  "hash": "285fbe699e4d4e8dfd230081ae2e3930963117db",
+  "asked": "2026-10-30T12:02:16-05:00",
+  "on": "2026-10-30",
   "events": []
  },
  "https://ebling.library.wisc.edu/ebling-library-classes-events/": {
@@ -1632,32 +1632,23 @@
   ]
  },
  "https://www.library.wisc.edu/music/": {
-  "hash": "c35ff73c89af79d05fd2b3791d5949c3798b653f",
-  "asked": "2026-10-29T21:38:11-05:00",
-  "on": "2026-10-29",
+  "hash": "2a37a6a51a7a050a9c2d16e67654deeb167fd3be",
+  "asked": "2026-10-30T12:02:12-05:00",
+  "on": "2026-10-30",
   "events": []
  },
  "https://www.sunprairiepubliclibrary.org/home-delivery-service": {
-  "hash": "b896e62b2c9073d39238974efe3ad2999bb57ad0",
-  "asked": "2026-10-29T21:38:18-05:00",
-  "on": "2026-10-29",
+  "hash": "d58b79e86c8badc917d84d721d3342b10fc43411",
+  "asked": "2026-10-30T12:02:14-05:00",
+  "on": "2026-10-30",
   "events": [
-   {
-    "title": "Teen Librarian Roundtable",
-    "date": "2026-10-30",
-    "start": "09:00",
-    "end": "11:00",
-    "price": null,
-    "description": "Teen Librarian Roundtable at Sun Prairie Public Library.",
-    "category": "other"
-   },
    {
     "title": "Dream Bus Mobile Library @ Fun Friday Stops",
     "date": "2026-10-30",
     "start": "14:45",
     "end": "17:00",
     "price": null,
-    "description": "Dream Bus mobile library stop at Fun Friday locations. Open to families, children 0-5, teens and adults.",
+    "description": "Dream Bus mobile library at Fun Friday stops. Ages: family, children 0-5, teens, adults.",
     "category": "other"
    },
    {
@@ -1666,7 +1657,7 @@
     "start": "10:00",
     "end": "10:30",
     "price": null,
-    "description": "Lapsit storytime for children ages 0-5 and their families.",
+    "description": "Lapsit storytime for family and children ages 0-5.",
     "category": "other"
    },
    {
@@ -1675,7 +1666,7 @@
     "start": "11:15",
     "end": "11:45",
     "price": null,
-    "description": "Second lapsit storytime session for children ages 0-5 and their families.",
+    "description": "Lapsit storytime for family and children ages 0-5.",
     "category": "other"
    },
    {
@@ -1684,7 +1675,16 @@
     "start": "07:00",
     "end": "20:00",
     "price": null,
-    "description": "General Election listed on the library events calendar.",
+    "description": "General Election listed in library events.",
+    "category": "other"
+   },
+   {
+    "title": "Little Kid Storytime",
+    "date": "2026-11-03",
+    "start": "10:00",
+    "end": "10:30",
+    "price": null,
+    "description": "Storytime for family and children ages 0-5.",
     "category": "other"
    }
   ]
@@ -1755,9 +1755,9 @@
   ]
  },
  "https://www.madisonpubliclibrary.org/spaces/events/search": {
-  "hash": "856bb9a670493e95b9a1de297aaa2176ce20d5bd",
-  "asked": "2026-10-29T21:38:20-05:00",
-  "on": "2026-10-29",
+  "hash": "1acb296b1e3049b9e3dc5cfddf44a20675d19115",
+  "asked": "2026-10-30T12:02:30-05:00",
+  "on": "2026-10-30",
   "events": []
  },
  "https://artlitlab.org/calendar": {
@@ -1795,9 +1795,9 @@
   ]
  },
  "https://bartelltheatre.org/": {
-  "hash": "a66eb8264a41ba8282dadf8223867b017e0605c2",
-  "asked": "2026-10-29T21:38:29-05:00",
-  "on": "2026-10-29",
+  "hash": "efa1f7cbb7bfc1c708ca54f2894a26bdb462d5f1",
+  "asked": "2026-10-30T12:02:25-05:00",
+  "on": "2026-10-30",
   "events": [
    {
     "title": "The Moors",
@@ -1805,11 +1805,11 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "Dark comedy about two sisters and a dog on the English moors, with a hapless governess and a moor-hen.",
+    "description": "Dark comedy about two sisters and a dog on the bleak English moors, with a hapless governess and a moor-hen.",
     "category": "theater"
    },
    {
-    "title": "Film: Re-Animator",
+    "title": "Re-Animator",
     "date": "2026-10-30",
     "start": "20:00",
     "end": null,
@@ -1818,22 +1818,13 @@
     "category": "film"
    },
    {
-    "title": "Film: Hello Mary Lou: Prom Night II",
+    "title": "Hello Mary Lou: Prom Night II",
     "date": "2026-10-30",
     "start": "21:30",
     "end": null,
     "price": null,
     "description": "Film screening.",
     "category": "film"
-   },
-   {
-    "title": "Romeo and Juliet",
-    "date": "2026-11-06",
-    "start": "19:30",
-    "end": null,
-    "price": null,
-    "description": "Stage production of Romeo and Juliet.",
-    "category": "theater"
    },
    {
     "title": "First Audition: A Valentine's Affair 2027",
@@ -1843,6 +1834,15 @@
     "price": null,
     "description": "First audition for A Valentine's Affair 2027.",
     "category": "other"
+   },
+   {
+    "title": "Romeo and Juliet",
+    "date": "2026-11-06",
+    "start": "19:30",
+    "end": null,
+    "price": null,
+    "description": "Theatre production.",
+    "category": "theater"
    }
   ]
  },
@@ -1859,9 +1859,9 @@
   "events": []
  },
  "https://madisonorpheum.com/calendar/": {
-  "hash": "f9ddbc85e614b5817c369f4bd2fe9fbbcf10b1dc",
-  "asked": "2026-10-29T12:27:22-05:00",
-  "on": "2026-10-29",
+  "hash": "d0abf2ab5903faaae93a4e412f0a943fdb7dacae",
+  "asked": "2026-10-30T12:02:28-05:00",
+  "on": "2026-10-30",
   "events": [
    {
     "title": "Scott Bradlee's Postmodern Jukebox",
@@ -1869,7 +1869,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents Scott Bradlee's Postmodern Jukebox. Doors 7:00 pm.",
+    "description": "FPC Live presents Postmodern Jukebox. Doors 7:00 pm.",
     "category": "music"
    },
    {
@@ -1878,7 +1878,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Wisconsin Games Alliance presents MDEV: The Kick-Off Event. Doors 7:00 pm.",
+    "description": "Wisconsin Games Alliance presents MDEV kick-off event. Doors 7:00 pm.",
     "category": "other"
    },
    {
@@ -1905,7 +1905,7 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "FPC Live presents Dr. Neil deGrasse Tyson. Doors 6:30 pm. Listed as sold out.",
+    "description": "FPC Live presents Dr. Neil deGrasse Tyson. Doors 6:30 pm. Sold out.",
     "category": "other"
    }
   ]
@@ -2000,9 +2000,9 @@
   "events": []
  },
  "https://madisonorpheum.com/event/kip-moore/": {
-  "hash": "986186b2736205ecad7cea29f0894596cf7a6785",
-  "asked": "2026-10-27T11:23:30-05:00",
-  "on": "2026-10-27",
+  "hash": "6ebde890a7dabe9ac58f7c33f6cfe890661e4dcc",
+  "asked": "2026-10-30T12:02:32-05:00",
+  "on": "2026-10-30",
   "events": [
    {
     "title": "MDEV: The Kick-Off Event",
@@ -2010,7 +2010,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Kick-off event listed on the Orpheum Theatre related-events section; no time or price stated.",
+    "description": "Listed as a related event at The Orpheum with a November 6, 2026 date. The page gives no time or details.",
     "category": "other"
    }
   ]
@@ -2025,6 +2025,18 @@
   "hash": "742ae806208f3fbd102230d6191363a762510ac7",
   "asked": "2026-10-29T21:38:14-05:00",
   "on": "2026-10-29",
+  "events": []
+ },
+ "https://www.waunakee.gov/calendar.aspx?CID=25": {
+  "hash": "10b0b775a70da8b692bb389801268857e4364d44",
+  "asked": "2026-10-30T12:02:07-05:00",
+  "on": "2026-10-30",
+  "events": []
+ },
+ "https://www.waunakee.gov/Calendar.aspx?EID=6370": {
+  "hash": "01a41ec047c76e13907dc6c54adb6156740c4f39",
+  "asked": "2026-10-30T12:02:09-05:00",
+  "on": "2026-10-30",
   "events": []
  }
 }

@@ -415,5 +415,120 @@
   "address": "1919 Alliant Energy Way",
   "city": "Madison"
  },
- "overture center-james watrous gallery of the wisconsin academy": null
+ "overture center-james watrous gallery of the wisconsin academy": null,
+ "first unitarian society": {
+  "lat": 43.075731,
+  "lon": -89.434753,
+  "address": "900 University Bay Drive",
+  "city": "Madison"
+ },
+ "chrysalis inc.": null,
+ "wyso center for music": {
+  "lat": 43.085587,
+  "lon": -89.369441,
+  "address": "1118 East Washington Avenue",
+  "city": "Madison"
+ },
+ "farley center for peace, justice & sustainability, verona": null,
+ "ruth's chris steak house, middleton": {
+  "lat": 43.097516,
+  "lon": -89.523,
+  "address": "Deming Way",
+  "city": "Middleton"
+ },
+ "warner park community recreation center": {
+  "lat": 43.131711,
+  "lon": -89.369465,
+  "address": "Northport Drive",
+  "city": "Madison"
+ },
+ "fireman's park, verona": {
+  "lat": 42.978748,
+  "lon": -89.538465,
+  "address": "",
+  "city": "Verona"
+ },
+ "rogues gallery": {
+  "lat": 43.046052,
+  "lon": -87.91193,
+  "address": "134 East Juneau Avenue",
+  "city": "Milwaukee"
+ },
+ "skip's after market": null,
+ "fairway lounge, fitchburg": {
+  "lat": 43.014693,
+  "lon": -89.430307,
+  "address": "2949 Triverton Pike Drive",
+  "city": "Fitchburg"
+ },
+ "louisianne's, etc., middleton": null,
+ "cambridge winery, cambridge": null,
+ "henry vilas zoo": {
+  "lat": 43.059821,
+  "lon": -89.410476,
+  "address": "702 South Randall Avenue",
+  "city": "Madison"
+ },
+ "the boneyard": null,
+ "christ presbyterian church": {
+  "lat": 43.086436,
+  "lon": -89.376612,
+  "address": "944 East Gorham Street",
+  "city": "Madison"
+ },
+ "uw lakeshore nature preserve": null,
+ "one social food hall": {
+  "lat": 43.07378,
+  "lon": -89.378904,
+  "address": "123 East Wilson Street",
+  "city": "Madison"
+ },
+ "breese stevens field": {
+  "lat": 43.083353,
+  "lon": -89.373138,
+  "address": "North Paterson Street",
+  "city": "Madison"
+ },
+ "cargo coffee-east washington": {
+  "lat": 43.080912,
+  "lon": -89.375833,
+  "address": "750 East Washington Avenue",
+  "city": "Madison"
+ },
+ "rock n wool winery, poynette": null,
+ "imaginary tea, waunakee": null,
+ "overture center-capitol theater": null,
+ "uw mcclimon track/soccer complex": null,
+ "uw memorial union - der rathskeller": null,
+ "oregon youth center, oregon": null,
+ "atlas improv company": null,
+ "uw memorial union-play circle": null,
+ "overture center-overture hall": null,
+ "salvatore's tomato pies, monona": {
+  "lat": 43.059845,
+  "lon": -89.326479,
+  "address": "5507 Monona Drive",
+  "city": "Monona"
+ },
+ "martin street theatre": null,
+ "come back in": null,
+ "mge innovation center": null,
+ "cannery square, sun prairie": {
+  "lat": 43.18163,
+  "lon": -89.21052,
+  "address": "",
+  "city": "Sun Prairie"
+ },
+ "marriott-south madison": {
+  "lat": 43.047528,
+  "lon": -89.373152,
+  "address": "706 John Nolen Drive",
+  "city": "Madison"
+ },
+ "pheasant branch conservancy, middleton": {
+  "lat": 43.118368,
+  "lon": -89.486415,
+  "address": "",
+  "city": "Middleton"
+ }
 }

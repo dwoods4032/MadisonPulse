@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-29T21:38:36-05:00",
+ "generated_at": "2026-10-30T12:03:41-05:00",
  "venues_checked": 237,
  "venues_with_events": 63,
  "venues_with_feeds": 84,
- "events": 413,
- "filtered_out": 167,
+ "events": 385,
+ "filtered_out": 170,
  "venues": [
   {
    "name": "AI page reading",
@@ -13,12 +13,12 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 181,
+   "raw_events": 175,
    "error": "",
-   "calls": 85,
-   "tokens_in": 127040,
-   "tokens_out": 37129,
-   "est_cost_usd": 0.0313
+   "calls": 18,
+   "tokens_in": 46948,
+   "tokens_out": 19931,
+   "est_cost_usd": 0.0147
   },
   {
    "name": "Isthmus calendar",
@@ -27,8 +27,8 @@
    "feeds": [
     "calendar"
    ],
-   "raw_events": 174,
-   "error": "used today's copy (read once a day)"
+   "raw_events": 158,
+   "error": ""
   },
   {
    "name": "Bayview Community Center",
@@ -38,7 +38,7 @@
     "tribe",
     "jsonld"
    ],
-   "raw_events": 82,
+   "raw_events": 81,
    "error": ""
   },
   {
@@ -48,7 +48,7 @@
    "feeds": [
     "ticketmaster"
    ],
-   "raw_events": 61,
+   "raw_events": 59,
    "error": ""
   },
   {
@@ -62,7 +62,7 @@
     "squarespace",
     "jsonld"
    ],
-   "raw_events": 44,
+   "raw_events": 43,
    "error": ""
   },
   {
@@ -80,6 +80,17 @@
    "error": ""
   },
   {
+   "name": "E.D. Locke Public Library",
+   "kind": "library",
+   "website": "https://www.mcfarlandlibrary.org/home",
+   "feeds": [
+    "ical",
+    "ical"
+   ],
+   "raw_events": 31,
+   "error": "ical: ConnectionError: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //www.mcfarlandlibrary.org/calendar/month (Caused by NameResolutionError(\"HTTPSConnection(host='https"
+  },
+  {
    "name": "Cafe CODA",
    "kind": "bar",
    "website": "https://cafecoda.club",
@@ -89,19 +100,8 @@
     "jsonld",
     "jsonld"
    ],
-   "raw_events": 31,
-   "error": ""
-  },
-  {
-   "name": "E.D. Locke Public Library",
-   "kind": "library",
-   "website": "https://www.mcfarlandlibrary.org/home",
-   "feeds": [
-    "ical",
-    "ical"
-   ],
    "raw_events": 30,
-   "error": "ical: ConnectionError: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //www.mcfarlandlibrary.org/calendar/month (Caused by NameResolutionError(\"HTTPSConnection(host='https"
+   "error": ""
   },
   {
    "name": "Comedy Club on State",
@@ -126,7 +126,7 @@
     "jsonld",
     "jsonld"
    ],
-   "raw_events": 26,
+   "raw_events": 25,
    "error": ""
   },
   {
@@ -184,7 +184,7 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 11,
+   "raw_events": 9,
    "error": ""
   },
   {
@@ -194,17 +194,7 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 10,
-   "error": ""
-  },
-  {
-   "name": "Veterans Memorial Park",
-   "kind": "veterans",
-   "website": "https://www.cityofmadison.com/parks/find-a-park/park.cfm?id=1364",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 10,
+   "raw_events": 9,
    "error": ""
   },
   {
@@ -218,19 +208,19 @@
    "error": ""
   },
   {
-   "name": "Arts + Literature Laboratory",
-   "kind": "venue",
-   "website": "https://artlitlab.org/",
+   "name": "Veterans Memorial Park",
+   "kind": "veterans",
+   "website": "https://www.cityofmadison.com/parks/find-a-park/park.cfm?id=1364",
    "feeds": [
     "ai"
    ],
-   "raw_events": 8,
+   "raw_events": 9,
    "error": ""
   },
   {
-   "name": "Gamma Ray Bar",
-   "kind": "bar",
-   "website": "https://gammaray.bar",
+   "name": "Arts + Literature Laboratory",
+   "kind": "venue",
+   "website": "https://artlitlab.org/",
    "feeds": [
     "ai"
    ],
@@ -248,21 +238,21 @@
    "error": ""
   },
   {
-   "name": "Monroe Street Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/monroe-street",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 7,
-   "error": ""
-  },
-  {
    "name": "Delta Beer Lab",
    "kind": "brewery",
    "website": "https://www.delta.beer/",
    "feeds": [
     "squarespace",
+    "ai"
+   ],
+   "raw_events": 6,
+   "error": ""
+  },
+  {
+   "name": "Gamma Ray Bar",
+   "kind": "bar",
+   "website": "https://gammaray.bar",
+   "feeds": [
     "ai"
    ],
    "raw_events": 6,
@@ -284,20 +274,6 @@
    "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
    "feeds": [
     "ai"
-   ],
-   "raw_events": 5,
-   "error": ""
-  },
-  {
-   "name": "Barrymore Theatre",
-   "kind": "venue",
-   "website": "https://barrymorelive.com/",
-   "feeds": [
-    "tribe",
-    "jsonld",
-    "jsonld",
-    "jsonld",
-    "jsonld"
    ],
    "raw_events": 5,
    "error": ""
@@ -333,9 +309,29 @@
    "error": ""
   },
   {
-   "name": "Monkeyshines Bar & Grill",
-   "kind": "bar",
-   "website": "http://www.monkeyshinesbarandgrill.com/",
+   "name": "Monroe Street Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/monroe-street",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 5,
+   "error": ""
+  },
+  {
+   "name": "Pinney Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 5,
+   "error": ""
+  },
+  {
+   "name": "Sequoya Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/sequoya",
    "feeds": [
     "ai"
    ],
@@ -375,6 +371,20 @@
    "error": ""
   },
   {
+   "name": "Barrymore Theatre",
+   "kind": "venue",
+   "website": "https://barrymorelive.com/",
+   "feeds": [
+    "tribe",
+    "jsonld",
+    "jsonld",
+    "jsonld",
+    "jsonld"
+   ],
+   "raw_events": 4,
+   "error": ""
+  },
+  {
    "name": "Children's Theater of Madison",
    "kind": "venue",
    "website": "https://ctmtheater.org/",
@@ -405,22 +415,11 @@
    "error": ""
   },
   {
-   "name": "Laurel Tavern",
+   "name": "Monkeyshines Bar & Grill",
    "kind": "bar",
-   "website": "http://www.thelaureltavern.com",
+   "website": "http://www.monkeyshinesbarandgrill.com/",
    "feeds": [
     "ai"
-   ],
-   "raw_events": 4,
-   "error": ""
-  },
-  {
-   "name": "One Social Bar",
-   "kind": "bar",
-   "website": "https://onesocialmadison.com/vendor/one-social-bar/",
-   "feeds": [
-    "tribe",
-    "jsonld"
    ],
    "raw_events": 4,
    "error": ""
@@ -436,17 +435,6 @@
     "jsonld"
    ],
    "raw_events": 4,
-   "error": ""
-  },
-  {
-   "name": "Centro",
-   "kind": "community",
-   "website": "https://www.micentro.org/",
-   "feeds": [
-    "squarespace",
-    "ai"
-   ],
-   "raw_events": 3,
    "error": ""
   },
   {
@@ -481,11 +469,22 @@
    "error": ""
   },
   {
-   "name": "State Line Distillery",
-   "kind": "brewery",
-   "website": "https://www.statelinedistillery.com/",
+   "name": "Laurel Tavern",
+   "kind": "bar",
+   "website": "http://www.thelaureltavern.com",
    "feeds": [
     "ai"
+   ],
+   "raw_events": 3,
+   "error": ""
+  },
+  {
+   "name": "One Social Bar",
+   "kind": "bar",
+   "website": "https://onesocialmadison.com/vendor/one-social-bar/",
+   "feeds": [
+    "tribe",
+    "jsonld"
    ],
    "raw_events": 3,
    "error": ""
@@ -512,31 +511,11 @@
    "error": ""
   },
   {
-   "name": "Badger Rock Neighborhood Center",
+   "name": "Centro",
    "kind": "community",
-   "website": "https://rootedwi.org/badger-rock-neighborhood-center/",
+   "website": "https://www.micentro.org/",
    "feeds": [
-    "tribe",
-    "jsonld"
-   ],
-   "raw_events": 2,
-   "error": ""
-  },
-  {
-   "name": "Doundrins Distilling",
-   "kind": "brewery",
-   "website": "https://doundrinsdistilling.com/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 2,
-   "error": ""
-  },
-  {
-   "name": "Karben4 Brewing",
-   "kind": "brewery",
-   "website": "https://www.karben4.com/",
-   "feeds": [
+    "squarespace",
     "ai"
    ],
    "raw_events": 2,
@@ -593,6 +572,16 @@
    "error": ""
   },
   {
+   "name": "State Line Distillery",
+   "kind": "brewery",
+   "website": "https://www.statelinedistillery.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 2,
+   "error": ""
+  },
+  {
    "name": "State Street Brats",
    "kind": "bar",
    "website": "https://statestreetbrats.com/",
@@ -615,11 +604,12 @@
    "error": ""
   },
   {
-   "name": "Below Deck Concession Stand",
-   "kind": "cafe",
-   "website": "https://www.mymonona.com/1395/Below-Deck-Concession-Stand",
+   "name": "Badger Rock Neighborhood Center",
+   "kind": "community",
+   "website": "https://rootedwi.org/badger-rock-neighborhood-center/",
    "feeds": [
-    "ai"
+    "tribe",
+    "jsonld"
    ],
    "raw_events": 1,
    "error": ""
@@ -628,6 +618,16 @@
    "name": "Capital Brewery",
    "kind": "brewery",
    "website": "https://www.capital-brewery.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 1,
+   "error": ""
+  },
+  {
+   "name": "Doundrins Distilling",
+   "kind": "brewery",
+   "website": "https://doundrinsdistilling.com/",
    "feeds": [
     "ai"
    ],
@@ -665,21 +665,21 @@
    "error": ""
   },
   {
-   "name": "Quivey's Stable Grill",
-   "kind": "bar",
-   "website": "https://www.quiveysgrove.com/stable-grill",
+   "name": "Karben4 Brewing",
+   "kind": "brewery",
+   "website": "https://www.karben4.com/",
    "feeds": [
-    "jsonld"
+    "ai"
    ],
    "raw_events": 1,
    "error": ""
   },
   {
-   "name": "Roxxy",
+   "name": "Quivey's Stable Grill",
    "kind": "bar",
-   "website": "https://www.roxxybar.com/location/madison/",
+   "website": "https://www.quiveysgrove.com/stable-grill",
    "feeds": [
-    "ai"
+    "jsonld"
    ],
    "raw_events": 1,
    "error": ""
@@ -776,6 +776,14 @@
    "name": "Barriques - West Wash",
    "kind": "cafe",
    "website": "https://barriquesmarket.com/pages/west-wash",
+   "feeds": [],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
+   "name": "Below Deck Concession Stand",
+   "kind": "cafe",
+   "website": "https://www.mymonona.com/1395/Below-Deck-Concession-Stand",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1562,14 +1570,6 @@
    "error": "PermissionError: robots.txt disallows https://linktr.ee/pksuw"
   },
   {
-   "name": "Pinney Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
    "name": "Plaza Bar",
    "kind": "bar",
    "website": "https://theplazatavern.com/",
@@ -1644,9 +1644,9 @@
    "error": ""
   },
   {
-   "name": "Sequoya Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/sequoya",
+   "name": "Roxxy",
+   "kind": "bar",
+   "website": "https://www.roxxybar.com/location/madison/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1688,6 +1688,14 @@
   {
    "name": "Starbucks",
    "kind": "cafe",
+   "website": "https://www.starbucks.com/store-locator/store/1010275/greenway-boulevard-8230-greenway-boulevard-middleton-wi-535623579-us",
+   "feeds": [],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
+   "name": "Starbucks",
+   "kind": "cafe",
    "website": "https://www.starbucks.com/store-locator/store/12525/university-north-blackhawk-3515-university-avenue-madison-wi-537052140-us",
    "feeds": [],
    "raw_events": 0,
@@ -1697,14 +1705,6 @@
    "name": "Starbucks",
    "kind": "cafe",
    "website": "https://www.starbucks.com/store-locator/store/16495/south-gammon-mineral-point-434-gammon-place-3-madison-wi-537191090-us",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Starbucks",
-   "kind": "cafe",
-   "website": "https://www.starbucks.com/store-locator/store/1010275/greenway-boulevard-8230-greenway-boulevard-middleton-wi-535623579-us",
    "feeds": [],
    "raw_events": 0,
    "error": ""
