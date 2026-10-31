@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-30T21:24:23-05:00",
+ "generated_at": "2026-10-31T11:08:46-05:00",
  "venues_checked": 237,
- "venues_with_events": 64,
- "venues_with_feeds": 85,
- "events": 404,
- "filtered_out": 171,
+ "venues_with_events": 63,
+ "venues_with_feeds": 84,
+ "events": 366,
+ "filtered_out": 161,
  "venues": [
   {
    "name": "AI page reading",
@@ -13,12 +13,12 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 188,
+   "raw_events": 167,
    "error": "",
-   "calls": 16,
-   "tokens_in": 35961,
-   "tokens_out": 13338,
-   "est_cost_usd": 0.0103
+   "calls": 12,
+   "tokens_in": 29425,
+   "tokens_out": 10661,
+   "est_cost_usd": 0.0083
   },
   {
    "name": "Isthmus calendar",
@@ -27,8 +27,8 @@
    "feeds": [
     "calendar"
    ],
-   "raw_events": 158,
-   "error": "used today's copy (read once a day)"
+   "raw_events": 145,
+   "error": ""
   },
   {
    "name": "Bayview Community Center",
@@ -38,7 +38,7 @@
     "tribe",
     "jsonld"
    ],
-   "raw_events": 81,
+   "raw_events": 75,
    "error": ""
   },
   {
@@ -48,7 +48,7 @@
    "feeds": [
     "ticketmaster"
    ],
-   "raw_events": 62,
+   "raw_events": 59,
    "error": ""
   },
   {
@@ -62,7 +62,7 @@
     "squarespace",
     "jsonld"
    ],
-   "raw_events": 43,
+   "raw_events": 42,
    "error": ""
   },
   {
@@ -87,7 +87,7 @@
     "ical",
     "ical"
    ],
-   "raw_events": 31,
+   "raw_events": 32,
    "error": "ical: ConnectionError: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //www.mcfarlandlibrary.org/calendar/month (Caused by NameResolutionError(\"HTTPSConnection(host='https"
   },
   {
@@ -100,7 +100,7 @@
     "jsonld",
     "jsonld"
    ],
-   "raw_events": 30,
+   "raw_events": 29,
    "error": ""
   },
   {
@@ -136,21 +136,7 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 17,
-   "error": ""
-  },
-  {
-   "name": "Lone Girl Tap Room And Pizza Company",
-   "kind": "bar",
-   "website": "https://thelonegirl.com",
-   "feeds": [
-    "tribe",
-    "jsonld",
-    "jsonld",
-    "jsonld",
-    "jsonld"
-   ],
-   "raw_events": 14,
+   "raw_events": 16,
    "error": ""
   },
   {
@@ -178,29 +164,23 @@
    "error": ""
   },
   {
-   "name": "Alicia Ashman Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
+   "name": "Lone Girl Tap Room And Pizza Company",
+   "kind": "bar",
+   "website": "https://thelonegirl.com",
    "feeds": [
-    "ai"
+    "tribe",
+    "jsonld",
+    "jsonld",
+    "jsonld",
+    "jsonld"
    ],
-   "raw_events": 10,
+   "raw_events": 12,
    "error": ""
   },
   {
    "name": "Lazy Oaf Lounge",
    "kind": "bar",
    "website": "https://www.lazyoaflounge.com/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 9,
-   "error": ""
-  },
-  {
-   "name": "Reindahl Park Pavillion",
-   "kind": "community",
-   "website": "https://www.cityofmadison.com/parks/find-a-park/reindahl/pavilion-at-the-imagination-center",
    "feeds": [
     "ai"
    ],
@@ -218,13 +198,23 @@
    "error": ""
   },
   {
+   "name": "Reindahl Park Pavillion",
+   "kind": "community",
+   "website": "https://www.cityofmadison.com/parks/find-a-park/reindahl/pavilion-at-the-imagination-center",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 8,
+   "error": ""
+  },
+  {
    "name": "Veterans Memorial Park",
    "kind": "veterans",
    "website": "https://www.cityofmadison.com/parks/find-a-park/park.cfm?id=1364",
    "feeds": [
     "ai"
    ],
-   "raw_events": 9,
+   "raw_events": 8,
    "error": ""
   },
   {
@@ -244,47 +234,6 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 7,
-   "error": ""
-  },
-  {
-   "name": "Imagination Center",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 7,
-   "error": ""
-  },
-  {
-   "name": "Monroe Street Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/monroe-street",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 7,
-   "error": ""
-  },
-  {
-   "name": "Sequoya Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/sequoya",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 7,
-   "error": ""
-  },
-  {
-   "name": "Delta Beer Lab",
-   "kind": "brewery",
-   "website": "https://www.delta.beer/",
-   "feeds": [
-    "squarespace",
-    "ai"
-   ],
    "raw_events": 6,
    "error": ""
   },
@@ -299,10 +248,21 @@
    "error": ""
   },
   {
-   "name": "Bartell Theatre",
-   "kind": "venue",
-   "website": "https://bartelltheatre.org/",
+   "name": "Alicia Ashman Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
    "feeds": [
+    "ai"
+   ],
+   "raw_events": 5,
+   "error": ""
+  },
+  {
+   "name": "Delta Beer Lab",
+   "kind": "brewery",
+   "website": "https://www.delta.beer/",
+   "feeds": [
+    "squarespace",
     "ai"
    ],
    "raw_events": 5,
@@ -329,9 +289,39 @@
    "error": ""
   },
   {
+   "name": "Imagination Center",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 5,
+   "error": ""
+  },
+  {
+   "name": "Monroe Street Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/monroe-street",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 5,
+   "error": ""
+  },
+  {
    "name": "Pinney Library",
    "kind": "library",
    "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 5,
+   "error": ""
+  },
+  {
+   "name": "Sequoya Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/sequoya",
    "feeds": [
     "ai"
    ],
@@ -385,16 +375,6 @@
    "error": ""
   },
   {
-   "name": "Children's Theater of Madison",
-   "kind": "venue",
-   "website": "https://ctmtheater.org/",
-   "feeds": [
-    "tribe"
-   ],
-   "raw_events": 4,
-   "error": ""
-  },
-  {
    "name": "Crystal Corner Bar",
    "kind": "bar",
    "website": "https://thecrystalcornerbar.com/",
@@ -415,16 +395,6 @@
    "error": ""
   },
   {
-   "name": "Monkeyshines Bar & Grill",
-   "kind": "bar",
-   "website": "http://www.monkeyshinesbarandgrill.com/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 4,
-   "error": ""
-  },
-  {
    "name": "Vera Court Neighborhood Center",
    "kind": "community",
    "website": "https://www.veracourt.org/",
@@ -435,6 +405,16 @@
     "jsonld"
    ],
    "raw_events": 4,
+   "error": ""
+  },
+  {
+   "name": "Children's Theater of Madison",
+   "kind": "venue",
+   "website": "https://ctmtheater.org/",
+   "feeds": [
+    "tribe"
+   ],
+   "raw_events": 3,
    "error": ""
   },
   {
@@ -479,12 +459,21 @@
    "error": ""
   },
   {
-   "name": "One Social Bar",
+   "name": "Monkeyshines Bar & Grill",
    "kind": "bar",
-   "website": "https://onesocialmadison.com/vendor/one-social-bar/",
+   "website": "http://www.monkeyshinesbarandgrill.com/",
    "feeds": [
-    "tribe",
-    "jsonld"
+    "ai"
+   ],
+   "raw_events": 3,
+   "error": ""
+  },
+  {
+   "name": "Overture Center for the Arts",
+   "kind": "venue",
+   "website": "http://overturecenter.com",
+   "feeds": [
+    "ai"
    ],
    "raw_events": 3,
    "error": ""
@@ -511,9 +500,9 @@
    "error": ""
   },
   {
-   "name": "Central Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/central",
+   "name": "Bartell Theatre",
+   "kind": "venue",
+   "website": "https://bartelltheatre.org/",
    "feeds": [
     "ai"
    ],
@@ -562,19 +551,20 @@
    "error": ""
   },
   {
-   "name": "Oscar Rennebohm Library",
-   "kind": "library",
-   "website": "https://library.edgewood.edu/home",
+   "name": "One Social Bar",
+   "kind": "bar",
+   "website": "https://onesocialmadison.com/vendor/one-social-bar/",
    "feeds": [
-    "ai"
+    "tribe",
+    "jsonld"
    ],
    "raw_events": 2,
    "error": ""
   },
   {
-   "name": "Overture Center for the Arts",
-   "kind": "venue",
-   "website": "http://overturecenter.com",
+   "name": "Oscar Rennebohm Library",
+   "kind": "library",
+   "website": "https://library.edgewood.edu/home",
    "feeds": [
     "ai"
    ],
@@ -879,12 +869,20 @@
    "error": "PermissionError: robots.txt disallows https://www.facebook.com/cargocoffeeeast/"
   },
   {
+   "name": "Central Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/central",
+   "feeds": [],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
    "name": "Cervato Wine & Tapas",
    "kind": "bar",
    "website": "https://cervatowine.com/",
    "feeds": [],
    "raw_events": 0,
-   "error": ""
+   "error": "ai: ConnectTimeout: HTTPSConnectionPool(host='cervatowine.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='cervatowine.com', port=443) at 0x74627"
   },
   {
    "name": "Chazen Cafe",

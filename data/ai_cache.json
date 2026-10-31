@@ -508,26 +508,17 @@
   ]
  },
  "https://high-noon.com/calendar/": {
-  "hash": "939bd1d46a41869335bd0313ca4cf63dc9df434a",
-  "asked": "2026-10-30T12:01:18-05:00",
-  "on": "2026-10-30",
+  "hash": "a5bccfa137e3494d9bb4445c3600b0fdb847183c",
+  "asked": "2026-10-31T11:06:35-05:00",
+  "on": "2026-10-31",
   "events": [
    {
-    "title": "Ska-lloween",
-    "date": "2026-10-30",
-    "start": "20:00",
-    "end": null,
-    "price": null,
-    "description": "FPC Live presents, with One Beer Please, Lost Island Society, and Meskales. Doors 7:00 pm.",
-    "category": "music"
-   },
-   {
-    "title": "HalloWEEN '26",
+    "title": "FPC LIVE PRESENTS HalloWEEN '26",
     "date": "2026-10-31",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents, with BAMM (Southern rock, funk & high-energy improv) and Wild Violets (all female R&B and pop). Doors 7:00 pm.",
+    "description": "BAMM (Southern rock, funk & high-energy improv) and Wild Violets (all female R&B and pop). Doors 19:00.",
     "category": "music"
    },
    {
@@ -536,7 +527,7 @@
     "start": "17:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents tribute acts: The Marilyns as The Misfits, Iron Metal Jackson as Metallica, and You First as Me First and the Gimme Gimmes. Doors 4:00 pm.",
+    "description": "The Marilyns as 'The Misfits', Iron Metal Jackson as 'Metallica', and You First as 'Me First And The Gimme Gimmes'. Doors 16:00.",
     "category": "music"
    },
    {
@@ -545,7 +536,7 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "FPC Live presents, with Runner and Breakup Shoes. Doors 6:30 pm.",
+    "description": "With Runner and Breakup Shoes. Doors 18:30.",
     "category": "music"
    },
    {
@@ -554,7 +545,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents, with Reysha Rami. Doors 7:00 pm.",
+    "description": "With Reysha Rami. Doors 19:00.",
     "category": "music"
    },
    {
@@ -563,7 +554,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents, with The Braymores. Doors 7:00 pm.",
+    "description": "With The Braymores. Doors 19:00.",
     "category": "music"
    },
    {
@@ -572,7 +563,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents, with Genevieve Heyward. Doors 7:00 pm.",
+    "description": "With Genevieve Heyward. Doors 19:00.",
     "category": "music"
    },
    {
@@ -581,7 +572,7 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents, with Tenmonthsummer, Barely Civil, Los Kausas, Ourvanity, The Up & Up, The Brash Menagerie, and Irish Goodbyes. Doors 6:00 pm.",
+    "description": "Tenmonthsummer, Barely Civil, Los Kausas, Ourvanity, The Up & Up, The Brash Menagerie, and Irish Goodbyes. Doors 18:00.",
     "category": "music"
    },
    {
@@ -590,7 +581,7 @@
     "start": "12:00",
     "end": null,
     "price": 20,
-    "description": "With Low Czars. Suggested $20 donation at the door. Doors 11:00 am.",
+    "description": "With Low Czars. Suggested $20 donation at the door. Doors 11:00.",
     "category": "music"
    },
    {
@@ -599,7 +590,7 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "FPC Live presents, with Texas Toast Chainsaw Massacre. Doors 6:30 pm.",
+    "description": "With Texas Toast Chainsaw Massacre. Doors 18:30.",
     "category": "music"
    },
    {
@@ -608,7 +599,7 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "The Moth presents a storytelling slam, theme 'Home for the Holidays'. Doors 6:30 pm.",
+    "description": "The Moth storytelling event with the theme 'Home for the Holidays'. Doors 18:30.",
     "category": "other"
    },
    {
@@ -617,7 +608,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents, with Gardener. Doors 7:00 pm.",
+    "description": "With Gardener. Doors 19:00.",
     "category": "music"
    },
    {
@@ -626,7 +617,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents, with Free Dirt. Doors 7:00 pm.",
+    "description": "With Free Dirt. Doors 19:00.",
     "category": "music"
    },
    {
@@ -635,7 +626,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents, with Something To Do and Deven Kay & The Solutions. Doors 7:00 pm.",
+    "description": "With Something To Do and Deven Kay & The Solutions. Doors 19:00.",
     "category": "music"
    },
    {
@@ -644,7 +635,16 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents. Doors 6:00 pm.",
+    "description": "Doors 18:00.",
+    "category": "music"
+   },
+   {
+    "title": "Hips Don't Lie: A Tribute To Shakira",
+    "date": "2026-11-14",
+    "start": "20:00",
+    "end": null,
+    "price": null,
+    "description": "Tribute show. Doors 19:00.",
     "category": "music"
    }
   ]
@@ -730,26 +730,17 @@
   "events": []
  },
  "https://www.harmonybarandgrill.com/madison-atwood-the-harmony-bar-and-grill-happy-hours-specials": {
-  "hash": "4dbe5f6da92e12cc225faafecfd6f2707632c93f",
-  "asked": "2026-10-28T12:10:41-05:00",
-  "on": "2026-10-28",
+  "hash": "aa5a5a7d84243800b88604ff982b0a615e767608",
+  "asked": "2026-10-31T11:06:32-05:00",
+  "on": "2026-10-31",
   "events": [
-   {
-    "title": "Friday Fish Fry!",
-    "date": "2026-10-30",
-    "start": "11:00",
-    "end": "22:00",
-    "price": null,
-    "description": "Friday fish fry special at The Harmony Bar and Grill.",
-    "category": "food"
-   },
    {
     "title": "David Landau Kids Show!",
     "date": "2026-11-02",
     "start": "17:30",
     "end": "18:30",
     "price": 5.0,
-    "description": "Kids show with David Landau, every Monday.",
+    "description": "Weekly kids show at Harmony Bar & Grill, every Monday.",
     "category": "music"
    },
    {
@@ -758,17 +749,26 @@
     "start": "17:30",
     "end": "18:30",
     "price": 5.0,
-    "description": "Kids show with David Landau, every Monday.",
+    "description": "Weekly kids show at Harmony Bar & Grill, every Monday.",
     "category": "music"
    },
    {
-    "title": "Mixed Mic!",
+    "title": "Mixed Mic",
     "date": "2026-11-03",
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Mixed mic night, first Tuesday of the month.",
+    "description": "Mixed mic on the first Tuesday of the month at Harmony Bar & Grill.",
     "category": "open_mic"
+   },
+   {
+    "title": "Friday Fish Fry",
+    "date": "2026-11-06",
+    "start": "11:00",
+    "end": "22:00",
+    "price": null,
+    "description": "Friday fish fry at Harmony Bar & Grill.",
+    "category": "food"
    }
   ]
  },
@@ -1046,9 +1046,9 @@
   "events": []
  },
  "https://www.statelinedistillery.com/cocktail-lounge/events": {
-  "hash": "fa34c078f3c1bc946c039af256a710c9887524b2",
-  "asked": "2026-10-30T16:23:59-05:00",
-  "on": "2026-10-30",
+  "hash": "0e282c5e1459d96ef2d33bd313afd06b161fdd3c",
+  "asked": "2026-10-31T11:06:42-05:00",
+  "on": "2026-10-31",
   "events": [
    {
     "title": "Dead & Distilled: Halloween Party",
@@ -1056,7 +1056,7 @@
     "start": "15:00",
     "end": "00:00",
     "price": null,
-    "description": "Halloween party at State Line Distillery Cocktail Lounge.",
+    "description": "Halloween party at State Line Distillery cocktail lounge.",
     "category": "other"
    },
    {
@@ -1065,8 +1065,17 @@
     "start": "19:00",
     "end": "21:00",
     "price": null,
-    "description": "Live music with Christa Lee.",
+    "description": "Live music performance by Christa Lee.",
     "category": "music"
+   },
+   {
+    "title": "86'd Party",
+    "date": "2026-11-14",
+    "start": "15:00",
+    "end": null,
+    "price": null,
+    "description": "86'd Party at State Line Distillery.",
+    "category": "other"
    }
   ]
  },
@@ -1208,20 +1217,10 @@
   ]
  },
  "https://www.mymonona.com/1587/Special-Events": {
-  "hash": "a964a6b23469adbfe1ee415f1c0cc1a226d607b9",
-  "asked": "2026-10-29T21:37:21-05:00",
-  "on": "2026-10-29",
-  "events": [
-   {
-    "title": "Halloween Spooktacular",
-    "date": "2026-10-30",
-    "start": null,
-    "end": null,
-    "price": null,
-    "description": "Monona Parks & Recreation Halloween Spooktacular, listed on the Special Events calendar for Fri, Oct. 30.",
-    "category": "other"
-   }
-  ]
+  "hash": "662029bba649e83bbe3af73a359e58885cc154a0",
+  "asked": "2026-10-31T11:06:46-05:00",
+  "on": "2026-10-31",
+  "events": []
  },
  "https://www.candycloudcompany.com/locations/madison": {
   "hash": "56675790ccda038c9f50b89482a9d58682ffa44f",
@@ -1315,9 +1314,9 @@
   ]
  },
  "https://merciescoffeewi.com/": {
-  "hash": "cfcfacd815a97963e4c8207b38a8ed4e13f438f3",
-  "asked": "2026-10-30T21:23:32-05:00",
-  "on": "2026-10-30",
+  "hash": "ee2b5dd8cee8bc73acf97ca25c4c67fd3f99c697",
+  "asked": "2026-10-31T11:07:02-05:00",
+  "on": "2026-10-31",
   "events": []
  },
  "https://motherfools.com/event/20261106/mad-city-story-slam-rebellion": {
@@ -1462,26 +1461,17 @@
   "events": []
  },
  "https://www.cityofmadison.com/parks/events": {
-  "hash": "98029ce5c86cbc59b873ec280a94fac275f3cae0",
-  "asked": "2026-10-30T12:02:11-05:00",
-  "on": "2026-10-30",
+  "hash": "6e6541e0df240c0458783cccb2c552c2670fb25e",
+  "asked": "2026-10-31T11:07:28-05:00",
+  "on": "2026-10-31",
   "events": [
-   {
-    "title": "Warner Family Fun Night | Halloween Celebration",
-    "date": "2026-10-30",
-    "start": "17:00",
-    "end": "19:30",
-    "price": null,
-    "description": "Halloween celebration at Warner Park Community Recreation Center, 1625 Northport Drive.",
-    "category": "other"
-   },
    {
     "title": "Bird & Nature Adventures | Cherokee Marsh Conservation Park",
     "date": "2026-11-01",
     "start": "13:30",
     "end": "15:00",
     "price": null,
-    "description": "Guided bird and nature outing; meet at the Cherokee Marsh North Unit parking lot, 6098 North Sherman Avenue.",
+    "description": "Bird and nature walk; meet at the Cherokee Marsh North Unit parking lot, 6098 North Sherman Avenue.",
     "category": "other"
    },
    {
@@ -1490,7 +1480,7 @@
     "start": "17:00",
     "end": "19:00",
     "price": null,
-    "description": "Parks Alive Fall program at Harmony Apartments Community Room, 116 Milky Way.",
+    "description": "Parks Alive Fall event at Harmony Apartments Community Room, 116 Milky Way.",
     "category": "other"
    },
    {
@@ -1499,7 +1489,7 @@
     "start": "17:00",
     "end": "19:00",
     "price": null,
-    "description": "Parks Alive Fall program at Warner Park Community Recreation Center, 1625 Northport Dr.",
+    "description": "Parks Alive Fall event at Warner Park Community Recreation Center, 1625 Northport Dr.",
     "category": "other"
    },
    {
@@ -1508,7 +1498,7 @@
     "start": "17:00",
     "end": "19:00",
     "price": null,
-    "description": "Parks Alive Fall program at Revival Ridge Community Room, 2313 Allied Dr.",
+    "description": "Parks Alive Fall event at Revival Ridge Community Room, 2313 Allied Dr.",
     "category": "other"
    },
    {
@@ -1517,7 +1507,7 @@
     "start": "18:00",
     "end": "19:30",
     "price": null,
-    "description": "Virtual public meeting about Odana Hills Golf Course and Park.",
+    "description": "Public meeting about Odana Hills Golf Course and Park, held virtually.",
     "category": "other"
    },
    {
@@ -1526,7 +1516,7 @@
     "start": "13:30",
     "end": "15:00",
     "price": null,
-    "description": "Guided bird and nature outing; meet at the Tenney Park beach parking lot, 1330 Sherman Ave.",
+    "description": "Bird and nature walk; meet at Tenney Park beach parking lot, 1330 Sherman Ave.",
     "category": "other"
    },
    {
@@ -1535,7 +1525,7 @@
     "start": "13:30",
     "end": "14:30",
     "price": null,
-    "description": "Guided bird and nature outing at Turville Point Conservation Park, 1202 Olin Turville Court.",
+    "description": "Bird and nature walk at Turville Point Conservation Park, 1202 Olin Turville Court.",
     "category": "other"
    },
    {
@@ -1544,7 +1534,16 @@
     "start": "17:00",
     "end": "19:00",
     "price": null,
-    "description": "Parks Alive Fall program at Elver Park Shelter, 1250 McKenna Blvd.",
+    "description": "Parks Alive Fall event at Elver Park Shelter, 1250 McKenna Blvd.",
+    "category": "other"
+   },
+   {
+    "title": "Bird & Nature Adventures | Owen",
+    "date": "2026-11-14",
+    "start": "13:30",
+    "end": "15:00",
+    "price": null,
+    "description": "Bird and nature walk at Owen Conservation Park, 6021 Old Sauk Road.",
     "category": "other"
    }
   ]
@@ -1556,9 +1555,9 @@
   "events": []
  },
  "https://www.madisonpubliclibrary.org/spaces/events": {
-  "hash": "988504663e1a3ad31131322d7498efd03663e822",
-  "asked": "2026-10-30T21:24:06-05:00",
-  "on": "2026-10-30",
+  "hash": "b98a6aff747184188cbe7d81fc128f8922fbe2fa",
+  "asked": "2026-10-31T11:07:36-05:00",
+  "on": "2026-10-31",
   "events": []
  },
  "https://ebling.library.wisc.edu/ebling-library-classes-events/": {
@@ -1605,9 +1604,9 @@
   ]
  },
  "https://www.library.wisc.edu/music/": {
-  "hash": "2a37a6a51a7a050a9c2d16e67654deeb167fd3be",
-  "asked": "2026-10-30T12:02:12-05:00",
-  "on": "2026-10-30",
+  "hash": "22ccf1163994dbd58d42f20055e92e5858db9543",
+  "asked": "2026-10-31T11:07:30-05:00",
+  "on": "2026-10-31",
   "events": []
  },
  "https://www.sunprairiepubliclibrary.org/home-delivery-service": {
@@ -1768,54 +1767,27 @@
   ]
  },
  "https://bartelltheatre.org/": {
-  "hash": "efa1f7cbb7bfc1c708ca54f2894a26bdb462d5f1",
-  "asked": "2026-10-30T12:02:25-05:00",
-  "on": "2026-10-30",
+  "hash": "90fa2edf4c18816e22d6f89e458e904f7d5e862d",
+  "asked": "2026-10-31T11:07:42-05:00",
+  "on": "2026-10-31",
   "events": [
    {
-    "title": "The Moors",
-    "date": "2026-10-30",
+    "title": "Romeo and Juliet",
+    "date": "2026-10-31",
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "Dark comedy about two sisters and a dog on the bleak English moors, with a hapless governess and a moor-hen.",
+    "description": "Capulets, Montagues, and two young lovers; Shakespeare's best-known play.",
     "category": "theater"
    },
    {
-    "title": "Re-Animator",
-    "date": "2026-10-30",
-    "start": "20:00",
-    "end": null,
-    "price": null,
-    "description": "1980s horror film about a medical student's green serum that regenerates the dead.",
-    "category": "film"
-   },
-   {
-    "title": "Hello Mary Lou: Prom Night II",
-    "date": "2026-10-30",
-    "start": "21:30",
-    "end": null,
-    "price": null,
-    "description": "Film screening.",
-    "category": "film"
-   },
-   {
-    "title": "First Audition: A Valentine's Affair 2027",
+    "title": "A Valentine's Affair 2027 Auditions (First Audition)",
     "date": "2026-11-09",
     "start": "18:30",
     "end": null,
     "price": null,
     "description": "First audition for A Valentine's Affair 2027.",
     "category": "other"
-   },
-   {
-    "title": "Romeo and Juliet",
-    "date": "2026-11-06",
-    "start": "19:30",
-    "end": null,
-    "price": null,
-    "description": "Theatre production.",
-    "category": "theater"
    }
   ]
  },
@@ -1884,17 +1856,17 @@
   ]
  },
  "https://www.overture.org/tickets-events/": {
-  "hash": "c997df70e494aa8c1660fc783e6388d0cd340d6b",
-  "asked": "2026-10-28T21:28:47-05:00",
-  "on": "2026-10-28",
+  "hash": "de9637b717762fcd90043a05e3605935750f1a9b",
+  "asked": "2026-10-31T11:07:46-05:00",
+  "on": "2026-10-31",
   "events": [
    {
     "title": "Wild Rumpus Circus",
     "date": "2026-10-31",
-    "start": null,
+    "start": "13:00",
     "end": null,
     "price": null,
-    "description": "Circus show at Overture Center, multiple showtimes.",
+    "description": "Circus performance at Overture Center at 1:00 PM.",
     "category": "other"
    },
    {
@@ -1903,7 +1875,16 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Performance by Stuart Stotts at Overture Center, multiple showtimes.",
+    "description": "Performance at Overture Center; multiple showtimes listed, times not specified.",
+    "category": "music"
+   },
+   {
+    "title": "Laura Doherty & The Heartbeats",
+    "date": "2026-11-14",
+    "start": null,
+    "end": null,
+    "price": null,
+    "description": "Performance at Overture Center; multiple showtimes listed, times not specified.",
     "category": "music"
    }
   ]

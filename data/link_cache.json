@@ -74,50 +74,10 @@
   "why": "",
   "checked": "2026-10-27T14:37:15.552147-05:00"
  },
- "https://www.karben4.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:37:15.552150-05:00"
- },
  "http://www.thelaureltavern.com": {
   "ok": true,
   "why": "",
   "checked": "2026-10-27T14:37:15.805352-05:00"
- },
- "https://www.theatwoodmusichall.com/shows/2026-10-30": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:37:18.225953-05:00"
- },
- "https://www.cafecoda.club/events-1/tani-diakite-and-afrofunkstarks-2m2he-l9nje-t7e27": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:37:18.225956-05:00"
- },
- "https://bstonline.org/event/dragonsocks-and-the-queen-of-the-universe/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:37:19.037792-05:00"
- },
- "https://www.gibs.bar/event-calendar/2026/10/30/dj-dh-dreamgirl-amp-azza": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:37:19.037797-05:00"
- },
- "https://www.ticketmaster.com/skalloween-w-one-beer-please-lost-madison-wisconsin-10-30-2026/event/070065297E4317F7": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-10-27T14:37:20.112824-05:00"
- },
- "https://www.ticketmaster.com/rz-presents-se-esta-haciendo-tarde-madison-wisconsin-10-30-2026/event/070064C388F92107": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-10-27T14:37:21.190666-05:00"
- },
- "https://www.ticketmaster.com/b00-bash-a-y2k-halloween-dance-madison-wisconsin-10-30-2026/event/07006542CEA07A21": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-10-27T14:37:22.267499-05:00"
  },
  "http://overturecenter.com": {
   "ok": true,
@@ -2599,21 +2559,6 @@
   "why": "",
   "checked": "2026-10-27T17:48:57.964604-05:00"
  },
- "https://thelonegirl.com/event/murder-mystery-2-2/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T17:49:10.754689-05:00"
- },
- "https://thelonegirl.com/event/magic-rob-every-friday-tableside-2-2-2-3-2-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T17:49:15.212511-05:00"
- },
- "https://onesocialmadison.com/event/live-music-fridays-fringe-field/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T17:49:15.212535-05:00"
- },
  "https://oldsugardistillery.com/": {
   "ok": true,
   "why": "",
@@ -2739,16 +2684,6 @@
   "why": "",
   "checked": "2026-10-29T12:28:09.930935-05:00"
  },
- "https://www.northstreetcabaret.com/": {
-  "ok": null,
-  "why": "robots.txt asks bots not to visit",
-  "checked": "2026-10-29T12:28:09.930940-05:00"
- },
- "https://www.madisoncomedy.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-29T12:28:09.930946-05:00"
- },
  "https://www.madisoncomedy.com/event/mic-on-state/2026-11-04/": {
   "ok": true,
   "why": "",
@@ -2788,16 +2723,6 @@
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
   "checked": "2026-10-29T21:38:39.288790-05:00"
- },
- "https://www.madisoncomedy.com/event/malikelassal/2026-10-30/1/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-30T12:03:43.865311-05:00"
- },
- "https://statestreetbrats.com/event/wisconsin-usc-20261030/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-30T12:03:43.865343-05:00"
  },
  "https://bstonline.org/": {
   "ok": true,
@@ -3784,25 +3709,10 @@
   "why": "",
   "checked": "2026-10-30T16:26:03.458905-05:00"
  },
- "https://ctmtheater.org/event/annie-4/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-30T21:24:24.180509-05:00"
- },
- "https://www.madisonpubliclibrary.org/central": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-30T21:24:25.271610-05:00"
- },
  "https://www.madisonpubliclibrary.org/locations/imagination-center": {
   "ok": true,
   "why": "",
   "checked": "2026-10-30T21:24:25.271633-05:00"
- },
- "https://www.madisonpubliclibrary.org/monroe-street": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-30T21:24:28.322224-05:00"
  },
  "https://www.madisonpubliclibrary.org/sequoya": {
   "ok": true,
@@ -3813,11 +3723,6 @@
   "ok": true,
   "why": "",
   "checked": "2026-10-30T21:24:28.322264-05:00"
- },
- "https://statestreetbrats.com/event/rays-guardians-brewers-20261031/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-30T21:24:28.322270-05:00"
  },
  "https://ctmtheater.org/event/annie-6/": {
   "ok": true,
@@ -3898,5 +3803,25 @@
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
   "checked": "2026-10-30T21:24:32.369293-05:00"
+ },
+ "https://www.barnwoodeventswi.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-31T11:08:48.327802-05:00"
+ },
+ "https://statestreetbrats.com/event/cavaliers-bucks-20261031/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-31T11:08:48.327828-05:00"
+ },
+ "https://www.madisonpubliclibrary.org/locations/pinney-library": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-31T11:08:48.327835-05:00"
+ },
+ "https://www.cafecoda.club/events-1/cool-school-1-mwk5m-6mm75-4gl5k-x3bxx-2l3ky-wk7lh-m59ge-aep6w-pnxbz": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-31T11:08:48.327841-05:00"
  }
 }
