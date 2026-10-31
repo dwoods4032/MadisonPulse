@@ -94,21 +94,6 @@
   "why": "",
   "checked": "2026-10-27T14:37:18.225956-05:00"
  },
- "https://www.ticketmaster.com/event/Z7r9jZ1AAZy0E": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-10-27T14:37:18.225960-05:00"
- },
- "https://www.ticketmaster.com/event/Z7r9jZ1AAevv_": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-10-27T14:37:18.225966-05:00"
- },
- "https://www.ticketmaster.com/event/Z7r9jZ1AAvFGd": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-10-27T14:37:19.037767-05:00"
- },
  "https://bstonline.org/event/dragonsocks-and-the-queen-of-the-universe/": {
   "ok": true,
   "why": "",
@@ -3798,5 +3783,120 @@
   "ok": true,
   "why": "",
   "checked": "2026-10-30T16:26:03.458905-05:00"
+ },
+ "https://ctmtheater.org/event/annie-4/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-30T21:24:24.180509-05:00"
+ },
+ "https://www.madisonpubliclibrary.org/central": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-30T21:24:25.271610-05:00"
+ },
+ "https://www.madisonpubliclibrary.org/locations/imagination-center": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-30T21:24:25.271633-05:00"
+ },
+ "https://www.madisonpubliclibrary.org/monroe-street": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-30T21:24:28.322224-05:00"
+ },
+ "https://www.madisonpubliclibrary.org/sequoya": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-30T21:24:28.322257-05:00"
+ },
+ "https://ctmtheater.org/event/annie-5/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-30T21:24:28.322264-05:00"
+ },
+ "https://statestreetbrats.com/event/rays-guardians-brewers-20261031/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-30T21:24:28.322270-05:00"
+ },
+ "https://ctmtheater.org/event/annie-6/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-30T21:24:28.322275-05:00"
+ },
+ "https://ctmtheater.org/event/annie-7/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-30T21:24:28.544174-05:00"
+ },
+ "https://bayviewfoundation.org/event/zumba/2026-11-03/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-30T21:24:28.544202-05:00"
+ },
+ "https://bstonline.org/event/dragonsocks-and-the-queen-of-the-universe-5/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-30T21:24:28.544208-05:00"
+ },
+ "https://bayviewfoundation.org/event/zumba/2026-11-10/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-30T21:24:28.544212-05:00"
+ },
+ "https://www.cafecoda.club/events-1/doug-white-quartet-1-6gly7-eypa9-yt6pe": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-30T21:24:28.544216-05:00"
+ },
+ "https://rootedwi.org/event/badger-rock-community-dinner-5/2026-11-13/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-30T21:24:28.544220-05:00"
+ },
+ "https://thelonegirl.com/event/magic-rob-every-friday-tableside-2-2-2-3-2-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-30T21:24:28.544225-05:00"
+ },
+ "https://www.theatwoodmusichall.com/shows/2026-11-13": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-30T21:24:28.544229-05:00"
+ },
+ "https://www.cafecoda.club/events-1/gabriel-wade-arun-lthr-quintet": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-30T21:24:28.544233-05:00"
+ },
+ "https://www.ticketmaster.com/hottt-probs-heet-deth-sex-scenes-madison-wisconsin-11-13-2026/event/07006519C889598F": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-10-30T21:24:28.544239-05:00"
+ },
+ "https://www.ticketmaster.com/event/Z7r9jZ1AAevv-": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-10-30T21:24:29.112808-05:00"
+ },
+ "https://www.ticketmaster.com/event/Z7r9jZ1AAvFG7": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-10-30T21:24:30.197708-05:00"
+ },
+ "https://www.ticketmaster.com/the-widdler-madison-wisconsin-11-13-2026/event/0700653087F41BF7": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-10-30T21:24:30.197737-05:00"
+ },
+ "https://www.ticketmaster.com/event/Z7r9jZ1AAvZ8O": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-10-30T21:24:31.277831-05:00"
+ },
+ "https://www.ticketmaster.com/kitchen-dwellers-x-dogs-in-a-madison-wisconsin-11-13-2026/event/0700650CA49CE57A": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-10-30T21:24:32.369293-05:00"
  }
 }

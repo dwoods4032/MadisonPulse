@@ -1,11 +1,25 @@
 {
- "generated_at": "2026-10-30T16:30:31-05:00",
+ "generated_at": "2026-10-30T21:24:23-05:00",
  "venues_checked": 237,
- "venues_with_events": 57,
- "venues_with_feeds": 80,
- "events": 379,
- "filtered_out": 71,
+ "venues_with_events": 64,
+ "venues_with_feeds": 85,
+ "events": 404,
+ "filtered_out": 171,
  "venues": [
+  {
+   "name": "AI page reading",
+   "kind": "source",
+   "website": "",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 188,
+   "error": "",
+   "calls": 16,
+   "tokens_in": 35961,
+   "tokens_out": 13338,
+   "est_cost_usd": 0.0103
+  },
   {
    "name": "Isthmus calendar",
    "kind": "source",
@@ -17,18 +31,15 @@
    "error": "used today's copy (read once a day)"
   },
   {
-   "name": "AI page reading",
-   "kind": "source",
-   "website": "",
+   "name": "Bayview Community Center",
+   "kind": "community",
+   "website": "https://www.bayviewfoundation.org",
    "feeds": [
-    "ai"
+    "tribe",
+    "jsonld"
    ],
-   "raw_events": 153,
-   "error": "",
-   "calls": 2,
-   "tokens_in": 6854,
-   "tokens_out": 3756,
-   "est_cost_usd": 0.0026
+   "raw_events": 81,
+   "error": ""
   },
   {
    "name": "Ticketmaster",
@@ -37,7 +48,7 @@
    "feeds": [
     "ticketmaster"
    ],
-   "raw_events": 59,
+   "raw_events": 62,
    "error": ""
   },
   {
@@ -125,7 +136,7 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 16,
+   "raw_events": 17,
    "error": ""
   },
   {
@@ -164,6 +175,16 @@
     "jsonld"
    ],
    "raw_events": 12,
+   "error": ""
+  },
+  {
+   "name": "Alicia Ashman Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 10,
    "error": ""
   },
   {
@@ -217,21 +238,51 @@
    "error": ""
   },
   {
+   "name": "Gamma Ray Bar",
+   "kind": "bar",
+   "website": "https://gammaray.bar",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 7,
+   "error": ""
+  },
+  {
+   "name": "Imagination Center",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 7,
+   "error": ""
+  },
+  {
+   "name": "Monroe Street Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/monroe-street",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 7,
+   "error": ""
+  },
+  {
+   "name": "Sequoya Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/sequoya",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 7,
+   "error": ""
+  },
+  {
    "name": "Delta Beer Lab",
    "kind": "brewery",
    "website": "https://www.delta.beer/",
    "feeds": [
     "squarespace",
-    "ai"
-   ],
-   "raw_events": 6,
-   "error": ""
-  },
-  {
-   "name": "Gamma Ray Bar",
-   "kind": "bar",
-   "website": "https://gammaray.bar",
-   "feeds": [
     "ai"
    ],
    "raw_events": 6,
@@ -245,16 +296,6 @@
     "ai"
    ],
    "raw_events": 6,
-   "error": ""
-  },
-  {
-   "name": "Alicia Ashman Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 5,
    "error": ""
   },
   {
@@ -283,6 +324,16 @@
    "website": "https://www.gibs.bar/",
    "feeds": [
     "squarespace"
+   ],
+   "raw_events": 5,
+   "error": ""
+  },
+  {
+   "name": "Pinney Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
+   "feeds": [
+    "ai"
    ],
    "raw_events": 5,
    "error": ""
@@ -329,6 +380,16 @@
     "jsonld",
     "jsonld",
     "jsonld"
+   ],
+   "raw_events": 4,
+   "error": ""
+  },
+  {
+   "name": "Children's Theater of Madison",
+   "kind": "venue",
+   "website": "https://ctmtheater.org/",
+   "feeds": [
+    "tribe"
    ],
    "raw_events": 4,
    "error": ""
@@ -445,6 +506,16 @@
    "feeds": [
     "jsonld",
     "jsonld"
+   ],
+   "raw_events": 2,
+   "error": ""
+  },
+  {
+   "name": "Central Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/central",
+   "feeds": [
+    "ai"
    ],
    "raw_events": 2,
    "error": ""
@@ -720,17 +791,6 @@
    "error": ""
   },
   {
-   "name": "Bayview Community Center",
-   "kind": "community",
-   "website": "https://www.bayviewfoundation.org",
-   "feeds": [
-    "tribe",
-    "jsonld"
-   ],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
    "name": "Below Deck Concession Stand",
    "kind": "cafe",
    "website": "https://www.mymonona.com/1395/Below-Deck-Concession-Stand",
@@ -819,14 +879,6 @@
    "error": "PermissionError: robots.txt disallows https://www.facebook.com/cargocoffeeeast/"
   },
   {
-   "name": "Central Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/central",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
    "name": "Cervato Wine & Tapas",
    "kind": "bar",
    "website": "https://cervatowine.com/",
@@ -839,16 +891,6 @@
    "kind": "cafe",
    "website": "https://union.wisc.edu/dine/find-food-and-drink/chazen-cafe",
    "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Children's Theater of Madison",
-   "kind": "venue",
-   "website": "https://ctmtheater.org/",
-   "feeds": [
-    "tribe"
-   ],
    "raw_events": 0,
    "error": ""
   },
@@ -1180,14 +1222,6 @@
    "error": "PermissionError: robots.txt disallows https://imaginary-factory.com/"
   },
   {
-   "name": "Imagination Center",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
    "name": "Indie Coffee",
    "kind": "cafe",
    "website": "https://indiecoffee.net/index.html",
@@ -1448,14 +1482,6 @@
    "error": ""
   },
   {
-   "name": "Monroe Street Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/monroe-street",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
    "name": "Muskellounge and Sporting Club (Musky)",
    "kind": "bar",
    "website": "https://www.muskellounge.com",
@@ -1546,14 +1572,6 @@
    "error": "PermissionError: robots.txt disallows https://linktr.ee/pksuw"
   },
   {
-   "name": "Pinney Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
    "name": "Plaza Bar",
    "kind": "bar",
    "website": "https://theplazatavern.com/",
@@ -1636,14 +1654,6 @@
    "error": ""
   },
   {
-   "name": "Sequoya Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/sequoya",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
    "name": "Settle Down Tavern",
    "kind": "bar",
    "website": "https://www.settledownmadison.com/",
@@ -1672,7 +1682,7 @@
   {
    "name": "Starbucks",
    "kind": "cafe",
-   "website": "https://www.starbucks.com/store-locator/store/16482/capitol-square-main-mlk-1-e-main-st-madison-wi-537033373-us",
+   "website": "https://www.starbucks.com/store-locator/store/12525/university-north-blackhawk-3515-university-avenue-madison-wi-537052140-us",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1680,7 +1690,7 @@
   {
    "name": "Starbucks",
    "kind": "cafe",
-   "website": "https://www.starbucks.com/store-locator/store/12525/university-north-blackhawk-3515-university-avenue-madison-wi-537052140-us",
+   "website": "https://www.starbucks.com/store-locator/store/16482/capitol-square-main-mlk-1-e-main-st-madison-wi-537033373-us",
    "feeds": [],
    "raw_events": 0,
    "error": ""

@@ -108,26 +108,17 @@
   "events": []
  },
  "https://gammaray.bar/shows/": {
-  "hash": "06fe2404595172fba64b505dc1fa32d59e24f845",
-  "asked": "2026-10-28T21:27:38-05:00",
-  "on": "2026-10-28",
+  "hash": "6287ade98dda1222d032458ee45f4d8121f9e704",
+  "asked": "2026-10-30T21:23:04-05:00",
+  "on": "2026-10-30",
   "events": [
-   {
-    "title": "Mariah Ann // Courtesy Call // Porchflowers // Eli Gray & The Steel Hearts",
-    "date": "2026-10-29",
-    "start": "19:00",
-    "end": null,
-    "price": null,
-    "description": "Doors 6pm.",
-    "category": "music"
-   },
    {
     "title": "Monster Bash ft. Them & The Things, The Brush Strokes (Strokes Tribute) and American Literate (Green Day Tribute)",
     "date": "2026-10-30",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Doors 7pm.",
+    "description": "Halloween-week show with Them & The Things, The Brush Strokes (Strokes tribute) and American Literate (Green Day tribute). Doors 7pm.",
     "category": "music"
    },
    {
@@ -136,7 +127,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Doors 7pm.",
+    "description": "Halloween show with Friend Request. Doors 7pm.",
     "category": "music"
    },
    {
@@ -145,7 +136,7 @@
     "start": "18:00",
     "end": null,
     "price": null,
-    "description": "Doors 5:45pm.",
+    "description": "Music video trivia hosted by Gamma Ray Bar. Doors 5:45pm.",
     "category": "trivia"
    },
    {
@@ -154,7 +145,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Doors 7pm.",
+    "description": "Live show featuring Sova, Slick and The Moss Men. Doors 7pm.",
     "category": "music"
    },
    {
@@ -163,7 +154,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Doors 7pm.",
+    "description": "Live show featuring Droids Attack, Peacemaker and The Eggs. Doors 7pm.",
     "category": "music"
    },
    {
@@ -172,7 +163,16 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Doors 7pm.",
+    "description": "Live show featuring Dusk, Visual Learner, Yuasa-Exide and Boo/Hiss. Doors 7pm.",
+    "category": "music"
+   },
+   {
+    "title": "Friday the 13th Tribute Party Ft. PheRAMONES, Insomniacs (Green Day), TRAEFI(AFI)",
+    "date": "2026-11-13",
+    "start": "20:00",
+    "end": null,
+    "price": null,
+    "description": "Friday the 13th tribute party with PheRAMONES (Ramones tribute), Insomniacs (Green Day tribute) and TRAEFI (AFI tribute). Doors 7pm.",
     "category": "music"
    }
   ]
@@ -773,17 +773,17 @@
   ]
  },
  "https://high-noon.com/event/fruition/": {
-  "hash": "bbde9730cbfefa494e9780e14e0426f516a8201f",
-  "asked": "2026-10-30T12:01:22-05:00",
+  "hash": "2b30968c26430262208dfbcd1bed4c7b444586c7",
+  "asked": "2026-10-30T21:23:07-05:00",
   "on": "2026-10-30",
   "events": [
    {
-    "title": "Fruition: Something More: The Final Tour, with Gardener",
+    "title": "Fruition: Something More - The Final Tour, with Gardener",
     "date": "2026-11-10",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Americana band Fruition's final tour in support of the album Something More, with Gardener. Doors 7:00 pm. Ages 18+ (minors with parent or guardian).",
+    "description": "Americana band Fruition on its final tour, with Gardener. Doors 7:00 pm. Ages 18+ (minors with parent or guardian).",
     "category": "music"
    },
    {
@@ -938,26 +938,17 @@
   "events": []
  },
  "https://www.karben4.com/events": {
-  "hash": "1f8aa70d2d5768be8e53ad876c19554610b793d5",
-  "asked": "2026-10-29T21:37:13-05:00",
-  "on": "2026-10-29",
+  "hash": "f0f9b10c01d372cabfb87805d6f78fe6a90e5eef",
+  "asked": "2026-10-30T21:23:12-05:00",
+  "on": "2026-10-30",
   "events": [
-   {
-    "title": "Spooky Trivia Night w/ Brews and Q's",
-    "date": "2026-10-29",
-    "start": "18:30",
-    "end": null,
-    "price": null,
-    "description": "Spooky themed trivia night at the taproom; costumes earn bonus points.",
-    "category": "trivia"
-   },
    {
     "title": "An Idiot Farm Halloween Party and Meat Raffle",
     "date": "2026-10-31",
     "start": null,
     "end": null,
     "price": null,
-    "description": "All-day Halloween taproom party with a meat raffle at 2:00 pm, apple bobbing, homemade chili and sourdough, and a batched cocktail.",
+    "description": "Halloween taproom party with a meat raffle at 2:00 pm, apple bobbing, homemade chili and sourdough, and a batched cocktail.",
     "category": "other"
    }
   ]
@@ -1092,26 +1083,17 @@
   "events": []
  },
  "https://thekickback.bar/upcoming-events/": {
-  "hash": "c7c437c485e8a7953f54fed4d5ea0fc8b14b2bcc",
-  "asked": "2026-10-27T21:15:22-05:00",
-  "on": "2026-10-27",
+  "hash": "47417a2074aacd2e342ea7f4c3a6e54182b3261a",
+  "asked": "2026-10-30T21:23:14-05:00",
+  "on": "2026-10-30",
   "events": [
-   {
-    "title": "Friday Night Strikes",
-    "date": "2026-10-30",
-    "start": "19:00",
-    "end": null,
-    "price": null,
-    "description": "Craft beer and pinball night",
-    "category": "other"
-   },
    {
     "title": "Drag Bingo w/ Cynthia Mooseknuckle",
     "date": "2026-11-01",
     "start": "13:00",
     "end": null,
     "price": null,
-    "description": "Drag bingo with Cynthia Mooseknuckle",
+    "description": "Drag bingo with Cynthia Mooseknuckle at The Kickback.",
     "category": "bingo"
    },
    {
@@ -1120,7 +1102,7 @@
     "start": "18:30",
     "end": null,
     "price": null,
-    "description": "Tuesday trivia night",
+    "description": "Tuesday trivia night.",
     "category": "trivia"
    },
    {
@@ -1129,7 +1111,7 @@
     "start": "18:30",
     "end": null,
     "price": null,
-    "description": "Pinball league night featuring Founders Brewing Co. craft beer",
+    "description": "Craft beer pinball league night featuring Founders Brewing Co.",
     "category": "other"
    },
    {
@@ -1138,7 +1120,7 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Craft beer and pinball night",
+    "description": "Friday night pinball and craft beer.",
     "category": "other"
    },
    {
@@ -1147,7 +1129,7 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Super Smash Bros Ultimate tournament on Switch 2",
+    "description": "Super Smash Bros Ultimate tournament on Switch 2.",
     "category": "other"
    },
    {
@@ -1156,7 +1138,7 @@
     "start": "12:00",
     "end": null,
     "price": null,
-    "description": "Pin-golf tour session with craft beer and league night",
+    "description": "Session 2 of the Kickback9 pin-golf tour, sponsored by Yuengling.",
     "category": "other"
    },
    {
@@ -1165,8 +1147,17 @@
     "start": "18:30",
     "end": null,
     "price": null,
-    "description": "Tuesday trivia night",
+    "description": "Tuesday trivia night.",
     "category": "trivia"
+   },
+   {
+    "title": "Fallout Launch Party",
+    "date": "2026-11-13",
+    "start": "19:00",
+    "end": null,
+    "price": null,
+    "description": "Launch party for Fallout with craft beer and pinball.",
+    "category": "other"
    }
   ]
  },
@@ -1201,9 +1192,9 @@
   "events": []
  },
  "https://thekickback.bar/drag-bingo-nov/": {
-  "hash": "63b8dc6db038ec7025ea8a888cafdef67067323e",
-  "asked": "2026-10-27T21:15:27-05:00",
-  "on": "2026-10-27",
+  "hash": "0f15806481b975da6fc7857ee3ab08ac4e2ca69c",
+  "asked": "2026-10-30T21:23:17-05:00",
+  "on": "2026-10-30",
   "events": [
    {
     "title": "Drag Bingo w/ Cynthia Mooseknuckle",
@@ -1211,7 +1202,7 @@
     "start": "13:00",
     "end": null,
     "price": 5,
-    "description": "Drag Bingo games (5 rounds) and a live performance by Cynthia Mooseknuckle; prizes from The Kickback and New Glarus Brewing.",
+    "description": "Drag Bingo games with five rounds and a live performance by Cynthia Mooseknuckle. Prizes from The Kickback and New Glarus Brewing.",
     "category": "music"
    }
   ]
@@ -1324,8 +1315,8 @@
   ]
  },
  "https://merciescoffeewi.com/": {
-  "hash": "2147f89e56a0f1d05fce776add043f9c03609e40",
-  "asked": "2026-10-30T12:01:43-05:00",
+  "hash": "cfcfacd815a97963e4c8207b38a8ed4e13f438f3",
+  "asked": "2026-10-30T21:23:32-05:00",
   "on": "2026-10-30",
   "events": []
  },
@@ -1565,8 +1556,8 @@
   "events": []
  },
  "https://www.madisonpubliclibrary.org/spaces/events": {
-  "hash": "31e2d26d4571348de4ba4babe676bc1ff0074d7d",
-  "asked": "2026-10-30T16:24:51-05:00",
+  "hash": "988504663e1a3ad31131322d7498efd03663e822",
+  "asked": "2026-10-30T21:24:06-05:00",
   "on": "2026-10-30",
   "events": []
  },
@@ -1620,26 +1611,17 @@
   "events": []
  },
  "https://www.sunprairiepubliclibrary.org/home-delivery-service": {
-  "hash": "d58b79e86c8badc917d84d721d3342b10fc43411",
-  "asked": "2026-10-30T12:02:14-05:00",
+  "hash": "4f4c0ca66454f1d24432316ee493238a47f87405",
+  "asked": "2026-10-30T21:24:03-05:00",
   "on": "2026-10-30",
   "events": [
-   {
-    "title": "Dream Bus Mobile Library @ Fun Friday Stops",
-    "date": "2026-10-30",
-    "start": "14:45",
-    "end": "17:00",
-    "price": null,
-    "description": "Dream Bus mobile library at Fun Friday stops. Ages: family, children 0-5, teens, adults.",
-    "category": "other"
-   },
    {
     "title": "Itsy Bitsy Lapsit Storytime",
     "date": "2026-11-02",
     "start": "10:00",
     "end": "10:30",
     "price": null,
-    "description": "Lapsit storytime for family and children ages 0-5.",
+    "description": "Lapsit storytime for family and children ages 0-5, Sun Prairie Public Library.",
     "category": "other"
    },
    {
@@ -1648,7 +1630,7 @@
     "start": "11:15",
     "end": "11:45",
     "price": null,
-    "description": "Lapsit storytime for family and children ages 0-5.",
+    "description": "Lapsit storytime for family and children ages 0-5, Sun Prairie Public Library.",
     "category": "other"
    },
    {
@@ -1657,7 +1639,7 @@
     "start": "07:00",
     "end": "20:00",
     "price": null,
-    "description": "General Election listed in library events.",
+    "description": "General Election listed on the Sun Prairie Public Library events calendar.",
     "category": "other"
    },
    {
@@ -1666,7 +1648,16 @@
     "start": "10:00",
     "end": "10:30",
     "price": null,
-    "description": "Storytime for family and children ages 0-5.",
+    "description": "Storytime for family and children ages 0-5, Sun Prairie Public Library.",
+    "category": "other"
+   },
+   {
+    "title": "Big Kid Storytime",
+    "date": "2026-11-03",
+    "start": "11:15",
+    "end": "11:45",
+    "price": null,
+    "description": "Storytime for family and children ages 0-5, Sun Prairie Public Library.",
     "category": "other"
    }
   ]
@@ -1737,8 +1728,8 @@
   ]
  },
  "https://www.madisonpubliclibrary.org/spaces/events/search": {
-  "hash": "b5470c20490f97ce95b3e65f96e306d3513c9251",
-  "asked": "2026-10-30T16:30:19-05:00",
+  "hash": "3a29803951206d4ba3543aed6cfc339e7f80f09f",
+  "asked": "2026-10-30T21:24:18-05:00",
   "on": "2026-10-30",
   "events": []
  },
@@ -2004,20 +1995,20 @@
   "events": []
  },
  "https://www.veronapubliclibrary.org/": {
-  "hash": "b8c6519c0042d774ad54191fbbda2c7de53c6133",
-  "asked": "2026-10-30T16:24:46-05:00",
+  "hash": "11f7dd1f5158e31a54635b3c70617615ca304203",
+  "asked": "2026-10-30T21:24:01-05:00",
   "on": "2026-10-30",
   "events": []
  },
  "https://www.waunakee.gov/calendar.aspx?CID=25": {
-  "hash": "10b0b775a70da8b692bb389801268857e4364d44",
-  "asked": "2026-10-30T12:02:07-05:00",
+  "hash": "4fab05bc68f2af8beb573e7ac635da7301afaca6",
+  "asked": "2026-10-30T21:23:56-05:00",
   "on": "2026-10-30",
   "events": []
  },
  "https://www.waunakee.gov/Calendar.aspx?EID=6370": {
-  "hash": "01a41ec047c76e13907dc6c54adb6156740c4f39",
-  "asked": "2026-10-30T12:02:09-05:00",
+  "hash": "264c84ed69a03d704e3fdeea87f412356ef4a42b",
+  "asked": "2026-10-30T21:23:58-05:00",
   "on": "2026-10-30",
   "events": []
  },

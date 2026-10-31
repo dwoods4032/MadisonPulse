@@ -1,21 +1,22 @@
 {
- "generated_at": "2026-10-30T16:30:31-05:00",
- "total_events": 379,
- "in_more_than_one_source": 26,
+ "generated_at": "2026-10-30T21:24:23-05:00",
+ "total_events": 404,
+ "in_more_than_one_source": 28,
  "sources": {
   "AI page reading": {
-   "events": 126,
-   "unique_events": 108,
+   "events": 138,
+   "unique_events": 119,
    "overlap": {
     "Isthmus": 1,
-    "Ticketmaster": 17,
+    "Ticketmaster": 18,
     "Venue websites": 0
    },
-   "venues": 30,
+   "venues": 34,
    "unique_venues": [
     "Aftershock Classic Arcade",
     "Arts + Literature Laboratory",
     "Capital Brewery",
+    "Central Library",
     "Crystal Corner Bar",
     "Delta Beer Lab",
     "Doundrins Distilling",
@@ -24,16 +25,19 @@
     "Flight Wine & Bourbon Bar",
     "Grey Market",
     "Harmony Bar & Grill",
+    "Imagination Center",
     "Karben4 Brewing",
     "Lakeside Street Coffee House",
     "Laurel Tavern",
     "Lazy Oaf Lounge",
     "Monkeyshines Bar & Grill",
+    "Monroe Street Library",
     "Mother Fool's",
     "Old Sugar Distillery",
     "Oscar Rennebohm Library",
     "Overture Center for the Arts",
     "Reindahl Park Pavillion",
+    "Sequoya Library",
     "State Line Distillery",
     "The Kickback",
     "The Malt House",
@@ -42,14 +46,14 @@
    ]
   },
   "Isthmus": {
-   "events": 157,
-   "unique_events": 151,
+   "events": 156,
+   "unique_events": 149,
    "overlap": {
     "AI page reading": 1,
     "Ticketmaster": 0,
-    "Venue websites": 5
+    "Venue websites": 6
    },
-   "venues": 79,
+   "venues": 78,
    "unique_venues": [
     "Alliant Energy Center",
     "American Players Theatre",
@@ -69,7 +73,6 @@
     "Fairway Lounge",
     "Farley Center for Peace",
     "Fireman's Park",
-    "First Unitarian Society",
     "Green County Courthouse Square",
     "Henry Vilas Zoo",
     "Hilldale",
@@ -107,7 +110,6 @@
     "Sotto",
     "The Atwood",
     "The Boneyard",
-    "The Bur Oak",
     "The Cardinal Bar",
     "The North Street Cabaret",
     "The Rigby",
@@ -124,14 +126,14 @@
    ]
   },
   "Ticketmaster": {
-   "events": 57,
-   "unique_events": 37,
+   "events": 60,
+   "unique_events": 39,
    "overlap": {
-    "AI page reading": 17,
+    "AI page reading": 18,
     "Isthmus": 0,
     "Venue websites": 3
    },
-   "venues": 11,
+   "venues": 12,
    "unique_venues": [
     "Camp Randall",
     "Capitol Theater - Overture Center",
@@ -141,16 +143,19 @@
    ]
   },
   "Venue websites": {
-   "events": 65,
-   "unique_events": 57,
+   "events": 78,
+   "unique_events": 69,
    "overlap": {
     "AI page reading": 0,
-    "Isthmus": 5,
+    "Isthmus": 6,
     "Ticketmaster": 3
    },
-   "venues": 13,
+   "venues": 16,
    "unique_venues": [
     "Atwood Music Hall",
+    "Badger Rock Neighborhood Center",
+    "Bayview Community Center",
+    "Children's Theater of Madison",
     "E.D. Locke Public Library",
     "Full Mile Beer Company & Kitchen",
     "Gib's Bar",

@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-30T16:30:31-05:00",
+ "generated_at": "2026-10-30T21:24:23-05:00",
  "window": {
-  "from": "2026-10-30T10:29-05:00",
-  "to": "2026-11-13T16:29-06:00"
+  "from": "2026-10-30T15:22-05:00",
+  "to": "2026-11-13T21:22-06:00"
  },
- "count": 379,
+ "count": 404,
  "events": [
   {
    "id": "87f5af801fff",
@@ -28,30 +28,6 @@
     "AI page reading"
    ],
    "link_ok": true
-  },
-  {
-   "id": "115d015ddb1e",
-   "title": "Steven Meyer",
-   "start": "2026-10-30T12:15-05:00",
-   "end": null,
-   "all_day": false,
-   "category": "music",
-   "price": 0.0,
-   "description": "",
-   "url": "",
-   "image": "",
-   "venue": "First Unitarian Society",
-   "venue_id": "cal:first-unitarian-society",
-   "venue_kind": "venue",
-   "address": "900 University Bay Drive",
-   "lat": 43.075731,
-   "lon": -89.434753,
-   "source": "extra",
-   "via": "Isthmus",
-   "sources": [
-    "Isthmus"
-   ],
-   "link_ok": null
   },
   {
    "id": "1b370f916ee3",
@@ -1061,27 +1037,27 @@
    "link_ok": true
   },
   {
-   "id": "67ae56361a79",
+   "id": "d857cb3adaf4",
    "title": "Annie",
    "start": "2026-10-30T19:00-05:00",
-   "end": null,
+   "end": "2026-10-30T21:30-05:00",
    "all_day": false,
    "category": "theater",
    "price": null,
-   "description": "Theatre / Musical",
-   "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZy0E",
-   "image": "https://s1.ticketm.net/dam/a/fe5/9261df1c-ccfc-46f0-93eb-1f9a79393fe5_RETINA_PORTRAIT_16_9.jpg",
-   "venue": "Capitol Theater - Overture Center",
-   "venue_id": "tm:ZFr9jZ7AFd",
+   "description": "",
+   "url": "https://ctmtheater.org/event/annie-4/",
+   "image": "",
+   "venue": "Children's Theater of Madison",
+   "venue_id": "osm:node/10833984405",
    "venue_kind": "venue",
-   "address": "201 State Street",
-   "lat": 43.079498,
-   "lon": -89.377602,
-   "source": "ticketmaster",
+   "address": "",
+   "lat": 43.0853024,
+   "lon": -89.3708699,
+   "source": "scraped",
    "sources": [
-    "Ticketmaster"
+    "Venue websites"
    ],
-   "link_ok": null
+   "link_ok": true
   },
   {
    "id": "732dbe02270b",
@@ -1127,29 +1103,6 @@
    "via": "Isthmus",
    "sources": [
     "Isthmus"
-   ],
-   "link_ok": null
-  },
-  {
-   "id": "6a2f48d08119",
-   "title": "Wisconsin Badgers Hockey vs. Notre Dame Fighting Irish Hockey",
-   "start": "2026-10-30T19:00-05:00",
-   "end": null,
-   "all_day": false,
-   "category": "sports",
-   "price": null,
-   "description": "Hockey / College",
-   "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAevv_",
-   "image": "https://s1.ticketm.net/dam/a/267/aed721a8-9e5f-4096-bfac-2e30dc1c7267_RETINA_PORTRAIT_16_9.jpg",
-   "venue": "Kohl Center",
-   "venue_id": "tm:Z6r9jZaaee",
-   "venue_kind": "venue",
-   "address": "601 W. Dayton St.",
-   "lat": 43.016399,
-   "lon": -89.420097,
-   "source": "ticketmaster",
-   "sources": [
-    "Ticketmaster"
    ],
    "link_ok": null
   },
@@ -1298,29 +1251,6 @@
    "link_ok": null
   },
   {
-   "id": "1818496b29ba",
-   "title": "Friday Night Strikes",
-   "start": "2026-10-30T19:00-05:00",
-   "end": null,
-   "all_day": false,
-   "category": "trivia",
-   "price": null,
-   "description": "Craft beer and pinball night",
-   "url": "https://thekickback.bar/",
-   "image": "",
-   "venue": "The Kickback",
-   "venue_id": "osm:node/12292190391",
-   "venue_kind": "bar",
-   "address": "7622 Lisa Lane",
-   "lat": 43.1092621,
-   "lon": -89.5123266,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "5be4882623f6",
    "title": "The Hole",
    "start": "2026-10-30T19:00-05:00",
@@ -1441,29 +1371,6 @@
    "link_ok": null
   },
   {
-   "id": "bfc008b0d8a5",
-   "title": "Madison Capitols vs. Cedar Rapids Roughriders",
-   "start": "2026-10-30T19:05-05:00",
-   "end": null,
-   "all_day": false,
-   "category": "sports",
-   "price": null,
-   "description": "Hockey / Ice Hockey",
-   "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvFGd",
-   "image": "https://s1.ticketm.net/dam/c/61c/37e6dc36-b80c-45a5-9bc5-960c7a98161c_106321_RETINA_PORTRAIT_16_9.jpg",
-   "venue": "Legacy20 Arena at Deforest Yards",
-   "venue_id": "tm:Z7r9jZak-N",
-   "venue_kind": "venue",
-   "address": "6251 Monticello Drive",
-   "lat": 43.233799,
-   "lon": -89.331802,
-   "source": "ticketmaster",
-   "sources": [
-    "Ticketmaster"
-   ],
-   "link_ok": null
-  },
-  {
    "id": "b39e2c409716",
    "title": "The Moors",
    "start": "2026-10-30T19:30-05:00",
@@ -1497,7 +1404,7 @@
    "all_day": false,
    "category": "theater",
    "price": null,
-   "description": "Dragonsocks & Queen of the Universe Written by local playwright Brendon Smith Directed by Suzan Kurry (Artistic Director of KR Women’s Theater) (Please Note: If EventBrite says we’re … Continue reading Dragonsocks & Queen of the Universe \\n",
+   "description": "Dragonsocks & Queen of the Universe Written by local playwright Brendon Smith Directed by Suzan Kurry (Artistic Director of KR Women’s Theater) (Please Note: If EventBrite says we’re … Continue reading Dragonsocks & Queen of the Universe",
    "url": "https://bstonline.org/event/dragonsocks-and-the-queen-of-the-universe/",
    "image": "",
    "venue": "Broom Street Theater",
@@ -1714,7 +1621,7 @@
    "all_day": false,
    "category": "music",
    "price": null,
-   "description": "Doors 7pm.",
+   "description": "Halloween-week show with Them & The Things, The Brush Strokes (Strokes tribute) and American Literate (Green Day tribute). Doors 7pm.",
    "url": "https://gammaray.bar",
    "image": "",
    "venue": "Gamma Ray Bar",
@@ -2265,7 +2172,7 @@
    "all_day": true,
    "category": "bingo",
    "price": null,
-   "description": "All-day Halloween taproom party with a meat raffle at 2:00 pm, apple bobbing, homemade chili and sourdough, and a batched cocktail.",
+   "description": "Halloween taproom party with a meat raffle at 2:00 pm, apple bobbing, homemade chili and sourdough, and a batched cocktail.",
    "url": "https://www.karben4.com/",
    "image": "",
    "venue": "Karben4 Brewing",
@@ -2496,6 +2403,52 @@
    "link_ok": null
   },
   {
+   "id": "a11088ce0e94",
+   "title": "Trick or Treat on Monroe Street",
+   "start": "2026-10-31T09:00-05:00",
+   "end": "2026-10-31T17:00-05:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Monroe Street Library participates in Trick or Treat on Monroe Street; treats for kids in costume while supplies last.",
+   "url": "https://www.madisonpubliclibrary.org/central",
+   "image": "",
+   "venue": "Central Library",
+   "venue_id": "osm:way/102316433",
+   "venue_kind": "library",
+   "address": "201 West Mifflin Street",
+   "lat": 43.0736214,
+   "lon": -89.3875186,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "ffb438090299",
+   "title": "Trick or Treat on Monroe Street",
+   "start": "2026-10-31T09:00-05:00",
+   "end": "2026-10-31T17:00-05:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Monroe Street Library participates in Trick or Treat on Monroe Street; treats for kids in costume while supplies last.",
+   "url": "https://www.madisonpubliclibrary.org/locations/imagination-center",
+   "image": "",
+   "venue": "Imagination Center",
+   "venue_id": "osm:way/1562302805",
+   "venue_kind": "library",
+   "address": "1814 Parkside Drive",
+   "lat": 43.1240118,
+   "lon": -89.3168809,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "623138d9b2a8",
    "title": "CANCELED: Southern Wisconsin Trout Unlimited Work Day",
    "start": "2026-10-31T09:00-05:00",
@@ -2568,6 +2521,29 @@
    "link_ok": null
   },
   {
+   "id": "2022d43228c8",
+   "title": "Trick or Treat on Monroe Street",
+   "start": "2026-10-31T09:00-05:00",
+   "end": "2026-10-31T17:00-05:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Monroe Street Library participates in Trick or Treat on Monroe Street; treats for kids in costume while supplies last.",
+   "url": "https://www.madisonpubliclibrary.org/monroe-street",
+   "image": "",
+   "venue": "Monroe Street Library",
+   "venue_id": "osm:way/241508509",
+   "venue_kind": "library",
+   "address": "1705 Monroe Street",
+   "lat": 43.0659388,
+   "lon": -89.4152059,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "4399e4c54334",
    "title": "Free coffee & tea at the library",
    "start": "2026-10-31T09:00-05:00",
@@ -2584,6 +2560,29 @@
    "address": "",
    "lat": 43.0570556,
    "lon": -89.4229279,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "c424cf38e121",
+   "title": "Trick or Treat on Monroe Street",
+   "start": "2026-10-31T09:00-05:00",
+   "end": "2026-10-31T17:00-05:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Monroe Street Library participates in Trick or Treat on Monroe Street; treats for kids in costume while supplies last.",
+   "url": "https://www.madisonpubliclibrary.org/sequoya",
+   "image": "",
+   "venue": "Sequoya Library",
+   "venue_id": "osm:node/1473488018",
+   "venue_kind": "library",
+   "address": "4340 Tokay Boulevard",
+   "lat": 43.0537698,
+   "lon": -89.4505289,
    "source": "ai",
    "sources": [
     "AI page reading"
@@ -2685,6 +2684,98 @@
     "Isthmus"
    ],
    "link_ok": null
+  },
+  {
+   "id": "82c694db3d38",
+   "title": "Art Club for Families - Costume Masks",
+   "start": "2026-10-31T11:00-05:00",
+   "end": "2026-10-31T12:00-05:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Family art series led by artist Care, with a hands-on activity exploring creativity; this session's theme is costume masks.",
+   "url": "https://www.madisonpubliclibrary.org/central",
+   "image": "",
+   "venue": "Central Library",
+   "venue_id": "osm:way/102316433",
+   "venue_kind": "library",
+   "address": "201 West Mifflin Street",
+   "lat": 43.0736214,
+   "lon": -89.3875186,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "81c6657e9fcc",
+   "title": "Art Club for Families - Costume Masks",
+   "start": "2026-10-31T11:00-05:00",
+   "end": "2026-10-31T12:00-05:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Family art series led by artist Care, with a hands-on activity exploring creativity; this session's theme is costume masks.",
+   "url": "https://www.madisonpubliclibrary.org/locations/imagination-center",
+   "image": "",
+   "venue": "Imagination Center",
+   "venue_id": "osm:way/1562302805",
+   "venue_kind": "library",
+   "address": "1814 Parkside Drive",
+   "lat": 43.1240118,
+   "lon": -89.3168809,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "d826e941ad50",
+   "title": "Art Club for Families - Costume Masks",
+   "start": "2026-10-31T11:00-05:00",
+   "end": "2026-10-31T12:00-05:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Family art series led by artist Care, with a hands-on activity exploring creativity; this session's theme is costume masks.",
+   "url": "https://www.madisonpubliclibrary.org/monroe-street",
+   "image": "",
+   "venue": "Monroe Street Library",
+   "venue_id": "osm:way/241508509",
+   "venue_kind": "library",
+   "address": "1705 Monroe Street",
+   "lat": 43.0659388,
+   "lon": -89.4152059,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "474e1bad1847",
+   "title": "Art Club for Families - Costume Masks",
+   "start": "2026-10-31T11:00-05:00",
+   "end": "2026-10-31T12:00-05:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Family art series led by artist Care, with a hands-on activity exploring creativity; this session's theme is costume masks.",
+   "url": "https://www.madisonpubliclibrary.org/sequoya",
+   "image": "",
+   "venue": "Sequoya Library",
+   "venue_id": "osm:node/1473488018",
+   "venue_kind": "library",
+   "address": "4340 Tokay Boulevard",
+   "lat": 43.0537698,
+   "lon": -89.4505289,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
   },
   {
    "id": "def78dadc093",
@@ -2875,6 +2966,29 @@
     "Ticketmaster"
    ],
    "link_ok": null
+  },
+  {
+   "id": "31f2a2f513bf",
+   "title": "Annie",
+   "start": "2026-10-31T14:00-05:00",
+   "end": "2026-10-31T16:30-05:00",
+   "all_day": false,
+   "category": "theater",
+   "price": null,
+   "description": "",
+   "url": "https://ctmtheater.org/event/annie-5/",
+   "image": "",
+   "venue": "Children's Theater of Madison",
+   "venue_id": "osm:node/10833984405",
+   "venue_kind": "venue",
+   "address": "",
+   "lat": 43.0853024,
+   "lon": -89.3708699,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
   },
   {
    "id": "e1f98713f18e",
@@ -3205,6 +3319,29 @@
    "link_ok": true
   },
   {
+   "id": "5c7a1340c156",
+   "title": "Rays @ Brewers",
+   "start": "2026-10-31T19:00-05:00",
+   "end": null,
+   "all_day": false,
+   "category": "sports",
+   "price": null,
+   "description": "",
+   "url": "https://statestreetbrats.com/event/rays-guardians-brewers-20261031/",
+   "image": "",
+   "venue": "State Street Brats",
+   "venue_id": "osm:way/886357869",
+   "venue_kind": "bar",
+   "address": "603 State Street",
+   "lat": 43.0746889,
+   "lon": -89.395998,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "6dd89d4e6c8b",
    "title": "The Moors",
    "start": "2026-10-31T19:30-05:00",
@@ -3356,7 +3493,7 @@
    "all_day": false,
    "category": "music",
    "price": null,
-   "description": "Doors 7pm.",
+   "description": "Halloween show with Friend Request. Doors 7pm.",
    "url": "https://gammaray.bar",
    "image": "",
    "venue": "Gamma Ray Bar",
@@ -3676,6 +3813,29 @@
    "link_ok": null
   },
   {
+   "id": "4aac33cb5094",
+   "title": "Annie",
+   "start": "2026-11-01T13:00-06:00",
+   "end": "2026-11-01T15:30-06:00",
+   "all_day": false,
+   "category": "theater",
+   "price": null,
+   "description": "",
+   "url": "https://ctmtheater.org/event/annie-6/",
+   "image": "",
+   "venue": "Children's Theater of Madison",
+   "venue_id": "osm:node/10833984405",
+   "venue_kind": "venue",
+   "address": "",
+   "lat": 43.0853024,
+   "lon": -89.3708699,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "4ba810a82cf0",
    "title": "Annie",
    "start": "2026-11-01T13:00-06:00",
@@ -3707,7 +3867,7 @@
    "all_day": false,
    "category": "bingo",
    "price": null,
-   "description": "Drag bingo with Cynthia Mooseknuckle",
+   "description": "Drag bingo with Cynthia Mooseknuckle at The Kickback.",
    "url": "https://thekickback.bar/",
    "image": "",
    "venue": "The Kickback",
@@ -4033,6 +4193,29 @@
    "link_ok": true
   },
   {
+   "id": "c304aa2da9b7",
+   "title": "Annie",
+   "start": "2026-11-01T18:00-06:00",
+   "end": "2026-11-01T20:30-06:00",
+   "all_day": false,
+   "category": "theater",
+   "price": null,
+   "description": "",
+   "url": "https://ctmtheater.org/event/annie-7/",
+   "image": "",
+   "venue": "Children's Theater of Madison",
+   "venue_id": "osm:node/10833984405",
+   "venue_kind": "venue",
+   "address": "",
+   "lat": 43.0853024,
+   "lon": -89.3708699,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "3b1f1fcd2186",
    "title": "Annie",
    "start": "2026-11-01T18:00-06:00",
@@ -4248,7 +4431,7 @@
    "all_day": false,
    "category": "trivia",
    "price": null,
-   "description": "Doors 5:45pm.",
+   "description": "Music video trivia hosted by Gamma Ray Bar. Doors 5:45pm.",
    "url": "https://gammaray.bar",
    "image": "",
    "venue": "Gamma Ray Bar",
@@ -4357,6 +4540,29 @@
    "link_ok": true
   },
   {
+   "id": "b2deebc0d15b",
+   "title": "Zumba",
+   "start": "2026-11-03T18:00-06:00",
+   "end": "2026-11-03T19:00-06:00",
+   "all_day": false,
+   "category": "dance",
+   "price": null,
+   "description": "Join us for a high-energy Zumba class, where you can dance, sweat, and have fun while getting fit with a great group of people! Pre-registration is not required.",
+   "url": "https://bayviewfoundation.org/event/zumba/2026-11-03/",
+   "image": "https://bayviewfoundation.org/wp-content/uploads/2024/12/health-wellness.png",
+   "venue": "Bayview Community Center",
+   "venue_id": "osm:way/1323648187",
+   "venue_kind": "community",
+   "address": "103 La Mariposa Lane",
+   "lat": 43.0663858,
+   "lon": -89.3975076,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "7e863e8f2125",
    "title": "Open Mic w/ Martin Hunt",
    "start": "2026-11-03T18:00-06:00",
@@ -4403,6 +4609,52 @@
    "link_ok": true
   },
   {
+   "id": "1a5bdfc2013e",
+   "title": "Mini Figure Painting (6 of 6 part series)",
+   "start": "2026-11-03T18:00-06:00",
+   "end": "2026-11-03T19:30-06:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Final session of a 6-part mini figure painting series in the Community Room.",
+   "url": "https://www.madisonpubliclibrary.org/locations/imagination-center",
+   "image": "",
+   "venue": "Imagination Center",
+   "venue_id": "osm:way/1562302805",
+   "venue_kind": "library",
+   "address": "1814 Parkside Drive",
+   "lat": 43.1240118,
+   "lon": -89.3168809,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "c6519b45b95b",
+   "title": "Mini Figure Painting (6 of 6 part series)",
+   "start": "2026-11-03T18:00-06:00",
+   "end": "2026-11-03T19:30-06:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Final session of a 6-part mini figure painting series in the Community Room.",
+   "url": "https://www.madisonpubliclibrary.org/sequoya",
+   "image": "",
+   "venue": "Sequoya Library",
+   "venue_id": "osm:node/1473488018",
+   "venue_kind": "library",
+   "address": "4340 Tokay Boulevard",
+   "lat": 43.0537698,
+   "lon": -89.4505289,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "8d1fbd9a7dd3",
    "title": "Wisconsin Badgers Womens Basketball vs. Bradley Braves Womens Basketball",
    "start": "2026-11-03T18:30-06:00",
@@ -4433,7 +4685,7 @@
    "all_day": false,
    "category": "trivia",
    "price": null,
-   "description": "Tuesday trivia night",
+   "description": "Tuesday trivia night.",
    "url": "https://thekickback.bar/",
    "image": "",
    "venue": "The Kickback",
@@ -4734,7 +4986,7 @@
    "all_day": false,
    "category": "trivia",
    "price": null,
-   "description": "Pinball league night featuring Founders Brewing Co. craft beer",
+   "description": "Craft beer pinball league night featuring Founders Brewing Co.",
    "url": "https://thekickback.bar/",
    "image": "",
    "venue": "The Kickback",
@@ -4942,7 +5194,7 @@
    "all_day": false,
    "category": "music",
    "price": null,
-   "description": "Doors 7pm.",
+   "description": "Live show featuring Sova, Slick and The Moss Men. Doors 7pm.",
    "url": "https://gammaray.bar",
    "image": "",
    "venue": "Gamma Ray Bar",
@@ -6091,7 +6343,7 @@
    "all_day": false,
    "category": "trivia",
    "price": null,
-   "description": "Craft beer and pinball night",
+   "description": "Friday night pinball and craft beer.",
    "url": "https://thekickback.bar/",
    "image": "",
    "venue": "The Kickback",
@@ -6114,7 +6366,7 @@
    "all_day": false,
    "category": "trivia",
    "price": null,
-   "description": "Super Smash Bros Ultimate tournament on Switch 2",
+   "description": "Super Smash Bros Ultimate tournament on Switch 2.",
    "url": "https://thekickback.bar/",
    "image": "",
    "venue": "The Kickback",
@@ -6204,23 +6456,22 @@
    "id": "01e4010c9b55",
    "title": "Dragonsocks & Queen of the Universe",
    "start": "2026-11-06T19:30-06:00",
-   "end": null,
+   "end": "2026-11-06T19:30-06:00",
    "all_day": false,
    "category": "theater",
    "price": null,
-   "description": "",
-   "url": "https://bstonline.org/",
-   "image": "",
+   "description": "Dragonsocks & Queen of the Universe Written by local playwright Brendon Smith Directed by Suzan Kurry (Artistic Director of KR Women’s Theater) (Please Note: If EventBrite says we’re … Continue reading Dragonsocks & Queen of the Universe \\n",
+   "url": "https://bstonline.org/event/dragonsocks-and-the-queen-of-the-universe-5/",
+   "image": "https://bstonline.org/wp-content/uploads/2026/09/dragonsocks-FB-cover-imageV4.jpg",
    "venue": "Broom Street Theater",
    "venue_id": "osm:way/385639211",
    "venue_kind": "venue",
    "address": "1119 Williamson Street",
    "lat": 43.0821088,
    "lon": -89.3652249,
-   "source": "extra",
-   "via": "Isthmus",
-   "city": "Madison",
+   "source": "scraped",
    "sources": [
+    "Venue websites",
     "Isthmus"
    ],
    "link_ok": true
@@ -7107,7 +7358,7 @@
    "all_day": false,
    "category": "music",
    "price": null,
-   "description": "Doors 7pm.",
+   "description": "Live show featuring Droids Attack, Peacemaker and The Eggs. Doors 7pm.",
    "url": "https://gammaray.bar",
    "image": "",
    "venue": "Gamma Ray Bar",
@@ -7431,7 +7682,7 @@
    "all_day": false,
    "category": "music",
    "price": null,
-   "description": "Pin-golf tour session with craft beer and league night",
+   "description": "Session 2 of the Kickback9 pin-golf tour, sponsored by Yuengling.",
    "url": "https://thekickback.bar/",
    "image": "",
    "venue": "The Kickback",
@@ -7715,7 +7966,7 @@
    "all_day": false,
    "category": "music",
    "price": null,
-   "description": "Doors 7pm.",
+   "description": "Live show featuring Dusk, Visual Learner, Yuasa-Exide and Boo/Hiss. Doors 7pm.",
    "url": "https://gammaray.bar",
    "image": "",
    "venue": "Gamma Ray Bar",
@@ -8033,6 +8284,29 @@
    "link_ok": null
   },
   {
+   "id": "2321d8b58310",
+   "title": "Zumba",
+   "start": "2026-11-10T18:00-06:00",
+   "end": "2026-11-10T19:00-06:00",
+   "all_day": false,
+   "category": "dance",
+   "price": null,
+   "description": "Join us for a high-energy Zumba class, where you can dance, sweat, and have fun while getting fit with a great group of people! Pre-registration is not required.",
+   "url": "https://bayviewfoundation.org/event/zumba/2026-11-10/",
+   "image": "https://bayviewfoundation.org/wp-content/uploads/2024/12/health-wellness.png",
+   "venue": "Bayview Community Center",
+   "venue_id": "osm:way/1323648187",
+   "venue_kind": "community",
+   "address": "103 La Mariposa Lane",
+   "lat": 43.0663858,
+   "lon": -89.3975076,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "917e91fded34",
    "title": "Open Mic w/ Martin Hunt",
    "start": "2026-11-10T18:00-06:00",
@@ -8109,7 +8383,7 @@
    "all_day": false,
    "category": "trivia",
    "price": null,
-   "description": "Tuesday trivia night",
+   "description": "Tuesday trivia night.",
    "url": "https://thekickback.bar/",
    "image": "",
    "venue": "The Kickback",
@@ -8942,6 +9216,306 @@
    "city": "Madison",
    "sources": [
     "Isthmus"
+   ],
+   "link_ok": null
+  },
+  {
+   "id": "3264e8a054cd",
+   "title": "Doug White Quartet",
+   "start": "2026-11-13T17:00-06:00",
+   "end": "2026-11-13T18:30-06:00",
+   "all_day": false,
+   "category": "music",
+   "price": 0.0,
+   "description": "This show features rich, liquid flute and sax playing by Tom Gullion, smooth, solid bass by Mark Urness, fascinating drum rhythms by Dane Richeson, and sensitive, lively piano and organ by Doug White. This performance is free of charge. Freewill offerings are encouraged to help keep the music flowin",
+   "url": "https://www.cafecoda.club/events-1/doug-white-quartet-1-6gly7-eypa9-yt6pe",
+   "image": "https://images.squarespace-cdn.com/content/v1/6914abebeed4305fd5ea6ea5/1782500976523-M7HDPAG4ZZK954HUCO0R/tempImageZVPPeW.gif",
+   "venue": "Cafe CODA",
+   "venue_id": "osm:way/385639191",
+   "venue_kind": "bar",
+   "address": "1224 Williamson Street",
+   "lat": 43.0839938,
+   "lon": -89.3638172,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "0adbe9941b28",
+   "title": "Badger Rock CommUNITY Dinner",
+   "start": "2026-11-13T17:30-06:00",
+   "end": "2026-11-13T19:00-06:00",
+   "all_day": false,
+   "category": "food",
+   "price": 0.0,
+   "description": "Join us for our free monthly dinner and connect with neighbors. Dinner prepared by Kipp Thomas the Badger Rock youth. More event details: https://www.facebook.com/BadgerRockNeighborhoodCenter/events Please enter at door #4 on the Badger Park side of the building.",
+   "url": "https://rootedwi.org/event/badger-rock-community-dinner-5/2026-11-13/",
+   "image": "https://rootedwi.org/wp-content/uploads/2025/05/54514624179_a48a84664c_o-scaled.jpg",
+   "venue": "Badger Rock Neighborhood Center",
+   "venue_id": "osm:node/13421586427",
+   "venue_kind": "community",
+   "address": "517 East Badger Road",
+   "lat": 43.0380563,
+   "lon": -89.3777429,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "b592835a0744",
+   "title": "Magic Rob EVERY Friday – tableside magic and family FUN!",
+   "start": "2026-11-13T18:00-06:00",
+   "end": "2026-11-13T20:00-06:00",
+   "all_day": false,
+   "category": "food",
+   "price": 0.0,
+   "description": "Madison’s Magic Rob provides FREE, family-friendly tableside and waiting area entertainment from 6-8pm EVERY FRIDAY. You never know when he’ll magically appear… be ready! Enjoy all-day Fish Fry Every Friday!",
+   "url": "https://thelonegirl.com/event/magic-rob-every-friday-tableside-2-2-2-3-2-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2/",
+   "image": "https://thelonegirl.com/wp-content/uploads/2023/08/Magic-Rob-Inside.jpg",
+   "venue": "Lone Girl Tap Room And Pizza Company",
+   "venue_id": "osm:node/12641566168",
+   "venue_kind": "bar",
+   "address": "1817 East Washington Avenue",
+   "lat": 43.0907077,
+   "lon": -89.3608921,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "1653a70a21e0",
+   "title": "Joey B’s Birthday Benefit for Black Star Drum Line",
+   "start": "2026-11-13T19:00-06:00",
+   "end": "2026-11-13T20:00-06:00",
+   "all_day": false,
+   "category": "music",
+   "price": 30.0,
+   "description": "6:00PM - 1:00AM Standing Room Only Floor: $25ADV / $30DOS Balcony Seating: $50",
+   "url": "https://www.theatwoodmusichall.com/shows/2026-11-13",
+   "image": "https://images.squarespace-cdn.com/content/v1/62cacf3906240b03a9e7209f/1788368849829-1M8ZKMW94BY1U5K6AE4F/0E082116-28CA-4160-86F0-517F9BCEF0C5.png",
+   "venue": "Atwood Music Hall",
+   "venue_id": "osm:way/440518288",
+   "venue_kind": "venue",
+   "address": "1925 Winnebago Street",
+   "lat": 43.0909399,
+   "lon": -89.3556544,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "a1510b7d1f97",
+   "title": "Gabriel Wade & Arun Lūthrā Quintet",
+   "start": "2026-11-13T19:00-06:00",
+   "end": "2026-11-13T20:30-06:00",
+   "all_day": false,
+   "category": "music",
+   "price": null,
+   "description": "",
+   "url": "https://www.cafecoda.club/events-1/gabriel-wade-arun-lthr-quintet",
+   "image": "https://images.squarespace-cdn.com/content/v1/6914abebeed4305fd5ea6ea5/1792953885361-1GS3VM2AT607V13E6YA0/Gabriel+Wade+%26+Arun+Luthra+Poster.png",
+   "venue": "Cafe CODA",
+   "venue_id": "osm:way/385639191",
+   "venue_kind": "bar",
+   "address": "1224 Williamson Street",
+   "lat": 43.0839938,
+   "lon": -89.3638172,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "3e4df062a8fa",
+   "title": "Hottt Probs, Heet Deth & Sex Scenes",
+   "start": "2026-11-13T19:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "music",
+   "price": null,
+   "description": "Rock / Pop",
+   "url": "https://www.ticketmaster.com/hottt-probs-heet-deth-sex-scenes-madison-wisconsin-11-13-2026/event/07006519C889598F",
+   "image": "https://s1.ticketm.net/dam/e/162/4a7fe4e6-84ba-4f79-a0f7-76b94db4c162_RETINA_PORTRAIT_16_9.jpg",
+   "venue": "High Noon Saloon",
+   "venue_id": "osm:node/1348850872",
+   "venue_kind": "bar",
+   "address": "701 E Washington Ave",
+   "lat": 43.0797191,
+   "lon": -89.3762962,
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster",
+    "AI page reading"
+   ],
+   "link_ok": null
+  },
+  {
+   "id": "0d33b8c2932b",
+   "title": "Wisconsin Badgers Hockey vs. Ohio State Buckeyes Mens Ice Hockey",
+   "start": "2026-11-13T19:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "sports",
+   "price": null,
+   "description": "Hockey / College",
+   "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAevv-",
+   "image": "https://s1.ticketm.net/dam/a/267/aed721a8-9e5f-4096-bfac-2e30dc1c7267_RETINA_PORTRAIT_16_9.jpg",
+   "venue": "Kohl Center",
+   "venue_id": "tm:Z6r9jZaaee",
+   "venue_kind": "venue",
+   "address": "601 W. Dayton St.",
+   "lat": 43.016399,
+   "lon": -89.420097,
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster"
+   ],
+   "link_ok": null
+  },
+  {
+   "id": "bcc450e7107a",
+   "title": "Fallout Launch Party",
+   "start": "2026-11-13T19:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "trivia",
+   "price": null,
+   "description": "Launch party for Fallout with craft beer and pinball.",
+   "url": "https://thekickback.bar/",
+   "image": "",
+   "venue": "The Kickback",
+   "venue_id": "osm:node/12292190391",
+   "venue_kind": "bar",
+   "address": "7622 Lisa Lane",
+   "lat": 43.1092621,
+   "lon": -89.5123266,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "d123dec50428",
+   "title": "Madison Capitols vs. Green Bay Gamblers",
+   "start": "2026-11-13T19:05-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "sports",
+   "price": null,
+   "description": "Hockey / Ice Hockey",
+   "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvFG7",
+   "image": "https://s1.ticketm.net/dam/c/61c/37e6dc36-b80c-45a5-9bc5-960c7a98161c_106321_RETINA_PORTRAIT_16_9.jpg",
+   "venue": "Legacy20 Arena at Deforest Yards",
+   "venue_id": "tm:Z7r9jZak-N",
+   "venue_kind": "venue",
+   "address": "6251 Monticello Drive",
+   "lat": 43.233799,
+   "lon": -89.331802,
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster"
+   ],
+   "link_ok": null
+  },
+  {
+   "id": "4a2d9c5c5c3a",
+   "title": "Friday the 13th Tribute Party Ft. PheRAMONES, Insomniacs (Green Day), TRAEFI(AFI)",
+   "start": "2026-11-13T20:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "music",
+   "price": null,
+   "description": "Friday the 13th tribute party with PheRAMONES (Ramones tribute), Insomniacs (Green Day tribute) and TRAEFI (AFI tribute). Doors 7pm.",
+   "url": "https://gammaray.bar",
+   "image": "",
+   "venue": "Gamma Ray Bar",
+   "venue_id": "osm:node/12156142686",
+   "venue_kind": "bar",
+   "address": "121 West Main Street",
+   "lat": 43.072436,
+   "lon": -89.3848247,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "15b03e7a8bbc",
+   "title": "The Widdler",
+   "start": "2026-11-13T20:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "music",
+   "price": null,
+   "description": "Dance/Electronic / Amapiano",
+   "url": "https://www.ticketmaster.com/the-widdler-madison-wisconsin-11-13-2026/event/0700653087F41BF7",
+   "image": "https://s1.ticketm.net/dam/e/689/d4ea1d37-e953-4a71-b94c-2f75448d5689_RETINA_PORTRAIT_16_9.jpg",
+   "venue": "Majestic",
+   "venue_id": "osm:way/416476672",
+   "venue_kind": "venue",
+   "address": "115 King Street",
+   "lat": 43.0744152,
+   "lon": -89.3808535,
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster"
+   ],
+   "link_ok": null
+  },
+  {
+   "id": "5b7d50efa82d",
+   "title": "Steve Poltz - 21+",
+   "start": "2026-11-13T20:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "music",
+   "price": null,
+   "description": "Other / Other",
+   "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvZ8O",
+   "image": "https://s1.ticketm.net/dam/a/c47/46a356c0-01a6-469b-9d31-ef2485575c47_1797721_RETINA_PORTRAIT_16_9.jpg",
+   "venue": "The Bur Oak",
+   "venue_id": "osm:way/678047869",
+   "venue_kind": "venue",
+   "address": "2262 Winnebago Street",
+   "lat": 43.0969662,
+   "lon": -89.3517049,
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster"
+   ],
+   "link_ok": null
+  },
+  {
+   "id": "49aaba624ff9",
+   "title": "Kitchen Dwellers x Dogs in a Pile",
+   "start": "2026-11-13T20:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "music",
+   "price": null,
+   "description": "Country / Bluegrass",
+   "url": "https://www.ticketmaster.com/kitchen-dwellers-x-dogs-in-a-madison-wisconsin-11-13-2026/event/0700650CA49CE57A",
+   "image": "https://s1.ticketm.net/dam/a/420/1fc4f383-90cc-48ad-a87c-b66a9eda2420_RETINA_PORTRAIT_16_9.jpg",
+   "venue": "The Sylvee",
+   "venue_id": "osm:node/6431700291",
+   "venue_kind": "venue",
+   "address": "",
+   "lat": 43.080559,
+   "lon": -89.3742549,
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster"
    ],
    "link_ok": null
   }
