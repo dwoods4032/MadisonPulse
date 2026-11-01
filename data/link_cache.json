@@ -99,16 +99,6 @@
   "why": "",
   "checked": "2026-10-27T14:37:22.267537-05:00"
  },
- "https://www.ticketmaster.com/event/Z7r9jZ1AAZMqZ": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-10-27T14:37:23.347526-05:00"
- },
- "https://www.ticketmaster.com/event/Z7r9jZ1AAevvO": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-10-27T14:37:24.428227-05:00"
- },
  "https://www.workingdraftbeer.com/events/2026/10/31/halloween-at-wdbc-2026": {
   "ok": true,
   "why": "",
@@ -123,11 +113,6 @@
   "ok": true,
   "why": "",
   "checked": "2026-10-27T14:37:24.428261-05:00"
- },
- "https://www.ticketmaster.com/event/Z7r9jZ1AAZy0I": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-10-27T14:37:25.501641-05:00"
  },
  "https://www.fullmilebeercompany.com/events/2026/10/31/brew-ha-halloween-2026": {
   "ok": true,
@@ -3809,19 +3794,59 @@
   "why": "",
   "checked": "2026-10-31T11:08:48.327802-05:00"
  },
- "https://statestreetbrats.com/event/cavaliers-bucks-20261031/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-31T11:08:48.327828-05:00"
- },
- "https://www.madisonpubliclibrary.org/locations/pinney-library": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-31T11:08:48.327835-05:00"
- },
  "https://www.cafecoda.club/events-1/cool-school-1-mwk5m-6mm75-4gl5k-x3bxx-2l3ky-wk7lh-m59ge-aep6w-pnxbz": {
   "ok": true,
   "why": "",
   "checked": "2026-10-31T11:08:48.327841-05:00"
+ },
+ "https://statestreetbrats.com/event/wisconsin-ucla-20261101/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-31T21:15:23.741981-05:00"
+ },
+ "https://www.workingdraftbeer.com/events/2026/11/14/pickle-day-palooza": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-31T21:15:23.819100-05:00"
+ },
+ "https://www.ticketmaster.com/event/Z7r9jZ1AAvt39": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-10-31T21:15:23.940785-05:00"
+ },
+ "https://www.ticketmaster.com/event/Z7r9jZ1AAevvx": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-10-31T21:15:25.036545-05:00"
+ },
+ "https://www.theatwoodmusichall.com/shows/2026-11-14": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-31T21:15:25.036575-05:00"
+ },
+ "https://www.cafecoda.club/events-1/isabella-isherwood": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-10-31T21:15:25.036585-05:00"
+ },
+ "https://www.ticketmaster.com/hips-dont-lie-a-tribute-to-madison-wisconsin-11-14-2026/event/07006530EB4E8856": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-10-31T21:15:26.169664-05:00"
+ },
+ "https://www.ticketmaster.com/ethan-regan-young-regan-tour-madison-wisconsin-11-14-2026/event/070064BCC44B52B9": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-10-31T21:15:28.439683-05:00"
+ },
+ "https://www.ticketmaster.com/the-mavericks-friends-madison-wisconsin-11-14-2026/event/0700649CD4A46989": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-10-31T21:15:28.439712-05:00"
+ },
+ "https://www.ticketmaster.com/everclear-lucky-7-tour-madison-wisconsin-11-14-2026/event/070064AD9C3572EC": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-10-31T21:15:29.802279-05:00"
  }
 }

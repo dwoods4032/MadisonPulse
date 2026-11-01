@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-31T11:08:46-05:00",
+ "generated_at": "2026-10-31T21:15:23-05:00",
  "venues_checked": 237,
- "venues_with_events": 63,
- "venues_with_feeds": 84,
- "events": 366,
- "filtered_out": 161,
+ "venues_with_events": 62,
+ "venues_with_feeds": 83,
+ "events": 358,
+ "filtered_out": 165,
  "venues": [
   {
    "name": "AI page reading",
@@ -13,12 +13,12 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 167,
+   "raw_events": 174,
    "error": "",
-   "calls": 12,
-   "tokens_in": 29425,
-   "tokens_out": 10661,
-   "est_cost_usd": 0.0083
+   "calls": 15,
+   "tokens_in": 42190,
+   "tokens_out": 19255,
+   "est_cost_usd": 0.0138
   },
   {
    "name": "Isthmus calendar",
@@ -28,7 +28,7 @@
     "calendar"
    ],
    "raw_events": 145,
-   "error": ""
+   "error": "used today's copy (read once a day)"
   },
   {
    "name": "Bayview Community Center",
@@ -48,7 +48,7 @@
    "feeds": [
     "ticketmaster"
    ],
-   "raw_events": 59,
+   "raw_events": 63,
    "error": ""
   },
   {
@@ -136,7 +136,7 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 16,
+   "raw_events": 17,
    "error": ""
   },
   {
@@ -188,6 +188,16 @@
    "error": ""
   },
   {
+   "name": "Reindahl Park Pavillion",
+   "kind": "community",
+   "website": "https://www.cityofmadison.com/parks/find-a-park/reindahl/pavilion-at-the-imagination-center",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 9,
+   "error": ""
+  },
+  {
    "name": "The Kickback",
    "kind": "bar",
    "website": "https://thekickback.bar/",
@@ -198,19 +208,19 @@
    "error": ""
   },
   {
-   "name": "Reindahl Park Pavillion",
-   "kind": "community",
-   "website": "https://www.cityofmadison.com/parks/find-a-park/reindahl/pavilion-at-the-imagination-center",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 8,
-   "error": ""
-  },
-  {
    "name": "Veterans Memorial Park",
    "kind": "veterans",
    "website": "https://www.cityofmadison.com/parks/find-a-park/park.cfm?id=1364",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 9,
+   "error": ""
+  },
+  {
+   "name": "Imagination Center",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
    "feeds": [
     "ai"
    ],
@@ -234,13 +244,23 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 6,
+   "raw_events": 7,
    "error": ""
   },
   {
    "name": "Orpheum Theatre",
    "kind": "venue",
    "website": "https://madisonorpheum.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 6,
+   "error": ""
+  },
+  {
+   "name": "Sequoya Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/sequoya",
    "feeds": [
     "ai"
    ],
@@ -289,16 +309,6 @@
    "error": ""
   },
   {
-   "name": "Imagination Center",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 5,
-   "error": ""
-  },
-  {
    "name": "Monroe Street Library",
    "kind": "library",
    "website": "https://www.madisonpubliclibrary.org/monroe-street",
@@ -312,16 +322,6 @@
    "name": "Pinney Library",
    "kind": "library",
    "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 5,
-   "error": ""
-  },
-  {
-   "name": "Sequoya Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/sequoya",
    "feeds": [
     "ai"
    ],
@@ -395,6 +395,16 @@
    "error": ""
   },
   {
+   "name": "Lakeside Street Coffee House",
+   "kind": "cafe",
+   "website": "https://lakesidestcoffeehouse.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 4,
+   "error": ""
+  },
+  {
    "name": "Vera Court Neighborhood Center",
    "kind": "community",
    "website": "https://www.veracourt.org/",
@@ -449,16 +459,6 @@
    "error": ""
   },
   {
-   "name": "Laurel Tavern",
-   "kind": "bar",
-   "website": "http://www.thelaureltavern.com",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 3,
-   "error": ""
-  },
-  {
    "name": "Monkeyshines Bar & Grill",
    "kind": "bar",
    "website": "http://www.monkeyshinesbarandgrill.com/",
@@ -469,9 +469,9 @@
    "error": ""
   },
   {
-   "name": "Overture Center for the Arts",
-   "kind": "venue",
-   "website": "http://overturecenter.com",
+   "name": "State Line Distillery",
+   "kind": "brewery",
+   "website": "https://www.statelinedistillery.com/",
    "feeds": [
     "ai"
    ],
@@ -521,9 +521,9 @@
    "error": ""
   },
   {
-   "name": "Lakeside Street Coffee House",
-   "kind": "cafe",
-   "website": "https://lakesidestcoffeehouse.com/",
+   "name": "Laurel Tavern",
+   "kind": "bar",
+   "website": "http://www.thelaureltavern.com",
    "feeds": [
     "ai"
    ],
@@ -562,19 +562,9 @@
    "error": ""
   },
   {
-   "name": "Oscar Rennebohm Library",
-   "kind": "library",
-   "website": "https://library.edgewood.edu/home",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 2,
-   "error": ""
-  },
-  {
-   "name": "State Line Distillery",
-   "kind": "brewery",
-   "website": "https://www.statelinedistillery.com/",
+   "name": "Overture Center for the Arts",
+   "kind": "venue",
+   "website": "http://overturecenter.com",
    "feeds": [
     "ai"
    ],
@@ -665,9 +655,9 @@
    "error": ""
   },
   {
-   "name": "Karben4 Brewing",
-   "kind": "brewery",
-   "website": "https://www.karben4.com/",
+   "name": "Oscar Rennebohm Library",
+   "kind": "library",
+   "website": "https://library.edgewood.edu/home",
    "feeds": [
     "ai"
    ],
@@ -882,7 +872,7 @@
    "website": "https://cervatowine.com/",
    "feeds": [],
    "raw_events": 0,
-   "error": "ai: ConnectTimeout: HTTPSConnectionPool(host='cervatowine.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='cervatowine.com', port=443) at 0x74627"
+   "error": ""
   },
   {
    "name": "Chazen Cafe",
@@ -1252,6 +1242,14 @@
    "error": ""
   },
   {
+   "name": "Karben4 Brewing",
+   "kind": "brewery",
+   "website": "https://www.karben4.com/",
+   "feeds": [],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
    "name": "Kehl School of Dance",
    "kind": "venue",
    "website": "https://www.kehldance.com/",
@@ -1365,7 +1363,7 @@
    "website": "https://madison-tap.com/",
    "feeds": [],
    "raw_events": 0,
-   "error": ""
+   "error": "ai: ReadTimeout: HTTPSConnectionPool(host='madison-tap.com', port=443): Read timed out. (read timeout=15)"
   },
   {
    "name": "Madison Youth Arts (MYArts)",
@@ -1434,7 +1432,7 @@
   {
    "name": "Moka",
    "kind": "cafe",
-   "website": "https://www.mymokacoffee.com/",
+   "website": "https://mymokacoffee.com/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1442,7 +1440,7 @@
   {
    "name": "Moka",
    "kind": "cafe",
-   "website": "https://mymokacoffee.com/",
+   "website": "https://www.mymokacoffee.com/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1680,7 +1678,7 @@
   {
    "name": "Starbucks",
    "kind": "cafe",
-   "website": "https://www.starbucks.com/store-locator/store/12525/university-north-blackhawk-3515-university-avenue-madison-wi-537052140-us",
+   "website": "https://www.starbucks.com/store-locator/store/16482/capitol-square-main-mlk-1-e-main-st-madison-wi-537033373-us",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1688,7 +1686,7 @@
   {
    "name": "Starbucks",
    "kind": "cafe",
-   "website": "https://www.starbucks.com/store-locator/store/16482/capitol-square-main-mlk-1-e-main-st-madison-wi-537033373-us",
+   "website": "https://www.starbucks.com/store-locator/store/12525/university-north-blackhawk-3515-university-avenue-madison-wi-537052140-us",
    "feeds": [],
    "raw_events": 0,
    "error": ""

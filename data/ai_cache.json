@@ -108,19 +108,10 @@
   "events": []
  },
  "https://gammaray.bar/shows/": {
-  "hash": "6287ade98dda1222d032458ee45f4d8121f9e704",
-  "asked": "2026-10-30T21:23:04-05:00",
-  "on": "2026-10-30",
+  "hash": "7af2e852d493bab1a6c849b62d5dcfe011416bdc",
+  "asked": "2026-10-31T21:14:02-05:00",
+  "on": "2026-10-31",
   "events": [
-   {
-    "title": "Monster Bash ft. Them & The Things, The Brush Strokes (Strokes Tribute) and American Literate (Green Day Tribute)",
-    "date": "2026-10-30",
-    "start": "20:00",
-    "end": null,
-    "price": null,
-    "description": "Halloween-week show with Them & The Things, The Brush Strokes (Strokes tribute) and American Literate (Green Day tribute). Doors 7pm.",
-    "category": "music"
-   },
    {
     "title": "Halloween with Friend Request",
     "date": "2026-10-31",
@@ -136,7 +127,7 @@
     "start": "18:00",
     "end": null,
     "price": null,
-    "description": "Music video trivia hosted by Gamma Ray Bar. Doors 5:45pm.",
+    "description": "Music video trivia night. Doors 5:45pm.",
     "category": "trivia"
    },
    {
@@ -145,7 +136,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Live show featuring Sova, Slick and The Moss Men. Doors 7pm.",
+    "description": "Live show with Sova, Slick and The Moss Men. Doors 7pm.",
     "category": "music"
    },
    {
@@ -154,7 +145,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Live show featuring Droids Attack, Peacemaker and The Eggs. Doors 7pm.",
+    "description": "Live show with Droids Attack, Peacemaker and The Eggs. Doors 7pm.",
     "category": "music"
    },
    {
@@ -163,7 +154,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Live show featuring Dusk, Visual Learner, Yuasa-Exide and Boo/Hiss. Doors 7pm.",
+    "description": "Live show with Dusk, Visual Learner, Yuasa-Exide and Boo/Hiss. Doors 7pm.",
     "category": "music"
    },
    {
@@ -172,7 +163,16 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Friday the 13th tribute party with PheRAMONES (Ramones tribute), Insomniacs (Green Day tribute) and TRAEFI (AFI tribute). Doors 7pm.",
+    "description": "Friday the 13th tribute party featuring PheRAMONES, Insomniacs (Green Day) and TRAEFI (AFI). Doors 7pm.",
+    "category": "music"
+   },
+   {
+    "title": "Adult Book Club Album Release w/ Cause & Control and Get Well Now",
+    "date": "2026-11-14",
+    "start": "20:00",
+    "end": null,
+    "price": null,
+    "description": "Adult Book Club album release show with Cause & Control and Get Well Now. Doors 7pm.",
     "category": "music"
    }
   ]
@@ -773,12 +773,12 @@
   ]
  },
  "https://high-noon.com/event/fruition/": {
-  "hash": "2b30968c26430262208dfbcd1bed4c7b444586c7",
-  "asked": "2026-10-30T21:23:07-05:00",
-  "on": "2026-10-30",
+  "hash": "bbde9730cbfefa494e9780e14e0426f516a8201f",
+  "asked": "2026-10-31T21:14:05-05:00",
+  "on": "2026-10-31",
   "events": [
    {
-    "title": "Fruition: Something More - The Final Tour, with Gardener",
+    "title": "Fruition: Something More: The Final Tour (with Gardener)",
     "date": "2026-11-10",
     "start": "20:00",
     "end": null,
@@ -1289,9 +1289,9 @@
   "events": []
  },
  "https://lakesidestcoffeehouse.com/music-calendar": {
-  "hash": "66cd9d9546269d2439e396833a0a78a02b92179d",
-  "asked": "2026-10-29T21:37:41-05:00",
-  "on": "2026-10-29",
+  "hash": "8ca18ec0a3c197933e101f7ff37eb42f71afd610",
+  "asked": "2026-10-31T21:14:30-05:00",
+  "on": "2026-10-31",
   "events": [
    {
     "title": "The Honey Pies",
@@ -1299,7 +1299,7 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Live music at Lakeside Street Coffee House. No cover, suggested donation.",
+    "description": "Live music at Lakeside Street Coffee House. Doors open one hour before showtime; no cover, suggested donation.",
     "category": "music"
    },
    {
@@ -1308,14 +1308,32 @@
     "start": "19:00",
     "end": "21:00",
     "price": null,
-    "description": "Local author Lily Comp discusses her first book, Scenic Natural Wonders of Wisconsin, with a crafting activity.",
+    "description": "Local author Lily Comp discusses her first book, Scenic Natural Wonders of Wisconsin, with a crafting session.",
     "category": "other"
+   },
+   {
+    "title": "Trio Soliel",
+    "date": "2026-11-13",
+    "start": "19:00",
+    "end": null,
+    "price": null,
+    "description": "Live music at Lakeside Street Coffee House. Doors open one hour before showtime; no cover, suggested donation.",
+    "category": "music"
+   },
+   {
+    "title": "Recuerdos Flamencos: An Evening of Spanish Guitar and Dance",
+    "date": "2026-11-14",
+    "start": "19:30",
+    "end": null,
+    "price": 20,
+    "description": "Spanish guitar and dance; 9th Annual Memorial Scholarship Fundraiser. Suggested donation $20, or $15.",
+    "category": "music"
    }
   ]
  },
  "https://merciescoffeewi.com/": {
-  "hash": "ee2b5dd8cee8bc73acf97ca25c4c67fd3f99c697",
-  "asked": "2026-10-31T11:07:02-05:00",
+  "hash": "c280be383e306231ef2143cd1d481816e3650604",
+  "asked": "2026-10-31T21:14:33-05:00",
   "on": "2026-10-31",
   "events": []
  },
@@ -1555,8 +1573,8 @@
   "events": []
  },
  "https://www.madisonpubliclibrary.org/spaces/events": {
-  "hash": "b98a6aff747184188cbe7d81fc128f8922fbe2fa",
-  "asked": "2026-10-31T11:07:36-05:00",
+  "hash": "62ff88856358c4d938327f051bc964a2a07a07ce",
+  "asked": "2026-10-31T21:15:05-05:00",
   "on": "2026-10-31",
   "events": []
  },
@@ -1694,8 +1712,8 @@
  },
  "https://escmadison.com/events": {
   "hash": "2c35a46faa2a44e3a186f19029e72a3a6b2c7850",
-  "asked": "2026-10-28T12:11:39-05:00",
-  "on": "2026-10-28",
+  "asked": "2026-10-31T21:15:04-05:00",
+  "on": "2026-10-31",
   "events": [
    {
     "title": "Open Mic w/ Martin Hunt",
@@ -1703,7 +1721,7 @@
     "start": "18:00",
     "end": "21:00",
     "price": 0,
-    "description": "Host Martin Hunt's open mic for all skill levels. Free. Bar opens at 5pm; food available from the grill.",
+    "description": "Host Martin Hunt's open mic for all skill levels. Free. Bar opens 5pm; grill food available.",
     "category": "open_mic"
    },
    {
@@ -1712,7 +1730,7 @@
     "start": "09:00",
     "end": "15:00",
     "price": 0,
-    "description": "Two floors of handmade crafts and vendors, with a Bloody Mary bar. Free admission; food available for purchase.",
+    "description": "Two floors of handmade crafts and vendors. Free admission. Bloody Mary bar; food for purchase.",
     "category": "other"
    },
    {
@@ -1721,15 +1739,15 @@
     "start": "18:00",
     "end": "21:00",
     "price": 0,
-    "description": "Host Martin Hunt's open mic for all skill levels. Free. Bar opens at 5pm; food available from the grill.",
+    "description": "Host Martin Hunt's open mic for all skill levels. Free. Bar opens 5pm; grill food available.",
     "category": "open_mic"
    }
   ]
  },
  "https://www.madisonpubliclibrary.org/spaces/events/search": {
-  "hash": "3a29803951206d4ba3543aed6cfc339e7f80f09f",
-  "asked": "2026-10-30T21:24:18-05:00",
-  "on": "2026-10-30",
+  "hash": "58b0d34680d9cf8311feffc21554e374f098a787",
+  "asked": "2026-10-31T21:15:22-05:00",
+  "on": "2026-10-31",
   "events": []
  },
  "https://artlitlab.org/calendar": {
@@ -1856,26 +1874,17 @@
   ]
  },
  "https://www.overture.org/tickets-events/": {
-  "hash": "de9637b717762fcd90043a05e3605935750f1a9b",
-  "asked": "2026-10-31T11:07:46-05:00",
+  "hash": "17ad93d0064095d3d57201bf7e01243e8703a57a",
+  "asked": "2026-10-31T21:15:18-05:00",
   "on": "2026-10-31",
   "events": [
-   {
-    "title": "Wild Rumpus Circus",
-    "date": "2026-10-31",
-    "start": "13:00",
-    "end": null,
-    "price": null,
-    "description": "Circus performance at Overture Center at 1:00 PM.",
-    "category": "other"
-   },
    {
     "title": "Stuart Stotts",
     "date": "2026-11-07",
     "start": null,
     "end": null,
     "price": null,
-    "description": "Performance at Overture Center; multiple showtimes listed, times not specified.",
+    "description": "Multiple showtimes listed on Overture's events page.",
     "category": "music"
    },
    {
@@ -1884,7 +1893,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Performance at Overture Center; multiple showtimes listed, times not specified.",
+    "description": "Multiple showtimes listed on Overture's events page.",
     "category": "music"
    }
   ]

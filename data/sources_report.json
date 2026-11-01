@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-10-31T11:08:46-05:00",
- "total_events": 366,
- "in_more_than_one_source": 27,
+ "generated_at": "2026-10-31T21:15:23-05:00",
+ "total_events": 358,
+ "in_more_than_one_source": 28,
  "sources": {
   "AI page reading": {
-   "events": 121,
-   "unique_events": 105,
+   "events": 124,
+   "unique_events": 107,
    "overlap": {
     "Isthmus": 0,
-    "Ticketmaster": 16,
+    "Ticketmaster": 17,
     "Venue websites": 0
    },
-   "venues": 32,
+   "venues": 31,
    "unique_venues": [
     "Aftershock Classic Arcade",
     "Arts + Literature Laboratory",
@@ -32,7 +32,6 @@
     "Old Sugar Distillery",
     "Oscar Rennebohm Library",
     "Overture Center for the Arts",
-    "Pinney Library",
     "Reindahl Park Pavillion",
     "Sequoya Library",
     "State Line Distillery",
@@ -43,16 +42,15 @@
    ]
   },
   "Isthmus": {
-   "events": 145,
-   "unique_events": 137,
+   "events": 129,
+   "unique_events": 121,
    "overlap": {
     "AI page reading": 0,
     "Ticketmaster": 1,
     "Venue websites": 7
    },
-   "venues": 80,
+   "venues": 71,
    "unique_venues": [
-    "A Room of One's Own",
     "Aikido of Madison",
     "Alliant Energy Center",
     "American Players Theatre",
@@ -69,7 +67,6 @@
     "Chocolate Shoppe Ice Cream - Monroe Street",
     "Concourse Hotel",
     "Crucible",
-    "Donald County Park",
     "DoubleTree by Hilton Madison East",
     "Essen Haus",
     "FreeWheel Community Bike Shop",
@@ -79,7 +76,6 @@
     "Great Dane - Downtown",
     "Green Room Public House",
     "Hidden Cave Cidery",
-    "History Maker Space",
     "Holy Wisdom Monastery",
     "Hop Garden",
     "Hop Garden Brewing & Tap Room",
@@ -95,8 +91,6 @@
     "Madison Police Department Training Center",
     "Madison Youth Arts",
     "Mansion Hill Inn",
-    "Martin Street Theatre",
-    "Meadowridge Library",
     "Muso",
     "One Social Food Hall",
     "Overture Center-Capitol Theater",
@@ -110,33 +104,30 @@
     "River Arts on Water",
     "Slowpoke Lounge & Cabaret",
     "Sotto",
-    "Tenney Park",
     "The Atwood",
     "The Cardinal Bar",
     "The Mill",
-    "The Ridges Golf Course",
     "The Rigby",
     "Tradition Children's Market",
     "UW Cinematheque",
-    "UW Hamel Music Center-Collins Recital Hall",
-    "UW Memorial Union-Play Circle",
     "UW Stock Pavilion",
     "Verona Area High School",
     "Wisconsin Masonic Center"
    ]
   },
   "Ticketmaster": {
-   "events": 57,
-   "unique_events": 37,
+   "events": 60,
+   "unique_events": 39,
    "overlap": {
-    "AI page reading": 16,
+    "AI page reading": 17,
     "Isthmus": 1,
     "Venue websites": 3
    },
-   "venues": 12,
+   "venues": 13,
    "unique_venues": [
     "Camp Randall",
     "Capitol Theater - Overture Center",
+    "LaBahn Arena",
     "Legacy20 Arena at Deforest Yards",
     "Roxxy",
     "The Bur Oak",
@@ -145,8 +136,8 @@
    ]
   },
   "Venue websites": {
-   "events": 70,
-   "unique_events": 60,
+   "events": 73,
+   "unique_events": 63,
    "overlap": {
     "AI page reading": 0,
     "Isthmus": 7,
