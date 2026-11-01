@@ -508,26 +508,17 @@
   ]
  },
  "https://high-noon.com/calendar/": {
-  "hash": "a5bccfa137e3494d9bb4445c3600b0fdb847183c",
-  "asked": "2026-10-31T11:06:35-05:00",
-  "on": "2026-10-31",
+  "hash": "d9fe6b31e94f401c6b0c6112ea722f289cb80c49",
+  "asked": "2026-11-01T11:08:13-06:00",
+  "on": "2026-11-01",
   "events": [
-   {
-    "title": "FPC LIVE PRESENTS HalloWEEN '26",
-    "date": "2026-10-31",
-    "start": "20:00",
-    "end": null,
-    "price": null,
-    "description": "BAMM (Southern rock, funk & high-energy improv) and Wild Violets (all female R&B and pop). Doors 19:00.",
-    "category": "music"
-   },
    {
     "title": "Halloween Hangover III",
     "date": "2026-11-01",
     "start": "17:00",
     "end": null,
     "price": null,
-    "description": "The Marilyns as 'The Misfits', Iron Metal Jackson as 'Metallica', and You First as 'Me First And The Gimme Gimmes'. Doors 16:00.",
+    "description": "FPC Live presents Halloween Hangover III with The Marilyns as 'The Misfits', Iron Metal Jackson as 'Metallica', and You First as 'Me First And The Gimme Gimmes'. Doors 4:00 pm.",
     "category": "music"
    },
    {
@@ -536,7 +527,7 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "With Runner and Breakup Shoes. Doors 18:30.",
+    "description": "FPC Live presents Noah Gundersen with Runner and Breakup Shoes. Doors 6:30 pm.",
     "category": "music"
    },
    {
@@ -545,7 +536,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "With Reysha Rami. Doors 19:00.",
+    "description": "FPC Live presents Sophie Hunter with Reysha Rami. Doors 7:00 pm. Low tix.",
     "category": "music"
    },
    {
@@ -554,7 +545,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "With The Braymores. Doors 19:00.",
+    "description": "FPC Live presents The Bends with The Braymores. Doors 7:00 pm. Low tix.",
     "category": "music"
    },
    {
@@ -563,7 +554,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "With Genevieve Heyward. Doors 19:00.",
+    "description": "FPC Live presents Six Foot Blonde with Genevieve Heyward. Doors 7:00 pm.",
     "category": "music"
    },
    {
@@ -572,7 +563,7 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Tenmonthsummer, Barely Civil, Los Kausas, Ourvanity, The Up & Up, The Brash Menagerie, and Irish Goodbyes. Doors 18:00.",
+    "description": "FPC Live presents Unrest Fest 2026 with Tenmonthsummer, Barely Civil, Los Kausas, Ourvanity, The Up & Up, The Brash Menagerie, and Irish Goodbyes. Doors 6:00 pm.",
     "category": "music"
    },
    {
@@ -581,7 +572,7 @@
     "start": "12:00",
     "end": null,
     "price": 20,
-    "description": "With Low Czars. Suggested $20 donation at the door. Doors 11:00.",
+    "description": "FPC Live presents a launch party and music benefit with Low Czars. Suggested $20 donation at the door. Doors 11:00 am.",
     "category": "music"
    },
    {
@@ -590,7 +581,7 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "With Texas Toast Chainsaw Massacre. Doors 18:30.",
+    "description": "FPC Live presents Psychostick with Texas Toast Chainsaw Massacre. Doors 6:30 pm.",
     "category": "music"
    },
    {
@@ -599,7 +590,7 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "The Moth storytelling event with the theme 'Home for the Holidays'. Doors 18:30.",
+    "description": "The Moth presents Madison StorySLAM, theme 'Home for the Holidays'. Doors 6:30 pm.",
     "category": "other"
    },
    {
@@ -608,7 +599,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "With Gardener. Doors 19:00.",
+    "description": "FPC Live presents Fruition with Gardener. Doors 7:00 pm.",
     "category": "music"
    },
    {
@@ -617,7 +608,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "With Free Dirt. Doors 19:00.",
+    "description": "FPC Live presents Low Cut Connie with Free Dirt. Doors 7:00 pm.",
     "category": "music"
    },
    {
@@ -626,7 +617,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "With Something To Do and Deven Kay & The Solutions. Doors 19:00.",
+    "description": "FPC Live presents Mustard Plug with Something To Do and Deven Kay & The Solutions. Doors 7:00 pm.",
     "category": "music"
    },
    {
@@ -635,7 +626,7 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Doors 18:00.",
+    "description": "FPC Live presents Hottt Probs, Heet Deth and Sex Scenes. Doors 6:00 pm.",
     "category": "music"
    },
    {
@@ -644,7 +635,16 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Tribute show. Doors 19:00.",
+    "description": "FPC Live presents a tribute to Shakira. Doors 7:00 pm.",
+    "category": "music"
+   },
+   {
+    "title": "almost monday",
+    "date": "2026-11-15",
+    "start": "20:00",
+    "end": null,
+    "price": null,
+    "description": "FPC Live presents almost monday with feel trip. Sold out. Doors 7:00 pm.",
     "category": "music"
    }
   ]
@@ -798,20 +798,10 @@
   ]
  },
  "https://wandosbar.com/madison-downtown-wando-s-events-happenings": {
-  "hash": "da0a864397938f62880227e9e3a5278b02c62db8",
-  "asked": "2026-10-29T21:37:09-05:00",
-  "on": "2026-10-29",
-  "events": [
-   {
-    "title": "Halloween",
-    "date": "2026-10-31",
-    "start": "11:00",
-    "end": "02:00",
-    "price": null,
-    "description": "Bring your best costume and join us on Halloween.",
-    "category": "other"
-   }
-  ]
+  "hash": "1f59e7c9e9592e3eb4bd903ac72886214fbecfc8",
+  "asked": "2026-11-01T11:08:11-06:00",
+  "on": "2026-11-01",
+  "events": []
  },
  "https://tipsycowmadison.com/": {
   "hash": "b27fbdcf56b172bb5012f44d59314c6f8a76bd35",
@@ -842,20 +832,10 @@
   ]
  },
  "https://wandosbar.com/-events-happenings?source=header&spot_id=301&destination=events&promotion=nba_season": {
-  "hash": "da0a864397938f62880227e9e3a5278b02c62db8",
-  "asked": "2026-10-29T21:37:11-05:00",
-  "on": "2026-10-29",
-  "events": [
-   {
-    "title": "Halloween at Wando's",
-    "date": "2026-10-31",
-    "start": "11:00",
-    "end": "02:00",
-    "price": null,
-    "description": "Bring your best costume and join us on Halloween.",
-    "category": "other"
-   }
-  ]
+  "hash": "1f59e7c9e9592e3eb4bd903ac72886214fbecfc8",
+  "asked": "2026-11-01T11:08:13-06:00",
+  "on": "2026-11-01",
+  "events": []
  },
  "https://tinystaphouse.com/": {
   "hash": "98d6224705f931ea24049dc812df1e157a75b11d",
@@ -1338,9 +1318,9 @@
   "events": []
  },
  "https://motherfools.com/event/20261106/mad-city-story-slam-rebellion": {
-  "hash": "34297813aa7ff6f69af25931593c36729d8a85a7",
-  "asked": "2026-10-29T21:37:41-05:00",
-  "on": "2026-10-29",
+  "hash": "c8578c6c99d7fdd0dbecc6d67418f34900fdf5fb",
+  "asked": "2026-11-01T11:08:36-06:00",
+  "on": "2026-11-01",
   "events": [
    {
     "title": "Mad City Story Slam - Rebellion",
@@ -1348,7 +1328,7 @@
     "start": "19:00",
     "end": null,
     "price": 0,
-    "description": "Open mic storytelling night with guest host MEATMAN. Share a 5-minute true, personal story on the theme of rebellion, or just come to listen. Sign-ups start 6:30pm.",
+    "description": "Monthly story slam on the theme of rebellion, with guest host MEATMAN. Share a 5-minute true personal story at the mic or come to listen. Sign-ups 6:30pm.",
     "category": "open_mic"
    }
   ]
@@ -1378,9 +1358,9 @@
   "events": []
  },
  "https://www.motherfools.com/event/20261106/mad-city-story-slam-rebellion": {
-  "hash": "34297813aa7ff6f69af25931593c36729d8a85a7",
-  "asked": "2026-10-29T21:37:43-05:00",
-  "on": "2026-10-29",
+  "hash": "c8578c6c99d7fdd0dbecc6d67418f34900fdf5fb",
+  "asked": "2026-11-01T11:08:38-06:00",
+  "on": "2026-11-01",
   "events": [
    {
     "title": "Mad City Story Slam - Rebellion",
@@ -1388,7 +1368,7 @@
     "start": "19:00",
     "end": null,
     "price": 0,
-    "description": "Open-mic story slam on the theme of rebellion, with guest host MEATMAN. Share a 5-minute true story or come to listen. Sign-ups 6:30pm.",
+    "description": "Open-mic story slam on the theme of rebellion, guest host MEATMAN. Share a 5-minute true personal story; sign-ups from 6:30 PM. Free.",
     "category": "open_mic"
    }
   ]
@@ -1467,10 +1447,20 @@
   "events": []
  },
  "https://iwcmadison.com/calendar/": {
-  "hash": "d65ac9b2158df2a172e85537608ab9c573968e26",
-  "asked": "2026-10-29T21:38:08-05:00",
-  "on": "2026-10-29",
-  "events": []
+  "hash": "372415e0626944de995874ac1f38ebb9dd109c3d",
+  "asked": "2026-11-01T11:09:00-06:00",
+  "on": "2026-11-01",
+  "events": [
+   {
+    "title": "Council Meeting",
+    "date": "2026-11-10",
+    "start": "19:00",
+    "end": "21:00",
+    "price": null,
+    "description": "IWC Council Meeting.",
+    "category": "other"
+   }
+  ]
  },
  "https://www.veronawi.gov/513/Schedules": {
   "hash": "cdc2aa46ed8c744d78b794eb72fd481fcaf360d5",
@@ -1622,9 +1612,9 @@
   ]
  },
  "https://www.library.wisc.edu/music/": {
-  "hash": "22ccf1163994dbd58d42f20055e92e5858db9543",
-  "asked": "2026-10-31T11:07:30-05:00",
-  "on": "2026-10-31",
+  "hash": "80e8f810771aff5a68a456ae770e215a7a0d2f6e",
+  "asked": "2026-11-01T11:09:04-06:00",
+  "on": "2026-11-01",
   "events": []
  },
  "https://www.sunprairiepubliclibrary.org/home-delivery-service": {
@@ -1745,9 +1735,9 @@
   ]
  },
  "https://www.madisonpubliclibrary.org/spaces/events/search": {
-  "hash": "58b0d34680d9cf8311feffc21554e374f098a787",
-  "asked": "2026-10-31T21:15:22-05:00",
-  "on": "2026-10-31",
+  "hash": "2cbd656f1c85c2b4f42eeaa7dc6925ac0b6d4ef6",
+  "asked": "2026-11-01T11:09:17-06:00",
+  "on": "2026-11-01",
   "events": []
  },
  "https://artlitlab.org/calendar": {
@@ -1785,21 +1775,21 @@
   ]
  },
  "https://bartelltheatre.org/": {
-  "hash": "90fa2edf4c18816e22d6f89e458e904f7d5e862d",
-  "asked": "2026-10-31T11:07:42-05:00",
-  "on": "2026-10-31",
+  "hash": "08785181453779d751c67b3bd2a3b3371712f0e8",
+  "asked": "2026-11-01T11:09:18-06:00",
+  "on": "2026-11-01",
   "events": [
    {
     "title": "Romeo and Juliet",
-    "date": "2026-10-31",
-    "start": "19:30",
+    "date": "2026-11-01",
+    "start": "14:00",
     "end": null,
     "price": null,
-    "description": "Capulets, Montagues, and two young lovers; Shakespeare's best-known play.",
+    "description": "Capulets, Montagues, and two young lovers who rise above it all. Now playing.",
     "category": "theater"
    },
    {
-    "title": "A Valentine's Affair 2027 Auditions (First Audition)",
+    "title": "A Valentine's Affair 2027 Auditions: First Audition",
     "date": "2026-11-09",
     "start": "18:30",
     "end": null,

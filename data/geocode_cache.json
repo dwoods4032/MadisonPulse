@@ -648,5 +648,34 @@
   "lon": -89.361578,
   "address": "",
   "city": "Madison"
+ },
+ "uw hamel music center-mead witter hall": null,
+ "madison circus space": {
+  "lat": 43.094214,
+  "lon": -89.354309,
+  "address": "2100 Winnebago Street",
+  "city": "Madison"
+ },
+ "madison college-truax, mitby theater": null,
+ "goodman community center-ironworks": null,
+ "william g. lunney lake farm county park-lussier family heritage center": null,
+ "stoughton opera house": {
+  "lat": 42.916503,
+  "lon": -89.216888,
+  "address": "East Main Street",
+  "city": "Stoughton"
+ },
+ "uw arboretum visitor center": null,
+ "agrace grief support center, fitchburg": {
+  "lat": 43.009367,
+  "lon": -89.459938,
+  "address": "2906 Marketplace Drive",
+  "city": "Fitchburg"
+ },
+ "madison club": {
+  "lat": 43.072436,
+  "lon": -89.380667,
+  "address": "5 East Wilson Street",
+  "city": "Madison"
  }
 }
