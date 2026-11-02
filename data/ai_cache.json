@@ -32,25 +32,25 @@
  },
  "https://thecrystalcornerbar.com/Calendar.htm": {
   "hash": "4225cc07b3bece0ff054762a0a8e3c8f740f2c59",
-  "asked": "2026-10-29T12:26:07-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-01T20:30:42-06:00",
+  "on": "2026-11-01",
   "events": [
-   {
-    "title": "Metal Halloween Show",
-    "date": "2026-10-31",
-    "start": "21:00",
-    "end": null,
-    "price": 15,
-    "description": "Halloween metal show with Sabbath Dweller (Black Sabbath cover set), Yotuma, Whippets and Red Museum.",
-    "category": "music"
-   },
    {
     "title": "The Dead Johnnys, Tom Howl & The Scowl, Lummox",
     "date": "2026-11-07",
     "start": "21:00",
     "end": null,
     "price": 10,
-    "description": "Rock show with The Dead Johnnys, Tom Howl & The Scowl and Lummox.",
+    "description": "Rock show with The Dead Johnnys, Tom Howl & The Scowl, and Lummox.",
+    "category": "music"
+   },
+   {
+    "title": "Cribshitter, Ed Dave",
+    "date": "2026-11-14",
+    "start": "21:00",
+    "end": null,
+    "price": 15,
+    "description": "Soft rock from Cribshitter, with country act Ed Dave.",
     "category": "music"
    }
   ]
@@ -108,26 +108,17 @@
   "events": []
  },
  "https://gammaray.bar/shows/": {
-  "hash": "7af2e852d493bab1a6c849b62d5dcfe011416bdc",
-  "asked": "2026-10-31T21:14:02-05:00",
-  "on": "2026-10-31",
+  "hash": "3967a3da9aa610cd9273dbbbb3915e951fd20bb9",
+  "asked": "2026-11-01T20:30:45-06:00",
+  "on": "2026-11-01",
   "events": [
-   {
-    "title": "Halloween with Friend Request",
-    "date": "2026-10-31",
-    "start": "20:00",
-    "end": null,
-    "price": null,
-    "description": "Halloween show with Friend Request. Doors 7pm.",
-    "category": "music"
-   },
    {
     "title": "Gamma Ray Bar Presents: Music Video Trivia",
     "date": "2026-11-02",
     "start": "18:00",
     "end": null,
     "price": null,
-    "description": "Music video trivia night. Doors 5:45pm.",
+    "description": "Music video trivia; doors 5:45pm",
     "category": "trivia"
    },
    {
@@ -136,7 +127,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Live show with Sova, Slick and The Moss Men. Doors 7pm.",
+    "description": "Live bands; doors 7pm",
     "category": "music"
    },
    {
@@ -145,7 +136,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Live show with Droids Attack, Peacemaker and The Eggs. Doors 7pm.",
+    "description": "Live bands; doors 7pm",
     "category": "music"
    },
    {
@@ -154,7 +145,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Live show with Dusk, Visual Learner, Yuasa-Exide and Boo/Hiss. Doors 7pm.",
+    "description": "Live bands; doors 7pm",
     "category": "music"
    },
    {
@@ -163,7 +154,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Friday the 13th tribute party featuring PheRAMONES, Insomniacs (Green Day) and TRAEFI (AFI). Doors 7pm.",
+    "description": "Tribute bands party; doors 7pm",
     "category": "music"
    },
    {
@@ -172,32 +163,41 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Adult Book Club album release show with Cause & Control and Get Well Now. Doors 7pm.",
+    "description": "Album release show; doors 7pm",
+    "category": "music"
+   },
+   {
+    "title": "Dusky Waters // Bear In The Forest // Marengo",
+    "date": "2026-11-15",
+    "start": "19:00",
+    "end": null,
+    "price": null,
+    "description": "Live bands; doors 6pm",
     "category": "music"
    }
   ]
  },
  "https://www.thecrystalcornerbar.com/Calendar.htm": {
   "hash": "4225cc07b3bece0ff054762a0a8e3c8f740f2c59",
-  "asked": "2026-10-29T12:26:10-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-01T20:30:46-06:00",
+  "on": "2026-11-01",
   "events": [
-   {
-    "title": "Metal Halloween Show",
-    "date": "2026-10-31",
-    "start": "21:00",
-    "end": null,
-    "price": 15,
-    "description": "Halloween metal show with Sabbath Dweller (Black Sabbath cover set), Yotuma, Whippets and Red Museum",
-    "category": "music"
-   },
    {
     "title": "The Dead Johnnys, Tom Howl & The Scowl, Lummox",
     "date": "2026-11-07",
     "start": "21:00",
     "end": null,
     "price": 10,
-    "description": "Rock show with The Dead Johnnys, Tom Howl & The Scowl and Lummox",
+    "description": "Rock show with The Dead Johnnys, Tom Howl & The Scowl, and Lummox.",
+    "category": "music"
+   },
+   {
+    "title": "Cribshitter, Ed Dave",
+    "date": "2026-11-14",
+    "start": "21:00",
+    "end": null,
+    "price": 15,
+    "description": "Show with Cribshitter (soft rock) and Ed Dave (country).",
     "category": "music"
    }
   ]
@@ -281,16 +281,16 @@
  },
  "https://www.harmonybarandgrill.com/madison-atwood-the-harmony-bar-and-grill-events": {
   "hash": "e75bf51df115f86d0f9b27fae6d3fa1a4ffde3ef",
-  "asked": "2026-10-29T12:26:11-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-01T20:30:47-06:00",
+  "on": "2026-11-01",
   "events": [
    {
-    "title": "Gaines & Wagoner (guest: Grandpa's Elixir)",
+    "title": "Gaines & Wagoner",
     "date": "2026-11-01",
     "start": "16:00",
     "end": "19:00",
     "price": 15,
-    "description": "Madison husband-and-wife Americana duo with monthly special guest Grandpa's Elixir (old-timey string band). $15 suggested donation.",
+    "description": "Madison Americana duo Mary Gaines and Chris Wagoner, with special guest Grandpa's Elixir (old-timey string band). $15 suggested donation.",
     "category": "music"
    },
    {
@@ -299,7 +299,7 @@
     "start": "17:30",
     "end": "18:30",
     "price": 5,
-    "description": "Kids music show with David Landau; kid menu available. $5 cover.",
+    "description": "Kids music show with David Landau, with the kid menu available. $5 cover.",
     "category": "music"
    },
    {
@@ -308,7 +308,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Trivia hosted by Paul. Free. Runs the 1st and 3rd Wednesday of the month.",
+    "description": "Trivia hosted by Paul. Free. Held the 1st and 3rd Wednesday of the month.",
     "category": "trivia"
    },
    {
@@ -317,7 +317,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Eclectic folk/rock/alt/pop singer-songwriter Melissa Kieler with Ethan Kister. No cover.",
+    "description": "Folk/rock/alt/pop singer-songwriter Melissa Kieler with Ethan Kister. No cover.",
     "category": "music"
    },
    {
@@ -326,7 +326,7 @@
     "start": "20:00",
     "end": "22:00",
     "price": 0,
-    "description": "Scottish music trio-plus with bagpipes, fiddle, whistle and bodhran. No cover.",
+    "description": "Scottish music trio with bagpipes, guitar, fiddle, whistle and bodhran. No cover.",
     "category": "music"
    },
    {
@@ -344,7 +344,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Bluegrass, vintage country and swing with three-part vocal harmonies. No cover.",
+    "description": "Bluegrass, vintage country and swing with three-part harmonies. No cover.",
     "category": "music"
    },
    {
@@ -353,7 +353,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Classic bluegrass-based band from Madison, former Oak Street Ramblers members. No cover.",
+    "description": "Classic bluegrass band with members from the Oak Street Ramblers. No cover.",
     "category": "music"
    },
    {
@@ -362,7 +362,34 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Honky-tonk happy hour with Madison band Canyon Arrow. No cover.",
+    "description": "Madison honky-tonk band Canyon Arrow. No cover.",
+    "category": "music"
+   },
+   {
+    "title": "Left On High Street",
+    "date": "2026-11-13",
+    "start": "21:00",
+    "end": "00:00",
+    "price": 10,
+    "description": "Cambridge, WI band blending 1980s MTV-era sounds with classic rock and blues. $10 cover.",
+    "category": "music"
+   },
+   {
+    "title": "Maria and the Coins with Bear in the Forest",
+    "date": "2026-11-14",
+    "start": "21:00",
+    "end": "00:00",
+    "price": 10,
+    "description": "Minneapolis indie pop-rock band Maria and the Coins, with opener Bear in the Forest. $10 cover.",
+    "category": "music"
+   },
+   {
+    "title": "Andy Ewen with Doug DeRosa and Ryan Repenshek",
+    "date": "2026-11-15",
+    "start": "17:00",
+    "end": "19:30",
+    "price": 0,
+    "description": "Acoustic show with singer-songwriter Andy Ewen, Doug DeRosa on bass and Ryan Repenshek on guitar. No cover.",
     "category": "music"
    }
   ]
@@ -918,20 +945,10 @@
   "events": []
  },
  "https://www.karben4.com/events": {
-  "hash": "f0f9b10c01d372cabfb87805d6f78fe6a90e5eef",
-  "asked": "2026-10-30T21:23:12-05:00",
-  "on": "2026-10-30",
-  "events": [
-   {
-    "title": "An Idiot Farm Halloween Party and Meat Raffle",
-    "date": "2026-10-31",
-    "start": null,
-    "end": null,
-    "price": null,
-    "description": "Halloween taproom party with a meat raffle at 2:00 pm, apple bobbing, homemade chili and sourdough, and a batched cocktail.",
-    "category": "other"
-   }
-  ]
+  "hash": "e406476091e7fc2d95aa16b1478f2f79cb3a8fc8",
+  "asked": "2026-11-01T20:30:51-06:00",
+  "on": "2026-11-01",
+  "events": []
  },
  "https://oldsugardistillery.com/private-events/": {
   "hash": "84cba732ced6ecb8f6a0b7047c48ae7e951eb5de",
@@ -1072,26 +1089,17 @@
   "events": []
  },
  "https://thekickback.bar/upcoming-events/": {
-  "hash": "47417a2074aacd2e342ea7f4c3a6e54182b3261a",
-  "asked": "2026-10-30T21:23:14-05:00",
-  "on": "2026-10-30",
+  "hash": "c8db9afff045f14bb2e7f0f2aa04440e5faf87fb",
+  "asked": "2026-11-01T20:30:55-06:00",
+  "on": "2026-11-01",
   "events": [
-   {
-    "title": "Drag Bingo w/ Cynthia Mooseknuckle",
-    "date": "2026-11-01",
-    "start": "13:00",
-    "end": null,
-    "price": null,
-    "description": "Drag bingo with Cynthia Mooseknuckle at The Kickback.",
-    "category": "bingo"
-   },
    {
     "title": "Premier Trivia Tuesday!",
     "date": "2026-11-03",
     "start": "18:30",
     "end": null,
     "price": null,
-    "description": "Tuesday trivia night.",
+    "description": "Tuesday Trivia at The Kickback",
     "category": "trivia"
    },
    {
@@ -1100,7 +1108,7 @@
     "start": "18:30",
     "end": null,
     "price": null,
-    "description": "Craft beer pinball league night featuring Founders Brewing Co.",
+    "description": "League night with Founders Brewing Co. craft beer and pinball",
     "category": "other"
    },
    {
@@ -1109,7 +1117,7 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Friday night pinball and craft beer.",
+    "description": "Craft beer and pinball night",
     "category": "other"
    },
    {
@@ -1118,7 +1126,7 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Super Smash Bros Ultimate tournament on Switch 2.",
+    "description": "Switch 2 Ultimate Super Smash Bros tournament",
     "category": "other"
    },
    {
@@ -1127,7 +1135,7 @@
     "start": "12:00",
     "end": null,
     "price": null,
-    "description": "Session 2 of the Kickback9 pin-golf tour, sponsored by Yuengling.",
+    "description": "Kickback9 Pin-Golf league session with Yuengling and Wisconsin Pin-Golf",
     "category": "other"
    },
    {
@@ -1136,7 +1144,7 @@
     "start": "18:30",
     "end": null,
     "price": null,
-    "description": "Tuesday trivia night.",
+    "description": "Tuesday Trivia at The Kickback",
     "category": "trivia"
    },
    {
@@ -1145,7 +1153,34 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Launch party for Fallout with craft beer and pinball.",
+    "description": "Launch party with craft beer and pinball",
+    "category": "other"
+   },
+   {
+    "title": "Youth Pinball Free-Play & Tourney!",
+    "date": "2026-11-14",
+    "start": "11:00",
+    "end": null,
+    "price": null,
+    "description": "Youth pinball free-play and tournament, with an introduction to pinball",
+    "category": "other"
+   },
+   {
+    "title": "Creepy Christmas Craft Fair",
+    "date": "2026-11-14",
+    "start": "11:00",
+    "end": null,
+    "price": null,
+    "description": "Craft fair at The Kickback",
+    "category": "other"
+   },
+   {
+    "title": "Meat Raffle at The Kickback",
+    "date": "2026-11-15",
+    "start": "13:00",
+    "end": null,
+    "price": null,
+    "description": "Meat raffle benefiting Fetch WI Rescue, with prizes from Jenny St Market and New Belgium Brewing",
     "category": "other"
    }
   ]
@@ -1312,9 +1347,9 @@
   ]
  },
  "https://merciescoffeewi.com/": {
-  "hash": "c280be383e306231ef2143cd1d481816e3650604",
-  "asked": "2026-10-31T21:14:33-05:00",
-  "on": "2026-10-31",
+  "hash": "7801508096e3a416a24beff8ce45bf0ebeb69afa",
+  "asked": "2026-11-01T20:31:14-06:00",
+  "on": "2026-11-01",
   "events": []
  },
  "https://motherfools.com/event/20261106/mad-city-story-slam-rebellion": {
@@ -1563,9 +1598,9 @@
   "events": []
  },
  "https://www.madisonpubliclibrary.org/spaces/events": {
-  "hash": "62ff88856358c4d938327f051bc964a2a07a07ce",
-  "asked": "2026-10-31T21:15:05-05:00",
-  "on": "2026-10-31",
+  "hash": "d15c78243567a5e2bc53ac0083370433656e66ab",
+  "asked": "2026-11-01T20:31:46-06:00",
+  "on": "2026-11-01",
   "events": []
  },
  "https://ebling.library.wisc.edu/ebling-library-classes-events/": {
@@ -1735,8 +1770,8 @@
   ]
  },
  "https://www.madisonpubliclibrary.org/spaces/events/search": {
-  "hash": "2cbd656f1c85c2b4f42eeaa7dc6925ac0b6d4ef6",
-  "asked": "2026-11-01T11:09:17-06:00",
+  "hash": "e81ca2f07dfd9efbd4f1e7f395ca2f00e98979c9",
+  "asked": "2026-11-01T20:32:02-06:00",
   "on": "2026-11-01",
   "events": []
  },
@@ -1775,17 +1810,26 @@
   ]
  },
  "https://bartelltheatre.org/": {
-  "hash": "08785181453779d751c67b3bd2a3b3371712f0e8",
-  "asked": "2026-11-01T11:09:18-06:00",
+  "hash": "6d964c94b32efc062fc23daa8d349dcfef60d938",
+  "asked": "2026-11-01T20:31:51-06:00",
   "on": "2026-11-01",
   "events": [
    {
-    "title": "Romeo and Juliet",
-    "date": "2026-11-01",
-    "start": "14:00",
+    "title": "The Moors",
+    "date": "2026-11-05",
+    "start": "19:30",
     "end": null,
     "price": null,
-    "description": "Capulets, Montagues, and two young lovers who rise above it all. Now playing.",
+    "description": "Two sisters and a dog on the English moors; a dark comedy about love, desperation, and visibility.",
+    "category": "theater"
+   },
+   {
+    "title": "Romeo and Juliet",
+    "date": "2026-11-06",
+    "start": "19:30",
+    "end": null,
+    "price": null,
+    "description": "Capulets, Montagues, and two young lovers in Shakespeare's tragedy.",
     "category": "theater"
    },
    {
@@ -1942,9 +1986,46 @@
  },
  "https://madisonyoutharts.org/upcoming-events/": {
   "hash": "075b8cf6ad36aba21aa1bcb96d34479d5babb01f",
-  "asked": "2026-10-29T12:27:25-05:00",
-  "on": "2026-10-29",
-  "events": []
+  "asked": "2026-11-01T20:31:59-06:00",
+  "on": "2026-11-01",
+  "events": [
+   {
+    "title": "Jekyll & Hyde (Madison Ballet)",
+    "date": "2026-11-01",
+    "start": "14:00",
+    "end": null,
+    "price": null,
+    "description": "Madison Ballet's world-premiere contemporary ballet based on Robert Louis Stevenson's tale, set to music by Michael Nyman. Runtime about 2 hours including a 20-minute intermission. Tickets $58-89.",
+    "category": "dance"
+   },
+   {
+    "title": "Comedy Variety Hour (and a half!) presented by Mark Hayward",
+    "date": "2026-11-06",
+    "start": "19:00",
+    "end": "20:30",
+    "price": null,
+    "description": "All-ages, clean live magic and comedy variety show at Starlight Theater, MYArts 4th floor. Ages 6+. Tickets $20-35.",
+    "category": "comedy"
+   },
+   {
+    "title": "Madison Youth Choirs presents: Sing a Song",
+    "date": "2026-11-07",
+    "start": "10:15",
+    "end": "11:00",
+    "price": null,
+    "description": "Author Kelly Starling Lyons reads 'Sing a Song' about the history of 'Lift Every Voice and Sing,' supported by music and song, with a pre-show lobby performance by WYSO Music Makers. RSVP required; seating first come, first served.",
+    "category": "other"
+   },
+   {
+    "title": "LunArt: DARK TALES - An Evening of Music and Mystery",
+    "date": "2026-11-07",
+    "start": "19:30",
+    "end": null,
+    "price": null,
+    "description": "Evening of choral music by the LunART Treble Choir plus a world premiere staging of Edgar Allan Poe's 'The Cask of Amontillado' with actors and chamber music, at Starlight Theater. Tickets $35-45.",
+    "category": "music"
+   }
+  ]
  },
  "https://madisonyoutharts.org/upcoming-events/news/": {
   "hash": "d5f0a03c7b9473c6f2850a66cb87b3229e3f6e73",

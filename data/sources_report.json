@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-11-01T11:09:50-06:00",
- "total_events": 373,
- "in_more_than_one_source": 28,
+ "generated_at": "2026-11-01T20:32:04-06:00",
+ "total_events": 370,
+ "in_more_than_one_source": 30,
  "sources": {
   "AI page reading": {
-   "events": 117,
-   "unique_events": 97,
+   "events": 128,
+   "unique_events": 106,
    "overlap": {
-    "Isthmus": 4,
-    "Ticketmaster": 17,
+    "Isthmus": 5,
+    "Ticketmaster": 18,
     "Venue websites": 0
    },
-   "venues": 28,
+   "venues": 31,
    "unique_venues": [
     "Aftershock Classic Arcade",
     "Arts + Literature Laboratory",
@@ -23,38 +23,37 @@
     "Flight Wine & Bourbon Bar",
     "Gamma Ray Bar",
     "Grey Market",
+    "Imagination Center",
     "Lakeside Street Coffee House",
     "Laurel Tavern",
     "Lazy Oaf Lounge",
+    "Madison Youth Arts (MYArts)",
     "Monkeyshines Bar & Grill",
     "Mother Fool's",
     "Old Sugar Distillery",
     "Oscar Rennebohm Library",
     "Overture Center for the Arts",
     "Reindahl Park Pavillion",
+    "Sequoya Library",
     "State Line Distillery",
     "Veterans Memorial Park"
    ]
   },
   "Isthmus": {
-   "events": 163,
-   "unique_events": 154,
+   "events": 145,
+   "unique_events": 135,
    "overlap": {
-    "AI page reading": 4,
+    "AI page reading": 5,
     "Ticketmaster": 3,
     "Venue websites": 3
    },
-   "venues": 73,
+   "venues": 64,
    "unique_venues": [
     "A Room of One's Own",
     "Aikido of Madison",
     "American Players Theatre",
-    "Awesomely Radical Love",
     "Buck and Honey's",
     "Cargo Coffee-East Washington",
-    "Chazen Museum of Art",
-    "Cherokee Marsh-North Unit",
-    "Chocolate Shoppe Ice Cream - Monroe Street",
     "Dancesport",
     "Diamond Way Buddhist Center",
     "East Madison Community Center",
@@ -73,8 +72,6 @@
     "Madison Circus Space",
     "Madison Club",
     "Madison College-Commercial Avenue Campus",
-    "Madison College-Truax",
-    "Madison Youth Arts",
     "Meadowridge Library",
     "Mickey's Tavern",
     "Monona Terrace",
@@ -82,9 +79,7 @@
     "Muso",
     "Octopi Brewing",
     "Overture Center-Capitol Theater",
-    "Overture Center-Overture Hall",
     "Overture Center-Playhouse",
-    "Peace Lutheran Church",
     "Public Parking",
     "River Arts on Water",
     "Shambhala Meditation Center",
@@ -97,7 +92,6 @@
     "The Red Zone/The Annex",
     "The Rigby",
     "The Village on Park",
-    "UW Hamel Music Center-Mead Witter Hall",
     "UW Ingraham Hall",
     "UW Memorial Union - Der Rathskeller",
     "UW Stock Pavilion",
@@ -109,34 +103,35 @@
    ]
   },
   "Ticketmaster": {
-   "events": 57,
-   "unique_events": 35,
+   "events": 60,
+   "unique_events": 37,
    "overlap": {
-    "AI page reading": 17,
+    "AI page reading": 18,
     "Isthmus": 3,
     "Venue websites": 3
    },
-   "venues": 12,
+   "venues": 11,
    "unique_venues": [
     "Camp Randall",
-    "Capitol Theater - Overture Center",
     "LaBahn Arena",
     "Legacy20 Arena at Deforest Yards",
     "UW Field House"
    ]
   },
   "Venue websites": {
-   "events": 65,
-   "unique_events": 59,
+   "events": 68,
+   "unique_events": 62,
    "overlap": {
     "AI page reading": 0,
     "Isthmus": 3,
     "Ticketmaster": 3
    },
-   "venues": 14,
+   "venues": 16,
    "unique_venues": [
     "Atwood Music Hall",
     "Badger Rock Neighborhood Center",
+    "Bayview Community Center",
+    "Children's Theater of Madison",
     "Comedy Club on State",
     "E.D. Locke Public Library",
     "Full Mile Beer Company & Kitchen",

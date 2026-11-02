@@ -89,16 +89,6 @@
   "why": "",
   "checked": "2026-10-27T14:37:22.267529-05:00"
  },
- "https://www.ticketmaster.com/event/Z7r9jZ1AAZMqv": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-10-27T14:37:28.736415-05:00"
- },
- "https://bstonline.org/event/dragonsocks-and-the-queen-of-the-universe-3/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:37:28.736443-05:00"
- },
  "https://www.ticketmaster.com/halloween-hangover-iii-madison-wisconsin-11-01-2026/event/070064F4B81A31FF": {
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
@@ -2494,11 +2484,6 @@
   "why": "",
   "checked": "2026-10-27T17:49:19.891582-05:00"
  },
- "https://thelonegirl.com/event/sunday-bingo-lone-girl-brewing/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T17:49:24.132492-05:00"
- },
  "https://thelonegirl.com/event/meat-raffle-126-4/": {
   "ok": true,
   "why": "",
@@ -3689,11 +3674,6 @@
   "why": "",
   "checked": "2026-10-31T11:08:48.327841-05:00"
  },
- "https://statestreetbrats.com/event/wisconsin-ucla-20261101/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-31T21:15:23.741981-05:00"
- },
  "https://www.workingdraftbeer.com/events/2026/11/14/pickle-day-palooza": {
   "ok": true,
   "why": "",
@@ -3798,5 +3778,70 @@
   "ok": true,
   "why": "",
   "checked": "2026-11-01T11:09:56.658709-06:00"
+ },
+ "https://ctmtheater.org/event/annie-6/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-01T20:32:06.499429-06:00"
+ },
+ "https://ctmtheater.org/event/annie-7/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-01T20:32:07.696250-06:00"
+ },
+ "https://bayviewfoundation.org/event/zumba/2026-11-03/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-01T20:32:07.696278-06:00"
+ },
+ "https://www.madisonpubliclibrary.org/locations/imagination-center": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-01T20:32:07.696284-06:00"
+ },
+ "https://www.madisonpubliclibrary.org/sequoya": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-01T20:32:07.696288-06:00"
+ },
+ "https://www.madisonyoutharts.org/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-01T20:32:07.696293-06:00"
+ },
+ "https://bstonline.org/event/dragonsocks-and-the-queen-of-the-universe-6/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-01T20:32:07.696298-06:00"
+ },
+ "https://bayviewfoundation.org/event/zumba/2026-11-10/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-01T20:32:07.696301-06:00"
+ },
+ "https://www.ticketmaster.com/event/Z7r9jZ1AAvt3b": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-11-01T20:32:07.696305-06:00"
+ },
+ "https://www.fullmilebeercompany.com/events/2026/11/15-karaoke": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-01T20:32:07.696308-06:00"
+ },
+ "https://www.ticketmaster.com/event/Z7r9jZ1AAvg8M": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-11-01T20:32:07.696312-06:00"
+ },
+ "https://www.ticketmaster.com/victor-wooten-the-wooten-brothers-madison-wisconsin-11-15-2026/event/070064D4FF1D96DB": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-11-01T20:32:07.696315-06:00"
+ },
+ "https://www.ticketmaster.com/almost-monday-madison-wisconsin-11-15-2026/event/070064D29A3449E3": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-11-01T20:32:08.504944-06:00"
  }
 }
