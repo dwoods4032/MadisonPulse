@@ -84,16 +84,6 @@
  },
  {
   "venue": "Lone Girl Tap Room And Pizza Company",
-  "activity": "fish fry",
-  "days": [
-   4
-  ],
-  "time": "18:00",
-  "text": "Madison's Magic Rob provides FREE, family-friendly tableside and waiting area entertainment from 6-8pm EVERY FRIDAY. You never know when he'll magically appear... be ready! Enjoy all-day Fish Fry Every Friday!",
-  "source_url": "https://thelonegirl.com/events/"
- },
- {
-  "venue": "Lone Girl Tap Room And Pizza Company",
   "activity": "trivia",
   "days": [
    2
@@ -121,6 +111,26 @@
   "time": "18:30",
   "text": "PUB TRIVIA with King Trivia every Wednesday night at LG-Waunakee at 6:30PM! Free to Play! Grab your crew. Let the bragging rights begin. Drink Up. Dig In. Have Fun. Repeat weekly.",
   "source_url": "https://thelonegirl.com/events/"
+ },
+ {
+  "venue": "Lone Girl Tap Room And Pizza Company",
+  "activity": "fish fry",
+  "days": [
+   4
+  ],
+  "time": "18:00",
+  "text": "Madison's Magic Rob provides FREE, family-friendly tableside and waiting area entertainment from 6-8pm EVERY FRIDAY. You never know when he'll magically appear... be ready! Enjoy all-day Fish Fry Every Friday!",
+  "source_url": "https://thelonegirl.com/events/"
+ },
+ {
+  "venue": "Lone Girl Tap Room And Pizza Company",
+  "activity": "trivia",
+  "days": [
+   2
+  ],
+  "time": "18:30",
+  "text": "PUB TRIVIA with King Trivia every Wednesday night at LG-Waunakee at 6:30PM!",
+  "source_url": "https://thelonegirl.com/event/trivia-every-wednesday-2-2-2/"
  },
  {
   "venue": "The Kickback",
@@ -151,5 +161,15 @@
   "time": "19:00",
   "text": "Madison Tango Society hosts the Tango Classes (7 - 8:30 PM) at Cafe CODA on the main dance Floor every Tuesday!",
   "source_url": "https://www.cafecoda.club/events-1"
+ },
+ {
+  "venue": "Textile Arts Center of Madison",
+  "activity": "live music",
+  "days": [
+   4
+  ],
+  "time": "17:30",
+  "text": ": Friday, November 1, 5:30-7:30pm. The reception will also include live music from Madison acoustic duo,",
+  "source_url": "https://www.textileartsmadison.org/exhibitions-events"
  }
 ]

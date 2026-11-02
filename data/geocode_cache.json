@@ -677,5 +677,19 @@
   "lon": -89.380667,
   "address": "5 East Wilson Street",
   "city": "Madison"
- }
+ },
+ "city-county building": {
+  "lat": 43.072398,
+  "lon": -89.38249,
+  "address": "210 Martin Luther King Junior Boulevard",
+  "city": "Madison"
+ },
+ "liberty station american tavern": null,
+ "sector67": {
+  "lat": 43.098265,
+  "lon": -89.345572,
+  "address": "56 Corry Street",
+  "city": "Madison"
+ },
+ "ian's pizza - garver": null
 }

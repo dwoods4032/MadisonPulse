@@ -1,14 +1,14 @@
 {
  "https://www.dvinomadison.com/events": {
   "hash": "c7b112b80a65704cdfbf2fbcdc796e283a80c493",
-  "asked": "2026-10-29T21:36:59-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:47:53-06:00",
+  "on": "2026-11-02",
   "events": []
  },
  "https://aftershockclassicarcade.com/specials/": {
   "hash": "b49a17dae8ef2e5b65f0a891af566a794ebb29e0",
-  "asked": "2026-10-29T21:36:57-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:47:50-06:00",
+  "on": "2026-11-02",
   "events": [
    {
     "title": "Monday Madness",
@@ -22,6 +22,15 @@
    {
     "title": "Monday Madness",
     "date": "2026-11-09",
+    "start": null,
+    "end": null,
+    "price": null,
+    "description": "Discounted token pricing and special deals every Monday.",
+    "category": "other"
+   },
+   {
+    "title": "Monday Madness",
+    "date": "2026-11-16",
     "start": null,
     "end": null,
     "price": null,
@@ -57,30 +66,21 @@
  },
  "https://www.doubletapbeercade.com/location/madison/": {
   "hash": "0188aca92bd12c8ae0e002c261c9fde0a57ce67b",
-  "asked": "2026-10-29T21:36:55-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:47:48-06:00",
+  "on": "2026-11-02",
   "events": []
  },
  "https://www.dexterspubmadison.com/fish-fry": {
   "hash": "12ee55c61daa9adecccc650475b15c1112f3c8e9",
-  "asked": "2026-10-29T21:36:58-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:47:57-06:00",
+  "on": "2026-11-02",
   "events": []
  },
  "https://flightwi.com/events": {
   "hash": "d2b382b21f99efaa7d91879fd2f574cfcb37733e",
-  "asked": "2026-10-29T21:36:57-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:47:53-06:00",
+  "on": "2026-11-02",
   "events": [
-   {
-    "title": "Bingo, Brunch & Bevvies",
-    "date": "2026-11-01",
-    "start": "12:00",
-    "end": "15:00",
-    "price": 0,
-    "description": "Bingo at Flight on the first Sunday of the month; open 11am-3pm, bingo starts at 12pm. Free to play, first come first served, no reservations.",
-    "category": "bingo"
-   },
    {
     "title": "Trivia Tuesdays",
     "date": "2026-11-03",
@@ -103,8 +103,8 @@
  },
  "https://www.greatdanepub.com/large-party-events/": {
   "hash": "851330dc3de1f0495c03c46f1a6c8b213975d643",
-  "asked": "2026-10-29T21:36:58-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:48:02-06:00",
+  "on": "2026-11-02",
   "events": []
  },
  "https://gammaray.bar/shows/": {
@@ -210,34 +210,16 @@
  },
  "http://www.thelaureltavern.com/specials-1.html": {
   "hash": "e29b32223cc2e13aeda50e66a0d9672eccc0dada",
-  "asked": "2026-10-29T21:37:02-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:48:02-06:00",
+  "on": "2026-11-02",
   "events": [
-   {
-    "title": "Friday Night Fish Fry",
-    "date": "2026-10-30",
-    "start": null,
-    "end": null,
-    "price": null,
-    "description": "Weekly Friday fish fry: fried or baked cod or walleye pike with a choice of potato, soup or salad or coleslaw.",
-    "category": "food"
-   },
-   {
-    "title": "Saturday Night Prime Rib",
-    "date": "2026-10-31",
-    "start": null,
-    "end": null,
-    "price": null,
-    "description": "Weekly Saturday prime rib special with au jus and horseradish, with a choice of potato and soup or salad or coleslaw.",
-    "category": "food"
-   },
    {
     "title": "Friday Night Fish Fry",
     "date": "2026-11-06",
     "start": null,
     "end": null,
     "price": null,
-    "description": "Weekly Friday fish fry: fried or baked cod or walleye pike with a choice of potato, soup or salad or coleslaw.",
+    "description": "Weekly Friday night fish fry with choice of potato, soup, salad or coleslaw, roll and butter. Fried or baked cod or walleye pike.",
     "category": "food"
    },
    {
@@ -246,18 +228,36 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Weekly Saturday prime rib special with au jus and horseradish, with a choice of potato and soup or salad or coleslaw.",
+    "description": "Weekly Saturday prime rib dinner with natural au jus and horseradish, choice of potato, soup or salad or coleslaw, roll and butter.",
+    "category": "food"
+   },
+   {
+    "title": "Friday Night Fish Fry",
+    "date": "2026-11-13",
+    "start": null,
+    "end": null,
+    "price": null,
+    "description": "Weekly Friday night fish fry with choice of potato, soup, salad or coleslaw, roll and butter. Fried or baked cod or walleye pike.",
+    "category": "food"
+   },
+   {
+    "title": "Saturday Night Prime Rib",
+    "date": "2026-11-14",
+    "start": null,
+    "end": null,
+    "price": null,
+    "description": "Weekly Saturday prime rib dinner with natural au jus and horseradish, choice of potato, soup or salad or coleslaw, roll and butter.",
     "category": "food"
    }
   ]
  },
  "https://www.madisongreymarket.com/schedule": {
   "hash": "c6a0882cf0d008f6f6dcbdb15230e92d0eeb4972",
-  "asked": "2026-10-29T21:36:58-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:47:58-06:00",
+  "on": "2026-11-02",
   "events": [
    {
-    "title": "Onigiri Pop-Up with Chef Itaru Nagano (from Fairchild)",
+    "title": "Onigiri Pop-Up with Chef Itaru Nagano from Fairchild",
     "date": "2026-11-09",
     "start": "15:00",
     "end": "20:00",
@@ -269,37 +269,28 @@
  },
  "https://www.mickeysmadison.com/": {
   "hash": "e02d5769890e7d8de6396bf007f716baa059e289",
-  "asked": "2026-10-29T21:37:00-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:48:03-06:00",
+  "on": "2026-11-02",
   "events": []
  },
  "https://mondaysbar.com/": {
   "hash": "7a513894a41487013056bc26674d05fe4b624b38",
-  "asked": "2026-10-29T21:37:00-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:48:05-06:00",
+  "on": "2026-11-02",
   "events": []
  },
  "https://www.harmonybarandgrill.com/madison-atwood-the-harmony-bar-and-grill-events": {
-  "hash": "e75bf51df115f86d0f9b27fae6d3fa1a4ffde3ef",
-  "asked": "2026-11-01T20:30:47-06:00",
-  "on": "2026-11-01",
+  "hash": "2fffd7f7e84956b4c00b4ab47bab6188294a7a1c",
+  "asked": "2026-11-02T14:48:05-06:00",
+  "on": "2026-11-02",
   "events": [
-   {
-    "title": "Gaines & Wagoner",
-    "date": "2026-11-01",
-    "start": "16:00",
-    "end": "19:00",
-    "price": 15,
-    "description": "Madison Americana duo Mary Gaines and Chris Wagoner, with special guest Grandpa's Elixir (old-timey string band). $15 suggested donation.",
-    "category": "music"
-   },
    {
     "title": "David Landau Kid Show",
     "date": "2026-11-02",
     "start": "17:30",
     "end": "18:30",
     "price": 5,
-    "description": "Kids music show with David Landau, with the kid menu available. $5 cover.",
+    "description": "Kids music show with David Landau, with the kid menu available. 5:30 start.",
     "category": "music"
    },
    {
@@ -308,7 +299,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Trivia hosted by Paul. Free. Held the 1st and 3rd Wednesday of the month.",
+    "description": "Trivia hosted by Paul. Free, 6:30 start.",
     "category": "trivia"
    },
    {
@@ -317,7 +308,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Folk/rock/alt/pop singer-songwriter Melissa Kieler with Ethan Kister. No cover.",
+    "description": "Folk, rock, alt and pop singer-songwriter Melissa Kieler with Ethan Kister. No cover, 6:30 start.",
     "category": "music"
    },
    {
@@ -326,7 +317,7 @@
     "start": "20:00",
     "end": "22:00",
     "price": 0,
-    "description": "Scottish music trio with bagpipes, guitar, fiddle, whistle and bodhran. No cover.",
+    "description": "Scottish music on bagpipes, guitar, fiddle, whistle and bodhran. No cover, 8pm start.",
     "category": "music"
    },
    {
@@ -335,7 +326,7 @@
     "start": "19:30",
     "end": "21:30",
     "price": 10,
-    "description": "Traditional Irish pub songs, ballads and originals. $10 suggested donation.",
+    "description": "Traditional Irish pub songs, ballads and originals. $10 suggested donation, 7:30 start.",
     "category": "music"
    },
    {
@@ -344,7 +335,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Bluegrass, vintage country and swing with three-part harmonies. No cover.",
+    "description": "Bluegrass, vintage country and swing with three-part harmonies. No cover, 6:30 start.",
     "category": "music"
    },
    {
@@ -353,7 +344,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Classic bluegrass band with members from the Oak Street Ramblers. No cover.",
+    "description": "Classic bluegrass-based band from Madison, formerly of the Oak Street Ramblers. No cover, 6:30 start.",
     "category": "music"
    },
    {
@@ -362,7 +353,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Madison honky-tonk band Canyon Arrow. No cover.",
+    "description": "Honky tonk happy hour with Madison band Canyon Arrow. No cover, 6:30 start.",
     "category": "music"
    },
    {
@@ -371,16 +362,16 @@
     "start": "21:00",
     "end": "00:00",
     "price": 10,
-    "description": "Cambridge, WI band blending 1980s MTV-era sounds with classic rock and blues. $10 cover.",
+    "description": "Classic rock and blues band from Cambridge, Wisconsin with 1980s MTV influences. $10 cover, 9pm start.",
     "category": "music"
    },
    {
-    "title": "Maria and the Coins with Bear in the Forest",
+    "title": "Maria and the Coins / Bear in the Forest",
     "date": "2026-11-14",
     "start": "21:00",
     "end": "00:00",
     "price": 10,
-    "description": "Minneapolis indie pop-rock band Maria and the Coins, with opener Bear in the Forest. $10 cover.",
+    "description": "Minneapolis indie pop-rock band Maria and the Coins, with Bear in the Forest opening. $10 cover, 9pm start, 21+ per listing for related show.",
     "category": "music"
    },
    {
@@ -389,69 +380,42 @@
     "start": "17:00",
     "end": "19:30",
     "price": 0,
-    "description": "Acoustic show with singer-songwriter Andy Ewen, Doug DeRosa on bass and Ryan Repenshek on guitar. No cover.",
+    "description": "Acoustic show with singer-songwriter Andy Ewen, Doug DeRosa on bass and Ryan Repenshek on guitar. No cover, 5pm start.",
     "category": "music"
    }
   ]
  },
  "https://www.fivenightclubmadison.com/": {
   "hash": "1d1a9fb10ebac90570eae6e01438ce4fd6578497",
-  "asked": "2026-10-29T21:37:06-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:47:55-06:00",
+  "on": "2026-11-02",
   "events": []
  },
  "https://theplazatavern.com/": {
   "hash": "1a9fb85ec59388bea20a7b73e3dfe797a196f594",
-  "asked": "2026-10-29T21:37:05-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:48:08-06:00",
+  "on": "2026-11-02",
   "events": []
  },
  "https://parchedeaglebrewpub.com/category/events/": {
   "hash": "9515457b50759b9d37cdf54356fecb0f89b2ca97",
-  "asked": "2026-10-29T21:37:05-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:48:10-06:00",
+  "on": "2026-11-02",
   "events": []
  },
  "http://www.monkeyshinesbarandgrill.com/events/": {
   "hash": "166312ea2b4df53011098a651bf1fe0f38aa10b0",
-  "asked": "2026-10-29T21:37:03-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:48:11-06:00",
+  "on": "2026-11-02",
   "events": [
-   {
-    "title": "Thursday Meat Raffle",
-    "date": "2026-10-29",
-    "start": "16:30",
-    "end": "18:00",
-    "price": null,
-    "description": "Weekly Thursday meat raffle.",
-    "category": "other"
-   },
-   {
-    "title": "Friday Night Fish Fry",
-    "date": "2026-10-30",
-    "start": "16:30",
-    "end": "21:00",
-    "price": null,
-    "description": "Weekly Friday night fish fry.",
-    "category": "food"
-   },
    {
     "title": "Thursday Meat Raffle",
     "date": "2026-11-05",
     "start": "16:30",
     "end": "18:00",
     "price": null,
-    "description": "Weekly Thursday meat raffle.",
+    "description": "Weekly Thursday meat raffle, 4:30 pm to 6:00 pm.",
     "category": "other"
-   },
-   {
-    "title": "Friday Night Fish Fry",
-    "date": "2026-11-06",
-    "start": "16:30",
-    "end": "21:00",
-    "price": null,
-    "description": "Weekly Friday night fish fry.",
-    "category": "food"
    },
    {
     "title": "Thursday Meat Raffle",
@@ -459,129 +423,111 @@
     "start": "16:30",
     "end": "18:00",
     "price": null,
-    "description": "Weekly Thursday meat raffle.",
+    "description": "Weekly Thursday meat raffle, 4:30 pm to 6:00 pm.",
     "category": "other"
    }
   ]
  },
  "https://www.lazyoaflounge.com/events": {
   "hash": "d98cb65f76ca2abdde04ee755c04730054086ce4",
-  "asked": "2026-10-29T21:37:06-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:48:10-06:00",
+  "on": "2026-11-02",
   "events": [
    {
-    "title": "Karaoke Nights",
-    "date": "2026-10-29",
-    "start": "20:00",
-    "end": "00:00",
-    "price": null,
-    "description": "Sing your heart out or dress up for themed celebrations. Thursdays, 8 PM - Midnight.",
-    "category": "karaoke"
+    "title": "Trivia Night",
+    "date": "2026-11-04",
+    "start": null,
+    "end": null,
+    "price": 0,
+    "description": "Test your knowledge with friends on Wednesday evening. Free to play, with great prizes.",
+    "category": "trivia"
    },
    {
-    "title": "Karaoke Nights",
+    "title": "Music Bingo",
+    "date": "2026-11-04",
+    "start": "18:30",
+    "end": null,
+    "price": null,
+    "description": "Music Bingo starts at 6:30PM every Wednesday.",
+    "category": "bingo"
+   },
+   {
+    "title": "Karaoke Night",
     "date": "2026-11-05",
     "start": "20:00",
     "end": "00:00",
     "price": null,
-    "description": "Sing your heart out or dress up for themed celebrations. Thursdays, 8 PM - Midnight.",
+    "description": "Sing your heart out or dress up for lively themed celebrations.",
     "category": "karaoke"
    },
    {
-    "title": "Karaoke Nights",
+    "title": "Trivia Night",
+    "date": "2026-11-11",
+    "start": null,
+    "end": null,
+    "price": 0,
+    "description": "Test your knowledge with friends on Wednesday evening. Free to play, with great prizes.",
+    "category": "trivia"
+   },
+   {
+    "title": "Music Bingo",
+    "date": "2026-11-11",
+    "start": "18:30",
+    "end": null,
+    "price": null,
+    "description": "Music Bingo starts at 6:30PM every Wednesday.",
+    "category": "bingo"
+   },
+   {
+    "title": "Karaoke Night",
     "date": "2026-11-12",
     "start": "20:00",
     "end": "00:00",
     "price": null,
-    "description": "Sing your heart out or dress up for themed celebrations. Thursdays, 8 PM - Midnight.",
+    "description": "Sing your heart out or dress up for lively themed celebrations.",
     "category": "karaoke"
-   },
-   {
-    "title": "Music Bingo",
-    "date": "2026-11-04",
-    "start": "18:30",
-    "end": null,
-    "price": null,
-    "description": "Music Bingo every Wednesday, starting 6:30 PM.",
-    "category": "bingo"
-   },
-   {
-    "title": "Music Bingo",
-    "date": "2026-11-11",
-    "start": "18:30",
-    "end": null,
-    "price": null,
-    "description": "Music Bingo every Wednesday, starting 6:30 PM.",
-    "category": "bingo"
-   },
-   {
-    "title": "Trivia Night",
-    "date": "2026-11-04",
-    "start": null,
-    "end": null,
-    "price": null,
-    "description": "Free trivia with friends on Wednesday evenings, with great prizes. The page's time listing (Mondays, 7-9 PM) appears to conflict with this; start time not confirmed.",
-    "category": "trivia"
-   },
-   {
-    "title": "Trivia Night",
-    "date": "2026-11-11",
-    "start": null,
-    "end": null,
-    "price": null,
-    "description": "Free trivia with friends on Wednesday evenings, with great prizes. The page's time listing (Mondays, 7-9 PM) appears to conflict with this; start time not confirmed.",
-    "category": "trivia"
    }
   ]
  },
  "https://high-noon.com/calendar/": {
-  "hash": "d9fe6b31e94f401c6b0c6112ea722f289cb80c49",
-  "asked": "2026-11-01T11:08:13-06:00",
-  "on": "2026-11-01",
+  "hash": "812266cb27e6a64929252e2a164ccdbc473a9aea",
+  "asked": "2026-11-02T14:48:18-06:00",
+  "on": "2026-11-02",
   "events": [
    {
-    "title": "Halloween Hangover III",
-    "date": "2026-11-01",
-    "start": "17:00",
-    "end": null,
-    "price": null,
-    "description": "FPC Live presents Halloween Hangover III with The Marilyns as 'The Misfits', Iron Metal Jackson as 'Metallica', and You First as 'Me First And The Gimme Gimmes'. Doors 4:00 pm.",
-    "category": "music"
-   },
-   {
-    "title": "Noah Gundersen",
+    "title": "Noah Gundersen with Runner and Breakup Shoes",
     "date": "2026-11-02",
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "FPC Live presents Noah Gundersen with Runner and Breakup Shoes. Doors 6:30 pm.",
+    "description": "FPC Live presents. Doors 6:30 pm.",
     "category": "music"
    },
    {
-    "title": "Sophie Hunter",
+    "title": "Sophie Hunter with Reysha Rami",
     "date": "2026-11-04",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents Sophie Hunter with Reysha Rami. Doors 7:00 pm. Low tix.",
+    "description": "FPC Live presents. Doors 7:00 pm.",
     "category": "music"
    },
    {
-    "title": "The Bends",
+    "title": "The Bends with The Braymores",
     "date": "2026-11-05",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents The Bends with The Braymores. Doors 7:00 pm. Low tix.",
+    "description": "FPC Live presents. Doors 7:00 pm. Listed as sold out.",
     "category": "music"
    },
    {
-    "title": "Six Foot Blonde",
+    "title": "Six Foot Blonde with Genevieve Heyward",
     "date": "2026-11-06",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents Six Foot Blonde with Genevieve Heyward. Doors 7:00 pm.",
+    "description": "FPC Live presents. Doors 7:00 pm.",
     "category": "music"
    },
    {
@@ -590,7 +536,7 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents Unrest Fest 2026 with Tenmonthsummer, Barely Civil, Los Kausas, Ourvanity, The Up & Up, The Brash Menagerie, and Irish Goodbyes. Doors 6:00 pm.",
+    "description": "FPC Live presents a festival with Tenmonthsummer, Barely Civil, Los Kausas, Ourvanity, The Up & Up, The Brash Menagerie and Irish Goodbyes. Doors 6:00 pm.",
     "category": "music"
    },
    {
@@ -599,16 +545,16 @@
     "start": "12:00",
     "end": null,
     "price": 20,
-    "description": "FPC Live presents a launch party and music benefit with Low Czars. Suggested $20 donation at the door. Doors 11:00 am.",
+    "description": "FPC Live presents with Low Czars. Doors 11:00 am. Suggested $20 donation at the door.",
     "category": "music"
    },
    {
-    "title": "Psychostick",
+    "title": "Psychostick with Texas Toast Chainsaw Massacre",
     "date": "2026-11-08",
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "FPC Live presents Psychostick with Texas Toast Chainsaw Massacre. Doors 6:30 pm.",
+    "description": "FPC Live presents. Doors 6:30 pm.",
     "category": "music"
    },
    {
@@ -617,34 +563,34 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "The Moth presents Madison StorySLAM, theme 'Home for the Holidays'. Doors 6:30 pm.",
+    "description": "The Moth presents a storytelling night. Doors 6:30 pm.",
     "category": "other"
    },
    {
-    "title": "Fruition",
+    "title": "Fruition with Gardener",
     "date": "2026-11-10",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents Fruition with Gardener. Doors 7:00 pm.",
+    "description": "FPC Live presents. Doors 7:00 pm.",
     "category": "music"
    },
    {
-    "title": "Low Cut Connie",
+    "title": "Low Cut Connie with Free Dirt",
     "date": "2026-11-11",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents Low Cut Connie with Free Dirt. Doors 7:00 pm.",
+    "description": "FPC Live presents. Doors 7:00 pm.",
     "category": "music"
    },
    {
-    "title": "Mustard Plug",
+    "title": "Mustard Plug with Something To Do, Deven Kay & The Solutions",
     "date": "2026-11-12",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents Mustard Plug with Something To Do and Deven Kay & The Solutions. Doors 7:00 pm.",
+    "description": "FPC Live presents. Doors 7:00 pm.",
     "category": "music"
    },
    {
@@ -653,7 +599,7 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents Hottt Probs, Heet Deth and Sex Scenes. Doors 6:00 pm.",
+    "description": "FPC Live presents. Doors 6:00 pm.",
     "category": "music"
    },
    {
@@ -662,24 +608,33 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents a tribute to Shakira. Doors 7:00 pm.",
+    "description": "FPC Live presents. Doors 7:00 pm.",
     "category": "music"
    },
    {
-    "title": "almost monday",
+    "title": "almost monday with feel trip.",
     "date": "2026-11-15",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents almost monday with feel trip. Sold out. Doors 7:00 pm.",
+    "description": "FPC Live presents. Doors 7:00 pm. Listed as sold out.",
+    "category": "music"
+   },
+   {
+    "title": "Ryan Jesse with Clayton Shay",
+    "date": "2026-11-16",
+    "start": "19:30",
+    "end": null,
+    "price": null,
+    "description": "FPC Live presents. Doors 6:30 pm.",
     "category": "music"
    }
   ]
  },
  "https://www.thedoubleubar.com/": {
   "hash": "9ea472ce039b72fb12fc092fdf121db1bf9fa6eb",
-  "asked": "2026-10-29T21:37:06-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:48:18-06:00",
+  "on": "2026-11-02",
   "events": []
  },
  "https://www.roxxybar.com/madison-events/": {
@@ -709,8 +664,8 @@
  },
  "https://www.lazyoaflounge.com/specials": {
   "hash": "aab2d1a95b5ff1b9f2ea5f93090c35d65e72e159",
-  "asked": "2026-10-29T21:37:10-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:48:13-06:00",
+  "on": "2026-11-02",
   "events": [
    {
     "title": "Taco Tuesday",
@@ -718,16 +673,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Weekly Taco Tuesday special at Lazy Oaf Lounge. Page gives no times or prices.",
-    "category": "food"
-   },
-   {
-    "title": "Friday Fish Fry",
-    "date": "2026-10-30",
-    "start": null,
-    "end": null,
-    "price": null,
-    "description": "Weekly Friday Fish Fry at Lazy Oaf Lounge. Page gives no times or prices.",
+    "description": "Weekly Taco Tuesday special at Lazy Oaf Lounge.",
     "category": "food"
    },
    {
@@ -736,7 +682,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Weekly Taco Tuesday special at Lazy Oaf Lounge. Page gives no times or prices.",
+    "description": "Weekly Taco Tuesday special at Lazy Oaf Lounge.",
     "category": "food"
    },
    {
@@ -745,15 +691,24 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Weekly Friday Fish Fry at Lazy Oaf Lounge. Page gives no times or prices.",
+    "description": "Weekly Friday fish fry special at Lazy Oaf Lounge.",
+    "category": "food"
+   },
+   {
+    "title": "Friday Fish Fry",
+    "date": "2026-11-13",
+    "start": null,
+    "end": null,
+    "price": null,
+    "description": "Weekly Friday fish fry special at Lazy Oaf Lounge.",
     "category": "food"
    }
   ]
  },
  "https://www.thegritty.com/charity-events/": {
   "hash": "a52366806b9094491f7ce3bb8945940cdfa7c8e7",
-  "asked": "2026-10-29T21:37:06-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:48:25-06:00",
+  "on": "2026-11-02",
   "events": []
  },
  "https://www.harmonybarandgrill.com/madison-atwood-the-harmony-bar-and-grill-happy-hours-specials": {
@@ -832,20 +787,20 @@
  },
  "https://tipsycowmadison.com/": {
   "hash": "b27fbdcf56b172bb5012f44d59314c6f8a76bd35",
-  "asked": "2026-10-29T21:37:09-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:48:25-06:00",
+  "on": "2026-11-02",
   "events": []
  },
  "https://whiskeyjacksmadtown.com/calendar/": {
   "hash": "8369bb8764d25462e5af6d2c153c96c0804ed0f1",
-  "asked": "2026-10-29T21:37:11-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:48:38-06:00",
+  "on": "2026-11-02",
   "events": []
  },
  "https://www.capitalbrewery.com/events-2/": {
   "hash": "0a2a58c8ca723447a2cbe60e5cd1a53aa988773d",
-  "asked": "2026-10-29T21:37:12-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:48:38-06:00",
+  "on": "2026-11-02",
   "events": [
    {
     "title": "Capital Brewery November Monthly Sampling @ Bazil's Pub in Appleton",
@@ -853,7 +808,7 @@
     "start": "19:00",
     "end": "20:30",
     "price": null,
-    "description": "Capital Brewery monthly beer sampling at Bazil's Pub & Provisions in Appleton.",
+    "description": "Capital Brewery monthly sampling at Bazil's Pub & Provisions in Appleton.",
     "category": "food"
    }
   ]
@@ -866,58 +821,67 @@
  },
  "https://tinystaphouse.com/": {
   "hash": "98d6224705f931ea24049dc812df1e157a75b11d",
-  "asked": "2026-10-29T21:37:10-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:48:27-06:00",
+  "on": "2026-11-02",
   "events": []
  },
  "http://malthousetavern.com/": {
   "hash": "be2225c7f9001b32e2e9124d18e36aabc17946f2",
-  "asked": "2026-10-29T21:37:09-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:48:22-06:00",
+  "on": "2026-11-02",
   "events": [
    {
-    "title": "Acoustic Music Monday: Grandpa's Elixir",
+    "title": "Grandpa's Elixir",
     "date": "2026-11-02",
     "start": null,
     "end": null,
     "price": null,
-    "description": "Bluegrassy acoustic music, first Monday of the month.",
+    "description": "Acoustic Music Monday, 1st Monday (bluegrassy)",
     "category": "music"
    },
    {
-    "title": "Acoustic Music Monday: The Kissers",
+    "title": "The Kissers",
     "date": "2026-11-09",
     "start": null,
     "end": null,
     "price": null,
-    "description": "Traditional Irish trad/pub music, second Monday of the month.",
+    "description": "Acoustic Music Monday, 2nd Monday (Irish trad/pub)",
     "category": "music"
    },
    {
-    "title": "Tuesday Music: Cajun Strangers",
+    "title": "Material Boys",
+    "date": "2026-11-16",
+    "start": null,
+    "end": null,
+    "price": null,
+    "description": "Acoustic Music Monday, 3rd Monday (bluegrass)",
+    "category": "music"
+   },
+   {
+    "title": "Cajun Strangers",
     "date": "2026-11-03",
     "start": null,
     "end": null,
     "price": null,
-    "description": "First Tuesday of the month.",
+    "description": "Tuesday Music, 1st Tuesday",
     "category": "music"
    },
    {
-    "title": "Tuesday Music: Birds, Birds, Birds",
+    "title": "Birds, Birds, Birds",
     "date": "2026-11-10",
     "start": null,
     "end": null,
     "price": null,
-    "description": "Folky and bluegrassy, second Tuesday of the month.",
+    "description": "Tuesday Music, 2nd Tuesday (folky and bluegrassy)",
     "category": "music"
    },
    {
-    "title": "Wednesday Music: The North Westerns",
+    "title": "The North Westerns",
     "date": "2026-11-04",
     "start": null,
     "end": null,
     "price": null,
-    "description": "Western Swing, first Wednesday of the month.",
+    "description": "Wednesday Music, 1st Wednesday (Western swing)",
     "category": "music"
    }
   ]
@@ -940,72 +904,73 @@
  },
  "https://whiskeyjacksmadtown.com/weekly-specials/": {
   "hash": "92355b3a18cd4383d591b74f0b3c8c1e2817d99f",
-  "asked": "2026-10-29T21:37:14-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:48:41-06:00",
+  "on": "2026-11-02",
   "events": []
  },
  "https://www.karben4.com/events": {
-  "hash": "e406476091e7fc2d95aa16b1478f2f79cb3a8fc8",
-  "asked": "2026-11-01T20:30:51-06:00",
-  "on": "2026-11-01",
-  "events": []
+  "hash": "b9504a6171972be721641ff58b20dfcbe32c7816",
+  "asked": "2026-11-02T14:48:40-06:00",
+  "on": "2026-11-02",
+  "events": [
+   {
+    "title": "Stand-up comedy show with Encore Comedy",
+    "date": "2026-11-07",
+    "start": "20:00",
+    "end": null,
+    "price": null,
+    "description": "Stand-up comedy in the taproom with Encore Comedy. Tickets via Eventbrite link on the page.",
+    "category": "comedy"
+   }
+  ]
  },
  "https://oldsugardistillery.com/private-events/": {
   "hash": "84cba732ced6ecb8f6a0b7047c48ae7e951eb5de",
-  "asked": "2026-10-29T21:37:18-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:48:42-06:00",
+  "on": "2026-11-02",
   "events": [
-   {
-    "title": "Distillery Tour",
-    "date": "2026-10-31",
-    "start": "13:30",
-    "end": null,
-    "price": null,
-    "description": "Saturday tour at Old Sugar Distillery, 1:30PM (weekly).",
-    "category": "other"
-   },
    {
     "title": "Distillery Tour",
     "date": "2026-11-07",
     "start": "13:30",
     "end": null,
     "price": null,
-    "description": "Saturday tour at Old Sugar Distillery, 1:30PM (weekly).",
+    "description": "Weekly Saturday tour at Old Sugar Distillery, listed as Saturdays 1:30PM.",
+    "category": "other"
+   },
+   {
+    "title": "Distillery Tour",
+    "date": "2026-11-14",
+    "start": "13:30",
+    "end": null,
+    "price": null,
+    "description": "Weekly Saturday tour at Old Sugar Distillery, listed as Saturdays 1:30PM.",
     "category": "other"
    }
   ]
  },
  "https://www.delta.beer/events": {
   "hash": "4507e4c7bf4adcae8573fe4b56e0e44ab1098932",
-  "asked": "2026-10-29T21:37:17-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:48:37-06:00",
+  "on": "2026-11-02",
   "events": [
    {
-    "title": "Trivia Night (Premier Trivia)",
+    "title": "Premier Trivia Night",
     "date": "2026-11-04",
     "start": "19:00",
     "end": "21:00",
     "price": null,
-    "description": "Premier Trivia hosted by entertainers; teams of all sizes welcome. Gift certificates for 1st-3rd place.",
+    "description": "Weekly trivia hosted by Premier Trivia. Teams of all sizes welcome; prizes are Delta gift certificates for 1st to 3rd place.",
     "category": "trivia"
    },
    {
-    "title": "Trivia Night (Premier Trivia)",
+    "title": "Premier Trivia Night",
     "date": "2026-11-11",
     "start": "19:00",
     "end": "21:00",
     "price": null,
-    "description": "Premier Trivia hosted by entertainers; teams of all sizes welcome. Gift certificates for 1st-3rd place.",
+    "description": "Weekly trivia hosted by Premier Trivia. Teams of all sizes welcome; prizes are Delta gift certificates for 1st to 3rd place.",
     "category": "trivia"
-   },
-   {
-    "title": "Euchre Night",
-    "date": "2026-10-30",
-    "start": "18:30",
-    "end": "21:30",
-    "price": null,
-    "description": "Friday euchre, limited to the first 32 to sign up via deltaeuchre@gmail.com. Some Fridays excluded for other programming.",
-    "category": "other"
    },
    {
     "title": "Euchre Night",
@@ -1013,7 +978,16 @@
     "start": "18:30",
     "end": "21:30",
     "price": null,
-    "description": "Friday euchre, limited to the first 32 to sign up via deltaeuchre@gmail.com. Some Fridays excluded for other programming.",
+    "description": "Friday euchre, limited to the first 32 people to sign up via deltaeuchre@gmail.com. Some Fridays are excluded for other programming.",
+    "category": "other"
+   },
+   {
+    "title": "Euchre Night",
+    "date": "2026-11-13",
+    "start": "18:30",
+    "end": "21:30",
+    "price": null,
+    "description": "Friday euchre, limited to the first 32 people to sign up via deltaeuchre@gmail.com. Some Fridays are excluded for other programming.",
     "category": "other"
    },
    {
@@ -1031,38 +1005,47 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Structured speed meeting for making new community connections; bring a friend welcome. Second Thursday monthly.",
+    "description": "Structured speed networking with conversation prompts and a timer; bring a friend welcome. Monthly on the second Thursday.",
+    "category": "other"
+   },
+   {
+    "title": "Sundays Are for the Dogs",
+    "date": "2026-11-08",
+    "start": "12:00",
+    "end": "18:00",
+    "price": null,
+    "description": "Well-behaved leashed dogs welcome inside the taproom on Sundays, noon to 6.",
+    "category": "other"
+   },
+   {
+    "title": "Sundays Are for the Dogs",
+    "date": "2026-11-15",
+    "start": "12:00",
+    "end": "18:00",
+    "price": null,
+    "description": "Well-behaved leashed dogs welcome inside the taproom on Sundays, noon to 6.",
     "category": "other"
    }
   ]
  },
  "https://www.garthsbrewbar.com/": {
   "hash": "f1363e16bf198e6cb6dc3732e9c0b7bfddd4ddb7",
-  "asked": "2026-10-29T21:37:15-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:48:37-06:00",
+  "on": "2026-11-02",
   "events": []
  },
  "https://www.statelinedistillery.com/cocktail-lounge/events": {
-  "hash": "0e282c5e1459d96ef2d33bd313afd06b161fdd3c",
-  "asked": "2026-10-31T11:06:42-05:00",
-  "on": "2026-10-31",
+  "hash": "29c0ce369fe6817430f4102e89d2ae0a6ea65aaf",
+  "asked": "2026-11-02T14:48:43-06:00",
+  "on": "2026-11-02",
   "events": [
-   {
-    "title": "Dead & Distilled: Halloween Party",
-    "date": "2026-10-31",
-    "start": "15:00",
-    "end": "00:00",
-    "price": null,
-    "description": "Halloween party at State Line Distillery cocktail lounge.",
-    "category": "other"
-   },
    {
     "title": "Christa Lee Music",
     "date": "2026-11-06",
     "start": "19:00",
     "end": "21:00",
     "price": null,
-    "description": "Live music performance by Christa Lee.",
+    "description": "Live music with Christa Lee at State Line Distillery's cocktail lounge.",
     "category": "music"
    },
    {
@@ -1073,19 +1056,28 @@
     "price": null,
     "description": "86'd Party at State Line Distillery.",
     "category": "other"
+   },
+   {
+    "title": "Fall + Winter Menu Launch",
+    "date": "2026-11-15",
+    "start": "15:00",
+    "end": "21:00",
+    "price": null,
+    "description": "Launch of the fall and winter menu at State Line Distillery.",
+    "category": "food"
    }
   ]
  },
  "https://www.youngbloodbeerco.com/": {
   "hash": "83a1f0d585808418d93aea6afa5495330bf1ad85",
-  "asked": "2026-10-29T21:37:15-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:48:40-06:00",
+  "on": "2026-11-02",
   "events": []
  },
  "https://yaharabay.com/pages/event-space": {
   "hash": "ab0083685df964a49e2728a03f0fc5e1342898d7",
-  "asked": "2026-10-29T21:37:16-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:48:42-06:00",
+  "on": "2026-11-02",
   "events": []
  },
  "https://thekickback.bar/upcoming-events/": {
@@ -1187,32 +1179,32 @@
  },
  "https://madwoofs.com/specials.html": {
   "hash": "7962231257d0bcd2c3b1bdaa1adf5c38bfd2d02e",
-  "asked": "2026-10-29T21:37:23-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:48:37-06:00",
+  "on": "2026-11-02",
   "events": []
  },
  "https://barriquesmarket.com/pages/events": {
   "hash": "f1d8407b773b712507930e015974be77a139c3b2",
-  "asked": "2026-10-29T21:37:17-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:49:16-06:00",
+  "on": "2026-11-02",
   "events": []
  },
  "https://www.ancoracafes.com/monona-drive/": {
   "hash": "75afbaac06e471277b909d6f26584855a11d14c6",
-  "asked": "2026-10-29T21:37:17-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:48:41-06:00",
+  "on": "2026-11-02",
   "events": []
  },
  "https://www.statelinedistillery.com/cocktail-lounge/private-events": {
   "hash": "046423b0434caf5ff07c3c5743ad0ea815534bf9",
-  "asked": "2026-10-29T21:37:15-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:48:44-06:00",
+  "on": "2026-11-02",
   "events": []
  },
  "https://vintagemadison.com/specials/": {
   "hash": "ab89aa5c43cf7a512c6382c4442688f725417cd6",
-  "asked": "2026-10-29T21:37:08-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:48:29-06:00",
+  "on": "2026-11-02",
   "events": []
  },
  "https://thekickback.bar/drag-bingo-nov/": {
@@ -1239,68 +1231,68 @@
  },
  "https://www.candycloudcompany.com/locations/madison": {
   "hash": "56675790ccda038c9f50b89482a9d58682ffa44f",
-  "asked": "2026-10-29T21:37:24-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:48:48-06:00",
+  "on": "2026-11-02",
   "events": []
  },
  "http://www.cafedomestiquemadison.com/": {
   "hash": "d996454ebb3f52e26eaa5c7339f2f17ca8d1e156",
-  "asked": "2026-10-29T21:37:28-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:48:46-06:00",
+  "on": "2026-11-02",
   "events": []
  },
  "https://www.cafedomestiquemadison.com/": {
   "hash": "d996454ebb3f52e26eaa5c7339f2f17ca8d1e156",
-  "asked": "2026-10-29T21:37:25-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:48:49-06:00",
+  "on": "2026-11-02",
   "events": []
  },
  "https://www.mymonona.com/2781/Trivia-Nights": {
   "hash": "bdf7cd9753613d133a5f997d37cc39c6261dfcea",
-  "asked": "2026-10-29T21:37:23-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:48:52-06:00",
+  "on": "2026-11-02",
   "events": []
  },
  "https://union.wisc.edu/host-your-event": {
   "hash": "24ff4ffa527e643b12e502981716346c46f7a9a3",
-  "asked": "2026-10-29T21:37:26-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:49:01-06:00",
+  "on": "2026-11-02",
   "events": []
  },
  "https://colectivo.com/pages/on-the-square": {
   "hash": "c3813798f007237607e37026773bc022bc8580fa",
-  "asked": "2026-10-29T21:37:28-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:48:54-06:00",
+  "on": "2026-11-02",
   "events": []
  },
  "https://union.wisc.edu/events-and-activities": {
   "hash": "9c40aa639cc5a907868fa56ecc1f0226baea43c4",
-  "asked": "2026-10-29T21:37:30-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:49:03-06:00",
+  "on": "2026-11-02",
   "events": []
  },
  "https://barriquesmarket.com/pages/tastings-events": {
   "hash": "cd96f9245c23fc2d2525b833ecab4ef0f206be98",
-  "asked": "2026-10-29T21:37:30-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:49:27-06:00",
+  "on": "2026-11-02",
   "events": []
  },
  "https://colectivo.com/pages/monroe-street": {
   "hash": "f21eab436e4c5f9eaa6c28b2384c4dd9fb0faf10",
-  "asked": "2026-10-29T21:37:31-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:48:56-06:00",
+  "on": "2026-11-02",
   "events": []
  },
  "https://colectivo.com/pages/madison-cafes": {
-  "hash": "f294012347e69f5080ae5a6fb107ca16124b31f5",
-  "asked": "2026-10-29T21:37:34-05:00",
-  "on": "2026-10-29",
+  "hash": "f95281c161c41d756b58f3efc40a80b7510c30fd",
+  "asked": "2026-11-02T14:49:00-06:00",
+  "on": "2026-11-02",
   "events": []
  },
  "https://www.lazyjanes.com/": {
   "hash": "49105d1f49595c33fa9c4e052c327824a2259e47",
-  "asked": "2026-10-29T21:37:34-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:49:31-06:00",
+  "on": "2026-11-02",
   "events": []
  },
  "https://lakesidestcoffeehouse.com/music-calendar": {
@@ -1370,26 +1362,26 @@
  },
  "https://oasiscafefitchburg.com/": {
   "hash": "c58806cd35b91d512f482e6365c8e9bdb00d19b6",
-  "asked": "2026-10-29T21:37:44-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:49:39-06:00",
+  "on": "2026-11-02",
   "events": []
  },
  "https://mymokacoffee.com/pages/events": {
   "hash": "e986fb19daf3fdd4b49ced3db90904e2e0c857de",
-  "asked": "2026-10-29T21:37:38-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:49:46-06:00",
+  "on": "2026-11-02",
   "events": []
  },
  "https://www.livsdrinks.com/events/": {
   "hash": "4292a6cb6e1882cda0c071d8095c277227077e8b",
-  "asked": "2026-10-29T21:37:41-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:49:41-06:00",
+  "on": "2026-11-02",
   "events": []
  },
  "https://slowfood-uw.org/calendar/": {
   "hash": "05ee6db98061d4a74acae6e1d9783f9fb20c25b2",
-  "asked": "2026-10-29T21:37:42-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:49:43-06:00",
+  "on": "2026-11-02",
   "events": []
  },
  "https://www.motherfools.com/event/20261106/mad-city-story-slam-rebellion": {
@@ -1410,75 +1402,57 @@
  },
  "https://tacomadrewi.com/": {
   "hash": "112c80b18ffdc42710dec5ce81385ce5df090c7a",
-  "asked": "2026-10-29T21:37:56-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:50:11-06:00",
+  "on": "2026-11-02",
   "events": []
  },
  "https://www.teasider.com/": {
   "hash": "bdeb5ec6ee94d329b27020203f5a12bdd9073328",
-  "asked": "2026-10-29T21:37:59-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:50:14-06:00",
+  "on": "2026-11-02",
   "events": []
  },
  "https://wakenbakery.net/events/": {
   "hash": "c94b39f69312a01a9dd545b9772e0ad585e2f494",
-  "asked": "2026-10-29T21:37:58-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:50:33-06:00",
+  "on": "2026-11-02",
   "events": []
  },
  "https://thesowsearwi.com/blogs/news/autumn-2025-events-classes-at-the-sows-ear": {
   "hash": "6298f7db3eea89d7bd415acd65fa4d091f0153ab",
-  "asked": "2026-10-29T21:38:00-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:50:27-06:00",
+  "on": "2026-11-02",
   "events": []
  },
  "https://www.micentro.org/events": {
   "hash": "9280e8dc2b4ba9395b50469f6524923ab5019843",
-  "asked": "2026-10-29T21:38:04-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:50:30-06:00",
+  "on": "2026-11-02",
   "events": [
    {
-    "title": "43rd Annual Celebration at Mercadito",
-    "date": "2026-10-29",
-    "start": null,
-    "end": null,
-    "price": null,
-    "description": "Annual celebration at Mercadito; tickets available on the Centro site.",
-    "category": "other"
-   },
-   {
-    "title": "Mercadito community farmer's market",
-    "date": "2026-10-29",
-    "start": "16:00",
-    "end": "20:00",
-    "price": null,
-    "description": "Open-air community market at 2403 Cypress Way with food vendors, fresh produce, artisanal goods, kids' games and a weekly raffle.",
-    "category": "food"
-   },
-   {
-    "title": "Mercadito community farmer's market",
+    "title": "Mercadito",
     "date": "2026-11-05",
     "start": "16:00",
     "end": "20:00",
     "price": null,
-    "description": "Open-air community market at 2403 Cypress Way with food vendors, fresh produce, artisanal goods, kids' games and a weekly raffle.",
+    "description": "Weekly community farmer's market with food vendors, fresh produce, artisanal goods, kids' games and a weekly raffle at 2403 Cypress Way.",
     "category": "food"
    },
    {
-    "title": "Mercadito community farmer's market",
+    "title": "Mercadito",
     "date": "2026-11-12",
     "start": "16:00",
     "end": "20:00",
     "price": null,
-    "description": "Open-air community market at 2403 Cypress Way with food vendors, fresh produce, artisanal goods, kids' games and a weekly raffle.",
+    "description": "Weekly community farmer's market with food vendors, fresh produce, artisanal goods, kids' games and a weekly raffle at 2403 Cypress Way.",
     "category": "food"
    }
   ]
  },
  "https://www.madisonmuslims.org/events": {
   "hash": "ac97f1be534939d321950145c577a3f3669933aa",
-  "asked": "2026-10-29T21:38:04-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:50:40-06:00",
+  "on": "2026-11-02",
   "events": []
  },
  "https://iwcmadison.com/calendar/": {
@@ -1499,24 +1473,15 @@
  },
  "https://www.veronawi.gov/513/Schedules": {
   "hash": "cdc2aa46ed8c744d78b794eb72fd481fcaf360d5",
-  "asked": "2026-10-29T21:38:08-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:50:43-06:00",
+  "on": "2026-11-02",
   "events": []
  },
  "https://www.cityofmadison.com/parks/events": {
-  "hash": "6e6541e0df240c0458783cccb2c552c2670fb25e",
-  "asked": "2026-10-31T11:07:28-05:00",
-  "on": "2026-10-31",
+  "hash": "5ef5999371da257b620b2f8a57ec83f00b69e807",
+  "asked": "2026-11-02T14:50:53-06:00",
+  "on": "2026-11-02",
   "events": [
-   {
-    "title": "Bird & Nature Adventures | Cherokee Marsh Conservation Park",
-    "date": "2026-11-01",
-    "start": "13:30",
-    "end": "15:00",
-    "price": null,
-    "description": "Bird and nature walk; meet at the Cherokee Marsh North Unit parking lot, 6098 North Sherman Avenue.",
-    "category": "other"
-   },
    {
     "title": "Parks Alive Fall | Galaxy",
     "date": "2026-11-02",
@@ -1550,7 +1515,7 @@
     "start": "18:00",
     "end": "19:30",
     "price": null,
-    "description": "Public meeting about Odana Hills Golf Course and Park, held virtually.",
+    "description": "Virtual public meeting about Odana Hills Golf Course and Park.",
     "category": "other"
    },
    {
@@ -1559,7 +1524,7 @@
     "start": "13:30",
     "end": "15:00",
     "price": null,
-    "description": "Bird and nature walk; meet at Tenney Park beach parking lot, 1330 Sherman Ave.",
+    "description": "Guided bird and nature walk; meet at Tenney Park beach parking lot, 1330 Sherman Ave.",
     "category": "other"
    },
    {
@@ -1568,7 +1533,7 @@
     "start": "13:30",
     "end": "14:30",
     "price": null,
-    "description": "Bird and nature walk at Turville Point Conservation Park, 1202 Olin Turville Court.",
+    "description": "Guided bird and nature walk at Turville Point Conservation Park, 1202 Olin Turville Court.",
     "category": "other"
    },
    {
@@ -1586,27 +1551,82 @@
     "start": "13:30",
     "end": "15:00",
     "price": null,
-    "description": "Bird and nature walk at Owen Conservation Park, 6021 Old Sauk Road.",
+    "description": "Guided bird and nature walk at Owen Conservation Park, 6021 Old Sauk Road.",
+    "category": "other"
+   },
+   {
+    "title": "Bird & Nature Adventures | Warner Park",
+    "date": "2026-11-15",
+    "start": "13:30",
+    "end": "15:00",
+    "price": null,
+    "description": "Guided bird and nature walk at Warner Park (Rainbow Shelter), 2930 N. Sherman Ave.",
     "category": "other"
    }
   ]
  },
  "https://www.madisonmuslims.org/events/lesson-on-delivering-the-friday-khutbah": {
   "hash": "9490797fa2fb2bb85e8d1c173402c1acdd2dbae6",
-  "asked": "2026-10-29T21:38:09-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:50:41-06:00",
+  "on": "2026-11-02",
   "events": []
  },
  "https://www.madisonpubliclibrary.org/spaces/events": {
-  "hash": "d15c78243567a5e2bc53ac0083370433656e66ab",
-  "asked": "2026-11-01T20:31:46-06:00",
-  "on": "2026-11-01",
-  "events": []
+  "hash": "88e2ff367d7f812656f91eab6df36177866d123a",
+  "asked": "2026-11-02T14:52:28-06:00",
+  "on": "2026-11-02",
+  "events": [
+   {
+    "title": "After School Science Club at the Imagination Center Library",
+    "date": "2026-11-02",
+    "start": "15:00",
+    "end": "16:00",
+    "price": null,
+    "description": "After school science club in the Community Room.",
+    "category": "other"
+   },
+   {
+    "title": "Dia de Muertos Family Program",
+    "date": "2026-11-02",
+    "start": "16:30",
+    "end": "18:00",
+    "price": null,
+    "description": "Dia de Muertos family program in the Community Room.",
+    "category": "other"
+   },
+   {
+    "title": "Multi-Age Storytime",
+    "date": "2026-11-03",
+    "start": "10:30",
+    "end": "11:15",
+    "price": null,
+    "description": "Multi-age storytime in the Community Room.",
+    "category": "other"
+   },
+   {
+    "title": "Mini Figure Painting (6 of 6 part series)",
+    "date": "2026-11-03",
+    "start": "18:00",
+    "end": "19:30",
+    "price": null,
+    "description": "Part of a 6-part mini figure painting series in the Community Room.",
+    "category": "other"
+   },
+   {
+    "title": "Journaling for Mental Health",
+    "date": "2026-11-04",
+    "start": "17:30",
+    "end": "18:30",
+    "price": null,
+    "description": "Journaling session for mental health in the Community Room.",
+    "category": "other"
+   }
+  ]
  },
  "https://ebling.library.wisc.edu/ebling-library-classes-events/": {
-  "hash": "82be7c5b61db9a0779ad9e6ed5e1be8dc4154f7f",
-  "asked": "2026-10-29T21:38:12-05:00",
-  "on": "2026-10-29",
+  "hash": "be139d7d66194c83b615080fbba0b793dd9020d4",
+  "asked": "2026-11-02T14:50:59-06:00",
+  "on": "2026-11-02",
   "events": [
    {
     "title": "Playful Pedagogy: Plagued! Demo and Reflections",
@@ -1614,7 +1634,7 @@
     "start": "12:00",
     "end": "13:00",
     "price": null,
-    "description": "In-person workshop on playful pedagogy and games in instruction, with a chance to play Plagued! Age of Enlightenment in the Ebling Library Meeting Room.",
+    "description": "In-person workshop on playful pedagogy and games in instruction, with a chance to play Plagued! Age of Enlightenment. Instructors Hannah Swan and Susan Vandagriff.",
     "category": "other"
    },
    {
@@ -1623,7 +1643,7 @@
     "start": "18:00",
     "end": "19:00",
     "price": null,
-    "description": "Screening of John Huston's documentary on the rehabilitation of psychologically traumatized WWII veterans, with Hannah Swan, at UW-Madison Cinematheque, Vilas Hall.",
+    "description": "Screening of Huston's documentary on the rehabilitation of psychologically traumatized World War II veterans, at UW-Madison Cinematheque, Vilas Hall 4070. Introduction by Hannah Swan.",
     "category": "film"
    },
    {
@@ -1632,7 +1652,7 @@
     "start": "12:00",
     "end": "13:00",
     "price": null,
-    "description": "Online overview of the Embase biomedical literature database and how its coverage differs from PubMed. Open to the UW-Madison community only.",
+    "description": "Online overview of the Embase biomedical literature database and how its coverage differs from PubMed. Open to the UW-Madison community only. Instructor Leslie Christensen.",
     "category": "other"
    },
    {
@@ -1641,47 +1661,29 @@
     "start": "12:00",
     "end": "17:00",
     "price": null,
-    "description": "Exhibition open house for Craft/Work: A History of Occupational and Art Therapies, with military medicine and veterans' health materials displayed for Veterans' Day.",
+    "description": "Exhibition open house for Craft/Work: A History of Occupational and Art Therapies, with materials on military medicine and veterans' health for Veterans' Day.",
     "category": "other"
    }
   ]
  },
  "https://www.library.wisc.edu/music/": {
-  "hash": "80e8f810771aff5a68a456ae770e215a7a0d2f6e",
-  "asked": "2026-11-01T11:09:04-06:00",
-  "on": "2026-11-01",
+  "hash": "c35ff73c89af79d05fd2b3791d5949c3798b653f",
+  "asked": "2026-11-02T14:51:01-06:00",
+  "on": "2026-11-02",
   "events": []
  },
  "https://www.sunprairiepubliclibrary.org/home-delivery-service": {
-  "hash": "4f4c0ca66454f1d24432316ee493238a47f87405",
-  "asked": "2026-10-30T21:24:03-05:00",
-  "on": "2026-10-30",
+  "hash": "ea77b2c7b7e080e6d4914b9bffcb5af818d5007f",
+  "asked": "2026-11-02T14:51:08-06:00",
+  "on": "2026-11-02",
   "events": [
-   {
-    "title": "Itsy Bitsy Lapsit Storytime",
-    "date": "2026-11-02",
-    "start": "10:00",
-    "end": "10:30",
-    "price": null,
-    "description": "Lapsit storytime for family and children ages 0-5, Sun Prairie Public Library.",
-    "category": "other"
-   },
-   {
-    "title": "Itsy Bitsy Lapsit Storytime",
-    "date": "2026-11-02",
-    "start": "11:15",
-    "end": "11:45",
-    "price": null,
-    "description": "Lapsit storytime for family and children ages 0-5, Sun Prairie Public Library.",
-    "category": "other"
-   },
    {
     "title": "General Election",
     "date": "2026-11-03",
     "start": "07:00",
     "end": "20:00",
     "price": null,
-    "description": "General Election listed on the Sun Prairie Public Library events calendar.",
+    "description": "General Election listed in the library's events calendar.",
     "category": "other"
    },
    {
@@ -1690,7 +1692,7 @@
     "start": "10:00",
     "end": "10:30",
     "price": null,
-    "description": "Storytime for family and children ages 0-5, Sun Prairie Public Library.",
+    "description": "Storytime for family and children ages 0-5.",
     "category": "other"
    },
    {
@@ -1699,19 +1701,37 @@
     "start": "11:15",
     "end": "11:45",
     "price": null,
-    "description": "Storytime for family and children ages 0-5, Sun Prairie Public Library.",
+    "description": "Storytime for family and children ages 0-5.",
+    "category": "other"
+   },
+   {
+    "title": "Virtual Author Talk with Asha Frost",
+    "date": "2026-11-03",
+    "start": "13:00",
+    "end": "14:00",
+    "price": null,
+    "description": "Virtual author talk for adults.",
+    "category": "other"
+   },
+   {
+    "title": "Mystery Book Club",
+    "date": "2026-11-04",
+    "start": "13:30",
+    "end": "14:30",
+    "price": null,
+    "description": "Mystery book club for adults.",
     "category": "other"
    }
   ]
  },
  "https://library.edgewood.edu/home": {
   "hash": "5c99f4ece6b264dae11af1013f63e625e96d6c68",
-  "asked": "2026-10-29T21:38:17-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:51:02-06:00",
+  "on": "2026-11-02",
   "events": [
    {
     "title": "Free coffee & tea at the library",
-    "date": "2026-10-31",
+    "date": "2026-11-07",
     "start": "09:00",
     "end": "13:00",
     "price": 0,
@@ -1720,7 +1740,7 @@
    },
    {
     "title": "Free coffee & tea at the library",
-    "date": "2026-11-07",
+    "date": "2026-11-14",
     "start": "09:00",
     "end": "13:00",
     "price": 0,
@@ -1731,8 +1751,8 @@
  },
  "https://wil-mar.org/weekly-events": {
   "hash": "e0359c79dbdba34d3edecb2c542be1f51739d413",
-  "asked": "2026-10-29T21:38:17-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:50:52-06:00",
+  "on": "2026-11-02",
   "events": []
  },
  "https://escmadison.com/events": {
@@ -1770,15 +1790,34 @@
   ]
  },
  "https://www.madisonpubliclibrary.org/spaces/events/search": {
-  "hash": "e81ca2f07dfd9efbd4f1e7f395ca2f00e98979c9",
-  "asked": "2026-11-01T20:32:02-06:00",
-  "on": "2026-11-01",
-  "events": []
+  "hash": "4c89cdb02cfd8840031c189f404712c8d320e09b",
+  "asked": "2026-11-02T14:52:38-06:00",
+  "on": "2026-11-02",
+  "events": [
+   {
+    "title": "First Monday, First Person",
+    "date": "2026-11-02",
+    "start": "18:30",
+    "end": "20:30",
+    "price": 0,
+    "description": "Memoir writing coach Sarah White facilitates a free read-and-share event with group feedback on first-person writing.",
+    "category": "other"
+   },
+   {
+    "title": "Pen Pals Writing Group",
+    "date": "2026-11-02",
+    "start": "18:30",
+    "end": "20:30",
+    "price": null,
+    "description": "Writing group for people working on novels, screenplays or other fiction, with support for writer's block.",
+    "category": "other"
+   }
+  ]
  },
  "https://artlitlab.org/calendar": {
   "hash": "0f520ecc389dd7a6729b797cd08c708119db82f7",
-  "asked": "2026-10-29T21:38:27-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:51:25-06:00",
+  "on": "2026-11-02",
   "events": [
    {
     "title": "Auricle Presents: Drumming with Current",
@@ -1786,7 +1825,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Auricle series presentation featuring Current on drumming.",
+    "description": "Auricle Presents concert featuring Drumming with Current.",
     "category": "music"
    },
    {
@@ -1804,8 +1843,26 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Screening of local animation as part of Project Projection.",
-    "category": "film"
+    "description": "Project Projection program of local animation.",
+    "category": "other"
+   },
+   {
+    "title": "Native Art Market 2026",
+    "date": "2026-11-14",
+    "start": null,
+    "end": null,
+    "price": null,
+    "description": "Native Art Market.",
+    "category": "other"
+   },
+   {
+    "title": "Galaxy Quartet",
+    "date": "2026-11-15",
+    "start": null,
+    "end": null,
+    "price": null,
+    "description": "Performance by Galaxy Quartet.",
+    "category": "music"
    }
   ]
  },
@@ -1845,14 +1902,14 @@
  },
  "https://www.tenpinalleys.com/childrens-entertainment-oregon-wi": {
   "hash": "534d736f209fd1960e246d3cb5c42fba2eb9d990",
-  "asked": "2026-10-29T21:38:33-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:51:56-06:00",
+  "on": "2026-11-02",
   "events": []
  },
  "https://www.monroestreetarts.org/private-music": {
   "hash": "aa2d67560356ab03cc351d6759d57b8eafe6c6c0",
-  "asked": "2026-10-29T21:38:29-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:51:57-06:00",
+  "on": "2026-11-02",
   "events": []
  },
  "https://madisonorpheum.com/calendar/": {
@@ -1934,34 +1991,16 @@
  },
  "https://artlitlab.org/events/write-ins": {
   "hash": "6110597e2b00793e541ceae79a34a2c2dcd1a276",
-  "asked": "2026-10-29T21:38:33-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:51:29-06:00",
+  "on": "2026-11-02",
   "events": [
-   {
-    "title": "Online Write-In (Zoom)",
-    "date": "2026-10-29",
-    "start": "10:00",
-    "end": null,
-    "price": 0,
-    "description": "Thursday online write-in via Zoom using the Pomodoro method, with check-in and check-out. Registration is free.",
-    "category": "other"
-   },
-   {
-    "title": "Online Write-In (Zoom)",
-    "date": "2026-11-01",
-    "start": "09:00",
-    "end": null,
-    "price": 0,
-    "description": "Sunday online write-in via Zoom using the Pomodoro method, with check-in and check-out. Registration is free.",
-    "category": "other"
-   },
    {
     "title": "Online Write-In (Zoom)",
     "date": "2026-11-05",
     "start": "10:00",
     "end": null,
     "price": 0,
-    "description": "Thursday online write-in via Zoom using the Pomodoro method, with check-in and check-out. Registration is free.",
+    "description": "Pomodoro-style online write-in via Zoom with check-in and check-out. Registration is free.",
     "category": "other"
    },
    {
@@ -1970,7 +2009,7 @@
     "start": "09:00",
     "end": null,
     "price": 0,
-    "description": "Sunday online write-in via Zoom using the Pomodoro method, with check-in and check-out. Registration is free.",
+    "description": "Pomodoro-style online write-in via Zoom with check-in and check-out. Registration is free.",
     "category": "other"
    },
    {
@@ -1979,7 +2018,25 @@
     "start": "10:00",
     "end": null,
     "price": 0,
-    "description": "Thursday online write-in via Zoom using the Pomodoro method, with check-in and check-out. Registration is free.",
+    "description": "Pomodoro-style online write-in via Zoom with check-in and check-out. Registration is free.",
+    "category": "other"
+   },
+   {
+    "title": "Online Write-In (Zoom)",
+    "date": "2026-11-15",
+    "start": "09:00",
+    "end": null,
+    "price": 0,
+    "description": "Pomodoro-style online write-in via Zoom with check-in and check-out. Registration is free.",
+    "category": "other"
+   },
+   {
+    "title": "Native Art Market",
+    "date": "2026-11-14",
+    "start": null,
+    "end": null,
+    "price": null,
+    "description": "Native Art Market listed on the Arts + Literature Laboratory site.",
     "category": "other"
    }
   ]
@@ -2029,8 +2086,8 @@
  },
  "https://madisonyoutharts.org/upcoming-events/news/": {
   "hash": "d5f0a03c7b9473c6f2850a66cb87b3229e3f6e73",
-  "asked": "2026-10-29T21:38:29-05:00",
-  "on": "2026-10-29",
+  "asked": "2026-11-02T14:51:52-06:00",
+  "on": "2026-11-02",
   "events": []
  },
  "https://madisonorpheum.com/event/kip-moore/": {
@@ -2056,10 +2113,20 @@
   "events": []
  },
  "https://www.veronapubliclibrary.org/": {
-  "hash": "11f7dd1f5158e31a54635b3c70617615ca304203",
-  "asked": "2026-10-30T21:24:01-05:00",
-  "on": "2026-10-30",
-  "events": []
+  "hash": "6e91d0a7f70347584f79d9f11cbb8275b997f8b0",
+  "asked": "2026-11-02T14:51:10-06:00",
+  "on": "2026-11-02",
+  "events": [
+   {
+    "title": "Late Fall Story Times",
+    "date": "2026-11-16",
+    "start": null,
+    "end": null,
+    "price": null,
+    "description": "Ongoing story times return on Monday, November 16.",
+    "category": "other"
+   }
+  ]
  },
  "https://www.waunakee.gov/calendar.aspx?CID=25": {
   "hash": "4fab05bc68f2af8beb573e7ac635da7301afaca6",
@@ -2084,5 +2151,71 @@
   "asked": "2026-10-30T16:23:51-05:00",
   "on": "2026-10-30",
   "events": []
+ },
+ "https://high-noon.com/event/dogpark/": {
+  "hash": "d400210694ce5bd24b6a9999fb19e5596fe8b69c",
+  "asked": "2026-11-02T14:48:22-06:00",
+  "on": "2026-11-02",
+  "events": [
+   {
+    "title": "Unrest Fest 2026",
+    "date": "2026-11-07",
+    "start": "19:00",
+    "end": null,
+    "price": null,
+    "description": "FPC Live presents Unrest Fest 2026 with Tenmonthsummer, Barely Civil, Los Kausas, Ourvanity, The Up & Up, The Brash Menagerie, and Irish Goodbyes. Doors 6:00 pm.",
+    "category": "music"
+   },
+   {
+    "title": "Friends of Shabazz Launch Party & Music Benefit",
+    "date": "2026-11-08",
+    "start": null,
+    "end": null,
+    "price": 20,
+    "description": "Launch party and music benefit. Suggested $20 donation at the door.",
+    "category": "music"
+   }
+  ]
+ },
+ "https://thekickback.bar/premier-trivia-tuesday-nov-3/": {
+  "hash": "25992f3a707c36f4ebbe1a9a479acec37b4b7959",
+  "asked": "2026-11-02T14:48:35-06:00",
+  "on": "2026-11-02",
+  "events": [
+   {
+    "title": "Premier Trivia Tuesday",
+    "date": "2026-11-03",
+    "start": "18:30",
+    "end": null,
+    "price": null,
+    "description": "Wisconsin's live trivia at The Kickback, 7622 Lisa Ln, Middleton. Play solo or in teams for prizes.",
+    "category": "trivia"
+   },
+   {
+    "title": "Premier Trivia Tuesday",
+    "date": "2026-11-10",
+    "start": "18:30",
+    "end": null,
+    "price": null,
+    "description": "Wisconsin's live trivia at The Kickback, 7622 Lisa Ln, Middleton. Play solo or in teams for prizes.",
+    "category": "trivia"
+   }
+  ]
+ },
+ "https://madisonorpheum.com/event/eric-andre/": {
+  "hash": "a71a0d2673e737b70cabfda9dbad8cb4364aaf18",
+  "asked": "2026-11-02T14:52:04-06:00",
+  "on": "2026-11-02",
+  "events": [
+   {
+    "title": "MDEV: The Kick-Off Event",
+    "date": "2026-11-06",
+    "start": null,
+    "end": null,
+    "price": null,
+    "description": "Kick-off event listed under Just Announced on the Orpheum Theatre page; no time or details given.",
+    "category": "other"
+   }
+  ]
  }
 }

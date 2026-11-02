@@ -89,31 +89,6 @@
   "why": "",
   "checked": "2026-10-27T14:37:22.267529-05:00"
  },
- "https://www.ticketmaster.com/halloween-hangover-iii-madison-wisconsin-11-01-2026/event/070064F4B81A31FF": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-10-27T14:37:29.815525-05:00"
- },
- "https://www.theatwoodmusichall.com/shows/2026-11-1": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:37:29.815553-05:00"
- },
- "https://www.fullmilebeercompany.com/events/2026/11/01-karaoke": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:37:29.815564-05:00"
- },
- "https://www.ticketmaster.com/winyah-madison-wisconsin-11-01-2026/event/070064F6B1895219": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-10-27T14:37:30.890704-05:00"
- },
- "https://www.ticketmaster.com/rodrigo-y-gabriela-ourhome-tour-madison-wisconsin-11-01-2026/event/070064C48E692F64": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-10-27T14:37:31.976589-05:00"
- },
  "https://www.aftershockclassicarcade.com/": {
   "ok": true,
   "why": "",
@@ -2484,11 +2459,6 @@
   "why": "",
   "checked": "2026-10-27T17:49:19.891582-05:00"
  },
- "https://thelonegirl.com/event/meat-raffle-126-4/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T17:49:30.366623-05:00"
- },
  "https://onesocialmadison.com/event/game-night-with-game-and-gather/": {
   "ok": true,
   "why": "",
@@ -2623,11 +2593,6 @@
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
   "checked": "2026-10-29T21:38:39.288790-05:00"
- },
- "https://bstonline.org/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-30T12:03:44.665405-05:00"
  },
  "https://www.caseys.com": {
   "ok": null,
@@ -3779,21 +3744,6 @@
   "why": "",
   "checked": "2026-11-01T11:09:56.658709-06:00"
  },
- "https://ctmtheater.org/event/annie-6/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-01T20:32:06.499429-06:00"
- },
- "https://ctmtheater.org/event/annie-7/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-01T20:32:07.696250-06:00"
- },
- "https://bayviewfoundation.org/event/zumba/2026-11-03/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-01T20:32:07.696278-06:00"
- },
  "https://www.madisonpubliclibrary.org/locations/imagination-center": {
   "ok": true,
   "why": "",
@@ -3813,11 +3763,6 @@
   "ok": true,
   "why": "",
   "checked": "2026-11-01T20:32:07.696298-06:00"
- },
- "https://bayviewfoundation.org/event/zumba/2026-11-10/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-01T20:32:07.696301-06:00"
  },
  "https://www.ticketmaster.com/event/Z7r9jZ1AAvt3b": {
   "ok": null,
@@ -3843,5 +3788,95 @@
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
   "checked": "2026-11-01T20:32:08.504944-06:00"
+ },
+ "https://statestreetbrats.com/event/utep-n-kentucky-20261102/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-02T14:52:54.473298-06:00"
+ },
+ "https://www.madisonpubliclibrary.org/locations/pinney-library": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-02T14:52:54.572788-06:00"
+ },
+ "https://www.waunakeepubliclibrary.org/event/jammie-jams-27096": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-02T14:52:54.572822-06:00"
+ },
+ "https://www.madisonpubliclibrary.org/monroe-street": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-02T14:52:55.710684-06:00"
+ },
+ "https://www.cafecoda.club/events-1/tango-classsocial-by-madison-tango-society-tybcn-cpa6k-d3s5m-tzwnl-x3hj8-cp48m-z5lgd-c6kyy-dxfs6-f8rrm-ynaa6-pdnf2-5c27n-aafxh-t5ajm-tshpj-hdb66-b4z7r": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-02T14:52:55.710714-06:00"
+ },
+ "https://communicationmadison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-02T14:52:55.710722-06:00"
+ },
+ "https://www.themasonlounge.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-02T14:52:55.710729-06:00"
+ },
+ "https://javacatmadison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-02T14:52:55.710736-06:00"
+ },
+ "https://www.settledownmadison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-02T14:52:55.710743-06:00"
+ },
+ "https://www.youngbloodbeerco.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-02T14:52:55.710748-06:00"
+ },
+ "https://onesocialmadison.com/event/trivia-with-king-trivia/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-02T14:53:03.162585-06:00"
+ },
+ "https://onesocialmadison.com/event/live-music-sundance/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-02T14:53:03.162617-06:00"
+ },
+ "https://www.karben4.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-02T14:53:03.162627-06:00"
+ },
+ "https://www.cafecoda.club/events-1/tango-classsocial-by-madison-tango-society-tybcn-cpa6k-d3s5m-tzwnl-x3hj8-cp48m-z5lgd-c6kyy-dxfs6-f8rrm-ynaa6-pdnf2-5c27n-aafxh-t5ajm-tshpj-hdb66-b4z7r-4ekt8": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-02T14:53:03.162636-06:00"
+ },
+ "https://onesocialmadison.com/event/trivia-with-king-trivia-2/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-02T14:53:05.056686-06:00"
+ },
+ "https://onesocialmadison.com/event/live-music-mountain-music-for-flatlanders-2/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-02T14:53:10.673436-06:00"
+ },
+ "https://onesocialmadison.com/event/badger-watch-party-2/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-02T14:53:10.673465-06:00"
+ },
+ "https://onesocialmadison.com/event/packers-watch-party-4/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-02T14:53:10.673475-06:00"
  }
 }

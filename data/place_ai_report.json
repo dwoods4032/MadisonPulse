@@ -7,17 +7,29 @@
   "skipped_site": 0,
   "api_errors": {},
   "key_present": true,
-  "at": "2026-11-01T20:30:24.555326-06:00"
+  "at": "2026-11-02T14:47:18.936481-06:00"
  },
  "restaurant": {
   "what": "restaurant",
   "to_check": 39,
-  "answered": 0,
-  "no_page": 39,
+  "answered": 2,
+  "no_page": 37,
   "skipped_site": 0,
   "api_errors": {},
+  "samples": [
+   {
+    "place": "Alchemy",
+    "reply": "{\"group\": \"unknown\", \"alcohol\": \"unknown\"}",
+    "stop": "end_turn"
+   },
+   {
+    "place": "Kosharie",
+    "reply": "{\"group\": \"med\", \"alcohol\": \"unknown\"}",
+    "stop": "end_turn"
+   }
+  ],
   "key_present": true,
-  "at": "2026-11-01T20:30:30.752780-06:00"
+  "at": "2026-11-02T14:47:37.486768-06:00"
  },
  "activity": {
   "what": "activity",
@@ -27,6 +39,6 @@
   "skipped_site": 0,
   "api_errors": {},
   "key_present": true,
-  "at": "2026-11-01T20:30:36.887344-06:00"
+  "at": "2026-11-02T14:47:41.606785-06:00"
  }
 }
