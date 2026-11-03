@@ -298,26 +298,17 @@
   "events": []
  },
  "https://www.harmonybarandgrill.com/madison-atwood-the-harmony-bar-and-grill-events": {
-  "hash": "0024fa7b1f5a5e0344c5a46dc9fa733953b989e2",
-  "asked": "2026-11-02T21:59:21-06:00",
-  "on": "2026-11-02",
+  "hash": "f7fe7979d31bf48e630ea132de1f5d3026d02a57",
+  "asked": "2026-11-03T12:27:14-06:00",
+  "on": "2026-11-03",
   "events": [
-   {
-    "title": "David Landau Kid Show",
-    "date": "2026-11-02",
-    "start": "17:30",
-    "end": "18:30",
-    "price": 5,
-    "description": "Kids music show with David Landau; $5 cover, kid menu available.",
-    "category": "music"
-   },
    {
     "title": "Smarter Than You Trivia",
     "date": "2026-11-04",
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Trivia hosted by Paul; free.",
+    "description": "Trivia hosted by Paul. Free. Held the 1st and 3rd Wednesday of the month.",
     "category": "trivia"
    },
    {
@@ -326,7 +317,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Folk/rock/alt/pop singer-songwriter Melissa Kieler with Ethan Kister; no cover.",
+    "description": "Folk/rock/alt/pop singer-songwriter Melissa Kieler with Ethan Kister. No cover.",
     "category": "music"
    },
    {
@@ -335,7 +326,7 @@
     "start": "20:00",
     "end": "22:00",
     "price": 0,
-    "description": "Scottish and Celtic music with bagpipes, guitar, fiddle, whistle and bodhran; no cover.",
+    "description": "Scottish and Celtic music with bagpipes, guitar, fiddle, whistle and bodhran. No cover.",
     "category": "music"
    },
    {
@@ -344,7 +335,7 @@
     "start": "19:30",
     "end": "21:30",
     "price": 10,
-    "description": "Traditional Irish pub songs, ballads and originals; $10 suggested donation.",
+    "description": "Traditional Irish pub songs, ballads and original songs. $10 suggested donation.",
     "category": "music"
    },
    {
@@ -353,7 +344,7 @@
     "start": "17:30",
     "end": "18:30",
     "price": 5,
-    "description": "Kids music show with David Landau; $5 cover, kid menu available.",
+    "description": "Kids music show for the whole family with David Landau. $5 cover. Kid menu available.",
     "category": "music"
    },
    {
@@ -362,7 +353,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Bluegrass, vintage country and swing with three-part harmonies; no cover.",
+    "description": "Bluegrass, vintage country and swing with three-part vocal harmonies. No cover.",
     "category": "music"
    },
    {
@@ -371,7 +362,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Bluegrass band formed from members of the Oak Street Ramblers; no cover.",
+    "description": "Classic bluegrass with a wider range of influences, from the former Oak Street Ramblers. No cover.",
     "category": "music"
    },
    {
@@ -380,7 +371,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Honky tonk show featuring Canyon Arrow; no cover.",
+    "description": "Honky tonk happy hour featuring Canyon Arrow, a Madison band. No cover.",
     "category": "music"
    },
    {
@@ -389,7 +380,7 @@
     "start": "21:00",
     "end": "00:00",
     "price": 10,
-    "description": "Rock and blues band blending 1980s MTV vibe with classic rock; $10 cover.",
+    "description": "Cambridge, Wisconsin band blending 1980s MTV pop with classic rock and blues. $10 cover.",
     "category": "music"
    },
    {
@@ -398,7 +389,7 @@
     "start": "21:00",
     "end": "00:00",
     "price": 10,
-    "description": "Indie pop-rock from Maria and the Coins, with Bear in the Forest opening; $10 cover.",
+    "description": "Minneapolis indie pop-rock band Maria and the Coins, with Bear in the Forest opening. $10 cover.",
     "category": "music"
    },
    {
@@ -407,7 +398,16 @@
     "start": "17:00",
     "end": "19:30",
     "price": 0,
-    "description": "Acoustic show with singer-songwriter Andy Ewen, Doug DeRosa on bass and Ryan Repenshek on guitar; no cover.",
+    "description": "Acoustic show with singer-songwriter Andy Ewen, Doug DeRosa on bass and Ryan Repenshek on guitar. No cover.",
+    "category": "music"
+   },
+   {
+    "title": "Madison Bluegrass Roundabout",
+    "date": "2026-11-17",
+    "start": "18:30",
+    "end": "20:30",
+    "price": 0,
+    "description": "Monthly bluegrass series hosted by Soggy Prairie, with a set from guest artists Lucky Pickers. No cover.",
     "category": "music"
    }
   ]
@@ -517,26 +517,17 @@
   ]
  },
  "https://high-noon.com/calendar/": {
-  "hash": "812266cb27e6a64929252e2a164ccdbc473a9aea",
-  "asked": "2026-11-02T14:48:18-06:00",
-  "on": "2026-11-02",
+  "hash": "c9b7a6da893f17e506ce8a9954e01a5c05dbcd8c",
+  "asked": "2026-11-03T12:27:15-06:00",
+  "on": "2026-11-03",
   "events": [
    {
-    "title": "Noah Gundersen with Runner and Breakup Shoes",
-    "date": "2026-11-02",
-    "start": "19:30",
-    "end": null,
-    "price": null,
-    "description": "FPC Live presents. Doors 6:30 pm.",
-    "category": "music"
-   },
-   {
-    "title": "Sophie Hunter with Reysha Rami",
+    "title": "[POSTPONED] Sophie Hunter with Reysha Rami",
     "date": "2026-11-04",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents. Doors 7:00 pm.",
+    "description": "FPC Live show at High Noon Saloon. Listed as postponed.",
     "category": "music"
    },
    {
@@ -545,7 +536,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents. Doors 7:00 pm. Listed as sold out.",
+    "description": "FPC Live show at High Noon Saloon.",
     "category": "music"
    },
    {
@@ -554,7 +545,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents. Doors 7:00 pm.",
+    "description": "FPC Live show at High Noon Saloon.",
     "category": "music"
    },
    {
@@ -563,16 +554,16 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents a festival with Tenmonthsummer, Barely Civil, Los Kausas, Ourvanity, The Up & Up, The Brash Menagerie and Irish Goodbyes. Doors 6:00 pm.",
+    "description": "Festival with Tenmonthsummer, Barely Civil, Los Kausas, Ourvanity, The Up & Up, The Brash Menagerie, and Irish Goodbyes at High Noon Saloon.",
     "category": "music"
    },
    {
-    "title": "Friends of Shabazz Launch Party & Music Benefit",
+    "title": "Friends of Shabazz Launch Party & Music Benefit with Low Czars",
     "date": "2026-11-08",
     "start": "12:00",
     "end": null,
     "price": 20,
-    "description": "FPC Live presents with Low Czars. Doors 11:00 am. Suggested $20 donation at the door.",
+    "description": "Music benefit at High Noon Saloon. Suggested $20 donation at the door.",
     "category": "music"
    },
    {
@@ -581,7 +572,7 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "FPC Live presents. Doors 6:30 pm.",
+    "description": "FPC Live show at High Noon Saloon.",
     "category": "music"
    },
    {
@@ -590,7 +581,7 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "The Moth presents a storytelling night. Doors 6:30 pm.",
+    "description": "The Moth storytelling event at High Noon Saloon.",
     "category": "other"
    },
    {
@@ -599,7 +590,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents. Doors 7:00 pm.",
+    "description": "FPC Live show at High Noon Saloon.",
     "category": "music"
    },
    {
@@ -608,7 +599,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents. Doors 7:00 pm.",
+    "description": "FPC Live show at High Noon Saloon.",
     "category": "music"
    },
    {
@@ -617,7 +608,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents. Doors 7:00 pm.",
+    "description": "FPC Live show at High Noon Saloon.",
     "category": "music"
    },
    {
@@ -626,7 +617,7 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents. Doors 6:00 pm.",
+    "description": "FPC Live show at High Noon Saloon.",
     "category": "music"
    },
    {
@@ -635,7 +626,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents. Doors 7:00 pm.",
+    "description": "Tribute show at High Noon Saloon.",
     "category": "music"
    },
    {
@@ -644,7 +635,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents. Doors 7:00 pm. Listed as sold out.",
+    "description": "FPC Live show at High Noon Saloon. Listed as sold out.",
     "category": "music"
    },
    {
@@ -653,7 +644,7 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "FPC Live presents. Doors 6:30 pm.",
+    "description": "FPC Live show at High Noon Saloon.",
     "category": "music"
    }
   ]
@@ -923,9 +914,9 @@
   ]
  },
  "https://doundrins.com/pages/events": {
-  "hash": "31179597845821f411945ae49945bb058106e226",
-  "asked": "2026-11-02T21:59:29-06:00",
-  "on": "2026-11-02",
+  "hash": "5dfd9a418cb6671ac55cf354beba105484d7904f",
+  "asked": "2026-11-03T12:27:17-06:00",
+  "on": "2026-11-03",
   "events": [
    {
     "title": "Rare Plant Bingo",
@@ -933,7 +924,7 @@
     "start": null,
     "end": null,
     "price": 50.0,
-    "description": "Rare Plant Bingo at Doundrins Distilling tasting room, listed as 11/7.",
+    "description": "Rare Plant Bingo event at Doundrins Distilling tasting room, ticket $50.00.",
     "category": "bingo"
    }
   ]
@@ -1261,8 +1252,8 @@
  },
  "https://www.mymonona.com/1587/Special-Events": {
   "hash": "662029bba649e83bbe3af73a359e58885cc154a0",
-  "asked": "2026-10-31T11:06:46-05:00",
-  "on": "2026-10-31",
+  "asked": "2026-11-03T12:27:28-06:00",
+  "on": "2026-11-03",
   "events": []
  },
  "https://www.candycloudcompany.com/locations/madison": {
@@ -1375,9 +1366,9 @@
   ]
  },
  "https://merciescoffeewi.com/": {
-  "hash": "a361dc62ac5584050a06646f8ca77181e192b3c1",
-  "asked": "2026-11-02T21:59:50-06:00",
-  "on": "2026-11-02",
+  "hash": "99c710f41b949ad8182d40e8b785fd82984f364d",
+  "asked": "2026-11-03T12:27:42-06:00",
+  "on": "2026-11-03",
   "events": []
  },
  "https://motherfools.com/event/20261106/mad-city-story-slam-rebellion": {
@@ -1514,19 +1505,10 @@
   "events": []
  },
  "https://www.cityofmadison.com/parks/events": {
-  "hash": "5ef5999371da257b620b2f8a57ec83f00b69e807",
-  "asked": "2026-11-02T14:50:53-06:00",
-  "on": "2026-11-02",
+  "hash": "d224bf24004e897829a99604a3ca0ed9b88f97a6",
+  "asked": "2026-11-03T12:28:09-06:00",
+  "on": "2026-11-03",
   "events": [
-   {
-    "title": "Parks Alive Fall | Galaxy",
-    "date": "2026-11-02",
-    "start": "17:00",
-    "end": "19:00",
-    "price": null,
-    "description": "Parks Alive Fall event at Harmony Apartments Community Room, 116 Milky Way.",
-    "category": "other"
-   },
    {
     "title": "Parks Alive Fall | Warner",
     "date": "2026-11-04",
@@ -1560,7 +1542,7 @@
     "start": "13:30",
     "end": "15:00",
     "price": null,
-    "description": "Guided bird and nature walk; meet at Tenney Park beach parking lot, 1330 Sherman Ave.",
+    "description": "Guided bird and nature outing; meet at Tenney Park beach parking lot, 1330 Sherman Ave.",
     "category": "other"
    },
    {
@@ -1569,7 +1551,7 @@
     "start": "13:30",
     "end": "14:30",
     "price": null,
-    "description": "Guided bird and nature walk at Turville Point Conservation Park, 1202 Olin Turville Court.",
+    "description": "Guided bird and nature outing at Turville Point Conservation Park, 1202 Olin Turville Court.",
     "category": "other"
    },
    {
@@ -1587,7 +1569,7 @@
     "start": "13:30",
     "end": "15:00",
     "price": null,
-    "description": "Guided bird and nature walk at Owen Conservation Park, 6021 Old Sauk Road.",
+    "description": "Guided bird and nature outing at Owen Conservation Park, 6021 Old Sauk Road.",
     "category": "other"
    },
    {
@@ -1596,7 +1578,16 @@
     "start": "13:30",
     "end": "15:00",
     "price": null,
-    "description": "Guided bird and nature walk at Warner Park (Rainbow Shelter), 2930 N. Sherman Ave.",
+    "description": "Guided bird and nature outing at Warner Park (Rainbow Shelter), 2930 N. Sherman Ave.",
+    "category": "other"
+   },
+   {
+    "title": "Learn to Nordic Walk | Elver",
+    "date": "2026-11-17",
+    "start": "17:00",
+    "end": "18:30",
+    "price": null,
+    "description": "Nordic walking lesson at Elver Park, 1250 McKenna Blvd.",
     "category": "other"
    }
   ]
@@ -1608,47 +1599,10 @@
   "events": []
  },
  "https://www.madisonpubliclibrary.org/spaces/events": {
-  "hash": "8625c28995adc9f2a5b77e058728ba6c8e033d40",
-  "asked": "2026-11-02T22:00:26-06:00",
-  "on": "2026-11-02",
-  "events": [
-   {
-    "title": "Art for Little Ones",
-    "date": "2026-11-03",
-    "start": "10:30",
-    "end": "11:15",
-    "price": null,
-    "description": "Art program for little ones at Monroe Street Library, Meeting Room.",
-    "category": "other"
-   },
-   {
-    "title": "Bilingual Multi-Age Storytime",
-    "date": "2026-11-06",
-    "start": "10:30",
-    "end": "11:15",
-    "price": null,
-    "description": "Bilingual storytime for multiple ages at Monroe Street Library, Meeting Room.",
-    "category": "other"
-   },
-   {
-    "title": "Bilingual Multi-Age Storytime",
-    "date": "2026-11-13",
-    "start": "10:30",
-    "end": "11:15",
-    "price": null,
-    "description": "Bilingual storytime for multiple ages at Monroe Street Library, Meeting Room.",
-    "category": "other"
-   },
-   {
-    "title": "Art Club for Families - D.I.Y. Neck Ties and Glasses",
-    "date": "2026-11-14",
-    "start": "11:00",
-    "end": "12:00",
-    "price": null,
-    "description": "Family art club making D.I.Y. neck ties and glasses at Monroe Street Library.",
-    "category": "other"
-   }
-  ]
+  "hash": "bf709329780cd1b412c9915c45d017ee1a3a99e1",
+  "asked": "2026-11-03T12:28:15-06:00",
+  "on": "2026-11-03",
+  "events": []
  },
  "https://ebling.library.wisc.edu/ebling-library-classes-events/": {
   "hash": "be139d7d66194c83b615080fbba0b793dd9020d4",
@@ -1700,9 +1654,9 @@
   "events": []
  },
  "https://www.sunprairiepubliclibrary.org/home-delivery-service": {
-  "hash": "ea77b2c7b7e080e6d4914b9bffcb5af818d5007f",
-  "asked": "2026-11-02T14:51:08-06:00",
-  "on": "2026-11-02",
+  "hash": "28d961178864a38f13033f292b24e9d4c33d91bc",
+  "asked": "2026-11-03T12:28:13-06:00",
+  "on": "2026-11-03",
   "events": [
    {
     "title": "General Election",
@@ -1710,25 +1664,7 @@
     "start": "07:00",
     "end": "20:00",
     "price": null,
-    "description": "General Election listed in the library's events calendar.",
-    "category": "other"
-   },
-   {
-    "title": "Little Kid Storytime",
-    "date": "2026-11-03",
-    "start": "10:00",
-    "end": "10:30",
-    "price": null,
-    "description": "Storytime for family and children ages 0-5.",
-    "category": "other"
-   },
-   {
-    "title": "Big Kid Storytime",
-    "date": "2026-11-03",
-    "start": "11:15",
-    "end": "11:45",
-    "price": null,
-    "description": "Storytime for family and children ages 0-5.",
+    "description": "General Election listed on the library events calendar.",
     "category": "other"
    },
    {
@@ -1747,6 +1683,24 @@
     "end": "14:30",
     "price": null,
     "description": "Mystery book club for adults.",
+    "category": "other"
+   },
+   {
+    "title": "Cuentos Infantiles (Spanish Storytime)",
+    "date": "2026-11-04",
+    "start": "17:00",
+    "end": "17:30",
+    "price": null,
+    "description": "Spanish storytime for family and children ages 0-5.",
+    "category": "other"
+   },
+   {
+    "title": "\"We Will Win\" Family Fun Night",
+    "date": "2026-11-04",
+    "start": "18:00",
+    "end": "20:00",
+    "price": null,
+    "description": "Family fun night for families and teens.",
     "category": "other"
    }
   ]
@@ -1817,29 +1771,10 @@
   ]
  },
  "https://www.madisonpubliclibrary.org/spaces/events/search": {
-  "hash": "f350d9d41a433fa830318b07c368e2d7041ad275",
-  "asked": "2026-11-02T22:00:34-06:00",
-  "on": "2026-11-02",
-  "events": [
-   {
-    "title": "Multi-Age Storytime",
-    "date": "2026-11-03",
-    "start": "10:30",
-    "end": "11:15",
-    "price": null,
-    "description": "Read and play with children under age 5 in the Community Room at Imagination Center Library. Books, songs and playful activities.",
-    "category": "other"
-   },
-   {
-    "title": "Mini Figure Painting (6 of 6 part series)",
-    "date": "2026-11-03",
-    "start": "18:00",
-    "end": "19:30",
-    "price": null,
-    "description": "Hands-on miniature painting session for adults 16+ in the Community Room at Imagination Center Library. Part of a six-part series.",
-    "category": "other"
-   }
-  ]
+  "hash": "54b80629e3f016b85b17817d6717af0b60eb196e",
+  "asked": "2026-11-03T12:28:26-06:00",
+  "on": "2026-11-03",
+  "events": []
  },
  "https://artlitlab.org/calendar": {
   "hash": "0f520ecc389dd7a6729b797cd08c708119db82f7",
@@ -2149,9 +2084,9 @@
   "events": []
  },
  "https://www.veronapubliclibrary.org/": {
-  "hash": "548809c0ab66c13148eaee25bb6e52babc754574",
-  "asked": "2026-11-02T22:00:22-06:00",
-  "on": "2026-11-02",
+  "hash": "731a99639e1ea8ead9d369b9a813db2e48a2a7ff",
+  "asked": "2026-11-03T12:28:13-06:00",
+  "on": "2026-11-03",
   "events": [
    {
     "title": "Late Fall Story Times",
@@ -2159,7 +2094,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Ongoing story times return at Verona Public Library on Monday, November 16. No time listed on the page.",
+    "description": "Ongoing story times return on Monday, November 16.",
     "category": "other"
    }
   ]
@@ -2189,17 +2124,17 @@
   "events": []
  },
  "https://high-noon.com/event/dogpark/": {
-  "hash": "612d1b5c0b90de5bedf88088a45784e1b1512a2c",
-  "asked": "2026-11-02T21:59:22-06:00",
-  "on": "2026-11-02",
+  "hash": "c41192b2c2528baea51c7596b58a1951111e4b7d",
+  "asked": "2026-11-03T12:27:19-06:00",
+  "on": "2026-11-03",
   "events": [
    {
-    "title": "Six Foot Blonde with Genevieve Heyward",
-    "date": "2026-11-06",
+    "title": "The Bends with The Braymores",
+    "date": "2026-11-05",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents Six Foot Blonde with Genevieve Heyward at High Noon Saloon. Doors 7:00 pm, show 8:00 pm.",
+    "description": "FPC Live presents The Bends with The Braymores at High Noon Saloon. Doors 7:00 pm, show 8:00 pm.",
     "category": "music"
    },
    {
@@ -2239,26 +2174,17 @@
   ]
  },
  "https://madisonorpheum.com/event/eric-andre/": {
-  "hash": "0d5eb9cb0353515cb4593b3d8bec4f38bbf70ae0",
-  "asked": "2026-11-02T22:00:44-06:00",
-  "on": "2026-11-02",
+  "hash": "fa10c0cbaae420e4c353ef606e4b7edfb68075a2",
+  "asked": "2026-11-03T12:28:28-06:00",
+  "on": "2026-11-03",
   "events": [
-   {
-    "title": "Dave Attell",
-    "date": "2026-11-07",
-    "start": "20:00",
-    "end": null,
-    "price": null,
-    "description": "FPC Live presents comedian Dave Attell. Doors 7:00 pm, show 8:00 pm.",
-    "category": "comedy"
-   },
    {
     "title": "MDEV: The Kick-Off Event",
     "date": "2026-11-06",
     "start": null,
     "end": null,
     "price": null,
-    "description": "Kick-off event listed as just announced at the Orpheum Theatre. No other details given.",
+    "description": "Kick-off event listed under Just Announced at the Orpheum; the page gives no further details.",
     "category": "other"
    }
   ]

@@ -1157,9 +1157,9 @@
    "bar": false,
    "menu_src": "restaurant homepage",
    "image": "http://static1.squarespace.com/static/6a21e4c03d712b3bcbddeddf/t/6a344fa71890a327487b2fb6/1781813159435/begonia+logo+Indigo+RGB+3000x1180.png?format=1500w",
+   "website_ok": true,
    "new_since": "2026-08-19",
-   "new_evidence": "New alcohol license approved at the 2026-08-19 ALRC meeting",
-   "website_ok": true
+   "new_evidence": "New alcohol license approved at the 2026-08-19 ALRC meeting"
   },
   {
    "group": "american",
@@ -6430,9 +6430,9 @@
     ]
    ],
    "bar": false,
+   "website_ok": null,
    "new_since": "2026-06-17",
-   "new_evidence": "New alcohol license approved at the 2026-06-17 ALRC meeting",
-   "website_ok": null
+   "new_evidence": "New alcohol license approved at the 2026-06-17 ALRC meeting"
   },
   {
    "group": "asian",
@@ -7470,9 +7470,9 @@
    "menu": "",
    "hours": null,
    "bar": false,
+   "website_ok": null,
    "new_since": "2026-05-20",
-   "new_evidence": "New alcohol license approved at the 2026-05-20 ALRC meeting",
-   "website_ok": null
+   "new_evidence": "New alcohol license approved at the 2026-05-20 ALRC meeting"
   },
   {
    "group": "american",
@@ -7849,9 +7849,9 @@
    "menu": "",
    "hours": null,
    "bar": true,
+   "website_ok": null,
    "new_since": "2026-05-20",
-   "new_evidence": "New alcohol license approved at the 2026-05-20 ALRC meeting",
-   "website_ok": null
+   "new_evidence": "New alcohol license approved at the 2026-05-20 ALRC meeting"
   },
   {
    "group": "latin",
@@ -7903,9 +7903,9 @@
     ]
    ],
    "bar": false,
+   "website_ok": null,
    "new_since": "2026-05-20",
-   "new_evidence": "New alcohol license approved at the 2026-05-20 ALRC meeting",
-   "website_ok": null
+   "new_evidence": "New alcohol license approved at the 2026-05-20 ALRC meeting"
   },
   {
    "group": "american",
@@ -13321,9 +13321,9 @@
    "menu": "",
    "hours": null,
    "bar": false,
+   "website_ok": null,
    "new_since": "2026-07-15",
-   "new_evidence": "New alcohol license approved at the 2026-07-15 ALRC meeting",
-   "website_ok": null
+   "new_evidence": "New alcohol license approved at the 2026-07-15 ALRC meeting"
   },
   {
    "group": "latin",
@@ -14273,9 +14273,9 @@
    "menu": "",
    "hours": null,
    "bar": false,
+   "website_ok": null,
    "new_since": "2026-09-16",
-   "new_evidence": "New alcohol license approved at the 2026-09-16 ALRC meeting",
-   "website_ok": null
+   "new_evidence": "New alcohol license approved at the 2026-09-16 ALRC meeting"
   },
   {
    "group": "med",
@@ -14912,10 +14912,11 @@
     ]
    ],
    "bar": false,
-   "menu_src": "OpenStreetMap tag",
+   "menu_src": "restaurant homepage",
    "image": "http://static1.squarespace.com/static/63323ae875e692009222a204/t/643371ccdf29aa1cf679e373/1681093073569/turnkey_tuesday_chicken.jpg?format=1500w",
    "menu_broken": "https://www.turnkeymadison.com/eat",
-   "website_ok": true
+   "website_ok": true,
+   "menu": "https://www.turnkeymadison.com/working-menu"
   },
   {
    "group": "asian",

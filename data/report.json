@@ -1,25 +1,11 @@
 {
- "generated_at": "2026-11-02T22:00:56-06:00",
+ "generated_at": "2026-11-03T12:28:51-06:00",
  "venues_checked": 237,
- "venues_with_events": 64,
+ "venues_with_events": 65,
  "venues_with_feeds": 86,
- "events": 405,
- "filtered_out": 114,
+ "events": 415,
+ "filtered_out": 95,
  "venues": [
-  {
-   "name": "AI page reading",
-   "kind": "source",
-   "website": "",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 207,
-   "error": "",
-   "calls": 24,
-   "tokens_in": 47484,
-   "tokens_out": 13183,
-   "est_cost_usd": 0.0113
-  },
   {
    "name": "Isthmus calendar",
    "kind": "source",
@@ -27,8 +13,22 @@
    "feeds": [
     "calendar"
    ],
-   "raw_events": 165,
-   "error": "used today's copy (read once a day)"
+   "raw_events": 183,
+   "error": ""
+  },
+  {
+   "name": "AI page reading",
+   "kind": "source",
+   "website": "",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 182,
+   "error": "",
+   "calls": 17,
+   "tokens_in": 48495,
+   "tokens_out": 18344,
+   "est_cost_usd": 0.014
   },
   {
    "name": "Ticketmaster",
@@ -37,7 +37,7 @@
    "feeds": [
     "ticketmaster"
    ],
-   "raw_events": 61,
+   "raw_events": 59,
    "error": ""
   },
   {
@@ -62,7 +62,7 @@
     "ical",
     "ical"
    ],
-   "raw_events": 34,
+   "raw_events": 35,
    "error": "ical: ConnectionError: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //www.mcfarlandlibrary.org/calendar/month (Caused by NameResolutionError(\"HTTPSConnection(host='https"
   },
   {
@@ -120,23 +120,23 @@
    "error": ""
   },
   {
-   "name": "Harmony Bar & Grill",
-   "kind": "bar",
-   "website": "https://www.harmonybarandgrill.com/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 17,
-   "error": ""
-  },
-  {
    "name": "High Noon Saloon",
    "kind": "bar",
    "website": "https://www.high-noon.com/",
    "feeds": [
     "ai"
    ],
-   "raw_events": 17,
+   "raw_events": 16,
+   "error": ""
+  },
+  {
+   "name": "Harmony Bar & Grill",
+   "kind": "bar",
+   "website": "https://www.harmonybarandgrill.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 15,
    "error": ""
   },
   {
@@ -184,16 +184,6 @@
    "error": ""
   },
   {
-   "name": "Lazy Oaf Lounge",
-   "kind": "bar",
-   "website": "https://www.lazyoaflounge.com/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 10,
-   "error": ""
-  },
-  {
    "name": "Lone Girl Tap Room And Pizza Company",
    "kind": "bar",
    "website": "https://thelonegirl.com",
@@ -218,13 +208,23 @@
    "error": ""
   },
   {
+   "name": "Lazy Oaf Lounge",
+   "kind": "bar",
+   "website": "https://www.lazyoaflounge.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 9,
+   "error": ""
+  },
+  {
    "name": "Gamma Ray Bar",
    "kind": "bar",
    "website": "https://gammaray.bar",
    "feeds": [
     "ai"
    ],
-   "raw_events": 9,
+   "raw_events": 8,
    "error": ""
   },
   {
@@ -235,7 +235,7 @@
     "tribe",
     "jsonld"
    ],
-   "raw_events": 9,
+   "raw_events": 8,
    "error": ""
   },
   {
@@ -245,7 +245,7 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 9,
+   "raw_events": 8,
    "error": ""
   },
   {
@@ -255,7 +255,7 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 9,
+   "raw_events": 8,
    "error": ""
   },
   {
@@ -265,43 +265,13 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 8,
+   "raw_events": 7,
    "error": ""
   },
   {
    "name": "Imagination Center",
    "kind": "library",
    "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 7,
-   "error": ""
-  },
-  {
-   "name": "Alicia Ashman Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 6,
-   "error": ""
-  },
-  {
-   "name": "Central Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/central",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 6,
-   "error": ""
-  },
-  {
-   "name": "Monroe Street Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/monroe-street",
    "feeds": [
     "ai"
    ],
@@ -312,16 +282,6 @@
    "name": "Pinney Library",
    "kind": "library",
    "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 6,
-   "error": ""
-  },
-  {
-   "name": "Sequoya Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/sequoya",
    "feeds": [
     "ai"
    ],
@@ -346,16 +306,6 @@
     "squarespace",
     "jsonld",
     "jsonld"
-   ],
-   "raw_events": 5,
-   "error": ""
-  },
-  {
-   "name": "The Malt House",
-   "kind": "bar",
-   "website": "http://malthousetavern.com/",
-   "feeds": [
-    "ai"
    ],
    "raw_events": 5,
    "error": ""
@@ -415,6 +365,26 @@
    "error": ""
   },
   {
+   "name": "Sequoya Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/sequoya",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 4,
+   "error": ""
+  },
+  {
+   "name": "The Malt House",
+   "kind": "bar",
+   "website": "http://malthousetavern.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 4,
+   "error": ""
+  },
+  {
    "name": "Vera Court Neighborhood Center",
    "kind": "community",
    "website": "https://www.veracourt.org/",
@@ -451,6 +421,17 @@
    "error": ""
   },
   {
+   "name": "Come Back Inn",
+   "kind": "bar",
+   "website": "https://comebackintavern.com/",
+   "feeds": [
+    "tribe",
+    "jsonld"
+   ],
+   "raw_events": 3,
+   "error": ""
+  },
+  {
    "name": "East Side Club",
    "kind": "lodge",
    "website": "https://escmadison.com",
@@ -474,6 +455,16 @@
    "name": "Madison Youth Arts (MYArts)",
    "kind": "venue",
    "website": "https://www.madisonyoutharts.org/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 3,
+   "error": ""
+  },
+  {
+   "name": "Monroe Street Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/monroe-street",
    "feeds": [
     "ai"
    ],
@@ -595,6 +586,16 @@
    "error": ""
   },
   {
+   "name": "Alicia Ashman Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 1,
+   "error": ""
+  },
+  {
    "name": "Badger Rock Neighborhood Center",
    "kind": "community",
    "website": "https://rootedwi.org/badger-rock-neighborhood-center/",
@@ -609,6 +610,16 @@
    "name": "Capital Brewery",
    "kind": "brewery",
    "website": "https://www.capital-brewery.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 1,
+   "error": ""
+  },
+  {
+   "name": "Central Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/central",
    "feeds": [
     "ai"
    ],
@@ -948,17 +959,6 @@
    "kind": "cafe",
    "website": "https://colectivo.com/pages/madison-cafes",
    "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Come Back Inn",
-   "kind": "bar",
-   "website": "https://comebackintavern.com/",
-   "feeds": [
-    "tribe",
-    "jsonld"
-   ],
    "raw_events": 0,
    "error": ""
   },
@@ -1702,7 +1702,7 @@
   {
    "name": "Starbucks",
    "kind": "cafe",
-   "website": "https://www.starbucks.com/store-locator/store/12525/university-north-blackhawk-3515-university-avenue-madison-wi-537052140-us",
+   "website": "https://www.starbucks.com/store-locator/store/16495/south-gammon-mineral-point-434-gammon-place-3-madison-wi-537191090-us",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1710,7 +1710,7 @@
   {
    "name": "Starbucks",
    "kind": "cafe",
-   "website": "https://www.starbucks.com/store-locator/store/16495/south-gammon-mineral-point-434-gammon-place-3-madison-wi-537191090-us",
+   "website": "https://www.starbucks.com/store-locator/store/12525/university-north-blackhawk-3515-university-avenue-madison-wi-537052140-us",
    "feeds": [],
    "raw_events": 0,
    "error": ""

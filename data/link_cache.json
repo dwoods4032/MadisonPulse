@@ -94,11 +94,6 @@
   "why": "",
   "checked": "2026-10-27T14:37:31.976620-05:00"
  },
- "https://www.ticketmaster.com/noah-gundersen-rites-of-spring-us-madison-wisconsin-11-02-2026/event/070064B5BC165CA0": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-10-27T14:37:34.126502-05:00"
- },
  "https://www.ticketmaster.com/event/Z7r9jZ1AAv64p": {
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
@@ -143,11 +138,6 @@
   "ok": true,
   "why": "",
   "checked": "2026-10-27T14:37:37.365955-05:00"
- },
- "https://www.ticketmaster.com/sophie-hunter-presents-stereoscope-the-tour-madison-wisconsin-11-04-2026/event/070064D7965230BE": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-10-27T14:37:38.444617-05:00"
  },
  "https://www.ticketmaster.com/orville-peck-man-turned-mule-tour-madison-wisconsin-11-04-2026/event/070064EF956428E9": {
   "ok": null,
@@ -2379,11 +2369,6 @@
   "why": "",
   "checked": "2026-10-27T17:49:19.891582-05:00"
  },
- "https://onesocialmadison.com/event/game-night-with-game-and-gather/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T17:49:30.366658-05:00"
- },
  "https://thelonegirl.com/event/trivia-every-wednesday-2-2-2/": {
   "ok": true,
   "why": "",
@@ -3604,21 +3589,6 @@
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
   "checked": "2026-10-31T21:15:29.802279-05:00"
  },
- "https://www.mickeysmadison.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-01T11:09:50.889641-06:00"
- },
- "https://www.fivenightclubmadison.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-01T11:09:50.962228-06:00"
- },
- "https://neighborhoodhousemadison.org": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-01T11:09:51.013619-06:00"
- },
  "https://www.publicparkingbar.com": {
   "ok": true,
   "why": "",
@@ -3708,11 +3678,6 @@
   "ok": true,
   "why": "",
   "checked": "2026-11-02T14:52:54.572788-06:00"
- },
- "https://www.waunakeepubliclibrary.org/event/jammie-jams-27096": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-02T14:52:54.572822-06:00"
  },
  "https://www.madisonpubliclibrary.org/monroe-street": {
   "ok": true,
@@ -3959,14 +3924,34 @@
   "why": "robots.txt asks bots not to visit",
   "checked": "2026-11-02T22:01:00.920359-06:00"
  },
- "https://www.turnkeymadison.com/eat": {
-  "ok": false,
-  "why": "HTTP 404 from Squarespace",
-  "checked": "2026-11-02T22:01:00.920365-06:00"
- },
  "https://www.viettownmadison.com/category/all-products": {
   "ok": true,
   "why": "",
   "checked": "2026-11-02T22:01:00.920370-06:00"
+ },
+ "https://www.sunprairiepubliclibrary.org/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-03T12:28:52.157213-06:00"
+ },
+ "https://www.garthsbrewbar.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-03T12:28:54.097040-06:00"
+ },
+ "https://thebrassringmadison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-03T12:28:54.097068-06:00"
+ },
+ "https://statestreetbrats.com/event/michigan-st-wisconsin-20261105/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-03T12:28:54.097076-06:00"
+ },
+ "https://www.turnkeymadison.com/working-menu": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-03T12:28:54.097083-06:00"
  }
 }

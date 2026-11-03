@@ -691,5 +691,23 @@
   "address": "56 Corry Street",
   "city": "Madison"
  },
- "ian's pizza - garver": null
+ "ian's pizza - garver": null,
+ "lake city books": {
+  "lat": 43.072496,
+  "lon": -89.38376,
+  "address": "120 South Carroll Street",
+  "city": "Madison"
+ },
+ "resch center, green bay": {
+  "lat": 44.499491,
+  "lon": -88.055042,
+  "address": "Armed Forces Drive",
+  "city": "Ashwaubenon"
+ },
+ "good shepherd lutheran church-raymond road": {
+  "lat": 43.031249,
+  "lon": -89.477814,
+  "address": "5701 Raymond Road",
+  "city": "Madison"
+ }
 }
