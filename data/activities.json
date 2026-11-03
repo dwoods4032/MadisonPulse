@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T16:00:20-05:00",
+ "generated_at": "2026-11-02T21:58:55-06:00",
  "count": 30,
  "by_type": {
   "arcade": 9,
@@ -378,7 +378,7 @@
    "hours": null,
    "bar": false,
    "alcohol": true,
-   "alcohol_src": "AI website check"
+   "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
    "id": "osm:way/539042285",

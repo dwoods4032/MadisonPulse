@@ -59,11 +59,6 @@
   "why": "",
   "checked": "2026-10-27T14:37:15.552096-05:00"
  },
- "https://www.delta.beer/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:37:15.552102-05:00"
- },
  "https://artlitlab.org/": {
   "ok": true,
   "why": "",
@@ -98,11 +93,6 @@
   "ok": true,
   "why": "",
   "checked": "2026-10-27T14:37:31.976620-05:00"
- },
- "https://www.ticketmaster.com/event/Z7r9jZ1AAZ9Ga": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-10-27T14:37:33.052585-05:00"
  },
  "https://www.ticketmaster.com/noah-gundersen-rites-of-spring-us-madison-wisconsin-11-02-2026/event/070064B5BC165CA0": {
   "ok": null,
@@ -479,11 +469,6 @@
   "why": "",
   "checked": "2026-10-27T14:38:02.268253-05:00"
  },
- "https://www.BandungIndoRestaurant.com/order": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:38:02.268256-05:00"
- },
  "https://bandungrestaurant.com/": {
   "ok": true,
   "why": "",
@@ -794,11 +779,6 @@
   "why": "",
   "checked": "2026-10-27T14:38:29.627874-05:00"
  },
- "https://www.dhabaindianbistro.com/menu": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:38:29.627881-05:00"
- },
  "https://www.dhabaindianbistro.com/": {
   "ok": true,
   "why": "",
@@ -909,11 +889,6 @@
   "why": "",
   "checked": "2026-10-27T14:38:29.628143-05:00"
  },
- "https://www.fabiolasmadison.com/s/Fabiolas-Drink-Menu-55-x-85-in-8.pdf": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:38:29.628146-05:00"
- },
  "https://www.fabiolasmadison.com/": {
   "ok": true,
   "why": "",
@@ -1009,20 +984,10 @@
   "why": "",
   "checked": "2026-10-27T14:41:03.084798-05:00"
  },
- "https://fyasydekitchen.com/drink-menu": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:41:03.084805-05:00"
- },
  "https://www.fyasydekitchen.com": {
   "ok": true,
   "why": "",
   "checked": "2026-10-27T14:41:03.084810-05:00"
- },
- "https://garibaldimexicanwi.com/madison-madison-garibaldi-mexican-restaurant-food-menu": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:41:03.084815-05:00"
  },
  "https://garibaldimexicanwi.com/": {
   "ok": true,
@@ -1074,11 +1039,6 @@
   "why": "HTTP 429 from Vercel (the site refused the request; often a block on cloud servers)",
   "checked": "2026-10-27T14:41:04.327571-05:00"
  },
- "https://grandhaveliverona.com/food-menu/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:41:04.327578-05:00"
- },
  "https://grandhaveliverona.com/": {
   "ok": true,
   "why": "",
@@ -1103,11 +1063,6 @@
   "ok": true,
   "why": "",
   "checked": "2026-10-27T14:41:05.554548-05:00"
- },
- "https://www.greenbushbaronregent.com/s/14x85in-Greenbush-Bar-Dinner-Menu.pdf": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:41:05.554553-05:00"
  },
  "https://www.greenbushbaronregent.com/": {
   "ok": true,
@@ -1614,11 +1569,6 @@
   "why": "HTTP 403 from cloudflare (the site refused the request; often a block on cloud servers)",
   "checked": "2026-10-27T14:41:31.152302-05:00"
  },
- "https://cdn.prod.website-files.com/688e4869abcb5db8c508256c/6a8cb6496126f823e09d2d13_osteria-novella-menu-updated.pdf": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:41:31.152310-05:00"
- },
  "https://osterianovella.com/": {
   "ok": true,
   "why": "",
@@ -1679,11 +1629,6 @@
   "why": "",
   "checked": "2026-10-27T14:41:31.152368-05:00"
  },
- "https://pastureandplenty.com/wp-content/uploads/2026/10/cafemenu_260804.pdf": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:41:31.152372-05:00"
- },
  "https://pastureandplenty.com/": {
   "ok": true,
   "why": "",
@@ -1718,11 +1663,6 @@
   "ok": true,
   "why": "",
   "checked": "2026-10-27T14:41:31.152402-05:00"
- },
- "https://pizzaextremes.com/menus": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:41:31.152406-05:00"
  },
  "https://pizzaextremes.com/": {
   "ok": true,
@@ -1853,11 +1793,6 @@
   "ok": true,
   "why": "",
   "checked": "2026-10-27T14:41:37.396339-05:00"
- },
- "https://www.sabaithong.com/menus/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:41:37.396347-05:00"
  },
  "https://www.sabaithong.com/index.php": {
   "ok": true,
@@ -2059,11 +1994,6 @@
   "why": "HTTP 429 from Vercel (the site refused the request; often a block on cloud servers)",
   "checked": "2026-10-27T14:41:37.396535-05:00"
  },
- "https://tannersbarandgrill.com/overland-park-tanner-s-bar-and-grill-143rd-and-metcalf-menus": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:41:37.396540-05:00"
- },
  "https://tannersbarandgrill.com/": {
   "ok": true,
   "why": "",
@@ -2224,11 +2154,6 @@
   "why": "",
   "checked": "2026-10-27T14:41:37.414825-05:00"
  },
- "https://www.turnkeymadison.com/working-menu": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:41:37.414830-05:00"
- },
  "https://www.turnkeymadison.com": {
   "ok": true,
   "why": "",
@@ -2253,11 +2178,6 @@
   "ok": true,
   "why": "",
   "checked": "2026-10-27T14:41:37.818709-05:00"
- },
- "https://skiplinow.com/shop/286936z": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-10-27T14:41:37.818734-05:00"
  },
  "https://www.viettownmadison.com/": {
   "ok": true,
@@ -3699,11 +3619,6 @@
   "why": "",
   "checked": "2026-11-01T11:09:51.013619-06:00"
  },
- "https://statestreetbrats.com/event/bucks-timberwolves-20261102/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-01T11:09:51.744989-06:00"
- },
  "https://www.publicparkingbar.com": {
   "ok": true,
   "why": "",
@@ -3789,11 +3704,6 @@
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
   "checked": "2026-11-01T20:32:08.504944-06:00"
  },
- "https://statestreetbrats.com/event/utep-n-kentucky-20261102/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-02T14:52:54.473298-06:00"
- },
  "https://www.madisonpubliclibrary.org/locations/pinney-library": {
   "ok": true,
   "why": "",
@@ -3878,5 +3788,185 @@
   "ok": true,
   "why": "",
   "checked": "2026-11-02T14:53:10.673475-06:00"
+ },
+ "https://www.madisonpubliclibrary.org/about/ashman.html": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-02T22:00:58.323217-06:00"
+ },
+ "https://www.madisonpubliclibrary.org/central": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-02T22:00:58.323240-06:00"
+ },
+ "https://www.cruciblemadison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-02T22:00:58.323248-06:00"
+ },
+ "https://statestreetbrats.com/event/bucks-celtics-20261104/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-02T22:00:58.323254-06:00"
+ },
+ "https://onesocialmadison.com/event/microbiology-on-tap-with-uw/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-02T22:00:58.942285-06:00"
+ },
+ "https://www.ticketmaster.com/ryan-jesse-still-infamous-tour-madison-wisconsin-11-16-2026/event/07006529D5EEA097": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-11-02T22:00:58.942307-06:00"
+ },
+ "https://www.cafecoda.club/events-1/karaoke-nabjl-22c3f-gw57n-2m79c-a47wx-jblcs-4bcsl-mkd7s-ctsf4-p4hcx-t4n3x-xd9mh-c5tsy-cpczx-w6dsr-tg854-3pze2": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-02T22:00:58.942315-06:00"
+ },
+ "https://www.ticketmaster.com/fox-stevenson-and-mystery-skulls-madison-wisconsin-11-16-2026/event/0700651899053D0B": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-11-02T22:00:58.942320-06:00"
+ },
+ "https://www.alchemymadison.com/menus.html": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-02T22:00:58.942326-06:00"
+ },
+ "https://www.bandungindorestaurant.com/order": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-02T22:00:58.942331-06:00"
+ },
+ "https://www.cadrerestaurant.com/classic-menu": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-02T22:00:58.942336-06:00"
+ },
+ "https://order.toasttab.com/online/camp-cantina-1503-monroe-street": {
+  "ok": null,
+  "why": "HTTP 403 from cloudflare (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-11-02T22:00:58.942341-06:00"
+ },
+ "https://www.dhabaindianbistro.com/menu/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-02T22:00:58.942345-06:00"
+ },
+ "https://static1.squarespace.com/static/656cfcf2a8d35c1bf82d236a/t/6978f05f382f714fc748347c/1769533535901/Fabiola%27s+Dinner+Menu+Flyer+%281%29.pdf": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-02T22:00:58.942350-06:00"
+ },
+ "https://www.fyasydekitchen.com/menu": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-02T22:00:58.942355-06:00"
+ },
+ "https://garibaldimexicanwi.com/madison-garibaldi-mexican-restaurant-food-menu": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-02T22:00:58.942360-06:00"
+ },
+ "https://grand-haveli-indian-verona.cloveronline.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-02T22:01:00.326719-06:00"
+ },
+ "https://static1.squarespace.com/static/66ba6cc29e626517cdc728cd/t/6859a2cf9bd4094d3abaf3f0/1750704858023/14x8.5in+Greenbush+Bar+Dinner+Menu.pdf": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-02T22:01:00.326745-06:00"
+ },
+ "https://www.hongkongcafemadisonwi.com/": {
+  "ok": null,
+  "why": "could not connect",
+  "checked": "2026-11-02T22:01:00.326754-06:00"
+ },
+ "https://www.ichibanmadison.com/4lyhs97v/ichiban-sichuan-restaurant-madison-53715/order-online?menu=All+Day+Menu&category=Flavor+Snack#menu-section": {
+  "ok": null,
+  "why": "HTTP 429 from Vercel (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-11-02T22:01:00.326761-06:00"
+ },
+ "https://mapletreesupperclub.com/wp-content/uploads/2026/05/MENU-2026.pdf": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-02T22:01:00.371535-06:00"
+ },
+ "https://mapletreesupperclub.com": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-02T22:01:00.371555-06:00"
+ },
+ "https://www.monksbarandgrill.com/sun-prairie-menus/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-02T22:01:00.371562-06:00"
+ },
+ "https://orchardrestaurants.com/menu": {
+  "ok": null,
+  "why": "HTTP 403 from cloudflare (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-11-02T22:01:00.371568-06:00"
+ },
+ "https://cdn.prod.website-files.com/688e4869abcb5db8c508256c/690e74cdebaf0eda57c79d30_abfdfa6c02101bfb4e89e2a76d293b98_osteria-novella-menu.pdf": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-02T22:01:00.371574-06:00"
+ },
+ "https://pastureandplenty.square.site/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-02T22:01:00.371580-06:00"
+ },
+ "https://img1.wsimg.com/blobby/go/a52bf3e4-cdd6-4ee7-b8ac-02a531625783/downloads/Pizza-Extreme-Monroe-st-Express-Menu-8-23-24-1.pdf?ver=1741289369007": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-02T22:01:00.371586-06:00"
+ },
+ "https://rokuaji.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-02T22:01:00.652045-06:00"
+ },
+ "https://rokuaji.com": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-02T22:01:00.652069-06:00"
+ },
+ "https://www.sabaithong.com/menus/university-menu/#filter=.lunch.appetizers": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-02T22:01:00.652076-06:00"
+ },
+ "https://theshow608.com/food-menu/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-02T22:01:00.920323-06:00"
+ },
+ "https://tannersbarandgrill.com/overland-park-tanner-s-bar-and-grill-143rd-and-metcalf-middleton-menu": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-02T22:01:00.920346-06:00"
+ },
+ "https://themediterraneanjoint.com/menu?location=themediterraneanjoint-4zsmwv": {
+  "ok": null,
+  "why": "HTTP 403 from cloudflare (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-11-02T22:01:00.920354-06:00"
+ },
+ "https://order.tokyosushimadison.com/": {
+  "ok": null,
+  "why": "robots.txt asks bots not to visit",
+  "checked": "2026-11-02T22:01:00.920359-06:00"
+ },
+ "https://www.turnkeymadison.com/eat": {
+  "ok": false,
+  "why": "HTTP 404 from Squarespace",
+  "checked": "2026-11-02T22:01:00.920365-06:00"
+ },
+ "https://www.viettownmadison.com/category/all-products": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-02T22:01:00.920370-06:00"
  }
 }

@@ -2890,18 +2890,19 @@
   "calendar": null
  },
  "osm:node/790662052": {
-  "checked": "2026-10-26T12:57:02-05:00",
+  "checked": "2026-11-02T22:00:14-06:00",
   "feeds": [],
   "pages_checked": [
    "https://www.madisonpubliclibrary.org/locations/alicia-ashman-library",
    "https://www.madisonpubliclibrary.org/spaces/events",
    "https://www.madisonpubliclibrary.org/spaces/events/search",
    "https://www.madisonpubliclibrary.org/spaces/special-events",
-   "https://www.madisonpubliclibrary.org/spaces/events/baby-time-253346",
-   "https://www.madisonpubliclibrary.org/spaces/events/toddler-time-253327"
+   "https://www.madisonpubliclibrary.org/spaces/events/baby-time-253349",
+   "https://www.madisonpubliclibrary.org/spaces/events/baby-time-253350"
   ],
   "weekly": [],
-  "site": "https://www.madisonpubliclibrary.org/about/ashman.html"
+  "site": "https://www.madisonpubliclibrary.org/about/ashman.html",
+  "calendar": null
  },
  "osm:way/106202711": {
   "checked": "2026-11-02T14:50:53-06:00",
@@ -3339,18 +3340,19 @@
   "calendar": null
  },
  "osm:way/102316433": {
-  "checked": "2026-10-26T12:57:02-05:00",
+  "checked": "2026-11-02T22:00:15-06:00",
   "feeds": [],
   "pages_checked": [
    "https://www.madisonpubliclibrary.org/locations/central-library",
    "https://www.madisonpubliclibrary.org/spaces/events",
    "https://www.madisonpubliclibrary.org/spaces/events/search",
    "https://www.madisonpubliclibrary.org/spaces/special-events",
-   "https://www.madisonpubliclibrary.org/spaces/events/red-cross-blood-drive-184504",
-   "https://www.madisonpubliclibrary.org/spaces/events/family-halloween-library-270778"
+   "https://www.madisonpubliclibrary.org/spaces/events/free-mending-410986",
+   "https://www.madisonpubliclibrary.org/spaces/events/one-one-computer-assistance-410996"
   ],
   "weekly": [],
-  "site": "https://www.madisonpubliclibrary.org/central"
+  "site": "https://www.madisonpubliclibrary.org/central",
+  "calendar": null
  },
  "osm:way/104542099": {
   "checked": "2026-11-02T14:51:02-06:00",
@@ -4761,6 +4763,31 @@
   ],
   "weekly": [],
   "site": "https://www.theatwoodmusichall.com/",
+  "calendar": null
+ },
+ "osm:node/6519071395": {
+  "checked": "2026-11-02T21:59:12-06:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.cruciblemadison.com/",
+   "https://www.cruciblemadison.com/calendar",
+   "https://www.cruciblemadison.com/events/2026-11/full-moon-burlesque-kink",
+   "https://www.cruciblemadison.com/events/2026-11/bubblegum-vol-5-beach-bound",
+   "https://www.cruciblemadison.com/events/2026-11/girls-night-out-australia-takeover",
+   "https://www.cruciblemadison.com/events/2026-11/space-7-presents-resonant-frequency-2026"
+  ],
+  "weekly": [],
+  "site": "https://www.cruciblemadison.com/",
+  "calendar": null
+ },
+ "osm:node/11477165381": {
+  "checked": "2026-11-02T22:00:06-06:00",
+  "feeds": [],
+  "pages_checked": [
+   "https://www.waltzingmatildasmadison.com/"
+  ],
+  "weekly": [],
+  "site": "https://www.waltzingmatildasmadison.com/",
   "calendar": null
  }
 }

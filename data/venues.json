@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-26T15:59:07-05:00",
- "count": 503,
+ "generated_at": "2026-11-02T21:57:12-06:00",
+ "count": 502,
  "with_website": 234,
  "by_kind": {
-  "bar": 170,
-  "brewery": 28,
-  "cafe": 138,
+  "bar": 169,
+  "brewery": 27,
+  "cafe": 139,
   "community": 37,
   "library": 30,
   "lodge": 21,
@@ -23,9 +23,9 @@
    "lon": -89.3632278,
    "website": "https://www.aftershockclassicarcade.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -38,9 +38,9 @@
    "lon": -89.3496469,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -53,9 +53,9 @@
    "lon": -89.3809981,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -68,9 +68,9 @@
    "lon": -89.425768,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -83,9 +83,9 @@
    "lon": -89.3901315,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -98,9 +98,9 @@
    "lon": -89.3709661,
    "website": "https://www.balaomadison.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -113,9 +113,9 @@
    "lon": -89.4441436,
    "website": "https://thebadgertavern.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://thebadgertavern.com/wp-content/uploads/2023/07/bt_png-02.png"
   },
@@ -129,9 +129,9 @@
    "lon": -89.460413,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -144,9 +144,9 @@
    "lon": -89.3609918,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -159,9 +159,9 @@
    "lon": -89.3790092,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -174,9 +174,9 @@
    "lon": -89.3884261,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -189,9 +189,9 @@
    "lon": -89.3763834,
    "website": "https://thebrassringmadison.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://storage.googleapis.com/gpt-engineer-file-uploads/pxn5fUKzJ9PzT6TENobtxpi4SWh2/social-images/social-1778370736342-Screenshot_2026-05-09_185114.webp"
   },
@@ -205,9 +205,9 @@
    "lon": -89.3761681,
    "website": "https://www.thebrinklounge.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -220,9 +220,9 @@
    "lon": -89.492561,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -235,9 +235,9 @@
    "lon": -89.3309632,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -250,9 +250,9 @@
    "lon": -89.3638172,
    "website": "https://cafecoda.club",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "http://static1.squarespace.com/static/6914abebeed4305fd5ea6ea5/t/6914bc3900b5267d06d409b8/1762966585586/cafecodalogo+2.png?format=1500w"
   },
@@ -266,9 +266,9 @@
    "lon": -89.3956269,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -281,9 +281,9 @@
    "lon": -89.5158383,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -296,9 +296,9 @@
    "lon": -89.3885934,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -311,9 +311,9 @@
    "lon": -89.3621707,
    "website": "https://cervatowine.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -326,9 +326,9 @@
    "lon": -89.3931068,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -341,9 +341,9 @@
    "lon": -89.3348888,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -356,9 +356,9 @@
    "lon": -89.3970211,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -371,9 +371,9 @@
    "lon": -89.3872917,
    "website": "https://www.cieloonstate.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://images.getbento.com/accounts/0559fe6fd8084d122796b1f88cdb88bd/media/images/49519logo.png?w=1200&fit=fill&auto=compress,format&cs=origin&h=600&bg=ebd7b4&pad=100",
    "new_since": "2026-09-16",
@@ -389,9 +389,9 @@
    "lon": -89.3961634,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -404,9 +404,9 @@
    "lon": -89.4947155,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -419,9 +419,9 @@
    "lon": -89.3766691,
    "website": "https://comebackintavern.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://comebackintavern.com/wp-content/uploads/2019/10/logo-large.gif"
   },
@@ -435,9 +435,9 @@
    "lon": -89.4009898,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -448,12 +448,13 @@
    "city": "Madison",
    "lat": 43.1071484,
    "lon": -89.3359941,
-   "website": "",
-   "facebook": "",
-   "instagram": "",
-   "feeds": [],
+   "website": "https://www.cruciblemadison.com/",
+   "facebook": "https://www.facebook.com/cruciblemadison",
    "alcohol": true,
-   "alcohol_src": "OpenStreetMap tag or name/type rule"
+   "instagram": "https://www.instagram.com/cruciblemadison",
+   "feeds": [],
+   "alcohol_src": "OpenStreetMap tag or name/type rule",
+   "image": "https://www.cruciblemadison.com/sites/default/files/default_images/event_default.jpg"
   },
   {
    "id": "osm:node/567936558",
@@ -465,9 +466,9 @@
    "lon": -89.36254,
    "website": "https://thecrystalcornerbar.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -480,9 +481,9 @@
    "lon": -89.380871,
    "website": "https://www.dvinomadison.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "http://static1.squarespace.com/static/5dc33318bdea2e6c1387bf6d/t/5dd71abd0ab5465cb20a2d3b/1574378176936/DVino_Logo_emboss_Black_Grey.png?format=1500w"
   },
@@ -496,9 +497,9 @@
    "lon": -89.5453349,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -511,9 +512,9 @@
    "lon": -89.3501827,
    "website": "https://www.dexterspubmadison.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "http://static1.squarespace.com/static/58221ddabebafba4ab6c223f/t/582cb744ebbd1a539eef68d3/1479325512942/New+Colored+Logo+w_o+background.png?format=1500w"
   },
@@ -527,9 +528,9 @@
    "lon": -89.3913852,
    "website": "https://www.doubletapbeercade.com/location/madison/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://images.getbento.com/accounts/86e4f8dbf7bab512b2bdbd5a8716a863/media/images/49176mario-kart-racing-arcade-games-madison.jpg?w=1200&fit=crop&auto=compress,format&cs=origin&h=600"
   },
@@ -543,9 +544,9 @@
    "lon": -89.3629323,
    "website": "http://www.drackenbergs.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -558,9 +559,9 @@
    "lon": -89.5297386,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -573,9 +574,9 @@
    "lon": -89.2873448,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -588,9 +589,9 @@
    "lon": -89.3913625,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -603,9 +604,9 @@
    "lon": -89.2893012,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -618,9 +619,9 @@
    "lon": -89.3763609,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -633,9 +634,9 @@
    "lon": -89.4070039,
    "website": "https://www.fivenightclubmadison.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://static.wixstatic.com/media/49ac88_302b8dfb308c452bab407dcc31777a30~mv2.jpg/v1/fill/w_2160,h_813,al_c/49ac88_302b8dfb308c452bab407dcc31777a30~mv2.jpg"
   },
@@ -649,9 +650,9 @@
    "lon": -89.3736621,
    "website": "https://flightwi.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://img1.wsimg.com/isteam/ip/cd36d317-d013-4564-a0d8-b44903e62dcf/flight%20gallery%206.jpg"
   },
@@ -665,9 +666,9 @@
    "lon": -89.3848247,
    "website": "https://gammaray.bar",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://gammaray.bar/wp-content/uploads/2024/06/gammaraytwocolorfinal.png"
   },
@@ -681,9 +682,9 @@
    "lon": -89.4355911,
    "website": "https://gatesandbrovi.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -696,9 +697,9 @@
    "lon": -89.3844171,
    "website": "https://www.gennaslounge.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "http://static1.squarespace.com/static/65296c34d6374349a5dedb8c/t/6536defd7d2826532d125156/1698094845495/gennasfu.png?format=1500w"
   },
@@ -712,9 +713,9 @@
    "lon": -89.3613346,
    "website": "https://www.gibs.bar/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "http://static1.squarespace.com/static/545d39fae4b0edd3bdcfbfca/t/6542bcd8b95a3d65493c5f37/1698872537042/gibs-logo-bright.png?format=1500w"
   },
@@ -728,9 +729,9 @@
    "lon": -89.4235706,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -743,9 +744,9 @@
    "lon": -89.4235354,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -758,9 +759,9 @@
    "lon": -89.2799285,
    "website": "https://www.greatdanepub.com/locations/eastside-madison/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://www.greatdanepub.com/wp-content/uploads/2021/08/location-eastside.jpg"
   },
@@ -774,9 +775,9 @@
    "lon": -89.306373,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -789,9 +790,9 @@
    "lon": -89.3549853,
    "website": "",
    "facebook": "https://61573049341624/about",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -804,9 +805,9 @@
    "lon": -89.3757466,
    "website": "https://www.madisongreymarket.com",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "http://static1.squarespace.com/static/66c5d223faf87f7a81658c88/t/676f100927e049241f3a7b62/1735331849350/GreyMarket_Assets_GM_GreyWordmark_Amber.png?format=1500w"
   },
@@ -820,9 +821,9 @@
    "lon": -89.3492054,
    "website": "https://www.harmonybarandgrill.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://spothopper-static.s3.amazonaws.com/web/harmonybarandgrill--com/custom/logo.png"
   },
@@ -836,9 +837,9 @@
    "lon": -89.3927451,
    "website": "https://www.hawksbar.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -851,9 +852,9 @@
    "lon": -89.3762962,
    "website": "https://www.high-noon.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -866,9 +867,9 @@
    "lon": -89.5182323,
    "website": "https://www.honeybarrelwi.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "http://static1.squarespace.com/static/68152f8c2e73133897c7077c/t/682f4081ca01bf261d181cf3/1747927169803/att.hQEtSGjfZGyZXK6OeZND8PhkesbKcxKd9lLwjDNMDok.jpg?format=1500w"
   },
@@ -882,9 +883,9 @@
    "lon": -89.3692638,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -897,9 +898,9 @@
    "lon": -89.3623001,
    "website": "https://imaginary-factory.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -912,9 +913,9 @@
    "lon": -89.3219992,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -927,9 +928,9 @@
    "lon": -89.3521684,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -942,9 +943,9 @@
    "lon": -89.3960982,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -957,9 +958,9 @@
    "lon": -89.4082816,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -972,9 +973,9 @@
    "lon": -89.3458256,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -987,9 +988,9 @@
    "lon": -89.4273621,
    "website": "http://www.thelaureltavern.com",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://nebula.wsimg.com/1087d94fa609db6c591744324076ca33?AccessKeyId=1FA904D91C43FABDBB95&disposition=0&alloworigin=1"
   },
@@ -1003,9 +1004,9 @@
    "lon": -89.3244342,
    "website": "https://www.lazyoaflounge.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://irp.cdn-website.com/d964b1e0/dms3rep/multi/opt/e0a8ec162fa0d24c59d3bc4d4d7708fd-1920w.png"
   },
@@ -1019,9 +1020,9 @@
    "lon": -89.4526233,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -1034,9 +1035,9 @@
    "lon": -89.4071247,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -1049,9 +1050,9 @@
    "lon": -89.3969182,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -1064,9 +1065,9 @@
    "lon": -89.3738097,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -1079,9 +1080,9 @@
    "lon": -89.3598208,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -1094,9 +1095,9 @@
    "lon": -89.3608921,
    "website": "https://thelonegirl.com",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -1109,9 +1110,9 @@
    "lon": -89.4314786,
    "website": "http://luckysbarandgrille.com/waunakee",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -1124,9 +1125,9 @@
    "lon": -89.390898,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -1139,9 +1140,9 @@
    "lon": -89.3456878,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -1154,9 +1155,9 @@
    "lon": -89.3737348,
    "website": "https://madison-tap.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -1169,9 +1170,9 @@
    "lon": -89.3920121,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -1184,9 +1185,9 @@
    "lon": -89.4010235,
    "website": "https://www.themasonlounge.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -1199,9 +1200,9 @@
    "lon": -89.2887536,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -1214,9 +1215,9 @@
    "lon": -89.3998139,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -1229,9 +1230,9 @@
    "lon": -89.3587108,
    "website": "https://www.mickeysmadison.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "http://static1.squarespace.com/static/5f3c38d49e689c14694a08d0/t/5f3c39515e44c63b601f7646/1597782365153/mickeysdog.png?format=1500w"
   },
@@ -1245,9 +1246,9 @@
    "lon": -89.485456,
    "website": "https://www.midtownpub.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://static.wixstatic.com/media/cc0c1c_f2213e9b1c7c4c20a3fc7f97c43628ca%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/cc0c1c_f2213e9b1c7c4c20a3fc7f97c43628ca%7Emv2.jpg"
   },
@@ -1261,9 +1262,9 @@
    "lon": -89.3159607,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -1276,9 +1277,9 @@
    "lon": -89.5380893,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -1291,9 +1292,9 @@
    "lon": -89.3964049,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -1306,9 +1307,9 @@
    "lon": -89.3946031,
    "website": "https://mondaysbar.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://img1.wsimg.com/isteam/ip/0bf1a035-6d5d-430c-afe6-3fc85ced0a00/20141203_135435.jpg"
   },
@@ -1322,9 +1323,9 @@
    "lon": -89.4753418,
    "website": "http://www.monkeyshinesbarandgrill.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -1337,9 +1338,9 @@
    "lon": -89.3926152,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -1352,9 +1353,9 @@
    "lon": -89.5266138,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -1367,9 +1368,9 @@
    "lon": -89.2892517,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -1382,9 +1383,9 @@
    "lon": -89.3996288,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -1397,9 +1398,9 @@
    "lon": -89.3233476,
    "website": "https://www.muskellounge.com",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "http://static1.squarespace.com/static/5f329480fd36792163bea9b5/t/5fac0f065ae8b92bcf70e68f/1605111560847/muskellounge-logo.png?format=1500w"
   },
@@ -1413,9 +1414,9 @@
    "lon": -89.3911319,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -1428,9 +1429,9 @@
    "lon": -89.2104179,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -1443,9 +1444,9 @@
    "lon": -89.4727706,
    "website": "https://www.oakcresttavernmadison.com",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -1458,9 +1459,9 @@
    "lon": -89.4249462,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -1473,9 +1474,9 @@
    "lon": -89.3548152,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -1488,9 +1489,9 @@
    "lon": -89.3473453,
    "website": "https://theohiotavern.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "http://static1.squarespace.com/static/6a5d26915486b52f2d6979c1/t/6a5d30889ffa9f26d2c73346/1784492168066/OHIOLOGOTransparent.White.png?format=1500w"
   },
@@ -1504,9 +1505,9 @@
    "lon": -89.3308322,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -1519,9 +1520,9 @@
    "lon": -89.378883,
    "website": "https://onesocialmadison.com/vendor/one-social-bar/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -1534,9 +1535,9 @@
    "lon": -89.3810698,
    "website": "https://www.ozbyozmadison.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "https://ozby.oz",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -1549,9 +1550,9 @@
    "lon": -89.3847724,
    "website": "https://thenewparadiselounge.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -1564,9 +1565,9 @@
    "lon": -89.3631477,
    "website": "http://parchedeaglebrewpub.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -1579,9 +1580,9 @@
    "lon": -89.3047887,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -1594,9 +1595,9 @@
    "lon": -89.3883571,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -1609,9 +1610,9 @@
    "lon": -89.3546345,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -1624,9 +1625,9 @@
    "lon": -89.3903786,
    "website": "https://theplazatavern.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://theplazatavern.com/wp-content/uploads/2023/04/plaza-building-1024x683.jpg"
   },
@@ -1640,9 +1641,9 @@
    "lon": -89.2849341,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -1655,9 +1656,9 @@
    "lon": -89.3792878,
    "website": "https://www.publicparkingbar.com",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "http://static1.squarespace.com/static/67a5084c3fb4b0325467b788/t/67c86dd6633137174710a4aa/1741188566422/Monogram-Yellow.png?format=1500w"
   },
@@ -1671,9 +1672,9 @@
    "lon": -89.4788705,
    "website": "https://www.quiveysgrove.com/stable-grill",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://static.wixstatic.com/media/735b12_2ffadae24498410ca693ad0e279c03cc%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/735b12_2ffadae24498410ca693ad0e279c03cc%7Emv2.jpg"
   },
@@ -1687,9 +1688,9 @@
    "lon": -89.5235334,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -1702,9 +1703,9 @@
    "lon": -89.3072079,
    "website": "https://redroostermadison.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -1717,9 +1718,9 @@
    "lon": -89.4063095,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -1732,9 +1733,9 @@
    "lon": -89.4536329,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -1747,9 +1748,9 @@
    "lon": -89.3917569,
    "website": "https://www.roxxybar.com/location/madison/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://images.getbento.com/accounts/4150a84b3ec8dbb1ae98913cbe8fb816/media/images/79749roxxy-madison-dance-floor-stage-lighting.jpg?w=1200&fit=crop&auto=compress,format&cs=origin&h=600"
   },
@@ -1759,13 +1760,13 @@
    "kind": "bar",
    "address": "",
    "city": "",
-   "lat": 43.0675855,
-   "lon": -89.4102514,
+   "lat": 43.0675941,
+   "lon": -89.4102706,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -1778,9 +1779,9 @@
    "lon": -89.248978,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -1793,9 +1794,9 @@
    "lon": -89.456683,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -1808,9 +1809,9 @@
    "lon": -89.3812098,
    "website": "https://www.settledownmadison.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "http://static1.squarespace.com/static/5d78661f5b0f40669224fdac/t/674238098ffe037226f5a5d7/1732392969767/JUNE_2024newestLOGO.png?format=1500w"
   },
@@ -1824,9 +1825,9 @@
    "lon": -89.3847038,
    "website": "https://www.shamrockbarandgrille.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -1839,9 +1840,9 @@
    "lon": -89.3261223,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -1854,9 +1855,9 @@
    "lon": -89.3581291,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -1869,9 +1870,9 @@
    "lon": -89.3900767,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -1884,9 +1885,9 @@
    "lon": -89.565372,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -1899,9 +1900,9 @@
    "lon": -89.395998,
    "website": "https://statestreetbrats.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://statestreetbrats.com/wp-content/uploads/2026/06/State-Street-Brats-Exterior.jpg"
   },
@@ -1915,9 +1916,9 @@
    "lon": -89.4000259,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -1930,9 +1931,9 @@
    "lon": -89.3915951,
    "website": "https://www.thestuffedolive.com/location/madison/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://images.getbento.com/accounts/16ab6a29107f7752f5f1ebf2be5564fe/media/images/29176SMA_bar_angle.jpg?w=1200&fit=crop&auto=compress,format&cs=origin&h=600"
   },
@@ -1946,9 +1947,9 @@
    "lon": -89.3514542,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -1961,9 +1962,9 @@
    "lon": -89.3992352,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -1976,9 +1977,9 @@
    "lon": -89.5418381,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -1991,9 +1992,9 @@
    "lon": -89.3770758,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -2006,9 +2007,9 @@
    "lon": -89.3794624,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -2021,9 +2022,9 @@
    "lon": -89.5244578,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -2036,9 +2037,9 @@
    "lon": -89.3171939,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -2051,9 +2052,9 @@
    "lon": -89.3967419,
    "website": "https://www.thedoubleubar.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -2066,9 +2067,9 @@
    "lon": -89.3548488,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -2081,9 +2082,9 @@
    "lon": -89.5119344,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -2096,9 +2097,9 @@
    "lon": -89.4540122,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -2111,9 +2112,9 @@
    "lon": -89.3556328,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -2126,9 +2127,9 @@
    "lon": -89.3871455,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -2141,9 +2142,9 @@
    "lon": -89.2932223,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -2156,9 +2157,9 @@
    "lon": -89.5123266,
    "website": "https://thekickback.bar/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -2171,9 +2172,9 @@
    "lon": -89.3971627,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -2186,9 +2187,9 @@
    "lon": -89.4092673,
    "website": "https://www.librarycafeandbar.com",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -2201,26 +2202,10 @@
    "lon": -89.3482198,
    "website": "http://malthousetavern.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
-  },
-  {
-   "id": "osm:way/102737839",
-   "name": "The Nitty Gritty",
-   "kind": "bar",
-   "address": "223 North Frances Street",
-   "city": "Madison",
-   "lat": 43.0718292,
-   "lon": -89.3956092,
-   "website": "https://www.thegritty.com/",
-   "facebook": "",
-   "instagram": "",
-   "feeds": [],
-   "alcohol": true,
-   "alcohol_src": "OpenStreetMap tag or name/type rule",
-   "image": "https://images.getbento.com/accounts/e4822fbaf7aad9e143030840d27381a3/media/images/44557NG.logo.png?w=1200&fit=fill&auto=compress,format&cs=origin&h=600&bg=fff&pad=100"
   },
   {
    "id": "osm:node/8949860975",
@@ -2232,9 +2217,9 @@
    "lon": -89.3937311,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -2247,9 +2232,9 @@
    "lon": -89.3810853,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -2262,9 +2247,9 @@
    "lon": -89.3771586,
    "website": "http://www.robinroombar.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "http://static1.squarespace.com/static/5668f401e0327ca58fde8262/t/566912b7841aba7940a786e3/1449726695035/IMG_3229.JPG?format=1500w"
   },
@@ -2278,9 +2263,9 @@
    "lon": -89.2281716,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -2293,9 +2278,9 @@
    "lon": -89.3930799,
    "website": "https://www.rustybeelounge.com",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -2308,9 +2293,9 @@
    "lon": -89.4077874,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -2323,9 +2308,9 @@
    "lon": -89.4997312,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -2338,9 +2323,9 @@
    "lon": -89.5120386,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -2353,9 +2338,9 @@
    "lon": -89.3699612,
    "website": "https://wiscobar.com",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "http://static1.squarespace.com/static/590637b43a04117659d0e672/t/5906389a725e256add1ad427/1493579931691/WiscoLogo.png?format=1500w"
   },
@@ -2369,9 +2354,9 @@
    "lon": -89.370212,
    "website": "https://tinystaphouse.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -2384,9 +2369,9 @@
    "lon": -89.351042,
    "website": "http://www.thetiptoptavern.com",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -2399,9 +2384,9 @@
    "lon": -89.3815358,
    "website": "https://www.tipsycowmadison.com/",
    "facebook": "https://www.facebook.com/tipsycowmadison/",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -2414,9 +2399,9 @@
    "lon": -89.3488682,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -2429,9 +2414,9 @@
    "lon": -89.3553839,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -2444,9 +2429,9 @@
    "lon": -89.438903,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -2459,9 +2444,9 @@
    "lon": -89.3454641,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -2474,9 +2459,9 @@
    "lon": -89.3955016,
    "website": "https://vintagemadison.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -2489,9 +2474,9 @@
    "lon": -89.3959888,
    "website": "https://wandosbar.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://static.spotapps.co/website_images/ab_websites/301_website_v1/alt.jpg"
   },
@@ -2505,9 +2490,9 @@
    "lon": -89.3948319,
    "website": "https://www.whiskeyjacksmadtown.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -2520,9 +2505,9 @@
    "lon": -89.3586687,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -2535,9 +2520,9 @@
    "lon": -89.4179573,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -2550,9 +2535,9 @@
    "lon": -89.3504549,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -2565,9 +2550,9 @@
    "lon": -89.3809797,
    "website": "http://madwoofs.com/",
    "facebook": "https://www.facebook.com/woofs.madison",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -2580,9 +2565,9 @@
    "lon": -89.5239381,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -2595,9 +2580,9 @@
    "lon": -89.2624947,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -2610,9 +2595,9 @@
    "lon": -89.2122026,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -2625,27 +2610,11 @@
    "lon": -89.5165789,
    "website": "https://www.capital-brewery.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "http://capitalbrewery.com/wp-content/uploads/2015/03/1762.DSCN0590.png"
-  },
-  {
-   "id": "osm:node/7006164854",
-   "name": "Delta Beer Lab",
-   "kind": "brewery",
-   "address": "167 East Badger Road",
-   "city": "Madison",
-   "lat": 43.0373542,
-   "lon": -89.3823463,
-   "website": "https://www.delta.beer/",
-   "facebook": "",
-   "instagram": "",
-   "feeds": [],
-   "alcohol": true,
-   "alcohol_src": "OpenStreetMap tag or name/type rule",
-   "image": "http://static1.squarespace.com/static/59d533349f8dcea3fbc7d7af/t/59ea156290bade39d2a2159b/1508513122353/DBL_color.jpg?format=1500w"
   },
   {
    "id": "osm:node/12209575339",
@@ -2657,9 +2626,9 @@
    "lon": -89.2058376,
    "website": "https://doundrinsdistilling.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "http://doundrins.com/cdn/shop/files/20220527_205826.jpg?v=1738639254&width=2048"
   },
@@ -2673,9 +2642,9 @@
    "lon": -89.3728581,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -2688,9 +2657,9 @@
    "lon": -89.4614745,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -2703,9 +2672,9 @@
    "lon": -89.2114487,
    "website": "https://www.fullmilebeercompany.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "http://static1.squarespace.com/static/5550e9f7e4b0f794fc68c1bf/t/62b50579847ba478bc1b9658/1656030585259/fm_gold_logo_update.png?format=1500w"
   },
@@ -2719,9 +2688,9 @@
    "lon": -89.4162257,
    "website": "https://www.garthsbrewbar.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://www.garthsbrewbar.com/wp-content/uploads/2026/02/Garth-Pour-Beer-At-Garths-Brew-Bar.jpg"
   },
@@ -2735,9 +2704,9 @@
    "lon": -89.3703291,
    "website": "https://giantjones.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -2750,9 +2719,9 @@
    "lon": -89.3800844,
    "website": "https://www.greatdanepub.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://www.greatdanepub.com/wp-content/uploads/2021/08/DSC_4230.jpg"
   },
@@ -2766,9 +2735,9 @@
    "lon": -89.3545871,
    "website": "https://herbiery.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "http://static1.squarespace.com/static/5a906b419d5abbfa6700ec0c/t/5bc782b6e79c70906eb78488/1539801813464/Profile+Pic.png?format=1500w"
   },
@@ -2782,9 +2751,9 @@
    "lon": -89.5331257,
    "website": "https://www.hophausbrewing.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -2797,9 +2766,9 @@
    "lon": -89.3257286,
    "website": "https://www.karben4.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -2812,9 +2781,9 @@
    "lon": -89.454225,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -2827,9 +2796,9 @@
    "lon": -89.4081487,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -2842,9 +2811,9 @@
    "lon": -89.3436407,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -2857,9 +2826,9 @@
    "lon": -89.3351861,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -2872,9 +2841,9 @@
    "lon": -89.425721,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -2887,9 +2856,9 @@
    "lon": -89.3706293,
    "website": "https://oldsugardistillery.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -2902,9 +2871,9 @@
    "lon": -89.4498574,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -2917,9 +2886,9 @@
    "lon": -89.2115888,
    "website": "https://rightbauerbrewing.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -2932,9 +2901,9 @@
    "lon": -89.3622099,
    "website": "https://www.statelinedistillery.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -2947,9 +2916,9 @@
    "lon": -89.473949,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -2962,9 +2931,9 @@
    "lon": -89.3652802,
    "website": "https://www.workingdraftbeer.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "http://static1.squarespace.com/static/595aac69414fb51e2857d8af/t/6995e974736ef2655cbce118/1771432308432/3.color+horizontal+lowercase%403x.png?format=1500w"
   },
@@ -2978,9 +2947,9 @@
    "lon": -89.4783308,
    "website": "https://yaharabay.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "http://yaharabay.com/cdn/shop/files/yb-logo_1200x1200.png?v=1614398673"
   },
@@ -2994,9 +2963,9 @@
    "lon": -89.3510709,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -3009,9 +2978,9 @@
    "lon": -89.3811472,
    "website": "https://www.youngbloodbeerco.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -3024,9 +2993,9 @@
    "lon": -89.4076565,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -3039,9 +3008,9 @@
    "lon": -89.5335708,
    "website": "https://alicegood.co/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "http://alicegood.co/cdn/shop/files/Artes-AliceGood-01.png?v=1648076055"
   },
@@ -3055,9 +3024,9 @@
    "lon": -89.3244234,
    "website": "https://www.ancoracafes.com/monona-drive/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://www.ancoracafes.com/wp-content/uploads/Drive-Thru-Menu-1024x758.jpg"
   },
@@ -3071,9 +3040,9 @@
    "lon": -89.363036,
    "website": "https://www.ancoracafes.com/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://www.ancoracafes.com/wp-content/uploads/honey-bacon-biscuit-e1724276299571-1024x738.png"
   },
@@ -3087,9 +3056,9 @@
    "lon": -89.4433553,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -3102,9 +3071,9 @@
    "lon": -89.4522408,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -3117,9 +3086,9 @@
    "lon": -89.4576081,
    "website": "https://barriquesmarket.com/pages/fitchburg",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -3132,9 +3101,9 @@
    "lon": -89.5138883,
    "website": "https://barriquesmarket.com/pages/middleton",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -3147,9 +3116,9 @@
    "lon": -89.416608,
    "website": "https://barriquesmarket.com/pages/monroe-st",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -3162,9 +3131,9 @@
    "lon": -89.5282658,
    "website": "https://barriquesmarket.com/pages/old-sauk",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -3177,9 +3146,9 @@
    "lon": -89.4288534,
    "website": "https://www.barriquesmarket.com/our-cafes/university/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -3192,9 +3161,9 @@
    "lon": -89.3858729,
    "website": "https://barriquesmarket.com/pages/west-wash",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -3207,9 +3176,9 @@
    "lon": -89.2317796,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -3222,9 +3191,9 @@
    "lon": -89.2102042,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -3237,9 +3206,9 @@
    "lon": -89.337189,
    "website": "https://www.mymonona.com/1395/Below-Deck-Concession-Stand",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -3252,9 +3221,9 @@
    "lon": -89.3737061,
    "website": "https://blacklocustcafe.com/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -3267,9 +3236,9 @@
    "lon": -89.3839609,
    "website": "https://www.bradburyscoffee.com/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -3282,9 +3251,9 @@
    "lon": -89.2950846,
    "website": "https://www.brokenboardcoffee.com/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -3297,9 +3266,9 @@
    "lon": -89.3606142,
    "website": "http://www.cafedomestique.cc/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "http://static1.squarespace.com/static/5730ff2d60b5e942e7496324/t/576304f91b631b93bb1b4003/1466107130314/Domestique+Logo+2.jpg?format=1500w"
   },
@@ -3313,9 +3282,9 @@
    "lon": -89.351079,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -3328,9 +3297,9 @@
    "lon": -89.4236441,
    "website": "https://www.cafedomestiquemadison.com/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "http://static1.squarespace.com/static/5730ff2d60b5e942e7496324/t/576304f91b631b93bb1b4003/1466107130314/Domestique+Logo+2.jpg?format=1500w"
   },
@@ -3344,9 +3313,9 @@
    "lon": -89.3971815,
    "website": "https://www.candycloudcompany.com/locations/madison",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -3359,9 +3328,9 @@
    "lon": -89.4010003,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -3374,9 +3343,9 @@
    "lon": -89.3758335,
    "website": "https://www.facebook.com/cargocoffeeeast/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -3389,9 +3358,9 @@
    "lon": -89.3946397,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -3404,9 +3373,9 @@
    "lon": -89.3234517,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -3419,9 +3388,9 @@
    "lon": -89.3988161,
    "website": "https://union.wisc.edu/dine/find-food-and-drink/chazen-cafe",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -3434,9 +3403,9 @@
    "lon": -89.3955895,
    "website": "https://colectivocoffee.com/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "http://colectivo.com/cdn/shop/files/2796x1463_1.png?v=1743711843"
   },
@@ -3450,9 +3419,9 @@
    "lon": -89.3819099,
    "website": "https://colectivo.com/pages/on-the-square",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "http://colectivo.com/cdn/shop/files/2796x1463_1.png?v=1743711843"
   },
@@ -3466,9 +3435,9 @@
    "lon": -89.427995,
    "website": "https://colectivocoffee.com/cafes/monroe-street",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "http://colectivo.com/cdn/shop/files/2796x1463_1.png?v=1743711843"
   },
@@ -3482,9 +3451,9 @@
    "lon": -89.3706032,
    "website": "https://colectivo.com/pages/madison-cafes",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "http://colectivo.com/cdn/shop/files/2796x1463_1.png?v=1743711843"
   },
@@ -3498,9 +3467,9 @@
    "lon": -89.3066263,
    "website": "https://www.cottagecafe.co/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -3513,9 +3482,9 @@
    "lon": -89.3241281,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -3528,9 +3497,9 @@
    "lon": -89.4529175,
    "website": "http://crescendomadison.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -3543,9 +3512,9 @@
    "lon": -89.4097802,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -3558,9 +3527,9 @@
    "lon": -89.3572209,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -3573,9 +3542,9 @@
    "lon": -89.3922685,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -3588,9 +3557,9 @@
    "lon": -89.4508056,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -3603,9 +3572,9 @@
    "lon": -89.4691674,
    "website": "https://evpcoffee.com/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "http://evpcoffee.com/uploads/3/4/3/4/34341742/published/evplogo-small.jpg?1643822874"
   },
@@ -3619,9 +3588,9 @@
    "lon": -89.3667656,
    "website": "https://evpcoffee.com/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "http://evpcoffee.com/uploads/3/4/3/4/34341742/published/evplogo-small.jpg?1643822874"
   },
@@ -3635,9 +3604,9 @@
    "lon": -89.4339665,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -3650,9 +3619,9 @@
    "lon": -89.3920724,
    "website": "https://www.fairtradecoffeehouse.com/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://static.spotapps.co/website_images/ab_websites/267328_website_v1/drinks_bg.jpg"
   },
@@ -3666,9 +3635,9 @@
    "lon": -89.380454,
    "website": "https://www.fincamadison.com/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -3681,9 +3650,9 @@
    "lon": -89.349883,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -3696,9 +3665,9 @@
    "lon": -89.5053889,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -3711,9 +3680,9 @@
    "lon": -89.5117464,
    "website": "http://www.gracecoffeewi.com",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "http://static1.squarespace.com/static/5e1010818aa5803c29ae9c9a/t/5e74387603e0fc7d6a8577f1/1584674937748/G-logo.jpg?format=1500w"
   },
@@ -3727,9 +3696,9 @@
    "lon": -89.398752,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -3742,9 +3711,9 @@
    "lon": -89.4555034,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -3757,9 +3726,9 @@
    "lon": -89.5117879,
    "website": "https://www.gracecoffeewi.com/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "http://static1.squarespace.com/static/5e1010818aa5803c29ae9c9a/t/5e74387603e0fc7d6a8577f1/1584674937748/G-logo.jpg?format=1500w"
   },
@@ -3773,9 +3742,9 @@
    "lon": -89.3680877,
    "website": "https://www.gracecoffeewi.com/",
    "facebook": "https://gracecoffeeco",
+   "alcohol": false,
    "instagram": "https://gracecoffeecompany",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "http://static1.squarespace.com/static/5e1010818aa5803c29ae9c9a/t/5e74387603e0fc7d6a8577f1/1584674937748/G-logo.jpg?format=1500w"
   },
@@ -3789,9 +3758,9 @@
    "lon": -89.2713387,
    "website": "https://www.gracecoffeewi.com/",
    "facebook": "https://www.facebook.com/gracecoffeeco/",
+   "alcohol": false,
    "instagram": "https://www.instagram.com/gracecoffeecompany/",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "http://static1.squarespace.com/static/5e1010818aa5803c29ae9c9a/t/5e74387603e0fc7d6a8577f1/1584674937748/G-logo.jpg?format=1500w"
   },
@@ -3805,9 +3774,9 @@
    "lon": -89.5537363,
    "website": "https://www.gracecoffeewi.com",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "http://static1.squarespace.com/static/5e1010818aa5803c29ae9c9a/t/5e74387603e0fc7d6a8577f1/1584674937748/G-logo.jpg?format=1500w"
   },
@@ -3821,9 +3790,9 @@
    "lon": -89.4612095,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -3836,9 +3805,9 @@
    "lon": -89.3872524,
    "website": "https://highcrowdcafe.com",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -3851,9 +3820,9 @@
    "lon": -89.5134753,
    "website": "https://ickisticki.com/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://ickisticki.com/wp-content/uploads/2025/02/New-Project-2025-02-06T184114.615-1.jpg"
   },
@@ -3867,9 +3836,9 @@
    "lon": -89.4065628,
    "website": "https://indiecoffee.net/index.html",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "http://indiecoffee.net/uploads/3/4/6/1/34619553/6415141.jpg"
   },
@@ -3883,9 +3852,9 @@
    "lon": -89.5615856,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -3898,9 +3867,9 @@
    "lon": -89.3101319,
    "website": "https://javacatmadison.com/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://img1.wsimg.com/isteam/ip/d220e044-3608-4923-abf7-b08da16e3530/449149836_1540254909891269_6906354502915658633.jpg"
   },
@@ -3914,9 +3883,9 @@
    "lon": -89.4038985,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -3929,9 +3898,9 @@
    "lon": -89.2214193,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -3944,9 +3913,9 @@
    "lon": -89.393356,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -3959,9 +3928,9 @@
    "lon": -89.3761491,
    "website": "https://www.jph4ever.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -3974,9 +3943,9 @@
    "lon": -89.4568248,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -3989,9 +3958,9 @@
    "lon": -89.3934931,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -4004,9 +3973,9 @@
    "lon": -89.3889896,
    "website": "https://lakesidestcoffeehouse.com/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://img1.wsimg.com/isteam/ip/7ee54879-6e60-4b90-9ed9-72fe076667a5/IMG_6198.jpg"
   },
@@ -4020,9 +3989,9 @@
    "lon": -89.361711,
    "website": "https://www.lazyjanes.com",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -4035,9 +4004,9 @@
    "lon": -89.3923821,
    "website": "https://lecsmadison.com/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -4050,9 +4019,9 @@
    "lon": -89.3343709,
    "website": "https://www.ledgercoffee.com/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://www.ledgercoffee.com/uploads/b/8adbfcd0-de3d-11e9-abbd-2ddb4cc843de/IMG_0475.jpeg"
   },
@@ -4066,9 +4035,9 @@
    "lon": -89.3516554,
    "website": "https://www.ledgercoffee.com/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://www.ledgercoffee.com/uploads/b/8adbfcd0-de3d-11e9-abbd-2ddb4cc843de/IMG_0475.jpeg"
   },
@@ -4082,9 +4051,9 @@
    "lon": -89.4077258,
    "website": "https://www.leopoldsmadison.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "http://static1.squarespace.com/static/65de00e977cf8c4422ca7c69/t/6661f4f84a120b729cf02553/1717695736476/Leopolds03d.png?format=1500w"
   },
@@ -4098,9 +4067,9 @@
    "lon": -89.3907075,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -4113,9 +4082,9 @@
    "lon": -89.2785806,
    "website": "https://www.livsdrinks.com",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://www.livsdrinks.com/wp-content/uploads/2020/09/drink-emporium-logo-1x.png"
   },
@@ -4129,9 +4098,9 @@
    "lon": -89.4631271,
    "website": "https://www.mnmcoffeehouse.com/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -4144,9 +4113,9 @@
    "lon": -89.4353236,
    "website": "https://madisonchocolate.com",
    "facebook": "https://madisonchocolate.com",
+   "alcohol": false,
    "instagram": "https://madisonchocolate",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://www.madisonchocolatecompany.com/uploads/b/0152b570-3498-11ea-a3ac-19980846dcf7/637293117_18570286051004646_2303109470019344461_n.jpg"
   },
@@ -4160,9 +4129,9 @@
    "lon": -89.4747899,
    "website": "https://www.madisonchocolatecompany.com",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://www.madisonchocolatecompany.com/uploads/b/0152b570-3498-11ea-a3ac-19980846dcf7/637293117_18570286051004646_2303109470019344461_n.jpg"
   },
@@ -4176,9 +4145,9 @@
    "lon": -89.2889914,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -4191,9 +4160,9 @@
    "lon": -89.3088511,
    "website": "https://merciescoffeewi.com/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -4206,9 +4175,9 @@
    "lon": -89.3871574,
    "website": "https://www.michelangeloscoffeehouse.com",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "http://static1.squarespace.com/static/544e7cc9e4b04f9b3c62dc26/t/662b11a292c6564b658ff953/1714098594338/Michelangelos-White-Logo-04.png?format=1500w"
   },
@@ -4222,9 +4191,9 @@
    "lon": -89.343946,
    "website": "https://www.mymokacoffee.com/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "http://mymokacoffee.com/cdn/shop/files/Moka.logo.2_1200x1200.png?v=1690253910"
   },
@@ -4238,9 +4207,9 @@
    "lon": -89.4706186,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -4253,9 +4222,9 @@
    "lon": -89.3103454,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -4268,9 +4237,9 @@
    "lon": -89.5105374,
    "website": "https://mymokacoffee.com/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "http://mymokacoffee.com/cdn/shop/files/Moka.logo.2_1200x1200.png?v=1690253910"
   },
@@ -4284,9 +4253,9 @@
    "lon": -89.3980206,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -4299,9 +4268,9 @@
    "lon": -89.3608483,
    "website": "https://mymokacoffee.com/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "http://mymokacoffee.com/cdn/shop/files/Moka.logo.2_1200x1200.png?v=1690253910"
   },
@@ -4315,9 +4284,9 @@
    "lon": -89.5143413,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -4330,9 +4299,9 @@
    "lon": -89.3658896,
    "website": "https://www.motherfools.com/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -4345,9 +4314,9 @@
    "lon": -89.4961992,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -4360,9 +4329,9 @@
    "lon": -89.3921078,
    "website": "https://www.olivmadison.com/new-here-coffee",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://www.olivmadison.com/wp-content/uploads/2024/08/oliv-madison-logo-meta.png"
   },
@@ -4376,9 +4345,9 @@
    "lon": -89.5294745,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -4391,9 +4360,9 @@
    "lon": -89.4251438,
    "website": "https://oasiscafefitchburg.com/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://static.spotapps.co/website_images/ab_websites/99739_website_v1/alt.jpg"
   },
@@ -4407,9 +4376,9 @@
    "lon": -89.3992281,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -4422,9 +4391,9 @@
    "lon": -89.3956365,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -4437,9 +4406,9 @@
    "lon": -89.5050953,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -4452,9 +4421,9 @@
    "lon": -89.4079064,
    "website": "https://union.wisc.edu/prairiefire.htm",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -4467,9 +4436,9 @@
    "lon": -89.4989154,
    "website": "https://www.qamariacoffee.com/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "http://static1.squarespace.com/static/5e6e8046c2dd7d466861e6b8/t/5fcd5c19c836a917f91e3779/1607293980608/Qamaria_Logo-06.png?format=1500w"
   },
@@ -4483,9 +4452,9 @@
    "lon": -89.3944702,
    "website": "https://www.rastabarista.com/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -4498,9 +4467,9 @@
    "lon": -89.3351492,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -4513,9 +4482,9 @@
    "lon": -89.3555582,
    "website": "https://www.rotundacafeatwood.com/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -4528,9 +4497,9 @@
    "lon": -89.4033849,
    "website": "https://slowfood-uw.org/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://slowfood-uw.org/wp-content/uploads/2025/11/img_7080-edited.jpeg"
   },
@@ -4544,9 +4513,9 @@
    "lon": -89.3827265,
    "website": "https://www.starbucks.com/store-locator/store/16482/capitol-square-main-mlk-1-e-main-st-madison-wi-537033373-us",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://www.starbucks.com/weblx/images/social/summary_square.png"
   },
@@ -4560,9 +4529,9 @@
    "lon": -89.4474686,
    "website": "https://www.starbucks.com/store-locator/store/12525/university-north-blackhawk-3515-university-avenue-madison-wi-537052140-us",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://www.starbucks.com/weblx/images/social/summary_square.png"
   },
@@ -4576,9 +4545,9 @@
    "lon": -89.502136,
    "website": "https://www.starbucks.com/store-locator/store/16495/south-gammon-mineral-point-434-gammon-place-3-madison-wi-537191090-us",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://www.starbucks.com/weblx/images/social/summary_square.png"
   },
@@ -4592,9 +4561,9 @@
    "lon": -89.5242142,
    "website": "https://www.starbucks.com/store-locator/store/1010275/greenway-boulevard-8230-greenway-boulevard-middleton-wi-535623579-us",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://www.starbucks.com/weblx/images/social/summary_square.png"
   },
@@ -4608,9 +4577,9 @@
    "lon": -89.3239876,
    "website": "https://www.starbucks.com/store-locator/store/9233/monona-broadway-6512-monona-drive-monona-wi-537164026-us",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://www.starbucks.com/weblx/images/social/summary_square.png"
   },
@@ -4624,9 +4593,9 @@
    "lon": -89.4867402,
    "website": "https://www.starbucks.com/store-locator/store/1016244/allen-boulevard-2602-allen-boulevard-middleton-wi-535622214-us",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://www.starbucks.com/weblx/images/social/summary_square.png"
   },
@@ -4640,9 +4609,9 @@
    "lon": -89.4292085,
    "website": "https://www.starbucks.com/store-locator/store/16460/mc-kee-triverton-pike-2981-triverton-pike-dr-fitchburg-wi-537117507-us",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://www.starbucks.com/weblx/images/social/summary_square.png"
   },
@@ -4656,9 +4625,9 @@
    "lon": -89.4539486,
    "website": "https://www.starbucks.com/store-locator/store/20035/target-madison-2765-750-hilldale-way-madison-wi-537052644-us",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://www.starbucks.com/weblx/images/social/summary_square.png"
   },
@@ -4672,9 +4641,9 @@
    "lon": -89.269587,
    "website": "https://www.starbucks.com/store-locator/store/1005697/prairie-lakes-grand-2804-prairie-lakes-drive-sun-prairie-wi-535908504-",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://www.starbucks.com/weblx/images/social/summary_square.png"
   },
@@ -4688,9 +4657,9 @@
    "lon": -89.3124473,
    "website": "https://www.starbucks.com/store-locator/store/68852/east-washington-continental-4202-e-washington-ave-madison-wi-537043720-us",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://www.starbucks.com/weblx/images/social/summary_square.png"
   },
@@ -4704,9 +4673,9 @@
    "lon": -89.4099207,
    "website": "https://www.starbucks.com/store-locator/store/1030539/fish-hatchery-greenway-1605-greenway-cross-madison-wi-537133007-us",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://www.starbucks.com/weblx/images/social/summary_square.png"
   },
@@ -4720,9 +4689,9 @@
    "lon": -89.4828482,
    "website": "https://www.starbucks.com/store-locator/store/7527/target-fitchburg-2106-6321-mc-kee-rd-fitchburg-wi-537195017-us",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://www.starbucks.com/weblx/images/social/summary_square.png"
   },
@@ -4736,9 +4705,9 @@
    "lon": -89.4612375,
    "website": "https://www.starbucks.com",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://www.starbucks.com/assets/icons/summary_square.png"
   },
@@ -4752,9 +4721,9 @@
    "lon": -89.3869272,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -4767,9 +4736,9 @@
    "lon": -89.2761709,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -4782,9 +4751,9 @@
    "lon": -89.3081482,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -4797,9 +4766,9 @@
    "lon": -89.3770851,
    "website": "https://www.starbucks.com/store-locator/store/1030659/rimrock-beltline-2157-rimrock-rd-madison-wi-537131443-us",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://www.starbucks.com/weblx/images/social/summary_square.png"
   },
@@ -4813,9 +4782,9 @@
    "lon": -89.5525832,
    "website": "https://www.starbucks.com/store-locator/store/1040048/verona-ave-west-end-circle-147-west-end-circle-verona-wi-53593-us",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://www.starbucks.com/weblx/images/social/summary_square.png"
   },
@@ -4829,9 +4798,9 @@
    "lon": -89.397013,
    "website": "https://www.starbucks.com/store-locator/store/17653/state-lake-661-state-street-madison-wi-537031049-us",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://www.starbucks.com/weblx/images/social/summary_square.png"
   },
@@ -4845,9 +4814,9 @@
    "lon": -89.2653257,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -4860,9 +4829,9 @@
    "lon": -89.4947061,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -4875,9 +4844,9 @@
    "lon": -89.3425903,
    "website": "https://tacomadrewi.com/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -4890,9 +4859,9 @@
    "lon": -89.3724918,
    "website": "https://tatimarketplace.com",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -4905,9 +4874,9 @@
    "lon": -89.3934656,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -4920,9 +4889,9 @@
    "lon": -89.3770906,
    "website": "https://www.teasider.com/",
    "facebook": "https://machatealounge",
+   "alcohol": false,
    "instagram": "https://the_teasider",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://static.wixstatic.com/media/a884cc_d68b3d661d9b473593361882f54d016a.jpg/v1/fit/w_2500,h_1330,al_c/a884cc_d68b3d661d9b473593361882f54d016a.jpg"
   },
@@ -4936,9 +4905,9 @@
    "lon": -89.4177062,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -4951,9 +4920,9 @@
    "lon": -89.3497852,
    "website": "https://www.bubblingteapot.com/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -4966,9 +4935,9 @@
    "lon": -89.3895851,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -4981,9 +4950,9 @@
    "lon": -89.5331723,
    "website": "https://www.knitandsip.com/",
    "facebook": "https://sowsear",
+   "alcohol": false,
    "instagram": "https://thesowsearyarn",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "http://thesowsearwi.com/cdn/shop/files/yarn-wall-colorful.jpg?v=1759496480&width=2048"
   },
@@ -4997,9 +4966,9 @@
    "lon": -89.3444199,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -5012,9 +4981,9 @@
    "lon": -89.517498,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -5027,9 +4996,9 @@
    "lon": -89.3376683,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -5042,9 +5011,9 @@
    "lon": -89.2786331,
    "website": "https://www.twistedgrounds.com/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://static.wixstatic.com/media/c4cba7_022579f689b145dfa62156c5287478dd%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/c4cba7_022579f689b145dfa62156c5287478dd%7Emv2.jpg"
   },
@@ -5058,9 +5027,9 @@
    "lon": -89.3821473,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -5073,9 +5042,9 @@
    "lon": -89.3988893,
    "website": "https://www.valentiacoffee.com/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -5088,11 +5057,29 @@
    "lon": -89.3944026,
    "website": "https://www.wakenbakery.net/locations/madison/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://wakenbakery.net/wp-content/uploads/2026/03/wnb_og_image.png"
+  },
+  {
+   "id": "osm:node/11477165381",
+   "name": "Waltzing Matilda's",
+   "kind": "cafe",
+   "address": "1923 Monroe Street",
+   "city": "",
+   "lat": 43.0640971,
+   "lon": -89.4181216,
+   "website": "https://www.waltzingmatildasmadison.com/",
+   "facebook": "",
+   "alcohol": false,
+   "instagram": "",
+   "feeds": [],
+   "alcohol_src": "OpenStreetMap tag or name/type rule",
+   "image": "http://static1.squarespace.com/static/6a9764d0da113e2f62071281/t/6aa473d986c23b2fde49a60f/1789162457701/WM-SocialShare-1.jpg?format=1500w",
+   "new_since": "2026-05-20",
+   "new_evidence": "New alcohol license approved at the 2026-05-20 ALRC meeting"
   },
   {
    "id": "osm:node/8947332228",
@@ -5104,9 +5091,9 @@
    "lon": -89.3839117,
    "website": "https://wonderstate.com/pages/madison-cafe",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "http://wonderstate.com/cdn/shop/files/Standard_Lockup_Wonderstate_1_fff47e5c-5709-493f-b8b7-dfc03be03b22.png?v=1625103169&width=2048"
   },
@@ -5120,9 +5107,9 @@
    "lon": -89.5231843,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -5135,9 +5122,9 @@
    "lon": -89.4087579,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -5150,9 +5137,9 @@
    "lon": -89.3777429,
    "website": "https://rootedwi.org/badger-rock-neighborhood-center/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://rootedwi.org/wp-content/uploads/2020/09/hero-badger-rock-neighborhood-center.jpg"
   },
@@ -5166,9 +5153,9 @@
    "lon": -89.3975076,
    "website": "https://www.bayviewfoundation.org",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://bayviewfoundation.org/wp-content/uploads/2024/04/CommunityCenter-white.png"
   },
@@ -5182,9 +5169,9 @@
    "lon": -89.3525058,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -5197,9 +5184,9 @@
    "lon": -89.3471392,
    "website": "https://www.blwcenter.org/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "http://static1.squarespace.com/static/66e311c918d8f41a369e05e0/t/677737ad210f2d4803697fc2/1735866285756/Food+Pantry+Oct2024+p3.jpg?format=1500w"
   },
@@ -5213,9 +5200,9 @@
    "lon": -89.38011,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -5228,9 +5215,9 @@
    "lon": -89.4704945,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -5243,9 +5230,9 @@
    "lon": -89.396788,
    "website": "https://www.micentro.org/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "http://static1.squarespace.com/static/66faf5fb8c7fb4777a9d2d42/t/66fb088f8d92500c53378f14/1727727759780/CENTRO_LOGO_Horz_FullColor_T_red.png?format=1500w"
   },
@@ -5259,9 +5246,9 @@
    "lon": -89.4364655,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -5274,9 +5261,9 @@
    "lon": -89.3286211,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -5289,9 +5276,9 @@
    "lon": -89.4235195,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -5304,9 +5291,9 @@
    "lon": -89.4235179,
    "website": "http://www.fitchburgwi.gov/621/Senior-Center",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -5319,9 +5306,9 @@
    "lon": -89.2004376,
    "website": "https://www.tn.cottagegrove.wi.gov/hall-rental-information/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -5334,9 +5321,9 @@
    "lon": -89.3436965,
    "website": "https://www.goodmancenter.org/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://www.goodmancenter.org/assets/banners-full-width/_1200x630_crop_center-center_82_none/laura-zastrow-photography-mission-montage-001-18.jpg?mtime=1635434464"
   },
@@ -5350,9 +5337,9 @@
    "lon": -89.3431745,
    "website": "https://www.goodmancenter.org/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://www.goodmancenter.org/assets/banners-full-width/_1200x630_crop_center-center_82_none/laura-zastrow-photography-mission-montage-001-18.jpg?mtime=1635434464"
   },
@@ -5366,9 +5353,9 @@
    "lon": -89.2292486,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -5381,9 +5368,9 @@
    "lon": -89.4018304,
    "website": "https://iwcmadison.com/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -5396,9 +5383,9 @@
    "lon": -89.3945527,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -5411,9 +5398,9 @@
    "lon": -89.3985138,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -5426,9 +5413,9 @@
    "lon": -89.5018406,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -5441,9 +5428,9 @@
    "lon": -89.394965,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -5456,9 +5443,9 @@
    "lon": -89.3893722,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -5471,9 +5458,9 @@
    "lon": -89.4579788,
    "website": "https://madisonmuslims.org/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://framerusercontent.com/images/9hYCShf4R10EZ77FRRLiTJ9PF0E.jpg"
   },
@@ -5487,9 +5474,9 @@
    "lon": -89.3407339,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -5502,9 +5489,9 @@
    "lon": -89.3981388,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -5517,9 +5504,9 @@
    "lon": -89.3490335,
    "website": "https://www.lgbtoutreach.org/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://static.wixstatic.com/media/49ac88_8e155248eab043328286ccedd145380d~mv2.jpg/v1/fill/w_1618,h_1270,al_c/49ac88_8e155248eab043328286ccedd145380d~mv2.jpg"
   },
@@ -5533,9 +5520,9 @@
    "lon": -89.386448,
    "website": "https://www.centerforblackwomen.org/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://www.centerforblackwomen.org/wp-content/uploads/2017/11/progress-center-for-black-women-madison-8-2.jpg"
   },
@@ -5549,9 +5536,9 @@
    "lon": -89.3168108,
    "website": "https://www.cityofmadison.com/parks/find-a-park/reindahl/pavilion-at-the-imagination-center",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://www.cityofmadison.com/sites/default/files/styles/social/public/parks/images/parks/20260917%20Reindahl%20Park%20pavilion%20exterior%20pre-opening%20%2814%29.jpg?h=9b7b530a&itok=asC87XyD"
   },
@@ -5565,9 +5552,9 @@
    "lon": -89.440231,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -5580,9 +5567,9 @@
    "lon": -89.2081359,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -5595,9 +5582,9 @@
    "lon": -89.395397,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -5610,9 +5597,9 @@
    "lon": -89.3917524,
    "website": "https://www.theblackcenter.org/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://www.theblackcenter.org/wp-content/uploads/2026/04/the-center-building-sunset26.jpg"
   },
@@ -5626,9 +5613,9 @@
    "lon": -89.2124405,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -5641,9 +5628,9 @@
    "lon": -89.4037365,
    "website": "https://neighborhoodhousemadison.org",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -5656,9 +5643,9 @@
    "lon": -89.3851984,
    "website": "https://www.veracourt.org/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "http://static1.squarespace.com/static/66e30c39ef3ecb2e3ebd91fb/t/6776c9d4ffc5395d233256de/1735838164680/vcnc-children-outside.jpg?format=1500w"
   },
@@ -5672,9 +5659,9 @@
    "lon": -89.5330812,
    "website": "https://www.veronawi.gov/941/Community-Center",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -5687,9 +5674,9 @@
    "lon": -89.4493405,
    "website": "https://www.vil.waunakee.wi.us/187/Village-Center",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -5702,9 +5689,9 @@
    "lon": -89.3670152,
    "website": "https://www.wil-mar.org/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "http://static1.squarespace.com/static/58dc206d1b631b87a8303b0d/t/5fcfa7f58b174454e9a92754/1607444474016/WilMar.JPG?format=1500w"
   },
@@ -5718,9 +5705,9 @@
    "lon": -89.5175827,
    "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://www.madisonpubliclibrary.org/sites/www.madisonpubliclibrary.org/files/2025-01/IMG_20191004_120611.jpg"
   },
@@ -5734,9 +5721,9 @@
    "lon": -89.3875186,
    "website": "https://www.madisonpubliclibrary.org/central",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://www.madisonpubliclibrary.org/sites/www.madisonpubliclibrary.org/files/2024-11/central-exterior.jpg"
   },
@@ -5750,9 +5737,9 @@
    "lon": -89.4009983,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -5765,9 +5752,9 @@
    "lon": -89.3839356,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -5780,9 +5767,9 @@
    "lon": -89.3827347,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -5795,9 +5782,9 @@
    "lon": -89.2883391,
    "website": "https://www.mcfarlandlibrary.org/home",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -5810,9 +5797,9 @@
    "lon": -89.3491899,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -5825,9 +5812,9 @@
    "lon": -89.4297886,
    "website": "https://ebling.library.wisc.edu/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -5840,9 +5827,9 @@
    "lon": -89.4248811,
    "website": "http://www.fitchburgwi.gov/822/Library",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -5855,9 +5842,9 @@
    "lon": -89.4011389,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -5870,9 +5857,9 @@
    "lon": -89.3944314,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -5885,9 +5872,9 @@
    "lon": -89.34641,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -5900,9 +5887,9 @@
    "lon": -89.4609203,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -5915,9 +5902,9 @@
    "lon": -89.3168809,
    "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://www.madisonpubliclibrary.org/sites/www.madisonpubliclibrary.org/files/2026-10/icl_front-entrance.jpg"
   },
@@ -5931,9 +5918,9 @@
    "lon": -89.3624003,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -5946,9 +5933,9 @@
    "lon": -89.4790028,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -5961,9 +5948,9 @@
    "lon": -89.3979775,
    "website": "https://www.library.wisc.edu/memorial/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -5976,9 +5963,9 @@
    "lon": -89.509319,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -5991,9 +5978,9 @@
    "lon": -89.3405797,
    "website": "https://mymonona.com/131/Library",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -6006,9 +5993,9 @@
    "lon": -89.4152059,
    "website": "https://www.madisonpubliclibrary.org/monroe-street",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://www.madisonpubliclibrary.org/sites/www.madisonpubliclibrary.org/files/2024-11/monroe-street.jpg"
   },
@@ -6022,9 +6009,9 @@
    "lon": -89.3880882,
    "website": "https://www.nagcnl.org/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -6037,9 +6024,9 @@
    "lon": -89.4229279,
    "website": "https://library.edgewood.edu/home",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -6052,9 +6039,9 @@
    "lon": -89.3176486,
    "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://www.madisonpubliclibrary.org/sites/www.madisonpubliclibrary.org/files/2025-01/49497432241_5c5f33b9a1_c.jpg"
   },
@@ -6068,9 +6055,9 @@
    "lon": -89.4010612,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -6083,9 +6070,9 @@
    "lon": -89.4505289,
    "website": "https://www.madisonpubliclibrary.org/sequoya",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://www.madisonpubliclibrary.org/sites/www.madisonpubliclibrary.org/files/2024-11/sequoya-front_0.jpg"
   },
@@ -6099,9 +6086,9 @@
    "lon": -89.4133308,
    "website": "",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -6114,9 +6101,9 @@
    "lon": -89.2353415,
    "website": "https://www.sunprairiepubliclibrary.org/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -6129,9 +6116,9 @@
    "lon": -89.5280271,
    "website": "https://www.veronapubliclibrary.org/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -6144,9 +6131,9 @@
    "lon": -89.450474,
    "website": "https://www.waunakeepubliclibrary.org/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -6159,9 +6146,9 @@
    "lon": -89.4000767,
    "website": "https://www.wisconsinhistory.org",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -6174,9 +6161,9 @@
    "lon": -89.3139158,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -6189,9 +6176,9 @@
    "lon": -89.3146563,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -6204,9 +6191,9 @@
    "lon": -89.2944188,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -6219,9 +6206,9 @@
    "lon": -89.3272545,
    "website": "https://escmadison.com",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -6234,9 +6221,9 @@
    "lon": -89.3721382,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -6249,9 +6236,9 @@
    "lon": -89.4306202,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -6264,9 +6251,9 @@
    "lon": -89.3867829,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -6279,9 +6266,9 @@
    "lon": -89.3887682,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -6294,9 +6281,9 @@
    "lon": -89.3875378,
    "website": "https://linktr.ee/pksuw",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -6309,9 +6296,9 @@
    "lon": -89.3140934,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -6324,9 +6311,9 @@
    "lon": -89.3142353,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -6339,9 +6326,9 @@
    "lon": -89.3142223,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -6354,9 +6341,9 @@
    "lon": -89.3143113,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -6369,9 +6356,9 @@
    "lon": -89.3144696,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -6384,9 +6371,9 @@
    "lon": -89.3141122,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -6399,9 +6386,9 @@
    "lon": -89.3142597,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -6414,9 +6401,9 @@
    "lon": -89.3142729,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -6429,9 +6416,9 @@
    "lon": -89.3143867,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -6444,9 +6431,9 @@
    "lon": -89.3142705,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -6459,9 +6446,9 @@
    "lon": -89.3141305,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -6474,9 +6461,9 @@
    "lon": -89.4131516,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -6489,9 +6476,9 @@
    "lon": -89.4303568,
    "website": "",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
-   "feeds": [],
-   "alcohol": null
+   "feeds": []
   },
   {
    "id": "osm:node/5486805251",
@@ -6503,9 +6490,9 @@
    "lon": -89.3671223,
    "website": "",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
-   "feeds": [],
-   "alcohol": null
+   "feeds": []
   },
   {
    "id": "osm:way/1180774916",
@@ -6517,11 +6504,11 @@
    "lon": -89.5380818,
    "website": "https://www.arthouse360.com/",
    "facebook": "https://www.facebook.com/theARThouse360",
+   "alcohol": true,
    "instagram": "https://www.instagram.com/thearthouse360/",
    "feeds": [],
-   "alcohol": true,
-   "image": "https://static.wixstatic.com/media/399a60_05945e6887ad4417a52cdcc29c09569e%7Emv2.png/v1/fit/w_2500,h_1330,al_c/399a60_05945e6887ad4417a52cdcc29c09569e%7Emv2.png",
-   "alcohol_src": "menu/homepage keywords"
+   "alcohol_src": "menu/homepage keywords",
+   "image": "https://static.wixstatic.com/media/399a60_05945e6887ad4417a52cdcc29c09569e%7Emv2.png/v1/fit/w_2500,h_1330,al_c/399a60_05945e6887ad4417a52cdcc29c09569e%7Emv2.png"
   },
   {
    "id": "osm:node/13712490729",
@@ -6533,9 +6520,9 @@
    "lon": -89.4653828,
    "website": "",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
-   "feeds": [],
-   "alcohol": null
+   "feeds": []
   },
   {
    "id": "osm:node/10815180247",
@@ -6547,9 +6534,9 @@
    "lon": -89.3734803,
    "website": "https://artlitlab.org/",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
-   "feeds": [],
-   "alcohol": null
+   "feeds": []
   },
   {
    "id": "osm:way/440518288",
@@ -6561,9 +6548,9 @@
    "lon": -89.3556544,
    "website": "https://www.theatwoodmusichall.com/",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
    "feeds": [],
-   "alcohol": null,
    "image": "http://static1.squarespace.com/static/62cacf3906240b03a9e7209f/t/62cacf9b8f354d0bb091ba94/1657458587714/AMH-logo-2021_horz-rgb.jpg?format=1500w"
   },
   {
@@ -6576,9 +6563,9 @@
    "lon": -89.3637155,
    "website": "",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
-   "feeds": [],
-   "alcohol": null
+   "feeds": []
   },
   {
    "id": "osm:way/776904505",
@@ -6590,9 +6577,9 @@
    "lon": -89.3628177,
    "website": "https://www.barnwoodeventswi.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "AI website check",
    "image": "https://static.showit.co/1200/ikdfTcj82H_591QIudKK0g/321276/wedding-couple-barn-wedding-venue-outside-wi.jpg"
   },
@@ -6606,9 +6593,9 @@
    "lon": -89.3521777,
    "website": "https://barrymorelive.com/",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
    "feeds": [],
-   "alcohol": null,
    "image": "https://barrymorelive.com/wp-content/uploads/2018/02/barrymore-logo-400x100.png"
   },
   {
@@ -6621,9 +6608,9 @@
    "lon": -89.3833565,
    "website": "https://bartelltheatre.org/",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
    "feeds": [],
-   "alcohol": null,
    "image": "https://bartelltheatre.org/wp-content/uploads/2015/04/THEBARTELLSmall-Square-Logo.jpg"
   },
   {
@@ -6636,9 +6623,9 @@
    "lon": -89.292489,
    "website": "https://bowlavard.com/",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
-   "feeds": [],
-   "alcohol": null
+   "feeds": []
   },
   {
    "id": "osm:way/385639211",
@@ -6650,9 +6637,9 @@
    "lon": -89.3652249,
    "website": "https://bstonline.org/",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
    "feeds": [],
-   "alcohol": null,
    "image": "https://bstonline.org/wp-content/uploads/2026/09/dragonsocks-FB-cover-imageV4-1.jpg"
   },
   {
@@ -6665,9 +6652,9 @@
    "lon": -89.4846732,
    "website": "",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
-   "feeds": [],
-   "alcohol": null
+   "feeds": []
   },
   {
    "id": "osm:node/5017012836",
@@ -6679,9 +6666,9 @@
    "lon": -89.3886214,
    "website": "",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
-   "feeds": [],
-   "alcohol": null
+   "feeds": []
   },
   {
    "id": "osm:node/10833984405",
@@ -6693,9 +6680,9 @@
    "lon": -89.3708699,
    "website": "https://ctmtheater.org/",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
    "feeds": [],
-   "alcohol": null,
    "image": "https://ctmtheater.org/wp-content/uploads/2026/05/newsies-stumat-1030x682.jpg"
   },
   {
@@ -6708,9 +6695,9 @@
    "lon": -89.3882204,
    "website": "https://www.madisoncomedy.com/",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
    "feeds": [],
-   "alcohol": null,
    "image": "https://www.madisoncomedy.com/wp-content/uploads/UpcomingShowsGreen.png"
   },
   {
@@ -6723,9 +6710,9 @@
    "lon": -89.3470086,
    "website": "https://communicationmadison.com/",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
    "feeds": [],
-   "alcohol": null,
    "image": "http://static1.squarespace.com/static/6951f47248cd3c6d838fb964/t/6951f50848cd3c6d838fe426/1758489319611/Communication-Logo_Primary_2Color.png?format=1500w"
   },
   {
@@ -6738,9 +6725,9 @@
    "lon": -89.306872,
    "website": "",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
-   "feeds": [],
-   "alcohol": null
+   "feeds": []
   },
   {
    "id": "osm:node/4868792689",
@@ -6752,9 +6739,9 @@
    "lon": -89.3834058,
    "website": "",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
-   "feeds": [],
-   "alcohol": null
+   "feeds": []
   },
   {
    "id": "osm:node/6835970667",
@@ -6766,9 +6753,9 @@
    "lon": -89.4560892,
    "website": "",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
-   "feeds": [],
-   "alcohol": null
+   "feeds": []
   },
   {
    "id": "osm:node/9993051643",
@@ -6780,9 +6767,9 @@
    "lon": -89.3552126,
    "website": "",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
-   "feeds": [],
-   "alcohol": null
+   "feeds": []
   },
   {
    "id": "osm:node/4868792688",
@@ -6794,9 +6781,9 @@
    "lon": -89.3833553,
    "website": "",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
-   "feeds": [],
-   "alcohol": null
+   "feeds": []
   },
   {
    "id": "osm:node/6254633699",
@@ -6808,9 +6795,9 @@
    "lon": -89.4245037,
    "website": "",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
-   "feeds": [],
-   "alcohol": null
+   "feeds": []
   },
   {
    "id": "osm:node/5448561145",
@@ -6822,9 +6809,9 @@
    "lon": -89.4002947,
    "website": "",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
-   "feeds": [],
-   "alcohol": null
+   "feeds": []
   },
   {
    "id": "osm:way/484383229",
@@ -6836,9 +6823,9 @@
    "lon": -89.3979805,
    "website": "",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
-   "feeds": [],
-   "alcohol": null
+   "feeds": []
   },
   {
    "id": "osm:node/7463800712",
@@ -6850,9 +6837,9 @@
    "lon": -89.4654628,
    "website": "https://www.kehldance.com/",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
    "feeds": [],
-   "alcohol": null,
    "image": "https://kehldance.com/wp-content/uploads/2025/05/fbshare.jpg"
   },
   {
@@ -6865,9 +6852,9 @@
    "lon": -89.2346129,
    "website": "",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
-   "feeds": [],
-   "alcohol": null
+   "feeds": []
   },
   {
    "id": "osm:node/10102228862",
@@ -6879,9 +6866,9 @@
    "lon": -89.3953785,
    "website": "https://madisonlocalmotive.com",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
    "feeds": [],
-   "alcohol": null,
    "image": "http://static1.squarespace.com/static/5c2dad2f3e2d0924bcafbad7/t/5c6b895f419202ebf60a7a78/1550551392147/download.png?format=1500w"
   },
   {
@@ -6894,9 +6881,9 @@
    "lon": -89.4718036,
    "website": "https://www.loxleyvenue.com/",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
-   "feeds": [],
-   "alcohol": null
+   "feeds": []
   },
   {
    "id": "osm:node/10983441694",
@@ -6908,11 +6895,11 @@
    "lon": -89.3710814,
    "website": "https://www.madisonyoutharts.org/",
    "facebook": "",
+   "alcohol": false,
    "instagram": "",
    "feeds": [],
-   "alcohol": false,
-   "image": "https://madisonyoutharts.org/wp-content/uploads/2023/06/Childerns-Theater-of-Madison-3-madison-youth-arts-center-myarts.jpg",
-   "alcohol_src": "AI website check"
+   "alcohol_src": "AI website check",
+   "image": "https://madisonyoutharts.org/wp-content/uploads/2023/06/Childerns-Theater-of-Madison-3-madison-youth-arts-center-myarts.jpg"
   },
   {
    "id": "osm:way/416476672",
@@ -6924,9 +6911,9 @@
    "lon": -89.3808535,
    "website": "",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
-   "feeds": [],
-   "alcohol": null
+   "feeds": []
   },
   {
    "id": "osm:way/1391091807",
@@ -6938,9 +6925,9 @@
    "lon": -89.4208974,
    "website": "",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
-   "feeds": [],
-   "alcohol": null
+   "feeds": []
   },
   {
    "id": "osm:node/6859208447",
@@ -6952,9 +6939,9 @@
    "lon": -89.4459308,
    "website": "",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
-   "feeds": [],
-   "alcohol": null
+   "feeds": []
   },
   {
    "id": "osm:node/3016577736",
@@ -6966,9 +6953,9 @@
    "lon": -89.3290363,
    "website": "",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
-   "feeds": [],
-   "alcohol": null
+   "feeds": []
   },
   {
    "id": "osm:node/5584566094",
@@ -6980,9 +6967,9 @@
    "lon": -89.3993651,
    "website": "",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
-   "feeds": [],
-   "alcohol": null
+   "feeds": []
   },
   {
    "id": "osm:node/7066864451",
@@ -6994,9 +6981,9 @@
    "lon": -89.4277459,
    "website": "https://www.monroestreetarts.org/",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
    "feeds": [],
-   "alcohol": null,
    "image": "https://static.wixstatic.com/media/bef126_4da3063741ab40d49b260f5c16d48426%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/bef126_4da3063741ab40d49b260f5c16d48426%7Emv2.jpg"
   },
   {
@@ -7009,9 +6996,9 @@
    "lon": -89.4165989,
    "website": "",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
-   "feeds": [],
-   "alcohol": null
+   "feeds": []
   },
   {
    "id": "osm:way/102371335",
@@ -7023,9 +7010,9 @@
    "lon": -89.3887291,
    "website": "https://madisonorpheum.com/",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
-   "feeds": [],
-   "alcohol": null
+   "feeds": []
   },
   {
    "id": "osm:way/98799451",
@@ -7037,9 +7024,9 @@
    "lon": -89.3885839,
    "website": "http://overturecenter.com",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
    "feeds": [],
-   "alcohol": null,
    "image": "https://www.overture.org/media/ijvbks2h/2016_exterior_colorful_08_martinjenichphotography.jpg"
   },
   {
@@ -7052,9 +7039,9 @@
    "lon": -89.3880096,
    "website": "",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
-   "feeds": [],
-   "alcohol": null
+   "feeds": []
   },
   {
    "id": "osm:node/4120121695",
@@ -7066,9 +7053,9 @@
    "lon": -89.4567022,
    "website": "",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
-   "feeds": [],
-   "alcohol": null
+   "feeds": []
   },
   {
    "id": "osm:node/5449562421",
@@ -7080,9 +7067,9 @@
    "lon": -89.5366216,
    "website": "",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
-   "feeds": [],
-   "alcohol": null
+   "feeds": []
   },
   {
    "id": "osm:node/6193010119",
@@ -7094,9 +7081,9 @@
    "lon": -89.2426836,
    "website": "",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
-   "feeds": [],
-   "alcohol": null
+   "feeds": []
   },
   {
    "id": "osm:way/105823610",
@@ -7108,9 +7095,9 @@
    "lon": -89.4974714,
    "website": "",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
-   "feeds": [],
-   "alcohol": null
+   "feeds": []
   },
   {
    "id": "osm:node/5448561144",
@@ -7122,9 +7109,9 @@
    "lon": -89.400369,
    "website": "",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
-   "feeds": [],
-   "alcohol": null
+   "feeds": []
   },
   {
    "id": "osm:node/4120121696",
@@ -7136,9 +7123,9 @@
    "lon": -89.4570403,
    "website": "",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
-   "feeds": [],
-   "alcohol": null
+   "feeds": []
   },
   {
    "id": "osm:way/106497401",
@@ -7150,9 +7137,9 @@
    "lon": -89.301953,
    "website": "",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
-   "feeds": [],
-   "alcohol": null
+   "feeds": []
   },
   {
    "id": "osm:way/1134399587",
@@ -7164,9 +7151,9 @@
    "lon": -89.452724,
    "website": "",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
-   "feeds": [],
-   "alcohol": null
+   "feeds": []
   },
   {
    "id": "osm:way/683380736",
@@ -7178,9 +7165,9 @@
    "lon": -89.2275252,
    "website": "",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
-   "feeds": [],
-   "alcohol": null
+   "feeds": []
   },
   {
    "id": "osm:way/107655171",
@@ -7192,11 +7179,11 @@
    "lon": -89.4814229,
    "website": "https://www.tenpinalleys.com/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
-   "image": "https://irp.cdn-website.com/83ca9041/dms3rep/multi/opt/AdobeStock_623021486-1920w.jpeg",
-   "alcohol_src": "menu/homepage keywords"
+   "alcohol_src": "menu/homepage keywords",
+   "image": "https://irp.cdn-website.com/83ca9041/dms3rep/multi/opt/AdobeStock_623021486-1920w.jpeg"
   },
   {
    "id": "osm:node/14072692008",
@@ -7208,9 +7195,9 @@
    "lon": -89.3947928,
    "website": "https://www.textileartsmadison.org/",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
    "feeds": [],
-   "alcohol": null,
    "image": "http://static1.squarespace.com/static/644a86870f450a0625ec8e03/t/650217fbdfa8150fd4af0203/1694636027714/TAC+Logo_NoBG_Long+Logo.png?format=1500w"
   },
   {
@@ -7223,9 +7210,9 @@
    "lon": -89.3517049,
    "website": "",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
-   "feeds": [],
-   "alcohol": null
+   "feeds": []
   },
   {
    "id": "osm:node/7647240258",
@@ -7237,9 +7224,9 @@
    "lon": -89.3514635,
    "website": "https://www.northstreetcabaret.com/",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
-   "feeds": [],
-   "alcohol": null
+   "feeds": []
   },
   {
    "id": "osm:node/6431700291",
@@ -7251,9 +7238,9 @@
    "lon": -89.3742549,
    "website": "",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
-   "feeds": [],
-   "alcohol": null
+   "feeds": []
   },
   {
    "id": "osm:way/1067545509",
@@ -7265,9 +7252,9 @@
    "lon": -89.3733187,
    "website": "",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
-   "feeds": [],
-   "alcohol": null
+   "feeds": []
   },
   {
    "id": "osm:relation/18793475",
@@ -7279,9 +7266,9 @@
    "lon": -89.3992998,
    "website": "https://uclub.wisc.edu/",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
-   "feeds": [],
-   "alcohol": null
+   "feeds": []
   },
   {
    "id": "osm:way/667694679",
@@ -7293,9 +7280,9 @@
    "lon": -89.5279858,
    "website": "https://www.vact.org/",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
    "feeds": [],
-   "alcohol": null,
    "image": "http://static1.squarespace.com/static/54da5329e4b01f7975f48e75/t/583f89e43e00bebc1c9c1348/1480559076961/Logo.jpg?format=1500w"
   },
   {
@@ -7308,9 +7295,9 @@
    "lon": -89.3280079,
    "website": "",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
-   "feeds": [],
-   "alcohol": null
+   "feeds": []
   },
   {
    "id": "osm:way/241950471",
@@ -7322,9 +7309,9 @@
    "lon": -89.4628905,
    "website": "",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
-   "feeds": [],
-   "alcohol": null
+   "feeds": []
   },
   {
    "id": "osm:way/317319095",
@@ -7336,9 +7323,9 @@
    "lon": -89.3673798,
    "website": "",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
-   "feeds": [],
-   "alcohol": null
+   "feeds": []
   },
   {
    "id": "osm:node/1962212443",
@@ -7350,9 +7337,9 @@
    "lon": -89.4172712,
    "website": "http://ysp.org",
    "facebook": "",
+   "alcohol": null,
    "instagram": "",
    "feeds": [],
-   "alcohol": null,
    "image": "https://www.youngshakespeareplayers.org/wp-content/uploads/2026/02/DSC00046-1024x512.gif"
   },
   {
@@ -7365,9 +7352,9 @@
    "lon": -89.4062077,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -7380,9 +7367,9 @@
    "lon": -89.3159203,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -7395,9 +7382,9 @@
    "lon": -89.2918227,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -7410,9 +7397,9 @@
    "lon": -89.4491421,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -7425,9 +7412,9 @@
    "lon": -89.2975243,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -7440,9 +7427,9 @@
    "lon": -89.4866654,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -7455,9 +7442,9 @@
    "lon": -89.4311096,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -7470,9 +7457,9 @@
    "lon": -89.292522,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -7482,12 +7469,12 @@
    "address": "",
    "city": "",
    "lat": 43.0470729,
-   "lon": -89.378942,
+   "lon": -89.378939,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -7500,9 +7487,9 @@
    "lon": -89.2926519,
    "website": "https://www.cityofmadison.com/parks/find-a-park/park.cfm?id=1364",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
    "image": "https://www.cityofmadison.com/sites/default/files/styles/social/public/parks/images/parks/veterans-memorial-DSC_0187.jpg?h=ff25a656&itok=8lETWnLo"
   },
@@ -7516,9 +7503,9 @@
    "lon": -89.4959429,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -7531,9 +7518,9 @@
    "lon": -89.3843341,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -7546,9 +7533,9 @@
    "lon": -89.3356998,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -7561,9 +7548,9 @@
    "lon": -89.3215021,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -7576,9 +7563,9 @@
    "lon": -89.4483608,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -7591,9 +7578,9 @@
    "lon": -89.4313519,
    "website": "https://www.madison.va.gov/",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -7606,9 +7593,9 @@
    "lon": -89.3860155,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   },
   {
@@ -7621,9 +7608,9 @@
    "lon": -89.3864517,
    "website": "",
    "facebook": "",
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule"
   }
  ]

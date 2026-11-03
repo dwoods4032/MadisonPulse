@@ -1,24 +1,26 @@
 {
- "generated_at": "2026-11-02T14:52:54-06:00",
- "total_events": 397,
- "in_more_than_one_source": 23,
+ "generated_at": "2026-11-02T22:00:56-06:00",
+ "total_events": 405,
+ "in_more_than_one_source": 25,
  "sources": {
   "AI page reading": {
-   "events": 145,
-   "unique_events": 127,
+   "events": 153,
+   "unique_events": 133,
    "overlap": {
     "Isthmus": 3,
-    "Ticketmaster": 16,
+    "Ticketmaster": 18,
     "Venue websites": 0
    },
-   "venues": 34,
+   "venues": 36,
    "unique_venues": [
     "Aftershock Classic Arcade",
+    "Alicia Ashman Library",
     "Arts + Literature Laboratory",
     "Bartell Theatre",
     "Capital Brewery",
+    "Central Library",
+    "Crucible",
     "Crystal Corner Bar",
-    "Delta Beer Lab",
     "Doundrins Distilling",
     "Ebling Library",
     "Flight Wine & Bourbon Bar",
@@ -43,8 +45,8 @@
    ]
   },
   "Isthmus": {
-   "events": 148,
-   "unique_events": 143,
+   "events": 147,
+   "unique_events": 142,
    "overlap": {
     "AI page reading": 3,
     "Ticketmaster": 3,
@@ -112,10 +114,10 @@
    ]
   },
   "Ticketmaster": {
-   "events": 57,
-   "unique_events": 36,
+   "events": 58,
+   "unique_events": 35,
    "overlap": {
-    "AI page reading": 16,
+    "AI page reading": 18,
     "Isthmus": 3,
     "Venue websites": 3
    },
@@ -128,8 +130,8 @@
    ]
   },
   "Venue websites": {
-   "events": 71,
-   "unique_events": 68,
+   "events": 73,
+   "unique_events": 70,
    "overlap": {
     "AI page reading": 0,
     "Isthmus": 0,
