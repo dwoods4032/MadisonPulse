@@ -15218,12 +15218,12 @@
    "lat": 43.083219,
    "lon": -89.364,
    "website": "https://www.wearytravelerfreehouse.com/",
-   "menu": "https://wearytravelerfreehouse.com/weary-traveler-catering-menu/",
    "hours": null,
    "bar": false,
    "menu_src": "restaurant homepage",
    "image": "http://wearytravelerfreehouse.com/wp-content/uploads/2018/02/cropped-DSC_0068.jpg",
-   "website_ok": true
+   "website_ok": true,
+   "menu_broken": "https://wearytravelerfreehouse.com/weary-traveler-catering-menu/"
   },
   {
    "group": "american",

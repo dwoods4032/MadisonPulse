@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-03T21:02:02-06:00",
+ "generated_at": "2026-11-04T12:40:29-06:00",
  "venues_checked": 237,
- "venues_with_events": 65,
+ "venues_with_events": 64,
  "venues_with_feeds": 86,
- "events": 417,
- "filtered_out": 107,
+ "events": 421,
+ "filtered_out": 103,
  "venues": [
   {
    "name": "AI page reading",
@@ -13,12 +13,12 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 195,
+   "raw_events": 202,
    "error": "",
-   "calls": 17,
-   "tokens_in": 37355,
-   "tokens_out": 14848,
-   "est_cost_usd": 0.0112
+   "calls": 23,
+   "tokens_in": 44576,
+   "tokens_out": 18122,
+   "est_cost_usd": 0.0135
   },
   {
    "name": "Isthmus calendar",
@@ -27,8 +27,8 @@
    "feeds": [
     "calendar"
    ],
-   "raw_events": 183,
-   "error": "used today's copy (read once a day)"
+   "raw_events": 181,
+   "error": ""
   },
   {
    "name": "Ticketmaster",
@@ -37,7 +37,7 @@
    "feeds": [
     "ticketmaster"
    ],
-   "raw_events": 60,
+   "raw_events": 58,
    "error": ""
   },
   {
@@ -90,7 +90,7 @@
     "jsonld",
     "jsonld"
    ],
-   "raw_events": 30,
+   "raw_events": 29,
    "error": ""
   },
   {
@@ -104,7 +104,7 @@
     "jsonld",
     "jsonld"
    ],
-   "raw_events": 27,
+   "raw_events": 29,
    "error": ""
   },
   {
@@ -120,6 +120,16 @@
    "error": ""
   },
   {
+   "name": "High Noon Saloon",
+   "kind": "bar",
+   "website": "https://www.high-noon.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 17,
+   "error": ""
+  },
+  {
    "name": "Harmony Bar & Grill",
    "kind": "bar",
    "website": "https://www.harmonybarandgrill.com/",
@@ -127,16 +137,6 @@
     "ai"
    ],
    "raw_events": 16,
-   "error": ""
-  },
-  {
-   "name": "High Noon Saloon",
-   "kind": "bar",
-   "website": "https://www.high-noon.com/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 15,
    "error": ""
   },
   {
@@ -151,6 +151,30 @@
     "jsonld"
    ],
    "raw_events": 12,
+   "error": ""
+  },
+  {
+   "name": "Lone Girl Tap Room And Pizza Company",
+   "kind": "bar",
+   "website": "https://thelonegirl.com",
+   "feeds": [
+    "tribe",
+    "jsonld",
+    "jsonld",
+    "jsonld",
+    "jsonld"
+   ],
+   "raw_events": 11,
+   "error": ""
+  },
+  {
+   "name": "Pinney Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 11,
    "error": ""
   },
   {
@@ -174,15 +198,11 @@
    "error": ""
   },
   {
-   "name": "Lone Girl Tap Room And Pizza Company",
-   "kind": "bar",
-   "website": "https://thelonegirl.com",
+   "name": "Sequoya Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/sequoya",
    "feeds": [
-    "tribe",
-    "jsonld",
-    "jsonld",
-    "jsonld",
-    "jsonld"
+    "ai"
    ],
    "raw_events": 10,
    "error": ""
@@ -208,9 +228,9 @@
    "error": ""
   },
   {
-   "name": "Lazy Oaf Lounge",
+   "name": "Gamma Ray Bar",
    "kind": "bar",
-   "website": "https://www.lazyoaflounge.com/",
+   "website": "https://gammaray.bar",
    "feeds": [
     "ai"
    ],
@@ -238,9 +258,9 @@
    "error": ""
   },
   {
-   "name": "Gamma Ray Bar",
+   "name": "Lazy Oaf Lounge",
    "kind": "bar",
-   "website": "https://gammaray.bar",
+   "website": "https://www.lazyoaflounge.com/",
    "feeds": [
     "ai"
    ],
@@ -269,16 +289,6 @@
    "error": ""
   },
   {
-   "name": "Alicia Ashman Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 6,
-   "error": ""
-  },
-  {
    "name": "Imagination Center",
    "kind": "library",
    "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
@@ -289,29 +299,9 @@
    "error": ""
   },
   {
-   "name": "Pinney Library",
+   "name": "Central Library",
    "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 6,
-   "error": ""
-  },
-  {
-   "name": "Sequoya Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/sequoya",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 6,
-   "error": ""
-  },
-  {
-   "name": "Monroe Street Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/monroe-street",
+   "website": "https://www.madisonpubliclibrary.org/central",
    "feeds": [
     "ai"
    ],
@@ -365,16 +355,6 @@
    "error": ""
   },
   {
-   "name": "East Side Club",
-   "kind": "lodge",
-   "website": "https://escmadison.com",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 4,
-   "error": ""
-  },
-  {
    "name": "Ebling Library",
    "kind": "library",
    "website": "https://ebling.library.wisc.edu/",
@@ -405,9 +385,9 @@
    "error": ""
   },
   {
-   "name": "State Line Distillery",
-   "kind": "brewery",
-   "website": "https://www.statelinedistillery.com/",
+   "name": "Monroe Street Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/monroe-street",
    "feeds": [
     "ai"
    ],
@@ -415,9 +395,9 @@
    "error": ""
   },
   {
-   "name": "The Malt House",
-   "kind": "bar",
-   "website": "http://malthousetavern.com/",
+   "name": "State Line Distillery",
+   "kind": "brewery",
+   "website": "https://www.statelinedistillery.com/",
    "feeds": [
     "ai"
    ],
@@ -438,29 +418,6 @@
    "error": ""
   },
   {
-   "name": "Waunakee Public Library",
-   "kind": "library",
-   "website": "https://www.waunakeepubliclibrary.org/",
-   "feeds": [
-    "jsonld",
-    "jsonld",
-    "jsonld",
-    "jsonld"
-   ],
-   "raw_events": 4,
-   "error": ""
-  },
-  {
-   "name": "Bartell Theatre",
-   "kind": "venue",
-   "website": "https://bartelltheatre.org/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 3,
-   "error": ""
-  },
-  {
    "name": "Come Back Inn",
    "kind": "bar",
    "website": "https://comebackintavern.com/",
@@ -472,11 +429,31 @@
    "error": ""
   },
   {
+   "name": "East Side Club",
+   "kind": "lodge",
+   "website": "https://escmadison.com",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 3,
+   "error": ""
+  },
+  {
    "name": "Full Mile Beer Company & Kitchen",
    "kind": "brewery",
    "website": "https://www.fullmilebeercompany.com/",
    "feeds": [
     "squarespace"
+   ],
+   "raw_events": 3,
+   "error": ""
+  },
+  {
+   "name": "Grey Market",
+   "kind": "bar",
+   "website": "https://www.madisongreymarket.com",
+   "feeds": [
+    "ai"
    ],
    "raw_events": 3,
    "error": ""
@@ -514,6 +491,16 @@
    "error": ""
   },
   {
+   "name": "The Malt House",
+   "kind": "bar",
+   "website": "http://malthousetavern.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 3,
+   "error": ""
+  },
+  {
    "name": "Aftershock Classic Arcade",
    "kind": "bar",
    "website": "https://www.aftershockclassicarcade.com/",
@@ -535,21 +522,21 @@
    "error": ""
   },
   {
-   "name": "Centro",
-   "kind": "community",
-   "website": "https://www.micentro.org/",
+   "name": "Bartell Theatre",
+   "kind": "venue",
+   "website": "https://bartelltheatre.org/",
    "feeds": [
-    "squarespace",
     "ai"
    ],
    "raw_events": 2,
    "error": ""
   },
   {
-   "name": "Flight Wine & Bourbon Bar",
-   "kind": "bar",
-   "website": "https://flightwi.com/",
+   "name": "Centro",
+   "kind": "community",
+   "website": "https://www.micentro.org/",
    "feeds": [
+    "squarespace",
     "ai"
    ],
    "raw_events": 2,
@@ -596,6 +583,16 @@
    "error": ""
   },
   {
+   "name": "Alicia Ashman Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 1,
+   "error": ""
+  },
+  {
    "name": "Badger Rock Neighborhood Center",
    "kind": "community",
    "website": "https://rootedwi.org/badger-rock-neighborhood-center/",
@@ -617,16 +614,6 @@
    "error": ""
   },
   {
-   "name": "Central Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/central",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 1,
-   "error": ""
-  },
-  {
    "name": "Doundrins Distilling",
    "kind": "brewery",
    "website": "https://doundrinsdistilling.com/",
@@ -637,31 +624,31 @@
    "error": ""
   },
   {
-   "name": "Goodman Community Center",
-   "kind": "community",
-   "website": "https://www.goodmancenter.org/",
-   "feeds": [
-    "jsonld"
-   ],
-   "raw_events": 1,
-   "error": ""
-  },
-  {
-   "name": "Goodman Community Center",
-   "kind": "community",
-   "website": "https://www.goodmancenter.org/",
-   "feeds": [
-    "jsonld"
-   ],
-   "raw_events": 1,
-   "error": ""
-  },
-  {
-   "name": "Grey Market",
+   "name": "Flight Wine & Bourbon Bar",
    "kind": "bar",
-   "website": "https://www.madisongreymarket.com",
+   "website": "https://flightwi.com/",
    "feeds": [
     "ai"
+   ],
+   "raw_events": 1,
+   "error": ""
+  },
+  {
+   "name": "Goodman Community Center",
+   "kind": "community",
+   "website": "https://www.goodmancenter.org/",
+   "feeds": [
+    "jsonld"
+   ],
+   "raw_events": 1,
+   "error": ""
+  },
+  {
+   "name": "Goodman Community Center",
+   "kind": "community",
+   "website": "https://www.goodmancenter.org/",
+   "feeds": [
+    "jsonld"
    ],
    "raw_events": 1,
    "error": ""
@@ -1368,7 +1355,7 @@
   {
    "name": "Madison Chocolate Company",
    "kind": "cafe",
-   "website": "https://www.madisonchocolatecompany.com",
+   "website": "https://madisonchocolate.com",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1376,7 +1363,7 @@
   {
    "name": "Madison Chocolate Company",
    "kind": "cafe",
-   "website": "https://madisonchocolate.com",
+   "website": "https://www.madisonchocolatecompany.com",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -2043,6 +2030,19 @@
    "kind": "bar",
    "website": "https://wandosbar.com/",
    "feeds": [],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
+   "name": "Waunakee Public Library",
+   "kind": "library",
+   "website": "https://www.waunakeepubliclibrary.org/",
+   "feeds": [
+    "jsonld",
+    "jsonld",
+    "jsonld",
+    "jsonld"
+   ],
    "raw_events": 0,
    "error": ""
   },

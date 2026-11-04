@@ -108,9 +108,9 @@
   "events": []
  },
  "https://gammaray.bar/shows/": {
-  "hash": "12f655d3762210479b4f768ae0db1e6440ad5ce7",
-  "asked": "2026-11-03T21:00:39-06:00",
-  "on": "2026-11-03",
+  "hash": "f828fda8bb63f8f165a9571c405228cd2a1716b3",
+  "asked": "2026-11-04T12:38:37-06:00",
+  "on": "2026-11-04",
   "events": [
    {
     "title": "Axis: Sova // Slick // The Moss Men",
@@ -118,7 +118,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Doors 7pm.",
+    "description": "Doors 7pm",
     "category": "music"
    },
    {
@@ -127,7 +127,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Doors 7:30pm.",
+    "description": "Doors 7:30pm",
     "category": "music"
    },
    {
@@ -136,7 +136,16 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Doors 7pm.",
+    "description": "Doors 7pm",
+    "category": "music"
+   },
+   {
+    "title": "Young Songwriters Showcase Ft. Mane Thompson // Ixora // The Old Souls",
+    "date": "2026-11-07",
+    "start": "14:00",
+    "end": null,
+    "price": null,
+    "description": "Doors 1:30pm",
     "category": "music"
    },
    {
@@ -145,7 +154,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Doors 7pm.",
+    "description": "Doors 7pm",
     "category": "music"
    },
    {
@@ -154,7 +163,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Doors 7pm.",
+    "description": "Doors 7pm",
     "category": "music"
    },
    {
@@ -163,7 +172,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Tribute party. Doors 7pm.",
+    "description": "Doors 7pm",
     "category": "music"
    },
    {
@@ -172,7 +181,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Album release show. Doors 7pm.",
+    "description": "Album release show; doors 7pm",
     "category": "music"
    },
    {
@@ -181,7 +190,7 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Doors 6pm.",
+    "description": "Doors 6pm",
     "category": "music"
    }
   ]
@@ -261,9 +270,9 @@
   ]
  },
  "https://www.madisongreymarket.com/schedule": {
-  "hash": "c6a0882cf0d008f6f6dcbdb15230e92d0eeb4972",
-  "asked": "2026-11-02T14:47:58-06:00",
-  "on": "2026-11-02",
+  "hash": "844721c54672b70d90c49d8df79664186255d7e5",
+  "asked": "2026-11-04T12:38:37-06:00",
+  "on": "2026-11-04",
   "events": [
    {
     "title": "Onigiri Pop-Up with Chef Itaru Nagano from Fairchild",
@@ -273,6 +282,33 @@
     "price": null,
     "description": "Chef Itaru Nagano from Fairchild hosts an Onigiri Pop-Up.",
     "category": "food"
+   },
+   {
+    "title": "Wine Wednesday - Half Price Wine Night",
+    "date": "2026-11-04",
+    "start": null,
+    "end": null,
+    "price": null,
+    "description": "Half price wine night.",
+    "category": "other"
+   },
+   {
+    "title": "Wine Wednesday - Half Price Wine Night",
+    "date": "2026-11-11",
+    "start": null,
+    "end": null,
+    "price": null,
+    "description": "Half price wine night.",
+    "category": "other"
+   },
+   {
+    "title": "Wine Wednesday - Half Price Wine Night",
+    "date": "2026-11-18",
+    "start": null,
+    "end": null,
+    "price": null,
+    "description": "Half price wine night.",
+    "category": "other"
    }
   ]
  },
@@ -721,44 +757,26 @@
   "events": []
  },
  "https://www.harmonybarandgrill.com/madison-atwood-the-harmony-bar-and-grill-happy-hours-specials": {
-  "hash": "5c6342a7167c0885de2a91b372109b273e88ed94",
-  "asked": "2026-11-02T21:59:26-06:00",
-  "on": "2026-11-02",
+  "hash": "ae3d4d09a198520d6c3147aba5f54e070db255da",
+  "asked": "2026-11-04T12:38:40-06:00",
+  "on": "2026-11-04",
   "events": [
-   {
-    "title": "Mixed Mic",
-    "date": "2026-11-03",
-    "start": "19:00",
-    "end": null,
-    "price": null,
-    "description": "Mixed mic, held the first Tuesday of the month.",
-    "category": "open_mic"
-   },
    {
     "title": "Friday Fish Fry",
     "date": "2026-11-06",
-    "start": "11:00",
-    "end": "22:00",
+    "start": null,
+    "end": null,
     "price": null,
-    "description": "Friday fish fry special.",
+    "description": "Friday fish fry special at Harmony Bar and Grill.",
     "category": "food"
-   },
-   {
-    "title": "David Landau Kids Show",
-    "date": "2026-11-02",
-    "start": "17:30",
-    "end": "18:30",
-    "price": 5.0,
-    "description": "Kids show with David Landau, held every Monday.",
-    "category": "music"
    },
    {
     "title": "David Landau Kids Show",
     "date": "2026-11-09",
     "start": "17:30",
     "end": "18:30",
-    "price": 5.0,
-    "description": "Kids show with David Landau, held every Monday.",
+    "price": 5,
+    "description": "Kids show with David Landau, every Monday.",
     "category": "music"
    },
    {
@@ -766,9 +784,18 @@
     "date": "2026-11-16",
     "start": "17:30",
     "end": "18:30",
-    "price": 5.0,
-    "description": "Kids show with David Landau, held every Monday.",
+    "price": 5,
+    "description": "Kids show with David Landau, every Monday.",
     "category": "music"
+   },
+   {
+    "title": "Mixed Mic",
+    "date": "2026-11-10",
+    "start": "19:00",
+    "end": null,
+    "price": null,
+    "description": "Mixed open mic listed for Tuesday, November 10th on the page; the page describes it as held on the first Tuesday of the month.",
+    "category": "open_mic"
    }
   ]
  },
@@ -799,8 +826,8 @@
  },
  "https://wandosbar.com/madison-downtown-wando-s-events-happenings": {
   "hash": "1f59e7c9e9592e3eb4bd903ac72886214fbecfc8",
-  "asked": "2026-11-01T11:08:11-06:00",
-  "on": "2026-11-01",
+  "asked": "2026-11-04T12:38:42-06:00",
+  "on": "2026-11-04",
   "events": []
  },
  "https://tipsycowmadison.com/": {
@@ -833,8 +860,8 @@
  },
  "https://wandosbar.com/-events-happenings?source=header&spot_id=301&destination=events&promotion=nba_season": {
   "hash": "1f59e7c9e9592e3eb4bd903ac72886214fbecfc8",
-  "asked": "2026-11-01T11:08:13-06:00",
-  "on": "2026-11-01",
+  "asked": "2026-11-04T12:38:44-06:00",
+  "on": "2026-11-04",
   "events": []
  },
  "https://tinystaphouse.com/": {
@@ -1096,9 +1123,9 @@
   ]
  },
  "https://www.youngbloodbeerco.com/": {
-  "hash": "83a1f0d585808418d93aea6afa5495330bf1ad85",
-  "asked": "2026-11-02T14:48:40-06:00",
-  "on": "2026-11-02",
+  "hash": "386466cd1cd61490cf343b8b2aa4eac0b9b40160",
+  "asked": "2026-11-04T12:38:46-06:00",
+  "on": "2026-11-04",
   "events": []
  },
  "https://yaharabay.com/pages/event-space": {
@@ -1366,15 +1393,15 @@
   ]
  },
  "https://merciescoffeewi.com/": {
-  "hash": "3cc47900572feef4775686551e043a933621f432",
-  "asked": "2026-11-03T21:01:08-06:00",
-  "on": "2026-11-03",
+  "hash": "edff8298f1d83e4ea6d3a8a804a4a7ec22e058ee",
+  "asked": "2026-11-04T12:39:07-06:00",
+  "on": "2026-11-04",
   "events": []
  },
  "https://motherfools.com/event/20261106/mad-city-story-slam-rebellion": {
   "hash": "c8578c6c99d7fdd0dbecc6d67418f34900fdf5fb",
-  "asked": "2026-11-01T11:08:36-06:00",
-  "on": "2026-11-01",
+  "asked": "2026-11-04T12:39:07-06:00",
+  "on": "2026-11-04",
   "events": [
    {
     "title": "Mad City Story Slam - Rebellion",
@@ -1382,7 +1409,7 @@
     "start": "19:00",
     "end": null,
     "price": 0,
-    "description": "Monthly story slam on the theme of rebellion, with guest host MEATMAN. Share a 5-minute true personal story at the mic or come to listen. Sign-ups 6:30pm.",
+    "description": "Open mic storytelling night on the theme of rebellion, guest host MEATMAN. Share a 5-minute true story or come to listen. Sign-ups 6:30pm.",
     "category": "open_mic"
    }
   ]
@@ -1413,8 +1440,8 @@
  },
  "https://www.motherfools.com/event/20261106/mad-city-story-slam-rebellion": {
   "hash": "c8578c6c99d7fdd0dbecc6d67418f34900fdf5fb",
-  "asked": "2026-11-01T11:08:38-06:00",
-  "on": "2026-11-01",
+  "asked": "2026-11-04T12:39:09-06:00",
+  "on": "2026-11-04",
   "events": [
    {
     "title": "Mad City Story Slam - Rebellion",
@@ -1422,7 +1449,7 @@
     "start": "19:00",
     "end": null,
     "price": 0,
-    "description": "Open-mic story slam on the theme of rebellion, guest host MEATMAN. Share a 5-minute true personal story; sign-ups from 6:30 PM. Free.",
+    "description": "Open mic storytelling slam on the theme of rebellion, hosted by guest host MEATMAN. Share a 5-minute true story or come to listen. Sign-ups start at 6:30 PM.",
     "category": "open_mic"
    }
   ]
@@ -1452,26 +1479,26 @@
   "events": []
  },
  "https://www.micentro.org/events": {
-  "hash": "9280e8dc2b4ba9395b50469f6524923ab5019843",
-  "asked": "2026-11-02T14:50:30-06:00",
-  "on": "2026-11-02",
+  "hash": "fd9a3d21dd4c3151947caf580a9da6ca4e535a33",
+  "asked": "2026-11-04T12:39:28-06:00",
+  "on": "2026-11-04",
   "events": [
    {
-    "title": "Mercadito",
+    "title": "Mercadito Community Farmer's Market",
     "date": "2026-11-05",
     "start": "16:00",
     "end": "20:00",
     "price": null,
-    "description": "Weekly community farmer's market with food vendors, fresh produce, artisanal goods, kids' games and a weekly raffle at 2403 Cypress Way.",
+    "description": "Weekly open-air community market at 2403 Cypress Way with food vendors, fresh produce, artisanal goods, kids' games and a weekly raffle.",
     "category": "food"
    },
    {
-    "title": "Mercadito",
+    "title": "Mercadito Community Farmer's Market",
     "date": "2026-11-12",
     "start": "16:00",
     "end": "20:00",
     "price": null,
-    "description": "Weekly community farmer's market with food vendors, fresh produce, artisanal goods, kids' games and a weekly raffle at 2403 Cypress Way.",
+    "description": "Weekly open-air community market at 2403 Cypress Way with food vendors, fresh produce, artisanal goods, kids' games and a weekly raffle.",
     "category": "food"
    }
   ]
@@ -1484,8 +1511,8 @@
  },
  "https://iwcmadison.com/calendar/": {
   "hash": "372415e0626944de995874ac1f38ebb9dd109c3d",
-  "asked": "2026-11-01T11:09:00-06:00",
-  "on": "2026-11-01",
+  "asked": "2026-11-04T12:39:29-06:00",
+  "on": "2026-11-04",
   "events": [
    {
     "title": "Council Meeting",
@@ -1493,7 +1520,7 @@
     "start": "19:00",
     "end": "21:00",
     "price": null,
-    "description": "IWC Council Meeting.",
+    "description": "Council meeting at Italian Workmen's Club.",
     "category": "other"
    }
   ]
@@ -1599,32 +1626,23 @@
   "events": []
  },
  "https://www.madisonpubliclibrary.org/spaces/events": {
-  "hash": "a94ee09e2c4b4d716ad11b68b77b1317fa8c41d3",
-  "asked": "2026-11-03T21:01:42-06:00",
-  "on": "2026-11-03",
+  "hash": "e6705a7c9b3ba8c9149be22c4b6b6cc4ef3b7cd7",
+  "asked": "2026-11-04T12:39:39-06:00",
+  "on": "2026-11-04",
   "events": []
  },
  "https://ebling.library.wisc.edu/ebling-library-classes-events/": {
-  "hash": "be139d7d66194c83b615080fbba0b793dd9020d4",
-  "asked": "2026-11-02T14:50:59-06:00",
-  "on": "2026-11-02",
+  "hash": "1d148b9b476ebdd22c2b2bf79c2973b9fa9009a0",
+  "asked": "2026-11-04T12:39:35-06:00",
+  "on": "2026-11-04",
   "events": [
-   {
-    "title": "Playful Pedagogy: Plagued! Demo and Reflections",
-    "date": "2026-11-04",
-    "start": "12:00",
-    "end": "13:00",
-    "price": null,
-    "description": "In-person workshop on playful pedagogy and games in instruction, with a chance to play Plagued! Age of Enlightenment. Instructors Hannah Swan and Susan Vandagriff.",
-    "category": "other"
-   },
    {
     "title": "LET THERE BE LIGHT Film Screening",
     "date": "2026-11-06",
     "start": "18:00",
     "end": "19:00",
     "price": null,
-    "description": "Screening of Huston's documentary on the rehabilitation of psychologically traumatized World War II veterans, at UW-Madison Cinematheque, Vilas Hall 4070. Introduction by Hannah Swan.",
+    "description": "Screening of Huston's documentary on psychologically traumatized WWII veterans, with introduction by Hannah Swan, at UW-Madison Cinematheque.",
     "category": "film"
    },
    {
@@ -1633,7 +1651,7 @@
     "start": "12:00",
     "end": "13:00",
     "price": null,
-    "description": "Online overview of the Embase biomedical literature database and how its coverage differs from PubMed. Open to the UW-Madison community only. Instructor Leslie Christensen.",
+    "description": "Online workshop by Leslie Christensen on the Embase biomedical literature database and how it differs from PubMed. Open to UW-Madison community only.",
     "category": "other"
    },
    {
@@ -1642,7 +1660,16 @@
     "start": "12:00",
     "end": "17:00",
     "price": null,
-    "description": "Exhibition open house for Craft/Work: A History of Occupational and Art Therapies, with materials on military medicine and veterans' health for Veterans' Day.",
+    "description": "Open house for the Craft/Work: A History of Occupational and Art Therapies exhibition, with military medicine and veterans' health materials on display for Veterans' Day.",
+    "category": "other"
+   },
+   {
+    "title": "ORCID and SciENcv for NIH Biographical Sketches",
+    "date": "2026-11-18",
+    "start": "12:00",
+    "end": "13:00",
+    "price": null,
+    "description": "Online workshop by Paije Wilson and Trisha Adamus on creating an ORCID profile and an NIH Biographical Sketch in SciENcv.",
     "category": "other"
    }
   ]
@@ -1737,26 +1764,17 @@
   "events": []
  },
  "https://escmadison.com/events": {
-  "hash": "2c35a46faa2a44e3a186f19029e72a3a6b2c7850",
-  "asked": "2026-11-03T21:01:40-06:00",
-  "on": "2026-11-03",
+  "hash": "7d56034792a756f76a3b603a24561c6dd97eac9b",
+  "asked": "2026-11-04T12:39:38-06:00",
+  "on": "2026-11-04",
   "events": [
-   {
-    "title": "Open Mic w/ Martin Hunt",
-    "date": "2026-11-03",
-    "start": "18:00",
-    "end": "21:00",
-    "price": 0,
-    "description": "Host Martin Hunt's open mic for all skill levels. Free. Bar opens 5pm; food ordered from the grill.",
-    "category": "open_mic"
-   },
    {
     "title": "East Side Club Holiday Craft and Vendor Fair",
     "date": "2026-11-07",
     "start": "09:00",
     "end": "15:00",
     "price": 0,
-    "description": "Two floors of handmade crafts and vendors. Free admission. Bloody Mary bar; food available for purchase.",
+    "description": "Two floors of handmade crafts and vendors, with a Bloody Mary bar and food for purchase. Free admission.",
     "category": "other"
    },
    {
@@ -1765,7 +1783,7 @@
     "start": "18:00",
     "end": "21:00",
     "price": 0,
-    "description": "Host Martin Hunt's open mic for all skill levels. Free. Bar opens 5pm; food ordered from the grill.",
+    "description": "Host Martin Hunt's open mic for all skill levels. Free; bar opens at 5pm and grill food is available.",
     "category": "open_mic"
    },
    {
@@ -1774,16 +1792,80 @@
     "start": "18:00",
     "end": "21:00",
     "price": 0,
-    "description": "Host Martin Hunt's open mic for all skill levels. Free. Bar opens 5pm; food ordered from the grill.",
+    "description": "Host Martin Hunt's open mic for all skill levels. Free; bar opens at 5pm and grill food is available.",
     "category": "open_mic"
    }
   ]
  },
  "https://www.madisonpubliclibrary.org/spaces/events/search": {
-  "hash": "f53bed119bf498027adfefbf94fac3ebed0c363e",
-  "asked": "2026-11-03T21:01:53-06:00",
-  "on": "2026-11-03",
-  "events": []
+  "hash": "7354c6c5d73200f7ac316bd04bf004b6d9553c22",
+  "asked": "2026-11-04T12:39:47-06:00",
+  "on": "2026-11-04",
+  "events": [
+   {
+    "title": "Youth Graphic Novel Book Club: Chi's Sweet Home Vol 1",
+    "date": "2026-11-04",
+    "start": "17:00",
+    "end": "17:45",
+    "price": null,
+    "description": "Discussion of an older kids/tween graphic novel in Community Room A. No reservation needed; light snacks provided.",
+    "category": "other"
+   },
+   {
+    "title": "Book Discussion: UW-Madison's Go Big Read 'Custodians of Wonder'",
+    "date": "2026-11-04",
+    "start": "18:30",
+    "end": "20:00",
+    "price": null,
+    "description": "Book discussion of Eliot Stein's 'Custodians of Wonder' in Community Room B.",
+    "category": "other"
+   },
+   {
+    "title": "The Art of Neighborships: Open Studio with Artist-in-Residence Carrie Breunig",
+    "date": "2026-11-04",
+    "start": "18:00",
+    "end": "20:00",
+    "price": null,
+    "description": "Drop-in open studio with 2026 Pinney Studio Artist-in-Residence Carrie Breunig.",
+    "category": "other"
+   },
+   {
+    "title": "The Art of Neighborships: Open Studio with Artist-in-Residence Carrie Breunig",
+    "date": "2026-11-05",
+    "start": "09:00",
+    "end": "11:00",
+    "price": null,
+    "description": "Drop-in open studio with 2026 Pinney Studio Artist-in-Residence Carrie Breunig.",
+    "category": "other"
+   },
+   {
+    "title": "The Art of Neighborships: Open Studio with Artist-in-Residence Carrie Breunig",
+    "date": "2026-11-11",
+    "start": "18:00",
+    "end": "20:00",
+    "price": null,
+    "description": "Drop-in open studio on Wednesdays this autumn (Sept-Nov) with Carrie Breunig.",
+    "category": "other"
+   },
+   {
+    "title": "The Art of Neighborships: Open Studio with Artist-in-Residence Carrie Breunig",
+    "date": "2026-11-12",
+    "start": "09:00",
+    "end": "11:00",
+    "price": null,
+    "description": "Drop-in open studio on Thursdays this autumn (Sept-Nov) with Carrie Breunig.",
+    "category": "other"
+   },
+   {
+    "title": "The Art of Neighborships: Open Studio with Artist-in-Residence Carrie Breunig",
+    "date": "2026-11-18",
+    "start": "18:00",
+    "end": "20:00",
+    "price": null,
+    "description": "Drop-in open studio on Wednesdays this autumn (Sept-Nov) with Carrie Breunig.",
+    "category": "other"
+   }
+  ]
  },
  "https://artlitlab.org/calendar": {
   "hash": "0f520ecc389dd7a6729b797cd08c708119db82f7",
@@ -1838,30 +1920,21 @@
   ]
  },
  "https://bartelltheatre.org/": {
-  "hash": "6d964c94b32efc062fc23daa8d349dcfef60d938",
-  "asked": "2026-11-01T20:31:51-06:00",
-  "on": "2026-11-01",
+  "hash": "1fa84f04e1ebaa449c7e5b056237a9bb66c8795e",
+  "asked": "2026-11-04T12:39:48-06:00",
+  "on": "2026-11-04",
   "events": [
    {
-    "title": "The Moors",
+    "title": "Romeo and Juliet",
     "date": "2026-11-05",
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "Two sisters and a dog on the English moors; a dark comedy about love, desperation, and visibility.",
+    "description": "Bartell Theatre production of Shakespeare's tragedy of two young lovers caught in the feud between the Capulets and Montagues.",
     "category": "theater"
    },
    {
-    "title": "Romeo and Juliet",
-    "date": "2026-11-06",
-    "start": "19:30",
-    "end": null,
-    "price": null,
-    "description": "Capulets, Montagues, and two young lovers in Shakespeare's tragedy.",
-    "category": "theater"
-   },
-   {
-    "title": "A Valentine's Affair 2027 Auditions: First Audition",
+    "title": "A Valentine's Affair 2027 Auditions (First Audition)",
     "date": "2026-11-09",
     "start": "18:30",
     "end": null,
@@ -2102,9 +2175,9 @@
   "events": []
  },
  "https://www.veronapubliclibrary.org/": {
-  "hash": "82f6108c308601c5fa3aa6463f8caa947370d86f",
-  "asked": "2026-11-03T21:01:38-06:00",
-  "on": "2026-11-03",
+  "hash": "849a34bc6111b5268b536a0c1cd718fa2081be64",
+  "asked": "2026-11-04T12:39:35-06:00",
+  "on": "2026-11-04",
   "events": [
    {
     "title": "Late Fall Story Times",
@@ -2112,7 +2185,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Ongoing story times return at Verona Public Library.",
+    "description": "Ongoing story times return on Monday, November 16.",
     "category": "other"
    }
   ]
@@ -2142,18 +2215,36 @@
   "events": []
  },
  "https://high-noon.com/event/dogpark/": {
-  "hash": "5bcddd815e4c8995a036fc20aa8fda107318f2b2",
-  "asked": "2026-11-03T21:00:43-06:00",
-  "on": "2026-11-03",
+  "hash": "11b3486b8536ab3653db2104b6037edf379a14ee",
+  "asked": "2026-11-04T12:38:41-06:00",
+  "on": "2026-11-04",
   "events": [
+   {
+    "title": "Six Foot Blonde with Genevieve Heyward",
+    "date": "2026-11-06",
+    "start": "20:00",
+    "end": null,
+    "price": null,
+    "description": "FPC Live presents Six Foot Blonde with Genevieve Heyward at High Noon Saloon. Doors 7:00 pm.",
+    "category": "music"
+   },
+   {
+    "title": "The Bends with The Braymores",
+    "date": "2026-11-05",
+    "start": "20:00",
+    "end": null,
+    "price": null,
+    "description": "FPC Live presents The Bends with The Braymores at High Noon Saloon. Doors 7:00 pm.",
+    "category": "music"
+   },
    {
     "title": "Friends of Shabazz Launch Party & Music Benefit",
     "date": "2026-11-08",
     "start": null,
     "end": null,
     "price": 20,
-    "description": "Launch party and music benefit at High Noon Saloon. Suggested $20 donation at the door.",
-    "category": "other"
+    "description": "Launch party and music benefit. Suggested $20 donation at the door.",
+    "category": "music"
    }
   ]
  },
