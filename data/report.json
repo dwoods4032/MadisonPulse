@@ -1,11 +1,25 @@
 {
- "generated_at": "2026-11-03T12:28:51-06:00",
+ "generated_at": "2026-11-03T21:02:02-06:00",
  "venues_checked": 237,
  "venues_with_events": 65,
  "venues_with_feeds": 86,
- "events": 415,
- "filtered_out": 95,
+ "events": 417,
+ "filtered_out": 107,
  "venues": [
+  {
+   "name": "AI page reading",
+   "kind": "source",
+   "website": "",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 195,
+   "error": "",
+   "calls": 17,
+   "tokens_in": 37355,
+   "tokens_out": 14848,
+   "est_cost_usd": 0.0112
+  },
   {
    "name": "Isthmus calendar",
    "kind": "source",
@@ -14,21 +28,7 @@
     "calendar"
    ],
    "raw_events": 183,
-   "error": ""
-  },
-  {
-   "name": "AI page reading",
-   "kind": "source",
-   "website": "",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 182,
-   "error": "",
-   "calls": 17,
-   "tokens_in": 48495,
-   "tokens_out": 18344,
-   "est_cost_usd": 0.014
+   "error": "used today's copy (read once a day)"
   },
   {
    "name": "Ticketmaster",
@@ -37,7 +37,7 @@
    "feeds": [
     "ticketmaster"
    ],
-   "raw_events": 59,
+   "raw_events": 60,
    "error": ""
   },
   {
@@ -62,7 +62,7 @@
     "ical",
     "ical"
    ],
-   "raw_events": 35,
+   "raw_events": 33,
    "error": "ical: ConnectionError: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //www.mcfarlandlibrary.org/calendar/month (Caused by NameResolutionError(\"HTTPSConnection(host='https"
   },
   {
@@ -116,13 +116,13 @@
     "jsonld",
     "jsonld"
    ],
-   "raw_events": 22,
+   "raw_events": 21,
    "error": ""
   },
   {
-   "name": "High Noon Saloon",
+   "name": "Harmony Bar & Grill",
    "kind": "bar",
-   "website": "https://www.high-noon.com/",
+   "website": "https://www.harmonybarandgrill.com/",
    "feeds": [
     "ai"
    ],
@@ -130,9 +130,9 @@
    "error": ""
   },
   {
-   "name": "Harmony Bar & Grill",
+   "name": "High Noon Saloon",
    "kind": "bar",
-   "website": "https://www.harmonybarandgrill.com/",
+   "website": "https://www.high-noon.com/",
    "feeds": [
     "ai"
    ],
@@ -149,16 +149,6 @@
     "jsonld",
     "jsonld",
     "jsonld"
-   ],
-   "raw_events": 12,
-   "error": ""
-  },
-  {
-   "name": "The Kickback",
-   "kind": "bar",
-   "website": "https://thekickback.bar/",
-   "feeds": [
-    "ai"
    ],
    "raw_events": 12,
    "error": ""
@@ -198,6 +188,16 @@
    "error": ""
   },
   {
+   "name": "The Kickback",
+   "kind": "bar",
+   "website": "https://thekickback.bar/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 10,
+   "error": ""
+  },
+  {
    "name": "Crucible",
    "kind": "bar",
    "website": "https://www.cruciblemadison.com/",
@@ -211,6 +211,26 @@
    "name": "Lazy Oaf Lounge",
    "kind": "bar",
    "website": "https://www.lazyoaflounge.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 9,
+   "error": ""
+  },
+  {
+   "name": "Reindahl Park Pavillion",
+   "kind": "community",
+   "website": "https://www.cityofmadison.com/parks/find-a-park/reindahl/pavilion-at-the-imagination-center",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 9,
+   "error": ""
+  },
+  {
+   "name": "Veterans Memorial Park",
+   "kind": "veterans",
+   "website": "https://www.cityofmadison.com/parks/find-a-park/park.cfm?id=1364",
    "feeds": [
     "ai"
    ],
@@ -239,33 +259,23 @@
    "error": ""
   },
   {
-   "name": "Reindahl Park Pavillion",
-   "kind": "community",
-   "website": "https://www.cityofmadison.com/parks/find-a-park/reindahl/pavilion-at-the-imagination-center",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 8,
-   "error": ""
-  },
-  {
-   "name": "Veterans Memorial Park",
-   "kind": "veterans",
-   "website": "https://www.cityofmadison.com/parks/find-a-park/park.cfm?id=1364",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 8,
-   "error": ""
-  },
-  {
    "name": "Orpheum Theatre",
    "kind": "venue",
    "website": "https://madisonorpheum.com/",
    "feeds": [
     "ai"
    ],
-   "raw_events": 7,
+   "raw_events": 8,
+   "error": ""
+  },
+  {
+   "name": "Alicia Ashman Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 6,
    "error": ""
   },
   {
@@ -286,6 +296,26 @@
     "ai"
    ],
    "raw_events": 6,
+   "error": ""
+  },
+  {
+   "name": "Sequoya Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/sequoya",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 6,
+   "error": ""
+  },
+  {
+   "name": "Monroe Street Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/monroe-street",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 5,
    "error": ""
   },
   {
@@ -335,6 +365,16 @@
    "error": ""
   },
   {
+   "name": "East Side Club",
+   "kind": "lodge",
+   "website": "https://escmadison.com",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 4,
+   "error": ""
+  },
+  {
    "name": "Ebling Library",
    "kind": "library",
    "website": "https://ebling.library.wisc.edu/",
@@ -365,9 +405,9 @@
    "error": ""
   },
   {
-   "name": "Sequoya Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/sequoya",
+   "name": "State Line Distillery",
+   "kind": "brewery",
+   "website": "https://www.statelinedistillery.com/",
    "feeds": [
     "ai"
    ],
@@ -432,16 +472,6 @@
    "error": ""
   },
   {
-   "name": "East Side Club",
-   "kind": "lodge",
-   "website": "https://escmadison.com",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 3,
-   "error": ""
-  },
-  {
    "name": "Full Mile Beer Company & Kitchen",
    "kind": "brewery",
    "website": "https://www.fullmilebeercompany.com/",
@@ -462,19 +492,9 @@
    "error": ""
   },
   {
-   "name": "Monroe Street Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/monroe-street",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 3,
-   "error": ""
-  },
-  {
-   "name": "State Line Distillery",
-   "kind": "brewery",
-   "website": "https://www.statelinedistillery.com/",
+   "name": "Overture Center for the Arts",
+   "kind": "venue",
+   "website": "http://overturecenter.com",
    "feeds": [
     "ai"
    ],
@@ -573,26 +593,6 @@
     "ai"
    ],
    "raw_events": 2,
-   "error": ""
-  },
-  {
-   "name": "Overture Center for the Arts",
-   "kind": "venue",
-   "website": "http://overturecenter.com",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 2,
-   "error": ""
-  },
-  {
-   "name": "Alicia Ashman Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 1,
    "error": ""
   },
   {
@@ -1368,7 +1368,7 @@
   {
    "name": "Madison Chocolate Company",
    "kind": "cafe",
-   "website": "https://madisonchocolate.com",
+   "website": "https://www.madisonchocolatecompany.com",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1376,7 +1376,7 @@
   {
    "name": "Madison Chocolate Company",
    "kind": "cafe",
-   "website": "https://www.madisonchocolatecompany.com",
+   "website": "https://madisonchocolate.com",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1702,7 +1702,7 @@
   {
    "name": "Starbucks",
    "kind": "cafe",
-   "website": "https://www.starbucks.com/store-locator/store/16495/south-gammon-mineral-point-434-gammon-place-3-madison-wi-537191090-us",
+   "website": "https://www.starbucks.com/store-locator/store/12525/university-north-blackhawk-3515-university-avenue-madison-wi-537052140-us",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1710,7 +1710,7 @@
   {
    "name": "Starbucks",
    "kind": "cafe",
-   "website": "https://www.starbucks.com/store-locator/store/12525/university-north-blackhawk-3515-university-avenue-madison-wi-537052140-us",
+   "website": "https://www.starbucks.com/store-locator/store/16495/south-gammon-mineral-point-434-gammon-place-3-madison-wi-537191090-us",
    "feeds": [],
    "raw_events": 0,
    "error": ""

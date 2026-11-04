@@ -108,21 +108,12 @@
   "events": []
  },
  "https://gammaray.bar/shows/": {
-  "hash": "5add07ce9405547aa287c951166dfeedf3763185",
-  "asked": "2026-11-02T21:59:19-06:00",
-  "on": "2026-11-02",
+  "hash": "12f655d3762210479b4f768ae0db1e6440ad5ce7",
+  "asked": "2026-11-03T21:00:39-06:00",
+  "on": "2026-11-03",
   "events": [
    {
-    "title": "Gamma Ray Bar Presents: Music Video Trivia",
-    "date": "2026-11-02",
-    "start": "18:00",
-    "end": null,
-    "price": null,
-    "description": "Music video trivia. Doors 5:45pm.",
-    "category": "trivia"
-   },
-   {
-    "title": "Sam Farber // Secondhand Sound // Andreas",
+    "title": "Axis: Sova // Slick // The Moss Men",
     "date": "2026-11-04",
     "start": "20:00",
     "end": null,
@@ -131,12 +122,21 @@
     "category": "music"
    },
    {
-    "title": "Deep Dive // Horace Greene // Gallon Of Red",
+    "title": "Sam Farber // Secondhand Sound // Andreas",
     "date": "2026-11-05",
     "start": "20:00",
     "end": null,
     "price": null,
     "description": "Doors 7:30pm.",
+    "category": "music"
+   },
+   {
+    "title": "Deep Dive // Horace Greene // Gallon Of Red",
+    "date": "2026-11-06",
+    "start": "20:00",
+    "end": null,
+    "price": null,
+    "description": "Doors 7pm.",
     "category": "music"
    },
    {
@@ -150,7 +150,7 @@
    },
    {
     "title": "Dusk // Visual Learner // Yuasa-Exide // Boo/Hiss",
-    "date": "2026-11-07",
+    "date": "2026-11-08",
     "start": "20:00",
     "end": null,
     "price": null,
@@ -159,38 +159,29 @@
    },
    {
     "title": "Friday the 13th Tribute Party Ft. PheRAMONES, Insomniacs (Green Day), TRAEFI(AFI)",
-    "date": "2026-11-08",
-    "start": "20:00",
-    "end": null,
-    "price": null,
-    "description": "Tribute party featuring PheRAMONES, Insomniacs (Green Day) and TRAEFI (AFI). Doors 7pm.",
-    "category": "music"
-   },
-   {
-    "title": "Adult Book Club Album Release w/ Cause & Control and Get Well Now",
     "date": "2026-11-13",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Album release show with Cause & Control and Get Well Now. Doors 7pm.",
+    "description": "Tribute party. Doors 7pm.",
     "category": "music"
    },
    {
-    "title": "Dusky Waters // Bear In The Forest // Marengo",
+    "title": "Adult Book Club Album Release w/ Cause & Control and Get Well Now",
     "date": "2026-11-14",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Doors 7pm.",
+    "description": "Album release show. Doors 7pm.",
     "category": "music"
    },
    {
-    "title": "Gridlock Album Release // Totally Cashed // M545 // A Casual Ruckus // Party Vultures",
+    "title": "Dusky Waters // Bear In The Forest // Marengo",
     "date": "2026-11-15",
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Gridlock album release with Totally Cashed, M545, A Casual Ruckus and Party Vultures. Doors 6pm.",
+    "description": "Doors 6pm.",
     "category": "music"
    }
   ]
@@ -1062,9 +1053,9 @@
   "events": []
  },
  "https://www.statelinedistillery.com/cocktail-lounge/events": {
-  "hash": "29c0ce369fe6817430f4102e89d2ae0a6ea65aaf",
-  "asked": "2026-11-02T14:48:43-06:00",
-  "on": "2026-11-02",
+  "hash": "53bc90568646b4dce0f83ed88f306b4a3342ccbe",
+  "asked": "2026-11-03T21:00:51-06:00",
+  "on": "2026-11-03",
   "events": [
    {
     "title": "Christa Lee Music",
@@ -1072,7 +1063,7 @@
     "start": "19:00",
     "end": "21:00",
     "price": null,
-    "description": "Live music with Christa Lee at State Line Distillery's cocktail lounge.",
+    "description": "Live music with Christa Lee.",
     "category": "music"
    },
    {
@@ -1090,8 +1081,17 @@
     "start": "15:00",
     "end": "21:00",
     "price": null,
-    "description": "Launch of the fall and winter menu at State Line Distillery.",
+    "description": "Launch event for the fall and winter menu.",
     "category": "food"
+   },
+   {
+    "title": "Badgers On Tap: The Science of Psychedelics",
+    "date": "2026-11-17",
+    "start": "19:00",
+    "end": "21:00",
+    "price": null,
+    "description": "Badgers On Tap talk on the science of psychedelics.",
+    "category": "other"
    }
   ]
  },
@@ -1108,26 +1108,17 @@
   "events": []
  },
  "https://thekickback.bar/upcoming-events/": {
-  "hash": "c8db9afff045f14bb2e7f0f2aa04440e5faf87fb",
-  "asked": "2026-11-01T20:30:55-06:00",
-  "on": "2026-11-01",
+  "hash": "65e78ad18ee7022b6643b230df208f6b150075af",
+  "asked": "2026-11-03T21:00:49-06:00",
+  "on": "2026-11-03",
   "events": [
-   {
-    "title": "Premier Trivia Tuesday!",
-    "date": "2026-11-03",
-    "start": "18:30",
-    "end": null,
-    "price": null,
-    "description": "Tuesday Trivia at The Kickback",
-    "category": "trivia"
-   },
    {
     "title": "Founders – Craft Beer Pinball League",
     "date": "2026-11-04",
     "start": "18:30",
     "end": null,
     "price": null,
-    "description": "League night with Founders Brewing Co. craft beer and pinball",
+    "description": "League night with Founders Brewing Co. craft beer and pinball.",
     "category": "other"
    },
    {
@@ -1136,7 +1127,7 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Craft beer and pinball night",
+    "description": "Pinball and craft beer night.",
     "category": "other"
    },
    {
@@ -1145,7 +1136,7 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Switch 2 Ultimate Super Smash Bros tournament",
+    "description": "Super Smash Bros Ultimate tournament on Switch 2.",
     "category": "other"
    },
    {
@@ -1154,7 +1145,7 @@
     "start": "12:00",
     "end": null,
     "price": null,
-    "description": "Kickback9 Pin-Golf league session with Yuengling and Wisconsin Pin-Golf",
+    "description": "Kickback9 pin-golf league session with Yuengling and craft beer.",
     "category": "other"
    },
    {
@@ -1163,7 +1154,7 @@
     "start": "18:30",
     "end": null,
     "price": null,
-    "description": "Tuesday Trivia at The Kickback",
+    "description": "Weekly Premier Trivia Tuesday.",
     "category": "trivia"
    },
    {
@@ -1172,7 +1163,7 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Launch party with craft beer and pinball",
+    "description": "Fallout launch party with craft beer and pinball.",
     "category": "other"
    },
    {
@@ -1181,7 +1172,7 @@
     "start": "11:00",
     "end": null,
     "price": null,
-    "description": "Youth pinball free-play and tournament, with an introduction to pinball",
+    "description": "Youth pinball free-play and tournament, with an introduction to pinball.",
     "category": "other"
    },
    {
@@ -1190,7 +1181,7 @@
     "start": "11:00",
     "end": null,
     "price": null,
-    "description": "Craft fair at The Kickback",
+    "description": "Craft fair.",
     "category": "other"
    },
    {
@@ -1199,8 +1190,17 @@
     "start": "13:00",
     "end": null,
     "price": null,
-    "description": "Meat raffle benefiting Fetch WI Rescue, with prizes from Jenny St Market and New Belgium Brewing",
+    "description": "Meat raffle benefiting Fetch WI Rescue, with prizes and Jenny St Market.",
     "category": "other"
+   },
+   {
+    "title": "Premier Trivia Tuesday!",
+    "date": "2026-11-17",
+    "start": "18:30",
+    "end": null,
+    "price": null,
+    "description": "Weekly Premier Trivia Tuesday.",
+    "category": "trivia"
    }
   ]
  },
@@ -1324,8 +1324,8 @@
  },
  "https://lakesidestcoffeehouse.com/music-calendar": {
   "hash": "8ca18ec0a3c197933e101f7ff37eb42f71afd610",
-  "asked": "2026-10-31T21:14:30-05:00",
-  "on": "2026-10-31",
+  "asked": "2026-11-03T21:01:08-06:00",
+  "on": "2026-11-03",
   "events": [
    {
     "title": "The Honey Pies",
@@ -1342,7 +1342,7 @@
     "start": "19:00",
     "end": "21:00",
     "price": null,
-    "description": "Local author Lily Comp discusses her first book, Scenic Natural Wonders of Wisconsin, with a crafting session.",
+    "description": "Local author Lily Comp discusses her first book, Scenic Natural Wonders of Wisconsin, with a crafting activity.",
     "category": "other"
    },
    {
@@ -1355,19 +1355,19 @@
     "category": "music"
    },
    {
-    "title": "Recuerdos Flamencos: An Evening of Spanish Guitar and Dance",
+    "title": "Recuerdos Flamencos",
     "date": "2026-11-14",
     "start": "19:30",
     "end": null,
-    "price": 20,
-    "description": "Spanish guitar and dance; 9th Annual Memorial Scholarship Fundraiser. Suggested donation $20, or $15.",
+    "price": null,
+    "description": "An evening of Spanish guitar and dance; 9th Annual Memorial Scholarship Fundraiser. Page lists $20/$15 suggested donation.",
     "category": "music"
    }
   ]
  },
  "https://merciescoffeewi.com/": {
-  "hash": "99c710f41b949ad8182d40e8b785fd82984f364d",
-  "asked": "2026-11-03T12:27:42-06:00",
+  "hash": "3cc47900572feef4775686551e043a933621f432",
+  "asked": "2026-11-03T21:01:08-06:00",
   "on": "2026-11-03",
   "events": []
  },
@@ -1599,8 +1599,8 @@
   "events": []
  },
  "https://www.madisonpubliclibrary.org/spaces/events": {
-  "hash": "bf709329780cd1b412c9915c45d017ee1a3a99e1",
-  "asked": "2026-11-03T12:28:15-06:00",
+  "hash": "a94ee09e2c4b4d716ad11b68b77b1317fa8c41d3",
+  "asked": "2026-11-03T21:01:42-06:00",
   "on": "2026-11-03",
   "events": []
  },
@@ -1654,35 +1654,17 @@
   "events": []
  },
  "https://www.sunprairiepubliclibrary.org/home-delivery-service": {
-  "hash": "28d961178864a38f13033f292b24e9d4c33d91bc",
-  "asked": "2026-11-03T12:28:13-06:00",
+  "hash": "f671df20b2afed42d8758ca3581e9898786dc45d",
+  "asked": "2026-11-03T21:01:40-06:00",
   "on": "2026-11-03",
   "events": [
-   {
-    "title": "General Election",
-    "date": "2026-11-03",
-    "start": "07:00",
-    "end": "20:00",
-    "price": null,
-    "description": "General Election listed on the library events calendar.",
-    "category": "other"
-   },
-   {
-    "title": "Virtual Author Talk with Asha Frost",
-    "date": "2026-11-03",
-    "start": "13:00",
-    "end": "14:00",
-    "price": null,
-    "description": "Virtual author talk for adults.",
-    "category": "other"
-   },
    {
     "title": "Mystery Book Club",
     "date": "2026-11-04",
     "start": "13:30",
     "end": "14:30",
     "price": null,
-    "description": "Mystery book club for adults.",
+    "description": "Mystery Book Club for adults at Sun Prairie Public Library.",
     "category": "other"
    },
    {
@@ -1701,6 +1683,24 @@
     "end": "20:00",
     "price": null,
     "description": "Family fun night for families and teens.",
+    "category": "other"
+   },
+   {
+    "title": "Mystery Book Club",
+    "date": "2026-11-04",
+    "start": "19:00",
+    "end": "20:00",
+    "price": null,
+    "description": "Mystery Book Club for adults at Sun Prairie Public Library.",
+    "category": "other"
+   },
+   {
+    "title": "Little Gym: Read, Move, and Groove",
+    "date": "2026-11-05",
+    "start": "10:00",
+    "end": "10:30",
+    "price": null,
+    "description": "Reading and movement program for children ages 0-5.",
     "category": "other"
    }
   ]
@@ -1738,8 +1738,8 @@
  },
  "https://escmadison.com/events": {
   "hash": "2c35a46faa2a44e3a186f19029e72a3a6b2c7850",
-  "asked": "2026-10-31T21:15:04-05:00",
-  "on": "2026-10-31",
+  "asked": "2026-11-03T21:01:40-06:00",
+  "on": "2026-11-03",
   "events": [
    {
     "title": "Open Mic w/ Martin Hunt",
@@ -1747,7 +1747,7 @@
     "start": "18:00",
     "end": "21:00",
     "price": 0,
-    "description": "Host Martin Hunt's open mic for all skill levels. Free. Bar opens 5pm; grill food available.",
+    "description": "Host Martin Hunt's open mic for all skill levels. Free. Bar opens 5pm; food ordered from the grill.",
     "category": "open_mic"
    },
    {
@@ -1756,7 +1756,7 @@
     "start": "09:00",
     "end": "15:00",
     "price": 0,
-    "description": "Two floors of handmade crafts and vendors. Free admission. Bloody Mary bar; food for purchase.",
+    "description": "Two floors of handmade crafts and vendors. Free admission. Bloody Mary bar; food available for purchase.",
     "category": "other"
    },
    {
@@ -1765,14 +1765,23 @@
     "start": "18:00",
     "end": "21:00",
     "price": 0,
-    "description": "Host Martin Hunt's open mic for all skill levels. Free. Bar opens 5pm; grill food available.",
+    "description": "Host Martin Hunt's open mic for all skill levels. Free. Bar opens 5pm; food ordered from the grill.",
+    "category": "open_mic"
+   },
+   {
+    "title": "Open Mic w/ Martin Hunt",
+    "date": "2026-11-17",
+    "start": "18:00",
+    "end": "21:00",
+    "price": 0,
+    "description": "Host Martin Hunt's open mic for all skill levels. Free. Bar opens 5pm; food ordered from the grill.",
     "category": "open_mic"
    }
   ]
  },
  "https://www.madisonpubliclibrary.org/spaces/events/search": {
-  "hash": "54b80629e3f016b85b17817d6717af0b60eb196e",
-  "asked": "2026-11-03T12:28:26-06:00",
+  "hash": "f53bed119bf498027adfefbf94fac3ebed0c363e",
+  "asked": "2026-11-03T21:01:53-06:00",
   "on": "2026-11-03",
   "events": []
  },
@@ -1937,8 +1946,8 @@
  },
  "https://www.overture.org/tickets-events/": {
   "hash": "17ad93d0064095d3d57201bf7e01243e8703a57a",
-  "asked": "2026-10-31T21:15:18-05:00",
-  "on": "2026-10-31",
+  "asked": "2026-11-03T21:01:54-06:00",
+  "on": "2026-11-03",
   "events": [
    {
     "title": "Stuart Stotts",
@@ -1946,7 +1955,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Multiple showtimes listed on Overture's events page.",
+    "description": "Performance at Overture Center; multiple showtimes listed on the page.",
     "category": "music"
    },
    {
@@ -1955,8 +1964,17 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Multiple showtimes listed on Overture's events page.",
+    "description": "Performance at Overture Center; multiple showtimes listed on the page.",
     "category": "music"
+   },
+   {
+    "title": "Artists' Talk and Reception: Beneath the Fields & Foundation",
+    "date": "2026-11-15",
+    "start": "15:00",
+    "end": null,
+    "price": null,
+    "description": "Artists' talk and reception at Overture Center.",
+    "category": "other"
    }
   ]
  },
@@ -2084,8 +2102,8 @@
   "events": []
  },
  "https://www.veronapubliclibrary.org/": {
-  "hash": "731a99639e1ea8ead9d369b9a813db2e48a2a7ff",
-  "asked": "2026-11-03T12:28:13-06:00",
+  "hash": "82f6108c308601c5fa3aa6463f8caa947370d86f",
+  "asked": "2026-11-03T21:01:38-06:00",
   "on": "2026-11-03",
   "events": [
    {
@@ -2094,7 +2112,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Ongoing story times return on Monday, November 16.",
+    "description": "Ongoing story times return at Verona Public Library.",
     "category": "other"
    }
   ]
@@ -2124,19 +2142,10 @@
   "events": []
  },
  "https://high-noon.com/event/dogpark/": {
-  "hash": "c41192b2c2528baea51c7596b58a1951111e4b7d",
-  "asked": "2026-11-03T12:27:19-06:00",
+  "hash": "5bcddd815e4c8995a036fc20aa8fda107318f2b2",
+  "asked": "2026-11-03T21:00:43-06:00",
   "on": "2026-11-03",
   "events": [
-   {
-    "title": "The Bends with The Braymores",
-    "date": "2026-11-05",
-    "start": "20:00",
-    "end": null,
-    "price": null,
-    "description": "FPC Live presents The Bends with The Braymores at High Noon Saloon. Doors 7:00 pm, show 8:00 pm.",
-    "category": "music"
-   },
    {
     "title": "Friends of Shabazz Launch Party & Music Benefit",
     "date": "2026-11-08",
@@ -2144,7 +2153,7 @@
     "end": null,
     "price": 20,
     "description": "Launch party and music benefit at High Noon Saloon. Suggested $20 donation at the door.",
-    "category": "music"
+    "category": "other"
    }
   ]
  },
@@ -2174,17 +2183,26 @@
   ]
  },
  "https://madisonorpheum.com/event/eric-andre/": {
-  "hash": "fa10c0cbaae420e4c353ef606e4b7edfb68075a2",
-  "asked": "2026-11-03T12:28:28-06:00",
+  "hash": "ce3d1a68c66db36d28eae9d7a08d5ff26131c918",
+  "asked": "2026-11-03T21:01:56-06:00",
   "on": "2026-11-03",
   "events": [
+   {
+    "title": "Daniel Sloss",
+    "date": "2026-11-09",
+    "start": "19:00",
+    "end": null,
+    "price": null,
+    "description": "FPC Live presents Daniel Sloss. Doors 6:00 pm, show 7:00 pm.",
+    "category": "comedy"
+   },
    {
     "title": "MDEV: The Kick-Off Event",
     "date": "2026-11-06",
     "start": null,
     "end": null,
     "price": null,
-    "description": "Kick-off event listed under Just Announced at the Orpheum; the page gives no further details.",
+    "description": "Listed as a Just Announced event at the Orpheum. No time or details given on the page.",
     "category": "other"
    }
   ]
@@ -2291,9 +2309,9 @@
   "events": []
  },
  "https://ctmtheater.org/": {
-  "hash": "5080717d76ad078c4b3cd59e11084c8c0246939b",
-  "asked": "2026-11-02T22:00:33-06:00",
-  "on": "2026-11-02",
+  "hash": "5a6015b629542259ab374349bfec835140d8a9a4",
+  "asked": "2026-11-03T21:01:47-06:00",
+  "on": "2026-11-03",
   "events": []
  }
 }

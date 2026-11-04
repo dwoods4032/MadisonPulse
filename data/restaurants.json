@@ -308,7 +308,7 @@
    ],
    "bar": false,
    "menu_src": "OpenStreetMap tag",
-   "website_ok": false
+   "website_ok": true
   },
   {
    "group": "american",
@@ -1322,7 +1322,7 @@
     ]
    ],
    "bar": true,
-   "website_ok": true
+   "website_ok": null
   },
   {
    "group": "american",
@@ -7526,7 +7526,7 @@
     ]
    ],
    "bar": false,
-   "website_ok": false
+   "website_ok": true
   },
   {
    "group": "american",

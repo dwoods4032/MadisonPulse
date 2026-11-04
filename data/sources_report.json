@@ -1,24 +1,22 @@
 {
- "generated_at": "2026-11-03T12:28:51-06:00",
- "total_events": 415,
- "in_more_than_one_source": 28,
+ "generated_at": "2026-11-03T21:02:02-06:00",
+ "total_events": 417,
+ "in_more_than_one_source": 29,
  "sources": {
   "AI page reading": {
    "events": 146,
-   "unique_events": 127,
+   "unique_events": 126,
    "overlap": {
-    "Isthmus": 3,
+    "Isthmus": 4,
     "Ticketmaster": 16,
     "Venue websites": 0
    },
-   "venues": 37,
+   "venues": 33,
    "unique_venues": [
     "Aftershock Classic Arcade",
-    "Alicia Ashman Library",
     "Arts + Literature Laboratory",
     "Bartell Theatre",
     "Capital Brewery",
-    "Central Library",
     "Crucible",
     "Crystal Corner Bar",
     "Ebling Library",
@@ -31,7 +29,6 @@
     "Lazy Oaf Lounge",
     "Madison Youth Arts (MYArts)",
     "Monkeyshines Bar & Grill",
-    "Monroe Street Library",
     "Mother Fool's",
     "Old Sugar Distillery",
     "Oscar Rennebohm Library",
@@ -46,9 +43,9 @@
   },
   "Isthmus": {
    "events": 169,
-   "unique_events": 160,
+   "unique_events": 159,
    "overlap": {
-    "AI page reading": 3,
+    "AI page reading": 4,
     "Ticketmaster": 3,
     "Venue websites": 3
    },
@@ -96,6 +93,7 @@
     "Overture Center-Capitol Theater",
     "Overture Center-Playhouse",
     "Paddy Mac's Pub",
+    "Pinney Library",
     "Public Parking",
     "Quarry Arts Building",
     "Settle Down Tavern",
@@ -117,8 +115,8 @@
    ]
   },
   "Ticketmaster": {
-   "events": 56,
-   "unique_events": 34,
+   "events": 57,
+   "unique_events": 35,
    "overlap": {
     "AI page reading": 16,
     "Isthmus": 3,
@@ -133,8 +131,8 @@
    ]
   },
   "Venue websites": {
-   "events": 72,
-   "unique_events": 66,
+   "events": 74,
+   "unique_events": 68,
    "overlap": {
     "AI page reading": 0,
     "Isthmus": 3,
