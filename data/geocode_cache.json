@@ -738,5 +738,39 @@
   "address": "302 East Gorham Street",
   "city": "Madison"
  },
- "mound street laundromat": null
+ "mound street laundromat": null,
+ "uw field house": null,
+ "photomidwest": {
+  "lat": 43.049118,
+  "lon": -89.491516,
+  "address": "700 Rayovac Drive",
+  "city": "Madison"
+ },
+ "uw union south-the marquee": null,
+ "cafe carpe, fort atkinson": {
+  "lat": 42.927514,
+  "lon": -88.83767,
+  "address": "South Water Street West",
+  "city": "Fort Atkinson"
+ },
+ "textile arts center": {
+  "lat": 43.048334,
+  "lon": -89.394793,
+  "address": "1702 South Park Street",
+  "city": "Madison"
+ },
+ "art hub, cambridge": null,
+ "carnelian art gallery": null,
+ "middleton senior center": {
+  "lat": 43.095591,
+  "lon": -89.51075,
+  "address": "7448 Hubbard Avenue",
+  "city": "Middleton"
+ },
+ "black earth children's museum": {
+  "lat": 43.138376,
+  "lon": -89.747662,
+  "address": "Spring Street",
+  "city": "Black Earth"
+ }
 }

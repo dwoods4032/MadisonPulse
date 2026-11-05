@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-04T21:31:03-06:00",
+ "generated_at": "2026-11-05T12:48:19-06:00",
  "venues_checked": 237,
- "venues_with_events": 65,
- "venues_with_feeds": 86,
- "events": 408,
- "filtered_out": 110,
+ "venues_with_events": 64,
+ "venues_with_feeds": 85,
+ "events": 401,
+ "filtered_out": 113,
  "venues": [
   {
    "name": "AI page reading",
@@ -13,12 +13,12 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 198,
+   "raw_events": 189,
    "error": "",
-   "calls": 12,
-   "tokens_in": 32353,
-   "tokens_out": 12824,
-   "est_cost_usd": 0.0096
+   "calls": 18,
+   "tokens_in": 52769,
+   "tokens_out": 23136,
+   "est_cost_usd": 0.0168
   },
   {
    "name": "Isthmus calendar",
@@ -27,8 +27,8 @@
    "feeds": [
     "calendar"
    ],
-   "raw_events": 181,
-   "error": "used today's copy (read once a day)"
+   "raw_events": 182,
+   "error": ""
   },
   {
    "name": "Ticketmaster",
@@ -37,7 +37,7 @@
    "feeds": [
     "ticketmaster"
    ],
-   "raw_events": 58,
+   "raw_events": 56,
    "error": ""
   },
   {
@@ -80,20 +80,6 @@
    "error": ""
   },
   {
-   "name": "Cafe CODA",
-   "kind": "bar",
-   "website": "https://cafecoda.club",
-   "feeds": [
-    "squarespace",
-    "jsonld",
-    "jsonld",
-    "jsonld",
-    "jsonld"
-   ],
-   "raw_events": 29,
-   "error": ""
-  },
-  {
    "name": "Comedy Club on State",
    "kind": "venue",
    "website": "https://www.madisoncomedy.com/",
@@ -104,7 +90,21 @@
     "jsonld",
     "jsonld"
    ],
-   "raw_events": 29,
+   "raw_events": 28,
+   "error": ""
+  },
+  {
+   "name": "Cafe CODA",
+   "kind": "bar",
+   "website": "https://cafecoda.club",
+   "feeds": [
+    "squarespace",
+    "jsonld",
+    "jsonld",
+    "jsonld",
+    "jsonld"
+   ],
+   "raw_events": 27,
    "error": ""
   },
   {
@@ -116,7 +116,7 @@
     "jsonld",
     "jsonld"
    ],
-   "raw_events": 21,
+   "raw_events": 20,
    "error": ""
   },
   {
@@ -154,6 +154,26 @@
    "error": ""
   },
   {
+   "name": "Crucible",
+   "kind": "bar",
+   "website": "https://www.cruciblemadison.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 11,
+   "error": ""
+  },
+  {
+   "name": "Gib's Bar",
+   "kind": "bar",
+   "website": "https://www.gibs.bar/",
+   "feeds": [
+    "squarespace"
+   ],
+   "raw_events": 10,
+   "error": ""
+  },
+  {
    "name": "Lone Girl Tap Room And Pizza Company",
    "kind": "bar",
    "website": "https://thelonegirl.com",
@@ -163,26 +183,6 @@
     "jsonld",
     "jsonld",
     "jsonld"
-   ],
-   "raw_events": 11,
-   "error": ""
-  },
-  {
-   "name": "Arts + Literature Laboratory",
-   "kind": "venue",
-   "website": "https://artlitlab.org/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 10,
-   "error": ""
-  },
-  {
-   "name": "Gib's Bar",
-   "kind": "bar",
-   "website": "https://www.gibs.bar/",
-   "feeds": [
-    "squarespace"
    ],
    "raw_events": 10,
    "error": ""
@@ -198,9 +198,30 @@
    "error": ""
   },
   {
-   "name": "Crucible",
+   "name": "Arts + Literature Laboratory",
+   "kind": "venue",
+   "website": "https://artlitlab.org/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 9,
+   "error": ""
+  },
+  {
+   "name": "One Social Bar",
    "kind": "bar",
-   "website": "https://www.cruciblemadison.com/",
+   "website": "https://onesocialmadison.com/vendor/one-social-bar/",
+   "feeds": [
+    "tribe",
+    "jsonld"
+   ],
+   "raw_events": 9,
+   "error": ""
+  },
+  {
+   "name": "Sequoya Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/sequoya",
    "feeds": [
     "ai"
    ],
@@ -214,57 +235,6 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 9,
-   "error": ""
-  },
-  {
-   "name": "Orpheum Theatre",
-   "kind": "venue",
-   "website": "https://madisonorpheum.com/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 9,
-   "error": ""
-  },
-  {
-   "name": "Reindahl Park Pavillion",
-   "kind": "community",
-   "website": "https://www.cityofmadison.com/parks/find-a-park/reindahl/pavilion-at-the-imagination-center",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 9,
-   "error": ""
-  },
-  {
-   "name": "Veterans Memorial Park",
-   "kind": "veterans",
-   "website": "https://www.cityofmadison.com/parks/find-a-park/park.cfm?id=1364",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 9,
-   "error": ""
-  },
-  {
-   "name": "Lazy Oaf Lounge",
-   "kind": "bar",
-   "website": "https://www.lazyoaflounge.com/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 8,
-   "error": ""
-  },
-  {
-   "name": "One Social Bar",
-   "kind": "bar",
-   "website": "https://onesocialmadison.com/vendor/one-social-bar/",
-   "feeds": [
-    "tribe",
-    "jsonld"
-   ],
    "raw_events": 8,
    "error": ""
   },
@@ -275,27 +245,17 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 7,
+   "raw_events": 8,
    "error": ""
   },
   {
-   "name": "Sequoya Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/sequoya",
+   "name": "Orpheum Theatre",
+   "kind": "venue",
+   "website": "https://madisonorpheum.com/",
    "feeds": [
     "ai"
    ],
-   "raw_events": 7,
-   "error": ""
-  },
-  {
-   "name": "Monroe Street Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/monroe-street",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 6,
+   "raw_events": 8,
    "error": ""
   },
   {
@@ -305,17 +265,27 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 6,
+   "raw_events": 8,
    "error": ""
   },
   {
-   "name": "Alicia Ashman Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
+   "name": "Reindahl Park Pavillion",
+   "kind": "community",
+   "website": "https://www.cityofmadison.com/parks/find-a-park/reindahl/pavilion-at-the-imagination-center",
    "feeds": [
     "ai"
    ],
-   "raw_events": 5,
+   "raw_events": 8,
+   "error": ""
+  },
+  {
+   "name": "Veterans Memorial Park",
+   "kind": "veterans",
+   "website": "https://www.cityofmadison.com/parks/find-a-park/park.cfm?id=1364",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 8,
    "error": ""
   },
   {
@@ -395,6 +365,16 @@
    "error": ""
   },
   {
+   "name": "Monroe Street Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/monroe-street",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 4,
+   "error": ""
+  },
+  {
    "name": "State Line Distillery",
    "kind": "brewery",
    "website": "https://www.statelinedistillery.com/",
@@ -428,6 +408,26 @@
     "jsonld"
    ],
    "raw_events": 4,
+   "error": ""
+  },
+  {
+   "name": "Alicia Ashman Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 3,
+   "error": ""
+  },
+  {
+   "name": "Central Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/central",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 3,
    "error": ""
   },
   {
@@ -538,16 +538,6 @@
    "name": "Bartell Theatre",
    "kind": "venue",
    "website": "https://bartelltheatre.org/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 2,
-   "error": ""
-  },
-  {
-   "name": "Central Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/central",
    "feeds": [
     "ai"
    ],
@@ -1290,6 +1280,14 @@
    "error": ""
   },
   {
+   "name": "Lazy Oaf Lounge",
+   "kind": "bar",
+   "website": "https://www.lazyoaflounge.com/",
+   "feeds": [],
+   "raw_events": 0,
+   "error": "ai: SSLError: HTTPSConnectionPool(host='www.lazyoaflounge.com', port=443): Max retries exceeded with url: /events (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred i; ai: SSLError: HTTPSConnectionPool(host='www.lazyoaflounge.com', port=443): Max retries exceeded with url: /specials (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred"
+  },
+  {
    "name": "LeC's Patisserie & Tea House",
    "kind": "cafe",
    "website": "https://lecsmadison.com/",
@@ -1681,20 +1679,12 @@
    "website": "https://www.shamrockbarandgrille.com/",
    "feeds": [],
    "raw_events": 0,
-   "error": "SSLError: HTTPSConnectionPool(host='www.shamrockbarandgrille.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in v"
+   "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
   },
   {
    "name": "Slow Food UW Student Cafe",
    "kind": "cafe",
    "website": "https://slowfood-uw.org/",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Starbucks",
-   "kind": "cafe",
-   "website": "https://www.starbucks.com/store-locator/store/16482/capitol-square-main-mlk-1-e-main-st-madison-wi-537033373-us",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1711,6 +1701,14 @@
    "name": "Starbucks",
    "kind": "cafe",
    "website": "https://www.starbucks.com/store-locator/store/16495/south-gammon-mineral-point-434-gammon-place-3-madison-wi-537191090-us",
+   "feeds": [],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
+   "name": "Starbucks",
+   "kind": "cafe",
+   "website": "https://www.starbucks.com/store-locator/store/16482/capitol-square-main-mlk-1-e-main-st-madison-wi-537033373-us",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1857,7 +1855,7 @@
    "website": "https://www.tenpinalleys.com/",
    "feeds": [],
    "raw_events": 0,
-   "error": ""
+   "error": "ai: SSLError: HTTPSConnectionPool(host='www.tenpinalleys.com', port=443): Max retries exceeded with url: /childrens-entertainment-oregon-wi (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHI"
   },
   {
    "name": "The Bubbling Teapot",

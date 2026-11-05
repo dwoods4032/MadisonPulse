@@ -108,26 +108,17 @@
   "events": []
  },
  "https://gammaray.bar/shows/": {
-  "hash": "f828fda8bb63f8f165a9571c405228cd2a1716b3",
-  "asked": "2026-11-04T12:38:37-06:00",
-  "on": "2026-11-04",
+  "hash": "c47df6252cf1ae6645689a7991cc5bc62d9686cd",
+  "asked": "2026-11-05T12:46:35-06:00",
+  "on": "2026-11-05",
   "events": [
-   {
-    "title": "Axis: Sova // Slick // The Moss Men",
-    "date": "2026-11-04",
-    "start": "20:00",
-    "end": null,
-    "price": null,
-    "description": "Doors 7pm",
-    "category": "music"
-   },
    {
     "title": "Sam Farber // Secondhand Sound // Andreas",
     "date": "2026-11-05",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Doors 7:30pm",
+    "description": "Doors 7:30pm. Bill: Sam Farber, Secondhand Sound, Andreas.",
     "category": "music"
    },
    {
@@ -135,8 +126,8 @@
     "date": "2026-11-06",
     "start": "20:00",
     "end": null,
+    "description": "Doors 7pm. Bill: Deep Dive, Horace Greene, Gallon Of Red.",
     "price": null,
-    "description": "Doors 7pm",
     "category": "music"
    },
    {
@@ -145,7 +136,7 @@
     "start": "14:00",
     "end": null,
     "price": null,
-    "description": "Doors 1:30pm",
+    "description": "Doors 1:30pm. Songwriter showcase with Mane Thompson, Ixora, The Old Souls.",
     "category": "music"
    },
    {
@@ -154,7 +145,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Doors 7pm",
+    "description": "Doors 7pm. Bill: Droids Attack, Peacemaker, The Eggs.",
     "category": "music"
    },
    {
@@ -163,16 +154,16 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Doors 7pm",
+    "description": "Doors 7pm. Bill: Dusk, Visual Learner, Yuasa-Exide, Boo/Hiss.",
     "category": "music"
    },
    {
-    "title": "Friday the 13th Tribute Party Ft. PheRAMONES, Insomniacs (Green Day), TRAEFI(AFI)",
+    "title": "Friday the 13th Tribute Party Ft. PheRAMONES, Insomniacs (Green Day), TRAEFI (AFI)",
     "date": "2026-11-13",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Doors 7pm",
+    "description": "Doors 7pm. Tribute party featuring PheRAMONES (Ramones), Insomniacs (Green Day), TRAEFI (AFI).",
     "category": "music"
    },
    {
@@ -181,7 +172,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Album release show; doors 7pm",
+    "description": "Doors 7pm. Album release show with Cause & Control and Get Well Now.",
     "category": "music"
    },
    {
@@ -190,7 +181,7 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Doors 6pm",
+    "description": "Doors 6pm. Bill: Dusky Waters, Bear In The Forest, Marengo.",
     "category": "music"
    }
   ]
@@ -325,26 +316,17 @@
   "events": []
  },
  "https://www.harmonybarandgrill.com/madison-atwood-the-harmony-bar-and-grill-events": {
-  "hash": "f7fe7979d31bf48e630ea132de1f5d3026d02a57",
-  "asked": "2026-11-03T12:27:14-06:00",
-  "on": "2026-11-03",
+  "hash": "85d509e5b29160833588658a7c70611927b6ae57",
+  "asked": "2026-11-05T12:46:37-06:00",
+  "on": "2026-11-05",
   "events": [
-   {
-    "title": "Smarter Than You Trivia",
-    "date": "2026-11-04",
-    "start": "18:30",
-    "end": "20:30",
-    "price": 0,
-    "description": "Trivia hosted by Paul. Free. Held the 1st and 3rd Wednesday of the month.",
-    "category": "trivia"
-   },
    {
     "title": "Melissa Kieler (ft. Ethan Kister)",
     "date": "2026-11-05",
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Folk/rock/alt/pop singer-songwriter Melissa Kieler with Ethan Kister. No cover.",
+    "description": "Folk/rock/alt/pop singer-songwriter with originals and covers. No cover.",
     "category": "music"
    },
    {
@@ -362,7 +344,7 @@
     "start": "19:30",
     "end": "21:30",
     "price": 10,
-    "description": "Traditional Irish pub songs, ballads and original songs. $10 suggested donation.",
+    "description": "Traditional Irish pub songs, ballads and originals. $10 suggested donation.",
     "category": "music"
    },
    {
@@ -371,7 +353,7 @@
     "start": "17:30",
     "end": "18:30",
     "price": 5,
-    "description": "Kids music show for the whole family with David Landau. $5 cover. Kid menu available.",
+    "description": "Kids music show for the whole family, with kid menu. $5 cover.",
     "category": "music"
    },
    {
@@ -380,7 +362,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Bluegrass, vintage country and swing with three-part vocal harmonies. No cover.",
+    "description": "Bluegrass, vintage country and swing with three-part harmonies. No cover.",
     "category": "music"
    },
    {
@@ -389,16 +371,16 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Classic bluegrass with a wider range of influences, from the former Oak Street Ramblers. No cover.",
+    "description": "Classic bluegrass with a wider range of influences. No cover.",
     "category": "music"
    },
    {
-    "title": "Honky Tonk Happy Hour Ft. Canyon Arrow",
+    "title": "Honky Tonk Happy Hour ft. Canyon Arrow",
     "date": "2026-11-12",
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Honky tonk happy hour featuring Canyon Arrow, a Madison band. No cover.",
+    "description": "Honky tonk happy hour with Madison band Canyon Arrow. No cover.",
     "category": "music"
    },
    {
@@ -407,7 +389,7 @@
     "start": "21:00",
     "end": "00:00",
     "price": 10,
-    "description": "Cambridge, Wisconsin band blending 1980s MTV pop with classic rock and blues. $10 cover.",
+    "description": "Cambridge, WI band blending 1980s MTV vibes with classic rock and blues. $10 cover.",
     "category": "music"
    },
    {
@@ -434,7 +416,25 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Monthly bluegrass series hosted by Soggy Prairie, with a set from guest artists Lucky Pickers. No cover.",
+    "description": "Monthly bluegrass series hosted by Soggy Prairie, with a guest set from Lucky Pickers. No cover.",
+    "category": "music"
+   },
+   {
+    "title": "Smarter Than You Trivia",
+    "date": "2026-11-18",
+    "start": "18:30",
+    "end": "20:30",
+    "price": 0,
+    "description": "Trivia hosted by Paul, held the 1st and 3rd Wednesday of each month. Free.",
+    "category": "trivia"
+   },
+   {
+    "title": "Harmonious: A Songwriters' Showcase (Season 2, Episode 2)",
+    "date": "2026-11-19",
+    "start": "18:30",
+    "end": "20:30",
+    "price": 0,
+    "description": "Round-robin songwriter showcase hosted by JT Spartz, featuring Annie Emmenegger, Jason Edward and JT Spartz. No cover.",
     "category": "music"
    }
   ]
@@ -544,26 +544,17 @@
   ]
  },
  "https://high-noon.com/calendar/": {
-  "hash": "c9b7a6da893f17e506ce8a9954e01a5c05dbcd8c",
-  "asked": "2026-11-03T12:27:15-06:00",
-  "on": "2026-11-03",
+  "hash": "261d1f0a5dd4c78609476ae788fbf6be6d593e38",
+  "asked": "2026-11-05T12:46:38-06:00",
+  "on": "2026-11-05",
   "events": [
-   {
-    "title": "[POSTPONED] Sophie Hunter with Reysha Rami",
-    "date": "2026-11-04",
-    "start": "20:00",
-    "end": null,
-    "price": null,
-    "description": "FPC Live show at High Noon Saloon. Listed as postponed.",
-    "category": "music"
-   },
    {
     "title": "The Bends with The Braymores",
     "date": "2026-11-05",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live show at High Noon Saloon.",
+    "description": "FPC Live presents; doors 7:00 pm. Sold out.",
     "category": "music"
    },
    {
@@ -572,7 +563,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live show at High Noon Saloon.",
+    "description": "FPC Live presents; doors 7:00 pm.",
     "category": "music"
    },
    {
@@ -581,16 +572,16 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Festival with Tenmonthsummer, Barely Civil, Los Kausas, Ourvanity, The Up & Up, The Brash Menagerie, and Irish Goodbyes at High Noon Saloon.",
+    "description": "FPC Live presents with Tenmonthsummer, Barely Civil, Los Kausas, Ourvanity, The Up & Up, The Brash Menagerie, and Irish Goodbyes; doors 6:00 pm.",
     "category": "music"
    },
    {
-    "title": "Friends of Shabazz Launch Party & Music Benefit with Low Czars",
+    "title": "Friends of Shabazz Launch Party & Music Benefit",
     "date": "2026-11-08",
     "start": "12:00",
     "end": null,
     "price": 20,
-    "description": "Music benefit at High Noon Saloon. Suggested $20 donation at the door.",
+    "description": "With Low Czars; doors 11:00 am. Suggested $20 donation at the door.",
     "category": "music"
    },
    {
@@ -599,7 +590,7 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "FPC Live show at High Noon Saloon.",
+    "description": "FPC Live presents; doors 6:30 pm.",
     "category": "music"
    },
    {
@@ -608,7 +599,7 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "The Moth storytelling event at High Noon Saloon.",
+    "description": "The Moth presents a storytelling night; doors 6:30 pm.",
     "category": "other"
    },
    {
@@ -617,7 +608,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live show at High Noon Saloon.",
+    "description": "FPC Live presents; doors 7:00 pm.",
     "category": "music"
    },
    {
@@ -626,7 +617,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live show at High Noon Saloon.",
+    "description": "FPC Live presents; doors 7:00 pm.",
     "category": "music"
    },
    {
@@ -635,7 +626,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live show at High Noon Saloon.",
+    "description": "FPC Live presents; doors 7:00 pm.",
     "category": "music"
    },
    {
@@ -644,7 +635,7 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "FPC Live show at High Noon Saloon.",
+    "description": "FPC Live presents; doors 6:00 pm.",
     "category": "music"
    },
    {
@@ -653,7 +644,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Tribute show at High Noon Saloon.",
+    "description": "FPC Live presents; doors 7:00 pm.",
     "category": "music"
    },
    {
@@ -662,7 +653,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live show at High Noon Saloon. Listed as sold out.",
+    "description": "FPC Live presents; doors 7:00 pm. Sold out.",
     "category": "music"
    },
    {
@@ -671,7 +662,25 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "FPC Live show at High Noon Saloon.",
+    "description": "FPC Live presents; doors 6:30 pm.",
+    "category": "music"
+   },
+   {
+    "title": "Nerd Nite",
+    "date": "2026-11-18",
+    "start": "19:00",
+    "end": null,
+    "price": 0,
+    "description": "FPC Live presents; doors 6:00 pm. Free show.",
+    "category": "other"
+   },
+   {
+    "title": "Humbird with Bad Posture Club",
+    "date": "2026-11-19",
+    "start": "20:00",
+    "end": null,
+    "price": null,
+    "description": "WORT 89.9 FM presents; doors 7:00 pm.",
     "category": "music"
    }
   ]
@@ -1393,9 +1402,9 @@
   ]
  },
  "https://merciescoffeewi.com/": {
-  "hash": "edff8298f1d83e4ea6d3a8a804a4a7ec22e058ee",
-  "asked": "2026-11-04T12:39:07-06:00",
-  "on": "2026-11-04",
+  "hash": "47416934ae650e8d937ce002fc61a48026a3a5cb",
+  "asked": "2026-11-05T12:47:03-06:00",
+  "on": "2026-11-05",
   "events": []
  },
  "https://motherfools.com/event/20261106/mad-city-story-slam-rebellion": {
@@ -1532,19 +1541,10 @@
   "events": []
  },
  "https://www.cityofmadison.com/parks/events": {
-  "hash": "d224bf24004e897829a99604a3ca0ed9b88f97a6",
-  "asked": "2026-11-03T12:28:09-06:00",
-  "on": "2026-11-03",
+  "hash": "e6881437dacec9fe1b9f7eba4607aa70afbbe5ee",
+  "asked": "2026-11-05T12:47:29-06:00",
+  "on": "2026-11-05",
   "events": [
-   {
-    "title": "Parks Alive Fall | Warner",
-    "date": "2026-11-04",
-    "start": "17:00",
-    "end": "19:00",
-    "price": null,
-    "description": "Parks Alive Fall event at Warner Park Community Recreation Center, 1625 Northport Dr.",
-    "category": "other"
-   },
    {
     "title": "Parks Alive Fall | Allied",
     "date": "2026-11-05",
@@ -1560,7 +1560,7 @@
     "start": "18:00",
     "end": "19:30",
     "price": null,
-    "description": "Virtual public meeting about Odana Hills Golf Course and Park.",
+    "description": "Public meeting about Odana Hills Golf Course and Park, held virtually.",
     "category": "other"
    },
    {
@@ -1614,7 +1614,7 @@
     "start": "17:00",
     "end": "18:30",
     "price": null,
-    "description": "Nordic walking lesson at Elver Park, 1250 McKenna Blvd.",
+    "description": "Beginner Nordic walking class at Elver Park, 1250 McKenna Blvd.",
     "category": "other"
    }
   ]
@@ -1626,9 +1626,9 @@
   "events": []
  },
  "https://www.madisonpubliclibrary.org/spaces/events": {
-  "hash": "9f47d844486ae600cd34279366c4776548366b16",
-  "asked": "2026-11-04T21:30:44-06:00",
-  "on": "2026-11-04",
+  "hash": "d56fa93e7c428c4e72b6e99e0a3a231dbdcda58f",
+  "asked": "2026-11-05T12:47:41-06:00",
+  "on": "2026-11-05",
   "events": []
  },
  "https://ebling.library.wisc.edu/ebling-library-classes-events/": {
@@ -1681,35 +1681,17 @@
   "events": []
  },
  "https://www.sunprairiepubliclibrary.org/home-delivery-service": {
-  "hash": "cef4d897d78aa7789ab2d95761e8640b204c2f46",
-  "asked": "2026-11-04T21:30:42-06:00",
-  "on": "2026-11-04",
+  "hash": "113cfd8c68fa77af49ad054edcb3c67818e53fee",
+  "asked": "2026-11-05T12:47:35-06:00",
+  "on": "2026-11-05",
   "events": [
-   {
-    "title": "Homeschool Hangout",
-    "date": "2026-11-05",
-    "start": "10:00",
-    "end": "12:00",
-    "price": null,
-    "description": "Sun Prairie Public Library program for families, children ages 0-5, and teens.",
-    "category": "other"
-   },
-   {
-    "title": "Little Gym: Read, Move, and Groove",
-    "date": "2026-11-05",
-    "start": "10:00",
-    "end": "10:30",
-    "price": null,
-    "description": "Sun Prairie Public Library program for children ages 0-5.",
-    "category": "other"
-   },
    {
     "title": "Dream Bus Mobile Library @ Creekside and Westside Elementary",
     "date": "2026-11-05",
     "start": "13:45",
     "end": "15:00",
     "price": null,
-    "description": "Mobile library visit at Creekside and Westside Elementary, open to families, children ages 0-5, teens, and adults.",
+    "description": "Mobile library visit at Creekside and Westside Elementary. Age group: family, children (0-5), teens, adults.",
     "category": "other"
    },
    {
@@ -1718,7 +1700,16 @@
     "start": "14:00",
     "end": "15:30",
     "price": null,
-    "description": "Sun Prairie Public Library LEGO club.",
+    "description": "Library LEGO® Club.",
+    "category": "other"
+   },
+   {
+    "title": "Family Storytime",
+    "date": "2026-11-05",
+    "start": "18:30",
+    "end": "19:00",
+    "price": null,
+    "description": "Family storytime for children ages 0-5 and families.",
     "category": "other"
    },
    {
@@ -1727,7 +1718,16 @@
     "start": "18:30",
     "end": "20:00",
     "price": null,
-    "description": "Adult cookbook club at Sun Prairie Public Library.",
+    "description": "Library Cookbook Club for adults.",
+    "category": "other"
+   },
+   {
+    "title": "Dream Bus Mobile Library @ Fun Friday Stops",
+    "date": "2026-11-06",
+    "start": "14:45",
+    "end": "17:00",
+    "price": null,
+    "description": "Mobile library visit at Fun Friday stops. Age group: family, children (0-5), teens, adults.",
     "category": "other"
    }
   ]
@@ -1798,10 +1798,47 @@
   ]
  },
  "https://www.madisonpubliclibrary.org/spaces/events/search": {
-  "hash": "d7d89868d55d5fbab5c06f1deeaeb8c0eadcb410",
-  "asked": "2026-11-04T21:30:54-06:00",
-  "on": "2026-11-04",
-  "events": []
+  "hash": "4b189a49db41309b207d68f280199625926cabc8",
+  "asked": "2026-11-05T12:47:44-06:00",
+  "on": "2026-11-05",
+  "events": [
+   {
+    "title": "Grupo de Discusión Sobre Literatura en Español (in-person and online)",
+    "date": "2026-11-05",
+    "start": "13:00",
+    "end": "15:00",
+    "price": null,
+    "description": "Spanish-language literature discussion group, meeting in person and online at Sequoya Library.",
+    "category": "other"
+   },
+   {
+    "title": "Preschool Storytime",
+    "date": "2026-11-06",
+    "start": "10:00",
+    "end": "10:30",
+    "price": null,
+    "description": "Books, songs and playful activities for preschoolers at Sequoya Library.",
+    "category": "other"
+   },
+   {
+    "title": "Movement for Oldish Folks",
+    "date": "2026-11-06",
+    "start": "11:00",
+    "end": "12:00",
+    "price": null,
+    "description": "Weekly movement class for older adults led by Bruce K at Sequoya Library. No registration required.",
+    "category": "other"
+   },
+   {
+    "title": "Movement for Oldish Folks",
+    "date": "2026-11-13",
+    "start": "11:00",
+    "end": "12:00",
+    "price": null,
+    "description": "Weekly movement class for older adults led by Bruce K at Sequoya Library. No registration required.",
+    "category": "other"
+   }
+  ]
  },
  "https://artlitlab.org/calendar": {
   "hash": "0f520ecc389dd7a6729b797cd08c708119db82f7",
@@ -1856,9 +1893,9 @@
   ]
  },
  "https://bartelltheatre.org/": {
-  "hash": "1fa84f04e1ebaa449c7e5b056237a9bb66c8795e",
-  "asked": "2026-11-04T12:39:48-06:00",
-  "on": "2026-11-04",
+  "hash": "2df43a8ca7c23e6d14c0f5e56ebc0732b1ee2437",
+  "asked": "2026-11-05T12:47:45-06:00",
+  "on": "2026-11-05",
   "events": [
    {
     "title": "Romeo and Juliet",
@@ -1866,11 +1903,11 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "Bartell Theatre production of Shakespeare's tragedy of two young lovers caught in the feud between the Capulets and Montagues.",
+    "description": "Capulets, Montagues, and two young lovers; Shakespeare's best-known play.",
     "category": "theater"
    },
    {
-    "title": "A Valentine's Affair 2027 Auditions (First Audition)",
+    "title": "A Valentine's Affair 2027 Auditions: First Audition",
     "date": "2026-11-09",
     "start": "18:30",
     "end": null,
@@ -2102,17 +2139,17 @@
   "events": []
  },
  "https://www.veronapubliclibrary.org/": {
-  "hash": "f93ec37e43b0c573d23f6c6cac5d355f99f0de2d",
-  "asked": "2026-11-04T21:30:40-06:00",
-  "on": "2026-11-04",
+  "hash": "9008747be7eaddf5de9152084fcd6376817ecc56",
+  "asked": "2026-11-05T12:47:34-06:00",
+  "on": "2026-11-05",
   "events": [
    {
-    "title": "Late Fall Story Times",
+    "title": "Late Fall Story Times return",
     "date": "2026-11-16",
     "start": null,
     "end": null,
     "price": null,
-    "description": "Ongoing library story times return on Monday, November 16.",
+    "description": "Ongoing story times return at Verona Public Library on Monday, November 16.",
     "category": "other"
    }
   ]
@@ -2142,17 +2179,17 @@
   "events": []
  },
  "https://high-noon.com/event/dogpark/": {
-  "hash": "c41192b2c2528baea51c7596b58a1951111e4b7d",
-  "asked": "2026-11-04T21:29:49-06:00",
-  "on": "2026-11-04",
+  "hash": "4e90867420fe79b9ec104fc025830e32fa4c5b3d",
+  "asked": "2026-11-05T12:46:42-06:00",
+  "on": "2026-11-05",
   "events": [
    {
-    "title": "The Bends with The Braymores",
-    "date": "2026-11-05",
+    "title": "Low Cut Connie with Free Dirt",
+    "date": "2026-11-11",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents The Bends with The Braymores at High Noon Saloon. Doors 7:00 pm, show 8:00 pm.",
+    "description": "FPC Live presents Low Cut Connie with Free Dirt at High Noon Saloon. Doors 7:00 pm, show 8:00 pm.",
     "category": "music"
    },
    {
@@ -2162,7 +2199,7 @@
     "end": null,
     "price": 20,
     "description": "Launch party and music benefit at High Noon Saloon. Suggested $20 donation at the door.",
-    "category": "music"
+    "category": "other"
    }
   ]
  },
@@ -2192,9 +2229,9 @@
   ]
  },
  "https://madisonorpheum.com/event/eric-andre/": {
-  "hash": "4c175d8e218b6a0c251d301f4f017f0022e25cef",
-  "asked": "2026-11-04T21:30:58-06:00",
-  "on": "2026-11-04",
+  "hash": "8078bf5101f51e7813be639718368ec808cf4b7d",
+  "asked": "2026-11-05T12:47:51-06:00",
+  "on": "2026-11-05",
   "events": [
    {
     "title": "Dave Attell",
@@ -2202,16 +2239,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents Dave Attell. Doors 7:00 pm, show 8:00 pm.",
-    "category": "comedy"
-   },
-   {
-    "title": "Daniel Sloss",
-    "date": "2026-11-09",
-    "start": "19:00",
-    "end": null,
-    "price": null,
-    "description": "FPC Live presents Daniel Sloss. Doors 6:00 pm, show 7:00 pm.",
+    "description": "FPC Live presents comedian Dave Attell. Doors 7:00 pm, show 8:00 pm.",
     "category": "comedy"
    },
    {
@@ -2220,32 +2248,23 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "MDEV: The Kick-Off Event listed on the Orpheum Theatre page.",
+    "description": "Kick-off event listed at the Orpheum Theatre; no time or performer details given.",
     "category": "other"
    }
   ]
  },
  "https://www.cruciblemadison.com/calendar": {
-  "hash": "cc9da3fcda614fa65c997f7298dab0d377e90314",
-  "asked": "2026-11-02T21:59:28-06:00",
-  "on": "2026-11-02",
+  "hash": "33c4556ce304b96ca56d808f9c029448d6cbf06a",
+  "asked": "2026-11-05T12:46:36-06:00",
+  "on": "2026-11-05",
   "events": [
-   {
-    "title": "Crucible Karaoke",
-    "date": "2026-11-04",
-    "start": "18:30",
-    "end": null,
-    "price": null,
-    "description": "Brain Monkeys Media karaoke, doors 6:00 PM, 21+.",
-    "category": "karaoke"
-   },
    {
     "title": "Girls Night Out Australia Takeover",
     "date": "2026-11-05",
     "start": "19:00",
     "end": null,
     "price": 20,
-    "description": "Ladies night event, doors 7:00 PM, 21+. Tickets $20, $35 VIP.",
+    "description": "Ladies night event, doors 6:00 PM, 21+. $20/$35 VIP; tickets via Avenue Ticket.",
     "category": "other"
    },
    {
@@ -2254,8 +2273,26 @@
     "start": "21:00",
     "end": null,
     "price": 25,
-    "description": "Four live hardware artists linked together and mixed live by a DJ, doors 8:30 PM, 21+.",
+    "description": "3.5-hour set by four live hardware artists, mixed live by a DJ. Doors 8:30 PM, 21+.",
     "category": "music"
+   },
+   {
+    "title": "Leather + Lace",
+    "date": "2026-11-07",
+    "start": "20:30",
+    "end": null,
+    "price": 8,
+    "description": "Hard dance beats and club attire night hosted by Apollo Marquez. $8/$12 if dressed up, $25 otherwise. 21+.",
+    "category": "dance"
+   },
+   {
+    "title": "Trans Social Night",
+    "date": "2026-11-09",
+    "start": "18:00",
+    "end": null,
+    "price": 0,
+    "description": "Free low-pressure social event for trans community. 21+, no cover. Held 2nd and 4th Mondays.",
+    "category": "other"
    },
    {
     "title": "Crucible Karaoke",
@@ -2263,7 +2300,7 @@
     "start": "18:30",
     "end": null,
     "price": null,
-    "description": "Brain Monkeys Media karaoke, doors 6:00 PM, 21+.",
+    "description": "Doors 6:00 PM, singing starts 6:30. Powered by Brain Monkeys Media and Songbooks Online. 21+.",
     "category": "karaoke"
    },
    {
@@ -2272,7 +2309,7 @@
     "start": "19:00",
     "end": null,
     "price": 10,
-    "description": "Monthly Sensation dance party with an electroplay theme, doors 8:00 PM, 21+.",
+    "description": "Monthly Sensation party with electroplay theme; dance beats and space for play. Doors 8:00 PM, 21+.",
     "category": "dance"
    },
    {
@@ -2281,7 +2318,7 @@
     "start": "19:00",
     "end": null,
     "price": 15,
-    "description": "Presented by We Merge, a tropical-themed Bubblegum party, doors 7:00 PM, 21+.",
+    "description": "Presented by We Merge. Tropical-themed Bubblegum party, last one before Mozel moves to Florida. Doors 7:00 PM, 21+.",
     "category": "dance"
    },
    {
@@ -2290,7 +2327,7 @@
     "start": "19:00",
     "end": null,
     "price": 18,
-    "description": "90-minute monthly burlesque revue with headliners and local performers, doors 6:00 PM, 21+.",
+    "description": "90-minute monthly burlesque revue with headliners and local favorites. Doors 6:00 PM, 21+.",
     "category": "other"
    },
    {
@@ -2299,8 +2336,35 @@
     "start": "21:00",
     "end": null,
     "price": 15,
-    "description": "Live performance by Ayria, with dance music before and after, doors 9:00 PM, 21+.",
+    "description": "Live performance by Canadian industrial artist Ayria, with dance music before and after. $15/$18. 21+.",
     "category": "music"
+   },
+   {
+    "title": "Crucible Karaoke",
+    "date": "2026-11-18",
+    "start": "18:30",
+    "end": null,
+    "price": null,
+    "description": "Doors 6:00 PM, singing starts 6:30. Powered by Brain Monkeys Media and Songbooks Online. 21+.",
+    "category": "karaoke"
+   },
+   {
+    "title": "Words with Nerds",
+    "date": "2026-11-19",
+    "start": "19:00",
+    "end": null,
+    "price": 15,
+    "description": "Infotainment show mixing TED-style talks with stand-up comedy. $15 advance, $20 day of, $10 cash with student ID. Doors 6:30pm.",
+    "category": "comedy"
+   },
+   {
+    "title": "Goth AF presents: The Darkness",
+    "date": "2026-11-19",
+    "start": "21:00",
+    "end": null,
+    "price": 5,
+    "description": "Goth night event. Doors 9:00 PM, 18+.",
+    "category": "dance"
    }
   ]
  },
