@@ -99,11 +99,6 @@
   "why": "",
   "checked": "2026-11-03T21:02:06.238024-06:00"
  },
- "https://www.theatwoodmusichall.com/shows/2026-11-4": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-03T21:02:06.238035-06:00"
- },
  "https://barrymorelive.com/event/a-celebration-of-howard-zinn/": {
   "ok": true,
   "why": "",
@@ -2402,42 +2397,42 @@
  "https://www.ticketmaster.com/event/Z7r9jZ1AA7eos": {
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-10-28T21:28:54.915067-05:00"
+  "checked": "2026-11-04T21:31:03.884084-06:00"
  },
  "https://thelonegirl.com/event/lone-girl-brewing-wednesday-trivia/": {
   "ok": true,
   "why": "",
-  "checked": "2026-10-28T21:28:54.915095-05:00"
+  "checked": "2026-11-04T21:31:04.591690-06:00"
  },
  "https://www.theatwoodmusichall.com/shows/2026-11-11": {
   "ok": true,
   "why": "",
-  "checked": "2026-10-28T21:28:54.915105-05:00"
+  "checked": "2026-11-04T21:31:04.591714-06:00"
  },
  "https://www.cafecoda.club/events-1/jumptown-swing-pdfmn-59jkp-yjsp4-fbnmd-mlydx-t82hk-cxh26-yjmcz-24589-r35gr-bj2kg-w8zz3-rycxr-9jdhz-9zrws-lb23r": {
   "ok": true,
   "why": "",
-  "checked": "2026-10-28T21:28:55.008916-05:00"
+  "checked": "2026-11-04T21:31:05.857865-06:00"
  },
  "https://www.ticketmaster.com/dr-neil-degrasse-tyson-search-for-madison-wisconsin-11-11-2026/event/0700648217A5C23C": {
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-10-28T21:28:56.060716-05:00"
+  "checked": "2026-11-04T21:31:05.857897-06:00"
  },
  "https://www.cafecoda.club/events-1/karaoke-nabjl-22c3f-gw57n-2m79c-a47wx-jblcs-4bcsl-mkd7s-ctsf4-p4hcx-t4n3x-xd9mh-c5tsy-cpczx-w6dsr-l2pex-rcndw": {
   "ok": true,
   "why": "",
-  "checked": "2026-10-28T21:28:56.060745-05:00"
+  "checked": "2026-11-04T21:31:05.857907-06:00"
  },
  "https://www.ticketmaster.com/low-cut-connie-madison-wisconsin-11-11-2026/event/0700648ACF826844": {
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-10-28T21:28:56.060754-05:00"
+  "checked": "2026-11-04T21:31:06.074136-06:00"
  },
  "https://www.ticketmaster.com/day-made-tour-ft-big-red-madison-wisconsin-11-11-2026/event/070064FEA670411C": {
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-10-28T21:28:57.218655-05:00"
+  "checked": "2026-11-04T21:31:07.174458-06:00"
  },
  "https://www.madisoncomedy.com/event/mic-on-state/2026-11-04/": {
   "ok": true,
@@ -3714,11 +3709,6 @@
   "why": "",
   "checked": "2026-11-02T22:00:58.323248-06:00"
  },
- "https://statestreetbrats.com/event/bucks-celtics-20261104/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-02T22:00:58.323254-06:00"
- },
  "https://onesocialmadison.com/event/microbiology-on-tap-with-uw/": {
   "ok": true,
   "why": "",
@@ -3919,16 +3909,6 @@
   "why": "",
   "checked": "2026-11-03T21:02:46.936441-06:00"
  },
- "https://www.madisonpubliclibrary.org/about/ashman.html": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-04T12:40:30.585495-06:00"
- },
- "https://www.madisonpubliclibrary.org/monroe-street": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-04T12:40:33.530692-06:00"
- },
  "https://www.madisonpubliclibrary.org/central": {
   "ok": true,
   "why": "",
@@ -3943,5 +3923,20 @@
   "ok": true,
   "why": "",
   "checked": "2026-11-04T12:40:33.530732-06:00"
+ },
+ "https://thelonegirl.com/event/lone-girl-brewing-wednesday-trivia-2/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-04T21:31:07.174504-06:00"
+ },
+ "https://www.ticketmaster.com/goodsource-presents-campus-nights-with-elevation-madison-wisconsin-11-18-2026/event/070064F695CE3139": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-11-04T21:31:08.272181-06:00"
+ },
+ "https://www.cafecoda.club/events-1/jumptown-swing-pdfmn-59jkp-yjsp4-fbnmd-mlydx-t82hk-cxh26-yjmcz-24589-r35gr-bj2kg-w8zz3-rycxr-9jdhz-9zrws-lb23r-s8kwh": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-04T21:31:08.272205-06:00"
  }
 }

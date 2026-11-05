@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-04T12:40:29-06:00",
+ "generated_at": "2026-11-04T21:31:03-06:00",
  "window": {
-  "from": "2026-11-04T06:38-06:00",
-  "to": "2026-11-18T12:38-06:00"
+  "from": "2026-11-04T15:29-06:00",
+  "to": "2026-11-18T21:29-06:00"
  },
- "count": 421,
+ "count": 408,
  "events": [
   {
    "id": "76df18f93d23",
@@ -23,104 +23,6 @@
    "address": "89 East Towne Mall",
    "lat": 43.125232,
    "lon": -89.305199,
-   "source": "extra",
-   "via": "Isthmus",
-   "sources": [
-    "Isthmus"
-   ],
-   "link_ok": null
-  },
-  {
-   "id": "8f4ff991d05f",
-   "title": "Scandinavian-American Old Time Dance Music Ensemble",
-   "start": "2026-11-04T12:45-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "music",
-   "price": 15.0,
-   "description": "",
-   "url": "",
-   "image": "",
-   "venue": "Muso",
-   "venue_id": "cal:muso",
-   "venue_kind": "venue",
-   "address": "Winnebago Street",
-   "lat": 43.093165,
-   "lon": -89.354489,
-   "source": "extra",
-   "via": "Isthmus",
-   "sources": [
-    "Isthmus"
-   ],
-   "link_ok": null
-  },
-  {
-   "id": "330d07ada292",
-   "title": "Witch",
-   "start": "2026-11-04T13:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "theater",
-   "price": null,
-   "description": "",
-   "url": "",
-   "image": "",
-   "venue": "American Players Theatre",
-   "venue_id": "cal:american-players-theatre",
-   "venue_kind": "venue",
-   "address": "5950",
-   "lat": 43.143286,
-   "lon": -90.039663,
-   "source": "extra",
-   "via": "Isthmus",
-   "city": "Spring Green",
-   "sources": [
-    "Isthmus"
-   ],
-   "link_ok": null
-  },
-  {
-   "id": "d7620bf15c7a",
-   "title": "Bluegrass Jam",
-   "start": "2026-11-04T13:00-06:00",
-   "end": "2026-11-04T15:00-06:00",
-   "all_day": false,
-   "category": "music",
-   "price": 0.0,
-   "description": "",
-   "url": "https://www.harmonybarandgrill.com/",
-   "image": "",
-   "venue": "Harmony Bar & Grill",
-   "venue_id": "osm:way/345773988",
-   "venue_kind": "bar",
-   "address": "2201 Atwood Avenue",
-   "lat": 43.0930561,
-   "lon": -89.3492054,
-   "source": "extra",
-   "via": "Isthmus",
-   "city": "Madison",
-   "sources": [
-    "Isthmus"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "e8ac63940a4c",
-   "title": "Green Fire Cafe",
-   "start": "2026-11-04T15:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "",
-   "url": "",
-   "image": "",
-   "venue": "Location not listed",
-   "venue_id": "cal:unknown",
-   "venue_kind": "venue",
-   "address": "",
-   "lat": null,
-   "lon": null,
    "source": "extra",
    "via": "Isthmus",
    "sources": [
@@ -320,121 +222,6 @@
    "link_ok": null
   },
   {
-   "id": "78f38bb1cf50",
-   "title": "Journaling for Mental Health",
-   "start": "2026-11-04T17:30-06:00",
-   "end": "2026-11-04T18:30-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Six-part journaling workshop for mental health, with a therapeutic writing prompt each week. Held in the Community Room.",
-   "url": "https://www.madisonpubliclibrary.org/about/ashman.html",
-   "image": "",
-   "venue": "Alicia Ashman Library",
-   "venue_id": "osm:node/790662052",
-   "venue_kind": "library",
-   "address": "733 North High Point Road",
-   "lat": 43.0760994,
-   "lon": -89.5175827,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "b8990ae0a3be",
-   "title": "Journaling for Mental Health",
-   "start": "2026-11-04T17:30-06:00",
-   "end": "2026-11-04T18:30-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Journaling for mental health at Imagination Center Library, Community Room.",
-   "url": "https://www.madisonpubliclibrary.org/locations/imagination-center",
-   "image": "",
-   "venue": "Imagination Center",
-   "venue_id": "osm:way/1562302805",
-   "venue_kind": "library",
-   "address": "1814 Parkside Drive",
-   "lat": 43.1240118,
-   "lon": -89.3168809,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "ba2e4988f976",
-   "title": "Journaling for Mental Health",
-   "start": "2026-11-04T17:30-06:00",
-   "end": "2026-11-04T18:30-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Six-part journaling workshop for mental health, with a therapeutic writing prompt each week. Held in the Community Room.",
-   "url": "https://www.madisonpubliclibrary.org/monroe-street",
-   "image": "",
-   "venue": "Monroe Street Library",
-   "venue_id": "osm:way/241508509",
-   "venue_kind": "library",
-   "address": "1705 Monroe Street",
-   "lat": 43.0659388,
-   "lon": -89.4152059,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "d07ea045fea5",
-   "title": "Journaling for Mental Health",
-   "start": "2026-11-04T17:30-06:00",
-   "end": "2026-11-04T18:30-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Journaling for mental health at Imagination Center Library, Community Room.",
-   "url": "https://www.madisonpubliclibrary.org/locations/pinney-library",
-   "image": "",
-   "venue": "Pinney Library",
-   "venue_id": "osm:node/7234376294",
-   "venue_kind": "library",
-   "address": "516 Cottage Grove Road",
-   "lat": 43.0841729,
-   "lon": -89.3176486,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "c9137bc9d3c2",
-   "title": "Journaling for Mental Health",
-   "start": "2026-11-04T17:30-06:00",
-   "end": "2026-11-04T18:30-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Journaling for mental health at Imagination Center Library, Community Room.",
-   "url": "https://www.madisonpubliclibrary.org/sequoya",
-   "image": "",
-   "venue": "Sequoya Library",
-   "venue_id": "osm:node/1473488018",
-   "venue_kind": "library",
-   "address": "4340 Tokay Boulevard",
-   "lat": 43.0537698,
-   "lon": -89.4505289,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "a3eec1db8b29",
    "title": "Post-Election Threshold Ritual",
    "start": "2026-11-04T18:00-06:00",
@@ -508,29 +295,6 @@
    "link_ok": null
   },
   {
-   "id": "aff1a3a2444e",
-   "title": "The Art of Neighborships: Open Studio with Artist-in-Residence Carrie Breunig",
-   "start": "2026-11-04T18:00-06:00",
-   "end": "2026-11-04T20:00-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Drop-in open studio with 2026 Pinney Studio Artist-in-Residence Carrie Breunig.",
-   "url": "https://www.madisonpubliclibrary.org/locations/pinney-library",
-   "image": "",
-   "venue": "Pinney Library",
-   "venue_id": "osm:node/7234376294",
-   "venue_kind": "library",
-   "address": "516 Cottage Grove Road",
-   "lat": 43.0841729,
-   "lon": -89.3176486,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "95481a8e4b82",
    "title": "Bingo",
    "start": "2026-11-04T18:00-06:00",
@@ -551,29 +315,6 @@
    "via": "Isthmus",
    "sources": [
     "Isthmus"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "aa1b98e2f1c4",
-   "title": "\"We Will Win\" Family Fun Night",
-   "start": "2026-11-04T18:00-06:00",
-   "end": "2026-11-04T20:00-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Family fun night for families and teens.",
-   "url": "https://www.sunprairiepubliclibrary.org/",
-   "image": "",
-   "venue": "Sun Prairie Public Library",
-   "venue_id": "osm:way/600866560",
-   "venue_kind": "library",
-   "address": "1350 Linnerud Drive",
-   "lat": 43.1757782,
-   "lon": -89.2353415,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
    ],
    "link_ok": true
   },
@@ -891,75 +632,6 @@
    "link_ok": true
   },
   {
-   "id": "e2adfad804c6",
-   "title": "Book Discussion: UW-Madison's Go Big Read 'Custodians of Wonder'",
-   "start": "2026-11-04T18:30-06:00",
-   "end": "2026-11-04T20:00-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Book discussion of Eliot Stein's 'Custodians of Wonder' in Community Room B.",
-   "url": "https://www.madisonpubliclibrary.org/locations/pinney-library",
-   "image": "",
-   "venue": "Pinney Library",
-   "venue_id": "osm:node/7234376294",
-   "venue_kind": "library",
-   "address": "516 Cottage Grove Road",
-   "lat": 43.0841729,
-   "lon": -89.3176486,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "d07ba293d2ef",
-   "title": "Bucks @ Celtics",
-   "start": "2026-11-04T18:30-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "music",
-   "price": null,
-   "description": "",
-   "url": "https://statestreetbrats.com/event/bucks-celtics-20261104/",
-   "image": "",
-   "venue": "State Street Brats",
-   "venue_id": "osm:way/886357869",
-   "venue_kind": "bar",
-   "address": "603 State Street",
-   "lat": 43.0746889,
-   "lon": -89.395998,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "d4337791985d",
-   "title": "Founders – Craft Beer Pinball League",
-   "start": "2026-11-04T18:30-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "trivia",
-   "price": null,
-   "description": "League night with Founders Brewing Co. craft beer and pinball.",
-   "url": "https://thekickback.bar/",
-   "image": "",
-   "venue": "The Kickback",
-   "venue_id": "osm:node/12292190391",
-   "venue_kind": "bar",
-   "address": "7622 Lisa Lane",
-   "lat": 43.1092621,
-   "lon": -89.5123266,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "e4a1b670bfbd",
    "title": "Trivia",
    "start": "2026-11-04T18:30-06:00",
@@ -1004,29 +676,6 @@
    "via": "Isthmus",
    "sources": [
     "Isthmus"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "8fb50a26c5b0",
-   "title": "Music Makes a Difference Presents Adam Ezra Group with Sirsy",
-   "start": "2026-11-04T19:00-06:00",
-   "end": "2026-11-04T20:00-06:00",
-   "all_day": false,
-   "category": "music",
-   "price": 25.0,
-   "description": "Doors 7PM Show 8PM Seated Show Front Row Seating: $35ADV / $40DOS General Admission Seating: $20ADV / $25DOS",
-   "url": "https://www.theatwoodmusichall.com/shows/2026-11-4",
-   "image": "https://images.squarespace-cdn.com/content/v1/62cacf3906240b03a9e7209f/1775496964740-GOGYRXFOX0FL2YHTMV4P/aeg-2022.jpeg",
-   "venue": "Atwood Music Hall",
-   "venue_id": "osm:way/440518288",
-   "venue_kind": "venue",
-   "address": "1925 Winnebago Street",
-   "lat": 43.0909399,
-   "lon": -89.3556544,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
    ],
    "link_ok": true
   },
@@ -1102,29 +751,6 @@
     "Isthmus"
    ],
    "link_ok": null
-  },
-  {
-   "id": "880715e66c5e",
-   "title": "Mystery Book Discussion: The Last Murder at the End of the World",
-   "start": "2026-11-04T19:00-06:00",
-   "end": "2026-11-04T20:00-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Monthly mystery book discussion of The Last Murder at the End of the World by Stuart Turton. New members welcome.",
-   "url": "https://www.madisonpubliclibrary.org/central",
-   "image": "",
-   "venue": "Central Library",
-   "venue_id": "osm:way/102316433",
-   "venue_kind": "library",
-   "address": "201 West Mifflin Street",
-   "lat": 43.0736214,
-   "lon": -89.3875186,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
   },
   {
    "id": "249be65a65f0",
@@ -1273,29 +899,6 @@
    "link_ok": null
   },
   {
-   "id": "23e229399951",
-   "title": "Mystery Book Discussion: The Last Murder at the End of the World",
-   "start": "2026-11-04T19:00-06:00",
-   "end": "2026-11-04T20:00-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Monthly mystery book discussion of The Last Murder at the End of the World by Stuart Turton. New members welcome.",
-   "url": "https://www.madisonpubliclibrary.org/sequoya",
-   "image": "",
-   "venue": "Sequoya Library",
-   "venue_id": "osm:node/1473488018",
-   "venue_kind": "library",
-   "address": "4340 Tokay Boulevard",
-   "lat": 43.0537698,
-   "lon": -89.4505289,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "95a853ee427c",
    "title": "Trivia",
    "start": "2026-11-04T19:00-06:00",
@@ -1318,29 +921,6 @@
     "Isthmus"
    ],
    "link_ok": null
-  },
-  {
-   "id": "5d9c9a76b12b",
-   "title": "Mystery Book Club",
-   "start": "2026-11-04T19:00-06:00",
-   "end": "2026-11-04T20:00-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Mystery Book Club for adults at Sun Prairie Public Library.",
-   "url": "https://www.sunprairiepubliclibrary.org/",
-   "image": "",
-   "venue": "Sun Prairie Public Library",
-   "venue_id": "osm:way/600866560",
-   "venue_kind": "library",
-   "address": "1350 Linnerud Drive",
-   "lat": 43.1757782,
-   "lon": -89.2353415,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
   },
   {
    "id": "fd1ebb1da993",
@@ -2322,6 +1902,29 @@
    "link_ok": null
   },
   {
+   "id": "6b4c7d6e829f",
+   "title": "Naturalist-in-Residence - A Journey into the Quiet: An Adult Rest Experience",
+   "start": "2026-11-05T18:00-06:00",
+   "end": "2026-11-05T19:30-06:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Adult rest experience with the Imagination Center naturalist-in-residence, focused on the quiet of the season.",
+   "url": "https://www.madisonpubliclibrary.org/central",
+   "image": "",
+   "venue": "Central Library",
+   "venue_id": "osm:way/102316433",
+   "venue_kind": "library",
+   "address": "201 West Mifflin Street",
+   "lat": 43.0736214,
+   "lon": -89.3875186,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "99955b7fc8af",
    "title": "Open Trap Shoot",
    "start": "2026-11-05T18:00-06:00",
@@ -2487,6 +2090,29 @@
    "source": "scraped",
    "sources": [
     "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "2132628e63a8",
+   "title": "Naturalist-in-Residence - A Journey into the Quiet: An Adult Rest Experience",
+   "start": "2026-11-05T18:00-06:00",
+   "end": "2026-11-05T19:30-06:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Adult rest experience with the Naturalist-in-Residence, Community Room.",
+   "url": "https://www.madisonpubliclibrary.org/locations/imagination-center",
+   "image": "",
+   "venue": "Imagination Center",
+   "venue_id": "osm:way/1562302805",
+   "venue_kind": "library",
+   "address": "1814 Parkside Drive",
+   "lat": 43.1240118,
+   "lon": -89.3168809,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
    ],
    "link_ok": true
   },
@@ -2661,6 +2287,52 @@
    "link_ok": true
   },
   {
+   "id": "6fd0933496ed",
+   "title": "Naturalist-in-Residence - A Journey into the Quiet: An Adult Rest Experience",
+   "start": "2026-11-05T18:00-06:00",
+   "end": "2026-11-05T19:30-06:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Adult rest experience with the Naturalist-in-Residence, Community Room.",
+   "url": "https://www.madisonpubliclibrary.org/locations/pinney-library",
+   "image": "",
+   "venue": "Pinney Library",
+   "venue_id": "osm:node/7234376294",
+   "venue_kind": "library",
+   "address": "516 Cottage Grove Road",
+   "lat": 43.0841729,
+   "lon": -89.3176486,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "25fce1fa76b6",
+   "title": "Naturalist-in-Residence - A Journey into the Quiet: An Adult Rest Experience",
+   "start": "2026-11-05T18:00-06:00",
+   "end": "2026-11-05T19:30-06:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Adult rest experience with the Naturalist-in-Residence, Community Room.",
+   "url": "https://www.madisonpubliclibrary.org/sequoya",
+   "image": "",
+   "venue": "Sequoya Library",
+   "venue_id": "osm:node/1473488018",
+   "venue_kind": "library",
+   "address": "4340 Tokay Boulevard",
+   "lat": 43.0537698,
+   "lon": -89.4505289,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "7a89a0933376",
    "title": "Taste of Hope",
    "start": "2026-11-05T18:00-06:00",
@@ -2808,29 +2480,6 @@
    "link_ok": true
   },
   {
-   "id": "bb480087ab3f",
-   "title": "Naturalist-in-Residence - A Journey into the Quiet: An Adult Rest Experience",
-   "start": "2026-11-05T18:30-06:00",
-   "end": "2026-11-05T19:30-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Adult rest experience led by the Naturalist-in-Residence, Community Room.",
-   "url": "https://www.madisonpubliclibrary.org/locations/imagination-center",
-   "image": "",
-   "venue": "Imagination Center",
-   "venue_id": "osm:way/1562302805",
-   "venue_kind": "library",
-   "address": "1814 Parkside Drive",
-   "lat": 43.1240118,
-   "lon": -89.3168809,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "d700c6d0c34c",
    "title": "Buddhist Wisdom for Daily Life",
    "start": "2026-11-05T18:30-06:00",
@@ -2950,52 +2599,6 @@
    "link_ok": true
   },
   {
-   "id": "953fe923d030",
-   "title": "Naturalist-in-Residence - A Journey into the Quiet: An Adult Rest Experience",
-   "start": "2026-11-05T18:30-06:00",
-   "end": "2026-11-05T19:30-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Adult rest experience led by the Naturalist-in-Residence, Community Room.",
-   "url": "https://www.madisonpubliclibrary.org/locations/pinney-library",
-   "image": "",
-   "venue": "Pinney Library",
-   "venue_id": "osm:node/7234376294",
-   "venue_kind": "library",
-   "address": "516 Cottage Grove Road",
-   "lat": 43.0841729,
-   "lon": -89.3176486,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "94b2f40df8e5",
-   "title": "Naturalist-in-Residence - A Journey into the Quiet: An Adult Rest Experience",
-   "start": "2026-11-05T18:30-06:00",
-   "end": "2026-11-05T19:30-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Adult rest experience led by the Naturalist-in-Residence, Community Room.",
-   "url": "https://www.madisonpubliclibrary.org/sequoya",
-   "image": "",
-   "venue": "Sequoya Library",
-   "venue_id": "osm:node/1473488018",
-   "venue_kind": "library",
-   "address": "4340 Tokay Boulevard",
-   "lat": 43.0537698,
-   "lon": -89.4505289,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "7b41ac5fde1f",
    "title": "Music Bingo",
    "start": "2026-11-05T18:30-06:00",
@@ -3018,6 +2621,29 @@
     "Isthmus"
    ],
    "link_ok": null
+  },
+  {
+   "id": "ddb50f248dfb",
+   "title": "Cookbook Club",
+   "start": "2026-11-05T18:30-06:00",
+   "end": "2026-11-05T20:00-06:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Adult cookbook club at Sun Prairie Public Library.",
+   "url": "https://www.sunprairiepubliclibrary.org/",
+   "image": "",
+   "venue": "Sun Prairie Public Library",
+   "venue_id": "osm:way/600866560",
+   "venue_kind": "library",
+   "address": "1350 Linnerud Drive",
+   "lat": 43.1757782,
+   "lon": -89.2353415,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
   },
   {
    "id": "f34f839383df",
@@ -3541,7 +3167,7 @@
    "all_day": true,
    "category": "theater",
    "price": null,
-   "description": "Listed as a Just Announced event at the Orpheum. No time or details given on the page.",
+   "description": "MDEV: The Kick-Off Event listed on the Orpheum Theatre page.",
    "url": "https://madisonorpheum.com/",
    "image": "",
    "venue": "Orpheum Theatre",
@@ -3790,14 +3416,14 @@
    "link_ok": true
   },
   {
-   "id": "bbe56af4862f",
-   "title": "Comedy Variety Hour (and a half!) presented by Mark Hayward",
+   "id": "4ba01df91b89",
+   "title": "Comedy Variety Hour (and a half!)",
    "start": "2026-11-06T19:00-06:00",
    "end": "2026-11-06T20:30-06:00",
    "all_day": false,
    "category": "comedy",
    "price": 20.0,
-   "description": "All-ages, clean live magic and comedy variety show at Starlight Theater, MYArts 4th floor. Ages 6+. Tickets $20-35.",
+   "description": "Live all-ages clean comedy and magic hosted by Mark Hayward, Starlight Theater, MYArts 4th floor. Ages 6+. Tickets $20–$35.",
    "url": "https://www.madisonyoutharts.org/",
    "image": "",
    "venue": "Madison Youth Arts (MYArts)",
@@ -3866,7 +3492,7 @@
    "all_day": false,
    "category": "trivia",
    "price": null,
-   "description": "Pinball and craft beer night.",
+   "description": "Friday night pinball event with craft beer.",
    "url": "https://thekickback.bar/",
    "image": "",
    "venue": "The Kickback",
@@ -3887,9 +3513,9 @@
    "start": "2026-11-06T19:00-06:00",
    "end": null,
    "all_day": false,
-   "category": "trivia",
+   "category": "sports",
    "price": null,
-   "description": "Super Smash Bros Ultimate tournament on Switch 2.",
+   "description": "Super Smash Bros tournament on Switch 2.",
    "url": "https://thekickback.bar/",
    "image": "",
    "venue": "The Kickback",
@@ -4699,13 +4325,13 @@
   },
   {
    "id": "8fcb52fcc1ee",
-   "title": "LunArt: DARK TALES - An Evening of Music and Mystery",
+   "title": "LunArt: DARK TALES – An Evening of Music and Mystery",
    "start": "2026-11-07T19:30-06:00",
    "end": null,
    "all_day": false,
    "category": "music",
    "price": 35.0,
-   "description": "Evening of choral music by the LunART Treble Choir plus a world premiere staging of Edgar Allan Poe's 'The Cask of Amontillado' with actors and chamber music, at Starlight Theater. Tickets $35-45.",
+   "description": "Choral pieces by the LunART Treble Choir plus a world premiere staging of Poe's \"The Cask of Amontillado\" with actors and chamber music. Starlight Theater. Tickets $35–$45.",
    "url": "https://www.madisonyoutharts.org/",
    "image": "",
    "venue": "Madison Youth Arts (MYArts)",
@@ -4960,7 +4586,7 @@
    "all_day": true,
    "category": "music",
    "price": 20.0,
-   "description": "Launch party and music benefit. Suggested $20 donation at the door.",
+   "description": "Launch party and music benefit at High Noon Saloon. Suggested $20 donation at the door.",
    "url": "https://www.high-noon.com/",
    "image": "",
    "venue": "High Noon Saloon",
@@ -5073,9 +4699,9 @@
    "start": "2026-11-08T12:00-06:00",
    "end": null,
    "all_day": false,
-   "category": "music",
+   "category": "sports",
    "price": null,
-   "description": "Kickback9 pin-golf league session with Yuengling and craft beer.",
+   "description": "Session 2 of the Kickback9 Pin-Golf tour, with Wisconsin Pin-Golf and league play.",
    "url": "https://thekickback.bar/",
    "image": "",
    "venue": "The Kickback",
@@ -5798,7 +5424,7 @@
    "all_day": false,
    "category": "trivia",
    "price": null,
-   "description": "Weekly Premier Trivia Tuesday.",
+   "description": "Tuesday trivia night.",
    "url": "https://thekickback.bar/",
    "image": "",
    "venue": "The Kickback",
@@ -6139,29 +5765,6 @@
    "city": "Madison",
    "sources": [
     "Isthmus"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "f26b0b385937",
-   "title": "The Art of Neighborships: Open Studio with Artist-in-Residence Carrie Breunig",
-   "start": "2026-11-11T18:00-06:00",
-   "end": "2026-11-11T20:00-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Drop-in open studio on Wednesdays this autumn (Sept-Nov) with Carrie Breunig.",
-   "url": "https://www.madisonpubliclibrary.org/locations/pinney-library",
-   "image": "",
-   "venue": "Pinney Library",
-   "venue_id": "osm:node/7234376294",
-   "venue_kind": "library",
-   "address": "516 Cottage Grove Road",
-   "lat": 43.0841729,
-   "lon": -89.3176486,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
    ],
    "link_ok": true
   },
@@ -8023,7 +7626,7 @@
    "all_day": false,
    "category": "trivia",
    "price": null,
-   "description": "Fallout launch party with craft beer and pinball.",
+   "description": "Launch party for Fallout with craft beer and pinball.",
    "url": "https://thekickback.bar/",
    "image": "",
    "venue": "The Kickback",
@@ -8407,29 +8010,6 @@
     "Isthmus"
    ],
    "link_ok": null
-  },
-  {
-   "id": "20fb63c50329",
-   "title": "Art Club for Families - D.I.Y. Neck Ties and Glasses",
-   "start": "2026-11-14T11:00-06:00",
-   "end": "2026-11-14T12:00-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Family art club making DIY neck ties and glasses at Monroe Street Library.",
-   "url": "https://www.madisonpubliclibrary.org/monroe-street",
-   "image": "",
-   "venue": "Monroe Street Library",
-   "venue_id": "osm:way/241508509",
-   "venue_kind": "library",
-   "address": "1705 Monroe Street",
-   "lat": 43.0659388,
-   "lon": -89.4152059,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
   },
   {
    "id": "e5a713d31c84",
@@ -9139,7 +8719,7 @@
    "all_day": false,
    "category": "bingo",
    "price": null,
-   "description": "Meat raffle benefiting Fetch WI Rescue, with prizes and Jenny St Market.",
+   "description": "Meat raffle benefiting Fetch WI Rescue, with prizes from Jenny St Market and New Belgium Brewing.",
    "url": "https://thekickback.bar/",
    "image": "",
    "venue": "The Kickback",
@@ -9742,7 +9322,7 @@
    "all_day": false,
    "category": "trivia",
    "price": null,
-   "description": "Weekly Premier Trivia Tuesday.",
+   "description": "Tuesday trivia night.",
    "url": "https://thekickback.bar/",
    "image": "",
    "venue": "The Kickback",
@@ -9920,6 +9500,121 @@
     "Isthmus"
    ],
    "link_ok": null
+  },
+  {
+   "id": "94dae6ebccbd",
+   "title": "Adult Craft Club",
+   "start": "2026-11-18T18:30-06:00",
+   "end": "2026-11-18T19:30-06:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Event Description Come join us for a night of crafting! We'll be making felt quilt garlands. SPACE IS LIMITED, REGISTRATION IS REQUIRED AND OPENS NOVEMBER 11.",
+   "url": "https://www.mcfarlandlibrary.org/home",
+   "image": "",
+   "venue": "E.D. Locke Public Library",
+   "venue_id": "osm:way/386578862",
+   "venue_kind": "library",
+   "address": "5920 Milwaukee Street",
+   "lat": 43.0136038,
+   "lon": -89.2883391,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "745baeb5c672",
+   "title": "Trivia Nights • Every Wednesday at The Lone Girl with King Trivia",
+   "start": "2026-11-18T18:30-06:00",
+   "end": "2026-11-18T20:30-06:00",
+   "all_day": false,
+   "category": "trivia",
+   "price": 0.0,
+   "description": "PUB TRIVIA with King Trivia every Wednesday night at LG-Waunakee at 6:30PM! Free to Play! Grab your crew. Let the bragging rights begin. Drink Up. Dig In. Have Fun. Repeat weekly. Through the end of December, join the Lone Girl Trivia Challenge for even more chances to win cool prizes!",
+   "url": "https://thelonegirl.com/event/lone-girl-brewing-wednesday-trivia-2/",
+   "image": "https://thelonegirl.com/wp-content/uploads/2026/04/Lone-Girl-Social-Square.jpg",
+   "venue": "Lone Girl Tap Room And Pizza Company",
+   "venue_id": "osm:node/12641566168",
+   "venue_kind": "bar",
+   "address": "1817 East Washington Avenue",
+   "lat": 43.0907077,
+   "lon": -89.3608921,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "aafa685d1232",
+   "title": "New Glarus – Craft Beer Pinball League",
+   "start": "2026-11-18T18:30-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "trivia",
+   "price": null,
+   "description": "Craft Beer Pinball League night featuring New Glarus Brewing and Big Grove Brewery.",
+   "url": "https://thekickback.bar/",
+   "image": "",
+   "venue": "The Kickback",
+   "venue_id": "osm:node/12292190391",
+   "venue_kind": "bar",
+   "address": "7622 Lisa Lane",
+   "lat": 43.1092621,
+   "lon": -89.5123266,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "c4d1a7f31738",
+   "title": "Goodsource Presents: Campus Nights With Elevation Rhythm",
+   "start": "2026-11-18T19:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "music",
+   "price": null,
+   "description": "Religious / Gospel",
+   "url": "https://www.ticketmaster.com/goodsource-presents-campus-nights-with-elevation-madison-wisconsin-11-18-2026/event/070064F695CE3139",
+   "image": "https://s1.ticketm.net/dam/a/872/87fdd57c-e642-45e0-9baf-2037265a2872_RETINA_PORTRAIT_16_9.jpg",
+   "venue": "Orpheum Theatre",
+   "venue_id": "osm:way/102371335",
+   "venue_kind": "venue",
+   "address": "216 State Street",
+   "lat": 43.0751836,
+   "lon": -89.3887291,
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster"
+   ],
+   "link_ok": null
+  },
+  {
+   "id": "c30df9a6b953",
+   "title": "Jumptown Swing",
+   "start": "2026-11-18T19:30-06:00",
+   "end": "2026-11-18T22:00-06:00",
+   "all_day": false,
+   "category": "food",
+   "price": null,
+   "description": "Neither snow nor rain nor sleet nor flurries nor gloom of night stays these dancers from Jumptown's weekly Wednesday Social at Cafe Coda! New to Swing dancing? No problem! There's a beginner-friendly 6-count Lindy lesson at 7:30 pm! Then stay for the social and a flurry of dancing with your cool new",
+   "url": "https://www.cafecoda.club/events-1/jumptown-swing-pdfmn-59jkp-yjsp4-fbnmd-mlydx-t82hk-cxh26-yjmcz-24589-r35gr-bj2kg-w8zz3-rycxr-9jdhz-9zrws-lb23r-s8kwh",
+   "image": "https://images.squarespace-cdn.com/content/v1/6914abebeed4305fd5ea6ea5/1791993152176-P6JRMYXMBRV7T8R6ZPY3/swing+dance+1.jpg",
+   "venue": "Cafe CODA",
+   "venue_id": "osm:way/385639191",
+   "venue_kind": "bar",
+   "address": "1224 Williamson Street",
+   "lat": 43.0839938,
+   "lon": -89.3638172,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
   }
  ]
 }

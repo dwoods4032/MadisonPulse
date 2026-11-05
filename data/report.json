@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-04T12:40:29-06:00",
+ "generated_at": "2026-11-04T21:31:03-06:00",
  "venues_checked": 237,
- "venues_with_events": 64,
+ "venues_with_events": 65,
  "venues_with_feeds": 86,
- "events": 421,
- "filtered_out": 103,
+ "events": 408,
+ "filtered_out": 110,
  "venues": [
   {
    "name": "AI page reading",
@@ -13,12 +13,12 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 202,
+   "raw_events": 198,
    "error": "",
-   "calls": 23,
-   "tokens_in": 44576,
-   "tokens_out": 18122,
-   "est_cost_usd": 0.0135
+   "calls": 12,
+   "tokens_in": 32353,
+   "tokens_out": 12824,
+   "est_cost_usd": 0.0096
   },
   {
    "name": "Isthmus calendar",
@@ -28,7 +28,7 @@
     "calendar"
    ],
    "raw_events": 181,
-   "error": ""
+   "error": "used today's copy (read once a day)"
   },
   {
    "name": "Ticketmaster",
@@ -51,7 +51,7 @@
     "squarespace",
     "jsonld"
    ],
-   "raw_events": 39,
+   "raw_events": 38,
    "error": ""
   },
   {
@@ -62,7 +62,7 @@
     "ical",
     "ical"
    ],
-   "raw_events": 33,
+   "raw_events": 35,
    "error": "ical: ConnectionError: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //www.mcfarlandlibrary.org/calendar/month (Caused by NameResolutionError(\"HTTPSConnection(host='https"
   },
   {
@@ -120,19 +120,19 @@
    "error": ""
   },
   {
-   "name": "High Noon Saloon",
-   "kind": "bar",
-   "website": "https://www.high-noon.com/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 17,
-   "error": ""
-  },
-  {
    "name": "Harmony Bar & Grill",
    "kind": "bar",
    "website": "https://www.harmonybarandgrill.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 16,
+   "error": ""
+  },
+  {
+   "name": "High Noon Saloon",
+   "kind": "bar",
+   "website": "https://www.high-noon.com/",
    "feeds": [
     "ai"
    ],
@@ -168,16 +168,6 @@
    "error": ""
   },
   {
-   "name": "Pinney Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 11,
-   "error": ""
-  },
-  {
    "name": "Arts + Literature Laboratory",
    "kind": "venue",
    "website": "https://artlitlab.org/",
@@ -193,16 +183,6 @@
    "website": "https://www.gibs.bar/",
    "feeds": [
     "squarespace"
-   ],
-   "raw_events": 10,
-   "error": ""
-  },
-  {
-   "name": "Sequoya Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/sequoya",
-   "feeds": [
-    "ai"
    ],
    "raw_events": 10,
    "error": ""
@@ -231,6 +211,16 @@
    "name": "Gamma Ray Bar",
    "kind": "bar",
    "website": "https://gammaray.bar",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 9,
+   "error": ""
+  },
+  {
+   "name": "Orpheum Theatre",
+   "kind": "venue",
+   "website": "https://madisonorpheum.com/",
    "feeds": [
     "ai"
    ],
@@ -279,19 +269,29 @@
    "error": ""
   },
   {
-   "name": "Orpheum Theatre",
-   "kind": "venue",
-   "website": "https://madisonorpheum.com/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 8,
-   "error": ""
-  },
-  {
    "name": "Imagination Center",
    "kind": "library",
    "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 7,
+   "error": ""
+  },
+  {
+   "name": "Sequoya Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/sequoya",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 7,
+   "error": ""
+  },
+  {
+   "name": "Monroe Street Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/monroe-street",
    "feeds": [
     "ai"
    ],
@@ -299,9 +299,19 @@
    "error": ""
   },
   {
-   "name": "Central Library",
+   "name": "Pinney Library",
    "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/central",
+   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 6,
+   "error": ""
+  },
+  {
+   "name": "Alicia Ashman Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
    "feeds": [
     "ai"
    ],
@@ -385,16 +395,6 @@
    "error": ""
   },
   {
-   "name": "Monroe Street Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/monroe-street",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 4,
-   "error": ""
-  },
-  {
    "name": "State Line Distillery",
    "kind": "brewery",
    "website": "https://www.statelinedistillery.com/",
@@ -410,6 +410,19 @@
    "website": "https://www.veracourt.org/",
    "feeds": [
     "squarespace",
+    "jsonld",
+    "jsonld",
+    "jsonld"
+   ],
+   "raw_events": 4,
+   "error": ""
+  },
+  {
+   "name": "Waunakee Public Library",
+   "kind": "library",
+   "website": "https://www.waunakeepubliclibrary.org/",
+   "feeds": [
+    "jsonld",
     "jsonld",
     "jsonld",
     "jsonld"
@@ -532,6 +545,16 @@
    "error": ""
   },
   {
+   "name": "Central Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/central",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 2,
+   "error": ""
+  },
+  {
    "name": "Centro",
    "kind": "community",
    "website": "https://www.micentro.org/",
@@ -580,16 +603,6 @@
     "ai"
    ],
    "raw_events": 2,
-   "error": ""
-  },
-  {
-   "name": "Alicia Ashman Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 1,
    "error": ""
   },
   {
@@ -2030,19 +2043,6 @@
    "kind": "bar",
    "website": "https://wandosbar.com/",
    "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Waunakee Public Library",
-   "kind": "library",
-   "website": "https://www.waunakeepubliclibrary.org/",
-   "feeds": [
-    "jsonld",
-    "jsonld",
-    "jsonld",
-    "jsonld"
-   ],
    "raw_events": 0,
    "error": ""
   },

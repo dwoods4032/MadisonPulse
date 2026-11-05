@@ -1,20 +1,19 @@
 {
- "generated_at": "2026-11-04T12:40:29-06:00",
- "total_events": 421,
+ "generated_at": "2026-11-04T21:31:03-06:00",
+ "total_events": 408,
  "in_more_than_one_source": 27,
  "sources": {
   "AI page reading": {
-   "events": 154,
-   "unique_events": 135,
+   "events": 143,
+   "unique_events": 124,
    "overlap": {
     "Isthmus": 3,
     "Ticketmaster": 16,
     "Venue websites": 0
    },
-   "venues": 37,
+   "venues": 35,
    "unique_venues": [
     "Aftershock Classic Arcade",
-    "Alicia Ashman Library",
     "Arts + Literature Laboratory",
     "Bartell Theatre",
     "Capital Brewery",
@@ -30,7 +29,6 @@
     "Lazy Oaf Lounge",
     "Madison Youth Arts (MYArts)",
     "Monkeyshines Bar & Grill",
-    "Monroe Street Library",
     "Mother Fool's",
     "Old Sugar Distillery",
     "Oscar Rennebohm Library",
@@ -45,8 +43,8 @@
    ]
   },
   "Isthmus": {
-   "events": 167,
-   "unique_events": 159,
+   "events": 163,
+   "unique_events": 155,
    "overlap": {
     "AI page reading": 3,
     "Ticketmaster": 2,
@@ -116,8 +114,8 @@
    ]
   },
   "Ticketmaster": {
-   "events": 55,
-   "unique_events": 34,
+   "events": 56,
+   "unique_events": 35,
    "overlap": {
     "AI page reading": 16,
     "Isthmus": 2,
@@ -133,8 +131,8 @@
    ]
   },
   "Venue websites": {
-   "events": 72,
-   "unique_events": 66,
+   "events": 73,
+   "unique_events": 67,
    "overlap": {
     "AI page reading": 0,
     "Isthmus": 3,

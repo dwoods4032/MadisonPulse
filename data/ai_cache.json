@@ -1135,26 +1135,17 @@
   "events": []
  },
  "https://thekickback.bar/upcoming-events/": {
-  "hash": "65e78ad18ee7022b6643b230df208f6b150075af",
-  "asked": "2026-11-03T21:00:49-06:00",
-  "on": "2026-11-03",
+  "hash": "335d82fdd5daf7b5e76d20853363818e136d7084",
+  "asked": "2026-11-04T21:29:57-06:00",
+  "on": "2026-11-04",
   "events": [
-   {
-    "title": "Founders – Craft Beer Pinball League",
-    "date": "2026-11-04",
-    "start": "18:30",
-    "end": null,
-    "price": null,
-    "description": "League night with Founders Brewing Co. craft beer and pinball.",
-    "category": "other"
-   },
    {
     "title": "Friday Night Strikes",
     "date": "2026-11-06",
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Pinball and craft beer night.",
+    "description": "Friday night pinball event with craft beer.",
     "category": "other"
    },
    {
@@ -1163,8 +1154,8 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Super Smash Bros Ultimate tournament on Switch 2.",
-    "category": "other"
+    "description": "Super Smash Bros tournament on Switch 2.",
+    "category": "sports"
    },
    {
     "title": "Yuengling Presents: Kickback9 Pin-Golf Tour 4 Session 2",
@@ -1172,8 +1163,8 @@
     "start": "12:00",
     "end": null,
     "price": null,
-    "description": "Kickback9 pin-golf league session with Yuengling and craft beer.",
-    "category": "other"
+    "description": "Session 2 of the Kickback9 Pin-Golf tour, with Wisconsin Pin-Golf and league play.",
+    "category": "sports"
    },
    {
     "title": "Premier Trivia Tuesday!",
@@ -1181,7 +1172,7 @@
     "start": "18:30",
     "end": null,
     "price": null,
-    "description": "Weekly Premier Trivia Tuesday.",
+    "description": "Tuesday trivia night.",
     "category": "trivia"
    },
    {
@@ -1190,7 +1181,7 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Fallout launch party with craft beer and pinball.",
+    "description": "Launch party for Fallout with craft beer and pinball.",
     "category": "other"
    },
    {
@@ -1217,7 +1208,7 @@
     "start": "13:00",
     "end": null,
     "price": null,
-    "description": "Meat raffle benefiting Fetch WI Rescue, with prizes and Jenny St Market.",
+    "description": "Meat raffle benefiting Fetch WI Rescue, with prizes from Jenny St Market and New Belgium Brewing.",
     "category": "other"
    },
    {
@@ -1226,8 +1217,17 @@
     "start": "18:30",
     "end": null,
     "price": null,
-    "description": "Weekly Premier Trivia Tuesday.",
+    "description": "Tuesday trivia night.",
     "category": "trivia"
+   },
+   {
+    "title": "New Glarus – Craft Beer Pinball League",
+    "date": "2026-11-18",
+    "start": "18:30",
+    "end": null,
+    "price": null,
+    "description": "Craft Beer Pinball League night featuring New Glarus Brewing and Big Grove Brewery.",
+    "category": "other"
    }
   ]
  },
@@ -1626,8 +1626,8 @@
   "events": []
  },
  "https://www.madisonpubliclibrary.org/spaces/events": {
-  "hash": "e6705a7c9b3ba8c9149be22c4b6b6cc4ef3b7cd7",
-  "asked": "2026-11-04T12:39:39-06:00",
+  "hash": "9f47d844486ae600cd34279366c4776548366b16",
+  "asked": "2026-11-04T21:30:44-06:00",
   "on": "2026-11-04",
   "events": []
  },
@@ -1681,44 +1681,17 @@
   "events": []
  },
  "https://www.sunprairiepubliclibrary.org/home-delivery-service": {
-  "hash": "f671df20b2afed42d8758ca3581e9898786dc45d",
-  "asked": "2026-11-03T21:01:40-06:00",
-  "on": "2026-11-03",
+  "hash": "cef4d897d78aa7789ab2d95761e8640b204c2f46",
+  "asked": "2026-11-04T21:30:42-06:00",
+  "on": "2026-11-04",
   "events": [
    {
-    "title": "Mystery Book Club",
-    "date": "2026-11-04",
-    "start": "13:30",
-    "end": "14:30",
+    "title": "Homeschool Hangout",
+    "date": "2026-11-05",
+    "start": "10:00",
+    "end": "12:00",
     "price": null,
-    "description": "Mystery Book Club for adults at Sun Prairie Public Library.",
-    "category": "other"
-   },
-   {
-    "title": "Cuentos Infantiles (Spanish Storytime)",
-    "date": "2026-11-04",
-    "start": "17:00",
-    "end": "17:30",
-    "price": null,
-    "description": "Spanish storytime for family and children ages 0-5.",
-    "category": "other"
-   },
-   {
-    "title": "\"We Will Win\" Family Fun Night",
-    "date": "2026-11-04",
-    "start": "18:00",
-    "end": "20:00",
-    "price": null,
-    "description": "Family fun night for families and teens.",
-    "category": "other"
-   },
-   {
-    "title": "Mystery Book Club",
-    "date": "2026-11-04",
-    "start": "19:00",
-    "end": "20:00",
-    "price": null,
-    "description": "Mystery Book Club for adults at Sun Prairie Public Library.",
+    "description": "Sun Prairie Public Library program for families, children ages 0-5, and teens.",
     "category": "other"
    },
    {
@@ -1727,7 +1700,34 @@
     "start": "10:00",
     "end": "10:30",
     "price": null,
-    "description": "Reading and movement program for children ages 0-5.",
+    "description": "Sun Prairie Public Library program for children ages 0-5.",
+    "category": "other"
+   },
+   {
+    "title": "Dream Bus Mobile Library @ Creekside and Westside Elementary",
+    "date": "2026-11-05",
+    "start": "13:45",
+    "end": "15:00",
+    "price": null,
+    "description": "Mobile library visit at Creekside and Westside Elementary, open to families, children ages 0-5, teens, and adults.",
+    "category": "other"
+   },
+   {
+    "title": "LEGO® Club",
+    "date": "2026-11-05",
+    "start": "14:00",
+    "end": "15:30",
+    "price": null,
+    "description": "Sun Prairie Public Library LEGO club.",
+    "category": "other"
+   },
+   {
+    "title": "Cookbook Club",
+    "date": "2026-11-05",
+    "start": "18:30",
+    "end": "20:00",
+    "price": null,
+    "description": "Adult cookbook club at Sun Prairie Public Library.",
     "category": "other"
    }
   ]
@@ -1798,74 +1798,10 @@
   ]
  },
  "https://www.madisonpubliclibrary.org/spaces/events/search": {
-  "hash": "7354c6c5d73200f7ac316bd04bf004b6d9553c22",
-  "asked": "2026-11-04T12:39:47-06:00",
+  "hash": "d7d89868d55d5fbab5c06f1deeaeb8c0eadcb410",
+  "asked": "2026-11-04T21:30:54-06:00",
   "on": "2026-11-04",
-  "events": [
-   {
-    "title": "Youth Graphic Novel Book Club: Chi's Sweet Home Vol 1",
-    "date": "2026-11-04",
-    "start": "17:00",
-    "end": "17:45",
-    "price": null,
-    "description": "Discussion of an older kids/tween graphic novel in Community Room A. No reservation needed; light snacks provided.",
-    "category": "other"
-   },
-   {
-    "title": "Book Discussion: UW-Madison's Go Big Read 'Custodians of Wonder'",
-    "date": "2026-11-04",
-    "start": "18:30",
-    "end": "20:00",
-    "price": null,
-    "description": "Book discussion of Eliot Stein's 'Custodians of Wonder' in Community Room B.",
-    "category": "other"
-   },
-   {
-    "title": "The Art of Neighborships: Open Studio with Artist-in-Residence Carrie Breunig",
-    "date": "2026-11-04",
-    "start": "18:00",
-    "end": "20:00",
-    "price": null,
-    "description": "Drop-in open studio with 2026 Pinney Studio Artist-in-Residence Carrie Breunig.",
-    "category": "other"
-   },
-   {
-    "title": "The Art of Neighborships: Open Studio with Artist-in-Residence Carrie Breunig",
-    "date": "2026-11-05",
-    "start": "09:00",
-    "end": "11:00",
-    "price": null,
-    "description": "Drop-in open studio with 2026 Pinney Studio Artist-in-Residence Carrie Breunig.",
-    "category": "other"
-   },
-   {
-    "title": "The Art of Neighborships: Open Studio with Artist-in-Residence Carrie Breunig",
-    "date": "2026-11-11",
-    "start": "18:00",
-    "end": "20:00",
-    "price": null,
-    "description": "Drop-in open studio on Wednesdays this autumn (Sept-Nov) with Carrie Breunig.",
-    "category": "other"
-   },
-   {
-    "title": "The Art of Neighborships: Open Studio with Artist-in-Residence Carrie Breunig",
-    "date": "2026-11-12",
-    "start": "09:00",
-    "end": "11:00",
-    "price": null,
-    "description": "Drop-in open studio on Thursdays this autumn (Sept-Nov) with Carrie Breunig.",
-    "category": "other"
-   },
-   {
-    "title": "The Art of Neighborships: Open Studio with Artist-in-Residence Carrie Breunig",
-    "date": "2026-11-18",
-    "start": "18:00",
-    "end": "20:00",
-    "price": null,
-    "description": "Drop-in open studio on Wednesdays this autumn (Sept-Nov) with Carrie Breunig.",
-    "category": "other"
-   }
-  ]
+  "events": []
  },
  "https://artlitlab.org/calendar": {
   "hash": "0f520ecc389dd7a6729b797cd08c708119db82f7",
@@ -2105,43 +2041,34 @@
  },
  "https://madisonyoutharts.org/upcoming-events/": {
   "hash": "075b8cf6ad36aba21aa1bcb96d34479d5babb01f",
-  "asked": "2026-11-01T20:31:59-06:00",
-  "on": "2026-11-01",
+  "asked": "2026-11-04T21:30:54-06:00",
+  "on": "2026-11-04",
   "events": [
    {
-    "title": "Jekyll & Hyde (Madison Ballet)",
-    "date": "2026-11-01",
-    "start": "14:00",
-    "end": null,
-    "price": null,
-    "description": "Madison Ballet's world-premiere contemporary ballet based on Robert Louis Stevenson's tale, set to music by Michael Nyman. Runtime about 2 hours including a 20-minute intermission. Tickets $58-89.",
-    "category": "dance"
-   },
-   {
-    "title": "Comedy Variety Hour (and a half!) presented by Mark Hayward",
+    "title": "Comedy Variety Hour (and a half!)",
     "date": "2026-11-06",
     "start": "19:00",
     "end": "20:30",
-    "price": null,
-    "description": "All-ages, clean live magic and comedy variety show at Starlight Theater, MYArts 4th floor. Ages 6+. Tickets $20-35.",
+    "price": 20,
+    "description": "Live all-ages clean comedy and magic hosted by Mark Hayward, Starlight Theater, MYArts 4th floor. Ages 6+. Tickets $20–$35.",
     "category": "comedy"
    },
    {
-    "title": "Madison Youth Choirs presents: Sing a Song",
+    "title": "Madison Youth Choirs presents: Sing a Song – How \"Lift Every Voice & Sing\" Inspired Generations",
     "date": "2026-11-07",
     "start": "10:15",
     "end": "11:00",
     "price": null,
-    "description": "Author Kelly Starling Lyons reads 'Sing a Song' about the history of 'Lift Every Voice and Sing,' supported by music and song, with a pre-show lobby performance by WYSO Music Makers. RSVP required; seating first come, first served.",
-    "category": "other"
+    "description": "Kelly Starling Lyons reads \"Sing a Song\" with music from Sonora Strings and others, plus a lobby pre-show by WYSO Music Makers. RSVP required; first come, first served. Starlight Theater.",
+    "category": "music"
    },
    {
-    "title": "LunArt: DARK TALES - An Evening of Music and Mystery",
+    "title": "LunArt: DARK TALES – An Evening of Music and Mystery",
     "date": "2026-11-07",
     "start": "19:30",
     "end": null,
-    "price": null,
-    "description": "Evening of choral music by the LunART Treble Choir plus a world premiere staging of Edgar Allan Poe's 'The Cask of Amontillado' with actors and chamber music, at Starlight Theater. Tickets $35-45.",
+    "price": 35,
+    "description": "Choral pieces by the LunART Treble Choir plus a world premiere staging of Poe's \"The Cask of Amontillado\" with actors and chamber music. Starlight Theater. Tickets $35–$45.",
     "category": "music"
    }
   ]
@@ -2175,8 +2102,8 @@
   "events": []
  },
  "https://www.veronapubliclibrary.org/": {
-  "hash": "849a34bc6111b5268b536a0c1cd718fa2081be64",
-  "asked": "2026-11-04T12:39:35-06:00",
+  "hash": "f93ec37e43b0c573d23f6c6cac5d355f99f0de2d",
+  "asked": "2026-11-04T21:30:40-06:00",
   "on": "2026-11-04",
   "events": [
    {
@@ -2185,7 +2112,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Ongoing story times return on Monday, November 16.",
+    "description": "Ongoing library story times return on Monday, November 16.",
     "category": "other"
    }
   ]
@@ -2215,26 +2142,17 @@
   "events": []
  },
  "https://high-noon.com/event/dogpark/": {
-  "hash": "11b3486b8536ab3653db2104b6037edf379a14ee",
-  "asked": "2026-11-04T12:38:41-06:00",
+  "hash": "c41192b2c2528baea51c7596b58a1951111e4b7d",
+  "asked": "2026-11-04T21:29:49-06:00",
   "on": "2026-11-04",
   "events": [
-   {
-    "title": "Six Foot Blonde with Genevieve Heyward",
-    "date": "2026-11-06",
-    "start": "20:00",
-    "end": null,
-    "price": null,
-    "description": "FPC Live presents Six Foot Blonde with Genevieve Heyward at High Noon Saloon. Doors 7:00 pm.",
-    "category": "music"
-   },
    {
     "title": "The Bends with The Braymores",
     "date": "2026-11-05",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents The Bends with The Braymores at High Noon Saloon. Doors 7:00 pm.",
+    "description": "FPC Live presents The Bends with The Braymores at High Noon Saloon. Doors 7:00 pm, show 8:00 pm.",
     "category": "music"
    },
    {
@@ -2243,7 +2161,7 @@
     "start": null,
     "end": null,
     "price": 20,
-    "description": "Launch party and music benefit. Suggested $20 donation at the door.",
+    "description": "Launch party and music benefit at High Noon Saloon. Suggested $20 donation at the door.",
     "category": "music"
    }
   ]
@@ -2274,10 +2192,19 @@
   ]
  },
  "https://madisonorpheum.com/event/eric-andre/": {
-  "hash": "ce3d1a68c66db36d28eae9d7a08d5ff26131c918",
-  "asked": "2026-11-03T21:01:56-06:00",
-  "on": "2026-11-03",
+  "hash": "4c175d8e218b6a0c251d301f4f017f0022e25cef",
+  "asked": "2026-11-04T21:30:58-06:00",
+  "on": "2026-11-04",
   "events": [
+   {
+    "title": "Dave Attell",
+    "date": "2026-11-07",
+    "start": "20:00",
+    "end": null,
+    "price": null,
+    "description": "FPC Live presents Dave Attell. Doors 7:00 pm, show 8:00 pm.",
+    "category": "comedy"
+   },
    {
     "title": "Daniel Sloss",
     "date": "2026-11-09",
@@ -2293,7 +2220,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Listed as a Just Announced event at the Orpheum. No time or details given on the page.",
+    "description": "MDEV: The Kick-Off Event listed on the Orpheum Theatre page.",
     "category": "other"
    }
   ]
