@@ -1,31 +1,28 @@
 {
- "generated_at": "2026-11-05T12:48:19-06:00",
- "total_events": 401,
- "in_more_than_one_source": 23,
+ "generated_at": "2026-11-05T21:28:12-06:00",
+ "total_events": 422,
+ "in_more_than_one_source": 26,
  "sources": {
   "AI page reading": {
-   "events": 135,
-   "unique_events": 118,
+   "events": 156,
+   "unique_events": 137,
    "overlap": {
-    "Isthmus": 3,
-    "Ticketmaster": 16,
+    "Isthmus": 4,
+    "Ticketmaster": 17,
     "Venue websites": 0
    },
-   "venues": 35,
+   "venues": 32,
    "unique_venues": [
-    "Aftershock Classic Arcade",
-    "Alicia Ashman Library",
     "Capital Brewery",
-    "Central Library",
     "Crucible",
     "Crystal Corner Bar",
     "Ebling Library",
     "Flight Wine & Bourbon Bar",
     "Gamma Ray Bar",
     "Grey Market",
-    "Imagination Center",
     "Lakeside Street Coffee House",
     "Laurel Tavern",
+    "Lazy Oaf Lounge",
     "Madison Youth Arts (MYArts)",
     "Monkeyshines Bar & Grill",
     "Mother Fool's",
@@ -34,19 +31,19 @@
     "Overture Center for the Arts",
     "Pinney Library",
     "Reindahl Park Pavillion",
-    "Sequoya Library",
     "State Line Distillery",
     "Sun Prairie Public Library",
     "The Kickback",
     "The Malt House",
+    "Verona Community Center",
     "Veterans Memorial Park"
    ]
   },
   "Isthmus": {
-   "events": 168,
-   "unique_events": 162,
+   "events": 166,
+   "unique_events": 159,
    "overlap": {
-    "AI page reading": 3,
+    "AI page reading": 4,
     "Ticketmaster": 2,
     "Venue websites": 3
    },
@@ -113,11 +110,11 @@
   },
   "Ticketmaster": {
    "events": 54,
-   "unique_events": 35,
+   "unique_events": 33,
    "overlap": {
-    "AI page reading": 16,
+    "AI page reading": 17,
     "Isthmus": 2,
-    "Venue websites": 3
+    "Venue websites": 4
    },
    "venues": 11,
    "unique_venues": [
@@ -128,12 +125,12 @@
    ]
   },
   "Venue websites": {
-   "events": 69,
-   "unique_events": 63,
+   "events": 74,
+   "unique_events": 67,
    "overlap": {
     "AI page reading": 0,
     "Isthmus": 3,
-    "Ticketmaster": 3
+    "Ticketmaster": 4
    },
    "venues": 14,
    "unique_venues": [

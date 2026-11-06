@@ -94,11 +94,6 @@
   "why": "",
   "checked": "2026-11-03T21:02:06.238024-06:00"
  },
- "https://www.ticketmaster.com/event/Z7r9jZ1AA7eot": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-03T21:02:08.812554-06:00"
- },
  "https://www.cafecoda.club/events-1/night-of-the-improviser-z76xb": {
   "ok": true,
   "why": "",
@@ -109,11 +104,6 @@
   "why": "",
   "checked": "2026-11-03T21:02:08.812588-06:00"
  },
- "https://www.ticketmaster.com/event/Z7r9jZ1A70yJp": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-03T21:02:09.953325-06:00"
- },
  "https://www.workingdraftbeer.com/events/2026/11/5/blankets-brews-w-the-united-way-of-dane-county": {
   "ok": true,
   "why": "",
@@ -123,11 +113,6 @@
   "ok": true,
   "why": "",
   "checked": "2026-11-03T21:02:09.953362-06:00"
- },
- "https://bstonline.org/event/dragonsocks-and-the-queen-of-the-universe-4/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-03T21:02:09.953376-06:00"
  },
  "https://www.ticketmaster.com/the-bends-madison-wisconsin-11-05-2026/event/0700648AB11A4F0D": {
   "ok": null,
@@ -2384,11 +2369,6 @@
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
   "checked": "2026-11-04T21:31:05.857897-06:00"
  },
- "https://www.cafecoda.club/events-1/karaoke-nabjl-22c3f-gw57n-2m79c-a47wx-jblcs-4bcsl-mkd7s-ctsf4-p4hcx-t4n3x-xd9mh-c5tsy-cpczx-w6dsr-l2pex-rcndw": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-04T21:31:05.857907-06:00"
- },
  "https://www.ticketmaster.com/low-cut-connie-madison-wisconsin-11-11-2026/event/0700648ACF826844": {
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
@@ -3549,16 +3529,6 @@
   "why": "",
   "checked": "2026-11-01T11:09:56.658709-06:00"
  },
- "https://www.madisonpubliclibrary.org/locations/imagination-center": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-01T20:32:07.696284-06:00"
- },
- "https://www.madisonpubliclibrary.org/sequoya": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-01T20:32:07.696288-06:00"
- },
  "https://www.madisonyoutharts.org/": {
   "ok": true,
   "why": "",
@@ -3814,11 +3784,6 @@
   "why": "",
   "checked": "2026-11-03T12:28:54.097068-06:00"
  },
- "https://statestreetbrats.com/event/michigan-st-wisconsin-20261105/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-03T12:28:54.097076-06:00"
- },
  "https://www.turnkeymadison.com/working-menu": {
   "ok": true,
   "why": "",
@@ -3843,11 +3808,6 @@
   "ok": true,
   "why": "",
   "checked": "2026-11-03T21:02:46.936441-06:00"
- },
- "https://www.madisonpubliclibrary.org/central": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-04T12:40:33.530716-06:00"
  },
  "https://www.mickeysmadison.com/": {
   "ok": true,
@@ -3874,20 +3834,10 @@
   "why": "",
   "checked": "2026-11-04T21:31:08.272205-06:00"
  },
- "https://www.madisonpubliclibrary.org/about/ashman.html": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-05T12:48:20.614203-06:00"
- },
  "https://cafecoda.club": {
   "ok": true,
   "why": "",
   "checked": "2026-11-05T12:48:20.710139-06:00"
- },
- "https://statestreetbrats.com/event/wisconsin-minnesota-20261105/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-05T12:48:20.911198-06:00"
  },
  "https://www.northstreetcabaret.com/": {
   "ok": null,
@@ -3903,5 +3853,60 @@
   "ok": true,
   "why": "",
   "checked": "2026-11-05T12:48:30.839765-06:00"
+ },
+ "https://www.lazyoaflounge.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-05T21:28:13.330134-06:00"
+ },
+ "https://statestreetbrats.com/event/raptors-bucks-20261106/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-05T21:28:13.454617-06:00"
+ },
+ "https://bstonline.org/event/dragonsocks-and-the-queen-of-the-universe-7/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-05T21:28:14.745530-06:00"
+ },
+ "https://www.cafecoda.club/events-1/karaoke-nabjl-22c3f-gw57n-2m79c-a47wx-jblcs-4bcsl-mkd7s-ctsf4-p4hcx-t4n3x-xd9mh-c5tsy-cpczx-w6dsr-tg854-3pze2-n3r2m": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-05T21:28:14.745566-06:00"
+ },
+ "https://www.veronawi.gov/941/Community-Center": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-05T21:28:14.745573-06:00"
+ },
+ "https://www.gibs.bar/event-calendar/2026/11/19/live-music-acid-tofu": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-05T21:28:14.745579-06:00"
+ },
+ "https://www.theatwoodmusichall.com/shows/2026-11-19": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-05T21:28:14.745584-06:00"
+ },
+ "https://onesocialmadison.com/event/trivia-with-king-trivia-3/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-05T21:28:15.481550-06:00"
+ },
+ "https://www.madisoncomedy.com/event/leah-rudick26/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-05T21:28:15.481578-06:00"
+ },
+ "https://barrymorelive.com/event/marc-maron-3/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-05T21:28:15.481584-06:00"
+ },
+ "https://www.ticketmaster.com/humbird-madison-wisconsin-11-19-2026/event/070064F4C2583C1E": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-11-05T21:28:15.481589-06:00"
  }
 }

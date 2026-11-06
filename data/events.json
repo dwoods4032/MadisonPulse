@@ -1,34 +1,11 @@
 {
- "generated_at": "2026-11-05T12:48:19-06:00",
+ "generated_at": "2026-11-05T21:28:12-06:00",
  "window": {
-  "from": "2026-11-05T06:46-06:00",
-  "to": "2026-11-19T12:46-06:00"
+  "from": "2026-11-05T15:26-06:00",
+  "to": "2026-11-19T21:26-06:00"
  },
- "count": 401,
+ "count": 422,
  "events": [
-  {
-   "id": "7d3f1ee92e7c",
-   "title": "Online Write-In (Zoom)",
-   "start": "2026-11-05T10:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "other",
-   "price": 0.0,
-   "description": "Pomodoro-style online write-in via Zoom with check-in and check-out. Registration is free.",
-   "url": "https://artlitlab.org/",
-   "image": "",
-   "venue": "Arts + Literature Laboratory",
-   "venue_id": "osm:node/10815180247",
-   "venue_kind": "venue",
-   "address": "111 South Livingston Street",
-   "lat": 43.0804026,
-   "lon": -89.3734803,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
   {
    "id": "251dc2557f44",
    "title": "Holiday Pop-up Shop",
@@ -76,54 +53,6 @@
     "Isthmus"
    ],
    "link_ok": null
-  },
-  {
-   "id": "886c18ffcaea",
-   "title": "Sports for Active Seniors Hiking",
-   "start": "2026-11-05T13:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "",
-   "url": "",
-   "image": "",
-   "venue": "Location not listed",
-   "venue_id": "cal:unknown",
-   "venue_kind": "venue",
-   "address": "",
-   "lat": null,
-   "lon": null,
-   "source": "extra",
-   "via": "Isthmus",
-   "sources": [
-    "Isthmus"
-   ],
-   "link_ok": null
-  },
-  {
-   "id": "149fc53b4f20",
-   "title": "West Side Bluegrass Jam",
-   "start": "2026-11-05T13:00-06:00",
-   "end": "2026-11-05T15:00-06:00",
-   "all_day": false,
-   "category": "music",
-   "price": 0.0,
-   "description": "",
-   "url": "https://www.tenpinalleys.com/",
-   "image": "",
-   "venue": "Ten Pin Alley",
-   "venue_id": "osm:way/107655171",
-   "venue_kind": "venue",
-   "address": "",
-   "lat": 43.0079919,
-   "lon": -89.4814229,
-   "source": "extra",
-   "via": "Isthmus",
-   "sources": [
-    "Isthmus"
-   ],
-   "link_ok": true
   },
   {
    "id": "fb5e2878f503",
@@ -437,52 +366,6 @@
    "link_ok": null
   },
   {
-   "id": "3ed3566023c1",
-   "title": "Naturalist-in-Residence - A Journey into the Quiet: An Adult Rest Experience",
-   "start": "2026-11-05T18:00-06:00",
-   "end": "2026-11-05T19:30-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Adult rest experience with the library's naturalist-in-residence, exploring the natural world as autumn gives way to winter.",
-   "url": "https://www.madisonpubliclibrary.org/about/ashman.html",
-   "image": "",
-   "venue": "Alicia Ashman Library",
-   "venue_id": "osm:node/790662052",
-   "venue_kind": "library",
-   "address": "733 North High Point Road",
-   "lat": 43.0760994,
-   "lon": -89.5175827,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "d232aa42a836",
-   "title": "Pinney Adult Game Night",
-   "start": "2026-11-05T18:00-06:00",
-   "end": "2026-11-05T20:45-06:00",
-   "all_day": false,
-   "category": "trivia",
-   "price": null,
-   "description": "Board games with longer-play games and classics. Snacks provided, no registration.",
-   "url": "https://www.madisonpubliclibrary.org/central",
-   "image": "",
-   "venue": "Central Library",
-   "venue_id": "osm:way/102316433",
-   "venue_kind": "library",
-   "address": "201 West Mifflin Street",
-   "lat": 43.0736214,
-   "lon": -89.3875186,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "99955b7fc8af",
    "title": "Open Trap Shoot",
    "start": "2026-11-05T18:00-06:00",
@@ -648,29 +531,6 @@
    "source": "scraped",
    "sources": [
     "Venue websites"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "2132628e63a8",
-   "title": "Naturalist-in-Residence - A Journey into the Quiet: An Adult Rest Experience",
-   "start": "2026-11-05T18:00-06:00",
-   "end": "2026-11-05T19:30-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Adult rest experience led by the Naturalist-in-Residence, Community Room, Imagination Center Library.",
-   "url": "https://www.madisonpubliclibrary.org/locations/imagination-center",
-   "image": "",
-   "venue": "Imagination Center",
-   "venue_id": "osm:way/1562302805",
-   "venue_kind": "library",
-   "address": "1814 Parkside Drive",
-   "lat": 43.1240118,
-   "lon": -89.3168809,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
    ],
    "link_ok": true
   },
@@ -893,29 +753,6 @@
    "link_ok": true
   },
   {
-   "id": "6fd0933496ed",
-   "title": "Naturalist-in-Residence - A Journey into the Quiet: An Adult Rest Experience",
-   "start": "2026-11-05T18:00-06:00",
-   "end": "2026-11-05T19:30-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Adult rest experience led by the Naturalist-in-Residence, Community Room, Imagination Center Library.",
-   "url": "https://www.madisonpubliclibrary.org/locations/pinney-library",
-   "image": "",
-   "venue": "Pinney Library",
-   "venue_id": "osm:node/7234376294",
-   "venue_kind": "library",
-   "address": "516 Cottage Grove Road",
-   "lat": 43.0841729,
-   "lon": -89.3176486,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "b25c1b787d10",
    "title": "Pinney Adult Game Night",
    "start": "2026-11-05T18:00-06:00",
@@ -923,7 +760,7 @@
    "all_day": false,
    "category": "trivia",
    "price": null,
-   "description": "Board games with longer-play games and classics. Snacks provided, no registration.",
+   "description": "Adult game night at Pinney Library, Community Room B.",
    "url": "https://www.madisonpubliclibrary.org/locations/pinney-library",
    "image": "",
    "venue": "Pinney Library",
@@ -932,29 +769,6 @@
    "address": "516 Cottage Grove Road",
    "lat": 43.0841729,
    "lon": -89.3176486,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "25fce1fa76b6",
-   "title": "Naturalist-in-Residence - A Journey into the Quiet: An Adult Rest Experience",
-   "start": "2026-11-05T18:00-06:00",
-   "end": "2026-11-05T19:30-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Adult rest experience led by the Naturalist-in-Residence, Community Room, Imagination Center Library.",
-   "url": "https://www.madisonpubliclibrary.org/sequoya",
-   "image": "",
-   "venue": "Sequoya Library",
-   "venue_id": "osm:node/1473488018",
-   "venue_kind": "library",
-   "address": "4340 Tokay Boulevard",
-   "lat": 43.0537698,
-   "lon": -89.4505289,
    "source": "ai",
    "sources": [
     "AI page reading"
@@ -1158,29 +972,6 @@
    "link_ok": true
   },
   {
-   "id": "ee47e425ffd4",
-   "title": "Wisconsin Badgers Womens Basketball vs. Oakland Golden Grizzlies Womens Basketball",
-   "start": "2026-11-05T18:30-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "sports",
-   "price": null,
-   "description": "Basketball / College",
-   "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7eot",
-   "image": "https://s1.ticketm.net/dam/a/680/71e6efa6-cd1a-4f9d-8d1e-58e49f509680_1260841_RETINA_PORTRAIT_16_9.jpg",
-   "venue": "Kohl Center",
-   "venue_id": "tm:Z6r9jZaaee",
-   "venue_kind": "venue",
-   "address": "601 W. Dayton St.",
-   "lat": 43.016399,
-   "lon": -89.420097,
-   "source": "ticketmaster",
-   "sources": [
-    "Ticketmaster"
-   ],
-   "link_ok": null
-  },
-  {
    "id": "537abfc580ad",
    "title": "UW Women's Basketball",
    "start": "2026-11-05T18:30-06:00",
@@ -1250,29 +1041,6 @@
     "Isthmus"
    ],
    "link_ok": null
-  },
-  {
-   "id": "ddb50f248dfb",
-   "title": "Cookbook Club",
-   "start": "2026-11-05T18:30-06:00",
-   "end": "2026-11-05T20:00-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Library Cookbook Club for adults.",
-   "url": "https://www.sunprairiepubliclibrary.org/",
-   "image": "",
-   "venue": "Sun Prairie Public Library",
-   "venue_id": "osm:way/600866560",
-   "venue_kind": "library",
-   "address": "1350 Linnerud Drive",
-   "lat": 43.1757782,
-   "lon": -89.2353415,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
   },
   {
    "id": "f34f839383df",
@@ -1708,52 +1476,6 @@
    "link_ok": null
   },
   {
-   "id": "f240eab6f20e",
-   "title": "Wisconsin @ Minnesota",
-   "start": "2026-11-05T19:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "",
-   "url": "https://statestreetbrats.com/event/wisconsin-minnesota-20261105/",
-   "image": "",
-   "venue": "State Street Brats",
-   "venue_id": "osm:way/886357869",
-   "venue_kind": "bar",
-   "address": "603 State Street",
-   "lat": 43.0746889,
-   "lon": -89.395998,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "1d9cc88a5578",
-   "title": "Michigan St @ Wisconsin",
-   "start": "2026-11-05T19:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "",
-   "url": "https://statestreetbrats.com/event/michigan-st-wisconsin-20261105/",
-   "image": "",
-   "venue": "State Street Brats",
-   "venue_id": "osm:way/886357869",
-   "venue_kind": "bar",
-   "address": "603 State Street",
-   "lat": 43.0746889,
-   "lon": -89.395998,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "457a39042cf7",
    "title": "Trivia",
    "start": "2026-11-05T19:00-06:00",
@@ -1798,29 +1520,6 @@
    "via": "Isthmus",
    "sources": [
     "Isthmus"
-   ],
-   "link_ok": null
-  },
-  {
-   "id": "71b0393315e1",
-   "title": "Wisconsin Badgers Womens Volleyball vs. Michigan State Spartans Womens Volleyball",
-   "start": "2026-11-05T19:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "sports",
-   "price": null,
-   "description": "Miscellaneous / Miscellaneous",
-   "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70yJp",
-   "image": "https://s1.ticketm.net/dam/c/093/c74cfd95-af21-4e64-9f85-47677b951093_105651_RETINA_PORTRAIT_16_9.jpg",
-   "venue": "UW Field House",
-   "venue_id": "tm:Z7r9jZadGn",
-   "venue_kind": "venue",
-   "address": "1450 Monroe St., Madison, WI 53706",
-   "lat": 43.076,
-   "lon": -89.411201,
-   "source": "ticketmaster",
-   "sources": [
-    "Ticketmaster"
    ],
    "link_ok": null
   },
@@ -2017,38 +1716,15 @@
    "link_ok": true
   },
   {
-   "id": "c93ae52328f7",
-   "title": "Romeo and Juliet",
+   "id": "20ed9a83c6e8",
+   "title": "Dragonsocks & Queen of the Universe",
    "start": "2026-11-05T19:30-06:00",
    "end": null,
    "all_day": false,
    "category": "theater",
    "price": null,
-   "description": "Capulets, Montagues, and two young lovers; Shakespeare's best-known play.",
-   "url": "https://bartelltheatre.org/",
-   "image": "",
-   "venue": "Bartell Theatre",
-   "venue_id": "osm:way/265137656",
-   "venue_kind": "venue",
-   "address": "113 East Mifflin Street",
-   "lat": 43.0765271,
-   "lon": -89.3833565,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "20ed9a83c6e8",
-   "title": "Dragonsocks & Queen of the Universe",
-   "start": "2026-11-05T19:30-06:00",
-   "end": "2026-11-05T19:30-06:00",
-   "all_day": false,
-   "category": "theater",
-   "price": null,
-   "description": "Dragonsocks & Queen of the Universe Written by local playwright Brendon Smith Directed by Suzan Kurry (Artistic Director of KR Women’s Theater) (Please Note: If EventBrite says we’re … Continue reading Dragonsocks & Queen of the Universe \\n",
-   "url": "https://bstonline.org/event/dragonsocks-and-the-queen-of-the-universe-4/",
+   "description": "",
+   "url": "https://bstonline.org/",
    "image": "",
    "venue": "Broom Street Theater",
    "venue_id": "osm:way/385639211",
@@ -2056,9 +1732,10 @@
    "address": "1119 Williamson Street",
    "lat": 43.0821088,
    "lon": -89.3652249,
-   "source": "scraped",
+   "source": "extra",
+   "via": "Isthmus",
+   "city": "Madison",
    "sources": [
-    "Venue websites",
     "Isthmus"
    ],
    "link_ok": true
@@ -2208,6 +1885,29 @@
     "AI page reading"
    ],
    "link_ok": null
+  },
+  {
+   "id": "73b1190c919c",
+   "title": "Karaoke Nights",
+   "start": "2026-11-05T20:00-06:00",
+   "end": "2026-11-06T00:00-06:00",
+   "all_day": false,
+   "category": "karaoke",
+   "price": null,
+   "description": "Sing your heart out or dress up for our lively themed celebrations.",
+   "url": "https://www.lazyoaflounge.com/",
+   "image": "",
+   "venue": "Lazy Oaf Lounge",
+   "venue_id": "osm:node/1743291684",
+   "venue_kind": "bar",
+   "address": "1617 North Stoughton Road",
+   "lat": 43.1199361,
+   "lon": -89.3244342,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
   },
   {
    "id": "70c3ab929c6c",
@@ -2481,7 +2181,7 @@
    "all_day": true,
    "category": "food",
    "price": null,
-   "description": "Weekly Friday night fish fry with choice of potato, soup, salad or coleslaw, roll and butter. Fried or baked cod or walleye pike.",
+   "description": "Weekly Friday fish fry with fried or baked cod or walleye pike, choice of potato, soup/salad/coleslaw, roll and butter.",
    "url": "http://www.thelaureltavern.com",
    "image": "",
    "venue": "Laurel Tavern",
@@ -2497,6 +2197,29 @@
    "link_ok": true
   },
   {
+   "id": "adadf29688a6",
+   "title": "Friday Fish Fry",
+   "start": "2026-11-06T00:00-06:00",
+   "end": null,
+   "all_day": true,
+   "category": "food",
+   "price": null,
+   "description": "Weekly Friday fish fry at Lazy Oaf Lounge (per website specials page).",
+   "url": "https://www.lazyoaflounge.com/",
+   "image": "",
+   "venue": "Lazy Oaf Lounge",
+   "venue_id": "osm:node/1743291684",
+   "venue_kind": "bar",
+   "address": "1617 North Stoughton Road",
+   "lat": 43.1199361,
+   "lon": -89.3244342,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "d13d229b7510",
    "title": "MDEV: The Kick-Off Event",
    "start": "2026-11-06T00:00-06:00",
@@ -2504,7 +2227,7 @@
    "all_day": true,
    "category": "theater",
    "price": null,
-   "description": "Kick-off event listed at the Orpheum Theatre; no time or performer details given.",
+   "description": "Kick-off event listed as just announced at the Orpheum. No time given.",
    "url": "https://madisonorpheum.com/",
    "image": "",
    "venue": "Orpheum Theatre",
@@ -3064,6 +2787,29 @@
    "link_ok": true
   },
   {
+   "id": "d2911d8f3218",
+   "title": "Raptors @ Bucks",
+   "start": "2026-11-06T19:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "sports",
+   "price": null,
+   "description": "",
+   "url": "https://statestreetbrats.com/event/raptors-bucks-20261106/",
+   "image": "",
+   "venue": "State Street Brats",
+   "venue_id": "osm:way/886357869",
+   "venue_kind": "bar",
+   "address": "603 State Street",
+   "lat": 43.0746889,
+   "lon": -89.395998,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "1b6eabbfd8ad",
    "title": "Friday Night Strikes",
    "start": "2026-11-06T19:00-06:00",
@@ -3153,7 +2899,31 @@
    "via": "Isthmus",
    "city": "Madison",
    "sources": [
-    "Isthmus"
+    "Isthmus",
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "b83784cf36e5",
+   "title": "Romeo and Juliet",
+   "start": "2026-11-06T19:30-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "theater",
+   "price": null,
+   "description": "Capulets, Montagues, and two young lovers. Coming soon at Bartell Theatre.",
+   "url": "https://bartelltheatre.org/",
+   "image": "",
+   "venue": "Bartell Theatre",
+   "venue_id": "osm:way/265137656",
+   "venue_kind": "venue",
+   "address": "113 East Mifflin Street",
+   "lat": 43.0765271,
+   "lon": -89.3833565,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
    ],
    "link_ok": true
   },
@@ -3425,7 +3195,7 @@
    "all_day": true,
    "category": "food",
    "price": null,
-   "description": "Weekly Saturday prime rib dinner with natural au jus and horseradish, choice of potato, soup or salad or coleslaw, roll and butter.",
+   "description": "Weekly Saturday roast prime rib with au jus and horseradish, choice of potato, soup/salad/coleslaw, roll and butter.",
    "url": "http://www.thelaureltavern.com",
    "image": "",
    "venue": "Laurel Tavern",
@@ -3542,7 +3312,7 @@
    "all_day": false,
    "category": "food",
    "price": 0.0,
-   "description": "Free coffee and tea at the Oscar Rennebohm Library on Saturdays this fall.",
+   "description": "Free coffee and tea at the Oscar Rennebohm Library on Saturdays this fall, 9am to 1pm.",
    "url": "https://library.edgewood.edu/home",
    "image": "",
    "venue": "Oscar Rennebohm Library",
@@ -3628,6 +3398,52 @@
    "link_ok": null
   },
   {
+   "id": "63707ac5fd4f",
+   "title": "Falling for Art",
+   "start": "2026-11-07T10:00-06:00",
+   "end": "2026-11-07T11:30-06:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Art program at Pinney Library, Youth Program Room.",
+   "url": "https://www.madisonpubliclibrary.org/locations/pinney-library",
+   "image": "",
+   "venue": "Pinney Library",
+   "venue_id": "osm:node/7234376294",
+   "venue_kind": "library",
+   "address": "516 Cottage Grove Road",
+   "lat": 43.0841729,
+   "lon": -89.3176486,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "b98ae56468b9",
+   "title": "Music Avenue",
+   "start": "2026-11-07T10:00-06:00",
+   "end": "2026-11-07T10:30-06:00",
+   "all_day": false,
+   "category": "music",
+   "price": null,
+   "description": "Music program for family and children ages 0-5.",
+   "url": "https://www.sunprairiepubliclibrary.org/",
+   "image": "",
+   "venue": "Sun Prairie Public Library",
+   "venue_id": "osm:way/600866560",
+   "venue_kind": "library",
+   "address": "1350 Linnerud Drive",
+   "lat": 43.1757782,
+   "lon": -89.2353415,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "12f74e7d22a4",
    "title": "Textile Art Market",
    "start": "2026-11-07T10:00-06:00",
@@ -3670,6 +3486,29 @@
    "source": "scraped",
    "sources": [
     "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "70ec590053a5",
+   "title": "Pinney Saturday Music Series: Forró Fo Sho",
+   "start": "2026-11-07T11:00-06:00",
+   "end": "2026-11-07T12:00-06:00",
+   "all_day": false,
+   "category": "music",
+   "price": null,
+   "description": "Pinney Saturday Music Series performance by Forró Fo Sho in Community Rooms A and B.",
+   "url": "https://www.madisonpubliclibrary.org/locations/pinney-library",
+   "image": "",
+   "venue": "Pinney Library",
+   "venue_id": "osm:node/7234376294",
+   "venue_kind": "library",
+   "address": "516 Cottage Grove Road",
+   "lat": 43.0841729,
+   "lon": -89.3176486,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
    ],
    "link_ok": true
   },
@@ -3722,6 +3561,29 @@
    "link_ok": null
   },
   {
+   "id": "1cce9b908a7e",
+   "title": "Pumpkin Desserts with Punky Egan",
+   "start": "2026-11-07T13:00-06:00",
+   "end": "2026-11-07T14:00-06:00",
+   "all_day": false,
+   "category": "food",
+   "price": null,
+   "description": "Adult program on pumpkin desserts with Punky Egan.",
+   "url": "https://www.sunprairiepubliclibrary.org/",
+   "image": "",
+   "venue": "Sun Prairie Public Library",
+   "venue_id": "osm:way/600866560",
+   "venue_kind": "library",
+   "address": "1350 Linnerud Drive",
+   "lat": 43.1757782,
+   "lon": -89.2353415,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "78868e578881",
    "title": "Distillery Tour",
    "start": "2026-11-07T13:30-06:00",
@@ -3729,7 +3591,7 @@
    "all_day": false,
    "category": "music",
    "price": null,
-   "description": "Weekly Saturday tour at Old Sugar Distillery, listed as Saturdays 1:30PM.",
+   "description": "Saturday distillery tour at 1:30PM, per the page's Tours listing.",
    "url": "https://oldsugardistillery.com/",
    "image": "",
    "venue": "Old Sugar Distillery",
@@ -4103,7 +3965,7 @@
    "all_day": false,
    "category": "comedy",
    "price": null,
-   "description": "Stand-up comedy in the taproom with Encore Comedy. Tickets via Eventbrite link on the page.",
+   "description": "Night of stand-up comedy in the taproom with Encore Comedy; tickets via Eventbrite link.",
    "url": "https://www.karben4.com/",
    "image": "",
    "venue": "Karben4 Brewing",
@@ -4265,7 +4127,7 @@
    "all_day": true,
    "category": "music",
    "price": 20.0,
-   "description": "Launch party and music benefit at High Noon Saloon. Suggested $20 donation at the door.",
+   "description": "Launch party and music benefit. Suggested $20 donation at the door.",
    "url": "https://www.high-noon.com/",
    "image": "",
    "venue": "High Noon Saloon",
@@ -4288,7 +4150,7 @@
    "all_day": false,
    "category": "other",
    "price": 0.0,
-   "description": "Pomodoro-style online write-in via Zoom with check-in and check-out. Registration is free.",
+   "description": "Pomodoro-style online write-in via Zoom with check-in and check-out; registration is free.",
    "url": "https://artlitlab.org/",
    "image": "",
    "venue": "Arts + Literature Laboratory",
@@ -4518,23 +4380,22 @@
    "id": "b166e584c39b",
    "title": "Dragonsocks & Queen of the Universe",
    "start": "2026-11-08T14:00-06:00",
-   "end": null,
+   "end": "2026-11-08T14:00-06:00",
    "all_day": false,
    "category": "theater",
    "price": null,
-   "description": "",
-   "url": "https://bstonline.org/",
-   "image": "",
+   "description": "Dragonsocks & Queen of the Universe Written by local playwright Brendon Smith Directed by Suzan Kurry (Artistic Director of KR Women’s Theater) (Please Note: If EventBrite says we’re … Continue reading Dragonsocks & Queen of the Universe \\n",
+   "url": "https://bstonline.org/event/dragonsocks-and-the-queen-of-the-universe-7/",
+   "image": "https://bstonline.org/wp-content/uploads/2026/09/dragonsocks-FB-cover-imageV4.jpg",
    "venue": "Broom Street Theater",
    "venue_id": "osm:way/385639211",
    "venue_kind": "venue",
    "address": "1119 Williamson Street",
    "lat": 43.0821088,
    "lon": -89.3652249,
-   "source": "extra",
-   "via": "Isthmus",
-   "city": "Madison",
+   "source": "scraped",
    "sources": [
+    "Venue websites",
     "Isthmus"
    ],
    "link_ok": true
@@ -4726,37 +4587,14 @@
    "link_ok": null
   },
   {
-   "id": "87883ee9bbcf",
-   "title": "Monday Madness",
-   "start": "2026-11-09T00:00-06:00",
-   "end": null,
-   "all_day": true,
-   "category": "food",
-   "price": null,
-   "description": "Discounted token pricing and special deals every Monday.",
-   "url": "https://www.aftershockclassicarcade.com/",
-   "image": "",
-   "venue": "Aftershock Classic Arcade",
-   "venue_id": "osm:node/6431684446",
-   "venue_kind": "bar",
-   "address": "1444 East Washington Avenue",
-   "lat": 43.0897796,
-   "lon": -89.3632278,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "7871e7eb602c",
-   "title": "The Kissers",
+   "id": "cc509d092720",
+   "title": "Acoustic Music Monday: The Kissers",
    "start": "2026-11-09T00:00-06:00",
    "end": null,
    "all_day": true,
    "category": "music",
    "price": null,
-   "description": "Acoustic Music Monday, 2nd Monday (Irish trad/pub)",
+   "description": "Traditional Irish trad/pub set",
    "url": "http://malthousetavern.com/",
    "image": "",
    "venue": "The Malt House",
@@ -4913,13 +4751,13 @@
   },
   {
    "id": "17ea44748651",
-   "title": "A Valentine's Affair 2027 Auditions: First Audition",
+   "title": "A Valentine's Affair 2027 Auditions (First Audition)",
    "start": "2026-11-09T18:30-06:00",
    "end": null,
    "all_day": false,
    "category": "theater",
    "price": null,
-   "description": "First audition for A Valentine's Affair 2027.",
+   "description": "First audition for A Valentine's Affair 2027 at Bartell Theatre.",
    "url": "https://bartelltheatre.org/",
    "image": "",
    "venue": "Bartell Theatre",
@@ -4982,6 +4820,29 @@
    "link_ok": true
   },
   {
+   "id": "2d9b813737af",
+   "title": "Karaoke Mondays",
+   "start": "2026-11-09T20:00-06:00",
+   "end": "2026-11-09T23:00-06:00",
+   "all_day": false,
+   "category": "karaoke",
+   "price": null,
+   "description": "",
+   "url": "https://www.cafecoda.club/events-1/karaoke-nabjl-22c3f-gw57n-2m79c-a47wx-jblcs-4bcsl-mkd7s-ctsf4-p4hcx-t4n3x-xd9mh-c5tsy-cpczx-w6dsr-tg854-3pze2-n3r2m",
+   "image": "https://images.squarespace-cdn.com/content/v1/6914abebeed4305fd5ea6ea5/1785343317638-SO41L5V94FHWN7K6ISJ1/Karaoke+Mondays-3.png",
+   "venue": "Cafe CODA",
+   "venue_id": "osm:way/385639191",
+   "venue_kind": "bar",
+   "address": "1224 Williamson Street",
+   "lat": 43.0839938,
+   "lon": -89.3638172,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "400c817680e3",
    "title": "JACK WHITE LIVE 2026",
    "start": "2026-11-09T20:00-06:00",
@@ -5005,14 +4866,37 @@
    "link_ok": null
   },
   {
-   "id": "3b7ae85c9449",
-   "title": "Birds, Birds, Birds",
+   "id": "32b20ddd65c5",
+   "title": "Taco Tuesday",
+   "start": "2026-11-10T00:00-06:00",
+   "end": null,
+   "all_day": true,
+   "category": "food",
+   "price": null,
+   "description": "Weekly Taco Tuesday at Lazy Oaf Lounge (per website specials page).",
+   "url": "https://www.lazyoaflounge.com/",
+   "image": "",
+   "venue": "Lazy Oaf Lounge",
+   "venue_id": "osm:node/1743291684",
+   "venue_kind": "bar",
+   "address": "1617 North Stoughton Road",
+   "lat": 43.1199361,
+   "lon": -89.3244342,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "5c8108b11091",
+   "title": "Tuesday Music: Birds, Birds, Birds",
    "start": "2026-11-10T00:00-06:00",
    "end": null,
    "all_day": true,
    "category": "music",
    "price": null,
-   "description": "Tuesday Music, 2nd Tuesday (folky and bluegrassy)",
+   "description": "Folky, bluegrassy and fun",
    "url": "http://malthousetavern.com/",
    "image": "",
    "venue": "The Malt House",
@@ -5021,6 +4905,29 @@
    "address": "2609 East Washington Avenue",
    "lat": 43.1005011,
    "lon": -89.3482198,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "728ac9e06224",
+   "title": "Adult Volleyball: Tuesday Women's Intermediate",
+   "start": "2026-11-10T00:00-06:00",
+   "end": null,
+   "all_day": true,
+   "category": "sports",
+   "price": null,
+   "description": "Weekly adult volleyball season night. Full schedule is in a PDF linked on the page; games may be cancelled if Verona schools close.",
+   "url": "https://www.veronawi.gov/941/Community-Center",
+   "image": "",
+   "venue": "Verona Community Center",
+   "venue_id": "osm:way/675800916",
+   "venue_kind": "community",
+   "address": "130 North Franklin Street",
+   "lat": 42.9935325,
+   "lon": -89.5330812,
    "source": "ai",
    "sources": [
     "AI page reading"
@@ -5107,7 +5014,7 @@
    "all_day": false,
    "category": "trivia",
    "price": 0.0,
-   "description": "Free weekly trivia at Flight Wine & Bourbon Bar, hosted with Wi Premier Trivia.",
+   "description": "Free trivia hosted with @wipremiertrivia. Gather your team and sip on flights.",
    "url": "https://flightwi.com/",
    "image": "",
    "venue": "Flight Wine & Bourbon Bar",
@@ -5199,7 +5106,7 @@
    "all_day": false,
    "category": "food",
    "price": null,
-   "description": "Capital Brewery monthly sampling at Bazil's Pub & Provisions in Appleton.",
+   "description": "Capital Brewery monthly beer sampling at Bazil's Pub & Provisions in Appleton.",
    "url": "https://www.capital-brewery.com/",
    "image": "",
    "venue": "Capital Brewery",
@@ -5314,7 +5221,7 @@
    "all_day": true,
    "category": "other",
    "price": null,
-   "description": "Project Projection program of local animation.",
+   "description": "Project Projection program featuring local animation.",
    "url": "https://artlitlab.org/",
    "image": "",
    "venue": "Arts + Literature Laboratory",
@@ -5346,6 +5253,29 @@
    "address": "",
    "lat": 43.0809695,
    "lon": -89.3757466,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "59aa98a8595b",
+   "title": "Adult Volleyball: Wednesday Co-ed Intermediate",
+   "start": "2026-11-11T00:00-06:00",
+   "end": null,
+   "all_day": true,
+   "category": "sports",
+   "price": null,
+   "description": "Weekly adult co-ed volleyball season night. Full schedule is in a PDF linked on the page; games may be cancelled if Verona schools close.",
+   "url": "https://www.veronawi.gov/941/Community-Center",
+   "image": "",
+   "venue": "Verona Community Center",
+   "venue_id": "osm:way/675800916",
+   "venue_kind": "community",
+   "address": "130 North Franklin Street",
+   "lat": 42.9935325,
+   "lon": -89.5330812,
    "source": "ai",
    "sources": [
     "AI page reading"
@@ -5444,6 +5374,29 @@
     "Ticketmaster"
    ],
    "link_ok": null
+  },
+  {
+   "id": "12f488e23adb",
+   "title": "Music Bingo",
+   "start": "2026-11-11T18:30-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "bingo",
+   "price": null,
+   "description": "Weekly music bingo at Lazy Oaf Lounge.",
+   "url": "https://www.lazyoaflounge.com/",
+   "image": "",
+   "venue": "Lazy Oaf Lounge",
+   "venue_id": "osm:node/1743291684",
+   "venue_kind": "bar",
+   "address": "1617 North Stoughton Road",
+   "lat": 43.1199361,
+   "lon": -89.3244342,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
   },
   {
    "id": "3caf0b81eff0",
@@ -5612,29 +5565,6 @@
    "link_ok": null
   },
   {
-   "id": "69f353f85ea0",
-   "title": "Karaoke Wednesday",
-   "start": "2026-11-11T20:00-06:00",
-   "end": "2026-11-11T23:00-06:00",
-   "all_day": false,
-   "category": "karaoke",
-   "price": null,
-   "description": "",
-   "url": "https://www.cafecoda.club/events-1/karaoke-nabjl-22c3f-gw57n-2m79c-a47wx-jblcs-4bcsl-mkd7s-ctsf4-p4hcx-t4n3x-xd9mh-c5tsy-cpczx-w6dsr-l2pex-rcndw",
-   "image": "https://images.squarespace-cdn.com/content/v1/6914abebeed4305fd5ea6ea5/1785343317638-SO41L5V94FHWN7K6ISJ1/Karaoke+Mondays-3.png",
-   "venue": "Cafe CODA",
-   "venue_id": "osm:way/385639191",
-   "venue_kind": "bar",
-   "address": "1224 Williamson Street",
-   "lat": 43.0839938,
-   "lon": -89.3638172,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "291e4b0b4f53",
    "title": "Mic on State",
    "start": "2026-11-11T20:00-06:00",
@@ -5705,6 +5635,29 @@
    "link_ok": null
   },
   {
+   "id": "1a552fb4c984",
+   "title": "Adult Volleyball: Thursday Men's Power",
+   "start": "2026-11-12T00:00-06:00",
+   "end": null,
+   "all_day": true,
+   "category": "sports",
+   "price": null,
+   "description": "Weekly adult men's volleyball season night. Full schedule is in a PDF linked on the page; games may be cancelled if Verona schools close.",
+   "url": "https://www.veronawi.gov/941/Community-Center",
+   "image": "",
+   "venue": "Verona Community Center",
+   "venue_id": "osm:way/675800916",
+   "venue_kind": "community",
+   "address": "130 North Franklin Street",
+   "lat": 42.9935325,
+   "lon": -89.5330812,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "316281b602ab",
    "title": "Online Write-In (Zoom)",
    "start": "2026-11-12T10:00-06:00",
@@ -5712,7 +5665,7 @@
    "all_day": false,
    "category": "other",
    "price": 0.0,
-   "description": "Pomodoro-style online write-in via Zoom with check-in and check-out. Registration is free.",
+   "description": "Pomodoro-style online write-in via Zoom with check-in and check-out; registration is free.",
    "url": "https://artlitlab.org/",
    "image": "",
    "venue": "Arts + Literature Laboratory",
@@ -6735,6 +6688,29 @@
    "link_ok": null
   },
   {
+   "id": "37f4cce5bb16",
+   "title": "Karaoke Nights",
+   "start": "2026-11-12T20:00-06:00",
+   "end": "2026-11-13T00:00-06:00",
+   "all_day": false,
+   "category": "karaoke",
+   "price": null,
+   "description": "Sing your heart out or dress up for our lively themed celebrations.",
+   "url": "https://www.lazyoaflounge.com/",
+   "image": "",
+   "venue": "Lazy Oaf Lounge",
+   "venue_id": "osm:node/1743291684",
+   "venue_kind": "bar",
+   "address": "1617 North Stoughton Road",
+   "lat": 43.1199361,
+   "lon": -89.3244342,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "976104ffafe1",
    "title": "Lily Rose",
    "start": "2026-11-12T20:00-06:00",
@@ -6861,7 +6837,7 @@
    "all_day": true,
    "category": "food",
    "price": null,
-   "description": "Weekly Friday night fish fry with choice of potato, soup, salad or coleslaw, roll and butter. Fried or baked cod or walleye pike.",
+   "description": "Weekly Friday fish fry with fried or baked cod or walleye pike, choice of potato, soup/salad/coleslaw, roll and butter.",
    "url": "http://www.thelaureltavern.com",
    "image": "",
    "venue": "Laurel Tavern",
@@ -6870,6 +6846,29 @@
    "address": "2505 Monroe Street",
    "lat": 43.0579453,
    "lon": -89.4273621,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "4fe1a5111253",
+   "title": "Friday Fish Fry",
+   "start": "2026-11-13T00:00-06:00",
+   "end": null,
+   "all_day": true,
+   "category": "food",
+   "price": null,
+   "description": "Weekly Friday fish fry at Lazy Oaf Lounge (per website specials page).",
+   "url": "https://www.lazyoaflounge.com/",
+   "image": "",
+   "venue": "Lazy Oaf Lounge",
+   "venue_id": "osm:node/1743291684",
+   "venue_kind": "bar",
+   "address": "1617 North Stoughton Road",
+   "lat": 43.1199361,
+   "lon": -89.3244342,
    "source": "ai",
    "sources": [
     "AI page reading"
@@ -7445,7 +7444,7 @@
    "all_day": true,
    "category": "other",
    "price": null,
-   "description": "Native Art Market.",
+   "description": "Native Art Market at Arts + Literature Laboratory.",
    "url": "https://artlitlab.org/",
    "image": "",
    "venue": "Arts + Literature Laboratory",
@@ -7468,7 +7467,7 @@
    "all_day": true,
    "category": "food",
    "price": null,
-   "description": "Weekly Saturday prime rib dinner with natural au jus and horseradish, choice of potato, soup or salad or coleslaw, roll and butter.",
+   "description": "Weekly Saturday roast prime rib with au jus and horseradish, choice of potato, soup/salad/coleslaw, roll and butter.",
    "url": "http://www.thelaureltavern.com",
    "image": "",
    "venue": "Laurel Tavern",
@@ -7537,7 +7536,7 @@
    "all_day": false,
    "category": "food",
    "price": 0.0,
-   "description": "Free coffee and tea at the Oscar Rennebohm Library on Saturdays this fall.",
+   "description": "Free coffee and tea at the Oscar Rennebohm Library on Saturdays this fall, 9am to 1pm.",
    "url": "https://library.edgewood.edu/home",
    "image": "",
    "venue": "Oscar Rennebohm Library",
@@ -7701,7 +7700,7 @@
    "all_day": false,
    "category": "music",
    "price": null,
-   "description": "Weekly Saturday tour at Old Sugar Distillery, listed as Saturdays 1:30PM.",
+   "description": "Saturday distillery tour at 1:30PM, per the page's Tours listing.",
    "url": "https://oldsugardistillery.com/",
    "image": "",
    "venue": "Old Sugar Distillery",
@@ -8286,7 +8285,7 @@
    "all_day": false,
    "category": "other",
    "price": 0.0,
-   "description": "Pomodoro-style online write-in via Zoom with check-in and check-out. Registration is free.",
+   "description": "Pomodoro-style online write-in via Zoom with check-in and check-out; registration is free.",
    "url": "https://artlitlab.org/",
    "image": "",
    "venue": "Arts + Literature Laboratory",
@@ -8651,37 +8650,14 @@
    "link_ok": null
   },
   {
-   "id": "43ebfe8bfc31",
-   "title": "Monday Madness",
-   "start": "2026-11-16T00:00-06:00",
-   "end": null,
-   "all_day": true,
-   "category": "food",
-   "price": null,
-   "description": "Discounted token pricing and special deals every Monday.",
-   "url": "https://www.aftershockclassicarcade.com/",
-   "image": "",
-   "venue": "Aftershock Classic Arcade",
-   "venue_id": "osm:node/6431684446",
-   "venue_kind": "bar",
-   "address": "1444 East Washington Avenue",
-   "lat": 43.0897796,
-   "lon": -89.3632278,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "05523e54d859",
-   "title": "Material Boys",
+   "id": "fa6eaf8e5811",
+   "title": "Acoustic Music Monday: Material Boys",
    "start": "2026-11-16T00:00-06:00",
    "end": null,
    "all_day": true,
    "category": "music",
    "price": null,
-   "description": "Acoustic Music Monday, 3rd Monday (bluegrass)",
+   "description": "Bluegrass",
    "url": "http://malthousetavern.com/",
    "image": "",
    "venue": "The Malt House",
@@ -8837,6 +8813,75 @@
    "link_ok": null
   },
   {
+   "id": "462ffcdfd80c",
+   "title": "Taco Tuesday",
+   "start": "2026-11-17T00:00-06:00",
+   "end": null,
+   "all_day": true,
+   "category": "food",
+   "price": null,
+   "description": "Weekly Taco Tuesday at Lazy Oaf Lounge (per website specials page).",
+   "url": "https://www.lazyoaflounge.com/",
+   "image": "",
+   "venue": "Lazy Oaf Lounge",
+   "venue_id": "osm:node/1743291684",
+   "venue_kind": "bar",
+   "address": "1617 North Stoughton Road",
+   "lat": 43.1199361,
+   "lon": -89.3244342,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "43305b6af15c",
+   "title": "Tuesday Music: Onadare",
+   "start": "2026-11-17T00:00-06:00",
+   "end": null,
+   "all_day": true,
+   "category": "music",
+   "price": null,
+   "description": "Irish trad/pub",
+   "url": "http://malthousetavern.com/",
+   "image": "",
+   "venue": "The Malt House",
+   "venue_id": "osm:way/592859743",
+   "venue_kind": "bar",
+   "address": "2609 East Washington Avenue",
+   "lat": 43.1005011,
+   "lon": -89.3482198,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "31b6d94a8472",
+   "title": "Adult Volleyball: Tuesday Women's Intermediate",
+   "start": "2026-11-17T00:00-06:00",
+   "end": null,
+   "all_day": true,
+   "category": "sports",
+   "price": null,
+   "description": "Weekly adult volleyball season night. Full schedule is in a PDF linked on the page; games may be cancelled if Verona schools close.",
+   "url": "https://www.veronawi.gov/941/Community-Center",
+   "image": "",
+   "venue": "Verona Community Center",
+   "venue_id": "osm:way/675800916",
+   "venue_kind": "community",
+   "address": "130 North Franklin Street",
+   "lat": 42.9935325,
+   "lon": -89.5330812,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "713c0be8b04b",
    "title": "Holiday Pop-up Shop",
    "start": "2026-11-17T10:00-06:00",
@@ -8923,6 +8968,29 @@
    "address": "3735 Monona Drive",
    "lat": 43.0863319,
    "lon": -89.3272545,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "eedfb5f10860",
+   "title": "Trivia Tuesdays",
+   "start": "2026-11-17T18:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "trivia",
+   "price": 0.0,
+   "description": "Free trivia hosted with @wipremiertrivia. Gather your team and sip on flights.",
+   "url": "https://flightwi.com/",
+   "image": "",
+   "venue": "Flight Wine & Bourbon Bar",
+   "venue_id": "osm:node/11537268930",
+   "venue_kind": "bar",
+   "address": "4893 Lacy Road",
+   "lat": 43.0112712,
+   "lon": -89.3736621,
    "source": "ai",
    "sources": [
     "AI page reading"
@@ -9139,6 +9207,52 @@
    "link_ok": true
   },
   {
+   "id": "2122382bb181",
+   "title": "Wednesday Music: Don't Spook The Horse",
+   "start": "2026-11-18T00:00-06:00",
+   "end": null,
+   "all_day": true,
+   "category": "music",
+   "price": null,
+   "description": "Acoustic merrymaking",
+   "url": "http://malthousetavern.com/",
+   "image": "",
+   "venue": "The Malt House",
+   "venue_id": "osm:way/592859743",
+   "venue_kind": "bar",
+   "address": "2609 East Washington Avenue",
+   "lat": 43.1005011,
+   "lon": -89.3482198,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "393765bd8b97",
+   "title": "Adult Volleyball: Wednesday Co-ed Intermediate",
+   "start": "2026-11-18T00:00-06:00",
+   "end": null,
+   "all_day": true,
+   "category": "sports",
+   "price": null,
+   "description": "Weekly adult co-ed volleyball season night. Full schedule is in a PDF linked on the page; games may be cancelled if Verona schools close.",
+   "url": "https://www.veronawi.gov/941/Community-Center",
+   "image": "",
+   "venue": "Verona Community Center",
+   "venue_id": "osm:way/675800916",
+   "venue_kind": "community",
+   "address": "130 North Franklin Street",
+   "lat": 42.9935325,
+   "lon": -89.5330812,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "9d6f648766ac",
    "title": "Holiday Pop-up Shop",
    "start": "2026-11-18T10:00-06:00",
@@ -9250,6 +9364,29 @@
    "address": "2201 Atwood Avenue",
    "lat": 43.0930561,
    "lon": -89.3492054,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "79c2ec8b3db4",
+   "title": "Music Bingo",
+   "start": "2026-11-18T18:30-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "bingo",
+   "price": null,
+   "description": "Weekly music bingo at Lazy Oaf Lounge.",
+   "url": "https://www.lazyoaflounge.com/",
+   "image": "",
+   "venue": "Lazy Oaf Lounge",
+   "venue_id": "osm:node/1743291684",
+   "venue_kind": "bar",
+   "address": "1617 North Stoughton Road",
+   "lat": 43.1199361,
+   "lon": -89.3244342,
    "source": "ai",
    "sources": [
     "AI page reading"
@@ -9445,6 +9582,75 @@
    "link_ok": null
   },
   {
+   "id": "be5a0b1770d4",
+   "title": "Bridge Work: Processing Powers",
+   "start": "2026-11-19T00:00-06:00",
+   "end": null,
+   "all_day": true,
+   "category": "other",
+   "price": null,
+   "description": "Bridge Work exhibition, running November 19, 2026 to January 9, 2027.",
+   "url": "https://artlitlab.org/",
+   "image": "",
+   "venue": "Arts + Literature Laboratory",
+   "venue_id": "osm:node/10815180247",
+   "venue_kind": "venue",
+   "address": "111 South Livingston Street",
+   "lat": 43.0804026,
+   "lon": -89.3734803,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "2891e17329e7",
+   "title": "Adult Volleyball: Thursday Men's Power",
+   "start": "2026-11-19T00:00-06:00",
+   "end": null,
+   "all_day": true,
+   "category": "sports",
+   "price": null,
+   "description": "Weekly adult men's volleyball season night. Full schedule is in a PDF linked on the page; games may be cancelled if Verona schools close.",
+   "url": "https://www.veronawi.gov/941/Community-Center",
+   "image": "",
+   "venue": "Verona Community Center",
+   "venue_id": "osm:way/675800916",
+   "venue_kind": "community",
+   "address": "130 North Franklin Street",
+   "lat": 42.9935325,
+   "lon": -89.5330812,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "b544aed942eb",
+   "title": "Online Write-In (Zoom)",
+   "start": "2026-11-19T10:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "other",
+   "price": 0.0,
+   "description": "Pomodoro-style online write-in via Zoom with check-in and check-out; registration is free.",
+   "url": "https://artlitlab.org/",
+   "image": "",
+   "venue": "Arts + Literature Laboratory",
+   "venue_id": "osm:node/10815180247",
+   "venue_kind": "venue",
+   "address": "111 South Livingston Street",
+   "lat": 43.0804026,
+   "lon": -89.3734803,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "64276aea97f4",
    "title": "Holiday Pop-up Shop",
    "start": "2026-11-19T10:00-06:00",
@@ -9467,6 +9673,284 @@
     "Isthmus"
    ],
    "link_ok": null
+  },
+  {
+   "id": "d11a3ff80e53",
+   "title": "Thursday Meat Raffle",
+   "start": "2026-11-19T16:30-06:00",
+   "end": "2026-11-19T18:00-06:00",
+   "all_day": false,
+   "category": "bingo",
+   "price": null,
+   "description": "Weekly Thursday meat raffle, 4:30 pm to 6:00 pm.",
+   "url": "http://www.monkeyshinesbarandgrill.com/",
+   "image": "",
+   "venue": "Monkeyshines Bar & Grill",
+   "venue_id": "osm:way/107655168",
+   "venue_kind": "bar",
+   "address": "6209 McKee Road",
+   "lat": 43.0146693,
+   "lon": -89.4753418,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "9d99a4c34dfa",
+   "title": "Virtual Author Talks with Library Speakers Consortium",
+   "start": "2026-11-19T18:00-06:00",
+   "end": "2026-11-19T19:00-06:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Event Description We are excited to offer a new virtual program to our patrons! The Library Speakers Consortium hosts virtual author talks over a variety of genres. Each month, there will be at least two talks available for you to attend. Register for each talk, submit questions for the Q&A, and per",
+   "url": "https://www.mcfarlandlibrary.org/home",
+   "image": "",
+   "venue": "E.D. Locke Public Library",
+   "venue_id": "osm:way/386578862",
+   "venue_kind": "library",
+   "address": "5920 Milwaukee Street",
+   "lat": 43.0136038,
+   "lon": -89.2883391,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "6794eede6a59",
+   "title": "Live Music - Acid Tofu",
+   "start": "2026-11-19T18:00-06:00",
+   "end": "2026-11-19T20:00-06:00",
+   "all_day": false,
+   "category": "music",
+   "price": null,
+   "description": "",
+   "url": "https://www.gibs.bar/event-calendar/2026/11/19/live-music-acid-tofu",
+   "image": "https://static1.squarespace.com/static/545d39fae4b0edd3bdcfbfca/6ad29954ae91ce3fab9e773c/6ad2a4b127026915575e4aff/1792190152104/",
+   "venue": "Gib's Bar",
+   "venue_id": "osm:way/677658703",
+   "venue_kind": "bar",
+   "address": "1380 Williamson Street",
+   "lat": 43.0856186,
+   "lon": -89.3613346,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "eadd85ea9485",
+   "title": "Tropidelic with Surfer Girl, The Quasi Kings",
+   "start": "2026-11-19T18:30-06:00",
+   "end": "2026-11-19T19:30-06:00",
+   "all_day": false,
+   "category": "music",
+   "price": 28.0,
+   "description": "5:45 VIP Doors 6:30 GA Doors 7:30 Show General Admission: $23ADV / $28DOS Balcony Seating: $45ADV / $50DOS",
+   "url": "https://www.theatwoodmusichall.com/shows/2026-11-19",
+   "image": "https://images.squarespace-cdn.com/content/v1/62cacf3906240b03a9e7209f/1778770914922-TVT2XCGGTR5FMHVVFNOM/tropidelic+.png",
+   "venue": "Atwood Music Hall",
+   "venue_id": "osm:way/440518288",
+   "venue_kind": "venue",
+   "address": "1925 Winnebago Street",
+   "lat": 43.0909399,
+   "lon": -89.3556544,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "900c7c5cff4e",
+   "title": "Harmonious: A Songwriters' Showcase (Season 2, Episode 2)",
+   "start": "2026-11-19T18:30-06:00",
+   "end": "2026-11-19T20:30-06:00",
+   "all_day": false,
+   "category": "music",
+   "price": 0.0,
+   "description": "Round-robin songwriter showcase hosted by JT Spartz, featuring Annie Emmenegger, Jason Edward and JT Spartz. No cover.",
+   "url": "https://www.harmonybarandgrill.com/",
+   "image": "",
+   "venue": "Harmony Bar & Grill",
+   "venue_id": "osm:way/345773988",
+   "venue_kind": "bar",
+   "address": "2201 Atwood Avenue",
+   "lat": 43.0930561,
+   "lon": -89.3492054,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "bb6028a8da93",
+   "title": "Trivia with King Trivia",
+   "start": "2026-11-19T18:30-06:00",
+   "end": "2026-11-19T20:00-06:00",
+   "all_day": false,
+   "category": "trivia",
+   "price": 0.0,
+   "description": "Put your knowledge to the test at Trivia Night at One Social Food Hall, hosted by King Trivia! Gather your team, grab a drink, and dive into a fun, fast-paced evening of questions spanning pop culture, history, music, and more. With great food vendors, craft cocktails, and a lively atmosphere, it’s ",
+   "url": "https://onesocialmadison.com/event/trivia-with-king-trivia-3/",
+   "image": "",
+   "venue": "One Social Bar",
+   "venue_id": "osm:node/13312456631",
+   "venue_kind": "bar",
+   "address": "",
+   "lat": 43.0738511,
+   "lon": -89.378883,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "4c5b3bf6a9d2",
+   "title": "Leah Rudick",
+   "start": "2026-11-19T19:00-06:00",
+   "end": "2026-11-19T20:30-06:00",
+   "all_day": false,
+   "category": "comedy",
+   "price": null,
+   "description": "Leah Rudick is a Los Angeles based comedian known for her viral original characters including Wealthy Woman, Joannie, and Love Coach. Rudick has built a devoted fanbase of nearly 2 […] \\n",
+   "url": "https://www.madisoncomedy.com/event/leah-rudick26/",
+   "image": "https://www.madisoncomedy.com/wp-content/uploads/LeahRudick26.png",
+   "venue": "Comedy Club on State",
+   "venue_id": "osm:node/5661434234",
+   "venue_kind": "venue",
+   "address": "",
+   "lat": 43.0749506,
+   "lon": -89.3882204,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "2fd1b701ff34",
+   "title": "Words with Nerds",
+   "start": "2026-11-19T19:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "comedy",
+   "price": 15.0,
+   "description": "Infotainment show mixing TED-style talks with stand-up comedy. $15 advance, $20 day of, $10 cash with student ID. Doors 6:30pm.",
+   "url": "https://www.cruciblemadison.com/",
+   "image": "",
+   "venue": "Crucible",
+   "venue_id": "osm:node/6519071395",
+   "venue_kind": "bar",
+   "address": "3116 Commercial Avenue",
+   "lat": 43.1071484,
+   "lon": -89.3359941,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "c915bd947d80",
+   "title": "Marc Maron",
+   "start": "2026-11-19T20:00-06:00",
+   "end": "2026-11-19T20:00-06:00",
+   "all_day": false,
+   "category": "theater",
+   "price": null,
+   "description": "@ FPC Live Presents Marc Maron Yammering into the Void Tour (This is a Reserved Seat Show.) Information Box Office: 6:30 PM | Doors: 7:00 PM | Show: 8:00 PM Tickets are available online or at The Sylvee box office. Once the doors have opened, if tickets are st",
+   "url": "https://barrymorelive.com/event/marc-maron-3/",
+   "image": "https://barrymorelive.com/wp-content/uploads/2026/04/Untitled-design-7.webp",
+   "venue": "Barrymore Theatre",
+   "venue_id": "osm:way/345755104",
+   "venue_kind": "venue",
+   "address": "2090-2098 Atwood Avenue",
+   "lat": 43.0929747,
+   "lon": -89.3521777,
+   "source": "scraped",
+   "sources": [
+    "Venue websites",
+    "Ticketmaster"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "af7b9a7195d7",
+   "title": "Humbird",
+   "start": "2026-11-19T20:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "music",
+   "price": null,
+   "description": "Folk / Indie Folk",
+   "url": "https://www.ticketmaster.com/humbird-madison-wisconsin-11-19-2026/event/070064F4C2583C1E",
+   "image": "https://s1.ticketm.net/dam/a/068/7e70b1cb-32f1-4514-98a3-9ad391cbe068_RETINA_PORTRAIT_16_9.jpg",
+   "venue": "High Noon Saloon",
+   "venue_id": "osm:node/1348850872",
+   "venue_kind": "bar",
+   "address": "701 E Washington Ave",
+   "lat": 43.0797191,
+   "lon": -89.3762962,
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster",
+    "AI page reading"
+   ],
+   "link_ok": null
+  },
+  {
+   "id": "eff306435ef0",
+   "title": "Karaoke Nights",
+   "start": "2026-11-19T20:00-06:00",
+   "end": "2026-11-20T00:00-06:00",
+   "all_day": false,
+   "category": "karaoke",
+   "price": null,
+   "description": "Sing your heart out or dress up for our lively themed celebrations.",
+   "url": "https://www.lazyoaflounge.com/",
+   "image": "",
+   "venue": "Lazy Oaf Lounge",
+   "venue_id": "osm:node/1743291684",
+   "venue_kind": "bar",
+   "address": "1617 North Stoughton Road",
+   "lat": 43.1199361,
+   "lon": -89.3244342,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "9a3a2d1d020e",
+   "title": "Goth AF presents: The Darkness",
+   "start": "2026-11-19T21:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "dance",
+   "price": 5.0,
+   "description": "Goth night event. Doors 9:00 PM, 18+.",
+   "url": "https://www.cruciblemadison.com/",
+   "image": "",
+   "venue": "Crucible",
+   "venue_id": "osm:node/6519071395",
+   "venue_kind": "bar",
+   "address": "3116 Commercial Avenue",
+   "lat": 43.1071484,
+   "lon": -89.3359941,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
   }
  ]
 }
