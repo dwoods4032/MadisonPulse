@@ -772,5 +772,37 @@
   "lon": -89.747662,
   "address": "Spring Street",
   "city": "Black Earth"
+ },
+ "madison enterprise center-common wealth gallery": null,
+ "wisconsin council of the blind & visually impaired": {
+  "lat": 43.078347,
+  "lon": -89.371971,
+  "address": "754 Williamson Street",
+  "city": "Madison"
+ },
+ "edgewood university-the stream": null,
+ "dane county humane society": {
+  "lat": 43.042833,
+  "lon": -89.292993,
+  "address": "5132 Voges Road",
+  "city": "Madison"
+ },
+ "mazomanie community building": null,
+ "the crossing": {
+  "lat": 42.999601,
+  "lon": -89.407525,
+  "address": "",
+  "city": "Fitchburg"
+ },
+ "mother fool's coffeehouse": null,
+ "kurniki's, pine bluff": null,
+ "uw music hall": null,
+ "tnw ensemble theater": null,
+ "madison concourse hotel bar": null,
+ "holiday inn, verona": {
+  "lat": 42.987876,
+  "lon": -89.54526,
+  "address": "515 West Verona Avenue",
+  "city": "Verona"
  }
 }

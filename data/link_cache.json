@@ -94,41 +94,6 @@
   "why": "",
   "checked": "2026-11-03T21:02:06.238024-06:00"
  },
- "https://www.cafecoda.club/events-1/night-of-the-improviser-z76xb": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-03T21:02:08.812580-06:00"
- },
- "https://www.madisoncomedy.com/event/bomw26/2026-11-05/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-03T21:02:08.812588-06:00"
- },
- "https://www.workingdraftbeer.com/events/2026/11/5/blankets-brews-w-the-united-way-of-dane-county": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-03T21:02:09.953353-06:00"
- },
- "https://barrymorelive.com/event/love-letter-afterlife/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-03T21:02:09.953362-06:00"
- },
- "https://www.ticketmaster.com/the-bends-madison-wisconsin-11-05-2026/event/0700648AB11A4F0D": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-03T21:02:11.084707-06:00"
- },
- "https://www.ticketmaster.com/die-spitz-madison-wisconsin-11-05-2026/event/070064549AA24EC5": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-03T21:02:12.210653-06:00"
- },
- "https://www.ticketmaster.com/scott-bradlees-postmodern-jukebox-the-future-madison-wisconsin-11-05-2026/event/0700649DD0BD8A7C": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-03T21:02:13.809512-06:00"
- },
  "https://madisonorpheum.com/": {
   "ok": true,
   "why": "",
@@ -2304,11 +2269,6 @@
   "why": "",
   "checked": "2026-11-03T21:02:33.960153-06:00"
  },
- "https://thelonegirl.com/event/line-dancing-party-monthly-at-the-lone-girl/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-03T21:02:07.035821-06:00"
- },
  "https://thelonegirl.com/event/magic-rob-every-friday-tableside-2-2-2-3-2-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2/": {
   "ok": true,
   "why": "",
@@ -2382,37 +2342,37 @@
  "https://www.capital-brewery.com/": {
   "ok": true,
   "why": "",
-  "checked": "2026-10-29T21:38:38.172993-05:00"
+  "checked": "2026-11-06T12:01:11.329007-06:00"
  },
  "https://www.cafecoda.club/events-1/playin-the-standards-a-jam-session-hosted-by-janni-hora-kkkd4": {
   "ok": true,
   "why": "",
-  "checked": "2026-10-29T21:38:38.173020-05:00"
+  "checked": "2026-11-06T12:01:11.329013-06:00"
  },
  "https://www.madisoncomedy.com/event/dylan-carlino/2026-11-12/": {
   "ok": true,
   "why": "",
-  "checked": "2026-10-29T21:38:38.173029-05:00"
+  "checked": "2026-11-06T12:01:11.329017-06:00"
  },
  "https://www.theatwoodmusichall.com/shows/2026-11-12": {
   "ok": true,
   "why": "",
-  "checked": "2026-10-29T21:38:38.173035-05:00"
+  "checked": "2026-11-06T12:01:11.329022-06:00"
  },
  "https://www.ticketmaster.com/mustard-plug-w-something-to-do-madison-wisconsin-11-12-2026/event/070064C2C8885C5D": {
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-10-29T21:38:39.288754-05:00"
+  "checked": "2026-11-06T12:01:11.329026-06:00"
  },
  "https://www.ticketmaster.com/lily-rose-madison-wisconsin-11-12-2026/event/070064D6BCDB502E": {
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-10-29T21:38:39.288780-05:00"
+  "checked": "2026-11-06T12:01:11.608075-06:00"
  },
  "https://www.ticketmaster.com/sts9-human-dream-tour-madison-wisconsin-11-12-2026/event/070064C9CBA352B0": {
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-10-29T21:38:39.288790-05:00"
+  "checked": "2026-11-06T12:01:11.608100-06:00"
  },
  "https://www.caseys.com": {
   "ok": null,
@@ -3504,11 +3464,6 @@
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
   "checked": "2026-10-31T21:15:29.802279-05:00"
  },
- "https://www.gibs.bar/event-calendar/2026/11/5/cheers-with-queers": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-01T11:09:52.530187-06:00"
- },
  "https://www.gibs.bar/event-calendar/2026/11/7/dj-selavy": {
   "ok": true,
   "why": "",
@@ -3563,21 +3518,6 @@
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
   "checked": "2026-11-01T20:32:08.504944-06:00"
- },
- "https://www.madisonpubliclibrary.org/locations/pinney-library": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-02T14:52:54.572788-06:00"
- },
- "https://communicationmadison.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-02T14:52:55.710722-06:00"
- },
- "https://onesocialmadison.com/event/trivia-with-king-trivia/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-02T14:53:03.162585-06:00"
  },
  "https://onesocialmadison.com/event/live-music-sundance/": {
   "ok": true,
@@ -3779,11 +3719,6 @@
   "why": "",
   "checked": "2026-11-03T12:28:52.157213-06:00"
  },
- "https://thebrassringmadison.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-03T12:28:54.097068-06:00"
- },
  "https://www.turnkeymadison.com/working-menu": {
   "ok": true,
   "why": "",
@@ -3809,16 +3744,6 @@
   "why": "",
   "checked": "2026-11-03T21:02:46.936441-06:00"
  },
- "https://www.mickeysmadison.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-04T12:40:33.530728-06:00"
- },
- "https://theohiotavern.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-04T12:40:33.530732-06:00"
- },
  "https://thelonegirl.com/event/lone-girl-brewing-wednesday-trivia-2/": {
   "ok": true,
   "why": "",
@@ -3838,11 +3763,6 @@
   "ok": true,
   "why": "",
   "checked": "2026-11-05T12:48:20.710139-06:00"
- },
- "https://www.northstreetcabaret.com/": {
-  "ok": null,
-  "why": "robots.txt asks bots not to visit",
-  "checked": "2026-11-05T12:48:20.911223-06:00"
  },
  "https://bstonline.org/": {
   "ok": true,
@@ -3908,5 +3828,30 @@
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
   "checked": "2026-11-05T21:28:15.481589-06:00"
+ },
+ "https://www.madisonpubliclibrary.org/central": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-06T12:01:09.542624-06:00"
+ },
+ "https://www.madisoncomedy.com/event/bomw26/2026-11-06/1/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-06T12:01:11.328973-06:00"
+ },
+ "https://www.madisoncomedy.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-06T12:01:11.329002-06:00"
+ },
+ "https://www.madisonpubliclibrary.org/monroe-street": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-06T12:01:11.608105-06:00"
+ },
+ "https://www.workingdraftbeer.com/events/2026/11/19/samba-night": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-06T12:01:11.608109-06:00"
  }
 }
