@@ -525,26 +525,17 @@
   ]
  },
  "https://high-noon.com/calendar/": {
-  "hash": "1c865ac5922e29736348a16798eb55d528c39b8a",
-  "asked": "2026-11-06T11:57:52-06:00",
-  "on": "2026-11-06",
+  "hash": "6d8e384da1902a59ec9ba1807177aea39673da0c",
+  "asked": "2026-11-07T10:50:59-06:00",
+  "on": "2026-11-07",
   "events": [
-   {
-    "title": "Six Foot Blonde with Genevieve Heyward",
-    "date": "2026-11-06",
-    "start": "20:00",
-    "end": null,
-    "price": null,
-    "description": "FPC Live presents; doors 7:00 pm",
-    "category": "music"
-   },
    {
     "title": "Unrest Fest 2026",
     "date": "2026-11-07",
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents with Tenmonthsummer, Barely Civil, Los Kausas, Ourvanity, The Up & Up, The Brash Menagerie, and Irish Goodbyes; doors 6:00 pm",
+    "description": "FPC Live presents Unrest Fest 2026 with Tenmonthsummer, Barely Civil, Los Kausas, Ourvanity, The Up & Up, The Brash Menagerie, and Irish Goodbyes. Doors 6:00 pm.",
     "category": "music"
    },
    {
@@ -553,7 +544,7 @@
     "start": "12:00",
     "end": null,
     "price": 20,
-    "description": "With Low Czars; suggested $20 donation at the door; doors 11:00 am",
+    "description": "Launch party and music benefit with Low Czars. Suggested $20 donation at the door. Doors 11:00 am.",
     "category": "music"
    },
    {
@@ -562,7 +553,7 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "FPC Live presents; doors 6:30 pm",
+    "description": "FPC Live presents Psychostick with Texas Toast Chainsaw Massacre. Doors 6:30 pm.",
     "category": "music"
    },
    {
@@ -571,7 +562,7 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "The Moth presents a storytelling slam; doors 6:30 pm",
+    "description": "The Moth presents Madison StorySLAM, theme Home for the Holidays. Doors 6:30 pm.",
     "category": "other"
    },
    {
@@ -580,7 +571,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents; doors 7:00 pm",
+    "description": "FPC Live presents Fruition with Gardener. Doors 7:00 pm.",
     "category": "music"
    },
    {
@@ -589,7 +580,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents; doors 7:00 pm",
+    "description": "FPC Live presents Low Cut Connie with Free Dirt. Doors 7:00 pm.",
     "category": "music"
    },
    {
@@ -598,7 +589,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents; doors 7:00 pm",
+    "description": "FPC Live presents Mustard Plug with Something To Do and Deven Kay & The Solutions. Doors 7:00 pm.",
     "category": "music"
    },
    {
@@ -607,16 +598,16 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents; doors 6:00 pm",
+    "description": "FPC Live presents Hottt Probs, Heet Deth and Sex Scenes. Doors 6:00 pm.",
     "category": "music"
    },
    {
-    "title": "Hips Don't Lie: A Tribute To Shakira",
+    "title": "Hips Don't Lie: A Tribute to Shakira",
     "date": "2026-11-14",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents; doors 7:00 pm",
+    "description": "FPC Live presents a Shakira tribute show. Doors 7:00 pm.",
     "category": "music"
    },
    {
@@ -625,7 +616,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents; sold out; doors 7:00 pm",
+    "description": "FPC Live presents almost monday with feel trip. Listed as sold out. Doors 7:00 pm.",
     "category": "music"
    },
    {
@@ -634,7 +625,7 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "FPC Live presents; doors 6:30 pm",
+    "description": "FPC Live presents Ryan Jesse with Clayton Shay. Doors 6:30 pm.",
     "category": "music"
    },
    {
@@ -643,7 +634,7 @@
     "start": "19:00",
     "end": null,
     "price": 0,
-    "description": "FPC Live presents; free show; doors 6:00 pm",
+    "description": "FPC Live presents Nerd Nite. Free show. Doors 6:00 pm.",
     "category": "other"
    },
    {
@@ -652,7 +643,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "WORT 89.9 FM presents; doors 7:00 pm",
+    "description": "WORT 89.9 FM presents Humbird with Bad Posture Club. Doors 7:00 pm.",
     "category": "music"
    },
    {
@@ -661,7 +652,25 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "High Noon Saloon show; doors 7:00 pm",
+    "description": "Show featuring Left Lane Cruiser, 20 Watt Tombstone and Electromag. Doors 7:00 pm.",
+    "category": "music"
+   },
+   {
+    "title": "Music Con Brio: Caravan performing Modal Jazz",
+    "date": "2026-11-21",
+    "start": "11:30",
+    "end": null,
+    "price": 0,
+    "description": "Caravan performs modal jazz with Music Con Brio students. Free, donations at the door. Doors 11:00 am.",
+    "category": "music"
+   },
+   {
+    "title": "Houses In Motion (Talking Heads Tribute)",
+    "date": "2026-11-21",
+    "start": "20:00",
+    "end": null,
+    "price": null,
+    "description": "FPC Live presents Houses In Motion, a Talking Heads tribute. Doors 7:00 pm.",
     "category": "music"
    }
   ]
@@ -673,9 +682,9 @@
   "events": []
  },
  "https://www.roxxybar.com/madison-events/": {
-  "hash": "ea8983e571c40a760c8a6bc6c0370e5bc620b91e",
-  "asked": "2026-11-06T11:57:50-06:00",
-  "on": "2026-11-06",
+  "hash": "8b31e5d6a76ecfa18ecfd3a775d9c561445bc18a",
+  "asked": "2026-11-07T10:50:55-06:00",
+  "on": "2026-11-07",
   "events": []
  },
  "https://www.lazyoaflounge.com/specials": {
@@ -728,25 +737,16 @@
   "events": []
  },
  "https://www.harmonybarandgrill.com/madison-atwood-the-harmony-bar-and-grill-happy-hours-specials": {
-  "hash": "ae3d4d09a198520d6c3147aba5f54e070db255da",
-  "asked": "2026-11-04T12:38:40-06:00",
-  "on": "2026-11-04",
+  "hash": "d65b0b879ab2da818bf4ca4ddd008ff69c17ac3f",
+  "asked": "2026-11-07T10:50:56-06:00",
+  "on": "2026-11-07",
   "events": [
-   {
-    "title": "Friday Fish Fry",
-    "date": "2026-11-06",
-    "start": null,
-    "end": null,
-    "price": null,
-    "description": "Friday fish fry special at Harmony Bar and Grill.",
-    "category": "food"
-   },
    {
     "title": "David Landau Kids Show",
     "date": "2026-11-09",
     "start": "17:30",
     "end": "18:30",
-    "price": 5,
+    "price": 5.0,
     "description": "Kids show with David Landau, every Monday.",
     "category": "music"
    },
@@ -755,7 +755,7 @@
     "date": "2026-11-16",
     "start": "17:30",
     "end": "18:30",
-    "price": 5,
+    "price": 5.0,
     "description": "Kids show with David Landau, every Monday.",
     "category": "music"
    },
@@ -765,8 +765,17 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Mixed open mic listed for Tuesday, November 10th on the page; the page describes it as held on the first Tuesday of the month.",
+    "description": "Mixed mic night. The page lists it as every first Tuesday of the month but dates this listing Tuesday, November 10th.",
     "category": "open_mic"
+   },
+   {
+    "title": "Friday Fish Fry",
+    "date": "2026-11-13",
+    "start": "11:00",
+    "end": "22:00",
+    "price": null,
+    "description": "Friday fish fry special.",
+    "category": "food"
    }
   ]
  },
@@ -1043,25 +1052,16 @@
  },
  "https://www.statelinedistillery.com/cocktail-lounge/events": {
   "hash": "53bc90568646b4dce0f83ed88f306b4a3342ccbe",
-  "asked": "2026-11-03T21:00:51-06:00",
-  "on": "2026-11-03",
+  "asked": "2026-11-07T10:51:04-06:00",
+  "on": "2026-11-07",
   "events": [
-   {
-    "title": "Christa Lee Music",
-    "date": "2026-11-06",
-    "start": "19:00",
-    "end": "21:00",
-    "price": null,
-    "description": "Live music with Christa Lee.",
-    "category": "music"
-   },
    {
     "title": "86'd Party",
     "date": "2026-11-14",
     "start": "15:00",
     "end": null,
     "price": null,
-    "description": "86'd Party at State Line Distillery.",
+    "description": "86'd Party at State Line Distillery Cocktail Lounge.",
     "category": "other"
    },
    {
@@ -1070,7 +1070,7 @@
     "start": "15:00",
     "end": "21:00",
     "price": null,
-    "description": "Launch event for the fall and winter menu.",
+    "description": "Fall and winter menu launch at the Cocktail Lounge.",
     "category": "food"
    },
    {
@@ -1081,6 +1081,15 @@
     "price": null,
     "description": "Badgers On Tap talk on the science of psychedelics.",
     "category": "other"
+   },
+   {
+    "title": "Bear in the Forest Show",
+    "date": "2026-11-21",
+    "start": "18:00",
+    "end": "21:00",
+    "price": null,
+    "description": "Bear in the Forest show at the Cocktail Lounge.",
+    "category": "music"
    }
   ]
  },
@@ -1313,25 +1322,16 @@
  },
  "https://lakesidestcoffeehouse.com/music-calendar": {
   "hash": "8ca18ec0a3c197933e101f7ff37eb42f71afd610",
-  "asked": "2026-11-03T21:01:08-06:00",
-  "on": "2026-11-03",
+  "asked": "2026-11-07T10:51:21-06:00",
+  "on": "2026-11-07",
   "events": [
-   {
-    "title": "The Honey Pies",
-    "date": "2026-11-06",
-    "start": "19:00",
-    "end": null,
-    "price": null,
-    "description": "Live music at Lakeside Street Coffee House. Doors open one hour before showtime; no cover, suggested donation.",
-    "category": "music"
-   },
    {
     "title": "Books, Beads, and Beverages with Lily Comp",
     "date": "2026-11-12",
     "start": "19:00",
     "end": "21:00",
     "price": null,
-    "description": "Local author Lily Comp discusses her first book, Scenic Natural Wonders of Wisconsin, with a crafting activity.",
+    "description": "Local author Lily Comp discusses her first book, Scenic Natural Wonders of Wisconsin, with a crafting session.",
     "category": "other"
    },
    {
@@ -1340,16 +1340,25 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Live music at Lakeside Street Coffee House. Doors open one hour before showtime; no cover, suggested donation.",
+    "description": "Live music performance at Lakeside Street Coffee House.",
     "category": "music"
    },
    {
-    "title": "Recuerdos Flamencos",
+    "title": "Recuerdos Flamencos: An Evening of Spanish Guitar and Dance",
     "date": "2026-11-14",
     "start": "19:30",
     "end": null,
+    "price": 20,
+    "description": "Spanish guitar and dance; 9th Annual Memorial Scholarship Fundraiser. $20/$15 suggested donation.",
+    "category": "music"
+   },
+   {
+    "title": "Tumbledown Shack",
+    "date": "2026-11-20",
+    "start": "19:00",
+    "end": null,
     "price": null,
-    "description": "An evening of Spanish guitar and dance; 9th Annual Memorial Scholarship Fundraiser. Page lists $20/$15 suggested donation.",
+    "description": "Live music performance at Lakeside Street Coffee House.",
     "category": "music"
    }
   ]
@@ -1634,9 +1643,9 @@
   "events": []
  },
  "https://www.madisonpubliclibrary.org/spaces/events": {
-  "hash": "bdc03bf5c1e7f7ae37dcdff62a2b520fdce52302",
-  "asked": "2026-11-06T20:49:25-06:00",
-  "on": "2026-11-06",
+  "hash": "3c4a3e161195bbb74e80914c37353d131e01efc0",
+  "asked": "2026-11-07T10:52:00-06:00",
+  "on": "2026-11-07",
   "events": []
  },
  "https://ebling.library.wisc.edu/ebling-library-classes-events/": {
@@ -1674,9 +1683,9 @@
   ]
  },
  "https://www.library.wisc.edu/music/": {
-  "hash": "2a37a6a51a7a050a9c2d16e67654deeb167fd3be",
-  "asked": "2026-11-06T12:00:10-06:00",
-  "on": "2026-11-06",
+  "hash": "22ccf1163994dbd58d42f20055e92e5858db9543",
+  "asked": "2026-11-07T10:51:55-06:00",
+  "on": "2026-11-07",
   "events": []
  },
  "https://www.sunprairiepubliclibrary.org/home-delivery-service": {
@@ -1797,32 +1806,42 @@
   ]
  },
  "https://www.madisonpubliclibrary.org/spaces/events/search": {
-  "hash": "6bc1d0fefd8d24457accdc42276e26372a75bfc3",
-  "asked": "2026-11-06T20:49:34-06:00",
-  "on": "2026-11-06",
-  "events": []
- },
- "https://artlitlab.org/calendar": {
-  "hash": "26a364fae5580307bc157b9b83342322ed357af3",
-  "asked": "2026-11-06T12:00:20-06:00",
-  "on": "2026-11-06",
+  "hash": "24253f6d8fd61c9e85216b4c1a76018d42b85590",
+  "asked": "2026-11-07T10:51:57-06:00",
+  "on": "2026-11-07",
   "events": [
    {
-    "title": "Closing Reception, 10th Anniversary Retrospective",
-    "date": "2026-11-06",
-    "start": null,
-    "end": null,
+    "title": "Toddler Time",
+    "date": "2026-11-09",
+    "start": "10:30",
+    "end": "11:15",
     "price": null,
-    "description": "Closing reception for the 10th Anniversary Retrospective exhibition.",
+    "description": "Short storytime with rhymes, songs and movement for little ones, then play time with other children and caregivers.",
     "category": "other"
    },
+   {
+    "title": "Baby Time",
+    "date": "2026-11-09",
+    "start": "11:30",
+    "end": "12:15",
+    "price": null,
+    "description": "Short storytime with rhymes, songs and bounces for babies, then play time with other babies and caregivers.",
+    "category": "other"
+   }
+  ]
+ },
+ "https://artlitlab.org/calendar": {
+  "hash": "58b1e535b883f83c2f9273bd77dfc3ef6eed8545",
+  "asked": "2026-11-07T10:52:07-06:00",
+  "on": "2026-11-07",
+  "events": [
    {
     "title": "Project Projection: Local Animation",
     "date": "2026-11-11",
     "start": null,
     "end": null,
     "price": null,
-    "description": "Projection program of local animation.",
+    "description": "Local animation screening at Arts + Literature Laboratory.",
     "category": "film"
    },
    {
@@ -1831,7 +1850,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Native Art Market.",
+    "description": "Native Art Market at Arts + Literature Laboratory.",
     "category": "other"
    },
    {
@@ -1844,46 +1863,82 @@
     "category": "music"
    },
    {
+    "title": "Bridge Work: Processing Powers",
+    "date": "2026-11-19",
+    "start": null,
+    "end": null,
+    "price": null,
+    "description": "Bridge Work exhibition, runs November 19, 2026 to January 9, 2027.",
+    "category": "other"
+   },
+   {
+    "title": "Bridge Work: The Sound That Only I Can Hear",
+    "date": "2026-11-19",
+    "start": null,
+    "end": null,
+    "price": null,
+    "description": "Bridge Work exhibition, runs November 19, 2026 to January 9, 2027.",
+    "category": "other"
+   },
+   {
+    "title": "Bridge Work: Family // History",
+    "date": "2026-11-19",
+    "start": null,
+    "end": null,
+    "price": null,
+    "description": "Bridge Work exhibition, runs November 19, 2026 to January 9, 2027.",
+    "category": "other"
+   },
+   {
     "title": "Auricle Presents: Lily Finnegan Quartet",
     "date": "2026-11-20",
     "start": null,
     "end": null,
     "price": null,
-    "description": "Auricle New Music Series presents the Lily Finnegan Quartet.",
+    "description": "Auricle New Music Series presents Lily Finnegan Quartet.",
     "category": "music"
+   },
+   {
+    "title": "November Watershed Reading",
+    "date": "2026-11-21",
+    "start": null,
+    "end": null,
+    "price": null,
+    "description": "Literary reading at Arts + Literature Laboratory.",
+    "category": "other"
    }
   ]
  },
  "https://bartelltheatre.org/": {
-  "hash": "bfd19dc3700be8a551b93777f7b057ac8e6142db",
-  "asked": "2026-11-06T20:49:32-06:00",
-  "on": "2026-11-06",
+  "hash": "642b2931fddc3c57282e3a9f230fb17d8c9f5f67",
+  "asked": "2026-11-07T10:52:12-06:00",
+  "on": "2026-11-07",
   "events": [
-   {
-    "title": "Romeo and Juliet",
-    "date": "2026-11-07",
-    "start": "19:30",
-    "end": null,
-    "price": null,
-    "description": "Capulets, Montagues, and two young lovers. Shakespeare's best-known play.",
-    "category": "theater"
-   },
    {
     "title": "The Moors",
     "date": "2026-11-07",
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "Dark comedy about two sisters, a dog, and a hapless governess on the English moors.",
+    "description": "Dark comedy about two sisters, a dog, a hapless governess and a moor-hen on the English moors.",
     "category": "theater"
    },
    {
-    "title": "A Valentine's Affair 2027 First Audition",
+    "title": "A Valentine's Affair 2027 Auditions: First Audition",
     "date": "2026-11-09",
     "start": "18:30",
     "end": null,
     "price": null,
     "description": "First audition for A Valentine's Affair 2027.",
+    "category": "other"
+   },
+   {
+    "title": "Saturday Scene Study Closing",
+    "date": "2026-11-21",
+    "start": "12:00",
+    "end": null,
+    "price": null,
+    "description": "Closing of Saturday Scene Study.",
     "category": "other"
    }
   ]
@@ -1901,26 +1956,17 @@
   "events": []
  },
  "https://madisonorpheum.com/calendar/": {
-  "hash": "2de5aa73e0130da6196558cb6f9b802cb6c0bcca",
-  "asked": "2026-11-06T12:00:28-06:00",
-  "on": "2026-11-06",
+  "hash": "18c9227c28ce3b730baf3891a5263c2906cb8186",
+  "asked": "2026-11-07T10:52:18-06:00",
+  "on": "2026-11-07",
   "events": [
-   {
-    "title": "MDEV: The Kick-Off Event",
-    "date": "2026-11-06",
-    "start": "20:00",
-    "end": null,
-    "price": null,
-    "description": "Wisconsin Games Alliance presents; doors 7:00 pm",
-    "category": "other"
-   },
    {
     "title": "Dave Attell",
     "date": "2026-11-07",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents; doors 7:00 pm",
+    "description": "FPC Live presents Dave Attell. Doors 7:00 pm.",
     "category": "comedy"
    },
    {
@@ -1929,7 +1975,7 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents; doors 6:00 pm",
+    "description": "FPC Live presents Daniel Sloss. Doors 6:00 pm.",
     "category": "comedy"
    },
    {
@@ -1938,7 +1984,7 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "FPC Live presents; doors 6:30 pm; sold out",
+    "description": "FPC Live presents Dr. Neil deGrasse Tyson. Doors 6:30 pm. Sold out.",
     "category": "other"
    },
    {
@@ -1947,7 +1993,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents; doors 7:00 pm",
+    "description": "FPC Live presents The Mavericks & Friends. Doors 7:00 pm.",
     "category": "music"
    },
    {
@@ -1956,15 +2002,24 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Goodsource presents; with LOST & FOUND and Allison Eide; doors 6:15 pm",
+    "description": "Goodsource presents Campus Nights with Elevation Rhythm, with LOST & FOUND and Allison Eide. Doors 6:15 pm.",
     "category": "music"
+   },
+   {
+    "title": "Nurse John – 2 Shows!",
+    "date": "2026-11-21",
+    "start": null,
+    "end": null,
+    "price": null,
+    "description": "FPC Live presents Nurse John, two shows. Showtimes not listed.",
+    "category": "comedy"
    }
   ]
  },
  "https://www.overture.org/tickets-events/": {
   "hash": "17ad93d0064095d3d57201bf7e01243e8703a57a",
-  "asked": "2026-11-03T21:01:54-06:00",
-  "on": "2026-11-03",
+  "asked": "2026-11-07T10:52:18-06:00",
+  "on": "2026-11-07",
   "events": [
    {
     "title": "Stuart Stotts",
@@ -1972,7 +2027,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Performance at Overture Center; multiple showtimes listed on the page.",
+    "description": "Overture listing with multiple showtimes; time not stated on the page.",
     "category": "music"
    },
    {
@@ -1981,7 +2036,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Performance at Overture Center; multiple showtimes listed on the page.",
+    "description": "Overture listing with multiple showtimes; time not stated on the page.",
     "category": "music"
    },
    {
@@ -1990,7 +2045,7 @@
     "start": "15:00",
     "end": null,
     "price": null,
-    "description": "Artists' talk and reception at Overture Center.",
+    "description": "Artists' talk and reception at Overture.",
     "category": "other"
    }
   ]
@@ -2150,27 +2205,18 @@
   "events": []
  },
  "https://high-noon.com/event/dogpark/": {
-  "hash": "1d13cb4509eaac045f612b6683904765534462ba",
-  "asked": "2026-11-06T20:48:26-06:00",
-  "on": "2026-11-06",
+  "hash": "ad75768963e992900755be5bcbf938cb8c7772ec",
+  "asked": "2026-11-07T10:51:02-06:00",
+  "on": "2026-11-07",
   "events": [
-   {
-    "title": "Ryan Jesse with Clayton Shay",
-    "date": "2026-11-16",
-    "start": "19:30",
-    "end": null,
-    "price": null,
-    "description": "FPC Live presents Ryan Jesse with Clayton Shay at High Noon Saloon. Doors 6:30 pm.",
-    "category": "music"
-   },
    {
     "title": "Friends of Shabazz Launch Party & Music Benefit",
     "date": "2026-11-08",
     "start": null,
     "end": null,
     "price": 20,
-    "description": "Launch party and music benefit at High Noon Saloon. Suggested $20 donation at the door.",
-    "category": "other"
+    "description": "Launch party and music benefit; suggested $20 donation at the door.",
+    "category": "music"
    }
   ]
  },
@@ -2200,9 +2246,9 @@
   ]
  },
  "https://madisonorpheum.com/event/eric-andre/": {
-  "hash": "3a6c5e352a508c89a4146c18c97e58f3447e1132",
-  "asked": "2026-11-06T20:49:36-06:00",
-  "on": "2026-11-06",
+  "hash": "e9d966947cd008b1a0c75a47ed927686f32bcf59",
+  "asked": "2026-11-07T10:52:20-06:00",
+  "on": "2026-11-07",
   "events": []
  },
  "https://www.cruciblemadison.com/calendar": {
@@ -2344,8 +2390,8 @@
  },
  "https://ctmtheater.org/": {
   "hash": "5a6015b629542259ab374349bfec835140d8a9a4",
-  "asked": "2026-11-03T21:01:47-06:00",
-  "on": "2026-11-03",
+  "asked": "2026-11-07T10:52:09-06:00",
+  "on": "2026-11-07",
   "events": []
  },
  "https://www.waunakeepubliclibrary.org/events/month": {

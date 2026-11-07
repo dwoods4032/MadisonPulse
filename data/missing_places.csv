@@ -9,7 +9,6 @@ add (yes/no),name,address,city,type,website,website works,notes,id
 ,Benvenuto's,2949 Triverton Pike Dr,Fitchburg,italian restaurant,http://www.benvenutos.com/,yes,,ovt:cd98dd5d-e71a-4c2b-b04c-721c2a4b5023
 ,Bison Jacks,8310 Greenway Blvd,Middleton,restaurant,https://www.bison-jacks.com,yes,,ovt:86393e66-c8d6-49ac-a60e-096c3f03d11d
 ,Blimpie,2409 Muir Field Rd,Madison,fast food restaurant,http://www.blimpie.com,yes,,ovt:4daff45f-dfb6-415d-a264-c987b081640f
-,Bluephies,2701 Monroe St,Madison,american restaurant,http://www.bluephies.com/,yes,,ovt:50cc6291-9bc3-4f0c-bebb-909488bd1765
 ,Bluephies Cafe At Verex Plaza,150 E Gilman St,Madison,american restaurant,http://fiorecompanies.com/verex-plaza,yes,,ovt:b38ade20-59c2-4edc-b907-f296fff3d382
 ,Boar & Barrel,101 N Hamilton St,Madison,gastropub,http://boarandbarrel.com,yes,,ovt:2d46c365-d598-454e-b53f-8ed5ba2070c9
 ,Breakfast A La Brasa,45 S Bassett St,Madison,mexican restaurant,https://www.breakfastalabrasa.com/?utm_source=bing&utm_medium=websiteurl&utm_campaign=search,yes,,ovt:a6ab8e03-64f0-493a-bc4f-3954732740e6
@@ -22,6 +21,7 @@ add (yes/no),name,address,city,type,website,website works,notes,id
 ,Chester's Chicken,6162 US Highway 51,Deforest,chicken restaurant,https://www.chesterschicken.com/,yes,,ovt:95efef84-2c42-4145-9ea7-521c4e5f309a
 ,Chester's Chicken,2763 County Rd N,Cottage Grove,chicken restaurant,https://www.chesterschicken.com/,yes,,ovt:e1efa0c0-4d8f-4150-bcbb-fb8f85d00fe1
 ,China Kitchen,6608 Mineral Point Rd,Madison,chinese restaurant,https://www.chinakitchen53705.com,yes,,ovt:f055e874-0969-4244-bded-b128fda36c9a
+,Cuppa JO,4124 Monona Dr # 1662,Madison,restaurant,http://www.cuppajo.com,yes,,ovt:19587b8e-fc08-4bbd-bba5-e9f4f7cd0c07
 ,Dobhan,2110 Atwood Ave,Madison,indian restaurant,http://dobhanrestaurant.com,yes,,ovt:14eb508b-5eae-4f21-9366-c80690a1d823
 ,Donatos Pizza,6522 Monona Dr,Monona,pizza restaurant,http://www.donatos.com,yes,,ovt:eac133b3-e400-4a1c-9922-e07fd9f91e92
 ,Dough Boy's Pizza,1207 N Sherman Ave,Madison,pizza delivery service,http://doughboysmadison.com/,yes,,ovt:f8647387-0d07-49a5-8022-3b7ddc5bcfe0
@@ -55,7 +55,6 @@ add (yes/no),name,address,city,type,website,website works,notes,id
 ,Karahis & BBQ,705 S Gammon Rd,Madison,barbecue restaurant,http://www.karahisandbbq.com,yes,,ovt:9b1acbc7-7324-44da-be2e-e6493a3059f7
 ,La Bonita,4915 COMMERCIAL Ave,MADISON,mexican restaurant,https://www.taquerialabonitawi.com/?utm_source=bing&utm_medium=websiteurl&utm_campaign=search,yes,,ovt:e35bcc69-d075-40fb-bc93-0a0dfe4e3c58
 ,La Hispana,4512 E Washington Ave,Madison,mexican restaurant,http://la-hispana-grocery.edan.io,yes,,ovt:479aa7b8-a447-42cc-bdd5-57c8ebe0a22b
-,Lakeview Bakery And Deli,524 E Wilson St,Madison,restaurant,https://lakeviewbakerydeli.com,yes,,ovt:ae4bc2b3-ba99-4858-bb49-6900759e2d64
 ,Les delices de Awa,501 E Badger Rd,Madison,african restaurant,http://www.lesdelicesdeawa.com,yes,,ovt:ea306285-7f8a-4361-8902-974f43ba25eb
 ,Letoile Restaurant,25 N Pinckney St,Madison,restaurant,https://www.letoile-restaurant.com,yes,,ovt:dde3f4a5-4ec5-4444-96bb-9348719ea157
 ,Madison's Edible Complex,5 Applegate Ct,Madison,restaurant,http://www.club-5.com,yes,,ovt:48ab2fea-b2e9-4a97-adf8-ade1a0f2a71d
@@ -72,7 +71,6 @@ add (yes/no),name,address,city,type,website,website works,notes,id
 ,Old Chicago,7202 Mineral Point Rd,Madison,pizza restaurant,http://oldchicago.com,yes,,ovt:183dd250-e364-4eac-a1cc-bfb2663097ca
 ,Oliver's Public House,2540 University Ave,Madison,american restaurant,http://www.oliverspublichouse.com,yes,,ovt:e5ea55f1-1903-4519-8e20-771b26cb4726
 ,Om Indian Fusion,3579 E Washington Ave,Madison,indo chinese restaurant,http://www.omindianfusioncuisine.com,yes,,ovt:ced0a3c9-22aa-4130-aec9-bf6e2dc366cd
-,Pedro's Mexican Restaurante,3555 E Washington Ave,Madison,mexican restaurant,http://www.pedrosmadison.com,yes,,ovt:1dcf68d9-c973-4515-a360-19fd7ab8bc4a
 ,Poke Poke,904 Williamson St,Madison,poke restaurant,https://www.pokepokewi.com/?utm_source=bing&utm_medium=websiteurl&utm_campaign=search,yes,,ovt:46374ba0-b724-475d-927c-89d2340c3c1d
 ,Prairie Diner,1034 Windsor St,Sun Prairie,diner,http://www.prairiediner.com,yes,,ovt:2f8eb6ff-8982-40fa-b14f-2ce4d7d7019e
 ,Prairie Kitchen,1200 E Verona Ave,Verona,breakfast and brunch restaurant,https://www.bpnn.org/prairie-kitchen.html,yes,,ovt:4244935c-ab6f-4158-a30f-8a93140a761d
@@ -85,7 +83,6 @@ add (yes/no),name,address,city,type,website,website works,notes,id
 ,Surfaces In Biomaterials Foundation,6000 Gisholt Dr,Monona,restaurant,https://www.surfaces.org/contact,yes,,ovt:4c98d426-a543-42f5-9461-482c58fa5a95
 ,Taco Local,811 Williamson St,Madison,restaurant,https://tacolocal.com,yes,,ovt:36b6662c-ec7f-4ddb-86d1-800ac5410b1d
 ,Taigu,7610 Elmwood Ave,Middleton,restaurant,https://www.taigunoodles.com/menu,yes,,ovt:e75b64c6-e765-474d-ac6c-c39e6fd6978d
-,Taj Indian Restaurant,1256 S Park St,Madison,indian restaurant,http://www.tajmadison.com/,yes,,ovt:ae45a6c0-81d4-4d4b-ab7c-9dccfacf896e
 ,Teriyaki Madness,7464 Mineral Point Rd,Madison,asian fusion restaurant,https://teriyakimadness.com/locations/wi-west-madison,yes,,ovt:a1d16df8-5c1c-4ae9-ac0a-27276c78e41f
 ,The Esquire Supper Club,1025 N Sherman Ave,Madison,restaurant,http://www.kavanaughsesquire.club,yes,,ovt:02d5b865-d933-45e7-a1cf-81dbb2abdcca
 ,Tony's Pizza Service,730 Craftsman Way # 3211,Sun Prairie,pizza restaurant,http://www.tonys.com,yes,,ovt:f7a31966-d890-417a-93c0-8280742e517f
@@ -104,6 +101,7 @@ add (yes/no),name,address,city,type,website,website works,notes,id
 ,Babes Sport's Grill,4325 Lien Rd,Madison,american restaurant,http://www.babesmadison.com/,not checked yet,,ovt:936b7350-d99f-46e0-b52a-710831505a72
 ,Badgerland Bar & Grill,525 W Johnson St,Madison,restaurant,badgerlandbarandgrill.com,not checked yet,,ovt:90806ce9-0f41-4f86-9cb3-8a62da5045d3
 ,Blair Street BBQ,605 E Washington Ave,Madison,barbecue restaurant,http://www.blairbbq.com,no,,ovt:94daa073-5884-46c3-af77-ba6011585c12
+,Bluephies,2701 Monroe St,Madison,american restaurant,http://www.bluephies.com/,not checked yet,,ovt:50cc6291-9bc3-4f0c-bebb-909488bd1765
 ,Bonefish Grill,7345 Mineral Point Rd,Madison,seafood restaurant,https://www.bonefishgrill.com,not checked yet,,ovt:ce30dc29-81a9-4a34-9050-15dcd1c70ede
 ,Burrito Drive,310 S Brearly St,Madison,restaurant,https://www.burritodrive.com,no,,ovt:b230d92e-a1a7-4dc1-b468-ad9755ee8fc7
 ,Byrds Pub and Grill,5956 Executive Dr,Fitchburg,restaurant,http://byrdspub.com,no,,ovt:bc619b26-12e4-4200-8bbd-a76bd84e1f00
@@ -117,7 +115,6 @@ add (yes/no),name,address,city,type,website,website works,notes,id
 ,China Garden,120 E Main St,Sun Prairie,restaurant,http://www.chinagardenchinesemo.com,not checked yet,,ovt:e6338ded-e102-4d87-b470-a3782f2e91f4
 ,Cloud 9 Grille,876 Jupiter Dr,Madison,restaurant,http://cloud9grille.com/,no,,ovt:298d70ce-ef4b-419c-8ff9-6393eb04a0be
 ,Cuco's Mexican Fusion,225 King St,Madison,mexican restaurant,http://www.cucosmexicanfusion.com,no,,ovt:d100869e-dd4b-40c5-ab52-8fec332cdbed
-,Cuppa JO,4124 Monona Dr # 1662,Madison,restaurant,http://www.cuppajo.com,not checked yet,,ovt:19587b8e-fc08-4bbd-bba5-e9f4f7cd0c07
 ,Dave's Hot Chicken,4814 Annamark Dr,Madison,barbecue restaurant,https://daveshotchicken.olo.com/menu/daves-hot-chicken-madison-east/,not checked yet,,ovt:324b5e6e-2eff-4d6a-96d4-f4b330a14a1b
 ,Dayton's Commercial Interiors De Jope Bingo and Entertainment,4002 Evan Acres Rd,Madison,restaurant,http://dejope.com/,not checked yet,,ovt:d1598375-0e1e-417b-b2bf-6cb7f8a5df77
 ,Delicacies Of Asia,506 State St,Madison,restaurant,http://www.delicaciesofasia.com,no,,ovt:ab1e9164-9685-4769-bfbe-55c8d2d86c92
@@ -152,6 +149,7 @@ add (yes/no),name,address,city,type,website,website works,notes,id
 ,Kettle Black Kitchen,1835 Monroe St,Madison,restaurant,https://kettleblackkitchen.com,not checked yet,,ovt:327da872-52da-45d5-a651-d78d2eb5ab08
 ,La Rocca's,940 Williamson St,Madison,italian restaurant,http://www.laroccaspizzeria.com/index2.htm,no,,ovt:5c2232e1-2d6b-44cb-962d-1a11b46d1e47
 ,La Taguara,827 E Johnson St,Madison,venezuelan restaurant,http://www.lataguara-madison.com,not checked yet,,ovt:013649b3-21ec-4e23-bbc1-837b83f24885
+,Lakeview Bakery And Deli,524 E Wilson St,Madison,restaurant,https://lakeviewbakerydeli.com,no,,ovt:ae4bc2b3-ba99-4858-bb49-6900759e2d64
 ,Lalo's Mexican Restaurant,5510 University Ave,Madison,mexican restaurant,http://lalosmadison.com,no,,ovt:b2857a9e-b5e0-4c26-a5dc-42243d6a5228
 ,Le Chardonnay Restaurant,320 W Johnson St,Madison,restaurant,le-chardonnay.com,not checked yet,,ovt:a4c95d4d-2c63-4e53-9693-525df4df58aa
 ,Lee Asian Bistro,4604 Monona Dr,Madison,asian restaurant,http://www.leeasian.com,no,,ovt:d804503f-6619-47b0-bd1d-32065b82e9ce
@@ -171,6 +169,7 @@ add (yes/no),name,address,city,type,website,website works,notes,id
 ,Om's Chicken n Fish n Burger,2702 E Washington Ave,Madison,fish and chips restaurant,http://www.omchickenfishburger.com/,no,,ovt:463010ab-e149-4187-89c8-f48aaa8a17f1
 ,Paisan's Restaurant,131 W Wilson St,Madison,italian restaurant,paisansrestaurant.biz,not checked yet,,ovt:3e7eb721-01c1-4012-97f4-5fee7d0b2b6a
 ,Pasta Nuovo,1900 Cayuga St,Middleton,restaurant,pastanuovo.com,not checked yet,,ovt:50fda732-cab1-449f-ae89-e0891d3ad5ff
+,Pedro's Mexican Restaurante,3555 E Washington Ave,Madison,mexican restaurant,http://www.pedrosmadison.com,not checked yet,,ovt:1dcf68d9-c973-4515-a360-19fd7ab8bc4a
 ,Picasso's Pizza,5266 Williamsburg Way,Fitchburg,pizza restaurant,http://www.picassosonline.com/,no,,ovt:e2147fd0-85e7-44f0-baf9-c6bcfb89686f
 ,Pickle Jar,141 S Butler St,Madison,barbecue restaurant,http://www.picklejarbbq.com,no,,ovt:4f91af79-2146-406c-baa0-eaeb24bf75e6
 ,Pizza Bella,1437 Regent St,Madison,pizza restaurant,http://www.pizzabellgrantline.net,not checked yet,,ovt:18094faa-49d9-4311-9034-c53171c9b537
@@ -192,6 +191,7 @@ add (yes/no),name,address,city,type,website,website works,notes,id
 ,Sushi Box,2433 University Ave,Madison,sushi restaurant,http://sushiboxmadison.com/,no,,ovt:de74395d-9a77-4adf-a3c3-4fb9fe4315f1
 ,Szechuan Garden,6654 Mineral Point Rd,Madison,seafood restaurant,https://www.szechuangardenmadisonwi.com/?utm_source=bing&utm_medium=websiteurl&utm_campaign=search,no,,ovt:32c08b75-1590-4ba1-9a36-eb53e171392f
 ,T J Cinnamons,4 Collins Ct,Madison,restaurant,http://www.tjcinnamons.com,no,,ovt:39eb7bca-4c85-4948-9bca-8c0be3e77765
+,Taj Indian Restaurant,1256 S Park St,Madison,indian restaurant,http://www.tajmadison.com/,not checked yet,,ovt:ae45a6c0-81d4-4d4b-ab7c-9dccfacf896e
 ,Takara Sushi Station,696 S Whitney Way,Madison,japanese restaurant,http://www.takaramenu.com,not checked yet,,ovt:948bc4e5-a689-4e7a-a872-eedc5f59471b
 ,Tapas Rias,2518 Allen Blvd,Middleton,spanish restaurant,http://www.tapasrias.com,no,,ovt:147cf9df-0240-4469-81c0-f11e75c690c0
 ,Taqueria 3 Amigos,309 N Henry St,Madison,mexican restaurant,http://www.taqueria3amigosmsn.com/39506,no,,ovt:22729b49-ba61-42b6-9409-527503d30671

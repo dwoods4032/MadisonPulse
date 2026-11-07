@@ -804,5 +804,72 @@
   "lon": -89.54526,
   "address": "515 West Verona Avenue",
   "city": "Verona"
- }
+ },
+ "fromagination": {
+  "lat": 43.073423,
+  "lon": -89.385002,
+  "address": "10,12 South Carroll Street",
+  "city": "Madison"
+ },
+ "oregon library": {
+  "lat": 42.932014,
+  "lon": -89.399926,
+  "address": "200 North Alpine Parkway",
+  "city": "Town of Oregon"
+ },
+ "spring green general store and cafe": null,
+ "bad dog frida": {
+  "lat": 43.092796,
+  "lon": -89.352,
+  "address": "2094 Atwood Avenue",
+  "city": "Madison"
+ },
+ "indian lake county park, cross plains": null,
+ "bailey's run vineyard, new glarus": {
+  "lat": 42.815085,
+  "lon": -89.658984,
+  "address": "N8523",
+  "city": "Town of New Glarus"
+ },
+ "oakstone recreational, cottage grove": null,
+ "ascension lutheran church": {
+  "lat": 43.018411,
+  "lon": -87.947229,
+  "address": "1236 South Layton Boulevard",
+  "city": "Milwaukee"
+ },
+ "camp randall stadium": {
+  "lat": 43.070053,
+  "lon": -89.41265,
+  "address": "1440 Monroe Street",
+  "city": "Madison"
+ },
+ "frank lloyd wright visitor center, spring green": {
+  "lat": 43.143869,
+  "lon": -90.059494,
+  "address": "5607 County Road C",
+  "city": "Spring Green"
+ },
+ "lake windsor country club, windsor": {
+  "lat": 43.208943,
+  "lon": -89.352059,
+  "address": "4628 Windsor Road",
+  "city": "Windsor"
+ },
+ "tai chi center": null,
+ "bad art co., oregon": null,
+ "the fharmacy public house, lake mills": null,
+ "tavernakaya": {
+  "lat": 43.074359,
+  "lon": -89.38208,
+  "address": "27 East Main Street",
+  "city": "Madison"
+ },
+ "university hospital": {
+  "lat": 43.076375,
+  "lon": -89.432005,
+  "address": "600 Highland Avenue",
+  "city": "Madison"
+ },
+ "monona community/senior center": null
 }
