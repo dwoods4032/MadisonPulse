@@ -1,23 +1,22 @@
 {
- "generated_at": "2026-11-06T12:01:09-06:00",
- "total_events": 393,
- "in_more_than_one_source": 25,
+ "generated_at": "2026-11-06T20:49:43-06:00",
+ "total_events": 402,
+ "in_more_than_one_source": 26,
  "sources": {
   "AI page reading": {
-   "events": 142,
-   "unique_events": 125,
+   "events": 144,
+   "unique_events": 127,
    "overlap": {
-    "Isthmus": 3,
-    "Ticketmaster": 15,
+    "Isthmus": 2,
+    "Ticketmaster": 16,
     "Venue websites": 0
    },
-   "venues": 32,
+   "venues": 30,
    "unique_venues": [
     "Capital Brewery",
     "Crystal Corner Bar",
     "Doundrins Distilling",
     "East Side Club",
-    "Ebling Library",
     "Flight Wine & Bourbon Bar",
     "Gamma Ray Bar",
     "Grey Market",
@@ -27,7 +26,6 @@
     "Lazy Oaf Lounge",
     "Madison Youth Arts (MYArts)",
     "Monkeyshines Bar & Grill",
-    "Monroe Street Library",
     "Mother Fool's",
     "Old Sugar Distillery",
     "Oscar Rennebohm Library",
@@ -42,14 +40,14 @@
    ]
   },
   "Isthmus": {
-   "events": 158,
-   "unique_events": 150,
+   "events": 154,
+   "unique_events": 146,
    "overlap": {
-    "AI page reading": 3,
+    "AI page reading": 2,
     "Ticketmaster": 1,
-    "Venue websites": 5
+    "Venue websites": 6
    },
-   "venues": 77,
+   "venues": 74,
    "unique_venues": [
     "Alliant Energy Center",
     "American Players Theatre",
@@ -69,7 +67,6 @@
     "Edgewood University-The Stream",
     "Essen Haus",
     "Fairway Lounge",
-    "First Unitarian Society",
     "Garver Feed Mill",
     "Gates of Heaven",
     "Henry Vilas Zoo",
@@ -109,20 +106,18 @@
     "UW Cinematheque",
     "UW Memorial Union - Der Rathskeller",
     "UW Music Hall",
-    "UW Social Sciences Building",
     "UW Union South",
     "VFW Post 7591-Cottage Grove Road",
-    "Warner Park Community Recreation Center",
     "Wil-Mar Center",
     "Wisconsin Council of the Blind & Visually Impaired",
     "Yahara Bay Distillers"
    ]
   },
   "Ticketmaster": {
-   "events": 50,
-   "unique_events": 32,
+   "events": 53,
+   "unique_events": 34,
    "overlap": {
-    "AI page reading": 15,
+    "AI page reading": 16,
     "Isthmus": 1,
     "Venue websites": 3
    },
@@ -135,11 +130,11 @@
    ]
   },
   "Venue websites": {
-   "events": 69,
-   "unique_events": 61,
+   "events": 78,
+   "unique_events": 69,
    "overlap": {
     "AI page reading": 0,
-    "Isthmus": 5,
+    "Isthmus": 6,
     "Ticketmaster": 3
    },
    "venues": 14,

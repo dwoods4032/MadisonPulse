@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-06T12:01:09-06:00",
+ "generated_at": "2026-11-06T20:49:43-06:00",
  "venues_checked": 237,
- "venues_with_events": 64,
+ "venues_with_events": 65,
  "venues_with_feeds": 86,
- "events": 393,
- "filtered_out": 92,
+ "events": 402,
+ "filtered_out": 103,
  "venues": [
   {
    "name": "AI page reading",
@@ -13,12 +13,12 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 189,
+   "raw_events": 199,
    "error": "",
-   "calls": 24,
-   "tokens_in": 56432,
-   "tokens_out": 22921,
-   "est_cost_usd": 0.0171
+   "calls": 15,
+   "tokens_in": 34487,
+   "tokens_out": 13048,
+   "est_cost_usd": 0.01
   },
   {
    "name": "Isthmus calendar",
@@ -28,7 +28,7 @@
     "calendar"
    ],
    "raw_events": 160,
-   "error": ""
+   "error": "used today's copy (read once a day)"
   },
   {
    "name": "Ticketmaster",
@@ -37,7 +37,7 @@
    "feeds": [
     "ticketmaster"
    ],
-   "raw_events": 52,
+   "raw_events": 55,
    "error": ""
   },
   {
@@ -55,17 +55,6 @@
    "error": ""
   },
   {
-   "name": "E.D. Locke Public Library",
-   "kind": "library",
-   "website": "https://www.mcfarlandlibrary.org/home",
-   "feeds": [
-    "ical",
-    "ical"
-   ],
-   "raw_events": 36,
-   "error": "ical: ConnectionError: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //www.mcfarlandlibrary.org/calendar/month (Caused by NameResolutionError(\"HTTPSConnection(host='https"
-  },
-  {
    "name": "Working Draft Beer Company",
    "kind": "brewery",
    "website": "https://www.workingdraftbeer.com/",
@@ -76,8 +65,19 @@
     "jsonld",
     "jsonld"
    ],
-   "raw_events": 34,
+   "raw_events": 38,
    "error": ""
+  },
+  {
+   "name": "E.D. Locke Public Library",
+   "kind": "library",
+   "website": "https://www.mcfarlandlibrary.org/home",
+   "feeds": [
+    "ical",
+    "ical"
+   ],
+   "raw_events": 35,
+   "error": "ical: ConnectionError: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //www.mcfarlandlibrary.org/calendar/month (Caused by NameResolutionError(\"HTTPSConnection(host='https"
   },
   {
    "name": "Comedy Club on State",
@@ -90,7 +90,7 @@
     "jsonld",
     "jsonld"
    ],
-   "raw_events": 29,
+   "raw_events": 30,
    "error": ""
   },
   {
@@ -116,23 +116,23 @@
     "jsonld",
     "jsonld"
    ],
-   "raw_events": 19,
-   "error": ""
-  },
-  {
-   "name": "Harmony Bar & Grill",
-   "kind": "bar",
-   "website": "https://www.harmonybarandgrill.com/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 16,
+   "raw_events": 18,
    "error": ""
   },
   {
    "name": "High Noon Saloon",
    "kind": "bar",
    "website": "https://www.high-noon.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 17,
+   "error": ""
+  },
+  {
+   "name": "Harmony Bar & Grill",
+   "kind": "bar",
+   "website": "https://www.harmonybarandgrill.com/",
    "feeds": [
     "ai"
    ],
@@ -198,16 +198,6 @@
    "error": ""
   },
   {
-   "name": "Arts + Literature Laboratory",
-   "kind": "venue",
-   "website": "https://artlitlab.org/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 9,
-   "error": ""
-  },
-  {
    "name": "One Social Bar",
    "kind": "bar",
    "website": "https://onesocialmadison.com/vendor/one-social-bar/",
@@ -219,9 +209,9 @@
    "error": ""
   },
   {
-   "name": "Lazy Oaf Lounge",
-   "kind": "bar",
-   "website": "https://www.lazyoaflounge.com/",
+   "name": "Arts + Literature Laboratory",
+   "kind": "venue",
+   "website": "https://artlitlab.org/",
    "feeds": [
     "ai"
    ],
@@ -232,6 +222,16 @@
    "name": "Gamma Ray Bar",
    "kind": "bar",
    "website": "https://gammaray.bar",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 8,
+   "error": ""
+  },
+  {
+   "name": "Alicia Ashman Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
    "feeds": [
     "ai"
    ],
@@ -249,9 +249,49 @@
    "error": ""
   },
   {
-   "name": "Orpheum Theatre",
-   "kind": "venue",
-   "website": "https://madisonorpheum.com/",
+   "name": "Lazy Oaf Lounge",
+   "kind": "bar",
+   "website": "https://www.lazyoaflounge.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 7,
+   "error": ""
+  },
+  {
+   "name": "Pinney Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 7,
+   "error": ""
+  },
+  {
+   "name": "Reindahl Park Pavillion",
+   "kind": "community",
+   "website": "https://www.cityofmadison.com/parks/find-a-park/reindahl/pavilion-at-the-imagination-center",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 7,
+   "error": ""
+  },
+  {
+   "name": "Sequoya Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/sequoya",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 7,
+   "error": ""
+  },
+  {
+   "name": "Veterans Memorial Park",
+   "kind": "veterans",
+   "website": "https://www.cityofmadison.com/parks/find-a-park/park.cfm?id=1364",
    "feeds": [
     "ai"
    ],
@@ -269,19 +309,9 @@
    "error": ""
   },
   {
-   "name": "Monroe Street Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/monroe-street",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 6,
-   "error": ""
-  },
-  {
-   "name": "Reindahl Park Pavillion",
-   "kind": "community",
-   "website": "https://www.cityofmadison.com/parks/find-a-park/reindahl/pavilion-at-the-imagination-center",
+   "name": "Orpheum Theatre",
+   "kind": "venue",
+   "website": "https://madisonorpheum.com/",
    "feeds": [
     "ai"
    ],
@@ -299,19 +329,9 @@
    "error": ""
   },
   {
-   "name": "Veterans Memorial Park",
-   "kind": "veterans",
-   "website": "https://www.cityofmadison.com/parks/find-a-park/park.cfm?id=1364",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 6,
-   "error": ""
-  },
-  {
-   "name": "Pinney Library",
+   "name": "Monroe Street Library",
    "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
+   "website": "https://www.madisonpubliclibrary.org/monroe-street",
    "feeds": [
     "ai"
    ],
@@ -365,29 +385,9 @@
    "error": ""
   },
   {
-   "name": "Ebling Library",
-   "kind": "library",
-   "website": "https://ebling.library.wisc.edu/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 4,
-   "error": ""
-  },
-  {
    "name": "Lakeside Street Coffee House",
    "kind": "cafe",
    "website": "https://lakesidestcoffeehouse.com/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 4,
-   "error": ""
-  },
-  {
-   "name": "Laurel Tavern",
-   "kind": "bar",
-   "website": "http://www.thelaureltavern.com",
    "feeds": [
     "ai"
    ],
@@ -410,6 +410,19 @@
    "website": "https://www.veracourt.org/",
    "feeds": [
     "squarespace",
+    "jsonld",
+    "jsonld",
+    "jsonld"
+   ],
+   "raw_events": 4,
+   "error": ""
+  },
+  {
+   "name": "Waunakee Public Library",
+   "kind": "library",
+   "website": "https://www.waunakeepubliclibrary.org/",
+   "feeds": [
+    "jsonld",
     "jsonld",
     "jsonld",
     "jsonld"
@@ -449,6 +462,16 @@
    "error": ""
   },
   {
+   "name": "Ebling Library",
+   "kind": "library",
+   "website": "https://ebling.library.wisc.edu/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 3,
+   "error": ""
+  },
+  {
    "name": "Full Mile Beer Company & Kitchen",
    "kind": "brewery",
    "website": "https://www.fullmilebeercompany.com/",
@@ -462,6 +485,16 @@
    "name": "Grey Market",
    "kind": "bar",
    "website": "https://www.madisongreymarket.com",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 3,
+   "error": ""
+  },
+  {
+   "name": "Laurel Tavern",
+   "kind": "bar",
+   "website": "http://www.thelaureltavern.com",
    "feeds": [
     "ai"
    ],
@@ -498,16 +531,6 @@
     "jsonld"
    ],
    "raw_events": 3,
-   "error": ""
-  },
-  {
-   "name": "Alicia Ashman Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 2,
    "error": ""
   },
   {
@@ -575,16 +598,6 @@
    "name": "Oscar Rennebohm Library",
    "kind": "library",
    "website": "https://library.edgewood.edu/home",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 2,
-   "error": ""
-  },
-  {
-   "name": "Sequoya Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/sequoya",
    "feeds": [
     "ai"
    ],
@@ -1363,7 +1376,7 @@
   {
    "name": "Madison Chocolate Company",
    "kind": "cafe",
-   "website": "https://madisonchocolate.com",
+   "website": "https://www.madisonchocolatecompany.com",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1371,7 +1384,7 @@
   {
    "name": "Madison Chocolate Company",
    "kind": "cafe",
-   "website": "https://www.madisonchocolatecompany.com",
+   "website": "https://madisonchocolate.com",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1692,7 +1705,7 @@
    "website": "https://www.starbucks.com/store-locator/store/16482/capitol-square-main-mlk-1-e-main-st-madison-wi-537033373-us",
    "feeds": [],
    "raw_events": 0,
-   "error": "ai: ReadTimeout: HTTPSConnectionPool(host='www.starbucks.com', port=443): Read timed out. (read timeout=15)"
+   "error": ""
   },
   {
    "name": "Starbucks",
@@ -1700,7 +1713,7 @@
    "website": "https://www.starbucks.com/store-locator/store/12525/university-north-blackhawk-3515-university-avenue-madison-wi-537052140-us",
    "feeds": [],
    "raw_events": 0,
-   "error": "ai: ReadTimeout: HTTPSConnectionPool(host='www.starbucks.com', port=443): Read timed out. (read timeout=15)"
+   "error": ""
   },
   {
    "name": "Starbucks",
@@ -1716,7 +1729,7 @@
    "website": "https://www.starbucks.com/store-locator/store/1010275/greenway-boulevard-8230-greenway-boulevard-middleton-wi-535623579-us",
    "feeds": [],
    "raw_events": 0,
-   "error": "ai: ReadTimeout: HTTPSConnectionPool(host='www.starbucks.com', port=443): Read timed out. (read timeout=15)"
+   "error": ""
   },
   {
    "name": "Starbucks",
@@ -1724,7 +1737,7 @@
    "website": "https://www.starbucks.com/store-locator/store/9233/monona-broadway-6512-monona-drive-monona-wi-537164026-us",
    "feeds": [],
    "raw_events": 0,
-   "error": "ai: ReadTimeout: HTTPSConnectionPool(host='www.starbucks.com', port=443): Read timed out. (read timeout=15)"
+   "error": ""
   },
   {
    "name": "Starbucks",
@@ -1740,7 +1753,7 @@
    "website": "https://www.starbucks.com/store-locator/store/16460/mc-kee-triverton-pike-2981-triverton-pike-dr-fitchburg-wi-537117507-us",
    "feeds": [],
    "raw_events": 0,
-   "error": "ai: ReadTimeout: HTTPSConnectionPool(host='www.starbucks.com', port=443): Read timed out. (read timeout=15)"
+   "error": ""
   },
   {
    "name": "Starbucks",
@@ -1772,7 +1785,7 @@
    "website": "https://www.starbucks.com/store-locator/store/1030539/fish-hatchery-greenway-1605-greenway-cross-madison-wi-537133007-us",
    "feeds": [],
    "raw_events": 0,
-   "error": "ai: ReadTimeout: HTTPSConnectionPool(host='www.starbucks.com', port=443): Read timed out. (read timeout=15)"
+   "error": ""
   },
   {
    "name": "Starbucks",
@@ -2030,19 +2043,6 @@
    "kind": "bar",
    "website": "https://wandosbar.com/",
    "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Waunakee Public Library",
-   "kind": "library",
-   "website": "https://www.waunakeepubliclibrary.org/",
-   "feeds": [
-    "jsonld",
-    "jsonld",
-    "jsonld",
-    "jsonld"
-   ],
    "raw_events": 0,
    "error": ""
   },

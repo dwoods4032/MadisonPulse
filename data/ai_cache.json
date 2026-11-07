@@ -894,17 +894,17 @@
   ]
  },
  "https://doundrins.com/pages/events": {
-  "hash": "5dfd9a418cb6671ac55cf354beba105484d7904f",
-  "asked": "2026-11-03T12:27:17-06:00",
-  "on": "2026-11-03",
+  "hash": "21727e5d6952e1fa5c457667db6f0c9fdeb3f0c7",
+  "asked": "2026-11-06T20:48:29-06:00",
+  "on": "2026-11-06",
   "events": [
    {
     "title": "Rare Plant Bingo",
     "date": "2026-11-07",
     "start": null,
     "end": null,
-    "price": 50.0,
-    "description": "Rare Plant Bingo event at Doundrins Distilling tasting room, ticket $50.00.",
+    "price": 50,
+    "description": "Rare Plant Bingo at Doundrins Distilling, listed as an event ticket.",
     "category": "bingo"
    }
   ]
@@ -1097,36 +1097,18 @@
   "events": []
  },
  "https://thekickback.bar/upcoming-events/": {
-  "hash": "335d82fdd5daf7b5e76d20853363818e136d7084",
-  "asked": "2026-11-04T21:29:57-06:00",
-  "on": "2026-11-04",
+  "hash": "3f96f2c2aeefaa81e48396410bf2f7e5c2c4b731",
+  "asked": "2026-11-06T20:48:32-06:00",
+  "on": "2026-11-06",
   "events": [
-   {
-    "title": "Friday Night Strikes",
-    "date": "2026-11-06",
-    "start": "19:00",
-    "end": null,
-    "price": null,
-    "description": "Friday night pinball event with craft beer.",
-    "category": "other"
-   },
-   {
-    "title": "Ultimate Super Smash Bros Tournament",
-    "date": "2026-11-06",
-    "start": "19:00",
-    "end": null,
-    "price": null,
-    "description": "Super Smash Bros tournament on Switch 2.",
-    "category": "sports"
-   },
    {
     "title": "Yuengling Presents: Kickback9 Pin-Golf Tour 4 Session 2",
     "date": "2026-11-08",
     "start": "12:00",
     "end": null,
     "price": null,
-    "description": "Session 2 of the Kickback9 Pin-Golf tour, with Wisconsin Pin-Golf and league play.",
-    "category": "sports"
+    "description": "Pin-golf tour session with Kickback Nine, Wisconsin Pin-Golf and Yuengling, plus craft beer and league night.",
+    "category": "other"
    },
    {
     "title": "Premier Trivia Tuesday!",
@@ -1134,7 +1116,7 @@
     "start": "18:30",
     "end": null,
     "price": null,
-    "description": "Tuesday trivia night.",
+    "description": "Premier Tuesday trivia night.",
     "category": "trivia"
    },
    {
@@ -1143,7 +1125,7 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Launch party for Fallout with craft beer and pinball.",
+    "description": "Launch party with craft beer and pinball.",
     "category": "other"
    },
    {
@@ -1170,7 +1152,7 @@
     "start": "13:00",
     "end": null,
     "price": null,
-    "description": "Meat raffle benefiting Fetch WI Rescue, with prizes from Jenny St Market and New Belgium Brewing.",
+    "description": "Meat raffle with Fetch WI Rescue, Jenny St Market and New Belgium Brewing prizes.",
     "category": "other"
    },
    {
@@ -1179,7 +1161,7 @@
     "start": "18:30",
     "end": null,
     "price": null,
-    "description": "Tuesday trivia night.",
+    "description": "Premier Tuesday trivia night.",
     "category": "trivia"
    },
    {
@@ -1188,7 +1170,25 @@
     "start": "18:30",
     "end": null,
     "price": null,
-    "description": "Craft Beer Pinball League night featuring New Glarus Brewing and Big Grove Brewery.",
+    "description": "Craft Beer Pinball League night featuring New Glarus and Big Grove Brewery.",
+    "category": "other"
+   },
+   {
+    "title": "Friday Night Strikes",
+    "date": "2026-11-20",
+    "start": "19:00",
+    "end": null,
+    "price": null,
+    "description": "Friday night pinball event with craft beer.",
+    "category": "other"
+   },
+   {
+    "title": "Ultimate Super Smash Bros Tournament",
+    "date": "2026-11-20",
+    "start": "19:00",
+    "end": null,
+    "price": null,
+    "description": "Ultimate Super Smash Bros tournament on Switch 2.",
     "category": "other"
    }
   ]
@@ -1241,8 +1241,8 @@
  },
  "https://www.mymonona.com/1587/Special-Events": {
   "hash": "662029bba649e83bbe3af73a359e58885cc154a0",
-  "asked": "2026-11-03T12:27:28-06:00",
-  "on": "2026-11-03",
+  "asked": "2026-11-06T20:48:33-06:00",
+  "on": "2026-11-06",
   "events": []
  },
  "https://www.candycloudcompany.com/locations/madison": {
@@ -1355,8 +1355,8 @@
   ]
  },
  "https://merciescoffeewi.com/": {
-  "hash": "1b551cd167da27090396ca6b4333d86f48d65381",
-  "asked": "2026-11-06T11:58:17-06:00",
+  "hash": "8a4a3a0ac021d130bad5c8579556f7364b4591e1",
+  "asked": "2026-11-06T20:48:50-06:00",
   "on": "2026-11-06",
   "events": []
  },
@@ -1634,32 +1634,23 @@
   "events": []
  },
  "https://www.madisonpubliclibrary.org/spaces/events": {
-  "hash": "fd64a4f0a4267d71e02a7708ded0a2f5e03a5544",
-  "asked": "2026-11-06T12:00:14-06:00",
+  "hash": "bdc03bf5c1e7f7ae37dcdff62a2b520fdce52302",
+  "asked": "2026-11-06T20:49:25-06:00",
   "on": "2026-11-06",
   "events": []
  },
  "https://ebling.library.wisc.edu/ebling-library-classes-events/": {
-  "hash": "1d148b9b476ebdd22c2b2bf79c2973b9fa9009a0",
-  "asked": "2026-11-04T12:39:35-06:00",
-  "on": "2026-11-04",
+  "hash": "7d255d815b8d0d84a73f7be122c15c647822abad",
+  "asked": "2026-11-06T20:49:18-06:00",
+  "on": "2026-11-06",
   "events": [
-   {
-    "title": "LET THERE BE LIGHT Film Screening",
-    "date": "2026-11-06",
-    "start": "18:00",
-    "end": "19:00",
-    "price": null,
-    "description": "Screening of Huston's documentary on psychologically traumatized WWII veterans, with introduction by Hannah Swan, at UW-Madison Cinematheque.",
-    "category": "film"
-   },
    {
     "title": "Introduction to Embase",
     "date": "2026-11-11",
     "start": "12:00",
     "end": "13:00",
     "price": null,
-    "description": "Online workshop by Leslie Christensen on the Embase biomedical literature database and how it differs from PubMed. Open to UW-Madison community only.",
+    "description": "Online overview of the Embase biomedical literature database and how its coverage differs from PubMed. Open to the UW-Madison community only.",
     "category": "other"
    },
    {
@@ -1668,7 +1659,7 @@
     "start": "12:00",
     "end": "17:00",
     "price": null,
-    "description": "Open house for the Craft/Work: A History of Occupational and Art Therapies exhibition, with military medicine and veterans' health materials on display for Veterans' Day.",
+    "description": "Exhibition open house for Craft/Work: A History of Occupational and Art Therapies, with military medicine and veterans' health materials on display for Veterans' Day.",
     "category": "other"
    },
    {
@@ -1677,7 +1668,7 @@
     "start": "12:00",
     "end": "13:00",
     "price": null,
-    "description": "Online workshop by Paije Wilson and Trisha Adamus on creating an ORCID profile and an NIH Biographical Sketch in SciENcv.",
+    "description": "Online workshop on creating an ORCID profile, linking it to SciENcv and eRA Commons, and building an NIH Biographical Sketch.",
     "category": "other"
    }
   ]
@@ -1689,26 +1680,17 @@
   "events": []
  },
  "https://www.sunprairiepubliclibrary.org/home-delivery-service": {
-  "hash": "6806dce26a0afbc677a0bea2d78aae4b6cd19e67",
-  "asked": "2026-11-05T21:27:52-06:00",
-  "on": "2026-11-05",
+  "hash": "cd583b45a103d98f56afd31ac1200017b84876a9",
+  "asked": "2026-11-06T20:49:22-06:00",
+  "on": "2026-11-06",
   "events": [
-   {
-    "title": "Dream Bus Mobile Library @ Fun Friday Stops",
-    "date": "2026-11-06",
-    "start": "14:45",
-    "end": "17:00",
-    "price": null,
-    "description": "Mobile library stop at Fun Friday, for family, children, teens and adults.",
-    "category": "other"
-   },
    {
     "title": "Music Avenue",
     "date": "2026-11-07",
     "start": "10:00",
     "end": "10:30",
     "price": null,
-    "description": "Music program for family and children ages 0-5.",
+    "description": "Family music program for children ages 0-5 at Sun Prairie Public Library.",
     "category": "music"
    },
    {
@@ -1717,7 +1699,7 @@
     "start": "13:00",
     "end": "14:00",
     "price": null,
-    "description": "Adult program on pumpkin desserts with Punky Egan.",
+    "description": "Adult program at Sun Prairie Public Library featuring pumpkin desserts with Punky Egan.",
     "category": "food"
    },
    {
@@ -1726,7 +1708,7 @@
     "start": "10:00",
     "end": "10:30",
     "price": null,
-    "description": "Lapsit storytime for family and children ages 0-5.",
+    "description": "Storytime for families and children ages 0-5 at Sun Prairie Public Library.",
     "category": "other"
    },
    {
@@ -1735,7 +1717,16 @@
     "start": "11:15",
     "end": "11:45",
     "price": null,
-    "description": "Lapsit storytime for family and children ages 0-5.",
+    "description": "Second storytime session for families and children ages 0-5 at Sun Prairie Public Library.",
+    "category": "other"
+   },
+   {
+    "title": "Young Explorers Club",
+    "date": "2026-11-09",
+    "start": "16:00",
+    "end": "16:45",
+    "price": null,
+    "description": "Program for children ages 0-5 at Sun Prairie Public Library.",
     "category": "other"
    }
   ]
@@ -1806,8 +1797,8 @@
   ]
  },
  "https://www.madisonpubliclibrary.org/spaces/events/search": {
-  "hash": "c8ffe50da45c64f68fa661271f653215f06608f1",
-  "asked": "2026-11-06T12:00:23-06:00",
+  "hash": "6bc1d0fefd8d24457accdc42276e26372a75bfc3",
+  "asked": "2026-11-06T20:49:34-06:00",
   "on": "2026-11-06",
   "events": []
  },
@@ -1864,30 +1855,30 @@
   ]
  },
  "https://bartelltheatre.org/": {
-  "hash": "7bd812b98afff4ea19f8b5fc0a0064154bf2f3ca",
-  "asked": "2026-11-06T12:00:27-06:00",
+  "hash": "bfd19dc3700be8a551b93777f7b057ac8e6142db",
+  "asked": "2026-11-06T20:49:32-06:00",
   "on": "2026-11-06",
   "events": [
    {
     "title": "Romeo and Juliet",
-    "date": "2026-11-06",
+    "date": "2026-11-07",
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "Classic Shakespeare tragedy of the Capulets, Montagues, and two young lovers. Listed as Coming Soon with a 7:30pm time today.",
+    "description": "Capulets, Montagues, and two young lovers. Shakespeare's best-known play.",
     "category": "theater"
    },
    {
     "title": "The Moors",
-    "date": "2026-11-06",
+    "date": "2026-11-07",
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "Dark comedy about two sisters and a dog on the English moors, a hapless governess, and a moor-hen.",
+    "description": "Dark comedy about two sisters, a dog, and a hapless governess on the English moors.",
     "category": "theater"
    },
    {
-    "title": "A Valentine's Affair 2027 Auditions: First Audition",
+    "title": "A Valentine's Affair 2027 First Audition",
     "date": "2026-11-09",
     "start": "18:30",
     "end": null,
@@ -2119,17 +2110,17 @@
   "events": []
  },
  "https://www.veronapubliclibrary.org/": {
-  "hash": "c11efd02b31773d61cf661002d31689fc220d446",
-  "asked": "2026-11-06T12:00:15-06:00",
+  "hash": "8e97e361e686e6649cfef303c16599b75f6bc3b7",
+  "asked": "2026-11-06T20:49:20-06:00",
   "on": "2026-11-06",
   "events": [
    {
-    "title": "Ongoing Story Times Return (Late Fall Story Times)",
+    "title": "Late Fall Story Times (return)",
     "date": "2026-11-16",
     "start": null,
     "end": null,
     "price": null,
-    "description": "Ongoing library story times return on Monday, November 16. No time listed on the page.",
+    "description": "Ongoing library story times return on Monday, November 16.",
     "category": "other"
    }
   ]
@@ -2159,18 +2150,27 @@
   "events": []
  },
  "https://high-noon.com/event/dogpark/": {
-  "hash": "cd88dcd0124a698cc973603e39a3034d8f04a0fb",
-  "asked": "2026-11-06T11:57:55-06:00",
+  "hash": "1d13cb4509eaac045f612b6683904765534462ba",
+  "asked": "2026-11-06T20:48:26-06:00",
   "on": "2026-11-06",
   "events": [
+   {
+    "title": "Ryan Jesse with Clayton Shay",
+    "date": "2026-11-16",
+    "start": "19:30",
+    "end": null,
+    "price": null,
+    "description": "FPC Live presents Ryan Jesse with Clayton Shay at High Noon Saloon. Doors 6:30 pm.",
+    "category": "music"
+   },
    {
     "title": "Friends of Shabazz Launch Party & Music Benefit",
     "date": "2026-11-08",
     "start": null,
     "end": null,
     "price": 20,
-    "description": "Launch party and music benefit. Suggested $20 donation at the door.",
-    "category": "music"
+    "description": "Launch party and music benefit at High Noon Saloon. Suggested $20 donation at the door.",
+    "category": "other"
    }
   ]
  },
@@ -2200,20 +2200,10 @@
   ]
  },
  "https://madisonorpheum.com/event/eric-andre/": {
-  "hash": "b84fa9dade2f58243d856c0d3ebe4dee40b3379e",
-  "asked": "2026-11-06T12:00:32-06:00",
+  "hash": "3a6c5e352a508c89a4146c18c97e58f3447e1132",
+  "asked": "2026-11-06T20:49:36-06:00",
   "on": "2026-11-06",
-  "events": [
-   {
-    "title": "MDEV: The Kick-Off Event",
-    "date": "2026-11-06",
-    "start": null,
-    "end": null,
-    "price": null,
-    "description": "Kick-off event listed in the related events section of the Orpheum page; no time or details given.",
-    "category": "other"
-   }
-  ]
+  "events": []
  },
  "https://www.cruciblemadison.com/calendar": {
   "hash": "33c4556ce304b96ca56d808f9c029448d6cbf06a",

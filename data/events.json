@@ -1,108 +1,11 @@
 {
- "generated_at": "2026-11-06T12:01:09-06:00",
+ "generated_at": "2026-11-06T20:49:43-06:00",
  "window": {
-  "from": "2026-11-06T05:57-06:00",
-  "to": "2026-11-20T11:57-06:00"
+  "from": "2026-11-06T14:48-06:00",
+  "to": "2026-11-20T20:48-06:00"
  },
- "count": 393,
+ "count": 402,
  "events": [
-  {
-   "id": "10287178e472",
-   "title": "Hiu Sing Fan + Cameron Akioka",
-   "start": "2026-11-06T12:15-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "music",
-   "price": 0.0,
-   "description": "",
-   "url": "",
-   "image": "",
-   "venue": "First Unitarian Society",
-   "venue_id": "cal:first-unitarian-society",
-   "venue_kind": "venue",
-   "address": "900 University Bay Drive",
-   "lat": 43.075731,
-   "lon": -89.434753,
-   "source": "extra",
-   "via": "Isthmus",
-   "sources": [
-    "Isthmus"
-   ],
-   "link_ok": null
-  },
-  {
-   "id": "b573d146fadc",
-   "title": "Witch",
-   "start": "2026-11-06T13:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "theater",
-   "price": null,
-   "description": "",
-   "url": "",
-   "image": "",
-   "venue": "American Players Theatre",
-   "venue_id": "cal:american-players-theatre",
-   "venue_kind": "venue",
-   "address": "5950",
-   "lat": 43.143286,
-   "lon": -90.039663,
-   "source": "extra",
-   "via": "Isthmus",
-   "city": "Spring Green",
-   "sources": [
-    "Isthmus"
-   ],
-   "link_ok": null
-  },
-  {
-   "id": "5865009fbb71",
-   "title": "Cafecito y Caminata",
-   "start": "2026-11-06T13:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "",
-   "url": "",
-   "image": "",
-   "venue": "Warner Park Community Recreation Center",
-   "venue_id": "cal:warner-park-community-recreation-center",
-   "venue_kind": "venue",
-   "address": "Northport Drive",
-   "lat": 43.131711,
-   "lon": -89.369465,
-   "source": "extra",
-   "via": "Isthmus",
-   "sources": [
-    "Isthmus"
-   ],
-   "link_ok": null
-  },
-  {
-   "id": "55dd5df499ee",
-   "title": "The Origins of Western Marxism & the Colonial Question",
-   "start": "2026-11-06T14:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "",
-   "url": "",
-   "image": "",
-   "venue": "UW Social Sciences Building",
-   "venue_id": "cal:uw-social-sciences-building",
-   "venue_kind": "venue",
-   "address": "",
-   "lat": null,
-   "lon": null,
-   "source": "extra",
-   "via": "Isthmus",
-   "sources": [
-    "Isthmus"
-   ],
-   "link_ok": null
-  },
   {
    "id": "c74e6f8ab23c",
    "title": "PhotoMidwest Nature Group reception",
@@ -536,6 +439,29 @@
    "link_ok": null
   },
   {
+   "id": "4438728ba333",
+   "title": "Gallery Night with Erika Rosales",
+   "start": "2026-11-06T17:00-06:00",
+   "end": "2026-11-06T21:00-06:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "",
+   "url": "https://www.workingdraftbeer.com/events/2026/11/6/gallery-night-with-erika-rosales",
+   "image": "https://images.squarespace-cdn.com/content/v1/595aac69414fb51e2857d8af/1793990730597-2DBXICQ9K0YH1QCIRH70/Between+the+intangible+and+tangible+.png",
+   "venue": "Working Draft Beer Company",
+   "venue_id": "osm:node/5501718844",
+   "venue_kind": "brewery",
+   "address": "1129 East Wilson Street",
+   "lat": 43.0833378,
+   "lon": -89.3652802,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "983f9792439c",
    "title": "\"Recollection\" curator tour",
    "start": "2026-11-06T17:30-06:00",
@@ -657,29 +583,6 @@
    "link_ok": null
   },
   {
-   "id": "5da3eb744d26",
-   "title": "LET THERE BE LIGHT Film Screening",
-   "start": "2026-11-06T18:00-06:00",
-   "end": "2026-11-06T19:00-06:00",
-   "all_day": false,
-   "category": "film",
-   "price": null,
-   "description": "Screening of Huston's documentary on psychologically traumatized WWII veterans, with introduction by Hannah Swan, at UW-Madison Cinematheque.",
-   "url": "https://ebling.library.wisc.edu/",
-   "image": "",
-   "venue": "Ebling Library",
-   "venue_id": "osm:node/3680614959",
-   "venue_kind": "library",
-   "address": "750 Highland Avenue",
-   "lat": 43.0777498,
-   "lon": -89.4297886,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "fa719323ecab",
    "title": "Magic Rob EVERY Friday – tableside magic and family FUN!",
    "start": "2026-11-06T18:00-06:00",
@@ -795,29 +698,6 @@
    "via": "Isthmus",
    "sources": [
     "Isthmus"
-   ],
-   "link_ok": null
-  },
-  {
-   "id": "42f180a90290",
-   "title": "Wisconsin Badgers Mens Basketball vs. Delaware Blue Hens Mens Basketball",
-   "start": "2026-11-06T18:30-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "sports",
-   "price": null,
-   "description": "Basketball / College",
-   "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ9G8",
-   "image": "https://s1.ticketm.net/dam/a/8d2/8c0ae06b-7a6f-4ab8-9747-05509c79f8d2_1260851_RETINA_PORTRAIT_16_9.jpg",
-   "venue": "Kohl Center",
-   "venue_id": "tm:Z6r9jZaaee",
-   "venue_kind": "venue",
-   "address": "601 W. Dayton St.",
-   "lat": 43.016399,
-   "lon": -89.420097,
-   "source": "ticketmaster",
-   "sources": [
-    "Ticketmaster"
    ],
    "link_ok": null
   },
@@ -1352,29 +1232,6 @@
    "link_ok": true
   },
   {
-   "id": "d2911d8f3218",
-   "title": "Raptors @ Bucks",
-   "start": "2026-11-06T19:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "sports",
-   "price": null,
-   "description": "",
-   "url": "https://statestreetbrats.com/event/raptors-bucks-20261106/",
-   "image": "",
-   "venue": "State Street Brats",
-   "venue_id": "osm:way/886357869",
-   "venue_kind": "bar",
-   "address": "603 State Street",
-   "lat": 43.0746889,
-   "lon": -89.395998,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "54d0fa0e2f13",
    "title": "DJ Millbot",
    "start": "2026-11-06T19:00-06:00",
@@ -1422,52 +1279,6 @@
     "Isthmus"
    ],
    "link_ok": null
-  },
-  {
-   "id": "1b6eabbfd8ad",
-   "title": "Friday Night Strikes",
-   "start": "2026-11-06T19:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "trivia",
-   "price": null,
-   "description": "Friday night pinball event with craft beer.",
-   "url": "https://thekickback.bar/",
-   "image": "",
-   "venue": "The Kickback",
-   "venue_id": "osm:node/12292190391",
-   "venue_kind": "bar",
-   "address": "7622 Lisa Lane",
-   "lat": 43.1092621,
-   "lon": -89.5123266,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "b6a84eb9a527",
-   "title": "Ultimate Super Smash Bros Tournament",
-   "start": "2026-11-06T19:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "sports",
-   "price": null,
-   "description": "Super Smash Bros tournament on Switch 2.",
-   "url": "https://thekickback.bar/",
-   "image": "",
-   "venue": "The Kickback",
-   "venue_id": "osm:node/12292190391",
-   "venue_kind": "bar",
-   "address": "7622 Lisa Lane",
-   "lat": 43.1092621,
-   "lon": -89.5123266,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
   },
   {
    "id": "1b807b8c852b",
@@ -1609,8 +1420,7 @@
    "via": "Isthmus",
    "city": "Madison",
    "sources": [
-    "Isthmus",
-    "AI page reading"
+    "Isthmus"
    ],
    "link_ok": true
   },
@@ -1640,39 +1450,16 @@
    "link_ok": true
   },
   {
-   "id": "b83784cf36e5",
-   "title": "Romeo and Juliet",
+   "id": "dccf90c667c5",
+   "title": "Dragonsocks & Queen of the Universe – the Livestream",
    "start": "2026-11-06T19:30-06:00",
-   "end": null,
+   "end": "2026-11-06T21:30-06:00",
    "all_day": false,
    "category": "theater",
    "price": null,
-   "description": "Classic Shakespeare tragedy of the Capulets, Montagues, and two young lovers. Listed as Coming Soon with a 7:30pm time today.",
-   "url": "https://bartelltheatre.org/",
-   "image": "",
-   "venue": "Bartell Theatre",
-   "venue_id": "osm:way/265137656",
-   "venue_kind": "venue",
-   "address": "113 East Mifflin Street",
-   "lat": 43.0765271,
-   "lon": -89.3833565,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "01e4010c9b55",
-   "title": "Dragonsocks & Queen of the Universe",
-   "start": "2026-11-06T19:30-06:00",
-   "end": "2026-11-06T19:30-06:00",
-   "all_day": false,
-   "category": "theater",
-   "price": null,
-   "description": "Dragonsocks & Queen of the Universe Written by local playwright Brendon Smith Directed by Suzan Kurry (Artistic Director of KR Women’s Theater) (Please Note: If EventBrite says we’re … Continue reading Dragonsocks & Queen of the Universe \\n",
-   "url": "https://bstonline.org/event/dragonsocks-and-the-queen-of-the-universe-5/",
-   "image": "https://bstonline.org/wp-content/uploads/2026/09/dragonsocks-FB-cover-imageV4.jpg",
+   "description": "Dragonsocks & Queen of the Universe - the Livestream This is a livestream performance of Dragonsocks & Queen of the Universe. Livestream access is pay-what-you-can. You will receive a link … Continue reading Dragonsocks & Queen of the Universe – the Livestr",
+   "url": "https://bstonline.org/event/dragonsocks-queen-of-the-universe-the-livestream/",
+   "image": "https://bstonline.org/wp-content/uploads/2026/09/dragonsocks-FB-cover-imageV4-1.jpg",
    "venue": "Broom Street Theater",
    "venue_id": "osm:way/385639211",
    "venue_kind": "venue",
@@ -2465,7 +2252,7 @@
    "all_day": true,
    "category": "bingo",
    "price": 50.0,
-   "description": "Rare Plant Bingo event at Doundrins Distilling tasting room, ticket $50.00.",
+   "description": "Rare Plant Bingo at Doundrins Distilling, listed as an event ticket.",
    "url": "https://doundrinsdistilling.com/",
    "image": "",
    "venue": "Doundrins Distilling",
@@ -2818,7 +2605,7 @@
    "all_day": false,
    "category": "music",
    "price": null,
-   "description": "Music program for family and children ages 0-5.",
+   "description": "Family music program for children ages 0-5 at Sun Prairie Public Library.",
    "url": "https://www.sunprairiepubliclibrary.org/",
    "image": "",
    "venue": "Sun Prairie Public Library",
@@ -2935,7 +2722,7 @@
    "all_day": false,
    "category": "food",
    "price": null,
-   "description": "Adult program on pumpkin desserts with Punky Egan.",
+   "description": "Adult program at Sun Prairie Public Library featuring pumpkin desserts with Punky Egan.",
    "url": "https://www.sunprairiepubliclibrary.org/",
    "image": "",
    "venue": "Sun Prairie Public Library",
@@ -3088,6 +2875,29 @@
     "Ticketmaster"
    ],
    "link_ok": null
+  },
+  {
+   "id": "8d3210a75430",
+   "title": "Rutgers @ Wisconsin",
+   "start": "2026-11-07T15:15-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "",
+   "url": "https://statestreetbrats.com/event/rutgers-wisconsin-20261107/",
+   "image": "",
+   "venue": "State Street Brats",
+   "venue_id": "osm:way/886357869",
+   "venue_kind": "bar",
+   "address": "603 State Street",
+   "lat": 43.0746889,
+   "lon": -89.395998,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
   },
   {
    "id": "96215fc54ce8",
@@ -3254,6 +3064,52 @@
    "city": "Madison",
    "sources": [
     "Isthmus"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "111330bd2eab",
+   "title": "Romeo and Juliet",
+   "start": "2026-11-07T19:30-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "theater",
+   "price": null,
+   "description": "Capulets, Montagues, and two young lovers. Shakespeare's best-known play.",
+   "url": "https://bartelltheatre.org/",
+   "image": "",
+   "venue": "Bartell Theatre",
+   "venue_id": "osm:way/265137656",
+   "venue_kind": "venue",
+   "address": "113 East Mifflin Street",
+   "lat": 43.0765271,
+   "lon": -89.3833565,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "04e50b72b1a6",
+   "title": "The Moors",
+   "start": "2026-11-07T19:30-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "theater",
+   "price": null,
+   "description": "Dark comedy about two sisters, a dog, and a hapless governess on the English moors.",
+   "url": "https://bartelltheatre.org/",
+   "image": "",
+   "venue": "Bartell Theatre",
+   "venue_id": "osm:way/265137656",
+   "venue_kind": "venue",
+   "address": "113 East Mifflin Street",
+   "lat": 43.0765271,
+   "lon": -89.3833565,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
    ],
    "link_ok": true
   },
@@ -3663,7 +3519,7 @@
    "all_day": true,
    "category": "music",
    "price": 20.0,
-   "description": "Launch party and music benefit. Suggested $20 donation at the door.",
+   "description": "Launch party and music benefit at High Noon Saloon. Suggested $20 donation at the door.",
    "url": "https://www.high-noon.com/",
    "image": "",
    "venue": "High Noon Saloon",
@@ -3801,9 +3657,9 @@
    "start": "2026-11-08T12:00-06:00",
    "end": null,
    "all_day": false,
-   "category": "sports",
+   "category": "music",
    "price": null,
-   "description": "Session 2 of the Kickback9 Pin-Golf tour, with Wisconsin Pin-Golf and league play.",
+   "description": "Pin-golf tour session with Kickback Nine, Wisconsin Pin-Golf and Yuengling, plus craft beer and league night.",
    "url": "https://thekickback.bar/",
    "image": "",
    "venue": "The Kickback",
@@ -4360,8 +4216,8 @@
    "link_ok": true
   },
   {
-   "id": "17ea44748651",
-   "title": "A Valentine's Affair 2027 Auditions: First Audition",
+   "id": "28e18fc7f1b2",
+   "title": "A Valentine's Affair 2027 First Audition",
    "start": "2026-11-09T18:30-06:00",
    "end": null,
    "all_day": false,
@@ -4646,7 +4502,7 @@
    "all_day": false,
    "category": "trivia",
    "price": null,
-   "description": "Tuesday trivia night.",
+   "description": "Premier Tuesday trivia night.",
    "url": "https://thekickback.bar/",
    "image": "",
    "venue": "The Kickback",
@@ -5504,23 +5360,22 @@
    "id": "5b1fe3b2f2cf",
    "title": "Dragonsocks & Queen of the Universe",
    "start": "2026-11-12T19:30-06:00",
-   "end": null,
+   "end": "2026-11-12T19:30-06:00",
    "all_day": false,
    "category": "theater",
    "price": null,
-   "description": "",
-   "url": "https://bstonline.org/",
-   "image": "",
+   "description": "Dragonsocks & Queen of the Universe Written by local playwright Brendon Smith Directed by Suzan Kurry (Artistic Director of KR Women’s Theater) (Please Note: If EventBrite says we’re … Continue reading Dragonsocks & Queen of the Universe \\n",
+   "url": "https://bstonline.org/event/dragonsocks-and-the-queen-of-the-universe-8/",
+   "image": "https://bstonline.org/wp-content/uploads/2026/09/dragonsocks-FB-cover-imageV4.jpg",
    "venue": "Broom Street Theater",
    "venue_id": "osm:way/385639211",
    "venue_kind": "venue",
    "address": "1119 Williamson Street",
    "lat": 43.0821088,
    "lon": -89.3652249,
-   "source": "extra",
-   "via": "Isthmus",
-   "city": "Madison",
+   "source": "scraped",
    "sources": [
+    "Venue websites",
     "Isthmus"
    ],
    "link_ok": true
@@ -6192,7 +6047,7 @@
    "all_day": false,
    "category": "trivia",
    "price": null,
-   "description": "Launch party for Fallout with craft beer and pinball.",
+   "description": "Launch party with craft beer and pinball.",
    "url": "https://thekickback.bar/",
    "image": "",
    "venue": "The Kickback",
@@ -6721,29 +6576,6 @@
    "source": "scraped",
    "sources": [
     "Venue websites"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "20fb63c50329",
-   "title": "Art Club for Families - D.I.Y. Neck Ties and Glasses",
-   "start": "2026-11-14T11:00-06:00",
-   "end": "2026-11-14T12:00-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Family art club making DIY neck ties and glasses at Monroe Street Library.",
-   "url": "https://www.madisonpubliclibrary.org/monroe-street",
-   "image": "",
-   "venue": "Monroe Street Library",
-   "venue_id": "osm:way/241508509",
-   "venue_kind": "library",
-   "address": "1705 Monroe Street",
-   "lat": 43.0659388,
-   "lon": -89.4152059,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
    ],
    "link_ok": true
   },
@@ -7602,7 +7434,7 @@
    "all_day": false,
    "category": "bingo",
    "price": null,
-   "description": "Meat raffle benefiting Fetch WI Rescue, with prizes from Jenny St Market and New Belgium Brewing.",
+   "description": "Meat raffle with Fetch WI Rescue, Jenny St Market and New Belgium Brewing prizes.",
    "url": "https://thekickback.bar/",
    "image": "",
    "venue": "The Kickback",
@@ -7779,6 +7611,29 @@
    "source": "ai",
    "sources": [
     "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "b99f1e8f0ec1",
+   "title": "I ❤️ Willy Street: Neighborhood Clean-Up & T-Shirt Release",
+   "start": "2026-11-15T15:15-06:00",
+   "end": "2026-11-15T16:30-06:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "",
+   "url": "https://www.workingdraftbeer.com/events/2026/11/15/show-willy-street-some-love",
+   "image": "https://images.squarespace-cdn.com/content/v1/595aac69414fb51e2857d8af/1794000523921-SIQUDDV8UOUWQQJ1LNWO/PXL_20261106_212308170%7E2.jpg",
+   "venue": "Working Draft Beer Company",
+   "venue_id": "osm:node/5501718844",
+   "venue_kind": "brewery",
+   "address": "1129 East Wilson Street",
+   "lat": 43.0833378,
+   "lon": -89.3652802,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
    ],
    "link_ok": true
   },
@@ -8275,7 +8130,7 @@
    "all_day": false,
    "category": "trivia",
    "price": null,
-   "description": "Tuesday trivia night.",
+   "description": "Premier Tuesday trivia night.",
    "url": "https://thekickback.bar/",
    "image": "",
    "venue": "The Kickback",
@@ -8647,7 +8502,7 @@
    "all_day": false,
    "category": "trivia",
    "price": null,
-   "description": "Craft Beer Pinball League night featuring New Glarus Brewing and Big Grove Brewery.",
+   "description": "Craft Beer Pinball League night featuring New Glarus and Big Grove Brewery.",
    "url": "https://thekickback.bar/",
    "image": "",
    "venue": "The Kickback",
@@ -9271,6 +9126,352 @@
     "AI page reading"
    ],
    "link_ok": true
+  },
+  {
+   "id": "3036951c6449",
+   "title": "Warner Family Fun Night",
+   "start": "2026-11-20T17:30-06:00",
+   "end": "2026-11-20T19:30-06:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Family fun night at Warner Park Community Recreation Center, 1625 Northport Drive.",
+   "url": "https://www.cityofmadison.com/parks/find-a-park/reindahl/pavilion-at-the-imagination-center",
+   "image": "",
+   "venue": "Reindahl Park Pavillion",
+   "venue_id": "osm:way/1562302804",
+   "venue_kind": "community",
+   "address": "1814 Parkside Drive",
+   "lat": 43.1243555,
+   "lon": -89.3168108,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "b35aac24925c",
+   "title": "Warner Family Fun Night",
+   "start": "2026-11-20T17:30-06:00",
+   "end": "2026-11-20T19:30-06:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Family fun night at Warner Park Community Recreation Center, 1625 Northport Drive.",
+   "url": "https://www.cityofmadison.com/parks/find-a-park/park.cfm?id=1364",
+   "image": "",
+   "venue": "Veterans Memorial Park",
+   "venue_id": "osm:way/406680688",
+   "venue_kind": "veterans",
+   "address": "4601 Star Spangled Trail",
+   "lat": 43.0324635,
+   "lon": -89.2926519,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "81a31ffb2406",
+   "title": "Flannel Fest",
+   "start": "2026-11-20T18:00-06:00",
+   "end": "2026-11-20T18:00-06:00",
+   "all_day": false,
+   "category": "theater",
+   "price": 36.0,
+   "description": "http://flannelfest.com http://kwwf.org/ A celebration of music benefitting the Keep Wisconsin Warm/Cool Fund The 13 th Anniversary Edition of Flannel Fest Featuring: Dawes, The Mascot Theory, Beth Kille Band, Tae & The Neighborly @ Tickets:",
+   "url": "https://barrymorelive.com/event/flannel-fest-2/",
+   "image": "https://barrymorelive.com/wp-content/uploads/2026/04/Untitled-design-11.webp",
+   "venue": "Barrymore Theatre",
+   "venue_id": "osm:way/345755104",
+   "venue_kind": "venue",
+   "address": "2090-2098 Atwood Avenue",
+   "lat": 43.0929747,
+   "lon": -89.3521777,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "625f14137e91",
+   "title": "Magic Rob EVERY Friday – tableside magic and family FUN!",
+   "start": "2026-11-20T18:00-06:00",
+   "end": "2026-11-20T20:00-06:00",
+   "all_day": false,
+   "category": "food",
+   "price": 0.0,
+   "description": "Madison’s Magic Rob provides FREE, family-friendly tableside and waiting area entertainment from 6-8pm EVERY FRIDAY. You never know when he’ll magically appear… be ready! Enjoy all-day Fish Fry Every Friday!",
+   "url": "https://thelonegirl.com/event/magic-rob-every-friday-tableside-2-2-2-3-2-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2/",
+   "image": "https://thelonegirl.com/wp-content/uploads/2023/08/Magic-Rob-Inside.jpg",
+   "venue": "Lone Girl Tap Room And Pizza Company",
+   "venue_id": "osm:node/12641566168",
+   "venue_kind": "bar",
+   "address": "1817 East Washington Avenue",
+   "lat": 43.0907077,
+   "lon": -89.3608921,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "41b59f49c4af",
+   "title": "Live Music: Bree Morgan",
+   "start": "2026-11-20T18:30-06:00",
+   "end": "2026-11-20T21:00-06:00",
+   "all_day": false,
+   "category": "music",
+   "price": null,
+   "description": "Grit, Rasp, Sass, and Love best describe Bree Morgan.",
+   "url": "https://onesocialmadison.com/event/live-music-bree-morgan-2/",
+   "image": "",
+   "venue": "One Social Bar",
+   "venue_id": "osm:node/13312456631",
+   "venue_kind": "bar",
+   "address": "",
+   "lat": 43.0738511,
+   "lon": -89.378883,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "84afda4a5d91",
+   "title": "Bingo Loco - Name That Song",
+   "start": "2026-11-20T19:00-06:00",
+   "end": "2026-11-20T20:00-06:00",
+   "all_day": false,
+   "category": "bingo",
+   "price": 40.0,
+   "description": "Doors 7:00PM / Show 8PM Seated show $35ADV / $40DOS",
+   "url": "https://www.theatwoodmusichall.com/shows/2026-11-20",
+   "image": "https://images.squarespace-cdn.com/content/v1/62cacf3906240b03a9e7209f/1789502016863-EP261K2WBP70KMDHDJ89/Madison+Name+That+Song+Fri%2C+Nov+20th_Pos-LineUp.png",
+   "venue": "Atwood Music Hall",
+   "venue_id": "osm:way/440518288",
+   "venue_kind": "venue",
+   "address": "1925 Winnebago Street",
+   "lat": 43.0909399,
+   "lon": -89.3556544,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "b91e2a90b9f4",
+   "title": "Brian Simpson",
+   "start": "2026-11-20T19:00-06:00",
+   "end": "2026-11-20T20:30-06:00",
+   "all_day": false,
+   "category": "other",
+   "price": 0.0,
+   "description": "FREE PASSES/PROMOTIONS NOT VALID Want alerts for sold-out shows? Use this link: https://madcom.club/BrianSimpson26. Enter your email or phone number under your preferred date to get notified if tickets become available! […] \\n",
+   "url": "https://www.madisoncomedy.com/event/briansimpson26/2026-11-20/1/",
+   "image": "https://www.madisoncomedy.com/wp-content/uploads/Brian.Simpson26.png",
+   "venue": "Comedy Club on State",
+   "venue_id": "osm:node/5661434234",
+   "venue_kind": "venue",
+   "address": "",
+   "lat": 43.0749506,
+   "lon": -89.3882204,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "7e730b9b6427",
+   "title": "Wisconsin Badgers Hockey vs. Penn State Nittany Lions Mens Hockey",
+   "start": "2026-11-20T19:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "sports",
+   "price": null,
+   "description": "Hockey / College",
+   "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAevvN",
+   "image": "https://s1.ticketm.net/dam/a/267/aed721a8-9e5f-4096-bfac-2e30dc1c7267_RETINA_PORTRAIT_16_9.jpg",
+   "venue": "Kohl Center",
+   "venue_id": "tm:Z6r9jZaaee",
+   "venue_kind": "venue",
+   "address": "601 W. Dayton St.",
+   "lat": 43.016399,
+   "lon": -89.420097,
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster"
+   ],
+   "link_ok": null
+  },
+  {
+   "id": "2e1749d7c1e1",
+   "title": "Friday Night Strikes",
+   "start": "2026-11-20T19:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "trivia",
+   "price": null,
+   "description": "Friday night pinball event with craft beer.",
+   "url": "https://thekickback.bar/",
+   "image": "",
+   "venue": "The Kickback",
+   "venue_id": "osm:node/12292190391",
+   "venue_kind": "bar",
+   "address": "7622 Lisa Lane",
+   "lat": 43.1092621,
+   "lon": -89.5123266,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "38d989921da9",
+   "title": "Ultimate Super Smash Bros Tournament",
+   "start": "2026-11-20T19:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "trivia",
+   "price": null,
+   "description": "Ultimate Super Smash Bros tournament on Switch 2.",
+   "url": "https://thekickback.bar/",
+   "image": "",
+   "venue": "The Kickback",
+   "venue_id": "osm:node/12292190391",
+   "venue_kind": "bar",
+   "address": "7622 Lisa Lane",
+   "lat": 43.1092621,
+   "lon": -89.5123266,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "a37cca6031ca",
+   "title": "Madison Capitols vs. Lincoln Stars",
+   "start": "2026-11-20T19:05-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "sports",
+   "price": null,
+   "description": "Hockey / Ice Hockey",
+   "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvFGA",
+   "image": "https://s1.ticketm.net/dam/c/61c/37e6dc36-b80c-45a5-9bc5-960c7a98161c_106321_RETINA_PORTRAIT_16_9.jpg",
+   "venue": "Legacy20 Arena at Deforest Yards",
+   "venue_id": "tm:Z7r9jZak-N",
+   "venue_kind": "venue",
+   "address": "6251 Monticello Drive",
+   "lat": 43.233799,
+   "lon": -89.331802,
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster"
+   ],
+   "link_ok": null
+  },
+  {
+   "id": "26444012168a",
+   "title": "Thee Chakari Daezhare BENEFIT Jamboree - Fundraiser",
+   "start": "2026-11-20T20:00-06:00",
+   "end": "2026-11-20T22:00-06:00",
+   "all_day": false,
+   "category": "music",
+   "price": null,
+   "description": "",
+   "url": "https://www.cafecoda.club/events-1/vzsiav3m9zmaag4lx827ulsv0zptk0",
+   "image": "https://images.squarespace-cdn.com/content/v1/6914abebeed4305fd5ea6ea5/1792955732519-8NTDY338CCIEU29AF3HM/Thee+Chakari+Daezhare+Poster.png",
+   "venue": "Cafe CODA",
+   "venue_id": "osm:way/385639191",
+   "venue_kind": "bar",
+   "address": "1224 Williamson Street",
+   "lat": 43.0839938,
+   "lon": -89.3638172,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "8cde6fe81a4a",
+   "title": "Gridlock Album Release // Totally Cashed // M545 // A Casual Ruckus // Party Vultures",
+   "start": "2026-11-20T20:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "music",
+   "price": null,
+   "description": "Album release show. Doors 19:00.",
+   "url": "https://gammaray.bar",
+   "image": "",
+   "venue": "Gamma Ray Bar",
+   "venue_id": "osm:node/12156142686",
+   "venue_kind": "bar",
+   "address": "121 West Main Street",
+   "lat": 43.072436,
+   "lon": -89.3848247,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "6ea97bd8e482",
+   "title": "Left Lane Cruiser, 20 Watt Tombstone & Electromag",
+   "start": "2026-11-20T20:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "music",
+   "price": null,
+   "description": "Rock / Pop",
+   "url": "https://www.ticketmaster.com/left-lane-cruiser-20-watt-tombstone-madison-wisconsin-11-20-2026/event/0700653DEC33A54D",
+   "image": "https://s1.ticketm.net/dam/a/7ef/2dd730fc-16f6-4ca3-b5e7-7cf00ddb07ef_RETINA_PORTRAIT_16_9.jpg",
+   "venue": "High Noon Saloon",
+   "venue_id": "osm:node/1348850872",
+   "venue_kind": "bar",
+   "address": "701 E Washington Ave",
+   "lat": 43.0797191,
+   "lon": -89.3762962,
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster",
+    "AI page reading"
+   ],
+   "link_ok": null
+  },
+  {
+   "id": "d358e7140d1c",
+   "title": "The Jayhawks: Sanctuary Park Tour",
+   "start": "2026-11-20T20:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "music",
+   "price": null,
+   "description": "Rock / Pop",
+   "url": "https://www.ticketmaster.com/the-jayhawks-sanctuary-park-tour-madison-wisconsin-11-20-2026/event/070064D4F23488F5",
+   "image": "https://s1.ticketm.net/dam/a/96c/9a7dfc43-e447-4748-b8f9-34661411296c_RETINA_PORTRAIT_16_9.jpg",
+   "venue": "Majestic",
+   "venue_id": "osm:way/416476672",
+   "venue_kind": "venue",
+   "address": "115 King Street",
+   "lat": 43.0744152,
+   "lon": -89.3808535,
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster"
+   ],
+   "link_ok": null
   }
  ]
 }
