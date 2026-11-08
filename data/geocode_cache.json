@@ -871,5 +871,59 @@
   "address": "600 Highland Avenue",
   "city": "Madison"
  },
- "monona community/senior center": null
+ "monona community/senior center": null,
+ "clarity, middleton": null,
+ "turville point conservation park": {
+  "lat": 43.050341,
+  "lon": -89.373057,
+  "address": "",
+  "city": "Madison"
+ },
+ "dean house, monona": {
+  "lat": 43.068432,
+  "lon": -89.325614,
+  "address": "Monona Drive",
+  "city": "Madison"
+ },
+ "brix cider, mount horeb": {
+  "lat": 43.007221,
+  "lon": -89.738255,
+  "address": "119 South 2nd Street",
+  "city": "Mount Horeb"
+ },
+ "verona athletic center, verona": {
+  "lat": 42.974016,
+  "lon": -89.526631,
+  "address": "411 Prairie Heights Drive",
+  "city": "Verona"
+ },
+ "burr jones field": {
+  "lat": 43.091981,
+  "lon": -89.362707,
+  "address": "1820",
+  "city": "Madison"
+ },
+ "madison college-truax campus": {
+  "lat": 43.12127,
+  "lon": -89.33071,
+  "address": "1750 Wright Street",
+  "city": "Madison"
+ },
+ "mercies coffee": null,
+ "uw memorial union-tripp commons": null,
+ "uw gordon dining & event center": null,
+ "piggly wiggly, waunakee": {
+  "lat": 43.193317,
+  "lon": -89.466184,
+  "address": "206 North Holiday Drive",
+  "city": "Waunakee"
+ },
+ "alliant energy center-exhibition hall": null,
+ "middleton city hall": {
+  "lat": 43.095494,
+  "lon": -89.509298,
+  "address": "7426 Hubbard Avenue",
+  "city": "Middleton"
+ },
+ "schwoegler's park towne lanes": null
 }
