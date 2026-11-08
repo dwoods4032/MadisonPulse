@@ -99,21 +99,6 @@
   "why": "",
   "checked": "2026-11-03T21:02:15.185093-06:00"
  },
- "https://www.ticketmaster.com/event/Z7r9jZ1A7OzGN": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-03T21:02:26.866380-06:00"
- },
- "https://www.cafecoda.club/events-1/cool-school-1-mwk5m-6mm75-4gl5k-x3bxx-2l3ky-wk7lh-m59ge-aep6w": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-03T21:02:26.866424-06:00"
- },
- "https://www.textileartsmadison.org/exhibitions-events/textile-art-market-1": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-03T21:02:26.866435-06:00"
- },
  "https://www.workingdraftbeer.com/events/2026/11/7/swedish-lager-dovetail-brewery-collab-release-party": {
   "ok": true,
   "why": "",
@@ -3342,7 +3327,7 @@
  "https://www.cafecoda.club/events-1/cool-school-1-mwk5m-6mm75-4gl5k-x3bxx-2l3ky-wk7lh-m59ge-aep6w-pnxbz": {
   "ok": true,
   "why": "",
-  "checked": "2026-10-31T11:08:48.327841-05:00"
+  "checked": "2026-11-07T20:32:02.676798-06:00"
  },
  "https://www.workingdraftbeer.com/events/2026/11/14/pickle-day-palooza": {
   "ok": true,
@@ -3413,11 +3398,6 @@
   "ok": true,
   "why": "",
   "checked": "2026-11-01T20:32:07.696293-06:00"
- },
- "https://bstonline.org/event/dragonsocks-and-the-queen-of-the-universe-6/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-01T20:32:07.696298-06:00"
  },
  "https://www.ticketmaster.com/event/Z7r9jZ1AAvt3b": {
   "ok": null,
@@ -3634,11 +3614,6 @@
   "why": "",
   "checked": "2026-11-02T22:01:00.920370-06:00"
  },
- "https://www.sunprairiepubliclibrary.org/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-03T12:28:52.157213-06:00"
- },
  "https://www.turnkeymadison.com/working-menu": {
   "ok": true,
   "why": "",
@@ -3809,11 +3784,6 @@
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
   "checked": "2026-11-06T20:49:48.780695-06:00"
  },
- "https://www.wisconsinhistory.org": {
-  "ok": null,
-  "why": "HTTP 403 from cloudflare (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-07T10:53:39.839936-06:00"
- },
  "https://barrymorelive.com/": {
   "ok": true,
   "why": "",
@@ -3823,11 +3793,6 @@
   "ok": true,
   "why": "",
   "checked": "2026-11-07T10:53:40.168171-06:00"
- },
- "https://statestreetbrats.com/event/wisconsin-minnesota-20261107/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-07T10:53:40.168190-06:00"
  },
  "https://bstonline.org/event/dragonsocks-and-the-queen-of-the-universe-9/": {
   "ok": true,
@@ -3843,5 +3808,80 @@
   "ok": true,
   "why": "",
   "checked": "2026-11-07T10:53:45.612221-06:00"
+ },
+ "https://statestreetbrats.com/event/packers-patriots-20261108/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-07T20:32:01.103018-06:00"
+ },
+ "https://www.madisonpubliclibrary.org/monroe-street": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-07T20:32:01.103066-06:00"
+ },
+ "https://www.madisonpubliclibrary.org/locations/pinney-library": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-07T20:32:02.676762-06:00"
+ },
+ "https://www.madisonpubliclibrary.org/sequoya": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-07T20:32:02.676788-06:00"
+ },
+ "https://bstonline.org/event/dragonsocks-and-the-queen-of-the-universe-10/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-07T20:32:02.676805-06:00"
+ },
+ "https://www.ticketmaster.com/event/Z7r9jZ1AAvt3_": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-11-07T20:32:02.676812-06:00"
+ },
+ "https://www.ticketmaster.com/event/Z7r9jZ1AAevv0": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-11-07T20:32:02.676818-06:00"
+ },
+ "https://www.ticketmaster.com/event/Z7r9jZ1AAvFGk": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-11-07T20:32:02.676824-06:00"
+ },
+ "https://www.theatwoodmusichall.com/shows/2026-11-21": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-07T20:32:02.676829-06:00"
+ },
+ "https://www.cafecoda.club/events-1/thaddeus-tukes": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-07T20:32:02.764120-06:00"
+ },
+ "https://www.ticketmaster.com/nurse-john-against-medical-advice-tour-madison-wisconsin-11-21-2026/event/070064A1F83F9F9A": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-11-07T20:32:03.526075-06:00"
+ },
+ "https://www.gibs.bar/event-calendar/2026/11/21/dj-dudley-noon": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-07T20:32:03.526097-06:00"
+ },
+ "https://www.ticketmaster.com/houses-in-motion-talking-heads-tribute-madison-wisconsin-11-21-2026/event/070065287BFF1542": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-11-07T20:32:04.619172-06:00"
+ },
+ "https://www.ticketmaster.com/rod-tuffcurls-the-bench-press-madison-wisconsin-11-21-2026/event/07006522CADA4F02": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-11-07T20:32:05.711572-06:00"
+ },
+ "https://www.ticketmaster.com/slow-pulp-madison-wisconsin-11-21-2026/event/070064A5D83A7F56": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-11-07T20:32:06.795905-06:00"
  }
 }

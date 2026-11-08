@@ -89,53 +89,44 @@
   "events": []
  },
  "https://gammaray.bar/shows/": {
-  "hash": "af01e145da4331ad211c509f067127ba6f417437",
-  "asked": "2026-11-06T11:57:47-06:00",
-  "on": "2026-11-06",
+  "hash": "1d5bfe5e6574ba24935afc384a76c1c7ffc84eb1",
+  "asked": "2026-11-07T20:29:44-06:00",
+  "on": "2026-11-07",
   "events": [
    {
-    "title": "Deep Dive // Horace Greene // Gallon Of Red",
-    "date": "2026-11-06",
-    "start": "20:00",
-    "end": null,
-    "price": null,
-    "description": "Doors 19:00.",
-    "category": "music"
-   },
-   {
-    "title": "Young Songwriters Showcase Ft. Mane Thompson // Ixora // The Old Souls",
+    "title": "Young Songwriters Showcase Ft. Mane Thompson, Ixora, The Old Souls",
     "date": "2026-11-07",
     "start": "14:00",
     "end": null,
     "price": null,
-    "description": "Doors 13:30.",
+    "description": "Young Songwriters Showcase; doors 1:30pm",
     "category": "music"
    },
    {
-    "title": "Droids Attack // Peacemaker // The Eggs",
+    "title": "Droids Attack, Peacemaker, The Eggs",
     "date": "2026-11-07",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Doors 19:00.",
+    "description": "Show with Droids Attack, Peacemaker and The Eggs; doors 7pm",
     "category": "music"
    },
    {
-    "title": "Dusk // Visual Learner // Yuasa-Exide // Boo/Hiss",
+    "title": "Dusk, Visual Learner, Yuasa-Exide, Boo/Hiss",
     "date": "2026-11-08",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Doors 19:00.",
+    "description": "Show with Dusk, Visual Learner, Yuasa-Exide and Boo/Hiss; doors 7pm",
     "category": "music"
    },
    {
-    "title": "Friday the 13th Tribute Party Ft. PheRAMONES, Insomniacs (Green Day), TRAEFI(AFI)",
+    "title": "Friday the 13th Tribute Party Ft. PheRAMONES, Insomniacs (Green Day), TRAEFI (AFI)",
     "date": "2026-11-13",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Tribute party. Doors 19:00.",
+    "description": "Tribute party with PheRAMONES, Insomniacs (Green Day) and TRAEFI (AFI); doors 7pm",
     "category": "music"
    },
    {
@@ -144,25 +135,16 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Album release show. Doors 19:00.",
+    "description": "Album release show with Cause & Control and Get Well Now; doors 7pm",
     "category": "music"
    },
    {
-    "title": "Dusky Waters // Bear In The Forest // Marengo",
+    "title": "Dusky Waters, Bear In The Forest, Marengo",
     "date": "2026-11-15",
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Doors 18:00.",
-    "category": "music"
-   },
-   {
-    "title": "Gridlock Album Release // Totally Cashed // M545 // A Casual Ruckus // Party Vultures",
-    "date": "2026-11-20",
-    "start": "20:00",
-    "end": null,
-    "price": null,
-    "description": "Album release show. Doors 19:00.",
+    "description": "Show with Dusky Waters, Bear In The Forest and Marengo; doors 6pm",
     "category": "music"
    }
   ]
@@ -252,8 +234,8 @@
  },
  "https://www.madisongreymarket.com/schedule": {
   "hash": "844721c54672b70d90c49d8df79664186255d7e5",
-  "asked": "2026-11-04T12:38:37-06:00",
-  "on": "2026-11-04",
+  "asked": "2026-11-07T20:29:46-06:00",
+  "on": "2026-11-07",
   "events": [
    {
     "title": "Onigiri Pop-Up with Chef Itaru Nagano from Fairchild",
@@ -261,35 +243,8 @@
     "start": "15:00",
     "end": "20:00",
     "price": null,
-    "description": "Chef Itaru Nagano from Fairchild hosts an Onigiri Pop-Up.",
+    "description": "Chef Itaru Nagano from Fairchild hosts an onigiri pop-up.",
     "category": "food"
-   },
-   {
-    "title": "Wine Wednesday - Half Price Wine Night",
-    "date": "2026-11-04",
-    "start": null,
-    "end": null,
-    "price": null,
-    "description": "Half price wine night.",
-    "category": "other"
-   },
-   {
-    "title": "Wine Wednesday - Half Price Wine Night",
-    "date": "2026-11-11",
-    "start": null,
-    "end": null,
-    "price": null,
-    "description": "Half price wine night.",
-    "category": "other"
-   },
-   {
-    "title": "Wine Wednesday - Half Price Wine Night",
-    "date": "2026-11-18",
-    "start": null,
-    "end": null,
-    "price": null,
-    "description": "Half price wine night.",
-    "category": "other"
    }
   ]
  },
@@ -806,8 +761,8 @@
  },
  "https://wandosbar.com/madison-downtown-wando-s-events-happenings": {
   "hash": "1f59e7c9e9592e3eb4bd903ac72886214fbecfc8",
-  "asked": "2026-11-04T12:38:42-06:00",
-  "on": "2026-11-04",
+  "asked": "2026-11-07T20:29:50-06:00",
+  "on": "2026-11-07",
   "events": []
  },
  "https://tipsycowmadison.com/": {
@@ -840,8 +795,8 @@
  },
  "https://wandosbar.com/-events-happenings?source=header&spot_id=301&destination=events&promotion=nba_season": {
   "hash": "1f59e7c9e9592e3eb4bd903ac72886214fbecfc8",
-  "asked": "2026-11-04T12:38:44-06:00",
-  "on": "2026-11-04",
+  "asked": "2026-11-07T20:29:52-06:00",
+  "on": "2026-11-07",
   "events": []
  },
  "https://tinystaphouse.com/": {
@@ -1095,8 +1050,8 @@
  },
  "https://www.youngbloodbeerco.com/": {
   "hash": "386466cd1cd61490cf343b8b2aa4eac0b9b40160",
-  "asked": "2026-11-04T12:38:46-06:00",
-  "on": "2026-11-04",
+  "asked": "2026-11-07T20:29:55-06:00",
+  "on": "2026-11-07",
   "events": []
  },
  "https://yaharabay.com/pages/event-space": {
@@ -1364,26 +1319,16 @@
   ]
  },
  "https://merciescoffeewi.com/": {
-  "hash": "8a4a3a0ac021d130bad5c8579556f7364b4591e1",
-  "asked": "2026-11-06T20:48:50-06:00",
-  "on": "2026-11-06",
+  "hash": "96093e92d6414b63036ea5eead19739ebc87ebed",
+  "asked": "2026-11-07T20:30:21-06:00",
+  "on": "2026-11-07",
   "events": []
  },
  "https://motherfools.com/event/20261106/mad-city-story-slam-rebellion": {
   "hash": "c8578c6c99d7fdd0dbecc6d67418f34900fdf5fb",
-  "asked": "2026-11-04T12:39:07-06:00",
-  "on": "2026-11-04",
-  "events": [
-   {
-    "title": "Mad City Story Slam - Rebellion",
-    "date": "2026-11-06",
-    "start": "19:00",
-    "end": null,
-    "price": 0,
-    "description": "Open mic storytelling night on the theme of rebellion, guest host MEATMAN. Share a 5-minute true story or come to listen. Sign-ups 6:30pm.",
-    "category": "open_mic"
-   }
-  ]
+  "asked": "2026-11-07T20:30:20-06:00",
+  "on": "2026-11-07",
+  "events": []
  },
  "https://oasiscafefitchburg.com/": {
   "hash": "c58806cd35b91d512f482e6365c8e9bdb00d19b6",
@@ -1411,19 +1356,9 @@
  },
  "https://www.motherfools.com/event/20261106/mad-city-story-slam-rebellion": {
   "hash": "c8578c6c99d7fdd0dbecc6d67418f34900fdf5fb",
-  "asked": "2026-11-04T12:39:09-06:00",
-  "on": "2026-11-04",
-  "events": [
-   {
-    "title": "Mad City Story Slam - Rebellion",
-    "date": "2026-11-06",
-    "start": "19:00",
-    "end": null,
-    "price": 0,
-    "description": "Open mic storytelling slam on the theme of rebellion, hosted by guest host MEATMAN. Share a 5-minute true story or come to listen. Sign-ups start at 6:30 PM.",
-    "category": "open_mic"
-   }
-  ]
+  "asked": "2026-11-07T20:30:22-06:00",
+  "on": "2026-11-07",
+  "events": []
  },
  "https://tacomadrewi.com/": {
   "hash": "112c80b18ffdc42710dec5ce81385ce5df090c7a",
@@ -1451,25 +1386,25 @@
  },
  "https://www.micentro.org/events": {
   "hash": "fd9a3d21dd4c3151947caf580a9da6ca4e535a33",
-  "asked": "2026-11-04T12:39:28-06:00",
-  "on": "2026-11-04",
+  "asked": "2026-11-07T20:30:42-06:00",
+  "on": "2026-11-07",
   "events": [
-   {
-    "title": "Mercadito Community Farmer's Market",
-    "date": "2026-11-05",
-    "start": "16:00",
-    "end": "20:00",
-    "price": null,
-    "description": "Weekly open-air community market at 2403 Cypress Way with food vendors, fresh produce, artisanal goods, kids' games and a weekly raffle.",
-    "category": "food"
-   },
    {
     "title": "Mercadito Community Farmer's Market",
     "date": "2026-11-12",
     "start": "16:00",
     "end": "20:00",
     "price": null,
-    "description": "Weekly open-air community market at 2403 Cypress Way with food vendors, fresh produce, artisanal goods, kids' games and a weekly raffle.",
+    "description": "Open-air community market at 2403 Cypress Way with vendors, hot food, produce, kids' games and a weekly raffle.",
+    "category": "food"
+   },
+   {
+    "title": "Mercadito Community Farmer's Market",
+    "date": "2026-11-19",
+    "start": "16:00",
+    "end": "20:00",
+    "price": null,
+    "description": "Open-air community market at 2403 Cypress Way with vendors, hot food, produce, kids' games and a weekly raffle.",
     "category": "food"
    }
   ]
@@ -1482,8 +1417,8 @@
  },
  "https://iwcmadison.com/calendar/": {
   "hash": "372415e0626944de995874ac1f38ebb9dd109c3d",
-  "asked": "2026-11-04T12:39:29-06:00",
-  "on": "2026-11-04",
+  "asked": "2026-11-07T20:30:49-06:00",
+  "on": "2026-11-07",
   "events": [
    {
     "title": "Council Meeting",
@@ -1491,7 +1426,7 @@
     "start": "19:00",
     "end": "21:00",
     "price": null,
-    "description": "Council meeting at Italian Workmen's Club.",
+    "description": "Council Meeting at the Italian Workmen's Club.",
     "category": "other"
    }
   ]
@@ -1643,8 +1578,8 @@
   "events": []
  },
  "https://www.madisonpubliclibrary.org/spaces/events": {
-  "hash": "3c4a3e161195bbb74e80914c37353d131e01efc0",
-  "asked": "2026-11-07T10:52:00-06:00",
+  "hash": "a94cf58cd25f1c329f7a08de0a904d4f0435c54f",
+  "asked": "2026-11-07T20:31:01-06:00",
   "on": "2026-11-07",
   "events": []
  },
@@ -1689,35 +1624,17 @@
   "events": []
  },
  "https://www.sunprairiepubliclibrary.org/home-delivery-service": {
-  "hash": "cd583b45a103d98f56afd31ac1200017b84876a9",
-  "asked": "2026-11-06T20:49:22-06:00",
-  "on": "2026-11-06",
+  "hash": "4006d7715fb078eb2eb48fbe85d7a270ce1680aa",
+  "asked": "2026-11-07T20:31:04-06:00",
+  "on": "2026-11-07",
   "events": [
-   {
-    "title": "Music Avenue",
-    "date": "2026-11-07",
-    "start": "10:00",
-    "end": "10:30",
-    "price": null,
-    "description": "Family music program for children ages 0-5 at Sun Prairie Public Library.",
-    "category": "music"
-   },
-   {
-    "title": "Pumpkin Desserts with Punky Egan",
-    "date": "2026-11-07",
-    "start": "13:00",
-    "end": "14:00",
-    "price": null,
-    "description": "Adult program at Sun Prairie Public Library featuring pumpkin desserts with Punky Egan.",
-    "category": "food"
-   },
    {
     "title": "Itsy Bitsy Lapsit Storytime",
     "date": "2026-11-09",
     "start": "10:00",
     "end": "10:30",
     "price": null,
-    "description": "Storytime for families and children ages 0-5 at Sun Prairie Public Library.",
+    "description": "Library storytime for family and children ages 0-5.",
     "category": "other"
    },
    {
@@ -1726,7 +1643,7 @@
     "start": "11:15",
     "end": "11:45",
     "price": null,
-    "description": "Second storytime session for families and children ages 0-5 at Sun Prairie Public Library.",
+    "description": "Library storytime for family and children ages 0-5.",
     "category": "other"
    },
    {
@@ -1735,7 +1652,25 @@
     "start": "16:00",
     "end": "16:45",
     "price": null,
-    "description": "Program for children ages 0-5 at Sun Prairie Public Library.",
+    "description": "Library program for children ages 0-5.",
+    "category": "other"
+   },
+   {
+    "title": "Little Kid Storytime",
+    "date": "2026-11-10",
+    "start": "10:00",
+    "end": "10:30",
+    "price": null,
+    "description": "Library storytime for family and children ages 0-5.",
+    "category": "other"
+   },
+   {
+    "title": "Big Kid Storytime",
+    "date": "2026-11-10",
+    "start": "11:15",
+    "end": "11:45",
+    "price": null,
+    "description": "Library storytime for family and children ages 0-5.",
     "category": "other"
    }
   ]
@@ -1773,8 +1708,8 @@
  },
  "https://escmadison.com/events": {
   "hash": "7d56034792a756f76a3b603a24561c6dd97eac9b",
-  "asked": "2026-11-04T12:39:38-06:00",
-  "on": "2026-11-04",
+  "asked": "2026-11-07T20:31:08-06:00",
+  "on": "2026-11-07",
   "events": [
    {
     "title": "East Side Club Holiday Craft and Vendor Fair",
@@ -1782,7 +1717,7 @@
     "start": "09:00",
     "end": "15:00",
     "price": 0,
-    "description": "Two floors of handmade crafts and vendors, with a Bloody Mary bar and food for purchase. Free admission.",
+    "description": "Two floors of handmade crafts and vendors, with a Bloody Mary bar and food available for purchase. Free admission.",
     "category": "other"
    },
    {
@@ -1791,7 +1726,7 @@
     "start": "18:00",
     "end": "21:00",
     "price": 0,
-    "description": "Host Martin Hunt's open mic for all skill levels. Free; bar opens at 5pm and grill food is available.",
+    "description": "Open mic hosted by Martin Hunt, open to all musical skill levels. Free. Bar opens at 5:00pm; food ordered from the grill.",
     "category": "open_mic"
    },
    {
@@ -1800,32 +1735,41 @@
     "start": "18:00",
     "end": "21:00",
     "price": 0,
-    "description": "Host Martin Hunt's open mic for all skill levels. Free; bar opens at 5pm and grill food is available.",
+    "description": "Open mic hosted by Martin Hunt, open to all musical skill levels. Free. Bar opens at 5:00pm; food ordered from the grill.",
     "category": "open_mic"
    }
   ]
  },
  "https://www.madisonpubliclibrary.org/spaces/events/search": {
-  "hash": "24253f6d8fd61c9e85216b4c1a76018d42b85590",
-  "asked": "2026-11-07T10:51:57-06:00",
+  "hash": "2a60ba4846d24cab6b138d87980ed95e42b0ee81",
+  "asked": "2026-11-07T20:31:03-06:00",
   "on": "2026-11-07",
   "events": [
    {
-    "title": "Toddler Time",
+    "title": "Mindful Moments: a Drop-In Meditation Group",
     "date": "2026-11-09",
-    "start": "10:30",
-    "end": "11:15",
+    "start": "12:00",
+    "end": "13:30",
     "price": null,
-    "description": "Short storytime with rhymes, songs and movement for little ones, then play time with other children and caregivers.",
+    "description": "Drop-in meditation group at Sequoya Library, Meeting Rooms A and B Combined.",
     "category": "other"
    },
    {
-    "title": "Baby Time",
+    "title": "Monday Meetup",
     "date": "2026-11-09",
-    "start": "11:30",
-    "end": "12:15",
+    "start": "14:00",
+    "end": "15:30",
     "price": null,
-    "description": "Short storytime with rhymes, songs and bounces for babies, then play time with other babies and caregivers.",
+    "description": "Monday afternoon library fun for school-age children with adult help, Sequoya Library.",
+    "category": "other"
+   },
+   {
+    "title": "Simply Stitched: Drop-In Sewing Group",
+    "date": "2026-11-09",
+    "start": "17:30",
+    "end": "20:30",
+    "price": null,
+    "description": "Adult drop-in sewing group for all skill levels; bring your own machine and supplies. Sequoya Library.",
     "category": "other"
    }
   ]
@@ -1910,17 +1854,26 @@
   ]
  },
  "https://bartelltheatre.org/": {
-  "hash": "642b2931fddc3c57282e3a9f230fb17d8c9f5f67",
-  "asked": "2026-11-07T10:52:12-06:00",
+  "hash": "5a7e14844798597120fef840f73baff1e05587da",
+  "asked": "2026-11-07T20:31:13-06:00",
   "on": "2026-11-07",
   "events": [
    {
-    "title": "The Moors",
-    "date": "2026-11-07",
-    "start": "19:30",
+    "title": "Romeo and Juliet",
+    "date": "2026-11-08",
+    "start": "14:00",
     "end": null,
     "price": null,
-    "description": "Dark comedy about two sisters, a dog, a hapless governess and a moor-hen on the English moors.",
+    "description": "Capulets, Montagues, and two young lovers; the best-known play in the English language.",
+    "category": "theater"
+   },
+   {
+    "title": "The Moors",
+    "date": "2026-11-08",
+    "start": "14:00",
+    "end": null,
+    "price": null,
+    "description": "A dark comedy about two sisters, a dog, a hapless governess and a moor-hen on the English moors.",
     "category": "theater"
    },
    {
@@ -1930,7 +1883,7 @@
     "end": null,
     "price": null,
     "description": "First audition for A Valentine's Affair 2027.",
-    "category": "other"
+    "category": "theater"
    },
    {
     "title": "Saturday Scene Study Closing",
@@ -1938,8 +1891,8 @@
     "start": "12:00",
     "end": null,
     "price": null,
-    "description": "Closing of Saturday Scene Study.",
-    "category": "other"
+    "description": "Closing event for Saturday Scene Study.",
+    "category": "theater"
    }
   ]
  },
@@ -2017,26 +1970,17 @@
   ]
  },
  "https://www.overture.org/tickets-events/": {
-  "hash": "17ad93d0064095d3d57201bf7e01243e8703a57a",
-  "asked": "2026-11-07T10:52:18-06:00",
+  "hash": "0850050e08d35e7d61fac9b4649b918924629e64",
+  "asked": "2026-11-07T20:31:19-06:00",
   "on": "2026-11-07",
   "events": [
-   {
-    "title": "Stuart Stotts",
-    "date": "2026-11-07",
-    "start": null,
-    "end": null,
-    "price": null,
-    "description": "Overture listing with multiple showtimes; time not stated on the page.",
-    "category": "music"
-   },
    {
     "title": "Laura Doherty & The Heartbeats",
     "date": "2026-11-14",
     "start": null,
     "end": null,
     "price": null,
-    "description": "Overture listing with multiple showtimes; time not stated on the page.",
+    "description": "Multiple showtimes listed on Overture's events page.",
     "category": "music"
    },
    {
@@ -2045,8 +1989,17 @@
     "start": "15:00",
     "end": null,
     "price": null,
-    "description": "Artists' talk and reception at Overture.",
+    "description": "Artists' talk and reception.",
     "category": "other"
+   },
+   {
+    "title": "Beni Daiko",
+    "date": "2026-11-21",
+    "start": null,
+    "end": null,
+    "price": null,
+    "description": "Multiple showtimes listed on Overture's events page.",
+    "category": "music"
    }
   ]
  },
@@ -2205,8 +2158,8 @@
   "events": []
  },
  "https://high-noon.com/event/dogpark/": {
-  "hash": "ad75768963e992900755be5bcbf938cb8c7772ec",
-  "asked": "2026-11-07T10:51:02-06:00",
+  "hash": "d9d90e40cc413f873b2214783799e41aee00c9b6",
+  "asked": "2026-11-07T20:29:47-06:00",
   "on": "2026-11-07",
   "events": [
    {
@@ -2215,8 +2168,8 @@
     "start": null,
     "end": null,
     "price": 20,
-    "description": "Launch party and music benefit; suggested $20 donation at the door.",
-    "category": "music"
+    "description": "Launch party and music benefit at High Noon Saloon; suggested $20 donation at the door.",
+    "category": "other"
    }
   ]
  },
@@ -2246,10 +2199,20 @@
   ]
  },
  "https://madisonorpheum.com/event/eric-andre/": {
-  "hash": "e9d966947cd008b1a0c75a47ed927686f32bcf59",
-  "asked": "2026-11-07T10:52:20-06:00",
+  "hash": "20d5be8874331d7a8eb28a56004e2bc6967dc624",
+  "asked": "2026-11-07T20:31:21-06:00",
   "on": "2026-11-07",
-  "events": []
+  "events": [
+   {
+    "title": "Nurse John – 2 Shows!",
+    "date": "2026-11-21",
+    "start": null,
+    "end": null,
+    "price": null,
+    "description": "FPC Live presents Nurse John, two shows, listed under Related Events on the Orpheum page.",
+    "category": "music"
+   }
+  ]
  },
  "https://www.cruciblemadison.com/calendar": {
   "hash": "33c4556ce304b96ca56d808f9c029448d6cbf06a",

@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-11-07T10:53:39-06:00",
- "total_events": 372,
- "in_more_than_one_source": 22,
+ "generated_at": "2026-11-07T20:31:59-06:00",
+ "total_events": 362,
+ "in_more_than_one_source": 23,
  "sources": {
   "AI page reading": {
-   "events": 131,
-   "unique_events": 115,
+   "events": 133,
+   "unique_events": 116,
    "overlap": {
     "Isthmus": 3,
-    "Ticketmaster": 14,
+    "Ticketmaster": 15,
     "Venue websites": 0
    },
-   "venues": 27,
+   "venues": 29,
    "unique_venues": [
     "Arts + Literature Laboratory",
     "Capital Brewery",
@@ -24,26 +24,28 @@
     "Lazy Oaf Lounge",
     "Madison Youth Arts (MYArts)",
     "Monkeyshines Bar & Grill",
+    "Monroe Street Library",
     "Old Sugar Distillery",
     "Oscar Rennebohm Library",
     "Overture Center for the Arts",
+    "Pinney Library",
     "Reindahl Park Pavillion",
+    "Sequoya Library",
     "State Line Distillery",
-    "Sun Prairie Public Library",
     "The Kickback",
     "The Malt House",
     "Veterans Memorial Park"
    ]
   },
   "Isthmus": {
-   "events": 145,
-   "unique_events": 138,
+   "events": 127,
+   "unique_events": 120,
    "overlap": {
     "AI page reading": 3,
     "Ticketmaster": 2,
     "Venue websites": 3
    },
-   "venues": 78,
+   "venues": 68,
    "unique_venues": [
     "Alliant Energy Center",
     "American Players Theatre",
@@ -61,24 +63,17 @@
     "East High School",
     "Essen Haus",
     "Frank Lloyd Wright Visitor Center",
-    "Fromagination",
     "Garver Feed Mill",
     "Glass Nickel Pizza - Atwood Ave.",
-    "Good Shepherd Lutheran Church-Raymond Road",
-    "Goodman Community Center-Ironworks",
     "Hidden Cave Cidery",
-    "History Maker Space",
     "Holiday Inn",
-    "Holy Wisdom Monastery",
     "Hop Garden",
     "Hop Garden Brewing & Tap Room",
-    "Indian Lake County Park",
     "Ivory Room",
     "James Reeb Unitarian Universalist Congregation",
     "Joyful Path Meditation & Healing Center",
     "Kadampa Meditation Center Madison",
     "KurNiki's",
-    "Lake City Books",
     "Lake Windsor Country Club",
     "Location not listed",
     "Lola's Hi/Lo Lounge",
@@ -88,7 +83,6 @@
     "Madison Youth Arts",
     "Monona Community/Senior Center",
     "Oakstone Recreational",
-    "Oregon Library",
     "Overture Center-Overture Hall",
     "Overture Center-Playhouse",
     "PhotoMidwest",
@@ -98,7 +92,6 @@
     "TNW Ensemble Theater",
     "Tai Chi Center",
     "Tavernakaya",
-    "Tenney Park",
     "The Atwood",
     "The Fharmacy Public House",
     "The Mill",
@@ -106,22 +99,20 @@
     "UW Cinematheque",
     "UW Hamel Music Center-Mead Witter Hall",
     "Wil-Mar Center",
-    "Wisconsin Historical Society",
     "Yahara Bay Distillers",
     "bad dog frida"
    ]
   },
   "Ticketmaster": {
-   "events": 48,
-   "unique_events": 31,
+   "events": 54,
+   "unique_events": 36,
    "overlap": {
-    "AI page reading": 14,
+    "AI page reading": 15,
     "Isthmus": 2,
     "Venue websites": 2
    },
-   "venues": 11,
+   "venues": 10,
    "unique_venues": [
-    "Camp Randall",
     "Kohl Center",
     "LaBahn Arena",
     "Legacy20 Arena at Deforest Yards",
@@ -129,14 +120,14 @@
    ]
   },
   "Venue websites": {
-   "events": 71,
-   "unique_events": 66,
+   "events": 72,
+   "unique_events": 67,
    "overlap": {
     "AI page reading": 0,
     "Isthmus": 3,
     "Ticketmaster": 2
    },
-   "venues": 14,
+   "venues": 13,
    "unique_venues": [
     "Atwood Music Hall",
     "Badger Rock Neighborhood Center",
@@ -146,7 +137,6 @@
     "Lone Girl Tap Room And Pizza Company",
     "One Social Bar",
     "State Street Brats",
-    "Textile Arts Center of Madison",
     "Working Draft Beer Company"
    ]
   }

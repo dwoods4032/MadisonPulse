@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-07T10:53:39-06:00",
+ "generated_at": "2026-11-07T20:31:59-06:00",
  "venues_checked": 237,
- "venues_with_events": 63,
- "venues_with_feeds": 84,
- "events": 372,
- "filtered_out": 101,
+ "venues_with_events": 61,
+ "venues_with_feeds": 83,
+ "events": 362,
+ "filtered_out": 96,
  "venues": [
   {
    "name": "AI page reading",
@@ -15,10 +15,10 @@
    ],
    "raw_events": 186,
    "error": "",
-   "calls": 17,
-   "tokens_in": 36543,
-   "tokens_out": 14728,
-   "est_cost_usd": 0.011
+   "calls": 23,
+   "tokens_in": 45408,
+   "tokens_out": 17792,
+   "est_cost_usd": 0.0134
   },
   {
    "name": "Isthmus calendar",
@@ -28,7 +28,7 @@
     "calendar"
    ],
    "raw_events": 147,
-   "error": ""
+   "error": "used today's copy (read once a day)"
   },
   {
    "name": "Ticketmaster",
@@ -37,7 +37,7 @@
    "feeds": [
     "ticketmaster"
    ],
-   "raw_events": 50,
+   "raw_events": 55,
    "error": ""
   },
   {
@@ -104,7 +104,7 @@
     "jsonld",
     "jsonld"
    ],
-   "raw_events": 23,
+   "raw_events": 22,
    "error": ""
   },
   {
@@ -120,6 +120,16 @@
    "error": ""
   },
   {
+   "name": "High Noon Saloon",
+   "kind": "bar",
+   "website": "https://www.high-noon.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 17,
+   "error": ""
+  },
+  {
    "name": "Harmony Bar & Grill",
    "kind": "bar",
    "website": "https://www.harmonybarandgrill.com/",
@@ -127,16 +137,6 @@
     "ai"
    ],
    "raw_events": 16,
-   "error": ""
-  },
-  {
-   "name": "High Noon Saloon",
-   "kind": "bar",
-   "website": "https://www.high-noon.com/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 15,
    "error": ""
   },
   {
@@ -219,23 +219,23 @@
    "error": ""
   },
   {
-   "name": "Alicia Ashman Library",
+   "name": "Pinney Library",
    "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
+   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
    "feeds": [
     "ai"
    ],
-   "raw_events": 7,
+   "raw_events": 8,
    "error": ""
   },
   {
-   "name": "Gamma Ray Bar",
-   "kind": "bar",
-   "website": "https://gammaray.bar",
+   "name": "Sequoya Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/sequoya",
    "feeds": [
     "ai"
    ],
-   "raw_events": 7,
+   "raw_events": 8,
    "error": ""
   },
   {
@@ -259,19 +259,9 @@
    "error": ""
   },
   {
-   "name": "Monroe Street Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/monroe-street",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 7,
-   "error": ""
-  },
-  {
-   "name": "Pinney Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
+   "name": "Orpheum Theatre",
+   "kind": "venue",
+   "website": "https://madisonorpheum.com/",
    "feeds": [
     "ai"
    ],
@@ -309,9 +299,9 @@
    "error": ""
   },
   {
-   "name": "Orpheum Theatre",
-   "kind": "venue",
-   "website": "https://madisonorpheum.com/",
+   "name": "Gamma Ray Bar",
+   "kind": "bar",
+   "website": "https://gammaray.bar",
    "feeds": [
     "ai"
    ],
@@ -339,6 +329,16 @@
    "error": ""
   },
   {
+   "name": "Bartell Theatre",
+   "kind": "venue",
+   "website": "https://bartelltheatre.org/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 4,
+   "error": ""
+  },
+  {
    "name": "Lakeside Street Coffee House",
    "kind": "cafe",
    "website": "https://lakesidestcoffeehouse.com/",
@@ -349,13 +349,11 @@
    "error": ""
   },
   {
-   "name": "Textile Arts Center of Madison",
-   "kind": "venue",
-   "website": "https://www.textileartsmadison.org/",
+   "name": "State Line Distillery",
+   "kind": "brewery",
+   "website": "https://www.statelinedistillery.com/",
    "feeds": [
-    "squarespace",
-    "jsonld",
-    "jsonld"
+    "ai"
    ],
    "raw_events": 4,
    "error": ""
@@ -366,19 +364,6 @@
    "website": "https://www.veracourt.org/",
    "feeds": [
     "squarespace",
-    "jsonld",
-    "jsonld",
-    "jsonld"
-   ],
-   "raw_events": 4,
-   "error": ""
-  },
-  {
-   "name": "Waunakee Public Library",
-   "kind": "library",
-   "website": "https://www.waunakeepubliclibrary.org/",
-   "feeds": [
-    "jsonld",
     "jsonld",
     "jsonld",
     "jsonld"
@@ -442,19 +427,9 @@
    "error": ""
   },
   {
-   "name": "Grey Market",
-   "kind": "bar",
-   "website": "https://www.madisongreymarket.com",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 3,
-   "error": ""
-  },
-  {
-   "name": "Laurel Tavern",
-   "kind": "bar",
-   "website": "http://www.thelaureltavern.com",
+   "name": "Monroe Street Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/monroe-street",
    "feeds": [
     "ai"
    ],
@@ -465,16 +440,6 @@
    "name": "Overture Center for the Arts",
    "kind": "venue",
    "website": "http://overturecenter.com",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 3,
-   "error": ""
-  },
-  {
-   "name": "State Line Distillery",
-   "kind": "brewery",
-   "website": "https://www.statelinedistillery.com/",
    "feeds": [
     "ai"
    ],
@@ -494,22 +459,34 @@
    "error": ""
   },
   {
+   "name": "Textile Arts Center of Madison",
+   "kind": "venue",
+   "website": "https://www.textileartsmadison.org/",
+   "feeds": [
+    "squarespace",
+    "jsonld",
+    "jsonld"
+   ],
+   "raw_events": 3,
+   "error": ""
+  },
+  {
+   "name": "Alicia Ashman Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 2,
+   "error": ""
+  },
+  {
    "name": "Art House 360",
    "kind": "venue",
    "website": "https://www.arthouse360.com/",
    "feeds": [
     "jsonld",
     "jsonld"
-   ],
-   "raw_events": 2,
-   "error": ""
-  },
-  {
-   "name": "Bartell Theatre",
-   "kind": "venue",
-   "website": "https://bartelltheatre.org/",
-   "feeds": [
-    "ai"
    ],
    "raw_events": 2,
    "error": ""
@@ -525,9 +502,30 @@
    "error": ""
   },
   {
+   "name": "Centro",
+   "kind": "community",
+   "website": "https://www.micentro.org/",
+   "feeds": [
+    "squarespace",
+    "ai"
+   ],
+   "raw_events": 2,
+   "error": ""
+  },
+  {
    "name": "Flight Wine & Bourbon Bar",
    "kind": "bar",
    "website": "https://flightwi.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 2,
+   "error": ""
+  },
+  {
+   "name": "Laurel Tavern",
+   "kind": "bar",
+   "website": "http://www.thelaureltavern.com",
    "feeds": [
     "ai"
    ],
@@ -575,16 +573,6 @@
    "error": ""
   },
   {
-   "name": "Sequoya Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/sequoya",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 2,
-   "error": ""
-  },
-  {
    "name": "Badger Rock Neighborhood Center",
    "kind": "community",
    "website": "https://rootedwi.org/badger-rock-neighborhood-center/",
@@ -606,27 +594,6 @@
    "error": ""
   },
   {
-   "name": "Centro",
-   "kind": "community",
-   "website": "https://www.micentro.org/",
-   "feeds": [
-    "squarespace",
-    "ai"
-   ],
-   "raw_events": 1,
-   "error": ""
-  },
-  {
-   "name": "Doundrins Distilling",
-   "kind": "brewery",
-   "website": "https://doundrinsdistilling.com/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 1,
-   "error": ""
-  },
-  {
    "name": "Goodman Community Center",
    "kind": "community",
    "website": "https://www.goodmancenter.org/",
@@ -642,6 +609,16 @@
    "website": "https://www.goodmancenter.org/",
    "feeds": [
     "jsonld"
+   ],
+   "raw_events": 1,
+   "error": ""
+  },
+  {
+   "name": "Grey Market",
+   "kind": "bar",
+   "website": "https://www.madisongreymarket.com",
+   "feeds": [
+    "ai"
    ],
    "raw_events": 1,
    "error": ""
@@ -692,7 +669,7 @@
    "website": "https://www.aftershockclassicarcade.com/",
    "feeds": [],
    "raw_events": 0,
-   "error": ""
+   "error": "ai: ConnectionError: HTTPSConnectionPool(host='aftershockclassicarcade.com', port=443): Max retries exceeded with url: /events/ (Caused by NewConnectionError(\"HTTPSConnection(host='aftershockclassicar; ai: ConnectionError: HTTPSConnectionPool(host='aftershockclassicarcade.com', port=443): Max retries exceeded with url: /specials/ (Caused by NewConnectionError(\"HTTPSConnection(host='aftershockclassic"
   },
   {
    "name": "Alice Good",
@@ -1000,6 +977,14 @@
    "name": "Double Tap",
    "kind": "bar",
    "website": "https://www.doubletapbeercade.com/location/madison/",
+   "feeds": [],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
+   "name": "Doundrins Distilling",
+   "kind": "brewery",
+   "website": "https://doundrinsdistilling.com/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1635,7 +1620,7 @@
    "website": "https://redroostermadison.com/",
    "feeds": [],
    "raw_events": 0,
-   "error": ""
+   "error": "ai: ConnectionError: HTTPSConnectionPool(host='redroostermadison.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='redroostermadison.com', port=443"
   },
   {
    "name": "Right Bauer Brewing",
@@ -2039,6 +2024,19 @@
    "kind": "bar",
    "website": "https://wandosbar.com/",
    "feeds": [],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
+   "name": "Waunakee Public Library",
+   "kind": "library",
+   "website": "https://www.waunakeepubliclibrary.org/",
+   "feeds": [
+    "jsonld",
+    "jsonld",
+    "jsonld",
+    "jsonld"
+   ],
    "raw_events": 0,
    "error": ""
   },
