@@ -99,26 +99,6 @@
   "why": "",
   "checked": "2026-11-03T21:02:15.185093-06:00"
  },
- "https://www.ticketmaster.com/event/Z7r9jZ1A7PZPf": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-03T21:02:35.074469-06:00"
- },
- "https://www.theatwoodmusichall.com/shows/2026-11-8": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-03T21:02:35.074502-06:00"
- },
- "https://www.workingdraftbeer.com/events/2026/11/8/brats-bloodys": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-03T21:02:35.074509-06:00"
- },
- "https://www.ticketmaster.com/event/Z7r9jZ1AA7eoY": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-03T21:02:36.732676-06:00"
- },
  "https://www.ticketmaster.com/psychostick-madison-wisconsin-11-08-2026/event/070064F5AB67313C": {
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
@@ -2149,11 +2129,6 @@
   "why": "",
   "checked": "2026-11-03T21:02:33.960153-06:00"
  },
- "https://thelonegirl.com/event/sunday-bingo-lone-girl-brewing-2/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-03T21:02:35.074494-06:00"
- },
  "https://thelonegirl.com/event/meat-raffle-118/": {
   "ok": true,
   "why": "",
@@ -3327,42 +3302,42 @@
  "https://www.gibs.bar/event-calendar/2026/11/12/subterranean-jazz-group": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-01T11:09:55.346948-06:00"
+  "checked": "2026-11-08T20:42:14.595693-06:00"
  },
  "https://www.gibs.bar/event-calendar/2026/11/13/friday-night-house-party-with-michael-stavros": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-01T11:09:56.658681-06:00"
+  "checked": "2026-11-08T20:42:14.595720-06:00"
  },
  "https://thelonegirl.com/event/sunday-bingo-lone-girl-brewing-2-2/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-01T11:09:56.658709-06:00"
+  "checked": "2026-11-08T20:42:14.595736-06:00"
  },
  "https://www.ticketmaster.com/event/Z7r9jZ1AAvt3b": {
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-01T20:32:07.696305-06:00"
+  "checked": "2026-11-08T20:42:14.924512-06:00"
  },
  "https://www.fullmilebeercompany.com/events/2026/11/15-karaoke": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-01T20:32:07.696308-06:00"
+  "checked": "2026-11-08T20:42:14.924536-06:00"
  },
  "https://www.ticketmaster.com/event/Z7r9jZ1AAvg8M": {
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-01T20:32:07.696312-06:00"
+  "checked": "2026-11-08T20:42:14.924544-06:00"
  },
  "https://www.ticketmaster.com/victor-wooten-the-wooten-brothers-madison-wisconsin-11-15-2026/event/070064D4FF1D96DB": {
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-01T20:32:07.696315-06:00"
+  "checked": "2026-11-08T20:42:16.626378-06:00"
  },
  "https://www.ticketmaster.com/almost-monday-madison-wisconsin-11-15-2026/event/070064D29A3449E3": {
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-01T20:32:08.504944-06:00"
+  "checked": "2026-11-08T20:42:18.129511-06:00"
  },
  "https://www.cafecoda.club/events-1/tango-classsocial-by-madison-tango-society-tybcn-cpa6k-d3s5m-tzwnl-x3hj8-cp48m-z5lgd-c6kyy-dxfs6-f8rrm-ynaa6-pdnf2-5c27n-aafxh-t5ajm-tshpj-hdb66-b4z7r-4ekt8": {
   "ok": true,
@@ -3594,16 +3569,6 @@
   "why": "",
   "checked": "2026-11-05T12:48:30.839765-06:00"
  },
- "https://www.lazyoaflounge.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-05T21:28:13.330134-06:00"
- },
- "https://bstonline.org/event/dragonsocks-and-the-queen-of-the-universe-7/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-05T21:28:14.745530-06:00"
- },
  "https://www.cafecoda.club/events-1/karaoke-nabjl-22c3f-gw57n-2m79c-a47wx-jblcs-4bcsl-mkd7s-ctsf4-p4hcx-t4n3x-xd9mh-c5tsy-cpczx-w6dsr-tg854-3pze2-n3r2m": {
   "ok": true,
   "why": "",
@@ -3799,11 +3764,6 @@
   "why": "",
   "checked": "2026-11-08T11:06:05.539282-06:00"
  },
- "https://statestreetbrats.com/event/celtics-bucks-20261108/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-08T11:06:05.929404-06:00"
- },
  "https://www.northstreetcabaret.com/": {
   "ok": null,
   "why": "robots.txt asks bots not to visit",
@@ -3839,11 +3799,6 @@
   "why": "",
   "checked": "2026-11-08T11:06:07.361184-06:00"
  },
- "https://www.veronawi.gov/941/Community-Center": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-08T11:06:07.361190-06:00"
- },
  "https://www.madison.va.gov/": {
   "ok": false,
   "why": "site no longer exists",
@@ -3868,5 +3823,60 @@
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
   "checked": "2026-11-08T11:06:13.265361-06:00"
+ },
+ "https://statestreetbrats.com/event/bucks-knicks-20261110/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-08T20:42:13.551512-06:00"
+ },
+ "https://bstonline.org/event/dragonsocks-and-queen-of-the-universe/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-08T20:42:14.595729-06:00"
+ },
+ "https://www.karben4.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-08T20:42:18.129541-06:00"
+ },
+ "https://www.ticketmaster.com/event/Z7r9jZ1AA7eow": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-11-08T20:42:19.242417-06:00"
+ },
+ "https://www.ticketmaster.com/event/Z7r9jZ1AAvtfZ": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-11-08T20:42:21.250438-06:00"
+ },
+ "https://www.workingdraftbeer.com/events/2026/11/29/meat-raffle-sunday-nov-29th": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-08T20:42:21.250464-06:00"
+ },
+ "https://thelonegirl.com/event/meat-raffle-126-2/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-08T20:42:21.250472-06:00"
+ },
+ "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-madison-wisconsin-11-22-2026/event/070064EE89E21E1C": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-11-08T20:42:22.393555-06:00"
+ },
+ "https://www.theatwoodmusichall.com/shows/2026-11-22": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-08T20:42:22.393581-06:00"
+ },
+ "https://www.ticketmaster.com/the-record-companygive-it-back-to-madison-wisconsin-11-22-2026/event/070064CBBE2353FE": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-11-08T20:42:23.559569-06:00"
+ },
+ "https://www.ticketmaster.com/the-gringos-madison-wisconsin-11-22-2026/event/070064D7FDF08815": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-11-08T20:42:25.020235-06:00"
  }
 }

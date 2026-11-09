@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-11-08T11:06:04-06:00",
- "total_events": 387,
+ "generated_at": "2026-11-08T20:42:12-06:00",
+ "total_events": 369,
  "in_more_than_one_source": 22,
  "sources": {
   "AI page reading": {
-   "events": 135,
-   "unique_events": 118,
+   "events": 131,
+   "unique_events": 113,
    "overlap": {
     "Isthmus": 5,
-    "Ticketmaster": 14,
+    "Ticketmaster": 15,
     "Venue websites": 0
    },
-   "venues": 31,
+   "venues": 30,
    "unique_venues": [
     "Alicia Ashman Library",
     "Arts + Literature Laboratory",
@@ -23,9 +23,9 @@
     "Flight Wine & Bourbon Bar",
     "Grey Market",
     "Imagination Center",
+    "Karben4 Brewing",
     "Lakeside Street Coffee House",
     "Laurel Tavern",
-    "Lazy Oaf Lounge",
     "Monkeyshines Bar & Grill",
     "Monroe Street Library",
     "Old Sugar Distillery",
@@ -37,19 +37,18 @@
     "State Line Distillery",
     "The Kickback",
     "The Malt House",
-    "Verona Community Center",
     "Veterans Memorial Park"
    ]
   },
   "Isthmus": {
-   "events": 160,
-   "unique_events": 151,
+   "events": 143,
+   "unique_events": 135,
    "overlap": {
     "AI page reading": 5,
     "Ticketmaster": 3,
-    "Venue websites": 3
+    "Venue websites": 2
    },
-   "venues": 69,
+   "venues": 64,
    "unique_venues": [
     "A Room of One's Own",
     "Aikido of Madison",
@@ -60,7 +59,6 @@
     "Brix Cider",
     "Buck and Honey's",
     "Cargo Coffee-East Washington",
-    "Clarity",
     "Communication",
     "Dean House",
     "Diamond Way Buddhist Center",
@@ -82,7 +80,6 @@
     "Muso",
     "Ohio Tavern",
     "Overture Center-Capitol Theater",
-    "Overture Center-Overture Hall",
     "Overture Center-Playhouse",
     "Piggly Wiggly",
     "Schwoegler's Park Towne Lanes",
@@ -94,7 +91,6 @@
     "The Perch",
     "The Rigby",
     "The Village on Park",
-    "Turville Point Conservation Park",
     "UW Gordon Dining & Event Center",
     "UW Ingraham Hall",
     "UW Memorial Union-Tripp Commons",
@@ -107,21 +103,21 @@
     "Verona Athletic Center",
     "Vintage Brewing Company Capitol East",
     "WYSO Center for Music",
-    "Waunakee Library",
     "William G. Lunney Lake Farm County Park-Lussier Family Heritage Center",
     "William S. Middleton Memorial Veterans Hospital"
    ]
   },
   "Ticketmaster": {
-   "events": 51,
-   "unique_events": 35,
+   "events": 54,
+   "unique_events": 37,
    "overlap": {
-    "AI page reading": 14,
+    "AI page reading": 15,
     "Isthmus": 3,
     "Venue websites": 1
    },
    "venues": 10,
    "unique_venues": [
+    "Kohl Center",
     "LaBahn Arena",
     "Legacy20 Arena at Deforest Yards",
     "Majestic"
@@ -129,10 +125,10 @@
   },
   "Venue websites": {
    "events": 65,
-   "unique_events": 61,
+   "unique_events": 62,
    "overlap": {
     "AI page reading": 0,
-    "Isthmus": 3,
+    "Isthmus": 2,
     "Ticketmaster": 1
    },
    "venues": 13,

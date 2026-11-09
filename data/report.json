@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-08T11:06:04-06:00",
+ "generated_at": "2026-11-08T20:42:12-06:00",
  "venues_checked": 237,
- "venues_with_events": 59,
- "venues_with_feeds": 82,
- "events": 387,
- "filtered_out": 89,
+ "venues_with_events": 60,
+ "venues_with_feeds": 81,
+ "events": 369,
+ "filtered_out": 88,
  "venues": [
   {
    "name": "AI page reading",
@@ -13,12 +13,12 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 169,
+   "raw_events": 172,
    "error": "",
-   "calls": 16,
-   "tokens_in": 32965,
-   "tokens_out": 11478,
-   "est_cost_usd": 0.009
+   "calls": 10,
+   "tokens_in": 17354,
+   "tokens_out": 9022,
+   "est_cost_usd": 0.0062
   },
   {
    "name": "Isthmus calendar",
@@ -28,7 +28,7 @@
     "calendar"
    ],
    "raw_events": 169,
-   "error": ""
+   "error": "used today's copy (read once a day)"
   },
   {
    "name": "Ticketmaster",
@@ -37,7 +37,7 @@
    "feeds": [
     "ticketmaster"
    ],
-   "raw_events": 52,
+   "raw_events": 55,
    "error": ""
   },
   {
@@ -51,7 +51,7 @@
     "squarespace",
     "jsonld"
    ],
-   "raw_events": 37,
+   "raw_events": 36,
    "error": ""
   },
   {
@@ -76,7 +76,7 @@
     "jsonld",
     "jsonld"
    ],
-   "raw_events": 34,
+   "raw_events": 32,
    "error": ""
   },
   {
@@ -108,6 +108,16 @@
    "error": ""
   },
   {
+   "name": "High Noon Saloon",
+   "kind": "bar",
+   "website": "https://www.high-noon.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 19,
+   "error": ""
+  },
+  {
    "name": "Bridge Lakepoint Waunona Neighborhood Center",
    "kind": "community",
    "website": "https://www.blwcenter.org/",
@@ -120,9 +130,9 @@
    "error": ""
   },
   {
-   "name": "High Noon Saloon",
+   "name": "Harmony Bar & Grill",
    "kind": "bar",
-   "website": "https://www.high-noon.com/",
+   "website": "https://www.harmonybarandgrill.com/",
    "feeds": [
     "ai"
    ],
@@ -130,19 +140,19 @@
    "error": ""
   },
   {
-   "name": "Harmony Bar & Grill",
-   "kind": "bar",
-   "website": "https://www.harmonybarandgrill.com/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 16,
-   "error": ""
-  },
-  {
    "name": "Arts + Literature Laboratory",
    "kind": "venue",
    "website": "https://artlitlab.org/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 13,
+   "error": ""
+  },
+  {
+   "name": "Crucible",
+   "kind": "bar",
+   "website": "https://www.cruciblemadison.com/",
    "feeds": [
     "ai"
    ],
@@ -164,13 +174,13 @@
    "error": ""
   },
   {
-   "name": "Crucible",
+   "name": "The Kickback",
    "kind": "bar",
-   "website": "https://www.cruciblemadison.com/",
+   "website": "https://thekickback.bar/",
    "feeds": [
     "ai"
    ],
-   "raw_events": 10,
+   "raw_events": 11,
    "error": ""
   },
   {
@@ -198,13 +208,23 @@
    "error": ""
   },
   {
-   "name": "The Kickback",
-   "kind": "bar",
-   "website": "https://thekickback.bar/",
+   "name": "Reindahl Park Pavillion",
+   "kind": "community",
+   "website": "https://www.cityofmadison.com/parks/find-a-park/reindahl/pavilion-at-the-imagination-center",
    "feeds": [
     "ai"
    ],
-   "raw_events": 10,
+   "raw_events": 9,
+   "error": ""
+  },
+  {
+   "name": "Veterans Memorial Park",
+   "kind": "veterans",
+   "website": "https://www.cityofmadison.com/parks/find-a-park/park.cfm?id=1364",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 9,
    "error": ""
   },
   {
@@ -219,39 +239,19 @@
    "error": ""
   },
   {
-   "name": "Reindahl Park Pavillion",
-   "kind": "community",
-   "website": "https://www.cityofmadison.com/parks/find-a-park/reindahl/pavilion-at-the-imagination-center",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 8,
-   "error": ""
-  },
-  {
-   "name": "Veterans Memorial Park",
-   "kind": "veterans",
-   "website": "https://www.cityofmadison.com/parks/find-a-park/park.cfm?id=1364",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 8,
-   "error": ""
-  },
-  {
-   "name": "Lazy Oaf Lounge",
+   "name": "Crystal Corner Bar",
    "kind": "bar",
-   "website": "https://www.lazyoaflounge.com/",
+   "website": "https://thecrystalcornerbar.com/",
    "feeds": [
     "ai"
    ],
-   "raw_events": 7,
+   "raw_events": 6,
    "error": ""
   },
   {
-   "name": "Verona Community Center",
-   "kind": "community",
-   "website": "https://www.veronawi.gov/941/Community-Center",
+   "name": "Gamma Ray Bar",
+   "kind": "bar",
+   "website": "https://gammaray.bar",
    "feeds": [
     "ai"
    ],
@@ -262,6 +262,16 @@
    "name": "Orpheum Theatre",
    "kind": "venue",
    "website": "https://madisonorpheum.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 6,
+   "error": ""
+  },
+  {
+   "name": "State Line Distillery",
+   "kind": "brewery",
+   "website": "https://www.statelinedistillery.com/",
    "feeds": [
     "ai"
    ],
@@ -289,39 +299,9 @@
    "error": ""
   },
   {
-   "name": "Crystal Corner Bar",
-   "kind": "bar",
-   "website": "https://thecrystalcornerbar.com/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 4,
-   "error": ""
-  },
-  {
-   "name": "Gamma Ray Bar",
-   "kind": "bar",
-   "website": "https://gammaray.bar",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 4,
-   "error": ""
-  },
-  {
    "name": "Lakeside Street Coffee House",
    "kind": "cafe",
    "website": "https://lakesidestcoffeehouse.com/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 4,
-   "error": ""
-  },
-  {
-   "name": "State Line Distillery",
-   "kind": "brewery",
-   "website": "https://www.statelinedistillery.com/",
    "feeds": [
     "ai"
    ],
@@ -334,6 +314,19 @@
    "website": "https://www.veracourt.org/",
    "feeds": [
     "squarespace",
+    "jsonld",
+    "jsonld",
+    "jsonld"
+   ],
+   "raw_events": 4,
+   "error": ""
+  },
+  {
+   "name": "Waunakee Public Library",
+   "kind": "library",
+   "website": "https://www.waunakeepubliclibrary.org/",
+   "feeds": [
+    "jsonld",
     "jsonld",
     "jsonld",
     "jsonld"
@@ -367,6 +360,17 @@
    "website": "https://www.madisonpubliclibrary.org/central",
    "feeds": [
     "ai"
+   ],
+   "raw_events": 3,
+   "error": ""
+  },
+  {
+   "name": "Come Back Inn",
+   "kind": "bar",
+   "website": "https://comebackintavern.com/",
+   "feeds": [
+    "tribe",
+    "jsonld"
    ],
    "raw_events": 3,
    "error": ""
@@ -603,6 +607,16 @@
    "error": ""
   },
   {
+   "name": "Karben4 Brewing",
+   "kind": "brewery",
+   "website": "https://www.karben4.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 1,
+   "error": ""
+  },
+  {
    "name": "Old Sugar Distillery",
    "kind": "brewery",
    "website": "https://oldsugardistillery.com/",
@@ -760,7 +774,7 @@
    "website": "https://www.mymonona.com/1395/Below-Deck-Concession-Stand",
    "feeds": [],
    "raw_events": 0,
-   "error": ""
+   "error": "ai: ConnectTimeout: HTTPSConnectionPool(host='www.mymonona.com', port=443): Max retries exceeded with url: /1587/Special-Events (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mymonona.com',; ai: ConnectTimeout: HTTPSConnectionPool(host='www.mymonona.com', port=443): Max retries exceeded with url: /2781/Trivia-Nights (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mymonona.com', "
   },
   {
    "name": "Black Locust Cafe",
@@ -907,17 +921,6 @@
    "error": ""
   },
   {
-   "name": "Come Back Inn",
-   "kind": "bar",
-   "website": "https://comebackintavern.com/",
-   "feeds": [
-    "tribe",
-    "jsonld"
-   ],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
    "name": "Communication",
    "kind": "venue",
    "website": "https://communicationmadison.com/",
@@ -1033,7 +1036,7 @@
    "website": "http://www.fitchburgwi.gov/822/Library",
    "feeds": [],
    "raw_events": 0,
-   "error": ""
+   "error": "ai: ConnectTimeout: HTTPConnectionPool(host='www.fitchburgwi.gov', port=80): Max retries exceeded with url: /calendar.aspx?CID=24 (Caused by ConnectTimeoutError(<HTTPConnection(host='www.fitchburgwi.g; ai: ConnectTimeout: HTTPConnectionPool(host='www.fitchburgwi.gov', port=80): Max retries exceeded with url: /calendar.aspx?CID=22 (Caused by ConnectTimeoutError(<HTTPConnection(host='www.fitchburgwi.g"
   },
   {
    "name": "Fitchburg Senior Center",
@@ -1041,7 +1044,7 @@
    "website": "http://www.fitchburgwi.gov/621/Senior-Center",
    "feeds": [],
    "raw_events": 0,
-   "error": ""
+   "error": "ai: ConnectTimeout: HTTPConnectionPool(host='www.fitchburgwi.gov', port=80): Max retries exceeded with url: /Calendar.aspx?EID=19914 (Caused by ConnectTimeoutError(<HTTPConnection(host='www.fitchburgw; ai: ConnectTimeout: HTTPConnectionPool(host='www.fitchburgwi.gov', port=80): Max retries exceeded with url: /Calendar.aspx?EID=19838 (Caused by ConnectTimeoutError(<HTTPConnection(host='www.fitchburgw"
   },
   {
    "name": "Flynn Hall",
@@ -1237,14 +1240,6 @@
    "error": ""
   },
   {
-   "name": "Karben4 Brewing",
-   "kind": "brewery",
-   "website": "https://www.karben4.com/",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
    "name": "Kehl School of Dance",
    "kind": "venue",
    "website": "https://www.kehldance.com/",
@@ -1259,6 +1254,14 @@
    "feeds": [],
    "raw_events": 0,
    "error": ""
+  },
+  {
+   "name": "Lazy Oaf Lounge",
+   "kind": "bar",
+   "website": "https://www.lazyoaflounge.com/",
+   "feeds": [],
+   "raw_events": 0,
+   "error": "ai: SSLError: HTTPSConnectionPool(host='www.lazyoaflounge.com', port=443): Max retries exceeded with url: /events (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred i; ai: SSLError: HTTPSConnectionPool(host='www.lazyoaflounge.com', port=443): Max retries exceeded with url: /specials (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred"
   },
   {
    "name": "LeC's Patisserie & Tea House",
@@ -1358,7 +1361,7 @@
    "website": "https://madison-tap.com/",
    "feeds": [],
    "raw_events": 0,
-   "error": ""
+   "error": "ai: ReadTimeout: HTTPSConnectionPool(host='madison-tap.com', port=443): Read timed out. (read timeout=15); ai: ReadTimeout: HTTPSConnectionPool(host='madison-tap.com', port=443): Read timed out. (read timeout=15)"
   },
   {
    "name": "Madison Youth Arts (MYArts)",
@@ -1427,7 +1430,7 @@
   {
    "name": "Moka",
    "kind": "cafe",
-   "website": "https://www.mymokacoffee.com/",
+   "website": "https://mymokacoffee.com/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1435,7 +1438,7 @@
   {
    "name": "Moka",
    "kind": "cafe",
-   "website": "https://mymokacoffee.com/",
+   "website": "https://www.mymokacoffee.com/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1844,7 +1847,7 @@
    "website": "https://www.tenpinalleys.com/",
    "feeds": [],
    "raw_events": 0,
-   "error": ""
+   "error": "ai: SSLError: HTTPSConnectionPool(host='www.tenpinalleys.com', port=443): Max retries exceeded with url: /childrens-entertainment-oregon-wi (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHI"
   },
   {
    "name": "The Bubbling Teapot",
@@ -1994,6 +1997,14 @@
    "error": ""
   },
   {
+   "name": "Verona Community Center",
+   "kind": "community",
+   "website": "https://www.veronawi.gov/941/Community-Center",
+   "feeds": [],
+   "raw_events": 0,
+   "error": "ai: ConnectTimeout: HTTPSConnectionPool(host='www.veronawi.gov', port=443): Max retries exceeded with url: /513/Schedules (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.veronawi.gov', port="
+  },
+  {
    "name": "Vintage Spirits and Grill",
    "kind": "bar",
    "website": "https://vintagemadison.com/",
@@ -2026,25 +2037,12 @@
    "error": ""
   },
   {
-   "name": "Waunakee Public Library",
-   "kind": "library",
-   "website": "https://www.waunakeepubliclibrary.org/",
-   "feeds": [
-    "jsonld",
-    "jsonld",
-    "jsonld",
-    "jsonld"
-   ],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
    "name": "Waunakee Village Center",
    "kind": "community",
    "website": "https://www.vil.waunakee.wi.us/187/Village-Center",
    "feeds": [],
    "raw_events": 0,
-   "error": ""
+   "error": "ai: ConnectTimeout: HTTPSConnectionPool(host='www.waunakee.gov', port=443): Max retries exceeded with url: /calendar.aspx?CID=25 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.waunakee.gov'; ai: ConnectTimeout: HTTPSConnectionPool(host='www.waunakee.gov', port=443): Max retries exceeded with url: /Calendar.aspx?EID=6370 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.waunakee.go"
   },
   {
    "name": "Whisky Jack's Saloon",

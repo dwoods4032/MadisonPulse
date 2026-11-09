@@ -12,26 +12,17 @@
   "events": []
  },
  "https://thecrystalcornerbar.com/Calendar.htm": {
-  "hash": "da414d01ff341e50129b8dee64e6ad37c26e6df9",
-  "asked": "2026-11-06T11:57:45-06:00",
-  "on": "2026-11-06",
+  "hash": "407e286c74ed063bc37eafea3bdb76fa2426a4e1",
+  "asked": "2026-11-08T20:39:55-06:00",
+  "on": "2026-11-08",
   "events": [
    {
-    "title": "The Dead Johnnys, Tom Howl & The Scowl, Lummox",
-    "date": "2026-11-07",
-    "start": "21:00",
-    "end": null,
-    "price": 10,
-    "description": "Rock show with The Dead Johnnys, Tom Howl & The Scowl, and Lummox.",
-    "category": "music"
-   },
-   {
-    "title": "Cribshitter, Ed Dave",
+    "title": "Cribshitter & Ed Dave",
     "date": "2026-11-14",
     "start": "21:00",
     "end": null,
     "price": 15,
-    "description": "Soft rock from Cribshitter, with country performer Ed Dave.",
+    "description": "Madison soft rock band Cribshitter with country act Ed Dave.",
     "category": "music"
    },
    {
@@ -40,7 +31,16 @@
     "start": "20:30",
     "end": null,
     "price": null,
-    "description": "American roots, R&B, reggae, Latin and funk from a quartet.",
+    "description": "American roots, R&B, reggae, Latin and funk quartet.",
+    "category": "music"
+   },
+   {
+    "title": "Cash Box Kings",
+    "date": "2026-11-21",
+    "start": "20:00",
+    "end": null,
+    "price": 15,
+    "description": "Blues band.",
     "category": "music"
    }
   ]
@@ -89,44 +89,26 @@
   "events": []
  },
  "https://gammaray.bar/shows/": {
-  "hash": "1d5bfe5e6574ba24935afc384a76c1c7ffc84eb1",
-  "asked": "2026-11-07T20:29:44-06:00",
-  "on": "2026-11-07",
+  "hash": "2e9041239e1364424cd8ad7aed43f037fe81b700",
+  "asked": "2026-11-08T20:39:58-06:00",
+  "on": "2026-11-08",
   "events": [
    {
-    "title": "Young Songwriters Showcase Ft. Mane Thompson, Ixora, The Old Souls",
-    "date": "2026-11-07",
-    "start": "14:00",
-    "end": null,
-    "price": null,
-    "description": "Young Songwriters Showcase; doors 1:30pm",
-    "category": "music"
-   },
-   {
-    "title": "Droids Attack, Peacemaker, The Eggs",
-    "date": "2026-11-07",
-    "start": "20:00",
-    "end": null,
-    "price": null,
-    "description": "Show with Droids Attack, Peacemaker and The Eggs; doors 7pm",
-    "category": "music"
-   },
-   {
-    "title": "Dusk, Visual Learner, Yuasa-Exide, Boo/Hiss",
+    "title": "Dusk // Visual Learner // Yuasa-Exide // Boo/Hiss",
     "date": "2026-11-08",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Show with Dusk, Visual Learner, Yuasa-Exide and Boo/Hiss; doors 7pm",
+    "description": "Doors 7pm.",
     "category": "music"
    },
    {
-    "title": "Friday the 13th Tribute Party Ft. PheRAMONES, Insomniacs (Green Day), TRAEFI (AFI)",
+    "title": "Friday the 13th Tribute Party Ft. PheRAMONES, Insomniacs (Green Day), TRAEFI(AFI)",
     "date": "2026-11-13",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Tribute party with PheRAMONES, Insomniacs (Green Day) and TRAEFI (AFI); doors 7pm",
+    "description": "Doors 7pm.",
     "category": "music"
    },
    {
@@ -135,41 +117,50 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Album release show with Cause & Control and Get Well Now; doors 7pm",
+    "description": "Doors 7pm.",
     "category": "music"
    },
    {
-    "title": "Dusky Waters, Bear In The Forest, Marengo",
+    "title": "Dusky Waters // Bear In The Forest // Marengo",
     "date": "2026-11-15",
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Show with Dusky Waters, Bear In The Forest and Marengo; doors 6pm",
+    "description": "Doors 6pm.",
+    "category": "music"
+   },
+   {
+    "title": "Gridlock Album Release // Totally Cashed // M545 // A Casual Ruckus // Party Vultures",
+    "date": "2026-11-20",
+    "start": "20:00",
+    "end": null,
+    "price": null,
+    "description": "Album release show. Doors 7pm.",
+    "category": "music"
+   },
+   {
+    "title": "Clean Plate Club // Becca Murray & The Wildflowers // AuroNova",
+    "date": "2026-11-22",
+    "start": "19:00",
+    "end": null,
+    "price": null,
+    "description": "Doors 6pm.",
     "category": "music"
    }
   ]
  },
  "https://www.thecrystalcornerbar.com/Calendar.htm": {
-  "hash": "da414d01ff341e50129b8dee64e6ad37c26e6df9",
-  "asked": "2026-11-06T11:57:49-06:00",
-  "on": "2026-11-06",
+  "hash": "407e286c74ed063bc37eafea3bdb76fa2426a4e1",
+  "asked": "2026-11-08T20:39:59-06:00",
+  "on": "2026-11-08",
   "events": [
    {
-    "title": "The Dead Johnnys, Tom Howl & The Scowl, Lummox",
-    "date": "2026-11-07",
-    "start": "21:00",
-    "end": null,
-    "price": 10,
-    "description": "Rock show, $10.",
-    "category": "music"
-   },
-   {
-    "title": "Cribshitter, Ed Dave",
+    "title": "Cribshitter with Ed Dave",
     "date": "2026-11-14",
     "start": "21:00",
     "end": null,
     "price": 15,
-    "description": "Soft rock from Cribshitter and country from Ed Dave, $15.",
+    "description": "Soft rock from Cribshitter, with Ed Dave, a country act.",
     "category": "music"
    },
    {
@@ -179,6 +170,15 @@
     "end": null,
     "price": null,
     "description": "American roots, R&B, reggae, Latin and funk from a quartet.",
+    "category": "music"
+   },
+   {
+    "title": "Cash Box Kings",
+    "date": "2026-11-21",
+    "start": "20:00",
+    "end": null,
+    "price": 15,
+    "description": "Blues band Cash Box Kings.",
     "category": "music"
    }
   ]
@@ -898,18 +898,18 @@
   "events": []
  },
  "https://www.karben4.com/events": {
-  "hash": "b9504a6171972be721641ff58b20dfcbe32c7816",
-  "asked": "2026-11-05T21:26:57-06:00",
-  "on": "2026-11-05",
+  "hash": "d1adf74ab50b41874ded8e6a90ac00d757298eb2",
+  "asked": "2026-11-08T20:40:08-06:00",
+  "on": "2026-11-08",
   "events": [
    {
-    "title": "Stand-up comedy show with Encore Comedy",
-    "date": "2026-11-07",
-    "start": "20:00",
+    "title": "Community Bingo Night w/ Brown Paws Rescue",
+    "date": "2026-11-20",
+    "start": "18:30",
     "end": null,
     "price": null,
-    "description": "Night of stand-up comedy in the taproom with Encore Comedy; tickets via Eventbrite link.",
-    "category": "comedy"
+    "description": "Bingo with special cards celebrating Brown Paws Rescue's anniversary; meet adoptable pups and raise money for the rescue.",
+    "category": "bingo"
    }
   ]
  },
@@ -1088,26 +1088,17 @@
   "events": []
  },
  "https://thekickback.bar/upcoming-events/": {
-  "hash": "3f96f2c2aeefaa81e48396410bf2f7e5c2c4b731",
-  "asked": "2026-11-06T20:48:32-06:00",
-  "on": "2026-11-06",
+  "hash": "1b7e6eb0d09eed51eff8a17364283440b4b68708",
+  "asked": "2026-11-08T20:40:08-06:00",
+  "on": "2026-11-08",
   "events": [
-   {
-    "title": "Yuengling Presents: Kickback9 Pin-Golf Tour 4 Session 2",
-    "date": "2026-11-08",
-    "start": "12:00",
-    "end": null,
-    "price": null,
-    "description": "Pin-golf tour session with Kickback Nine, Wisconsin Pin-Golf and Yuengling, plus craft beer and league night.",
-    "category": "other"
-   },
    {
     "title": "Premier Trivia Tuesday!",
     "date": "2026-11-10",
     "start": "18:30",
     "end": null,
     "price": null,
-    "description": "Premier Tuesday trivia night.",
+    "description": "Tuesday Trivia at The Kickback",
     "category": "trivia"
    },
    {
@@ -1116,7 +1107,7 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Launch party with craft beer and pinball.",
+    "description": "Launch party with Craft Beer and Pinball tags",
     "category": "other"
    },
    {
@@ -1125,7 +1116,7 @@
     "start": "11:00",
     "end": null,
     "price": null,
-    "description": "Youth pinball free-play and tournament, with an introduction to pinball.",
+    "description": "Youth pinball free-play and tournament",
     "category": "other"
    },
    {
@@ -1134,7 +1125,7 @@
     "start": "11:00",
     "end": null,
     "price": null,
-    "description": "Craft fair.",
+    "description": "Craft fair",
     "category": "other"
    },
    {
@@ -1143,7 +1134,7 @@
     "start": "13:00",
     "end": null,
     "price": null,
-    "description": "Meat raffle with Fetch WI Rescue, Jenny St Market and New Belgium Brewing prizes.",
+    "description": "Meat raffle with prizes, Fetch WI Rescue and Jenny St Market tags",
     "category": "other"
    },
    {
@@ -1152,7 +1143,7 @@
     "start": "18:30",
     "end": null,
     "price": null,
-    "description": "Premier Tuesday trivia night.",
+    "description": "Tuesday Trivia at The Kickback",
     "category": "trivia"
    },
    {
@@ -1161,7 +1152,7 @@
     "start": "18:30",
     "end": null,
     "price": null,
-    "description": "Craft Beer Pinball League night featuring New Glarus and Big Grove Brewery.",
+    "description": "Craft Beer Pinball League night with New Glarus",
     "category": "other"
    },
    {
@@ -1170,7 +1161,7 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Friday night pinball event with craft beer.",
+    "description": "Friday Night Strikes pinball and craft beer night",
     "category": "other"
    },
    {
@@ -1179,7 +1170,25 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Ultimate Super Smash Bros tournament on Switch 2.",
+    "description": "Ultimate Super Smash Bros tournament on Switch 2",
+    "category": "other"
+   },
+   {
+    "title": "WanderLust Mobile Bookstore Pop-up",
+    "date": "2026-11-22",
+    "start": "15:00",
+    "end": null,
+    "price": null,
+    "description": "Mobile bookstore pop-up",
+    "category": "other"
+   },
+   {
+    "title": "Pups on the Patio: Fetch WI Rescue",
+    "date": "2026-11-22",
+    "start": "15:00",
+    "end": null,
+    "price": null,
+    "description": "Patio fundraiser with Fetch WI Rescue",
     "category": "other"
    }
   ]
@@ -1899,35 +1908,35 @@
   ]
  },
  "https://bartelltheatre.org/": {
-  "hash": "5af2ef80df159f2493e7cee2418b07270bd383d6",
-  "asked": "2026-11-08T11:05:27-06:00",
+  "hash": "f23a74bdb8b52df5e347fe979c8eee6fcf475eb9",
+  "asked": "2026-11-08T20:41:23-06:00",
   "on": "2026-11-08",
   "events": [
    {
     "title": "The Moors",
-    "date": "2026-11-08",
-    "start": "14:00",
+    "date": "2026-11-12",
+    "start": "19:30",
     "end": null,
     "price": null,
-    "description": "Dark comedy about two sisters and a dog on the English moors, with a governess and a moor-hen.",
+    "description": "Dark comedy about two sisters and a dog on the English moors, dreaming of love and power, disrupted by a hapless governess and a moor-hen.",
     "category": "theater"
    },
    {
-    "title": "A Valentine's Affair 2027 Auditions (First Audition)",
-    "date": "2026-11-09",
-    "start": "18:30",
+    "title": "Romeo and Juliet",
+    "date": "2026-11-13",
+    "start": "19:30",
     "end": null,
     "price": null,
-    "description": "First audition for A Valentine's Affair 2027.",
+    "description": "Shakespeare's tragedy of two young lovers caught in the feud between the Capulets and Montagues.",
     "category": "theater"
    },
    {
-    "title": "Saturday Scene Study (Closing)",
+    "title": "Saturday Scene Study (closing)",
     "date": "2026-11-21",
     "start": "12:00",
     "end": null,
     "price": null,
-    "description": "Closing of the Saturday Scene Study.",
+    "description": "Closing of the Saturday Scene Study listed under Auditions.",
     "category": "theater"
    }
   ]
@@ -2083,8 +2092,8 @@
   ]
  },
  "https://madisonyoutharts.org/upcoming-events/": {
-  "hash": "075b8cf6ad36aba21aa1bcb96d34479d5babb01f",
-  "asked": "2026-11-08T11:05:29-06:00",
+  "hash": "6663cb63047e5b5727d7bd048443c0d981e61d9f",
+  "asked": "2026-11-08T20:41:26-06:00",
   "on": "2026-11-08",
   "events": []
  },
@@ -2157,18 +2166,27 @@
   "events": []
  },
  "https://high-noon.com/event/dogpark/": {
-  "hash": "8cf7801d9a285f0423a608af4920c7d2c9c3e4e0",
-  "asked": "2026-11-08T11:04:27-06:00",
+  "hash": "50bbe578bae24c2c85410e1cf002827fed5158aa",
+  "asked": "2026-11-08T20:40:03-06:00",
   "on": "2026-11-08",
   "events": [
    {
-    "title": "Friends of Shabazz Launch Party & Music Benefit",
-    "date": "2026-11-08",
-    "start": null,
+    "title": "Ryan Jesse with Clayton Shay",
+    "date": "2026-11-16",
+    "start": "19:30",
     "end": null,
-    "price": 20,
-    "description": "Launch party and music benefit at High Noon Saloon. Suggested $20 donation at the door.",
-    "category": "other"
+    "price": null,
+    "description": "FPC Live presents Ryan Jesse with Clayton Shay at High Noon Saloon. Doors 6:30 pm.",
+    "category": "music"
+   },
+   {
+    "title": "Left Lane Cruiser, 20 Watt Tombstone & Electromag",
+    "date": "2026-11-20",
+    "start": "20:00",
+    "end": null,
+    "price": null,
+    "description": "Show at High Noon Saloon. Doors 7:00 pm.",
+    "category": "music"
    }
   ]
  },
@@ -2198,50 +2216,33 @@
   ]
  },
  "https://madisonorpheum.com/event/eric-andre/": {
-  "hash": "47af1af46f2b5f2bfa84f19c242cd44312d24444",
-  "asked": "2026-11-08T11:05:33-06:00",
+  "hash": "ed00ac3847472b469ecae8e20b32fdc78e3f9261",
+  "asked": "2026-11-08T20:41:30-06:00",
   "on": "2026-11-08",
-  "events": []
+  "events": [
+   {
+    "title": "Nurse John – 2 Shows!",
+    "date": "2026-11-21",
+    "start": null,
+    "end": null,
+    "price": null,
+    "description": "FPC Live Presents Nurse John, listed as a related event at the Orpheum Theatre; page says 2 shows.",
+    "category": "music"
+   }
+  ]
  },
  "https://www.cruciblemadison.com/calendar": {
   "hash": "33c4556ce304b96ca56d808f9c029448d6cbf06a",
-  "asked": "2026-11-05T12:46:36-06:00",
-  "on": "2026-11-05",
+  "asked": "2026-11-08T20:40:02-06:00",
+  "on": "2026-11-08",
   "events": [
-   {
-    "title": "Girls Night Out Australia Takeover",
-    "date": "2026-11-05",
-    "start": "19:00",
-    "end": null,
-    "price": 20,
-    "description": "Ladies night event, doors 6:00 PM, 21+. $20/$35 VIP; tickets via Avenue Ticket.",
-    "category": "other"
-   },
-   {
-    "title": "Space 7 Presents: Resonant Frequency 2026",
-    "date": "2026-11-06",
-    "start": "21:00",
-    "end": null,
-    "price": 25,
-    "description": "3.5-hour set by four live hardware artists, mixed live by a DJ. Doors 8:30 PM, 21+.",
-    "category": "music"
-   },
-   {
-    "title": "Leather + Lace",
-    "date": "2026-11-07",
-    "start": "20:30",
-    "end": null,
-    "price": 8,
-    "description": "Hard dance beats and club attire night hosted by Apollo Marquez. $8/$12 if dressed up, $25 otherwise. 21+.",
-    "category": "dance"
-   },
    {
     "title": "Trans Social Night",
     "date": "2026-11-09",
     "start": "18:00",
     "end": null,
     "price": 0,
-    "description": "Free low-pressure social event for trans community. 21+, no cover. Held 2nd and 4th Mondays.",
+    "description": "Free low-pressure social event, 21+. Second and fourth Mondays.",
     "category": "other"
    },
    {
@@ -2249,8 +2250,8 @@
     "date": "2026-11-11",
     "start": "18:30",
     "end": null,
-    "price": null,
-    "description": "Doors 6:00 PM, singing starts 6:30. Powered by Brain Monkeys Media and Songbooks Online. 21+.",
+    "price": 0,
+    "description": "Brain Monkeys Media karaoke, doors at 6pm, singing from 6:30pm. 21+.",
     "category": "karaoke"
    },
    {
@@ -2259,8 +2260,8 @@
     "start": "19:00",
     "end": null,
     "price": 10,
-    "description": "Monthly Sensation party with electroplay theme; dance beats and space for play. Doors 8:00 PM, 21+.",
-    "category": "dance"
+    "description": "Monthly Sensation party with an electroplay theme. Doors 8pm. 21+.",
+    "category": "other"
    },
    {
     "title": "BUBBLEGUM VOL. 5: BEACH BOUND",
@@ -2268,7 +2269,7 @@
     "start": "19:00",
     "end": null,
     "price": 15,
-    "description": "Presented by We Merge. Tropical-themed Bubblegum party, last one before Mozel moves to Florida. Doors 7:00 PM, 21+.",
+    "description": "Presented by We Merge, a tropical-themed Bubblegum party. 21+.",
     "category": "dance"
    },
    {
@@ -2277,8 +2278,8 @@
     "start": "19:00",
     "end": null,
     "price": 18,
-    "description": "90-minute monthly burlesque revue with headliners and local favorites. Doors 6:00 PM, 21+.",
-    "category": "other"
+    "description": "90-minute monthly burlesque revue with nationally and regionally known performers. Doors 6pm. 21+.",
+    "category": "theater"
    },
    {
     "title": "Anti-Social and Crucible Present: Ayria!",
@@ -2286,7 +2287,7 @@
     "start": "21:00",
     "end": null,
     "price": 15,
-    "description": "Live performance by Canadian industrial artist Ayria, with dance music before and after. $15/$18. 21+.",
+    "description": "Live performance by industrial artist Ayria, with dance music before and after. Listed $15/18.",
     "category": "music"
    },
    {
@@ -2294,8 +2295,8 @@
     "date": "2026-11-18",
     "start": "18:30",
     "end": null,
-    "price": null,
-    "description": "Doors 6:00 PM, singing starts 6:30. Powered by Brain Monkeys Media and Songbooks Online. 21+.",
+    "price": 0,
+    "description": "Brain Monkeys Media karaoke, doors at 6pm, singing from 6:30pm. 21+.",
     "category": "karaoke"
    },
    {
@@ -2304,7 +2305,7 @@
     "start": "19:00",
     "end": null,
     "price": 15,
-    "description": "Infotainment show mixing TED-style talks with stand-up comedy. $15 advance, $20 day of, $10 cash with student ID. Doors 6:30pm.",
+    "description": "Infotainment show mixing PowerPoint-style talks with stand-up comedy. $15 advance. Doors 6:30pm.",
     "category": "comedy"
    },
    {
@@ -2313,8 +2314,35 @@
     "start": "21:00",
     "end": null,
     "price": 5,
-    "description": "Goth night event. Doors 9:00 PM, 18+.",
+    "description": "Goth night presented by Goth AF. Doors 9pm. 18+.",
     "category": "dance"
+   },
+   {
+    "title": "Up & Away Cabaret presents Enchanted & Untamed",
+    "date": "2026-11-20",
+    "start": "20:00",
+    "end": null,
+    "price": 15,
+    "description": "Fantastical aerial burlesque show with a fae, siren and magic theme. Doors 7pm. 21+.",
+    "category": "theater"
+   },
+   {
+    "title": "The Rocky Horror Picture Show",
+    "date": "2026-11-20",
+    "start": "23:59",
+    "end": null,
+    "price": 8,
+    "description": "Shadow cast screening with Madison's Velvet Darkness. Doors 11pm, midnight screening. $13 under 21. 18+.",
+    "category": "film"
+   },
+   {
+    "title": "Masquerade: Impurity Ball",
+    "date": "2026-11-21",
+    "start": "21:00",
+    "end": null,
+    "price": 10,
+    "description": "Madison's annual fetish ball with stage acts and go-go dancers. Costume encouraged. 21+.",
+    "category": "other"
    }
   ]
  },
