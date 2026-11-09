@@ -925,5 +925,18 @@
   "address": "7426 Hubbard Avenue",
   "city": "Middleton"
  },
- "schwoegler's park towne lanes": null
+ "schwoegler's park towne lanes": null,
+ "roxy's restobar, stoughton": {
+  "lat": 42.916947,
+  "lon": -89.221901,
+  "address": "208 West Main Street",
+  "city": "Stoughton"
+ },
+ "barnes & noble-west towne": null,
+ "fitchburg senior & community center": {
+  "lat": 43.002496,
+  "lon": -89.423518,
+  "address": "5510 Lacy Road",
+  "city": "Fitchburg"
+ }
 }

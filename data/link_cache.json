@@ -99,16 +99,6 @@
   "why": "",
   "checked": "2026-11-03T21:02:15.185093-06:00"
  },
- "https://www.ticketmaster.com/psychostick-madison-wisconsin-11-08-2026/event/070064F5AB67313C": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-03T21:02:37.895290-06:00"
- },
- "https://www.ticketmaster.com/cheap-trick-madison-wisconsin-11-08-2026/event/0700630DB75A2F85": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-03T21:02:39.378103-06:00"
- },
  "https://www.ticketmaster.com/daniel-sloss-bitter-brand-new-tour-madison-wisconsin-11-09-2026/event/07006442395F8E4A": {
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
@@ -2129,11 +2119,6 @@
   "why": "",
   "checked": "2026-11-03T21:02:33.960153-06:00"
  },
- "https://thelonegirl.com/event/meat-raffle-118/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-03T21:02:36.732700-06:00"
- },
  "https://www.ticketmaster.com/event/Z7r9jZ1AAvg8U": {
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
@@ -3342,27 +3327,27 @@
  "https://www.cafecoda.club/events-1/tango-classsocial-by-madison-tango-society-tybcn-cpa6k-d3s5m-tzwnl-x3hj8-cp48m-z5lgd-c6kyy-dxfs6-f8rrm-ynaa6-pdnf2-5c27n-aafxh-t5ajm-tshpj-hdb66-b4z7r-4ekt8": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-02T14:53:03.162636-06:00"
+  "checked": "2026-11-09T15:31:32.227664-06:00"
  },
  "https://onesocialmadison.com/event/trivia-with-king-trivia-2/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-02T14:53:05.056686-06:00"
+  "checked": "2026-11-09T15:31:36.136265-06:00"
  },
  "https://onesocialmadison.com/event/live-music-mountain-music-for-flatlanders-2/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-02T14:53:10.673436-06:00"
+  "checked": "2026-11-09T15:31:38.032298-06:00"
  },
  "https://onesocialmadison.com/event/badger-watch-party-2/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-02T14:53:10.673465-06:00"
+  "checked": "2026-11-09T15:31:39.912186-06:00"
  },
  "https://onesocialmadison.com/event/packers-watch-party-4/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-02T14:53:10.673475-06:00"
+  "checked": "2026-11-09T15:31:41.751234-06:00"
  },
  "https://www.cruciblemadison.com/": {
   "ok": true,
@@ -3684,21 +3669,6 @@
   "why": "",
   "checked": "2026-11-07T10:53:45.612221-06:00"
  },
- "https://www.madisonpubliclibrary.org/monroe-street": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-07T20:32:01.103066-06:00"
- },
- "https://www.madisonpubliclibrary.org/locations/pinney-library": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-07T20:32:02.676762-06:00"
- },
- "https://www.madisonpubliclibrary.org/sequoya": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-07T20:32:02.676788-06:00"
- },
  "https://bstonline.org/event/dragonsocks-and-the-queen-of-the-universe-10/": {
   "ok": true,
   "why": "",
@@ -3759,16 +3729,6 @@
   "why": "",
   "checked": "2026-11-08T11:06:05.539240-06:00"
  },
- "https://theohiotavern.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-08T11:06:05.539282-06:00"
- },
- "https://www.northstreetcabaret.com/": {
-  "ok": null,
-  "why": "robots.txt asks bots not to visit",
-  "checked": "2026-11-08T11:06:05.929439-06:00"
- },
  "https://www.mickeysmadison.com/": {
   "ok": true,
   "why": "",
@@ -3778,21 +3738,6 @@
   "ok": true,
   "why": "",
   "checked": "2026-11-08T11:06:05.929450-06:00"
- },
- "https://www.madisonpubliclibrary.org/about/ashman.html": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-08T11:06:06.286023-06:00"
- },
- "https://www.madisonpubliclibrary.org/central": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-08T11:06:06.286052-06:00"
- },
- "https://www.madisonpubliclibrary.org/locations/imagination-center": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-08T11:06:07.361155-06:00"
  },
  "https://neighborhoodhousemadison.org": {
   "ok": true,
@@ -3823,11 +3768,6 @@
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
   "checked": "2026-11-08T11:06:13.265361-06:00"
- },
- "https://statestreetbrats.com/event/bucks-knicks-20261110/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-08T20:42:13.551512-06:00"
  },
  "https://bstonline.org/event/dragonsocks-and-queen-of-the-universe/": {
   "ok": true,
@@ -3878,5 +3818,110 @@
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
   "checked": "2026-11-08T20:42:25.020235-06:00"
+ },
+ "https://www.dvinomadison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-09T15:31:30.867303-06:00"
+ },
+ "https://statestreetbrats.com/event/marshall-ohio-state-20261109/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-09T15:31:30.867332-06:00"
+ },
+ "https://www.waunakeepubliclibrary.org/event/jammie-jams-27097": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-09T15:31:30.948780-06:00"
+ },
+ "https://www.lazyoaflounge.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-09T15:31:30.948801-06:00"
+ },
+ "https://www.veronawi.gov/941/Community-Center": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-09T15:31:31.139096-06:00"
+ },
+ "https://bayviewfoundation.org/event/zumba/2026-11-10/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-09T15:31:32.227625-06:00"
+ },
+ "https://www.ozbyozmadison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-09T15:31:32.227649-06:00"
+ },
+ "https://www.publicparkingbar.com": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-09T15:31:32.227655-06:00"
+ },
+ "https://www.workingdraftbeer.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-09T15:31:32.227660-06:00"
+ },
+ "https://cafecoda.club": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-09T15:31:32.227672-06:00"
+ },
+ "https://www.themasonlounge.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-09T15:31:32.227678-06:00"
+ },
+ "https://statestreetbrats.com/event/fairfield-wisconsin-20261110/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-09T15:31:32.696022-06:00"
+ },
+ "https://www.cafecoda.club/events-1/deep-house-music-dj-wayne-wonder": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-09T15:31:38.032324-06:00"
+ },
+ "https://www.madisonyoutharts.org/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-09T15:31:39.912212-06:00"
+ },
+ "https://www.motherfools.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-09T15:31:39.912219-06:00"
+ },
+ "https://www.ticketweb.com/event/nowritmo-roxxy-1114-roxxy-tickets/14433674": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-09T15:31:39.912224-06:00"
+ },
+ "https://www.cafecoda.club/events-1/kzy7rfyvojs8oyt2og0kmvljvc6mot-jzl7j": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-09T15:31:39.912228-06:00"
+ },
+ "https://bayviewfoundation.org/event/zumba/2026-11-17/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-09T15:31:41.751260-06:00"
+ },
+ "https://www.cafecoda.club/events-1/neo-soul-wine-down-dj-illxstmami": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-09T15:31:41.751266-06:00"
+ },
+ "https://www.waunakeepubliclibrary.org/event/friends-craft-fair-2026": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-09T15:31:41.751271-06:00"
+ },
+ "https://www.cafecoda.club/events-1/sext-saturday-dj-ironmike-tdp-hosted-by-april-k": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-09T15:31:41.751276-06:00"
  }
 }
