@@ -317,26 +317,17 @@
   "events": []
  },
  "https://www.harmonybarandgrill.com/madison-atwood-the-harmony-bar-and-grill-events": {
-  "hash": "54d9f568d1714e09597c638cc7a905274d1cc6c7",
-  "asked": "2026-11-09T22:40:23-06:00",
-  "on": "2026-11-09",
+  "hash": "5efb7c0692212ad58483aefc38352af4fe93e8d7",
+  "asked": "2026-11-10T12:40:46-06:00",
+  "on": "2026-11-10",
   "events": [
-   {
-    "title": "David Landau Kid Show",
-    "date": "2026-11-09",
-    "start": "17:30",
-    "end": "18:30",
-    "price": 5,
-    "description": "Kids music show with David Landau; kid menu available, family-friendly.",
-    "category": "music"
-   },
    {
     "title": "The Sorry Mountain Band",
     "date": "2026-11-10",
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Bluegrass, vintage country and swing with three-part vocal harmonies.",
+    "description": "Bluegrass, vintage country and swing with three-part vocal harmonies. No cover.",
     "category": "music"
    },
    {
@@ -345,7 +336,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Classic bluegrass-based band from Madison, members formerly of the Oak Street Ramblers.",
+    "description": "Classic bluegrass-based band from members of the Oak Street Ramblers. No cover.",
     "category": "music"
    },
    {
@@ -354,7 +345,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Honky tonk happy hour featuring Madison band Canyon Arrow.",
+    "description": "Madison band Canyon Arrow performs honky tonk music. No cover.",
     "category": "music"
    },
    {
@@ -363,16 +354,16 @@
     "start": "21:00",
     "end": "00:00",
     "price": 10,
-    "description": "Cambridge, WI band blending 1980s MTV vibes with classic rock and blues.",
+    "description": "Cambridge, Wisconsin band blending 1980s MTV vibes with classic rock and blues.",
     "category": "music"
    },
    {
-    "title": "Maria and the Coins / Bear in the Forest",
+    "title": "Maria and the Coins with Bear in the Forest",
     "date": "2026-11-14",
     "start": "21:00",
     "end": "00:00",
     "price": 10,
-    "description": "Minneapolis indie pop-rock band Maria and the Coins, with Bear in the Forest opening.",
+    "description": "Minneapolis indie pop-rock band Maria and the Coins; Bear in the Forest opens.",
     "category": "music"
    },
    {
@@ -381,7 +372,7 @@
     "start": "17:00",
     "end": "19:30",
     "price": 0,
-    "description": "Acoustic show with singer-songwriter Andy Ewen, Doug DeRosa on bass and Ryan Repenshek on guitar.",
+    "description": "Acoustic show by singer-songwriter Andy Ewen with bassist Doug DeRosa and guitarist Ryan Repenshek. No cover.",
     "category": "music"
    },
    {
@@ -390,7 +381,7 @@
     "start": "17:30",
     "end": "18:30",
     "price": 5,
-    "description": "Kids music show with David Landau; kid menu available, family-friendly.",
+    "description": "Family kids music show with David Landau; kid menu available.",
     "category": "music"
    },
    {
@@ -399,7 +390,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Monthly Tuesday bluegrass series hosted by Soggy Prairie with guest artists Lucky Pickers.",
+    "description": "Monthly bluegrass series hosted by Soggy Prairie, with guest artists Lucky Pickers. No cover.",
     "category": "music"
    },
    {
@@ -417,7 +408,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Round-robin songwriters' showcase hosted by JT Spartz with Annie Emmenegger, Jason Edward and JT Spartz.",
+    "description": "Season 2, Episode 2 of the round-robin songwriter showcase hosted by JT Spartz, featuring Annie Emmenegger, Jason Edward and JT Spartz. No cover.",
     "category": "music"
    },
    {
@@ -426,7 +417,7 @@
     "start": "21:00",
     "end": "00:00",
     "price": 10,
-    "description": "Rolling Stones tribute Loving Cup and Los Bad Hombres. 21+.",
+    "description": "Madison Rolling Stones tribute Loving Cup with Los Bad Hombres. 21+.",
     "category": "music"
    },
    {
@@ -435,7 +426,16 @@
     "start": "16:00",
     "end": null,
     "price": 10,
-    "description": "Award-winning Madison band playing traditional Cajun dance music; $10 suggested donation.",
+    "description": "Madison band playing traditional Cajun dance music. $10 suggested donation.",
+    "category": "music"
+   },
+   {
+    "title": "Bigtooth",
+    "date": "2026-11-24",
+    "start": "18:30",
+    "end": "20:30",
+    "price": 0,
+    "description": "Bluegrass-inspired band of Starr Moss, Trent Cuthbert, Michael Falk, Claire Kannapell and Paul Kienitz; a guest TBD is joining. No cover.",
     "category": "music"
    }
   ]
@@ -572,26 +572,17 @@
   ]
  },
  "https://high-noon.com/calendar/": {
-  "hash": "92d39dc934c892e099c2f6f7c999c1d58271236c",
-  "asked": "2026-11-09T15:27:08-06:00",
-  "on": "2026-11-09",
+  "hash": "51868f1d0d0eed91ee8b6959a572ccf8053da58a",
+  "asked": "2026-11-10T12:40:46-06:00",
+  "on": "2026-11-10",
   "events": [
-   {
-    "title": "Madison StorySLAM: Home for the Holidays (THE MOTH Presents)",
-    "date": "2026-11-09",
-    "start": "19:30",
-    "end": null,
-    "price": null,
-    "description": "Doors 6:30 pm. Storytelling event presented by THE MOTH.",
-    "category": "other"
-   },
    {
     "title": "Fruition with Gardener",
     "date": "2026-11-10",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Doors 7:00 pm. FPC Live presents.",
+    "description": "FPC Live presents Fruition with Gardener. Doors 7pm.",
     "category": "music"
    },
    {
@@ -600,7 +591,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Doors 7:00 pm. FPC Live presents.",
+    "description": "FPC Live presents Low Cut Connie with Free Dirt. Doors 7pm.",
     "category": "music"
    },
    {
@@ -609,7 +600,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Doors 7:00 pm. FPC Live presents.",
+    "description": "FPC Live presents Mustard Plug with support. Doors 7pm.",
     "category": "music"
    },
    {
@@ -618,7 +609,7 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Doors 6:00 pm. FPC Live presents.",
+    "description": "FPC Live presents Hottt Probs, Heet Deth & Sex Scenes. Doors 6pm.",
     "category": "music"
    },
    {
@@ -627,7 +618,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Doors 7:00 pm. FPC Live presents.",
+    "description": "Shakira tribute show. Doors 7pm.",
     "category": "music"
    },
    {
@@ -636,7 +627,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Doors 7:00 pm. Listed as sold out. FPC Live presents.",
+    "description": "FPC Live presents almost monday with feel trip. Sold out. Doors 7pm.",
     "category": "music"
    },
    {
@@ -645,7 +636,7 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "Doors 6:30 pm. FPC Live presents.",
+    "description": "FPC Live presents Ryan Jesse with Clayton Shay. Doors 6:30pm.",
     "category": "music"
    },
    {
@@ -654,16 +645,16 @@
     "start": "19:00",
     "end": null,
     "price": 0,
-    "description": "Doors 6:00 pm. Free show. FPC Live presents.",
+    "description": "Free Nerd Nite event. Doors 6pm.",
     "category": "other"
    },
    {
-    "title": "Humbird with Bad Posture Club (WORT 89.9 FM presents)",
+    "title": "Humbird with Bad Posture Club",
     "date": "2026-11-19",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Doors 7:00 pm.",
+    "description": "WORT 89.9 FM presents Humbird with Bad Posture Club. Doors 7pm.",
     "category": "music"
    },
    {
@@ -672,7 +663,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Doors 7:00 pm.",
+    "description": "Live music with Left Lane Cruiser, 20 Watt Tombstone and Electromag. Doors 7pm.",
     "category": "music"
    },
    {
@@ -681,7 +672,7 @@
     "start": "11:30",
     "end": null,
     "price": 0,
-    "description": "Doors 11:00 am. Free, donations at door. Features Caravan with Music con Brio students.",
+    "description": "Caravan performs modal jazz with Music con Brio students. Free, donations at door. Doors 11am.",
     "category": "music"
    },
    {
@@ -690,7 +681,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Doors 7:00 pm. FPC Live presents.",
+    "description": "FPC Live presents a Talking Heads tribute. Doors 7pm.",
     "category": "music"
    },
    {
@@ -699,7 +690,7 @@
     "start": "11:00",
     "end": null,
     "price": null,
-    "description": "Doors 10:15 am.",
+    "description": "MadFiddle live performance. Doors 10:15am.",
     "category": "music"
    },
    {
@@ -708,7 +699,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Doors 7:00 pm. FPC Live presents.",
+    "description": "FPC Live presents The Gringos with Sheebie & The Lovemakers. Doors 7pm.",
     "category": "music"
    }
   ]
@@ -861,18 +852,27 @@
   "events": []
  },
  "https://www.capitalbrewery.com/events-2/": {
-  "hash": "0a2a58c8ca723447a2cbe60e5cd1a53aa988773d",
-  "asked": "2026-11-09T15:27:25-06:00",
-  "on": "2026-11-09",
+  "hash": "8f8e5d6d3556e58637661d4e5e4fae19e25c4331",
+  "asked": "2026-11-10T12:40:50-06:00",
+  "on": "2026-11-10",
   "events": [
    {
-    "title": "Capital Brewery November Monthly Sampling",
+    "title": "Capital Brewery November Monthly Sampling @ Bazil's Pub in Appleton",
     "date": "2026-11-10",
     "start": "19:00",
     "end": "20:30",
     "price": null,
     "description": "Capital Brewery monthly sampling at Bazil's Pub & Provisions in Appleton.",
     "category": "food"
+   },
+   {
+    "title": "LIVE MUSIC w/ Too Sick Charlie",
+    "date": "2026-11-20",
+    "start": "14:00",
+    "end": "17:00",
+    "price": null,
+    "description": "Live music with Too Sick Charlie at Capital Brewery.",
+    "category": "music"
    }
   ]
  },
@@ -1098,9 +1098,9 @@
   "events": []
  },
  "https://www.statelinedistillery.com/cocktail-lounge/events": {
-  "hash": "c7bea0165f4a8ecd0cd226b9248d986d2f7bf451",
-  "asked": "2026-11-08T11:04:29-06:00",
-  "on": "2026-11-08",
+  "hash": "196ae1fc0131834e9cf7940ba21423310c9e5906",
+  "asked": "2026-11-10T12:40:55-06:00",
+  "on": "2026-11-10",
   "events": [
    {
     "title": "86'd Party",
@@ -1108,7 +1108,7 @@
     "start": "15:00",
     "end": null,
     "price": null,
-    "description": "86'd Party at State Line Distillery cocktail lounge.",
+    "description": "86'd Party at State Line Distillery.",
     "category": "other"
    },
    {
@@ -1135,7 +1135,7 @@
     "start": "18:00",
     "end": "21:00",
     "price": null,
-    "description": "Bear in the Forest show at the lounge.",
+    "description": "Bear in the Forest live show.",
     "category": "music"
    },
    {
@@ -1144,7 +1144,7 @@
     "start": "16:00",
     "end": "20:00",
     "price": null,
-    "description": "Pop up print sale featuring Theo Maynard.",
+    "description": "Pop-up print sale featuring Theo Maynard.",
     "category": "other"
    }
   ]
@@ -1406,8 +1406,8 @@
  },
  "https://lakesidestcoffeehouse.com/music-calendar": {
   "hash": "8ca18ec0a3c197933e101f7ff37eb42f71afd610",
-  "asked": "2026-11-07T10:51:21-06:00",
-  "on": "2026-11-07",
+  "asked": "2026-11-10T12:41:12-06:00",
+  "on": "2026-11-10",
   "events": [
    {
     "title": "Books, Beads, and Beverages with Lily Comp",
@@ -1424,16 +1424,16 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Live music performance at Lakeside Street Coffee House.",
+    "description": "Live music at Lakeside Street Coffee House. Doors open one hour before showtime.",
     "category": "music"
    },
    {
-    "title": "Recuerdos Flamencos: An Evening of Spanish Guitar and Dance",
+    "title": "Recuerdos Flamencos",
     "date": "2026-11-14",
     "start": "19:30",
     "end": null,
     "price": 20,
-    "description": "Spanish guitar and dance; 9th Annual Memorial Scholarship Fundraiser. $20/$15 suggested donation.",
+    "description": "An evening of Spanish guitar and dance. 9th Annual Memorial Scholarship Fundraiser; $20/$15 suggested donation.",
     "category": "music"
    },
    {
@@ -1442,15 +1442,15 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Live music performance at Lakeside Street Coffee House.",
+    "description": "Live music at Lakeside Street Coffee House. Doors open one hour before showtime.",
     "category": "music"
    }
   ]
  },
  "https://merciescoffeewi.com/": {
-  "hash": "ff654da13771a1c96397402a6d57cc02f8d1bf95",
-  "asked": "2026-11-09T22:40:48-06:00",
-  "on": "2026-11-09",
+  "hash": "cc9ef1368f966c9c4291e489ac969a7632c9d7e3",
+  "asked": "2026-11-10T12:41:13-06:00",
+  "on": "2026-11-10",
   "events": []
  },
  "https://motherfools.com/event/20261106/mad-city-story-slam-rebellion": {
@@ -1622,26 +1622,17 @@
   ]
  },
  "https://www.cityofmadison.com/parks/events": {
-  "hash": "9a6a4020653b24492797ee9215dfbc62f95e6027",
-  "asked": "2026-11-09T15:29:40-06:00",
-  "on": "2026-11-09",
+  "hash": "978159964cbfbb3eedae8ec31d55334371969fbd",
+  "asked": "2026-11-10T12:41:40-06:00",
+  "on": "2026-11-10",
   "events": [
-   {
-    "title": "Parks Alive Fall | Elver",
-    "date": "2026-11-09",
-    "start": "17:00",
-    "end": "19:00",
-    "price": null,
-    "description": "Parks Alive Fall event at Elver Park Shelter, 1250 McKenna Blvd.",
-    "category": "other"
-   },
    {
     "title": "Bird & Nature Adventures | Owen",
     "date": "2026-11-14",
     "start": "13:30",
     "end": "15:00",
     "price": null,
-    "description": "Bird and nature outing at Owen Conservation Park, 6021 Old Sauk Road.",
+    "description": "Bird and nature walk at Owen Conservation Park, 6021 Old Sauk Road.",
     "category": "other"
    },
    {
@@ -1650,7 +1641,7 @@
     "start": "13:30",
     "end": "15:00",
     "price": null,
-    "description": "Bird and nature outing at Warner Park (Rainbow Shelter), 2930 N. Sherman Ave.",
+    "description": "Bird and nature walk at Warner Park (Rainbow Shelter), 2930 N. Sherman Ave.",
     "category": "other"
    },
    {
@@ -1677,7 +1668,7 @@
     "start": "10:00",
     "end": "11:30",
     "price": null,
-    "description": "Bird and nature outing meeting outdoors at Goodman Community Center by the Bike Path, 214 Waubesa St.",
+    "description": "Bird and nature walk; meet outdoors at Goodman Community Center by the Bike Path, 214 Waubesa St.",
     "category": "other"
    },
    {
@@ -1704,7 +1695,7 @@
     "start": "18:00",
     "end": "19:00",
     "price": null,
-    "description": "Virtual public input meeting regarding the Olbrich North Parcel.",
+    "description": "Virtual public input meeting on the Olbrich North Parcel.",
     "category": "other"
    }
   ]
@@ -1716,56 +1707,10 @@
   "events": []
  },
  "https://www.madisonpubliclibrary.org/spaces/events": {
-  "hash": "a7f91f40d0058a92bc978e8c752573e324faf49e",
-  "asked": "2026-11-09T22:41:26-06:00",
-  "on": "2026-11-09",
-  "events": [
-   {
-    "title": "Multi-age Storytime (ages 5 and under)",
-    "date": "2026-11-11",
-    "start": "10:00",
-    "end": "10:30",
-    "price": null,
-    "description": "Storytime for ages 5 and under in the Youth Program Room.",
-    "category": "other"
-   },
-   {
-    "title": "Learn Together, Play Together: Play group for children ages 0-3 who are DHH",
-    "date": "2026-11-11",
-    "start": "10:00",
-    "end": "11:00",
-    "price": null,
-    "description": "Play group for deaf or hard of hearing children ages 0-3 in Community Room B.",
-    "category": "other"
-   },
-   {
-    "title": "Baby Storytime (ages birth to 17 mo)",
-    "date": "2026-11-11",
-    "start": "11:15",
-    "end": "11:45",
-    "price": null,
-    "description": "Storytime for babies from birth to 17 months in the Youth Program Room.",
-    "category": "other"
-   },
-   {
-    "title": "LEGO Club at Pinney",
-    "date": "2026-11-11",
-    "start": "15:30",
-    "end": "16:30",
-    "price": null,
-    "description": "LEGO building club in the Youth Program Room.",
-    "category": "other"
-   },
-   {
-    "title": "The Art of Neighborships: Open Studio with Artist-in-Residence Carrie Breunig",
-    "date": "2026-11-11",
-    "start": "18:00",
-    "end": "20:00",
-    "price": null,
-    "description": "Open studio with artist-in-residence Carrie Breunig in the Studio.",
-    "category": "other"
-   }
-  ]
+  "hash": "8052bf88bb4f621b23b6706d5fea4fc0a89f1dfc",
+  "asked": "2026-11-10T12:41:48-06:00",
+  "on": "2026-11-10",
+  "events": []
  },
  "https://ebling.library.wisc.edu/ebling-library-classes-events/": {
   "hash": "7d255d815b8d0d84a73f7be122c15c647822abad",
@@ -1808,35 +1753,17 @@
   "events": []
  },
  "https://www.sunprairiepubliclibrary.org/home-delivery-service": {
-  "hash": "fabf85cc62cb5b203aeacbdd82904f0552bda4d2",
-  "asked": "2026-11-09T22:41:18-06:00",
-  "on": "2026-11-09",
+  "hash": "d2597f66e77b88f597b011e4a8d783a5dc099283",
+  "asked": "2026-11-10T12:41:46-06:00",
+  "on": "2026-11-10",
   "events": [
-   {
-    "title": "Little Kid Storytime",
-    "date": "2026-11-10",
-    "start": "10:00",
-    "end": "10:30",
-    "price": null,
-    "description": "Storytime for family and children ages 0-5.",
-    "category": "other"
-   },
-   {
-    "title": "Big Kid Storytime",
-    "date": "2026-11-10",
-    "start": "11:15",
-    "end": "11:45",
-    "price": null,
-    "description": "Storytime for family and children ages 0-5.",
-    "category": "other"
-   },
    {
     "title": "Teen Creativity Club",
     "date": "2026-11-10",
     "start": "16:00",
     "end": "18:00",
     "price": null,
-    "description": "Creativity club for teens.",
+    "description": "Library program for teens (Sun Prairie Public Library).",
     "category": "other"
    },
    {
@@ -1845,7 +1772,7 @@
     "start": "13:00",
     "end": "14:00",
     "price": null,
-    "description": "Virtual author talk for adults.",
+    "description": "Virtual author talk for adults with Paul Vigna.",
     "category": "other"
    },
    {
@@ -1854,7 +1781,25 @@
     "start": "13:30",
     "end": "14:30",
     "price": null,
-    "description": "Book club for adults.",
+    "description": "Adult book club at the library.",
+    "category": "other"
+   },
+   {
+    "title": "Read to a Dog",
+    "date": "2026-11-11",
+    "start": "15:15",
+    "end": "16:15",
+    "price": null,
+    "description": "Reading session with a dog for children ages 5-12.",
+    "category": "other"
+   },
+   {
+    "title": "Cuentos Infantiles (Spanish Storytime)",
+    "date": "2026-11-11",
+    "start": "17:00",
+    "end": "17:30",
+    "price": null,
+    "description": "Spanish-language storytime for families and children ages 0-5.",
     "category": "other"
    }
   ]
@@ -1916,9 +1861,9 @@
   ]
  },
  "https://www.madisonpubliclibrary.org/spaces/events/search": {
-  "hash": "5e38a8f0e0004c345fa01e0dd8d75498ba3ea529",
-  "asked": "2026-11-09T22:41:40-06:00",
-  "on": "2026-11-09",
+  "hash": "53a2935c4ce12422efdd055d14805248c44c6f7f",
+  "asked": "2026-11-10T12:41:55-06:00",
+  "on": "2026-11-10",
   "events": []
  },
  "https://artlitlab.org/calendar": {
@@ -2010,17 +1955,17 @@
   ]
  },
  "https://bartelltheatre.org/": {
-  "hash": "e267b52cb42a5607f68c6de4ac516de43ecf1148",
-  "asked": "2026-11-09T15:30:14-06:00",
-  "on": "2026-11-09",
+  "hash": "23ab49ec29d2e43cc2a74ec8328a9ba843219ba2",
+  "asked": "2026-11-10T12:41:59-06:00",
+  "on": "2026-11-10",
   "events": [
    {
-    "title": "A Valentine's Affair 2027 Auditions: First Audition",
-    "date": "2026-11-09",
+    "title": "A Valentine's Affair 2027 Auditions (last audition)",
+    "date": "2026-11-10",
     "start": "18:30",
     "end": null,
     "price": null,
-    "description": "First audition for A Valentine's Affair 2027.",
+    "description": "Last audition for A Valentine's Affair 2027 at Bartell Theatre.",
     "category": "other"
    },
    {
@@ -2029,7 +1974,7 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "Dark comedy about two sisters, a hapless governess and a moor-hen on the English moors.",
+    "description": "Dark comedy about two sisters and a dog on the English moors, dreaming of love and power, disrupted by a hapless governess and a moor-hen.",
     "category": "theater"
    },
    {
@@ -2038,16 +1983,16 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "Shakespeare's tragedy of two young lovers caught in the feud between the Capulets and Montagues.",
+    "description": "Capulets, Montagues, and two young lovers in Shakespeare's best-known play.",
     "category": "theater"
    },
    {
-    "title": "Saturday Scene Study: Closing",
+    "title": "Saturday Scene Study",
     "date": "2026-11-21",
     "start": "12:00",
     "end": null,
     "price": null,
-    "description": "Saturday Scene Study audition listed with a closing date.",
+    "description": "Scene study session listed under Bartell Theatre auditions/classes.",
     "category": "other"
    }
   ]
@@ -2065,26 +2010,17 @@
   "events": []
  },
  "https://madisonorpheum.com/calendar/": {
-  "hash": "d1841042feb9df1744f08c3466c6e191145218a8",
-  "asked": "2026-11-09T15:30:42-06:00",
-  "on": "2026-11-09",
+  "hash": "25ab53c33489e4be84b378cd8137828be59874a3",
+  "asked": "2026-11-10T12:42:00-06:00",
+  "on": "2026-11-10",
   "events": [
-   {
-    "title": "Daniel Sloss",
-    "date": "2026-11-09",
-    "start": "19:00",
-    "end": null,
-    "price": null,
-    "description": "Comedy show by Daniel Sloss, presented by FPC Live. Doors 6:00 pm. Tickets available.",
-    "category": "comedy"
-   },
    {
     "title": "Dr. Neil deGrasse Tyson",
     "date": "2026-11-11",
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "Presented by FPC Live. Doors 6:30 pm. Listed as sold out.",
+    "description": "FPC Live presents. Doors 6:30 pm. Sold out.",
     "category": "other"
    },
    {
@@ -2093,16 +2029,16 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Concert by The Mavericks & Friends, presented by FPC Live. Doors 7:00 pm.",
+    "description": "FPC Live presents. Doors 7:00 pm.",
     "category": "music"
    },
    {
-    "title": "Campus Nights with Elevation Rhythm",
+    "title": "Campus Nights with Elevation Rhythm, LOST & FOUND, and Allison Eide",
     "date": "2026-11-18",
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Campus Nights with Elevation Rhythm, with LOST & FOUND and Allison Eide. Presented by Goodsource. Doors 6:15 pm.",
+    "description": "Goodsource presents. Doors 6:15 pm.",
     "category": "music"
    },
    {
@@ -2111,8 +2047,8 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Two shows by Nurse John, presented by FPC Live. Show times not listed on the page.",
-    "category": "comedy"
+    "description": "FPC Live presents. Two shows listed; times not stated.",
+    "category": "music"
    }
   ]
  },
@@ -2247,17 +2183,17 @@
   "events": []
  },
  "https://www.veronapubliclibrary.org/": {
-  "hash": "a3eab642fa9e55ab8a3a2d41460cfee1cddb0c18",
-  "asked": "2026-11-09T22:41:18-06:00",
-  "on": "2026-11-09",
+  "hash": "7e08c329681c10be193bd324a8348a3bd7203854",
+  "asked": "2026-11-10T12:41:45-06:00",
+  "on": "2026-11-10",
   "events": [
    {
-    "title": "Late Fall Story Times return",
+    "title": "Late Fall Story Times",
     "date": "2026-11-16",
     "start": null,
     "end": null,
     "price": null,
-    "description": "Ongoing library story times return on Monday, November 16. No time is listed on the page.",
+    "description": "Ongoing story times return on Monday, November 16. Start time not listed.",
     "category": "other"
    }
   ]
@@ -2287,17 +2223,26 @@
   "events": []
  },
  "https://high-noon.com/event/dogpark/": {
-  "hash": "3ee80d32f8a349ff888b91af646441d8c01c8b1f",
-  "asked": "2026-11-09T22:40:22-06:00",
-  "on": "2026-11-09",
+  "hash": "6e92dfe3ca7d217d973f6cfada5d219a5a33a3d1",
+  "asked": "2026-11-10T12:40:51-06:00",
+  "on": "2026-11-10",
   "events": [
+   {
+    "title": "Hottt Probs, Heet Deth & Sex Scenes",
+    "date": "2026-11-13",
+    "start": "19:00",
+    "end": null,
+    "price": null,
+    "description": "FPC Live presents at High Noon Saloon. Doors 6:00 pm, show 7:00 pm.",
+    "category": "music"
+   },
    {
     "title": "Left Lane Cruiser, 20 Watt Tombstone & Electromag",
     "date": "2026-11-20",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Show at High Noon Saloon. Doors 7:00 pm, show 8:00 pm.",
+    "description": "At High Noon Saloon. Doors 7:00 pm, show 8:00 pm.",
     "category": "music"
    }
   ]
@@ -2344,119 +2289,10 @@
   ]
  },
  "https://www.cruciblemadison.com/calendar": {
-  "hash": "33c4556ce304b96ca56d808f9c029448d6cbf06a",
-  "asked": "2026-11-08T20:40:02-06:00",
-  "on": "2026-11-08",
-  "events": [
-   {
-    "title": "Trans Social Night",
-    "date": "2026-11-09",
-    "start": "18:00",
-    "end": null,
-    "price": 0,
-    "description": "Free low-pressure social event, 21+. Second and fourth Mondays.",
-    "category": "other"
-   },
-   {
-    "title": "Crucible Karaoke",
-    "date": "2026-11-11",
-    "start": "18:30",
-    "end": null,
-    "price": 0,
-    "description": "Brain Monkeys Media karaoke, doors at 6pm, singing from 6:30pm. 21+.",
-    "category": "karaoke"
-   },
-   {
-    "title": "Sensation: Electroplay - a Shockingly Kinky Dance Party",
-    "date": "2026-11-12",
-    "start": "19:00",
-    "end": null,
-    "price": 10,
-    "description": "Monthly Sensation party with an electroplay theme. Doors 8pm. 21+.",
-    "category": "other"
-   },
-   {
-    "title": "BUBBLEGUM VOL. 5: BEACH BOUND",
-    "date": "2026-11-13",
-    "start": "19:00",
-    "end": null,
-    "price": 15,
-    "description": "Presented by We Merge, a tropical-themed Bubblegum party. 21+.",
-    "category": "dance"
-   },
-   {
-    "title": "Full Moon Burlesque: Kink!",
-    "date": "2026-11-14",
-    "start": "19:00",
-    "end": null,
-    "price": 18,
-    "description": "90-minute monthly burlesque revue with nationally and regionally known performers. Doors 6pm. 21+.",
-    "category": "theater"
-   },
-   {
-    "title": "Anti-Social and Crucible Present: Ayria!",
-    "date": "2026-11-14",
-    "start": "21:00",
-    "end": null,
-    "price": 15,
-    "description": "Live performance by industrial artist Ayria, with dance music before and after. Listed $15/18.",
-    "category": "music"
-   },
-   {
-    "title": "Crucible Karaoke",
-    "date": "2026-11-18",
-    "start": "18:30",
-    "end": null,
-    "price": 0,
-    "description": "Brain Monkeys Media karaoke, doors at 6pm, singing from 6:30pm. 21+.",
-    "category": "karaoke"
-   },
-   {
-    "title": "Words with Nerds",
-    "date": "2026-11-19",
-    "start": "19:00",
-    "end": null,
-    "price": 15,
-    "description": "Infotainment show mixing PowerPoint-style talks with stand-up comedy. $15 advance. Doors 6:30pm.",
-    "category": "comedy"
-   },
-   {
-    "title": "Goth AF presents: The Darkness",
-    "date": "2026-11-19",
-    "start": "21:00",
-    "end": null,
-    "price": 5,
-    "description": "Goth night presented by Goth AF. Doors 9pm. 18+.",
-    "category": "dance"
-   },
-   {
-    "title": "Up & Away Cabaret presents Enchanted & Untamed",
-    "date": "2026-11-20",
-    "start": "20:00",
-    "end": null,
-    "price": 15,
-    "description": "Fantastical aerial burlesque show with a fae, siren and magic theme. Doors 7pm. 21+.",
-    "category": "theater"
-   },
-   {
-    "title": "The Rocky Horror Picture Show",
-    "date": "2026-11-20",
-    "start": "23:59",
-    "end": null,
-    "price": 8,
-    "description": "Shadow cast screening with Madison's Velvet Darkness. Doors 11pm, midnight screening. $13 under 21. 18+.",
-    "category": "film"
-   },
-   {
-    "title": "Masquerade: Impurity Ball",
-    "date": "2026-11-21",
-    "start": "21:00",
-    "end": null,
-    "price": 10,
-    "description": "Madison's annual fetish ball with stage acts and go-go dancers. Costume encouraged. 21+.",
-    "category": "other"
-   }
-  ]
+  "hash": "cfd5bb70fef9076b69bde2f75e9ef0dd84290cea",
+  "asked": "2026-11-10T12:40:45-06:00",
+  "on": "2026-11-10",
+  "events": []
  },
  "https://www.cruciblemadison.com/events/2026-11/full-moon-burlesque-kink": {
   "hash": "c6668627882d311413ea017986885845c6cc331b",
@@ -2556,35 +2392,17 @@
   ]
  },
  "https://www.sunprairiepubliclibrary.org/art-committee-and-gallery-shows": {
-  "hash": "ec2026e288d341b2c905f15bd07538aedfab42ee",
-  "asked": "2026-11-09T22:41:22-06:00",
-  "on": "2026-11-09",
+  "hash": "89be1c723703d8876897c0e1599e7ce826eb2a03",
+  "asked": "2026-11-10T12:41:49-06:00",
+  "on": "2026-11-10",
   "events": [
-   {
-    "title": "Little Kid Storytime",
-    "date": "2026-11-10",
-    "start": "10:00",
-    "end": "10:30",
-    "price": null,
-    "description": "Storytime for family and children ages 0-5 at Sun Prairie Public Library.",
-    "category": "other"
-   },
-   {
-    "title": "Big Kid Storytime",
-    "date": "2026-11-10",
-    "start": "11:15",
-    "end": "11:45",
-    "price": null,
-    "description": "Storytime for family and children ages 0-5 at Sun Prairie Public Library.",
-    "category": "other"
-   },
    {
     "title": "Teen Creativity Club",
     "date": "2026-11-10",
     "start": "16:00",
     "end": "18:00",
     "price": null,
-    "description": "Creativity club for teens at Sun Prairie Public Library.",
+    "description": "Library program for teens (ages 13-18 per page age group: Teens).",
     "category": "other"
    },
    {
@@ -2593,7 +2411,7 @@
     "start": "13:00",
     "end": "14:00",
     "price": null,
-    "description": "Virtual author talk with Paul Vigna for adults, hosted by Sun Prairie Public Library.",
+    "description": "Virtual author talk for adults.",
     "category": "other"
    },
    {
@@ -2602,7 +2420,25 @@
     "start": "13:30",
     "end": "14:30",
     "price": null,
-    "description": "Adult book club at Sun Prairie Public Library.",
+    "description": "Book club for adults.",
+    "category": "other"
+   },
+   {
+    "title": "Read to a Dog",
+    "date": "2026-11-11",
+    "start": "15:15",
+    "end": "16:15",
+    "price": null,
+    "description": "Reading session with a dog for children ages 5-12.",
+    "category": "other"
+   },
+   {
+    "title": "Cuentos Infantiles (Spanish Storytime)",
+    "date": "2026-11-11",
+    "start": "17:00",
+    "end": "17:30",
+    "price": null,
+    "description": "Spanish-language storytime for families and children ages 0-5.",
     "category": "other"
    }
   ]
@@ -2624,5 +2460,21 @@
   "asked": "2026-11-09T22:40:27-06:00",
   "on": "2026-11-09",
   "events": []
+ },
+ "https://www.capitalbrewery.com/on-site-events/": {
+  "hash": "331fb195fece970e9ac18a488dbe3aab2bf4a487",
+  "asked": "2026-11-10T12:40:52-06:00",
+  "on": "2026-11-10",
+  "events": [
+   {
+    "title": "LIVE MUSIC w/ Too Sick Charlie",
+    "date": "2026-11-20",
+    "start": "14:00",
+    "end": "17:00",
+    "price": null,
+    "description": "Live music with Too Sick Charlie at Capital Brewery. Dogs are not allowed when live music is performing.",
+    "category": "music"
+   }
+  ]
  }
 }

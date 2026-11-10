@@ -7,17 +7,17 @@
   "skipped_site": 0,
   "api_errors": {},
   "key_present": true,
-  "at": "2026-11-09T22:39:45.045673-06:00"
+  "at": "2026-11-10T12:40:20.261624-06:00"
  },
  "restaurant": {
   "what": "restaurant",
-  "to_check": 36,
+  "to_check": 35,
   "answered": 0,
-  "no_page": 36,
+  "no_page": 35,
   "skipped_site": 0,
   "api_errors": {},
   "key_present": true,
-  "at": "2026-11-09T22:40:05.736728-06:00"
+  "at": "2026-11-10T12:40:28.217130-06:00"
  },
  "activity": {
   "what": "activity",
@@ -27,6 +27,6 @@
   "skipped_site": 0,
   "api_errors": {},
   "key_present": true,
-  "at": "2026-11-09T22:40:11.835142-06:00"
+  "at": "2026-11-10T12:40:34.365485-06:00"
  }
 }

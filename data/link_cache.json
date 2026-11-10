@@ -1,9 +1,4 @@
 {
- "https://www.madisongreymarket.com": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-03T21:02:39.378133-06:00"
- },
  "https://www.cityofmadison.com/parks/find-a-park/reindahl/pavilion-at-the-imagination-center": {
   "ok": true,
   "why": "",
@@ -98,16 +93,6 @@
   "ok": true,
   "why": "",
   "checked": "2026-11-03T21:02:15.185093-06:00"
- },
- "https://www.ticketmaster.com/daniel-sloss-bitter-brand-new-tour-madison-wisconsin-11-09-2026/event/07006442395F8E4A": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-03T21:02:43.141936-06:00"
- },
- "https://www.ticketmaster.com/jack-white-live-2026-madison-wisconsin-11-09-2026/event/07006488BBA658E6": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-03T21:02:44.453952-06:00"
  },
  "https://www.1847stammhouse.com/menus": {
   "ok": true,
@@ -3344,11 +3329,6 @@
   "why": "",
   "checked": "2026-11-09T15:31:41.751234-06:00"
  },
- "https://www.cruciblemadison.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-09T22:41:49.259992-06:00"
- },
  "https://onesocialmadison.com/event/microbiology-on-tap-with-uw/": {
   "ok": true,
   "why": "",
@@ -3544,11 +3524,6 @@
   "why": "",
   "checked": "2026-11-05T12:48:30.839765-06:00"
  },
- "https://www.cafecoda.club/events-1/karaoke-nabjl-22c3f-gw57n-2m79c-a47wx-jblcs-4bcsl-mkd7s-ctsf4-p4hcx-t4n3x-xd9mh-c5tsy-cpczx-w6dsr-tg854-3pze2-n3r2m": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-05T21:28:14.745566-06:00"
- },
  "https://www.gibs.bar/event-calendar/2026/11/19/live-music-acid-tofu": {
   "ok": true,
   "why": "",
@@ -3714,31 +3689,6 @@
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
   "checked": "2026-11-07T20:32:06.795905-06:00"
  },
- "https://communicationmadison.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-08T11:06:05.539240-06:00"
- },
- "https://www.mickeysmadison.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-08T11:06:05.929445-06:00"
- },
- "https://www.fivenightclubmadison.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-08T11:06:05.929450-06:00"
- },
- "https://neighborhoodhousemadison.org": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-08T11:06:07.361184-06:00"
- },
- "https://www.madison.va.gov/": {
-  "ok": false,
-  "why": "site no longer exists",
-  "checked": "2026-11-08T11:06:07.361194-06:00"
- },
  "https://doundrinsdistilling.com/": {
   "ok": true,
   "why": "",
@@ -3814,11 +3764,6 @@
   "why": "",
   "checked": "2026-11-09T15:31:30.867303-06:00"
  },
- "https://statestreetbrats.com/event/marshall-ohio-state-20261109/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-09T15:31:30.867332-06:00"
- },
  "https://www.lazyoaflounge.com/": {
   "ok": true,
   "why": "",
@@ -3833,31 +3778,6 @@
   "ok": true,
   "why": "",
   "checked": "2026-11-09T15:31:32.227625-06:00"
- },
- "https://www.ozbyozmadison.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-09T15:31:32.227649-06:00"
- },
- "https://www.publicparkingbar.com": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-09T15:31:32.227655-06:00"
- },
- "https://www.workingdraftbeer.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-09T15:31:32.227660-06:00"
- },
- "https://cafecoda.club": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-09T15:31:32.227672-06:00"
- },
- "https://www.themasonlounge.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-09T15:31:32.227678-06:00"
  },
  "https://statestreetbrats.com/event/fairfield-wisconsin-20261110/": {
   "ok": true,
@@ -3904,44 +3824,19 @@
   "why": "",
   "checked": "2026-11-09T15:31:41.751276-06:00"
  },
- "https://www.madisonpubliclibrary.org/locations/imagination-center": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-09T22:41:49.260026-06:00"
- },
- "https://www.madisonpubliclibrary.org/sequoya": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-09T22:41:50.049908-06:00"
- },
- "https://www.madisonpubliclibrary.org/about/ashman.html": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-09T22:41:51.134465-06:00"
- },
- "https://www.madisonpubliclibrary.org/central": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-09T22:41:53.402121-06:00"
- },
- "https://www.madisonpubliclibrary.org/locations/pinney-library": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-09T22:41:54.447450-06:00"
- },
- "https://www.madisonpubliclibrary.org/monroe-street": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-09T22:41:54.447476-06:00"
- },
  "https://www.mymonona.com/1395/Below-Deck-Concession-Stand": {
   "ok": true,
   "why": "",
   "checked": "2026-11-09T22:41:54.447505-06:00"
  },
- "https://www.turnkeymadison.com/eat": {
-  "ok": false,
-  "why": "HTTP 404 from Squarespace",
-  "checked": "2026-11-09T22:41:57.545892-06:00"
+ "https://www.waunakeepubliclibrary.org/event/friends-craft-fair-2026": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-10T12:42:22.412433-06:00"
+ },
+ "https://www.turnkeymadison.com/working-menu": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-10T12:42:22.695000-06:00"
  }
 }
