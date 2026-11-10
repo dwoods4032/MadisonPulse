@@ -1089,11 +1089,6 @@
   "why": "",
   "checked": "2026-11-03T21:03:19.435530-06:00"
  },
- "https://www.themadrabbitcafe.com/": {
-  "ok": null,
-  "why": "could not connect",
-  "checked": "2026-11-03T21:03:19.435535-06:00"
- },
  "https://madseafoodboiler.com/menu": {
   "ok": true,
   "why": "",
@@ -3352,167 +3347,162 @@
  "https://www.cruciblemadison.com/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-02T22:00:58.323248-06:00"
+  "checked": "2026-11-09T22:41:49.259992-06:00"
  },
  "https://onesocialmadison.com/event/microbiology-on-tap-with-uw/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-02T22:00:58.942285-06:00"
+  "checked": "2026-11-09T22:41:54.447482-06:00"
  },
  "https://www.ticketmaster.com/ryan-jesse-still-infamous-tour-madison-wisconsin-11-16-2026/event/07006529D5EEA097": {
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-02T22:00:58.942307-06:00"
+  "checked": "2026-11-09T22:41:54.447488-06:00"
  },
  "https://www.cafecoda.club/events-1/karaoke-nabjl-22c3f-gw57n-2m79c-a47wx-jblcs-4bcsl-mkd7s-ctsf4-p4hcx-t4n3x-xd9mh-c5tsy-cpczx-w6dsr-tg854-3pze2": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-02T22:00:58.942315-06:00"
+  "checked": "2026-11-09T22:41:54.447494-06:00"
  },
  "https://www.ticketmaster.com/fox-stevenson-and-mystery-skulls-madison-wisconsin-11-16-2026/event/0700651899053D0B": {
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-02T22:00:58.942320-06:00"
+  "checked": "2026-11-09T22:41:54.447500-06:00"
  },
  "https://www.alchemymadison.com/menus.html": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-02T22:00:58.942326-06:00"
+  "checked": "2026-11-09T22:41:54.447510-06:00"
  },
  "https://www.bandungindorestaurant.com/order": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-02T22:00:58.942331-06:00"
+  "checked": "2026-11-09T22:41:54.447516-06:00"
  },
  "https://www.cadrerestaurant.com/classic-menu": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-02T22:00:58.942336-06:00"
+  "checked": "2026-11-09T22:41:54.447521-06:00"
  },
  "https://order.toasttab.com/online/camp-cantina-1503-monroe-street": {
   "ok": null,
   "why": "HTTP 403 from cloudflare (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-02T22:00:58.942341-06:00"
+  "checked": "2026-11-09T22:41:54.447527-06:00"
  },
  "https://www.dhabaindianbistro.com/menu/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-02T22:00:58.942345-06:00"
+  "checked": "2026-11-09T22:41:54.447532-06:00"
  },
  "https://static1.squarespace.com/static/656cfcf2a8d35c1bf82d236a/t/6978f05f382f714fc748347c/1769533535901/Fabiola%27s+Dinner+Menu+Flyer+%281%29.pdf": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-02T22:00:58.942350-06:00"
+  "checked": "2026-11-09T22:41:54.447536-06:00"
  },
  "https://www.fyasydekitchen.com/menu": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-02T22:00:58.942355-06:00"
+  "checked": "2026-11-09T22:41:54.447541-06:00"
  },
  "https://garibaldimexicanwi.com/madison-garibaldi-mexican-restaurant-food-menu": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-02T22:00:58.942360-06:00"
+  "checked": "2026-11-09T22:41:54.447546-06:00"
  },
  "https://grand-haveli-indian-verona.cloveronline.com/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-02T22:01:00.326719-06:00"
+  "checked": "2026-11-09T22:41:57.545749-06:00"
  },
  "https://static1.squarespace.com/static/66ba6cc29e626517cdc728cd/t/6859a2cf9bd4094d3abaf3f0/1750704858023/14x8.5in+Greenbush+Bar+Dinner+Menu.pdf": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-02T22:01:00.326745-06:00"
+  "checked": "2026-11-09T22:41:57.545777-06:00"
  },
  "https://www.hongkongcafemadisonwi.com/": {
   "ok": null,
   "why": "could not connect",
-  "checked": "2026-11-02T22:01:00.326754-06:00"
+  "checked": "2026-11-09T22:41:57.545784-06:00"
  },
  "https://www.ichibanmadison.com/4lyhs97v/ichiban-sichuan-restaurant-madison-53715/order-online?menu=All+Day+Menu&category=Flavor+Snack#menu-section": {
   "ok": null,
   "why": "HTTP 429 from Vercel (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-02T22:01:00.326761-06:00"
+  "checked": "2026-11-09T22:41:57.545791-06:00"
  },
  "https://mapletreesupperclub.com/wp-content/uploads/2026/05/MENU-2026.pdf": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-02T22:01:00.371535-06:00"
+  "checked": "2026-11-09T22:41:57.545798-06:00"
  },
  "https://mapletreesupperclub.com": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-02T22:01:00.371555-06:00"
+  "checked": "2026-11-09T22:41:57.545810-06:00"
  },
  "https://www.monksbarandgrill.com/sun-prairie-menus/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-02T22:01:00.371562-06:00"
+  "checked": "2026-11-09T22:41:57.545818-06:00"
  },
  "https://orchardrestaurants.com/menu": {
   "ok": null,
   "why": "HTTP 403 from cloudflare (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-02T22:01:00.371568-06:00"
+  "checked": "2026-11-09T22:41:57.545837-06:00"
  },
  "https://cdn.prod.website-files.com/688e4869abcb5db8c508256c/690e74cdebaf0eda57c79d30_abfdfa6c02101bfb4e89e2a76d293b98_osteria-novella-menu.pdf": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-02T22:01:00.371574-06:00"
+  "checked": "2026-11-09T22:41:57.545842-06:00"
  },
  "https://pastureandplenty.square.site/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-02T22:01:00.371580-06:00"
+  "checked": "2026-11-09T22:41:57.545848-06:00"
  },
  "https://img1.wsimg.com/blobby/go/a52bf3e4-cdd6-4ee7-b8ac-02a531625783/downloads/Pizza-Extreme-Monroe-st-Express-Menu-8-23-24-1.pdf?ver=1741289369007": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-02T22:01:00.371586-06:00"
+  "checked": "2026-11-09T22:41:57.545852-06:00"
  },
  "https://rokuaji.com/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-02T22:01:00.652045-06:00"
+  "checked": "2026-11-09T22:41:57.545857-06:00"
  },
  "https://rokuaji.com": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-02T22:01:00.652069-06:00"
+  "checked": "2026-11-09T22:41:57.545863-06:00"
  },
  "https://www.sabaithong.com/menus/university-menu/#filter=.lunch.appetizers": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-02T22:01:00.652076-06:00"
+  "checked": "2026-11-09T22:41:57.545867-06:00"
  },
  "https://theshow608.com/food-menu/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-02T22:01:00.920323-06:00"
+  "checked": "2026-11-09T22:41:57.545872-06:00"
  },
  "https://tannersbarandgrill.com/overland-park-tanner-s-bar-and-grill-143rd-and-metcalf-middleton-menu": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-02T22:01:00.920346-06:00"
+  "checked": "2026-11-09T22:41:57.545877-06:00"
  },
  "https://themediterraneanjoint.com/menu?location=themediterraneanjoint-4zsmwv": {
   "ok": null,
   "why": "HTTP 403 from cloudflare (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-02T22:01:00.920354-06:00"
+  "checked": "2026-11-09T22:41:57.545881-06:00"
  },
  "https://order.tokyosushimadison.com/": {
   "ok": null,
   "why": "robots.txt asks bots not to visit",
-  "checked": "2026-11-02T22:01:00.920359-06:00"
+  "checked": "2026-11-09T22:41:57.545887-06:00"
  },
  "https://www.viettownmadison.com/category/all-products": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-02T22:01:00.920370-06:00"
- },
- "https://www.turnkeymadison.com/working-menu": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-03T12:28:54.097083-06:00"
+  "checked": "2026-11-09T22:41:57.545896-06:00"
  },
  "https://www.ticketmaster.com/event/Z7r9jZ1AAv34b": {
   "ok": null,
@@ -3829,11 +3819,6 @@
   "why": "",
   "checked": "2026-11-09T15:31:30.867332-06:00"
  },
- "https://www.waunakeepubliclibrary.org/event/jammie-jams-27097": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-09T15:31:30.948780-06:00"
- },
  "https://www.lazyoaflounge.com/": {
   "ok": true,
   "why": "",
@@ -3914,14 +3899,49 @@
   "why": "",
   "checked": "2026-11-09T15:31:41.751266-06:00"
  },
- "https://www.waunakeepubliclibrary.org/event/friends-craft-fair-2026": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-09T15:31:41.751271-06:00"
- },
  "https://www.cafecoda.club/events-1/sext-saturday-dj-ironmike-tdp-hosted-by-april-k": {
   "ok": true,
   "why": "",
   "checked": "2026-11-09T15:31:41.751276-06:00"
+ },
+ "https://www.madisonpubliclibrary.org/locations/imagination-center": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-09T22:41:49.260026-06:00"
+ },
+ "https://www.madisonpubliclibrary.org/sequoya": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-09T22:41:50.049908-06:00"
+ },
+ "https://www.madisonpubliclibrary.org/about/ashman.html": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-09T22:41:51.134465-06:00"
+ },
+ "https://www.madisonpubliclibrary.org/central": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-09T22:41:53.402121-06:00"
+ },
+ "https://www.madisonpubliclibrary.org/locations/pinney-library": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-09T22:41:54.447450-06:00"
+ },
+ "https://www.madisonpubliclibrary.org/monroe-street": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-09T22:41:54.447476-06:00"
+ },
+ "https://www.mymonona.com/1395/Below-Deck-Concession-Stand": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-09T22:41:54.447505-06:00"
+ },
+ "https://www.turnkeymadison.com/eat": {
+  "ok": false,
+  "why": "HTTP 404 from Squarespace",
+  "checked": "2026-11-09T22:41:57.545892-06:00"
  }
 }

@@ -1,34 +1,11 @@
 {
- "generated_at": "2026-11-09T15:31:30-06:00",
+ "generated_at": "2026-11-09T22:41:48-06:00",
  "window": {
-  "from": "2026-11-09T09:26-06:00",
-  "to": "2026-11-23T15:26-06:00"
+  "from": "2026-11-09T16:40-06:00",
+  "to": "2026-11-23T22:40-06:00"
  },
- "count": 412,
+ "count": 416,
  "events": [
-  {
-   "id": "4bece5f736a4",
-   "title": "Meatball Monday",
-   "start": "2026-11-09T11:00-06:00",
-   "end": "2026-11-09T14:00-06:00",
-   "all_day": false,
-   "category": "food",
-   "price": null,
-   "description": "Recurring Monday lunch at D'Vino with meatballs, muffuletta and pizzas; page lists Mondays 11am-2pm.",
-   "url": "https://www.dvinomadison.com/",
-   "image": "",
-   "venue": "D'Vino",
-   "venue_id": "osm:node/2491591586",
-   "venue_kind": "bar",
-   "address": "116 King Street",
-   "lat": 43.074761,
-   "lon": -89.380871,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
   {
    "id": "f09ce3fc8fc2",
    "title": "Onigiri Pop-Up with Chef Itaru Nagano from Fairchild",
@@ -51,54 +28,6 @@
     "AI page reading"
    ],
    "link_ok": true
-  },
-  {
-   "id": "953cc9ec3628",
-   "title": "Energy Conversion Technologies for an Electric Grid Superhighway",
-   "start": "2026-11-09T15:30-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "",
-   "url": "",
-   "image": "",
-   "venue": "Location not listed",
-   "venue_id": "cal:unknown",
-   "venue_kind": "venue",
-   "address": "",
-   "lat": null,
-   "lon": null,
-   "source": "extra",
-   "via": "Isthmus",
-   "sources": [
-    "Isthmus"
-   ],
-   "link_ok": null
-  },
-  {
-   "id": "ad0deebb40aa",
-   "title": "UW-Madison Chancellor Finalist Public Forum",
-   "start": "2026-11-09T16:30-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "food",
-   "price": null,
-   "description": "",
-   "url": "",
-   "image": "",
-   "venue": "UW Memorial Union-Tripp Commons",
-   "venue_id": "cal:uw-memorial-union-tripp-commons",
-   "venue_kind": "venue",
-   "address": "",
-   "lat": null,
-   "lon": null,
-   "source": "extra",
-   "via": "Isthmus",
-   "sources": [
-    "Isthmus"
-   ],
-   "link_ok": null
   },
   {
    "id": "d7f070696dd7",
@@ -553,29 +482,6 @@
    "city": "Madison",
    "sources": [
     "Isthmus"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "2879b02e5195",
-   "title": "Jammie Jams",
-   "start": "2026-11-09T18:30-06:00",
-   "end": "2026-11-09T19:00-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "",
-   "url": "https://www.waunakeepubliclibrary.org/event/jammie-jams-27097",
-   "image": "",
-   "venue": "Waunakee Public Library",
-   "venue_id": "osm:way/708130272",
-   "venue_kind": "library",
-   "address": "201 North Madison Street",
-   "lat": 43.1940495,
-   "lon": -89.450474,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
    ],
    "link_ok": true
   },
@@ -1572,7 +1478,7 @@
    "all_day": false,
    "category": "music",
    "price": 0.0,
-   "description": "Bluegrass, vintage country and swing with three-part vocal harmonies. No cover.",
+   "description": "Bluegrass, vintage country and swing with three-part vocal harmonies.",
    "url": "https://www.harmonybarandgrill.com/",
    "image": "",
    "venue": "Harmony Bar & Grill",
@@ -2018,29 +1924,6 @@
     "Isthmus"
    ],
    "link_ok": null
-  },
-  {
-   "id": "330d8b38e9dc",
-   "title": "Mixed Mic",
-   "start": "2026-11-10T19:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "open_mic",
-   "price": null,
-   "description": "Mixed mic night. The page lists it as every first Tuesday of the month but dates this listing Tuesday, November 10th.",
-   "url": "https://www.harmonybarandgrill.com/",
-   "image": "",
-   "venue": "Harmony Bar & Grill",
-   "venue_id": "osm:way/345773988",
-   "venue_kind": "bar",
-   "address": "2201 Atwood Avenue",
-   "lat": 43.0930561,
-   "lon": -89.3492054,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
   },
   {
    "id": "efa2950f88c7",
@@ -2549,6 +2432,29 @@
    "link_ok": null
   },
   {
+   "id": "4e3baa6317c5",
+   "title": "Project Projection: Local Animation",
+   "start": "2026-11-11T00:00-06:00",
+   "end": null,
+   "all_day": true,
+   "category": "film",
+   "price": null,
+   "description": "Local animation program.",
+   "url": "https://artlitlab.org/",
+   "image": "",
+   "venue": "Arts + Literature Laboratory",
+   "venue_id": "osm:node/10815180247",
+   "venue_kind": "venue",
+   "address": "111 South Livingston Street",
+   "lat": 43.0804026,
+   "lon": -89.3734803,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "8db271faff48",
    "title": "Trivia Nights",
    "start": "2026-11-11T00:00-06:00",
@@ -2838,6 +2744,121 @@
    "link_ok": true
   },
   {
+   "id": "5165ca22a6fb",
+   "title": "Journaling for Mental Health",
+   "start": "2026-11-11T17:30-06:00",
+   "end": "2026-11-11T18:30-06:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Journaling session in the Classroom at Imagination Center Library.",
+   "url": "https://www.madisonpubliclibrary.org/locations/imagination-center",
+   "image": "",
+   "venue": "Imagination Center",
+   "venue_id": "osm:way/1562302805",
+   "venue_kind": "library",
+   "address": "1814 Parkside Drive",
+   "lat": 43.1240118,
+   "lon": -89.3168809,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "b0719ac0db40",
+   "title": "Journaling for Mental Health",
+   "start": "2026-11-11T17:30-06:00",
+   "end": "2026-11-11T18:30-06:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Journaling session in the Classroom at Imagination Center Library.",
+   "url": "https://www.madisonpubliclibrary.org/sequoya",
+   "image": "",
+   "venue": "Sequoya Library",
+   "venue_id": "osm:node/1473488018",
+   "venue_kind": "library",
+   "address": "4340 Tokay Boulevard",
+   "lat": 43.0537698,
+   "lon": -89.4505289,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "6fbfa58a4a84",
+   "title": "The Art of Neighborships: Open Studio with Artist-in-Residence Carrie Breunig",
+   "start": "2026-11-11T18:00-06:00",
+   "end": "2026-11-11T20:00-06:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Open studio with artist-in-residence Carrie Breunig in the Studio.",
+   "url": "https://www.madisonpubliclibrary.org/about/ashman.html",
+   "image": "",
+   "venue": "Alicia Ashman Library",
+   "venue_id": "osm:node/790662052",
+   "venue_kind": "library",
+   "address": "733 North High Point Road",
+   "lat": 43.0760994,
+   "lon": -89.5175827,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "8729affd436c",
+   "title": "The Art of Neighborships: Open Studio with Artist-in-Residence Carrie Breunig",
+   "start": "2026-11-11T18:00-06:00",
+   "end": "2026-11-11T20:00-06:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Open studio with artist-in-residence Carrie Breunig in the Studio.",
+   "url": "https://www.madisonpubliclibrary.org/central",
+   "image": "",
+   "venue": "Central Library",
+   "venue_id": "osm:way/102316433",
+   "venue_kind": "library",
+   "address": "201 West Mifflin Street",
+   "lat": 43.0736214,
+   "lon": -89.3875186,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "f26b0b385937",
+   "title": "The Art of Neighborships: Open Studio with Artist-in-Residence Carrie Breunig",
+   "start": "2026-11-11T18:00-06:00",
+   "end": "2026-11-11T20:00-06:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Open studio with artist-in-residence Carrie Breunig in the Studio.",
+   "url": "https://www.madisonpubliclibrary.org/locations/pinney-library",
+   "image": "",
+   "venue": "Pinney Library",
+   "venue_id": "osm:node/7234376294",
+   "venue_kind": "library",
+   "address": "516 Cottage Grove Road",
+   "lat": 43.0841729,
+   "lon": -89.3176486,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "ecbcd2d1e98a",
    "title": "Crucible Karaoke",
    "start": "2026-11-11T18:30-06:00",
@@ -2868,7 +2889,7 @@
    "all_day": false,
    "category": "music",
    "price": 0.0,
-   "description": "Classic bluegrass-based band from members of the Oak Street Ramblers. No cover.",
+   "description": "Classic bluegrass-based band from Madison, members formerly of the Oak Street Ramblers.",
    "url": "https://www.harmonybarandgrill.com/",
    "image": "",
    "venue": "Harmony Bar & Grill",
@@ -3289,7 +3310,7 @@
    "all_day": false,
    "category": "music",
    "price": 0.0,
-   "description": "Madison country band Canyon Arrow, featuring members of several local Madison bands. No cover.",
+   "description": "Honky tonk happy hour featuring Madison band Canyon Arrow.",
    "url": "https://www.harmonybarandgrill.com/",
    "image": "",
    "venue": "Harmony Bar & Grill",
@@ -3708,7 +3729,7 @@
    "all_day": false,
    "category": "food",
    "price": null,
-   "description": "Friday fish fry special.",
+   "description": "Friday Fish Fry at The Harmony Bar and Grill.",
    "url": "https://www.harmonybarandgrill.com/",
    "image": "",
    "venue": "Harmony Bar & Grill",
@@ -4218,7 +4239,7 @@
    "all_day": false,
    "category": "music",
    "price": 10.0,
-   "description": "Cambridge, Wisconsin band blending 1980s MTV pop with classic rock and blues. $10 cover.",
+   "description": "Cambridge, WI band blending 1980s MTV vibes with classic rock and blues.",
    "url": "https://www.harmonybarandgrill.com/",
    "image": "",
    "venue": "Harmony Bar & Grill",
@@ -4264,7 +4285,7 @@
    "all_day": true,
    "category": "other",
    "price": null,
-   "description": "Native Art Market at Arts + Literature Laboratory",
+   "description": "Native Art Market.",
    "url": "https://artlitlab.org/",
    "image": "",
    "venue": "Arts + Literature Laboratory",
@@ -4463,6 +4484,29 @@
     "Isthmus"
    ],
    "link_ok": null
+  },
+  {
+   "id": "20fb63c50329",
+   "title": "Art Club for Families - D.I.Y. Neck Ties and Glasses",
+   "start": "2026-11-14T11:00-06:00",
+   "end": "2026-11-14T12:00-06:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Family art club making D.I.Y. neck ties and glasses at Monroe Street Library.",
+   "url": "https://www.madisonpubliclibrary.org/monroe-street",
+   "image": "",
+   "venue": "Monroe Street Library",
+   "venue_id": "osm:way/241508509",
+   "venue_kind": "library",
+   "address": "1705 Monroe Street",
+   "lat": 43.0659388,
+   "lon": -89.4152059,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
   },
   {
    "id": "e5a713d31c84",
@@ -5053,7 +5097,7 @@
    "all_day": false,
    "category": "music",
    "price": 15.0,
-   "description": "Madison soft rock band Cribshitter, with Wisconsin country artist Ed Dave.",
+   "description": "Madison soft rock powerhouse Cribshitter, with country performer Ed Dave.",
    "url": "https://thecrystalcornerbar.com/",
    "image": "",
    "venue": "Crystal Corner Bar",
@@ -5070,13 +5114,13 @@
   },
   {
    "id": "af0f88aef557",
-   "title": "Maria and the Coins/Bear in the Forest",
+   "title": "Maria and the Coins / Bear in the Forest",
    "start": "2026-11-14T21:00-06:00",
    "end": "2026-11-15T00:00-06:00",
    "all_day": false,
    "category": "music",
    "price": 10.0,
-   "description": "Minneapolis indie pop-rock band Maria and the Coins, with Bear in the Forest opening. $10 cover.",
+   "description": "Minneapolis indie pop-rock band Maria and the Coins, with Bear in the Forest opening.",
    "url": "https://www.harmonybarandgrill.com/",
    "image": "",
    "venue": "Harmony Bar & Grill",
@@ -5145,7 +5189,7 @@
    "all_day": true,
    "category": "music",
    "price": null,
-   "description": "Performance by Galaxy Quartet",
+   "description": "Performance by Galaxy Quartet.",
    "url": "https://artlitlab.org/",
    "image": "",
    "venue": "Arts + Literature Laboratory",
@@ -5423,7 +5467,7 @@
    "all_day": false,
    "category": "music",
    "price": 0.0,
-   "description": "Acoustic show with singer-songwriter Andy Ewen, Doug DeRosa on bass and Ryan Repenshek on guitar. No cover.",
+   "description": "Acoustic show with singer-songwriter Andy Ewen, Doug DeRosa on bass and Ryan Repenshek on guitar.",
    "url": "https://www.harmonybarandgrill.com/",
    "image": "",
    "venue": "Harmony Bar & Grill",
@@ -6222,7 +6266,7 @@
    "all_day": false,
    "category": "music",
    "price": 0.0,
-   "description": "Monthly Tuesday bluegrass series hosted by Soggy Prairie, with a set from Lucky Pickers. No cover.",
+   "description": "Monthly Tuesday bluegrass series hosted by Soggy Prairie with guest artists Lucky Pickers.",
    "url": "https://www.harmonybarandgrill.com/",
    "image": "",
    "venue": "Harmony Bar & Grill",
@@ -6870,7 +6914,7 @@
    "all_day": false,
    "category": "music",
    "price": null,
-   "description": "American roots, R&B, reggae, Latin and funk from a Midwest quartet.",
+   "description": "American roots, R&B, reggae, Latin and funk from a Mid-West quartet.",
    "url": "https://thecrystalcornerbar.com/",
    "image": "",
    "venue": "Crystal Corner Bar",
@@ -7130,7 +7174,7 @@
    "all_day": false,
    "category": "trivia",
    "price": 0.0,
-   "description": "Trivia hosted by Paul, held on the 1st and 3rd Wednesday of the month. Free.",
+   "description": "Trivia hosted by Paul, held the 1st and 3rd Wednesday of the month. Free.",
    "url": "https://www.harmonybarandgrill.com/",
    "image": "",
    "venue": "Harmony Bar & Grill",
@@ -7339,7 +7383,7 @@
    "all_day": true,
    "category": "other",
    "price": null,
-   "description": "Exhibition running November 19, 2026 to January 9, 2027",
+   "description": "Bridge Work exhibition, running November 19, 2026 to January 9, 2027.",
    "url": "https://artlitlab.org/",
    "image": "",
    "venue": "Arts + Literature Laboratory",
@@ -7547,7 +7591,7 @@
    "all_day": false,
    "category": "music",
    "price": 0.0,
-   "description": "Season 2, Episode 2 of the round-robin songwriter showcase hosted by JT Spartz, featuring Annie Emmenegger, Jason Edward and JT Spartz. No cover.",
+   "description": "Round-robin songwriters' showcase hosted by JT Spartz with Annie Emmenegger, Jason Edward and JT Spartz.",
    "url": "https://www.harmonybarandgrill.com/",
    "image": "",
    "venue": "Harmony Bar & Grill",
@@ -7781,7 +7825,7 @@
    "all_day": true,
    "category": "music",
    "price": null,
-   "description": "Auricle New Music Series presents Lily Finnegan Quartet",
+   "description": "Auricle New Music Series presents Lily Finnegan Quartet.",
    "url": "https://artlitlab.org/",
    "image": "",
    "venue": "Arts + Literature Laboratory",
@@ -8360,7 +8404,7 @@
    "all_day": true,
    "category": "other",
    "price": null,
-   "description": "Literary reading",
+   "description": "November Watershed reading.",
    "url": "https://artlitlab.org/",
    "image": "",
    "venue": "Arts + Literature Laboratory",
@@ -8369,6 +8413,29 @@
    "address": "111 South Livingston Street",
    "lat": 43.0804026,
    "lon": -89.3734803,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "de882980205d",
+   "title": "45th Annual Holiday House Bazaar",
+   "start": "2026-11-21T00:00-06:00",
+   "end": null,
+   "all_day": true,
+   "category": "food",
+   "price": null,
+   "description": "45th Annual Holiday House Bazaar, listed on the Monona Special Events page.",
+   "url": "https://www.mymonona.com/1395/Below-Deck-Concession-Stand",
+   "image": "",
+   "venue": "Below Deck Concession Stand",
+   "venue_id": "osm:node/8632908350",
+   "venue_kind": "cafe",
+   "address": "800 West Broadway",
+   "lat": 43.0480098,
+   "lon": -89.337189,
    "source": "ai",
    "sources": [
     "AI page reading"
@@ -8464,29 +8531,6 @@
    "source": "ai",
    "sources": [
     "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "4291d81335de",
-   "title": "Friends of the Library Annual Holiday Craft Fair, Book Sale, Bake Sale, Container Raffle, and More!",
-   "start": "2026-11-21T09:00-06:00",
-   "end": "2026-11-21T14:00-06:00",
-   "all_day": false,
-   "category": "bingo",
-   "price": 0.0,
-   "description": "The Friends of the Waunakee Library present the Annual Holiday Craft Fair, Book Sale, Bake Sale, and Container Raffle! Come shop the sale for crafts and baked goods! Handmade items including textiles, Christmas tree ornaments & wreaths, specialty foods, art, centerpieces, home decor, doll clothes, c",
-   "url": "https://www.waunakeepubliclibrary.org/event/friends-craft-fair-2026",
-   "image": "https://www.waunakeepubliclibrary.org/sites/default/files/2025-10/LCfeatured%202025craft.png",
-   "venue": "Waunakee Public Library",
-   "venue_id": "osm:way/708130272",
-   "venue_kind": "library",
-   "address": "201 North Madison Street",
-   "lat": 43.1940495,
-   "lon": -89.450474,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
    ],
    "link_ok": true
   },
@@ -8963,7 +9007,7 @@
    "all_day": false,
    "category": "music",
    "price": 15.0,
-   "description": "Blues band billed as one of the best blues bands in the land.",
+   "description": "Blues band described by Living Blues as one of the best blues bands in the land.",
    "url": "https://thecrystalcornerbar.com/",
    "image": "",
    "venue": "Crystal Corner Bar",
@@ -9102,7 +9146,7 @@
    "all_day": false,
    "category": "music",
    "price": 10.0,
-   "description": "Rolling Stones tribute Loving Cup and the Los Bad Hombres. 21+. $10 cover.",
+   "description": "Rolling Stones tribute Loving Cup and Los Bad Hombres. 21+.",
    "url": "https://www.harmonybarandgrill.com/",
    "image": "",
    "venue": "Harmony Bar & Grill",
@@ -9171,7 +9215,7 @@
    "all_day": true,
    "category": "music",
    "price": null,
-   "description": "Performance by Ancora String Quartet",
+   "description": "Performance by Ancora String Quartet.",
    "url": "https://artlitlab.org/",
    "image": "",
    "venue": "Arts + Literature Laboratory",
@@ -9180,6 +9224,29 @@
    "address": "111 South Livingston Street",
    "lat": 43.0804026,
    "lon": -89.3734803,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "0290ae5d9c48",
+   "title": "45th Annual Holiday House Bazaar",
+   "start": "2026-11-22T00:00-06:00",
+   "end": null,
+   "all_day": true,
+   "category": "food",
+   "price": null,
+   "description": "45th Annual Holiday House Bazaar, listed on the Monona Special Events page.",
+   "url": "https://www.mymonona.com/1395/Below-Deck-Concession-Stand",
+   "image": "",
+   "venue": "Below Deck Concession Stand",
+   "venue_id": "osm:node/8632908350",
+   "venue_kind": "cafe",
+   "address": "800 West Broadway",
+   "lat": 43.0480098,
+   "lon": -89.337189,
    "source": "ai",
    "sources": [
     "AI page reading"
@@ -9420,6 +9487,29 @@
    "link_ok": true
   },
   {
+   "id": "78150dc86627",
+   "title": "The Cajun Strangers",
+   "start": "2026-11-22T16:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "music",
+   "price": 10.0,
+   "description": "Award-winning Madison band playing traditional Cajun dance music; $10 suggested donation.",
+   "url": "https://www.harmonybarandgrill.com/",
+   "image": "",
+   "venue": "Harmony Bar & Grill",
+   "venue_id": "osm:way/345773988",
+   "venue_kind": "bar",
+   "address": "2201 Atwood Avenue",
+   "lat": 43.0930561,
+   "lon": -89.3492054,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "aeadfbb7f3ad",
    "title": "Theo Maynard Pop Up Print Sale",
    "start": "2026-11-22T16:00-06:00",
@@ -9436,29 +9526,6 @@
    "address": "1413 Northern Court",
    "lat": 43.0875602,
    "lon": -89.3622099,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "c5099017b714",
-   "title": "The Cajun Strangers",
-   "start": "2026-11-22T17:00-06:00",
-   "end": "2026-11-22T19:30-06:00",
-   "all_day": false,
-   "category": "music",
-   "price": 10.0,
-   "description": "Award-winning Madison band playing traditional Cajun dance music. $10 suggested donation.",
-   "url": "https://www.harmonybarandgrill.com/",
-   "image": "",
-   "venue": "Harmony Bar & Grill",
-   "venue_id": "osm:way/345773988",
-   "venue_kind": "bar",
-   "address": "2201 Atwood Avenue",
-   "lat": 43.0930561,
-   "lon": -89.3492054,
    "source": "ai",
    "sources": [
     "AI page reading"
@@ -9690,6 +9757,29 @@
    "address": "116 King Street",
    "lat": 43.074761,
    "lon": -89.380871,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "61b8f9217809",
+   "title": "Karaoke Nights",
+   "start": "2026-11-23T19:00-06:00",
+   "end": "2026-11-23T21:00-06:00",
+   "all_day": false,
+   "category": "karaoke",
+   "price": null,
+   "description": "Sing your heart out or dress up for our lively themed celebrations.",
+   "url": "https://www.lazyoaflounge.com/",
+   "image": "",
+   "venue": "Lazy Oaf Lounge",
+   "venue_id": "osm:node/1743291684",
+   "venue_kind": "bar",
+   "address": "1617 North Stoughton Road",
+   "lat": 43.1199361,
+   "lon": -89.3244342,
    "source": "ai",
    "sources": [
     "AI page reading"

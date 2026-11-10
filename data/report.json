@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-09T15:31:30-06:00",
+ "generated_at": "2026-11-09T22:41:48-06:00",
  "venues_checked": 237,
- "venues_with_events": 63,
- "venues_with_feeds": 84,
- "events": 412,
- "filtered_out": 179,
+ "venues_with_events": 68,
+ "venues_with_feeds": 90,
+ "events": 416,
+ "filtered_out": 201,
  "venues": [
   {
    "name": "AI page reading",
@@ -13,12 +13,12 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 191,
+   "raw_events": 229,
    "error": "",
-   "calls": 88,
-   "tokens_in": 142539,
-   "tokens_out": 42098,
-   "est_cost_usd": 0.0353
+   "calls": 19,
+   "tokens_in": 43962,
+   "tokens_out": 15679,
+   "est_cost_usd": 0.0122
   },
   {
    "name": "Isthmus calendar",
@@ -28,7 +28,7 @@
     "calendar"
    ],
    "raw_events": 163,
-   "error": ""
+   "error": "used today's copy (read once a day)"
   },
   {
    "name": "Bayview Community Center",
@@ -52,17 +52,6 @@
    "error": ""
   },
   {
-   "name": "E.D. Locke Public Library",
-   "kind": "library",
-   "website": "https://www.mcfarlandlibrary.org/home",
-   "feeds": [
-    "ical",
-    "ical"
-   ],
-   "raw_events": 37,
-   "error": "ical: ConnectionError: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //www.mcfarlandlibrary.org/calendar/month (Caused by NameResolutionError(\"HTTPSConnection(host='https"
-  },
-  {
    "name": "Atwood Music Hall",
    "kind": "venue",
    "website": "https://www.theatwoodmusichall.com/",
@@ -75,6 +64,17 @@
    ],
    "raw_events": 36,
    "error": ""
+  },
+  {
+   "name": "E.D. Locke Public Library",
+   "kind": "library",
+   "website": "https://www.mcfarlandlibrary.org/home",
+   "feeds": [
+    "ical",
+    "ical"
+   ],
+   "raw_events": 36,
+   "error": "ical: ConnectionError: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //www.mcfarlandlibrary.org/calendar/month (Caused by NameResolutionError(\"HTTPSConnection(host='https"
   },
   {
    "name": "Working Draft Beer Company",
@@ -119,6 +119,16 @@
    "error": ""
   },
   {
+   "name": "Harmony Bar & Grill",
+   "kind": "bar",
+   "website": "https://www.harmonybarandgrill.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 17,
+   "error": ""
+  },
+  {
    "name": "Bridge Lakepoint Waunona Neighborhood Center",
    "kind": "community",
    "website": "https://www.blwcenter.org/",
@@ -131,9 +141,9 @@
    "error": ""
   },
   {
-   "name": "Harmony Bar & Grill",
+   "name": "High Noon Saloon",
    "kind": "bar",
-   "website": "https://www.harmonybarandgrill.com/",
+   "website": "https://www.high-noon.com/",
    "feeds": [
     "ai"
    ],
@@ -141,19 +151,19 @@
    "error": ""
   },
   {
-   "name": "High Noon Saloon",
-   "kind": "bar",
-   "website": "https://www.high-noon.com/",
+   "name": "Arts + Literature Laboratory",
+   "kind": "venue",
+   "website": "https://artlitlab.org/",
    "feeds": [
     "ai"
    ],
-   "raw_events": 15,
+   "raw_events": 13,
    "error": ""
   },
   {
-   "name": "Crucible",
+   "name": "Lazy Oaf Lounge",
    "kind": "bar",
-   "website": "https://www.cruciblemadison.com/",
+   "website": "https://www.lazyoaflounge.com/",
    "feeds": [
     "ai"
    ],
@@ -171,16 +181,6 @@
    "error": ""
   },
   {
-   "name": "Arts + Literature Laboratory",
-   "kind": "venue",
-   "website": "https://artlitlab.org/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 12,
-   "error": ""
-  },
-  {
    "name": "Broom Street Theater",
    "kind": "venue",
    "website": "https://bstonline.org/",
@@ -195,9 +195,9 @@
    "error": ""
   },
   {
-   "name": "Lazy Oaf Lounge",
+   "name": "Crucible",
    "kind": "bar",
-   "website": "https://www.lazyoaflounge.com/",
+   "website": "https://www.cruciblemadison.com/",
    "feeds": [
     "ai"
    ],
@@ -222,6 +222,36 @@
     "ai"
    ],
    "raw_events": 10,
+   "error": ""
+  },
+  {
+   "name": "Reindahl Park Pavillion",
+   "kind": "community",
+   "website": "https://www.cityofmadison.com/parks/find-a-park/reindahl/pavilion-at-the-imagination-center",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 9,
+   "error": ""
+  },
+  {
+   "name": "Veterans Memorial Park",
+   "kind": "veterans",
+   "website": "https://www.cityofmadison.com/parks/find-a-park/park.cfm?id=1364",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 9,
+   "error": ""
+  },
+  {
+   "name": "Imagination Center",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 8,
    "error": ""
   },
   {
@@ -250,23 +280,23 @@
    "error": ""
   },
   {
-   "name": "Reindahl Park Pavillion",
-   "kind": "community",
-   "website": "https://www.cityofmadison.com/parks/find-a-park/reindahl/pavilion-at-the-imagination-center",
+   "name": "Pinney Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
    "feeds": [
     "ai"
    ],
-   "raw_events": 8,
+   "raw_events": 7,
    "error": ""
   },
   {
-   "name": "Veterans Memorial Park",
-   "kind": "veterans",
-   "website": "https://www.cityofmadison.com/parks/find-a-park/park.cfm?id=1364",
+   "name": "Sequoya Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/sequoya",
    "feeds": [
     "ai"
    ],
-   "raw_events": 8,
+   "raw_events": 7,
    "error": ""
   },
   {
@@ -313,6 +343,16 @@
    "name": "Alicia Ashman Library",
    "kind": "library",
    "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 5,
+   "error": ""
+  },
+  {
+   "name": "Central Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/central",
    "feeds": [
     "ai"
    ],
@@ -370,24 +410,21 @@
    "error": ""
   },
   {
-   "name": "Vera Court Neighborhood Center",
-   "kind": "community",
-   "website": "https://www.veracourt.org/",
+   "name": "Monroe Street Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/monroe-street",
    "feeds": [
-    "squarespace",
-    "jsonld",
-    "jsonld",
-    "jsonld"
+    "ai"
    ],
    "raw_events": 4,
    "error": ""
   },
   {
-   "name": "Waunakee Public Library",
-   "kind": "library",
-   "website": "https://www.waunakeepubliclibrary.org/",
+   "name": "Vera Court Neighborhood Center",
+   "kind": "community",
+   "website": "https://www.veracourt.org/",
    "feeds": [
-    "jsonld",
+    "squarespace",
     "jsonld",
     "jsonld",
     "jsonld"
@@ -491,6 +528,16 @@
     "jsonld",
     "jsonld",
     "jsonld"
+   ],
+   "raw_events": 2,
+   "error": ""
+  },
+  {
+   "name": "Below Deck Concession Stand",
+   "kind": "cafe",
+   "website": "https://www.mymonona.com/1395/Below-Deck-Concession-Stand",
+   "feeds": [
+    "ai"
    ],
    "raw_events": 2,
    "error": ""
@@ -784,14 +831,6 @@
    "error": ""
   },
   {
-   "name": "Below Deck Concession Stand",
-   "kind": "cafe",
-   "website": "https://www.mymonona.com/1395/Below-Deck-Concession-Stand",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
    "name": "Black Locust Cafe",
    "kind": "cafe",
    "website": "https://blacklocustcafe.com/",
@@ -872,14 +911,6 @@
    "error": "PermissionError: robots.txt disallows https://www.facebook.com/cargocoffeeeast/"
   },
   {
-   "name": "Central Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/central",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
    "name": "Cervato Wine & Tapas",
    "kind": "bar",
    "website": "https://cervatowine.com/",
@@ -924,7 +955,7 @@
   {
    "name": "Colectivo Coffee",
    "kind": "cafe",
-   "website": "https://colectivocoffee.com/cafes/monroe-street",
+   "website": "https://colectivo.com/pages/on-the-square",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -932,7 +963,7 @@
   {
    "name": "Colectivo Coffee",
    "kind": "cafe",
-   "website": "https://colectivo.com/pages/on-the-square",
+   "website": "https://colectivocoffee.com/cafes/monroe-street",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1223,14 +1254,6 @@
    "error": "PermissionError: robots.txt disallows https://imaginary-factory.com/"
   },
   {
-   "name": "Imagination Center",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
    "name": "Indie Coffee",
    "kind": "cafe",
    "website": "https://indiecoffee.net/index.html",
@@ -1475,14 +1498,6 @@
    "error": ""
   },
   {
-   "name": "Monroe Street Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/monroe-street",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
    "name": "Muskellounge and Sporting Club (Musky)",
    "kind": "bar",
    "website": "https://www.muskellounge.com",
@@ -1573,14 +1588,6 @@
    "error": "PermissionError: robots.txt disallows https://linktr.ee/pksuw"
   },
   {
-   "name": "Pinney Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
    "name": "Plaza Bar",
    "kind": "bar",
    "website": "https://theplazatavern.com/",
@@ -1658,14 +1665,6 @@
    "name": "Roxxy",
    "kind": "bar",
    "website": "https://www.roxxybar.com/location/madison/",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Sequoya Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/sequoya",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1795,6 +1794,14 @@
   {
    "name": "Starbucks",
    "kind": "cafe",
+   "website": "https://www.starbucks.com",
+   "feeds": [],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
+   "name": "Starbucks",
+   "kind": "cafe",
    "website": "https://www.starbucks.com/store-locator/store/1030659/rimrock-beltline-2157-rimrock-rd-madison-wi-537131443-us",
    "feeds": [],
    "raw_events": 0,
@@ -1812,14 +1819,6 @@
    "name": "Starbucks",
    "kind": "cafe",
    "website": "https://www.starbucks.com/store-locator/store/17653/state-lake-661-state-street-madison-wi-537031049-us",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Starbucks",
-   "kind": "cafe",
-   "website": "https://www.starbucks.com",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -2039,6 +2038,19 @@
    "kind": "bar",
    "website": "https://wandosbar.com/",
    "feeds": [],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
+   "name": "Waunakee Public Library",
+   "kind": "library",
+   "website": "https://www.waunakeepubliclibrary.org/",
+   "feeds": [
+    "jsonld",
+    "jsonld",
+    "jsonld",
+    "jsonld"
+   ],
    "raw_events": 0,
    "error": ""
   },

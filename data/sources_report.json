@@ -1,39 +1,46 @@
 {
- "generated_at": "2026-11-09T15:31:30-06:00",
- "total_events": 412,
+ "generated_at": "2026-11-09T22:41:48-06:00",
+ "total_events": 416,
  "in_more_than_one_source": 16,
  "sources": {
   "AI page reading": {
-   "events": 155,
-   "unique_events": 140,
+   "events": 163,
+   "unique_events": 148,
    "overlap": {
     "Isthmus": 2,
     "Ticketmaster": 14,
     "Venue websites": 0
    },
-   "venues": 31,
+   "venues": 38,
    "unique_venues": [
     "Aftershock Classic Arcade",
+    "Alicia Ashman Library",
     "Arts + Literature Laboratory",
     "Bartell Theatre",
+    "Below Deck Concession Stand",
     "Capital Brewery",
+    "Central Library",
     "Crucible",
     "Crystal Corner Bar",
     "D'Vino",
     "Flight Wine & Bourbon Bar",
     "Gamma Ray Bar",
     "Grey Market",
+    "Imagination Center",
     "Karben4 Brewing",
     "Lakeside Street Coffee House",
     "Laurel Tavern",
     "Lazy Oaf Lounge",
     "Madison Youth Arts (MYArts)",
     "Monkeyshines Bar & Grill",
+    "Monroe Street Library",
     "Mother Fool's",
     "Old Sugar Distillery",
     "Oscar Rennebohm Library",
     "Overture Center for the Arts",
+    "Pinney Library",
     "Reindahl Park Pavillion",
+    "Sequoya Library",
     "State Line Distillery",
     "The Malt House",
     "Verona Community Center",
@@ -41,8 +48,8 @@
    ]
   },
   "Isthmus": {
-   "events": 148,
-   "unique_events": 146,
+   "events": 146,
+   "unique_events": 144,
    "overlap": {
     "AI page reading": 2,
     "Ticketmaster": 1,
@@ -129,14 +136,14 @@
    ]
   },
   "Venue websites": {
-   "events": 73,
-   "unique_events": 72,
+   "events": 71,
+   "unique_events": 70,
    "overlap": {
     "AI page reading": 0,
     "Isthmus": 0,
     "Ticketmaster": 1
    },
-   "venues": 15,
+   "venues": 14,
    "unique_venues": [
     "Atwood Music Hall",
     "Badger Rock Neighborhood Center",
@@ -148,8 +155,7 @@
     "Gib's Bar",
     "Lone Girl Tap Room And Pizza Company",
     "One Social Bar",
-    "State Street Brats",
-    "Waunakee Public Library"
+    "State Street Brats"
    ]
   }
  }

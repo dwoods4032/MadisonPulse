@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-11-02T21:58:12-06:00",
+ "generated_at": "2026-11-09T22:39:03-06:00",
  "count": 502,
- "with_hours": 247,
- "with_website": 250,
+ "with_hours": 246,
+ "with_website": 249,
  "restaurants": [
   {
    "group": "american",
@@ -1157,9 +1157,9 @@
    "bar": false,
    "menu_src": "restaurant homepage",
    "image": "http://static1.squarespace.com/static/6a21e4c03d712b3bcbddeddf/t/6a344fa71890a327487b2fb6/1781813159435/begonia+logo+Indigo+RGB+3000x1180.png?format=1500w",
-   "website_ok": true,
    "new_since": "2026-08-19",
-   "new_evidence": "New alcohol license approved at the 2026-08-19 ALRC meeting"
+   "new_evidence": "New alcohol license approved at the 2026-08-19 ALRC meeting",
+   "website_ok": true
   },
   {
    "group": "american",
@@ -6430,9 +6430,9 @@
     ]
    ],
    "bar": false,
-   "website_ok": null,
    "new_since": "2026-06-17",
-   "new_evidence": "New alcohol license approved at the 2026-06-17 ALRC meeting"
+   "new_evidence": "New alcohol license approved at the 2026-06-17 ALRC meeting",
+   "website_ok": null
   },
   {
    "group": "asian",
@@ -7470,9 +7470,9 @@
    "menu": "",
    "hours": null,
    "bar": false,
-   "website_ok": null,
    "new_since": "2026-05-20",
-   "new_evidence": "New alcohol license approved at the 2026-05-20 ALRC meeting"
+   "new_evidence": "New alcohol license approved at the 2026-05-20 ALRC meeting",
+   "website_ok": null
   },
   {
    "group": "american",
@@ -7849,9 +7849,9 @@
    "menu": "",
    "hours": null,
    "bar": true,
-   "website_ok": null,
    "new_since": "2026-05-20",
-   "new_evidence": "New alcohol license approved at the 2026-05-20 ALRC meeting"
+   "new_evidence": "New alcohol license approved at the 2026-05-20 ALRC meeting",
+   "website_ok": null
   },
   {
    "group": "latin",
@@ -7903,9 +7903,9 @@
     ]
    ],
    "bar": false,
-   "website_ok": null,
    "new_since": "2026-05-20",
-   "new_evidence": "New alcohol license approved at the 2026-05-20 ALRC meeting"
+   "new_evidence": "New alcohol license approved at the 2026-05-20 ALRC meeting",
+   "website_ok": null
   },
   {
    "group": "american",
@@ -8590,53 +8590,6 @@
    "dinner": true,
    "alcohol": null,
    "alcohol_src": "",
-   "id": "osm:way/260183477",
-   "name": "Mad Rabbit Cafe",
-   "cuisine": "american",
-   "fast": false,
-   "price": 24,
-   "vibes": [
-    "classic",
-    "chill"
-   ],
-   "address": "805 Williamson Street",
-   "lat": 43.078247,
-   "lon": -89.371079,
-   "website": "https://www.themadrabbitcafe.com/",
-   "menu": "",
-   "hours": [
-    [
-     [
-      2,
-      3
-     ],
-     "11:00",
-     "20:00"
-    ],
-    [
-     [
-      4,
-      5
-     ],
-     "09:00",
-     "21:00"
-    ],
-    [
-     [
-      6
-     ],
-     "09:00",
-     "14:30"
-    ]
-   ],
-   "bar": false,
-   "website_ok": null
-  },
-  {
-   "group": "american",
-   "dinner": true,
-   "alcohol": null,
-   "alcohol_src": "",
    "id": "osm:node/5661434237",
    "name": "Mad Seafood Boiler",
    "cuisine": "seafood",
@@ -9295,6 +9248,28 @@
    "bar": false,
    "image": "https://www.mishquiperu.com/uploads/b/23e5c800-97cf-11eb-ad41-8dae5850458e/Mishqui%20spread.jpeg",
    "website_ok": true
+  },
+  {
+   "group": "sushi",
+   "dinner": true,
+   "alcohol": null,
+   "alcohol_src": "",
+   "id": "osm:node/3778535757",
+   "name": "Miyabi Sushi",
+   "cuisine": "sushi",
+   "fast": false,
+   "price": 40,
+   "vibes": [
+    "date"
+   ],
+   "address": "6317 McKee Road",
+   "lat": 43.015399,
+   "lon": -89.482515,
+   "website": "",
+   "menu": "",
+   "hours": null,
+   "bar": false,
+   "website_ok": null
   },
   {
    "group": "italian",
@@ -13321,9 +13296,9 @@
    "menu": "",
    "hours": null,
    "bar": false,
-   "website_ok": null,
    "new_since": "2026-07-15",
-   "new_evidence": "New alcohol license approved at the 2026-07-15 ALRC meeting"
+   "new_evidence": "New alcohol license approved at the 2026-07-15 ALRC meeting",
+   "website_ok": null
   },
   {
    "group": "latin",
@@ -14273,9 +14248,9 @@
    "menu": "",
    "hours": null,
    "bar": false,
-   "website_ok": null,
    "new_since": "2026-09-16",
-   "new_evidence": "New alcohol license approved at the 2026-09-16 ALRC meeting"
+   "new_evidence": "New alcohol license approved at the 2026-09-16 ALRC meeting",
+   "website_ok": null
   },
   {
    "group": "med",
@@ -14912,11 +14887,10 @@
     ]
    ],
    "bar": false,
-   "menu_src": "restaurant homepage",
+   "menu_src": "OpenStreetMap tag",
    "image": "http://static1.squarespace.com/static/63323ae875e692009222a204/t/643371ccdf29aa1cf679e373/1681093073569/turnkey_tuesday_chicken.jpg?format=1500w",
    "menu_broken": "https://www.turnkeymadison.com/eat",
-   "website_ok": true,
-   "menu": "https://www.turnkeymadison.com/working-menu"
+   "website_ok": true
   },
   {
    "group": "asian",
@@ -15222,8 +15196,8 @@
    "bar": false,
    "menu_src": "restaurant homepage",
    "image": "http://wearytravelerfreehouse.com/wp-content/uploads/2018/02/cropped-DSC_0068.jpg",
-   "website_ok": true,
-   "menu_broken": "https://wearytravelerfreehouse.com/weary-traveler-catering-menu/"
+   "menu_broken": "https://wearytravelerfreehouse.com/weary-traveler-catering-menu/",
+   "website_ok": true
   },
   {
    "group": "american",

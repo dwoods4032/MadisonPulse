@@ -68,8 +68,8 @@
   ]
  },
  "https://thecrystalcornerbar.com/Calendar.htm": {
-  "hash": "4a4d76c990e1dee70f47d255ede6d35c62e06c2c",
-  "asked": "2026-11-09T15:26:38-06:00",
+  "hash": "484301279a86e2a8a183a99790e44ea67dc09d93",
+  "asked": "2026-11-09T22:40:18-06:00",
   "on": "2026-11-09",
   "events": [
    {
@@ -78,7 +78,7 @@
     "start": "21:00",
     "end": null,
     "price": 15,
-    "description": "Madison soft rock band Cribshitter, with Wisconsin country artist Ed Dave.",
+    "description": "Madison soft rock powerhouse Cribshitter, with country performer Ed Dave.",
     "category": "music"
    },
    {
@@ -87,7 +87,7 @@
     "start": "20:30",
     "end": null,
     "price": null,
-    "description": "American roots, R&B, reggae, Latin and funk from a Midwest quartet.",
+    "description": "American roots, R&B, reggae, Latin and funk from a Mid-West quartet.",
     "category": "music"
    },
    {
@@ -96,7 +96,7 @@
     "start": "20:00",
     "end": null,
     "price": 15,
-    "description": "Blues band billed as one of the best blues bands in the land.",
+    "description": "Blues band described by Living Blues as one of the best blues bands in the land.",
     "category": "music"
    }
   ]
@@ -206,17 +206,17 @@
   ]
  },
  "https://www.thecrystalcornerbar.com/Calendar.htm": {
-  "hash": "4a4d76c990e1dee70f47d255ede6d35c62e06c2c",
-  "asked": "2026-11-09T15:26:42-06:00",
+  "hash": "484301279a86e2a8a183a99790e44ea67dc09d93",
+  "asked": "2026-11-09T22:40:21-06:00",
   "on": "2026-11-09",
   "events": [
    {
-    "title": "Cribshitter with Ed Dave",
+    "title": "Cribshitter / Ed Dave",
     "date": "2026-11-14",
     "start": "21:00",
     "end": null,
     "price": 15,
-    "description": "Madison soft rock band Cribshitter, with country artist Ed Dave.",
+    "description": "Madison soft rock band Cribshitter with country artist Ed Dave.",
     "category": "music"
    },
    {
@@ -225,7 +225,7 @@
     "start": "20:30",
     "end": null,
     "price": null,
-    "description": "American roots, R&B, reggae, Latin and funk from a Midwest quartet.",
+    "description": "Quartet playing American roots, R&B, reggae, Latin and funk.",
     "category": "music"
    },
    {
@@ -234,7 +234,7 @@
     "start": "20:00",
     "end": null,
     "price": 15,
-    "description": "Blues band described by Living Blues as one of the best blues bands in the land.",
+    "description": "Blues band described as one of the best blues bands in the land.",
     "category": "music"
    }
   ]
@@ -317,8 +317,8 @@
   "events": []
  },
  "https://www.harmonybarandgrill.com/madison-atwood-the-harmony-bar-and-grill-events": {
-  "hash": "24600c10f0baf66b24861645cd3fccc39297894c",
-  "asked": "2026-11-09T15:26:55-06:00",
+  "hash": "54d9f568d1714e09597c638cc7a905274d1cc6c7",
+  "asked": "2026-11-09T22:40:23-06:00",
   "on": "2026-11-09",
   "events": [
    {
@@ -327,7 +327,7 @@
     "start": "17:30",
     "end": "18:30",
     "price": 5,
-    "description": "Kids music show with David Landau, with the kid menu available. $5 cover.",
+    "description": "Kids music show with David Landau; kid menu available, family-friendly.",
     "category": "music"
    },
    {
@@ -336,7 +336,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Bluegrass, vintage country and swing with three-part vocal harmonies. No cover.",
+    "description": "Bluegrass, vintage country and swing with three-part vocal harmonies.",
     "category": "music"
    },
    {
@@ -345,7 +345,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Classic bluegrass-based band from members of the Oak Street Ramblers. No cover.",
+    "description": "Classic bluegrass-based band from Madison, members formerly of the Oak Street Ramblers.",
     "category": "music"
    },
    {
@@ -354,7 +354,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Madison country band Canyon Arrow, featuring members of several local Madison bands. No cover.",
+    "description": "Honky tonk happy hour featuring Madison band Canyon Arrow.",
     "category": "music"
    },
    {
@@ -363,16 +363,16 @@
     "start": "21:00",
     "end": "00:00",
     "price": 10,
-    "description": "Cambridge, Wisconsin band blending 1980s MTV pop with classic rock and blues. $10 cover.",
+    "description": "Cambridge, WI band blending 1980s MTV vibes with classic rock and blues.",
     "category": "music"
    },
    {
-    "title": "Maria and the Coins/Bear in the Forest",
+    "title": "Maria and the Coins / Bear in the Forest",
     "date": "2026-11-14",
     "start": "21:00",
     "end": "00:00",
     "price": 10,
-    "description": "Minneapolis indie pop-rock band Maria and the Coins, with Bear in the Forest opening. $10 cover.",
+    "description": "Minneapolis indie pop-rock band Maria and the Coins, with Bear in the Forest opening.",
     "category": "music"
    },
    {
@@ -381,7 +381,16 @@
     "start": "17:00",
     "end": "19:30",
     "price": 0,
-    "description": "Acoustic show with singer-songwriter Andy Ewen, Doug DeRosa on bass and Ryan Repenshek on guitar. No cover.",
+    "description": "Acoustic show with singer-songwriter Andy Ewen, Doug DeRosa on bass and Ryan Repenshek on guitar.",
+    "category": "music"
+   },
+   {
+    "title": "David Landau Kid Show",
+    "date": "2026-11-16",
+    "start": "17:30",
+    "end": "18:30",
+    "price": 5,
+    "description": "Kids music show with David Landau; kid menu available, family-friendly.",
     "category": "music"
    },
    {
@@ -390,7 +399,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Monthly Tuesday bluegrass series hosted by Soggy Prairie, with a set from Lucky Pickers. No cover.",
+    "description": "Monthly Tuesday bluegrass series hosted by Soggy Prairie with guest artists Lucky Pickers.",
     "category": "music"
    },
    {
@@ -399,7 +408,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Trivia hosted by Paul, held on the 1st and 3rd Wednesday of the month. Free.",
+    "description": "Trivia hosted by Paul, held the 1st and 3rd Wednesday of the month. Free.",
     "category": "trivia"
    },
    {
@@ -408,7 +417,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Season 2, Episode 2 of the round-robin songwriter showcase hosted by JT Spartz, featuring Annie Emmenegger, Jason Edward and JT Spartz. No cover.",
+    "description": "Round-robin songwriters' showcase hosted by JT Spartz with Annie Emmenegger, Jason Edward and JT Spartz.",
     "category": "music"
    },
    {
@@ -417,16 +426,16 @@
     "start": "21:00",
     "end": "00:00",
     "price": 10,
-    "description": "Rolling Stones tribute Loving Cup and the Los Bad Hombres. 21+. $10 cover.",
+    "description": "Rolling Stones tribute Loving Cup and Los Bad Hombres. 21+.",
     "category": "music"
    },
    {
     "title": "The Cajun Strangers",
     "date": "2026-11-22",
-    "start": "17:00",
-    "end": "19:30",
+    "start": "16:00",
+    "end": null,
     "price": 10,
-    "description": "Award-winning Madison band playing traditional Cajun dance music. $10 suggested donation.",
+    "description": "Award-winning Madison band playing traditional Cajun dance music; $10 suggested donation.",
     "category": "music"
    }
   ]
@@ -766,17 +775,26 @@
   "events": []
  },
  "https://www.harmonybarandgrill.com/madison-atwood-the-harmony-bar-and-grill-happy-hours-specials": {
-  "hash": "d65b0b879ab2da818bf4ca4ddd008ff69c17ac3f",
-  "asked": "2026-11-07T10:50:56-06:00",
-  "on": "2026-11-07",
+  "hash": "ca9df69a32acd3f0ce23eac34d552fc3ffbd63d0",
+  "asked": "2026-11-09T22:40:28-06:00",
+  "on": "2026-11-09",
   "events": [
+   {
+    "title": "Friday Fish Fry",
+    "date": "2026-11-13",
+    "start": "11:00",
+    "end": "22:00",
+    "price": null,
+    "description": "Friday Fish Fry at The Harmony Bar and Grill.",
+    "category": "food"
+   },
    {
     "title": "David Landau Kids Show",
     "date": "2026-11-09",
     "start": "17:30",
     "end": "18:30",
     "price": 5.0,
-    "description": "Kids show with David Landau, every Monday.",
+    "description": "Weekly Monday kids show with David Landau, $5.00.",
     "category": "music"
    },
    {
@@ -785,26 +803,17 @@
     "start": "17:30",
     "end": "18:30",
     "price": 5.0,
-    "description": "Kids show with David Landau, every Monday.",
+    "description": "Weekly Monday kids show with David Landau, $5.00.",
     "category": "music"
    },
    {
-    "title": "Mixed Mic",
-    "date": "2026-11-10",
-    "start": "19:00",
-    "end": null,
-    "price": null,
-    "description": "Mixed mic night. The page lists it as every first Tuesday of the month but dates this listing Tuesday, November 10th.",
-    "category": "open_mic"
-   },
-   {
-    "title": "Friday Fish Fry",
-    "date": "2026-11-13",
-    "start": "11:00",
-    "end": "22:00",
-    "price": null,
-    "description": "Friday fish fry special.",
-    "category": "food"
+    "title": "David Landau Kids Show",
+    "date": "2026-11-23",
+    "start": "17:30",
+    "end": "18:30",
+    "price": 5.0,
+    "description": "Weekly Monday kids show with David Landau, $5.00.",
+    "category": "music"
    }
   ]
  },
@@ -1306,9 +1315,28 @@
  },
  "https://www.mymonona.com/1587/Special-Events": {
   "hash": "662029bba649e83bbe3af73a359e58885cc154a0",
-  "asked": "2026-11-06T20:48:33-06:00",
-  "on": "2026-11-06",
-  "events": []
+  "asked": "2026-11-09T22:40:35-06:00",
+  "on": "2026-11-09",
+  "events": [
+   {
+    "title": "45th Annual Holiday House Bazaar",
+    "date": "2026-11-21",
+    "start": null,
+    "end": null,
+    "price": null,
+    "description": "45th Annual Holiday House Bazaar, listed on the Monona Special Events page.",
+    "category": "other"
+   },
+   {
+    "title": "45th Annual Holiday House Bazaar",
+    "date": "2026-11-22",
+    "start": null,
+    "end": null,
+    "price": null,
+    "description": "45th Annual Holiday House Bazaar, listed on the Monona Special Events page.",
+    "category": "other"
+   }
+  ]
  },
  "https://www.candycloudcompany.com/locations/madison": {
   "hash": "56675790ccda038c9f50b89482a9d58682ffa44f",
@@ -1420,8 +1448,8 @@
   ]
  },
  "https://merciescoffeewi.com/": {
-  "hash": "2281faea97ac7cbfb13b56538ea67dbce700c4cf",
-  "asked": "2026-11-09T15:28:28-06:00",
+  "hash": "ff654da13771a1c96397402a6d57cc02f8d1bf95",
+  "asked": "2026-11-09T22:40:48-06:00",
   "on": "2026-11-09",
   "events": []
  },
@@ -1688,15 +1716,61 @@
   "events": []
  },
  "https://www.madisonpubliclibrary.org/spaces/events": {
-  "hash": "9b98e9f7a743d74021d843d74597e6105ef063b0",
-  "asked": "2026-11-09T15:29:37-06:00",
+  "hash": "a7f91f40d0058a92bc978e8c752573e324faf49e",
+  "asked": "2026-11-09T22:41:26-06:00",
   "on": "2026-11-09",
-  "events": []
+  "events": [
+   {
+    "title": "Multi-age Storytime (ages 5 and under)",
+    "date": "2026-11-11",
+    "start": "10:00",
+    "end": "10:30",
+    "price": null,
+    "description": "Storytime for ages 5 and under in the Youth Program Room.",
+    "category": "other"
+   },
+   {
+    "title": "Learn Together, Play Together: Play group for children ages 0-3 who are DHH",
+    "date": "2026-11-11",
+    "start": "10:00",
+    "end": "11:00",
+    "price": null,
+    "description": "Play group for deaf or hard of hearing children ages 0-3 in Community Room B.",
+    "category": "other"
+   },
+   {
+    "title": "Baby Storytime (ages birth to 17 mo)",
+    "date": "2026-11-11",
+    "start": "11:15",
+    "end": "11:45",
+    "price": null,
+    "description": "Storytime for babies from birth to 17 months in the Youth Program Room.",
+    "category": "other"
+   },
+   {
+    "title": "LEGO Club at Pinney",
+    "date": "2026-11-11",
+    "start": "15:30",
+    "end": "16:30",
+    "price": null,
+    "description": "LEGO building club in the Youth Program Room.",
+    "category": "other"
+   },
+   {
+    "title": "The Art of Neighborships: Open Studio with Artist-in-Residence Carrie Breunig",
+    "date": "2026-11-11",
+    "start": "18:00",
+    "end": "20:00",
+    "price": null,
+    "description": "Open studio with artist-in-residence Carrie Breunig in the Studio.",
+    "category": "other"
+   }
+  ]
  },
  "https://ebling.library.wisc.edu/ebling-library-classes-events/": {
   "hash": "7d255d815b8d0d84a73f7be122c15c647822abad",
-  "asked": "2026-11-06T20:49:18-06:00",
-  "on": "2026-11-06",
+  "asked": "2026-11-09T22:41:16-06:00",
+  "on": "2026-11-09",
   "events": [
    {
     "title": "Introduction to Embase",
@@ -1704,7 +1778,7 @@
     "start": "12:00",
     "end": "13:00",
     "price": null,
-    "description": "Online overview of the Embase biomedical literature database and how its coverage differs from PubMed. Open to the UW-Madison community only.",
+    "description": "Overview of the Embase biomedical literature database and how its coverage differs from PubMed. Online via Zoom; open to the UW-Madison community only.",
     "category": "other"
    },
    {
@@ -1722,7 +1796,7 @@
     "start": "12:00",
     "end": "13:00",
     "price": null,
-    "description": "Online workshop on creating an ORCID profile, linking it to SciENcv and eRA Commons, and building an NIH Biographical Sketch.",
+    "description": "Walkthrough of creating an ORCID profile, linking it to SciENcv and eRA Commons, and building an NIH Biographical Sketch in SciENcv. Online via Zoom.",
     "category": "other"
    }
   ]
@@ -1734,26 +1808,17 @@
   "events": []
  },
  "https://www.sunprairiepubliclibrary.org/home-delivery-service": {
-  "hash": "ba2a84bc7147889ab32437ab4236a9200f54846e",
-  "asked": "2026-11-09T15:29:54-06:00",
+  "hash": "fabf85cc62cb5b203aeacbdd82904f0552bda4d2",
+  "asked": "2026-11-09T22:41:18-06:00",
   "on": "2026-11-09",
   "events": [
-   {
-    "title": "Young Explorers Club",
-    "date": "2026-11-09",
-    "start": "16:00",
-    "end": "16:45",
-    "price": null,
-    "description": "Library program for children ages 0-5 and 5-8.",
-    "category": "other"
-   },
    {
     "title": "Little Kid Storytime",
     "date": "2026-11-10",
     "start": "10:00",
     "end": "10:30",
     "price": null,
-    "description": "Storytime for families and children ages 0-5.",
+    "description": "Storytime for family and children ages 0-5.",
     "category": "other"
    },
    {
@@ -1762,7 +1827,7 @@
     "start": "11:15",
     "end": "11:45",
     "price": null,
-    "description": "Storytime for families and children ages 0-5.",
+    "description": "Storytime for family and children ages 0-5.",
     "category": "other"
    },
    {
@@ -1780,7 +1845,16 @@
     "start": "13:00",
     "end": "14:00",
     "price": null,
-    "description": "Virtual author talk with Paul Vigna for adults.",
+    "description": "Virtual author talk for adults.",
+    "category": "other"
+   },
+   {
+    "title": "Afternoon Book Club",
+    "date": "2026-11-11",
+    "start": "13:30",
+    "end": "14:30",
+    "price": null,
+    "description": "Book club for adults.",
     "category": "other"
    }
   ]
@@ -1842,23 +1916,32 @@
   ]
  },
  "https://www.madisonpubliclibrary.org/spaces/events/search": {
-  "hash": "122adf904ab7a6ef42f7354f0a9af3b12a7f5924",
-  "asked": "2026-11-09T15:29:33-06:00",
+  "hash": "5e38a8f0e0004c345fa01e0dd8d75498ba3ea529",
+  "asked": "2026-11-09T22:41:40-06:00",
   "on": "2026-11-09",
   "events": []
  },
  "https://artlitlab.org/calendar": {
-  "hash": "d01a32514347b67ce157baee9a3b254eba84801e",
-  "asked": "2026-11-09T15:30:10-06:00",
+  "hash": "a6e7002ceadb12fe813ef03f1e24dcde0a243f00",
+  "asked": "2026-11-09T22:41:25-06:00",
   "on": "2026-11-09",
   "events": [
+   {
+    "title": "Project Projection: Local Animation",
+    "date": "2026-11-11",
+    "start": null,
+    "end": null,
+    "price": null,
+    "description": "Local animation program.",
+    "category": "film"
+   },
    {
     "title": "Native Art Market 2026",
     "date": "2026-11-14",
     "start": null,
     "end": null,
     "price": null,
-    "description": "Native Art Market at Arts + Literature Laboratory",
+    "description": "Native Art Market.",
     "category": "other"
    },
    {
@@ -1867,7 +1950,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Performance by Galaxy Quartet",
+    "description": "Performance by Galaxy Quartet.",
     "category": "music"
    },
    {
@@ -1876,7 +1959,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Exhibition running November 19, 2026 to January 9, 2027",
+    "description": "Bridge Work exhibition, running November 19, 2026 to January 9, 2027.",
     "category": "other"
    },
    {
@@ -1885,7 +1968,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Exhibition running November 19, 2026 to January 9, 2027",
+    "description": "Bridge Work exhibition, running November 19, 2026 to January 9, 2027.",
     "category": "other"
    },
    {
@@ -1894,7 +1977,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Exhibition running November 19, 2026 to January 9, 2027",
+    "description": "Bridge Work exhibition, running November 19, 2026 to January 9, 2027.",
     "category": "other"
    },
    {
@@ -1903,7 +1986,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Auricle New Music Series presents Lily Finnegan Quartet",
+    "description": "Auricle New Music Series presents Lily Finnegan Quartet.",
     "category": "music"
    },
    {
@@ -1912,7 +1995,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Literary reading",
+    "description": "November Watershed reading.",
     "category": "other"
    },
    {
@@ -1921,7 +2004,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Performance by Ancora String Quartet",
+    "description": "Performance by Ancora String Quartet.",
     "category": "music"
    }
   ]
@@ -2164,17 +2247,17 @@
   "events": []
  },
  "https://www.veronapubliclibrary.org/": {
-  "hash": "7db13cfb7d93b77b81a8e3bdf6da82af6548b238",
-  "asked": "2026-11-09T15:29:56-06:00",
+  "hash": "a3eab642fa9e55ab8a3a2d41460cfee1cddb0c18",
+  "asked": "2026-11-09T22:41:18-06:00",
   "on": "2026-11-09",
   "events": [
    {
-    "title": "Late Fall Story Times",
+    "title": "Late Fall Story Times return",
     "date": "2026-11-16",
     "start": null,
     "end": null,
     "price": null,
-    "description": "Ongoing story times return at Verona Public Library.",
+    "description": "Ongoing library story times return on Monday, November 16. No time is listed on the page.",
     "category": "other"
    }
   ]
@@ -2204,10 +2287,20 @@
   "events": []
  },
  "https://high-noon.com/event/dogpark/": {
-  "hash": "c7083dc37a87f1fa631abeabf21385cc82219955",
-  "asked": "2026-11-09T15:27:10-06:00",
+  "hash": "3ee80d32f8a349ff888b91af646441d8c01c8b1f",
+  "asked": "2026-11-09T22:40:22-06:00",
   "on": "2026-11-09",
-  "events": []
+  "events": [
+   {
+    "title": "Left Lane Cruiser, 20 Watt Tombstone & Electromag",
+    "date": "2026-11-20",
+    "start": "20:00",
+    "end": null,
+    "price": null,
+    "description": "Show at High Noon Saloon. Doors 7:00 pm, show 8:00 pm.",
+    "category": "music"
+   }
+  ]
  },
  "https://thekickback.bar/premier-trivia-tuesday-nov-3/": {
   "hash": "25992f3a707c36f4ebbe1a9a479acec37b4b7959",
@@ -2463,26 +2556,17 @@
   ]
  },
  "https://www.sunprairiepubliclibrary.org/art-committee-and-gallery-shows": {
-  "hash": "2c3821890c1f3c3074fb3e6f20a33d9799fd7ecc",
-  "asked": "2026-11-09T15:29:57-06:00",
+  "hash": "ec2026e288d341b2c905f15bd07538aedfab42ee",
+  "asked": "2026-11-09T22:41:22-06:00",
   "on": "2026-11-09",
   "events": [
-   {
-    "title": "Young Explorers Club",
-    "date": "2026-11-09",
-    "start": "16:00",
-    "end": "16:45",
-    "price": null,
-    "description": "Program for children ages 0-5 and 5-8.",
-    "category": "other"
-   },
    {
     "title": "Little Kid Storytime",
     "date": "2026-11-10",
     "start": "10:00",
     "end": "10:30",
     "price": null,
-    "description": "Storytime for families and children ages 0-5.",
+    "description": "Storytime for family and children ages 0-5 at Sun Prairie Public Library.",
     "category": "other"
    },
    {
@@ -2491,7 +2575,7 @@
     "start": "11:15",
     "end": "11:45",
     "price": null,
-    "description": "Storytime for families and children ages 0-5.",
+    "description": "Storytime for family and children ages 0-5 at Sun Prairie Public Library.",
     "category": "other"
    },
    {
@@ -2500,7 +2584,7 @@
     "start": "16:00",
     "end": "18:00",
     "price": null,
-    "description": "Creative club for teens.",
+    "description": "Creativity club for teens at Sun Prairie Public Library.",
     "category": "other"
    },
    {
@@ -2509,7 +2593,16 @@
     "start": "13:00",
     "end": "14:00",
     "price": null,
-    "description": "Virtual author talk for adults.",
+    "description": "Virtual author talk with Paul Vigna for adults, hosted by Sun Prairie Public Library.",
+    "category": "other"
+   },
+   {
+    "title": "Afternoon Book Club",
+    "date": "2026-11-11",
+    "start": "13:30",
+    "end": "14:30",
+    "price": null,
+    "description": "Adult book club at Sun Prairie Public Library.",
     "category": "other"
    }
   ]
@@ -2523,6 +2616,12 @@
  "https://ctmtheater.org/see-a-show-pre-season/": {
   "hash": "00b2af8c1293e567b43ccf8490f2b23f2e5c2816",
   "asked": "2026-11-09T15:30:30-06:00",
+  "on": "2026-11-09",
+  "events": []
+ },
+ "https://www.cruciblemadison.com/events/2026-11/leather-lace": {
+  "hash": "9105f6c7595865497ae0ab0678fd584c0e6c008e",
+  "asked": "2026-11-09T22:40:27-06:00",
   "on": "2026-11-09",
   "events": []
  }

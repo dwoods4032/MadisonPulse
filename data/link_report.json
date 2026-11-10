@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-09T15:31:41.785651-06:00",
- "links": 785,
- "checked_this_run": 26,
- "ok": 568,
- "broken": 91,
- "couldn't check": 126,
+ "generated_at": "2026-11-09T22:41:57.582324-06:00",
+ "links": 789,
+ "checked_this_run": 40,
+ "ok": 572,
+ "broken": 92,
+ "couldn't check": 125,
  "not checked yet": 0,
  "broken_links": [
   "http://byrdspub.com",
@@ -97,6 +97,7 @@
   "https://www.salvatorestomatopies.com/location/dark-horse/",
   "https://www.szechuangardenmadisonwi.com/?utm_source=bing&utm_medium=websiteurl&utm_campaign=search",
   "https://www.tucumafood.com",
+  "https://www.turnkeymadison.com/eat",
   "https://www.villagepizzamadison.com"
  ]
 }
