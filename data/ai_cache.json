@@ -145,9 +145,9 @@
   "events": []
  },
  "https://gammaray.bar/shows/": {
-  "hash": "4d95a6d9a082e31d7bf933d66ce1333468f2a048",
-  "asked": "2026-11-09T15:26:52-06:00",
-  "on": "2026-11-09",
+  "hash": "a8ddfb9895eb67d75634cdb81246a83248dce227",
+  "asked": "2026-11-10T20:46:43-06:00",
+  "on": "2026-11-10",
   "events": [
    {
     "title": "Friday the 13th Tribute Party Ft. PheRAMONES, Insomniacs (Green Day), TRAEFI(AFI)",
@@ -155,7 +155,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Tribute party with PheRAMONES, Insomniacs and TRAEFI. Doors 7pm.",
+    "description": "Tribute party featuring PheRAMONES, Insomniacs (Green Day) and TRAEFI (AFI). Doors 7pm.",
     "category": "music"
    },
    {
@@ -173,7 +173,7 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Live show with Dusky Waters, Bear In The Forest and Marengo. Doors 6pm.",
+    "description": "Show with Dusky Waters, Bear In The Forest and Marengo. Doors 6pm.",
     "category": "music"
    },
    {
@@ -200,7 +200,7 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Live show with Clean Plate Club, Becca Murray & The Wildflowers and AuroNova. Doors 6pm.",
+    "description": "Show with Clean Plate Club, Becca Murray & The Wildflowers and AuroNova. Doors 6pm.",
     "category": "music"
    }
   ]
@@ -290,19 +290,9 @@
  },
  "https://www.madisongreymarket.com/schedule": {
   "hash": "844721c54672b70d90c49d8df79664186255d7e5",
-  "asked": "2026-11-07T20:29:46-06:00",
-  "on": "2026-11-07",
-  "events": [
-   {
-    "title": "Onigiri Pop-Up with Chef Itaru Nagano from Fairchild",
-    "date": "2026-11-09",
-    "start": "15:00",
-    "end": "20:00",
-    "price": null,
-    "description": "Chef Itaru Nagano from Fairchild hosts an onigiri pop-up.",
-    "category": "food"
-   }
-  ]
+  "asked": "2026-11-10T20:46:43-06:00",
+  "on": "2026-11-10",
+  "events": []
  },
  "https://www.mickeysmadison.com/": {
   "hash": "e02d5769890e7d8de6396bf007f716baa059e289",
@@ -852,19 +842,10 @@
   "events": []
  },
  "https://www.capitalbrewery.com/events-2/": {
-  "hash": "8f8e5d6d3556e58637661d4e5e4fae19e25c4331",
-  "asked": "2026-11-10T12:40:50-06:00",
+  "hash": "2740705b65c398f8f6c61e2069278ba969491164",
+  "asked": "2026-11-10T20:46:50-06:00",
   "on": "2026-11-10",
   "events": [
-   {
-    "title": "Capital Brewery November Monthly Sampling @ Bazil's Pub in Appleton",
-    "date": "2026-11-10",
-    "start": "19:00",
-    "end": "20:30",
-    "price": null,
-    "description": "Capital Brewery monthly sampling at Bazil's Pub & Provisions in Appleton.",
-    "category": "food"
-   },
    {
     "title": "LIVE MUSIC w/ Too Sick Charlie",
     "date": "2026-11-20",
@@ -1151,8 +1132,8 @@
  },
  "https://www.youngbloodbeerco.com/": {
   "hash": "386466cd1cd61490cf343b8b2aa4eac0b9b40160",
-  "asked": "2026-11-07T20:29:55-06:00",
-  "on": "2026-11-07",
+  "asked": "2026-11-10T20:46:52-06:00",
+  "on": "2026-11-10",
   "events": []
  },
  "https://yaharabay.com/pages/event-space": {
@@ -1162,26 +1143,17 @@
   "events": []
  },
  "https://thekickback.bar/upcoming-events/": {
-  "hash": "1b7e6eb0d09eed51eff8a17364283440b4b68708",
-  "asked": "2026-11-08T20:40:08-06:00",
-  "on": "2026-11-08",
+  "hash": "05e966738e79147465e24374389d0766be5e80fb",
+  "asked": "2026-11-10T20:46:54-06:00",
+  "on": "2026-11-10",
   "events": [
-   {
-    "title": "Premier Trivia Tuesday!",
-    "date": "2026-11-10",
-    "start": "18:30",
-    "end": null,
-    "price": null,
-    "description": "Tuesday Trivia at The Kickback",
-    "category": "trivia"
-   },
    {
     "title": "Fallout Launch Party",
     "date": "2026-11-13",
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Launch party with Craft Beer and Pinball tags",
+    "description": "Fallout launch party with craft beer and pinball tags.",
     "category": "other"
    },
    {
@@ -1190,7 +1162,7 @@
     "start": "11:00",
     "end": null,
     "price": null,
-    "description": "Youth pinball free-play and tournament",
+    "description": "Youth pinball free-play and tournament.",
     "category": "other"
    },
    {
@@ -1199,7 +1171,7 @@
     "start": "11:00",
     "end": null,
     "price": null,
-    "description": "Craft fair",
+    "description": "Craft fair.",
     "category": "other"
    },
    {
@@ -1208,7 +1180,7 @@
     "start": "13:00",
     "end": null,
     "price": null,
-    "description": "Meat raffle with prizes, Fetch WI Rescue and Jenny St Market tags",
+    "description": "Meat raffle with prizes, tagged Fetch WI Rescue and New Belgium Brewing.",
     "category": "other"
    },
    {
@@ -1217,7 +1189,7 @@
     "start": "18:30",
     "end": null,
     "price": null,
-    "description": "Tuesday Trivia at The Kickback",
+    "description": "Tuesday trivia night.",
     "category": "trivia"
    },
    {
@@ -1226,7 +1198,7 @@
     "start": "18:30",
     "end": null,
     "price": null,
-    "description": "Craft Beer Pinball League night with New Glarus",
+    "description": "Craft beer pinball league night with New Glarus Brewing.",
     "category": "other"
    },
    {
@@ -1235,7 +1207,7 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Friday Night Strikes pinball and craft beer night",
+    "description": "Friday Night Strikes with craft beer and pinball.",
     "category": "other"
    },
    {
@@ -1244,7 +1216,7 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Ultimate Super Smash Bros tournament on Switch 2",
+    "description": "Ultimate Super Smash Bros tournament on Switch 2.",
     "category": "other"
    },
    {
@@ -1253,7 +1225,7 @@
     "start": "15:00",
     "end": null,
     "price": null,
-    "description": "Mobile bookstore pop-up",
+    "description": "Pop-up visit from the WanderLust Mobile Bookstore.",
     "category": "other"
    },
    {
@@ -1262,8 +1234,17 @@
     "start": "15:00",
     "end": null,
     "price": null,
-    "description": "Patio fundraiser with Fetch WI Rescue",
+    "description": "Dogs on the patio with Fetch WI Rescue, a fundraiser with craft beer.",
     "category": "other"
+   },
+   {
+    "title": "Premier Trivia Tuesday!",
+    "date": "2026-11-24",
+    "start": "18:30",
+    "end": null,
+    "price": null,
+    "description": "Tuesday trivia night.",
+    "category": "trivia"
    }
   ]
  },
@@ -1448,8 +1429,8 @@
   ]
  },
  "https://merciescoffeewi.com/": {
-  "hash": "cc9ef1368f966c9c4291e489ac969a7632c9d7e3",
-  "asked": "2026-11-10T12:41:13-06:00",
+  "hash": "f6505abc10749381be283c72d7ec1b02641014d0",
+  "asked": "2026-11-10T20:47:11-06:00",
   "on": "2026-11-10",
   "events": []
  },
@@ -1515,25 +1496,25 @@
  },
  "https://www.micentro.org/events": {
   "hash": "fd9a3d21dd4c3151947caf580a9da6ca4e535a33",
-  "asked": "2026-11-07T20:30:42-06:00",
-  "on": "2026-11-07",
+  "asked": "2026-11-10T20:47:33-06:00",
+  "on": "2026-11-10",
   "events": [
    {
-    "title": "Mercadito Community Farmer's Market",
+    "title": "Mercadito",
     "date": "2026-11-12",
     "start": "16:00",
     "end": "20:00",
     "price": null,
-    "description": "Open-air community market at 2403 Cypress Way with vendors, hot food, produce, kids' games and a weekly raffle.",
+    "description": "Community farmer's market at 2403 Cypress Way with food vendors, fresh produce, artisanal goods, kids' games and a weekly raffle.",
     "category": "food"
    },
    {
-    "title": "Mercadito Community Farmer's Market",
+    "title": "Mercadito",
     "date": "2026-11-19",
     "start": "16:00",
     "end": "20:00",
     "price": null,
-    "description": "Open-air community market at 2403 Cypress Way with vendors, hot food, produce, kids' games and a weekly raffle.",
+    "description": "Community farmer's market at 2403 Cypress Way with food vendors, fresh produce, artisanal goods, kids' games and a weekly raffle.",
     "category": "food"
    }
   ]
@@ -1546,8 +1527,8 @@
  },
  "https://iwcmadison.com/calendar/": {
   "hash": "372415e0626944de995874ac1f38ebb9dd109c3d",
-  "asked": "2026-11-07T20:30:49-06:00",
-  "on": "2026-11-07",
+  "asked": "2026-11-10T20:47:41-06:00",
+  "on": "2026-11-10",
   "events": [
    {
     "title": "Council Meeting",
@@ -1555,7 +1536,16 @@
     "start": "19:00",
     "end": "21:00",
     "price": null,
-    "description": "Council Meeting at the Italian Workmen's Club.",
+    "description": "IWC Council Meeting.",
+    "category": "other"
+   },
+   {
+    "title": "Italian Language Conversation",
+    "date": "2026-11-24",
+    "start": "18:30",
+    "end": "20:00",
+    "price": null,
+    "description": "Open to members, friends, and anyone who wants to learn or speak some basic Italian.",
     "category": "other"
    }
   ]
@@ -1707,8 +1697,8 @@
   "events": []
  },
  "https://www.madisonpubliclibrary.org/spaces/events": {
-  "hash": "8052bf88bb4f621b23b6706d5fea4fc0a89f1dfc",
-  "asked": "2026-11-10T12:41:48-06:00",
+  "hash": "a0d92ea467cbd7e1964d8b78b1971ee24c4cbfa6",
+  "asked": "2026-11-10T20:47:46-06:00",
   "on": "2026-11-10",
   "events": []
  },
@@ -1753,26 +1743,17 @@
   "events": []
  },
  "https://www.sunprairiepubliclibrary.org/home-delivery-service": {
-  "hash": "d2597f66e77b88f597b011e4a8d783a5dc099283",
-  "asked": "2026-11-10T12:41:46-06:00",
+  "hash": "79f1f4b1b81d4167da7ac71fe7fff0c0da4db1f1",
+  "asked": "2026-11-10T20:47:44-06:00",
   "on": "2026-11-10",
   "events": [
-   {
-    "title": "Teen Creativity Club",
-    "date": "2026-11-10",
-    "start": "16:00",
-    "end": "18:00",
-    "price": null,
-    "description": "Library program for teens (Sun Prairie Public Library).",
-    "category": "other"
-   },
    {
     "title": "Virtual Author Talk with Paul Vigna",
     "date": "2026-11-11",
     "start": "13:00",
     "end": "14:00",
     "price": null,
-    "description": "Virtual author talk for adults with Paul Vigna.",
+    "description": "Virtual author talk with Paul Vigna. Age group: Adults.",
     "category": "other"
    },
    {
@@ -1781,7 +1762,7 @@
     "start": "13:30",
     "end": "14:30",
     "price": null,
-    "description": "Adult book club at the library.",
+    "description": "Afternoon book club. Age group: Adults.",
     "category": "other"
    },
    {
@@ -1790,7 +1771,7 @@
     "start": "15:15",
     "end": "16:15",
     "price": null,
-    "description": "Reading session with a dog for children ages 5-12.",
+    "description": "Children read to a dog. Age groups: Children (5-8), Children (8-12).",
     "category": "other"
    },
    {
@@ -1799,7 +1780,16 @@
     "start": "17:00",
     "end": "17:30",
     "price": null,
-    "description": "Spanish-language storytime for families and children ages 0-5.",
+    "description": "Spanish-language storytime. Age groups: Family, Children (0-5).",
+    "category": "other"
+   },
+   {
+    "title": "Mosaic Art with Savannah Roy: Candle Trays",
+    "date": "2026-11-11",
+    "start": "18:00",
+    "end": "20:00",
+    "price": null,
+    "description": "Mosaic art workshop making candle trays with Savannah Roy. Age group: Adults.",
     "category": "other"
    }
   ]
@@ -1861,15 +1851,25 @@
   ]
  },
  "https://www.madisonpubliclibrary.org/spaces/events/search": {
-  "hash": "53a2935c4ce12422efdd055d14805248c44c6f7f",
-  "asked": "2026-11-10T12:41:55-06:00",
+  "hash": "069d3ff411a429b0d32161ebb41d4d48e9b1567f",
+  "asked": "2026-11-10T20:47:45-06:00",
   "on": "2026-11-10",
-  "events": []
+  "events": [
+   {
+    "title": "Read & Breathe: A Mindful Storytime for all ages",
+    "date": "2026-11-11",
+    "start": "10:30",
+    "end": "11:15",
+    "price": null,
+    "description": "Storytime with playful mindfulness practices for children and caregivers to do together. Comfy clothing encouraged.",
+    "category": "other"
+   }
+  ]
  },
  "https://artlitlab.org/calendar": {
-  "hash": "a6e7002ceadb12fe813ef03f1e24dcde0a243f00",
-  "asked": "2026-11-09T22:41:25-06:00",
-  "on": "2026-11-09",
+  "hash": "911ea6c710556fad164c6c024c84d1e239e758f6",
+  "asked": "2026-11-10T20:47:49-06:00",
+  "on": "2026-11-10",
   "events": [
    {
     "title": "Project Projection: Local Animation",
@@ -1877,7 +1877,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Local animation program.",
+    "description": "Local animation screening presented at Arts + Literature Laboratory.",
     "category": "film"
    },
    {
@@ -1886,7 +1886,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Native Art Market.",
+    "description": "Native Art Market at Arts + Literature Laboratory.",
     "category": "other"
    },
    {
@@ -1940,7 +1940,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "November Watershed reading.",
+    "description": "Literary reading, November Watershed.",
     "category": "other"
    },
    {
@@ -1955,17 +1955,17 @@
   ]
  },
  "https://bartelltheatre.org/": {
-  "hash": "23ab49ec29d2e43cc2a74ec8328a9ba843219ba2",
-  "asked": "2026-11-10T12:41:59-06:00",
+  "hash": "8c6f167ad0f19ba25c633bd382998a1639f11f38",
+  "asked": "2026-11-10T20:47:56-06:00",
   "on": "2026-11-10",
   "events": [
    {
-    "title": "A Valentine's Affair 2027 Auditions (last audition)",
+    "title": "A Valentine's Affair 2027 Auditions",
     "date": "2026-11-10",
     "start": "18:30",
     "end": null,
     "price": null,
-    "description": "Last audition for A Valentine's Affair 2027 at Bartell Theatre.",
+    "description": "Last audition for A Valentine's Affair 2027.",
     "category": "other"
    },
    {
@@ -1974,7 +1974,7 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "Dark comedy about two sisters and a dog on the English moors, dreaming of love and power, disrupted by a hapless governess and a moor-hen.",
+    "description": "Dark comedy about two sisters, a dog, and a hapless governess on the English moors.",
     "category": "theater"
    },
    {
@@ -1983,7 +1983,7 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "Capulets, Montagues, and two young lovers in Shakespeare's best-known play.",
+    "description": "Shakespeare's tragedy of two young lovers caught between feuding families.",
     "category": "theater"
    },
    {
@@ -1992,8 +1992,8 @@
     "start": "12:00",
     "end": null,
     "price": null,
-    "description": "Scene study session listed under Bartell Theatre auditions/classes.",
-    "category": "other"
+    "description": "Final performance (closing) of Saturday Scene Study.",
+    "category": "theater"
    }
   ]
  },
@@ -2054,8 +2054,8 @@
  },
  "https://www.overture.org/tickets-events/": {
   "hash": "0850050e08d35e7d61fac9b4649b918924629e64",
-  "asked": "2026-11-07T20:31:19-06:00",
-  "on": "2026-11-07",
+  "asked": "2026-11-10T20:47:58-06:00",
+  "on": "2026-11-10",
   "events": [
    {
     "title": "Laura Doherty & The Heartbeats",
@@ -2063,7 +2063,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Multiple showtimes listed on Overture's events page.",
+    "description": "Multiple showtimes listed on the Overture events page.",
     "category": "music"
    },
    {
@@ -2071,8 +2071,8 @@
     "date": "2026-11-15",
     "start": "15:00",
     "end": null,
+    "description": "Artists' talk and reception for the Beneath the Fields & Foundation exhibition.",
     "price": null,
-    "description": "Artists' talk and reception.",
     "category": "other"
    },
    {
@@ -2081,7 +2081,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Multiple showtimes listed on Overture's events page.",
+    "description": "Multiple showtimes listed on the Overture events page.",
     "category": "music"
    }
   ]
@@ -2183,8 +2183,8 @@
   "events": []
  },
  "https://www.veronapubliclibrary.org/": {
-  "hash": "7e08c329681c10be193bd324a8348a3bd7203854",
-  "asked": "2026-11-10T12:41:45-06:00",
+  "hash": "44eaa9cc1126b4743a1e742a3b75bc46f8f0b7f5",
+  "asked": "2026-11-10T20:47:43-06:00",
   "on": "2026-11-10",
   "events": [
    {
@@ -2193,7 +2193,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Ongoing story times return on Monday, November 16. Start time not listed.",
+    "description": "Ongoing story times return at Verona Public Library.",
     "category": "other"
    }
   ]
@@ -2223,29 +2223,10 @@
   "events": []
  },
  "https://high-noon.com/event/dogpark/": {
-  "hash": "6e92dfe3ca7d217d973f6cfada5d219a5a33a3d1",
-  "asked": "2026-11-10T12:40:51-06:00",
+  "hash": "ab38d8588fb0a078f56f30722c4a26f6452711fd",
+  "asked": "2026-11-10T20:46:45-06:00",
   "on": "2026-11-10",
-  "events": [
-   {
-    "title": "Hottt Probs, Heet Deth & Sex Scenes",
-    "date": "2026-11-13",
-    "start": "19:00",
-    "end": null,
-    "price": null,
-    "description": "FPC Live presents at High Noon Saloon. Doors 6:00 pm, show 7:00 pm.",
-    "category": "music"
-   },
-   {
-    "title": "Left Lane Cruiser, 20 Watt Tombstone & Electromag",
-    "date": "2026-11-20",
-    "start": "20:00",
-    "end": null,
-    "price": null,
-    "description": "At High Noon Saloon. Doors 7:00 pm, show 8:00 pm.",
-    "category": "music"
-   }
-  ]
+  "events": []
  },
  "https://thekickback.bar/premier-trivia-tuesday-nov-3/": {
   "hash": "25992f3a707c36f4ebbe1a9a479acec37b4b7959",
@@ -2392,26 +2373,17 @@
   ]
  },
  "https://www.sunprairiepubliclibrary.org/art-committee-and-gallery-shows": {
-  "hash": "89be1c723703d8876897c0e1599e7ce826eb2a03",
-  "asked": "2026-11-10T12:41:49-06:00",
+  "hash": "112d02fa23e97a1462206f5b0f72cf8be42b1da5",
+  "asked": "2026-11-10T20:47:49-06:00",
   "on": "2026-11-10",
   "events": [
-   {
-    "title": "Teen Creativity Club",
-    "date": "2026-11-10",
-    "start": "16:00",
-    "end": "18:00",
-    "price": null,
-    "description": "Library program for teens (ages 13-18 per page age group: Teens).",
-    "category": "other"
-   },
    {
     "title": "Virtual Author Talk with Paul Vigna",
     "date": "2026-11-11",
     "start": "13:00",
     "end": "14:00",
     "price": null,
-    "description": "Virtual author talk for adults.",
+    "description": "Virtual author talk with Paul Vigna, for adults.",
     "category": "other"
    },
    {
@@ -2420,7 +2392,7 @@
     "start": "13:30",
     "end": "14:30",
     "price": null,
-    "description": "Book club for adults.",
+    "description": "Library book club for adults.",
     "category": "other"
    },
    {
@@ -2429,7 +2401,7 @@
     "start": "15:15",
     "end": "16:15",
     "price": null,
-    "description": "Reading session with a dog for children ages 5-12.",
+    "description": "Reading session with a dog, for children ages 5 to 12.",
     "category": "other"
    },
    {
@@ -2438,7 +2410,16 @@
     "start": "17:00",
     "end": "17:30",
     "price": null,
-    "description": "Spanish-language storytime for families and children ages 0-5.",
+    "description": "Spanish-language storytime for families and children ages 0 to 5.",
+    "category": "other"
+   },
+   {
+    "title": "Mosaic Art with Savannah Roy: Candle Trays",
+    "date": "2026-11-11",
+    "start": "18:00",
+    "end": "20:00",
+    "price": null,
+    "description": "Mosaic art workshop making candle trays with Savannah Roy, for adults.",
     "category": "other"
    }
   ]

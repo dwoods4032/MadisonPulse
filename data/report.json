@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-10T12:42:22-06:00",
+ "generated_at": "2026-11-10T20:48:23-06:00",
  "venues_checked": 237,
- "venues_with_events": 65,
+ "venues_with_events": 66,
  "venues_with_feeds": 87,
- "events": 244,
- "filtered_out": 184,
+ "events": 400,
+ "filtered_out": 197,
  "venues": [
   {
    "name": "AI page reading",
@@ -13,12 +13,22 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 200,
+   "raw_events": 184,
    "error": "",
    "calls": 19,
-   "tokens_in": 45229,
-   "tokens_out": 21729,
-   "est_cost_usd": 0.0154
+   "tokens_in": 35315,
+   "tokens_out": 13490,
+   "est_cost_usd": 0.0103
+  },
+  {
+   "name": "Isthmus calendar",
+   "kind": "source",
+   "website": "https://isthmus.com/search/event/calendar-of-events/calendar.ics",
+   "feeds": [
+    "calendar"
+   ],
+   "raw_events": 182,
+   "error": ""
   },
   {
    "name": "Bayview Community Center",
@@ -121,9 +131,9 @@
    "error": ""
   },
   {
-   "name": "High Noon Saloon",
+   "name": "Harmony Bar & Grill",
    "kind": "bar",
-   "website": "https://www.high-noon.com/",
+   "website": "https://www.harmonybarandgrill.com/",
    "feeds": [
     "ai"
    ],
@@ -131,29 +141,19 @@
    "error": ""
   },
   {
-   "name": "Harmony Bar & Grill",
+   "name": "High Noon Saloon",
    "kind": "bar",
-   "website": "https://www.harmonybarandgrill.com/",
+   "website": "https://www.high-noon.com/",
    "feeds": [
     "ai"
    ],
-   "raw_events": 15,
+   "raw_events": 14,
    "error": ""
   },
   {
    "name": "Arts + Literature Laboratory",
    "kind": "venue",
    "website": "https://artlitlab.org/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 13,
-   "error": ""
-  },
-  {
-   "name": "The Kickback",
-   "kind": "bar",
-   "website": "https://thekickback.bar/",
    "feeds": [
     "ai"
    ],
@@ -175,9 +175,9 @@
    "error": ""
   },
   {
-   "name": "Lazy Oaf Lounge",
+   "name": "The Kickback",
    "kind": "bar",
-   "website": "https://www.lazyoaflounge.com/",
+   "website": "https://thekickback.bar/",
    "feeds": [
     "ai"
    ],
@@ -239,26 +239,6 @@
    "error": ""
   },
   {
-   "name": "Imagination Center",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 7,
-   "error": ""
-  },
-  {
-   "name": "Monroe Street Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/monroe-street",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 7,
-   "error": ""
-  },
-  {
    "name": "One Social Bar",
    "kind": "bar",
    "website": "https://onesocialmadison.com/vendor/one-social-bar/",
@@ -270,13 +250,13 @@
    "error": ""
   },
   {
-   "name": "Pinney Library",
+   "name": "Alicia Ashman Library",
    "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
+   "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
    "feeds": [
     "ai"
    ],
-   "raw_events": 7,
+   "raw_events": 6,
    "error": ""
   },
   {
@@ -300,13 +280,33 @@
    "error": ""
   },
   {
-   "name": "Alicia Ashman Library",
+   "name": "Imagination Center",
    "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
+   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
    "feeds": [
     "ai"
    ],
-   "raw_events": 5,
+   "raw_events": 6,
+   "error": ""
+  },
+  {
+   "name": "Monroe Street Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/monroe-street",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 6,
+   "error": ""
+  },
+  {
+   "name": "Pinney Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 6,
    "error": ""
   },
   {
@@ -403,16 +403,6 @@
     "jsonld"
    ],
    "raw_events": 4,
-   "error": ""
-  },
-  {
-   "name": "Capital Brewery",
-   "kind": "brewery",
-   "website": "https://www.capital-brewery.com/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 3,
    "error": ""
   },
   {
@@ -515,9 +505,9 @@
    "error": ""
   },
   {
-   "name": "Central Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/central",
+   "name": "Capital Brewery",
+   "kind": "brewery",
+   "website": "https://www.capital-brewery.com/",
    "feeds": [
     "ai"
    ],
@@ -560,6 +550,16 @@
    "name": "Flight Wine & Bourbon Bar",
    "kind": "bar",
    "website": "https://flightwi.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 2,
+   "error": ""
+  },
+  {
+   "name": "Italian Workmen's Club",
+   "kind": "community",
+   "website": "https://iwcmadison.com/",
    "feeds": [
     "ai"
    ],
@@ -638,6 +638,16 @@
    "error": ""
   },
   {
+   "name": "Central Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/central",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 1,
+   "error": ""
+  },
+  {
    "name": "Doundrins Distilling",
    "kind": "brewery",
    "website": "https://doundrinsdistilling.com/",
@@ -668,16 +678,6 @@
    "error": ""
   },
   {
-   "name": "Italian Workmen's Club",
-   "kind": "community",
-   "website": "https://iwcmadison.com/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 1,
-   "error": ""
-  },
-  {
    "name": "Karben4 Brewing",
    "kind": "brewery",
    "website": "https://www.karben4.com/",
@@ -693,6 +693,16 @@
    "website": "https://www.quiveysgrove.com/stable-grill",
    "feeds": [
     "jsonld"
+   ],
+   "raw_events": 1,
+   "error": ""
+  },
+  {
+   "name": "Sequoya Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/sequoya",
+   "feeds": [
+    "ai"
    ],
    "raw_events": 1,
    "error": ""
@@ -1251,16 +1261,6 @@
    "error": ""
   },
   {
-   "name": "Isthmus calendar",
-   "kind": "source",
-   "website": "https://isthmus.com/search/event/calendar-of-events/calendar.ics",
-   "feeds": [
-    "calendar"
-   ],
-   "raw_events": 0,
-   "error": "could not connect (ReadTimeout)"
-  },
-  {
    "name": "Java Cat",
    "kind": "cafe",
    "website": "https://javacatmadison.com/",
@@ -1291,6 +1291,14 @@
    "feeds": [],
    "raw_events": 0,
    "error": ""
+  },
+  {
+   "name": "Lazy Oaf Lounge",
+   "kind": "bar",
+   "website": "https://www.lazyoaflounge.com/",
+   "feeds": [],
+   "raw_events": 0,
+   "error": "ai: SSLError: HTTPSConnectionPool(host='www.lazyoaflounge.com', port=443): Max retries exceeded with url: /events (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred i; ai: SSLError: HTTPSConnectionPool(host='www.lazyoaflounge.com', port=443): Max retries exceeded with url: /specials (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred"
   },
   {
    "name": "LeC's Patisserie & Tea House",
@@ -1371,7 +1379,7 @@
   {
    "name": "Madison Chocolate Company",
    "kind": "cafe",
-   "website": "https://madisonchocolate.com",
+   "website": "https://www.madisonchocolatecompany.com",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1379,7 +1387,7 @@
   {
    "name": "Madison Chocolate Company",
    "kind": "cafe",
-   "website": "https://www.madisonchocolatecompany.com",
+   "website": "https://madisonchocolate.com",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1669,14 +1677,6 @@
    "error": ""
   },
   {
-   "name": "Sequoya Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/sequoya",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
    "name": "Settle Down Tavern",
    "kind": "bar",
    "website": "https://www.settledownmadison.com/",
@@ -1713,7 +1713,7 @@
   {
    "name": "Starbucks",
    "kind": "cafe",
-   "website": "https://www.starbucks.com/store-locator/store/12525/university-north-blackhawk-3515-university-avenue-madison-wi-537052140-us",
+   "website": "https://www.starbucks.com/store-locator/store/16495/south-gammon-mineral-point-434-gammon-place-3-madison-wi-537191090-us",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1721,7 +1721,7 @@
   {
    "name": "Starbucks",
    "kind": "cafe",
-   "website": "https://www.starbucks.com/store-locator/store/16495/south-gammon-mineral-point-434-gammon-place-3-madison-wi-537191090-us",
+   "website": "https://www.starbucks.com/store-locator/store/12525/university-north-blackhawk-3515-university-avenue-madison-wi-537052140-us",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1868,7 +1868,7 @@
    "website": "https://www.tenpinalleys.com/",
    "feeds": [],
    "raw_events": 0,
-   "error": ""
+   "error": "ai: SSLError: HTTPSConnectionPool(host='www.tenpinalleys.com', port=443): Max retries exceeded with url: /childrens-entertainment-oregon-wi (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHI"
   },
   {
    "name": "The Bubbling Teapot",

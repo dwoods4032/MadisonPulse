@@ -2099,11 +2099,6 @@
   "why": "",
   "checked": "2026-11-03T21:02:33.960153-06:00"
  },
- "https://www.ticketmaster.com/event/Z7r9jZ1AAvg8U": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-04T12:40:33.530741-06:00"
- },
  "https://www.ticketmaster.com/fruitionsomething-more-tour-madison-wisconsin-11-10-2026/event/070064CCF05C831E": {
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
@@ -3764,11 +3759,6 @@
   "why": "",
   "checked": "2026-11-09T15:31:30.867303-06:00"
  },
- "https://www.lazyoaflounge.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-09T15:31:30.948801-06:00"
- },
  "https://www.veronawi.gov/941/Community-Center": {
   "ok": true,
   "why": "",
@@ -3838,5 +3828,90 @@
   "ok": true,
   "why": "",
   "checked": "2026-11-10T12:42:22.695000-06:00"
+ },
+ "https://www.barnwoodeventswi.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-10T20:48:25.202816-06:00"
+ },
+ "https://www.madisonpubliclibrary.org/locations/imagination-center": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-10T20:48:25.202862-06:00"
+ },
+ "https://www.mickeysmadison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-10T20:48:25.202870-06:00"
+ },
+ "https://www.madisonpubliclibrary.org/locations/pinney-library": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-10T20:48:25.202875-06:00"
+ },
+ "https://javacatmadison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-10T20:48:25.202880-06:00"
+ },
+ "https://www.settledownmadison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-10T20:48:25.202885-06:00"
+ },
+ "https://www.sunprairiepubliclibrary.org/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-10T20:48:25.202890-06:00"
+ },
+ "https://www.workingdraftbeer.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-10T20:48:25.202895-06:00"
+ },
+ "https://www.youngbloodbeerco.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-10T20:48:25.202899-06:00"
+ },
+ "https://thebrassringmadison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-10T20:48:25.202904-06:00"
+ },
+ "https://statestreetbrats.com/event/lakers-bucks-20261111/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-10T20:48:25.474637-06:00"
+ },
+ "https://www.madisoncomedy.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-10T20:48:25.474662-06:00"
+ },
+ "https://communicationmadison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-10T20:48:25.474668-06:00"
+ },
+ "https://bayviewfoundation.org/event/zumba/2026-11-24/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-10T20:48:25.474673-06:00"
+ },
+ "https://iwcmadison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-10T20:48:28.607292-06:00"
+ },
+ "https://www.cafecoda.club/events-1/tango-classsocial-by-madison-tango-society-tybcn-cpa6k-d3s5m-tzwnl-x3hj8-cp48m-z5lgd-c6kyy-dxfs6-f8rrm-ynaa6-pdnf2-5c27n-aafxh-t5ajm-tshpj-hdb66-b4z7r-4ekt8-kxt45-x8kpd": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-10T20:48:28.607319-06:00"
+ },
+ "https://www.ticketmaster.com/event/Z7r9jZ1A7x_77": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-11-10T20:48:28.607326-06:00"
  }
 }
