@@ -1322,7 +1322,7 @@
     ]
    ],
    "bar": true,
-   "website_ok": null
+   "website_ok": true
   },
   {
    "group": "american",
@@ -4427,7 +4427,7 @@
    ],
    "bar": false,
    "image": "https://static.hugedomains.com/images/hdv3-img/og_hugedomains.png",
-   "website_ok": true
+   "website_ok": null
   },
   {
    "group": "italian",
@@ -7115,7 +7115,7 @@
    "bar": false,
    "menu_src": "restaurant homepage",
    "image": "https://www.jardin-madison.com/static/5a1034e6d74cffd6f6acdaa2/t/5aaacb5b8a922d7ea750c3a3/1521142620620/Jardin-Logo-Horizontal_format-1500w.jpg",
-   "website_ok": true
+   "website_ok": null
   },
   {
    "group": "italian",
@@ -7526,7 +7526,7 @@
     ]
    ],
    "bar": false,
-   "website_ok": true
+   "website_ok": null
   },
   {
    "group": "american",
@@ -8748,7 +8748,7 @@
    "menu": "",
    "hours": null,
    "bar": false,
-   "website_ok": true
+   "website_ok": false
   },
   {
    "group": "american",

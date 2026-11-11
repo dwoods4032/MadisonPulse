@@ -145,9 +145,9 @@
   "events": []
  },
  "https://gammaray.bar/shows/": {
-  "hash": "a8ddfb9895eb67d75634cdb81246a83248dce227",
-  "asked": "2026-11-10T20:46:43-06:00",
-  "on": "2026-11-10",
+  "hash": "c0234c401f6538ed07d173451ec9964e27947ae1",
+  "asked": "2026-11-11T12:42:10-06:00",
+  "on": "2026-11-11",
   "events": [
    {
     "title": "Friday the 13th Tribute Party Ft. PheRAMONES, Insomniacs (Green Day), TRAEFI(AFI)",
@@ -155,7 +155,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Tribute party featuring PheRAMONES, Insomniacs (Green Day) and TRAEFI (AFI). Doors 7pm.",
+    "description": "Tribute party with PheRAMONES, Insomniacs (Green Day) and TRAEFI (AFI). Doors 7pm.",
     "category": "music"
    },
    {
@@ -191,7 +191,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Gridlock album release show with Totally Cashed, M545, A Casual Ruckus and Party Vultures. Doors 7pm.",
+    "description": "Gridlock album release with Totally Cashed, M545, A Casual Ruckus and Party Vultures. Doors 7pm.",
     "category": "music"
    },
    {
@@ -307,26 +307,17 @@
   "events": []
  },
  "https://www.harmonybarandgrill.com/madison-atwood-the-harmony-bar-and-grill-events": {
-  "hash": "5efb7c0692212ad58483aefc38352af4fe93e8d7",
-  "asked": "2026-11-10T12:40:46-06:00",
-  "on": "2026-11-10",
+  "hash": "5bae164b8b6253697ce4b6f8b72ffc1485366193",
+  "asked": "2026-11-11T12:42:15-06:00",
+  "on": "2026-11-11",
   "events": [
-   {
-    "title": "The Sorry Mountain Band",
-    "date": "2026-11-10",
-    "start": "18:30",
-    "end": "20:30",
-    "price": 0,
-    "description": "Bluegrass, vintage country and swing with three-part vocal harmonies. No cover.",
-    "category": "music"
-   },
    {
     "title": "Annie & the Oakies",
     "date": "2026-11-11",
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Classic bluegrass-based band from members of the Oak Street Ramblers. No cover.",
+    "description": "Classic bluegrass from a band formed out of the Oak Street Ramblers. No cover.",
     "category": "music"
    },
    {
@@ -335,7 +326,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Madison band Canyon Arrow performs honky tonk music. No cover.",
+    "description": "Madison band Canyon Arrow. No cover.",
     "category": "music"
    },
    {
@@ -344,16 +335,16 @@
     "start": "21:00",
     "end": "00:00",
     "price": 10,
-    "description": "Cambridge, Wisconsin band blending 1980s MTV vibes with classic rock and blues.",
+    "description": "Cambridge, WI band blending 1980s MTV-style pop with classic rock and blues.",
     "category": "music"
    },
    {
-    "title": "Maria and the Coins with Bear in the Forest",
+    "title": "Maria and the Coins / Bear in the Forest",
     "date": "2026-11-14",
     "start": "21:00",
     "end": "00:00",
     "price": 10,
-    "description": "Minneapolis indie pop-rock band Maria and the Coins; Bear in the Forest opens.",
+    "description": "Minneapolis indie pop-rock band Maria and the Coins, with Bear in the Forest opening.",
     "category": "music"
    },
    {
@@ -362,7 +353,7 @@
     "start": "17:00",
     "end": "19:30",
     "price": 0,
-    "description": "Acoustic show by singer-songwriter Andy Ewen with bassist Doug DeRosa and guitarist Ryan Repenshek. No cover.",
+    "description": "Acoustic show by singer-songwriter Andy Ewen with bass and guitar. No cover.",
     "category": "music"
    },
    {
@@ -380,7 +371,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Monthly bluegrass series hosted by Soggy Prairie, with guest artists Lucky Pickers. No cover.",
+    "description": "Monthly bluegrass series hosted by Soggy Prairie, with guest band Lucky Pickers. No cover.",
     "category": "music"
    },
    {
@@ -407,7 +398,7 @@
     "start": "21:00",
     "end": "00:00",
     "price": 10,
-    "description": "Madison Rolling Stones tribute Loving Cup with Los Bad Hombres. 21+.",
+    "description": "Rolling Stones tribute Loving Cup and Los Bad Hombres. 21+.",
     "category": "music"
    },
    {
@@ -416,7 +407,7 @@
     "start": "16:00",
     "end": null,
     "price": 10,
-    "description": "Madison band playing traditional Cajun dance music. $10 suggested donation.",
+    "description": "Madison award-winning band playing traditional Cajun dance music. $10 suggested donation.",
     "category": "music"
    },
    {
@@ -425,7 +416,16 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Bluegrass-inspired band of Starr Moss, Trent Cuthbert, Michael Falk, Claire Kannapell and Paul Kienitz; a guest TBD is joining. No cover.",
+    "description": "Bluegrass-inspired band with traditional standards and originals; a guest TBD is joining this month. No cover.",
+    "category": "music"
+   },
+   {
+    "title": "Max Capacity & the Sellouts",
+    "date": "2026-11-25",
+    "start": "20:00",
+    "end": "22:30",
+    "price": 15,
+    "description": "1980s new wave and synth-pop party; 10th annual fundraiser for Second Harvest Food Bank. $15 suggested donation.",
     "category": "music"
    }
   ]
@@ -562,26 +562,17 @@
   ]
  },
  "https://high-noon.com/calendar/": {
-  "hash": "51868f1d0d0eed91ee8b6959a572ccf8053da58a",
-  "asked": "2026-11-10T12:40:46-06:00",
-  "on": "2026-11-10",
+  "hash": "2a4f885ab3ee54596a6971c7ac7f0e5fad8bedc0",
+  "asked": "2026-11-11T12:42:14-06:00",
+  "on": "2026-11-11",
   "events": [
-   {
-    "title": "Fruition with Gardener",
-    "date": "2026-11-10",
-    "start": "20:00",
-    "end": null,
-    "price": null,
-    "description": "FPC Live presents Fruition with Gardener. Doors 7pm.",
-    "category": "music"
-   },
    {
     "title": "Low Cut Connie with Free Dirt",
     "date": "2026-11-11",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents Low Cut Connie with Free Dirt. Doors 7pm.",
+    "description": "FPC Live show at High Noon Saloon; doors 7:00 pm",
     "category": "music"
    },
    {
@@ -590,7 +581,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents Mustard Plug with support. Doors 7pm.",
+    "description": "FPC Live show at High Noon Saloon; doors 7:00 pm",
     "category": "music"
    },
    {
@@ -599,7 +590,7 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents Hottt Probs, Heet Deth & Sex Scenes. Doors 6pm.",
+    "description": "FPC Live show at High Noon Saloon; doors 6:00 pm",
     "category": "music"
    },
    {
@@ -608,7 +599,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Shakira tribute show. Doors 7pm.",
+    "description": "FPC Live tribute show at High Noon Saloon; doors 7:00 pm",
     "category": "music"
    },
    {
@@ -617,7 +608,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents almost monday with feel trip. Sold out. Doors 7pm.",
+    "description": "FPC Live show at High Noon Saloon; sold out; doors 7:00 pm",
     "category": "music"
    },
    {
@@ -626,7 +617,7 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "FPC Live presents Ryan Jesse with Clayton Shay. Doors 6:30pm.",
+    "description": "FPC Live show at High Noon Saloon; doors 6:30 pm",
     "category": "music"
    },
    {
@@ -635,7 +626,7 @@
     "start": "19:00",
     "end": null,
     "price": 0,
-    "description": "Free Nerd Nite event. Doors 6pm.",
+    "description": "Free show at High Noon Saloon; doors 6:00 pm",
     "category": "other"
    },
    {
@@ -644,7 +635,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "WORT 89.9 FM presents Humbird with Bad Posture Club. Doors 7pm.",
+    "description": "WORT 89.9 FM presents show at High Noon Saloon; doors 7:00 pm",
     "category": "music"
    },
    {
@@ -653,7 +644,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Live music with Left Lane Cruiser, 20 Watt Tombstone and Electromag. Doors 7pm.",
+    "description": "Show at High Noon Saloon; doors 7:00 pm",
     "category": "music"
    },
    {
@@ -662,7 +653,7 @@
     "start": "11:30",
     "end": null,
     "price": 0,
-    "description": "Caravan performs modal jazz with Music con Brio students. Free, donations at door. Doors 11am.",
+    "description": "Free show (donations at door) featuring Caravan with Music con Brio students; doors 11:00 am",
     "category": "music"
    },
    {
@@ -671,7 +662,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents a Talking Heads tribute. Doors 7pm.",
+    "description": "FPC Live tribute show at High Noon Saloon; doors 7:00 pm",
     "category": "music"
    },
    {
@@ -680,7 +671,7 @@
     "start": "11:00",
     "end": null,
     "price": null,
-    "description": "MadFiddle live performance. Doors 10:15am.",
+    "description": "Show at High Noon Saloon; doors 10:15 am",
     "category": "music"
    },
    {
@@ -689,7 +680,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents The Gringos with Sheebie & The Lovemakers. Doors 7pm.",
+    "description": "FPC Live show at High Noon Saloon; doors 7:00 pm",
     "category": "music"
    }
   ]
@@ -702,8 +693,8 @@
  },
  "https://www.roxxybar.com/madison-events/": {
   "hash": "d265303bc2ced8ad9e4b7cf485251ebc545f1639",
-  "asked": "2026-11-08T11:04:21-06:00",
-  "on": "2026-11-08",
+  "asked": "2026-11-11T12:42:14-06:00",
+  "on": "2026-11-11",
   "events": []
  },
  "https://www.lazyoaflounge.com/specials": {
@@ -756,44 +747,35 @@
   "events": []
  },
  "https://www.harmonybarandgrill.com/madison-atwood-the-harmony-bar-and-grill-happy-hours-specials": {
-  "hash": "ca9df69a32acd3f0ce23eac34d552fc3ffbd63d0",
-  "asked": "2026-11-09T22:40:28-06:00",
-  "on": "2026-11-09",
+  "hash": "de85ddf1817c729b12180ff07bde39df39036b67",
+  "asked": "2026-11-11T12:42:19-06:00",
+  "on": "2026-11-11",
   "events": [
    {
-    "title": "Friday Fish Fry",
+    "title": "Friday Fish Fry!",
     "date": "2026-11-13",
     "start": "11:00",
     "end": "22:00",
     "price": null,
-    "description": "Friday Fish Fry at The Harmony Bar and Grill.",
+    "description": "Friday fish fry special at The Harmony Bar and Grill.",
     "category": "food"
    },
    {
-    "title": "David Landau Kids Show",
-    "date": "2026-11-09",
-    "start": "17:30",
-    "end": "18:30",
-    "price": 5.0,
-    "description": "Weekly Monday kids show with David Landau, $5.00.",
-    "category": "music"
-   },
-   {
-    "title": "David Landau Kids Show",
+    "title": "David Landau Kids Show!",
     "date": "2026-11-16",
     "start": "17:30",
     "end": "18:30",
     "price": 5.0,
-    "description": "Weekly Monday kids show with David Landau, $5.00.",
+    "description": "Every Monday kids show with David Landau at The Harmony Bar and Grill.",
     "category": "music"
    },
    {
-    "title": "David Landau Kids Show",
+    "title": "David Landau Kids Show!",
     "date": "2026-11-23",
     "start": "17:30",
     "end": "18:30",
     "price": 5.0,
-    "description": "Weekly Monday kids show with David Landau, $5.00.",
+    "description": "Every Monday kids show with David Landau at The Harmony Bar and Grill.",
     "category": "music"
    }
   ]
@@ -1350,9 +1332,9 @@
   "events": []
  },
  "https://colectivo.com/pages/on-the-square": {
-  "hash": "c3813798f007237607e37026773bc022bc8580fa",
-  "asked": "2026-11-09T15:27:46-06:00",
-  "on": "2026-11-09",
+  "hash": "3ae5f26864a3bf3596a39c57df708278495ce5df",
+  "asked": "2026-11-11T12:42:28-06:00",
+  "on": "2026-11-11",
   "events": []
  },
  "https://union.wisc.edu/events-and-activities": {
@@ -1368,9 +1350,9 @@
   "events": []
  },
  "https://colectivo.com/pages/monroe-street": {
-  "hash": "f21eab436e4c5f9eaa6c28b2384c4dd9fb0faf10",
-  "asked": "2026-11-09T15:27:45-06:00",
-  "on": "2026-11-09",
+  "hash": "9892b266187b17da7f1159e8259f5ca702113a62",
+  "asked": "2026-11-11T12:42:29-06:00",
+  "on": "2026-11-11",
   "events": []
  },
  "https://colectivo.com/pages/madison-cafes": {
@@ -1429,9 +1411,9 @@
   ]
  },
  "https://merciescoffeewi.com/": {
-  "hash": "f6505abc10749381be283c72d7ec1b02641014d0",
-  "asked": "2026-11-10T20:47:11-06:00",
-  "on": "2026-11-10",
+  "hash": "3a8859e0fa6692adc09465f2a3f797d24a841c79",
+  "asked": "2026-11-11T12:42:41-06:00",
+  "on": "2026-11-11",
   "events": []
  },
  "https://motherfools.com/event/20261106/mad-city-story-slam-rebellion": {
@@ -1697,9 +1679,9 @@
   "events": []
  },
  "https://www.madisonpubliclibrary.org/spaces/events": {
-  "hash": "a0d92ea467cbd7e1964d8b78b1971ee24c4cbfa6",
-  "asked": "2026-11-10T20:47:46-06:00",
-  "on": "2026-11-10",
+  "hash": "7e49329ebb457f1c41d351bdbf78b00bad2e94f5",
+  "asked": "2026-11-11T12:43:14-06:00",
+  "on": "2026-11-11",
   "events": []
  },
  "https://ebling.library.wisc.edu/ebling-library-classes-events/": {
@@ -1826,50 +1808,40 @@
   "events": []
  },
  "https://escmadison.com/events": {
-  "hash": "e15e4dd79bd9cf60d262c9af73c88fd8b2dfe43b",
-  "asked": "2026-11-08T11:05:20-06:00",
-  "on": "2026-11-08",
+  "hash": "0c7a3ad44bcce5505880f2229eebf42fe543fd42",
+  "asked": "2026-11-11T12:43:12-06:00",
+  "on": "2026-11-11",
   "events": [
-   {
-    "title": "Open Mic w/ Martin Hunt",
-    "date": "2026-11-10",
-    "start": "18:00",
-    "end": "21:00",
-    "price": 0,
-    "description": "Host Martin Hunt's open mic, open to all musical skill levels. Bar opens at 5:00pm; food available from the grill.",
-    "category": "open_mic"
-   },
    {
     "title": "Open Mic w/ Martin Hunt",
     "date": "2026-11-17",
     "start": "18:00",
     "end": "21:00",
     "price": 0,
-    "description": "Host Martin Hunt's open mic, open to all musical skill levels. Bar opens at 5:00pm; food available from the grill.",
+    "description": "Host Martin Hunt's open mic for all skill levels; free, food available from the grill.",
+    "category": "open_mic"
+   },
+   {
+    "title": "Open Mic w/ Martin Hunt",
+    "date": "2026-11-24",
+    "start": "18:00",
+    "end": "21:00",
+    "price": 0,
+    "description": "Host Martin Hunt's open mic for all skill levels; free, food available from the grill.",
     "category": "open_mic"
    }
   ]
  },
  "https://www.madisonpubliclibrary.org/spaces/events/search": {
-  "hash": "069d3ff411a429b0d32161ebb41d4d48e9b1567f",
-  "asked": "2026-11-10T20:47:45-06:00",
-  "on": "2026-11-10",
-  "events": [
-   {
-    "title": "Read & Breathe: A Mindful Storytime for all ages",
-    "date": "2026-11-11",
-    "start": "10:30",
-    "end": "11:15",
-    "price": null,
-    "description": "Storytime with playful mindfulness practices for children and caregivers to do together. Comfy clothing encouraged.",
-    "category": "other"
-   }
-  ]
+  "hash": "432420d644f9e0caa29d676574c7ee30c5c7f71a",
+  "asked": "2026-11-11T12:43:28-06:00",
+  "on": "2026-11-11",
+  "events": []
  },
  "https://artlitlab.org/calendar": {
-  "hash": "911ea6c710556fad164c6c024c84d1e239e758f6",
-  "asked": "2026-11-10T20:47:49-06:00",
-  "on": "2026-11-10",
+  "hash": "4fcd7dedbc80487e4b21a12ef13ac29e19c6b0b6",
+  "asked": "2026-11-11T12:43:15-06:00",
+  "on": "2026-11-11",
   "events": [
    {
     "title": "Project Projection: Local Animation",
@@ -1877,7 +1849,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Local animation screening presented at Arts + Literature Laboratory.",
+    "description": "Screening of local animation at Arts + Literature Laboratory.",
     "category": "film"
    },
    {
@@ -1940,7 +1912,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Literary reading, November Watershed.",
+    "description": "November Watershed literary reading.",
     "category": "other"
    },
    {
@@ -1955,26 +1927,17 @@
   ]
  },
  "https://bartelltheatre.org/": {
-  "hash": "8c6f167ad0f19ba25c633bd382998a1639f11f38",
-  "asked": "2026-11-10T20:47:56-06:00",
-  "on": "2026-11-10",
+  "hash": "e487d70294a2a5252dfaef7abc29a10ae4f6e8d4",
+  "asked": "2026-11-11T12:43:26-06:00",
+  "on": "2026-11-11",
   "events": [
-   {
-    "title": "A Valentine's Affair 2027 Auditions",
-    "date": "2026-11-10",
-    "start": "18:30",
-    "end": null,
-    "price": null,
-    "description": "Last audition for A Valentine's Affair 2027.",
-    "category": "other"
-   },
    {
     "title": "The Moors",
     "date": "2026-11-12",
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "Dark comedy about two sisters, a dog, and a hapless governess on the English moors.",
+    "description": "Dark comedy about two sisters and a dog on the English moors, with a hapless governess and a moor-hen.",
     "category": "theater"
    },
    {
@@ -1983,7 +1946,7 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "Shakespeare's tragedy of two young lovers caught between feuding families.",
+    "description": "The Capulets, Montagues, and two young lovers in Shakespeare's tragedy.",
     "category": "theater"
    },
    {
@@ -1992,7 +1955,7 @@
     "start": "12:00",
     "end": null,
     "price": null,
-    "description": "Final performance (closing) of Saturday Scene Study.",
+    "description": "Closing Saturday Scene Study, as listed on the Bartell Theatre site.",
     "category": "theater"
    }
   ]
@@ -2183,9 +2146,9 @@
   "events": []
  },
  "https://www.veronapubliclibrary.org/": {
-  "hash": "44eaa9cc1126b4743a1e742a3b75bc46f8f0b7f5",
-  "asked": "2026-11-10T20:47:43-06:00",
-  "on": "2026-11-10",
+  "hash": "cebdca0eb9130e8db60ab99e5877a8718d861619",
+  "asked": "2026-11-11T12:43:10-06:00",
+  "on": "2026-11-11",
   "events": [
    {
     "title": "Late Fall Story Times",
@@ -2193,7 +2156,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Ongoing story times return at Verona Public Library.",
+    "description": "Ongoing library story times return on Monday, November 16.",
     "category": "other"
    }
   ]
@@ -2212,21 +2175,31 @@
  },
  "https://comebackintavern.com/events/": {
   "hash": "31d87c3411648855f79e5de9d2d3cb1b51c195e6",
-  "asked": "2026-11-08T11:04:18-06:00",
-  "on": "2026-11-08",
+  "asked": "2026-11-11T12:42:10-06:00",
+  "on": "2026-11-11",
   "events": []
  },
  "https://comebackintavern.com/events/category/events/": {
   "hash": "c47f0cb54889b41f9e1f43c5239935df27cba668",
-  "asked": "2026-11-08T11:04:19-06:00",
-  "on": "2026-11-08",
+  "asked": "2026-11-11T12:42:11-06:00",
+  "on": "2026-11-11",
   "events": []
  },
  "https://high-noon.com/event/dogpark/": {
-  "hash": "ab38d8588fb0a078f56f30722c4a26f6452711fd",
-  "asked": "2026-11-10T20:46:45-06:00",
-  "on": "2026-11-10",
-  "events": []
+  "hash": "b13090a1aa771ab04cc421f56c2add2cb1d7f80b",
+  "asked": "2026-11-11T12:42:18-06:00",
+  "on": "2026-11-11",
+  "events": [
+   {
+    "title": "Houses In Motion (Talking Heads Tribute)",
+    "date": "2026-11-21",
+    "start": "20:00",
+    "end": null,
+    "price": null,
+    "description": "Talking Heads tribute show at High Noon Saloon, presented by FPC Live. Doors 7:00 pm.",
+    "category": "music"
+   }
+  ]
  },
  "https://thekickback.bar/premier-trivia-tuesday-nov-3/": {
   "hash": "25992f3a707c36f4ebbe1a9a479acec37b4b7959",
@@ -2425,9 +2398,9 @@
   ]
  },
  "https://ctmtheater.org/see-a-show/2023-2024-season-calendar/": {
-  "hash": "6915e8b7a16e1f5a182c86954b5eef672527cb0f",
-  "asked": "2026-11-09T15:30:29-06:00",
-  "on": "2026-11-09",
+  "hash": "93a9ee6e5c33c17533daba7e613211df44481233",
+  "asked": "2026-11-11T12:43:23-06:00",
+  "on": "2026-11-11",
   "events": []
  },
  "https://ctmtheater.org/see-a-show-pre-season/": {
