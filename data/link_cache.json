@@ -2099,36 +2099,6 @@
   "why": "",
   "checked": "2026-11-11T12:44:03.156496-06:00"
  },
- "https://thelonegirl.com/event/lone-girl-brewing-wednesday-trivia/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-11T21:50:10.615756-06:00"
- },
- "https://www.theatwoodmusichall.com/shows/2026-11-11": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-11T21:50:10.615785-06:00"
- },
- "https://www.cafecoda.club/events-1/jumptown-swing-pdfmn-59jkp-yjsp4-fbnmd-mlydx-t82hk-cxh26-yjmcz-24589-r35gr-bj2kg-w8zz3-rycxr-9jdhz-9zrws-lb23r": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-11T21:50:10.615793-06:00"
- },
- "https://www.ticketmaster.com/dr-neil-degrasse-tyson-search-for-madison-wisconsin-11-11-2026/event/0700648217A5C23C": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-11T21:50:10.615800-06:00"
- },
- "https://www.ticketmaster.com/low-cut-connie-madison-wisconsin-11-11-2026/event/0700648ACF826844": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-11T21:50:10.615806-06:00"
- },
- "https://www.ticketmaster.com/day-made-tour-ft-big-red-madison-wisconsin-11-11-2026/event/070064FEA670411C": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-11T21:50:12.024440-06:00"
- },
  "https://www.capital-brewery.com/": {
   "ok": true,
   "why": "",
@@ -3159,11 +3129,6 @@
   "why": "",
   "checked": "2026-11-07T10:53:41.331025-06:00"
  },
- "https://www.theatwoodmusichall.com/shows/2026-11-13": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-07T10:53:41.331033-06:00"
- },
  "https://www.cafecoda.club/events-1/gabriel-wade-arun-lthr-quintet": {
   "ok": true,
   "why": "",
@@ -3499,11 +3464,6 @@
   "why": "",
   "checked": "2026-11-11T21:50:12.024485-06:00"
  },
- "https://www.madisoncomedy.com/event/mic-on-state/2026-11-11/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-05T12:48:30.839765-06:00"
- },
  "https://www.gibs.bar/event-calendar/2026/11/19/live-music-acid-tofu": {
   "ok": true,
   "why": "",
@@ -3804,11 +3764,6 @@
   "why": "",
   "checked": "2026-11-10T12:42:22.695000-06:00"
  },
- "https://www.barnwoodeventswi.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-10T20:48:25.202816-06:00"
- },
  "https://www.madisonpubliclibrary.org/locations/imagination-center": {
   "ok": true,
   "why": "",
@@ -3824,30 +3779,10 @@
   "why": "",
   "checked": "2026-11-10T20:48:25.202875-06:00"
  },
- "https://javacatmadison.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-10T20:48:25.202880-06:00"
- },
- "https://www.settledownmadison.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-10T20:48:25.202885-06:00"
- },
  "https://www.sunprairiepubliclibrary.org/": {
   "ok": true,
   "why": "",
   "checked": "2026-11-10T20:48:25.202890-06:00"
- },
- "https://www.workingdraftbeer.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-10T20:48:25.202895-06:00"
- },
- "https://www.youngbloodbeerco.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-10T20:48:25.202899-06:00"
  },
  "https://thebrassringmadison.com/": {
   "ok": true,
@@ -3953,5 +3888,40 @@
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
   "checked": "2026-11-11T21:50:15.290888-06:00"
+ },
+ "https://herbiery.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-12T12:57:44.981852-06:00"
+ },
+ "https://www.cruciblemadison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-12T12:57:44.981883-06:00"
+ },
+ "https://www.northstreetcabaret.com/": {
+  "ok": null,
+  "why": "robots.txt asks bots not to visit",
+  "checked": "2026-11-12T12:57:44.981892-06:00"
+ },
+ "https://rootedwi.org/badger-rock-neighborhood-center/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-12T12:57:45.697672-06:00"
+ },
+ "https://www.arthouse360.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-12T12:57:45.697703-06:00"
+ },
+ "https://statestreetbrats.com/event/bucks-magic-20261113/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-12T12:57:45.697713-06:00"
+ },
+ "https://www.madisoncomedy.com/event/mic-on-state/2026-11-18/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-12T12:57:45.697721-06:00"
  }
 }

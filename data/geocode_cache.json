@@ -959,5 +959,30 @@
   "lon": -89.511412,
   "address": "1821 Parmenter Street",
   "city": "Middleton"
+ },
+ "first congregational united church of christ": {
+  "lat": 42.680041,
+  "lon": -89.026582,
+  "address": "54 South Jackson Street",
+  "city": "Janesville"
+ },
+ "stoughton village players theater": {
+  "lat": 42.916599,
+  "lon": -89.218444,
+  "address": "255 East Main Street",
+  "city": "Stoughton"
+ },
+ "life center madison": {
+  "lat": 43.054082,
+  "lon": -89.497441,
+  "address": "Grand Canyon Drive",
+  "city": "Madison"
+ },
+ "attic angel association": null,
+ "fluno center": {
+  "lat": 43.072807,
+  "lon": -89.396578,
+  "address": "North Frances Street",
+  "city": "Madison"
  }
 }
