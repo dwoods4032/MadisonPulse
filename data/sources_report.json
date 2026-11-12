@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-11-11T12:43:49-06:00",
- "total_events": 413,
+ "generated_at": "2026-11-11T21:50:08-06:00",
+ "total_events": 419,
  "in_more_than_one_source": 17,
  "sources": {
   "AI page reading": {
-   "events": 140,
-   "unique_events": 126,
+   "events": 141,
+   "unique_events": 127,
    "overlap": {
     "Isthmus": 2,
     "Ticketmaster": 13,
     "Venue websites": 0
    },
-   "venues": 36,
+   "venues": 35,
    "unique_venues": [
     "Aftershock Classic Arcade",
     "Bartell Theatre",
@@ -28,7 +28,6 @@
     "Lazy Oaf Lounge",
     "Madison Youth Arts (MYArts)",
     "Monkeyshines Bar & Grill",
-    "Monroe Street Library",
     "Mother Fool's",
     "Old Sugar Distillery",
     "Oscar Rennebohm Library",
@@ -44,20 +43,19 @@
    ]
   },
   "Isthmus": {
-   "events": 169,
-   "unique_events": 165,
+   "events": 167,
+   "unique_events": 163,
    "overlap": {
     "AI page reading": 2,
     "Ticketmaster": 1,
     "Venue websites": 2
    },
-   "venues": 73,
+   "venues": 72,
    "unique_venues": [
     "American Players Theatre",
     "Barnwood Events",
     "Brass Ring",
     "Buffalo Wild Wings - Monona",
-    "Burr Jones Field",
     "Columbus Sportsman's Association",
     "Communication",
     "Diamond Way Buddhist Center",
@@ -115,8 +113,8 @@
    ]
   },
   "Ticketmaster": {
-   "events": 50,
-   "unique_events": 36,
+   "events": 52,
+   "unique_events": 38,
    "overlap": {
     "AI page reading": 13,
     "Isthmus": 1,
@@ -134,8 +132,8 @@
    ]
   },
   "Venue websites": {
-   "events": 72,
-   "unique_events": 69,
+   "events": 77,
+   "unique_events": 74,
    "overlap": {
     "AI page reading": 0,
     "Isthmus": 2,

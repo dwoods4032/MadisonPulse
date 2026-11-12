@@ -145,8 +145,8 @@
   "events": []
  },
  "https://gammaray.bar/shows/": {
-  "hash": "c0234c401f6538ed07d173451ec9964e27947ae1",
-  "asked": "2026-11-11T12:42:10-06:00",
+  "hash": "46e6a3566285f813576b909f56743e597a948cc1",
+  "asked": "2026-11-11T21:48:50-06:00",
   "on": "2026-11-11",
   "events": [
    {
@@ -201,6 +201,15 @@
     "end": null,
     "price": null,
     "description": "Show with Clean Plate Club, Becca Murray & The Wildflowers and AuroNova. Doors 6pm.",
+    "category": "music"
+   },
+   {
+    "title": "Slug Rug w/ Dicot",
+    "date": "2026-11-23",
+    "start": "20:00",
+    "end": null,
+    "price": null,
+    "description": "Show with Slug Rug and Dicot. Doors 7pm.",
     "category": "music"
    }
   ]
@@ -307,8 +316,8 @@
   "events": []
  },
  "https://www.harmonybarandgrill.com/madison-atwood-the-harmony-bar-and-grill-events": {
-  "hash": "5bae164b8b6253697ce4b6f8b72ffc1485366193",
-  "asked": "2026-11-11T12:42:15-06:00",
+  "hash": "985a7226aea1f1e8075910bf43fc2e59be0a7755",
+  "asked": "2026-11-11T21:48:54-06:00",
   "on": "2026-11-11",
   "events": [
    {
@@ -317,7 +326,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Classic bluegrass from a band formed out of the Oak Street Ramblers. No cover.",
+    "description": "Classic bluegrass band with roots in the Oak Street Ramblers. No cover.",
     "category": "music"
    },
    {
@@ -326,7 +335,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Madison band Canyon Arrow. No cover.",
+    "description": "Madison bandmembers with pedal steel and honky-tonk sound. No cover.",
     "category": "music"
    },
    {
@@ -335,16 +344,16 @@
     "start": "21:00",
     "end": "00:00",
     "price": 10,
-    "description": "Cambridge, WI band blending 1980s MTV-style pop with classic rock and blues.",
+    "description": "Cambridge, WI band blending 1980s MTV vibes with classic rock and blues.",
     "category": "music"
    },
    {
-    "title": "Maria and the Coins / Bear in the Forest",
+    "title": "Maria and the Coins/Bear in the Forest",
     "date": "2026-11-14",
     "start": "21:00",
     "end": "00:00",
     "price": 10,
-    "description": "Minneapolis indie pop-rock band Maria and the Coins, with Bear in the Forest opening.",
+    "description": "Minneapolis indie pop-rock band Maria and the Coins; Bear in the Forest opens.",
     "category": "music"
    },
    {
@@ -353,7 +362,7 @@
     "start": "17:00",
     "end": "19:30",
     "price": 0,
-    "description": "Acoustic show by singer-songwriter Andy Ewen with bass and guitar. No cover.",
+    "description": "Acoustic show with singer-songwriter Andy Ewen, Doug DeRosa on bass and Ryan Repenshek on guitar. No cover.",
     "category": "music"
    },
    {
@@ -371,7 +380,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Monthly bluegrass series hosted by Soggy Prairie, with guest band Lucky Pickers. No cover.",
+    "description": "Monthly Tuesday bluegrass series hosted by Soggy Prairie, with guest Lucky Pickers. No cover.",
     "category": "music"
    },
    {
@@ -389,7 +398,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Season 2, Episode 2 of the round-robin songwriter showcase hosted by JT Spartz, featuring Annie Emmenegger, Jason Edward and JT Spartz. No cover.",
+    "description": "Season 2, Episode 2 round-robin songwriter showcase hosted by JT Spartz, featuring Annie Emmenegger, Jason Edward and JT Spartz. No cover.",
     "category": "music"
    },
    {
@@ -404,8 +413,8 @@
    {
     "title": "The Cajun Strangers",
     "date": "2026-11-22",
-    "start": "16:00",
-    "end": null,
+    "start": "17:00",
+    "end": "19:30",
     "price": 10,
     "description": "Madison award-winning band playing traditional Cajun dance music. $10 suggested donation.",
     "category": "music"
@@ -416,7 +425,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Bluegrass-inspired band with traditional standards and originals; a guest TBD is joining this month. No cover.",
+    "description": "Bluegrass-inspired band of Starr Moss, Trent Cuthbert, Michael Falk, Claire Kannapell and Paul Kienitz; a TBD guest joins. No cover.",
     "category": "music"
    },
    {
@@ -425,7 +434,7 @@
     "start": "20:00",
     "end": "22:30",
     "price": 15,
-    "description": "1980s new wave and synth-pop party; 10th annual fundraiser for Second Harvest Food Bank. $15 suggested donation.",
+    "description": "1980s new wave and synth-pop party band; 10th annual fundraiser for Second Harvest Food Bank. $15 suggested donation.",
     "category": "music"
    }
   ]
@@ -936,8 +945,8 @@
  },
  "https://www.karben4.com/events": {
   "hash": "d1adf74ab50b41874ded8e6a90ac00d757298eb2",
-  "asked": "2026-11-08T20:40:08-06:00",
-  "on": "2026-11-08",
+  "asked": "2026-11-11T21:48:57-06:00",
+  "on": "2026-11-11",
   "events": [
    {
     "title": "Community Bingo Night w/ Brown Paws Rescue",
@@ -945,7 +954,7 @@
     "start": "18:30",
     "end": null,
     "price": null,
-    "description": "Bingo with special cards celebrating Brown Paws Rescue's anniversary; meet adoptable pups and raise money for the rescue.",
+    "description": "Bingo night with special cards celebrating Brown Paws Rescue's anniversary; meet adoptable pups and raise money for the rescue.",
     "category": "bingo"
    }
   ]
@@ -1411,8 +1420,8 @@
   ]
  },
  "https://merciescoffeewi.com/": {
-  "hash": "3a8859e0fa6692adc09465f2a3f797d24a841c79",
-  "asked": "2026-11-11T12:42:41-06:00",
+  "hash": "cb40ca173cdbb3dd57ab48ae95e66a03e2f142cb",
+  "asked": "2026-11-11T21:49:18-06:00",
   "on": "2026-11-11",
   "events": []
  },
@@ -1679,8 +1688,8 @@
   "events": []
  },
  "https://www.madisonpubliclibrary.org/spaces/events": {
-  "hash": "7e49329ebb457f1c41d351bdbf78b00bad2e94f5",
-  "asked": "2026-11-11T12:43:14-06:00",
+  "hash": "823d5465c61cba6dca67a10673414e63728a1021",
+  "asked": "2026-11-11T21:49:49-06:00",
   "on": "2026-11-11",
   "events": []
  },
@@ -1725,53 +1734,53 @@
   "events": []
  },
  "https://www.sunprairiepubliclibrary.org/home-delivery-service": {
-  "hash": "79f1f4b1b81d4167da7ac71fe7fff0c0da4db1f1",
-  "asked": "2026-11-10T20:47:44-06:00",
-  "on": "2026-11-10",
+  "hash": "0e20209c61bdfc7c3fd8061efa2e9e85c7cabe24",
+  "asked": "2026-11-11T21:49:47-06:00",
+  "on": "2026-11-11",
   "events": [
    {
-    "title": "Virtual Author Talk with Paul Vigna",
-    "date": "2026-11-11",
-    "start": "13:00",
-    "end": "14:00",
+    "title": "Dream Bus Mobile Library @ Creekside and Westside Elementary",
+    "date": "2026-11-12",
+    "start": "13:45",
+    "end": "15:00",
     "price": null,
-    "description": "Virtual author talk with Paul Vigna. Age group: Adults.",
+    "description": "Mobile library visit at Creekside and Westside Elementary. Ages: family, children 0-8, teens, adults.",
     "category": "other"
    },
    {
-    "title": "Afternoon Book Club",
-    "date": "2026-11-11",
-    "start": "13:30",
-    "end": "14:30",
+    "title": "Flicks & Bricks: Minions & Monsters",
+    "date": "2026-11-12",
+    "start": "14:00",
+    "end": "15:45",
     "price": null,
-    "description": "Afternoon book club. Age group: Adults.",
-    "category": "other"
+    "description": "Library program pairing a movie with LEGO building. Ages: family, children, teens.",
+    "category": "film"
    },
    {
-    "title": "Read to a Dog",
-    "date": "2026-11-11",
-    "start": "15:15",
-    "end": "16:15",
-    "price": null,
-    "description": "Children read to a dog. Age groups: Children (5-8), Children (8-12).",
-    "category": "other"
-   },
-   {
-    "title": "Cuentos Infantiles (Spanish Storytime)",
-    "date": "2026-11-11",
-    "start": "17:00",
-    "end": "17:30",
-    "price": null,
-    "description": "Spanish-language storytime. Age groups: Family, Children (0-5).",
-    "category": "other"
-   },
-   {
-    "title": "Mosaic Art with Savannah Roy: Candle Trays",
-    "date": "2026-11-11",
+    "title": "Stitching in Sun Prairie",
+    "date": "2026-11-12",
     "start": "18:00",
     "end": "20:00",
     "price": null,
-    "description": "Mosaic art workshop making candle trays with Savannah Roy. Age group: Adults.",
+    "description": "Library stitching group. Ages: teens and adults.",
+    "category": "other"
+   },
+   {
+    "title": "Library Board Meeting",
+    "date": "2026-11-12",
+    "start": "18:00",
+    "end": "20:00",
+    "price": null,
+    "description": "Sun Prairie Public Library Board meeting. Ages: adults.",
+    "category": "other"
+   },
+   {
+    "title": "Family Storytime",
+    "date": "2026-11-12",
+    "start": "18:30",
+    "end": "19:00",
+    "price": null,
+    "description": "Storytime for families and children 0-5.",
     "category": "other"
    }
   ]
@@ -1833,14 +1842,14 @@
   ]
  },
  "https://www.madisonpubliclibrary.org/spaces/events/search": {
-  "hash": "432420d644f9e0caa29d676574c7ee30c5c7f71a",
-  "asked": "2026-11-11T12:43:28-06:00",
+  "hash": "f2c0c5802d7fffb58d9584fe6eccdd70d7f15e74",
+  "asked": "2026-11-11T21:50:00-06:00",
   "on": "2026-11-11",
   "events": []
  },
  "https://artlitlab.org/calendar": {
-  "hash": "4fcd7dedbc80487e4b21a12ef13ac29e19c6b0b6",
-  "asked": "2026-11-11T12:43:15-06:00",
+  "hash": "31b323198e0147a92f82e7ea5f9ea10b5955ba1b",
+  "asked": "2026-11-11T21:49:51-06:00",
   "on": "2026-11-11",
   "events": [
    {
@@ -1849,7 +1858,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Screening of local animation at Arts + Literature Laboratory.",
+    "description": "Local animation screening listed on the calendar.",
     "category": "film"
    },
    {
@@ -1858,7 +1867,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Native Art Market at Arts + Literature Laboratory.",
+    "description": "Native Art Market at the Arts + Literature Laboratory.",
     "category": "other"
    },
    {
@@ -1876,7 +1885,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Bridge Work exhibition, running November 19, 2026 to January 9, 2027.",
+    "description": "Bridge Work exhibition, running through January 9, 2027.",
     "category": "other"
    },
    {
@@ -1885,7 +1894,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Bridge Work exhibition, running November 19, 2026 to January 9, 2027.",
+    "description": "Bridge Work exhibition, running through January 9, 2027.",
     "category": "other"
    },
    {
@@ -1894,7 +1903,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Bridge Work exhibition, running November 19, 2026 to January 9, 2027.",
+    "description": "Bridge Work exhibition, running through January 9, 2027.",
     "category": "other"
    },
    {
@@ -1903,7 +1912,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Auricle New Music Series presents Lily Finnegan Quartet.",
+    "description": "Auricle New Music Series presentation by the Lily Finnegan Quartet.",
     "category": "music"
    },
    {
@@ -1912,7 +1921,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "November Watershed literary reading.",
+    "description": "Literary reading listed for November Watershed.",
     "category": "other"
    },
    {
@@ -2146,8 +2155,8 @@
   "events": []
  },
  "https://www.veronapubliclibrary.org/": {
-  "hash": "cebdca0eb9130e8db60ab99e5877a8718d861619",
-  "asked": "2026-11-11T12:43:10-06:00",
+  "hash": "d619d20d6fdd95518d08c9d7e640e27b09c2d407",
+  "asked": "2026-11-11T21:49:46-06:00",
   "on": "2026-11-11",
   "events": [
    {
@@ -2186,17 +2195,17 @@
   "events": []
  },
  "https://high-noon.com/event/dogpark/": {
-  "hash": "b13090a1aa771ab04cc421f56c2add2cb1d7f80b",
-  "asked": "2026-11-11T12:42:18-06:00",
+  "hash": "0a9fd51da13ba6e6b910dbabf40894f0a5bda0e5",
+  "asked": "2026-11-11T21:48:53-06:00",
   "on": "2026-11-11",
   "events": [
    {
-    "title": "Houses In Motion (Talking Heads Tribute)",
-    "date": "2026-11-21",
+    "title": "The Gringos with Sheebie & The Lovemakers",
+    "date": "2026-11-22",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Talking Heads tribute show at High Noon Saloon, presented by FPC Live. Doors 7:00 pm.",
+    "description": "Doors 7:00 pm, show 8:00 pm at High Noon Saloon. Listed as a related event on the Dogpark page.",
     "category": "music"
    }
   ]
@@ -2346,53 +2355,53 @@
   ]
  },
  "https://www.sunprairiepubliclibrary.org/art-committee-and-gallery-shows": {
-  "hash": "112d02fa23e97a1462206f5b0f72cf8be42b1da5",
-  "asked": "2026-11-10T20:47:49-06:00",
-  "on": "2026-11-10",
+  "hash": "857ff8c07b53b78a4406004623960e598f458483",
+  "asked": "2026-11-11T21:49:50-06:00",
+  "on": "2026-11-11",
   "events": [
    {
-    "title": "Virtual Author Talk with Paul Vigna",
-    "date": "2026-11-11",
-    "start": "13:00",
-    "end": "14:00",
+    "title": "Dream Bus Mobile Library @ Creekside and Westside Elementary",
+    "date": "2026-11-12",
+    "start": "13:45",
+    "end": "15:00",
     "price": null,
-    "description": "Virtual author talk with Paul Vigna, for adults.",
+    "description": "Mobile library visit at Creekside and Westside Elementary. Ages: family, children 0-8, teens, adults.",
     "category": "other"
    },
    {
-    "title": "Afternoon Book Club",
-    "date": "2026-11-11",
-    "start": "13:30",
-    "end": "14:30",
+    "title": "Flicks & Bricks: Minions & Monsters",
+    "date": "2026-11-12",
+    "start": "14:00",
+    "end": "15:45",
     "price": null,
-    "description": "Library book club for adults.",
-    "category": "other"
+    "description": "Library film and LEGO-style program. Ages: family, children 0-8, teens.",
+    "category": "film"
    },
    {
-    "title": "Read to a Dog",
-    "date": "2026-11-11",
-    "start": "15:15",
-    "end": "16:15",
-    "price": null,
-    "description": "Reading session with a dog, for children ages 5 to 12.",
-    "category": "other"
-   },
-   {
-    "title": "Cuentos Infantiles (Spanish Storytime)",
-    "date": "2026-11-11",
-    "start": "17:00",
-    "end": "17:30",
-    "price": null,
-    "description": "Spanish-language storytime for families and children ages 0 to 5.",
-    "category": "other"
-   },
-   {
-    "title": "Mosaic Art with Savannah Roy: Candle Trays",
-    "date": "2026-11-11",
+    "title": "Stitching in Sun Prairie",
+    "date": "2026-11-12",
     "start": "18:00",
     "end": "20:00",
     "price": null,
-    "description": "Mosaic art workshop making candle trays with Savannah Roy, for adults.",
+    "description": "Stitching gathering at the library. Ages: teens, adults.",
+    "category": "other"
+   },
+   {
+    "title": "Library Board Meeting",
+    "date": "2026-11-12",
+    "start": "18:00",
+    "end": "20:00",
+    "price": null,
+    "description": "Sun Prairie Public Library Board meeting. Ages: adults.",
+    "category": "other"
+   },
+   {
+    "title": "Family Storytime",
+    "date": "2026-11-12",
+    "start": "18:30",
+    "end": "19:00",
+    "price": null,
+    "description": "Storytime for families and children 0-5.",
     "category": "other"
    }
   ]
@@ -2404,9 +2413,9 @@
   "events": []
  },
  "https://ctmtheater.org/see-a-show-pre-season/": {
-  "hash": "00b2af8c1293e567b43ccf8490f2b23f2e5c2816",
-  "asked": "2026-11-09T15:30:30-06:00",
-  "on": "2026-11-09",
+  "hash": "6b24fbb92e9a720b96fc7e389c6f34dd178f52e9",
+  "asked": "2026-11-11T21:49:57-06:00",
+  "on": "2026-11-11",
   "events": []
  },
  "https://www.cruciblemadison.com/events/2026-11/leather-lace": {

@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-11T12:43:49-06:00",
+ "generated_at": "2026-11-11T21:50:08-06:00",
  "venues_checked": 237,
  "venues_with_events": 66,
- "venues_with_feeds": 88,
- "events": 413,
- "filtered_out": 200,
+ "venues_with_feeds": 87,
+ "events": 419,
+ "filtered_out": 194,
  "venues": [
   {
    "name": "AI page reading",
@@ -13,12 +13,12 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 200,
+   "raw_events": 197,
    "error": "",
-   "calls": 24,
-   "tokens_in": 58025,
-   "tokens_out": 22934,
-   "est_cost_usd": 0.0173
+   "calls": 16,
+   "tokens_in": 42305,
+   "tokens_out": 16772,
+   "est_cost_usd": 0.0126
   },
   {
    "name": "Isthmus calendar",
@@ -28,7 +28,7 @@
     "calendar"
    ],
    "raw_events": 187,
-   "error": ""
+   "error": "used today's copy (read once a day)"
   },
   {
    "name": "Bayview Community Center",
@@ -48,7 +48,7 @@
    "feeds": [
     "ticketmaster"
    ],
-   "raw_events": 51,
+   "raw_events": 53,
    "error": ""
   },
   {
@@ -73,7 +73,7 @@
     "ical",
     "ical"
    ],
-   "raw_events": 37,
+   "raw_events": 35,
    "error": "ical: ConnectionError: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //www.mcfarlandlibrary.org/calendar/month (Caused by NameResolutionError(\"HTTPSConnection(host='https"
   },
   {
@@ -101,7 +101,7 @@
     "jsonld",
     "jsonld"
    ],
-   "raw_events": 31,
+   "raw_events": 32,
    "error": ""
   },
   {
@@ -119,6 +119,16 @@
    "error": ""
   },
   {
+   "name": "Harmony Bar & Grill",
+   "kind": "bar",
+   "website": "https://www.harmonybarandgrill.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 16,
+   "error": ""
+  },
+  {
    "name": "Bridge Lakepoint Waunona Neighborhood Center",
    "kind": "community",
    "website": "https://www.blwcenter.org/",
@@ -126,16 +136,6 @@
     "squarespace",
     "jsonld",
     "jsonld"
-   ],
-   "raw_events": 16,
-   "error": ""
-  },
-  {
-   "name": "Harmony Bar & Grill",
-   "kind": "bar",
-   "website": "https://www.harmonybarandgrill.com/",
-   "feeds": [
-    "ai"
    ],
    "raw_events": 15,
    "error": ""
@@ -172,6 +172,30 @@
     "jsonld"
    ],
    "raw_events": 12,
+   "error": ""
+  },
+  {
+   "name": "Pinney Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 12,
+   "error": ""
+  },
+  {
+   "name": "Lone Girl Tap Room And Pizza Company",
+   "kind": "bar",
+   "website": "https://thelonegirl.com",
+   "feeds": [
+    "tribe",
+    "jsonld",
+    "jsonld",
+    "jsonld",
+    "jsonld"
+   ],
+   "raw_events": 11,
    "error": ""
   },
   {
@@ -215,50 +239,6 @@
    "error": ""
   },
   {
-   "name": "Lone Girl Tap Room And Pizza Company",
-   "kind": "bar",
-   "website": "https://thelonegirl.com",
-   "feeds": [
-    "tribe",
-    "jsonld",
-    "jsonld",
-    "jsonld",
-    "jsonld"
-   ],
-   "raw_events": 9,
-   "error": ""
-  },
-  {
-   "name": "Pinney Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 9,
-   "error": ""
-  },
-  {
-   "name": "Sequoya Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/sequoya",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 9,
-   "error": ""
-  },
-  {
-   "name": "Imagination Center",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 8,
-   "error": ""
-  },
-  {
    "name": "One Social Bar",
    "kind": "bar",
    "website": "https://onesocialmadison.com/vendor/one-social-bar/",
@@ -290,6 +270,26 @@
    "error": ""
   },
   {
+   "name": "Gamma Ray Bar",
+   "kind": "bar",
+   "website": "https://gammaray.bar",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 7,
+   "error": ""
+  },
+  {
+   "name": "Alicia Ashman Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 6,
+   "error": ""
+  },
+  {
    "name": "Crystal Corner Bar",
    "kind": "bar",
    "website": "https://thecrystalcornerbar.com/",
@@ -300,13 +300,33 @@
    "error": ""
   },
   {
-   "name": "Gamma Ray Bar",
-   "kind": "bar",
-   "website": "https://gammaray.bar",
+   "name": "Imagination Center",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
    "feeds": [
     "ai"
    ],
    "raw_events": 6,
+   "error": ""
+  },
+  {
+   "name": "Sequoya Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/sequoya",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 6,
+   "error": ""
+  },
+  {
+   "name": "Monroe Street Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/monroe-street",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 5,
    "error": ""
   },
   {
@@ -330,26 +350,6 @@
    "error": ""
   },
   {
-   "name": "Alicia Ashman Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 4,
-   "error": ""
-  },
-  {
-   "name": "Central Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/central",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 4,
-   "error": ""
-  },
-  {
    "name": "Lakeside Street Coffee House",
    "kind": "cafe",
    "website": "https://lakesidestcoffeehouse.com/",
@@ -370,34 +370,11 @@
    "error": ""
   },
   {
-   "name": "Monroe Street Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/monroe-street",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 4,
-   "error": ""
-  },
-  {
    "name": "The Malt House",
    "kind": "bar",
    "website": "http://malthousetavern.com/",
    "feeds": [
     "ai"
-   ],
-   "raw_events": 4,
-   "error": ""
-  },
-  {
-   "name": "Vera Court Neighborhood Center",
-   "kind": "community",
-   "website": "https://www.veracourt.org/",
-   "feeds": [
-    "squarespace",
-    "jsonld",
-    "jsonld",
-    "jsonld"
    ],
    "raw_events": 4,
    "error": ""
@@ -436,11 +413,12 @@
    "error": ""
   },
   {
-   "name": "Ebling Library",
-   "kind": "library",
-   "website": "https://ebling.library.wisc.edu/",
+   "name": "Come Back Inn",
+   "kind": "bar",
+   "website": "https://comebackintavern.com/",
    "feeds": [
-    "ai"
+    "tribe",
+    "jsonld"
    ],
    "raw_events": 3,
    "error": ""
@@ -483,6 +461,19 @@
    "website": "https://www.textileartsmadison.org/",
    "feeds": [
     "squarespace",
+    "jsonld",
+    "jsonld"
+   ],
+   "raw_events": 3,
+   "error": ""
+  },
+  {
+   "name": "Vera Court Neighborhood Center",
+   "kind": "community",
+   "website": "https://www.veracourt.org/",
+   "feeds": [
+    "squarespace",
+    "jsonld",
     "jsonld",
     "jsonld"
    ],
@@ -632,6 +623,16 @@
    "feeds": [
     "tribe",
     "jsonld"
+   ],
+   "raw_events": 1,
+   "error": ""
+  },
+  {
+   "name": "Central Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/central",
+   "feeds": [
+    "ai"
    ],
    "raw_events": 1,
    "error": ""
@@ -959,17 +960,6 @@
    "error": ""
   },
   {
-   "name": "Come Back Inn",
-   "kind": "bar",
-   "website": "https://comebackintavern.com/",
-   "feeds": [
-    "tribe",
-    "jsonld"
-   ],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
    "name": "Communication",
    "kind": "venue",
    "website": "https://communicationmadison.com/",
@@ -1041,6 +1031,14 @@
    "name": "EVP Coffee",
    "kind": "cafe",
    "website": "https://evpcoffee.com/",
+   "feeds": [],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
+   "name": "Ebling Library",
+   "kind": "library",
+   "website": "https://ebling.library.wisc.edu/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1461,7 +1459,7 @@
   {
    "name": "Moka",
    "kind": "cafe",
-   "website": "https://www.mymokacoffee.com/",
+   "website": "https://mymokacoffee.com/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1469,7 +1467,7 @@
   {
    "name": "Moka",
    "kind": "cafe",
-   "website": "https://mymokacoffee.com/",
+   "website": "https://www.mymokacoffee.com/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
