@@ -3499,11 +3499,6 @@
   "why": "",
   "checked": "2026-11-06T12:01:11.608109-06:00"
  },
- "https://bstonline.org/event/dragonsocks-and-the-queen-of-the-universe-8/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-06T20:49:48.494197-06:00"
- },
  "https://www.workingdraftbeer.com/events/2026/11/15/show-willy-street-some-love": {
   "ok": true,
   "why": "",
@@ -3699,11 +3694,6 @@
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
   "checked": "2026-11-08T20:42:25.020235-06:00"
  },
- "https://www.dvinomadison.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-09T15:31:30.867303-06:00"
- },
  "https://www.veronawi.gov/941/Community-Center": {
   "ok": true,
   "why": "",
@@ -3763,11 +3753,6 @@
   "ok": true,
   "why": "",
   "checked": "2026-11-10T12:42:22.695000-06:00"
- },
- "https://www.madisonpubliclibrary.org/locations/imagination-center": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-10T20:48:25.202862-06:00"
  },
  "https://www.mickeysmadison.com/": {
   "ok": true,
@@ -3838,11 +3823,6 @@
   "ok": true,
   "why": "",
   "checked": "2026-11-11T12:44:03.156578-06:00"
- },
- "https://statestreetbrats.com/event/wisconsin-rutgers-20261112/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-11T21:50:12.024466-06:00"
  },
  "https://thelonegirl.com/event/ryan-mauer-wine-walk-after-party-2-2/": {
   "ok": true,
@@ -3923,5 +3903,20 @@
   "ok": true,
   "why": "",
   "checked": "2026-11-12T12:57:45.697721-06:00"
+ },
+ "https://bstonline.org/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-12T21:27:39.997776-06:00"
+ },
+ "https://bstonline.org/event/stage-test-2026-a-program-of-works-in-development/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-12T21:27:39.997804-06:00"
+ },
+ "https://wandosbar.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-12T21:27:39.997812-06:00"
  }
 }

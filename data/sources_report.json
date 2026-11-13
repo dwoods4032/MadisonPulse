@@ -1,28 +1,26 @@
 {
- "generated_at": "2026-11-12T12:57:44-06:00",
- "total_events": 405,
- "in_more_than_one_source": 20,
+ "generated_at": "2026-11-12T21:27:35-06:00",
+ "total_events": 411,
+ "in_more_than_one_source": 18,
  "sources": {
   "AI page reading": {
-   "events": 135,
-   "unique_events": 123,
+   "events": 142,
+   "unique_events": 131,
    "overlap": {
-    "Isthmus": 2,
+    "Isthmus": 1,
     "Ticketmaster": 11,
     "Venue websites": 0
    },
-   "venues": 35,
+   "venues": 33,
    "unique_venues": [
     "Aftershock Classic Arcade",
     "Arts + Literature Laboratory",
     "Below Deck Concession Stand",
     "Capital Brewery",
     "Crystal Corner Bar",
-    "D'Vino",
     "East Side Club",
     "Flight Wine & Bourbon Bar",
     "Gamma Ray Bar",
-    "Imagination Center",
     "Italian Workmen's Club",
     "Laurel Tavern",
     "Lazy Oaf Lounge",
@@ -39,16 +37,17 @@
     "The Kickback",
     "The Malt House",
     "Verona Community Center",
-    "Veterans Memorial Park"
+    "Veterans Memorial Park",
+    "Wando's Bar & Grill"
    ]
   },
   "Isthmus": {
-   "events": 168,
+   "events": 166,
    "unique_events": 159,
    "overlap": {
-    "AI page reading": 2,
+    "AI page reading": 1,
     "Ticketmaster": 2,
-    "Venue websites": 6
+    "Venue websites": 5
    },
    "venues": 77,
    "unique_venues": [
@@ -90,6 +89,7 @@
     "Park Hotel-The Post",
     "Pink Heifer BBQ Saloon",
     "Poppy Home & Gift",
+    "Sequoya Library",
     "Skip's After Market",
     "Sotto",
     "Starkweather Brewing Company",
@@ -134,11 +134,11 @@
    ]
   },
   "Venue websites": {
-   "events": 74,
+   "events": 73,
    "unique_events": 67,
    "overlap": {
     "AI page reading": 0,
-    "Isthmus": 6,
+    "Isthmus": 5,
     "Ticketmaster": 1
    },
    "venues": 15,
