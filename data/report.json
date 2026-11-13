@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-12T21:27:35-06:00",
+ "generated_at": "2026-11-13T12:33:53-06:00",
  "venues_checked": 237,
- "venues_with_events": 66,
+ "venues_with_events": 65,
  "venues_with_feeds": 88,
- "events": 411,
- "filtered_out": 180,
+ "events": 375,
+ "filtered_out": 184,
  "venues": [
   {
    "name": "AI page reading",
@@ -13,12 +13,12 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 197,
+   "raw_events": 193,
    "error": "",
-   "calls": 80,
-   "tokens_in": 135367,
-   "tokens_out": 43577,
-   "est_cost_usd": 0.0353
+   "calls": 19,
+   "tokens_in": 44688,
+   "tokens_out": 15573,
+   "est_cost_usd": 0.0123
   },
   {
    "name": "Isthmus calendar",
@@ -27,8 +27,8 @@
    "feeds": [
     "calendar"
    ],
-   "raw_events": 178,
-   "error": "used today's copy (read once a day)"
+   "raw_events": 151,
+   "error": ""
   },
   {
    "name": "Bayview Community Center",
@@ -38,7 +38,7 @@
     "tribe",
     "jsonld"
    ],
-   "raw_events": 82,
+   "raw_events": 81,
    "error": ""
   },
   {
@@ -48,7 +48,7 @@
    "feeds": [
     "ticketmaster"
    ],
-   "raw_events": 50,
+   "raw_events": 47,
    "error": ""
   },
   {
@@ -62,7 +62,7 @@
     "squarespace",
     "jsonld"
    ],
-   "raw_events": 38,
+   "raw_events": 37,
    "error": ""
   },
   {
@@ -115,7 +115,7 @@
     "jsonld",
     "jsonld"
    ],
-   "raw_events": 22,
+   "raw_events": 21,
    "error": ""
   },
   {
@@ -125,7 +125,7 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 15,
+   "raw_events": 14,
    "error": ""
   },
   {
@@ -137,7 +137,21 @@
     "jsonld",
     "jsonld"
    ],
-   "raw_events": 14,
+   "raw_events": 13,
+   "error": ""
+  },
+  {
+   "name": "Lone Girl Tap Room And Pizza Company",
+   "kind": "bar",
+   "website": "https://thelonegirl.com",
+   "feeds": [
+    "tribe",
+    "jsonld",
+    "jsonld",
+    "jsonld",
+    "jsonld"
+   ],
+   "raw_events": 13,
    "error": ""
   },
   {
@@ -147,17 +161,7 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 13,
-   "error": ""
-  },
-  {
-   "name": "High Noon Saloon",
-   "kind": "bar",
-   "website": "https://www.high-noon.com/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 13,
+   "raw_events": 12,
    "error": ""
   },
   {
@@ -175,27 +179,13 @@
    "error": ""
   },
   {
-   "name": "Lazy Oaf Lounge",
+   "name": "High Noon Saloon",
    "kind": "bar",
-   "website": "https://www.lazyoaflounge.com/",
+   "website": "https://www.high-noon.com/",
    "feeds": [
     "ai"
    ],
-   "raw_events": 11,
-   "error": ""
-  },
-  {
-   "name": "Lone Girl Tap Room And Pizza Company",
-   "kind": "bar",
-   "website": "https://thelonegirl.com",
-   "feeds": [
-    "tribe",
-    "jsonld",
-    "jsonld",
-    "jsonld",
-    "jsonld"
-   ],
-   "raw_events": 11,
+   "raw_events": 12,
    "error": ""
   },
   {
@@ -219,16 +209,6 @@
    "error": ""
   },
   {
-   "name": "Pinney Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 10,
-   "error": ""
-  },
-  {
    "name": "Sun Prairie Public Library",
    "kind": "library",
    "website": "https://www.sunprairiepubliclibrary.org/",
@@ -239,6 +219,16 @@
    "error": ""
   },
   {
+   "name": "Lazy Oaf Lounge",
+   "kind": "bar",
+   "website": "https://www.lazyoaflounge.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 9,
+   "error": ""
+  },
+  {
    "name": "One Social Bar",
    "kind": "bar",
    "website": "https://onesocialmadison.com/vendor/one-social-bar/",
@@ -246,7 +236,7 @@
     "tribe",
     "jsonld"
    ],
-   "raw_events": 9,
+   "raw_events": 8,
    "error": ""
   },
   {
@@ -270,6 +260,16 @@
    "error": ""
   },
   {
+   "name": "Alicia Ashman Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 7,
+   "error": ""
+  },
+  {
    "name": "Gamma Ray Bar",
    "kind": "bar",
    "website": "https://gammaray.bar",
@@ -283,6 +283,36 @@
    "name": "Imagination Center",
    "kind": "library",
    "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 7,
+   "error": ""
+  },
+  {
+   "name": "Monroe Street Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/monroe-street",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 7,
+   "error": ""
+  },
+  {
+   "name": "Pinney Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 7,
+   "error": ""
+  },
+  {
+   "name": "Sequoya Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/sequoya",
    "feeds": [
     "ai"
    ],
@@ -310,26 +340,6 @@
    "error": ""
   },
   {
-   "name": "Alicia Ashman Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 5,
-   "error": ""
-  },
-  {
-   "name": "Monroe Street Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/monroe-street",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 5,
-   "error": ""
-  },
-  {
    "name": "State Line Distillery",
    "kind": "brewery",
    "website": "https://www.statelinedistillery.com/",
@@ -350,36 +360,6 @@
    "error": ""
   },
   {
-   "name": "Bartell Theatre",
-   "kind": "venue",
-   "website": "https://bartelltheatre.org/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 4,
-   "error": ""
-  },
-  {
-   "name": "Lakeside Street Coffee House",
-   "kind": "cafe",
-   "website": "https://lakesidestcoffeehouse.com/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 4,
-   "error": ""
-  },
-  {
-   "name": "Laurel Tavern",
-   "kind": "bar",
-   "website": "http://www.thelaureltavern.com",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 4,
-   "error": ""
-  },
-  {
    "name": "Orpheum Theatre",
    "kind": "venue",
    "website": "https://madisonorpheum.com/",
@@ -390,16 +370,13 @@
    "error": ""
   },
   {
-   "name": "Waunakee Public Library",
-   "kind": "library",
-   "website": "https://www.waunakeepubliclibrary.org/",
+   "name": "Bartell Theatre",
+   "kind": "venue",
+   "website": "https://bartelltheatre.org/",
    "feeds": [
-    "jsonld",
-    "jsonld",
-    "jsonld",
-    "jsonld"
+    "ai"
    ],
-   "raw_events": 4,
+   "raw_events": 3,
    "error": ""
   },
   {
@@ -424,9 +401,19 @@
    "error": ""
   },
   {
-   "name": "Monkeyshines Bar & Grill",
+   "name": "Lakeside Street Coffee House",
+   "kind": "cafe",
+   "website": "https://lakesidestcoffeehouse.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 3,
+   "error": ""
+  },
+  {
+   "name": "Laurel Tavern",
    "kind": "bar",
-   "website": "http://www.monkeyshinesbarandgrill.com/",
+   "website": "http://www.thelaureltavern.com",
    "feeds": [
     "ai"
    ],
@@ -535,17 +522,6 @@
    "error": ""
   },
   {
-   "name": "Centro",
-   "kind": "community",
-   "website": "https://www.micentro.org/",
-   "feeds": [
-    "squarespace",
-    "ai"
-   ],
-   "raw_events": 2,
-   "error": ""
-  },
-  {
    "name": "East Side Club",
    "kind": "lodge",
    "website": "https://escmadison.com",
@@ -569,6 +545,16 @@
    "name": "Madison Youth Arts (MYArts)",
    "kind": "venue",
    "website": "https://www.madisonyoutharts.org/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 2,
+   "error": ""
+  },
+  {
+   "name": "Monkeyshines Bar & Grill",
+   "kind": "bar",
+   "website": "http://www.monkeyshinesbarandgrill.com/",
    "feeds": [
     "ai"
    ],
@@ -606,16 +592,6 @@
    "error": ""
   },
   {
-   "name": "Sequoya Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/sequoya",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 2,
-   "error": ""
-  },
-  {
    "name": "Wando's Bar & Grill",
    "kind": "bar",
    "website": "https://wandosbar.com/",
@@ -642,6 +618,17 @@
    "feeds": [
     "tribe",
     "jsonld"
+   ],
+   "raw_events": 1,
+   "error": ""
+  },
+  {
+   "name": "Centro",
+   "kind": "community",
+   "website": "https://www.micentro.org/",
+   "feeds": [
+    "squarespace",
+    "ai"
    ],
    "raw_events": 1,
    "error": ""
@@ -2046,6 +2033,19 @@
    "kind": "cafe",
    "website": "https://www.waltzingmatildasmadison.com/",
    "feeds": [],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
+   "name": "Waunakee Public Library",
+   "kind": "library",
+   "website": "https://www.waunakeepubliclibrary.org/",
+   "feeds": [
+    "jsonld",
+    "jsonld",
+    "jsonld",
+    "jsonld"
+   ],
    "raw_events": 0,
    "error": ""
   },

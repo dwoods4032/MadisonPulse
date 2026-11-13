@@ -984,5 +984,64 @@
   "lon": -89.396578,
   "address": "North Frances Street",
   "city": "Madison"
+ },
+ "old firehouse lounge, stoughton": null,
+ "alt brew": null,
+ "vel phillips memorial high school": {
+  "lat": 43.063922,
+  "lon": -89.501037,
+  "address": "South Gammon Road",
+  "city": "Madison"
+ },
+ "reverie baking company": null,
+ "hotel indigo": {
+  "lat": 43.082262,
+  "lon": -89.37286,
+  "address": "East Washington Avenue",
+  "city": "Madison"
+ },
+ "international crane foundation, baraboo": null,
+ "st. dennis church": {
+  "lat": 43.090514,
+  "lon": -89.315837,
+  "address": "505 Dempsey Road",
+  "city": "Madison"
+ },
+ "olin park": {
+  "lat": 43.05494,
+  "lon": -89.378069,
+  "address": "1155",
+  "city": "Madison"
+ },
+ "st. andrew catholic church, verona": null,
+ "sugar creek elementary school, verona": {
+  "lat": 42.999204,
+  "lon": -89.536238,
+  "address": "Llanos Street",
+  "city": "Verona"
+ },
+ "waunakee community middle school": {
+  "lat": 43.181354,
+  "lon": -89.456316,
+  "address": "South Street",
+  "city": "Waunakee"
+ },
+ "burke lutheran church": {
+  "lat": 43.159552,
+  "lon": -89.304368,
+  "address": "5720 Portage Road",
+  "city": "Madison"
+ },
+ "wisconsin heights high school, mazomanie": {
+  "lat": 43.156758,
+  "lon": -89.769995,
+  "address": "10173 US Highway 14",
+  "city": "Mazomanie"
+ },
+ "city dog": {
+  "lat": 43.083917,
+  "lon": -89.371579,
+  "address": "East Washington Avenue",
+  "city": "Madison"
  }
 }
