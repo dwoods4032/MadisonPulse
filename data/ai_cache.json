@@ -262,8 +262,8 @@
  },
  "https://www.madisongreymarket.com/schedule": {
   "hash": "844721c54672b70d90c49d8df79664186255d7e5",
-  "asked": "2026-11-10T20:46:43-06:00",
-  "on": "2026-11-10",
+  "asked": "2026-11-13T21:14:31-06:00",
+  "on": "2026-11-13",
   "events": []
  },
  "https://www.mickeysmadison.com/": {
@@ -771,8 +771,8 @@
  },
  "https://www.capitalbrewery.com/events-2/": {
   "hash": "2740705b65c398f8f6c61e2069278ba969491164",
-  "asked": "2026-11-10T20:46:50-06:00",
-  "on": "2026-11-10",
+  "asked": "2026-11-13T21:14:39-06:00",
+  "on": "2026-11-13",
   "events": [
    {
     "title": "LIVE MUSIC w/ Too Sick Charlie",
@@ -782,6 +782,15 @@
     "price": null,
     "description": "Live music with Too Sick Charlie at Capital Brewery.",
     "category": "music"
+   },
+   {
+    "title": "Fresh Citrus & Pears Stop Event by Tree-Ripe Fruit Co.",
+    "date": "2026-11-25",
+    "start": "12:00",
+    "end": "13:30",
+    "price": null,
+    "description": "Fresh citrus and pears stop event by Tree-Ripe Fruit Co. at Capital Brewery.",
+    "category": "food"
    }
   ]
  },
@@ -1009,8 +1018,8 @@
  },
  "https://www.statelinedistillery.com/cocktail-lounge/events": {
   "hash": "196ae1fc0131834e9cf7940ba21423310c9e5906",
-  "asked": "2026-11-10T12:40:55-06:00",
-  "on": "2026-11-10",
+  "asked": "2026-11-13T21:14:43-06:00",
+  "on": "2026-11-13",
   "events": [
    {
     "title": "86'd Party",
@@ -1018,7 +1027,7 @@
     "start": "15:00",
     "end": null,
     "price": null,
-    "description": "86'd Party at State Line Distillery.",
+    "description": "86'd Party at State Line Distillery Cocktail Lounge.",
     "category": "other"
    },
    {
@@ -1027,7 +1036,7 @@
     "start": "15:00",
     "end": "21:00",
     "price": null,
-    "description": "Launch event for the fall and winter menu.",
+    "description": "Launch of the fall and winter cocktail lounge menu.",
     "category": "food"
    },
    {
@@ -1036,7 +1045,7 @@
     "start": "19:00",
     "end": "21:00",
     "price": null,
-    "description": "Badgers On Tap talk on the science of psychedelics.",
+    "description": "Badgers On Tap event on the science of psychedelics.",
     "category": "other"
    },
    {
@@ -1045,7 +1054,7 @@
     "start": "18:00",
     "end": "21:00",
     "price": null,
-    "description": "Bear in the Forest live show.",
+    "description": "Bear in the Forest performance at the lounge.",
     "category": "music"
    },
    {
@@ -1056,13 +1065,22 @@
     "price": null,
     "description": "Pop-up print sale featuring Theo Maynard.",
     "category": "other"
+   },
+   {
+    "title": "Maker's Market Black Friday Pub Crawl",
+    "date": "2026-11-27",
+    "start": "12:00",
+    "end": "17:00",
+    "price": null,
+    "description": "Maker's Market Black Friday pub crawl.",
+    "category": "other"
    }
   ]
  },
  "https://www.youngbloodbeerco.com/": {
   "hash": "386466cd1cd61490cf343b8b2aa4eac0b9b40160",
-  "asked": "2026-11-10T20:46:52-06:00",
-  "on": "2026-11-10",
+  "asked": "2026-11-13T21:14:41-06:00",
+  "on": "2026-11-13",
   "events": []
  },
  "https://yaharabay.com/pages/event-space": {
@@ -1072,26 +1090,17 @@
   "events": []
  },
  "https://thekickback.bar/upcoming-events/": {
-  "hash": "05e966738e79147465e24374389d0766be5e80fb",
-  "asked": "2026-11-10T20:46:54-06:00",
-  "on": "2026-11-10",
+  "hash": "6316c07fdf5aab909492db1aeb084304b0a7bfa7",
+  "asked": "2026-11-13T21:14:52-06:00",
+  "on": "2026-11-13",
   "events": [
-   {
-    "title": "Fallout Launch Party",
-    "date": "2026-11-13",
-    "start": "19:00",
-    "end": null,
-    "price": null,
-    "description": "Fallout launch party with craft beer and pinball tags.",
-    "category": "other"
-   },
    {
     "title": "Youth Pinball Free-Play & Tourney!",
     "date": "2026-11-14",
     "start": "11:00",
     "end": null,
     "price": null,
-    "description": "Youth pinball free-play and tournament.",
+    "description": "Youth pinball free-play and tournament, with an introduction to pinball.",
     "category": "other"
    },
    {
@@ -1109,7 +1118,7 @@
     "start": "13:00",
     "end": null,
     "price": null,
-    "description": "Meat raffle with prizes, tagged Fetch WI Rescue and New Belgium Brewing.",
+    "description": "Meat raffle with Fetch WI Rescue, Jenny St Market and New Belgium Brewing prizes.",
     "category": "other"
    },
    {
@@ -1127,7 +1136,7 @@
     "start": "18:30",
     "end": null,
     "price": null,
-    "description": "Craft beer pinball league night with New Glarus Brewing.",
+    "description": "Craft beer pinball league night with New Glarus Brewing Co.",
     "category": "other"
    },
    {
@@ -1136,7 +1145,7 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Friday Night Strikes with craft beer and pinball.",
+    "description": "Friday night pinball with craft beer.",
     "category": "other"
    },
    {
@@ -1163,7 +1172,7 @@
     "start": "15:00",
     "end": null,
     "price": null,
-    "description": "Dogs on the patio with Fetch WI Rescue, a fundraiser with craft beer.",
+    "description": "Patio fundraiser with Fetch WI Rescue and craft beer.",
     "category": "other"
    },
    {
@@ -1174,6 +1183,15 @@
     "price": null,
     "description": "Tuesday trivia night.",
     "category": "trivia"
+   },
+   {
+    "title": "Friday Night Strikes",
+    "date": "2026-11-27",
+    "start": "19:00",
+    "end": null,
+    "price": null,
+    "description": "Friday night pinball with craft beer.",
+    "category": "other"
    }
   ]
  },
@@ -1316,34 +1334,25 @@
  },
  "https://lakesidestcoffeehouse.com/music-calendar": {
   "hash": "8ca18ec0a3c197933e101f7ff37eb42f71afd610",
-  "asked": "2026-11-10T12:41:12-06:00",
-  "on": "2026-11-10",
+  "asked": "2026-11-13T21:15:01-06:00",
+  "on": "2026-11-13",
   "events": [
-   {
-    "title": "Books, Beads, and Beverages with Lily Comp",
-    "date": "2026-11-12",
-    "start": "19:00",
-    "end": "21:00",
-    "price": null,
-    "description": "Local author Lily Comp discusses her first book, Scenic Natural Wonders of Wisconsin, with a crafting session.",
-    "category": "other"
-   },
    {
     "title": "Trio Soliel",
     "date": "2026-11-13",
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Live music at Lakeside Street Coffee House. Doors open one hour before showtime.",
+    "description": "Live music at Lakeside Street Coffee House. Doors open one hour before showtime; no cover, suggested donation.",
     "category": "music"
    },
    {
-    "title": "Recuerdos Flamencos",
+    "title": "Recuerdos Flamencos: An Evening of Spanish Guitar and Dance",
     "date": "2026-11-14",
     "start": "19:30",
     "end": null,
     "price": 20,
-    "description": "An evening of Spanish guitar and dance. 9th Annual Memorial Scholarship Fundraiser; $20/$15 suggested donation.",
+    "description": "Spanish guitar and dance; 9th Annual Memorial Scholarship Fundraiser. $20/$15 suggested donation.",
     "category": "music"
    },
    {
@@ -1352,14 +1361,14 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Live music at Lakeside Street Coffee House. Doors open one hour before showtime.",
+    "description": "Live music at Lakeside Street Coffee House. Doors open one hour before showtime; no cover, suggested donation.",
     "category": "music"
    }
   ]
  },
  "https://merciescoffeewi.com/": {
-  "hash": "6c99c88c1dbdfc5baf66092281407cf9f2d1bbec",
-  "asked": "2026-11-13T12:32:34-06:00",
+  "hash": "bcb8a352979e986cfaf5d0882a8d1b00440b70e0",
+  "asked": "2026-11-13T21:15:02-06:00",
   "on": "2026-11-13",
   "events": []
  },
@@ -1425,25 +1434,25 @@
  },
  "https://www.micentro.org/events": {
   "hash": "fd9a3d21dd4c3151947caf580a9da6ca4e535a33",
-  "asked": "2026-11-10T20:47:33-06:00",
-  "on": "2026-11-10",
+  "asked": "2026-11-13T21:15:22-06:00",
+  "on": "2026-11-13",
   "events": [
    {
-    "title": "Mercadito",
-    "date": "2026-11-12",
-    "start": "16:00",
-    "end": "20:00",
-    "price": null,
-    "description": "Community farmer's market at 2403 Cypress Way with food vendors, fresh produce, artisanal goods, kids' games and a weekly raffle.",
-    "category": "food"
-   },
-   {
-    "title": "Mercadito",
+    "title": "Mercadito (community farmer's market)",
     "date": "2026-11-19",
     "start": "16:00",
     "end": "20:00",
     "price": null,
-    "description": "Community farmer's market at 2403 Cypress Way with food vendors, fresh produce, artisanal goods, kids' games and a weekly raffle.",
+    "description": "Weekly open-air community market at 2403 Cypress Way with food vendors, fresh produce, artisanal goods, kids' games and a weekly raffle.",
+    "category": "food"
+   },
+   {
+    "title": "Mercadito (community farmer's market)",
+    "date": "2026-11-26",
+    "start": "16:00",
+    "end": "20:00",
+    "price": null,
+    "description": "Weekly open-air community market at 2403 Cypress Way with food vendors, fresh produce, artisanal goods, kids' games and a weekly raffle.",
     "category": "food"
    }
   ]
@@ -1456,18 +1465,9 @@
  },
  "https://iwcmadison.com/calendar/": {
   "hash": "372415e0626944de995874ac1f38ebb9dd109c3d",
-  "asked": "2026-11-10T20:47:41-06:00",
-  "on": "2026-11-10",
+  "asked": "2026-11-13T21:15:25-06:00",
+  "on": "2026-11-13",
   "events": [
-   {
-    "title": "Council Meeting",
-    "date": "2026-11-10",
-    "start": "19:00",
-    "end": "21:00",
-    "price": null,
-    "description": "IWC Council Meeting.",
-    "category": "other"
-   },
    {
     "title": "Italian Language Conversation",
     "date": "2026-11-24",
@@ -1550,8 +1550,8 @@
   ]
  },
  "https://www.cityofmadison.com/parks/events": {
-  "hash": "978159964cbfbb3eedae8ec31d55334371969fbd",
-  "asked": "2026-11-13T12:33:01-06:00",
+  "hash": "313915b176fc7f8dd63898d9c7976397e30a510a",
+  "asked": "2026-11-13T21:15:27-06:00",
   "on": "2026-11-13",
   "events": [
    {
@@ -1560,7 +1560,7 @@
     "start": "13:30",
     "end": "15:00",
     "price": null,
-    "description": "Bird and nature outing at Owen Conservation Park, 6021 Old Sauk Road.",
+    "description": "Bird and nature walk at Owen Conservation Park, 6021 Old Sauk Road.",
     "category": "other"
    },
    {
@@ -1569,7 +1569,7 @@
     "start": "13:30",
     "end": "15:00",
     "price": null,
-    "description": "Bird and nature outing at Warner Park (Rainbow Shelter), 2930 N. Sherman Ave.",
+    "description": "Bird and nature walk at Warner Park (Rainbow Shelter), 2930 N. Sherman Ave.",
     "category": "other"
    },
    {
@@ -1596,7 +1596,7 @@
     "start": "10:00",
     "end": "11:30",
     "price": null,
-    "description": "Bird and nature outing; meet outdoors at Goodman Community Center by the Bike Path, 214 Waubesa St.",
+    "description": "Bird and nature walk meeting outdoors at Goodman Community Center by the Bike Path, 214 Waubesa St.",
     "category": "other"
    },
    {
@@ -1605,7 +1605,7 @@
     "start": "17:00",
     "end": "20:00",
     "price": null,
-    "description": "Hayride through holiday light display at Turville Point Conservation Park, 1202 Olin-Turville Court.",
+    "description": "Holiday light hayride at Turville Point Conservation Park, 1202 Olin-Turville Court.",
     "category": "other"
    },
    {
@@ -1614,7 +1614,7 @@
     "start": "17:00",
     "end": "20:00",
     "price": null,
-    "description": "Hayride through holiday light display at Turville Point Conservation Park, 1202 Olin-Turville Court.",
+    "description": "Holiday light hayride at Turville Point Conservation Park, 1202 Olin-Turville Court.",
     "category": "other"
    },
    {
@@ -1635,8 +1635,8 @@
   "events": []
  },
  "https://www.madisonpubliclibrary.org/spaces/events": {
-  "hash": "59fd6977dff9f60809f2b6dc6d205cd15da8d6a0",
-  "asked": "2026-11-13T12:33:09-06:00",
+  "hash": "b650247179d1ae0e5483d95555753c494534e6fe",
+  "asked": "2026-11-13T21:15:34-06:00",
   "on": "2026-11-13",
   "events": []
  },
@@ -1681,17 +1681,17 @@
   "events": []
  },
  "https://www.sunprairiepubliclibrary.org/home-delivery-service": {
-  "hash": "af91f111fe4545d99a5149bf60479c292ece7d0b",
-  "asked": "2026-11-12T21:27:11-06:00",
-  "on": "2026-11-12",
+  "hash": "1f2466de2a7415cf3f6eb0761b66a9bd4f5079d0",
+  "asked": "2026-11-13T21:15:31-06:00",
+  "on": "2026-11-13",
   "events": [
    {
-    "title": "Dream Bus Mobile Library @ Fun Friday Stops",
-    "date": "2026-11-13",
-    "start": "14:45",
-    "end": "17:00",
+    "title": "Genealogy Class",
+    "date": "2026-11-14",
+    "start": "10:00",
+    "end": "11:30",
     "price": null,
-    "description": "Mobile library visit at Fun Friday stops. Ages: family, children, teens, adults.",
+    "description": "Genealogy class for adults at Sun Prairie Public Library.",
     "category": "other"
    },
    {
@@ -1700,7 +1700,7 @@
     "start": "10:00",
     "end": "11:30",
     "price": null,
-    "description": "Art club for children ages 5-8.",
+    "description": "Art club for children ages 5-8 at Sun Prairie Public Library.",
     "category": "other"
    },
    {
@@ -1709,16 +1709,7 @@
     "start": "10:00",
     "end": "14:00",
     "price": null,
-    "description": "Puzzle club open to all ages.",
-    "category": "other"
-   },
-   {
-    "title": "Genealogy Class",
-    "date": "2026-11-14",
-    "start": "10:00",
-    "end": "11:30",
-    "price": null,
-    "description": "Genealogy class for adults.",
+    "description": "Puzzle club for families, children, teens and adults at Sun Prairie Public Library.",
     "category": "other"
    },
    {
@@ -1727,7 +1718,16 @@
     "start": "14:00",
     "end": "16:00",
     "price": null,
-    "description": "Leaf collage art session with guest artist Brooke Baum. Ages: family, children, teens, adults.",
+    "description": "Leaf collage art session with guest artist Brooke Baum, open to all ages at Sun Prairie Public Library.",
+    "category": "other"
+   },
+   {
+    "title": "Teen Anime Club",
+    "date": "2026-11-15",
+    "start": "14:00",
+    "end": "16:30",
+    "price": null,
+    "description": "Anime club for teens at Sun Prairie Public Library.",
     "category": "other"
    }
   ]
@@ -1789,34 +1789,15 @@
   ]
  },
  "https://www.madisonpubliclibrary.org/spaces/events/search": {
-  "hash": "02585f5824189f6fcedd60318e3a5ad627891882",
-  "asked": "2026-11-13T12:33:06-06:00",
+  "hash": "3b454abfc43c8dc1df4d34f887da7a38dbc69692",
+  "asked": "2026-11-13T21:15:47-06:00",
   "on": "2026-11-13",
-  "events": [
-   {
-    "title": "Toddler Time",
-    "date": "2026-11-16",
-    "start": "10:30",
-    "end": "11:15",
-    "price": null,
-    "description": "Short storytime with rhymes, songs and movement for little ones, followed by play time with other children and caregivers.",
-    "category": "other"
-   },
-   {
-    "title": "Baby Time",
-    "date": "2026-11-16",
-    "start": "11:30",
-    "end": "12:15",
-    "price": null,
-    "description": "Short storytime with rhymes, songs and bounces for babies, followed by play time with other babies and caregivers.",
-    "category": "other"
-   }
-  ]
+  "events": []
  },
  "https://artlitlab.org/calendar": {
-  "hash": "8d1aa849586d85b50313bfb422f11e3af58521d7",
-  "asked": "2026-11-12T21:27:18-06:00",
-  "on": "2026-11-12",
+  "hash": "fdf49b43955f5cb890de1da7b50be3fc2f91a277",
+  "asked": "2026-11-13T21:15:35-06:00",
+  "on": "2026-11-13",
   "events": [
    {
     "title": "Native Art Market 2026",
@@ -1824,7 +1805,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Native Art Market at Arts + Literature Laboratory",
+    "description": "Native Art Market at Arts + Literature Laboratory.",
     "category": "other"
    },
    {
@@ -1833,7 +1814,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Performance by Galaxy Quartet",
+    "description": "Performance by Galaxy Quartet.",
     "category": "music"
    },
    {
@@ -1842,7 +1823,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Exhibition running November 19, 2026 to January 9, 2027",
+    "description": "Exhibition running November 19, 2026 to January 9, 2027.",
     "category": "other"
    },
    {
@@ -1851,7 +1832,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Exhibition running November 19, 2026 to January 9, 2027",
+    "description": "Exhibition running November 19, 2026 to January 9, 2027.",
     "category": "other"
    },
    {
@@ -1860,17 +1841,8 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Exhibition running November 19, 2026 to January 9, 2027",
+    "description": "Exhibition running November 19, 2026 to January 9, 2027.",
     "category": "other"
-   },
-   {
-    "title": "Auricle Presents: Lily Finnegan Quartet",
-    "date": "2026-11-20",
-    "start": null,
-    "end": null,
-    "price": null,
-    "description": "Auricle New Music Series performance by Lily Finnegan Quartet",
-    "category": "music"
    },
    {
     "title": "November Watershed Reading",
@@ -1878,7 +1850,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Literary reading: November Watershed",
+    "description": "Literary reading at Arts + Literature Laboratory.",
     "category": "other"
    },
    {
@@ -1887,23 +1859,32 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Performance by Ancora String Quartet",
+    "description": "Performance by Ancora String Quartet.",
     "category": "music"
    }
   ]
  },
  "https://bartelltheatre.org/": {
-  "hash": "6451e32b37690493efb3c7e4defa9bf57564a7e6",
-  "asked": "2026-11-13T12:33:16-06:00",
+  "hash": "dc77958e358f0fbef28d30c45041acd6bc783fef",
+  "asked": "2026-11-13T21:15:45-06:00",
   "on": "2026-11-13",
   "events": [
    {
     "title": "The Moors",
-    "date": "2026-11-13",
+    "date": "2026-11-14",
+    "start": "14:00",
+    "end": null,
+    "price": null,
+    "description": "Dark comedy about two sisters and a dog on the English moors. Closing run.",
+    "category": "theater"
+   },
+   {
+    "title": "Romeo and Juliet",
+    "date": "2026-11-14",
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "Dark comedy about two sisters and a dog on the English moors, with a hapless governess and a moor-hen.",
+    "description": "Shakespeare's tragedy of two young lovers caught in the feud between the Capulets and Montagues.",
     "category": "theater"
    },
    {
@@ -1916,12 +1897,12 @@
     "category": "other"
    },
    {
-    "title": "Saturday Scene Study (closing)",
+    "title": "Saturday Scene Study",
     "date": "2026-11-21",
     "start": "12:00",
     "end": null,
     "price": null,
-    "description": "Saturday Scene Study closing session at Bartell Theatre.",
+    "description": "Scene study session, listed as closing.",
     "category": "other"
    }
   ]
@@ -1974,8 +1955,8 @@
  },
  "https://www.overture.org/tickets-events/": {
   "hash": "0850050e08d35e7d61fac9b4649b918924629e64",
-  "asked": "2026-11-10T20:47:58-06:00",
-  "on": "2026-11-10",
+  "asked": "2026-11-13T21:15:48-06:00",
+  "on": "2026-11-13",
   "events": [
    {
     "title": "Laura Doherty & The Heartbeats",
@@ -1983,7 +1964,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Multiple showtimes listed on the Overture events page.",
+    "description": "Multiple showtimes listed on Overture's events page.",
     "category": "music"
    },
    {
@@ -1991,8 +1972,8 @@
     "date": "2026-11-15",
     "start": "15:00",
     "end": null,
-    "description": "Artists' talk and reception for the Beneath the Fields & Foundation exhibition.",
     "price": null,
+    "description": "Artists' talk and reception about the Beneath the Fields & Foundation exhibition.",
     "category": "other"
    },
    {
@@ -2001,7 +1982,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Multiple showtimes listed on the Overture events page.",
+    "description": "Multiple showtimes listed on Overture's events page.",
     "category": "music"
    }
   ]
@@ -2112,17 +2093,17 @@
   "events": []
  },
  "https://www.veronapubliclibrary.org/": {
-  "hash": "1e1639d686b1bd47d08a3b6fa94516309e0ad16c",
-  "asked": "2026-11-12T21:27:13-06:00",
-  "on": "2026-11-12",
+  "hash": "a84fd5fc218cd665ca7b406a7ce7d5da0cafa564",
+  "asked": "2026-11-13T21:15:31-06:00",
+  "on": "2026-11-13",
   "events": [
    {
-    "title": "Late Fall Story Times return",
+    "title": "Late Fall Story Times",
     "date": "2026-11-16",
     "start": null,
     "end": null,
     "price": null,
-    "description": "Ongoing library story times return on Monday, November 16. The page gives no times.",
+    "description": "Ongoing library story times return on Monday, November 16.",
     "category": "other"
    }
   ]
@@ -2152,20 +2133,10 @@
   "events": []
  },
  "https://high-noon.com/event/dogpark/": {
-  "hash": "4aa17f13e0145a385106028a3a132c43b6abf2ae",
-  "asked": "2026-11-13T12:32:12-06:00",
+  "hash": "c8402ac247dc16a45ed5d4791488b5387173288c",
+  "asked": "2026-11-13T21:14:34-06:00",
   "on": "2026-11-13",
-  "events": [
-   {
-    "title": "The Gringos with Sheebie & The Lovemakers",
-    "date": "2026-11-22",
-    "start": "20:00",
-    "end": null,
-    "price": null,
-    "description": "FPC Live Presents show at High Noon Saloon. Doors 7:00 pm, show 8:00 pm. 18+ unless accompanied by a parent or legal guardian.",
-    "category": "music"
-   }
-  ]
+  "events": []
  },
  "https://thekickback.bar/premier-trivia-tuesday-nov-3/": {
   "hash": "25992f3a707c36f4ebbe1a9a479acec37b4b7959",
@@ -2312,17 +2283,17 @@
   ]
  },
  "https://www.sunprairiepubliclibrary.org/art-committee-and-gallery-shows": {
-  "hash": "1800cb5e71ffe4fcfcee047c283c0d2a913136d5",
-  "asked": "2026-11-12T21:27:15-06:00",
-  "on": "2026-11-12",
+  "hash": "b6ce38c185fd1bc6eaaeea5253bffe048e9df142",
+  "asked": "2026-11-13T21:15:34-06:00",
+  "on": "2026-11-13",
   "events": [
    {
-    "title": "Dream Bus Mobile Library @ Fun Friday Stops",
-    "date": "2026-11-13",
-    "start": "14:45",
-    "end": "17:00",
+    "title": "Genealogy Class",
+    "date": "2026-11-14",
+    "start": "10:00",
+    "end": "11:30",
     "price": null,
-    "description": "Mobile library visit at Fun Friday stops; all ages.",
+    "description": "Genealogy class for adults at Sun Prairie Public Library.",
     "category": "other"
    },
    {
@@ -2331,7 +2302,7 @@
     "start": "10:00",
     "end": "11:30",
     "price": null,
-    "description": "Art club for children ages 5-8.",
+    "description": "Art club for children ages 5 to 8 at Sun Prairie Public Library.",
     "category": "other"
    },
    {
@@ -2340,16 +2311,7 @@
     "start": "10:00",
     "end": "14:00",
     "price": null,
-    "description": "Puzzle club for all ages.",
-    "category": "other"
-   },
-   {
-    "title": "Genealogy Class",
-    "date": "2026-11-14",
-    "start": "10:00",
-    "end": "11:30",
-    "price": null,
-    "description": "Genealogy class for adults.",
+    "description": "Puzzle club for families, children, teens and adults at Sun Prairie Public Library.",
     "category": "other"
    },
    {
@@ -2358,7 +2320,16 @@
     "start": "14:00",
     "end": "16:00",
     "price": null,
-    "description": "Leaf collage art workshop led by guest artist Brooke Baum; all ages.",
+    "description": "Leaf collage art session led by guest artist Brooke Baum, open to families, children, teens and adults.",
+    "category": "other"
+   },
+   {
+    "title": "Teen Anime Club",
+    "date": "2026-11-15",
+    "start": "14:00",
+    "end": "16:30",
+    "price": null,
+    "description": "Anime club for teens at Sun Prairie Public Library.",
     "category": "other"
    }
   ]
@@ -2383,8 +2354,8 @@
  },
  "https://www.capitalbrewery.com/on-site-events/": {
   "hash": "331fb195fece970e9ac18a488dbe3aab2bf4a487",
-  "asked": "2026-11-10T12:40:52-06:00",
-  "on": "2026-11-10",
+  "asked": "2026-11-13T21:14:42-06:00",
+  "on": "2026-11-13",
   "events": [
    {
     "title": "LIVE MUSIC w/ Too Sick Charlie",
@@ -2392,8 +2363,17 @@
     "start": "14:00",
     "end": "17:00",
     "price": null,
-    "description": "Live music with Too Sick Charlie at Capital Brewery. Dogs are not allowed when live music is performing.",
+    "description": "Live music with Too Sick Charlie at Capital Brewery.",
     "category": "music"
+   },
+   {
+    "title": "Fresh Citrus & Pears Stop Event by Tree-Ripe Fruit Co.",
+    "date": "2026-11-25",
+    "start": "12:00",
+    "end": "13:30",
+    "price": null,
+    "description": "Fresh citrus and pears stop event by Tree-Ripe Fruit Co. at Capital Brewery.",
+    "category": "food"
    }
   ]
  }

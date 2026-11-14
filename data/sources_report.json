@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-11-13T12:33:53-06:00",
- "total_events": 375,
+ "generated_at": "2026-11-13T21:15:53-06:00",
+ "total_events": 379,
  "in_more_than_one_source": 18,
  "sources": {
   "AI page reading": {
-   "events": 131,
-   "unique_events": 120,
+   "events": 137,
+   "unique_events": 124,
    "overlap": {
-    "Isthmus": 1,
-    "Ticketmaster": 10,
+    "Isthmus": 2,
+    "Ticketmaster": 11,
     "Venue websites": 0
    },
-   "venues": 32,
+   "venues": 35,
    "unique_venues": [
     "Aftershock Classic Arcade",
     "Arts + Literature Laboratory",
@@ -21,6 +21,7 @@
     "Doundrins Distilling",
     "East Side Club",
     "Flight Wine & Bourbon Bar",
+    "Imagination Center",
     "Italian Workmen's Club",
     "Karben4 Brewing",
     "Laurel Tavern",
@@ -31,7 +32,9 @@
     "Old Sugar Distillery",
     "Oscar Rennebohm Library",
     "Overture Center for the Arts",
+    "Pinney Library",
     "Reindahl Park Pavillion",
+    "Sequoya Library",
     "State Line Distillery",
     "Sun Prairie Public Library",
     "The Kickback",
@@ -42,12 +45,12 @@
    ]
   },
   "Isthmus": {
-   "events": 145,
+   "events": 144,
    "unique_events": 138,
    "overlap": {
-    "AI page reading": 1,
-    "Ticketmaster": 3,
-    "Venue websites": 3
+    "AI page reading": 2,
+    "Ticketmaster": 2,
+    "Venue websites": 2
    },
    "venues": 82,
    "unique_venues": [
@@ -103,6 +106,7 @@
     "Tavernakaya",
     "The Atwood",
     "The Boneyard",
+    "The Bur Oak",
     "The Cardinal Bar",
     "The Center for Black Excellence and Culture",
     "The Mill",
@@ -123,15 +127,16 @@
    ]
   },
   "Ticketmaster": {
-   "events": 46,
-   "unique_events": 32,
+   "events": 48,
+   "unique_events": 34,
    "overlap": {
-    "AI page reading": 10,
-    "Isthmus": 3,
+    "AI page reading": 11,
+    "Isthmus": 2,
     "Venue websites": 1
    },
    "venues": 12,
    "unique_venues": [
+    "Camp Randall",
     "Capitol Theater - Overture Center",
     "LaBahn Arena",
     "Legacy20 Arena at Deforest Yards",
@@ -140,11 +145,11 @@
    ]
   },
   "Venue websites": {
-   "events": 71,
-   "unique_events": 67,
+   "events": 68,
+   "unique_events": 65,
    "overlap": {
     "AI page reading": 0,
-    "Isthmus": 3,
+    "Isthmus": 2,
     "Ticketmaster": 1
    },
    "venues": 14,

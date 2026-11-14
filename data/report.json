@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-13T12:33:53-06:00",
+ "generated_at": "2026-11-13T21:15:53-06:00",
  "venues_checked": 237,
- "venues_with_events": 65,
- "venues_with_feeds": 88,
- "events": 375,
- "filtered_out": 184,
+ "venues_with_events": 64,
+ "venues_with_feeds": 87,
+ "events": 379,
+ "filtered_out": 170,
  "venues": [
   {
    "name": "AI page reading",
@@ -13,12 +13,12 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 193,
+   "raw_events": 189,
    "error": "",
-   "calls": 19,
-   "tokens_in": 44688,
-   "tokens_out": 15573,
-   "est_cost_usd": 0.0123
+   "calls": 25,
+   "tokens_in": 49763,
+   "tokens_out": 23090,
+   "est_cost_usd": 0.0165
   },
   {
    "name": "Isthmus calendar",
@@ -28,7 +28,7 @@
     "calendar"
    ],
    "raw_events": 151,
-   "error": ""
+   "error": "used today's copy (read once a day)"
   },
   {
    "name": "Bayview Community Center",
@@ -48,7 +48,7 @@
    "feeds": [
     "ticketmaster"
    ],
-   "raw_events": 47,
+   "raw_events": 49,
    "error": ""
   },
   {
@@ -66,17 +66,6 @@
    "error": ""
   },
   {
-   "name": "E.D. Locke Public Library",
-   "kind": "library",
-   "website": "https://www.mcfarlandlibrary.org/home",
-   "feeds": [
-    "ical",
-    "ical"
-   ],
-   "raw_events": 34,
-   "error": "ical: ConnectionError: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //www.mcfarlandlibrary.org/calendar/month (Caused by NameResolutionError(\"HTTPSConnection(host='https"
-  },
-  {
    "name": "Working Draft Beer Company",
    "kind": "brewery",
    "website": "https://www.workingdraftbeer.com/",
@@ -89,6 +78,17 @@
    ],
    "raw_events": 34,
    "error": ""
+  },
+  {
+   "name": "E.D. Locke Public Library",
+   "kind": "library",
+   "website": "https://www.mcfarlandlibrary.org/home",
+   "feeds": [
+    "ical",
+    "ical"
+   ],
+   "raw_events": 32,
+   "error": "ical: ConnectionError: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //www.mcfarlandlibrary.org/calendar/month (Caused by NameResolutionError(\"HTTPSConnection(host='https"
   },
   {
    "name": "Comedy Club on State",
@@ -115,7 +115,7 @@
     "jsonld",
     "jsonld"
    ],
-   "raw_events": 21,
+   "raw_events": 19,
    "error": ""
   },
   {
@@ -126,18 +126,6 @@
     "ai"
    ],
    "raw_events": 14,
-   "error": ""
-  },
-  {
-   "name": "Bridge Lakepoint Waunona Neighborhood Center",
-   "kind": "community",
-   "website": "https://www.blwcenter.org/",
-   "feeds": [
-    "squarespace",
-    "jsonld",
-    "jsonld"
-   ],
-   "raw_events": 13,
    "error": ""
   },
   {
@@ -152,16 +140,6 @@
     "jsonld"
    ],
    "raw_events": 13,
-   "error": ""
-  },
-  {
-   "name": "Arts + Literature Laboratory",
-   "kind": "venue",
-   "website": "https://artlitlab.org/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 12,
    "error": ""
   },
   {
@@ -186,6 +164,28 @@
     "ai"
    ],
    "raw_events": 12,
+   "error": ""
+  },
+  {
+   "name": "Arts + Literature Laboratory",
+   "kind": "venue",
+   "website": "https://artlitlab.org/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 11,
+   "error": ""
+  },
+  {
+   "name": "Bridge Lakepoint Waunona Neighborhood Center",
+   "kind": "community",
+   "website": "https://www.blwcenter.org/",
+   "feeds": [
+    "squarespace",
+    "jsonld",
+    "jsonld"
+   ],
+   "raw_events": 11,
    "error": ""
   },
   {
@@ -260,16 +260,6 @@
    "error": ""
   },
   {
-   "name": "Alicia Ashman Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 7,
-   "error": ""
-  },
-  {
    "name": "Gamma Ray Bar",
    "kind": "bar",
    "website": "https://gammaray.bar",
@@ -283,26 +273,6 @@
    "name": "Imagination Center",
    "kind": "library",
    "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 7,
-   "error": ""
-  },
-  {
-   "name": "Monroe Street Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/monroe-street",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 7,
-   "error": ""
-  },
-  {
-   "name": "Pinney Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
    "feeds": [
     "ai"
    ],
@@ -330,6 +300,16 @@
    "error": ""
   },
   {
+   "name": "State Line Distillery",
+   "kind": "brewery",
+   "website": "https://www.statelinedistillery.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 6,
+   "error": ""
+  },
+  {
    "name": "Verona Community Center",
    "kind": "community",
    "website": "https://www.veronawi.gov/941/Community-Center",
@@ -340,9 +320,29 @@
    "error": ""
   },
   {
-   "name": "State Line Distillery",
-   "kind": "brewery",
-   "website": "https://www.statelinedistillery.com/",
+   "name": "Alicia Ashman Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 5,
+   "error": ""
+  },
+  {
+   "name": "Monroe Street Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/monroe-street",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 5,
+   "error": ""
+  },
+  {
+   "name": "Pinney Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
    "feeds": [
     "ai"
    ],
@@ -360,9 +360,9 @@
    "error": ""
   },
   {
-   "name": "Orpheum Theatre",
+   "name": "Bartell Theatre",
    "kind": "venue",
-   "website": "https://madisonorpheum.com/",
+   "website": "https://bartelltheatre.org/",
    "feeds": [
     "ai"
    ],
@@ -370,13 +370,23 @@
    "error": ""
   },
   {
-   "name": "Bartell Theatre",
-   "kind": "venue",
-   "website": "https://bartelltheatre.org/",
+   "name": "Capital Brewery",
+   "kind": "brewery",
+   "website": "https://www.capital-brewery.com/",
    "feeds": [
     "ai"
    ],
-   "raw_events": 3,
+   "raw_events": 4,
+   "error": ""
+  },
+  {
+   "name": "Orpheum Theatre",
+   "kind": "venue",
+   "website": "https://madisonorpheum.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 4,
    "error": ""
   },
   {
@@ -502,20 +512,11 @@
    "error": ""
   },
   {
-   "name": "Capital Brewery",
-   "kind": "brewery",
-   "website": "https://www.capital-brewery.com/",
+   "name": "Centro",
+   "kind": "community",
+   "website": "https://www.micentro.org/",
    "feeds": [
-    "ai"
-   ],
-   "raw_events": 2,
-   "error": ""
-  },
-  {
-   "name": "Central Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/central",
-   "feeds": [
+    "squarespace",
     "ai"
    ],
    "raw_events": 2,
@@ -618,17 +619,6 @@
    "feeds": [
     "tribe",
     "jsonld"
-   ],
-   "raw_events": 1,
-   "error": ""
-  },
-  {
-   "name": "Centro",
-   "kind": "community",
-   "website": "https://www.micentro.org/",
-   "feeds": [
-    "squarespace",
-    "ai"
    ],
    "raw_events": 1,
    "error": ""
@@ -880,6 +870,14 @@
    "error": "PermissionError: robots.txt disallows https://www.facebook.com/cargocoffeeeast/"
   },
   {
+   "name": "Central Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/central",
+   "feeds": [],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
    "name": "Cervato Wine & Tapas",
    "kind": "bar",
    "website": "https://cervatowine.com/",
@@ -1105,7 +1103,7 @@
    "website": "https://gatesandbrovi.com/",
    "feeds": [],
    "raw_events": 0,
-   "error": ""
+   "error": "ai: ConnectTimeout: HTTPSConnectionPool(host='gatesandbrovi.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='gatesandbrovi.com', port=443) at 0x7"
   },
   {
    "name": "Genna's Cocktail Lounge",
@@ -1688,7 +1686,7 @@
    "website": "https://www.shamrockbarandgrille.com/",
    "feeds": [],
    "raw_events": 0,
-   "error": "SSLError: HTTPSConnectionPool(host='www.shamrockbarandgrille.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in v"
+   "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
   },
   {
    "name": "Slow Food UW Student Cafe",

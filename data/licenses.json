@@ -311,14 +311,14 @@
    ]
   }
  },
- "links_on_page": 3,
+ "links_on_page": 4,
  "page_debug": {
-  "bytes": 70086,
-  "view_ashx": 3,
-  "legistar": 10,
+  "bytes": 78309,
+  "view_ashx": 4,
+  "legistar": 11,
   "final_url": "https://www.cityofmadison.com/city-hall/committees/alcohol-license-review-committee"
  },
- "checked": "2026-11-06T20:48:15-06:00",
+ "checked": "2026-11-13T21:14:26-06:00",
  "meeting_pages_tried": [
   "2026-03-04",
   "2026-03-11",
@@ -352,6 +352,7 @@
   "2026-09-30",
   "2026-10-07",
   "2026-10-14",
-  "2026-11-04"
+  "2026-11-04",
+  "2026-11-11"
  ]
 }
