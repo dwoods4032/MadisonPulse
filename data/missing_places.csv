@@ -80,6 +80,7 @@ add (yes/no),name,address,city,type,website,website works,notes,id
 ,Rosati's Pizza,355 E Linnerud Dr,Sun Prairie,pizza restaurant,https://www.myrosatis.com,yes,,ovt:6cdc0319-307d-4abb-a4fe-1152962705c2
 ,Rossario's,6001 Monona Dr,Monona,italian restaurant,http://www.explorewisconsin.com,yes,,ovt:2baff573-7915-4c68-bc8d-d0ed418a460b
 ,Smokin Hot Backyard BBQ Competition,203 Grove St,Cottage Grove,barbecue restaurant,http://cottagegrovefire.org,yes,,ovt:90a90a96-530d-432b-88f7-a1160567f9a5
+,Sunroom Cafe,638 State St,Madison,breakfast and brunch restaurant,http://sunroomcafe.com,yes,,ovt:04a4bf26-f370-4301-94ed-b1743b9afed1
 ,Surfaces In Biomaterials Foundation,6000 Gisholt Dr,Monona,restaurant,https://www.surfaces.org/contact,yes,,ovt:4c98d426-a543-42f5-9461-482c58fa5a95
 ,Taco Local,811 Williamson St,Madison,restaurant,https://tacolocal.com,yes,,ovt:36b6662c-ec7f-4ddb-86d1-800ac5410b1d
 ,Taigu,7610 Elmwood Ave,Middleton,restaurant,https://www.taigunoodles.com/menu,yes,,ovt:e75b64c6-e765-474d-ac6c-c39e6fd6978d
@@ -187,7 +188,6 @@ add (yes/no),name,address,city,type,website,website works,notes,id
 ,Slackjack's,420 State St,Madison,restaurant,https://slackjacks.com/,no,,ovt:cd582170-422c-45b4-be2a-5c0b30f7db7d
 ,Soup Factory Etc,1901 Cayuga St,Middleton,restaurant,http://soupfactoryetc.com/,no,,ovt:1c897adc-04a0-4cde-960c-8f6bce74db1e
 ,Sujeo,10 N Livingston St,Madison,asian restaurant,http://www.sujeomadison.com,no,,ovt:3e83d09f-5465-4426-9cca-30d9664180a3
-,Sunroom Cafe,638 State St,Madison,breakfast and brunch restaurant,http://sunroomcafe.com,no,,ovt:04a4bf26-f370-4301-94ed-b1743b9afed1
 ,Sushi Box,2433 University Ave,Madison,sushi restaurant,http://sushiboxmadison.com/,no,,ovt:de74395d-9a77-4adf-a3c3-4fb9fe4315f1
 ,Szechuan Garden,6654 Mineral Point Rd,Madison,seafood restaurant,https://www.szechuangardenmadisonwi.com/?utm_source=bing&utm_medium=websiteurl&utm_campaign=search,no,,ovt:32c08b75-1590-4ba1-9a36-eb53e171392f
 ,T J Cinnamons,4 Collins Ct,Madison,restaurant,http://www.tjcinnamons.com,no,,ovt:39eb7bca-4c85-4948-9bca-8c0be3e77765

@@ -1043,5 +1043,55 @@
   "lon": -89.371579,
   "address": "East Washington Avenue",
   "city": "Madison"
+ },
+ "grace episcopal church": {
+  "lat": 43.073916,
+  "lon": -89.385778,
+  "address": "West Washington Avenue",
+  "city": "Madison"
+ },
+ "lincoln high school, wisconsin rapids": {
+  "lat": 44.373861,
+  "lon": -89.804494,
+  "address": "1801 16th Street South",
+  "city": "Wisconsin Rapids"
+ },
+ "verona library": {
+  "lat": 42.997388,
+  "lon": -89.528001,
+  "address": "500 Silent Street",
+  "city": "Town of Verona"
+ },
+ "arbor good neighbor house": null,
+ "owen conservation park": {
+  "lat": 43.071413,
+  "lon": -89.486247,
+  "address": "",
+  "city": "Madison"
+ },
+ "labahn arena": {
+  "lat": 43.069771,
+  "lon": -89.398556,
+  "address": "East Campus Mall",
+  "city": "Madison"
+ },
+ "farley's house of pianos": {
+  "lat": 43.052252,
+  "lon": -89.494826,
+  "address": "Seybold Road",
+  "city": "Madison"
+ },
+ "quivey's grove": {
+  "lat": 43.009324,
+  "lon": -89.478825,
+  "address": "Nesbitt Road",
+  "city": "Fitchburg"
+ },
+ "bear and bottle": null,
+ "cave of the mounds, blue mounds": {
+  "lat": 43.01674,
+  "lon": -89.814858,
+  "address": "2975 Cave of the Mounds Road",
+  "city": "Village of Blue Mounds"
  }
 }

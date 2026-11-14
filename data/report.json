@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-13T21:15:53-06:00",
+ "generated_at": "2026-11-14T11:09:16-06:00",
  "venues_checked": 237,
- "venues_with_events": 64,
- "venues_with_feeds": 87,
- "events": 379,
- "filtered_out": 170,
+ "venues_with_events": 63,
+ "venues_with_feeds": 88,
+ "events": 348,
+ "filtered_out": 87,
  "venues": [
   {
    "name": "AI page reading",
@@ -15,10 +15,10 @@
    ],
    "raw_events": 189,
    "error": "",
-   "calls": 25,
-   "tokens_in": 49763,
-   "tokens_out": 23090,
-   "est_cost_usd": 0.0165
+   "calls": 19,
+   "tokens_in": 46995,
+   "tokens_out": 18808,
+   "est_cost_usd": 0.0141
   },
   {
    "name": "Isthmus calendar",
@@ -27,18 +27,7 @@
    "feeds": [
     "calendar"
    ],
-   "raw_events": 151,
-   "error": "used today's copy (read once a day)"
-  },
-  {
-   "name": "Bayview Community Center",
-   "kind": "community",
-   "website": "https://www.bayviewfoundation.org",
-   "feeds": [
-    "tribe",
-    "jsonld"
-   ],
-   "raw_events": 81,
+   "raw_events": 130,
    "error": ""
   },
   {
@@ -48,7 +37,7 @@
    "feeds": [
     "ticketmaster"
    ],
-   "raw_events": 49,
+   "raw_events": 46,
    "error": ""
   },
   {
@@ -80,17 +69,6 @@
    "error": ""
   },
   {
-   "name": "E.D. Locke Public Library",
-   "kind": "library",
-   "website": "https://www.mcfarlandlibrary.org/home",
-   "feeds": [
-    "ical",
-    "ical"
-   ],
-   "raw_events": 32,
-   "error": "ical: ConnectionError: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //www.mcfarlandlibrary.org/calendar/month (Caused by NameResolutionError(\"HTTPSConnection(host='https"
-  },
-  {
    "name": "Comedy Club on State",
    "kind": "venue",
    "website": "https://www.madisoncomedy.com/",
@@ -105,6 +83,17 @@
    "error": ""
   },
   {
+   "name": "E.D. Locke Public Library",
+   "kind": "library",
+   "website": "https://www.mcfarlandlibrary.org/home",
+   "feeds": [
+    "ical",
+    "ical"
+   ],
+   "raw_events": 31,
+   "error": "ical: ConnectionError: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //www.mcfarlandlibrary.org/calendar/month (Caused by NameResolutionError(\"HTTPSConnection(host='https"
+  },
+  {
    "name": "Cafe CODA",
    "kind": "bar",
    "website": "https://cafecoda.club",
@@ -115,7 +104,7 @@
     "jsonld",
     "jsonld"
    ],
-   "raw_events": 19,
+   "raw_events": 18,
    "error": ""
   },
   {
@@ -126,20 +115,6 @@
     "ai"
    ],
    "raw_events": 14,
-   "error": ""
-  },
-  {
-   "name": "Lone Girl Tap Room And Pizza Company",
-   "kind": "bar",
-   "website": "https://thelonegirl.com",
-   "feeds": [
-    "tribe",
-    "jsonld",
-    "jsonld",
-    "jsonld",
-    "jsonld"
-   ],
-   "raw_events": 13,
    "error": ""
   },
   {
@@ -162,6 +137,20 @@
    "website": "https://www.high-noon.com/",
    "feeds": [
     "ai"
+   ],
+   "raw_events": 12,
+   "error": ""
+  },
+  {
+   "name": "Lone Girl Tap Room And Pizza Company",
+   "kind": "bar",
+   "website": "https://thelonegirl.com",
+   "feeds": [
+    "tribe",
+    "jsonld",
+    "jsonld",
+    "jsonld",
+    "jsonld"
    ],
    "raw_events": 12,
    "error": ""
@@ -229,17 +218,6 @@
    "error": ""
   },
   {
-   "name": "One Social Bar",
-   "kind": "bar",
-   "website": "https://onesocialmadison.com/vendor/one-social-bar/",
-   "feeds": [
-    "tribe",
-    "jsonld"
-   ],
-   "raw_events": 8,
-   "error": ""
-  },
-  {
    "name": "Reindahl Park Pavillion",
    "kind": "community",
    "website": "https://www.cityofmadison.com/parks/find-a-park/reindahl/pavilion-at-the-imagination-center",
@@ -260,16 +238,6 @@
    "error": ""
   },
   {
-   "name": "Gamma Ray Bar",
-   "kind": "bar",
-   "website": "https://gammaray.bar",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 7,
-   "error": ""
-  },
-  {
    "name": "Imagination Center",
    "kind": "library",
    "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
@@ -280,11 +248,12 @@
    "error": ""
   },
   {
-   "name": "Sequoya Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/sequoya",
+   "name": "One Social Bar",
+   "kind": "bar",
+   "website": "https://onesocialmadison.com/vendor/one-social-bar/",
    "feeds": [
-    "ai"
+    "tribe",
+    "jsonld"
    ],
    "raw_events": 7,
    "error": ""
@@ -293,6 +262,36 @@
    "name": "Crystal Corner Bar",
    "kind": "bar",
    "website": "https://thecrystalcornerbar.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 6,
+   "error": ""
+  },
+  {
+   "name": "Gamma Ray Bar",
+   "kind": "bar",
+   "website": "https://gammaray.bar",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 6,
+   "error": ""
+  },
+  {
+   "name": "Pinney Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 6,
+   "error": ""
+  },
+  {
+   "name": "Sequoya Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/sequoya",
    "feeds": [
     "ai"
    ],
@@ -340,16 +339,6 @@
    "error": ""
   },
   {
-   "name": "Pinney Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 5,
-   "error": ""
-  },
-  {
    "name": "The Malt House",
    "kind": "bar",
    "website": "http://malthousetavern.com/",
@@ -390,32 +379,11 @@
    "error": ""
   },
   {
-   "name": "Come Back Inn",
-   "kind": "bar",
-   "website": "https://comebackintavern.com/",
-   "feeds": [
-    "tribe",
-    "jsonld"
-   ],
-   "raw_events": 3,
-   "error": ""
-  },
-  {
    "name": "Full Mile Beer Company & Kitchen",
    "kind": "brewery",
    "website": "https://www.fullmilebeercompany.com/",
    "feeds": [
     "squarespace"
-   ],
-   "raw_events": 3,
-   "error": ""
-  },
-  {
-   "name": "Lakeside Street Coffee House",
-   "kind": "cafe",
-   "website": "https://lakesidestcoffeehouse.com/",
-   "feeds": [
-    "ai"
    ],
    "raw_events": 3,
    "error": ""
@@ -512,6 +480,16 @@
    "error": ""
   },
   {
+   "name": "Central Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/central",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 2,
+   "error": ""
+  },
+  {
    "name": "Centro",
    "kind": "community",
    "website": "https://www.micentro.org/",
@@ -536,6 +514,16 @@
    "name": "Flight Wine & Bourbon Bar",
    "kind": "bar",
    "website": "https://flightwi.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 2,
+   "error": ""
+  },
+  {
+   "name": "Lakeside Street Coffee House",
+   "kind": "cafe",
+   "website": "https://lakesidestcoffeehouse.com/",
    "feeds": [
     "ai"
    ],
@@ -790,6 +778,17 @@
    "error": ""
   },
   {
+   "name": "Bayview Community Center",
+   "kind": "community",
+   "website": "https://www.bayviewfoundation.org",
+   "feeds": [
+    "tribe",
+    "jsonld"
+   ],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
    "name": "Black Locust Cafe",
    "kind": "cafe",
    "website": "https://blacklocustcafe.com/",
@@ -870,14 +869,6 @@
    "error": "PermissionError: robots.txt disallows https://www.facebook.com/cargocoffeeeast/"
   },
   {
-   "name": "Central Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/central",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
    "name": "Cervato Wine & Tapas",
    "kind": "bar",
    "website": "https://cervatowine.com/",
@@ -940,6 +931,17 @@
    "kind": "cafe",
    "website": "https://colectivo.com/pages/madison-cafes",
    "feeds": [],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
+   "name": "Come Back Inn",
+   "kind": "bar",
+   "website": "https://comebackintavern.com/",
+   "feeds": [
+    "tribe",
+    "jsonld"
+   ],
    "raw_events": 0,
    "error": ""
   },
@@ -1103,7 +1105,7 @@
    "website": "https://gatesandbrovi.com/",
    "feeds": [],
    "raw_events": 0,
-   "error": "ai: ConnectTimeout: HTTPSConnectionPool(host='gatesandbrovi.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='gatesandbrovi.com', port=443) at 0x7"
+   "error": ""
   },
   {
    "name": "Genna's Cocktail Lounge",
@@ -1453,7 +1455,7 @@
   {
    "name": "Moka",
    "kind": "cafe",
-   "website": "https://www.mymokacoffee.com/",
+   "website": "https://mymokacoffee.com/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1461,7 +1463,7 @@
   {
    "name": "Moka",
    "kind": "cafe",
-   "website": "https://mymokacoffee.com/",
+   "website": "https://www.mymokacoffee.com/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1686,7 +1688,7 @@
    "website": "https://www.shamrockbarandgrille.com/",
    "feeds": [],
    "raw_events": 0,
-   "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+   "error": "SSLError: HTTPSConnectionPool(host='www.shamrockbarandgrille.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in v"
   },
   {
    "name": "Slow Food UW Student Cafe",
@@ -1715,7 +1717,7 @@
   {
    "name": "Starbucks",
    "kind": "cafe",
-   "website": "https://www.starbucks.com/store-locator/store/16495/south-gammon-mineral-point-434-gammon-place-3-madison-wi-537191090-us",
+   "website": "https://www.starbucks.com/store-locator/store/1010275/greenway-boulevard-8230-greenway-boulevard-middleton-wi-535623579-us",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1723,7 +1725,7 @@
   {
    "name": "Starbucks",
    "kind": "cafe",
-   "website": "https://www.starbucks.com/store-locator/store/1010275/greenway-boulevard-8230-greenway-boulevard-middleton-wi-535623579-us",
+   "website": "https://www.starbucks.com/store-locator/store/16495/south-gammon-mineral-point-434-gammon-place-3-madison-wi-537191090-us",
    "feeds": [],
    "raw_events": 0,
    "error": ""

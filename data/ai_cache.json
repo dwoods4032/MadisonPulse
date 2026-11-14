@@ -279,26 +279,17 @@
   "events": []
  },
  "https://www.harmonybarandgrill.com/madison-atwood-the-harmony-bar-and-grill-events": {
-  "hash": "c465cbd2f370d0688373bb16760e5381b2bdbb3d",
-  "asked": "2026-11-13T12:32:08-06:00",
-  "on": "2026-11-13",
+  "hash": "06d076450917f2b424d4880c2931d94da0a6a57e",
+  "asked": "2026-11-14T11:07:35-06:00",
+  "on": "2026-11-14",
   "events": [
    {
-    "title": "Left On High Street",
-    "date": "2026-11-13",
-    "start": "21:00",
-    "end": "00:00",
-    "price": 10,
-    "description": "Cambridge, WI band blending 1980s MTV vibe with classic rock and blues. 21+ not stated.",
-    "category": "music"
-   },
-   {
-    "title": "Maria and the Coins with Bear in the Forest",
+    "title": "Maria and the Coins / Bear in the Forest",
     "date": "2026-11-14",
     "start": "21:00",
     "end": "00:00",
     "price": 10,
-    "description": "Minneapolis indie pop-rock band Maria and the Coins; Bear in the Forest opens.",
+    "description": "Indie pop-rock from Minneapolis's Maria and the Coins, with Bear in the Forest opening. $10 cover.",
     "category": "music"
    },
    {
@@ -307,7 +298,7 @@
     "start": "17:00",
     "end": "19:30",
     "price": 0,
-    "description": "Acoustic singer-songwriter show with Andy Ewen, Doug DeRosa on bass and Ryan Repenshek on guitar.",
+    "description": "Acoustic show by singer-songwriter Andy Ewen with Doug DeRosa on bass and Ryan Repenshek on guitar. No cover.",
     "category": "music"
    },
    {
@@ -316,7 +307,7 @@
     "start": "17:30",
     "end": "18:30",
     "price": 5,
-    "description": "Kids music show with David Landau; kid menu available.",
+    "description": "Kids music show with David Landau, with the kid menu available. $5 cover.",
     "category": "music"
    },
    {
@@ -325,7 +316,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Monthly bluegrass series hosted by Soggy Prairie, with guest artists Lucky Pickers.",
+    "description": "Monthly bluegrass series hosted by Soggy Prairie, with a set from guest artists Lucky Pickers. No cover.",
     "category": "music"
    },
    {
@@ -334,7 +325,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Trivia hosted by Paul, held the 1st and 3rd Wednesday of each month.",
+    "description": "Trivia hosted by Paul, held the 1st and 3rd Wednesday of the month. Free.",
     "category": "trivia"
    },
    {
@@ -343,7 +334,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Round-robin songwriter showcase hosted by JT Spartz, featuring Annie Emmenegger, Jason Edward and JT Spartz.",
+    "description": "Season 2, Episode 2 of the round-robin songwriters' showcase hosted by JT Spartz, featuring Annie Emmenegger, Jason Edward and JT Spartz. No cover.",
     "category": "music"
    },
    {
@@ -352,16 +343,16 @@
     "start": "21:00",
     "end": "00:00",
     "price": 10,
-    "description": "Rolling Stones tribute band Loving Cup and Los Bad Hombres. 21+.",
+    "description": "Rolling Stones tribute Loving Cup with Los Bad Hombres. 21+. $10 cover.",
     "category": "music"
    },
    {
     "title": "The Cajun Strangers",
     "date": "2026-11-22",
-    "start": "17:00",
+    "start": "16:00",
     "end": "19:30",
     "price": 10,
-    "description": "Madison award-winning band playing traditional Cajun dance music. $10 suggested donation.",
+    "description": "Madison Cajun band playing traditional Cajun dance music. $10 suggested donation.",
     "category": "music"
    },
    {
@@ -370,7 +361,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Bluegrass-inspired band Bigtooth, joined by a TBD guest.",
+    "description": "Bluegrass-inspired band Bigtooth (Starr Moss, Trent Cuthbert, Michael Falk, Claire Kannapell, Paul Kienitz), with a guest TBD. No cover.",
     "category": "music"
    },
    {
@@ -379,7 +370,16 @@
     "start": "20:00",
     "end": "22:30",
     "price": 15,
-    "description": "1980s new wave and synth-pop party band. 10th annual fundraiser for Second Harvest Food Bank; $15 suggested donation.",
+    "description": "1980s new wave and synth-pop party band. 10th annual fundraiser for Second Harvest Food Bank. $15 suggested donation.",
+    "category": "music"
+   },
+   {
+    "title": "Ham n' Eggers",
+    "date": "2026-11-28",
+    "start": "20:00",
+    "end": "22:30",
+    "price": 0,
+    "description": "Madison Americana quartet with rich vocal harmonies, formerly the Grouvin Family String Band. No cover.",
     "category": "music"
    }
   ]
@@ -507,26 +507,17 @@
   ]
  },
  "https://high-noon.com/calendar/": {
-  "hash": "39701e7bf06cb2dab25b73694b260c603d45bafe",
-  "asked": "2026-11-13T12:32:08-06:00",
-  "on": "2026-11-13",
+  "hash": "0d6c20d73bb38da897226c4fb6eef5b896d68fbf",
+  "asked": "2026-11-14T11:07:36-06:00",
+  "on": "2026-11-14",
   "events": [
-   {
-    "title": "Hottt Probs, Heet Deth & Sex Scenes",
-    "date": "2026-11-13",
-    "start": "19:00",
-    "end": null,
-    "price": null,
-    "description": "FPC Live presents; doors 6:00 pm",
-    "category": "music"
-   },
    {
     "title": "Hips Don't Lie: A Tribute To Shakira",
     "date": "2026-11-14",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents; doors 7:00 pm",
+    "description": "FPC Live presents a Shakira tribute show. Doors 7:00 pm.",
     "category": "music"
    },
    {
@@ -535,7 +526,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents; doors 7:00 pm; sold out",
+    "description": "FPC Live presents almost monday with feel trip. Sold out. Doors 7:00 pm.",
     "category": "music"
    },
    {
@@ -544,7 +535,7 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "FPC Live presents; doors 6:30 pm",
+    "description": "FPC Live presents Ryan Jesse with Clayton Shay. Doors 6:30 pm.",
     "category": "music"
    },
    {
@@ -553,7 +544,7 @@
     "start": "19:00",
     "end": null,
     "price": 0,
-    "description": "FPC Live presents; free show; doors 6:00 pm",
+    "description": "FPC Live presents Nerd Nite. Free show. Doors 6:00 pm.",
     "category": "other"
    },
    {
@@ -562,7 +553,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "WORT 89.9 FM presents; doors 7:00 pm",
+    "description": "WORT 89.9 FM presents Humbird with Bad Posture Club. Doors 7:00 pm.",
     "category": "music"
    },
    {
@@ -571,16 +562,16 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Doors 7:00 pm",
+    "description": "Live music with Left Lane Cruiser, 20 Watt Tombstone and Electromag. Doors 7:00 pm.",
     "category": "music"
    },
    {
-    "title": "Music Con Brio: 'Caravan' performing Modal Jazz",
+    "title": "Music Con Brio: Caravan",
     "date": "2026-11-21",
     "start": "11:30",
     "end": null,
     "price": 0,
-    "description": "Featuring Music con Brio students; free, donations at door; doors 11:00 am",
+    "description": "Caravan performs Modal Jazz with Music con Brio students. Free, donations at door. Doors 11:00 am.",
     "category": "music"
    },
    {
@@ -589,7 +580,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents; doors 7:00 pm",
+    "description": "FPC Live presents a Talking Heads tribute. Doors 7:00 pm.",
     "category": "music"
    },
    {
@@ -598,7 +589,7 @@
     "start": "11:00",
     "end": null,
     "price": null,
-    "description": "Doors 10:15 am",
+    "description": "MadFiddle performance. Doors 10:15 am.",
     "category": "music"
    },
    {
@@ -607,7 +598,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents; doors 7:00 pm",
+    "description": "FPC Live presents The Gringos with Sheebie & The Lovemakers. Doors 7:00 pm.",
     "category": "music"
    },
    {
@@ -616,7 +607,16 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Featuring Joseph Huber Band, Dig Deep, Kevin Troestler and Sheilagh Dandy Lion; FPC Live presents; doors 7:00 pm",
+    "description": "FPC Live presents Joseph Huber Band, Dig Deep, Kevin Troestler and Sheilagh Dandy Lion. Doors 7:00 pm.",
+    "category": "music"
+   },
+   {
+    "title": "The Last Waltz and Beyond",
+    "date": "2026-11-28",
+    "start": "20:00",
+    "end": null,
+    "price": null,
+    "description": "94.9 WOLX presents a Madison musician's tribute to The Band. Doors 7:00 pm.",
     "category": "music"
    }
   ]
@@ -628,9 +628,9 @@
   "events": []
  },
  "https://www.roxxybar.com/madison-events/": {
-  "hash": "7c842047e2b6b2580ffc788422512a749c677089",
-  "asked": "2026-11-13T12:32:07-06:00",
-  "on": "2026-11-13",
+  "hash": "832ba523ddb7de0e3bcb867ce3d1d6e26c083435",
+  "asked": "2026-11-14T11:07:35-06:00",
+  "on": "2026-11-14",
   "events": []
  },
  "https://www.lazyoaflounge.com/specials": {
@@ -683,26 +683,17 @@
   "events": []
  },
  "https://www.harmonybarandgrill.com/madison-atwood-the-harmony-bar-and-grill-happy-hours-specials": {
-  "hash": "de85ddf1817c729b12180ff07bde39df39036b67",
-  "asked": "2026-11-11T12:42:19-06:00",
-  "on": "2026-11-11",
+  "hash": "9b2dda58594e3cadc40eccfe375f3dfd9058d5d9",
+  "asked": "2026-11-14T11:07:40-06:00",
+  "on": "2026-11-14",
   "events": [
-   {
-    "title": "Friday Fish Fry!",
-    "date": "2026-11-13",
-    "start": "11:00",
-    "end": "22:00",
-    "price": null,
-    "description": "Friday fish fry special at The Harmony Bar and Grill.",
-    "category": "food"
-   },
    {
     "title": "David Landau Kids Show!",
     "date": "2026-11-16",
     "start": "17:30",
     "end": "18:30",
     "price": 5.0,
-    "description": "Every Monday kids show with David Landau at The Harmony Bar and Grill.",
+    "description": "Kids show with David Landau, every Monday, $5.00.",
     "category": "music"
    },
    {
@@ -711,8 +702,26 @@
     "start": "17:30",
     "end": "18:30",
     "price": 5.0,
-    "description": "Every Monday kids show with David Landau at The Harmony Bar and Grill.",
+    "description": "Kids show with David Landau, every Monday, $5.00.",
     "category": "music"
+   },
+   {
+    "title": "Mixed Mic",
+    "date": "2026-11-17",
+    "start": "19:00",
+    "end": null,
+    "price": null,
+    "description": "Mixed mic night. The page lists it under Tuesday November 17 but describes it as every first Tuesday of the month, so the date may need checking.",
+    "category": "open_mic"
+   },
+   {
+    "title": "Friday Fish Fry",
+    "date": "2026-11-20",
+    "start": "11:00",
+    "end": "22:00",
+    "price": null,
+    "description": "Friday fish fry.",
+    "category": "food"
    }
   ]
  },
@@ -742,9 +751,9 @@
   ]
  },
  "https://wandosbar.com/madison-downtown-wando-s-events-happenings": {
-  "hash": "3ba9ce19a4b07ae4124d486d15f69e11ab0cac19",
-  "asked": "2026-11-12T21:26:12-06:00",
-  "on": "2026-11-12",
+  "hash": "923edb38abaf0d20fd1d796f9a5cf4e6e96c8477",
+  "asked": "2026-11-14T11:07:39-06:00",
+  "on": "2026-11-14",
   "events": [
    {
     "title": "Thanksgiving",
@@ -752,7 +761,7 @@
     "start": "11:00",
     "end": "02:30",
     "price": null,
-    "description": "Thanksgiving Day celebratory feast; bring friends and family.",
+    "description": "Thanksgiving Day feast at Wando's for friends and family.",
     "category": "food"
    }
   ]
@@ -795,9 +804,9 @@
   ]
  },
  "https://wandosbar.com/-events-happenings?source=header&spot_id=301&destination=events&promotion=nba_season": {
-  "hash": "3ba9ce19a4b07ae4124d486d15f69e11ab0cac19",
-  "asked": "2026-11-12T21:26:14-06:00",
-  "on": "2026-11-12",
+  "hash": "923edb38abaf0d20fd1d796f9a5cf4e6e96c8477",
+  "asked": "2026-11-14T11:07:42-06:00",
+  "on": "2026-11-14",
   "events": [
    {
     "title": "Thanksgiving",
@@ -805,7 +814,7 @@
     "start": "11:00",
     "end": "02:30",
     "price": null,
-    "description": "Celebratory Thanksgiving Day feast for friends and family.",
+    "description": "Thanksgiving Day celebratory feast with family and friends.",
     "category": "food"
    }
   ]
@@ -1635,9 +1644,9 @@
   "events": []
  },
  "https://www.madisonpubliclibrary.org/spaces/events": {
-  "hash": "b650247179d1ae0e5483d95555753c494534e6fe",
-  "asked": "2026-11-13T21:15:34-06:00",
-  "on": "2026-11-13",
+  "hash": "dd4242afe93c3ef4c79f3cfa993a3c05d0cb6bc6",
+  "asked": "2026-11-14T11:08:33-06:00",
+  "on": "2026-11-14",
   "events": []
  },
  "https://ebling.library.wisc.edu/ebling-library-classes-events/": {
@@ -1675,9 +1684,9 @@
   ]
  },
  "https://www.library.wisc.edu/music/": {
-  "hash": "2a37a6a51a7a050a9c2d16e67654deeb167fd3be",
-  "asked": "2026-11-13T12:33:04-06:00",
-  "on": "2026-11-13",
+  "hash": "22ccf1163994dbd58d42f20055e92e5858db9543",
+  "asked": "2026-11-14T11:08:28-06:00",
+  "on": "2026-11-14",
   "events": []
  },
  "https://www.sunprairiepubliclibrary.org/home-delivery-service": {
@@ -1789,9 +1798,9 @@
   ]
  },
  "https://www.madisonpubliclibrary.org/spaces/events/search": {
-  "hash": "3b454abfc43c8dc1df4d34f887da7a38dbc69692",
-  "asked": "2026-11-13T21:15:47-06:00",
-  "on": "2026-11-13",
+  "hash": "1faeae9d9a8f677ba26d198b7e5bdcc5bcd77c58",
+  "asked": "2026-11-14T11:08:44-06:00",
+  "on": "2026-11-14",
   "events": []
  },
  "https://artlitlab.org/calendar": {
@@ -1865,9 +1874,9 @@
   ]
  },
  "https://bartelltheatre.org/": {
-  "hash": "dc77958e358f0fbef28d30c45041acd6bc783fef",
-  "asked": "2026-11-13T21:15:45-06:00",
-  "on": "2026-11-13",
+  "hash": "d3204da5cd7f0e6b0447eab1d6a80779ad837b1f",
+  "asked": "2026-11-14T11:08:39-06:00",
+  "on": "2026-11-14",
   "events": [
    {
     "title": "The Moors",
@@ -1875,7 +1884,7 @@
     "start": "14:00",
     "end": null,
     "price": null,
-    "description": "Dark comedy about two sisters and a dog on the English moors. Closing run.",
+    "description": "Dark comedy about two sisters, a dog, and a hapless governess on the English moors. Closing today.",
     "category": "theater"
    },
    {
@@ -1884,7 +1893,7 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "Shakespeare's tragedy of two young lovers caught in the feud between the Capulets and Montagues.",
+    "description": "Shakespeare's tragedy of two young lovers caught between feuding families.",
     "category": "theater"
    },
    {
@@ -1893,7 +1902,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Final audition date for A Valentine's Affair 2027.",
+    "description": "Last audition for A Valentine's Affair 2027.",
     "category": "other"
    },
    {
@@ -1902,7 +1911,7 @@
     "start": "12:00",
     "end": null,
     "price": null,
-    "description": "Scene study session, listed as closing.",
+    "description": "Saturday scene study session, closing run listed on the page.",
     "category": "other"
    }
   ]
@@ -1954,17 +1963,17 @@
   ]
  },
  "https://www.overture.org/tickets-events/": {
-  "hash": "0850050e08d35e7d61fac9b4649b918924629e64",
-  "asked": "2026-11-13T21:15:48-06:00",
-  "on": "2026-11-13",
+  "hash": "7ea9257a16873e20d6da1349d1ebf6a713b087e0",
+  "asked": "2026-11-14T11:08:45-06:00",
+  "on": "2026-11-14",
   "events": [
    {
     "title": "Laura Doherty & The Heartbeats",
     "date": "2026-11-14",
-    "start": null,
+    "start": "13:00",
     "end": null,
     "price": null,
-    "description": "Multiple showtimes listed on Overture's events page.",
+    "description": "Performance by Laura Doherty & The Heartbeats at Overture.",
     "category": "music"
    },
    {
@@ -1972,8 +1981,8 @@
     "date": "2026-11-15",
     "start": "15:00",
     "end": null,
+    "description": "Artists' talk and reception for the Beneath the Fields & Foundation exhibition.",
     "price": null,
-    "description": "Artists' talk and reception about the Beneath the Fields & Foundation exhibition.",
     "category": "other"
    },
    {
@@ -1982,7 +1991,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Multiple showtimes listed on Overture's events page.",
+    "description": "Beni Daiko performance at Overture; multiple showtimes that day.",
     "category": "music"
    }
   ]
@@ -2133,10 +2142,20 @@
   "events": []
  },
  "https://high-noon.com/event/dogpark/": {
-  "hash": "c8402ac247dc16a45ed5d4791488b5387173288c",
-  "asked": "2026-11-13T21:14:34-06:00",
-  "on": "2026-11-13",
-  "events": []
+  "hash": "95a4760f2a90e466f8879b1bdab3c00ab9710c3d",
+  "asked": "2026-11-14T11:07:39-06:00",
+  "on": "2026-11-14",
+  "events": [
+   {
+    "title": "Ryan Jesse with Clayton Shay",
+    "date": "2026-11-16",
+    "start": "19:30",
+    "end": null,
+    "price": null,
+    "description": "FPC Live presents Ryan Jesse with Clayton Shay at High Noon Saloon. Doors 6:30 pm, show 7:30 pm.",
+    "category": "music"
+   }
+  ]
  },
  "https://thekickback.bar/premier-trivia-tuesday-nov-3/": {
   "hash": "25992f3a707c36f4ebbe1a9a479acec37b4b7959",
@@ -2180,9 +2199,9 @@
   ]
  },
  "https://www.cruciblemadison.com/calendar": {
-  "hash": "227e0ec85b2b3353d49bd450d21fe6d7410f5125",
-  "asked": "2026-11-12T21:26:06-06:00",
-  "on": "2026-11-12",
+  "hash": "d5d90ce26021269634a6d9a8b9f475169416df75",
+  "asked": "2026-11-14T11:07:35-06:00",
+  "on": "2026-11-14",
   "events": []
  },
  "https://www.cruciblemadison.com/events/2026-11/full-moon-burlesque-kink": {
@@ -2214,9 +2233,9 @@
   "events": []
  },
  "https://www.waunakeepubliclibrary.org/events/month": {
-  "hash": "fb084ecdff24ea2ff0082a01b369b58d579e77d6",
-  "asked": "2026-11-05T21:27:57-06:00",
-  "on": "2026-11-05",
+  "hash": "8b6ff24b488a809e6c81351ed776ab03bfdcfa03",
+  "asked": "2026-11-14T11:08:36-06:00",
+  "on": "2026-11-14",
   "events": []
  },
  "https://gammaray.bar/show/almost-a-m-moony-tba/": {
