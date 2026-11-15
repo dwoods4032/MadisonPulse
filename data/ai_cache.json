@@ -108,35 +108,17 @@
   "events": []
  },
  "https://gammaray.bar/shows/": {
-  "hash": "94efee391d7766fc4ee72a9e47d8c554267a7021",
-  "asked": "2026-11-13T12:32:04-06:00",
-  "on": "2026-11-13",
+  "hash": "a7b7793757ac4db84b78c7d85dfd602d979a71b0",
+  "asked": "2026-11-15T11:42:57-06:00",
+  "on": "2026-11-15",
   "events": [
-   {
-    "title": "Friday the 13th Tribute Party Ft. PheRAMONES, Insomniacs (Green Day), TRAEFI(AFI)",
-    "date": "2026-11-13",
-    "start": "20:00",
-    "end": null,
-    "price": null,
-    "description": "Tribute party with PheRAMONES, Insomniacs (Green Day) and TRAEFI (AFI). Doors 7pm.",
-    "category": "music"
-   },
-   {
-    "title": "Adult Book Club Album Release w/ Cause & Control and Get Well Now",
-    "date": "2026-11-14",
-    "start": "20:00",
-    "end": null,
-    "price": null,
-    "description": "Album release show with Cause & Control and Get Well Now. Doors 7pm.",
-    "category": "music"
-   },
    {
     "title": "Dusky Waters // Bear In The Forest // Marengo",
     "date": "2026-11-15",
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Show with Dusky Waters, Bear In The Forest and Marengo. Doors 6pm.",
+    "description": "Doors 6pm.",
     "category": "music"
    },
    {
@@ -145,7 +127,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Album listening party for Armchair Boogie's \"Never Waste A Day\". Doors 7pm.",
+    "description": "Doors 7pm.",
     "category": "music"
    },
    {
@@ -154,7 +136,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Gridlock album release show with Totally Cashed, M545, A Casual Ruckus and Party Vultures. Doors 7pm.",
+    "description": "Album release show. Doors 7pm.",
     "category": "music"
    },
    {
@@ -163,7 +145,7 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Show with Clean Plate Club, Becca Murray & The Wildflowers and AuroNova. Doors 6pm.",
+    "description": "Doors 6pm.",
     "category": "music"
    },
    {
@@ -172,7 +154,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Show with Slug Rug and Dicot. Doors 7pm.",
+    "description": "Doors 7pm.",
     "category": "music"
    }
   ]
@@ -279,19 +261,10 @@
   "events": []
  },
  "https://www.harmonybarandgrill.com/madison-atwood-the-harmony-bar-and-grill-events": {
-  "hash": "06d076450917f2b424d4880c2931d94da0a6a57e",
-  "asked": "2026-11-14T11:07:35-06:00",
-  "on": "2026-11-14",
+  "hash": "603c135ace4a2ab6302ddcdf539aeddec10270fe",
+  "asked": "2026-11-15T11:42:59-06:00",
+  "on": "2026-11-15",
   "events": [
-   {
-    "title": "Maria and the Coins / Bear in the Forest",
-    "date": "2026-11-14",
-    "start": "21:00",
-    "end": "00:00",
-    "price": 10,
-    "description": "Indie pop-rock from Minneapolis's Maria and the Coins, with Bear in the Forest opening. $10 cover.",
-    "category": "music"
-   },
    {
     "title": "Andy Ewen with Doug DeRosa and Ryan Repenshek",
     "date": "2026-11-15",
@@ -307,7 +280,7 @@
     "start": "17:30",
     "end": "18:30",
     "price": 5,
-    "description": "Kids music show with David Landau, with the kid menu available. $5 cover.",
+    "description": "Kids music show with David Landau. Kid menu available. $5 cover.",
     "category": "music"
    },
    {
@@ -343,16 +316,16 @@
     "start": "21:00",
     "end": "00:00",
     "price": 10,
-    "description": "Rolling Stones tribute Loving Cup with Los Bad Hombres. 21+. $10 cover.",
+    "description": "Rolling Stones tribute Loving Cup and Los Bad Hombres. 21+.",
     "category": "music"
    },
    {
     "title": "The Cajun Strangers",
     "date": "2026-11-22",
     "start": "16:00",
-    "end": "19:30",
+    "end": null,
     "price": 10,
-    "description": "Madison Cajun band playing traditional Cajun dance music. $10 suggested donation.",
+    "description": "Madison award-winning band playing traditional Cajun dance music. $10 suggested donation.",
     "category": "music"
    },
    {
@@ -361,7 +334,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Bluegrass-inspired band Bigtooth (Starr Moss, Trent Cuthbert, Michael Falk, Claire Kannapell, Paul Kienitz), with a guest TBD. No cover.",
+    "description": "Bluegrass-inspired band Bigtooth (Starr Moss, Trent Cuthbert, Michael Falk, Claire Kannapell, Paul Kienitz), joined by a guest to be announced. No cover.",
     "category": "music"
    },
    {
@@ -379,7 +352,7 @@
     "start": "20:00",
     "end": "22:30",
     "price": 0,
-    "description": "Madison Americana quartet with rich vocal harmonies, formerly the Grouvin Family String Band. No cover.",
+    "description": "Madison Americana quartet with bluegrass, folk and roots music. No cover.",
     "category": "music"
    }
   ]
@@ -507,26 +480,17 @@
   ]
  },
  "https://high-noon.com/calendar/": {
-  "hash": "0d6c20d73bb38da897226c4fb6eef5b896d68fbf",
-  "asked": "2026-11-14T11:07:36-06:00",
-  "on": "2026-11-14",
+  "hash": "263b26171cab52b631efc330ca450bfbc1c58ec2",
+  "asked": "2026-11-15T11:42:58-06:00",
+  "on": "2026-11-15",
   "events": [
    {
-    "title": "Hips Don't Lie: A Tribute To Shakira",
-    "date": "2026-11-14",
-    "start": "20:00",
-    "end": null,
-    "price": null,
-    "description": "FPC Live presents a Shakira tribute show. Doors 7:00 pm.",
-    "category": "music"
-   },
-   {
-    "title": "almost monday with feel trip.",
+    "title": "almost monday with feel trip",
     "date": "2026-11-15",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents almost monday with feel trip. Sold out. Doors 7:00 pm.",
+    "description": "FPC Live presents; doors 7:00 pm. Sold out.",
     "category": "music"
    },
    {
@@ -535,7 +499,7 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "FPC Live presents Ryan Jesse with Clayton Shay. Doors 6:30 pm.",
+    "description": "FPC Live presents; doors 6:30 pm. Tickets on sale.",
     "category": "music"
    },
    {
@@ -544,7 +508,7 @@
     "start": "19:00",
     "end": null,
     "price": 0,
-    "description": "FPC Live presents Nerd Nite. Free show. Doors 6:00 pm.",
+    "description": "FPC Live presents; doors 6:00 pm. Free show.",
     "category": "other"
    },
    {
@@ -553,7 +517,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "WORT 89.9 FM presents Humbird with Bad Posture Club. Doors 7:00 pm.",
+    "description": "WORT 89.9 FM presents; doors 7:00 pm.",
     "category": "music"
    },
    {
@@ -562,16 +526,16 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Live music with Left Lane Cruiser, 20 Watt Tombstone and Electromag. Doors 7:00 pm.",
+    "description": "Doors 7:00 pm.",
     "category": "music"
    },
    {
-    "title": "Music Con Brio: Caravan",
+    "title": "Music Con Brio: Caravan (Modal Jazz)",
     "date": "2026-11-21",
     "start": "11:30",
     "end": null,
     "price": 0,
-    "description": "Caravan performs Modal Jazz with Music con Brio students. Free, donations at door. Doors 11:00 am.",
+    "description": "Caravan performs modal jazz with Music con Brio students; doors 11:00 am. Free, donations at door.",
     "category": "music"
    },
    {
@@ -580,7 +544,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents a Talking Heads tribute. Doors 7:00 pm.",
+    "description": "FPC Live presents; doors 7:00 pm.",
     "category": "music"
    },
    {
@@ -589,7 +553,7 @@
     "start": "11:00",
     "end": null,
     "price": null,
-    "description": "MadFiddle performance. Doors 10:15 am.",
+    "description": "Doors 10:15 am. Tickets on sale.",
     "category": "music"
    },
    {
@@ -598,7 +562,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents The Gringos with Sheebie & The Lovemakers. Doors 7:00 pm.",
+    "description": "FPC Live presents; doors 7:00 pm.",
     "category": "music"
    },
    {
@@ -607,7 +571,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents Joseph Huber Band, Dig Deep, Kevin Troestler and Sheilagh Dandy Lion. Doors 7:00 pm.",
+    "description": "FPC Live presents; features Joseph Huber Band, Dig Deep, Kevin Troestler, and Sheilagh Dandy Lion. Doors 7:00 pm.",
     "category": "music"
    },
    {
@@ -901,8 +865,8 @@
  },
  "https://www.karben4.com/events": {
   "hash": "d1adf74ab50b41874ded8e6a90ac00d757298eb2",
-  "asked": "2026-11-11T21:48:57-06:00",
-  "on": "2026-11-11",
+  "asked": "2026-11-15T11:43:07-06:00",
+  "on": "2026-11-15",
   "events": [
    {
     "title": "Community Bingo Night w/ Brown Paws Rescue",
@@ -1541,26 +1505,17 @@
   ]
  },
  "https://www.cityofmadison.com/parks/events": {
-  "hash": "313915b176fc7f8dd63898d9c7976397e30a510a",
-  "asked": "2026-11-13T21:15:27-06:00",
-  "on": "2026-11-13",
+  "hash": "dd61747ec23d90c2095aa5e71be61d4e06459c6f",
+  "asked": "2026-11-15T11:43:54-06:00",
+  "on": "2026-11-15",
   "events": [
-   {
-    "title": "Bird & Nature Adventures | Owen",
-    "date": "2026-11-14",
-    "start": "13:30",
-    "end": "15:00",
-    "price": null,
-    "description": "Bird and nature walk at Owen Conservation Park, 6021 Old Sauk Road.",
-    "category": "other"
-   },
    {
     "title": "Bird & Nature Adventures | Warner Park",
     "date": "2026-11-15",
     "start": "13:30",
     "end": "15:00",
     "price": null,
-    "description": "Bird and nature walk at Warner Park (Rainbow Shelter), 2930 N. Sherman Ave.",
+    "description": "Nature outing at Warner Park (Rainbow Shelter), 2930 N. Sherman Ave.",
     "category": "other"
    },
    {
@@ -1578,7 +1533,7 @@
     "start": "17:30",
     "end": "19:30",
     "price": null,
-    "description": "Family fun night at Warner Park Community Recreation Center, 1625 Northport Drive.",
+    "description": "Family event at Warner Park Community Recreation Center, 1625 Northport Drive.",
     "category": "other"
    },
    {
@@ -1587,7 +1542,7 @@
     "start": "10:00",
     "end": "11:30",
     "price": null,
-    "description": "Bird and nature walk meeting outdoors at Goodman Community Center by the Bike Path, 214 Waubesa St.",
+    "description": "Nature outing meeting outdoors at Goodman Community Center by the Bike Path, 214 Waubesa St.",
     "category": "other"
    },
    {
@@ -1615,6 +1570,15 @@
     "end": "19:00",
     "price": null,
     "description": "Virtual public input meeting on the Olbrich North Parcel.",
+    "category": "other"
+   },
+   {
+    "title": "Bird & Nature Adventures | Edna Taylor",
+    "date": "2026-11-28",
+    "start": "10:00",
+    "end": "11:30",
+    "price": null,
+    "description": "Nature outing at Aldo Leopold Nature Center, 330 Femrite Drive.",
     "category": "other"
    }
   ]
@@ -1666,9 +1630,9 @@
   ]
  },
  "https://www.library.wisc.edu/music/": {
-  "hash": "22ccf1163994dbd58d42f20055e92e5858db9543",
-  "asked": "2026-11-14T11:08:28-06:00",
-  "on": "2026-11-14",
+  "hash": "80e8f810771aff5a68a456ae770e215a7a0d2f6e",
+  "asked": "2026-11-15T11:43:57-06:00",
+  "on": "2026-11-15",
   "events": []
  },
  "https://www.sunprairiepubliclibrary.org/home-delivery-service": {
@@ -1786,19 +1750,10 @@
   "events": []
  },
  "https://artlitlab.org/calendar": {
-  "hash": "fdf49b43955f5cb890de1da7b50be3fc2f91a277",
-  "asked": "2026-11-13T21:15:35-06:00",
-  "on": "2026-11-13",
+  "hash": "c3dc0467d57ac555c44240da642f8a761ea90974",
+  "asked": "2026-11-15T11:44:01-06:00",
+  "on": "2026-11-15",
   "events": [
-   {
-    "title": "Native Art Market 2026",
-    "date": "2026-11-14",
-    "start": null,
-    "end": null,
-    "price": null,
-    "description": "Native Art Market at Arts + Literature Laboratory.",
-    "category": "other"
-   },
    {
     "title": "Galaxy Quartet",
     "date": "2026-11-15",
@@ -1841,7 +1796,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Literary reading at Arts + Literature Laboratory.",
+    "description": "Literary reading, November Watershed.",
     "category": "other"
    },
    {
@@ -1856,9 +1811,9 @@
   ]
  },
  "https://bartelltheatre.org/": {
-  "hash": "50896e3cf61cf241bd0064521f0b8dd8eba6e893",
-  "asked": "2026-11-14T20:40:23-06:00",
-  "on": "2026-11-14",
+  "hash": "f0d4cd5a3c667ef04debf104aee8ee3d5d4463f6",
+  "asked": "2026-11-15T11:44:07-06:00",
+  "on": "2026-11-15",
   "events": [
    {
     "title": "Romeo and Juliet",
@@ -1866,7 +1821,7 @@
     "start": "14:00",
     "end": null,
     "price": null,
-    "description": "Bartell Theatre production of Shakespeare's tragedy of two young lovers caught between feuding families.",
+    "description": "Now playing at Bartell Theatre; tickets required.",
     "category": "theater"
    },
    {
@@ -1875,16 +1830,16 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Final audition session for A Valentine's Affair 2027.",
+    "description": "Final audition for A Valentine's Affair 2027.",
     "category": "other"
    },
    {
-    "title": "Saturday Scene Study Showcase",
+    "title": "Saturday Scene Study showcase",
     "date": "2026-11-21",
     "start": "12:00",
     "end": null,
     "price": null,
-    "description": "Ticketed showcase concluding the six-week Saturday Scene Study class, held on the Evjue Stage.",
+    "description": "Ticketed showcase concluding the six-week Saturday Scene Study class, on the Evjue Stage.",
     "category": "theater"
    }
   ]
@@ -1902,26 +1857,17 @@
   "events": []
  },
  "https://madisonorpheum.com/calendar/": {
-  "hash": "c2b6320410d5117162377ef810d7f5fa3eacdf97",
-  "asked": "2026-11-13T12:33:21-06:00",
-  "on": "2026-11-13",
+  "hash": "7d1e12201a7ee3c3d4c407a7ce9de148d9477872",
+  "asked": "2026-11-15T11:44:11-06:00",
+  "on": "2026-11-15",
   "events": [
-   {
-    "title": "The Mavericks & Friends",
-    "date": "2026-11-14",
-    "start": "20:00",
-    "end": null,
-    "price": null,
-    "description": "FPC Live presents The Mavericks & Friends. Doors 7:00 pm.",
-    "category": "music"
-   },
    {
     "title": "Campus Nights with Elevation Rhythm",
     "date": "2026-11-18",
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Goodsource presents Campus Nights with Elevation Rhythm, with LOST & FOUND and Allison Eide. Doors 6:15 pm.",
+    "description": "With LOST & FOUND and Allison Eide. Doors 6:15 pm. Presented by Goodsource.",
     "category": "music"
    },
    {
@@ -1930,7 +1876,16 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "FPC Live presents Nurse John, two shows listed. Show times not stated on the page.",
+    "description": "Two shows presented by FPC Live. Show times not listed on the page.",
+    "category": "music"
+   },
+   {
+    "title": "A Charlie Brown Christmas – 2 Shows!",
+    "date": "2026-11-28",
+    "start": null,
+    "end": null,
+    "price": null,
+    "description": "Featuring Mr. Chair & Wisconsin Chamber Orchestra. Two shows presented by Wisconsin Chamber Orchestra. Show times not listed on the page.",
     "category": "music"
    }
   ]
@@ -2105,9 +2060,9 @@
   "events": []
  },
  "https://high-noon.com/event/dogpark/": {
-  "hash": "1512cc27a70f045a10f2be49d25b9198aca4763e",
-  "asked": "2026-11-14T20:39:15-06:00",
-  "on": "2026-11-14",
+  "hash": "1083c7eaa2172d2a94748f22324e487101180875",
+  "asked": "2026-11-15T11:43:01-06:00",
+  "on": "2026-11-15",
   "events": []
  },
  "https://thekickback.bar/premier-trivia-tuesday-nov-3/": {

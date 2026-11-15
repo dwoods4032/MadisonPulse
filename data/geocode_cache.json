@@ -1093,5 +1093,43 @@
   "lon": -89.814858,
   "address": "2975 Cave of the Mounds Road",
   "city": "Village of Blue Mounds"
- }
+ },
+ "rcc sexual violence resource center": {
+  "lat": 43.113312,
+  "lon": -89.3296,
+  "address": "East Washington Avenue",
+  "city": "Madison"
+ },
+ "warner park": {
+  "lat": 43.128703,
+  "lon": -89.371902,
+  "address": "",
+  "city": "Madison"
+ },
+ "timber hill winery, milton": null,
+ "bethel lutheran church": {
+  "lat": 43.076858,
+  "lon": -89.387782,
+  "address": "312 Wisconsin Avenue",
+  "city": "Madison"
+ },
+ "st. stephen's lutheran church, monona": {
+  "lat": 43.057926,
+  "lon": -89.330183,
+  "address": "5700 Pheasant Hill Road",
+  "city": "Monona"
+ },
+ "park hotel": {
+  "lat": 42.810246,
+  "lon": -89.862453,
+  "address": "",
+  "city": "Blanchardville"
+ },
+ "madison college-south": {
+  "lat": 43.041176,
+  "lon": -89.395376,
+  "address": "2300 South Park Street",
+  "city": "Madison"
+ },
+ "r bar, cross plains": null
 }

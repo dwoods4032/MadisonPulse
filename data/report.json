@@ -1,25 +1,11 @@
 {
- "generated_at": "2026-11-14T20:40:35-06:00",
+ "generated_at": "2026-11-15T11:44:37-06:00",
  "venues_checked": 237,
- "venues_with_events": 66,
- "venues_with_feeds": 87,
- "events": 344,
- "filtered_out": 158,
+ "venues_with_events": 55,
+ "venues_with_feeds": 78,
+ "events": 338,
+ "filtered_out": 70,
  "venues": [
-  {
-   "name": "AI page reading",
-   "kind": "source",
-   "website": "",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 185,
-   "error": "",
-   "calls": 19,
-   "tokens_in": 44358,
-   "tokens_out": 15728,
-   "est_cost_usd": 0.0123
-  },
   {
    "name": "Isthmus calendar",
    "kind": "source",
@@ -27,19 +13,22 @@
    "feeds": [
     "calendar"
    ],
-   "raw_events": 130,
-   "error": "used today's copy (read once a day)"
+   "raw_events": 146,
+   "error": ""
   },
   {
-   "name": "Bayview Community Center",
-   "kind": "community",
-   "website": "https://www.bayviewfoundation.org",
+   "name": "AI page reading",
+   "kind": "source",
+   "website": "",
    "feeds": [
-    "tribe",
-    "jsonld"
+    "ai"
    ],
-   "raw_events": 75,
-   "error": ""
+   "raw_events": 137,
+   "error": "",
+   "calls": 10,
+   "tokens_in": 19741,
+   "tokens_out": 9095,
+   "est_cost_usd": 0.0065
   },
   {
    "name": "Ticketmaster",
@@ -48,7 +37,7 @@
    "feeds": [
     "ticketmaster"
    ],
-   "raw_events": 52,
+   "raw_events": 46,
    "error": ""
   },
   {
@@ -66,20 +55,6 @@
    "error": ""
   },
   {
-   "name": "Working Draft Beer Company",
-   "kind": "brewery",
-   "website": "https://www.workingdraftbeer.com/",
-   "feeds": [
-    "squarespace",
-    "squarespace",
-    "squarespace",
-    "jsonld",
-    "jsonld"
-   ],
-   "raw_events": 34,
-   "error": ""
-  },
-  {
    "name": "Comedy Club on State",
    "kind": "venue",
    "website": "https://www.madisoncomedy.com/",
@@ -91,6 +66,20 @@
     "jsonld"
    ],
    "raw_events": 33,
+   "error": ""
+  },
+  {
+   "name": "Working Draft Beer Company",
+   "kind": "brewery",
+   "website": "https://www.workingdraftbeer.com/",
+   "feeds": [
+    "squarespace",
+    "squarespace",
+    "squarespace",
+    "jsonld",
+    "jsonld"
+   ],
+   "raw_events": 32,
    "error": ""
   },
   {
@@ -115,7 +104,7 @@
     "jsonld",
     "jsonld"
    ],
-   "raw_events": 16,
+   "raw_events": 15,
    "error": ""
   },
   {
@@ -125,13 +114,13 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 15,
+   "raw_events": 14,
    "error": ""
   },
   {
-   "name": "Broom Street Theater",
-   "kind": "venue",
-   "website": "https://bstonline.org/",
+   "name": "Lone Girl Tap Room And Pizza Company",
+   "kind": "bar",
+   "website": "https://thelonegirl.com",
    "feeds": [
     "tribe",
     "jsonld",
@@ -139,23 +128,13 @@
     "jsonld",
     "jsonld"
    ],
-   "raw_events": 12,
+   "raw_events": 13,
    "error": ""
   },
   {
-   "name": "High Noon Saloon",
-   "kind": "bar",
-   "website": "https://www.high-noon.com/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 12,
-   "error": ""
-  },
-  {
-   "name": "Lone Girl Tap Room And Pizza Company",
-   "kind": "bar",
-   "website": "https://thelonegirl.com",
+   "name": "Broom Street Theater",
+   "kind": "venue",
+   "website": "https://bstonline.org/",
    "feeds": [
     "tribe",
     "jsonld",
@@ -174,6 +153,16 @@
     "squarespace",
     "jsonld",
     "jsonld"
+   ],
+   "raw_events": 11,
+   "error": ""
+  },
+  {
+   "name": "High Noon Saloon",
+   "kind": "bar",
+   "website": "https://www.high-noon.com/",
+   "feeds": [
+    "ai"
    ],
    "raw_events": 11,
    "error": ""
@@ -249,72 +238,12 @@
    "error": ""
   },
   {
-   "name": "Imagination Center",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 7,
-   "error": ""
-  },
-  {
    "name": "One Social Bar",
    "kind": "bar",
    "website": "https://onesocialmadison.com/vendor/one-social-bar/",
    "feeds": [
     "tribe",
     "jsonld"
-   ],
-   "raw_events": 7,
-   "error": ""
-  },
-  {
-   "name": "Pinney Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 7,
-   "error": ""
-  },
-  {
-   "name": "Sequoya Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/sequoya",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 7,
-   "error": ""
-  },
-  {
-   "name": "Crystal Corner Bar",
-   "kind": "bar",
-   "website": "https://thecrystalcornerbar.com/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 6,
-   "error": ""
-  },
-  {
-   "name": "Gamma Ray Bar",
-   "kind": "bar",
-   "website": "https://gammaray.bar",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 6,
-   "error": ""
-  },
-  {
-   "name": "State Line Distillery",
-   "kind": "brewery",
-   "website": "https://www.statelinedistillery.com/",
-   "feeds": [
-    "ai"
    ],
    "raw_events": 6,
    "error": ""
@@ -330,9 +259,9 @@
    "error": ""
   },
   {
-   "name": "Alicia Ashman Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
+   "name": "Gamma Ray Bar",
+   "kind": "bar",
+   "website": "https://gammaray.bar",
    "feeds": [
     "ai"
    ],
@@ -340,9 +269,9 @@
    "error": ""
   },
   {
-   "name": "Monroe Street Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/monroe-street",
+   "name": "State Line Distillery",
+   "kind": "brewery",
+   "website": "https://www.statelinedistillery.com/",
    "feeds": [
     "ai"
    ],
@@ -363,6 +292,16 @@
    "name": "Capital Brewery",
    "kind": "brewery",
    "website": "https://www.capital-brewery.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 4,
+   "error": ""
+  },
+  {
+   "name": "Crystal Corner Bar",
+   "kind": "bar",
+   "website": "https://thecrystalcornerbar.com/",
    "feeds": [
     "ai"
    ],
@@ -459,16 +398,6 @@
    "error": ""
   },
   {
-   "name": "Aftershock Classic Arcade",
-   "kind": "bar",
-   "website": "https://www.aftershockclassicarcade.com/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 2,
-   "error": ""
-  },
-  {
    "name": "Barrymore Theatre",
    "kind": "venue",
    "website": "https://barrymorelive.com/",
@@ -493,32 +422,12 @@
    "error": ""
   },
   {
-   "name": "Central Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/central",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 2,
-   "error": ""
-  },
-  {
    "name": "Centro",
    "kind": "community",
    "website": "https://www.micentro.org/",
    "feeds": [
     "squarespace",
     "ai"
-   ],
-   "raw_events": 2,
-   "error": ""
-  },
-  {
-   "name": "Children's Theater of Madison",
-   "kind": "venue",
-   "website": "https://ctmtheater.org/",
-   "feeds": [
-    "tribe"
    ],
    "raw_events": 2,
    "error": ""
@@ -544,16 +453,6 @@
    "error": ""
   },
   {
-   "name": "Lakeside Street Coffee House",
-   "kind": "cafe",
-   "website": "https://lakesidestcoffeehouse.com/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 2,
-   "error": ""
-  },
-  {
    "name": "Laurel Tavern",
    "kind": "bar",
    "website": "http://www.thelaureltavern.com",
@@ -564,49 +463,9 @@
    "error": ""
   },
   {
-   "name": "Madison Youth Arts (MYArts)",
-   "kind": "venue",
-   "website": "https://www.madisonyoutharts.org/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 2,
-   "error": ""
-  },
-  {
    "name": "Monkeyshines Bar & Grill",
    "kind": "bar",
    "website": "http://www.monkeyshinesbarandgrill.com/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 2,
-   "error": ""
-  },
-  {
-   "name": "Mother Fool's",
-   "kind": "cafe",
-   "website": "https://www.motherfools.com/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 2,
-   "error": ""
-  },
-  {
-   "name": "Old Sugar Distillery",
-   "kind": "brewery",
-   "website": "https://oldsugardistillery.com/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 2,
-   "error": ""
-  },
-  {
-   "name": "Oscar Rennebohm Library",
-   "kind": "library",
-   "website": "https://library.edgewood.edu/home",
    "feeds": [
     "ai"
    ],
@@ -697,6 +556,36 @@
    "error": ""
   },
   {
+   "name": "Lakeside Street Coffee House",
+   "kind": "cafe",
+   "website": "https://lakesidestcoffeehouse.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 1,
+   "error": ""
+  },
+  {
+   "name": "Old Sugar Distillery",
+   "kind": "brewery",
+   "website": "https://oldsugardistillery.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 1,
+   "error": ""
+  },
+  {
+   "name": "Oscar Rennebohm Library",
+   "kind": "library",
+   "website": "https://library.edgewood.edu/home",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 1,
+   "error": ""
+  },
+  {
    "name": "Quivey's Stable Grill",
    "kind": "bar",
    "website": "https://www.quiveysgrove.com/stable-grill",
@@ -717,9 +606,25 @@
    "error": ""
   },
   {
+   "name": "Aftershock Classic Arcade",
+   "kind": "bar",
+   "website": "https://www.aftershockclassicarcade.com/",
+   "feeds": [],
+   "raw_events": 0,
+   "error": "ai: ConnectionError: HTTPSConnectionPool(host='aftershockclassicarcade.com', port=443): Max retries exceeded with url: /events/ (Caused by NewConnectionError(\"HTTPSConnection(host='aftershockclassicar; ai: ConnectionError: HTTPSConnectionPool(host='aftershockclassicarcade.com', port=443): Max retries exceeded with url: /specials/ (Caused by NewConnectionError(\"HTTPSConnection(host='aftershockclassic"
+  },
+  {
    "name": "Alice Good",
    "kind": "cafe",
    "website": "https://alicegood.co/",
+   "feeds": [],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
+   "name": "Alicia Ashman Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -813,6 +718,17 @@
    "error": ""
   },
   {
+   "name": "Bayview Community Center",
+   "kind": "community",
+   "website": "https://www.bayviewfoundation.org",
+   "feeds": [
+    "tribe",
+    "jsonld"
+   ],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
    "name": "Black Locust Cafe",
    "kind": "cafe",
    "website": "https://blacklocustcafe.com/",
@@ -893,6 +809,14 @@
    "error": "PermissionError: robots.txt disallows https://www.facebook.com/cargocoffeeeast/"
   },
   {
+   "name": "Central Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/central",
+   "feeds": [],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
    "name": "Cervato Wine & Tapas",
    "kind": "bar",
    "website": "https://cervatowine.com/",
@@ -905,6 +829,16 @@
    "kind": "cafe",
    "website": "https://union.wisc.edu/dine/find-food-and-drink/chazen-cafe",
    "feeds": [],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
+   "name": "Children's Theater of Madison",
+   "kind": "venue",
+   "website": "https://ctmtheater.org/",
+   "feeds": [
+    "tribe"
+   ],
    "raw_events": 0,
    "error": ""
   },
@@ -1268,6 +1202,14 @@
    "error": "PermissionError: robots.txt disallows https://imaginary-factory.com/"
   },
   {
+   "name": "Imagination Center",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
+   "feeds": [],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
    "name": "Indie Coffee",
    "kind": "cafe",
    "website": "https://indiecoffee.net/index.html",
@@ -1408,6 +1350,14 @@
    "error": ""
   },
   {
+   "name": "Madison Youth Arts (MYArts)",
+   "kind": "venue",
+   "website": "https://www.madisonyoutharts.org/",
+   "feeds": [],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
    "name": "Masjid Us-Sunnah",
    "kind": "community",
    "website": "https://madisonmuslims.org/",
@@ -1512,6 +1462,22 @@
    "error": ""
   },
   {
+   "name": "Monroe Street Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/monroe-street",
+   "feeds": [],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
+   "name": "Mother Fool's",
+   "kind": "cafe",
+   "website": "https://www.motherfools.com/",
+   "feeds": [],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
    "name": "Muskellounge and Sporting Club (Musky)",
    "kind": "bar",
    "website": "https://www.muskellounge.com",
@@ -1602,6 +1568,14 @@
    "error": "PermissionError: robots.txt disallows https://linktr.ee/pksuw"
   },
   {
+   "name": "Pinney Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
+   "feeds": [],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
    "name": "Plaza Bar",
    "kind": "bar",
    "website": "https://theplazatavern.com/",
@@ -1657,7 +1631,7 @@
    "website": "https://redroostermadison.com/",
    "feeds": [],
    "raw_events": 0,
-   "error": ""
+   "error": "ai: ConnectionError: HTTPSConnectionPool(host='redroostermadison.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='redroostermadison.com', port=443"
   },
   {
    "name": "Right Bauer Brewing",
@@ -1679,6 +1653,14 @@
    "name": "Roxxy",
    "kind": "bar",
    "website": "https://www.roxxybar.com/location/madison/",
+   "feeds": [],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
+   "name": "Sequoya Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/sequoya",
    "feeds": [],
    "raw_events": 0,
    "error": ""
