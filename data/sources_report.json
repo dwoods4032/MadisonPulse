@@ -1,22 +1,23 @@
 {
- "generated_at": "2026-11-14T11:09:16-06:00",
- "total_events": 348,
- "in_more_than_one_source": 18,
+ "generated_at": "2026-11-14T20:40:35-06:00",
+ "total_events": 344,
+ "in_more_than_one_source": 16,
  "sources": {
   "AI page reading": {
-   "events": 131,
-   "unique_events": 117,
+   "events": 132,
+   "unique_events": 119,
    "overlap": {
-    "Isthmus": 5,
+    "Isthmus": 4,
     "Ticketmaster": 10,
     "Venue websites": 0
    },
-   "venues": 34,
+   "venues": 35,
    "unique_venues": [
     "Aftershock Classic Arcade",
     "Arts + Literature Laboratory",
     "Below Deck Concession Stand",
     "Capital Brewery",
+    "Central Library",
     "East Side Club",
     "Flight Wine & Bourbon Bar",
     "Imagination Center",
@@ -26,11 +27,11 @@
     "Lazy Oaf Lounge",
     "Madison Youth Arts (MYArts)",
     "Monkeyshines Bar & Grill",
-    "Monroe Street Library",
     "Mother Fool's",
     "Old Sugar Distillery",
     "Oscar Rennebohm Library",
     "Overture Center for the Arts",
+    "Pinney Library",
     "Reindahl Park Pavillion",
     "State Line Distillery",
     "Sun Prairie Public Library",
@@ -42,14 +43,14 @@
    ]
   },
   "Isthmus": {
-   "events": 129,
-   "unique_events": 121,
+   "events": 113,
+   "unique_events": 107,
    "overlap": {
-    "AI page reading": 5,
+    "AI page reading": 4,
     "Ticketmaster": 3,
-    "Venue websites": 1
+    "Venue websites": 0
    },
-   "venues": 77,
+   "venues": 69,
    "unique_venues": [
     "American Players Theatre",
     "Arbor Good Neighbor House",
@@ -61,7 +62,6 @@
     "Cafe Carpe",
     "Cargo Coffee-East Washington",
     "Cave of the Mounds",
-    "Cherokee Marsh-North Unit",
     "Communication",
     "Concourse Hotel",
     "Crucible",
@@ -72,31 +72,26 @@
     "Friends Applaud",
     "Garver Feed Mill",
     "Glass Nickel Pizza - Atwood Ave.",
-    "Grace Episcopal Church",
     "Henry Vilas Zoo",
     "Hidden Cave Cidery",
     "Hop Garden",
     "Ivory Room",
     "Kiki's House of Righteous Music",
     "KurNiki's",
-    "Lincoln High School",
     "Lola's Hi/Lo Lounge",
     "Louisianne's",
     "Madison College-Truax",
-    "Madison Museum of Contemporary Art",
     "Madison Youth Arts",
     "Main Street Music",
     "Mansion Hill Inn",
     "Muso",
     "Overture Center-Capitol Theater",
     "Overture Center-Playhouse",
-    "Owen Conservation Park",
     "Paddy Mac's Pub",
     "PhotoMidwest",
     "Quivey's Grove",
     "Slowpoke Lounge & Cabaret",
     "Spring Green General Store and Cafe",
-    "Starkweather Brewing Company",
     "Stoughton Village Players Theater",
     "TNW Ensemble Theater",
     "The Atwood",
@@ -109,15 +104,14 @@
     "The Rigby",
     "UW Cinematheque",
     "UW Union South-The Sett",
-    "Vel Phillips Memorial High School",
     "Verona Library",
     "Wil-Mar Center",
     "Yahara Bay Distillers"
    ]
   },
   "Ticketmaster": {
-   "events": 45,
-   "unique_events": 32,
+   "events": 51,
+   "unique_events": 38,
    "overlap": {
     "AI page reading": 10,
     "Isthmus": 3,
@@ -133,22 +127,26 @@
    ]
   },
   "Venue websites": {
-   "events": 62,
-   "unique_events": 60,
+   "events": 65,
+   "unique_events": 64,
    "overlap": {
     "AI page reading": 0,
-    "Isthmus": 1,
+    "Isthmus": 0,
     "Ticketmaster": 1
    },
-   "venues": 12,
+   "venues": 15,
    "unique_venues": [
     "Atwood Music Hall",
+    "Bayview Community Center",
+    "Broom Street Theater",
+    "Children's Theater of Madison",
     "E.D. Locke Public Library",
     "Full Mile Beer Company & Kitchen",
     "Gib's Bar",
     "Lone Girl Tap Room And Pizza Company",
     "One Social Bar",
     "State Street Brats",
+    "Waunakee Public Library",
     "Working Draft Beer Company"
    ]
   }

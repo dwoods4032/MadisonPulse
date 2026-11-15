@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-14T11:09:16-06:00",
+ "generated_at": "2026-11-14T20:40:35-06:00",
  "venues_checked": 237,
- "venues_with_events": 63,
- "venues_with_feeds": 88,
- "events": 348,
- "filtered_out": 87,
+ "venues_with_events": 66,
+ "venues_with_feeds": 87,
+ "events": 344,
+ "filtered_out": 158,
  "venues": [
   {
    "name": "AI page reading",
@@ -13,12 +13,12 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 189,
+   "raw_events": 185,
    "error": "",
    "calls": 19,
-   "tokens_in": 46995,
-   "tokens_out": 18808,
-   "est_cost_usd": 0.0141
+   "tokens_in": 44358,
+   "tokens_out": 15728,
+   "est_cost_usd": 0.0123
   },
   {
    "name": "Isthmus calendar",
@@ -28,6 +28,17 @@
     "calendar"
    ],
    "raw_events": 130,
+   "error": "used today's copy (read once a day)"
+  },
+  {
+   "name": "Bayview Community Center",
+   "kind": "community",
+   "website": "https://www.bayviewfoundation.org",
+   "feeds": [
+    "tribe",
+    "jsonld"
+   ],
+   "raw_events": 75,
    "error": ""
   },
   {
@@ -37,7 +48,7 @@
    "feeds": [
     "ticketmaster"
    ],
-   "raw_events": 46,
+   "raw_events": 52,
    "error": ""
   },
   {
@@ -51,7 +62,7 @@
     "squarespace",
     "jsonld"
    ],
-   "raw_events": 37,
+   "raw_events": 36,
    "error": ""
   },
   {
@@ -79,7 +90,7 @@
     "jsonld",
     "jsonld"
    ],
-   "raw_events": 31,
+   "raw_events": 33,
    "error": ""
   },
   {
@@ -90,7 +101,7 @@
     "ical",
     "ical"
    ],
-   "raw_events": 31,
+   "raw_events": 30,
    "error": "ical: ConnectionError: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //www.mcfarlandlibrary.org/calendar/month (Caused by NameResolutionError(\"HTTPSConnection(host='https"
   },
   {
@@ -104,7 +115,7 @@
     "jsonld",
     "jsonld"
    ],
-   "raw_events": 18,
+   "raw_events": 16,
    "error": ""
   },
   {
@@ -114,7 +125,7 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 14,
+   "raw_events": 15,
    "error": ""
   },
   {
@@ -156,16 +167,6 @@
    "error": ""
   },
   {
-   "name": "Arts + Literature Laboratory",
-   "kind": "venue",
-   "website": "https://artlitlab.org/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 11,
-   "error": ""
-  },
-  {
    "name": "Bridge Lakepoint Waunona Neighborhood Center",
    "kind": "community",
    "website": "https://www.blwcenter.org/",
@@ -178,13 +179,13 @@
    "error": ""
   },
   {
-   "name": "The Kickback",
-   "kind": "bar",
-   "website": "https://thekickback.bar/",
+   "name": "Arts + Literature Laboratory",
+   "kind": "venue",
+   "website": "https://artlitlab.org/",
    "feeds": [
     "ai"
    ],
-   "raw_events": 11,
+   "raw_events": 10,
    "error": ""
   },
   {
@@ -211,6 +212,16 @@
    "name": "Lazy Oaf Lounge",
    "kind": "bar",
    "website": "https://www.lazyoaflounge.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 9,
+   "error": ""
+  },
+  {
+   "name": "The Kickback",
+   "kind": "bar",
+   "website": "https://thekickback.bar/",
    "feeds": [
     "ai"
    ],
@@ -259,6 +270,26 @@
    "error": ""
   },
   {
+   "name": "Pinney Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 7,
+   "error": ""
+  },
+  {
+   "name": "Sequoya Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/sequoya",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 7,
+   "error": ""
+  },
+  {
    "name": "Crystal Corner Bar",
    "kind": "bar",
    "website": "https://thecrystalcornerbar.com/",
@@ -272,26 +303,6 @@
    "name": "Gamma Ray Bar",
    "kind": "bar",
    "website": "https://gammaray.bar",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 6,
-   "error": ""
-  },
-  {
-   "name": "Pinney Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 6,
-   "error": ""
-  },
-  {
-   "name": "Sequoya Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/sequoya",
    "feeds": [
     "ai"
    ],
@@ -349,16 +360,6 @@
    "error": ""
   },
   {
-   "name": "Bartell Theatre",
-   "kind": "venue",
-   "website": "https://bartelltheatre.org/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 4,
-   "error": ""
-  },
-  {
    "name": "Capital Brewery",
    "kind": "brewery",
    "website": "https://www.capital-brewery.com/",
@@ -369,13 +370,37 @@
    "error": ""
   },
   {
-   "name": "Orpheum Theatre",
+   "name": "Waunakee Public Library",
+   "kind": "library",
+   "website": "https://www.waunakeepubliclibrary.org/",
+   "feeds": [
+    "jsonld",
+    "jsonld",
+    "jsonld",
+    "jsonld"
+   ],
+   "raw_events": 4,
+   "error": ""
+  },
+  {
+   "name": "Bartell Theatre",
    "kind": "venue",
-   "website": "https://madisonorpheum.com/",
+   "website": "https://bartelltheatre.org/",
    "feeds": [
     "ai"
    ],
-   "raw_events": 4,
+   "raw_events": 3,
+   "error": ""
+  },
+  {
+   "name": "Come Back Inn",
+   "kind": "bar",
+   "website": "https://comebackintavern.com/",
+   "feeds": [
+    "tribe",
+    "jsonld"
+   ],
+   "raw_events": 3,
    "error": ""
   },
   {
@@ -389,9 +414,9 @@
    "error": ""
   },
   {
-   "name": "Laurel Tavern",
-   "kind": "bar",
-   "website": "http://www.thelaureltavern.com",
+   "name": "Orpheum Theatre",
+   "kind": "venue",
+   "website": "https://madisonorpheum.com/",
    "feeds": [
     "ai"
    ],
@@ -414,18 +439,6 @@
    "website": "https://statestreetbrats.com/",
    "feeds": [
     "jsonld",
-    "jsonld",
-    "jsonld"
-   ],
-   "raw_events": 3,
-   "error": ""
-  },
-  {
-   "name": "Textile Arts Center of Madison",
-   "kind": "venue",
-   "website": "https://www.textileartsmadison.org/",
-   "feeds": [
-    "squarespace",
     "jsonld",
     "jsonld"
    ],
@@ -501,6 +514,16 @@
    "error": ""
   },
   {
+   "name": "Children's Theater of Madison",
+   "kind": "venue",
+   "website": "https://ctmtheater.org/",
+   "feeds": [
+    "tribe"
+   ],
+   "raw_events": 2,
+   "error": ""
+  },
+  {
    "name": "East Side Club",
    "kind": "lodge",
    "website": "https://escmadison.com",
@@ -524,6 +547,16 @@
    "name": "Lakeside Street Coffee House",
    "kind": "cafe",
    "website": "https://lakesidestcoffeehouse.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 2,
+   "error": ""
+  },
+  {
+   "name": "Laurel Tavern",
+   "kind": "bar",
+   "website": "http://www.thelaureltavern.com",
    "feeds": [
     "ai"
    ],
@@ -581,6 +614,18 @@
    "error": ""
   },
   {
+   "name": "Textile Arts Center of Madison",
+   "kind": "venue",
+   "website": "https://www.textileartsmadison.org/",
+   "feeds": [
+    "squarespace",
+    "jsonld",
+    "jsonld"
+   ],
+   "raw_events": 2,
+   "error": ""
+  },
+  {
    "name": "Wando's Bar & Grill",
    "kind": "bar",
    "website": "https://wandosbar.com/",
@@ -607,16 +652,6 @@
    "feeds": [
     "tribe",
     "jsonld"
-   ],
-   "raw_events": 1,
-   "error": ""
-  },
-  {
-   "name": "Doundrins Distilling",
-   "kind": "brewery",
-   "website": "https://doundrinsdistilling.com/",
-   "feeds": [
-    "ai"
    ],
    "raw_events": 1,
    "error": ""
@@ -778,17 +813,6 @@
    "error": ""
   },
   {
-   "name": "Bayview Community Center",
-   "kind": "community",
-   "website": "https://www.bayviewfoundation.org",
-   "feeds": [
-    "tribe",
-    "jsonld"
-   ],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
    "name": "Black Locust Cafe",
    "kind": "cafe",
    "website": "https://blacklocustcafe.com/",
@@ -885,16 +909,6 @@
    "error": ""
   },
   {
-   "name": "Children's Theater of Madison",
-   "kind": "venue",
-   "website": "https://ctmtheater.org/",
-   "feeds": [
-    "tribe"
-   ],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
    "name": "Cielo",
    "kind": "bar",
    "website": "https://www.cieloonstate.com/",
@@ -931,17 +945,6 @@
    "kind": "cafe",
    "website": "https://colectivo.com/pages/madison-cafes",
    "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Come Back Inn",
-   "kind": "bar",
-   "website": "https://comebackintavern.com/",
-   "feeds": [
-    "tribe",
-    "jsonld"
-   ],
    "raw_events": 0,
    "error": ""
   },
@@ -1003,6 +1006,14 @@
    "name": "Double Tap",
    "kind": "bar",
    "website": "https://www.doubletapbeercade.com/location/madison/",
+   "feeds": [],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
+   "name": "Doundrins Distilling",
+   "kind": "brewery",
+   "website": "https://doundrinsdistilling.com/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1455,7 +1466,7 @@
   {
    "name": "Moka",
    "kind": "cafe",
-   "website": "https://mymokacoffee.com/",
+   "website": "https://www.mymokacoffee.com/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1463,7 +1474,7 @@
   {
    "name": "Moka",
    "kind": "cafe",
-   "website": "https://www.mymokacoffee.com/",
+   "website": "https://mymokacoffee.com/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1717,7 +1728,7 @@
   {
    "name": "Starbucks",
    "kind": "cafe",
-   "website": "https://www.starbucks.com/store-locator/store/1010275/greenway-boulevard-8230-greenway-boulevard-middleton-wi-535623579-us",
+   "website": "https://www.starbucks.com/store-locator/store/16495/south-gammon-mineral-point-434-gammon-place-3-madison-wi-537191090-us",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1725,7 +1736,7 @@
   {
    "name": "Starbucks",
    "kind": "cafe",
-   "website": "https://www.starbucks.com/store-locator/store/16495/south-gammon-mineral-point-434-gammon-place-3-madison-wi-537191090-us",
+   "website": "https://www.starbucks.com/store-locator/store/1010275/greenway-boulevard-8230-greenway-boulevard-middleton-wi-535623579-us",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -2033,19 +2044,6 @@
    "kind": "cafe",
    "website": "https://www.waltzingmatildasmadison.com/",
    "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Waunakee Public Library",
-   "kind": "library",
-   "website": "https://www.waunakeepubliclibrary.org/",
-   "feeds": [
-    "jsonld",
-    "jsonld",
-    "jsonld",
-    "jsonld"
-   ],
    "raw_events": 0,
    "error": ""
   },

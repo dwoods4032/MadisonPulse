@@ -3084,35 +3084,10 @@
   "why": "",
   "checked": "2026-11-13T21:16:52.575371-06:00"
  },
- "https://www.cafecoda.club/events-1/cool-school-1-mwk5m-6mm75-4gl5k-x3bxx-2l3ky-wk7lh-m59ge-aep6w-pnxbz": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-07T20:32:02.676798-06:00"
- },
  "https://www.workingdraftbeer.com/events/2026/11/14/pickle-day-palooza": {
   "ok": true,
   "why": "",
   "checked": "2026-11-08T11:06:07.361203-06:00"
- },
- "https://www.ticketmaster.com/event/Z7r9jZ1AAvt39": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-08T11:06:07.361208-06:00"
- },
- "https://www.ticketmaster.com/event/Z7r9jZ1AAevvx": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-08T11:06:07.361212-06:00"
- },
- "https://www.theatwoodmusichall.com/shows/2026-11-14": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-08T11:06:07.361218-06:00"
- },
- "https://www.cafecoda.club/events-1/isabella-isherwood": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-08T11:06:07.361223-06:00"
  },
  "https://www.ticketmaster.com/hips-dont-lie-a-tribute-to-madison-wisconsin-11-14-2026/event/07006530EB4E8856": {
   "ok": null,
@@ -3464,60 +3439,55 @@
   "why": "",
   "checked": "2026-11-14T11:09:19.242861-06:00"
  },
- "https://bstonline.org/event/dragonsocks-and-the-queen-of-the-universe-10/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-07T20:32:02.676805-06:00"
- },
  "https://www.ticketmaster.com/event/Z7r9jZ1AAvt3_": {
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-07T20:32:02.676812-06:00"
+  "checked": "2026-11-14T20:40:37.463398-06:00"
  },
  "https://www.ticketmaster.com/event/Z7r9jZ1AAevv0": {
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-07T20:32:02.676818-06:00"
+  "checked": "2026-11-14T20:40:37.474390-06:00"
  },
  "https://www.ticketmaster.com/event/Z7r9jZ1AAvFGk": {
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-07T20:32:02.676824-06:00"
+  "checked": "2026-11-14T20:40:38.594816-06:00"
  },
  "https://www.theatwoodmusichall.com/shows/2026-11-21": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-07T20:32:02.676829-06:00"
+  "checked": "2026-11-14T20:40:38.594837-06:00"
  },
  "https://www.cafecoda.club/events-1/thaddeus-tukes": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-07T20:32:02.764120-06:00"
+  "checked": "2026-11-14T20:40:38.594846-06:00"
  },
  "https://www.ticketmaster.com/nurse-john-against-medical-advice-tour-madison-wisconsin-11-21-2026/event/070064A1F83F9F9A": {
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-07T20:32:03.526075-06:00"
+  "checked": "2026-11-14T20:40:40.853960-06:00"
  },
  "https://www.gibs.bar/event-calendar/2026/11/21/dj-dudley-noon": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-07T20:32:03.526097-06:00"
+  "checked": "2026-11-14T20:40:40.853987-06:00"
  },
  "https://www.ticketmaster.com/houses-in-motion-talking-heads-tribute-madison-wisconsin-11-21-2026/event/070065287BFF1542": {
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-07T20:32:04.619172-06:00"
+  "checked": "2026-11-14T20:40:40.853997-06:00"
  },
  "https://www.ticketmaster.com/rod-tuffcurls-the-bench-press-madison-wisconsin-11-21-2026/event/07006522CADA4F02": {
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-07T20:32:05.711572-06:00"
+  "checked": "2026-11-14T20:40:41.967077-06:00"
  },
  "https://www.ticketmaster.com/slow-pulp-madison-wisconsin-11-21-2026/event/070064A5D83A7F56": {
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-07T20:32:06.795905-06:00"
+  "checked": "2026-11-14T20:40:43.089897-06:00"
  },
  "https://www.ticketmaster.com/nurse-john-against-medical-advice-tour-madison-wisconsin-11-21-2026/event/0700650591872EB1": {
   "ok": null,
@@ -3789,20 +3759,10 @@
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
   "checked": "2026-11-13T21:16:03.867474-06:00"
  },
- "https://www.madisonpubliclibrary.org/monroe-street": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-14T11:09:17.795803-06:00"
- },
  "https://communicationmadison.com/": {
   "ok": true,
   "why": "",
   "checked": "2026-11-14T11:09:17.795828-06:00"
- },
- "https://statestreetbrats.com/event/ohio-state-wisconsin-20261114/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-14T11:09:17.795835-06:00"
  },
  "https://www.madisoncomedy.com/event/dylan-carlino/2026-11-14/1/": {
   "ok": true,
@@ -3813,5 +3773,100 @@
   "ok": true,
   "why": "",
   "checked": "2026-11-14T11:09:19.242868-06:00"
+ },
+ "https://statestreetbrats.com/event/vikings-packers-20261115/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-14T20:40:36.140665-06:00"
+ },
+ "https://www.madisonpubliclibrary.org/central": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-14T20:40:37.364555-06:00"
+ },
+ "https://www.madisonpubliclibrary.org/locations/pinney-library": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-14T20:40:37.364575-06:00"
+ },
+ "https://bayviewfoundation.org/event/zumba/2026-11-17/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-14T20:40:37.463365-06:00"
+ },
+ "https://www.waunakeepubliclibrary.org/event/friends-craft-fair-2026": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-14T20:40:37.463386-06:00"
+ },
+ "https://bayviewfoundation.org/event/zumba/2026-11-24/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-14T20:40:43.089918-06:00"
+ },
+ "https://ctmtheater.org/event/pigeon-holiday-2026-1/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-14T20:40:43.089925-06:00"
+ },
+ "https://www.ticketmaster.com/event/Z7r9jZ1A70Z-3": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-11-14T20:40:44.218143-06:00"
+ },
+ "https://www.ticketmaster.com/event/Z7r9jZ1AAvtfv": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-11-14T20:40:45.323484-06:00"
+ },
+ "https://www.ticketmaster.com/wisconsin-chamber-orchestra-a-charlie-brown-madison-wisconsin-11-28-2026/event/070064E9A8452403": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-11-14T20:40:46.436317-06:00"
+ },
+ "https://ctmtheater.org/event/pigeon-holiday-2026-2/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-14T20:40:46.436334-06:00"
+ },
+ "https://www.theatwoodmusichall.com/shows/2026-11-28": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-14T20:40:46.436341-06:00"
+ },
+ "https://www.ticketmaster.com/event/Z7r9jZ1AAevvP": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-11-14T20:40:47.559519-06:00"
+ },
+ "https://www.cafecoda.club/events-1/essensual-beatz-with-virigina-rose": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-14T20:40:47.559539-06:00"
+ },
+ "https://www.ticketmaster.com/event/Z7r9jZ1A70Z-8": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-11-14T20:40:48.685057-06:00"
+ },
+ "https://www.ticketmaster.com/wisconsin-chamber-orchestra-a-charlie-brown-madison-wisconsin-11-28-2026/event/070064E9A83F23FE": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-11-14T20:40:49.801705-06:00"
+ },
+ "https://www.gibs.bar/event-calendar/2026/11/28/dj-saint-cat": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-14T20:40:49.801726-06:00"
+ },
+ "https://www.ticketmaster.com/wolx-presents-the-last-waltz-and-madison-wisconsin-11-28-2026/event/07006532A3074C3C": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-11-14T20:40:50.896457-06:00"
+ },
+ "https://www.ticketmaster.com/battle-of-the-decades-80s-vs-madison-wisconsin-11-28-2026/event/0700652BC4658B53": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-11-14T20:40:52.010279-06:00"
  }
 }

@@ -1020,9 +1020,9 @@
   ]
  },
  "https://www.garthsbrewbar.com/": {
-  "hash": "f1363e16bf198e6cb6dc3732e9c0b7bfddd4ddb7",
-  "asked": "2026-11-12T21:26:16-06:00",
-  "on": "2026-11-12",
+  "hash": "cc8d8eafdd76964ab5afa272b19306092ae68ff2",
+  "asked": "2026-11-14T20:39:19-06:00",
+  "on": "2026-11-14",
   "events": []
  },
  "https://www.statelinedistillery.com/cocktail-lounge/events": {
@@ -1099,35 +1099,17 @@
   "events": []
  },
  "https://thekickback.bar/upcoming-events/": {
-  "hash": "6316c07fdf5aab909492db1aeb084304b0a7bfa7",
-  "asked": "2026-11-13T21:14:52-06:00",
-  "on": "2026-11-13",
+  "hash": "1aa7e01b399d28a44cf9bd57e9f19a7bace6464a",
+  "asked": "2026-11-14T20:39:23-06:00",
+  "on": "2026-11-14",
   "events": [
-   {
-    "title": "Youth Pinball Free-Play & Tourney!",
-    "date": "2026-11-14",
-    "start": "11:00",
-    "end": null,
-    "price": null,
-    "description": "Youth pinball free-play and tournament, with an introduction to pinball.",
-    "category": "other"
-   },
-   {
-    "title": "Creepy Christmas Craft Fair",
-    "date": "2026-11-14",
-    "start": "11:00",
-    "end": null,
-    "price": null,
-    "description": "Craft fair.",
-    "category": "other"
-   },
    {
     "title": "Meat Raffle at The Kickback",
     "date": "2026-11-15",
     "start": "13:00",
     "end": null,
     "price": null,
-    "description": "Meat raffle with Fetch WI Rescue, Jenny St Market and New Belgium Brewing prizes.",
+    "description": "Meat raffle with Fetch WI Rescue, Jenny St Market, New Belgium Brewing; prizes.",
     "category": "other"
    },
    {
@@ -1145,7 +1127,7 @@
     "start": "18:30",
     "end": null,
     "price": null,
-    "description": "Craft beer pinball league night with New Glarus Brewing Co.",
+    "description": "Craft beer pinball league night with Big Grove Brewery and New Glarus.",
     "category": "other"
    },
    {
@@ -1181,7 +1163,7 @@
     "start": "15:00",
     "end": null,
     "price": null,
-    "description": "Patio fundraiser with Fetch WI Rescue and craft beer.",
+    "description": "Fundraiser for Fetch WI Rescue on the patio with craft beer.",
     "category": "other"
    },
    {
@@ -1307,8 +1289,8 @@
  },
  "https://colectivo.com/pages/on-the-square": {
   "hash": "3ae5f26864a3bf3596a39c57df708278495ce5df",
-  "asked": "2026-11-11T12:42:28-06:00",
-  "on": "2026-11-11",
+  "asked": "2026-11-14T20:39:31-06:00",
+  "on": "2026-11-14",
   "events": []
  },
  "https://union.wisc.edu/events-and-activities": {
@@ -1325,8 +1307,8 @@
  },
  "https://colectivo.com/pages/monroe-street": {
   "hash": "9892b266187b17da7f1159e8259f5ca702113a62",
-  "asked": "2026-11-11T12:42:29-06:00",
-  "on": "2026-11-11",
+  "asked": "2026-11-14T20:39:32-06:00",
+  "on": "2026-11-14",
   "events": []
  },
  "https://colectivo.com/pages/madison-cafes": {
@@ -1376,9 +1358,9 @@
   ]
  },
  "https://merciescoffeewi.com/": {
-  "hash": "bcb8a352979e986cfaf5d0882a8d1b00440b70e0",
-  "asked": "2026-11-13T21:15:02-06:00",
-  "on": "2026-11-13",
+  "hash": "8b6b5a5ff80e1ff93e1777860f05422bd07361ef",
+  "asked": "2026-11-14T20:39:41-06:00",
+  "on": "2026-11-14",
   "events": []
  },
  "https://motherfools.com/event/20261106/mad-city-story-slam-rebellion": {
@@ -1644,8 +1626,8 @@
   "events": []
  },
  "https://www.madisonpubliclibrary.org/spaces/events": {
-  "hash": "dd4242afe93c3ef4c79f3cfa993a3c05d0cb6bc6",
-  "asked": "2026-11-14T11:08:33-06:00",
+  "hash": "a5dab2ba94faaa99b088ce663820e6738f4f9890",
+  "asked": "2026-11-14T20:40:16-06:00",
   "on": "2026-11-14",
   "events": []
  },
@@ -1690,44 +1672,17 @@
   "events": []
  },
  "https://www.sunprairiepubliclibrary.org/home-delivery-service": {
-  "hash": "1f2466de2a7415cf3f6eb0761b66a9bd4f5079d0",
-  "asked": "2026-11-13T21:15:31-06:00",
-  "on": "2026-11-13",
+  "hash": "fe2a760911ccfbf026df22e027370f4bb0447eb5",
+  "asked": "2026-11-14T20:40:11-06:00",
+  "on": "2026-11-14",
   "events": [
-   {
-    "title": "Genealogy Class",
-    "date": "2026-11-14",
-    "start": "10:00",
-    "end": "11:30",
-    "price": null,
-    "description": "Genealogy class for adults at Sun Prairie Public Library.",
-    "category": "other"
-   },
-   {
-    "title": "Artsy Kids Club",
-    "date": "2026-11-14",
-    "start": "10:00",
-    "end": "11:30",
-    "price": null,
-    "description": "Art club for children ages 5-8 at Sun Prairie Public Library.",
-    "category": "other"
-   },
-   {
-    "title": "Puzzle Club",
-    "date": "2026-11-14",
-    "start": "10:00",
-    "end": "14:00",
-    "price": null,
-    "description": "Puzzle club for families, children, teens and adults at Sun Prairie Public Library.",
-    "category": "other"
-   },
    {
     "title": "Falling for Art: Leaf Collages with guest artist Brooke Baum",
     "date": "2026-11-15",
     "start": "14:00",
     "end": "16:00",
     "price": null,
-    "description": "Leaf collage art session with guest artist Brooke Baum, open to all ages at Sun Prairie Public Library.",
+    "description": "Leaf collage art program with guest artist Brooke Baum. Ages: family, children 0-8, teens, adults.",
     "category": "other"
    },
    {
@@ -1737,6 +1692,33 @@
     "end": "16:30",
     "price": null,
     "description": "Anime club for teens at Sun Prairie Public Library.",
+    "category": "other"
+   },
+   {
+    "title": "Puppet Theatre Storytime",
+    "date": "2026-11-17",
+    "start": "10:00",
+    "end": "10:30",
+    "price": null,
+    "description": "Puppet theatre storytime for family and children ages 0-5.",
+    "category": "other"
+   },
+   {
+    "title": "Puppet Theatre Storytime",
+    "date": "2026-11-17",
+    "start": "11:15",
+    "end": "11:45",
+    "price": null,
+    "description": "Puppet theatre storytime for family and children ages 0-5.",
+    "category": "other"
+   },
+   {
+    "title": "Teen Creativity Club",
+    "date": "2026-11-17",
+    "start": "16:00",
+    "end": "18:00",
+    "price": null,
+    "description": "Creativity club for teens at Sun Prairie Public Library.",
     "category": "other"
    }
   ]
@@ -1774,8 +1756,8 @@
  },
  "https://escmadison.com/events": {
   "hash": "0c7a3ad44bcce5505880f2229eebf42fe543fd42",
-  "asked": "2026-11-11T12:43:12-06:00",
-  "on": "2026-11-11",
+  "asked": "2026-11-14T20:40:13-06:00",
+  "on": "2026-11-14",
   "events": [
    {
     "title": "Open Mic w/ Martin Hunt",
@@ -1783,7 +1765,7 @@
     "start": "18:00",
     "end": "21:00",
     "price": 0,
-    "description": "Host Martin Hunt's open mic for all skill levels; free, food available from the grill.",
+    "description": "Host Martin Hunt's open mic for all musical skill levels. Free. Bar opens at 5:00pm; food available from the grill.",
     "category": "open_mic"
    },
    {
@@ -1792,14 +1774,14 @@
     "start": "18:00",
     "end": "21:00",
     "price": 0,
-    "description": "Host Martin Hunt's open mic for all skill levels; free, food available from the grill.",
+    "description": "Host Martin Hunt's open mic for all musical skill levels. Free. Bar opens at 5:00pm; food available from the grill.",
     "category": "open_mic"
    }
   ]
  },
  "https://www.madisonpubliclibrary.org/spaces/events/search": {
-  "hash": "1faeae9d9a8f677ba26d198b7e5bdcc5bcd77c58",
-  "asked": "2026-11-14T11:08:44-06:00",
+  "hash": "70b545ca63e1c7eb11ca71973c07f904bfaa9379",
+  "asked": "2026-11-14T20:40:25-06:00",
   "on": "2026-11-14",
   "events": []
  },
@@ -1874,26 +1856,17 @@
   ]
  },
  "https://bartelltheatre.org/": {
-  "hash": "d3204da5cd7f0e6b0447eab1d6a80779ad837b1f",
-  "asked": "2026-11-14T11:08:39-06:00",
+  "hash": "50896e3cf61cf241bd0064521f0b8dd8eba6e893",
+  "asked": "2026-11-14T20:40:23-06:00",
   "on": "2026-11-14",
   "events": [
    {
-    "title": "The Moors",
-    "date": "2026-11-14",
+    "title": "Romeo and Juliet",
+    "date": "2026-11-15",
     "start": "14:00",
     "end": null,
     "price": null,
-    "description": "Dark comedy about two sisters, a dog, and a hapless governess on the English moors. Closing today.",
-    "category": "theater"
-   },
-   {
-    "title": "Romeo and Juliet",
-    "date": "2026-11-14",
-    "start": "19:30",
-    "end": null,
-    "price": null,
-    "description": "Shakespeare's tragedy of two young lovers caught between feuding families.",
+    "description": "Bartell Theatre production of Shakespeare's tragedy of two young lovers caught between feuding families.",
     "category": "theater"
    },
    {
@@ -1902,17 +1875,17 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Last audition for A Valentine's Affair 2027.",
+    "description": "Final audition session for A Valentine's Affair 2027.",
     "category": "other"
    },
    {
-    "title": "Saturday Scene Study",
+    "title": "Saturday Scene Study Showcase",
     "date": "2026-11-21",
     "start": "12:00",
     "end": null,
     "price": null,
-    "description": "Saturday scene study session, closing run listed on the page.",
-    "category": "other"
+    "description": "Ticketed showcase concluding the six-week Saturday Scene Study class, held on the Evjue Stage.",
+    "category": "theater"
    }
   ]
  },
@@ -1963,26 +1936,17 @@
   ]
  },
  "https://www.overture.org/tickets-events/": {
-  "hash": "7ea9257a16873e20d6da1349d1ebf6a713b087e0",
-  "asked": "2026-11-14T11:08:45-06:00",
+  "hash": "0b697b9dd9b98f1922e06cc38c974a233a7bc909",
+  "asked": "2026-11-14T20:40:28-06:00",
   "on": "2026-11-14",
   "events": [
-   {
-    "title": "Laura Doherty & The Heartbeats",
-    "date": "2026-11-14",
-    "start": "13:00",
-    "end": null,
-    "price": null,
-    "description": "Performance by Laura Doherty & The Heartbeats at Overture.",
-    "category": "music"
-   },
    {
     "title": "Artists' Talk and Reception: Beneath the Fields & Foundation",
     "date": "2026-11-15",
     "start": "15:00",
     "end": null,
-    "description": "Artists' talk and reception for the Beneath the Fields & Foundation exhibition.",
     "price": null,
+    "description": "Artists' talk and reception at Overture Center.",
     "category": "other"
    },
    {
@@ -1991,7 +1955,16 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Beni Daiko performance at Overture; multiple showtimes that day.",
+    "description": "Performance by Beni Daiko; multiple showtimes, times not listed on the page.",
+    "category": "music"
+   },
+   {
+    "title": "Cash Box Kings",
+    "date": "2026-11-27",
+    "start": null,
+    "end": null,
+    "price": null,
+    "description": "Performance by Cash Box Kings; multiple showtimes, times not listed on the page.",
     "category": "music"
    }
   ]
@@ -2080,20 +2053,10 @@
   "events": []
  },
  "https://madisonorpheum.com/event/kip-moore/": {
-  "hash": "68336e2f6e9bea41eef88accff939a84856eb237",
-  "asked": "2026-11-13T12:33:24-06:00",
-  "on": "2026-11-13",
-  "events": [
-   {
-    "title": "The Mavericks & Friends",
-    "date": "2026-11-14",
-    "start": "20:00",
-    "end": null,
-    "price": null,
-    "description": "FPC Live presents The Mavericks & Friends at the Orpheum. Doors 7:00 pm, show 8:00 pm. Listed as a related event on the page.",
-    "category": "music"
-   }
-  ]
+  "hash": "3194198bd1fd7997712e2f33d43ba29937774930",
+  "asked": "2026-11-14T20:40:28-06:00",
+  "on": "2026-11-14",
+  "events": []
  },
  "https://rootedwi.org/get-involved/events-calendar/": {
   "hash": "16f6102e9935a6de935842881b2239fa0381b16e",
@@ -2142,20 +2105,10 @@
   "events": []
  },
  "https://high-noon.com/event/dogpark/": {
-  "hash": "95a4760f2a90e466f8879b1bdab3c00ab9710c3d",
-  "asked": "2026-11-14T11:07:39-06:00",
+  "hash": "1512cc27a70f045a10f2be49d25b9198aca4763e",
+  "asked": "2026-11-14T20:39:15-06:00",
   "on": "2026-11-14",
-  "events": [
-   {
-    "title": "Ryan Jesse with Clayton Shay",
-    "date": "2026-11-16",
-    "start": "19:30",
-    "end": null,
-    "price": null,
-    "description": "FPC Live presents Ryan Jesse with Clayton Shay at High Noon Saloon. Doors 6:30 pm, show 7:30 pm.",
-    "category": "music"
-   }
-  ]
+  "events": []
  },
  "https://thekickback.bar/premier-trivia-tuesday-nov-3/": {
   "hash": "25992f3a707c36f4ebbe1a9a479acec37b4b7959",
@@ -2302,44 +2255,17 @@
   ]
  },
  "https://www.sunprairiepubliclibrary.org/art-committee-and-gallery-shows": {
-  "hash": "b6ce38c185fd1bc6eaaeea5253bffe048e9df142",
-  "asked": "2026-11-13T21:15:34-06:00",
-  "on": "2026-11-13",
+  "hash": "b60fb4a3467637f3535c728fa749d3b1cd31bb1e",
+  "asked": "2026-11-14T20:40:14-06:00",
+  "on": "2026-11-14",
   "events": [
-   {
-    "title": "Genealogy Class",
-    "date": "2026-11-14",
-    "start": "10:00",
-    "end": "11:30",
-    "price": null,
-    "description": "Genealogy class for adults at Sun Prairie Public Library.",
-    "category": "other"
-   },
-   {
-    "title": "Artsy Kids Club",
-    "date": "2026-11-14",
-    "start": "10:00",
-    "end": "11:30",
-    "price": null,
-    "description": "Art club for children ages 5 to 8 at Sun Prairie Public Library.",
-    "category": "other"
-   },
-   {
-    "title": "Puzzle Club",
-    "date": "2026-11-14",
-    "start": "10:00",
-    "end": "14:00",
-    "price": null,
-    "description": "Puzzle club for families, children, teens and adults at Sun Prairie Public Library.",
-    "category": "other"
-   },
    {
     "title": "Falling for Art: Leaf Collages with guest artist Brooke Baum",
     "date": "2026-11-15",
     "start": "14:00",
     "end": "16:00",
     "price": null,
-    "description": "Leaf collage art session led by guest artist Brooke Baum, open to families, children, teens and adults.",
+    "description": "Leaf collage art session with guest artist Brooke Baum. Ages: family, children, teens, adults.",
     "category": "other"
    },
    {
@@ -2349,6 +2275,33 @@
     "end": "16:30",
     "price": null,
     "description": "Anime club for teens at Sun Prairie Public Library.",
+    "category": "other"
+   },
+   {
+    "title": "Puppet Theatre Storytime",
+    "date": "2026-11-17",
+    "start": "10:00",
+    "end": "10:30",
+    "price": null,
+    "description": "Puppet theatre storytime for family and children ages 0-5.",
+    "category": "theater"
+   },
+   {
+    "title": "Puppet Theatre Storytime",
+    "date": "2026-11-17",
+    "start": "11:15",
+    "end": "11:45",
+    "price": null,
+    "description": "Second puppet theatre storytime session for family and children ages 0-5.",
+    "category": "theater"
+   },
+   {
+    "title": "Teen Creativity Club",
+    "date": "2026-11-17",
+    "start": "16:00",
+    "end": "18:00",
+    "price": null,
+    "description": "Creativity club for teens at Sun Prairie Public Library.",
     "category": "other"
    }
   ]
