@@ -1131,5 +1131,20 @@
   "address": "2300 South Park Street",
   "city": "Madison"
  },
- "r bar, cross plains": null
+ "r bar, cross plains": null,
+ "badgerbots robotics education center": null,
+ "startingblock": null,
+ "luther memorial church": {
+  "lat": 43.072995,
+  "lon": -89.403359,
+  "address": "1021 University Avenue",
+  "city": "Madison"
+ },
+ "driftless historium, mount horeb": {
+  "lat": 43.00825,
+  "lon": -89.738721,
+  "address": "100 South 2nd Street",
+  "city": "Mount Horeb"
+ },
+ "uw humanities building-morphy hall": null
 }

@@ -3084,26 +3084,6 @@
   "why": "",
   "checked": "2026-11-13T21:16:52.575371-06:00"
  },
- "https://www.fullmilebeercompany.com/events/2026/11/15-karaoke": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-15T20:45:08.411259-06:00"
- },
- "https://www.ticketmaster.com/victor-wooten-the-wooten-brothers-madison-wisconsin-11-15-2026/event/070064D4FF1D96DB": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-15T20:45:09.260344-06:00"
- },
- "https://www.ticketmaster.com/almost-monday-madison-wisconsin-11-15-2026/event/070064D29A3449E3": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-15T20:45:11.588201-06:00"
- },
- "https://onesocialmadison.com/event/packers-watch-party-4/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-09T15:31:41.751234-06:00"
- },
  "https://onesocialmadison.com/event/microbiology-on-tap-with-uw/": {
   "ok": true,
   "why": "",
@@ -3599,11 +3579,6 @@
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
   "checked": "2026-11-11T21:50:15.290888-06:00"
  },
- "https://www.northstreetcabaret.com/": {
-  "ok": null,
-  "why": "robots.txt asks bots not to visit",
-  "checked": "2026-11-12T12:57:44.981892-06:00"
- },
  "https://www.madisoncomedy.com/event/mic-on-state/2026-11-18/": {
   "ok": true,
   "why": "",
@@ -3663,11 +3638,6 @@
   "ok": true,
   "why": "",
   "checked": "2026-11-14T11:09:19.242868-06:00"
- },
- "https://www.waunakeepubliclibrary.org/event/friends-craft-fair-2026": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-14T20:40:37.463386-06:00"
  },
  "https://www.ticketmaster.com/event/Z7r9jZ1A70Z-3": {
   "ok": null,
@@ -3808,5 +3778,65 @@
   "ok": true,
   "why": "",
   "checked": "2026-11-15T20:45:19.684602-06:00"
+ },
+ "https://www.madisonpubliclibrary.org/locations/pinney-library": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-16T15:04:01.786048-06:00"
+ },
+ "https://www.madisonpubliclibrary.org/sequoya": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-16T15:04:03.732198-06:00"
+ },
+ "https://www.veronapubliclibrary.org/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-16T15:04:03.732227-06:00"
+ },
+ "https://www.madisonpubliclibrary.org/locations/imagination-center": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-16T15:04:05.788627-06:00"
+ },
+ "https://cafecoda.club": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-16T15:04:05.788659-06:00"
+ },
+ "https://communicationmadison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-16T15:04:05.788667-06:00"
+ },
+ "https://madisonlocalmotive.com": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-16T15:04:05.788674-06:00"
+ },
+ "https://statestreetbrats.com/event/bucks-heat-20261118/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-16T15:04:05.788680-06:00"
+ },
+ "https://www.cafecoda.club/events-1/madison-jazz-orchestra-3-384y9-wapp4-2rmm5-efael": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-16T15:04:05.788686-06:00"
+ },
+ "https://www.madisonpubliclibrary.org/about/ashman.html": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-16T15:04:07.969513-06:00"
+ },
+ "https://www.madisonpubliclibrary.org/monroe-street": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-16T15:04:09.931969-06:00"
+ },
+ "https://doundrinsdistilling.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-16T15:04:09.931999-06:00"
  }
 }
