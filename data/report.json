@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-15T11:44:37-06:00",
+ "generated_at": "2026-11-15T20:45:07-06:00",
  "venues_checked": 237,
- "venues_with_events": 55,
- "venues_with_feeds": 78,
- "events": 338,
- "filtered_out": 70,
+ "venues_with_events": 58,
+ "venues_with_feeds": 79,
+ "events": 330,
+ "filtered_out": 143,
  "venues": [
   {
    "name": "Isthmus calendar",
@@ -14,7 +14,7 @@
     "calendar"
    ],
    "raw_events": 146,
-   "error": ""
+   "error": "used today's copy (read once a day)"
   },
   {
    "name": "AI page reading",
@@ -23,12 +23,23 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 137,
+   "raw_events": 139,
    "error": "",
-   "calls": 10,
-   "tokens_in": 19741,
-   "tokens_out": 9095,
-   "est_cost_usd": 0.0065
+   "calls": 8,
+   "tokens_in": 13646,
+   "tokens_out": 6315,
+   "est_cost_usd": 0.0045
+  },
+  {
+   "name": "Bayview Community Center",
+   "kind": "community",
+   "website": "https://www.bayviewfoundation.org",
+   "feeds": [
+    "tribe",
+    "jsonld"
+   ],
+   "raw_events": 75,
+   "error": ""
   },
   {
    "name": "Ticketmaster",
@@ -37,7 +48,7 @@
    "feeds": [
     "ticketmaster"
    ],
-   "raw_events": 46,
+   "raw_events": 48,
    "error": ""
   },
   {
@@ -69,6 +80,17 @@
    "error": ""
   },
   {
+   "name": "E.D. Locke Public Library",
+   "kind": "library",
+   "website": "https://www.mcfarlandlibrary.org/home",
+   "feeds": [
+    "ical",
+    "ical"
+   ],
+   "raw_events": 30,
+   "error": "ical: ConnectionError: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //www.mcfarlandlibrary.org/calendar/month (Caused by NameResolutionError(\"HTTPSConnection(host='https"
+  },
+  {
    "name": "Working Draft Beer Company",
    "kind": "brewery",
    "website": "https://www.workingdraftbeer.com/",
@@ -79,19 +101,8 @@
     "jsonld",
     "jsonld"
    ],
-   "raw_events": 32,
-   "error": ""
-  },
-  {
-   "name": "E.D. Locke Public Library",
-   "kind": "library",
-   "website": "https://www.mcfarlandlibrary.org/home",
-   "feeds": [
-    "ical",
-    "ical"
-   ],
    "raw_events": 30,
-   "error": "ical: ConnectionError: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //www.mcfarlandlibrary.org/calendar/month (Caused by NameResolutionError(\"HTTPSConnection(host='https"
+   "error": ""
   },
   {
    "name": "Cafe CODA",
@@ -146,6 +157,16 @@
    "error": ""
   },
   {
+   "name": "High Noon Saloon",
+   "kind": "bar",
+   "website": "https://www.high-noon.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 12,
+   "error": ""
+  },
+  {
    "name": "Bridge Lakepoint Waunona Neighborhood Center",
    "kind": "community",
    "website": "https://www.blwcenter.org/",
@@ -155,26 +176,6 @@
     "jsonld"
    ],
    "raw_events": 11,
-   "error": ""
-  },
-  {
-   "name": "High Noon Saloon",
-   "kind": "bar",
-   "website": "https://www.high-noon.com/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 11,
-   "error": ""
-  },
-  {
-   "name": "Arts + Literature Laboratory",
-   "kind": "venue",
-   "website": "https://artlitlab.org/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 10,
    "error": ""
   },
   {
@@ -198,9 +199,9 @@
    "error": ""
   },
   {
-   "name": "Lazy Oaf Lounge",
-   "kind": "bar",
-   "website": "https://www.lazyoaflounge.com/",
+   "name": "Arts + Literature Laboratory",
+   "kind": "venue",
+   "website": "https://artlitlab.org/",
    "feeds": [
     "ai"
    ],
@@ -208,9 +209,9 @@
    "error": ""
   },
   {
-   "name": "The Kickback",
+   "name": "Lazy Oaf Lounge",
    "kind": "bar",
-   "website": "https://thekickback.bar/",
+   "website": "https://www.lazyoaflounge.com/",
    "feeds": [
     "ai"
    ],
@@ -228,6 +229,16 @@
    "error": ""
   },
   {
+   "name": "The Kickback",
+   "kind": "bar",
+   "website": "https://thekickback.bar/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 8,
+   "error": ""
+  },
+  {
    "name": "Veterans Memorial Park",
    "kind": "veterans",
    "website": "https://www.cityofmadison.com/parks/find-a-park/park.cfm?id=1364",
@@ -235,6 +246,16 @@
     "ai"
    ],
    "raw_events": 8,
+   "error": ""
+  },
+  {
+   "name": "Gamma Ray Bar",
+   "kind": "bar",
+   "website": "https://gammaray.bar",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 6,
    "error": ""
   },
   {
@@ -256,16 +277,6 @@
     "ai"
    ],
    "raw_events": 6,
-   "error": ""
-  },
-  {
-   "name": "Gamma Ray Bar",
-   "kind": "bar",
-   "website": "https://gammaray.bar",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 5,
    "error": ""
   },
   {
@@ -299,24 +310,21 @@
    "error": ""
   },
   {
-   "name": "Crystal Corner Bar",
-   "kind": "bar",
-   "website": "https://thecrystalcornerbar.com/",
+   "name": "Children's Theater of Madison",
+   "kind": "venue",
+   "website": "https://ctmtheater.org/",
    "feeds": [
-    "ai"
+    "tribe"
    ],
    "raw_events": 4,
    "error": ""
   },
   {
-   "name": "Waunakee Public Library",
-   "kind": "library",
-   "website": "https://www.waunakeepubliclibrary.org/",
+   "name": "Crystal Corner Bar",
+   "kind": "bar",
+   "website": "https://thecrystalcornerbar.com/",
    "feeds": [
-    "jsonld",
-    "jsonld",
-    "jsonld",
-    "jsonld"
+    "ai"
    ],
    "raw_events": 4,
    "error": ""
@@ -395,6 +403,16 @@
     "jsonld"
    ],
    "raw_events": 3,
+   "error": ""
+  },
+  {
+   "name": "Aftershock Classic Arcade",
+   "kind": "bar",
+   "website": "https://www.aftershockclassicarcade.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 2,
    "error": ""
   },
   {
@@ -606,12 +624,17 @@
    "error": ""
   },
   {
-   "name": "Aftershock Classic Arcade",
-   "kind": "bar",
-   "website": "https://www.aftershockclassicarcade.com/",
-   "feeds": [],
-   "raw_events": 0,
-   "error": "ai: ConnectionError: HTTPSConnectionPool(host='aftershockclassicarcade.com', port=443): Max retries exceeded with url: /events/ (Caused by NewConnectionError(\"HTTPSConnection(host='aftershockclassicar; ai: ConnectionError: HTTPSConnectionPool(host='aftershockclassicarcade.com', port=443): Max retries exceeded with url: /specials/ (Caused by NewConnectionError(\"HTTPSConnection(host='aftershockclassic"
+   "name": "Waunakee Public Library",
+   "kind": "library",
+   "website": "https://www.waunakeepubliclibrary.org/",
+   "feeds": [
+    "jsonld",
+    "jsonld",
+    "jsonld",
+    "jsonld"
+   ],
+   "raw_events": 1,
+   "error": ""
   },
   {
    "name": "Alice Good",
@@ -718,17 +741,6 @@
    "error": ""
   },
   {
-   "name": "Bayview Community Center",
-   "kind": "community",
-   "website": "https://www.bayviewfoundation.org",
-   "feeds": [
-    "tribe",
-    "jsonld"
-   ],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
    "name": "Black Locust Cafe",
    "kind": "cafe",
    "website": "https://blacklocustcafe.com/",
@@ -829,16 +841,6 @@
    "kind": "cafe",
    "website": "https://union.wisc.edu/dine/find-food-and-drink/chazen-cafe",
    "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Children's Theater of Madison",
-   "kind": "venue",
-   "website": "https://ctmtheater.org/",
-   "feeds": [
-    "tribe"
-   ],
    "raw_events": 0,
    "error": ""
   },
@@ -1631,7 +1633,7 @@
    "website": "https://redroostermadison.com/",
    "feeds": [],
    "raw_events": 0,
-   "error": "ai: ConnectionError: HTTPSConnectionPool(host='redroostermadison.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='redroostermadison.com', port=443"
+   "error": ""
   },
   {
    "name": "Right Bauer Brewing",
@@ -1694,6 +1696,14 @@
   {
    "name": "Starbucks",
    "kind": "cafe",
+   "website": "https://www.starbucks.com/store-locator/store/16495/south-gammon-mineral-point-434-gammon-place-3-madison-wi-537191090-us",
+   "feeds": [],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
+   "name": "Starbucks",
+   "kind": "cafe",
    "website": "https://www.starbucks.com/store-locator/store/16482/capitol-square-main-mlk-1-e-main-st-madison-wi-537033373-us",
    "feeds": [],
    "raw_events": 0,
@@ -1703,14 +1713,6 @@
    "name": "Starbucks",
    "kind": "cafe",
    "website": "https://www.starbucks.com/store-locator/store/12525/university-north-blackhawk-3515-university-avenue-madison-wi-537052140-us",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Starbucks",
-   "kind": "cafe",
-   "website": "https://www.starbucks.com/store-locator/store/16495/south-gammon-mineral-point-434-gammon-place-3-madison-wi-537191090-us",
    "feeds": [],
    "raw_events": 0,
    "error": ""

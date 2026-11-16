@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-15T11:44:37-06:00",
+ "generated_at": "2026-11-15T20:45:07-06:00",
  "window": {
-  "from": "2026-11-15T05:42-06:00",
-  "to": "2026-11-29T11:42-06:00"
+  "from": "2026-11-15T14:43-06:00",
+  "to": "2026-11-29T20:43-06:00"
  },
- "count": 338,
+ "count": 330,
  "events": [
   {
    "id": "4b3bb14c1c67",
@@ -30,52 +30,6 @@
    "link_ok": true
   },
   {
-   "id": "d5ec9d4b0a2d",
-   "title": "Online Write-In (Zoom)",
-   "start": "2026-11-15T09:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "other",
-   "price": 0.0,
-   "description": "Online Pomodoro writing session via Zoom with check-in and check-out. Registration is free.",
-   "url": "https://artlitlab.org/",
-   "image": "",
-   "venue": "Arts + Literature Laboratory",
-   "venue_id": "osm:node/10815180247",
-   "venue_kind": "venue",
-   "address": "111 South Livingston Street",
-   "lat": 43.0804026,
-   "lon": -89.3734803,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "3c34cd6c85cf",
-   "title": "Bingo 10:30am and 1:00pm, Beer & Bloodies – #SundayFunday",
-   "start": "2026-11-15T10:30-06:00",
-   "end": "2026-11-15T10:30-06:00",
-   "all_day": false,
-   "category": "bingo",
-   "price": 0.0,
-   "description": "Double the Bingo, Double the FUN! Your #SundayFunday just leveled up — we’re serving up two rounds of Bingo mayhem every Sunday: 10:30AM and 1:00PM! Sip on bloodies, mimosas, or a cold craft beer while you munch, mingle, and shout BINGO! for awesome prizes. It’s F REE TO PLAY , family friendly, 10 r",
-   "url": "https://thelonegirl.com/event/sunday-bingo-lone-girl-brewing-2-2/",
-   "image": "https://thelonegirl.com/wp-content/uploads/2025/01/20231112_130804-e1737130911633.jpg",
-   "venue": "Lone Girl Tap Room And Pizza Company",
-   "venue_id": "osm:node/12641566168",
-   "venue_kind": "bar",
-   "address": "1817 East Washington Avenue",
-   "lat": 43.0907077,
-   "lon": -89.3608921,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "b1bd826315a9",
    "title": "Freewheel Open Shop",
    "start": "2026-11-15T12:00-06:00",
@@ -92,30 +46,6 @@
    "address": "31 South Mills Street",
    "lat": 43.066613,
    "lon": -89.403746,
-   "source": "extra",
-   "via": "Isthmus",
-   "sources": [
-    "Isthmus"
-   ],
-   "link_ok": null
-  },
-  {
-   "id": "f40665fb7b84",
-   "title": "Puzzle Swap",
-   "start": "2026-11-15T12:00-06:00",
-   "end": "2026-11-15T13:30-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": 0.0,
-   "description": "",
-   "url": "",
-   "image": "",
-   "venue": "Starkweather Brewing Company",
-   "venue_id": "cal:starkweather-brewing-company",
-   "venue_kind": "venue",
-   "address": "2439 Atwood Avenue",
-   "lat": 43.09371,
-   "lon": -89.34572,
    "source": "extra",
    "via": "Isthmus",
    "sources": [
@@ -149,79 +79,6 @@
    "link_ok": null
   },
   {
-   "id": "fe03964f9128",
-   "title": "Archery Practice",
-   "start": "2026-11-15T12:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "other",
-   "price": 0.0,
-   "description": "",
-   "url": "",
-   "image": "",
-   "venue": "UW Stock Pavilion",
-   "venue_id": "cal:uw-stock-pavilion",
-   "venue_kind": "venue",
-   "address": "",
-   "lat": null,
-   "lon": null,
-   "source": "extra",
-   "via": "Isthmus",
-   "sources": [
-    "Isthmus"
-   ],
-   "link_ok": null
-  },
-  {
-   "id": "d66130946487",
-   "title": "Zen Meditation & Training",
-   "start": "2026-11-15T12:30-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "",
-   "url": "",
-   "image": "",
-   "venue": "Aikido of Madison",
-   "venue_id": "cal:aikido-of-madison",
-   "venue_kind": "venue",
-   "address": "2219 Atwood Avenue",
-   "lat": 43.093163,
-   "lon": -89.348737,
-   "source": "extra",
-   "via": "Isthmus",
-   "sources": [
-    "Isthmus"
-   ],
-   "link_ok": null
-  },
-  {
-   "id": "85ab670ef189",
-   "title": "Witch",
-   "start": "2026-11-15T13:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "theater",
-   "price": null,
-   "description": "",
-   "url": "",
-   "image": "",
-   "venue": "American Players Theatre",
-   "venue_id": "cal:american-players-theatre",
-   "venue_kind": "venue",
-   "address": "5950",
-   "lat": 43.143286,
-   "lon": -90.039663,
-   "source": "extra",
-   "via": "Isthmus",
-   "city": "Spring Green",
-   "sources": [
-    "Isthmus"
-   ],
-   "link_ok": null
-  },
-  {
    "id": "31c2ef4a20a1",
    "title": "Winter Bike Fashion Show",
    "start": "2026-11-15T13:00-06:00",
@@ -238,53 +95,6 @@
    "address": "",
    "lat": null,
    "lon": null,
-   "source": "extra",
-   "via": "Isthmus",
-   "sources": [
-    "Isthmus"
-   ],
-   "link_ok": null
-  },
-  {
-   "id": "424daf8c6308",
-   "title": "Wisconsin Badgers Womens Hockey vs. St. Thomas Tommies Womens Hockey",
-   "start": "2026-11-15T13:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "sports",
-   "price": null,
-   "description": "Miscellaneous / Miscellaneous",
-   "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvt3b",
-   "image": "https://s1.ticketm.net/dam/a/339/3081c303-a0d2-4c69-a32a-467124cd3339_RETINA_PORTRAIT_16_9.jpg",
-   "venue": "LaBahn Arena",
-   "venue_id": "tm:Z7r9jZadmV",
-   "venue_kind": "venue",
-   "address": "105 East Campus Mall",
-   "lat": 43.060699,
-   "lon": -89.3992,
-   "source": "ticketmaster",
-   "sources": [
-    "Ticketmaster"
-   ],
-   "link_ok": null
-  },
-  {
-   "id": "8c386e3f285a",
-   "title": "UW Women's Hockey",
-   "start": "2026-11-15T13:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "sports",
-   "price": null,
-   "description": "",
-   "url": "",
-   "image": "",
-   "venue": "LaBahn Arena",
-   "venue_id": "cal:labahn-arena",
-   "venue_kind": "venue",
-   "address": "East Campus Mall",
-   "lat": 43.069771,
-   "lon": -89.398556,
    "source": "extra",
    "via": "Isthmus",
    "sources": [
@@ -317,30 +127,6 @@
    "link_ok": null
   },
   {
-   "id": "47d1f6b86cde",
-   "title": "Basics of Self-Defense",
-   "start": "2026-11-15T13:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "other",
-   "price": 45.0,
-   "description": "",
-   "url": "",
-   "image": "",
-   "venue": "RCC Sexual Violence Resource Center",
-   "venue_id": "cal:rcc-sexual-violence-resource-center",
-   "venue_kind": "venue",
-   "address": "East Washington Avenue",
-   "lat": 43.113312,
-   "lon": -89.3296,
-   "source": "extra",
-   "via": "Isthmus",
-   "sources": [
-    "Isthmus"
-   ],
-   "link_ok": null
-  },
-  {
    "id": "e555ae40d30b",
    "title": "Jumptown Swing Dance",
    "start": "2026-11-15T13:00-06:00",
@@ -363,29 +149,6 @@
     "Isthmus"
    ],
    "link_ok": null
-  },
-  {
-   "id": "d6fecd9d3ead",
-   "title": "Meat Raffle at The Kickback",
-   "start": "2026-11-15T13:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "bingo",
-   "price": null,
-   "description": "Meat raffle with Fetch WI Rescue, Jenny St Market, New Belgium Brewing; prizes.",
-   "url": "https://thekickback.bar/",
-   "image": "",
-   "venue": "The Kickback",
-   "venue_id": "osm:node/12292190391",
-   "venue_kind": "bar",
-   "address": "7622 Lisa Lane",
-   "lat": 43.1092621,
-   "lon": -89.5123266,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
   },
   {
    "id": "8bd8bf585ae0",
@@ -458,78 +221,6 @@
    "link_ok": true
   },
   {
-   "id": "6f154276e6bb",
-   "title": "Bird & Nature Adventure",
-   "start": "2026-11-15T13:30-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "",
-   "url": "",
-   "image": "",
-   "venue": "Warner Park",
-   "venue_id": "cal:warner-park",
-   "venue_kind": "venue",
-   "address": "",
-   "lat": 43.128703,
-   "lon": -89.371902,
-   "source": "extra",
-   "via": "Isthmus",
-   "sources": [
-    "Isthmus"
-   ],
-   "link_ok": null
-  },
-  {
-   "id": "00f75f0d0dca",
-   "title": "Romeo & Juliet",
-   "start": "2026-11-15T14:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "theater",
-   "price": null,
-   "description": "",
-   "url": "https://bartelltheatre.org/",
-   "image": "",
-   "venue": "Bartell Theatre",
-   "venue_id": "osm:way/265137656",
-   "venue_kind": "venue",
-   "address": "113 East Mifflin Street",
-   "lat": 43.0765271,
-   "lon": -89.3833565,
-   "source": "extra",
-   "via": "Isthmus",
-   "city": "Madison",
-   "sources": [
-    "Isthmus"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "74578ea32046",
-   "title": "Romeo and Juliet",
-   "start": "2026-11-15T14:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "theater",
-   "price": null,
-   "description": "Now playing at Bartell Theatre; tickets required.",
-   "url": "https://bartelltheatre.org/",
-   "image": "",
-   "venue": "Bartell Theatre",
-   "venue_id": "osm:way/265137656",
-   "venue_kind": "venue",
-   "address": "113 East Mifflin Street",
-   "lat": 43.0765271,
-   "lon": -89.3833565,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "795c7df5f2cc",
    "title": "Stephen Self",
    "start": "2026-11-15T14:00-06:00",
@@ -546,54 +237,6 @@
    "address": "312 Wisconsin Avenue",
    "lat": 43.076858,
    "lon": -89.387782,
-   "source": "extra",
-   "via": "Isthmus",
-   "sources": [
-    "Isthmus"
-   ],
-   "link_ok": null
-  },
-  {
-   "id": "62cb780bcb99",
-   "title": "PingPongParkinson",
-   "start": "2026-11-15T14:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "theater",
-   "price": 0.0,
-   "description": "",
-   "url": "",
-   "image": "",
-   "venue": "East Madison Community Center",
-   "venue_id": "osm:node/6431373787",
-   "venue_kind": "community",
-   "address": "",
-   "lat": 43.1183548,
-   "lon": -89.3286211,
-   "source": "extra",
-   "via": "Isthmus",
-   "sources": [
-    "Isthmus"
-   ],
-   "link_ok": null
-  },
-  {
-   "id": "351ada54858a",
-   "title": "PFLAG",
-   "start": "2026-11-15T14:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "",
-   "url": "",
-   "image": "",
-   "venue": "Location not listed",
-   "venue_id": "cal:unknown",
-   "venue_kind": "venue",
-   "address": "",
-   "lat": null,
-   "lon": null,
    "source": "extra",
    "via": "Isthmus",
    "sources": [
@@ -626,102 +269,6 @@
    "link_ok": null
   },
   {
-   "id": "1aa5b94c1af5",
-   "title": "It's a Wonderful Life: A New Musical",
-   "start": "2026-11-15T14:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "theater",
-   "price": 25.0,
-   "description": "",
-   "url": "",
-   "image": "",
-   "venue": "Madison College-Truax",
-   "venue_id": "cal:madison-college-truax",
-   "venue_kind": "venue",
-   "address": "",
-   "lat": null,
-   "lon": null,
-   "source": "extra",
-   "via": "Isthmus",
-   "sources": [
-    "Isthmus"
-   ],
-   "link_ok": null
-  },
-  {
-   "id": "06e13376ddb1",
-   "title": "Gaslight",
-   "start": "2026-11-15T14:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "theater",
-   "price": 56.47,
-   "description": "",
-   "url": "",
-   "image": "",
-   "venue": "Overture Center-Playhouse",
-   "venue_id": "cal:overture-center-playhouse",
-   "venue_kind": "venue",
-   "address": "",
-   "lat": null,
-   "lon": null,
-   "source": "extra",
-   "via": "Isthmus",
-   "sources": [
-    "Isthmus"
-   ],
-   "link_ok": null
-  },
-  {
-   "id": "f4241a8e66be",
-   "title": "You're a Good Man, Charlie Brown",
-   "start": "2026-11-15T14:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "music",
-   "price": 20.0,
-   "description": "",
-   "url": "",
-   "image": "",
-   "venue": "Stoughton Village Players Theater",
-   "venue_id": "cal:stoughton-village-players-theater",
-   "venue_kind": "venue",
-   "address": "255 East Main Street",
-   "lat": 42.916599,
-   "lon": -89.218444,
-   "source": "extra",
-   "via": "Isthmus",
-   "city": "Stoughton",
-   "sources": [
-    "Isthmus"
-   ],
-   "link_ok": null
-  },
-  {
-   "id": "eb449c7da65f",
-   "title": "Falling for Art: Leaf Collages with guest artist Brooke Baum",
-   "start": "2026-11-15T14:00-06:00",
-   "end": "2026-11-15T16:00-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Leaf collage art program with guest artist Brooke Baum. Ages: family, children 0-8, teens, adults.",
-   "url": "https://www.sunprairiepubliclibrary.org/",
-   "image": "",
-   "venue": "Sun Prairie Public Library",
-   "venue_id": "osm:way/600866560",
-   "venue_kind": "library",
-   "address": "1350 Linnerud Drive",
-   "lat": 43.1757782,
-   "lon": -89.2353415,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "3838f7b8279c",
    "title": "Tracy Jane Comer",
    "start": "2026-11-15T14:00-06:00",
@@ -734,78 +281,6 @@
    "image": "",
    "venue": "Timber Hill Winery",
    "venue_id": "cal:timber-hill-winery",
-   "venue_kind": "venue",
-   "address": "",
-   "lat": null,
-   "lon": null,
-   "source": "extra",
-   "via": "Isthmus",
-   "sources": [
-    "Isthmus"
-   ],
-   "link_ok": null
-  },
-  {
-   "id": "fdc6ebcd15ef",
-   "title": "Baahubali: The Beginning",
-   "start": "2026-11-15T14:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "other",
-   "price": 0.0,
-   "description": "",
-   "url": "",
-   "image": "",
-   "venue": "UW Cinematheque",
-   "venue_id": "cal:uw-cinematheque",
-   "venue_kind": "venue",
-   "address": "",
-   "lat": null,
-   "lon": null,
-   "source": "extra",
-   "via": "Isthmus",
-   "sources": [
-    "Isthmus"
-   ],
-   "link_ok": null
-  },
-  {
-   "id": "e61d2da56806",
-   "title": "UW Low Brass Ensemble",
-   "start": "2026-11-15T14:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "music",
-   "price": 0.0,
-   "description": "",
-   "url": "",
-   "image": "",
-   "venue": "UW Hamel Music Center-Mead Witter Hall",
-   "venue_id": "cal:uw-hamel-music-center-mead-witter-hall",
-   "venue_kind": "venue",
-   "address": "",
-   "lat": null,
-   "lon": null,
-   "source": "extra",
-   "via": "Isthmus",
-   "sources": [
-    "Isthmus"
-   ],
-   "link_ok": null
-  },
-  {
-   "id": "cfc52f6aebb3",
-   "title": "The Caffeinated Book Club of Chestnut Street Performs the U.S. Constitution",
-   "start": "2026-11-15T14:30-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "theater",
-   "price": 25.0,
-   "description": "",
-   "url": "",
-   "image": "",
-   "venue": "TNW Ensemble Theater",
-   "venue_id": "cal:tnw-ensemble-theater",
    "venue_kind": "venue",
    "address": "",
    "lat": null,
@@ -841,29 +316,6 @@
     "Isthmus"
    ],
    "link_ok": null
-  },
-  {
-   "id": "0d7476193fef",
-   "title": "Artists' Talk and Reception: Beneath the Fields & Foundation",
-   "start": "2026-11-15T15:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "theater",
-   "price": null,
-   "description": "Artists' talk and reception at Overture Center.",
-   "url": "http://overturecenter.com",
-   "image": "",
-   "venue": "Overture Center for the Arts",
-   "venue_id": "osm:way/98799451",
-   "venue_kind": "venue",
-   "address": "201 State Street",
-   "lat": 43.0741518,
-   "lon": -89.3885839,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
   },
   {
    "id": "714346e7120c",
@@ -909,29 +361,6 @@
    "source": "ai",
    "sources": [
     "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "b99f1e8f0ec1",
-   "title": "I ❤️ Willy Street: Neighborhood Clean-Up & T-Shirt Release",
-   "start": "2026-11-15T15:15-06:00",
-   "end": "2026-11-15T16:30-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "",
-   "url": "https://www.workingdraftbeer.com/events/2026/11/15/show-willy-street-some-love",
-   "image": "https://images.squarespace-cdn.com/content/v1/595aac69414fb51e2857d8af/1794000523921-SIQUDDV8UOUWQQJ1LNWO/PXL_20261106_212308170%7E2.jpg",
-   "venue": "Working Draft Beer Company",
-   "venue_id": "osm:node/5501718844",
-   "venue_kind": "brewery",
-   "address": "1129 East Wilson Street",
-   "lat": 43.0833378,
-   "lon": -89.3652802,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
    ],
    "link_ok": true
   },
@@ -1302,29 +731,6 @@
    "link_ok": true
   },
   {
-   "id": "a6ba447014ef",
-   "title": "Wisconsin Badgers Mens Basketball vs. Coastal Carolina Chanticleers Mens Basketball",
-   "start": "2026-11-15T19:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "sports",
-   "price": null,
-   "description": "Basketball / College",
-   "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvg8M",
-   "image": "https://s1.ticketm.net/dam/a/8d2/8c0ae06b-7a6f-4ab8-9747-05509c79f8d2_1260851_RETINA_PORTRAIT_16_9.jpg",
-   "venue": "Kohl Center",
-   "venue_id": "tm:Z6r9jZaaee",
-   "venue_kind": "venue",
-   "address": "601 W. Dayton St.",
-   "lat": 43.016399,
-   "lon": -89.420097,
-   "source": "ticketmaster",
-   "sources": [
-    "Ticketmaster"
-   ],
-   "link_ok": null
-  },
-  {
    "id": "6845c95c6cc7",
    "title": "UW Men's Basketball",
    "start": "2026-11-15T19:00-06:00",
@@ -1395,29 +801,6 @@
     "Isthmus"
    ],
    "link_ok": null
-  },
-  {
-   "id": "c463d61cd73c",
-   "title": "Hawks @ Bucks",
-   "start": "2026-11-15T19:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "sports",
-   "price": null,
-   "description": "",
-   "url": "https://statestreetbrats.com/event/hawks-bucks-20261115/",
-   "image": "",
-   "venue": "State Street Brats",
-   "venue_id": "osm:way/886357869",
-   "venue_kind": "bar",
-   "address": "603 State Street",
-   "lat": 43.0746889,
-   "lon": -89.395998,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
-   ],
-   "link_ok": true
   },
   {
    "id": "b2190d20bb74",
@@ -1608,6 +991,29 @@
    "city": "Madison",
    "sources": [
     "Isthmus"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "43ebfe8bfc31",
+   "title": "Monday Madness",
+   "start": "2026-11-16T00:00-06:00",
+   "end": null,
+   "all_day": true,
+   "category": "food",
+   "price": null,
+   "description": "Discounted token pricing and special deals every Monday.",
+   "url": "https://www.aftershockclassicarcade.com/",
+   "image": "",
+   "venue": "Aftershock Classic Arcade",
+   "venue_id": "osm:node/6431684446",
+   "venue_kind": "bar",
+   "address": "1444 East Washington Avenue",
+   "lat": 43.0897796,
+   "lon": -89.3632278,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
    ],
    "link_ok": true
   },
@@ -2547,6 +1953,29 @@
    "link_ok": null
   },
   {
+   "id": "200d6799ce2d",
+   "title": "Zumba",
+   "start": "2026-11-17T18:00-06:00",
+   "end": "2026-11-17T19:00-06:00",
+   "all_day": false,
+   "category": "dance",
+   "price": null,
+   "description": "Join us for a high-energy Zumba class, where you can dance, sweat, and have fun while getting fit with a great group of people! Pre-registration is not required.",
+   "url": "https://bayviewfoundation.org/event/zumba/2026-11-17/",
+   "image": "https://bayviewfoundation.org/wp-content/uploads/2024/12/health-wellness.png",
+   "venue": "Bayview Community Center",
+   "venue_id": "osm:way/1323648187",
+   "venue_kind": "community",
+   "address": "103 La Mariposa Lane",
+   "lat": 43.0663858,
+   "lon": -89.3975076,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "6cde271c7e14",
    "title": "Open Mic w/ Martin Hunt",
    "start": "2026-11-17T18:00-06:00",
@@ -2790,7 +2219,7 @@
    "all_day": false,
    "category": "trivia",
    "price": null,
-   "description": "Tuesday trivia night.",
+   "description": "Tuesday Trivia at The Kickback",
    "url": "https://thekickback.bar/",
    "image": "",
    "venue": "The Kickback",
@@ -2893,6 +2322,52 @@
    "address": "1413 Northern Court",
    "lat": 43.0875602,
    "lon": -89.3622099,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "bac81eeecdc1",
+   "title": "Northwestern @ Wisconsin",
+   "start": "2026-11-17T19:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "",
+   "url": "https://statestreetbrats.com/event/northwestern-wisconsin-20261117/",
+   "image": "",
+   "venue": "State Street Brats",
+   "venue_id": "osm:way/886357869",
+   "venue_kind": "bar",
+   "address": "603 State Street",
+   "lat": 43.0746889,
+   "lon": -89.395998,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "ed986461ebc3",
+   "title": "Evening Book Club",
+   "start": "2026-11-17T19:00-06:00",
+   "end": "2026-11-17T20:00-06:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Adult evening book club.",
+   "url": "https://www.sunprairiepubliclibrary.org/",
+   "image": "",
+   "venue": "Sun Prairie Public Library",
+   "venue_id": "osm:way/600866560",
+   "venue_kind": "library",
+   "address": "1350 Linnerud Drive",
+   "lat": 43.1757782,
+   "lon": -89.2353415,
    "source": "ai",
    "sources": [
     "AI page reading"
@@ -3186,7 +2661,7 @@
    "all_day": false,
    "category": "trivia",
    "price": null,
-   "description": "Craft beer pinball league night with Big Grove Brewery and New Glarus.",
+   "description": "Craft beer pinball league night featuring New Glarus at Big Grove Brewery",
    "url": "https://thekickback.bar/",
    "image": "",
    "venue": "The Kickback",
@@ -3741,6 +3216,29 @@
    "link_ok": true
   },
   {
+   "id": "530ccbdea214",
+   "title": "Romeo and Juliet",
+   "start": "2026-11-19T19:30-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "theater",
+   "price": null,
+   "description": "Bartell Theatre production of Shakespeare's tragedy of two young lovers caught between feuding families.",
+   "url": "https://bartelltheatre.org/",
+   "image": "",
+   "venue": "Bartell Theatre",
+   "venue_id": "osm:way/265137656",
+   "venue_kind": "venue",
+   "address": "113 East Mifflin Street",
+   "lat": 43.0765271,
+   "lon": -89.3833565,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "a63974920102",
    "title": "It's a Wonderful Life: A New Musical",
    "start": "2026-11-19T19:30-06:00",
@@ -3845,7 +3343,7 @@
    "all_day": false,
    "category": "music",
    "price": null,
-   "description": "Doors 7pm.",
+   "description": "Album listening party. Doors 7pm.",
    "url": "https://gammaray.bar",
    "image": "",
    "venue": "Gamma Ray Bar",
@@ -4333,7 +3831,7 @@
    "all_day": false,
    "category": "trivia",
    "price": null,
-   "description": "Friday night pinball with craft beer.",
+   "description": "Friday night pinball event with craft beer",
    "url": "https://thekickback.bar/",
    "image": "",
    "venue": "The Kickback",
@@ -4356,7 +3854,7 @@
    "all_day": false,
    "category": "trivia",
    "price": null,
-   "description": "Ultimate Super Smash Bros tournament on Switch 2.",
+   "description": "Super Smash Bros Ultimate tournament on Switch 2",
    "url": "https://thekickback.bar/",
    "image": "",
    "venue": "The Kickback",
@@ -4498,7 +3996,7 @@
    "all_day": false,
    "category": "music",
    "price": null,
-   "description": "Album release show. Doors 7pm.",
+   "description": "Gridlock album release show. Doors 7pm.",
    "url": "https://gammaray.bar",
    "image": "",
    "venue": "Gamma Ray Bar",
@@ -4683,7 +4181,7 @@
    "all_day": true,
    "category": "music",
    "price": null,
-   "description": "Performance by Beni Daiko; multiple showtimes, times not listed on the page.",
+   "description": "Performance listed with multiple showtimes at Overture Center.",
    "url": "http://overturecenter.com",
    "image": "",
    "venue": "Overture Center for the Arts",
@@ -4908,13 +4406,13 @@
   },
   {
    "id": "fc89eaa9822c",
-   "title": "Saturday Scene Study showcase",
+   "title": "Saturday Scene Study Showcase",
    "start": "2026-11-21T12:00-06:00",
    "end": null,
    "all_day": false,
    "category": "theater",
    "price": null,
-   "description": "Ticketed showcase concluding the six-week Saturday Scene Study class, on the Evjue Stage.",
+   "description": "Ticketed showcase on the Evjue Stage concluding the six-week Saturday Scene Study class with volunteer actors.",
    "url": "https://bartelltheatre.org/",
    "image": "",
    "venue": "Bartell Theatre",
@@ -5256,6 +4754,29 @@
    "source": "scraped",
    "sources": [
     "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "d89f6104d8ad",
+   "title": "New Wave Ren Faire ft. Educational Davis // Lavish Waste // Poison Widow // Yakuza Jacuzzi",
+   "start": "2026-11-21T19:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "music",
+   "price": null,
+   "description": "Show at 7pm, doors 6pm.",
+   "url": "https://gammaray.bar",
+   "image": "",
+   "venue": "Gamma Ray Bar",
+   "venue_id": "osm:node/12156142686",
+   "venue_kind": "bar",
+   "address": "121 West Main Street",
+   "lat": 43.072436,
+   "lon": -89.3848247,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
    ],
    "link_ok": true
   },
@@ -5876,7 +5397,7 @@
    "all_day": false,
    "category": "other",
    "price": null,
-   "description": "Pop-up visit from the WanderLust Mobile Bookstore.",
+   "description": "Pop-up visit from the WanderLust Mobile Bookstore",
    "url": "https://thekickback.bar/",
    "image": "",
    "venue": "The Kickback",
@@ -5899,7 +5420,7 @@
    "all_day": false,
    "category": "other",
    "price": null,
-   "description": "Fundraiser for Fetch WI Rescue on the patio with craft beer.",
+   "description": "Patio dog event fundraiser for Fetch WI Rescue with craft beer",
    "url": "https://thekickback.bar/",
    "image": "",
    "venue": "The Kickback",
@@ -6083,7 +5604,7 @@
    "all_day": false,
    "category": "music",
    "price": null,
-   "description": "Doors 6pm.",
+   "description": "Show at 7pm, doors 6pm.",
    "url": "https://gammaray.bar",
    "image": "",
    "venue": "Gamma Ray Bar",
@@ -6191,6 +5712,29 @@
    "city": "Madison",
    "sources": [
     "Isthmus"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "2c8aa8651790",
+   "title": "Monday Madness",
+   "start": "2026-11-23T00:00-06:00",
+   "end": null,
+   "all_day": true,
+   "category": "food",
+   "price": null,
+   "description": "Discounted token pricing and special deals every Monday.",
+   "url": "https://www.aftershockclassicarcade.com/",
+   "image": "",
+   "venue": "Aftershock Classic Arcade",
+   "venue_id": "osm:node/6431684446",
+   "venue_kind": "bar",
+   "address": "1444 East Washington Avenue",
+   "lat": 43.0897796,
+   "lon": -89.3632278,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
    ],
    "link_ok": true
   },
@@ -6445,7 +5989,7 @@
    "all_day": false,
    "category": "music",
    "price": null,
-   "description": "Doors 7pm.",
+   "description": "Show at 8pm, doors 7pm.",
    "url": "https://gammaray.bar",
    "image": "",
    "venue": "Gamma Ray Bar",
@@ -6578,6 +6122,29 @@
    "link_ok": null
   },
   {
+   "id": "57ef9eb445a7",
+   "title": "Zumba",
+   "start": "2026-11-24T18:00-06:00",
+   "end": "2026-11-24T19:00-06:00",
+   "all_day": false,
+   "category": "dance",
+   "price": null,
+   "description": "Join us for a high-energy Zumba class, where you can dance, sweat, and have fun while getting fit with a great group of people! Pre-registration is not required.",
+   "url": "https://bayviewfoundation.org/event/zumba/2026-11-24/",
+   "image": "https://bayviewfoundation.org/wp-content/uploads/2024/12/health-wellness.png",
+   "venue": "Bayview Community Center",
+   "venue_id": "osm:way/1323648187",
+   "venue_kind": "community",
+   "address": "103 La Mariposa Lane",
+   "lat": 43.0663858,
+   "lon": -89.3975076,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "0367e125eec0",
    "title": "Open Mic w/ Martin Hunt",
    "start": "2026-11-24T18:00-06:00",
@@ -6701,7 +6268,7 @@
    "all_day": false,
    "category": "trivia",
    "price": null,
-   "description": "Tuesday trivia night.",
+   "description": "Tuesday Trivia at The Kickback",
    "url": "https://thekickback.bar/",
    "image": "",
    "venue": "The Kickback",
@@ -7278,7 +6845,7 @@
    "all_day": true,
    "category": "music",
    "price": null,
-   "description": "Performance by Cash Box Kings; multiple showtimes, times not listed on the page.",
+   "description": "Performance listed with multiple showtimes at Overture Center.",
    "url": "http://overturecenter.com",
    "image": "",
    "venue": "Overture Center for the Arts",
@@ -7440,7 +7007,7 @@
    "all_day": false,
    "category": "trivia",
    "price": null,
-   "description": "Friday night pinball with craft beer.",
+   "description": "Friday night pinball event with craft beer",
    "url": "https://thekickback.bar/",
    "image": "",
    "venue": "The Kickback",
@@ -7549,6 +7116,29 @@
    "link_ok": true
   },
   {
+   "id": "489fba09707d",
+   "title": "Mark Hayward",
+   "start": "2026-11-28T00:00-06:00",
+   "end": null,
+   "all_day": true,
+   "category": "music",
+   "price": null,
+   "description": "Performance listed with multiple showtimes at Overture Center.",
+   "url": "http://overturecenter.com",
+   "image": "",
+   "venue": "Overture Center for the Arts",
+   "venue_id": "osm:way/98799451",
+   "venue_kind": "venue",
+   "address": "201 State Street",
+   "lat": 43.0741518,
+   "lon": -89.3885839,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "ab8fed030634",
    "title": "Cool School",
    "start": "2026-11-28T10:00-06:00",
@@ -7642,6 +7232,29 @@
    "link_ok": true
   },
   {
+   "id": "460918954cda",
+   "title": "The Pigeon Gets A Big Time Holiday Extravaganza",
+   "start": "2026-11-28T13:00-06:00",
+   "end": "2026-11-28T14:30-06:00",
+   "all_day": false,
+   "category": "theater",
+   "price": null,
+   "description": "",
+   "url": "https://ctmtheater.org/event/pigeon-holiday-2026-1/",
+   "image": "",
+   "venue": "Children's Theater of Madison",
+   "venue_id": "osm:node/10833984405",
+   "venue_kind": "venue",
+   "address": "",
+   "lat": 43.0853024,
+   "lon": -89.3708699,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "cd15393d080d",
    "title": "Maybe Happy Ending (Touring)",
    "start": "2026-11-28T14:00-06:00",
@@ -7709,6 +7322,29 @@
     "Ticketmaster"
    ],
    "link_ok": null
+  },
+  {
+   "id": "5bf56d813a41",
+   "title": "The Pigeon Gets A Big Time Holiday Extravaganza",
+   "start": "2026-11-28T16:00-06:00",
+   "end": "2026-11-28T17:30-06:00",
+   "all_day": false,
+   "category": "theater",
+   "price": null,
+   "description": "",
+   "url": "https://ctmtheater.org/event/pigeon-holiday-2026-2/",
+   "image": "",
+   "venue": "Children's Theater of Madison",
+   "venue_id": "osm:node/10833984405",
+   "venue_kind": "venue",
+   "address": "",
+   "lat": 43.0853024,
+   "lon": -89.3708699,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
   },
   {
    "id": "87398eafa7c1",
@@ -7957,6 +7593,167 @@
    "address": "1817 East Washington Avenue",
    "lat": 43.0907077,
    "lon": -89.3608921,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "c5c5036a80a3",
+   "title": "Maybe Happy Ending (Touring)",
+   "start": "2026-11-29T13:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "theater",
+   "price": null,
+   "description": "Theatre / Musical",
+   "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x_7d",
+   "image": "https://s1.ticketm.net/dam/a/08c/d1e24c70-f2ba-4047-a393-788cdd21c08c_RETINA_PORTRAIT_16_9.jpg",
+   "venue": "Capitol Theater - Overture Center",
+   "venue_id": "tm:ZFr9jZ7AFd",
+   "venue_kind": "venue",
+   "address": "201 State Street",
+   "lat": 43.079498,
+   "lon": -89.377602,
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster"
+   ],
+   "link_ok": null
+  },
+  {
+   "id": "fdf05aee73b8",
+   "title": "The Pigeon Gets A Big Time Holiday Extravaganza",
+   "start": "2026-11-29T13:00-06:00",
+   "end": "2026-11-29T14:30-06:00",
+   "all_day": false,
+   "category": "theater",
+   "price": null,
+   "description": "",
+   "url": "https://ctmtheater.org/event/the-pigeon-gets-a-big-time-holiday-extravaganza/",
+   "image": "",
+   "venue": "Children's Theater of Madison",
+   "venue_id": "osm:node/10833984405",
+   "venue_kind": "venue",
+   "address": "",
+   "lat": 43.0853024,
+   "lon": -89.3708699,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "69f941176fee",
+   "title": "Wisconsin Badgers Womens Hockey vs. Union College Garnet Chargers Women's Hockey",
+   "start": "2026-11-29T13:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "sports",
+   "price": null,
+   "description": "Miscellaneous / Miscellaneous",
+   "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtfe",
+   "image": "https://s1.ticketm.net/dam/a/339/3081c303-a0d2-4c69-a32a-467124cd3339_RETINA_PORTRAIT_16_9.jpg",
+   "venue": "LaBahn Arena",
+   "venue_id": "tm:Z7r9jZadmV",
+   "venue_kind": "venue",
+   "address": "105 East Campus Mall",
+   "lat": 43.060699,
+   "lon": -89.3992,
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster"
+   ],
+   "link_ok": null
+  },
+  {
+   "id": "01d55fce65ff",
+   "title": "The Pigeon Gets A Big Time Holiday Extravaganza",
+   "start": "2026-11-29T16:00-06:00",
+   "end": "2026-11-29T17:30-06:00",
+   "all_day": false,
+   "category": "theater",
+   "price": null,
+   "description": "",
+   "url": "https://ctmtheater.org/event/the-pigeon-gets-a-big-time-holiday-extravaganza-2/",
+   "image": "",
+   "venue": "Children's Theater of Madison",
+   "venue_id": "osm:node/10833984405",
+   "venue_kind": "venue",
+   "address": "",
+   "lat": 43.0853024,
+   "lon": -89.3708699,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "623978962125",
+   "title": "Wisconsin Badgers Hockey vs. Canisius Golden Griffins Hockey",
+   "start": "2026-11-29T17:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "sports",
+   "price": null,
+   "description": "Hockey / College",
+   "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAevvJ",
+   "image": "https://s1.ticketm.net/dam/a/267/aed721a8-9e5f-4096-bfac-2e30dc1c7267_RETINA_PORTRAIT_16_9.jpg",
+   "venue": "Kohl Center",
+   "venue_id": "tm:Z6r9jZaaee",
+   "venue_kind": "venue",
+   "address": "601 W. Dayton St.",
+   "lat": 43.016399,
+   "lon": -89.420097,
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster"
+   ],
+   "link_ok": null
+  },
+  {
+   "id": "b6ca0879e51d",
+   "title": "Maybe Happy Ending (Touring)",
+   "start": "2026-11-29T18:30-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "theater",
+   "price": null,
+   "description": "Theatre / Musical",
+   "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Z-o",
+   "image": "https://s1.ticketm.net/dam/a/08c/d1e24c70-f2ba-4047-a393-788cdd21c08c_RETINA_PORTRAIT_16_9.jpg",
+   "venue": "Capitol Theater - Overture Center",
+   "venue_id": "tm:ZFr9jZ7AFd",
+   "venue_kind": "venue",
+   "address": "201 State Street",
+   "lat": 43.079498,
+   "lon": -89.377602,
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster"
+   ],
+   "link_ok": null
+  },
+  {
+   "id": "20ec0b9e6c74",
+   "title": "Karaoke Sunday Night",
+   "start": "2026-11-29T19:00-06:00",
+   "end": "2026-11-29T22:00-06:00",
+   "all_day": false,
+   "category": "karaoke",
+   "price": 0.0,
+   "description": "Sunday nights are for…KARAOKE! Stop through and sing your heart out for free on stage from 7PM to 10PM. Karaoke by Stankaraoke!",
+   "url": "https://www.fullmilebeercompany.com/events/2026/11/29-karaoke",
+   "image": "https://images.squarespace-cdn.com/content/v1/5550e9f7e4b0f794fc68c1bf/1773433244547-5QO38AFFEC5VN0SL0TOF/WEB_KARAOKE_SUNDAY_BANNER_020126.jpg",
+   "venue": "Full Mile Beer Company & Kitchen",
+   "venue_id": "osm:way/754652382",
+   "venue_kind": "brewery",
+   "address": "132 Market Street",
+   "lat": 43.181916,
+   "lon": -89.2114487,
    "source": "scraped",
    "sources": [
     "Venue websites"

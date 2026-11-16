@@ -108,8 +108,8 @@
   "events": []
  },
  "https://gammaray.bar/shows/": {
-  "hash": "a7b7793757ac4db84b78c7d85dfd602d979a71b0",
-  "asked": "2026-11-15T11:42:57-06:00",
+  "hash": "14e2b9f4c189f411aa004ed520f129905b08e894",
+  "asked": "2026-11-15T20:43:51-06:00",
   "on": "2026-11-15",
   "events": [
    {
@@ -118,7 +118,7 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Doors 6pm.",
+    "description": "Show at 7pm, doors 6pm.",
     "category": "music"
    },
    {
@@ -127,7 +127,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Doors 7pm.",
+    "description": "Album listening party. Doors 7pm.",
     "category": "music"
    },
    {
@@ -136,7 +136,16 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Album release show. Doors 7pm.",
+    "description": "Gridlock album release show. Doors 7pm.",
+    "category": "music"
+   },
+   {
+    "title": "New Wave Ren Faire ft. Educational Davis // Lavish Waste // Poison Widow // Yakuza Jacuzzi",
+    "date": "2026-11-21",
+    "start": "19:00",
+    "end": null,
+    "price": null,
+    "description": "Show at 7pm, doors 6pm.",
     "category": "music"
    },
    {
@@ -145,7 +154,7 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Doors 6pm.",
+    "description": "Show at 7pm, doors 6pm.",
     "category": "music"
    },
    {
@@ -154,7 +163,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Doors 7pm.",
+    "description": "Show at 8pm, doors 7pm.",
     "category": "music"
    }
   ]
@@ -1063,26 +1072,17 @@
   "events": []
  },
  "https://thekickback.bar/upcoming-events/": {
-  "hash": "1aa7e01b399d28a44cf9bd57e9f19a7bace6464a",
-  "asked": "2026-11-14T20:39:23-06:00",
-  "on": "2026-11-14",
+  "hash": "2e6058f03ee2dfb5a505f7f5dd7017709571c5af",
+  "asked": "2026-11-15T20:44:10-06:00",
+  "on": "2026-11-15",
   "events": [
-   {
-    "title": "Meat Raffle at The Kickback",
-    "date": "2026-11-15",
-    "start": "13:00",
-    "end": null,
-    "price": null,
-    "description": "Meat raffle with Fetch WI Rescue, Jenny St Market, New Belgium Brewing; prizes.",
-    "category": "other"
-   },
    {
     "title": "Premier Trivia Tuesday!",
     "date": "2026-11-17",
     "start": "18:30",
     "end": null,
     "price": null,
-    "description": "Tuesday trivia night.",
+    "description": "Tuesday Trivia at The Kickback",
     "category": "trivia"
    },
    {
@@ -1091,7 +1091,7 @@
     "start": "18:30",
     "end": null,
     "price": null,
-    "description": "Craft beer pinball league night with Big Grove Brewery and New Glarus.",
+    "description": "Craft beer pinball league night featuring New Glarus at Big Grove Brewery",
     "category": "other"
    },
    {
@@ -1100,7 +1100,7 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Friday night pinball with craft beer.",
+    "description": "Friday night pinball event with craft beer",
     "category": "other"
    },
    {
@@ -1109,7 +1109,7 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Ultimate Super Smash Bros tournament on Switch 2.",
+    "description": "Super Smash Bros Ultimate tournament on Switch 2",
     "category": "other"
    },
    {
@@ -1118,7 +1118,7 @@
     "start": "15:00",
     "end": null,
     "price": null,
-    "description": "Pop-up visit from the WanderLust Mobile Bookstore.",
+    "description": "Pop-up visit from the WanderLust Mobile Bookstore",
     "category": "other"
    },
    {
@@ -1127,7 +1127,7 @@
     "start": "15:00",
     "end": null,
     "price": null,
-    "description": "Fundraiser for Fetch WI Rescue on the patio with craft beer.",
+    "description": "Patio dog event fundraiser for Fetch WI Rescue with craft beer",
     "category": "other"
    },
    {
@@ -1136,7 +1136,7 @@
     "start": "18:30",
     "end": null,
     "price": null,
-    "description": "Tuesday trivia night.",
+    "description": "Tuesday Trivia at The Kickback",
     "category": "trivia"
    },
    {
@@ -1145,7 +1145,7 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Friday night pinball with craft beer.",
+    "description": "Friday night pinball event with craft beer",
     "category": "other"
    }
   ]
@@ -1322,9 +1322,9 @@
   ]
  },
  "https://merciescoffeewi.com/": {
-  "hash": "8b6b5a5ff80e1ff93e1777860f05422bd07361ef",
-  "asked": "2026-11-14T20:39:41-06:00",
-  "on": "2026-11-14",
+  "hash": "ed01a97b9182d9a256740022c35d4e9e4ee2025c",
+  "asked": "2026-11-15T20:44:19-06:00",
+  "on": "2026-11-15",
   "events": []
  },
  "https://motherfools.com/event/20261106/mad-city-story-slam-rebellion": {
@@ -1636,28 +1636,10 @@
   "events": []
  },
  "https://www.sunprairiepubliclibrary.org/home-delivery-service": {
-  "hash": "fe2a760911ccfbf026df22e027370f4bb0447eb5",
-  "asked": "2026-11-14T20:40:11-06:00",
-  "on": "2026-11-14",
+  "hash": "a76e357dcb7bb5e2ff1934584b49e7eb78e6d1ff",
+  "asked": "2026-11-15T20:44:51-06:00",
+  "on": "2026-11-15",
   "events": [
-   {
-    "title": "Falling for Art: Leaf Collages with guest artist Brooke Baum",
-    "date": "2026-11-15",
-    "start": "14:00",
-    "end": "16:00",
-    "price": null,
-    "description": "Leaf collage art program with guest artist Brooke Baum. Ages: family, children 0-8, teens, adults.",
-    "category": "other"
-   },
-   {
-    "title": "Teen Anime Club",
-    "date": "2026-11-15",
-    "start": "14:00",
-    "end": "16:30",
-    "price": null,
-    "description": "Anime club for teens at Sun Prairie Public Library.",
-    "category": "other"
-   },
    {
     "title": "Puppet Theatre Storytime",
     "date": "2026-11-17",
@@ -1682,8 +1664,26 @@
     "start": "16:00",
     "end": "18:00",
     "price": null,
-    "description": "Creativity club for teens at Sun Prairie Public Library.",
+    "description": "Creativity club for teens.",
     "category": "other"
+   },
+   {
+    "title": "Evening Book Club",
+    "date": "2026-11-17",
+    "start": "19:00",
+    "end": "20:00",
+    "price": null,
+    "description": "Adult evening book club.",
+    "category": "other"
+   },
+   {
+    "title": "The Nutcracker Storytime with Madison Ballet",
+    "date": "2026-11-18",
+    "start": "10:00",
+    "end": "10:45",
+    "price": null,
+    "description": "Nutcracker storytime with Madison Ballet for family and children ages 0-12.",
+    "category": "dance"
    }
   ]
  },
@@ -1811,19 +1811,10 @@
   ]
  },
  "https://bartelltheatre.org/": {
-  "hash": "f0d4cd5a3c667ef04debf104aee8ee3d5d4463f6",
-  "asked": "2026-11-15T11:44:07-06:00",
+  "hash": "3a212be7b663f2e7e651a473170e0419fc55abe7",
+  "asked": "2026-11-15T20:44:57-06:00",
   "on": "2026-11-15",
   "events": [
-   {
-    "title": "Romeo and Juliet",
-    "date": "2026-11-15",
-    "start": "14:00",
-    "end": null,
-    "price": null,
-    "description": "Now playing at Bartell Theatre; tickets required.",
-    "category": "theater"
-   },
    {
     "title": "A Valentine's Affair 2027 Auditions (last audition)",
     "date": "2026-11-15",
@@ -1831,15 +1822,24 @@
     "end": null,
     "price": null,
     "description": "Final audition for A Valentine's Affair 2027.",
-    "category": "other"
+    "category": "theater"
    },
    {
-    "title": "Saturday Scene Study showcase",
+    "title": "Romeo and Juliet",
+    "date": "2026-11-19",
+    "start": "19:30",
+    "end": null,
+    "price": null,
+    "description": "Bartell Theatre production of Shakespeare's tragedy of two young lovers caught between feuding families.",
+    "category": "theater"
+   },
+   {
+    "title": "Saturday Scene Study Showcase",
     "date": "2026-11-21",
     "start": "12:00",
     "end": null,
     "price": null,
-    "description": "Ticketed showcase concluding the six-week Saturday Scene Study class, on the Evjue Stage.",
+    "description": "Ticketed showcase on the Evjue Stage concluding the six-week Saturday Scene Study class with volunteer actors.",
     "category": "theater"
    }
   ]
@@ -1891,26 +1891,17 @@
   ]
  },
  "https://www.overture.org/tickets-events/": {
-  "hash": "0b697b9dd9b98f1922e06cc38c974a233a7bc909",
-  "asked": "2026-11-14T20:40:28-06:00",
-  "on": "2026-11-14",
+  "hash": "b12505ea884f6e46db69bde1653bde244a320757",
+  "asked": "2026-11-15T20:45:04-06:00",
+  "on": "2026-11-15",
   "events": [
-   {
-    "title": "Artists' Talk and Reception: Beneath the Fields & Foundation",
-    "date": "2026-11-15",
-    "start": "15:00",
-    "end": null,
-    "price": null,
-    "description": "Artists' talk and reception at Overture Center.",
-    "category": "other"
-   },
    {
     "title": "Beni Daiko",
     "date": "2026-11-21",
     "start": null,
     "end": null,
     "price": null,
-    "description": "Performance by Beni Daiko; multiple showtimes, times not listed on the page.",
+    "description": "Performance listed with multiple showtimes at Overture Center.",
     "category": "music"
    },
    {
@@ -1919,7 +1910,16 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Performance by Cash Box Kings; multiple showtimes, times not listed on the page.",
+    "description": "Performance listed with multiple showtimes at Overture Center.",
+    "category": "music"
+   },
+   {
+    "title": "Mark Hayward",
+    "date": "2026-11-28",
+    "start": null,
+    "end": null,
+    "price": null,
+    "description": "Performance listed with multiple showtimes at Overture Center.",
     "category": "music"
    }
   ]
@@ -2060,10 +2060,20 @@
   "events": []
  },
  "https://high-noon.com/event/dogpark/": {
-  "hash": "1083c7eaa2172d2a94748f22324e487101180875",
-  "asked": "2026-11-15T11:43:01-06:00",
+  "hash": "e472497a3ebc4dced9618ccd15e42fd6a7ccdc4c",
+  "asked": "2026-11-15T20:43:54-06:00",
   "on": "2026-11-15",
-  "events": []
+  "events": [
+   {
+    "title": "Left Lane Cruiser, 20 Watt Tombstone & Electromag",
+    "date": "2026-11-20",
+    "start": "20:00",
+    "end": "22:00",
+    "price": null,
+    "description": "Doors 7:00 pm, show 8:00 pm at High Noon Saloon. Listed under related events on the Dogpark page.",
+    "category": "music"
+   }
+  ]
  },
  "https://thekickback.bar/premier-trivia-tuesday-nov-3/": {
   "hash": "25992f3a707c36f4ebbe1a9a479acec37b4b7959",
@@ -2210,28 +2220,10 @@
   ]
  },
  "https://www.sunprairiepubliclibrary.org/art-committee-and-gallery-shows": {
-  "hash": "b60fb4a3467637f3535c728fa749d3b1cd31bb1e",
-  "asked": "2026-11-14T20:40:14-06:00",
-  "on": "2026-11-14",
+  "hash": "f4c085518a19941bf983b5cbb49c0bd9462a1422",
+  "asked": "2026-11-15T20:44:56-06:00",
+  "on": "2026-11-15",
   "events": [
-   {
-    "title": "Falling for Art: Leaf Collages with guest artist Brooke Baum",
-    "date": "2026-11-15",
-    "start": "14:00",
-    "end": "16:00",
-    "price": null,
-    "description": "Leaf collage art session with guest artist Brooke Baum. Ages: family, children, teens, adults.",
-    "category": "other"
-   },
-   {
-    "title": "Teen Anime Club",
-    "date": "2026-11-15",
-    "start": "14:00",
-    "end": "16:30",
-    "price": null,
-    "description": "Anime club for teens at Sun Prairie Public Library.",
-    "category": "other"
-   },
    {
     "title": "Puppet Theatre Storytime",
     "date": "2026-11-17",
@@ -2256,8 +2248,26 @@
     "start": "16:00",
     "end": "18:00",
     "price": null,
-    "description": "Creativity club for teens at Sun Prairie Public Library.",
+    "description": "Creativity club for teens.",
     "category": "other"
+   },
+   {
+    "title": "Evening Book Club",
+    "date": "2026-11-17",
+    "start": "19:00",
+    "end": "20:00",
+    "price": null,
+    "description": "Evening book club for adults.",
+    "category": "other"
+   },
+   {
+    "title": "The Nutcracker Storytime with Madison Ballet",
+    "date": "2026-11-18",
+    "start": "10:00",
+    "end": "10:45",
+    "price": null,
+    "description": "Nutcracker storytime with Madison Ballet for family and children ages 0-12.",
+    "category": "dance"
    }
   ]
  },

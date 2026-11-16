@@ -3084,35 +3084,20 @@
   "why": "",
   "checked": "2026-11-13T21:16:52.575371-06:00"
  },
- "https://thelonegirl.com/event/sunday-bingo-lone-girl-brewing-2-2/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-08T20:42:14.595736-06:00"
- },
- "https://www.ticketmaster.com/event/Z7r9jZ1AAvt3b": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-08T20:42:14.924512-06:00"
- },
  "https://www.fullmilebeercompany.com/events/2026/11/15-karaoke": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-08T20:42:14.924536-06:00"
- },
- "https://www.ticketmaster.com/event/Z7r9jZ1AAvg8M": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-08T20:42:14.924544-06:00"
+  "checked": "2026-11-15T20:45:08.411259-06:00"
  },
  "https://www.ticketmaster.com/victor-wooten-the-wooten-brothers-madison-wisconsin-11-15-2026/event/070064D4FF1D96DB": {
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-08T20:42:16.626378-06:00"
+  "checked": "2026-11-15T20:45:09.260344-06:00"
  },
  "https://www.ticketmaster.com/almost-monday-madison-wisconsin-11-15-2026/event/070064D29A3449E3": {
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-08T20:42:18.129511-06:00"
+  "checked": "2026-11-15T20:45:11.588201-06:00"
  },
  "https://onesocialmadison.com/event/packers-watch-party-4/": {
   "ok": true,
@@ -3344,11 +3329,6 @@
   "why": "",
   "checked": "2026-11-13T12:33:55.249137-06:00"
  },
- "https://www.workingdraftbeer.com/events/2026/11/15/show-willy-street-some-love": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-13T21:15:54.386082-06:00"
- },
  "https://barrymorelive.com/event/flannel-fest-2/": {
   "ok": true,
   "why": "",
@@ -3477,47 +3457,47 @@
  "https://www.karben4.com/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-08T20:42:18.129541-06:00"
+  "checked": "2026-11-15T20:45:11.588240-06:00"
  },
  "https://www.ticketmaster.com/event/Z7r9jZ1AA7eow": {
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-08T20:42:19.242417-06:00"
+  "checked": "2026-11-15T20:45:11.588246-06:00"
  },
  "https://www.ticketmaster.com/event/Z7r9jZ1AAvtfZ": {
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-08T20:42:21.250438-06:00"
+  "checked": "2026-11-15T20:45:11.588251-06:00"
  },
  "https://www.workingdraftbeer.com/events/2026/11/29/meat-raffle-sunday-nov-29th": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-08T20:42:21.250464-06:00"
+  "checked": "2026-11-15T20:45:11.588256-06:00"
  },
  "https://thelonegirl.com/event/meat-raffle-126-2/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-08T20:42:21.250472-06:00"
+  "checked": "2026-11-15T20:45:11.588261-06:00"
  },
  "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-madison-wisconsin-11-22-2026/event/070064EE89E21E1C": {
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-08T20:42:22.393555-06:00"
+  "checked": "2026-11-15T20:45:12.765575-06:00"
  },
  "https://www.theatwoodmusichall.com/shows/2026-11-22": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-08T20:42:22.393581-06:00"
+  "checked": "2026-11-15T20:45:12.765600-06:00"
  },
  "https://www.ticketmaster.com/the-record-companygive-it-back-to-madison-wisconsin-11-22-2026/event/070064CBBE2353FE": {
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-08T20:42:23.559569-06:00"
+  "checked": "2026-11-15T20:45:13.924676-06:00"
  },
  "https://www.ticketmaster.com/the-gringos-madison-wisconsin-11-22-2026/event/070064D7FDF08815": {
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-08T20:42:25.020235-06:00"
+  "checked": "2026-11-15T20:45:15.083316-06:00"
  },
  "https://www.veronawi.gov/941/Community-Center": {
   "ok": true,
@@ -3744,11 +3724,6 @@
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
   "checked": "2026-11-14T20:40:52.010279-06:00"
  },
- "https://statestreetbrats.com/event/hawks-bucks-20261115/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-15T11:44:38.439755-06:00"
- },
  "https://www.mickeysmadison.com/": {
   "ok": true,
   "why": "",
@@ -3773,5 +3748,65 @@
   "ok": true,
   "why": "",
   "checked": "2026-11-15T11:44:40.639252-06:00"
+ },
+ "https://bayviewfoundation.org/event/zumba/2026-11-17/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-15T20:45:11.588226-06:00"
+ },
+ "https://statestreetbrats.com/event/northwestern-wisconsin-20261117/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-15T20:45:11.588234-06:00"
+ },
+ "https://bayviewfoundation.org/event/zumba/2026-11-24/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-15T20:45:15.083342-06:00"
+ },
+ "https://ctmtheater.org/event/pigeon-holiday-2026-1/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-15T20:45:15.083349-06:00"
+ },
+ "https://ctmtheater.org/event/pigeon-holiday-2026-2/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-15T20:45:15.083354-06:00"
+ },
+ "https://www.ticketmaster.com/event/Z7r9jZ1A7x_7d": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-11-15T20:45:16.232507-06:00"
+ },
+ "https://ctmtheater.org/event/the-pigeon-gets-a-big-time-holiday-extravaganza/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-15T20:45:16.232531-06:00"
+ },
+ "https://www.ticketmaster.com/event/Z7r9jZ1AAvtfe": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-11-15T20:45:17.367322-06:00"
+ },
+ "https://ctmtheater.org/event/the-pigeon-gets-a-big-time-holiday-extravaganza-2/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-15T20:45:17.367347-06:00"
+ },
+ "https://www.ticketmaster.com/event/Z7r9jZ1AAevvJ": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-11-15T20:45:18.559214-06:00"
+ },
+ "https://www.ticketmaster.com/event/Z7r9jZ1A70Z-o": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-11-15T20:45:19.684580-06:00"
+ },
+ "https://www.fullmilebeercompany.com/events/2026/11/29-karaoke": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-15T20:45:19.684602-06:00"
  }
 }
