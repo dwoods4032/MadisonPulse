@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-11-16T15:04:00-06:00",
- "total_events": 351,
+ "generated_at": "2026-11-16T23:11:40-06:00",
+ "total_events": 354,
  "in_more_than_one_source": 11,
  "sources": {
   "AI page reading": {
-   "events": 124,
-   "unique_events": 115,
+   "events": 129,
+   "unique_events": 120,
    "overlap": {
     "Isthmus": 3,
     "Ticketmaster": 7,
     "Venue websites": 0
    },
-   "venues": 36,
+   "venues": 40,
    "unique_venues": [
     "Aftershock Classic Arcade",
     "Alicia Ashman Library",
@@ -19,7 +19,10 @@
     "Bartell Theatre",
     "Below Deck Concession Stand",
     "Capital Brewery",
+    "Central Library",
+    "Crucible",
     "Doundrins Distilling",
+    "E.D. Locke Public Library",
     "East Side Club",
     "Flight Wine & Bourbon Bar",
     "Gamma Ray Bar",
@@ -41,7 +44,8 @@
     "Verona Community Center",
     "Verona Public Library",
     "Veterans Memorial Park",
-    "Wando's Bar & Grill"
+    "Wando's Bar & Grill",
+    "Waunakee Public Library"
    ]
   },
   "Isthmus": {
@@ -130,21 +134,20 @@
    ]
   },
   "Venue websites": {
-   "events": 61,
-   "unique_events": 60,
+   "events": 59,
+   "unique_events": 58,
    "overlap": {
     "AI page reading": 0,
     "Isthmus": 0,
     "Ticketmaster": 1
    },
-   "venues": 14,
+   "venues": 13,
    "unique_venues": [
     "Atwood Music Hall",
     "Bayview Community Center",
     "Broom Street Theater",
     "Children's Theater of Madison",
     "Comedy Club on State",
-    "E.D. Locke Public Library",
     "Full Mile Beer Company & Kitchen",
     "Gib's Bar",
     "Lone Girl Tap Room And Pizza Company",

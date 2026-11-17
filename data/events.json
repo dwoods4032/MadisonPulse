@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-16T15:04:00-06:00",
+ "generated_at": "2026-11-16T23:11:40-06:00",
  "window": {
-  "from": "2026-11-16T09:01-06:00",
-  "to": "2026-11-30T15:01-06:00"
+  "from": "2026-11-16T17:07-06:00",
+  "to": "2026-11-30T23:07-06:00"
  },
- "count": 351,
+ "count": 354,
  "events": [
   {
    "id": "270e6cb026ee",
@@ -62,7 +62,7 @@
    "all_day": false,
    "category": "trivia",
    "price": null,
-   "description": "Event Description NEW CAMPAIGN STARTS AUGUST 17! Join us the 3rd Monday of the month as we work our way through our next D&D campaign! Players are encouraged to bring personal devices to use D&D Beyond, although paper sheets will be provided if you'd prefer not to use a device. You may bring your ow",
+   "description": "Monthly D&D group for adults in the Library Community Room. Registration is listed as full.",
    "url": "https://www.mcfarlandlibrary.org/home",
    "image": "",
    "venue": "E.D. Locke Public Library",
@@ -71,9 +71,9 @@
    "address": "5920 Milwaukee Street",
    "lat": 43.0136038,
    "lon": -89.2883391,
-   "source": "scraped",
+   "source": "ai",
    "sources": [
-    "Venue websites"
+    "AI page reading"
    ],
    "link_ok": true
   },
@@ -243,52 +243,6 @@
    "source": "scraped",
    "sources": [
     "Venue websites"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "343ced83718d",
-   "title": "Pen Pals Writing Group",
-   "start": "2026-11-16T18:30-06:00",
-   "end": "2026-11-16T20:30-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Writing group at Pinney Library's Community Room A for people working on fiction or other writing projects.",
-   "url": "https://www.madisonpubliclibrary.org/locations/pinney-library",
-   "image": "",
-   "venue": "Pinney Library",
-   "venue_id": "osm:node/7234376294",
-   "venue_kind": "library",
-   "address": "516 Cottage Grove Road",
-   "lat": 43.0841729,
-   "lon": -89.3176486,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "e7b7b714dd29",
-   "title": "Pen Pals Writing Group",
-   "start": "2026-11-16T18:30-06:00",
-   "end": "2026-11-16T20:30-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Writing group at Pinney Library's Community Room A for people working on fiction or other writing projects.",
-   "url": "https://www.madisonpubliclibrary.org/sequoya",
-   "image": "",
-   "venue": "Sequoya Library",
-   "venue_id": "osm:node/1473488018",
-   "venue_kind": "library",
-   "address": "4340 Tokay Boulevard",
-   "lat": 43.0537698,
-   "lon": -89.4505289,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
    ],
    "link_ok": true
   },
@@ -487,6 +441,29 @@
     "Isthmus"
    ],
    "link_ok": null
+  },
+  {
+   "id": "d23f0540804f",
+   "title": "SE Louisiana @ Texas A&M",
+   "start": "2026-11-16T19:30-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "",
+   "url": "https://statestreetbrats.com/event/se-louisiana-texas-am-20261116/",
+   "image": "",
+   "venue": "State Street Brats",
+   "venue_id": "osm:way/886357869",
+   "venue_kind": "bar",
+   "address": "603 State Street",
+   "lat": 43.0746889,
+   "lon": -89.395998,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
   },
   {
    "id": "6566481de760",
@@ -984,29 +961,6 @@
    "link_ok": true
   },
   {
-   "id": "4f64e4091569",
-   "title": "Intro to Filmmaking with Nate",
-   "start": "2026-11-17T18:00-06:00",
-   "end": "2026-11-17T19:30-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Introductory filmmaking session with Nate in the Classroom at Imagination Center Library.",
-   "url": "https://www.madisonpubliclibrary.org/locations/imagination-center",
-   "image": "",
-   "venue": "Imagination Center",
-   "venue_id": "osm:way/1562302805",
-   "venue_kind": "library",
-   "address": "1814 Parkside Drive",
-   "lat": 43.1240118,
-   "lon": -89.3168809,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "8e6eaad9237b",
    "title": "North Area Plan",
    "start": "2026-11-17T18:00-06:00",
@@ -1053,29 +1007,6 @@
     "Isthmus"
    ],
    "link_ok": null
-  },
-  {
-   "id": "3059aba9f844",
-   "title": "Intro to Filmmaking with Nate",
-   "start": "2026-11-17T18:00-06:00",
-   "end": "2026-11-17T19:30-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Introductory filmmaking session with Nate in the Classroom at Imagination Center Library.",
-   "url": "https://www.madisonpubliclibrary.org/locations/pinney-library",
-   "image": "",
-   "venue": "Pinney Library",
-   "venue_id": "osm:node/7234376294",
-   "venue_kind": "library",
-   "address": "516 Cottage Grove Road",
-   "lat": 43.0841729,
-   "lon": -89.3176486,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
   },
   {
    "id": "fcc089d2d22a",
@@ -1230,7 +1161,7 @@
    "all_day": false,
    "category": "music",
    "price": 0.0,
-   "description": "Monthly Tuesday bluegrass series hosted by Soggy Prairie, with guest artists Lucky Pickers. No cover.",
+   "description": "Monthly Tuesday bluegrass series hosted by Soggy Prairie, with a set from guest artists Lucky Pickers. No cover.",
    "url": "https://www.harmonybarandgrill.com/",
    "image": "",
    "venue": "Harmony Bar & Grill",
@@ -1436,6 +1367,29 @@
    "link_ok": null
   },
   {
+   "id": "dc8b405cafbf",
+   "title": "Books in the Overlook",
+   "start": "2026-11-17T18:30-06:00",
+   "end": "2026-11-17T19:45-06:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Adult book club discussion in the Overlook.",
+   "url": "https://www.waunakeepubliclibrary.org/",
+   "image": "",
+   "venue": "Waunakee Public Library",
+   "venue_id": "osm:way/708130272",
+   "venue_kind": "library",
+   "address": "201 North Madison Street",
+   "lat": 43.1940495,
+   "lon": -89.450474,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "9fee8c49d219",
    "title": "Bingo",
    "start": "2026-11-17T18:30-06:00",
@@ -1614,7 +1568,7 @@
    "all_day": false,
    "category": "open_mic",
    "price": null,
-   "description": "Mixed mic night. The page lists it under Tuesday November 17 but describes it as every first Tuesday of the month, so the date may need checking.",
+   "description": "Mixed mic, listed as every first Tuesday of the month.",
    "url": "https://www.harmonybarandgrill.com/",
    "image": "",
    "venue": "Harmony Bar & Grill",
@@ -2666,52 +2620,6 @@
    "link_ok": null
   },
   {
-   "id": "cf181caf06ac",
-   "title": "Learn to Grow Native Plants Workshop",
-   "start": "2026-11-18T18:00-06:00",
-   "end": "2026-11-18T19:00-06:00",
-   "all_day": false,
-   "category": "food",
-   "price": null,
-   "description": "Workshop on growing native plants in the Community Room at Imagination Center Library.",
-   "url": "https://www.madisonpubliclibrary.org/locations/imagination-center",
-   "image": "",
-   "venue": "Imagination Center",
-   "venue_id": "osm:way/1562302805",
-   "venue_kind": "library",
-   "address": "1814 Parkside Drive",
-   "lat": 43.1240118,
-   "lon": -89.3168809,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "5ecef9709ca4",
-   "title": "Learn to Grow Native Plants Workshop",
-   "start": "2026-11-18T18:00-06:00",
-   "end": "2026-11-18T19:00-06:00",
-   "all_day": false,
-   "category": "food",
-   "price": null,
-   "description": "Workshop on growing native plants in the Community Room at Imagination Center Library.",
-   "url": "https://www.madisonpubliclibrary.org/locations/pinney-library",
-   "image": "",
-   "venue": "Pinney Library",
-   "venue_id": "osm:node/7234376294",
-   "venue_kind": "library",
-   "address": "516 Cottage Grove Road",
-   "lat": 43.0841729,
-   "lon": -89.3176486,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "ad3ee0f9be12",
    "title": "Bucks @ Heat",
    "start": "2026-11-18T18:00-06:00",
@@ -2735,14 +2643,14 @@
    "link_ok": true
   },
   {
-   "id": "94dae6ebccbd",
-   "title": "Adult Craft Club",
+   "id": "6c67d62e29d1",
+   "title": "Craft Club",
    "start": "2026-11-18T18:30-06:00",
-   "end": "2026-11-18T19:30-06:00",
+   "end": null,
    "all_day": false,
    "category": "other",
    "price": null,
-   "description": "Event Description Come join us for a night of crafting! We'll be making felt quilt garlands. SPACE IS LIMITED, REGISTRATION IS REQUIRED: https://forms.gle/RW385V5rfVgsTKC26 [https://forms.gle/RW385V5rfVgsTKC26]. If you can no longer attend, please contact as soon as possible.",
+   "description": "Monthly craft club in the Library Community Room.",
    "url": "https://www.mcfarlandlibrary.org/home",
    "image": "",
    "venue": "E.D. Locke Public Library",
@@ -2751,9 +2659,9 @@
    "address": "5920 Milwaukee Street",
    "lat": 43.0136038,
    "lon": -89.2883391,
-   "source": "scraped",
+   "source": "ai",
    "sources": [
-    "Venue websites"
+    "AI page reading"
    ],
    "link_ok": true
   },
@@ -2765,7 +2673,7 @@
    "all_day": false,
    "category": "trivia",
    "price": 0.0,
-   "description": "Trivia hosted by Paul, held the 1st and 3rd Wednesday of the month. Free.",
+   "description": "Trivia hosted by Paul. Held the 1st and 3rd Wednesday of the month. Free.",
    "url": "https://www.harmonybarandgrill.com/",
    "image": "",
    "venue": "Harmony Bar & Grill",
@@ -3129,14 +3037,14 @@
    "link_ok": true
   },
   {
-   "id": "9d99a4c34dfa",
-   "title": "Virtual Author Talks with Library Speakers Consortium",
+   "id": "c58dad933549",
+   "title": "Virtual Author Visit: Rebecca Roanhorse",
    "start": "2026-11-19T18:00-06:00",
    "end": "2026-11-19T19:00-06:00",
    "all_day": false,
    "category": "other",
    "price": null,
-   "description": "Event Description We are excited to offer a new virtual program to our patrons! The Library Speakers Consortium hosts virtual author talks over a variety of genres. Each month, there will be at least two talks available for you to attend. Register for each talk, submit questions for the Q&A, and per",
+   "description": "Virtual talk with bestselling author Rebecca Roanhorse on her Between Earth and Sky trilogy.",
    "url": "https://www.mcfarlandlibrary.org/home",
    "image": "",
    "venue": "E.D. Locke Public Library",
@@ -3145,9 +3053,9 @@
    "address": "5920 Milwaukee Street",
    "lat": 43.0136038,
    "lon": -89.2883391,
-   "source": "scraped",
+   "source": "ai",
    "sources": [
-    "Venue websites"
+    "AI page reading"
    ],
    "link_ok": true
   },
@@ -3205,7 +3113,7 @@
    "all_day": false,
    "category": "music",
    "price": 0.0,
-   "description": "Season 2, Episode 2 of the round-robin songwriters' showcase, emceed by JT Spartz, featuring Annie Emmenegger, Jason Edward and JT Spartz. No cover.",
+   "description": "Season 2, Episode 2 of the round-robin songwriters' showcase hosted by JT Spartz, featuring Annie Emmenegger, Jason Edward and JT Spartz. No cover.",
    "url": "https://www.harmonybarandgrill.com/",
    "image": "",
    "venue": "Harmony Bar & Grill",
@@ -3312,6 +3220,29 @@
    "source": "scraped",
    "sources": [
     "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "2fd1b701ff34",
+   "title": "Words with Nerds",
+   "start": "2026-11-19T19:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "comedy",
+   "price": 15.0,
+   "description": "TED Talks mixed with stand-up and nerdy burlesque. Presenters include Andrew Brunner, Will Isenberg, and Neimo Cristal; hosted by Andrew Rynning. Doors 6:30pm. $15 advance, $20 at the door, $10 cash with student ID.",
+   "url": "https://www.cruciblemadison.com/",
+   "image": "",
+   "venue": "Crucible",
+   "venue_id": "osm:node/6519071395",
+   "venue_kind": "bar",
+   "address": "3116 Commercial Avenue",
+   "lat": 43.1071484,
+   "lon": -89.3359941,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
    ],
    "link_ok": true
   },
@@ -3942,14 +3873,14 @@
    "link_ok": true
   },
   {
-   "id": "8cde6fe81a4a",
-   "title": "Gridlock Album Release // Totally Cashed // M545 // A Casual Ruckus // Party Vultures",
+   "id": "f6ec4be9782c",
+   "title": "Gridlock Album Release with Totally Cashed, M545, A Casual Ruckus, Party Vultures",
    "start": "2026-11-20T20:00-06:00",
    "end": null,
    "all_day": false,
    "category": "music",
    "price": null,
-   "description": "Gridlock album release show. Doors 7pm.",
+   "description": "Album release show with support from Totally Cashed, M545, A Casual Ruckus and Party Vultures. Doors 7pm.",
    "url": "https://gammaray.bar",
    "image": "",
    "venue": "Gamma Ray Bar",
@@ -4074,6 +4005,29 @@
    "address": "800 West Broadway",
    "lat": 43.0480098,
    "lon": -89.337189,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "869cd4d57bff",
+   "title": "Conversaciones en Español",
+   "start": "2026-11-21T00:00-06:00",
+   "end": null,
+   "all_day": true,
+   "category": "other",
+   "price": null,
+   "description": "Informal one-hour conversation in Spanish for attendees with basic Spanish. Not a teaching class.",
+   "url": "https://www.mcfarlandlibrary.org/home",
+   "image": "",
+   "venue": "E.D. Locke Public Library",
+   "venue_id": "osm:way/386578862",
+   "venue_kind": "library",
+   "address": "5920 Milwaukee Street",
+   "lat": 43.0136038,
+   "lon": -89.2883391,
    "source": "ai",
    "sources": [
     "AI page reading"
@@ -4289,29 +4243,6 @@
    "link_ok": true
   },
   {
-   "id": "f5e804d8311f",
-   "title": "Conversaciones en Espanol",
-   "start": "2026-11-21T11:00-06:00",
-   "end": "2026-11-21T12:00-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Event Description Join us the first and third Saturdays of the month for an hour-long informal conversation in Spanish. Each meeting will have a number of suggested topics to discuss and attendees should have at least a basic ability to carry out simple conversations in Spanish. This is not a teachi",
-   "url": "https://www.mcfarlandlibrary.org/home",
-   "image": "",
-   "venue": "E.D. Locke Public Library",
-   "venue_id": "osm:way/386578862",
-   "venue_kind": "library",
-   "address": "5920 Milwaukee Street",
-   "lat": 43.0136038,
-   "lon": -89.2883391,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "60816ffbb580",
    "title": "Music Con Brio: Caravan performing Modal Jazz",
    "start": "2026-11-21T11:30-06:00",
@@ -4429,6 +4360,52 @@
    "link_ok": true
   },
   {
+   "id": "83b4b38a974c",
+   "title": "Beginning Cross-Stitch",
+   "start": "2026-11-21T14:00-06:00",
+   "end": "2026-11-21T15:30-06:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Beginning cross-stitch class in the Meeting Room.",
+   "url": "https://www.madisonpubliclibrary.org/central",
+   "image": "",
+   "venue": "Central Library",
+   "venue_id": "osm:way/102316433",
+   "venue_kind": "library",
+   "address": "201 West Mifflin Street",
+   "lat": 43.0736214,
+   "lon": -89.3875186,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "bbddb7e895a8",
+   "title": "Beginning Cross-Stitch",
+   "start": "2026-11-21T14:00-06:00",
+   "end": "2026-11-21T15:30-06:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Beginning cross-stitch class in the Meeting Room.",
+   "url": "https://www.madisonpubliclibrary.org/locations/imagination-center",
+   "image": "",
+   "venue": "Imagination Center",
+   "venue_id": "osm:way/1562302805",
+   "venue_kind": "library",
+   "address": "1814 Parkside Drive",
+   "lat": 43.1240118,
+   "lon": -89.3168809,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "a1b1fbab81ac",
    "title": "Wisconsin Badgers Womens Hockey vs. Bemidji State Beavers Womens Hockey",
    "start": "2026-11-21T14:00-06:00",
@@ -4468,6 +4445,52 @@
    "address": "1705 Monroe Street",
    "lat": 43.0659388,
    "lon": -89.4152059,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "5fc24b640dae",
+   "title": "Beginning Cross-Stitch",
+   "start": "2026-11-21T14:00-06:00",
+   "end": "2026-11-21T15:30-06:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Beginning cross-stitch class in the Meeting Room.",
+   "url": "https://www.madisonpubliclibrary.org/locations/pinney-library",
+   "image": "",
+   "venue": "Pinney Library",
+   "venue_id": "osm:node/7234376294",
+   "venue_kind": "library",
+   "address": "516 Cottage Grove Road",
+   "lat": 43.0841729,
+   "lon": -89.3176486,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "f1c6dea31084",
+   "title": "Beginning Cross-Stitch",
+   "start": "2026-11-21T14:00-06:00",
+   "end": "2026-11-21T15:30-06:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Beginning cross-stitch class in the Meeting Room.",
+   "url": "https://www.madisonpubliclibrary.org/sequoya",
+   "image": "",
+   "venue": "Sequoya Library",
+   "venue_id": "osm:node/1473488018",
+   "venue_kind": "library",
+   "address": "4340 Tokay Boulevard",
+   "lat": 43.0537698,
+   "lon": -89.4505289,
    "source": "ai",
    "sources": [
     "AI page reading"
@@ -4661,14 +4684,14 @@
    "link_ok": true
   },
   {
-   "id": "d89f6104d8ad",
-   "title": "New Wave Ren Faire ft. Educational Davis // Lavish Waste // Poison Widow // Yakuza Jacuzzi",
+   "id": "9bcd83f873cb",
+   "title": "New Wave Ren Faire ft. Educational Davis with Lavish Waste, Poison Widow, Yakuza Jacuzzi",
    "start": "2026-11-21T19:00-06:00",
    "end": null,
    "all_day": false,
    "category": "music",
    "price": null,
-   "description": "Show at 7pm, doors 6pm.",
+   "description": "Show featuring Educational Davis, with Lavish Waste, Poison Widow and Yakuza Jacuzzi. Doors 6pm.",
    "url": "https://gammaray.bar",
    "image": "",
    "venue": "Gamma Ray Bar",
@@ -5194,6 +5217,29 @@
    "link_ok": true
   },
   {
+   "id": "78150dc86627",
+   "title": "The Cajun Strangers",
+   "start": "2026-11-22T16:00-06:00",
+   "end": "2026-11-22T19:30-06:00",
+   "all_day": false,
+   "category": "music",
+   "price": 10.0,
+   "description": "Madison award-winning band playing traditional Cajun dance music. $10 suggested donation.",
+   "url": "https://www.harmonybarandgrill.com/",
+   "image": "",
+   "venue": "Harmony Bar & Grill",
+   "venue_id": "osm:way/345773988",
+   "venue_kind": "bar",
+   "address": "2201 Atwood Avenue",
+   "lat": 43.0930561,
+   "lon": -89.3492054,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "aeadfbb7f3ad",
    "title": "Theo Maynard Pop Up Print Sale",
    "start": "2026-11-22T16:00-06:00",
@@ -5236,29 +5282,6 @@
    "source": "scraped",
    "sources": [
     "Venue websites"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "c5099017b714",
-   "title": "The Cajun Strangers",
-   "start": "2026-11-22T17:00-06:00",
-   "end": "2026-11-22T19:30-06:00",
-   "all_day": false,
-   "category": "music",
-   "price": 10.0,
-   "description": "Madison award-winning band playing traditional Cajun dance music. $10 suggested donation.",
-   "url": "https://www.harmonybarandgrill.com/",
-   "image": "",
-   "venue": "Harmony Bar & Grill",
-   "venue_id": "osm:way/345773988",
-   "venue_kind": "bar",
-   "address": "2201 Atwood Avenue",
-   "lat": 43.0930561,
-   "lon": -89.3492054,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
    ],
    "link_ok": true
   },
@@ -5355,14 +5378,14 @@
    "link_ok": true
   },
   {
-   "id": "8251794a1530",
-   "title": "Clean Plate Club // Becca Murray & The Wildflowers // AuroNova",
+   "id": "25054d53d68d",
+   "title": "Clean Plate Club with Becca Murray & The Wildflowers, AuroNova",
    "start": "2026-11-22T19:00-06:00",
    "end": null,
    "all_day": false,
    "category": "music",
    "price": null,
-   "description": "Show at 7pm, doors 6pm.",
+   "description": "Show with Becca Murray & The Wildflowers and AuroNova. Doors 6pm.",
    "url": "https://gammaray.bar",
    "image": "",
    "venue": "Gamma Ray Bar",
@@ -5674,7 +5697,7 @@
    "all_day": false,
    "category": "music",
    "price": null,
-   "description": "Show at 8pm, doors 7pm.",
+   "description": "Show with Dicot. Doors 7pm.",
    "url": "https://gammaray.bar",
    "image": "",
    "venue": "Gamma Ray Bar",
@@ -5930,7 +5953,7 @@
    "all_day": false,
    "category": "music",
    "price": 0.0,
-   "description": "Bluegrass-inspired band Starr Moss, Trent Cuthbert, Michael Falk, Claire Kannapell and Paul Kienitz; joined this month by a TBD guest. No cover.",
+   "description": "Bluegrass-inspired band Bigtooth, joined this month by a guest to be announced. No cover.",
    "url": "https://www.harmonybarandgrill.com/",
    "image": "",
    "venue": "Harmony Bar & Grill",
@@ -5953,7 +5976,7 @@
    "all_day": false,
    "category": "other",
    "price": null,
-   "description": "Open to members, friends, and anyone who wants to learn or speak some basic Italian.",
+   "description": "Open to members, friends, and anyone who wishes to learn or speak some basic Italian.",
    "url": "https://iwcmadison.com/",
    "image": "",
    "venue": "Italian Workmen's Club",
@@ -6906,7 +6929,7 @@
    "all_day": false,
    "category": "music",
    "price": 15.0,
-   "description": "1980s new wave and synth-pop party band; 10th annual fundraiser for Second Harvest Food Bank. $15 suggested donation.",
+   "description": "1980s new wave and synth-pop party. 10th annual fundraiser for Second Harvest Food Bank, $15 suggested donation.",
    "url": "https://www.harmonybarandgrill.com/",
    "image": "",
    "venue": "Harmony Bar & Grill",
@@ -7921,7 +7944,7 @@
    "all_day": false,
    "category": "music",
    "price": 0.0,
-   "description": "Madison Americana quartet with vocal harmonies, formerly the Grouvin Family String Band. No cover.",
+   "description": "Madison Americana quartet with rich vocal harmonies and roots music. No cover.",
    "url": "https://www.harmonybarandgrill.com/",
    "image": "",
    "venue": "Harmony Bar & Grill",
@@ -8255,6 +8278,52 @@
    "source": "ai",
    "sources": [
     "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "acaeda05918c",
+   "title": "Board Game Speed Dating",
+   "start": "2026-11-30T19:00-06:00",
+   "end": "2026-11-30T21:00-06:00",
+   "all_day": false,
+   "category": "trivia",
+   "price": null,
+   "description": "Board game speed dating event.",
+   "url": "https://www.statelinedistillery.com/",
+   "image": "",
+   "venue": "State Line Distillery",
+   "venue_id": "osm:node/5266700571",
+   "venue_kind": "brewery",
+   "address": "1413 Northern Court",
+   "lat": 43.0875602,
+   "lon": -89.3622099,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "511a47dc782b",
+   "title": "Karaoke Mondays",
+   "start": "2026-11-30T20:00-06:00",
+   "end": "2026-11-30T23:00-06:00",
+   "all_day": false,
+   "category": "karaoke",
+   "price": null,
+   "description": "",
+   "url": "https://www.cafecoda.club/events-1/karaoke-nabjl-22c3f-gw57n-2m79c-a47wx-jblcs-4bcsl-mkd7s-ctsf4-p4hcx-t4n3x-xd9mh-c5tsy-cpczx-w6dsr-tg854-3pze2-858ht",
+   "image": "https://images.squarespace-cdn.com/content/v1/6914abebeed4305fd5ea6ea5/1785343317638-SO41L5V94FHWN7K6ISJ1/Karaoke+Mondays-3.png",
+   "venue": "Cafe CODA",
+   "venue_id": "osm:way/385639191",
+   "venue_kind": "bar",
+   "address": "1224 Williamson Street",
+   "lat": 43.0839938,
+   "lon": -89.3638172,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
    ],
    "link_ok": true
   }

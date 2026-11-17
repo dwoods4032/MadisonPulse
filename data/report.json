@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-16T15:04:00-06:00",
+ "generated_at": "2026-11-16T23:11:40-06:00",
  "venues_checked": 237,
- "venues_with_events": 62,
- "venues_with_feeds": 85,
- "events": 351,
- "filtered_out": 170,
+ "venues_with_events": 66,
+ "venues_with_feeds": 87,
+ "events": 354,
+ "filtered_out": 165,
  "venues": [
   {
    "name": "AI page reading",
@@ -13,12 +13,12 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 161,
+   "raw_events": 192,
    "error": "",
-   "calls": 82,
-   "tokens_in": 140712,
-   "tokens_out": 43039,
-   "est_cost_usd": 0.0356
+   "calls": 21,
+   "tokens_in": 34905,
+   "tokens_out": 11729,
+   "est_cost_usd": 0.0094
   },
   {
    "name": "Isthmus calendar",
@@ -28,7 +28,7 @@
     "calendar"
    ],
    "raw_events": 148,
-   "error": ""
+   "error": "used today's copy (read once a day)"
   },
   {
    "name": "Bayview Community Center",
@@ -80,17 +80,6 @@
    "error": ""
   },
   {
-   "name": "E.D. Locke Public Library",
-   "kind": "library",
-   "website": "https://www.mcfarlandlibrary.org/home",
-   "feeds": [
-    "ical",
-    "ical"
-   ],
-   "raw_events": 32,
-   "error": "ical: ConnectionError: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //www.mcfarlandlibrary.org/calendar/month (Caused by NameResolutionError(\"HTTPSConnection(host='https"
-  },
-  {
    "name": "Working Draft Beer Company",
    "kind": "brewery",
    "website": "https://www.workingdraftbeer.com/",
@@ -125,7 +114,7 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 13,
+   "raw_events": 15,
    "error": ""
   },
   {
@@ -197,6 +186,16 @@
    "error": ""
   },
   {
+   "name": "The Kickback",
+   "kind": "bar",
+   "website": "https://thekickback.bar/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 10,
+   "error": ""
+  },
+  {
    "name": "Bridge Lakepoint Waunona Neighborhood Center",
    "kind": "community",
    "website": "https://www.blwcenter.org/",
@@ -219,14 +218,16 @@
    "error": ""
   },
   {
-   "name": "The Kickback",
-   "kind": "bar",
-   "website": "https://thekickback.bar/",
+   "name": "E.D. Locke Public Library",
+   "kind": "library",
+   "website": "https://www.mcfarlandlibrary.org/home",
    "feeds": [
+    "ical",
+    "ical",
     "ai"
    ],
-   "raw_events": 8,
-   "error": ""
+   "raw_events": 7,
+   "error": "ical: ConnectionError: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //www.mcfarlandlibrary.org/calendar/month (Caused by NameResolutionError(\"HTTPSConnection(host='https"
   },
   {
    "name": "Reindahl Park Pavillion",
@@ -259,9 +260,39 @@
    "error": ""
   },
   {
+   "name": "Central Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/central",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 6,
+   "error": ""
+  },
+  {
    "name": "Crystal Corner Bar",
    "kind": "bar",
    "website": "https://thecrystalcornerbar.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 6,
+   "error": ""
+  },
+  {
+   "name": "Imagination Center",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 6,
+   "error": ""
+  },
+  {
+   "name": "Monroe Street Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/monroe-street",
    "feeds": [
     "ai"
    ],
@@ -279,9 +310,29 @@
    "error": ""
   },
   {
+   "name": "Sequoya Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/sequoya",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 6,
+   "error": ""
+  },
+  {
    "name": "Verona Community Center",
    "kind": "community",
    "website": "https://www.veronawi.gov/941/Community-Center",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 6,
+   "error": ""
+  },
+  {
+   "name": "Waunakee Public Library",
+   "kind": "library",
+   "website": "https://www.waunakeepubliclibrary.org/",
    "feeds": [
     "ai"
    ],
@@ -299,32 +350,22 @@
    "error": ""
   },
   {
-   "name": "Imagination Center",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 5,
-   "error": ""
-  },
-  {
-   "name": "Monroe Street Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/monroe-street",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 5,
-   "error": "ai: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
-  },
-  {
    "name": "One Social Bar",
    "kind": "bar",
    "website": "https://onesocialmadison.com/vendor/one-social-bar/",
    "feeds": [
     "tribe",
     "jsonld"
+   ],
+   "raw_events": 5,
+   "error": ""
+  },
+  {
+   "name": "State Line Distillery",
+   "kind": "brewery",
+   "website": "https://www.statelinedistillery.com/",
+   "feeds": [
+    "ai"
    ],
    "raw_events": 5,
    "error": ""
@@ -360,16 +401,6 @@
    "error": ""
   },
   {
-   "name": "State Line Distillery",
-   "kind": "brewery",
-   "website": "https://www.statelinedistillery.com/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 4,
-   "error": ""
-  },
-  {
    "name": "The Malt House",
    "kind": "bar",
    "website": "http://malthousetavern.com/",
@@ -377,6 +408,17 @@
     "ai"
    ],
    "raw_events": 4,
+   "error": ""
+  },
+  {
+   "name": "Come Back Inn",
+   "kind": "bar",
+   "website": "https://comebackintavern.com/",
+   "feeds": [
+    "tribe",
+    "jsonld"
+   ],
+   "raw_events": 3,
    "error": ""
   },
   {
@@ -545,7 +587,6 @@
    "website": "https://www.textileartsmadison.org/",
    "feeds": [
     "squarespace",
-    "jsonld",
     "jsonld"
    ],
    "raw_events": 2,
@@ -555,16 +596,6 @@
    "name": "Verona Public Library",
    "kind": "library",
    "website": "https://www.veronapubliclibrary.org/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 2,
-   "error": ""
-  },
-  {
-   "name": "Wando's Bar & Grill",
-   "kind": "bar",
-   "website": "https://wandosbar.com/",
    "feeds": [
     "ai"
    ],
@@ -588,6 +619,16 @@
    "feeds": [
     "tribe",
     "jsonld"
+   ],
+   "raw_events": 1,
+   "error": ""
+  },
+  {
+   "name": "Crucible",
+   "kind": "bar",
+   "website": "https://www.cruciblemadison.com/",
+   "feeds": [
+    "ai"
    ],
    "raw_events": 1,
    "error": ""
@@ -663,9 +704,9 @@
    "error": ""
   },
   {
-   "name": "Sequoya Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/sequoya",
+   "name": "Wando's Bar & Grill",
+   "kind": "bar",
+   "website": "https://wandosbar.com/",
    "feeds": [
     "ai"
    ],
@@ -849,14 +890,6 @@
    "error": "PermissionError: robots.txt disallows https://www.facebook.com/cargocoffeeeast/"
   },
   {
-   "name": "Central Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/central",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
    "name": "Cervato Wine & Tapas",
    "kind": "bar",
    "website": "https://cervatowine.com/",
@@ -913,17 +946,6 @@
    "error": ""
   },
   {
-   "name": "Come Back Inn",
-   "kind": "bar",
-   "website": "https://comebackintavern.com/",
-   "feeds": [
-    "tribe",
-    "jsonld"
-   ],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
    "name": "Communication",
    "kind": "venue",
    "website": "https://communicationmadison.com/",
@@ -945,14 +967,6 @@
    "name": "Crescendo Espresso Bar",
    "kind": "cafe",
    "website": "http://crescendomadison.com/",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Crucible",
-   "kind": "bar",
-   "website": "https://www.cruciblemadison.com/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1695,7 +1709,7 @@
   {
    "name": "Starbucks",
    "kind": "cafe",
-   "website": "https://www.starbucks.com/store-locator/store/12525/university-north-blackhawk-3515-university-avenue-madison-wi-537052140-us",
+   "website": "https://www.starbucks.com/store-locator/store/16482/capitol-square-main-mlk-1-e-main-st-madison-wi-537033373-us",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1703,7 +1717,7 @@
   {
    "name": "Starbucks",
    "kind": "cafe",
-   "website": "https://www.starbucks.com/store-locator/store/16482/capitol-square-main-mlk-1-e-main-st-madison-wi-537033373-us",
+   "website": "https://www.starbucks.com/store-locator/store/12525/university-north-blackhawk-3515-university-avenue-madison-wi-537052140-us",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1791,14 +1805,6 @@
   {
    "name": "Starbucks",
    "kind": "cafe",
-   "website": "https://www.starbucks.com",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Starbucks",
-   "kind": "cafe",
    "website": "https://www.starbucks.com/store-locator/store/1030659/rimrock-beltline-2157-rimrock-rd-madison-wi-537131443-us",
    "feeds": [],
    "raw_events": 0,
@@ -1816,6 +1822,14 @@
    "name": "Starbucks",
    "kind": "cafe",
    "website": "https://www.starbucks.com/store-locator/store/17653/state-lake-661-state-street-madison-wi-537031049-us",
+   "feeds": [],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
+   "name": "Starbucks",
+   "kind": "cafe",
+   "website": "https://www.starbucks.com",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1882,7 +1896,7 @@
    "website": "https://www.thedoubleubar.com/",
    "feeds": [],
    "raw_events": 0,
-   "error": "ai: ConnectionError: HTTPSConnectionPool(host='www.thedoubleubar.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.thedoubleubar.com', port=44"
+   "error": ""
   },
   {
    "name": "The Library",
@@ -2001,6 +2015,7 @@
    "website": "https://www.vact.org/",
    "feeds": [
     "squarespace",
+    "squarespace",
     "squarespace"
    ],
    "raw_events": 0,
@@ -2027,19 +2042,6 @@
    "kind": "cafe",
    "website": "https://www.waltzingmatildasmadison.com/",
    "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Waunakee Public Library",
-   "kind": "library",
-   "website": "https://www.waunakeepubliclibrary.org/",
-   "feeds": [
-    "jsonld",
-    "jsonld",
-    "jsonld",
-    "jsonld"
-   ],
    "raw_events": 0,
    "error": ""
   },

@@ -117,19 +117,10 @@
   "events": []
  },
  "https://gammaray.bar/shows/": {
-  "hash": "14e2b9f4c189f411aa004ed520f129905b08e894",
-  "asked": "2026-11-15T20:43:51-06:00",
-  "on": "2026-11-15",
+  "hash": "da1b8e8db87e47c4b3d62f75c37f083c00b429a5",
+  "asked": "2026-11-16T23:07:42-06:00",
+  "on": "2026-11-16",
   "events": [
-   {
-    "title": "Dusky Waters // Bear In The Forest // Marengo",
-    "date": "2026-11-15",
-    "start": "19:00",
-    "end": null,
-    "price": null,
-    "description": "Show at 7pm, doors 6pm.",
-    "category": "music"
-   },
    {
     "title": "Armchair Boogie \"Never Waste A Day\" Album Listening Party",
     "date": "2026-11-19",
@@ -140,30 +131,30 @@
     "category": "music"
    },
    {
-    "title": "Gridlock Album Release // Totally Cashed // M545 // A Casual Ruckus // Party Vultures",
+    "title": "Gridlock Album Release with Totally Cashed, M545, A Casual Ruckus, Party Vultures",
     "date": "2026-11-20",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Gridlock album release show. Doors 7pm.",
+    "description": "Album release show with support from Totally Cashed, M545, A Casual Ruckus and Party Vultures. Doors 7pm.",
     "category": "music"
    },
    {
-    "title": "New Wave Ren Faire ft. Educational Davis // Lavish Waste // Poison Widow // Yakuza Jacuzzi",
+    "title": "New Wave Ren Faire ft. Educational Davis with Lavish Waste, Poison Widow, Yakuza Jacuzzi",
     "date": "2026-11-21",
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Show at 7pm, doors 6pm.",
+    "description": "Show featuring Educational Davis, with Lavish Waste, Poison Widow and Yakuza Jacuzzi. Doors 6pm.",
     "category": "music"
    },
    {
-    "title": "Clean Plate Club // Becca Murray & The Wildflowers // AuroNova",
+    "title": "Clean Plate Club with Becca Murray & The Wildflowers, AuroNova",
     "date": "2026-11-22",
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Show at 7pm, doors 6pm.",
+    "description": "Show with Becca Murray & The Wildflowers and AuroNova. Doors 6pm.",
     "category": "music"
    },
    {
@@ -172,7 +163,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Show at 8pm, doors 7pm.",
+    "description": "Show with Dicot. Doors 7pm.",
     "category": "music"
    }
   ]
@@ -262,8 +253,8 @@
  },
  "https://www.madisongreymarket.com/schedule": {
   "hash": "844721c54672b70d90c49d8df79664186255d7e5",
-  "asked": "2026-11-13T21:14:31-06:00",
-  "on": "2026-11-13",
+  "asked": "2026-11-16T23:07:38-06:00",
+  "on": "2026-11-16",
   "events": []
  },
  "https://www.mickeysmadison.com/": {
@@ -279,8 +270,8 @@
   "events": []
  },
  "https://www.harmonybarandgrill.com/madison-atwood-the-harmony-bar-and-grill-events": {
-  "hash": "2e38bb7fab67d19cabcbaf4197a2002f0f5e7e9b",
-  "asked": "2026-11-16T15:02:06-06:00",
+  "hash": "696d2e452a80ad942cc99022eea761a602bd42b9",
+  "asked": "2026-11-16T23:07:45-06:00",
   "on": "2026-11-16",
   "events": [
    {
@@ -289,7 +280,7 @@
     "start": "17:30",
     "end": "18:30",
     "price": 5,
-    "description": "Kids music show with David Landau; kid menu available. $5 cover.",
+    "description": "Kids music show with David Landau, with the kid menu in full swing. Family-friendly.",
     "category": "music"
    },
    {
@@ -298,7 +289,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Monthly Tuesday bluegrass series hosted by Soggy Prairie, with guest artists Lucky Pickers. No cover.",
+    "description": "Monthly Tuesday bluegrass series hosted by Soggy Prairie, with a set from guest artists Lucky Pickers. No cover.",
     "category": "music"
    },
    {
@@ -307,7 +298,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Trivia hosted by Paul, held the 1st and 3rd Wednesday of the month. Free.",
+    "description": "Trivia hosted by Paul. Held the 1st and 3rd Wednesday of the month. Free.",
     "category": "trivia"
    },
    {
@@ -316,7 +307,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Season 2, Episode 2 of the round-robin songwriters' showcase, emceed by JT Spartz, featuring Annie Emmenegger, Jason Edward and JT Spartz. No cover.",
+    "description": "Season 2, Episode 2 of the round-robin songwriters' showcase hosted by JT Spartz, featuring Annie Emmenegger, Jason Edward and JT Spartz. No cover.",
     "category": "music"
    },
    {
@@ -331,10 +322,19 @@
    {
     "title": "The Cajun Strangers",
     "date": "2026-11-22",
-    "start": "17:00",
+    "start": "16:00",
     "end": "19:30",
     "price": 10,
     "description": "Madison award-winning band playing traditional Cajun dance music. $10 suggested donation.",
+    "category": "music"
+   },
+   {
+    "title": "David Landau Kid Show",
+    "date": "2026-11-23",
+    "start": "17:30",
+    "end": "18:30",
+    "price": 5,
+    "description": "Kids music show with David Landau, with the kid menu in full swing. Family-friendly.",
     "category": "music"
    },
    {
@@ -343,7 +343,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Bluegrass-inspired band Starr Moss, Trent Cuthbert, Michael Falk, Claire Kannapell and Paul Kienitz; joined this month by a TBD guest. No cover.",
+    "description": "Bluegrass-inspired band Bigtooth, joined this month by a guest to be announced. No cover.",
     "category": "music"
    },
    {
@@ -352,7 +352,7 @@
     "start": "20:00",
     "end": "22:30",
     "price": 15,
-    "description": "1980s new wave and synth-pop party band; 10th annual fundraiser for Second Harvest Food Bank. $15 suggested donation.",
+    "description": "1980s new wave and synth-pop party. 10th annual fundraiser for Second Harvest Food Bank, $15 suggested donation.",
     "category": "music"
    },
    {
@@ -361,7 +361,7 @@
     "start": "20:00",
     "end": "22:30",
     "price": 0,
-    "description": "Madison Americana quartet with vocal harmonies, formerly the Grouvin Family String Band. No cover.",
+    "description": "Madison Americana quartet with rich vocal harmonies and roots music. No cover.",
     "category": "music"
    }
   ]
@@ -380,8 +380,8 @@
  },
  "https://parchedeaglebrewpub.com/category/events/": {
   "hash": "9515457b50759b9d37cdf54356fecb0f89b2ca97",
-  "asked": "2026-11-12T21:26:07-06:00",
-  "on": "2026-11-12",
+  "asked": "2026-11-16T23:07:49-06:00",
+  "on": "2026-11-16",
   "events": []
  },
  "http://www.monkeyshinesbarandgrill.com/events/": {
@@ -556,9 +556,9 @@
   "events": []
  },
  "https://www.roxxybar.com/madison-events/": {
-  "hash": "832ba523ddb7de0e3bcb867ce3d1d6e26c083435",
-  "asked": "2026-11-14T11:07:35-06:00",
-  "on": "2026-11-14",
+  "hash": "8f9ae66277c73606573431ca47967d2d222f37dc",
+  "asked": "2026-11-16T23:07:56-06:00",
+  "on": "2026-11-16",
   "events": []
  },
  "https://www.lazyoaflounge.com/specials": {
@@ -611,35 +611,17 @@
   "events": []
  },
  "https://www.harmonybarandgrill.com/madison-atwood-the-harmony-bar-and-grill-happy-hours-specials": {
-  "hash": "9b2dda58594e3cadc40eccfe375f3dfd9058d5d9",
-  "asked": "2026-11-14T11:07:40-06:00",
-  "on": "2026-11-14",
+  "hash": "1e0b6071c12b841823dd6fcdb528f1bfe67a3ee3",
+  "asked": "2026-11-16T23:07:50-06:00",
+  "on": "2026-11-16",
   "events": [
-   {
-    "title": "David Landau Kids Show!",
-    "date": "2026-11-16",
-    "start": "17:30",
-    "end": "18:30",
-    "price": 5.0,
-    "description": "Kids show with David Landau, every Monday, $5.00.",
-    "category": "music"
-   },
-   {
-    "title": "David Landau Kids Show!",
-    "date": "2026-11-23",
-    "start": "17:30",
-    "end": "18:30",
-    "price": 5.0,
-    "description": "Kids show with David Landau, every Monday, $5.00.",
-    "category": "music"
-   },
    {
     "title": "Mixed Mic",
     "date": "2026-11-17",
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Mixed mic night. The page lists it under Tuesday November 17 but describes it as every first Tuesday of the month, so the date may need checking.",
+    "description": "Mixed mic, listed as every first Tuesday of the month.",
     "category": "open_mic"
    },
    {
@@ -650,6 +632,33 @@
     "price": null,
     "description": "Friday fish fry.",
     "category": "food"
+   },
+   {
+    "title": "David Landau Kids Show",
+    "date": "2026-11-16",
+    "start": "17:30",
+    "end": "18:30",
+    "price": 5.0,
+    "description": "Kids show with David Landau, listed as every Monday.",
+    "category": "music"
+   },
+   {
+    "title": "David Landau Kids Show",
+    "date": "2026-11-23",
+    "start": "17:30",
+    "end": "18:30",
+    "price": 5.0,
+    "description": "Kids show with David Landau, listed as every Monday.",
+    "category": "music"
+   },
+   {
+    "title": "David Landau Kids Show",
+    "date": "2026-11-30",
+    "start": "17:30",
+    "end": "18:30",
+    "price": 5.0,
+    "description": "Kids show with David Landau, listed as every Monday.",
+    "category": "music"
    }
   ]
  },
@@ -708,8 +717,8 @@
  },
  "https://www.capitalbrewery.com/events-2/": {
   "hash": "2740705b65c398f8f6c61e2069278ba969491164",
-  "asked": "2026-11-13T21:14:39-06:00",
-  "on": "2026-11-13",
+  "asked": "2026-11-16T23:08:12-06:00",
+  "on": "2026-11-16",
   "events": [
    {
     "title": "LIVE MUSIC w/ Too Sick Charlie",
@@ -1007,8 +1016,8 @@
  },
  "https://www.youngbloodbeerco.com/": {
   "hash": "386466cd1cd61490cf343b8b2aa4eac0b9b40160",
-  "asked": "2026-11-13T21:14:41-06:00",
-  "on": "2026-11-13",
+  "asked": "2026-11-16T23:08:13-06:00",
+  "on": "2026-11-16",
   "events": []
  },
  "https://yaharabay.com/pages/event-space": {
@@ -1235,27 +1244,9 @@
  },
  "https://lakesidestcoffeehouse.com/music-calendar": {
   "hash": "8ca18ec0a3c197933e101f7ff37eb42f71afd610",
-  "asked": "2026-11-13T21:15:01-06:00",
-  "on": "2026-11-13",
+  "asked": "2026-11-16T23:09:07-06:00",
+  "on": "2026-11-16",
   "events": [
-   {
-    "title": "Trio Soliel",
-    "date": "2026-11-13",
-    "start": "19:00",
-    "end": null,
-    "price": null,
-    "description": "Live music at Lakeside Street Coffee House. Doors open one hour before showtime; no cover, suggested donation.",
-    "category": "music"
-   },
-   {
-    "title": "Recuerdos Flamencos: An Evening of Spanish Guitar and Dance",
-    "date": "2026-11-14",
-    "start": "19:30",
-    "end": null,
-    "price": 20,
-    "description": "Spanish guitar and dance; 9th Annual Memorial Scholarship Fundraiser. $20/$15 suggested donation.",
-    "category": "music"
-   },
    {
     "title": "Tumbledown Shack",
     "date": "2026-11-20",
@@ -1268,8 +1259,8 @@
   ]
  },
  "https://merciescoffeewi.com/": {
-  "hash": "32905a10da4ee57f7ff92eebd9345afd1c2d6900",
-  "asked": "2026-11-16T15:02:39-06:00",
+  "hash": "d609c44c050314ae3b844afe8e584ac1886492e6",
+  "asked": "2026-11-16T23:09:14-06:00",
   "on": "2026-11-16",
   "events": []
  },
@@ -1335,11 +1326,11 @@
  },
  "https://www.micentro.org/events": {
   "hash": "fd9a3d21dd4c3151947caf580a9da6ca4e535a33",
-  "asked": "2026-11-13T21:15:22-06:00",
-  "on": "2026-11-13",
+  "asked": "2026-11-16T23:10:05-06:00",
+  "on": "2026-11-16",
   "events": [
    {
-    "title": "Mercadito (community farmer's market)",
+    "title": "Mercadito Community Farmer's Market",
     "date": "2026-11-19",
     "start": "16:00",
     "end": "20:00",
@@ -1348,7 +1339,7 @@
     "category": "food"
    },
    {
-    "title": "Mercadito (community farmer's market)",
+    "title": "Mercadito Community Farmer's Market",
     "date": "2026-11-26",
     "start": "16:00",
     "end": "20:00",
@@ -1366,8 +1357,8 @@
  },
  "https://iwcmadison.com/calendar/": {
   "hash": "372415e0626944de995874ac1f38ebb9dd109c3d",
-  "asked": "2026-11-13T21:15:25-06:00",
-  "on": "2026-11-13",
+  "asked": "2026-11-16T23:10:13-06:00",
+  "on": "2026-11-16",
   "events": [
    {
     "title": "Italian Language Conversation",
@@ -1375,7 +1366,7 @@
     "start": "18:30",
     "end": "20:00",
     "price": null,
-    "description": "Open to members, friends, and anyone who wants to learn or speak some basic Italian.",
+    "description": "Open to members, friends, and anyone who wishes to learn or speak some basic Italian.",
     "category": "other"
    }
   ]
@@ -1518,10 +1509,56 @@
   "events": []
  },
  "https://www.madisonpubliclibrary.org/spaces/events": {
-  "hash": "09c661d25024428c74b02d766e6837d325a62b2f",
-  "asked": "2026-11-16T15:03:19-06:00",
+  "hash": "5237d82509b5e359693cc07336197949add5a3f3",
+  "asked": "2026-11-16T23:10:43-06:00",
   "on": "2026-11-16",
-  "events": []
+  "events": [
+   {
+    "title": "The Spice Box",
+    "date": "2026-11-17",
+    "start": "16:30",
+    "end": "17:30",
+    "price": null,
+    "description": "Program at Alicia Ashman Library Meeting Room.",
+    "category": "other"
+   },
+   {
+    "title": "Read & Breathe: A Mindful Storytime for all ages",
+    "date": "2026-11-18",
+    "start": "10:30",
+    "end": "11:15",
+    "price": null,
+    "description": "Mindful storytime for all ages in the Meeting Room.",
+    "category": "other"
+   },
+   {
+    "title": "Memory Screening with ADRC (15-minute appointments)",
+    "date": "2026-11-18",
+    "start": "13:00",
+    "end": "15:00",
+    "price": null,
+    "description": "Memory screenings with ADRC in the Study Room, by 15-minute appointment.",
+    "category": "other"
+   },
+   {
+    "title": "Beginning Cross-Stitch",
+    "date": "2026-11-21",
+    "start": "14:00",
+    "end": "15:30",
+    "price": null,
+    "description": "Beginning cross-stitch class in the Meeting Room.",
+    "category": "other"
+   },
+   {
+    "title": "Toddler Time",
+    "date": "2026-11-23",
+    "start": "10:30",
+    "end": "11:15",
+    "price": null,
+    "description": "Toddler program in the Meeting Room.",
+    "category": "other"
+   }
+  ]
  },
  "https://ebling.library.wisc.edu/ebling-library-classes-events/": {
   "hash": "7d255d815b8d0d84a73f7be122c15c647822abad",
@@ -1672,10 +1709,20 @@
   ]
  },
  "https://www.madisonpubliclibrary.org/spaces/events/search": {
-  "hash": "62626857fc1c1d2f31a71ed7f65859e4a6531dd0",
-  "asked": "2026-11-16T15:03:38-06:00",
+  "hash": "fbd51eb4c5607ff6268f6996831a2542835fedcf",
+  "asked": "2026-11-16T23:10:55-06:00",
   "on": "2026-11-16",
-  "events": []
+  "events": [
+   {
+    "title": "The Spice Box",
+    "date": "2026-11-17",
+    "start": "16:30",
+    "end": "17:30",
+    "price": null,
+    "description": "Cooking experience with local chef Huma Siddiqui-Seitz, using Pakistani/Indian spices in simple recipes.",
+    "category": "food"
+   }
+  ]
  },
  "https://artlitlab.org/calendar": {
   "hash": "2571cd73d5d73a17938e3112334fc4a792f89c13",
@@ -1969,8 +2016,8 @@
   "events": []
  },
  "https://high-noon.com/event/dogpark/": {
-  "hash": "439e76f52975327602fa0f4942ad3d2c79d3905f",
-  "asked": "2026-11-16T15:02:09-06:00",
+  "hash": "ee5a58d599c1cd40c02f12ad981177a37f55e21a",
+  "asked": "2026-11-16T23:07:55-06:00",
   "on": "2026-11-16",
   "events": []
  },
@@ -2170,8 +2217,8 @@
  },
  "https://www.capitalbrewery.com/on-site-events/": {
   "hash": "331fb195fece970e9ac18a488dbe3aab2bf4a487",
-  "asked": "2026-11-13T21:14:42-06:00",
-  "on": "2026-11-13",
+  "asked": "2026-11-16T23:08:15-06:00",
+  "on": "2026-11-16",
   "events": [
    {
     "title": "LIVE MUSIC w/ Too Sick Charlie",
@@ -2190,6 +2237,184 @@
     "price": null,
     "description": "Fresh citrus and pears stop event by Tree-Ripe Fruit Co. at Capital Brewery.",
     "category": "food"
+   }
+  ]
+ },
+ "https://www.cruciblemadison.com/events/2026-11/words-nerds": {
+  "hash": "912005ab2437da288b3e09a8675ed58e3d9721ee",
+  "asked": "2026-11-16T23:07:37-06:00",
+  "on": "2026-11-16",
+  "events": [
+   {
+    "title": "Words with Nerds",
+    "date": "2026-11-19",
+    "start": "19:00",
+    "end": null,
+    "price": 15,
+    "description": "TED Talks mixed with stand-up and nerdy burlesque. Presenters include Andrew Brunner, Will Isenberg, and Neimo Cristal; hosted by Andrew Rynning. Doors 6:30pm. $15 advance, $20 at the door, $10 cash with student ID.",
+    "category": "comedy"
+   }
+  ]
+ },
+ "https://wandosbar.com/madison-downtown-wando-s-gameday-specials": {
+  "hash": "e30c049d8820b28e68de8aa8c2e27cbd0cd4fffb",
+  "asked": "2026-11-16T23:08:07-06:00",
+  "on": "2026-11-16",
+  "events": []
+ },
+ "https://thekickback.bar/premier-trivia-tuesday-nov-17/": {
+  "hash": "5aecedd0bc7280b7f967732281643b093568a33f",
+  "asked": "2026-11-16T23:08:19-06:00",
+  "on": "2026-11-16",
+  "events": [
+   {
+    "title": "Premier Trivia Tuesday",
+    "date": "2026-11-17",
+    "start": "18:30",
+    "end": null,
+    "price": null,
+    "description": "Wisconsin's live trivia experience; play solo or with a team for prizes. Happy hour 3-6 PM.",
+    "category": "trivia"
+   },
+   {
+    "title": "Premier Trivia Tuesday",
+    "date": "2026-11-24",
+    "start": "18:30",
+    "end": null,
+    "price": null,
+    "description": "Weekly Premier Trivia; play solo or with a team for prizes. Happy hour 3-6 PM.",
+    "category": "trivia"
+   }
+  ]
+ },
+ "https://www.mcfarlandlibrary.org/adult-events": {
+  "hash": "a13026976926af1d4bb5526e18b0497b21b3a232",
+  "asked": "2026-11-16T23:10:28-06:00",
+  "on": "2026-11-16",
+  "events": [
+   {
+    "title": "Virtual Author Visit: Rebecca Roanhorse",
+    "date": "2026-11-19",
+    "start": "18:00",
+    "end": "19:00",
+    "price": null,
+    "description": "Virtual talk with bestselling author Rebecca Roanhorse on her Between Earth and Sky trilogy.",
+    "category": "other"
+   },
+   {
+    "title": "Bridge Club",
+    "date": "2026-11-19",
+    "start": "12:30",
+    "end": "14:30",
+    "price": null,
+    "description": "Weekly bridge club. Everyone welcome, no registration required.",
+    "category": "other"
+   },
+   {
+    "title": "Bridge Club",
+    "date": "2026-11-26",
+    "start": "12:30",
+    "end": "14:30",
+    "price": null,
+    "description": "Weekly bridge club. Everyone welcome, no registration required.",
+    "category": "other"
+   },
+   {
+    "title": "Craft Club",
+    "date": "2026-11-18",
+    "start": "18:30",
+    "end": null,
+    "price": null,
+    "description": "Monthly craft club in the Library Community Room.",
+    "category": "other"
+   },
+   {
+    "title": "Conversaciones en Español",
+    "date": "2026-11-21",
+    "start": null,
+    "end": null,
+    "price": null,
+    "description": "Informal one-hour conversation in Spanish for attendees with basic Spanish. Not a teaching class.",
+    "category": "other"
+   },
+   {
+    "title": "Adult Writer's Group",
+    "date": "2026-11-27",
+    "start": "09:30",
+    "end": null,
+    "price": null,
+    "description": "Adult writer's group meeting in the Library Community Room.",
+    "category": "other"
+   },
+   {
+    "title": "D&D for Adults",
+    "date": "2026-11-16",
+    "start": "17:30",
+    "end": "19:30",
+    "price": null,
+    "description": "Monthly D&D group for adults in the Library Community Room. Registration is listed as full.",
+    "category": "other"
+   }
+  ]
+ },
+ "https://www.waunakeepubliclibrary.org/": {
+  "hash": "28e1fb361937a5509a10ff0e13fde0c552629ca1",
+  "asked": "2026-11-16T23:10:50-06:00",
+  "on": "2026-11-16",
+  "events": [
+   {
+    "title": "Preschool Storytime",
+    "date": "2026-11-17",
+    "start": "09:45",
+    "end": "10:15",
+    "price": null,
+    "description": "Stories, songs, and rhymes for preschoolers (ages 3-5) and caregivers. No registration required.",
+    "category": "other"
+   },
+   {
+    "title": "Tiny Tots",
+    "date": "2026-11-17",
+    "start": "10:45",
+    "end": "11:00",
+    "price": null,
+    "description": "20-minute program of stories, rhymes, and songs for ages 1-3 and caregivers. No registration required.",
+    "category": "other"
+   },
+   {
+    "title": "Consumer Reports 101",
+    "date": "2026-11-17",
+    "start": "13:30",
+    "end": "14:30",
+    "price": null,
+    "description": "Learn to access and search Consumer Reports' online database, free with a library card. Registration required.",
+    "category": "other"
+   },
+   {
+    "title": "Teen Tech Take-Apart",
+    "date": "2026-11-17",
+    "start": "16:30",
+    "end": "17:30",
+    "price": null,
+    "description": "Grades 5 and up take apart tools and old electronics.",
+    "category": "other"
+   },
+   {
+    "title": "Books in the Overlook",
+    "date": "2026-11-17",
+    "start": "18:30",
+    "end": "19:45",
+    "price": null,
+    "description": "Adult book club discussion in the Overlook.",
+    "category": "other"
+   },
+   {
+    "title": "Baby Time",
+    "date": "2026-11-18",
+    "start": "09:45",
+    "end": "10:00",
+    "price": null,
+    "description": "Stories, rhymes, and lap songs for ages 0-18 months and caregivers, followed by play time. No registration required.",
+    "category": "other"
    }
   ]
  }

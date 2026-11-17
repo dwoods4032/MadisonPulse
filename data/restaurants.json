@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-09T22:39:03-06:00",
- "count": 502,
- "with_hours": 246,
+ "generated_at": "2026-11-16T23:06:19-06:00",
+ "count": 501,
+ "with_hours": 245,
  "with_website": 249,
  "restaurants": [
   {
@@ -1157,9 +1157,9 @@
    "bar": false,
    "menu_src": "restaurant homepage",
    "image": "http://static1.squarespace.com/static/6a21e4c03d712b3bcbddeddf/t/6a344fa71890a327487b2fb6/1781813159435/begonia+logo+Indigo+RGB+3000x1180.png?format=1500w",
-   "website_ok": true,
    "new_since": "2026-08-19",
-   "new_evidence": "New alcohol license approved at the 2026-08-19 ALRC meeting"
+   "new_evidence": "New alcohol license approved at the 2026-08-19 ALRC meeting",
+   "website_ok": true
   },
   {
    "group": "american",
@@ -5143,20 +5143,26 @@
     [
      [
       1,
-      3,
-      4,
-      5,
-      6
+      2,
+      3
      ],
-     "16:00",
-     "22:00"
+     "14:00",
+     "20:00"
     ],
     [
      [
-      2
+      4,
+      5
      ],
-     "16:00",
-     "21:00"
+     "12:00",
+     "20:00"
+    ],
+    [
+     [
+      6
+     ],
+     "12:00",
+     "23:00"
     ]
    ],
    "bar": false,
@@ -6430,9 +6436,9 @@
     ]
    ],
    "bar": false,
-   "website_ok": null,
    "new_since": "2026-06-17",
-   "new_evidence": "New alcohol license approved at the 2026-06-17 ALRC meeting"
+   "new_evidence": "New alcohol license approved at the 2026-06-17 ALRC meeting",
+   "website_ok": null
   },
   {
    "group": "asian",
@@ -6472,43 +6478,6 @@
    "menu": "",
    "hours": null,
    "bar": false,
-   "website_ok": null
-  },
-  {
-   "group": "asian",
-   "dinner": true,
-   "alcohol": null,
-   "alcohol_src": "",
-   "id": "osm:way/102755348",
-   "name": "Hong Kong Cafe",
-   "cuisine": "chinese",
-   "fast": false,
-   "price": 24,
-   "vibes": [
-    "chill"
-   ],
-   "address": "2 South Mills Street",
-   "lat": 43.067558,
-   "lon": -89.404301,
-   "website": "",
-   "menu": "https://www.hongkongcafemadisonwi.com/",
-   "hours": [
-    [
-     [
-      0,
-      1,
-      2,
-      3,
-      4,
-      5,
-      6
-     ],
-     "11:00",
-     "20:00"
-    ]
-   ],
-   "bar": false,
-   "menu_src": "OpenStreetMap tag",
    "website_ok": null
   },
   {
@@ -7470,9 +7439,9 @@
    "menu": "",
    "hours": null,
    "bar": false,
-   "website_ok": null,
    "new_since": "2026-05-20",
-   "new_evidence": "New alcohol license approved at the 2026-05-20 ALRC meeting"
+   "new_evidence": "New alcohol license approved at the 2026-05-20 ALRC meeting",
+   "website_ok": null
   },
   {
    "group": "american",
@@ -7849,9 +7818,9 @@
    "menu": "",
    "hours": null,
    "bar": true,
-   "website_ok": null,
    "new_since": "2026-05-20",
-   "new_evidence": "New alcohol license approved at the 2026-05-20 ALRC meeting"
+   "new_evidence": "New alcohol license approved at the 2026-05-20 ALRC meeting",
+   "website_ok": null
   },
   {
    "group": "latin",
@@ -7903,9 +7872,9 @@
     ]
    ],
    "bar": false,
-   "website_ok": null,
    "new_since": "2026-05-20",
-   "new_evidence": "New alcohol license approved at the 2026-05-20 ALRC meeting"
+   "new_evidence": "New alcohol license approved at the 2026-05-20 ALRC meeting",
+   "website_ok": null
   },
   {
    "group": "american",
@@ -13296,9 +13265,9 @@
    "menu": "",
    "hours": null,
    "bar": false,
-   "website_ok": null,
    "new_since": "2026-07-15",
-   "new_evidence": "New alcohol license approved at the 2026-07-15 ALRC meeting"
+   "new_evidence": "New alcohol license approved at the 2026-07-15 ALRC meeting",
+   "website_ok": null
   },
   {
    "group": "latin",
@@ -14248,9 +14217,9 @@
    "menu": "",
    "hours": null,
    "bar": false,
-   "website_ok": null,
    "new_since": "2026-09-16",
-   "new_evidence": "New alcohol license approved at the 2026-09-16 ALRC meeting"
+   "new_evidence": "New alcohol license approved at the 2026-09-16 ALRC meeting",
+   "website_ok": null
   },
   {
    "group": "med",
@@ -14887,11 +14856,10 @@
     ]
    ],
    "bar": false,
-   "menu_src": "restaurant homepage",
+   "menu_src": "OpenStreetMap tag",
    "image": "http://static1.squarespace.com/static/63323ae875e692009222a204/t/643371ccdf29aa1cf679e373/1681093073569/turnkey_tuesday_chicken.jpg?format=1500w",
    "menu_broken": "https://www.turnkeymadison.com/eat",
-   "website_ok": true,
-   "menu": "https://www.turnkeymadison.com/working-menu"
+   "website_ok": true
   },
   {
    "group": "asian",
@@ -15300,8 +15268,8 @@
    "price": 24,
    "vibes": [],
    "address": "",
-   "lat": 43.088165,
-   "lon": -89.212327,
+   "lat": 43.088202,
+   "lon": -89.21226,
    "website": "",
    "menu": "",
    "hours": null,
@@ -15663,5 +15631,5 @@
    "website_ok": true
   }
  ],
- "with_menu": 175
+ "with_menu": 174
 }
