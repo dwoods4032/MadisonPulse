@@ -39,11 +39,6 @@
   "why": "",
   "checked": "2026-11-11T12:44:03.156535-06:00"
  },
- "https://gammaray.bar": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-11T12:43:52.896488-06:00"
- },
  "https://artlitlab.org/": {
   "ok": true,
   "why": "",
@@ -3084,26 +3079,6 @@
   "why": "",
   "checked": "2026-11-13T21:16:52.575371-06:00"
  },
- "https://onesocialmadison.com/event/microbiology-on-tap-with-uw/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-16T23:11:43.822951-06:00"
- },
- "https://www.ticketmaster.com/ryan-jesse-still-infamous-tour-madison-wisconsin-11-16-2026/event/07006529D5EEA097": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-16T23:11:43.822977-06:00"
- },
- "https://www.cafecoda.club/events-1/karaoke-nabjl-22c3f-gw57n-2m79c-a47wx-jblcs-4bcsl-mkd7s-ctsf4-p4hcx-t4n3x-xd9mh-c5tsy-cpczx-w6dsr-tg854-3pze2": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-16T23:11:43.822992-06:00"
- },
- "https://www.ticketmaster.com/fox-stevenson-and-mystery-skulls-madison-wisconsin-11-16-2026/event/0700651899053D0B": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-16T23:11:43.822999-06:00"
- },
  "https://www.alchemymadison.com/menus.html": {
   "ok": true,
   "why": "",
@@ -3684,16 +3659,6 @@
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
   "checked": "2026-11-14T20:40:52.010279-06:00"
  },
- "https://www.mickeysmadison.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-15T11:44:38.439781-06:00"
- },
- "https://www.fivenightclubmadison.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-15T11:44:38.439789-06:00"
- },
  "https://neighborhoodhousemadison.org": {
   "ok": true,
   "why": "",
@@ -3829,11 +3794,6 @@
   "why": "",
   "checked": "2026-11-16T15:04:09.931999-06:00"
  },
- "https://statestreetbrats.com/event/se-louisiana-texas-am-20261116/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-16T23:11:43.822985-06:00"
- },
  "https://www.waunakeepubliclibrary.org/": {
   "ok": true,
   "why": "",
@@ -3854,9 +3814,29 @@
   "why": "",
   "checked": "2026-11-16T23:11:45.500648-06:00"
  },
- "https://www.turnkeymadison.com/eat": {
-  "ok": false,
-  "why": "HTTP 404 from Squarespace",
-  "checked": "2026-11-16T23:11:45.779512-06:00"
+ "https://www.garthsbrewbar.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-17T13:52:54.725007-06:00"
+ },
+ "https://javacatmadison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-17T13:52:54.732959-06:00"
+ },
+ "https://www.settledownmadison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-17T13:52:54.777878-06:00"
+ },
+ "https://www.youngbloodbeerco.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-17T13:52:54.777900-06:00"
+ },
+ "https://www.turnkeymadison.com/working-menu": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-17T13:52:54.777907-06:00"
  }
 }

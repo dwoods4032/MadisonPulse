@@ -1146,5 +1146,17 @@
   "address": "100 South 2nd Street",
   "city": "Mount Horeb"
  },
- "uw humanities building-morphy hall": null
+ "uw humanities building-morphy hall": null,
+ "mount horeb high school": {
+  "lat": 43.004429,
+  "lon": -89.729137,
+  "address": "East Garfield Street",
+  "city": "Mount Horeb"
+ },
+ "upper house": {
+  "lat": 43.051882,
+  "lon": -87.913936,
+  "address": "227 West Pleasant Street",
+  "city": "Milwaukee"
+ }
 }
