@@ -40,35 +40,26 @@
   ]
  },
  "https://thecrystalcornerbar.com/Calendar.htm": {
-  "hash": "4c83091ce86afb48efd2c5bc09d53877460832bd",
-  "asked": "2026-11-16T15:02:03-06:00",
-  "on": "2026-11-16",
+  "hash": "39ad3ef516a6dffff9337e6ae71f6c90c40d413f",
+  "asked": "2026-11-18T13:25:06-06:00",
+  "on": "2026-11-18",
   "events": [
-   {
-    "title": "David Hecht & The Who Dat",
-    "date": "2026-11-17",
-    "start": "20:30",
-    "end": null,
-    "price": null,
-    "description": "American roots, R&B, reggae, Latin and funk from a quartet",
-    "category": "music"
-   },
    {
     "title": "Cash Box Kings",
     "date": "2026-11-21",
     "start": "20:00",
     "end": null,
     "price": 15,
-    "description": "Blues band",
+    "description": "Blues band, described by Living Blues as one of the best blues bands in the land.",
     "category": "music"
    },
    {
-    "title": "The Mersey Brothers featuring Sean Michael Dargan",
+    "title": "The Mersey Brothers featuring Sean Michael Dargan (New Wave Rock - Eighties Alt Rock Night)",
     "date": "2026-11-28",
     "start": "20:00",
     "end": null,
     "price": 10,
-    "description": "New Wave Rock - Eighties Alt Rock Night",
+    "description": "New wave rock and eighties alt rock night.",
     "category": "music"
    }
   ]
@@ -169,26 +160,17 @@
   ]
  },
  "https://www.thecrystalcornerbar.com/Calendar.htm": {
-  "hash": "4c83091ce86afb48efd2c5bc09d53877460832bd",
-  "asked": "2026-11-16T15:02:24-06:00",
-  "on": "2026-11-16",
+  "hash": "39ad3ef516a6dffff9337e6ae71f6c90c40d413f",
+  "asked": "2026-11-18T13:25:08-06:00",
+  "on": "2026-11-18",
   "events": [
    {
-    "title": "American Roots Music quartet",
-    "date": "2026-11-17",
-    "start": "20:30",
-    "end": null,
-    "price": null,
-    "description": "American roots, R&B, reggae, Latin and funk from a quartet of musicians.",
-    "category": "music"
-   },
-   {
-    "title": "David Hecht & The WHO DAT",
+    "title": "Cash Box Kings",
     "date": "2026-11-21",
     "start": "20:00",
     "end": null,
     "price": 15,
-    "description": "Listed on the calendar as David Hecht & The WHO DAT.",
+    "description": "Blues band, described as one of the best blues bands in the land.",
     "category": "music"
    },
    {
@@ -270,26 +252,17 @@
   "events": []
  },
  "https://www.harmonybarandgrill.com/madison-atwood-the-harmony-bar-and-grill-events": {
-  "hash": "473fc70d9bbfb0e629459b8f92a2c616f70c6e61",
-  "asked": "2026-11-17T13:51:13-06:00",
-  "on": "2026-11-17",
+  "hash": "20e8d46e7e0a782643951ae48324ccec29e8c68d",
+  "asked": "2026-11-18T13:25:12-06:00",
+  "on": "2026-11-18",
   "events": [
-   {
-    "title": "Madison Bluegrass Roundabout: Soggy Prairie with Lucky Pickers",
-    "date": "2026-11-17",
-    "start": "18:30",
-    "end": "20:30",
-    "price": 0,
-    "description": "Monthly Tuesday bluegrass series hosted by Soggy Prairie, with a set from guest artists Lucky Pickers. No cover.",
-    "category": "music"
-   },
    {
     "title": "Smarter Than You Trivia",
     "date": "2026-11-18",
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Trivia hosted by Paul. Free. Held the 1st and 3rd Wednesday of the month.",
+    "description": "Paul hosts trivia. Held the 1st and 3rd Wednesday of the month. Free.",
     "category": "trivia"
    },
    {
@@ -298,7 +271,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Round-robin songwriters' showcase emceed by JT Spartz, featuring Annie Emmenegger, Jason Edward and JT Spartz. No cover.",
+    "description": "Season 2, Episode 2 of the Harmonious songwriters' showcase, hosted by JT Spartz with Annie Emmenegger, Jason Edward and JT Spartz. No cover.",
     "category": "music"
    },
    {
@@ -307,16 +280,16 @@
     "start": "21:00",
     "end": "00:00",
     "price": 10,
-    "description": "Rolling Stones tribute Loving Cup and Los Bad Hombres. 21+.",
+    "description": "Rolling Stones tribute Loving Cup and the Los Bad Hombres. 21+.",
     "category": "music"
    },
    {
     "title": "The Cajun Strangers",
     "date": "2026-11-22",
     "start": "16:00",
-    "end": null,
+    "end": "19:30",
     "price": 10,
-    "description": "Madison award-winning band playing traditional Cajun dance music. $10 suggested donation.",
+    "description": "Award-winning Madison Cajun dance band. $10 suggested donation. The page lists both a 4pm start and a 5:00 PM time block; 4pm is used here.",
     "category": "music"
    },
    {
@@ -325,7 +298,7 @@
     "start": "17:30",
     "end": "18:30",
     "price": 5,
-    "description": "Children's music show by David Landau, with the kid menu available.",
+    "description": "Kids music show with David Landau, with the kid menu available. $5 cover.",
     "category": "music"
    },
    {
@@ -334,7 +307,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Bluegrass-inspired band Bigtooth, joined this month by TBD. No cover.",
+    "description": "Bluegrass-inspired band of Starr Moss, Trent Cuthbert, Michael Falk, Claire Kannapell and Paul Kienitz. No cover. A guest is listed as TBD.",
     "category": "music"
    },
    {
@@ -343,7 +316,7 @@
     "start": "20:00",
     "end": "22:30",
     "price": 15,
-    "description": "1980s new wave and synth-pop party band. $15 suggested donation for the 10th annual Second Harvest Food Bank fundraiser.",
+    "description": "1980s new wave and synth-pop party band. 10th annual fundraiser for Second Harvest Food Bank. $15 suggested donation.",
     "category": "music"
    },
    {
@@ -361,8 +334,17 @@
     "start": "19:00",
     "end": "21:00",
     "price": null,
-    "description": "Open mic hosted by Max. Sign-up at 6:30pm, performances start at 7pm. Bring your instrument.",
+    "description": "Open mic hosted by Max. Sign-up at 6:30 PM, performances start at 7pm. Bring your instrument.",
     "category": "open_mic"
+   },
+   {
+    "title": "Smarter Than You Trivia",
+    "date": "2026-12-02",
+    "start": "18:30",
+    "end": "20:30",
+    "price": 0,
+    "description": "Paul hosts trivia. Held the 1st and 3rd Wednesday of the month. Free.",
+    "category": "trivia"
    }
   ]
  },
@@ -471,9 +453,9 @@
   ]
  },
  "https://high-noon.com/calendar/": {
-  "hash": "04d90235955de9a12dd4f1ebc42c3f3a42b48007",
-  "asked": "2026-11-17T13:51:14-06:00",
-  "on": "2026-11-17",
+  "hash": "9c1375e870dcc5eadd0f7eba93f73fa9350342e2",
+  "asked": "2026-11-18T13:25:15-06:00",
+  "on": "2026-11-18",
   "events": [
    {
     "title": "Nerd Nite",
@@ -481,7 +463,7 @@
     "start": "19:00",
     "end": null,
     "price": 0,
-    "description": "Free show; doors 6:00 pm",
+    "description": "FPC Live presents Nerd Nite. Doors 6:00 pm, show 7:00 pm. Free show.",
     "category": "other"
    },
    {
@@ -490,7 +472,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "WORT 89.9 FM presents; doors 7:00 pm",
+    "description": "WORT 89.9 FM presents Humbird with Bad Posture Club. Doors 7:00 pm.",
     "category": "music"
    },
    {
@@ -499,7 +481,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Doors 7:00 pm",
+    "description": "Doors 7:00 pm, show 8:00 pm.",
     "category": "music"
    },
    {
@@ -508,7 +490,7 @@
     "start": "11:30",
     "end": null,
     "price": 0,
-    "description": "Featuring Music con Brio students; free, donations at door; doors 11:00 am",
+    "description": "Caravan performs Modal Jazz with Music con Brio students. Doors 11:00 am. Free, donations at door.",
     "category": "music"
    },
    {
@@ -517,7 +499,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents; doors 7:00 pm",
+    "description": "FPC Live presents a Talking Heads tribute. Doors 7:00 pm.",
     "category": "music"
    },
    {
@@ -526,7 +508,7 @@
     "start": "11:00",
     "end": null,
     "price": null,
-    "description": "Doors 10:15 am",
+    "description": "Doors 10:15 am, show 11:00 am.",
     "category": "music"
    },
    {
@@ -535,7 +517,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents; doors 7:00 pm",
+    "description": "FPC Live presents The Gringos with Sheebie & The Lovemakers. Doors 7:00 pm.",
     "category": "music"
    },
    {
@@ -544,7 +526,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Featuring Joseph Huber Band, Dig Deep, Kevin Troestler, and Artist At Large Sheilagh Dandy Lion; FPC Live presents; doors 7:00 pm",
+    "description": "FPC Live presents Joseph Huber Band, Dig Deep, Kevin Troestler, and Artist At Large Sheilagh Dandy Lion. Doors 7:00 pm.",
     "category": "music"
    },
    {
@@ -553,7 +535,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "94.9 WOLX presents a Madison musician's tribute to The Band; doors 7:00 pm",
+    "description": "94.9 WOLX presents a Madison musician's tribute to The Band. Doors 7:00 pm.",
     "category": "music"
    }
   ]
@@ -629,36 +611,18 @@
   "events": []
  },
  "https://www.harmonybarandgrill.com/madison-atwood-the-harmony-bar-and-grill-happy-hours-specials": {
-  "hash": "1e0b6071c12b841823dd6fcdb528f1bfe67a3ee3",
-  "asked": "2026-11-16T23:07:50-06:00",
-  "on": "2026-11-16",
+  "hash": "294b0afdaaec1ac6d054da524b3ed27edc087069",
+  "asked": "2026-11-18T13:25:18-06:00",
+  "on": "2026-11-18",
   "events": [
-   {
-    "title": "Mixed Mic",
-    "date": "2026-11-17",
-    "start": "19:00",
-    "end": null,
-    "price": null,
-    "description": "Mixed mic, listed as every first Tuesday of the month.",
-    "category": "open_mic"
-   },
    {
     "title": "Friday Fish Fry",
     "date": "2026-11-20",
     "start": "11:00",
     "end": "22:00",
     "price": null,
-    "description": "Friday fish fry.",
+    "description": "Friday fish fry special at Harmony Bar and Grill.",
     "category": "food"
-   },
-   {
-    "title": "David Landau Kids Show",
-    "date": "2026-11-16",
-    "start": "17:30",
-    "end": "18:30",
-    "price": 5.0,
-    "description": "Kids show with David Landau, listed as every Monday.",
-    "category": "music"
    },
    {
     "title": "David Landau Kids Show",
@@ -666,7 +630,7 @@
     "start": "17:30",
     "end": "18:30",
     "price": 5.0,
-    "description": "Kids show with David Landau, listed as every Monday.",
+    "description": "Weekly Monday kids show with David Landau.",
     "category": "music"
    },
    {
@@ -675,8 +639,26 @@
     "start": "17:30",
     "end": "18:30",
     "price": 5.0,
-    "description": "Kids show with David Landau, listed as every Monday.",
+    "description": "Weekly Monday kids show with David Landau.",
     "category": "music"
+   },
+   {
+    "title": "Mixed Mic",
+    "date": "2026-11-24",
+    "start": "19:00",
+    "end": null,
+    "price": null,
+    "description": "Mixed mic listed on the page for Tuesday, November 24th; the page describes it as held the first Tuesday of the month.",
+    "category": "open_mic"
+   },
+   {
+    "title": "Mixed Mic",
+    "date": "2026-12-01",
+    "start": "19:00",
+    "end": null,
+    "price": null,
+    "description": "Mixed mic on the first Tuesday of the month.",
+    "category": "open_mic"
    }
   ]
  },
@@ -856,8 +838,8 @@
  },
  "https://www.karben4.com/events": {
   "hash": "d1adf74ab50b41874ded8e6a90ac00d757298eb2",
-  "asked": "2026-11-15T11:43:07-06:00",
-  "on": "2026-11-15",
+  "asked": "2026-11-18T13:25:29-06:00",
+  "on": "2026-11-18",
   "events": [
    {
     "title": "Community Bingo Night w/ Brown Paws Rescue",
@@ -865,7 +847,7 @@
     "start": "18:30",
     "end": null,
     "price": null,
-    "description": "Bingo night with special cards celebrating Brown Paws Rescue's anniversary; meet adoptable pups and raise money for the rescue.",
+    "description": "Bingo with special cards celebrating Brown Paws Rescue's anniversary; meet adoptable pups and raise money for the rescue.",
     "category": "bingo"
    }
   ]
@@ -981,27 +963,18 @@
   "events": []
  },
  "https://www.statelinedistillery.com/cocktail-lounge/events": {
-  "hash": "d1eb4e6e1bf5e018a4befb63e04e6ede61273fe8",
-  "asked": "2026-11-17T13:51:22-06:00",
-  "on": "2026-11-17",
+  "hash": "b7b1ac5c7b3d010903b5ba8e88f685097be848af",
+  "asked": "2026-11-18T13:25:31-06:00",
+  "on": "2026-11-18",
   "events": [
-   {
-    "title": "Badgers On Tap: The Science of Psychedelics",
-    "date": "2026-11-17",
-    "start": "19:00",
-    "end": "21:00",
-    "price": null,
-    "description": "Badgers On Tap event on the science of psychedelics.",
-    "category": "other"
-   },
    {
     "title": "Bear in the Forest Show",
     "date": "2026-11-21",
     "start": "18:00",
     "end": "21:00",
     "price": null,
-    "description": "Bear in the Forest show.",
-    "category": "music"
+    "description": "Show at State Line Distillery cocktail lounge.",
+    "category": "other"
    },
    {
     "title": "Theo Maynard Pop Up Print Sale",
@@ -1451,19 +1424,10 @@
   ]
  },
  "https://www.cityofmadison.com/parks/events": {
-  "hash": "9237a70feadfa17417128301d3d692b2923ba8f5",
-  "asked": "2026-11-17T13:52:06-06:00",
-  "on": "2026-11-17",
+  "hash": "ed11e3abec707f1810103a90d9b6315385ad84c5",
+  "asked": "2026-11-18T13:26:18-06:00",
+  "on": "2026-11-18",
   "events": [
-   {
-    "title": "Learn to Nordic Walk | Elver",
-    "date": "2026-11-17",
-    "start": "17:00",
-    "end": "18:30",
-    "price": null,
-    "description": "Nordic walking lesson at Elver Park, 1250 McKenna Blvd.",
-    "category": "other"
-   },
    {
     "title": "Warner Family Fun Night",
     "date": "2026-11-20",
@@ -1479,7 +1443,7 @@
     "start": "10:00",
     "end": "11:30",
     "price": null,
-    "description": "Guided bird and nature walk starting outside Goodman Community Center by the bike path, 214 Waubesa St.",
+    "description": "Nature program starting outside Goodman Community Center (by bike path), 214 Waubesa St.",
     "category": "other"
    },
    {
@@ -1488,7 +1452,7 @@
     "start": "17:00",
     "end": "20:00",
     "price": null,
-    "description": "Hayride through holiday light display at Turville Point Conservation Park, 1202 Olin-Turville Court.",
+    "description": "Holiday light hayride at Turville Point Conservation Park, 1202 Olin-Turville Court.",
     "category": "other"
    },
    {
@@ -1497,7 +1461,7 @@
     "start": "17:00",
     "end": "20:00",
     "price": null,
-    "description": "Hayride through holiday light display at Turville Point Conservation Park, 1202 Olin-Turville Court.",
+    "description": "Holiday light hayride at Turville Point Conservation Park, 1202 Olin-Turville Court.",
     "category": "other"
    },
    {
@@ -1515,7 +1479,7 @@
     "start": "10:00",
     "end": "11:30",
     "price": null,
-    "description": "Guided bird and nature walk at Aldo Leopold Nature Center, 330 Femrite Drive.",
+    "description": "Nature program at Aldo Leopold Nature Center, 330 Femrite Drive.",
     "category": "other"
    },
    {
@@ -1536,9 +1500,9 @@
   "events": []
  },
  "https://www.madisonpubliclibrary.org/spaces/events": {
-  "hash": "742ead072a2ff5f4152ce2eb9978c5c9c6fd106d",
-  "asked": "2026-11-17T22:21:29-06:00",
-  "on": "2026-11-17",
+  "hash": "315877d0e8f4cf4d9bb6c5cbd64a9e62cc21c6c6",
+  "asked": "2026-11-18T13:26:30-06:00",
+  "on": "2026-11-18",
   "events": []
  },
  "https://ebling.library.wisc.edu/ebling-library-classes-events/": {
@@ -1582,19 +1546,10 @@
   "events": []
  },
  "https://www.sunprairiepubliclibrary.org/home-delivery-service": {
-  "hash": "911604d659741251de6ba6b667075261ba4dbfcd",
-  "asked": "2026-11-17T22:21:26-06:00",
-  "on": "2026-11-17",
+  "hash": "8fb9bcf42189a8939ad209a3b2b2ade19b2531a9",
+  "asked": "2026-11-18T13:26:24-06:00",
+  "on": "2026-11-18",
   "events": [
-   {
-    "title": "The Nutcracker Storytime with Madison Ballet",
-    "date": "2026-11-18",
-    "start": "10:00",
-    "end": "10:45",
-    "price": null,
-    "description": "Nutcracker storytime with Madison Ballet for families and children ages 0-12.",
-    "category": "dance"
-   },
    {
     "title": "Screenprint Design: hands-on poster making",
     "date": "2026-11-18",
@@ -1610,7 +1565,7 @@
     "start": "13:45",
     "end": "15:00",
     "price": null,
-    "description": "Mobile library visit at Creekside and Westside Elementary for families, children, teens and adults.",
+    "description": "Dream Bus mobile library stop at Creekside and Westside Elementary, for families, children and adults.",
     "category": "other"
    },
    {
@@ -1630,13 +1585,22 @@
     "price": null,
     "description": "Virtual author talk with Rebecca Roanhorse for adults.",
     "category": "other"
+   },
+   {
+    "title": "Puppet Theatre Storytime",
+    "date": "2026-11-19",
+    "start": "18:30",
+    "end": "19:00",
+    "price": null,
+    "description": "Puppet theatre storytime for families and children ages 0-5.",
+    "category": "theater"
    }
   ]
  },
  "https://library.edgewood.edu/home": {
-  "hash": "5c99f4ece6b264dae11af1013f63e625e96d6c68",
-  "asked": "2026-11-16T15:03:18-06:00",
-  "on": "2026-11-16",
+  "hash": "fe679d800e3aeb7b12983bd5a753996ca9897125",
+  "asked": "2026-11-18T13:26:22-06:00",
+  "on": "2026-11-18",
   "events": [
    {
     "title": "Free coffee & tea at the library",
@@ -1644,7 +1608,7 @@
     "start": "09:00",
     "end": "13:00",
     "price": 0,
-    "description": "Free coffee and tea at the Oscar Rennebohm Library on Saturdays this fall.",
+    "description": "Free coffee and tea at the Oscar Rennebohm Library on Saturdays, 9am to 1pm, this fall.",
     "category": "food"
    },
    {
@@ -1653,7 +1617,7 @@
     "start": "09:00",
     "end": "13:00",
     "price": 0,
-    "description": "Free coffee and tea at the Oscar Rennebohm Library on Saturdays this fall.",
+    "description": "Free coffee and tea at the Oscar Rennebohm Library on Saturdays, 9am to 1pm, this fall.",
     "category": "food"
    }
   ]
@@ -1699,9 +1663,9 @@
   ]
  },
  "https://www.madisonpubliclibrary.org/spaces/events/search": {
-  "hash": "3432a5a03594762d4734d6d2c943ba84e2230155",
-  "asked": "2026-11-17T22:21:42-06:00",
-  "on": "2026-11-17",
+  "hash": "78bd8159fb7e9d4cfe13cc57c8f77031b01e3f86",
+  "asked": "2026-11-18T13:26:36-06:00",
+  "on": "2026-11-18",
   "events": []
  },
  "https://artlitlab.org/calendar": {
@@ -1757,9 +1721,9 @@
   ]
  },
  "https://bartelltheatre.org/": {
-  "hash": "d1d9e8fce9c0c509ac892a0b49e37c2009eb5fd2",
-  "asked": "2026-11-16T15:03:27-06:00",
-  "on": "2026-11-16",
+  "hash": "56e72678acf69c520c1027470dccf085d6ad5e25",
+  "asked": "2026-11-18T13:26:34-06:00",
+  "on": "2026-11-18",
   "events": [
    {
     "title": "Romeo and Juliet",
@@ -1767,7 +1731,7 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "Shakespeare's tragedy of two young lovers caught in the feud between the Capulets and Montagues.",
+    "description": "Now playing at Bartell Theatre: the Capulets, Montagues, and two young lovers.",
     "category": "theater"
    },
    {
@@ -1776,7 +1740,7 @@
     "start": "12:00",
     "end": null,
     "price": null,
-    "description": "Ticketed showcase concluding the six-week Saturday Scene Study class, held on the Evjue Stage.",
+    "description": "Ticketed showcase concluding the six-week Saturday Scene Study class, on the Evjue Stage.",
     "category": "theater"
    }
   ]
@@ -1794,9 +1758,9 @@
   "events": []
  },
  "https://madisonorpheum.com/calendar/": {
-  "hash": "d1a15f2e3bd6a9f43e9a73c1d435fcc7aa5eaa14",
-  "asked": "2026-11-17T22:21:40-06:00",
-  "on": "2026-11-17",
+  "hash": "9f1e0f19e3f3f08fe98ea80dba507e5f142c1685",
+  "asked": "2026-11-18T13:26:40-06:00",
+  "on": "2026-11-18",
   "events": [
    {
     "title": "Campus Nights with Elevation Rhythm",
@@ -1804,7 +1768,7 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Goodsource Presents; with LOST & FOUND and Allison Eide. Doors 6:15 pm.",
+    "description": "Goodsource presents Campus Nights with Elevation Rhythm, with LOST & FOUND and Allison Eide. Doors 6:15 pm. Sold out.",
     "category": "music"
    },
    {
@@ -1813,7 +1777,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "FPC Live presents; two shows listed, times not given.",
+    "description": "FPC Live presents Nurse John, two shows listed. Times not stated on the page.",
     "category": "music"
    },
    {
@@ -1822,15 +1786,15 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Wisconsin Chamber Orchestra presents, featuring Mr. Chair & Wisconsin Chamber Orchestra; two shows, times not given.",
+    "description": "Wisconsin Chamber Orchestra presents A Charlie Brown Christmas, featuring Mr. Chair & Wisconsin Chamber Orchestra. Two shows listed. Times not stated on the page.",
     "category": "music"
    }
   ]
  },
  "https://www.overture.org/tickets-events/": {
-  "hash": "deecd4e1ee1f2d899f291aa20c2964c292aa4b62",
-  "asked": "2026-11-17T13:52:29-06:00",
-  "on": "2026-11-17",
+  "hash": "b12505ea884f6e46db69bde1653bde244a320757",
+  "asked": "2026-11-18T13:26:40-06:00",
+  "on": "2026-11-18",
   "events": [
    {
     "title": "Beni Daiko",
@@ -1838,7 +1802,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Performance at Overture Center; multiple showtimes listed.",
+    "description": "Multiple showtimes listed at Overture Center.",
     "category": "music"
    },
    {
@@ -1847,7 +1811,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Performance at Overture Center; multiple showtimes listed.",
+    "description": "Multiple showtimes listed at Overture Center.",
     "category": "music"
    },
    {
@@ -1856,7 +1820,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Performance at Overture Center; multiple showtimes listed.",
+    "description": "Multiple showtimes listed at Overture Center.",
     "category": "music"
    }
   ]
@@ -1926,9 +1890,9 @@
   "events": []
  },
  "https://madisonorpheum.com/event/kip-moore/": {
-  "hash": "7cff6f1b3c4b69430d5a2d928fc0b17afa550bb5",
-  "asked": "2026-11-17T13:52:28-06:00",
-  "on": "2026-11-17",
+  "hash": "f75a03decce183faa3a4f7cd30e7c1a653decac4",
+  "asked": "2026-11-18T13:26:41-06:00",
+  "on": "2026-11-18",
   "events": []
  },
  "https://rootedwi.org/get-involved/events-calendar/": {
@@ -1938,26 +1902,17 @@
   "events": []
  },
  "https://www.veronapubliclibrary.org/": {
-  "hash": "bfe4b0372a69436c60bc77e241bfe380ce8d97e5",
-  "asked": "2026-11-17T22:21:26-06:00",
-  "on": "2026-11-17",
+  "hash": "75aa80bbd361f3cb3bfb031921b7d4d725bfe708",
+  "asked": "2026-11-18T13:26:25-06:00",
+  "on": "2026-11-18",
   "events": [
-   {
-    "title": "Technology Tuesdays",
-    "date": "2026-11-17",
-    "start": null,
-    "end": null,
-    "price": null,
-    "description": "Drop-in help with your device or app.",
-    "category": "other"
-   },
    {
     "title": "Technology Tuesdays",
     "date": "2026-11-24",
     "start": null,
     "end": null,
     "price": null,
-    "description": "Drop-in help with your device or app.",
+    "description": "Drop-in help with your device or app on Tuesdays at Verona Public Library.",
     "category": "other"
    },
    {
@@ -1966,7 +1921,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Drop-in help with your device or app.",
+    "description": "Drop-in help with your device or app on Tuesdays at Verona Public Library.",
     "category": "other"
    }
   ]
@@ -1996,20 +1951,10 @@
   "events": []
  },
  "https://high-noon.com/event/dogpark/": {
-  "hash": "e4ecd009b994f775365b0fd4f42d4014756e1ca2",
-  "asked": "2026-11-17T22:20:28-06:00",
-  "on": "2026-11-17",
-  "events": [
-   {
-    "title": "The Last Waltz and Beyond",
-    "date": "2026-11-28",
-    "start": "20:00",
-    "end": null,
-    "price": null,
-    "description": "A Madison musician's tribute to The Band, presented by 94.9 WOLX. Doors 7:00 pm, show 8:00 pm.",
-    "category": "music"
-   }
-  ]
+  "hash": "e10d39dc909929494df7a67c508ded31399c4da1",
+  "asked": "2026-11-18T13:25:18-06:00",
+  "on": "2026-11-18",
+  "events": []
  },
  "https://thekickback.bar/premier-trivia-tuesday-nov-3/": {
   "hash": "25992f3a707c36f4ebbe1a9a479acec37b4b7959",
@@ -2236,26 +2181,17 @@
   "events": []
  },
  "https://www.sunprairiepubliclibrary.org/art-committee-and-gallery-shows": {
-  "hash": "245ebc3322aa42f428723d65ce7ff72e037410c3",
-  "asked": "2026-11-17T22:21:30-06:00",
-  "on": "2026-11-17",
+  "hash": "87b4b029193275a065ed49f8c00d122d6d58a211",
+  "asked": "2026-11-18T13:26:27-06:00",
+  "on": "2026-11-18",
   "events": [
-   {
-    "title": "The Nutcracker Storytime with Madison Ballet",
-    "date": "2026-11-18",
-    "start": "10:00",
-    "end": "10:45",
-    "price": null,
-    "description": "Nutcracker storytime with Madison Ballet, for family and children ages 0-12.",
-    "category": "dance"
-   },
    {
     "title": "Screenprint Design: hands-on poster making",
     "date": "2026-11-18",
     "start": "18:00",
     "end": "19:30",
     "price": null,
-    "description": "Hands-on poster making workshop in screenprint design, for teens and adults.",
+    "description": "Hands-on poster making workshop for teens and adults.",
     "category": "other"
    },
    {
@@ -2264,7 +2200,7 @@
     "start": "13:45",
     "end": "15:00",
     "price": null,
-    "description": "Dream Bus mobile library stop at Creekside and Westside Elementary, open to families, children, teens and adults.",
+    "description": "Mobile library visit at Creekside and Westside Elementary, for families, children, teens and adults.",
     "category": "other"
    },
    {
@@ -2273,8 +2209,8 @@
     "start": "15:00",
     "end": "15:30",
     "price": null,
-    "description": "Puppet theatre storytime for family and children ages 0-5.",
-    "category": "other"
+    "description": "Puppet theatre storytime for families and children ages 0-5.",
+    "category": "theater"
    },
    {
     "title": "Virtual Author Talk with Rebecca Roanhorse",
@@ -2282,8 +2218,17 @@
     "start": "18:00",
     "end": "19:00",
     "price": null,
-    "description": "Virtual author talk with Rebecca Roanhorse, for adults.",
+    "description": "Virtual author talk with Rebecca Roanhorse for adults.",
     "category": "other"
+   },
+   {
+    "title": "Puppet Theatre Storytime",
+    "date": "2026-11-19",
+    "start": "18:30",
+    "end": "19:00",
+    "price": null,
+    "description": "Evening puppet theatre storytime for families and children ages 0-5.",
+    "category": "theater"
    }
   ]
  },
@@ -2347,9 +2292,9 @@
   ]
  },
  "https://wandosbar.com/madison-downtown-wando-s-gameday-specials": {
-  "hash": "e30c049d8820b28e68de8aa8c2e27cbd0cd4fffb",
-  "asked": "2026-11-16T23:08:07-06:00",
-  "on": "2026-11-16",
+  "hash": "4b49d15aba300f39209f7daa612bef2a862f2d73",
+  "asked": "2026-11-18T13:25:26-06:00",
+  "on": "2026-11-18",
   "events": []
  },
  "https://thekickback.bar/premier-trivia-tuesday-nov-17/": {
@@ -2448,44 +2393,17 @@
   ]
  },
  "https://www.waunakeepubliclibrary.org/": {
-  "hash": "9468993f7c3e53bc54f64540dbdfe40ac1220666",
-  "asked": "2026-11-17T22:21:27-06:00",
-  "on": "2026-11-17",
+  "hash": "3b7b1c6c5b3f72f967ec406a692e745c6ae381f8",
+  "asked": "2026-11-18T13:26:26-06:00",
+  "on": "2026-11-18",
   "events": [
-   {
-    "title": "Baby Time",
-    "date": "2026-11-18",
-    "start": "09:45",
-    "end": "10:00",
-    "price": null,
-    "description": "Storytime with stories, rhymes, and lap songs for babies (0-18 months) and caregivers, followed by play time. No registration required.",
-    "category": "other"
-   },
-   {
-    "title": "A Good Yarn",
-    "date": "2026-11-18",
-    "start": "10:00",
-    "end": "12:00",
-    "price": null,
-    "description": "Bring your current knitting or crochet project for a social hour in the Library's Living Room.",
-    "category": "other"
-   },
-   {
-    "title": "Preschool Storytime",
-    "date": "2026-11-18",
-    "start": "10:45",
-    "end": "11:15",
-    "price": null,
-    "description": "Stories, songs, and rhymes for preschoolers (ages 3-5) and caregivers. No registration required.",
-    "category": "other"
-   },
    {
     "title": "Kids Club",
     "date": "2026-11-18",
     "start": "15:30",
     "end": "16:30",
     "price": null,
-    "description": "Club for grades K-3 with a different activity, craft, and brain break each month. Registration required.",
+    "description": "Monthly club for grades K-3 with a different activity, craft, and brain break. Registration required.",
     "category": "other"
    },
    {
@@ -2494,7 +2412,7 @@
     "start": "18:30",
     "end": "19:30",
     "price": 0,
-    "description": "Free educational program with retirement specialist Jake Zimmermann on Medicare parts A, B, C and D and paying for health care after retirement. Registration required.",
+    "description": "Free program with retirement specialist Jake Zimmermann on the parts of Medicare (A, B, C and D) and paying for health care after retirement. Registration required.",
     "category": "other"
    },
    {
@@ -2503,7 +2421,34 @@
     "start": "09:00",
     "end": "11:00",
     "price": null,
-    "description": "Adult game group playing Filipino-style Mahjong; instruction provided for beginners.",
+    "description": "Adult game group playing Mahjong (Filipino style); beginners welcome and taught.",
+    "category": "other"
+   },
+   {
+    "title": "Tiny Tots",
+    "date": "2026-11-19",
+    "start": "09:45",
+    "end": "10:00",
+    "price": null,
+    "description": "20-minute storytime with stories, rhymes, and songs for developmental ages 1-3 and caregivers. Registration not required.",
+    "category": "other"
+   },
+   {
+    "title": "PAWS to Read",
+    "date": "2026-11-19",
+    "start": "16:00",
+    "end": "17:00",
+    "price": null,
+    "description": "Children read stories to certified Pet Partners therapy dogs, 10 minutes per reader. Registration required; event listed as full.",
+    "category": "other"
+   },
+   {
+    "title": "Epic Worlds and Celestial Prophecies: Exploring the Between Earth and Sky Trilogy with Rebecca Roanhorse",
+    "date": "2026-11-19",
+    "start": "18:00",
+    "end": "19:00",
+    "price": null,
+    "description": "Virtual adult program with bestselling author Rebecca Roanhorse exploring her Between Earth and Sky trilogy.",
     "category": "other"
    }
   ]

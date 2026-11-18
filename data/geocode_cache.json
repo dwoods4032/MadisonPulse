@@ -1158,5 +1158,24 @@
   "lon": -87.913936,
   "address": "227 West Pleasant Street",
   "city": "Milwaukee"
+ },
+ "friends meeting house": null,
+ "edgewood high school": {
+  "lat": 43.059992,
+  "lon": -89.421441,
+  "address": "Edgewood College Drive",
+  "city": "Madison"
+ },
+ "isthmus montessori academy": {
+  "lat": 43.119193,
+  "lon": -89.354212,
+  "address": "1802 Pankratz Street",
+  "city": "Madison"
+ },
+ "olbrich gardens": {
+  "lat": 43.092979,
+  "lon": -89.336733,
+  "address": "3330 Atwood Avenue",
+  "city": "Madison"
  }
 }

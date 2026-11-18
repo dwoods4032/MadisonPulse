@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-17T22:21:47-06:00",
+ "generated_at": "2026-11-18T13:27:05-06:00",
  "venues_checked": 237,
- "venues_with_events": 65,
- "venues_with_feeds": 87,
- "events": 363,
- "filtered_out": 180,
+ "venues_with_events": 63,
+ "venues_with_feeds": 85,
+ "events": 339,
+ "filtered_out": 177,
  "venues": [
   {
    "name": "AI page reading",
@@ -13,12 +13,12 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 193,
+   "raw_events": 175,
    "error": "",
-   "calls": 21,
-   "tokens_in": 46353,
-   "tokens_out": 19307,
-   "est_cost_usd": 0.0143
+   "calls": 26,
+   "tokens_in": 56706,
+   "tokens_out": 24990,
+   "est_cost_usd": 0.0182
   },
   {
    "name": "Isthmus calendar",
@@ -27,8 +27,8 @@
    "feeds": [
     "calendar"
    ],
-   "raw_events": 150,
-   "error": "used today's copy (read once a day)"
+   "raw_events": 143,
+   "error": ""
   },
   {
    "name": "Bayview Community Center",
@@ -38,7 +38,7 @@
     "tribe",
     "jsonld"
    ],
-   "raw_events": 82,
+   "raw_events": 85,
    "error": ""
   },
   {
@@ -62,7 +62,7 @@
     "squarespace",
     "jsonld"
    ],
-   "raw_events": 37,
+   "raw_events": 38,
    "error": ""
   },
   {
@@ -76,7 +76,7 @@
     "jsonld",
     "jsonld"
    ],
-   "raw_events": 33,
+   "raw_events": 34,
    "error": ""
   },
   {
@@ -87,8 +87,22 @@
     "ical",
     "ical"
    ],
-   "raw_events": 28,
+   "raw_events": 30,
    "error": "ical: ConnectionError: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //www.mcfarlandlibrary.org/calendar/month (Caused by NameResolutionError(\"HTTPSConnection(host='https"
+  },
+  {
+   "name": "Lone Girl Tap Room And Pizza Company",
+   "kind": "bar",
+   "website": "https://thelonegirl.com",
+   "feeds": [
+    "tribe",
+    "jsonld",
+    "jsonld",
+    "jsonld",
+    "jsonld"
+   ],
+   "raw_events": 28,
+   "error": "tribe: ReadTimeout: HTTPSConnectionPool(host='thelonegirl.com', port=443): Read timed out. (read timeout=15)"
   },
   {
    "name": "Working Draft Beer Company",
@@ -115,7 +129,7 @@
     "jsonld",
     "jsonld"
    ],
-   "raw_events": 16,
+   "raw_events": 15,
    "error": ""
   },
   {
@@ -149,20 +163,6 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 12,
-   "error": ""
-  },
-  {
-   "name": "Lone Girl Tap Room And Pizza Company",
-   "kind": "bar",
-   "website": "https://thelonegirl.com",
-   "feeds": [
-    "tribe",
-    "jsonld",
-    "jsonld",
-    "jsonld",
-    "jsonld"
-   ],
    "raw_events": 11,
    "error": ""
   },
@@ -187,9 +187,9 @@
    "error": ""
   },
   {
-   "name": "High Noon Saloon",
+   "name": "Lazy Oaf Lounge",
    "kind": "bar",
-   "website": "https://www.high-noon.com/",
+   "website": "https://www.lazyoaflounge.com/",
    "feeds": [
     "ai"
    ],
@@ -197,9 +197,9 @@
    "error": ""
   },
   {
-   "name": "Lazy Oaf Lounge",
-   "kind": "bar",
-   "website": "https://www.lazyoaflounge.com/",
+   "name": "Pinney Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
    "feeds": [
     "ai"
    ],
@@ -217,25 +217,13 @@
    "error": ""
   },
   {
-   "name": "Bridge Lakepoint Waunona Neighborhood Center",
-   "kind": "community",
-   "website": "https://www.blwcenter.org/",
-   "feeds": [
-    "squarespace",
-    "jsonld",
-    "jsonld"
-   ],
-   "raw_events": 8,
-   "error": ""
-  },
-  {
-   "name": "Reindahl Park Pavillion",
-   "kind": "community",
-   "website": "https://www.cityofmadison.com/parks/find-a-park/reindahl/pavilion-at-the-imagination-center",
+   "name": "High Noon Saloon",
+   "kind": "bar",
+   "website": "https://www.high-noon.com/",
    "feeds": [
     "ai"
    ],
-   "raw_events": 8,
+   "raw_events": 9,
    "error": ""
   },
   {
@@ -249,49 +237,51 @@
    "error": ""
   },
   {
+   "name": "Bridge Lakepoint Waunona Neighborhood Center",
+   "kind": "community",
+   "website": "https://www.blwcenter.org/",
+   "feeds": [
+    "squarespace",
+    "jsonld",
+    "jsonld"
+   ],
+   "raw_events": 7,
+   "error": ""
+  },
+  {
+   "name": "Reindahl Park Pavillion",
+   "kind": "community",
+   "website": "https://www.cityofmadison.com/parks/find-a-park/reindahl/pavilion-at-the-imagination-center",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 7,
+   "error": ""
+  },
+  {
    "name": "Veterans Memorial Park",
    "kind": "veterans",
    "website": "https://www.cityofmadison.com/parks/find-a-park/park.cfm?id=1364",
    "feeds": [
     "ai"
    ],
-   "raw_events": 8,
-   "error": ""
-  },
-  {
-   "name": "Alicia Ashman Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
-   "feeds": [
-    "ai"
-   ],
    "raw_events": 7,
    "error": ""
   },
   {
-   "name": "Pinney Library",
+   "name": "Imagination Center",
    "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
+   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
    "feeds": [
     "ai"
    ],
-   "raw_events": 7,
+   "raw_events": 6,
    "error": ""
   },
   {
    "name": "Sequoya Library",
    "kind": "library",
    "website": "https://www.madisonpubliclibrary.org/sequoya",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 7,
-   "error": ""
-  },
-  {
-   "name": "Crystal Corner Bar",
-   "kind": "bar",
-   "website": "https://thecrystalcornerbar.com/",
    "feeds": [
     "ai"
    ],
@@ -309,19 +299,9 @@
    "error": ""
   },
   {
-   "name": "Gamma Ray Bar",
-   "kind": "bar",
-   "website": "https://gammaray.bar",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 5,
-   "error": ""
-  },
-  {
-   "name": "Imagination Center",
+   "name": "Alicia Ashman Library",
    "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
+   "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
    "feeds": [
     "ai"
    ],
@@ -332,26 +312,6 @@
    "name": "Monroe Street Library",
    "kind": "library",
    "website": "https://www.madisonpubliclibrary.org/monroe-street",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 5,
-   "error": ""
-  },
-  {
-   "name": "State Line Distillery",
-   "kind": "brewery",
-   "website": "https://www.statelinedistillery.com/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 5,
-   "error": ""
-  },
-  {
-   "name": "Verona Community Center",
-   "kind": "community",
-   "website": "https://www.veronawi.gov/941/Community-Center",
    "feeds": [
     "ai"
    ],
@@ -379,6 +339,16 @@
    "error": ""
   },
   {
+   "name": "Crystal Corner Bar",
+   "kind": "bar",
+   "website": "https://thecrystalcornerbar.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 4,
+   "error": ""
+  },
+  {
    "name": "Laurel Tavern",
    "kind": "bar",
    "website": "http://www.thelaureltavern.com",
@@ -400,22 +370,32 @@
    "error": ""
   },
   {
+   "name": "State Line Distillery",
+   "kind": "brewery",
+   "website": "https://www.statelinedistillery.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 4,
+   "error": ""
+  },
+  {
+   "name": "Verona Community Center",
+   "kind": "community",
+   "website": "https://www.veronawi.gov/941/Community-Center",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 4,
+   "error": ""
+  },
+  {
    "name": "Come Back Inn",
    "kind": "bar",
    "website": "https://comebackintavern.com/",
    "feeds": [
     "tribe",
     "jsonld"
-   ],
-   "raw_events": 3,
-   "error": ""
-  },
-  {
-   "name": "East Side Club",
-   "kind": "lodge",
-   "website": "https://escmadison.com",
-   "feeds": [
-    "ai"
    ],
    "raw_events": 3,
    "error": ""
@@ -459,16 +439,6 @@
    "feeds": [
     "squarespace",
     "jsonld"
-   ],
-   "raw_events": 3,
-   "error": ""
-  },
-  {
-   "name": "The Malt House",
-   "kind": "bar",
-   "website": "http://malthousetavern.com/",
-   "feeds": [
-    "ai"
    ],
    "raw_events": 3,
    "error": ""
@@ -531,31 +501,11 @@
    "error": ""
   },
   {
-   "name": "Central Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/central",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 2,
-   "error": ""
-  },
-  {
    "name": "Centro",
    "kind": "community",
    "website": "https://www.micentro.org/",
    "feeds": [
     "squarespace",
-    "ai"
-   ],
-   "raw_events": 2,
-   "error": ""
-  },
-  {
-   "name": "Flight Wine & Bourbon Bar",
-   "kind": "bar",
-   "website": "https://flightwi.com/",
-   "feeds": [
     "ai"
    ],
    "raw_events": 2,
@@ -602,6 +552,16 @@
    "error": ""
   },
   {
+   "name": "The Malt House",
+   "kind": "bar",
+   "website": "http://malthousetavern.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 2,
+   "error": ""
+  },
+  {
    "name": "Verona Public Library",
    "kind": "library",
    "website": "https://www.veronapubliclibrary.org/",
@@ -622,9 +582,29 @@
    "error": ""
   },
   {
+   "name": "Central Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/central",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 1,
+   "error": ""
+  },
+  {
    "name": "Doundrins Distilling",
    "kind": "brewery",
    "website": "https://doundrinsdistilling.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 1,
+   "error": ""
+  },
+  {
+   "name": "Flight Wine & Bourbon Bar",
+   "kind": "bar",
+   "website": "https://flightwi.com/",
    "feeds": [
     "ai"
    ],
@@ -1023,6 +1003,14 @@
    "error": ""
   },
   {
+   "name": "East Side Club",
+   "kind": "lodge",
+   "website": "https://escmadison.com",
+   "feeds": [],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
    "name": "Ebling Library",
    "kind": "library",
    "website": "https://ebling.library.wisc.edu/",
@@ -1081,6 +1069,14 @@
    ],
    "raw_events": 0,
    "error": "ical: PermissionError: robots.txt disallows https://calendar.google.com/calendar/ical/bnmftglj834vll16kahe1p9m58%40group.calendar.google.com/public/basic.ics; ical: PermissionError: robots.txt disallows https://calendar.google.com/calendar/ical/en.usa%23holiday%40group.v.calendar.google.com/public/basic.ics; ical: PermissionError: robots.txt disallows https://calendar.google.com/calendar/ical/khj1apqtd875hhj4javgr1a2t0%40group.calendar.google.com/public/basic.ics"
+  },
+  {
+   "name": "Gamma Ray Bar",
+   "kind": "bar",
+   "website": "https://gammaray.bar",
+   "feeds": [],
+   "raw_events": 0,
+   "error": "ai: ReadTimeout: HTTPSConnectionPool(host='gammaray.bar', port=443): Read timed out. (read timeout=15)"
   },
   {
    "name": "Garth's Brew Bar",
@@ -1366,7 +1362,7 @@
   {
    "name": "Madison Chocolate Company",
    "kind": "cafe",
-   "website": "https://www.madisonchocolatecompany.com",
+   "website": "https://madisonchocolate.com",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1374,7 +1370,7 @@
   {
    "name": "Madison Chocolate Company",
    "kind": "cafe",
-   "website": "https://madisonchocolate.com",
+   "website": "https://www.madisonchocolatecompany.com",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1385,7 +1381,7 @@
    "website": "https://madison-tap.com/",
    "feeds": [],
    "raw_events": 0,
-   "error": ""
+   "error": "ai: ReadTimeout: HTTPSConnectionPool(host='madison-tap.com', port=443): Read timed out. (read timeout=15)"
   },
   {
    "name": "Madison Youth Arts (MYArts)",
@@ -1695,7 +1691,7 @@
    "website": "https://www.shamrockbarandgrille.com/",
    "feeds": [],
    "raw_events": 0,
-   "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+   "error": "SSLError: HTTPSConnectionPool(host='www.shamrockbarandgrille.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in v"
   },
   {
    "name": "Slow Food UW Student Cafe",
