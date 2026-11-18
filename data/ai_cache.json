@@ -410,18 +410,27 @@
   ]
  },
  "https://www.lazyoaflounge.com/events": {
-  "hash": "d9fe6bbdd515f7b14a5257355517b225f56ffc2a",
-  "asked": "2026-11-17T13:51:12-06:00",
+  "hash": "f1633ae9ec881a81a0957829b59bff725fb9f324",
+  "asked": "2026-11-17T22:20:27-06:00",
   "on": "2026-11-17",
   "events": [
    {
-    "title": "Music Bingo",
-    "date": "2026-11-18",
-    "start": "18:30",
-    "end": null,
-    "price": null,
-    "description": "Music Bingo every Wednesday, starting 6:30PM.",
-    "category": "bingo"
+    "title": "Trivia Night",
+    "date": "2026-11-23",
+    "start": "19:00",
+    "end": "21:00",
+    "price": 0,
+    "description": "Test your knowledge with friends. Free to play, great prizes.",
+    "category": "trivia"
+   },
+   {
+    "title": "Trivia Night",
+    "date": "2026-11-30",
+    "start": "19:00",
+    "end": "21:00",
+    "price": 0,
+    "description": "Test your knowledge with friends. Free to play, great prizes.",
+    "category": "trivia"
    },
    {
     "title": "Karaoke Night",
@@ -429,17 +438,8 @@
     "start": "20:00",
     "end": "00:00",
     "price": null,
-    "description": "Sing your heart out or dress up for themed celebrations.",
+    "description": "Sing your heart out or dress up for a themed celebration.",
     "category": "karaoke"
-   },
-   {
-    "title": "Music Bingo",
-    "date": "2026-11-25",
-    "start": "18:30",
-    "end": null,
-    "price": null,
-    "description": "Music Bingo every Wednesday, starting 6:30PM.",
-    "category": "bingo"
    },
    {
     "title": "Karaoke Night",
@@ -447,8 +447,26 @@
     "start": "20:00",
     "end": "00:00",
     "price": null,
-    "description": "Sing your heart out or dress up for themed celebrations.",
+    "description": "Sing your heart out or dress up for a themed celebration.",
     "category": "karaoke"
+   },
+   {
+    "title": "Music Bingo",
+    "date": "2026-11-18",
+    "start": "18:30",
+    "end": null,
+    "price": null,
+    "description": "Weekly music bingo night.",
+    "category": "bingo"
+   },
+   {
+    "title": "Music Bingo",
+    "date": "2026-11-25",
+    "start": "18:30",
+    "end": null,
+    "price": null,
+    "description": "Weekly music bingo night.",
+    "category": "bingo"
    }
   ]
  },
@@ -958,8 +976,8 @@
  },
  "https://www.garthsbrewbar.com/": {
   "hash": "cc8d8eafdd76964ab5afa272b19306092ae68ff2",
-  "asked": "2026-11-14T20:39:19-06:00",
-  "on": "2026-11-14",
+  "asked": "2026-11-17T22:20:33-06:00",
+  "on": "2026-11-17",
   "events": []
  },
  "https://www.statelinedistillery.com/cocktail-lounge/events": {
@@ -1015,9 +1033,9 @@
   ]
  },
  "https://www.youngbloodbeerco.com/": {
-  "hash": "386466cd1cd61490cf343b8b2aa4eac0b9b40160",
-  "asked": "2026-11-16T23:08:13-06:00",
-  "on": "2026-11-16",
+  "hash": "83a1f0d585808418d93aea6afa5495330bf1ad85",
+  "asked": "2026-11-17T22:20:36-06:00",
+  "on": "2026-11-17",
   "events": []
  },
  "https://yaharabay.com/pages/event-space": {
@@ -1027,26 +1045,17 @@
   "events": []
  },
  "https://thekickback.bar/upcoming-events/": {
-  "hash": "2e6058f03ee2dfb5a505f7f5dd7017709571c5af",
-  "asked": "2026-11-15T20:44:10-06:00",
-  "on": "2026-11-15",
+  "hash": "4af5b8efcb4a69ec5d10337b0e3375f5851bfbcb",
+  "asked": "2026-11-17T22:20:40-06:00",
+  "on": "2026-11-17",
   "events": [
-   {
-    "title": "Premier Trivia Tuesday!",
-    "date": "2026-11-17",
-    "start": "18:30",
-    "end": null,
-    "price": null,
-    "description": "Tuesday Trivia at The Kickback",
-    "category": "trivia"
-   },
    {
     "title": "New Glarus – Craft Beer Pinball League",
     "date": "2026-11-18",
     "start": "18:30",
     "end": null,
     "price": null,
-    "description": "Craft beer pinball league night featuring New Glarus at Big Grove Brewery",
+    "description": "League night at Big Grove Brewery, craft beer and pinball.",
     "category": "other"
    },
    {
@@ -1055,7 +1064,7 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Friday night pinball event with craft beer",
+    "description": "Pinball night with craft beer.",
     "category": "other"
    },
    {
@@ -1064,7 +1073,7 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Super Smash Bros Ultimate tournament on Switch 2",
+    "description": "Smash Bros Ultimate tournament on Switch 2.",
     "category": "other"
    },
    {
@@ -1073,7 +1082,7 @@
     "start": "15:00",
     "end": null,
     "price": null,
-    "description": "Pop-up visit from the WanderLust Mobile Bookstore",
+    "description": "Pop-up visit from the WanderLust Mobile Bookstore.",
     "category": "other"
    },
    {
@@ -1082,7 +1091,7 @@
     "start": "15:00",
     "end": null,
     "price": null,
-    "description": "Patio dog event fundraiser for Fetch WI Rescue with craft beer",
+    "description": "Fundraiser for Fetch WI Rescue on the patio, with craft beer.",
     "category": "other"
    },
    {
@@ -1091,7 +1100,7 @@
     "start": "18:30",
     "end": null,
     "price": null,
-    "description": "Tuesday Trivia at The Kickback",
+    "description": "Tuesday trivia night.",
     "category": "trivia"
    },
    {
@@ -1100,8 +1109,17 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Friday night pinball event with craft beer",
+    "description": "Pinball night with craft beer.",
     "category": "other"
+   },
+   {
+    "title": "Premier Trivia Tuesday!",
+    "date": "2026-12-01",
+    "start": "18:30",
+    "end": null,
+    "price": null,
+    "description": "Tuesday trivia night.",
+    "category": "trivia"
    }
   ]
  },
@@ -1208,8 +1226,8 @@
  },
  "https://colectivo.com/pages/on-the-square": {
   "hash": "3ae5f26864a3bf3596a39c57df708278495ce5df",
-  "asked": "2026-11-14T20:39:31-06:00",
-  "on": "2026-11-14",
+  "asked": "2026-11-17T22:20:42-06:00",
+  "on": "2026-11-17",
   "events": []
  },
  "https://union.wisc.edu/events-and-activities": {
@@ -1226,8 +1244,8 @@
  },
  "https://colectivo.com/pages/monroe-street": {
   "hash": "9892b266187b17da7f1159e8259f5ca702113a62",
-  "asked": "2026-11-14T20:39:32-06:00",
-  "on": "2026-11-14",
+  "asked": "2026-11-17T22:20:44-06:00",
+  "on": "2026-11-17",
   "events": []
  },
  "https://colectivo.com/pages/madison-cafes": {
@@ -1259,8 +1277,8 @@
   ]
  },
  "https://merciescoffeewi.com/": {
-  "hash": "6c2bb77f8dc2baab583279dee4d3c668574b845c",
-  "asked": "2026-11-17T13:51:40-06:00",
+  "hash": "e0e5543998eda57aa5ba699c67c1a98090e70794",
+  "asked": "2026-11-17T22:20:56-06:00",
   "on": "2026-11-17",
   "events": []
  },
@@ -1518,8 +1536,8 @@
   "events": []
  },
  "https://www.madisonpubliclibrary.org/spaces/events": {
-  "hash": "12301045ce17418cd8f6658f716a452f562b7abe",
-  "asked": "2026-11-17T13:52:16-06:00",
+  "hash": "742ead072a2ff5f4152ce2eb9978c5c9c6fd106d",
+  "asked": "2026-11-17T22:21:29-06:00",
   "on": "2026-11-17",
   "events": []
  },
@@ -1564,35 +1582,17 @@
   "events": []
  },
  "https://www.sunprairiepubliclibrary.org/home-delivery-service": {
-  "hash": "5427301b70c4aa64a01d3c4a7634e68bc1bb15bf",
-  "asked": "2026-11-17T13:52:13-06:00",
+  "hash": "911604d659741251de6ba6b667075261ba4dbfcd",
+  "asked": "2026-11-17T22:21:26-06:00",
   "on": "2026-11-17",
   "events": [
-   {
-    "title": "Teen Creativity Club",
-    "date": "2026-11-17",
-    "start": "16:00",
-    "end": "18:00",
-    "price": null,
-    "description": "Library program for teens, Sun Prairie Public Library.",
-    "category": "other"
-   },
-   {
-    "title": "Evening Book Club",
-    "date": "2026-11-17",
-    "start": "19:00",
-    "end": "20:00",
-    "price": null,
-    "description": "Adult book club at Sun Prairie Public Library.",
-    "category": "other"
-   },
    {
     "title": "The Nutcracker Storytime with Madison Ballet",
     "date": "2026-11-18",
     "start": "10:00",
     "end": "10:45",
     "price": null,
-    "description": "Family storytime featuring Madison Ballet, for ages 0-12.",
+    "description": "Nutcracker storytime with Madison Ballet for families and children ages 0-12.",
     "category": "dance"
    },
    {
@@ -1605,12 +1605,30 @@
     "category": "other"
    },
    {
-    "title": "Dream Bus Mobile Library at Creekside and Westside Elementary",
+    "title": "Dream Bus Mobile Library @ Creekside and Westside Elementary",
     "date": "2026-11-19",
     "start": "13:45",
     "end": "15:00",
     "price": null,
-    "description": "Mobile library stop at Creekside and Westside Elementary for families, children, teens and adults.",
+    "description": "Mobile library visit at Creekside and Westside Elementary for families, children, teens and adults.",
+    "category": "other"
+   },
+   {
+    "title": "Puppet Theatre Storytime",
+    "date": "2026-11-19",
+    "start": "15:00",
+    "end": "15:30",
+    "price": null,
+    "description": "Puppet theatre storytime for families and children ages 0-5.",
+    "category": "theater"
+   },
+   {
+    "title": "Virtual Author Talk with Rebecca Roanhorse",
+    "date": "2026-11-19",
+    "start": "18:00",
+    "end": "19:00",
+    "price": null,
+    "description": "Virtual author talk with Rebecca Roanhorse for adults.",
     "category": "other"
    }
   ]
@@ -1648,8 +1666,8 @@
  },
  "https://escmadison.com/events": {
   "hash": "0c7a3ad44bcce5505880f2229eebf42fe543fd42",
-  "asked": "2026-11-14T20:40:13-06:00",
-  "on": "2026-11-14",
+  "asked": "2026-11-17T22:21:27-06:00",
+  "on": "2026-11-17",
   "events": [
    {
     "title": "Open Mic w/ Martin Hunt",
@@ -1657,7 +1675,7 @@
     "start": "18:00",
     "end": "21:00",
     "price": 0,
-    "description": "Host Martin Hunt's open mic for all musical skill levels. Free. Bar opens at 5:00pm; food available from the grill.",
+    "description": "Host Martin Hunt's open mic for all skill levels. Free. Bar opens 5pm; food available from the grill.",
     "category": "open_mic"
    },
    {
@@ -1666,26 +1684,25 @@
     "start": "18:00",
     "end": "21:00",
     "price": 0,
-    "description": "Host Martin Hunt's open mic for all musical skill levels. Free. Bar opens at 5:00pm; food available from the grill.",
+    "description": "Host Martin Hunt's open mic for all skill levels. Free. Bar opens 5pm; food available from the grill.",
+    "category": "open_mic"
+   },
+   {
+    "title": "Open Mic w/ Martin Hunt",
+    "date": "2026-12-01",
+    "start": "18:00",
+    "end": "21:00",
+    "price": 0,
+    "description": "Host Martin Hunt's open mic for all skill levels. Free. Bar opens 5pm; food available from the grill.",
     "category": "open_mic"
    }
   ]
  },
  "https://www.madisonpubliclibrary.org/spaces/events/search": {
-  "hash": "db0d75161a3e1b0638ba6aef777839d9278e24c2",
-  "asked": "2026-11-17T13:52:20-06:00",
+  "hash": "3432a5a03594762d4734d6d2c943ba84e2230155",
+  "asked": "2026-11-17T22:21:42-06:00",
   "on": "2026-11-17",
-  "events": [
-   {
-    "title": "Intro to Filmmaking with Nate",
-    "date": "2026-11-17",
-    "start": "18:00",
-    "end": "19:30",
-    "price": null,
-    "description": "Introductory filmmaking class at Imagination Center Library for people who want to learn to make movies.",
-    "category": "other"
-   }
-  ]
+  "events": []
  },
  "https://artlitlab.org/calendar": {
   "hash": "2571cd73d5d73a17938e3112334fc4a792f89c13",
@@ -1777,8 +1794,8 @@
   "events": []
  },
  "https://madisonorpheum.com/calendar/": {
-  "hash": "5dbe6f3ba3f7185ebc009bf463ce852aa36cdb53",
-  "asked": "2026-11-17T13:52:26-06:00",
+  "hash": "d1a15f2e3bd6a9f43e9a73c1d435fcc7aa5eaa14",
+  "asked": "2026-11-17T22:21:40-06:00",
   "on": "2026-11-17",
   "events": [
    {
@@ -1787,7 +1804,7 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Goodsource Presents with LOST & FOUND and Allison Eide. Doors 6:15 pm.",
+    "description": "Goodsource Presents; with LOST & FOUND and Allison Eide. Doors 6:15 pm.",
     "category": "music"
    },
    {
@@ -1796,7 +1813,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "FPC Live presents Nurse John, two shows.",
+    "description": "FPC Live presents; two shows listed, times not given.",
     "category": "music"
    },
    {
@@ -1805,7 +1822,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Wisconsin Chamber Orchestra presents A Charlie Brown Christmas featuring Mr. Chair, two shows.",
+    "description": "Wisconsin Chamber Orchestra presents, featuring Mr. Chair & Wisconsin Chamber Orchestra; two shows, times not given.",
     "category": "music"
    }
   ]
@@ -1921,26 +1938,17 @@
   "events": []
  },
  "https://www.veronapubliclibrary.org/": {
-  "hash": "f52bc37dea3b8a072c7823b66c500f487232c822",
-  "asked": "2026-11-16T15:03:18-06:00",
-  "on": "2026-11-16",
+  "hash": "bfe4b0372a69436c60bc77e241bfe380ce8d97e5",
+  "asked": "2026-11-17T22:21:26-06:00",
+  "on": "2026-11-17",
   "events": [
-   {
-    "title": "Late Fall Story Times",
-    "date": "2026-11-16",
-    "start": null,
-    "end": null,
-    "price": null,
-    "description": "Ongoing story times return at the Verona Public Library.",
-    "category": "other"
-   },
    {
     "title": "Technology Tuesdays",
     "date": "2026-11-17",
     "start": null,
     "end": null,
     "price": null,
-    "description": "Drop-in with your device for help with a device or app.",
+    "description": "Drop-in help with your device or app.",
     "category": "other"
    },
    {
@@ -1949,7 +1957,16 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Drop-in with your device for help with a device or app.",
+    "description": "Drop-in help with your device or app.",
+    "category": "other"
+   },
+   {
+    "title": "Technology Tuesdays",
+    "date": "2026-12-01",
+    "start": null,
+    "end": null,
+    "price": null,
+    "description": "Drop-in help with your device or app.",
     "category": "other"
    }
   ]
@@ -1979,10 +1996,20 @@
   "events": []
  },
  "https://high-noon.com/event/dogpark/": {
-  "hash": "81b265ed75dec1268a128f4c9d2cd38e5996bafa",
-  "asked": "2026-11-17T13:51:16-06:00",
+  "hash": "e4ecd009b994f775365b0fd4f42d4014756e1ca2",
+  "asked": "2026-11-17T22:20:28-06:00",
   "on": "2026-11-17",
-  "events": []
+  "events": [
+   {
+    "title": "The Last Waltz and Beyond",
+    "date": "2026-11-28",
+    "start": "20:00",
+    "end": null,
+    "price": null,
+    "description": "A Madison musician's tribute to The Band, presented by 94.9 WOLX. Doors 7:00 pm, show 8:00 pm.",
+    "category": "music"
+   }
+  ]
  },
  "https://thekickback.bar/premier-trivia-tuesday-nov-3/": {
   "hash": "25992f3a707c36f4ebbe1a9a479acec37b4b7959",
@@ -2026,17 +2053,26 @@
   ]
  },
  "https://www.cruciblemadison.com/calendar": {
-  "hash": "d5d90ce26021269634a6d9a8b9f475169416df75",
-  "asked": "2026-11-17T13:51:12-06:00",
+  "hash": "1f312aa7650e60e0096eb1a8217c4ed372384974",
+  "asked": "2026-11-17T22:20:29-06:00",
   "on": "2026-11-17",
   "events": [
+   {
+    "title": "Lucid Tuesday",
+    "date": "2026-11-17",
+    "start": "19:00",
+    "end": null,
+    "price": 5,
+    "description": "Phonk and bass night with DJs Dashwoo and Hikikomori. 21+.",
+    "category": "music"
+   },
    {
     "title": "Crucible Karaoke",
     "date": "2026-11-18",
     "start": "18:30",
     "end": null,
     "price": null,
-    "description": "Karaoke powered by Songbooks Online (Show ID: SPIKE). Doors 6:00 PM, singing starts 6:30. 21+.",
+    "description": "Doors 6:00 PM, singing starts 6:30 PM. Powered by Songbooks Online, Show ID SPIKE. 21+.",
     "category": "karaoke"
    },
    {
@@ -2045,7 +2081,7 @@
     "start": "19:00",
     "end": null,
     "price": 15,
-    "description": "Infotainment show mixing a PowerPoint party with stand-up comedy. Doors 6:30 PM. $15 advance, $20 day of, $10 cash with student ID. ",
+    "description": "Infotainment show mixing TED-style talks with stand-up comedy. $15 advance, $20 day of, $10 cash with student ID. Doors 6:30 PM.",
     "category": "comedy"
    },
    {
@@ -2063,7 +2099,7 @@
     "start": "20:00",
     "end": null,
     "price": 15,
-    "description": "Fantastical aerial burlesque adventure with mischievous fae and mystical sirens. Doors 7:00 PM. 21+.",
+    "description": "Fantastical aerial burlesque show with fae, sirens and magic themes. Doors 7:00 PM. 21+.",
     "category": "other"
    },
    {
@@ -2072,8 +2108,17 @@
     "start": "23:59",
     "end": null,
     "price": 8,
-    "description": "Midnight screening with Madison's Velvet Darkness shadow cast. Doors 11:00 PM. $8, $13 under 21. 18+.",
+    "description": "Shadow cast screening of Rocky Horror, midnight screening. $8, $13 under 21. Doors 11:00 PM. 18+.",
     "category": "film"
+   },
+   {
+    "title": "Burlesque Gotz Skillz 2026 - 5th Annual Improv Burlesque Competition",
+    "date": "2026-11-21",
+    "start": "12:00",
+    "end": null,
+    "price": 20,
+    "description": "Improv burlesque competition at Crucible Nightclub. Tickets start at $20.",
+    "category": "other"
    },
    {
     "title": "Masquerade: Impurity Ball",
@@ -2081,7 +2126,7 @@
     "start": "21:00",
     "end": null,
     "price": 10,
-    "description": "Madison's annual fetish ball with stage acts and go-go dancers. Doors 9:00 PM. Dress code: latex, leather, vinyl, chains, club wear or evening attire. 21+.",
+    "description": "Madison's annual fetish ball with stage acts and go-go dancers. Dress code: latex, leather, vinyl, chains, club wear or evening attire. Doors 9:00 PM. 21+.",
     "category": "other"
    },
    {
@@ -2090,7 +2135,7 @@
     "start": "18:00",
     "end": null,
     "price": 0,
-    "description": "Low-pressure free social event for making friends. No cover. 21+. Held 2nd and 4th Mondays.",
+    "description": "Free low-pressure social event. Recurs 2nd and 4th Mondays. 21+.",
     "category": "other"
    },
    {
@@ -2099,7 +2144,7 @@
     "start": "18:30",
     "end": null,
     "price": null,
-    "description": "Karaoke powered by Songbooks Online (Show ID: SPIKE). Doors 6:00 PM, singing starts 6:30. 21+.",
+    "description": "Doors 6:00 PM, singing starts 6:30 PM. Powered by Songbooks Online, Show ID SPIKE. 21+.",
     "category": "karaoke"
    },
    {
@@ -2108,7 +2153,7 @@
     "start": "20:30",
     "end": null,
     "price": null,
-    "description": "Monthly 21+ event. No pictures or recordings of any kind allowed, including selfies, in any area.",
+    "description": "Monthly 21+ event. No photos or recordings of any kind allowed, including selfies.",
     "category": "other"
    }
   ]
@@ -2191,35 +2236,17 @@
   "events": []
  },
  "https://www.sunprairiepubliclibrary.org/art-committee-and-gallery-shows": {
-  "hash": "583557738d784449d3f203ce9cb65ada043991b8",
-  "asked": "2026-11-17T13:52:16-06:00",
+  "hash": "245ebc3322aa42f428723d65ce7ff72e037410c3",
+  "asked": "2026-11-17T22:21:30-06:00",
   "on": "2026-11-17",
   "events": [
-   {
-    "title": "Teen Creativity Club",
-    "date": "2026-11-17",
-    "start": "16:00",
-    "end": "18:00",
-    "price": null,
-    "description": "Creativity club at the Sun Prairie Public Library for teens.",
-    "category": "other"
-   },
-   {
-    "title": "Evening Book Club",
-    "date": "2026-11-17",
-    "start": "19:00",
-    "end": "20:00",
-    "price": null,
-    "description": "Evening book club at the Sun Prairie Public Library for adults.",
-    "category": "other"
-   },
    {
     "title": "The Nutcracker Storytime with Madison Ballet",
     "date": "2026-11-18",
     "start": "10:00",
     "end": "10:45",
     "price": null,
-    "description": "Nutcracker storytime with Madison Ballet for families and children ages 0-12.",
+    "description": "Nutcracker storytime with Madison Ballet, for family and children ages 0-12.",
     "category": "dance"
    },
    {
@@ -2228,7 +2255,7 @@
     "start": "18:00",
     "end": "19:30",
     "price": null,
-    "description": "Hands-on screenprint poster making for teens and adults.",
+    "description": "Hands-on poster making workshop in screenprint design, for teens and adults.",
     "category": "other"
    },
    {
@@ -2237,7 +2264,25 @@
     "start": "13:45",
     "end": "15:00",
     "price": null,
-    "description": "Dream Bus mobile library stop at Creekside and Westside Elementary for families, children, teens and adults.",
+    "description": "Dream Bus mobile library stop at Creekside and Westside Elementary, open to families, children, teens and adults.",
+    "category": "other"
+   },
+   {
+    "title": "Puppet Theatre Storytime",
+    "date": "2026-11-19",
+    "start": "15:00",
+    "end": "15:30",
+    "price": null,
+    "description": "Puppet theatre storytime for family and children ages 0-5.",
+    "category": "other"
+   },
+   {
+    "title": "Virtual Author Talk with Rebecca Roanhorse",
+    "date": "2026-11-19",
+    "start": "18:00",
+    "end": "19:00",
+    "price": null,
+    "description": "Virtual author talk with Rebecca Roanhorse, for adults.",
     "category": "other"
    }
   ]
@@ -2403,44 +2448,17 @@
   ]
  },
  "https://www.waunakeepubliclibrary.org/": {
-  "hash": "b7c8b3989dacdcb66e80700080e2010608ddef2d",
-  "asked": "2026-11-17T13:52:12-06:00",
+  "hash": "9468993f7c3e53bc54f64540dbdfe40ac1220666",
+  "asked": "2026-11-17T22:21:27-06:00",
   "on": "2026-11-17",
   "events": [
-   {
-    "title": "Consumer Reports 101",
-    "date": "2026-11-17",
-    "start": "13:30",
-    "end": "14:30",
-    "price": null,
-    "description": "Learn to search Consumer Reports' online database, free with your library card. Registration required.",
-    "category": "other"
-   },
-   {
-    "title": "Teen Tech Take-Apart",
-    "date": "2026-11-17",
-    "start": "16:30",
-    "end": "17:30",
-    "price": null,
-    "description": "For teens and preteens (grades 5 and up): take apart old electronics with provided tools.",
-    "category": "other"
-   },
-   {
-    "title": "Books in the Overlook",
-    "date": "2026-11-17",
-    "start": "18:30",
-    "end": "19:45",
-    "price": null,
-    "description": "Adult book club discussion in the Overlook.",
-    "category": "other"
-   },
    {
     "title": "Baby Time",
     "date": "2026-11-18",
     "start": "09:45",
     "end": "10:00",
     "price": null,
-    "description": "Stories, rhymes and lap songs for babies (ages 0-18 months) and caregivers, followed by play time. No registration required.",
+    "description": "Storytime with stories, rhymes, and lap songs for babies (0-18 months) and caregivers, followed by play time. No registration required.",
     "category": "other"
    },
    {
@@ -2449,7 +2467,7 @@
     "start": "10:00",
     "end": "12:00",
     "price": null,
-    "description": "Adult knitting and crochet social hour in the Living Room. Bring your current project.",
+    "description": "Bring your current knitting or crochet project for a social hour in the Library's Living Room.",
     "category": "other"
    },
    {
@@ -2458,7 +2476,34 @@
     "start": "10:45",
     "end": "11:15",
     "price": null,
-    "description": "Stories, songs and rhymes for preschoolers (ages 3-5) and caregivers. No registration required.",
+    "description": "Stories, songs, and rhymes for preschoolers (ages 3-5) and caregivers. No registration required.",
+    "category": "other"
+   },
+   {
+    "title": "Kids Club",
+    "date": "2026-11-18",
+    "start": "15:30",
+    "end": "16:30",
+    "price": null,
+    "description": "Club for grades K-3 with a different activity, craft, and brain break each month. Registration required.",
+    "category": "other"
+   },
+   {
+    "title": "Medicare 101",
+    "date": "2026-11-18",
+    "start": "18:30",
+    "end": "19:30",
+    "price": 0,
+    "description": "Free educational program with retirement specialist Jake Zimmermann on Medicare parts A, B, C and D and paying for health care after retirement. Registration required.",
+    "category": "other"
+   },
+   {
+    "title": "Good Morning Games",
+    "date": "2026-11-19",
+    "start": "09:00",
+    "end": "11:00",
+    "price": null,
+    "description": "Adult game group playing Filipino-style Mahjong; instruction provided for beginners.",
     "category": "other"
    }
   ]

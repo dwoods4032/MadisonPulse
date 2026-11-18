@@ -3209,25 +3209,10 @@
   "why": "",
   "checked": "2026-11-16T23:11:45.779517-06:00"
  },
- "https://www.ticketmaster.com/event/Z7r9jZ1AAv34b": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-11T12:44:03.156551-06:00"
- },
  "https://www.cafecoda.club/events-1/tango-classsocial-by-madison-tango-society-tybcn-cpa6k-d3s5m-tzwnl-x3hj8-cp48m-z5lgd-c6kyy-dxfs6-f8rrm-ynaa6-pdnf2-5c27n-aafxh-t5ajm-tshpj-hdb66-b4z7r-4ekt8-kxt45": {
   "ok": true,
   "why": "",
   "checked": "2026-11-11T12:44:03.156557-06:00"
- },
- "https://www.ticketmaster.com/event/Z7r9jZ1A70yJe": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-11T12:44:03.156562-06:00"
- },
- "https://www.workingdraftbeer.com/events/2026/11/17/astronomy-on-tap": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-11T12:44:03.156567-06:00"
  },
  "https://thelonegirl.com/event/lone-girl-brewing-wednesday-trivia-2/": {
   "ok": true,
@@ -3472,22 +3457,22 @@
  "https://www.sunprairiepubliclibrary.org/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-10T20:48:25.202890-06:00"
+  "checked": "2026-11-17T22:21:47.858812-06:00"
  },
  "https://iwcmadison.com/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-10T20:48:28.607292-06:00"
+  "checked": "2026-11-17T22:21:49.753341-06:00"
  },
  "https://www.cafecoda.club/events-1/tango-classsocial-by-madison-tango-society-tybcn-cpa6k-d3s5m-tzwnl-x3hj8-cp48m-z5lgd-c6kyy-dxfs6-f8rrm-ynaa6-pdnf2-5c27n-aafxh-t5ajm-tshpj-hdb66-b4z7r-4ekt8-kxt45-x8kpd": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-10T20:48:28.607319-06:00"
+  "checked": "2026-11-17T22:21:49.753370-06:00"
  },
  "https://www.ticketmaster.com/event/Z7r9jZ1A7x_77": {
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-10T20:48:28.607326-06:00"
+  "checked": "2026-11-17T22:21:49.753380-06:00"
  },
  "https://www.lazyoaflounge.com/": {
   "ok": true,
@@ -3679,11 +3664,6 @@
   "why": "",
   "checked": "2026-11-15T20:45:11.588226-06:00"
  },
- "https://statestreetbrats.com/event/northwestern-wisconsin-20261117/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-15T20:45:11.588234-06:00"
- },
  "https://bayviewfoundation.org/event/zumba/2026-11-24/": {
   "ok": true,
   "why": "",
@@ -3838,5 +3818,20 @@
   "ok": true,
   "why": "",
   "checked": "2026-11-17T13:52:54.777907-06:00"
+ },
+ "https://gammaray.bar": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-17T22:21:47.858838-06:00"
+ },
+ "https://bayviewfoundation.org/event/zumba/2026-12-01/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-17T22:21:49.753388-06:00"
+ },
+ "https://www.cafecoda.club/events-1/tango-classsocial-by-madison-tango-society-tybcn-cpa6k-d3s5m-tzwnl-x3hj8-cp48m-z5lgd-c6kyy-dxfs6-f8rrm-ynaa6-pdnf2-5c27n-aafxh-t5ajm-tshpj-hdb66-b4z7r-4ekt8-kxt45-x8kpd-dgj4b": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-17T22:21:49.753396-06:00"
  }
 }

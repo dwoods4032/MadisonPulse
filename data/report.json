@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-17T13:52:54-06:00",
+ "generated_at": "2026-11-17T22:21:47-06:00",
  "venues_checked": 237,
- "venues_with_events": 64,
- "venues_with_feeds": 86,
- "events": 357,
- "filtered_out": 178,
+ "venues_with_events": 65,
+ "venues_with_feeds": 87,
+ "events": 363,
+ "filtered_out": 180,
  "venues": [
   {
    "name": "AI page reading",
@@ -13,12 +13,12 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 180,
+   "raw_events": 193,
    "error": "",
-   "calls": 23,
-   "tokens_in": 49573,
-   "tokens_out": 19407,
-   "est_cost_usd": 0.0147
+   "calls": 21,
+   "tokens_in": 46353,
+   "tokens_out": 19307,
+   "est_cost_usd": 0.0143
   },
   {
    "name": "Isthmus calendar",
@@ -28,7 +28,7 @@
     "calendar"
    ],
    "raw_events": 150,
-   "error": "could not connect (ReadTimeout)"
+   "error": "used today's copy (read once a day)"
   },
   {
    "name": "Bayview Community Center",
@@ -48,7 +48,7 @@
    "feeds": [
     "ticketmaster"
    ],
-   "raw_events": 44,
+   "raw_events": 42,
    "error": ""
   },
   {
@@ -87,7 +87,7 @@
     "ical",
     "ical"
    ],
-   "raw_events": 31,
+   "raw_events": 28,
    "error": "ical: ConnectionError: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //www.mcfarlandlibrary.org/calendar/month (Caused by NameResolutionError(\"HTTPSConnection(host='https"
   },
   {
@@ -101,7 +101,7 @@
     "jsonld",
     "jsonld"
    ],
-   "raw_events": 30,
+   "raw_events": 28,
    "error": ""
   },
   {
@@ -125,7 +125,7 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 13,
+   "raw_events": 14,
    "error": ""
   },
   {
@@ -138,6 +138,16 @@
     "jsonld",
     "jsonld",
     "jsonld"
+   ],
+   "raw_events": 12,
+   "error": ""
+  },
+  {
+   "name": "Crucible",
+   "kind": "bar",
+   "website": "https://www.cruciblemadison.com/",
+   "feeds": [
+    "ai"
    ],
    "raw_events": 12,
    "error": ""
@@ -167,9 +177,19 @@
    "error": ""
   },
   {
-   "name": "Crucible",
+   "name": "Gib's Bar",
    "kind": "bar",
-   "website": "https://www.cruciblemadison.com/",
+   "website": "https://www.gibs.bar/",
+   "feeds": [
+    "squarespace"
+   ],
+   "raw_events": 10,
+   "error": ""
+  },
+  {
+   "name": "High Noon Saloon",
+   "kind": "bar",
+   "website": "https://www.high-noon.com/",
    "feeds": [
     "ai"
    ],
@@ -177,11 +197,11 @@
    "error": ""
   },
   {
-   "name": "Gib's Bar",
+   "name": "Lazy Oaf Lounge",
    "kind": "bar",
-   "website": "https://www.gibs.bar/",
+   "website": "https://www.lazyoaflounge.com/",
    "feeds": [
-    "squarespace"
+    "ai"
    ],
    "raw_events": 10,
    "error": ""
@@ -197,26 +217,6 @@
    "error": ""
   },
   {
-   "name": "The Kickback",
-   "kind": "bar",
-   "website": "https://thekickback.bar/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 10,
-   "error": ""
-  },
-  {
-   "name": "High Noon Saloon",
-   "kind": "bar",
-   "website": "https://www.high-noon.com/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 9,
-   "error": ""
-  },
-  {
    "name": "Bridge Lakepoint Waunona Neighborhood Center",
    "kind": "community",
    "website": "https://www.blwcenter.org/",
@@ -229,9 +229,29 @@
    "error": ""
   },
   {
-   "name": "Lazy Oaf Lounge",
+   "name": "Reindahl Park Pavillion",
+   "kind": "community",
+   "website": "https://www.cityofmadison.com/parks/find-a-park/reindahl/pavilion-at-the-imagination-center",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 8,
+   "error": ""
+  },
+  {
+   "name": "The Kickback",
    "kind": "bar",
-   "website": "https://www.lazyoaflounge.com/",
+   "website": "https://thekickback.bar/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 8,
+   "error": ""
+  },
+  {
+   "name": "Veterans Memorial Park",
+   "kind": "veterans",
+   "website": "https://www.cityofmadison.com/parks/find-a-park/park.cfm?id=1364",
    "feeds": [
     "ai"
    ],
@@ -249,9 +269,9 @@
    "error": ""
   },
   {
-   "name": "Monroe Street Library",
+   "name": "Pinney Library",
    "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/monroe-street",
+   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
    "feeds": [
     "ai"
    ],
@@ -259,19 +279,9 @@
    "error": ""
   },
   {
-   "name": "Reindahl Park Pavillion",
-   "kind": "community",
-   "website": "https://www.cityofmadison.com/parks/find-a-park/reindahl/pavilion-at-the-imagination-center",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 7,
-   "error": ""
-  },
-  {
-   "name": "Veterans Memorial Park",
-   "kind": "veterans",
-   "website": "https://www.cityofmadison.com/parks/find-a-park/park.cfm?id=1364",
+   "name": "Sequoya Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/sequoya",
    "feeds": [
     "ai"
    ],
@@ -289,36 +299,6 @@
    "error": ""
   },
   {
-   "name": "Imagination Center",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 6,
-   "error": ""
-  },
-  {
-   "name": "Pinney Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 6,
-   "error": ""
-  },
-  {
-   "name": "Sequoya Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/sequoya",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 6,
-   "error": ""
-  },
-  {
    "name": "Waunakee Public Library",
    "kind": "library",
    "website": "https://www.waunakeepubliclibrary.org/",
@@ -326,6 +306,36 @@
     "ai"
    ],
    "raw_events": 6,
+   "error": ""
+  },
+  {
+   "name": "Gamma Ray Bar",
+   "kind": "bar",
+   "website": "https://gammaray.bar",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 5,
+   "error": ""
+  },
+  {
+   "name": "Imagination Center",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 5,
+   "error": ""
+  },
+  {
+   "name": "Monroe Street Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/monroe-street",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 5,
    "error": ""
   },
   {
@@ -401,6 +411,16 @@
    "error": ""
   },
   {
+   "name": "East Side Club",
+   "kind": "lodge",
+   "website": "https://escmadison.com",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 3,
+   "error": ""
+  },
+  {
    "name": "Orpheum Theatre",
    "kind": "venue",
    "website": "https://madisonorpheum.com/",
@@ -427,6 +447,17 @@
    "feeds": [
     "jsonld",
     "jsonld",
+    "jsonld"
+   ],
+   "raw_events": 3,
+   "error": ""
+  },
+  {
+   "name": "Textile Arts Center of Madison",
+   "kind": "venue",
+   "website": "https://www.textileartsmadison.org/",
+   "feeds": [
+    "squarespace",
     "jsonld"
    ],
    "raw_events": 3,
@@ -500,21 +531,21 @@
    "error": ""
   },
   {
-   "name": "Centro",
-   "kind": "community",
-   "website": "https://www.micentro.org/",
+   "name": "Central Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/central",
    "feeds": [
-    "squarespace",
     "ai"
    ],
    "raw_events": 2,
    "error": ""
   },
   {
-   "name": "East Side Club",
-   "kind": "lodge",
-   "website": "https://escmadison.com",
+   "name": "Centro",
+   "kind": "community",
+   "website": "https://www.micentro.org/",
    "feeds": [
+    "squarespace",
     "ai"
    ],
    "raw_events": 2,
@@ -571,12 +602,11 @@
    "error": ""
   },
   {
-   "name": "Textile Arts Center of Madison",
-   "kind": "venue",
-   "website": "https://www.textileartsmadison.org/",
+   "name": "Verona Public Library",
+   "kind": "library",
+   "website": "https://www.veronapubliclibrary.org/",
    "feeds": [
-    "squarespace",
-    "jsonld"
+    "ai"
    ],
    "raw_events": 2,
    "error": ""
@@ -587,16 +617,6 @@
    "website": "https://www.arthouse360.com/",
    "feeds": [
     "jsonld"
-   ],
-   "raw_events": 1,
-   "error": ""
-  },
-  {
-   "name": "Central Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/central",
-   "feeds": [
-    "ai"
    ],
    "raw_events": 1,
    "error": ""
@@ -667,16 +687,6 @@
    "website": "https://www.quiveysgrove.com/stable-grill",
    "feeds": [
     "jsonld"
-   ],
-   "raw_events": 1,
-   "error": ""
-  },
-  {
-   "name": "Verona Public Library",
-   "kind": "library",
-   "website": "https://www.veronapubliclibrary.org/",
-   "feeds": [
-    "ai"
    ],
    "raw_events": 1,
    "error": ""
@@ -1073,14 +1083,6 @@
    "error": "ical: PermissionError: robots.txt disallows https://calendar.google.com/calendar/ical/bnmftglj834vll16kahe1p9m58%40group.calendar.google.com/public/basic.ics; ical: PermissionError: robots.txt disallows https://calendar.google.com/calendar/ical/en.usa%23holiday%40group.v.calendar.google.com/public/basic.ics; ical: PermissionError: robots.txt disallows https://calendar.google.com/calendar/ical/khj1apqtd875hhj4javgr1a2t0%40group.calendar.google.com/public/basic.ics"
   },
   {
-   "name": "Gamma Ray Bar",
-   "kind": "bar",
-   "website": "https://gammaray.bar",
-   "feeds": [],
-   "raw_events": 0,
-   "error": "ai: ReadTimeout: HTTPSConnectionPool(host='gammaray.bar', port=443): Read timed out. (read timeout=15)"
-  },
-  {
    "name": "Garth's Brew Bar",
    "kind": "brewery",
    "website": "https://www.garthsbrewbar.com/",
@@ -1364,7 +1366,7 @@
   {
    "name": "Madison Chocolate Company",
    "kind": "cafe",
-   "website": "https://madisonchocolate.com",
+   "website": "https://www.madisonchocolatecompany.com",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1372,7 +1374,7 @@
   {
    "name": "Madison Chocolate Company",
    "kind": "cafe",
-   "website": "https://www.madisonchocolatecompany.com",
+   "website": "https://madisonchocolate.com",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1452,7 +1454,7 @@
   {
    "name": "Moka",
    "kind": "cafe",
-   "website": "https://mymokacoffee.com/",
+   "website": "https://www.mymokacoffee.com/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1460,7 +1462,7 @@
   {
    "name": "Moka",
    "kind": "cafe",
-   "website": "https://www.mymokacoffee.com/",
+   "website": "https://mymokacoffee.com/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1693,7 +1695,7 @@
    "website": "https://www.shamrockbarandgrille.com/",
    "feeds": [],
    "raw_events": 0,
-   "error": "SSLError: HTTPSConnectionPool(host='www.shamrockbarandgrille.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in v"
+   "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
   },
   {
    "name": "Slow Food UW Student Cafe",

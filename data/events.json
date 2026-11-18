@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-17T13:52:54-06:00",
+ "generated_at": "2026-11-17T22:21:47-06:00",
  "window": {
-  "from": "2026-11-17T07:51-06:00",
-  "to": "2026-12-01T13:51-06:00"
+  "from": "2026-11-17T16:20-06:00",
+  "to": "2026-12-01T22:20-06:00"
  },
- "count": 357,
+ "count": 363,
  "events": [
   {
    "id": "713c0be8b04b",
@@ -220,29 +220,6 @@
    "link_ok": true
   },
   {
-   "id": "f2ac68ba15ba",
-   "title": "Intro to Filmmaking with Nate",
-   "start": "2026-11-17T18:00-06:00",
-   "end": "2026-11-17T19:30-06:00",
-   "all_day": false,
-   "category": "film",
-   "price": null,
-   "description": "Introductory filmmaking class at Imagination Center Library for people who want to learn to make movies.",
-   "url": "https://www.madisonpubliclibrary.org/central",
-   "image": "",
-   "venue": "Central Library",
-   "venue_id": "osm:way/102316433",
-   "venue_kind": "library",
-   "address": "201 West Mifflin Street",
-   "lat": 43.0736214,
-   "lon": -89.3875186,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "6cde271c7e14",
    "title": "Open Mic w/ Martin Hunt",
    "start": "2026-11-17T18:00-06:00",
@@ -250,7 +227,7 @@
    "all_day": false,
    "category": "open_mic",
    "price": 0.0,
-   "description": "Host Martin Hunt's open mic for all musical skill levels. Free. Bar opens at 5:00pm; food available from the grill.",
+   "description": "Host Martin Hunt's open mic for all skill levels. Free. Bar opens 5pm; food available from the grill.",
    "url": "https://escmadison.com",
    "image": "",
    "venue": "East Side Club",
@@ -282,29 +259,6 @@
    "address": "4893 Lacy Road",
    "lat": 43.0112712,
    "lon": -89.3736621,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "4f64e4091569",
-   "title": "Intro to Filmmaking with Nate",
-   "start": "2026-11-17T18:00-06:00",
-   "end": "2026-11-17T19:30-06:00",
-   "all_day": false,
-   "category": "film",
-   "price": null,
-   "description": "Introductory filmmaking class at Imagination Center Library for people who want to learn to make movies.",
-   "url": "https://www.madisonpubliclibrary.org/locations/imagination-center",
-   "image": "",
-   "venue": "Imagination Center",
-   "venue_id": "osm:way/1562302805",
-   "venue_kind": "library",
-   "address": "1814 Parkside Drive",
-   "lat": 43.1240118,
-   "lon": -89.3168809,
    "source": "ai",
    "sources": [
     "AI page reading"
@@ -360,29 +314,6 @@
    "link_ok": null
   },
   {
-   "id": "3059aba9f844",
-   "title": "Intro to Filmmaking with Nate",
-   "start": "2026-11-17T18:00-06:00",
-   "end": "2026-11-17T19:30-06:00",
-   "all_day": false,
-   "category": "film",
-   "price": null,
-   "description": "Introductory filmmaking class at Imagination Center Library for people who want to learn to make movies.",
-   "url": "https://www.madisonpubliclibrary.org/locations/pinney-library",
-   "image": "",
-   "venue": "Pinney Library",
-   "venue_id": "osm:node/7234376294",
-   "venue_kind": "library",
-   "address": "516 Cottage Grove Road",
-   "lat": 43.0841729,
-   "lon": -89.3176486,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "fcc089d2d22a",
    "title": "Ladies Night",
    "start": "2026-11-17T18:00-06:00",
@@ -429,29 +360,6 @@
     "Isthmus"
    ],
    "link_ok": null
-  },
-  {
-   "id": "bc842c86e371",
-   "title": "Intro to Filmmaking with Nate",
-   "start": "2026-11-17T18:00-06:00",
-   "end": "2026-11-17T19:30-06:00",
-   "all_day": false,
-   "category": "film",
-   "price": null,
-   "description": "Introductory filmmaking class at Imagination Center Library for people who want to learn to make movies.",
-   "url": "https://www.madisonpubliclibrary.org/sequoya",
-   "image": "",
-   "venue": "Sequoya Library",
-   "venue_id": "osm:node/1473488018",
-   "venue_kind": "library",
-   "address": "4340 Tokay Boulevard",
-   "lat": 43.0537698,
-   "lon": -89.4505289,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
   },
   {
    "id": "5b1ac0afbe53",
@@ -574,29 +482,6 @@
    "link_ok": true
   },
   {
-   "id": "7fc65b0d6d0d",
-   "title": "Wisconsin Badgers Womens Basketball vs. Marquette Golden Eagles Womens Basketball",
-   "start": "2026-11-17T18:30-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "sports",
-   "price": null,
-   "description": "Basketball / College",
-   "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv34b",
-   "image": "https://s1.ticketm.net/dam/a/680/71e6efa6-cd1a-4f9d-8d1e-58e49f509680_1260841_RETINA_PORTRAIT_16_9.jpg",
-   "venue": "Kohl Center",
-   "venue_id": "tm:Z6r9jZaaee",
-   "venue_kind": "venue",
-   "address": "601 W. Dayton St.",
-   "lat": 43.016399,
-   "lon": -89.420097,
-   "source": "ticketmaster",
-   "sources": [
-    "Ticketmaster"
-   ],
-   "link_ok": null
-  },
-  {
    "id": "bf68a0723d68",
    "title": "UW Women's Basketball",
    "start": "2026-11-17T18:30-06:00",
@@ -717,29 +602,6 @@
    "link_ok": true
   },
   {
-   "id": "3435c35ea01b",
-   "title": "Premier Trivia Tuesday!",
-   "start": "2026-11-17T18:30-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "trivia",
-   "price": null,
-   "description": "Tuesday Trivia at The Kickback",
-   "url": "https://thekickback.bar/",
-   "image": "",
-   "venue": "The Kickback",
-   "venue_id": "osm:node/12292190391",
-   "venue_kind": "bar",
-   "address": "7622 Lisa Lane",
-   "lat": 43.1092621,
-   "lon": -89.5123266,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "37908f74587c",
    "title": "Saber Combat Club",
    "start": "2026-11-17T18:30-06:00",
@@ -762,29 +624,6 @@
     "Isthmus"
    ],
    "link_ok": null
-  },
-  {
-   "id": "dc8b405cafbf",
-   "title": "Books in the Overlook",
-   "start": "2026-11-17T18:30-06:00",
-   "end": "2026-11-17T19:45-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Adult book club discussion in the Overlook.",
-   "url": "https://www.waunakeepubliclibrary.org/",
-   "image": "",
-   "venue": "Waunakee Public Library",
-   "venue_id": "osm:way/708130272",
-   "venue_kind": "library",
-   "address": "201 North Madison Street",
-   "lat": 43.1940495,
-   "lon": -89.450474,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
   },
   {
    "id": "9fee8c49d219",
@@ -905,6 +744,29 @@
    "city": "Madison",
    "sources": [
     "Isthmus"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "bfaee49626f9",
+   "title": "Lucid Tuesday",
+   "start": "2026-11-17T19:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "music",
+   "price": 5.0,
+   "description": "Phonk and bass night with DJs Dashwoo and Hikikomori. 21+.",
+   "url": "https://www.cruciblemadison.com/",
+   "image": "",
+   "venue": "Crucible",
+   "venue_id": "osm:node/6519071395",
+   "venue_kind": "bar",
+   "address": "3116 Commercial Avenue",
+   "lat": 43.1071484,
+   "lon": -89.3359941,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
    ],
    "link_ok": true
   },
@@ -1128,52 +990,6 @@
    "link_ok": true
   },
   {
-   "id": "bac81eeecdc1",
-   "title": "Northwestern @ Wisconsin",
-   "start": "2026-11-17T19:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "",
-   "url": "https://statestreetbrats.com/event/northwestern-wisconsin-20261117/",
-   "image": "",
-   "venue": "State Street Brats",
-   "venue_id": "osm:way/886357869",
-   "venue_kind": "bar",
-   "address": "603 State Street",
-   "lat": 43.0746889,
-   "lon": -89.395998,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "ed986461ebc3",
-   "title": "Evening Book Club",
-   "start": "2026-11-17T19:00-06:00",
-   "end": "2026-11-17T20:00-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Adult book club at Sun Prairie Public Library.",
-   "url": "https://www.sunprairiepubliclibrary.org/",
-   "image": "",
-   "venue": "Sun Prairie Public Library",
-   "venue_id": "osm:way/600866560",
-   "venue_kind": "library",
-   "address": "1350 Linnerud Drive",
-   "lat": 43.1757782,
-   "lon": -89.2353415,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "cd538019cb59",
    "title": "Onadare",
    "start": "2026-11-17T19:00-06:00",
@@ -1218,29 +1034,6 @@
    "via": "Isthmus",
    "sources": [
     "Isthmus"
-   ],
-   "link_ok": null
-  },
-  {
-   "id": "f089ba23c0d5",
-   "title": "Wisconsin Badgers Womens Volleyball vs. Northwestern Wildcats Womens Volleyball",
-   "start": "2026-11-17T19:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "sports",
-   "price": null,
-   "description": "Miscellaneous / Miscellaneous",
-   "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70yJe",
-   "image": "https://s1.ticketm.net/dam/c/093/c74cfd95-af21-4e64-9f85-47677b951093_105651_RETINA_PORTRAIT_16_9.jpg",
-   "venue": "UW Field House",
-   "venue_id": "tm:Z7r9jZadGn",
-   "venue_kind": "venue",
-   "address": "1450 Monroe St., Madison, WI 53706",
-   "lat": 43.076,
-   "lon": -89.411201,
-   "source": "ticketmaster",
-   "sources": [
-    "Ticketmaster"
    ],
    "link_ok": null
   },
@@ -1291,29 +1084,6 @@
     "Isthmus"
    ],
    "link_ok": null
-  },
-  {
-   "id": "901680d8c4dd",
-   "title": "Astronomy on Tap",
-   "start": "2026-11-17T19:00-06:00",
-   "end": "2026-11-17T20:30-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "",
-   "url": "https://www.workingdraftbeer.com/events/2026/11/17/astronomy-on-tap",
-   "image": "https://images.squarespace-cdn.com/content/v1/595aac69414fb51e2857d8af/1793974716533-GHEA20LJWR868030IX4T/flyer_nov_2026.png",
-   "venue": "Working Draft Beer Company",
-   "venue_id": "osm:node/5501718844",
-   "venue_kind": "brewery",
-   "address": "1129 East Wilson Street",
-   "lat": 43.0833378,
-   "lon": -89.3652802,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
-   ],
-   "link_ok": true
   },
   {
    "id": "d3e78bb0d13c",
@@ -2114,6 +1884,29 @@
    "link_ok": null
   },
   {
+   "id": "cf181caf06ac",
+   "title": "Learn to Grow Native Plants Workshop",
+   "start": "2026-11-18T18:00-06:00",
+   "end": "2026-11-18T19:00-06:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Native plants workshop in the Community Room at Imagination Center Library.",
+   "url": "https://www.madisonpubliclibrary.org/locations/imagination-center",
+   "image": "",
+   "venue": "Imagination Center",
+   "venue_id": "osm:way/1562302805",
+   "venue_kind": "library",
+   "address": "1814 Parkside Drive",
+   "lat": 43.1240118,
+   "lon": -89.3168809,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "179c1402febc",
    "title": "Trivia",
    "start": "2026-11-18T18:00-06:00",
@@ -2161,6 +1954,52 @@
     "Isthmus"
    ],
    "link_ok": null
+  },
+  {
+   "id": "5ecef9709ca4",
+   "title": "Learn to Grow Native Plants Workshop",
+   "start": "2026-11-18T18:00-06:00",
+   "end": "2026-11-18T19:00-06:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Native plants workshop in the Community Room at Imagination Center Library.",
+   "url": "https://www.madisonpubliclibrary.org/locations/pinney-library",
+   "image": "",
+   "venue": "Pinney Library",
+   "venue_id": "osm:node/7234376294",
+   "venue_kind": "library",
+   "address": "516 Cottage Grove Road",
+   "lat": 43.0841729,
+   "lon": -89.3176486,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "24473c21e6b4",
+   "title": "Learn to Grow Native Plants Workshop",
+   "start": "2026-11-18T18:00-06:00",
+   "end": "2026-11-18T19:00-06:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Native plants workshop in the Community Room at Imagination Center Library.",
+   "url": "https://www.madisonpubliclibrary.org/sequoya",
+   "image": "",
+   "venue": "Sequoya Library",
+   "venue_id": "osm:node/1473488018",
+   "venue_kind": "library",
+   "address": "4340 Tokay Boulevard",
+   "lat": 43.0537698,
+   "lon": -89.4505289,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
   },
   {
    "id": "55b65be4dd53",
@@ -2389,7 +2228,7 @@
    "all_day": false,
    "category": "karaoke",
    "price": null,
-   "description": "Karaoke powered by Songbooks Online (Show ID: SPIKE). Doors 6:00 PM, singing starts 6:30. 21+.",
+   "description": "Doors 6:00 PM, singing starts 6:30 PM. Powered by Songbooks Online, Show ID SPIKE. 21+.",
    "url": "https://www.cruciblemadison.com/",
    "image": "",
    "venue": "Crucible",
@@ -2485,7 +2324,7 @@
    "all_day": false,
    "category": "bingo",
    "price": null,
-   "description": "Music Bingo every Wednesday, starting 6:30PM.",
+   "description": "Weekly music bingo night.",
    "url": "https://www.lazyoaflounge.com/",
    "image": "",
    "venue": "Lazy Oaf Lounge",
@@ -2605,7 +2444,7 @@
    "all_day": false,
    "category": "trivia",
    "price": null,
-   "description": "Craft beer pinball league night featuring New Glarus at Big Grove Brewery",
+   "description": "League night at Big Grove Brewery, craft beer and pinball.",
    "url": "https://thekickback.bar/",
    "image": "",
    "venue": "The Kickback",
@@ -2669,6 +2508,29 @@
     "Isthmus"
    ],
    "link_ok": null
+  },
+  {
+   "id": "36cf66544d82",
+   "title": "Medicare 101",
+   "start": "2026-11-18T18:30-06:00",
+   "end": "2026-11-18T19:30-06:00",
+   "all_day": false,
+   "category": "food",
+   "price": 0.0,
+   "description": "Free educational program with retirement specialist Jake Zimmermann on Medicare parts A, B, C and D and paying for health care after retirement. Registration required.",
+   "url": "https://www.waunakeepubliclibrary.org/",
+   "image": "",
+   "venue": "Waunakee Public Library",
+   "venue_id": "osm:way/708130272",
+   "venue_kind": "library",
+   "address": "201 North Madison Street",
+   "lat": 43.1940495,
+   "lon": -89.450474,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
   },
   {
    "id": "cbebdf2e64ab",
@@ -2822,7 +2684,7 @@
    "all_day": false,
    "category": "music",
    "price": null,
-   "description": "Goodsource Presents with LOST & FOUND and Allison Eide. Doors 6:15 pm.",
+   "description": "Goodsource Presents; with LOST & FOUND and Allison Eide. Doors 6:15 pm.",
    "url": "https://madisonorpheum.com/",
    "image": "",
    "venue": "Orpheum Theatre",
@@ -3093,6 +2955,29 @@
    "link_ok": true
   },
   {
+   "id": "76aadc54d3f1",
+   "title": "Virtual Author Talk with Rebecca Roanhorse",
+   "start": "2026-11-19T18:00-06:00",
+   "end": "2026-11-19T19:00-06:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Virtual author talk with Rebecca Roanhorse for adults.",
+   "url": "https://www.sunprairiepubliclibrary.org/",
+   "image": "",
+   "venue": "Sun Prairie Public Library",
+   "venue_id": "osm:way/600866560",
+   "venue_kind": "library",
+   "address": "1350 Linnerud Drive",
+   "lat": 43.1757782,
+   "lon": -89.2353415,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "eadd85ea9485",
    "title": "Tropidelic with Surfer Girl, The Quasi Kings",
    "start": "2026-11-19T18:30-06:00",
@@ -3217,7 +3102,7 @@
    "all_day": false,
    "category": "comedy",
    "price": 15.0,
-   "description": "Infotainment show mixing a PowerPoint party with stand-up comedy. Doors 6:30 PM. $15 advance, $20 day of, $10 cash with student ID.",
+   "description": "Infotainment show mixing TED-style talks with stand-up comedy. $15 advance, $20 day of, $10 cash with student ID. Doors 6:30 PM.",
    "url": "https://www.cruciblemadison.com/",
    "image": "",
    "venue": "Crucible",
@@ -3303,6 +3188,29 @@
    "link_ok": true
   },
   {
+   "id": "fb2214169fae",
+   "title": "Armchair Boogie \"Never Waste A Day\" Album Listening Party",
+   "start": "2026-11-19T20:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "music",
+   "price": null,
+   "description": "Album listening party. Doors 7pm.",
+   "url": "https://gammaray.bar",
+   "image": "",
+   "venue": "Gamma Ray Bar",
+   "venue_id": "osm:node/12156142686",
+   "venue_kind": "bar",
+   "address": "121 West Main Street",
+   "lat": 43.072436,
+   "lon": -89.3848247,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "af7b9a7195d7",
    "title": "Humbird",
    "start": "2026-11-19T20:00-06:00",
@@ -3334,7 +3242,7 @@
    "all_day": false,
    "category": "karaoke",
    "price": null,
-   "description": "Sing your heart out or dress up for themed celebrations.",
+   "description": "Sing your heart out or dress up for a themed celebration.",
    "url": "https://www.lazyoaflounge.com/",
    "image": "",
    "venue": "Lazy Oaf Lounge",
@@ -3774,7 +3682,7 @@
    "all_day": false,
    "category": "trivia",
    "price": null,
-   "description": "Friday night pinball event with craft beer",
+   "description": "Pinball night with craft beer.",
    "url": "https://thekickback.bar/",
    "image": "",
    "venue": "The Kickback",
@@ -3797,7 +3705,7 @@
    "all_day": false,
    "category": "trivia",
    "price": null,
-   "description": "Super Smash Bros Ultimate tournament on Switch 2",
+   "description": "Smash Bros Ultimate tournament on Switch 2.",
    "url": "https://thekickback.bar/",
    "image": "",
    "venue": "The Kickback",
@@ -3866,7 +3774,7 @@
    "all_day": false,
    "category": "theater",
    "price": 15.0,
-   "description": "Fantastical aerial burlesque adventure with mischievous fae and mystical sirens. Doors 7:00 PM. 21+.",
+   "description": "Fantastical aerial burlesque show with fae, sirens and magic themes. Doors 7:00 PM. 21+.",
    "url": "https://www.cruciblemadison.com/",
    "image": "",
    "venue": "Crucible",
@@ -3875,6 +3783,29 @@
    "address": "3116 Commercial Avenue",
    "lat": 43.1071484,
    "lon": -89.3359941,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "f6ec4be9782c",
+   "title": "Gridlock Album Release with Totally Cashed, M545, A Casual Ruckus, Party Vultures",
+   "start": "2026-11-20T20:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "music",
+   "price": null,
+   "description": "Album release show with support from Totally Cashed, M545, A Casual Ruckus and Party Vultures. Doors 7pm.",
+   "url": "https://gammaray.bar",
+   "image": "",
+   "venue": "Gamma Ray Bar",
+   "venue_id": "osm:node/12156142686",
+   "venue_kind": "bar",
+   "address": "121 West Main Street",
+   "lat": 43.072436,
+   "lon": -89.3848247,
    "source": "ai",
    "sources": [
     "AI page reading"
@@ -3959,7 +3890,7 @@
    "all_day": false,
    "category": "film",
    "price": 8.0,
-   "description": "Midnight screening with Madison's Velvet Darkness shadow cast. Doors 11:00 PM. $8, $13 under 21. 18+.",
+   "description": "Shadow cast screening of Rocky Horror, midnight screening. $8, $13 under 21. Doors 11:00 PM. 18+.",
    "url": "https://www.cruciblemadison.com/",
    "image": "",
    "venue": "Crucible",
@@ -4051,7 +3982,7 @@
    "all_day": true,
    "category": "music",
    "price": null,
-   "description": "FPC Live presents Nurse John, two shows.",
+   "description": "FPC Live presents; two shows listed, times not given.",
    "url": "https://madisonorpheum.com/",
    "image": "",
    "venue": "Orpheum Theatre",
@@ -4298,6 +4229,29 @@
    "link_ok": true
   },
   {
+   "id": "6426be03233c",
+   "title": "Burlesque Gotz Skillz 2026 - 5th Annual Improv Burlesque Competition",
+   "start": "2026-11-21T12:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "comedy",
+   "price": 20.0,
+   "description": "Improv burlesque competition at Crucible Nightclub. Tickets start at $20.",
+   "url": "https://www.cruciblemadison.com/",
+   "image": "",
+   "venue": "Crucible",
+   "venue_id": "osm:node/6519071395",
+   "venue_kind": "bar",
+   "address": "3116 Commercial Avenue",
+   "lat": 43.1071484,
+   "lon": -89.3359941,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "120619c5b8a2",
    "title": "Witch",
    "start": "2026-11-21T13:00-06:00",
@@ -4353,7 +4307,7 @@
    "all_day": false,
    "category": "other",
    "price": null,
-   "description": "Beginner cross-stitch class in the Meeting Room.",
+   "description": "Beginning cross-stitch class in the Meeting Room.",
    "url": "https://www.madisonpubliclibrary.org/about/ashman.html",
    "image": "",
    "venue": "Alicia Ashman Library",
@@ -4362,29 +4316,6 @@
    "address": "733 North High Point Road",
    "lat": 43.0760994,
    "lon": -89.5175827,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "bbddb7e895a8",
-   "title": "Beginning Cross-Stitch",
-   "start": "2026-11-21T14:00-06:00",
-   "end": "2026-11-21T15:30-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Beginner cross-stitch class in the Meeting Room.",
-   "url": "https://www.madisonpubliclibrary.org/locations/imagination-center",
-   "image": "",
-   "venue": "Imagination Center",
-   "venue_id": "osm:way/1562302805",
-   "venue_kind": "library",
-   "address": "1814 Parkside Drive",
-   "lat": 43.1240118,
-   "lon": -89.3168809,
    "source": "ai",
    "sources": [
     "AI page reading"
@@ -4422,7 +4353,7 @@
    "all_day": false,
    "category": "other",
    "price": null,
-   "description": "Beginner cross-stitch class in the Meeting Room.",
+   "description": "Beginning cross-stitch class in the Meeting Room.",
    "url": "https://www.madisonpubliclibrary.org/monroe-street",
    "image": "",
    "venue": "Monroe Street Library",
@@ -4431,52 +4362,6 @@
    "address": "1705 Monroe Street",
    "lat": 43.0659388,
    "lon": -89.4152059,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "5fc24b640dae",
-   "title": "Beginning Cross-Stitch",
-   "start": "2026-11-21T14:00-06:00",
-   "end": "2026-11-21T15:30-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Beginner cross-stitch class in the Meeting Room.",
-   "url": "https://www.madisonpubliclibrary.org/locations/pinney-library",
-   "image": "",
-   "venue": "Pinney Library",
-   "venue_id": "osm:node/7234376294",
-   "venue_kind": "library",
-   "address": "516 Cottage Grove Road",
-   "lat": 43.0841729,
-   "lon": -89.3176486,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "f1c6dea31084",
-   "title": "Beginning Cross-Stitch",
-   "start": "2026-11-21T14:00-06:00",
-   "end": "2026-11-21T15:30-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Beginner cross-stitch class in the Meeting Room.",
-   "url": "https://www.madisonpubliclibrary.org/sequoya",
-   "image": "",
-   "venue": "Sequoya Library",
-   "venue_id": "osm:node/1473488018",
-   "venue_kind": "library",
-   "address": "4340 Tokay Boulevard",
-   "lat": 43.0537698,
-   "lon": -89.4505289,
    "source": "ai",
    "sources": [
     "AI page reading"
@@ -4670,6 +4555,29 @@
    "link_ok": true
   },
   {
+   "id": "9bcd83f873cb",
+   "title": "New Wave Ren Faire ft. Educational Davis with Lavish Waste, Poison Widow, Yakuza Jacuzzi",
+   "start": "2026-11-21T19:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "music",
+   "price": null,
+   "description": "Show featuring Educational Davis, with Lavish Waste, Poison Widow and Yakuza Jacuzzi. Doors 6pm.",
+   "url": "https://gammaray.bar",
+   "image": "",
+   "venue": "Gamma Ray Bar",
+   "venue_id": "osm:node/12156142686",
+   "venue_kind": "bar",
+   "address": "121 West Main Street",
+   "lat": 43.072436,
+   "lon": -89.3848247,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "3dc9ee49e5e4",
    "title": "Nurse John: Against Medical Advice Tour",
    "start": "2026-11-21T19:00-06:00",
@@ -4839,7 +4747,7 @@
    "all_day": false,
    "category": "dance",
    "price": 10.0,
-   "description": "Madison's annual fetish ball with stage acts and go-go dancers. Doors 9:00 PM. Dress code: latex, leather, vinyl, chains, club wear or evening attire. 21+.",
+   "description": "Madison's annual fetish ball with stage acts and go-go dancers. Dress code: latex, leather, vinyl, chains, club wear or evening attire. Doors 9:00 PM. 21+.",
    "url": "https://www.cruciblemadison.com/",
    "image": "",
    "venue": "Crucible",
@@ -5164,7 +5072,7 @@
    "all_day": false,
    "category": "other",
    "price": null,
-   "description": "Pop-up visit from the WanderLust Mobile Bookstore",
+   "description": "Pop-up visit from the WanderLust Mobile Bookstore.",
    "url": "https://thekickback.bar/",
    "image": "",
    "venue": "The Kickback",
@@ -5187,7 +5095,7 @@
    "all_day": false,
    "category": "other",
    "price": null,
-   "description": "Patio dog event fundraiser for Fetch WI Rescue with craft beer",
+   "description": "Fundraiser for Fetch WI Rescue on the patio, with craft beer.",
    "url": "https://thekickback.bar/",
    "image": "",
    "venue": "The Kickback",
@@ -5364,6 +5272,29 @@
    "link_ok": true
   },
   {
+   "id": "25054d53d68d",
+   "title": "Clean Plate Club with Becca Murray & The Wildflowers, AuroNova",
+   "start": "2026-11-22T19:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "music",
+   "price": null,
+   "description": "Show with Becca Murray & The Wildflowers and AuroNova. Doors 6pm.",
+   "url": "https://gammaray.bar",
+   "image": "",
+   "venue": "Gamma Ray Bar",
+   "venue_id": "osm:node/12156142686",
+   "venue_kind": "bar",
+   "address": "121 West Main Street",
+   "lat": 43.072436,
+   "lon": -89.3848247,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "d2d1b7d51054",
    "title": "The Record Company-Give It Back To You 10th Anniversary Tour",
    "start": "2026-11-22T19:00-06:00",
@@ -5464,7 +5395,7 @@
    "all_day": false,
    "category": "other",
    "price": 0.0,
-   "description": "Low-pressure free social event for making friends. No cover. 21+. Held 2nd and 4th Mondays.",
+   "description": "Free low-pressure social event. Recurs 2nd and 4th Mondays. 21+.",
    "url": "https://www.cruciblemadison.com/",
    "image": "",
    "venue": "Crucible",
@@ -5473,6 +5404,52 @@
    "address": "3116 Commercial Avenue",
    "lat": 43.1071484,
    "lon": -89.3359941,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "61d62b7600a0",
+   "title": "Trivia Night",
+   "start": "2026-11-23T19:00-06:00",
+   "end": "2026-11-23T21:00-06:00",
+   "all_day": false,
+   "category": "trivia",
+   "price": 0.0,
+   "description": "Test your knowledge with friends. Free to play, great prizes.",
+   "url": "https://www.lazyoaflounge.com/",
+   "image": "",
+   "venue": "Lazy Oaf Lounge",
+   "venue_id": "osm:node/1743291684",
+   "venue_kind": "bar",
+   "address": "1617 North Stoughton Road",
+   "lat": 43.1199361,
+   "lon": -89.3244342,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "2944e2ade58b",
+   "title": "Slug Rug w/ Dicot",
+   "start": "2026-11-23T20:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "music",
+   "price": null,
+   "description": "Show with Dicot. Doors 7pm.",
+   "url": "https://gammaray.bar",
+   "image": "",
+   "venue": "Gamma Ray Bar",
+   "venue_id": "osm:node/12156142686",
+   "venue_kind": "bar",
+   "address": "121 West Main Street",
+   "lat": 43.072436,
+   "lon": -89.3848247,
    "source": "ai",
    "sources": [
     "AI page reading"
@@ -5556,7 +5533,7 @@
    "all_day": true,
    "category": "other",
    "price": null,
-   "description": "Drop-in with your device for help with a device or app.",
+   "description": "Drop-in help with your device or app.",
    "url": "https://www.veronapubliclibrary.org/",
    "image": "",
    "venue": "Verona Public Library",
@@ -5650,7 +5627,7 @@
    "all_day": false,
    "category": "open_mic",
    "price": 0.0,
-   "description": "Host Martin Hunt's open mic for all musical skill levels. Free. Bar opens at 5:00pm; food available from the grill.",
+   "description": "Host Martin Hunt's open mic for all skill levels. Free. Bar opens 5pm; food available from the grill.",
    "url": "https://escmadison.com",
    "image": "",
    "venue": "East Side Club",
@@ -5862,7 +5839,7 @@
    "all_day": false,
    "category": "trivia",
    "price": null,
-   "description": "Tuesday Trivia at The Kickback",
+   "description": "Tuesday trivia night.",
    "url": "https://thekickback.bar/",
    "image": "",
    "venue": "The Kickback",
@@ -6657,7 +6634,7 @@
    "all_day": false,
    "category": "karaoke",
    "price": null,
-   "description": "Karaoke powered by Songbooks Online (Show ID: SPIKE). Doors 6:00 PM, singing starts 6:30. 21+.",
+   "description": "Doors 6:00 PM, singing starts 6:30 PM. Powered by Songbooks Online, Show ID SPIKE. 21+.",
    "url": "https://www.cruciblemadison.com/",
    "image": "",
    "venue": "Crucible",
@@ -6704,7 +6681,7 @@
    "all_day": false,
    "category": "bingo",
    "price": null,
-   "description": "Music Bingo every Wednesday, starting 6:30PM.",
+   "description": "Weekly music bingo night.",
    "url": "https://www.lazyoaflounge.com/",
    "image": "",
    "venue": "Lazy Oaf Lounge",
@@ -7124,7 +7101,7 @@
    "all_day": false,
    "category": "karaoke",
    "price": null,
-   "description": "Sing your heart out or dress up for themed celebrations.",
+   "description": "Sing your heart out or dress up for a themed celebration.",
    "url": "https://www.lazyoaflounge.com/",
    "image": "",
    "venue": "Lazy Oaf Lounge",
@@ -7378,7 +7355,7 @@
    "all_day": false,
    "category": "trivia",
    "price": null,
-   "description": "Friday night pinball event with craft beer",
+   "description": "Pinball night with craft beer.",
    "url": "https://thekickback.bar/",
    "image": "",
    "venue": "The Kickback",
@@ -7471,7 +7448,7 @@
    "all_day": false,
    "category": "other",
    "price": null,
-   "description": "Monthly 21+ event. No pictures or recordings of any kind allowed, including selfies, in any area.",
+   "description": "Monthly 21+ event. No photos or recordings of any kind allowed, including selfies.",
    "url": "https://www.cruciblemadison.com/",
    "image": "",
    "venue": "Crucible",
@@ -7540,7 +7517,7 @@
    "all_day": true,
    "category": "music",
    "price": null,
-   "description": "Wisconsin Chamber Orchestra presents A Charlie Brown Christmas featuring Mr. Chair, two shows.",
+   "description": "Wisconsin Chamber Orchestra presents, featuring Mr. Chair & Wisconsin Chamber Orchestra; two shows, times not given.",
    "url": "https://madisonorpheum.com/",
    "image": "",
    "venue": "Orpheum Theatre",
@@ -8339,6 +8316,29 @@
    "link_ok": true
   },
   {
+   "id": "02ced3ed70a6",
+   "title": "Trivia Night",
+   "start": "2026-11-30T19:00-06:00",
+   "end": "2026-11-30T21:00-06:00",
+   "all_day": false,
+   "category": "trivia",
+   "price": 0.0,
+   "description": "Test your knowledge with friends. Free to play, great prizes.",
+   "url": "https://www.lazyoaflounge.com/",
+   "image": "",
+   "venue": "Lazy Oaf Lounge",
+   "venue_id": "osm:node/1743291684",
+   "venue_kind": "bar",
+   "address": "1617 North Stoughton Road",
+   "lat": 43.1199361,
+   "lon": -89.3244342,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "acaeda05918c",
    "title": "Board Game Speed Dating",
    "start": "2026-11-30T19:00-06:00",
@@ -8401,6 +8401,144 @@
    "address": "1617 North Stoughton Road",
    "lat": 43.1199361,
    "lon": -89.3244342,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "f3a9d70f847e",
+   "title": "Technology Tuesdays",
+   "start": "2026-12-01T00:00-06:00",
+   "end": null,
+   "all_day": true,
+   "category": "other",
+   "price": null,
+   "description": "Drop-in help with your device or app.",
+   "url": "https://www.veronapubliclibrary.org/",
+   "image": "",
+   "venue": "Verona Public Library",
+   "venue_id": "osm:way/104542099",
+   "venue_kind": "library",
+   "address": "500 Silent Street",
+   "lat": 42.9974113,
+   "lon": -89.5280271,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "0246107f293a",
+   "title": "Zumba",
+   "start": "2026-12-01T18:00-06:00",
+   "end": "2026-12-01T19:00-06:00",
+   "all_day": false,
+   "category": "dance",
+   "price": null,
+   "description": "Join us for a high-energy Zumba class, where you can dance, sweat, and have fun while getting fit with a great group of people! Pre-registration is not required.",
+   "url": "https://bayviewfoundation.org/event/zumba/2026-12-01/",
+   "image": "https://bayviewfoundation.org/wp-content/uploads/2024/12/health-wellness.png",
+   "venue": "Bayview Community Center",
+   "venue_id": "osm:way/1323648187",
+   "venue_kind": "community",
+   "address": "103 La Mariposa Lane",
+   "lat": 43.0663858,
+   "lon": -89.3975076,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "c95854e09e10",
+   "title": "Open Mic w/ Martin Hunt",
+   "start": "2026-12-01T18:00-06:00",
+   "end": "2026-12-01T21:00-06:00",
+   "all_day": false,
+   "category": "open_mic",
+   "price": 0.0,
+   "description": "Host Martin Hunt's open mic for all skill levels. Free. Bar opens 5pm; food available from the grill.",
+   "url": "https://escmadison.com",
+   "image": "",
+   "venue": "East Side Club",
+   "venue_id": "osm:way/541940185",
+   "venue_kind": "lodge",
+   "address": "3735 Monona Drive",
+   "lat": 43.0863319,
+   "lon": -89.3272545,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "a3e2b83db451",
+   "title": "Premier Trivia Tuesday!",
+   "start": "2026-12-01T18:30-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "trivia",
+   "price": null,
+   "description": "Tuesday trivia night.",
+   "url": "https://thekickback.bar/",
+   "image": "",
+   "venue": "The Kickback",
+   "venue_id": "osm:node/12292190391",
+   "venue_kind": "bar",
+   "address": "7622 Lisa Lane",
+   "lat": 43.1092621,
+   "lon": -89.5123266,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "38196e4fbf51",
+   "title": "Tango/Bachata Class and Social with Madison Tango Society",
+   "start": "2026-12-01T19:00-06:00",
+   "end": "2026-12-01T22:00-06:00",
+   "all_day": false,
+   "category": "music",
+   "price": null,
+   "description": "",
+   "url": "https://www.cafecoda.club/events-1/tango-classsocial-by-madison-tango-society-tybcn-cpa6k-d3s5m-tzwnl-x3hj8-cp48m-z5lgd-c6kyy-dxfs6-f8rrm-ynaa6-pdnf2-5c27n-aafxh-t5ajm-tshpj-hdb66-b4z7r-4ekt8-kxt45-x8kpd-dgj4b",
+   "image": "https://images.squarespace-cdn.com/content/v1/6914abebeed4305fd5ea6ea5/1791993570267-JWFAAJ2334OYZ9UM9S9H/Black+And+Red+Elegant+Classic+Ballroom+Dance+Poster+%2813+x+19+in%29.png",
+   "venue": "Cafe CODA",
+   "venue_id": "osm:way/385639191",
+   "venue_kind": "bar",
+   "address": "1224 Williamson Street",
+   "lat": 43.0839938,
+   "lon": -89.3638172,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "72a99d5bddd1",
+   "title": "Mixed Open Mic",
+   "start": "2026-12-01T19:00-06:00",
+   "end": "2026-12-01T21:00-06:00",
+   "all_day": false,
+   "category": "open_mic",
+   "price": null,
+   "description": "Open mic hosted by Max. Sign-up at 6:30pm, performances start at 7pm. Bring your instrument.",
+   "url": "https://www.harmonybarandgrill.com/",
+   "image": "",
+   "venue": "Harmony Bar & Grill",
+   "venue_id": "osm:way/345773988",
+   "venue_kind": "bar",
+   "address": "2201 Atwood Avenue",
+   "lat": 43.0930561,
+   "lon": -89.3492054,
    "source": "ai",
    "sources": [
     "AI page reading"

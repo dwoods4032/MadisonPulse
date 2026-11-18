@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-11-17T13:52:54-06:00",
- "total_events": 357,
+ "generated_at": "2026-11-17T22:21:47-06:00",
+ "total_events": 363,
  "in_more_than_one_source": 10,
  "sources": {
   "AI page reading": {
-   "events": 128,
-   "unique_events": 119,
+   "events": 136,
+   "unique_events": 127,
    "overlap": {
     "Isthmus": 3,
     "Ticketmaster": 6,
@@ -23,6 +23,7 @@
     "Doundrins Distilling",
     "East Side Club",
     "Flight Wine & Bourbon Bar",
+    "Gamma Ray Bar",
     "Imagination Center",
     "Italian Workmen's Club",
     "Karben4 Brewing",
@@ -63,6 +64,7 @@
     "Buck and Honey's",
     "Cafe Carpe",
     "Capitol Theater",
+    "Central Library",
     "Chazen Museum of Art",
     "Communication",
     "Dancesport",
@@ -103,6 +105,7 @@
     "The Dive Inn",
     "The Neighborhood House",
     "The Rigby",
+    "UW Field House",
     "UW Humanities Building-Morphy Hall",
     "UW Ingraham Hall",
     "UW Irving & Dorothy Levy Hall",
@@ -117,14 +120,14 @@
    ]
   },
   "Ticketmaster": {
-   "events": 44,
-   "unique_events": 37,
+   "events": 42,
+   "unique_events": 35,
    "overlap": {
     "AI page reading": 6,
     "Isthmus": 0,
     "Venue websites": 1
    },
-   "venues": 11,
+   "venues": 10,
    "unique_venues": [
     "Camp Randall",
     "Capitol Theater - Overture Center",
