@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-18T13:27:05-06:00",
+ "generated_at": "2026-11-18T22:13:50-06:00",
  "window": {
-  "from": "2026-11-18T07:25-06:00",
-  "to": "2026-12-02T13:25-06:00"
+  "from": "2026-11-18T16:12-06:00",
+  "to": "2026-12-02T22:12-06:00"
  },
- "count": 339,
+ "count": 321,
  "events": [
   {
    "id": "9d6f648766ac",
@@ -31,31 +31,6 @@
    "link_ok": null
   },
   {
-   "id": "ae6607798bb9",
-   "title": "Witch",
-   "start": "2026-11-18T13:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "theater",
-   "price": null,
-   "description": "",
-   "url": "",
-   "image": "",
-   "venue": "American Players Theatre",
-   "venue_id": "cal:american-players-theatre",
-   "venue_kind": "venue",
-   "address": "5950",
-   "lat": 43.143286,
-   "lon": -90.039663,
-   "source": "extra",
-   "via": "Isthmus",
-   "city": "Spring Green",
-   "sources": [
-    "Isthmus"
-   ],
-   "link_ok": null
-  },
-  {
    "id": "c160c563f87b",
    "title": "Car Seat Checks",
    "start": "2026-11-18T15:00-06:00",
@@ -72,30 +47,6 @@
    "address": "1919 Alliant Energy Way",
    "lat": 43.047082,
    "lon": -89.380291,
-   "source": "extra",
-   "via": "Isthmus",
-   "sources": [
-    "Isthmus"
-   ],
-   "link_ok": null
-  },
-  {
-   "id": "0e0da103b2e4",
-   "title": "Cranes: Sentinels for Adapting to the Changing Climate",
-   "start": "2026-11-18T15:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "",
-   "url": "",
-   "image": "",
-   "venue": "Location not listed",
-   "venue_id": "cal:unknown",
-   "venue_kind": "venue",
-   "address": "",
-   "lat": null,
-   "lon": null,
    "source": "extra",
    "via": "Isthmus",
    "sources": [
@@ -273,29 +224,6 @@
    "link_ok": null
   },
   {
-   "id": "7e7652938955",
-   "title": "Learn to Grow Native Plants Workshop",
-   "start": "2026-11-18T18:00-06:00",
-   "end": "2026-11-18T19:00-06:00",
-   "all_day": false,
-   "category": "food",
-   "price": null,
-   "description": "Workshop on growing native plants, which help water quality and support pollinators, at Imagination Center Library's Community Room.",
-   "url": "https://www.madisonpubliclibrary.org/central",
-   "image": "",
-   "venue": "Central Library",
-   "venue_id": "osm:way/102316433",
-   "venue_kind": "library",
-   "address": "201 West Mifflin Street",
-   "lat": 43.0736214,
-   "lon": -89.3875186,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "6efd1ac0ce69",
    "title": "Star Trek Trivia",
    "start": "2026-11-18T18:00-06:00",
@@ -343,29 +271,6 @@
     "Isthmus"
    ],
    "link_ok": null
-  },
-  {
-   "id": "cf181caf06ac",
-   "title": "Learn to Grow Native Plants Workshop",
-   "start": "2026-11-18T18:00-06:00",
-   "end": "2026-11-18T19:00-06:00",
-   "all_day": false,
-   "category": "food",
-   "price": null,
-   "description": "Workshop on growing native plants, Community Room, Imagination Center Library.",
-   "url": "https://www.madisonpubliclibrary.org/locations/imagination-center",
-   "image": "",
-   "venue": "Imagination Center",
-   "venue_id": "osm:way/1562302805",
-   "venue_kind": "library",
-   "address": "1814 Parkside Drive",
-   "lat": 43.1240118,
-   "lon": -89.3168809,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
   },
   {
    "id": "179c1402febc",
@@ -417,98 +322,6 @@
    "link_ok": null
   },
   {
-   "id": "c21d163fddb7",
-   "title": "The Art of Neighborships: Open Studio with Artist-in-Residence Carrie Breunig",
-   "start": "2026-11-18T18:00-06:00",
-   "end": "2026-11-18T20:00-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Drop-in creative open studio with 2026 Pinney Studio Artist-in-Residence Carrie Breunig.",
-   "url": "https://www.madisonpubliclibrary.org/monroe-street",
-   "image": "",
-   "venue": "Monroe Street Library",
-   "venue_id": "osm:way/241508509",
-   "venue_kind": "library",
-   "address": "1705 Monroe Street",
-   "lat": 43.0659388,
-   "lon": -89.4152059,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "5ecef9709ca4",
-   "title": "Learn to Grow Native Plants Workshop",
-   "start": "2026-11-18T18:00-06:00",
-   "end": "2026-11-18T19:00-06:00",
-   "all_day": false,
-   "category": "food",
-   "price": null,
-   "description": "Workshop on growing native plants, Community Room, Imagination Center Library.",
-   "url": "https://www.madisonpubliclibrary.org/locations/pinney-library",
-   "image": "",
-   "venue": "Pinney Library",
-   "venue_id": "osm:node/7234376294",
-   "venue_kind": "library",
-   "address": "516 Cottage Grove Road",
-   "lat": 43.0841729,
-   "lon": -89.3176486,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "0526ca3a651f",
-   "title": "The Art of Neighborships: Open Studio with Artist-in-Residence Carrie Breunig",
-   "start": "2026-11-18T18:00-06:00",
-   "end": "2026-11-18T20:00-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Drop-in creative open studio with 2026 Pinney Studio Artist-in-Residence Carrie Breunig.",
-   "url": "https://www.madisonpubliclibrary.org/locations/pinney-library",
-   "image": "",
-   "venue": "Pinney Library",
-   "venue_id": "osm:node/7234376294",
-   "venue_kind": "library",
-   "address": "516 Cottage Grove Road",
-   "lat": 43.0841729,
-   "lon": -89.3176486,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "24473c21e6b4",
-   "title": "Learn to Grow Native Plants Workshop",
-   "start": "2026-11-18T18:00-06:00",
-   "end": "2026-11-18T19:00-06:00",
-   "all_day": false,
-   "category": "food",
-   "price": null,
-   "description": "Workshop on growing native plants, Community Room, Imagination Center Library.",
-   "url": "https://www.madisonpubliclibrary.org/sequoya",
-   "image": "",
-   "venue": "Sequoya Library",
-   "venue_id": "osm:node/1473488018",
-   "venue_kind": "library",
-   "address": "4340 Tokay Boulevard",
-   "lat": 43.0537698,
-   "lon": -89.4505289,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "55b65be4dd53",
    "title": "Bingo",
    "start": "2026-11-18T18:00-06:00",
@@ -529,52 +342,6 @@
    "via": "Isthmus",
    "sources": [
     "Isthmus"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "ad3ee0f9be12",
-   "title": "Bucks @ Heat",
-   "start": "2026-11-18T18:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "sports",
-   "price": null,
-   "description": "",
-   "url": "https://statestreetbrats.com/event/bucks-heat-20261118/",
-   "image": "",
-   "venue": "State Street Brats",
-   "venue_id": "osm:way/886357869",
-   "venue_kind": "bar",
-   "address": "603 State Street",
-   "lat": 43.0746889,
-   "lon": -89.395998,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "6d743c856d4d",
-   "title": "Screenprint Design: hands-on poster making",
-   "start": "2026-11-18T18:00-06:00",
-   "end": "2026-11-18T19:30-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Hands-on poster making workshop for teens and adults.",
-   "url": "https://www.sunprairiepubliclibrary.org/",
-   "image": "",
-   "venue": "Sun Prairie Public Library",
-   "venue_id": "osm:way/600866560",
-   "venue_kind": "library",
-   "address": "1350 Linnerud Drive",
-   "lat": 43.1757782,
-   "lon": -89.2353415,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
    ],
    "link_ok": true
   },
@@ -734,8 +501,8 @@
    "end": null,
    "all_day": false,
    "category": "karaoke",
-   "price": null,
-   "description": "Doors 6:00 PM, singing starts 6:30 PM. Powered by Songbooks Online, Show ID SPIKE. 21+.",
+   "price": 0.0,
+   "description": "Brain Monkeys Media karaoke, doors at 6:00 PM, 21+, no cover.",
    "url": "https://www.cruciblemadison.com/",
    "image": "",
    "venue": "Crucible",
@@ -871,29 +638,6 @@
    "link_ok": null
   },
   {
-   "id": "745baeb5c672",
-   "title": "Trivia Nights • Every Wednesday at The Lone Girl with King Trivia",
-   "start": "2026-11-18T18:30-06:00",
-   "end": "2026-11-18T20:30-06:00",
-   "all_day": false,
-   "category": "trivia",
-   "price": 0.0,
-   "description": "PUB TRIVIA with King Trivia every Wednesday night at LG-Waunakee at 6:30PM! Free to Play! Grab your crew. Let the bragging rights begin. Drink Up. Dig In. Have Fun. Repeat weekly. Through the end of December, join the Lone Girl Trivia Challenge for even more chances to win cool prizes! \\n",
-   "url": "https://thelonegirl.com/event/lone-girl-brewing-wednesday-trivia-2/",
-   "image": "https://thelonegirl.com/wp-content/uploads/2026/04/Lone-Girl-Social-Square.jpg",
-   "venue": "Lone Girl Tap Room And Pizza Company",
-   "venue_id": "osm:node/12641566168",
-   "venue_kind": "bar",
-   "address": "1817 East Washington Avenue",
-   "lat": 43.0907077,
-   "lon": -89.3608921,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "e30c249b7d9f",
    "title": "Open Mic",
    "start": "2026-11-18T18:30-06:00",
@@ -919,29 +663,6 @@
    "link_ok": null
   },
   {
-   "id": "6933d190a3a1",
-   "title": "N Illinois @ Marquette",
-   "start": "2026-11-18T18:30-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "",
-   "url": "https://statestreetbrats.com/event/n-illinois-marquette-20261118/",
-   "image": "",
-   "venue": "State Street Brats",
-   "venue_id": "osm:way/886357869",
-   "venue_kind": "bar",
-   "address": "603 State Street",
-   "lat": 43.0746889,
-   "lon": -89.395998,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "5e8073912027",
    "title": "Taproom Trivia",
    "start": "2026-11-18T18:30-06:00",
@@ -965,29 +686,6 @@
     "Isthmus"
    ],
    "link_ok": null
-  },
-  {
-   "id": "aafa685d1232",
-   "title": "New Glarus – Craft Beer Pinball League",
-   "start": "2026-11-18T18:30-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "trivia",
-   "price": null,
-   "description": "League night at Big Grove Brewery, craft beer and pinball.",
-   "url": "https://thekickback.bar/",
-   "image": "",
-   "venue": "The Kickback",
-   "venue_id": "osm:node/12292190391",
-   "venue_kind": "bar",
-   "address": "7622 Lisa Lane",
-   "lat": 43.1092621,
-   "lon": -89.5123266,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
   },
   {
    "id": "4ef35170bd3f",
@@ -1038,29 +736,6 @@
     "Isthmus"
    ],
    "link_ok": null
-  },
-  {
-   "id": "36cf66544d82",
-   "title": "Medicare 101",
-   "start": "2026-11-18T18:30-06:00",
-   "end": "2026-11-18T19:30-06:00",
-   "all_day": false,
-   "category": "food",
-   "price": 0.0,
-   "description": "Free program with retirement specialist Jake Zimmermann on the parts of Medicare (A, B, C and D) and paying for health care after retirement. Registration required.",
-   "url": "https://www.waunakeepubliclibrary.org/",
-   "image": "",
-   "venue": "Waunakee Public Library",
-   "venue_id": "osm:way/708130272",
-   "venue_kind": "library",
-   "address": "201 North Madison Street",
-   "lat": 43.1940495,
-   "lon": -89.450474,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
   },
   {
    "id": "cbebdf2e64ab",
@@ -1620,25 +1295,26 @@
    "link_ok": null
   },
   {
-   "id": "c30df9a6b953",
-   "title": "Jumptown Swing",
+   "id": "ba47da51e86e",
+   "title": "Jumptown Swing Dance",
    "start": "2026-11-18T19:30-06:00",
    "end": "2026-11-18T22:00-06:00",
    "all_day": false,
    "category": "food",
-   "price": null,
-   "description": "Neither snow nor rain nor sleet nor flurries nor gloom of night stays these dancers from Jumptown's weekly Wednesday Social at Cafe Coda! New to Swing dancing? No problem! There's a beginner-friendly 6-count Lindy lesson at 7:30 pm! Then stay for the social and a flurry of dancing with your cool new",
-   "url": "https://www.cafecoda.club/events-1/jumptown-swing-pdfmn-59jkp-yjsp4-fbnmd-mlydx-t82hk-cxh26-yjmcz-24589-r35gr-bj2kg-w8zz3-rycxr-9jdhz-9zrws-lb23r-s8kwh",
-   "image": "https://images.squarespace-cdn.com/content/v1/6914abebeed4305fd5ea6ea5/1791993152176-P6JRMYXMBRV7T8R6ZPY3/swing+dance+1.jpg",
+   "price": 10.0,
+   "description": "",
+   "url": "https://cafecoda.club",
+   "image": "",
    "venue": "Cafe CODA",
    "venue_id": "osm:way/385639191",
    "venue_kind": "bar",
    "address": "1224 Williamson Street",
    "lat": 43.0839938,
    "lon": -89.3638172,
-   "source": "scraped",
+   "source": "extra",
+   "via": "Isthmus",
+   "city": "Madison",
    "sources": [
-    "Venue websites",
     "Isthmus"
    ],
    "link_ok": true
@@ -1842,7 +1518,7 @@
    "all_day": true,
    "category": "other",
    "price": null,
-   "description": "Exhibition running November 19, 2026 to January 9, 2027.",
+   "description": "Exhibition opening Nov 19, 2026, running through Jan 9, 2027.",
    "url": "https://artlitlab.org/",
    "image": "",
    "venue": "Arts + Literature Laboratory",
@@ -2241,29 +1917,6 @@
    "link_ok": null
   },
   {
-   "id": "d11a3ff80e53",
-   "title": "Thursday Meat Raffle",
-   "start": "2026-11-19T16:30-06:00",
-   "end": "2026-11-19T18:00-06:00",
-   "all_day": false,
-   "category": "bingo",
-   "price": null,
-   "description": "Weekly Thursday meat raffle at Monkeyshines.",
-   "url": "http://www.monkeyshinesbarandgrill.com/",
-   "image": "",
-   "venue": "Monkeyshines Bar & Grill",
-   "venue_id": "osm:way/107655168",
-   "venue_kind": "bar",
-   "address": "6209 McKee Road",
-   "lat": 43.0146693,
-   "lon": -89.4753418,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "4565501ebc47",
    "title": "DAMA Open Studio",
    "start": "2026-11-19T17:00-06:00",
@@ -2583,7 +2236,7 @@
    "all_day": false,
    "category": "other",
    "price": null,
-   "description": "Virtual author talk with Rebecca Roanhorse for adults.",
+   "description": "Virtual author talk with Rebecca Roanhorse. Ages: adults.",
    "url": "https://www.sunprairiepubliclibrary.org/",
    "image": "",
    "venue": "Sun Prairie Public Library",
@@ -2669,29 +2322,6 @@
    "link_ok": true
   },
   {
-   "id": "bb6028a8da93",
-   "title": "Trivia with King Trivia",
-   "start": "2026-11-19T18:30-06:00",
-   "end": "2026-11-19T20:00-06:00",
-   "all_day": false,
-   "category": "trivia",
-   "price": 0.0,
-   "description": "Put your knowledge to the test at Trivia Night at One Social Food Hall, hosted by King Trivia! Gather your team, grab a drink, and dive into a fun, fast-paced evening of questions spanning pop culture, history, music, and more. With great food vendors, craft cocktails, and a lively atmosphere, it’s ",
-   "url": "https://onesocialmadison.com/event/trivia-with-king-trivia-3/",
-   "image": "",
-   "venue": "One Social Bar",
-   "venue_id": "osm:node/13312456631",
-   "venue_kind": "bar",
-   "address": "",
-   "lat": 43.0738511,
-   "lon": -89.378883,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "96cd12b21273",
    "title": "Witch",
    "start": "2026-11-19T19:00-06:00",
@@ -2771,7 +2401,7 @@
    "all_day": false,
    "category": "comedy",
    "price": 15.0,
-   "description": "Infotainment show mixing TED-style talks with stand-up comedy. $15 advance, $20 day of, $10 cash with student ID. Doors 6:30 PM.",
+   "description": "Infotainment event, like TED Talks mixed with stand-up comedy. $15 advance, $20 at the door, $10 cash with student ID.",
    "url": "https://www.cruciblemadison.com/",
    "image": "",
    "venue": "Crucible",
@@ -2811,22 +2441,45 @@
    "link_ok": null
   },
   {
-   "id": "530ccbdea214",
-   "title": "Romeo and Juliet",
-   "start": "2026-11-19T19:30-06:00",
+   "id": "afa4170e7a32",
+   "title": "Trail Blazers @ Bucks",
+   "start": "2026-11-19T19:00-06:00",
    "end": null,
    "all_day": false,
-   "category": "theater",
+   "category": "sports",
    "price": null,
-   "description": "Now playing at Bartell Theatre: the Capulets, Montagues, and two young lovers.",
-   "url": "https://bartelltheatre.org/",
+   "description": "",
+   "url": "https://statestreetbrats.com/event/trail-blazers-bucks-20261119/",
    "image": "",
-   "venue": "Bartell Theatre",
-   "venue_id": "osm:way/265137656",
-   "venue_kind": "venue",
-   "address": "113 East Mifflin Street",
-   "lat": 43.0765271,
-   "lon": -89.3833565,
+   "venue": "State Street Brats",
+   "venue_id": "osm:way/886357869",
+   "venue_kind": "bar",
+   "address": "603 State Street",
+   "lat": 43.0746889,
+   "lon": -89.395998,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "600484c79258",
+   "title": "Eclectic Book Club",
+   "start": "2026-11-19T19:00-06:00",
+   "end": "2026-11-19T20:00-06:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Book club meeting. Ages: adults.",
+   "url": "https://www.sunprairiepubliclibrary.org/",
+   "image": "",
+   "venue": "Sun Prairie Public Library",
+   "venue_id": "osm:way/600866560",
+   "venue_kind": "library",
+   "address": "1350 Linnerud Drive",
+   "lat": 43.1757782,
+   "lon": -89.2353415,
    "source": "ai",
    "sources": [
     "AI page reading"
@@ -2837,7 +2490,7 @@
    "id": "4f117ace0b35",
    "title": "Madison Jazz Orchestra",
    "start": "2026-11-19T19:30-06:00",
-   "end": "2026-11-19T22:30-06:00",
+   "end": "2026-11-19T22:00-06:00",
    "all_day": false,
    "category": "music",
    "price": null,
@@ -2881,6 +2534,29 @@
    "link_ok": null
   },
   {
+   "id": "f85dd6ee45bc",
+   "title": "Seton Hall @ Wisconsin",
+   "start": "2026-11-19T19:30-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "",
+   "url": "https://statestreetbrats.com/event/seton-hall-wisconsin-20261119/",
+   "image": "",
+   "venue": "State Street Brats",
+   "venue_id": "osm:way/886357869",
+   "venue_kind": "bar",
+   "address": "603 State Street",
+   "lat": 43.0746889,
+   "lon": -89.395998,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "c915bd947d80",
    "title": "Marc Maron",
    "start": "2026-11-19T20:00-06:00",
@@ -2901,6 +2577,29 @@
    "sources": [
     "Venue websites",
     "Ticketmaster"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "fb2214169fae",
+   "title": "Armchair Boogie \"Never Waste A Day\" Album Listening Party",
+   "start": "2026-11-19T20:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "music",
+   "price": null,
+   "description": "Album listening party. Doors 7pm.",
+   "url": "https://gammaray.bar",
+   "image": "",
+   "venue": "Gamma Ray Bar",
+   "venue_id": "osm:node/12156142686",
+   "venue_kind": "bar",
+   "address": "121 West Main Street",
+   "lat": 43.072436,
+   "lon": -89.3848247,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
    ],
    "link_ok": true
   },
@@ -2959,7 +2658,7 @@
    "all_day": false,
    "category": "music",
    "price": 5.0,
-   "description": "Goth AF night at Crucible. Doors 9:00 PM. 18+.",
+   "description": "Goth AF night, doors 9:00 PM, 18+.",
    "url": "https://www.cruciblemadison.com/",
    "image": "",
    "venue": "Crucible",
@@ -3160,29 +2859,6 @@
    "link_ok": true
   },
   {
-   "id": "625f14137e91",
-   "title": "Magic Rob EVERY Friday – tableside magic and family FUN!",
-   "start": "2026-11-20T18:00-06:00",
-   "end": "2026-11-20T20:00-06:00",
-   "all_day": false,
-   "category": "food",
-   "price": 0.0,
-   "description": "Madison\\'s Magic Rob provides FREE, family-friendly tableside and waiting area entertainment from 6-8pm EVERY FRIDAY. You never know when he\\'ll magically appear... be ready! Enjoy all-day Fish Fry Every Friday! \\n",
-   "url": "https://thelonegirl.com/event/magic-rob-every-friday-tableside-2-2-2-3-2-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2/",
-   "image": "https://thelonegirl.com/wp-content/uploads/2023/08/Magic-Rob-Inside.jpg",
-   "venue": "Lone Girl Tap Room And Pizza Company",
-   "venue_id": "osm:node/12641566168",
-   "venue_kind": "bar",
-   "address": "1817 East Washington Avenue",
-   "lat": 43.0907077,
-   "lon": -89.3608921,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "b9ccc6556053",
    "title": "Community Bingo Night w/ Brown Paws Rescue",
    "start": "2026-11-20T18:30-06:00",
@@ -3202,29 +2878,6 @@
    "source": "ai",
    "sources": [
     "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "41b59f49c4af",
-   "title": "Live Music: Bree Morgan",
-   "start": "2026-11-20T18:30-06:00",
-   "end": "2026-11-20T21:00-06:00",
-   "all_day": false,
-   "category": "music",
-   "price": null,
-   "description": "Grit, Rasp, Sass, and Love best describe Bree Morgan.",
-   "url": "https://onesocialmadison.com/event/live-music-bree-morgan-2/",
-   "image": "",
-   "venue": "One Social Bar",
-   "venue_id": "osm:node/13312456631",
-   "venue_kind": "bar",
-   "address": "",
-   "lat": 43.0738511,
-   "lon": -89.378883,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
    ],
    "link_ok": true
   },
@@ -3370,29 +3023,6 @@
    "link_ok": true
   },
   {
-   "id": "93e91968f11c",
-   "title": "Ryan Mauer + Wine Walk After-Party",
-   "start": "2026-11-20T19:00-06:00",
-   "end": "2026-11-20T22:00-06:00",
-   "all_day": false,
-   "category": "music",
-   "price": 0.0,
-   "description": "The best Wine Walk After Party Waunakee has to offer; it\\'s an annual tradition! As in past seasons, we\\'re welcoming Ryan Mauer as we keep the party rolling with LIVE MUSIC! No cover charge. We\\'ll keep the kitchen open until 10:00PM and have plenty of wine, taps and cocktails for those not ready f",
-   "url": "https://thelonegirl.com/event/ryan-mauer-wine-walk-after-party-2-2/",
-   "image": "https://thelonegirl.com/wp-content/uploads/2018/12/Mauer.png",
-   "venue": "Lone Girl Tap Room And Pizza Company",
-   "venue_id": "osm:node/12641566168",
-   "venue_kind": "bar",
-   "address": "1817 East Washington Avenue",
-   "lat": 43.0907077,
-   "lon": -89.3608921,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "2e1749d7c1e1",
    "title": "Friday Night Strikes",
    "start": "2026-11-20T19:00-06:00",
@@ -3400,7 +3030,7 @@
    "all_day": false,
    "category": "trivia",
    "price": null,
-   "description": "Pinball night with craft beer.",
+   "description": "Craft beer and pinball night",
    "url": "https://thekickback.bar/",
    "image": "",
    "venue": "The Kickback",
@@ -3423,7 +3053,7 @@
    "all_day": false,
    "category": "trivia",
    "price": null,
-   "description": "Smash Bros Ultimate tournament on Switch 2.",
+   "description": "Ultimate Super Smash Bros tournament on Switch 2",
    "url": "https://thekickback.bar/",
    "image": "",
    "venue": "The Kickback",
@@ -3514,9 +3144,9 @@
    "start": "2026-11-20T20:00-06:00",
    "end": null,
    "all_day": false,
-   "category": "theater",
+   "category": "dance",
    "price": 15.0,
-   "description": "Fantastical aerial burlesque show with fae, sirens and magic themes. Doors 7:00 PM. 21+.",
+   "description": "Fantastical aerial burlesque adventure, doors 7:00 PM, 21+.",
    "url": "https://www.cruciblemadison.com/",
    "image": "",
    "venue": "Crucible",
@@ -3525,6 +3155,29 @@
    "address": "3116 Commercial Avenue",
    "lat": 43.1071484,
    "lon": -89.3359941,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "f6ec4be9782c",
+   "title": "Gridlock Album Release with Totally Cashed, M545, A Casual Ruckus, Party Vultures",
+   "start": "2026-11-20T20:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "music",
+   "price": null,
+   "description": "Album release show with support from Totally Cashed, M545, A Casual Ruckus and Party Vultures. Doors 7pm.",
+   "url": "https://gammaray.bar",
+   "image": "",
+   "venue": "Gamma Ray Bar",
+   "venue_id": "osm:node/12156142686",
+   "venue_kind": "bar",
+   "address": "121 West Main Street",
+   "lat": 43.072436,
+   "lon": -89.3848247,
    "source": "ai",
    "sources": [
     "AI page reading"
@@ -3609,7 +3262,7 @@
    "all_day": false,
    "category": "film",
    "price": 8.0,
-   "description": "Shadow cast screening of Rocky Horror, midnight screening. $8, $13 under 21. Doors 11:00 PM. 18+.",
+   "description": "Midnight screening with Velvet Darkness shadow cast, doors 11:00 PM, 18+. $8, $13 under 21.",
    "url": "https://www.cruciblemadison.com/",
    "image": "",
    "venue": "Crucible",
@@ -3632,7 +3285,7 @@
    "all_day": true,
    "category": "other",
    "price": null,
-   "description": "Literary reading.",
+   "description": "Literary reading listed on the calendar for Nov 21, 2026.",
    "url": "https://artlitlab.org/",
    "image": "",
    "venue": "Arts + Literature Laboratory",
@@ -3817,7 +3470,7 @@
    "all_day": false,
    "category": "other",
    "price": null,
-   "description": "Nature program starting outside Goodman Community Center (by bike path), 214 Waubesa St.",
+   "description": "Nature outing starting outside Goodman Community Center by the bike path, 214 Waubesa St.",
    "url": "https://www.cityofmadison.com/parks/find-a-park/reindahl/pavilion-at-the-imagination-center",
    "image": "",
    "venue": "Reindahl Park Pavillion",
@@ -3840,7 +3493,7 @@
    "all_day": false,
    "category": "other",
    "price": null,
-   "description": "Nature program starting outside Goodman Community Center (by bike path), 214 Waubesa St.",
+   "description": "Nature outing starting outside Goodman Community Center by the bike path, 214 Waubesa St.",
    "url": "https://www.cityofmadison.com/parks/find-a-park/park.cfm?id=1364",
    "image": "",
    "venue": "Veterans Memorial Park",
@@ -3925,37 +3578,14 @@
    "link_ok": true
   },
   {
-   "id": "fc89eaa9822c",
-   "title": "Saturday Scene Study Showcase",
+   "id": "08e27aaec487",
+   "title": "Burlesque Gotz Skillz Dance Competition 2026",
    "start": "2026-11-21T12:00-06:00",
    "end": null,
    "all_day": false,
-   "category": "theater",
-   "price": null,
-   "description": "Ticketed showcase concluding the six-week Saturday Scene Study class, on the Evjue Stage.",
-   "url": "https://bartelltheatre.org/",
-   "image": "",
-   "venue": "Bartell Theatre",
-   "venue_id": "osm:way/265137656",
-   "venue_kind": "venue",
-   "address": "113 East Mifflin Street",
-   "lat": 43.0765271,
-   "lon": -89.3833565,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "6426be03233c",
-   "title": "Burlesque Gotz Skillz 2026 - 5th Annual Improv Burlesque Competition",
-   "start": "2026-11-21T12:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "comedy",
+   "category": "dance",
    "price": 20.0,
-   "description": "Improv burlesque competition at Crucible Nightclub. Tickets start at $20.",
+   "description": "5th Annual Improv Burlesque Competition at Crucible Nightclub.",
    "url": "https://www.cruciblemadison.com/",
    "image": "",
    "venue": "Crucible",
@@ -3996,37 +3626,14 @@
    "link_ok": null
   },
   {
-   "id": "9b1d7b490da2",
-   "title": "Distillery Tour",
-   "start": "2026-11-21T13:30-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "music",
-   "price": null,
-   "description": "Weekly Saturday distillery tour at 1:30PM, as listed on the page.",
-   "url": "https://oldsugardistillery.com/",
-   "image": "",
-   "venue": "Old Sugar Distillery",
-   "venue_id": "osm:node/8250181191",
-   "venue_kind": "brewery",
-   "address": "",
-   "lat": 43.0823931,
-   "lon": -89.3706293,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "246e47dd9dd1",
-   "title": "Beginning Cross-Stitch",
+   "id": "243c4a50ab45",
+   "title": "Beginning Cross-Stitch [FULL]",
    "start": "2026-11-21T14:00-06:00",
    "end": "2026-11-21T15:30-06:00",
    "all_day": false,
    "category": "other",
    "price": null,
-   "description": "Beginning cross-stitch class in the Meeting Room.",
+   "description": "Beginning cross-stitch class in the Meeting Room. Listed as full.",
    "url": "https://www.madisonpubliclibrary.org/about/ashman.html",
    "image": "",
    "venue": "Alicia Ashman Library",
@@ -4038,6 +3645,29 @@
    "source": "ai",
    "sources": [
     "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "9a35a9793696",
+   "title": "Tango Class & Social",
+   "start": "2026-11-21T14:00-06:00",
+   "end": "2026-11-21T17:00-06:00",
+   "all_day": false,
+   "category": "music",
+   "price": null,
+   "description": "",
+   "url": "https://www.cafecoda.club/events-1/tango-class-2-3-pm-social-3-5-pm-2aden-s34kk-erc3e-ldek9",
+   "image": "https://images.squarespace-cdn.com/content/v1/6914abebeed4305fd5ea6ea5/1784038869530-B4ID22SVH6B1RB3W4F2Y/Tango+and+Social-2.png",
+   "venue": "Cafe CODA",
+   "venue_id": "osm:way/385639191",
+   "venue_kind": "bar",
+   "address": "1224 Williamson Street",
+   "lat": 43.0839938,
+   "lon": -89.3638172,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
    ],
    "link_ok": true
   },
@@ -4066,6 +3696,29 @@
    "link_ok": null
   },
   {
+   "id": "1227ba49145b",
+   "title": "Beginning Cross-Stitch [FULL]",
+   "start": "2026-11-21T14:00-06:00",
+   "end": "2026-11-21T15:30-06:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Beginning cross-stitch class in the Meeting Room. Listed as full.",
+   "url": "https://www.madisonpubliclibrary.org/locations/imagination-center",
+   "image": "",
+   "venue": "Imagination Center",
+   "venue_id": "osm:way/1562302805",
+   "venue_kind": "library",
+   "address": "1814 Parkside Drive",
+   "lat": 43.1240118,
+   "lon": -89.3168809,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "a1b1fbab81ac",
    "title": "Wisconsin Badgers Womens Hockey vs. Bemidji State Beavers Womens Hockey",
    "start": "2026-11-21T14:00-06:00",
@@ -4087,6 +3740,29 @@
     "Ticketmaster"
    ],
    "link_ok": null
+  },
+  {
+   "id": "605fe8c4b520",
+   "title": "Beginning Cross-Stitch [FULL]",
+   "start": "2026-11-21T14:00-06:00",
+   "end": "2026-11-21T15:30-06:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Beginning cross-stitch class in the Meeting Room. Listed as full.",
+   "url": "https://www.madisonpubliclibrary.org/monroe-street",
+   "image": "",
+   "venue": "Monroe Street Library",
+   "venue_id": "osm:way/241508509",
+   "venue_kind": "library",
+   "address": "1705 Monroe Street",
+   "lat": 43.0659388,
+   "lon": -89.4152059,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
   },
   {
    "id": "02f1a5631391",
@@ -4111,6 +3787,52 @@
     "Isthmus"
    ],
    "link_ok": null
+  },
+  {
+   "id": "01611b893f4e",
+   "title": "Beginning Cross-Stitch [FULL]",
+   "start": "2026-11-21T14:00-06:00",
+   "end": "2026-11-21T15:30-06:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Beginning cross-stitch class in the Meeting Room. Listed as full.",
+   "url": "https://www.madisonpubliclibrary.org/locations/pinney-library",
+   "image": "",
+   "venue": "Pinney Library",
+   "venue_id": "osm:node/7234376294",
+   "venue_kind": "library",
+   "address": "516 Cottage Grove Road",
+   "lat": 43.0841729,
+   "lon": -89.3176486,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "6566d7d7144a",
+   "title": "Beginning Cross-Stitch [FULL]",
+   "start": "2026-11-21T14:00-06:00",
+   "end": "2026-11-21T15:30-06:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Beginning cross-stitch class in the Meeting Room. Listed as full.",
+   "url": "https://www.madisonpubliclibrary.org/sequoya",
+   "image": "",
+   "venue": "Sequoya Library",
+   "venue_id": "osm:node/1473488018",
+   "venue_kind": "library",
+   "address": "4340 Tokay Boulevard",
+   "lat": 43.0537698,
+   "lon": -89.4505289,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
   },
   {
    "id": "d9868a674435",
@@ -4323,6 +4045,29 @@
    "link_ok": true
   },
   {
+   "id": "9bcd83f873cb",
+   "title": "New Wave Ren Faire ft. Educational Davis with Lavish Waste, Poison Widow, Yakuza Jacuzzi",
+   "start": "2026-11-21T19:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "music",
+   "price": null,
+   "description": "Show featuring Educational Davis, with Lavish Waste, Poison Widow and Yakuza Jacuzzi. Doors 6pm.",
+   "url": "https://gammaray.bar",
+   "image": "",
+   "venue": "Gamma Ray Bar",
+   "venue_id": "osm:node/12156142686",
+   "venue_kind": "bar",
+   "address": "121 West Main Street",
+   "lat": 43.072436,
+   "lon": -89.3848247,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "3dc9ee49e5e4",
    "title": "Nurse John: Against Medical Advice Tour",
    "start": "2026-11-21T19:00-06:00",
@@ -4344,29 +4089,6 @@
     "Ticketmaster"
    ],
    "link_ok": null
-  },
-  {
-   "id": "87b91f720541",
-   "title": "Cash Box Kings",
-   "start": "2026-11-21T20:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "music",
-   "price": 15.0,
-   "description": "Blues band, described by Living Blues as one of the best blues bands in the land.",
-   "url": "https://thecrystalcornerbar.com/",
-   "image": "",
-   "venue": "Crystal Corner Bar",
-   "venue_id": "osm:node/567936558",
-   "venue_kind": "bar",
-   "address": "1302 Williamson Street",
-   "lat": 43.0846749,
-   "lon": -89.36254,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
   },
   {
    "id": "d8f553c7fb70",
@@ -4469,7 +4191,7 @@
    "all_day": false,
    "category": "dance",
    "price": 10.0,
-   "description": "Madison's annual fetish ball with stage acts and go-go dancers. Dress code: latex, leather, vinyl, chains, club wear or evening attire. Doors 9:00 PM. 21+.",
+   "description": "Madison's annual fetish ball with stage acts and go-go dancers, 21+.",
    "url": "https://www.cruciblemadison.com/",
    "image": "",
    "venue": "Crucible",
@@ -4561,7 +4283,7 @@
    "all_day": true,
    "category": "music",
    "price": null,
-   "description": "Performance by the Ancora String Quartet.",
+   "description": "Performance by the Ancora String Quartet on Nov 22, 2026.",
    "url": "https://artlitlab.org/",
    "image": "",
    "venue": "Arts + Literature Laboratory",
@@ -4619,29 +4341,6 @@
    "source": "ai",
    "sources": [
     "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "202a91ecdb78",
-   "title": "Bingo 10:30am and 1:00pm, Beer & Bloodies – #SundayFunday",
-   "start": "2026-11-22T10:30-06:00",
-   "end": "2026-11-22T10:30-06:00",
-   "all_day": false,
-   "category": "bingo",
-   "price": 0.0,
-   "description": "Enjoy great food, bloodys, craft beer and mimosas as you rally for cool prizes! Free to play! Doors open at 10 AM. Bingo starts at 10:30am and 1:00pm \\n",
-   "url": "https://thelonegirl.com/event/sunday-bingo-lone-girl-brewing-2-2-2-2/",
-   "image": "https://thelonegirl.com/wp-content/uploads/2025/01/20231112_130804-e1737130911633.jpg",
-   "venue": "Lone Girl Tap Room And Pizza Company",
-   "venue_id": "osm:node/12641566168",
-   "venue_kind": "bar",
-   "address": "1817 East Washington Avenue",
-   "lat": 43.0907077,
-   "lon": -89.3608921,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
    ],
    "link_ok": true
   },
@@ -4812,29 +4511,6 @@
    "link_ok": true
   },
   {
-   "id": "c2bb4537da97",
-   "title": "Meat Raffle and Fundraiser at The Lone Girl",
-   "start": "2026-11-22T15:00-06:00",
-   "end": "2026-11-22T16:30-06:00",
-   "all_day": false,
-   "category": "bingo",
-   "price": null,
-   "description": "PAWS FOR A CAUSE! This Meat Raffle is going to the dogs — and we mean that in the best possible way. Come try your luck at a pile of steaks, brats and other glorious meaty prizes while helping support the Humane Society of Jefferson County and the animals in their care. ❤️ Every paddle […] \\n",
-   "url": "https://thelonegirl.com/event/meat-raffle-126-2/",
-   "image": "https://thelonegirl.com/wp-content/uploads/2026/09/6.7.2026-1.png",
-   "venue": "Lone Girl Tap Room And Pizza Company",
-   "venue_id": "osm:node/12641566168",
-   "venue_kind": "bar",
-   "address": "1817 East Washington Avenue",
-   "lat": 43.0907077,
-   "lon": -89.3608921,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "8aa3ed34a10d",
    "title": "WanderLust Mobile Bookstore Pop-up",
    "start": "2026-11-22T15:00-06:00",
@@ -4842,7 +4518,7 @@
    "all_day": false,
    "category": "other",
    "price": null,
-   "description": "Pop-up visit from the WanderLust Mobile Bookstore.",
+   "description": "Pop-up visit from the WanderLust Mobile Bookstore",
    "url": "https://thekickback.bar/",
    "image": "",
    "venue": "The Kickback",
@@ -4865,7 +4541,7 @@
    "all_day": false,
    "category": "other",
    "price": null,
-   "description": "Fundraiser for Fetch WI Rescue on the patio, with craft beer.",
+   "description": "Fundraiser for Fetch WI Rescue with craft beer on the patio",
    "url": "https://thekickback.bar/",
    "image": "",
    "venue": "The Kickback",
@@ -5042,6 +4718,52 @@
    "link_ok": true
   },
   {
+   "id": "44a01e1e7705",
+   "title": "Pole Fantasy Showcase for Dane County Homeless Justice Initiative",
+   "start": "2026-11-22T19:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "dance",
+   "price": 10.0,
+   "description": "Poletariat pole showcase, all proceeds to DCHJI. Doors 6:00 PM, 21+.",
+   "url": "https://www.cruciblemadison.com/",
+   "image": "",
+   "venue": "Crucible",
+   "venue_id": "osm:node/6519071395",
+   "venue_kind": "bar",
+   "address": "3116 Commercial Avenue",
+   "lat": 43.1071484,
+   "lon": -89.3359941,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "25054d53d68d",
+   "title": "Clean Plate Club with Becca Murray & The Wildflowers, AuroNova",
+   "start": "2026-11-22T19:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "music",
+   "price": null,
+   "description": "Show with Becca Murray & The Wildflowers and AuroNova. Doors 6pm.",
+   "url": "https://gammaray.bar",
+   "image": "",
+   "venue": "Gamma Ray Bar",
+   "venue_id": "osm:node/12156142686",
+   "venue_kind": "bar",
+   "address": "121 West Main Street",
+   "lat": 43.072436,
+   "lon": -89.3848247,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "d2d1b7d51054",
    "title": "The Record Company-Give It Back To You 10th Anniversary Tour",
    "start": "2026-11-22T19:00-06:00",
@@ -5136,29 +4858,6 @@
    "link_ok": true
   },
   {
-   "id": "a68e04a035db",
-   "title": "Acoustic Music Mondays: Barley Brothers",
-   "start": "2026-11-23T00:00-06:00",
-   "end": null,
-   "all_day": true,
-   "category": "music",
-   "price": null,
-   "description": "Old-time American string band, 4th Monday",
-   "url": "http://malthousetavern.com/",
-   "image": "",
-   "venue": "The Malt House",
-   "venue_id": "osm:way/592859743",
-   "venue_kind": "bar",
-   "address": "2609 East Washington Avenue",
-   "lat": 43.1005011,
-   "lon": -89.3482198,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "f5eff9ff0f27",
    "title": "Trans Social Night",
    "start": "2026-11-23T18:00-06:00",
@@ -5166,7 +4865,7 @@
    "all_day": false,
    "category": "other",
    "price": 0.0,
-   "description": "Free low-pressure social event. Recurs 2nd and 4th Mondays. 21+.",
+   "description": "Low-pressure free social event, 21+, no cover. Held 2nd and 4th Mondays.",
    "url": "https://www.cruciblemadison.com/",
    "image": "",
    "venue": "Crucible",
@@ -5205,6 +4904,29 @@
    "link_ok": true
   },
   {
+   "id": "2944e2ade58b",
+   "title": "Slug Rug w/ Dicot",
+   "start": "2026-11-23T20:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "music",
+   "price": null,
+   "description": "Show with Dicot. Doors 7pm.",
+   "url": "https://gammaray.bar",
+   "image": "",
+   "venue": "Gamma Ray Bar",
+   "venue_id": "osm:node/12156142686",
+   "venue_kind": "bar",
+   "address": "121 West Main Street",
+   "lat": 43.072436,
+   "lon": -89.3848247,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "e700a9309df9",
    "title": "Taco Tuesday",
    "start": "2026-11-24T00:00-06:00",
@@ -5221,29 +4943,6 @@
    "address": "1617 North Stoughton Road",
    "lat": 43.1199361,
    "lon": -89.3244342,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "1bf12fde7205",
-   "title": "Tuesday Music: Dollar Bill and The Bucks",
-   "start": "2026-11-24T00:00-06:00",
-   "end": null,
-   "all_day": true,
-   "category": "music",
-   "price": null,
-   "description": "Honky tonk, 4th Tuesday",
-   "url": "http://malthousetavern.com/",
-   "image": "",
-   "venue": "The Malt House",
-   "venue_id": "osm:way/592859743",
-   "venue_kind": "bar",
-   "address": "2609 East Washington Avenue",
-   "lat": 43.1005011,
-   "lon": -89.3482198,
    "source": "ai",
    "sources": [
     "AI page reading"
@@ -5281,7 +4980,7 @@
    "all_day": true,
    "category": "other",
    "price": null,
-   "description": "Drop-in help with your device or app on Tuesdays at Verona Public Library.",
+   "description": "Drop-in help with your device or app on Tuesdays.",
    "url": "https://www.veronapubliclibrary.org/",
    "image": "",
    "venue": "Verona Public Library",
@@ -5420,7 +5119,7 @@
    "all_day": false,
    "category": "trivia",
    "price": null,
-   "description": "Tuesday trivia night.",
+   "description": "Tuesday trivia night",
    "url": "https://thekickback.bar/",
    "image": "",
    "venue": "The Kickback",
@@ -5524,29 +5223,6 @@
    "source": "ai",
    "sources": [
     "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "3a16e787c0c3",
-   "title": "Packers Watch Party",
-   "start": "2026-11-25T04:00-06:00",
-   "end": "2026-11-26T03:59-06:00",
-   "all_day": true,
-   "category": "sports",
-   "price": null,
-   "description": "*During Packer Games* Come play “Flag Football” with us! Guests will receive a raffle ticket with each drink purchase, increasing their chances of winning as the game progresses. When a penalty flag is thrown during the game, a ticket will be drawn for a prize! Go Pack, Go!",
-   "url": "https://onesocialmadison.com/event/packers-watch-party-5/",
-   "image": "",
-   "venue": "One Social Bar",
-   "venue_id": "osm:node/13312456631",
-   "venue_kind": "bar",
-   "address": "",
-   "lat": 43.0738511,
-   "lon": -89.378883,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
    ],
    "link_ok": true
   },
@@ -5694,52 +5370,6 @@
    "link_ok": null
   },
   {
-   "id": "1840c2ee9006",
-   "title": "The Art of Neighborships: Open Studio with Artist-in-Residence Carrie Breunig",
-   "start": "2026-11-25T18:00-06:00",
-   "end": "2026-11-25T20:00-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Drop-in creative open studio with 2026 Pinney Studio Artist-in-Residence Carrie Breunig. Page lists Wednesdays 6-8pm for autumn (Sept-Nov).",
-   "url": "https://www.madisonpubliclibrary.org/monroe-street",
-   "image": "",
-   "venue": "Monroe Street Library",
-   "venue_id": "osm:way/241508509",
-   "venue_kind": "library",
-   "address": "1705 Monroe Street",
-   "lat": 43.0659388,
-   "lon": -89.4152059,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "02d36808f0a5",
-   "title": "The Art of Neighborships: Open Studio with Artist-in-Residence Carrie Breunig",
-   "start": "2026-11-25T18:00-06:00",
-   "end": "2026-11-25T20:00-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Drop-in creative open studio with 2026 Pinney Studio Artist-in-Residence Carrie Breunig. Page lists Wednesdays 6-8pm for autumn (Sept-Nov).",
-   "url": "https://www.madisonpubliclibrary.org/locations/pinney-library",
-   "image": "",
-   "venue": "Pinney Library",
-   "venue_id": "osm:node/7234376294",
-   "venue_kind": "library",
-   "address": "516 Cottage Grove Road",
-   "lat": 43.0841729,
-   "lon": -89.3176486,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "0169aa748cf0",
    "title": "Bingo",
    "start": "2026-11-25T18:00-06:00",
@@ -5820,8 +5450,8 @@
    "end": null,
    "all_day": false,
    "category": "karaoke",
-   "price": null,
-   "description": "Doors 6:00 PM, singing starts 6:30 PM. Powered by Songbooks Online, Show ID SPIKE. 21+.",
+   "price": 0.0,
+   "description": "Brain Monkeys Media karaoke, doors at 6:00 PM, 21+, no cover.",
    "url": "https://www.cruciblemadison.com/",
    "image": "",
    "venue": "Crucible",
@@ -5906,29 +5536,6 @@
     "Isthmus"
    ],
    "link_ok": null
-  },
-  {
-   "id": "d586a9f1fa16",
-   "title": "Trivia Nights • Every Wednesday at The Lone Girl with King Trivia",
-   "start": "2026-11-25T18:30-06:00",
-   "end": "2026-11-25T20:30-06:00",
-   "all_day": false,
-   "category": "trivia",
-   "price": 0.0,
-   "description": "PUB TRIVIA with King Trivia every Wednesday night at LG-Waunakee at 6:30PM! Free to Play! Grab your crew. Let the bragging rights begin. Drink Up. Dig In. Have Fun. Repeat weekly. Through the end of December, join the Lone Girl Trivia Challenge for even more chances to win cool prizes! \\n",
-   "url": "https://thelonegirl.com/event/lone-girl-brewing-wednesday-trivia-2-2/",
-   "image": "https://thelonegirl.com/wp-content/uploads/2026/04/Lone-Girl-Social-Square.jpg",
-   "venue": "Lone Girl Tap Room And Pizza Company",
-   "venue_id": "osm:node/12641566168",
-   "venue_kind": "bar",
-   "address": "1817 East Washington Avenue",
-   "lat": 43.0907077,
-   "lon": -89.3608921,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
-   ],
-   "link_ok": true
   },
   {
    "id": "0fa6ac75e520",
@@ -6289,29 +5896,6 @@
    "link_ok": true
   },
   {
-   "id": "7aac35250fc3",
-   "title": "Drinksgiving With Live Music by Finding North",
-   "start": "2026-11-25T20:00-06:00",
-   "end": "2026-11-25T23:00-06:00",
-   "all_day": false,
-   "category": "music",
-   "price": 0.0,
-   "description": "Family. Friends. Fun. And Live Music. Let\\'s Party! It all comes together on Thanksgiving Eve - Wednesday, November 25. We\\'ll have live music from 8-11pm by Finding North. No Cover Charge! Drop in and SUPPORT LOCAL! Finding North is a folk/americana singer/songwriter trio with blues, rock, country,",
-   "url": "https://thelonegirl.com/event/drinksgiving-with-live-music-by-finding-north-2-2-2/",
-   "image": "https://thelonegirl.com/wp-content/uploads/2023/10/Band-Photo.jpg",
-   "venue": "Lone Girl Tap Room And Pizza Company",
-   "venue_id": "osm:node/12641566168",
-   "venue_kind": "bar",
-   "address": "1817 East Washington Avenue",
-   "lat": 43.0907077,
-   "lon": -89.3608921,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "97eb8e0e90a0",
    "title": "Latin Music Fest 2026 (Ages 18+)",
    "start": "2026-11-25T20:00-06:00",
@@ -6428,29 +6012,6 @@
    "link_ok": true
   },
   {
-   "id": "bc3b0a716bb5",
-   "title": "Thursday Meat Raffle",
-   "start": "2026-11-26T16:30-06:00",
-   "end": "2026-11-26T18:00-06:00",
-   "all_day": false,
-   "category": "bingo",
-   "price": null,
-   "description": "Weekly Thursday meat raffle at Monkeyshines.",
-   "url": "http://www.monkeyshinesbarandgrill.com/",
-   "image": "",
-   "venue": "Monkeyshines Bar & Grill",
-   "venue_id": "osm:way/107655168",
-   "venue_kind": "bar",
-   "address": "6209 McKee Road",
-   "lat": 43.0146693,
-   "lon": -89.4753418,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "1443ff67faf9",
    "title": "Trivia",
    "start": "2026-11-26T18:00-06:00",
@@ -6540,29 +6101,6 @@
    "source": "ai",
    "sources": [
     "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "d96fa3e5ce10",
-   "title": "Badger Shuttle – roundtrip from The Lone Girl – Tickets here!",
-   "start": "2026-11-27T00:00-06:00",
-   "end": "2026-11-27T23:59-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": 10.0,
-   "description": "Jump on the bus with us! \\n",
-   "url": "https://thelonegirl.com/event/badger-shuttle-from-the-lone-girl-1127/",
-   "image": "https://thelonegirl.com/wp-content/uploads/2025/08/badger-Football.jpg",
-   "venue": "Lone Girl Tap Room And Pizza Company",
-   "venue_id": "osm:node/12641566168",
-   "venue_kind": "bar",
-   "address": "1817 East Washington Avenue",
-   "lat": 43.0907077,
-   "lon": -89.3608921,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
    ],
    "link_ok": true
   },
@@ -6683,25 +6221,25 @@
    "link_ok": null
   },
   {
-   "id": "5d22e3234251",
-   "title": "Magic Rob EVERY Friday – tableside magic and family FUN!",
-   "start": "2026-11-27T18:00-06:00",
-   "end": "2026-11-27T20:00-06:00",
+   "id": "96b36ac696bb",
+   "title": "The Rocky Horror (Matinee) Picture Show",
+   "start": "2026-11-27T14:00-06:00",
+   "end": null,
    "all_day": false,
-   "category": "food",
-   "price": 0.0,
-   "description": "Madison\\'s Magic Rob provides FREE, family-friendly tableside and waiting area entertainment from 6-8pm EVERY FRIDAY. You never know when he\\'ll magically appear... be ready! Enjoy all-day Fish Fry Every Friday! \\n",
-   "url": "https://thelonegirl.com/event/magic-rob-every-friday-tableside-2-2-2-3-2-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2/",
-   "image": "https://thelonegirl.com/wp-content/uploads/2023/08/Magic-Rob-Inside.jpg",
-   "venue": "Lone Girl Tap Room And Pizza Company",
-   "venue_id": "osm:node/12641566168",
+   "category": "film",
+   "price": 8.0,
+   "description": "Daytime Black Friday screening with Velvet Darkness shadow cast, doors 1:00 PM, 18+. $8, $13 under 21.",
+   "url": "https://www.cruciblemadison.com/",
+   "image": "",
+   "venue": "Crucible",
+   "venue_id": "osm:node/6519071395",
    "venue_kind": "bar",
-   "address": "1817 East Washington Avenue",
-   "lat": 43.0907077,
-   "lon": -89.3608921,
-   "source": "scraped",
+   "address": "3116 Commercial Avenue",
+   "lat": 43.1071484,
+   "lon": -89.3359941,
+   "source": "ai",
    "sources": [
-    "Venue websites"
+    "AI page reading"
    ],
    "link_ok": true
   },
@@ -6729,6 +6267,29 @@
    "link_ok": null
   },
   {
+   "id": "3de35ca84ecd",
+   "title": "Tani Diakite and Afrofunkstars",
+   "start": "2026-11-27T19:00-06:00",
+   "end": "2026-11-27T21:00-06:00",
+   "all_day": false,
+   "category": "music",
+   "price": null,
+   "description": "",
+   "url": "https://www.cafecoda.club/events-1/tani-diakite-and-afrofunkstarks-2m2he-l9nje-t7e27-a45p2",
+   "image": "https://images.squarespace-cdn.com/content/v1/6914abebeed4305fd5ea6ea5/1792874579753-31M3M1ORNSA3MJHP3Z4O/Editable+Canva+Document+%281%29.png",
+   "venue": "Cafe CODA",
+   "venue_id": "osm:way/385639191",
+   "venue_kind": "bar",
+   "address": "1224 Williamson Street",
+   "lat": 43.0839938,
+   "lon": -89.3638172,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "a61a545581c5",
    "title": "Friday Night Strikes",
    "start": "2026-11-27T19:00-06:00",
@@ -6736,7 +6297,7 @@
    "all_day": false,
    "category": "trivia",
    "price": null,
-   "description": "Pinball night with craft beer.",
+   "description": "Craft beer and pinball night",
    "url": "https://thekickback.bar/",
    "image": "",
    "venue": "The Kickback",
@@ -6853,7 +6414,7 @@
    "all_day": false,
    "category": "other",
    "price": null,
-   "description": "Monthly 21+ event. No photos or recordings of any kind allowed, including selfies.",
+   "description": "21+ monthly event. No pictures or recordings allowed anywhere in the venue.",
    "url": "https://www.cruciblemadison.com/",
    "image": "",
    "venue": "Crucible",
@@ -6984,29 +6545,6 @@
    "link_ok": true
   },
   {
-   "id": "ab8fed030634",
-   "title": "Cool School",
-   "start": "2026-11-28T10:00-06:00",
-   "end": "2026-11-28T11:30-06:00",
-   "all_day": false,
-   "category": "music",
-   "price": 0.0,
-   "description": "Cafe CODA is thrilled to announce the return of Cool School, the free Saturday morning music clinic for kids! This program introduces young people to the transformative power of music. At Cool School, children have the chance to pick up instruments, learn directly from experienced musicians, and exp",
-   "url": "https://www.cafecoda.club/events-1/cool-school-1-mwk5m-6mm75-4gl5k-x3bxx-2l3ky-wk7lh-m59ge-aep6w-pnxbz-mc556",
-   "image": "https://images.squarespace-cdn.com/content/v1/6914abebeed4305fd5ea6ea5/1789673711678-9BKFVUWUTWWL2WXSD6HX/Cool+School+Every+Saturday.png",
-   "venue": "Cafe CODA",
-   "venue_id": "osm:way/385639191",
-   "venue_kind": "bar",
-   "address": "1224 Williamson Street",
-   "lat": 43.0839938,
-   "lon": -89.3638172,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "2a7a2bffd50e",
    "title": "Holiday Pop-up Shop",
    "start": "2026-11-28T10:00-06:00",
@@ -7038,7 +6576,7 @@
    "all_day": false,
    "category": "other",
    "price": null,
-   "description": "Nature program at Aldo Leopold Nature Center, 330 Femrite Drive.",
+   "description": "Nature outing at Aldo Leopold Nature Center, 330 Femrite Drive.",
    "url": "https://www.cityofmadison.com/parks/find-a-park/reindahl/pavilion-at-the-imagination-center",
    "image": "",
    "venue": "Reindahl Park Pavillion",
@@ -7061,7 +6599,7 @@
    "all_day": false,
    "category": "other",
    "price": null,
-   "description": "Nature program at Aldo Leopold Nature Center, 330 Femrite Drive.",
+   "description": "Nature outing at Aldo Leopold Nature Center, 330 Femrite Drive.",
    "url": "https://www.cityofmadison.com/parks/find-a-park/park.cfm?id=1364",
    "image": "",
    "venue": "Veterans Memorial Park",
@@ -7096,29 +6634,6 @@
    "source": "scraped",
    "sources": [
     "Venue websites"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "3bb4207f3f7c",
-   "title": "Distillery Tour",
-   "start": "2026-11-28T13:30-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "music",
-   "price": null,
-   "description": "Weekly Saturday distillery tour at 1:30PM, as listed on the page.",
-   "url": "https://oldsugardistillery.com/",
-   "image": "",
-   "venue": "Old Sugar Distillery",
-   "venue_id": "osm:node/8250181191",
-   "venue_kind": "brewery",
-   "address": "",
-   "lat": 43.0823931,
-   "lon": -89.3706293,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
    ],
    "link_ok": true
   },
@@ -7330,29 +6845,6 @@
    "link_ok": null
   },
   {
-   "id": "1bf7baca0ada",
-   "title": "The Mersey Brothers featuring Sean Michael Dargan (New Wave Rock - Eighties Alt Rock Night)",
-   "start": "2026-11-28T20:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "music",
-   "price": 10.0,
-   "description": "New wave rock and eighties alt rock night.",
-   "url": "https://thecrystalcornerbar.com/",
-   "image": "",
-   "venue": "Crystal Corner Bar",
-   "venue_id": "osm:node/567936558",
-   "venue_kind": "bar",
-   "address": "1302 Williamson Street",
-   "lat": 43.0846749,
-   "lon": -89.36254,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "bccf5c2c7c9b",
    "title": "DJ Saint Cat",
    "start": "2026-11-28T20:00-06:00",
@@ -7510,29 +7002,6 @@
    "source": "ai",
    "sources": [
     "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "06a8a4844497",
-   "title": "Bingo 10:30am and 1:00pm, Beer & Bloodies – #SundayFunday",
-   "start": "2026-11-29T10:30-06:00",
-   "end": "2026-11-29T10:30-06:00",
-   "all_day": false,
-   "category": "bingo",
-   "price": 0.0,
-   "description": "Enjoy great food, bloodys, craft beer and mimosas as you rally for cool prizes! Free to play! Doors open at 10 AM. Bingo starts at 10:30am and 1:00pm \\n",
-   "url": "https://thelonegirl.com/event/sunday-bingo-lone-girl-brewing-2-2-2-2-2/",
-   "image": "https://thelonegirl.com/wp-content/uploads/2025/01/20231112_130804-e1737130911633.jpg",
-   "venue": "Lone Girl Tap Room And Pizza Company",
-   "venue_id": "osm:node/12641566168",
-   "venue_kind": "bar",
-   "address": "1817 East Washington Avenue",
-   "lat": 43.0907077,
-   "lon": -89.3608921,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
    ],
    "link_ok": true
   },
@@ -7844,7 +7313,7 @@
    "all_day": true,
    "category": "other",
    "price": null,
-   "description": "Drop-in help with your device or app on Tuesdays at Verona Public Library.",
+   "description": "Drop-in help with your device or app on Tuesdays.",
    "url": "https://www.veronapubliclibrary.org/",
    "image": "",
    "venue": "Verona Public Library",
@@ -7890,7 +7359,7 @@
    "all_day": false,
    "category": "trivia",
    "price": null,
-   "description": "Tuesday trivia night.",
+   "description": "Tuesday trivia night",
    "url": "https://thekickback.bar/",
    "image": "",
    "venue": "The Kickback",
@@ -7968,6 +7437,121 @@
    "address": "2201 Atwood Avenue",
    "lat": 43.0930561,
    "lon": -89.3492054,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "299e116b916b",
+   "title": "Crucible Karaoke",
+   "start": "2026-12-02T18:30-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "karaoke",
+   "price": 0.0,
+   "description": "Brain Monkeys Media karaoke, doors at 6:00 PM, 21+, no cover.",
+   "url": "https://www.cruciblemadison.com/",
+   "image": "",
+   "venue": "Crucible",
+   "venue_id": "osm:node/6519071395",
+   "venue_kind": "bar",
+   "address": "3116 Commercial Avenue",
+   "lat": 43.1071484,
+   "lon": -89.3359941,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "dc45e245af4d",
+   "title": "Mystery Book Club",
+   "start": "2026-12-02T18:30-06:00",
+   "end": "2026-12-02T19:30-06:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Event Description Join us on the first Wednesday of the month at 6:30 PM for mystery book discussions! We meet in the library community room. December's selection is _Death of a Spy_ by M.C. Beaton. Limited copies are available in the library. For general book club support, go here [/book-club-suppo",
+   "url": "https://www.mcfarlandlibrary.org/home",
+   "image": "",
+   "venue": "E.D. Locke Public Library",
+   "venue_id": "osm:way/386578862",
+   "venue_kind": "library",
+   "address": "5920 Milwaukee Street",
+   "lat": 43.0136038,
+   "lon": -89.2883391,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "fbdebdbe66b9",
+   "title": "Smarter Than You Trivia",
+   "start": "2026-12-02T18:30-06:00",
+   "end": "2026-12-02T20:30-06:00",
+   "all_day": false,
+   "category": "trivia",
+   "price": 0.0,
+   "description": "Paul hosts trivia. Held the 1st and 3rd Wednesday of the month. Free.",
+   "url": "https://www.harmonybarandgrill.com/",
+   "image": "",
+   "venue": "Harmony Bar & Grill",
+   "venue_id": "osm:way/345773988",
+   "venue_kind": "bar",
+   "address": "2201 Atwood Avenue",
+   "lat": 43.0930561,
+   "lon": -89.3492054,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "7c463327753a",
+   "title": "Wisconsin Badgers Womens Basketball vs. Western Michigan Broncos Womens Basketball",
+   "start": "2026-12-02T18:30-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "sports",
+   "price": null,
+   "description": "Basketball / College",
+   "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7eoS",
+   "image": "https://s1.ticketm.net/dam/a/680/71e6efa6-cd1a-4f9d-8d1e-58e49f509680_1260841_RETINA_PORTRAIT_16_9.jpg",
+   "venue": "Kohl Center",
+   "venue_id": "tm:Z6r9jZaaee",
+   "venue_kind": "venue",
+   "address": "601 W. Dayton St.",
+   "lat": 43.016399,
+   "lon": -89.420097,
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster"
+   ],
+   "link_ok": null
+  },
+  {
+   "id": "35eb284d46c6",
+   "title": "Guinness – Craft Beer Pinball League",
+   "start": "2026-12-02T18:30-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "trivia",
+   "price": null,
+   "description": "Craft beer pinball league night featuring Guinness",
+   "url": "https://thekickback.bar/",
+   "image": "",
+   "venue": "The Kickback",
+   "venue_id": "osm:node/12292190391",
+   "venue_kind": "bar",
+   "address": "7622 Lisa Lane",
+   "lat": 43.1092621,
+   "lon": -89.5123266,
    "source": "ai",
    "sources": [
     "AI page reading"

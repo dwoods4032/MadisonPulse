@@ -1,26 +1,24 @@
 {
- "generated_at": "2026-11-18T13:27:05-06:00",
- "total_events": 339,
- "in_more_than_one_source": 11,
+ "generated_at": "2026-11-18T22:13:50-06:00",
+ "total_events": 321,
+ "in_more_than_one_source": 10,
  "sources": {
   "AI page reading": {
-   "events": 122,
-   "unique_events": 114,
+   "events": 116,
+   "unique_events": 108,
    "overlap": {
     "Isthmus": 2,
     "Ticketmaster": 6,
     "Venue websites": 0
    },
-   "venues": 37,
+   "venues": 31,
    "unique_venues": [
     "Aftershock Classic Arcade",
     "Alicia Ashman Library",
     "Arts + Literature Laboratory",
-    "Bartell Theatre",
     "Below Deck Concession Stand",
     "Capital Brewery",
     "Crucible",
-    "Crystal Corner Bar",
     "Doundrins Distilling",
     "Flight Wine & Bourbon Bar",
     "Imagination Center",
@@ -29,9 +27,7 @@
     "Lakeside Street Coffee House",
     "Laurel Tavern",
     "Lazy Oaf Lounge",
-    "Monkeyshines Bar & Grill",
     "Monroe Street Library",
-    "Old Sugar Distillery",
     "Oscar Rennebohm Library",
     "Overture Center for the Arts",
     "Pinney Library",
@@ -40,21 +36,19 @@
     "State Line Distillery",
     "Sun Prairie Public Library",
     "The Kickback",
-    "The Malt House",
     "Verona Community Center",
     "Verona Public Library",
     "Veterans Memorial Park",
-    "Wando's Bar & Grill",
-    "Waunakee Public Library"
+    "Wando's Bar & Grill"
    ]
   },
   "Isthmus": {
-   "events": 128,
-   "unique_events": 124,
+   "events": 126,
+   "unique_events": 123,
    "overlap": {
     "AI page reading": 2,
     "Ticketmaster": 0,
-    "Venue websites": 2
+    "Venue websites": 1
    },
    "venues": 70,
    "unique_venues": [
@@ -66,6 +60,7 @@
     "Buck and Honey's",
     "Buffalo Wild Wings - Monona",
     "Cafe Carpe",
+    "Central Library",
     "Chazen Museum of Art",
     "Communication",
     "DAMA Mural Shop",
@@ -76,7 +71,6 @@
     "Elks Lodge",
     "First Congregational United Church of Christ",
     "Friends Meeting House",
-    "Gamma Ray Bar",
     "Garth's Brew Bar",
     "Good Shepherd Lutheran Church-Raymond Road",
     "Green Room Public House",
@@ -123,8 +117,8 @@
    ]
   },
   "Ticketmaster": {
-   "events": 42,
-   "unique_events": 35,
+   "events": 43,
+   "unique_events": 36,
    "overlap": {
     "AI page reading": 6,
     "Isthmus": 0,
@@ -141,14 +135,14 @@
    ]
   },
   "Venue websites": {
-   "events": 58,
-   "unique_events": 55,
+   "events": 46,
+   "unique_events": 44,
    "overlap": {
     "AI page reading": 0,
-    "Isthmus": 2,
+    "Isthmus": 1,
     "Ticketmaster": 1
    },
-   "venues": 14,
+   "venues": 12,
    "unique_venues": [
     "Atwood Music Hall",
     "Bayview Community Center",
@@ -157,8 +151,6 @@
     "E.D. Locke Public Library",
     "Full Mile Beer Company & Kitchen",
     "Gib's Bar",
-    "Lone Girl Tap Room And Pizza Company",
-    "One Social Bar",
     "State Street Brats"
    ]
   }
