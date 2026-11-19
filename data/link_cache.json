@@ -3179,11 +3179,6 @@
   "why": "",
   "checked": "2026-11-16T23:11:45.779517-06:00"
  },
- "https://www.ticketmaster.com/goodsource-presents-campus-nights-with-elevation-madison-wisconsin-11-18-2026/event/070064F695CE3139": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-18T22:13:52.864137-06:00"
- },
  "https://www.gibs.bar/event-calendar/2026/11/19/live-music-acid-tofu": {
   "ok": true,
   "why": "",
@@ -3369,11 +3364,6 @@
   "why": "",
   "checked": "2026-11-16T23:11:43.823005-06:00"
  },
- "https://www.cafecoda.club/events-1/neo-soul-wine-down-dj-illxstmami": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-16T23:11:43.823022-06:00"
- },
  "https://www.cafecoda.club/events-1/sext-saturday-dj-ironmike-tdp-hosted-by-april-k": {
   "ok": true,
   "why": "",
@@ -3438,11 +3428,6 @@
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
   "checked": "2026-11-18T22:13:53.920408-06:00"
- },
- "https://www.madisoncomedy.com/event/mic-on-state/2026-11-18/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-12T12:57:45.697721-06:00"
  },
  "https://bstonline.org/event/stage-test-2026-a-program-of-works-in-development/": {
   "ok": true,
@@ -3604,11 +3589,6 @@
   "why": "",
   "checked": "2026-11-16T15:04:01.786048-06:00"
  },
- "https://www.madisonpubliclibrary.org/sequoya": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-16T15:04:03.732198-06:00"
- },
  "https://www.veronapubliclibrary.org/": {
   "ok": true,
   "why": "",
@@ -3659,26 +3639,6 @@
   "why": "",
   "checked": "2026-11-16T23:11:45.500648-06:00"
  },
- "https://www.garthsbrewbar.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-17T13:52:54.725007-06:00"
- },
- "https://javacatmadison.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-17T13:52:54.732959-06:00"
- },
- "https://www.settledownmadison.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-17T13:52:54.777878-06:00"
- },
- "https://www.youngbloodbeerco.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-17T13:52:54.777900-06:00"
- },
  "https://www.turnkeymadison.com/working-menu": {
   "ok": true,
   "why": "",
@@ -3704,16 +3664,6 @@
   "why": "",
   "checked": "2026-11-18T13:27:09.711669-06:00"
  },
- "https://www.northstreetcabaret.com/": {
-  "ok": null,
-  "why": "robots.txt asks bots not to visit",
-  "checked": "2026-11-18T13:27:09.711693-06:00"
- },
- "https://www.madisoncomedy.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-18T13:27:09.711697-06:00"
- },
  "https://www.theblackcenter.org/": {
   "ok": true,
   "why": "",
@@ -3728,16 +3678,6 @@
   "ok": true,
   "why": "",
   "checked": "2026-11-18T13:27:09.711727-06:00"
- },
- "https://cafecoda.club": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-18T22:13:52.864165-06:00"
- },
- "https://statestreetbrats.com/event/trail-blazers-bucks-20261119/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-18T22:13:52.864175-06:00"
  },
  "https://statestreetbrats.com/event/seton-hall-wisconsin-20261119/": {
   "ok": true,
@@ -3758,5 +3698,120 @@
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
   "checked": "2026-11-18T22:13:55.020931-06:00"
+ },
+ "http://www.monkeyshinesbarandgrill.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-19T13:31:09.924650-06:00"
+ },
+ "https://theohiotavern.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-19T13:31:09.924679-06:00"
+ },
+ "https://onesocialmadison.com/event/trivia-with-king-trivia-3/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-19T13:31:15.656836-06:00"
+ },
+ "https://bartelltheatre.org/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-19T13:31:15.656862-06:00"
+ },
+ "https://madisonlocalmotive.com": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-19T13:31:15.656869-06:00"
+ },
+ "https://thelonegirl.com/event/magic-rob-every-friday-tableside-2-2-2-3-2-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-19T13:31:15.656875-06:00"
+ },
+ "https://onesocialmadison.com/event/live-music-bree-morgan-2/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-19T13:31:15.656880-06:00"
+ },
+ "https://thelonegirl.com/event/ryan-mauer-wine-walk-after-party-2-2/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-19T13:31:15.656885-06:00"
+ },
+ "https://www.cafecoda.club/events-1/illxstmamidj": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-19T13:31:15.656889-06:00"
+ },
+ "https://www.waunakeepubliclibrary.org/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-19T13:31:15.656893-06:00"
+ },
+ "https://oldsugardistillery.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-19T13:31:15.656898-06:00"
+ },
+ "https://thecrystalcornerbar.com/": {
+  "ok": null,
+  "why": "ReadTimeout",
+  "checked": "2026-11-19T13:31:33.821623-06:00"
+ },
+ "https://thelonegirl.com/event/sunday-bingo-lone-girl-brewing-2-2-2-2/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-19T13:31:33.821653-06:00"
+ },
+ "https://thelonegirl.com/event/meat-raffle-126-2/": {
+  "ok": null,
+  "why": "ReadTimeout",
+  "checked": "2026-11-19T13:31:33.821659-06:00"
+ },
+ "http://malthousetavern.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-19T13:31:33.821664-06:00"
+ },
+ "https://onesocialmadison.com/event/packers-watch-party-5/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-19T13:31:33.821669-06:00"
+ },
+ "https://thelonegirl.com/event/lone-girl-brewing-wednesday-trivia-2-2/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-19T13:31:33.821673-06:00"
+ },
+ "https://thelonegirl.com/event/drinksgiving-with-live-music-by-finding-north-2-2-2/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-19T13:31:33.821679-06:00"
+ },
+ "https://thelonegirl.com/event/badger-shuttle-from-the-lone-girl-1127/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-19T13:31:33.821683-06:00"
+ },
+ "https://thelonegirl.com/event/magic-rob-every-friday-tableside-2-2-2-3-2-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-19T13:31:34.997674-06:00"
+ },
+ "https://thelonegirl.com/event/sunday-bingo-lone-girl-brewing-2-2-2-2-2/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-19T13:31:36.966077-06:00"
+ },
+ "https://thelonegirl.com/event/lone-girl-brewing-wednesday-trivia-2-2-2/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-19T13:31:38.851101-06:00"
+ },
+ "https://www.madisoncomedy.com/event/mic-on-state/2026-12-02/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-19T13:31:38.851126-06:00"
  }
 }

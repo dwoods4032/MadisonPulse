@@ -252,26 +252,17 @@
   "events": []
  },
  "https://www.harmonybarandgrill.com/madison-atwood-the-harmony-bar-and-grill-events": {
-  "hash": "20e8d46e7e0a782643951ae48324ccec29e8c68d",
-  "asked": "2026-11-18T13:25:12-06:00",
-  "on": "2026-11-18",
+  "hash": "2277ceb7c292744ec22a386fd32697ec6431d8d8",
+  "asked": "2026-11-19T13:29:31-06:00",
+  "on": "2026-11-19",
   "events": [
-   {
-    "title": "Smarter Than You Trivia",
-    "date": "2026-11-18",
-    "start": "18:30",
-    "end": "20:30",
-    "price": 0,
-    "description": "Paul hosts trivia. Held the 1st and 3rd Wednesday of the month. Free.",
-    "category": "trivia"
-   },
    {
     "title": "Harmonious: A Songwriters' Showcase",
     "date": "2026-11-19",
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Season 2, Episode 2 of the Harmonious songwriters' showcase, hosted by JT Spartz with Annie Emmenegger, Jason Edward and JT Spartz. No cover.",
+    "description": "Season 2 songwriters' round-robin showcase hosted by JT Spartz featuring Annie Emmenegger, Jason Edward and JT Spartz. No cover.",
     "category": "music"
    },
    {
@@ -280,7 +271,7 @@
     "start": "21:00",
     "end": "00:00",
     "price": 10,
-    "description": "Rolling Stones tribute Loving Cup and the Los Bad Hombres. 21+.",
+    "description": "Rolling Stones tribute Loving Cup with Los Bad Hombres. 21+.",
     "category": "music"
    },
    {
@@ -289,7 +280,7 @@
     "start": "16:00",
     "end": "19:30",
     "price": 10,
-    "description": "Award-winning Madison Cajun dance band. $10 suggested donation. The page lists both a 4pm start and a 5:00 PM time block; 4pm is used here.",
+    "description": "Madison award-winning band playing traditional Cajun dance music. $10 suggested donation.",
     "category": "music"
    },
    {
@@ -298,7 +289,7 @@
     "start": "17:30",
     "end": "18:30",
     "price": 5,
-    "description": "Kids music show with David Landau, with the kid menu available. $5 cover.",
+    "description": "Family kids' music show with David Landau and the kid menu.",
     "category": "music"
    },
    {
@@ -307,7 +298,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Bluegrass-inspired band of Starr Moss, Trent Cuthbert, Michael Falk, Claire Kannapell and Paul Kienitz. No cover. A guest is listed as TBD.",
+    "description": "Bluegrass-inspired band Bigtooth, joined by a TBD guest. No cover.",
     "category": "music"
    },
    {
@@ -316,7 +307,7 @@
     "start": "20:00",
     "end": "22:30",
     "price": 15,
-    "description": "1980s new wave and synth-pop party band. 10th annual fundraiser for Second Harvest Food Bank. $15 suggested donation.",
+    "description": "1980s new wave and synth-pop party; 10th annual fundraiser for Second Harvest Food Bank. $15 suggested donation.",
     "category": "music"
    },
    {
@@ -325,7 +316,7 @@
     "start": "20:00",
     "end": "22:30",
     "price": 0,
-    "description": "Madison Americana quartet with bluegrass, folk and blues roots. No cover.",
+    "description": "Madison Americana quartet with rich vocal harmonies. No cover.",
     "category": "music"
    },
    {
@@ -334,7 +325,7 @@
     "start": "19:00",
     "end": "21:00",
     "price": null,
-    "description": "Open mic hosted by Max. Sign-up at 6:30 PM, performances start at 7pm. Bring your instrument.",
+    "description": "Open mic hosted by Max; sign-up at 6:30 pm, performances from 7 pm.",
     "category": "open_mic"
    },
    {
@@ -343,8 +334,17 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Paul hosts trivia. Held the 1st and 3rd Wednesday of the month. Free.",
+    "description": "Trivia hosted by Paul, held the 1st and 3rd Wednesday of the month. Free.",
     "category": "trivia"
+   },
+   {
+    "title": "The Outlaw & A Lady",
+    "date": "2026-12-03",
+    "start": "18:30",
+    "end": "20:30",
+    "price": 0,
+    "description": "Acoustic duo playing original music and classic covers. No cover.",
+    "category": "music"
    }
   ]
  },
@@ -453,21 +453,12 @@
   ]
  },
  "https://high-noon.com/calendar/": {
-  "hash": "9c1375e870dcc5eadd0f7eba93f73fa9350342e2",
-  "asked": "2026-11-18T13:25:15-06:00",
-  "on": "2026-11-18",
+  "hash": "b4f08b6b07ace20ee042d8f36589afda6429287d",
+  "asked": "2026-11-19T13:29:30-06:00",
+  "on": "2026-11-19",
   "events": [
    {
-    "title": "Nerd Nite",
-    "date": "2026-11-18",
-    "start": "19:00",
-    "end": null,
-    "price": 0,
-    "description": "FPC Live presents Nerd Nite. Doors 6:00 pm, show 7:00 pm. Free show.",
-    "category": "other"
-   },
-   {
-    "title": "Humbird with Bad Posture Club",
+    "title": "Humbird",
     "date": "2026-11-19",
     "start": "20:00",
     "end": null,
@@ -481,16 +472,16 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Doors 7:00 pm, show 8:00 pm.",
+    "description": "Doors 7:00 pm.",
     "category": "music"
    },
    {
-    "title": "Music Con Brio: Caravan performing Modal Jazz",
+    "title": "Music Con Brio: Caravan",
     "date": "2026-11-21",
     "start": "11:30",
     "end": null,
     "price": 0,
-    "description": "Caravan performs Modal Jazz with Music con Brio students. Doors 11:00 am. Free, donations at door.",
+    "description": "Caravan performing Modal Jazz with Music con Brio students. Free, donations at door. Doors 11:00 am.",
     "category": "music"
    },
    {
@@ -508,7 +499,7 @@
     "start": "11:00",
     "end": null,
     "price": null,
-    "description": "Doors 10:15 am, show 11:00 am.",
+    "description": "Doors 10:15 am.",
     "category": "music"
    },
    {
@@ -517,7 +508,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents The Gringos with Sheebie & The Lovemakers. Doors 7:00 pm.",
+    "description": "FPC Live presents. Doors 7:00 pm.",
     "category": "music"
    },
    {
@@ -526,7 +517,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents Joseph Huber Band, Dig Deep, Kevin Troestler, and Artist At Large Sheilagh Dandy Lion. Doors 7:00 pm.",
+    "description": "Featuring Joseph Huber Band, Dig Deep, Kevin Troestler, and Artist At Large Sheilagh Dandy Lion. Doors 7:00 pm.",
     "category": "music"
    },
    {
@@ -536,6 +527,15 @@
     "end": null,
     "price": null,
     "description": "94.9 WOLX presents a Madison musician's tribute to The Band. Doors 7:00 pm.",
+    "category": "music"
+   },
+   {
+    "title": "Daisy Grenade with Boyish",
+    "date": "2026-12-03",
+    "start": "20:00",
+    "end": null,
+    "price": null,
+    "description": "FPC Live presents. Doors 7:00 pm.",
     "category": "music"
    }
   ]
@@ -1250,9 +1250,9 @@
   ]
  },
  "https://merciescoffeewi.com/": {
-  "hash": "d8ce289160c167bff9d5a702a6d8438ea2ed9f46",
-  "asked": "2026-11-18T22:13:01-06:00",
-  "on": "2026-11-18",
+  "hash": "a5526fdf36758a88533cb69e1d548e09c97f001d",
+  "asked": "2026-11-19T13:29:58-06:00",
+  "on": "2026-11-19",
   "events": []
  },
  "https://motherfools.com/event/20261106/mad-city-story-slam-rebellion": {
@@ -1500,9 +1500,9 @@
   "events": []
  },
  "https://www.madisonpubliclibrary.org/spaces/events": {
-  "hash": "cb0aab82ac6c0e9be09513a0d7d1d40abffbe736",
-  "asked": "2026-11-18T22:13:33-06:00",
-  "on": "2026-11-18",
+  "hash": "e34dbb383dfaaea818ea3046a36fb844d9fc8d32",
+  "asked": "2026-11-19T13:30:30-06:00",
+  "on": "2026-11-19",
   "events": []
  },
  "https://ebling.library.wisc.edu/ebling-library-classes-events/": {
@@ -1663,9 +1663,9 @@
   ]
  },
  "https://www.madisonpubliclibrary.org/spaces/events/search": {
-  "hash": "56876df060578a060d8842531c324e96962373e9",
-  "asked": "2026-11-18T22:13:45-06:00",
-  "on": "2026-11-18",
+  "hash": "b8ae2d500834f0f7c6aa9c92bcae67846559be87",
+  "asked": "2026-11-19T13:30:48-06:00",
+  "on": "2026-11-19",
   "events": []
  },
  "https://artlitlab.org/calendar": {
@@ -1721,9 +1721,9 @@
   ]
  },
  "https://bartelltheatre.org/": {
-  "hash": "56e72678acf69c520c1027470dccf085d6ad5e25",
-  "asked": "2026-11-18T13:26:34-06:00",
-  "on": "2026-11-18",
+  "hash": "80a801551776025975259efac62cdb011fbfa528",
+  "asked": "2026-11-19T13:30:36-06:00",
+  "on": "2026-11-19",
   "events": [
    {
     "title": "Romeo and Juliet",
@@ -1731,7 +1731,7 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "Now playing at Bartell Theatre: the Capulets, Montagues, and two young lovers.",
+    "description": "Shakespeare's tragedy of two young lovers caught between feuding families. Playing today at 7:30pm.",
     "category": "theater"
    },
    {
@@ -1741,6 +1741,15 @@
     "end": null,
     "price": null,
     "description": "Ticketed showcase concluding the six-week Saturday Scene Study class, on the Evjue Stage.",
+    "category": "theater"
+   },
+   {
+    "title": "Writers Block: December 2026",
+    "date": "2026-12-03",
+    "start": "19:00",
+    "end": null,
+    "price": null,
+    "description": "Upcoming production at Bartell Theatre, listed as coming soon.",
     "category": "theater"
    }
   ]
@@ -1758,26 +1767,17 @@
   "events": []
  },
  "https://madisonorpheum.com/calendar/": {
-  "hash": "9f1e0f19e3f3f08fe98ea80dba507e5f142c1685",
-  "asked": "2026-11-18T13:26:40-06:00",
-  "on": "2026-11-18",
+  "hash": "5817c78f75a31209e911a87b5d538df0e4b79063",
+  "asked": "2026-11-19T13:30:40-06:00",
+  "on": "2026-11-19",
   "events": [
-   {
-    "title": "Campus Nights with Elevation Rhythm",
-    "date": "2026-11-18",
-    "start": "19:00",
-    "end": null,
-    "price": null,
-    "description": "Goodsource presents Campus Nights with Elevation Rhythm, with LOST & FOUND and Allison Eide. Doors 6:15 pm. Sold out.",
-    "category": "music"
-   },
    {
     "title": "Nurse John – 2 Shows!",
     "date": "2026-11-21",
     "start": null,
     "end": null,
     "price": null,
-    "description": "FPC Live presents Nurse John, two shows listed. Times not stated on the page.",
+    "description": "FPC Live presents Nurse John, two shows; times not listed on the page.",
     "category": "music"
    },
    {
@@ -1786,7 +1786,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Wisconsin Chamber Orchestra presents A Charlie Brown Christmas, featuring Mr. Chair & Wisconsin Chamber Orchestra. Two shows listed. Times not stated on the page.",
+    "description": "Wisconsin Chamber Orchestra presents A Charlie Brown Christmas featuring Mr. Chair, two shows; times not listed on the page.",
     "category": "music"
    }
   ]
@@ -1890,9 +1890,9 @@
   "events": []
  },
  "https://madisonorpheum.com/event/kip-moore/": {
-  "hash": "f75a03decce183faa3a4f7cd30e7c1a653decac4",
-  "asked": "2026-11-18T13:26:41-06:00",
-  "on": "2026-11-18",
+  "hash": "45b190c7dfdb982cdc4c63c95900fb41c8e6fe8e",
+  "asked": "2026-11-19T13:30:42-06:00",
+  "on": "2026-11-19",
   "events": []
  },
  "https://rootedwi.org/get-involved/events-calendar/": {
@@ -1902,9 +1902,9 @@
   "events": []
  },
  "https://www.veronapubliclibrary.org/": {
-  "hash": "8f3dd74bab2f5ab08a5bbb52901c1fd63a4bfede",
-  "asked": "2026-11-18T22:13:30-06:00",
-  "on": "2026-11-18",
+  "hash": "b18feb9a1cf95e7c223d3380f1e5c8c1bb49408c",
+  "asked": "2026-11-19T13:30:28-06:00",
+  "on": "2026-11-19",
   "events": [
    {
     "title": "Technology Tuesdays",
@@ -1912,7 +1912,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Drop-in help with your device or app on Tuesdays.",
+    "description": "Drop-in help with your device or app at the library.",
     "category": "other"
    },
    {
@@ -1921,7 +1921,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Drop-in help with your device or app on Tuesdays.",
+    "description": "Drop-in help with your device or app at the library.",
     "category": "other"
    }
   ]
@@ -1951,9 +1951,9 @@
   "events": []
  },
  "https://high-noon.com/event/dogpark/": {
-  "hash": "d7f76ad381a3c4ccaeb3f5035c32ef58f0837beb",
-  "asked": "2026-11-18T22:12:36-06:00",
-  "on": "2026-11-18",
+  "hash": "88c4bd61c10a2495a0513f7aa8f0a036c08cd626",
+  "asked": "2026-11-19T13:29:33-06:00",
+  "on": "2026-11-19",
   "events": []
  },
  "https://thekickback.bar/premier-trivia-tuesday-nov-3/": {
@@ -1998,128 +1998,10 @@
   ]
  },
  "https://www.cruciblemadison.com/calendar": {
-  "hash": "aa349cf517c3db7d7624a4568240fd59d9656875",
-  "asked": "2026-11-18T22:12:39-06:00",
-  "on": "2026-11-18",
-  "events": [
-   {
-    "title": "Crucible Karaoke",
-    "date": "2026-11-18",
-    "start": "18:30",
-    "end": null,
-    "price": null,
-    "description": "Brain Monkeys Media karaoke, doors at 6:00 PM, 21+, no cover.",
-    "category": "karaoke"
-   },
-   {
-    "title": "Words with Nerds",
-    "date": "2026-11-19",
-    "start": "19:00",
-    "end": null,
-    "price": 15,
-    "description": "Infotainment event, like TED Talks mixed with stand-up comedy. $15 advance, $20 at the door, $10 cash with student ID.",
-    "category": "comedy"
-   },
-   {
-    "title": "Goth AF presents: The Darkness",
-    "date": "2026-11-19",
-    "start": "21:00",
-    "end": null,
-    "price": 5,
-    "description": "Goth AF night, doors 9:00 PM, 18+.",
-    "category": "other"
-   },
-   {
-    "title": "Up & Away Cabaret presents Enchanted & Untamed",
-    "date": "2026-11-20",
-    "start": "20:00",
-    "end": null,
-    "price": 15,
-    "description": "Fantastical aerial burlesque adventure, doors 7:00 PM, 21+.",
-    "category": "dance"
-   },
-   {
-    "title": "The Rocky Horror Picture Show (Velvet Darkness shadow cast)",
-    "date": "2026-11-20",
-    "start": "23:59",
-    "end": null,
-    "price": 8,
-    "description": "Midnight screening with Velvet Darkness shadow cast, doors 11:00 PM, 18+. $8, $13 under 21.",
-    "category": "film"
-   },
-   {
-    "title": "Burlesque Gotz Skillz Dance Competition 2026",
-    "date": "2026-11-21",
-    "start": "12:00",
-    "end": null,
-    "price": 20,
-    "description": "5th Annual Improv Burlesque Competition at Crucible Nightclub.",
-    "category": "dance"
-   },
-   {
-    "title": "Masquerade: Impurity Ball",
-    "date": "2026-11-21",
-    "start": "21:00",
-    "end": null,
-    "price": 10,
-    "description": "Madison's annual fetish ball with stage acts and go-go dancers, 21+.",
-    "category": "other"
-   },
-   {
-    "title": "Pole Fantasy Showcase for Dane County Homeless Justice Initiative",
-    "date": "2026-11-22",
-    "start": "19:00",
-    "end": null,
-    "price": 10,
-    "description": "Poletariat pole showcase, all proceeds to DCHJI. Doors 6:00 PM, 21+.",
-    "category": "dance"
-   },
-   {
-    "title": "Trans Social Night",
-    "date": "2026-11-23",
-    "start": "18:00",
-    "end": null,
-    "price": 0,
-    "description": "Low-pressure free social event, 21+, no cover. Held 2nd and 4th Mondays.",
-    "category": "other"
-   },
-   {
-    "title": "Crucible Karaoke",
-    "date": "2026-11-25",
-    "start": "18:30",
-    "end": null,
-    "price": null,
-    "description": "Brain Monkeys Media karaoke, doors at 6:00 PM, 21+, no cover.",
-    "category": "karaoke"
-   },
-   {
-    "title": "The Rocky Horror (Matinee) Picture Show",
-    "date": "2026-11-27",
-    "start": "14:00",
-    "end": null,
-    "price": 8,
-    "description": "Daytime Black Friday screening with Velvet Darkness shadow cast, doors 1:00 PM, 18+. $8, $13 under 21.",
-    "category": "film"
-   },
-   {
-    "title": "Deviance",
-    "date": "2026-11-27",
-    "start": "20:30",
-    "end": null,
-    "price": null,
-    "description": "21+ monthly event. No pictures or recordings allowed anywhere in the venue.",
-    "category": "other"
-   },
-   {
-    "title": "Crucible Karaoke",
-    "date": "2026-12-02",
-    "start": "18:30",
-    "end": null,
-    "price": null,
-    "description": "Brain Monkeys Media karaoke, doors at 6:00 PM, 21+, no cover.",
-    "category": "karaoke"
-   }
-  ]
+  "hash": "7d6015ed8a30faa9c327824613609fce3f2edf6a",
+  "asked": "2026-11-19T13:29:32-06:00",
+  "on": "2026-11-19",
+  "events": []
  },
  "https://www.cruciblemadison.com/events/2026-11/full-moon-burlesque-kink": {
   "hash": "c6668627882d311413ea017986885845c6cc331b",
@@ -2310,10 +2192,56 @@
   ]
  },
  "https://wandosbar.com/madison-downtown-wando-s-gameday-specials": {
-  "hash": "4b49d15aba300f39209f7daa612bef2a862f2d73",
-  "asked": "2026-11-18T13:25:26-06:00",
-  "on": "2026-11-18",
-  "events": []
+  "hash": "59d442ddf4a2832e4514631b4ce749077087b44e",
+  "asked": "2026-11-19T13:29:38-06:00",
+  "on": "2026-11-19",
+  "events": [
+   {
+    "title": "Game-Day Specials",
+    "date": "2026-11-19",
+    "start": "15:00",
+    "end": "02:00",
+    "price": null,
+    "description": "$12 Fishbowls, $4 Nutrl, $5 Double BWL",
+    "category": "other"
+   },
+   {
+    "title": "Game-Day Specials",
+    "date": "2026-11-20",
+    "start": "15:00",
+    "end": "02:30",
+    "price": null,
+    "description": "$20 100oz (OG) Fishbowl, $7 Double Titos",
+    "category": "other"
+   },
+   {
+    "title": "Game-Day Specials",
+    "date": "2026-11-21",
+    "start": "15:00",
+    "end": "02:30",
+    "price": null,
+    "description": "$6 818 Margs, $4 Bombs",
+    "category": "other"
+   },
+   {
+    "title": "Game-Day Specials",
+    "date": "2026-11-24",
+    "start": "19:00",
+    "end": "02:00",
+    "price": null,
+    "description": "$5 Double Rails, $3 Domestic Taps, $3 Green Tea Shots, $3 Nutrls",
+    "category": "other"
+   },
+   {
+    "title": "Game-Day Specials",
+    "date": "2026-11-25",
+    "start": "15:00",
+    "end": "02:00",
+    "price": null,
+    "description": "$5 New Glarus Taps, $5 16oz 818 Margs, $3 818 Shots",
+    "category": "other"
+   }
+  ]
  },
  "https://thekickback.bar/premier-trivia-tuesday-nov-17/": {
   "hash": "5aecedd0bc7280b7f967732281643b093568a33f",
@@ -2411,35 +2339,17 @@
   ]
  },
  "https://www.waunakeepubliclibrary.org/": {
-  "hash": "cf7db2626b1491d845d13a648d5e193c0102959e",
-  "asked": "2026-11-18T22:13:31-06:00",
-  "on": "2026-11-18",
+  "hash": "fd69d989f8a94bce54fca38747cebf1d2b0bd5b9",
+  "asked": "2026-11-19T13:30:29-06:00",
+  "on": "2026-11-19",
   "events": [
-   {
-    "title": "Good Morning Games",
-    "date": "2026-11-19",
-    "start": "09:00",
-    "end": "11:00",
-    "price": null,
-    "description": "Adult game group playing Mahjong (Filipino style); instruction offered for beginners. Waunakee Public Library, Community Hall.",
-    "category": "other"
-   },
-   {
-    "title": "Tiny Tots",
-    "date": "2026-11-19",
-    "start": "09:45",
-    "end": "10:00",
-    "price": null,
-    "description": "Active 20-minute storytime with stories, rhymes and songs for ages 1-3 and caregivers. No registration required. Storytime Room.",
-    "category": "other"
-   },
    {
     "title": "PAWS to Read",
     "date": "2026-11-19",
     "start": "16:00",
     "end": "17:00",
     "price": null,
-    "description": "Kids read stories to certified Pet Partners therapy dogs, 10 minutes per reader. Registration required; listed as full. Storytime Room.",
+    "description": "Kids read stories to certified Pet Partners therapy dogs; registration required.",
     "category": "other"
    },
    {
@@ -2448,7 +2358,7 @@
     "start": "18:00",
     "end": "19:00",
     "price": null,
-    "description": "Virtual adult program discussing the Between Earth and Sky trilogy with bestselling author Rebecca Roanhorse. Zoom.",
+    "description": "Virtual adult book discussion of Rebecca Roanhorse's Between Earth and Sky trilogy.",
     "category": "other"
    },
    {
@@ -2457,16 +2367,34 @@
     "start": "09:45",
     "end": "10:15",
     "price": null,
-    "description": "Yoga and mindfulness class for kids ages 1-4 and caregivers, led by little om BIG OM instructors. Registration required; open. Storytime Room.",
+    "description": "Yoga and mindfulness class for ages 1-4 and caregivers; waitlist, registration required.",
     "category": "other"
    },
    {
-    "title": "TACOS",
+    "title": "TACOS Monthly Meeting",
     "date": "2026-11-20",
     "start": "16:00",
     "end": "17:00",
     "price": null,
-    "description": "Monthly meeting for TACOS teen/preteen members. Board Room.",
+    "description": "Monthly meeting for TACOS teen/preteen members in the Board Room.",
+    "category": "other"
+   },
+   {
+    "title": "Friends of the Library Annual Holiday Craft Fair, Book Sale, Bake Sale, Container Raffle, and More!",
+    "date": "2026-11-21",
+    "start": "09:00",
+    "end": "14:00",
+    "price": null,
+    "description": "Friends of the Waunakee Library holiday craft fair, book sale, bake sale and container raffle at an offsite location.",
+    "category": "other"
+   },
+   {
+    "title": "The Young & the Restless",
+    "date": "2026-11-21",
+    "start": "10:00",
+    "end": "11:30",
+    "price": null,
+    "description": "Open indoor play time for kids ages 0-5 in the Community Hall; no registration required.",
     "category": "other"
    }
   ]
