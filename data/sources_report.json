@@ -1,36 +1,30 @@
 {
- "generated_at": "2026-11-19T13:31:09-06:00",
- "total_events": 351,
- "in_more_than_one_source": 11,
+ "generated_at": "2026-11-19T22:00:11-06:00",
+ "total_events": 359,
+ "in_more_than_one_source": 13,
  "sources": {
   "AI page reading": {
-   "events": 114,
-   "unique_events": 106,
+   "events": 118,
+   "unique_events": 109,
    "overlap": {
     "Isthmus": 3,
-    "Ticketmaster": 6,
+    "Ticketmaster": 7,
     "Venue websites": 0
    },
-   "venues": 36,
+   "venues": 30,
    "unique_venues": [
-    "Aftershock Classic Arcade",
-    "Alicia Ashman Library",
     "Arts + Literature Laboratory",
     "Below Deck Concession Stand",
     "Capital Brewery",
     "Crystal Corner Bar",
     "Flight Wine & Bourbon Bar",
-    "Imagination Center",
     "Italian Workmen's Club",
     "Lakeside Street Coffee House",
     "Laurel Tavern",
     "Lazy Oaf Lounge",
     "Monkeyshines Bar & Grill",
-    "Monroe Street Library",
-    "Old Sugar Distillery",
     "Oscar Rennebohm Library",
     "Overture Center for the Arts",
-    "Pinney Library",
     "Reindahl Park Pavillion",
     "State Line Distillery",
     "Sun Prairie Public Library",
@@ -44,14 +38,14 @@
    ]
   },
   "Isthmus": {
-   "events": 150,
-   "unique_events": 145,
+   "events": 148,
+   "unique_events": 143,
    "overlap": {
     "AI page reading": 3,
     "Ticketmaster": 1,
     "Venue websites": 2
    },
-   "venues": 78,
+   "venues": 77,
    "unique_venues": [
     "A Room of One's Own",
     "American Players Theatre",
@@ -87,7 +81,6 @@
     "Monona Terrace",
     "Muso",
     "Ohio Tavern",
-    "Olbrich Gardens",
     "Overture Center-Capitol Theater",
     "Overture Center-Overture Hall",
     "Overture Center-Playhouse",
@@ -124,12 +117,12 @@
    ]
   },
   "Ticketmaster": {
-   "events": 42,
+   "events": 44,
    "unique_events": 35,
    "overlap": {
-    "AI page reading": 6,
+    "AI page reading": 7,
     "Isthmus": 1,
-    "Venue websites": 1
+    "Venue websites": 2
    },
    "venues": 10,
    "unique_venues": [
@@ -143,14 +136,14 @@
    ]
   },
   "Venue websites": {
-   "events": 57,
-   "unique_events": 54,
+   "events": 63,
+   "unique_events": 59,
    "overlap": {
     "AI page reading": 0,
     "Isthmus": 2,
-    "Ticketmaster": 1
+    "Ticketmaster": 2
    },
-   "venues": 14,
+   "venues": 15,
    "unique_venues": [
     "Atwood Music Hall",
     "Bayview Community Center",
@@ -161,6 +154,7 @@
     "Gib's Bar",
     "Lone Girl Tap Room And Pizza Company",
     "One Social Bar",
+    "Quivey's Stable Grill",
     "State Street Brats"
    ]
   }

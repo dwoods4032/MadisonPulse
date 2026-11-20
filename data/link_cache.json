@@ -3184,11 +3184,6 @@
   "why": "",
   "checked": "2026-11-13T12:33:55.249143-06:00"
  },
- "https://www.theatwoodmusichall.com/shows/2026-11-19": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-13T12:33:55.249148-06:00"
- },
  "https://www.madisoncomedy.com/event/leah-rudick26/": {
   "ok": true,
   "why": "",
@@ -3432,12 +3427,12 @@
  "https://bstonline.org/event/stage-test-2026-a-program-of-works-in-development/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-12T21:27:39.997804-06:00"
+  "checked": "2026-11-19T22:00:12.954820-06:00"
  },
  "https://wandosbar.com/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-12T21:27:39.997812-06:00"
+  "checked": "2026-11-19T22:00:11.617131-06:00"
  },
  "https://www.workingdraftbeer.com/events/2026/11/27/makers-market": {
   "ok": true,
@@ -3584,20 +3579,10 @@
   "why": "",
   "checked": "2026-11-15T20:45:19.684602-06:00"
  },
- "https://www.madisonpubliclibrary.org/locations/pinney-library": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-16T15:04:01.786048-06:00"
- },
  "https://www.veronapubliclibrary.org/": {
   "ok": true,
   "why": "",
   "checked": "2026-11-16T15:04:03.732227-06:00"
- },
- "https://www.madisonpubliclibrary.org/locations/imagination-center": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-16T15:04:05.788627-06:00"
  },
  "https://communicationmadison.com/": {
   "ok": true,
@@ -3608,16 +3593,6 @@
   "ok": true,
   "why": "",
   "checked": "2026-11-16T15:04:05.788686-06:00"
- },
- "https://www.madisonpubliclibrary.org/about/ashman.html": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-16T15:04:07.969513-06:00"
- },
- "https://www.madisonpubliclibrary.org/monroe-street": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-16T15:04:09.931969-06:00"
  },
  "https://doundrinsdistilling.com/": {
   "ok": true,
@@ -3678,11 +3653,6 @@
   "ok": true,
   "why": "",
   "checked": "2026-11-18T13:27:09.711727-06:00"
- },
- "https://statestreetbrats.com/event/seton-hall-wisconsin-20261119/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-18T22:13:52.864183-06:00"
  },
  "https://www.cafecoda.club/events-1/tango-class-2-3-pm-social-3-5-pm-2aden-s34kk-erc3e-ldek9": {
   "ok": true,
@@ -3749,11 +3719,6 @@
   "why": "",
   "checked": "2026-11-19T13:31:15.656893-06:00"
  },
- "https://oldsugardistillery.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-19T13:31:15.656898-06:00"
- },
  "https://thecrystalcornerbar.com/": {
   "ok": null,
   "why": "ReadTimeout",
@@ -3778,11 +3743,6 @@
   "ok": true,
   "why": "",
   "checked": "2026-11-19T13:31:33.821669-06:00"
- },
- "https://thelonegirl.com/event/lone-girl-brewing-wednesday-trivia-2-2/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-19T13:31:33.821673-06:00"
  },
  "https://thelonegirl.com/event/drinksgiving-with-live-music-by-finding-north-2-2-2/": {
   "ok": true,
@@ -3813,5 +3773,50 @@
   "ok": true,
   "why": "",
   "checked": "2026-11-19T13:31:38.851126-06:00"
+ },
+ "https://statestreetbrats.com/event/penn-state-wisconsin-20261120/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-19T22:00:11.617162-06:00"
+ },
+ "https://thelonegirl.com/event/no-trivia/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-19T22:00:12.954849-06:00"
+ },
+ "https://www.quiveysgrove.com/event-details": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-19T22:00:12.954858-06:00"
+ },
+ "https://thelonegirl.com/event/line-dancing-party-monthly-at-the-lone-girl-2/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-19T22:00:13.945258-06:00"
+ },
+ "https://onesocialmadison.com/event/trivia-with-king-trivia-4/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-19T22:00:14.502368-06:00"
+ },
+ "https://www.madisoncomedy.com/event/trevor-wallace26/2026-12-03/1/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-19T22:00:14.502393-06:00"
+ },
+ "https://barrymorelive.com/event/brian-regan/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-19T22:00:14.502401-06:00"
+ },
+ "https://www.cafecoda.club/events-1/night-of-the-improvisor-benefit": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-19T22:00:14.502407-06:00"
+ },
+ "https://www.ticketmaster.com/daisy-grenade-madison-wisconsin-12-03-2026/event/070064EA92141EBD": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-11-19T22:00:14.502413-06:00"
  }
 }

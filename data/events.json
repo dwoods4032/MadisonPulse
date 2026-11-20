@@ -1,34 +1,11 @@
 {
- "generated_at": "2026-11-19T13:31:09-06:00",
+ "generated_at": "2026-11-19T22:00:11-06:00",
  "window": {
-  "from": "2026-11-19T07:29-06:00",
-  "to": "2026-12-03T13:29-06:00"
+  "from": "2026-11-19T15:58-06:00",
+  "to": "2026-12-03T21:58-06:00"
  },
- "count": 351,
+ "count": 359,
  "events": [
-  {
-   "id": "e462c2e43670",
-   "title": "Write-In (Online, Zoom)",
-   "start": "2026-11-19T10:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "other",
-   "price": 0.0,
-   "description": "Online Write-In via Zoom with Pomodoro writing blocks, check-in and check-out. Registration is free.",
-   "url": "https://artlitlab.org/",
-   "image": "",
-   "venue": "Arts + Literature Laboratory",
-   "venue_id": "osm:node/10815180247",
-   "venue_kind": "venue",
-   "address": "111 South Livingston Street",
-   "lat": 43.0804026,
-   "lon": -89.3734803,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
   {
    "id": "64276aea97f4",
    "title": "Holiday Pop-up Shop",
@@ -46,55 +23,6 @@
    "address": "89 East Towne Mall",
    "lat": 43.125232,
    "lon": -89.305199,
-   "source": "extra",
-   "via": "Isthmus",
-   "sources": [
-    "Isthmus"
-   ],
-   "link_ok": null
-  },
-  {
-   "id": "764846f6e0f5",
-   "title": "RSVP for Free Thanksgiving Meal",
-   "start": "2026-11-19T15:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "",
-   "url": "",
-   "image": "",
-   "venue": "First Congregational United Church of Christ",
-   "venue_id": "cal:first-congregational-united-church-of-christ",
-   "venue_kind": "venue",
-   "address": "54 South Jackson Street",
-   "lat": 42.680041,
-   "lon": -89.026582,
-   "source": "extra",
-   "via": "Isthmus",
-   "city": "Janesville",
-   "sources": [
-    "Isthmus"
-   ],
-   "link_ok": null
-  },
-  {
-   "id": "1b26388b2b5e",
-   "title": "Plant IDing",
-   "start": "2026-11-19T15:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "other",
-   "price": 0.0,
-   "description": "",
-   "url": "",
-   "image": "",
-   "venue": "Olbrich Gardens",
-   "venue_id": "cal:olbrich-gardens",
-   "venue_kind": "venue",
-   "address": "3330 Atwood Avenue",
-   "lat": 43.092979,
-   "lon": -89.336733,
    "source": "extra",
    "via": "Isthmus",
    "sources": [
@@ -253,7 +181,7 @@
    "all_day": false,
    "category": "bingo",
    "price": null,
-   "description": "Weekly Thursday meat raffle at Monkeyshines.",
+   "description": "Weekly Thursday meat raffle, 4:30 pm to 6:00 pm.",
    "url": "http://www.monkeyshinesbarandgrill.com/",
    "image": "",
    "venue": "Monkeyshines Bar & Grill",
@@ -777,29 +705,6 @@
    "link_ok": true
   },
   {
-   "id": "76aadc54d3f1",
-   "title": "Virtual Author Talk with Rebecca Roanhorse",
-   "start": "2026-11-19T18:00-06:00",
-   "end": "2026-11-19T19:00-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Virtual author talk with Rebecca Roanhorse. Ages: adults.",
-   "url": "https://www.sunprairiepubliclibrary.org/",
-   "image": "",
-   "venue": "Sun Prairie Public Library",
-   "venue_id": "osm:way/600866560",
-   "venue_kind": "library",
-   "address": "1350 Linnerud Drive",
-   "lat": 43.1757782,
-   "lon": -89.2353415,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "e00228b53251",
    "title": "The Effigies, Brenneis Hester, DJ Wax On/Wax Off",
    "start": "2026-11-19T18:00-06:00",
@@ -870,29 +775,6 @@
     "Isthmus"
    ],
    "link_ok": null
-  },
-  {
-   "id": "eadd85ea9485",
-   "title": "Tropidelic with Surfer Girl, The Quasi Kings",
-   "start": "2026-11-19T18:30-06:00",
-   "end": "2026-11-19T19:30-06:00",
-   "all_day": false,
-   "category": "music",
-   "price": 28.0,
-   "description": "5:45 VIP Doors 6:30 GA Doors 7:30 Show General Admission: $23ADV / $28DOS Balcony Seating: $45ADV / $50DOS",
-   "url": "https://www.theatwoodmusichall.com/shows/2026-11-19",
-   "image": "https://images.squarespace-cdn.com/content/v1/62cacf3906240b03a9e7209f/1778770914922-TVT2XCGGTR5FMHVVFNOM/tropidelic+.png",
-   "venue": "Atwood Music Hall",
-   "venue_id": "osm:way/440518288",
-   "venue_kind": "venue",
-   "address": "1925 Winnebago Street",
-   "lat": 43.0909399,
-   "lon": -89.3556544,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
-   ],
-   "link_ok": true
   },
   {
    "id": "282fd84c6e3f",
@@ -1549,29 +1431,6 @@
    "link_ok": null
   },
   {
-   "id": "600484c79258",
-   "title": "Eclectic Book Club",
-   "start": "2026-11-19T19:00-06:00",
-   "end": "2026-11-19T20:00-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Book club meeting. Ages: adults.",
-   "url": "https://www.sunprairiepubliclibrary.org/",
-   "image": "",
-   "venue": "Sun Prairie Public Library",
-   "venue_id": "osm:way/600866560",
-   "venue_kind": "library",
-   "address": "1350 Linnerud Drive",
-   "lat": 43.1757782,
-   "lon": -89.2353415,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "380c8d607441",
    "title": "Trivia",
    "start": "2026-11-19T19:00-06:00",
@@ -1741,29 +1600,6 @@
    "link_ok": true
   },
   {
-   "id": "530ccbdea214",
-   "title": "Romeo and Juliet",
-   "start": "2026-11-19T19:30-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "theater",
-   "price": null,
-   "description": "Shakespeare's tragedy of two young lovers caught between feuding families. Playing today at 7:30pm.",
-   "url": "https://bartelltheatre.org/",
-   "image": "",
-   "venue": "Bartell Theatre",
-   "venue_id": "osm:way/265137656",
-   "venue_kind": "venue",
-   "address": "113 East Mifflin Street",
-   "lat": 43.0765271,
-   "lon": -89.3833565,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "4f117ace0b35",
    "title": "Madison Jazz Orchestra",
    "start": "2026-11-19T19:30-06:00",
@@ -1882,29 +1718,6 @@
     "Isthmus"
    ],
    "link_ok": null
-  },
-  {
-   "id": "f85dd6ee45bc",
-   "title": "Seton Hall @ Wisconsin",
-   "start": "2026-11-19T19:30-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "",
-   "url": "https://statestreetbrats.com/event/seton-hall-wisconsin-20261119/",
-   "image": "",
-   "venue": "State Street Brats",
-   "venue_id": "osm:way/886357869",
-   "venue_kind": "bar",
-   "address": "603 State Street",
-   "lat": 43.0746889,
-   "lon": -89.395998,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
-   ],
-   "link_ok": true
   },
   {
    "id": "55cb903cb242",
@@ -2326,7 +2139,7 @@
    "all_day": true,
    "category": "food",
    "price": null,
-   "description": "Weekly Friday fish fry: fried or baked cod or walleye pike with a choice of potato, soup, salad or coleslaw, roll and butter.",
+   "description": "Weekly Friday night fish fry with choice of potato, soup, salad or coleslaw, roll and butter. Fried or baked cod or walleye pike.",
    "url": "http://www.thelaureltavern.com",
    "image": "",
    "venue": "Laurel Tavern",
@@ -2952,6 +2765,29 @@
    "link_ok": true
   },
   {
+   "id": "e3e33b654f1f",
+   "title": "Penn State @ Wisconsin",
+   "start": "2026-11-20T19:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "",
+   "url": "https://statestreetbrats.com/event/penn-state-wisconsin-20261120/",
+   "image": "",
+   "venue": "State Street Brats",
+   "venue_id": "osm:way/886357869",
+   "venue_kind": "bar",
+   "address": "603 State Street",
+   "lat": 43.0746889,
+   "lon": -89.395998,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "2e1749d7c1e1",
    "title": "Friday Night Strikes",
    "start": "2026-11-20T19:00-06:00",
@@ -3019,6 +2855,29 @@
     "Ticketmaster"
    ],
    "link_ok": null
+  },
+  {
+   "id": "d923afb9fe7d",
+   "title": "Romeo and Juliet",
+   "start": "2026-11-20T19:30-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "theater",
+   "price": null,
+   "description": "Now playing at Bartell Theatre; listed as 'Tomorrow at 7:30pm'.",
+   "url": "https://bartelltheatre.org/",
+   "image": "",
+   "venue": "Bartell Theatre",
+   "venue_id": "osm:way/265137656",
+   "venue_kind": "venue",
+   "address": "113 East Mifflin Street",
+   "lat": 43.0765271,
+   "lon": -89.3833565,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
   },
   {
    "id": "c835bb111044",
@@ -3289,7 +3148,7 @@
    "all_day": true,
    "category": "food",
    "price": null,
-   "description": "45th Annual Holiday House Bazaar, listed on the Monona Parks & Recreation special events calendar.",
+   "description": "45th Annual Holiday House Bazaar, listed on the Monona Special Events calendar.",
    "url": "https://www.mymonona.com/1395/Below-Deck-Concession-Stand",
    "image": "",
    "venue": "Below Deck Concession Stand",
@@ -3312,7 +3171,7 @@
    "all_day": true,
    "category": "food",
    "price": null,
-   "description": "Weekly Saturday special: roast prime rib of beef with au jus and horseradish, choice of potato, soup, salad or coleslaw, roll and butter.",
+   "description": "Weekly Saturday night roast prime rib with au jus and horseradish, choice of potato, soup or salad or coleslaw, roll and butter.",
    "url": "http://www.thelaureltavern.com",
    "image": "",
    "venue": "Laurel Tavern",
@@ -3445,14 +3304,14 @@
    "link_ok": null
   },
   {
-   "id": "4291d81335de",
-   "title": "Friends of the Library Annual Holiday Craft Fair, Book Sale, Bake Sale, Container Raffle, and More!",
+   "id": "f42845cc775d",
+   "title": "Friends of the Library Annual Holiday Craft Fair, Book Sale, Bake Sale, Container Raffle",
    "start": "2026-11-21T09:00-06:00",
    "end": "2026-11-21T14:00-06:00",
    "all_day": false,
    "category": "bingo",
    "price": null,
-   "description": "Friends of the Waunakee Library holiday craft fair, book sale, bake sale and container raffle at an offsite location.",
+   "description": "Holiday craft fair, book sale, bake sale and container raffle presented by the Friends of the Waunakee Library. Offsite event.",
    "url": "https://www.waunakeepubliclibrary.org/",
    "image": "",
    "venue": "Waunakee Public Library",
@@ -3592,7 +3451,7 @@
    "all_day": false,
    "category": "theater",
    "price": null,
-   "description": "Open indoor play time for kids ages 0-5 in the Community Hall; no registration required.",
+   "description": "Open indoor play time for kids to be active and make friends, suggested ages 0-5. No registration required.",
    "url": "https://www.waunakeepubliclibrary.org/",
    "image": "",
    "venue": "Waunakee Public Library",
@@ -3708,7 +3567,7 @@
    "all_day": false,
    "category": "theater",
    "price": null,
-   "description": "Ticketed showcase concluding the six-week Saturday Scene Study class, on the Evjue Stage.",
+   "description": "Ticketed showcase on the Evjue Stage concluding the six-week Saturday Scene Study class led by Sam White.",
    "url": "https://bartelltheatre.org/",
    "image": "",
    "venue": "Bartell Theatre",
@@ -3773,45 +3632,22 @@
    "link_ok": null
   },
   {
-   "id": "9b1d7b490da2",
-   "title": "Distillery Tour",
-   "start": "2026-11-21T13:30-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "music",
-   "price": null,
-   "description": "Weekly Saturday distillery tour at 1:30PM, as listed on the page.",
-   "url": "https://oldsugardistillery.com/",
-   "image": "",
-   "venue": "Old Sugar Distillery",
-   "venue_id": "osm:node/8250181191",
-   "venue_kind": "brewery",
-   "address": "",
-   "lat": 43.0823931,
-   "lon": -89.3706293,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "243c4a50ab45",
-   "title": "Beginning Cross-Stitch [FULL]",
-   "start": "2026-11-21T14:00-06:00",
-   "end": "2026-11-21T15:30-06:00",
+   "id": "aca12e3721a2",
+   "title": "Author Event: TJ Klune (FULL)",
+   "start": "2026-11-21T13:00-06:00",
+   "end": "2026-11-21T15:00-06:00",
    "all_day": false,
    "category": "other",
    "price": null,
-   "description": "Beginning cross-stitch class in the Meeting Room. Listed as full.",
-   "url": "https://www.madisonpubliclibrary.org/about/ashman.html",
+   "description": "Author event with TJ Klune for teens and adults. Page marks it as full.",
+   "url": "https://www.sunprairiepubliclibrary.org/",
    "image": "",
-   "venue": "Alicia Ashman Library",
-   "venue_id": "osm:node/790662052",
+   "venue": "Sun Prairie Public Library",
+   "venue_id": "osm:way/600866560",
    "venue_kind": "library",
-   "address": "733 North High Point Road",
-   "lat": 43.0760994,
-   "lon": -89.5175827,
+   "address": "1350 Linnerud Drive",
+   "lat": 43.1757782,
+   "lon": -89.2353415,
    "source": "ai",
    "sources": [
     "AI page reading"
@@ -3891,29 +3727,6 @@
    "link_ok": null
   },
   {
-   "id": "1227ba49145b",
-   "title": "Beginning Cross-Stitch [FULL]",
-   "start": "2026-11-21T14:00-06:00",
-   "end": "2026-11-21T15:30-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Beginning cross-stitch class in the Meeting Room. Listed as full.",
-   "url": "https://www.madisonpubliclibrary.org/locations/imagination-center",
-   "image": "",
-   "venue": "Imagination Center",
-   "venue_id": "osm:way/1562302805",
-   "venue_kind": "library",
-   "address": "1814 Parkside Drive",
-   "lat": 43.1240118,
-   "lon": -89.3168809,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "a1b1fbab81ac",
    "title": "Wisconsin Badgers Womens Hockey vs. Bemidji State Beavers Womens Hockey",
    "start": "2026-11-21T14:00-06:00",
@@ -3961,29 +3774,6 @@
    "link_ok": null
   },
   {
-   "id": "605fe8c4b520",
-   "title": "Beginning Cross-Stitch [FULL]",
-   "start": "2026-11-21T14:00-06:00",
-   "end": "2026-11-21T15:30-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Beginning cross-stitch class in the Meeting Room. Listed as full.",
-   "url": "https://www.madisonpubliclibrary.org/monroe-street",
-   "image": "",
-   "venue": "Monroe Street Library",
-   "venue_id": "osm:way/241508509",
-   "venue_kind": "library",
-   "address": "1705 Monroe Street",
-   "lat": 43.0659388,
-   "lon": -89.4152059,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "02f1a5631391",
    "title": "Gaslight",
    "start": "2026-11-21T14:00-06:00",
@@ -4006,29 +3796,6 @@
     "Isthmus"
    ],
    "link_ok": null
-  },
-  {
-   "id": "01611b893f4e",
-   "title": "Beginning Cross-Stitch [FULL]",
-   "start": "2026-11-21T14:00-06:00",
-   "end": "2026-11-21T15:30-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Beginning cross-stitch class in the Meeting Room. Listed as full.",
-   "url": "https://www.madisonpubliclibrary.org/locations/pinney-library",
-   "image": "",
-   "venue": "Pinney Library",
-   "venue_id": "osm:node/7234376294",
-   "venue_kind": "library",
-   "address": "516 Cottage Grove Road",
-   "lat": 43.0841729,
-   "lon": -89.3176486,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
   },
   {
    "id": "8128f64780ad",
@@ -4597,7 +4364,7 @@
    "all_day": true,
    "category": "food",
    "price": null,
-   "description": "45th Annual Holiday House Bazaar, listed on the Monona Parks & Recreation special events calendar.",
+   "description": "45th Annual Holiday House Bazaar, listed on the Monona Special Events calendar.",
    "url": "https://www.mymonona.com/1395/Below-Deck-Concession-Stand",
    "image": "",
    "venue": "Below Deck Concession Stand",
@@ -4613,14 +4380,14 @@
    "link_ok": true
   },
   {
-   "id": "c93046bcd042",
-   "title": "Write-In (Online, Zoom)",
+   "id": "9723afa2d7be",
+   "title": "Online Write-In (Zoom)",
    "start": "2026-11-22T09:00-06:00",
    "end": null,
    "all_day": false,
    "category": "other",
    "price": 0.0,
-   "description": "Online Write-In via Zoom with Pomodoro writing blocks, check-in and check-out. Registration is free.",
+   "description": "Pomodoro-style online write-in via Zoom with check-in and check-out; registration free.",
    "url": "https://artlitlab.org/",
    "image": "",
    "venue": "Arts + Literature Laboratory",
@@ -4992,6 +4759,29 @@
    "link_ok": null
   },
   {
+   "id": "baff738cc4c2",
+   "title": "Urban SUN: Black Voices Book Club",
+   "start": "2026-11-22T15:00-06:00",
+   "end": "2026-11-22T16:00-06:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Book club for adults.",
+   "url": "https://www.sunprairiepubliclibrary.org/",
+   "image": "",
+   "venue": "Sun Prairie Public Library",
+   "venue_id": "osm:way/600866560",
+   "venue_kind": "library",
+   "address": "1350 Linnerud Drive",
+   "lat": 43.1757782,
+   "lon": -89.2353415,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "8aa3ed34a10d",
    "title": "WanderLust Mobile Bookstore Pop-up",
    "start": "2026-11-22T15:00-06:00",
@@ -5341,37 +5131,14 @@
    "link_ok": null
   },
   {
-   "id": "2c8aa8651790",
-   "title": "Monday Madness",
-   "start": "2026-11-23T00:00-06:00",
-   "end": null,
-   "all_day": true,
-   "category": "food",
-   "price": null,
-   "description": "Discounted token pricing and special deals every Monday.",
-   "url": "https://www.aftershockclassicarcade.com/",
-   "image": "",
-   "venue": "Aftershock Classic Arcade",
-   "venue_id": "osm:node/6431684446",
-   "venue_kind": "bar",
-   "address": "1444 East Washington Avenue",
-   "lat": 43.0897796,
-   "lon": -89.3632278,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "a68e04a035db",
-   "title": "Acoustic Music Mondays: Barley Brothers",
+   "id": "6094fd6302d5",
+   "title": "Barley Brothers",
    "start": "2026-11-23T00:00-06:00",
    "end": null,
    "all_day": true,
    "category": "music",
    "price": null,
-   "description": "Old-time American string band, 4th Monday",
+   "description": "Acoustic Music Mondays, 4th Monday: old-time American string band",
    "url": "http://malthousetavern.com/",
    "image": "",
    "venue": "The Malt House",
@@ -5480,14 +5247,14 @@
    "link_ok": true
   },
   {
-   "id": "1bf12fde7205",
-   "title": "Tuesday Music: Dollar Bill and The Bucks",
+   "id": "c81211922cbc",
+   "title": "Dollar Bill and The Bucks",
    "start": "2026-11-24T00:00-06:00",
    "end": null,
    "all_day": true,
    "category": "music",
    "price": null,
-   "description": "Honky tonk, 4th Tuesday",
+   "description": "Tuesday Music, 4th Tuesday: honky tonk",
    "url": "http://malthousetavern.com/",
    "image": "",
    "venue": "The Malt House",
@@ -5510,7 +5277,7 @@
    "all_day": true,
    "category": "sports",
    "price": null,
-   "description": "Tuesday women's intermediate volleyball league, 12 teams, 26-27 season. Games are cancelled if Verona schools are closed or afterschool activities are cancelled.",
+   "description": "Weekly adult volleyball league night (women's intermediate, 12 teams). Canceled if Verona schools are closed.",
    "url": "https://www.veronawi.gov/941/Community-Center",
    "image": "",
    "venue": "Verona Community Center",
@@ -5533,7 +5300,7 @@
    "all_day": true,
    "category": "other",
    "price": null,
-   "description": "Drop-in help with your device or app at the library.",
+   "description": "Drop-in help with your device or app on Tuesdays.",
    "url": "https://www.veronapubliclibrary.org/",
    "image": "",
    "venue": "Verona Public Library",
@@ -5627,7 +5394,7 @@
    "all_day": false,
    "category": "trivia",
    "price": 0.0,
-   "description": "Free trivia at Flight Wine & Bourbon Bar, hosted with Wi Premier Trivia.",
+   "description": "Free trivia with @wipremiertrivia at Flight Wine & Bourbon Bar.",
    "url": "https://flightwi.com/",
    "image": "",
    "venue": "Flight Wine & Bourbon Bar",
@@ -5804,6 +5571,29 @@
    "link_ok": null
   },
   {
+   "id": "6c8b406d4dc6",
+   "title": "No Trivia",
+   "start": "2026-11-25T00:00-06:00",
+   "end": "2026-11-25T23:59-06:00",
+   "all_day": true,
+   "category": "trivia",
+   "price": null,
+   "description": "",
+   "url": "https://thelonegirl.com/event/no-trivia/",
+   "image": "",
+   "venue": "Lone Girl Tap Room And Pizza Company",
+   "venue_id": "osm:node/12641566168",
+   "venue_kind": "bar",
+   "address": "1817 East Washington Avenue",
+   "lat": 43.0907077,
+   "lon": -89.3608921,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "2145dd25820e",
    "title": "Adult Volleyball - Wednesday Co-ed Intermediate",
    "start": "2026-11-25T00:00-06:00",
@@ -5811,7 +5601,7 @@
    "all_day": true,
    "category": "sports",
    "price": null,
-   "description": "Wednesday co-ed intermediate volleyball league, 26-27 season. Games are cancelled if Verona schools are closed or afterschool activities are cancelled.",
+   "description": "Weekly adult volleyball league night (co-ed intermediate). Canceled if Verona schools are closed.",
    "url": "https://www.veronawi.gov/941/Community-Center",
    "image": "",
    "venue": "Verona Community Center",
@@ -5905,7 +5695,7 @@
    "all_day": false,
    "category": "food",
    "price": null,
-   "description": "Fresh citrus and pears stop event by Tree-Ripe Fruit Co. at Capital Brewery.",
+   "description": "Stop event featuring fresh citrus and pears from Tree-Ripe Fruit Co. at Capital Brewery.",
    "url": "https://www.capital-brewery.com/",
    "image": "",
    "venue": "Capital Brewery",
@@ -5986,29 +5776,6 @@
    "source": "ai",
    "sources": [
     "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "d586a9f1fa16",
-   "title": "Trivia Nights • Every Wednesday at The Lone Girl with King Trivia",
-   "start": "2026-11-25T18:30-06:00",
-   "end": "2026-11-25T20:30-06:00",
-   "all_day": false,
-   "category": "trivia",
-   "price": 0.0,
-   "description": "PUB TRIVIA with King Trivia every Wednesday night at LG-Waunakee at 6:30PM! Free to Play! Grab your crew. Let the bragging rights begin. Drink Up. Dig In. Have Fun. Repeat weekly. Through the end of December, join the Lone Girl Trivia Challenge for even more chances to win cool prizes!",
-   "url": "https://thelonegirl.com/event/lone-girl-brewing-wednesday-trivia-2-2/",
-   "image": "https://thelonegirl.com/wp-content/uploads/2026/04/Lone-Girl-Social-Square.jpg",
-   "venue": "Lone Girl Tap Room And Pizza Company",
-   "venue_id": "osm:node/12641566168",
-   "venue_kind": "bar",
-   "address": "1817 East Washington Avenue",
-   "lat": 43.0907077,
-   "lon": -89.3608921,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
    ],
    "link_ok": true
   },
@@ -6205,7 +5972,7 @@
    "all_day": true,
    "category": "sports",
    "price": null,
-   "description": "Thursday men's power volleyball league, 26-27 season. Games are cancelled if Verona schools are closed or afterschool activities are cancelled.",
+   "description": "Weekly adult volleyball league night (men's power). Canceled if Verona schools are closed.",
    "url": "https://www.veronawi.gov/941/Community-Center",
    "image": "",
    "venue": "Verona Community Center",
@@ -6221,14 +5988,14 @@
    "link_ok": true
   },
   {
-   "id": "5fb8d7b925c7",
-   "title": "Write-In (Online, Zoom)",
+   "id": "0ae33b3041fa",
+   "title": "Online Write-In (Zoom)",
    "start": "2026-11-26T10:00-06:00",
    "end": null,
    "all_day": false,
    "category": "other",
    "price": 0.0,
-   "description": "Online Write-In via Zoom with Pomodoro writing blocks, check-in and check-out. Registration is free.",
+   "description": "Pomodoro-style online write-in via Zoom with check-in and check-out; registration free.",
    "url": "https://artlitlab.org/",
    "image": "",
    "venue": "Arts + Literature Laboratory",
@@ -6274,7 +6041,7 @@
    "all_day": false,
    "category": "bingo",
    "price": null,
-   "description": "Weekly Thursday meat raffle at Monkeyshines.",
+   "description": "Weekly Thursday meat raffle, 4:30 pm to 6:00 pm.",
    "url": "http://www.monkeyshinesbarandgrill.com/",
    "image": "",
    "venue": "Monkeyshines Bar & Grill",
@@ -6441,7 +6208,7 @@
    "all_day": true,
    "category": "food",
    "price": null,
-   "description": "Weekly Friday fish fry: fried or baked cod or walleye pike with a choice of potato, soup, salad or coleslaw, roll and butter.",
+   "description": "Weekly Friday night fish fry with choice of potato, soup, salad or coleslaw, roll and butter. Fried or baked cod or walleye pike.",
    "url": "http://www.thelaureltavern.com",
    "image": "",
    "venue": "Laurel Tavern",
@@ -6691,6 +6458,52 @@
    "link_ok": null
   },
   {
+   "id": "41e3f3e6d498",
+   "title": "2026 Black Friday Deals",
+   "start": "2026-11-27T15:00-06:00",
+   "end": "2026-11-27T22:00-06:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Black Friday deals at Capital Brewery.",
+   "url": "https://www.capital-brewery.com/",
+   "image": "",
+   "venue": "Capital Brewery",
+   "venue_id": "osm:way/97601507",
+   "venue_kind": "brewery",
+   "address": "7734 Terrace Avenue",
+   "lat": 43.0948896,
+   "lon": -89.5165789,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "58ebacf7eda7",
+   "title": "LIVE MUSIC w/ David Hecht",
+   "start": "2026-11-27T18:00-06:00",
+   "end": "2026-11-27T21:00-06:00",
+   "all_day": false,
+   "category": "music",
+   "price": null,
+   "description": "Live music with David Hecht at Capital Brewery.",
+   "url": "https://www.capital-brewery.com/",
+   "image": "",
+   "venue": "Capital Brewery",
+   "venue_id": "osm:way/97601507",
+   "venue_kind": "brewery",
+   "address": "7734 Terrace Avenue",
+   "lat": 43.0948896,
+   "lon": -89.5165789,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "5d22e3234251",
    "title": "Magic Rob EVERY Friday – tableside magic and family FUN!",
    "start": "2026-11-27T18:00-06:00",
@@ -6883,9 +6696,9 @@
    "start": "2026-11-28T00:00-06:00",
    "end": null,
    "all_day": true,
-   "category": "food",
+   "category": "other",
    "price": 50.0,
-   "description": "Holiday wreath workshop at the tasting room. Also listed for 12/5 and 12/6, which fall outside the window.",
+   "description": "Holiday wreath workshop at Doundrins Distilling; also listed for 12/5 and 12/6, outside this window.",
    "url": "https://doundrinsdistilling.com/",
    "image": "",
    "venue": "Doundrins Distilling",
@@ -6908,7 +6721,7 @@
    "all_day": true,
    "category": "food",
    "price": null,
-   "description": "Weekly Saturday special: roast prime rib of beef with au jus and horseradish, choice of potato, soup, salad or coleslaw, roll and butter.",
+   "description": "Weekly Saturday night roast prime rib with au jus and horseradish, choice of potato, soup or salad or coleslaw, roll and butter.",
    "url": "http://www.thelaureltavern.com",
    "image": "",
    "venue": "Laurel Tavern",
@@ -7130,29 +6943,6 @@
    "source": "scraped",
    "sources": [
     "Venue websites"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "3bb4207f3f7c",
-   "title": "Distillery Tour",
-   "start": "2026-11-28T13:30-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "music",
-   "price": null,
-   "description": "Weekly Saturday distillery tour at 1:30PM, as listed on the page.",
-   "url": "https://oldsugardistillery.com/",
-   "image": "",
-   "venue": "Old Sugar Distillery",
-   "venue_id": "osm:node/8250181191",
-   "venue_kind": "brewery",
-   "address": "",
-   "lat": 43.0823931,
-   "lon": -89.3706293,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
    ],
    "link_ok": true
   },
@@ -7502,14 +7292,14 @@
    "link_ok": null
   },
   {
-   "id": "0fcb0ebd089b",
-   "title": "Write-In (Online, Zoom)",
+   "id": "3ebe58108f1f",
+   "title": "Online Write-In (Zoom)",
    "start": "2026-11-29T09:00-06:00",
    "end": null,
    "all_day": false,
    "category": "other",
    "price": 0.0,
-   "description": "Online Write-In via Zoom with Pomodoro writing blocks, check-in and check-out. Registration is free.",
+   "description": "Pomodoro-style online write-in via Zoom with check-in and check-out; registration free.",
    "url": "https://artlitlab.org/",
    "image": "",
    "venue": "Arts + Literature Laboratory",
@@ -7556,7 +7346,7 @@
    "all_day": false,
    "category": "other",
    "price": 0.0,
-   "description": "Last Sunday of the month in-person Write-In at ArtLitLab with Pomodoro writing blocks and group sharing with recall feedback. Registration is free.",
+   "description": "Monthly in-person write-in at ArtLitLab using Pomodoro blocks, followed by group sharing with 'recall' feedback; registration free.",
    "url": "https://artlitlab.org/",
    "image": "",
    "venue": "Arts + Literature Laboratory",
@@ -7756,29 +7546,6 @@
    "link_ok": true
   },
   {
-   "id": "ca32492c4209",
-   "title": "Monday Madness",
-   "start": "2026-11-30T00:00-06:00",
-   "end": null,
-   "all_day": true,
-   "category": "food",
-   "price": null,
-   "description": "Discounted token pricing and special deals every Monday.",
-   "url": "https://www.aftershockclassicarcade.com/",
-   "image": "",
-   "venue": "Aftershock Classic Arcade",
-   "venue_id": "osm:node/6431684446",
-   "venue_kind": "bar",
-   "address": "1444 East Washington Avenue",
-   "lat": 43.0897796,
-   "lon": -89.3632278,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "7fa143c38f0c",
    "title": "Yoga Core",
    "start": "2026-11-30T12:00-06:00",
@@ -7872,6 +7639,29 @@
    "link_ok": true
   },
   {
+   "id": "fd80538bc735",
+   "title": "Opening Day of Lake Ridge Bank River Rink",
+   "start": "2026-12-01T00:00-06:00",
+   "end": null,
+   "all_day": true,
+   "category": "other",
+   "price": null,
+   "description": "Opening day of the Lake Ridge Bank River Rink.",
+   "url": "https://www.mymonona.com/1395/Below-Deck-Concession-Stand",
+   "image": "",
+   "venue": "Below Deck Concession Stand",
+   "venue_id": "osm:node/8632908350",
+   "venue_kind": "cafe",
+   "address": "800 West Broadway",
+   "lat": 43.0480098,
+   "lon": -89.337189,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "3abf90435b76",
    "title": "Taco Tuesday",
    "start": "2026-12-01T00:00-06:00",
@@ -7895,6 +7685,29 @@
    "link_ok": true
   },
   {
+   "id": "35ef62bec1cc",
+   "title": "Adult Volleyball - Tuesday Women's Intermediate",
+   "start": "2026-12-01T00:00-06:00",
+   "end": null,
+   "all_day": true,
+   "category": "sports",
+   "price": null,
+   "description": "Weekly adult volleyball league night (women's intermediate, 12 teams). Canceled if Verona schools are closed.",
+   "url": "https://www.veronawi.gov/941/Community-Center",
+   "image": "",
+   "venue": "Verona Community Center",
+   "venue_id": "osm:way/675800916",
+   "venue_kind": "community",
+   "address": "130 North Franklin Street",
+   "lat": 42.9935325,
+   "lon": -89.5330812,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "f3a9d70f847e",
    "title": "Technology Tuesdays",
    "start": "2026-12-01T00:00-06:00",
@@ -7902,7 +7715,7 @@
    "all_day": true,
    "category": "other",
    "price": null,
-   "description": "Drop-in help with your device or app at the library.",
+   "description": "Drop-in help with your device or app on Tuesdays.",
    "url": "https://www.veronapubliclibrary.org/",
    "image": "",
    "venue": "Verona Public Library",
@@ -7961,6 +7774,29 @@
    "source": "scraped",
    "sources": [
     "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "61ba3cb550c6",
+   "title": "Trivia Tuesdays",
+   "start": "2026-12-01T18:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "trivia",
+   "price": 0.0,
+   "description": "Free trivia with @wipremiertrivia at Flight Wine & Bourbon Bar.",
+   "url": "https://flightwi.com/",
+   "image": "",
+   "venue": "Flight Wine & Bourbon Bar",
+   "venue_id": "osm:node/11537268930",
+   "venue_kind": "bar",
+   "address": "4893 Lacy Road",
+   "lat": 43.0112712,
+   "lon": -89.3736621,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
    ],
    "link_ok": true
   },
@@ -8050,6 +7886,52 @@
    "address": "2201 Atwood Avenue",
    "lat": 43.0930561,
    "lon": -89.3492054,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "141c0c310159",
+   "title": "The North Westerns",
+   "start": "2026-12-02T00:00-06:00",
+   "end": null,
+   "all_day": true,
+   "category": "music",
+   "price": null,
+   "description": "Wednesday Music, 1st Wednesday: western swing",
+   "url": "http://malthousetavern.com/",
+   "image": "",
+   "venue": "The Malt House",
+   "venue_id": "osm:way/592859743",
+   "venue_kind": "bar",
+   "address": "2609 East Washington Avenue",
+   "lat": 43.1005011,
+   "lon": -89.3482198,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "29a2e33bc552",
+   "title": "Adult Volleyball - Wednesday Co-ed Intermediate",
+   "start": "2026-12-02T00:00-06:00",
+   "end": null,
+   "all_day": true,
+   "category": "sports",
+   "price": null,
+   "description": "Weekly adult volleyball league night (co-ed intermediate). Canceled if Verona schools are closed.",
+   "url": "https://www.veronawi.gov/941/Community-Center",
+   "image": "",
+   "venue": "Verona Community Center",
+   "venue_id": "osm:way/675800916",
+   "venue_kind": "community",
+   "address": "130 North Franklin Street",
+   "lat": 42.9935325,
+   "lon": -89.5330812,
    "source": "ai",
    "sources": [
     "AI page reading"
@@ -8243,6 +8125,29 @@
    "link_ok": true
   },
   {
+   "id": "200c6c3733ad",
+   "title": "Adult Volleyball - Thursday Men's Power",
+   "start": "2026-12-03T00:00-06:00",
+   "end": null,
+   "all_day": true,
+   "category": "sports",
+   "price": null,
+   "description": "Weekly adult volleyball league night (men's power). Canceled if Verona schools are closed.",
+   "url": "https://www.veronawi.gov/941/Community-Center",
+   "image": "",
+   "venue": "Verona Community Center",
+   "venue_id": "osm:way/675800916",
+   "venue_kind": "community",
+   "address": "130 North Franklin Street",
+   "lat": 42.9935325,
+   "lon": -89.5330812,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "928ea8e724b2",
    "title": "Holiday Market",
    "start": "2026-12-03T09:00-06:00",
@@ -8263,6 +8168,284 @@
    "via": "Isthmus",
    "sources": [
     "Isthmus"
+   ],
+   "link_ok": null
+  },
+  {
+   "id": "60f631987cfb",
+   "title": "Online Write-In (Zoom)",
+   "start": "2026-12-03T10:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "other",
+   "price": 0.0,
+   "description": "Pomodoro-style online write-in via Zoom with check-in and check-out; registration free.",
+   "url": "https://artlitlab.org/",
+   "image": "",
+   "venue": "Arts + Literature Laboratory",
+   "venue_id": "osm:node/10815180247",
+   "venue_kind": "venue",
+   "address": "111 South Livingston Street",
+   "lat": 43.0804026,
+   "lon": -89.3734803,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "202938875fd0",
+   "title": "Thursday Meat Raffle",
+   "start": "2026-12-03T16:30-06:00",
+   "end": "2026-12-03T18:00-06:00",
+   "all_day": false,
+   "category": "bingo",
+   "price": null,
+   "description": "Weekly Thursday meat raffle, 4:30 pm to 6:00 pm.",
+   "url": "http://www.monkeyshinesbarandgrill.com/",
+   "image": "",
+   "venue": "Monkeyshines Bar & Grill",
+   "venue_id": "osm:way/107655168",
+   "venue_kind": "bar",
+   "address": "6209 McKee Road",
+   "lat": 43.0146693,
+   "lon": -89.4753418,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "e74a1d9bb12c",
+   "title": "Wente Vineyards Cellar Wine Tasting",
+   "start": "2026-12-03T17:00-06:00",
+   "end": "2026-12-03T19:00-06:00",
+   "all_day": false,
+   "category": "food",
+   "price": 0.0,
+   "description": "Try some free wine & cheese in Quivey's Underground Wine Cellar!",
+   "url": "https://www.quiveysgrove.com/event-details",
+   "image": "https://static.wixstatic.com/media/735b12_b4a99747b46a40b1afef93535b17dc04~mv2.jpg/v1/fill/w_2974,h_1673,al_c,q_90/735b12_b4a99747b46a40b1afef93535b17dc04~mv2.jpg",
+   "venue": "Quivey's Stable Grill",
+   "venue_id": "osm:way/107655096",
+   "venue_kind": "bar",
+   "address": "",
+   "lat": 43.00894,
+   "lon": -89.4788705,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "9209b794a5db",
+   "title": "Line Dancing Party! Monthly at The Lone Girl",
+   "start": "2026-12-03T17:30-06:00",
+   "end": "2026-12-03T20:00-06:00",
+   "all_day": false,
+   "category": "dance",
+   "price": 4.0,
+   "description": "Line Dance Parties are BACK at The Lone Girl — once a month November – April! Instructor Natalie will lead the way with our beginner-friendly favorites, with a few chances to step it up for dancers who’ve already got a little boot-scootin’ under their belts. ️ $4 gets you in + 10% off food & drinks ",
+   "url": "https://thelonegirl.com/event/line-dancing-party-monthly-at-the-lone-girl-2/",
+   "image": "https://thelonegirl.com/wp-content/uploads/2026/10/Line-Dance-Party.png",
+   "venue": "Lone Girl Tap Room And Pizza Company",
+   "venue_id": "osm:node/12641566168",
+   "venue_kind": "bar",
+   "address": "1817 East Washington Avenue",
+   "lat": 43.0907077,
+   "lon": -89.3608921,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "e403d1807c4a",
+   "title": "Virtual Author Talks with Library Speakers Consortium",
+   "start": "2026-12-03T18:00-06:00",
+   "end": "2026-12-03T19:00-06:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Event Description We are excited to offer a new virtual program to our patrons! The Library Speakers Consortium hosts virtual author talks over a variety of genres. Each month, there will be at least two talks available for you to attend. Register for each talk, submit questions for the Q&A, and per",
+   "url": "https://www.mcfarlandlibrary.org/home",
+   "image": "",
+   "venue": "E.D. Locke Public Library",
+   "venue_id": "osm:way/386578862",
+   "venue_kind": "library",
+   "address": "5920 Milwaukee Street",
+   "lat": 43.0136038,
+   "lon": -89.2883391,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "239c31cdf834",
+   "title": "The Outlaw & A Lady",
+   "start": "2026-12-03T18:30-06:00",
+   "end": "2026-12-03T20:30-06:00",
+   "all_day": false,
+   "category": "music",
+   "price": 0.0,
+   "description": "Acoustic duo playing original music and classic covers. No cover.",
+   "url": "https://www.harmonybarandgrill.com/",
+   "image": "",
+   "venue": "Harmony Bar & Grill",
+   "venue_id": "osm:way/345773988",
+   "venue_kind": "bar",
+   "address": "2201 Atwood Avenue",
+   "lat": 43.0930561,
+   "lon": -89.3492054,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "c59283e29ee2",
+   "title": "Trivia with King Trivia",
+   "start": "2026-12-03T18:30-06:00",
+   "end": "2026-12-03T20:00-06:00",
+   "all_day": false,
+   "category": "trivia",
+   "price": 0.0,
+   "description": "Put your knowledge to the test at Trivia Night at One Social Food Hall, hosted by King Trivia! Gather your team, grab a drink, and dive into a fun, fast-paced evening of questions spanning pop culture, history, music, and more. With great food vendors, craft cocktails, and a lively atmosphere, it’s ",
+   "url": "https://onesocialmadison.com/event/trivia-with-king-trivia-4/",
+   "image": "",
+   "venue": "One Social Bar",
+   "venue_id": "osm:node/13312456631",
+   "venue_kind": "bar",
+   "address": "",
+   "lat": 43.0738511,
+   "lon": -89.378883,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "3639fc49fa12",
+   "title": "Writers Block: December 2026",
+   "start": "2026-12-03T19:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "theater",
+   "price": null,
+   "description": "Upcoming production listed as coming soon at Bartell Theatre.",
+   "url": "https://bartelltheatre.org/",
+   "image": "",
+   "venue": "Bartell Theatre",
+   "venue_id": "osm:way/265137656",
+   "venue_kind": "venue",
+   "address": "113 East Mifflin Street",
+   "lat": 43.0765271,
+   "lon": -89.3833565,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "6ef0e0928737",
+   "title": "Trevor Wallace",
+   "start": "2026-12-03T19:00-06:00",
+   "end": "2026-12-03T20:30-06:00",
+   "all_day": false,
+   "category": "comedy",
+   "price": 0.0,
+   "description": "FREE PASSES/PROMOTIONS NOT VALID TREVOR WALLACE is a stand-up comedian, writer & actor. Wallace can be seen just about everywhere on the internet and has collectively built a digital thumbprint of […] \\n",
+   "url": "https://www.madisoncomedy.com/event/trevor-wallace26/2026-12-03/1/",
+   "image": "https://www.madisoncomedy.com/wp-content/uploads/Trevor-Wallace26.png",
+   "venue": "Comedy Club on State",
+   "venue_id": "osm:node/5661434234",
+   "venue_kind": "venue",
+   "address": "",
+   "lat": 43.0749506,
+   "lon": -89.3882204,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "35752b0c3eef",
+   "title": "Brian Regan",
+   "start": "2026-12-03T20:00-06:00",
+   "end": "2026-12-03T20:00-06:00",
+   "all_day": false,
+   "category": "theater",
+   "price": null,
+   "description": "@ FPC Live Presents Brian Regan On Sale: Friday, July 31st @ 10:00 AM Information Box Office: 6:30 PM | Doors: 7:00 PM | Show: 8:00 PM Please Note: The Barrymore does not have access to individual ticket order information. Advance tickets can b",
+   "url": "https://barrymorelive.com/event/brian-regan/",
+   "image": "https://barrymorelive.com/wp-content/uploads/2026/07/Untitled-design-25.webp",
+   "venue": "Barrymore Theatre",
+   "venue_id": "osm:way/345755104",
+   "venue_kind": "venue",
+   "address": "2090-2098 Atwood Avenue",
+   "lat": 43.0929747,
+   "lon": -89.3521777,
+   "source": "scraped",
+   "sources": [
+    "Venue websites",
+    "Ticketmaster"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "5103ae9cd969",
+   "title": "Night of the Improvisor Benefit",
+   "start": "2026-12-03T20:00-06:00",
+   "end": "2026-12-03T23:00-06:00",
+   "all_day": false,
+   "category": "comedy",
+   "price": null,
+   "description": "",
+   "url": "https://www.cafecoda.club/events-1/night-of-the-improvisor-benefit",
+   "image": "https://images.squarespace-cdn.com/content/v1/6914abebeed4305fd5ea6ea5/1795140614547-SQBSAVCKF1JF9YOGO1FO/Old+copy+I.png",
+   "venue": "Cafe CODA",
+   "venue_id": "osm:way/385639191",
+   "venue_kind": "bar",
+   "address": "1224 Williamson Street",
+   "lat": 43.0839938,
+   "lon": -89.3638172,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "f48f7e15c142",
+   "title": "Daisy Grenade",
+   "start": "2026-12-03T20:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "music",
+   "price": null,
+   "description": "Rock / Alternative Rock",
+   "url": "https://www.ticketmaster.com/daisy-grenade-madison-wisconsin-12-03-2026/event/070064EA92141EBD",
+   "image": "https://s1.ticketm.net/dam/a/543/740a6e42-bf9b-4a7b-9bbd-05c690352543_RETINA_PORTRAIT_16_9.jpg",
+   "venue": "High Noon Saloon",
+   "venue_id": "osm:node/1348850872",
+   "venue_kind": "bar",
+   "address": "701 E Washington Ave",
+   "lat": 43.0797191,
+   "lon": -89.3762962,
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster",
+    "AI page reading"
    ],
    "link_ok": null
   }

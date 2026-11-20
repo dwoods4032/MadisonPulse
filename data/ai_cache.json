@@ -1,43 +1,15 @@
 {
  "https://www.dvinomadison.com/events": {
   "hash": "c7b112b80a65704cdfbf2fbcdc796e283a80c493",
-  "asked": "2026-11-16T15:02:01-06:00",
-  "on": "2026-11-16",
+  "asked": "2026-11-19T21:58:44-06:00",
+  "on": "2026-11-19",
   "events": []
  },
  "https://aftershockclassicarcade.com/specials/": {
   "hash": "b49a17dae8ef2e5b65f0a891af566a794ebb29e0",
-  "asked": "2026-11-16T15:02:00-06:00",
-  "on": "2026-11-16",
-  "events": [
-   {
-    "title": "Monday Madness",
-    "date": "2026-11-16",
-    "start": null,
-    "end": null,
-    "price": null,
-    "description": "Discounted token pricing and special deals every Monday.",
-    "category": "other"
-   },
-   {
-    "title": "Monday Madness",
-    "date": "2026-11-23",
-    "start": null,
-    "end": null,
-    "price": null,
-    "description": "Discounted token pricing and special deals every Monday.",
-    "category": "other"
-   },
-   {
-    "title": "Monday Madness",
-    "date": "2026-11-30",
-    "start": null,
-    "end": null,
-    "price": null,
-    "description": "Discounted token pricing and special deals every Monday.",
-    "category": "other"
-   }
-  ]
+  "asked": "2026-11-19T21:58:43-06:00",
+  "on": "2026-11-19",
+  "events": []
  },
  "https://thecrystalcornerbar.com/Calendar.htm": {
   "hash": "39ad3ef516a6dffff9337e6ae71f6c90c40d413f",
@@ -66,45 +38,45 @@
  },
  "https://www.doubletapbeercade.com/location/madison/": {
   "hash": "65a9174a3f227f72dac61c3c2e669ec6267cde2e",
-  "asked": "2026-11-16T15:01:58-06:00",
-  "on": "2026-11-16",
+  "asked": "2026-11-19T21:58:41-06:00",
+  "on": "2026-11-19",
   "events": []
  },
  "https://www.dexterspubmadison.com/fish-fry": {
   "hash": "12ee55c61daa9adecccc650475b15c1112f3c8e9",
-  "asked": "2026-11-16T15:02:00-06:00",
-  "on": "2026-11-16",
+  "asked": "2026-11-19T21:58:45-06:00",
+  "on": "2026-11-19",
   "events": []
  },
  "https://flightwi.com/events": {
   "hash": "d2b382b21f99efaa7d91879fd2f574cfcb37733e",
-  "asked": "2026-11-16T15:02:00-06:00",
-  "on": "2026-11-16",
+  "asked": "2026-11-19T21:58:43-06:00",
+  "on": "2026-11-19",
   "events": [
-   {
-    "title": "Trivia Tuesdays",
-    "date": "2026-11-17",
-    "start": "18:00",
-    "end": null,
-    "price": 0,
-    "description": "Free trivia at Flight Wine & Bourbon Bar, hosted with Wi Premier Trivia.",
-    "category": "trivia"
-   },
    {
     "title": "Trivia Tuesdays",
     "date": "2026-11-24",
     "start": "18:00",
     "end": null,
     "price": 0,
-    "description": "Free trivia at Flight Wine & Bourbon Bar, hosted with Wi Premier Trivia.",
+    "description": "Free trivia with @wipremiertrivia at Flight Wine & Bourbon Bar.",
+    "category": "trivia"
+   },
+   {
+    "title": "Trivia Tuesdays",
+    "date": "2026-12-01",
+    "start": "18:00",
+    "end": null,
+    "price": 0,
+    "description": "Free trivia with @wipremiertrivia at Flight Wine & Bourbon Bar.",
     "category": "trivia"
    }
   ]
  },
  "https://www.greatdanepub.com/large-party-events/": {
   "hash": "851330dc3de1f0495c03c46f1a6c8b213975d643",
-  "asked": "2026-11-16T15:02:02-06:00",
-  "on": "2026-11-16",
+  "asked": "2026-11-19T21:58:49-06:00",
+  "on": "2026-11-19",
   "events": []
  },
  "https://gammaray.bar/shows/": {
@@ -192,8 +164,8 @@
  },
  "http://www.thelaureltavern.com/specials-1.html": {
   "hash": "e29b32223cc2e13aeda50e66a0d9672eccc0dada",
-  "asked": "2026-11-16T15:02:05-06:00",
-  "on": "2026-11-16",
+  "asked": "2026-11-19T21:58:47-06:00",
+  "on": "2026-11-19",
   "events": [
    {
     "title": "Friday Night Fish Fry",
@@ -201,7 +173,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Weekly Friday fish fry: fried or baked cod or walleye pike with a choice of potato, soup, salad or coleslaw, roll and butter.",
+    "description": "Weekly Friday night fish fry with choice of potato, soup, salad or coleslaw, roll and butter. Fried or baked cod or walleye pike.",
     "category": "food"
    },
    {
@@ -210,7 +182,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Weekly Friday fish fry: fried or baked cod or walleye pike with a choice of potato, soup, salad or coleslaw, roll and butter.",
+    "description": "Weekly Friday night fish fry with choice of potato, soup, salad or coleslaw, roll and butter. Fried or baked cod or walleye pike.",
     "category": "food"
    },
    {
@@ -219,7 +191,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Weekly Saturday special: roast prime rib of beef with au jus and horseradish, choice of potato, soup, salad or coleslaw, roll and butter.",
+    "description": "Weekly Saturday night roast prime rib with au jus and horseradish, choice of potato, soup or salad or coleslaw, roll and butter.",
     "category": "food"
    },
    {
@@ -228,7 +200,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Weekly Saturday special: roast prime rib of beef with au jus and horseradish, choice of potato, soup, salad or coleslaw, roll and butter.",
+    "description": "Weekly Saturday night roast prime rib with au jus and horseradish, choice of potato, soup or salad or coleslaw, roll and butter.",
     "category": "food"
    }
   ]
@@ -241,14 +213,14 @@
  },
  "https://www.mickeysmadison.com/": {
   "hash": "e02d5769890e7d8de6396bf007f716baa059e289",
-  "asked": "2026-11-16T15:02:04-06:00",
-  "on": "2026-11-16",
+  "asked": "2026-11-19T21:58:45-06:00",
+  "on": "2026-11-19",
   "events": []
  },
  "https://mondaysbar.com/": {
   "hash": "7a513894a41487013056bc26674d05fe4b624b38",
-  "asked": "2026-11-16T15:02:04-06:00",
-  "on": "2026-11-16",
+  "asked": "2026-11-19T21:58:46-06:00",
+  "on": "2026-11-19",
   "events": []
  },
  "https://www.harmonybarandgrill.com/madison-atwood-the-harmony-bar-and-grill-events": {
@@ -350,14 +322,14 @@
  },
  "https://www.fivenightclubmadison.com/": {
   "hash": "1d1a9fb10ebac90570eae6e01438ce4fd6578497",
-  "asked": "2026-11-16T15:02:06-06:00",
-  "on": "2026-11-16",
+  "asked": "2026-11-19T21:58:49-06:00",
+  "on": "2026-11-19",
   "events": []
  },
  "https://theplazatavern.com/": {
   "hash": "1a9fb85ec59388bea20a7b73e3dfe797a196f594",
-  "asked": "2026-11-16T15:02:07-06:00",
-  "on": "2026-11-16",
+  "asked": "2026-11-19T21:58:47-06:00",
+  "on": "2026-11-19",
   "events": []
  },
  "https://parchedeaglebrewpub.com/category/events/": {
@@ -368,8 +340,8 @@
  },
  "http://www.monkeyshinesbarandgrill.com/events/": {
   "hash": "166312ea2b4df53011098a651bf1fe0f38aa10b0",
-  "asked": "2026-11-16T15:02:07-06:00",
-  "on": "2026-11-16",
+  "asked": "2026-11-19T21:58:48-06:00",
+  "on": "2026-11-19",
   "events": [
    {
     "title": "Thursday Meat Raffle",
@@ -377,7 +349,7 @@
     "start": "16:30",
     "end": "18:00",
     "price": null,
-    "description": "Weekly Thursday meat raffle at Monkeyshines.",
+    "description": "Weekly Thursday meat raffle, 4:30 pm to 6:00 pm.",
     "category": "other"
    },
    {
@@ -386,7 +358,16 @@
     "start": "16:30",
     "end": "18:00",
     "price": null,
-    "description": "Weekly Thursday meat raffle at Monkeyshines.",
+    "description": "Weekly Thursday meat raffle, 4:30 pm to 6:00 pm.",
+    "category": "other"
+   },
+   {
+    "title": "Thursday Meat Raffle",
+    "date": "2026-12-03",
+    "start": "16:30",
+    "end": "18:00",
+    "price": null,
+    "description": "Weekly Thursday meat raffle, 4:30 pm to 6:00 pm.",
     "category": "other"
    }
   ]
@@ -705,20 +686,20 @@
  },
  "https://tipsycowmadison.com/": {
   "hash": "b27fbdcf56b172bb5012f44d59314c6f8a76bd35",
-  "asked": "2026-11-16T15:02:12-06:00",
-  "on": "2026-11-16",
+  "asked": "2026-11-19T21:58:53-06:00",
+  "on": "2026-11-19",
   "events": []
  },
  "https://whiskeyjacksmadtown.com/calendar/": {
   "hash": "8369bb8764d25462e5af6d2c153c96c0804ed0f1",
-  "asked": "2026-11-16T15:02:16-06:00",
-  "on": "2026-11-16",
+  "asked": "2026-11-19T21:58:55-06:00",
+  "on": "2026-11-19",
   "events": []
  },
  "https://www.capitalbrewery.com/events-2/": {
-  "hash": "044ad9296cbeb7b4e3f0b4309a4af55749323d44",
-  "asked": "2026-11-17T13:51:20-06:00",
-  "on": "2026-11-17",
+  "hash": "5a8a39ad1b57e6be9e6324968824498ec70cf213",
+  "asked": "2026-11-19T21:58:56-06:00",
+  "on": "2026-11-19",
   "events": [
    {
     "title": "LIVE MUSIC w/ Too Sick Charlie",
@@ -735,8 +716,26 @@
     "start": "12:00",
     "end": "13:30",
     "price": null,
-    "description": "Fresh citrus and pears stop event by Tree-Ripe Fruit Co. at Capital Brewery.",
+    "description": "Stop event featuring fresh citrus and pears from Tree-Ripe Fruit Co. at Capital Brewery.",
     "category": "food"
+   },
+   {
+    "title": "2026 Black Friday Deals",
+    "date": "2026-11-27",
+    "start": "15:00",
+    "end": "22:00",
+    "price": null,
+    "description": "Black Friday deals at Capital Brewery.",
+    "category": "other"
+   },
+   {
+    "title": "LIVE MUSIC w/ David Hecht",
+    "date": "2026-11-27",
+    "start": "18:00",
+    "end": "21:00",
+    "price": null,
+    "description": "Live music with David Hecht at Capital Brewery.",
+    "category": "music"
    }
   ]
  },
@@ -758,66 +757,48 @@
  },
  "https://tinystaphouse.com/": {
   "hash": "98d6224705f931ea24049dc812df1e157a75b11d",
-  "asked": "2026-11-16T15:02:14-06:00",
-  "on": "2026-11-16",
+  "asked": "2026-11-19T21:58:54-06:00",
+  "on": "2026-11-19",
   "events": []
  },
  "http://malthousetavern.com/": {
   "hash": "be2225c7f9001b32e2e9124d18e36aabc17946f2",
-  "asked": "2026-11-16T15:02:13-06:00",
-  "on": "2026-11-16",
+  "asked": "2026-11-19T21:58:54-06:00",
+  "on": "2026-11-19",
   "events": [
    {
-    "title": "Acoustic Music Mondays: Material Boys",
-    "date": "2026-11-16",
-    "start": null,
-    "end": null,
-    "price": null,
-    "description": "Bluegrass, 3rd Monday acoustic music",
-    "category": "music"
-   },
-   {
-    "title": "Tuesday Music: Onadare",
-    "date": "2026-11-17",
-    "start": null,
-    "end": null,
-    "price": null,
-    "description": "Irish trad/pub, 3rd Tuesday",
-    "category": "music"
-   },
-   {
-    "title": "Wednesday Music: Don't Spook The Horse",
-    "date": "2026-11-18",
-    "start": null,
-    "end": null,
-    "price": null,
-    "description": "Acoustic merrymaking, 3rd Wednesday",
-    "category": "music"
-   },
-   {
-    "title": "Acoustic Music Mondays: Barley Brothers",
+    "title": "Barley Brothers",
     "date": "2026-11-23",
     "start": null,
     "end": null,
     "price": null,
-    "description": "Old-time American string band, 4th Monday",
+    "description": "Acoustic Music Mondays, 4th Monday: old-time American string band",
     "category": "music"
    },
    {
-    "title": "Tuesday Music: Dollar Bill and The Bucks",
+    "title": "Dollar Bill and The Bucks",
     "date": "2026-11-24",
     "start": null,
     "end": null,
     "price": null,
-    "description": "Honky tonk, 4th Tuesday",
+    "description": "Tuesday Music, 4th Tuesday: honky tonk",
+    "category": "music"
+   },
+   {
+    "title": "The North Westerns",
+    "date": "2026-12-02",
+    "start": null,
+    "end": null,
+    "price": null,
+    "description": "Wednesday Music, 1st Wednesday: western swing",
     "category": "music"
    }
   ]
  },
  "https://doundrins.com/pages/events": {
   "hash": "9ec81e68f0fe4620f9ea0e46e7209fcae6a79d3d",
-  "asked": "2026-11-16T15:02:15-06:00",
-  "on": "2026-11-16",
+  "asked": "2026-11-19T21:58:54-06:00",
+  "on": "2026-11-19",
   "events": [
    {
     "title": "Holiday Wreath Workshop",
@@ -825,15 +806,15 @@
     "start": null,
     "end": null,
     "price": 50,
-    "description": "Holiday wreath workshop at the tasting room. Also listed for 12/5 and 12/6, which fall outside the window.",
+    "description": "Holiday wreath workshop at Doundrins Distilling; also listed for 12/5 and 12/6, outside this window.",
     "category": "other"
    }
   ]
  },
  "https://whiskeyjacksmadtown.com/weekly-specials/": {
   "hash": "92355b3a18cd4383d591b74f0b3c8c1e2817d99f",
-  "asked": "2026-11-16T15:02:19-06:00",
-  "on": "2026-11-16",
+  "asked": "2026-11-19T21:58:57-06:00",
+  "on": "2026-11-19",
   "events": []
  },
  "https://www.karben4.com/events": {
@@ -854,28 +835,9 @@
  },
  "https://oldsugardistillery.com/private-events/": {
   "hash": "84cba732ced6ecb8f6a0b7047c48ae7e951eb5de",
-  "asked": "2026-11-16T15:02:19-06:00",
-  "on": "2026-11-16",
-  "events": [
-   {
-    "title": "Distillery Tour",
-    "date": "2026-11-21",
-    "start": "13:30",
-    "end": null,
-    "price": null,
-    "description": "Weekly Saturday distillery tour at 1:30PM, as listed on the page.",
-    "category": "other"
-   },
-   {
-    "title": "Distillery Tour",
-    "date": "2026-11-28",
-    "start": "13:30",
-    "end": null,
-    "price": null,
-    "description": "Weekly Saturday distillery tour at 1:30PM, as listed on the page.",
-    "category": "other"
-   }
-  ]
+  "asked": "2026-11-19T21:58:56-06:00",
+  "on": "2026-11-19",
+  "events": []
  },
  "https://www.delta.beer/events": {
   "hash": "4507e4c7bf4adcae8573fe4b56e0e44ab1098932",
@@ -1013,8 +975,8 @@
  },
  "https://yaharabay.com/pages/event-space": {
   "hash": "ab0083685df964a49e2728a03f0fc5e1342898d7",
-  "asked": "2026-11-16T15:02:17-06:00",
-  "on": "2026-11-16",
+  "asked": "2026-11-19T21:58:56-06:00",
+  "on": "2026-11-19",
   "events": []
  },
  "https://thekickback.bar/upcoming-events/": {
@@ -1098,32 +1060,32 @@
  },
  "https://madwoofs.com/specials.html": {
   "hash": "7962231257d0bcd2c3b1bdaa1adf5c38bfd2d02e",
-  "asked": "2026-11-16T15:02:22-06:00",
-  "on": "2026-11-16",
+  "asked": "2026-11-19T21:59:02-06:00",
+  "on": "2026-11-19",
   "events": []
  },
  "https://barriquesmarket.com/pages/events": {
   "hash": "f1d8407b773b712507930e015974be77a139c3b2",
-  "asked": "2026-11-16T15:02:20-06:00",
-  "on": "2026-11-16",
+  "asked": "2026-11-19T21:58:57-06:00",
+  "on": "2026-11-19",
   "events": []
  },
  "https://www.ancoracafes.com/monona-drive/": {
   "hash": "75afbaac06e471277b909d6f26584855a11d14c6",
-  "asked": "2026-11-16T15:02:18-06:00",
-  "on": "2026-11-16",
+  "asked": "2026-11-19T21:58:57-06:00",
+  "on": "2026-11-19",
   "events": []
  },
  "https://www.statelinedistillery.com/cocktail-lounge/private-events": {
   "hash": "046423b0434caf5ff07c3c5743ad0ea815534bf9",
-  "asked": "2026-11-16T15:02:20-06:00",
-  "on": "2026-11-16",
+  "asked": "2026-11-19T21:58:57-06:00",
+  "on": "2026-11-19",
   "events": []
  },
  "https://vintagemadison.com/specials/": {
   "hash": "ab89aa5c43cf7a512c6382c4442688f725417cd6",
-  "asked": "2026-11-16T15:02:13-06:00",
-  "on": "2026-11-16",
+  "asked": "2026-11-19T21:58:51-06:00",
+  "on": "2026-11-19",
   "events": []
  },
  "https://thekickback.bar/drag-bingo-nov/": {
@@ -1144,8 +1106,8 @@
  },
  "https://www.mymonona.com/1587/Special-Events": {
   "hash": "74af120490fcb574d4978fea5dfcafaaacc63a83",
-  "asked": "2026-11-16T15:02:24-06:00",
-  "on": "2026-11-16",
+  "asked": "2026-11-19T21:59:02-06:00",
+  "on": "2026-11-19",
   "events": [
    {
     "title": "45th Annual Holiday House Bazaar",
@@ -1153,7 +1115,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "45th Annual Holiday House Bazaar, listed on the Monona Parks & Recreation special events calendar.",
+    "description": "45th Annual Holiday House Bazaar, listed on the Monona Special Events calendar.",
     "category": "other"
    },
    {
@@ -1162,39 +1124,48 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "45th Annual Holiday House Bazaar, listed on the Monona Parks & Recreation special events calendar.",
+    "description": "45th Annual Holiday House Bazaar, listed on the Monona Special Events calendar.",
+    "category": "other"
+   },
+   {
+    "title": "Opening Day of Lake Ridge Bank River Rink",
+    "date": "2026-12-01",
+    "start": null,
+    "end": null,
+    "price": null,
+    "description": "Opening day of the Lake Ridge Bank River Rink.",
     "category": "other"
    }
   ]
  },
  "https://www.candycloudcompany.com/locations/madison": {
   "hash": "56675790ccda038c9f50b89482a9d58682ffa44f",
-  "asked": "2026-11-16T15:02:25-06:00",
-  "on": "2026-11-16",
+  "asked": "2026-11-19T21:59:03-06:00",
+  "on": "2026-11-19",
   "events": []
  },
  "http://www.cafedomestiquemadison.com/": {
   "hash": "d996454ebb3f52e26eaa5c7339f2f17ca8d1e156",
-  "asked": "2026-11-16T15:02:24-06:00",
-  "on": "2026-11-16",
+  "asked": "2026-11-19T21:59:03-06:00",
+  "on": "2026-11-19",
   "events": []
  },
  "https://www.cafedomestiquemadison.com/": {
   "hash": "d996454ebb3f52e26eaa5c7339f2f17ca8d1e156",
-  "asked": "2026-11-16T15:02:26-06:00",
-  "on": "2026-11-16",
+  "asked": "2026-11-19T21:59:04-06:00",
+  "on": "2026-11-19",
   "events": []
  },
  "https://www.mymonona.com/2781/Trivia-Nights": {
   "hash": "bdf7cd9753613d133a5f997d37cc39c6261dfcea",
-  "asked": "2026-11-16T15:02:25-06:00",
-  "on": "2026-11-16",
+  "asked": "2026-11-19T21:59:03-06:00",
+  "on": "2026-11-19",
   "events": []
  },
  "https://union.wisc.edu/host-your-event": {
   "hash": "24ff4ffa527e643b12e502981716346c46f7a9a3",
-  "asked": "2026-11-16T15:02:25-06:00",
-  "on": "2026-11-16",
+  "asked": "2026-11-19T21:59:04-06:00",
+  "on": "2026-11-19",
   "events": []
  },
  "https://colectivo.com/pages/on-the-square": {
@@ -1205,14 +1176,14 @@
  },
  "https://union.wisc.edu/events-and-activities": {
   "hash": "9c40aa639cc5a907868fa56ecc1f0226baea43c4",
-  "asked": "2026-11-16T15:02:27-06:00",
-  "on": "2026-11-16",
+  "asked": "2026-11-19T21:59:06-06:00",
+  "on": "2026-11-19",
   "events": []
  },
  "https://barriquesmarket.com/pages/tastings-events": {
   "hash": "cd96f9245c23fc2d2525b833ecab4ef0f206be98",
-  "asked": "2026-11-16T15:02:28-06:00",
-  "on": "2026-11-16",
+  "asked": "2026-11-19T21:59:02-06:00",
+  "on": "2026-11-19",
   "events": []
  },
  "https://colectivo.com/pages/monroe-street": {
@@ -1223,14 +1194,14 @@
  },
  "https://colectivo.com/pages/madison-cafes": {
   "hash": "f95281c161c41d756b58f3efc40a80b7510c30fd",
-  "asked": "2026-11-16T15:02:31-06:00",
-  "on": "2026-11-16",
+  "asked": "2026-11-19T21:59:09-06:00",
+  "on": "2026-11-19",
   "events": []
  },
  "https://www.lazyjanes.com/": {
   "hash": "49105d1f49595c33fa9c4e052c327824a2259e47",
-  "asked": "2026-11-16T15:02:35-06:00",
-  "on": "2026-11-16",
+  "asked": "2026-11-19T21:59:12-06:00",
+  "on": "2026-11-19",
   "events": []
  },
  "https://lakesidestcoffeehouse.com/music-calendar": {
@@ -1263,26 +1234,26 @@
  },
  "https://oasiscafefitchburg.com/": {
   "hash": "c58806cd35b91d512f482e6365c8e9bdb00d19b6",
-  "asked": "2026-11-16T15:02:40-06:00",
-  "on": "2026-11-16",
+  "asked": "2026-11-19T21:59:16-06:00",
+  "on": "2026-11-19",
   "events": []
  },
  "https://mymokacoffee.com/pages/events": {
   "hash": "e986fb19daf3fdd4b49ced3db90904e2e0c857de",
-  "asked": "2026-11-16T15:02:38-06:00",
-  "on": "2026-11-16",
+  "asked": "2026-11-19T21:59:15-06:00",
+  "on": "2026-11-19",
   "events": []
  },
  "https://www.livsdrinks.com/events/": {
   "hash": "4292a6cb6e1882cda0c071d8095c277227077e8b",
-  "asked": "2026-11-16T15:02:41-06:00",
-  "on": "2026-11-16",
+  "asked": "2026-11-19T21:59:16-06:00",
+  "on": "2026-11-19",
   "events": []
  },
  "https://slowfood-uw.org/calendar/": {
   "hash": "05ee6db98061d4a74acae6e1d9783f9fb20c25b2",
-  "asked": "2026-11-16T15:02:41-06:00",
-  "on": "2026-11-16",
+  "asked": "2026-11-19T21:59:17-06:00",
+  "on": "2026-11-19",
   "events": []
  },
  "https://www.motherfools.com/event/20261106/mad-city-story-slam-rebellion": {
@@ -1293,26 +1264,26 @@
  },
  "https://tacomadrewi.com/": {
   "hash": "112c80b18ffdc42710dec5ce81385ce5df090c7a",
-  "asked": "2026-11-16T15:02:55-06:00",
-  "on": "2026-11-16",
+  "asked": "2026-11-19T21:59:30-06:00",
+  "on": "2026-11-19",
   "events": []
  },
  "https://www.teasider.com/": {
   "hash": "2be54b0c416721a2ed360deb0ca7135fe5f1aa08",
-  "asked": "2026-11-16T15:02:58-06:00",
-  "on": "2026-11-16",
+  "asked": "2026-11-19T21:59:31-06:00",
+  "on": "2026-11-19",
   "events": []
  },
  "https://wakenbakery.net/events/": {
   "hash": "a64011c0b0a3d215e2666adaf439a254d2b25126",
-  "asked": "2026-11-16T15:03:14-06:00",
-  "on": "2026-11-16",
+  "asked": "2026-11-19T21:59:33-06:00",
+  "on": "2026-11-19",
   "events": []
  },
  "https://thesowsearwi.com/blogs/news/autumn-2025-events-classes-at-the-sows-ear": {
   "hash": "6298f7db3eea89d7bd415acd65fa4d091f0153ab",
-  "asked": "2026-11-16T15:03:00-06:00",
-  "on": "2026-11-16",
+  "asked": "2026-11-19T21:59:33-06:00",
+  "on": "2026-11-19",
   "events": []
  },
  "https://www.micentro.org/events": {
@@ -1342,8 +1313,8 @@
  },
  "https://www.madisonmuslims.org/events": {
   "hash": "ac97f1be534939d321950145c577a3f3669933aa",
-  "asked": "2026-11-16T15:03:04-06:00",
-  "on": "2026-11-16",
+  "asked": "2026-11-19T21:59:39-06:00",
+  "on": "2026-11-19",
   "events": []
  },
  "https://iwcmadison.com/calendar/": {
@@ -1364,34 +1335,25 @@
  },
  "https://www.veronawi.gov/513/Schedules": {
   "hash": "24ccda5d62a8bb9cfc97c77b44deda271f1a0f51",
-  "asked": "2026-11-16T15:03:12-06:00",
-  "on": "2026-11-16",
+  "asked": "2026-11-19T21:59:46-06:00",
+  "on": "2026-11-19",
   "events": [
-   {
-    "title": "Adult Volleyball - Tuesday Women's Intermediate",
-    "date": "2026-11-17",
-    "start": null,
-    "end": null,
-    "price": null,
-    "description": "Tuesday women's intermediate volleyball league, 12 teams, 26-27 season. Games are cancelled if Verona schools are closed or afterschool activities are cancelled.",
-    "category": "sports"
-   },
    {
     "title": "Adult Volleyball - Tuesday Women's Intermediate",
     "date": "2026-11-24",
     "start": null,
     "end": null,
     "price": null,
-    "description": "Tuesday women's intermediate volleyball league, 12 teams, 26-27 season. Games are cancelled if Verona schools are closed or afterschool activities are cancelled.",
+    "description": "Weekly adult volleyball league night (women's intermediate, 12 teams). Canceled if Verona schools are closed.",
     "category": "sports"
    },
    {
-    "title": "Adult Volleyball - Wednesday Co-ed Intermediate",
-    "date": "2026-11-18",
+    "title": "Adult Volleyball - Tuesday Women's Intermediate",
+    "date": "2026-12-01",
     "start": null,
     "end": null,
     "price": null,
-    "description": "Wednesday co-ed intermediate volleyball league, 26-27 season. Games are cancelled if Verona schools are closed or afterschool activities are cancelled.",
+    "description": "Weekly adult volleyball league night (women's intermediate, 12 teams). Canceled if Verona schools are closed.",
     "category": "sports"
    },
    {
@@ -1400,7 +1362,16 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Wednesday co-ed intermediate volleyball league, 26-27 season. Games are cancelled if Verona schools are closed or afterschool activities are cancelled.",
+    "description": "Weekly adult volleyball league night (co-ed intermediate). Canceled if Verona schools are closed.",
+    "category": "sports"
+   },
+   {
+    "title": "Adult Volleyball - Wednesday Co-ed Intermediate",
+    "date": "2026-12-02",
+    "start": null,
+    "end": null,
+    "price": null,
+    "description": "Weekly adult volleyball league night (co-ed intermediate). Canceled if Verona schools are closed.",
     "category": "sports"
    },
    {
@@ -1409,7 +1380,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Thursday men's power volleyball league, 26-27 season. Games are cancelled if Verona schools are closed or afterschool activities are cancelled.",
+    "description": "Weekly adult volleyball league night (men's power). Canceled if Verona schools are closed.",
     "category": "sports"
    },
    {
@@ -1418,7 +1389,16 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Thursday men's power volleyball league, 26-27 season. Games are cancelled if Verona schools are closed or afterschool activities are cancelled.",
+    "description": "Weekly adult volleyball league night (men's power). Canceled if Verona schools are closed.",
+    "category": "sports"
+   },
+   {
+    "title": "Adult Volleyball - Thursday Men's Power",
+    "date": "2026-12-03",
+    "start": null,
+    "end": null,
+    "price": null,
+    "description": "Weekly adult volleyball league night (men's power). Canceled if Verona schools are closed.",
     "category": "sports"
    }
   ]
@@ -1495,13 +1475,13 @@
  },
  "https://www.madisonmuslims.org/events/lesson-on-delivering-the-friday-khutbah": {
   "hash": "9490797fa2fb2bb85e8d1c173402c1acdd2dbae6",
-  "asked": "2026-11-16T15:03:06-06:00",
-  "on": "2026-11-16",
+  "asked": "2026-11-19T21:59:41-06:00",
+  "on": "2026-11-19",
   "events": []
  },
  "https://www.madisonpubliclibrary.org/spaces/events": {
-  "hash": "e34dbb383dfaaea818ea3046a36fb844d9fc8d32",
-  "asked": "2026-11-19T13:30:30-06:00",
+  "hash": "8a5382d9bf49ae49d835588a6b7f2abce4ea491b",
+  "asked": "2026-11-19T21:59:51-06:00",
   "on": "2026-11-19",
   "events": []
  },
@@ -1541,58 +1521,58 @@
  },
  "https://www.library.wisc.edu/music/": {
   "hash": "c35ff73c89af79d05fd2b3791d5949c3798b653f",
-  "asked": "2026-11-16T15:03:13-06:00",
-  "on": "2026-11-16",
+  "asked": "2026-11-19T21:59:46-06:00",
+  "on": "2026-11-19",
   "events": []
  },
  "https://www.sunprairiepubliclibrary.org/home-delivery-service": {
-  "hash": "035e83a1ef02dcba7d12e8e1b7f532f4247f46ee",
-  "asked": "2026-11-18T22:13:31-06:00",
-  "on": "2026-11-18",
+  "hash": "17d60f8b354622ff687eefbd07edba322b49de7a",
+  "asked": "2026-11-19T21:59:49-06:00",
+  "on": "2026-11-19",
   "events": [
    {
-    "title": "Dream Bus Mobile Library @ Creekside and Westside Elementary",
-    "date": "2026-11-19",
-    "start": "13:45",
+    "title": "Puppet Theatre Storytime",
+    "date": "2026-11-20",
+    "start": "10:00",
+    "end": "10:30",
+    "price": null,
+    "description": "Puppet theatre storytime for family and children ages 0-5.",
+    "category": "theater"
+   },
+   {
+    "title": "Dream Bus Mobile Library @ Fun Friday Stops",
+    "date": "2026-11-20",
+    "start": "14:45",
+    "end": "17:00",
+    "price": null,
+    "description": "Dream Bus mobile library at Fun Friday stops; open to families, children, teens and adults.",
+    "category": "other"
+   },
+   {
+    "title": "Puppet Theatre Storytime",
+    "date": "2026-11-21",
+    "start": "10:00",
+    "end": "10:30",
+    "price": null,
+    "description": "Puppet theatre storytime for family and children ages 0-5.",
+    "category": "theater"
+   },
+   {
+    "title": "Author Event: TJ Klune (FULL)",
+    "date": "2026-11-21",
+    "start": "13:00",
     "end": "15:00",
     "price": null,
-    "description": "Mobile library visit at Creekside and Westside Elementary. Ages: family, children, teens, adults.",
+    "description": "Author event with TJ Klune for teens and adults. Page marks it as full.",
     "category": "other"
    },
    {
-    "title": "Puppet Theatre Storytime",
-    "date": "2026-11-19",
+    "title": "Urban SUN: Black Voices Book Club",
+    "date": "2026-11-22",
     "start": "15:00",
-    "end": "15:30",
+    "end": "16:00",
     "price": null,
-    "description": "Puppet theatre storytime. Ages: family, children 0-5.",
-    "category": "theater"
-   },
-   {
-    "title": "Virtual Author Talk with Rebecca Roanhorse",
-    "date": "2026-11-19",
-    "start": "18:00",
-    "end": "19:00",
-    "price": null,
-    "description": "Virtual author talk with Rebecca Roanhorse. Ages: adults.",
-    "category": "other"
-   },
-   {
-    "title": "Puppet Theatre Storytime",
-    "date": "2026-11-19",
-    "start": "18:30",
-    "end": "19:00",
-    "price": null,
-    "description": "Evening puppet theatre storytime. Ages: family, children 0-5.",
-    "category": "theater"
-   },
-   {
-    "title": "Eclectic Book Club",
-    "date": "2026-11-19",
-    "start": "19:00",
-    "end": "20:00",
-    "price": null,
-    "description": "Book club meeting. Ages: adults.",
+    "description": "Book club for adults.",
     "category": "other"
    }
   ]
@@ -1624,8 +1604,8 @@
  },
  "https://wil-mar.org/weekly-events": {
   "hash": "e0359c79dbdba34d3edecb2c542be1f51739d413",
-  "asked": "2026-11-16T15:03:17-06:00",
-  "on": "2026-11-16",
+  "asked": "2026-11-19T21:59:51-06:00",
+  "on": "2026-11-19",
   "events": []
  },
  "https://escmadison.com/events": {
@@ -1663,8 +1643,8 @@
   ]
  },
  "https://www.madisonpubliclibrary.org/spaces/events/search": {
-  "hash": "b8ae2d500834f0f7c6aa9c92bcae67846559be87",
-  "asked": "2026-11-19T13:30:48-06:00",
+  "hash": "8ef60f4bac89accf34a556e33415681b99fcd1a7",
+  "asked": "2026-11-19T22:00:00-06:00",
   "on": "2026-11-19",
   "events": []
  },
@@ -1721,17 +1701,17 @@
   ]
  },
  "https://bartelltheatre.org/": {
-  "hash": "80a801551776025975259efac62cdb011fbfa528",
-  "asked": "2026-11-19T13:30:36-06:00",
+  "hash": "56e72678acf69c520c1027470dccf085d6ad5e25",
+  "asked": "2026-11-19T22:00:01-06:00",
   "on": "2026-11-19",
   "events": [
    {
     "title": "Romeo and Juliet",
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "Shakespeare's tragedy of two young lovers caught between feuding families. Playing today at 7:30pm.",
+    "description": "Now playing at Bartell Theatre; listed as 'Tomorrow at 7:30pm'.",
     "category": "theater"
    },
    {
@@ -1740,7 +1720,7 @@
     "start": "12:00",
     "end": null,
     "price": null,
-    "description": "Ticketed showcase concluding the six-week Saturday Scene Study class, on the Evjue Stage.",
+    "description": "Ticketed showcase on the Evjue Stage concluding the six-week Saturday Scene Study class led by Sam White.",
     "category": "theater"
    },
    {
@@ -1749,21 +1729,21 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Upcoming production at Bartell Theatre, listed as coming soon.",
+    "description": "Upcoming production listed as coming soon at Bartell Theatre.",
     "category": "theater"
    }
   ]
  },
  "https://www.tenpinalleys.com/childrens-entertainment-oregon-wi": {
   "hash": "534d736f209fd1960e246d3cb5c42fba2eb9d990",
-  "asked": "2026-11-16T15:03:34-06:00",
-  "on": "2026-11-16",
+  "asked": "2026-11-19T22:00:00-06:00",
+  "on": "2026-11-19",
   "events": []
  },
  "https://www.monroestreetarts.org/private-music": {
   "hash": "aa2d67560356ab03cc351d6759d57b8eafe6c6c0",
-  "asked": "2026-11-16T15:03:36-06:00",
-  "on": "2026-11-16",
+  "asked": "2026-11-19T22:00:02-06:00",
+  "on": "2026-11-19",
   "events": []
  },
  "https://madisonorpheum.com/calendar/": {
@@ -1827,43 +1807,43 @@
  },
  "https://artlitlab.org/events/write-ins": {
   "hash": "6110597e2b00793e541ceae79a34a2c2dcd1a276",
-  "asked": "2026-11-16T15:03:26-06:00",
-  "on": "2026-11-16",
+  "asked": "2026-11-19T21:59:57-06:00",
+  "on": "2026-11-19",
   "events": [
    {
-    "title": "Write-In (Online, Zoom)",
+    "title": "Online Write-In (Zoom)",
     "date": "2026-11-19",
     "start": "10:00",
     "end": null,
     "price": 0,
-    "description": "Online Write-In via Zoom with Pomodoro writing blocks, check-in and check-out. Registration is free.",
+    "description": "Pomodoro-style online write-in via Zoom with check-in and check-out; registration free.",
     "category": "other"
    },
    {
-    "title": "Write-In (Online, Zoom)",
+    "title": "Online Write-In (Zoom)",
     "date": "2026-11-22",
     "start": "09:00",
     "end": null,
     "price": 0,
-    "description": "Online Write-In via Zoom with Pomodoro writing blocks, check-in and check-out. Registration is free.",
+    "description": "Pomodoro-style online write-in via Zoom with check-in and check-out; registration free.",
     "category": "other"
    },
    {
-    "title": "Write-In (Online, Zoom)",
+    "title": "Online Write-In (Zoom)",
     "date": "2026-11-26",
     "start": "10:00",
     "end": null,
     "price": 0,
-    "description": "Online Write-In via Zoom with Pomodoro writing blocks, check-in and check-out. Registration is free.",
+    "description": "Pomodoro-style online write-in via Zoom with check-in and check-out; registration free.",
     "category": "other"
    },
    {
-    "title": "Write-In (Online, Zoom)",
+    "title": "Online Write-In (Zoom)",
     "date": "2026-11-29",
     "start": "09:00",
     "end": null,
     "price": 0,
-    "description": "Online Write-In via Zoom with Pomodoro writing blocks, check-in and check-out. Registration is free.",
+    "description": "Pomodoro-style online write-in via Zoom with check-in and check-out; registration free.",
     "category": "other"
    },
    {
@@ -1872,21 +1852,30 @@
     "start": "10:30",
     "end": "12:30",
     "price": 0,
-    "description": "Last Sunday of the month in-person Write-In at ArtLitLab with Pomodoro writing blocks and group sharing with recall feedback. Registration is free.",
+    "description": "Monthly in-person write-in at ArtLitLab using Pomodoro blocks, followed by group sharing with 'recall' feedback; registration free.",
+    "category": "other"
+   },
+   {
+    "title": "Online Write-In (Zoom)",
+    "date": "2026-12-03",
+    "start": "10:00",
+    "end": null,
+    "price": 0,
+    "description": "Pomodoro-style online write-in via Zoom with check-in and check-out; registration free.",
     "category": "other"
    }
   ]
  },
  "https://madisonyoutharts.org/upcoming-events/": {
   "hash": "b0d9d279d8fde19e2148ce4961e8c4fd94d5c149",
-  "asked": "2026-11-16T15:03:30-06:00",
-  "on": "2026-11-16",
+  "asked": "2026-11-19T21:59:59-06:00",
+  "on": "2026-11-19",
   "events": []
  },
  "https://madisonyoutharts.org/upcoming-events/news/": {
   "hash": "d5f0a03c7b9473c6f2850a66cb87b3229e3f6e73",
-  "asked": "2026-11-16T15:03:32-06:00",
-  "on": "2026-11-16",
+  "asked": "2026-11-19T22:00:02-06:00",
+  "on": "2026-11-19",
   "events": []
  },
  "https://madisonorpheum.com/event/kip-moore/": {
@@ -1902,8 +1891,8 @@
   "events": []
  },
  "https://www.veronapubliclibrary.org/": {
-  "hash": "b18feb9a1cf95e7c223d3380f1e5c8c1bb49408c",
-  "asked": "2026-11-19T13:30:28-06:00",
+  "hash": "793999d33a41452e35a3a8bc047c0f89ea1fb6c9",
+  "asked": "2026-11-19T21:59:49-06:00",
   "on": "2026-11-19",
   "events": [
    {
@@ -1912,7 +1901,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Drop-in help with your device or app at the library.",
+    "description": "Drop-in help with your device or app on Tuesdays.",
     "category": "other"
    },
    {
@@ -1921,7 +1910,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Drop-in help with your device or app at the library.",
+    "description": "Drop-in help with your device or app on Tuesdays.",
     "category": "other"
    }
   ]
@@ -1951,10 +1940,20 @@
   "events": []
  },
  "https://high-noon.com/event/dogpark/": {
-  "hash": "88c4bd61c10a2495a0513f7aa8f0a036c08cd626",
-  "asked": "2026-11-19T13:29:33-06:00",
+  "hash": "9dda0ab9da3af0727424954bff42e005d9e22d62",
+  "asked": "2026-11-19T21:58:48-06:00",
   "on": "2026-11-19",
-  "events": []
+  "events": [
+   {
+    "title": "The Last Waltz and Beyond",
+    "date": "2026-11-28",
+    "start": "20:00",
+    "end": null,
+    "price": null,
+    "description": "94.9 WOLX presents a Madison musician's tribute to The Band. Doors 7:00 pm, show 8:00 pm, at High Noon Saloon.",
+    "category": "music"
+   }
+  ]
  },
  "https://thekickback.bar/premier-trivia-tuesday-nov-3/": {
   "hash": "25992f3a707c36f4ebbe1a9a479acec37b4b7959",
@@ -2081,53 +2080,53 @@
   "events": []
  },
  "https://www.sunprairiepubliclibrary.org/art-committee-and-gallery-shows": {
-  "hash": "0d81349272083c349e825590de88dec841b58092",
-  "asked": "2026-11-18T22:13:34-06:00",
-  "on": "2026-11-18",
+  "hash": "d64912a8118a3e1921cd01e4d4f41b6234250179",
+  "asked": "2026-11-19T21:59:52-06:00",
+  "on": "2026-11-19",
   "events": [
    {
-    "title": "Dream Bus Mobile Library @ Creekside and Westside Elementary",
-    "date": "2026-11-19",
-    "start": "13:45",
-    "end": "15:00",
-    "price": null,
-    "description": "Mobile library visit at Creekside and Westside Elementary; ages family, children 0-8, teens, adults.",
-    "category": "other"
-   },
-   {
     "title": "Puppet Theatre Storytime",
-    "date": "2026-11-19",
-    "start": "15:00",
-    "end": "15:30",
+    "date": "2026-11-20",
+    "start": "10:00",
+    "end": "10:30",
     "price": null,
     "description": "Puppet theatre storytime for family and children ages 0-5.",
     "category": "other"
    },
    {
-    "title": "Virtual Author Talk with Rebecca Roanhorse",
-    "date": "2026-11-19",
-    "start": "18:00",
-    "end": "19:00",
+    "title": "Dream Bus Mobile Library @ Fun Friday Stops",
+    "date": "2026-11-20",
+    "start": "14:45",
+    "end": "17:00",
     "price": null,
-    "description": "Virtual author talk with Rebecca Roanhorse for adults.",
+    "description": "Dream Bus mobile library at Fun Friday stops for families, children, teens and adults.",
     "category": "other"
    },
    {
     "title": "Puppet Theatre Storytime",
-    "date": "2026-11-19",
-    "start": "18:30",
-    "end": "19:00",
+    "date": "2026-11-21",
+    "start": "10:00",
+    "end": "10:30",
     "price": null,
-    "description": "Evening puppet theatre storytime for family and children ages 0-5.",
+    "description": "Puppet theatre storytime for family and children ages 0-5.",
     "category": "other"
    },
    {
-    "title": "Eclectic Book Club",
-    "date": "2026-11-19",
-    "start": "19:00",
-    "end": "20:00",
+    "title": "Author Event: TJ Klune (FULL)",
+    "date": "2026-11-21",
+    "start": "13:00",
+    "end": "15:00",
     "price": null,
-    "description": "Book club for adults.",
+    "description": "Author event with TJ Klune for teens and adults. Listed as full.",
+    "category": "other"
+   },
+   {
+    "title": "Urban SUN: Black Voices Book Club",
+    "date": "2026-11-22",
+    "start": "15:00",
+    "end": "16:00",
+    "price": null,
+    "description": "Urban SUN Black Voices Book Club for adults.",
     "category": "other"
    }
   ]
@@ -2151,9 +2150,9 @@
   "events": []
  },
  "https://www.capitalbrewery.com/on-site-events/": {
-  "hash": "ed47bd30a40234edd95f394f7dfd5a590491eef2",
-  "asked": "2026-11-17T13:51:22-06:00",
-  "on": "2026-11-17",
+  "hash": "eda9ab5de3a97b37affa4709af0e4f386a7f2626",
+  "asked": "2026-11-19T21:58:59-06:00",
+  "on": "2026-11-19",
   "events": [
    {
     "title": "LIVE MUSIC w/ Too Sick Charlie",
@@ -2170,8 +2169,26 @@
     "start": "12:00",
     "end": "13:30",
     "price": null,
-    "description": "Fresh citrus and pears stop event by Tree-Ripe Fruit Co. at Capital Brewery.",
+    "description": "Stop event with Tree-Ripe Fruit Co. featuring fresh citrus and pears.",
     "category": "food"
+   },
+   {
+    "title": "2026 Black Friday Deals",
+    "date": "2026-11-27",
+    "start": "15:00",
+    "end": "22:00",
+    "price": null,
+    "description": "Black Friday deals at Capital Brewery.",
+    "category": "other"
+   },
+   {
+    "title": "LIVE MUSIC w/ David Hecht",
+    "date": "2026-11-27",
+    "start": "18:00",
+    "end": "21:00",
+    "price": null,
+    "description": "Live music with David Hecht at Capital Brewery.",
+    "category": "music"
    }
   ]
  },
@@ -2339,35 +2356,17 @@
   ]
  },
  "https://www.waunakeepubliclibrary.org/": {
-  "hash": "fd69d989f8a94bce54fca38747cebf1d2b0bd5b9",
-  "asked": "2026-11-19T13:30:29-06:00",
+  "hash": "d26262600caa026418388b09c189308274e480cf",
+  "asked": "2026-11-19T21:59:50-06:00",
   "on": "2026-11-19",
   "events": [
-   {
-    "title": "PAWS to Read",
-    "date": "2026-11-19",
-    "start": "16:00",
-    "end": "17:00",
-    "price": null,
-    "description": "Kids read stories to certified Pet Partners therapy dogs; registration required.",
-    "category": "other"
-   },
-   {
-    "title": "Epic Worlds and Celestial Prophecies: Exploring the Between Earth and Sky Trilogy with Rebecca Roanhorse",
-    "date": "2026-11-19",
-    "start": "18:00",
-    "end": "19:00",
-    "price": null,
-    "description": "Virtual adult book discussion of Rebecca Roanhorse's Between Earth and Sky trilogy.",
-    "category": "other"
-   },
    {
     "title": "Tiny Om",
     "date": "2026-11-20",
     "start": "09:45",
     "end": "10:15",
     "price": null,
-    "description": "Yoga and mindfulness class for ages 1-4 and caregivers; waitlist, registration required.",
+    "description": "Yoga and mindfulness class for kids ages 1-4 and caregivers, led by Little Om BIG OM instructors. Registration required; waitlist.",
     "category": "other"
    },
    {
@@ -2376,16 +2375,16 @@
     "start": "16:00",
     "end": "17:00",
     "price": null,
-    "description": "Monthly meeting for TACOS teen/preteen members in the Board Room.",
+    "description": "Monthly meeting for TACOS teen and preteen members, in the Board Room.",
     "category": "other"
    },
    {
-    "title": "Friends of the Library Annual Holiday Craft Fair, Book Sale, Bake Sale, Container Raffle, and More!",
+    "title": "Friends of the Library Annual Holiday Craft Fair, Book Sale, Bake Sale, Container Raffle",
     "date": "2026-11-21",
     "start": "09:00",
     "end": "14:00",
     "price": null,
-    "description": "Friends of the Waunakee Library holiday craft fair, book sale, bake sale and container raffle at an offsite location.",
+    "description": "Holiday craft fair, book sale, bake sale and container raffle presented by the Friends of the Waunakee Library. Offsite event.",
     "category": "other"
    },
    {
@@ -2394,7 +2393,25 @@
     "start": "10:00",
     "end": "11:30",
     "price": null,
-    "description": "Open indoor play time for kids ages 0-5 in the Community Hall; no registration required.",
+    "description": "Open indoor play time for kids to be active and make friends, suggested ages 0-5. No registration required.",
+    "category": "other"
+   },
+   {
+    "title": "Maker Monday: Figure Drawing for Kids with Lyon Road Art Academy",
+    "date": "2026-11-23",
+    "start": "15:30",
+    "end": "16:30",
+    "price": null,
+    "description": "Kids figure drawing session inspired by Keith Haring, guided by local artist Cole Melvin to create a miniature model. Registration required.",
+    "category": "other"
+   },
+   {
+    "title": "Crafternoon: Buttons",
+    "date": "2026-11-24",
+    "start": "14:00",
+    "end": "15:00",
+    "price": null,
+    "description": "Teens and preteens (grades 5 and up) make personalized buttons with the button maker in the Storytime Room.",
     "category": "other"
    }
   ]
