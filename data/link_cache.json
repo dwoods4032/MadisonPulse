@@ -2067,7 +2067,7 @@
  "https://www.capital-brewery.com/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-13T12:33:56.109168-06:00"
+  "checked": "2026-11-20T13:09:14.468542-06:00"
  },
  "https://www.caseys.com": {
   "ok": null,
@@ -3179,31 +3179,6 @@
   "why": "",
   "checked": "2026-11-16T23:11:45.779517-06:00"
  },
- "https://www.gibs.bar/event-calendar/2026/11/19/live-music-acid-tofu": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-13T12:33:55.249143-06:00"
- },
- "https://www.madisoncomedy.com/event/leah-rudick26/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-13T12:33:56.109150-06:00"
- },
- "https://barrymorelive.com/event/marc-maron-3/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-13T12:33:56.109157-06:00"
- },
- "https://www.ticketmaster.com/humbird-madison-wisconsin-11-19-2026/event/070064F4C2583C1E": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-13T12:33:56.109163-06:00"
- },
- "https://www.workingdraftbeer.com/events/2026/11/19/samba-night": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-13T12:33:55.249137-06:00"
- },
  "https://barrymorelive.com/event/flannel-fest-2/": {
   "ok": true,
   "why": "",
@@ -3437,7 +3412,7 @@
  "https://www.workingdraftbeer.com/events/2026/11/27/makers-market": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-13T12:33:56.109178-06:00"
+  "checked": "2026-11-20T13:09:18.779924-06:00"
  },
  "https://www.ticketmaster.com/event/Z7r9jZ1A70Z-4": {
   "ok": null,
@@ -3519,16 +3494,6 @@
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
   "checked": "2026-11-14T20:40:52.010279-06:00"
  },
- "https://neighborhoodhousemadison.org": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-15T11:44:38.978642-06:00"
- },
- "https://www.workingdraftbeer.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-15T11:44:38.978668-06:00"
- },
  "https://bayviewfoundation.org/event/zumba/2026-11-24/": {
   "ok": true,
   "why": "",
@@ -3584,16 +3549,6 @@
   "why": "",
   "checked": "2026-11-16T15:04:03.732227-06:00"
  },
- "https://communicationmadison.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-16T15:04:05.788667-06:00"
- },
- "https://www.cafecoda.club/events-1/madison-jazz-orchestra-3-384y9-wapp4-2rmm5-efael": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-16T15:04:05.788686-06:00"
- },
  "https://doundrinsdistilling.com/": {
   "ok": true,
   "why": "",
@@ -3603,11 +3558,6 @@
   "ok": true,
   "why": "",
   "checked": "2026-11-16T23:11:43.823017-06:00"
- },
- "https://www.madisonpubliclibrary.org/central": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-16T23:11:43.823033-06:00"
  },
  "https://www.cafecoda.club/events-1/karaoke-nabjl-22c3f-gw57n-2m79c-a47wx-jblcs-4bcsl-mkd7s-ctsf4-p4hcx-t4n3x-xd9mh-c5tsy-cpczx-w6dsr-tg854-3pze2-858ht": {
   "ok": true,
@@ -3634,25 +3584,10 @@
   "why": "",
   "checked": "2026-11-17T22:21:49.753396-06:00"
  },
- "https://thebrassringmadison.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-18T13:27:09.711669-06:00"
- },
  "https://www.theblackcenter.org/": {
   "ok": true,
   "why": "",
   "checked": "2026-11-18T13:27:09.711719-06:00"
- },
- "https://www.mickeysmadison.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-18T13:27:09.711723-06:00"
- },
- "https://www.publicparkingbar.com": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-18T13:27:09.711727-06:00"
  },
  "https://www.cafecoda.club/events-1/tango-class-2-3-pm-social-3-5-pm-2aden-s34kk-erc3e-ldek9": {
   "ok": true,
@@ -3674,25 +3609,10 @@
   "why": "",
   "checked": "2026-11-19T13:31:09.924650-06:00"
  },
- "https://theohiotavern.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-19T13:31:09.924679-06:00"
- },
- "https://onesocialmadison.com/event/trivia-with-king-trivia-3/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-19T13:31:15.656836-06:00"
- },
  "https://bartelltheatre.org/": {
   "ok": true,
   "why": "",
   "checked": "2026-11-19T13:31:15.656862-06:00"
- },
- "https://madisonlocalmotive.com": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-19T13:31:15.656869-06:00"
  },
  "https://thelonegirl.com/event/magic-rob-every-friday-tableside-2-2-2-3-2-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2/": {
   "ok": true,
@@ -3818,5 +3738,65 @@
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
   "checked": "2026-11-19T22:00:14.502413-06:00"
+ },
+ "https://imaginary-factory.com/": {
+  "ok": null,
+  "why": "robots.txt asks bots not to visit",
+  "checked": "2026-11-20T13:09:12.910650-06:00"
+ },
+ "https://barrymorelive.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-20T13:09:12.967020-06:00"
+ },
+ "https://www.arthouse360.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-20T13:09:14.468584-06:00"
+ },
+ "https://www.northstreetcabaret.com/": {
+  "ok": null,
+  "why": "robots.txt asks bots not to visit",
+  "checked": "2026-11-20T13:09:14.468592-06:00"
+ },
+ "https://www.madisoncomedy.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-20T13:09:14.468599-06:00"
+ },
+ "https://cafecoda.club": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-20T13:09:14.468604-06:00"
+ },
+ "https://www.madisonpubliclibrary.org/about/ashman.html": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-20T13:09:14.468610-06:00"
+ },
+ "https://www.madisonpubliclibrary.org/locations/imagination-center": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-20T13:09:15.558995-06:00"
+ },
+ "https://www.madisonpubliclibrary.org/monroe-street": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-20T13:09:17.232779-06:00"
+ },
+ "https://www.madisonpubliclibrary.org/locations/pinney-library": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-20T13:09:18.779879-06:00"
+ },
+ "https://www.micentro.org/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-20T13:09:18.779918-06:00"
+ },
+ "https://www.cafecoda.club/events-1/reggae-night-dj-sneaky-gator-8gnpe-lan8j": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-20T13:09:18.779930-06:00"
  }
 }

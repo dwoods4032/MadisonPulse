@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-19T22:00:11-06:00",
+ "generated_at": "2026-11-20T13:09:12-06:00",
  "venues_checked": 237,
- "venues_with_events": 62,
- "venues_with_feeds": 84,
- "events": 359,
- "filtered_out": 167,
+ "venues_with_events": 61,
+ "venues_with_feeds": 83,
+ "events": 341,
+ "filtered_out": 157,
  "venues": [
   {
    "name": "AI page reading",
@@ -13,12 +13,12 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 168,
+   "raw_events": 161,
    "error": "",
-   "calls": 69,
-   "tokens_in": 116830,
-   "tokens_out": 36716,
-   "est_cost_usd": 0.03
+   "calls": 25,
+   "tokens_in": 51120,
+   "tokens_out": 16067,
+   "est_cost_usd": 0.0131
   },
   {
    "name": "Isthmus calendar",
@@ -27,8 +27,8 @@
    "feeds": [
     "calendar"
    ],
-   "raw_events": 159,
-   "error": "used today's copy (read once a day)"
+   "raw_events": 145,
+   "error": ""
   },
   {
    "name": "Bayview Community Center",
@@ -38,7 +38,7 @@
     "tribe",
     "jsonld"
    ],
-   "raw_events": 82,
+   "raw_events": 81,
    "error": ""
   },
   {
@@ -48,7 +48,7 @@
    "feeds": [
     "ticketmaster"
    ],
-   "raw_events": 44,
+   "raw_events": 42,
    "error": ""
   },
   {
@@ -66,20 +66,6 @@
    "error": ""
   },
   {
-   "name": "Working Draft Beer Company",
-   "kind": "brewery",
-   "website": "https://www.workingdraftbeer.com/",
-   "feeds": [
-    "squarespace",
-    "squarespace",
-    "squarespace",
-    "jsonld",
-    "jsonld"
-   ],
-   "raw_events": 34,
-   "error": ""
-  },
-  {
    "name": "Comedy Club on State",
    "kind": "venue",
    "website": "https://www.madisoncomedy.com/",
@@ -90,7 +76,21 @@
     "jsonld",
     "jsonld"
    ],
-   "raw_events": 33,
+   "raw_events": 32,
+   "error": ""
+  },
+  {
+   "name": "Working Draft Beer Company",
+   "kind": "brewery",
+   "website": "https://www.workingdraftbeer.com/",
+   "feeds": [
+    "squarespace",
+    "squarespace",
+    "squarespace",
+    "jsonld",
+    "jsonld"
+   ],
+   "raw_events": 32,
    "error": ""
   },
   {
@@ -101,7 +101,7 @@
     "ical",
     "ical"
    ],
-   "raw_events": 30,
+   "raw_events": 29,
    "error": "ical: ConnectionError: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //www.mcfarlandlibrary.org/calendar/month (Caused by NameResolutionError(\"HTTPSConnection(host='https"
   },
   {
@@ -125,13 +125,13 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 15,
+   "raw_events": 14,
    "error": ""
   },
   {
-   "name": "Broom Street Theater",
-   "kind": "venue",
-   "website": "https://bstonline.org/",
+   "name": "Lone Girl Tap Room And Pizza Company",
+   "kind": "bar",
+   "website": "https://thelonegirl.com",
    "feeds": [
     "tribe",
     "jsonld",
@@ -139,13 +139,13 @@
     "jsonld",
     "jsonld"
    ],
-   "raw_events": 12,
+   "raw_events": 13,
    "error": ""
   },
   {
-   "name": "Lone Girl Tap Room And Pizza Company",
-   "kind": "bar",
-   "website": "https://thelonegirl.com",
+   "name": "Broom Street Theater",
+   "kind": "venue",
+   "website": "https://bstonline.org/",
    "feeds": [
     "tribe",
     "jsonld",
@@ -167,16 +167,6 @@
    "error": ""
   },
   {
-   "name": "High Noon Saloon",
-   "kind": "bar",
-   "website": "https://www.high-noon.com/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 10,
-   "error": ""
-  },
-  {
    "name": "Sun Prairie Public Library",
    "kind": "library",
    "website": "https://www.sunprairiepubliclibrary.org/",
@@ -187,19 +177,9 @@
    "error": ""
   },
   {
-   "name": "Lazy Oaf Lounge",
-   "kind": "bar",
-   "website": "https://www.lazyoaflounge.com/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 9,
-   "error": ""
-  },
-  {
-   "name": "Arts + Literature Laboratory",
-   "kind": "venue",
-   "website": "https://artlitlab.org/",
+   "name": "Capital Brewery",
+   "kind": "brewery",
+   "website": "https://www.capital-brewery.com/",
    "feeds": [
     "ai"
    ],
@@ -207,9 +187,9 @@
    "error": ""
   },
   {
-   "name": "Capital Brewery",
-   "kind": "brewery",
-   "website": "https://www.capital-brewery.com/",
+   "name": "High Noon Saloon",
+   "kind": "bar",
+   "website": "https://www.high-noon.com/",
    "feeds": [
     "ai"
    ],
@@ -224,6 +204,36 @@
     "ai"
    ],
    "raw_events": 8,
+   "error": ""
+  },
+  {
+   "name": "Alicia Ashman Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 7,
+   "error": ""
+  },
+  {
+   "name": "Arts + Literature Laboratory",
+   "kind": "venue",
+   "website": "https://artlitlab.org/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 7,
+   "error": ""
+  },
+  {
+   "name": "Lazy Oaf Lounge",
+   "kind": "bar",
+   "website": "https://www.lazyoaflounge.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 7,
    "error": ""
   },
   {
@@ -247,21 +257,29 @@
    "error": ""
   },
   {
-   "name": "Bridge Lakepoint Waunona Neighborhood Center",
-   "kind": "community",
-   "website": "https://www.blwcenter.org/",
+   "name": "Imagination Center",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
    "feeds": [
-    "squarespace",
-    "jsonld",
-    "jsonld"
+    "ai"
    ],
    "raw_events": 6,
    "error": ""
   },
   {
-   "name": "Sequoya Library",
+   "name": "Monroe Street Library",
    "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/sequoya",
+   "website": "https://www.madisonpubliclibrary.org/monroe-street",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 6,
+   "error": ""
+  },
+  {
+   "name": "Pinney Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
    "feeds": [
     "ai"
    ],
@@ -279,16 +297,6 @@
    "error": ""
   },
   {
-   "name": "Wando's Bar & Grill",
-   "kind": "bar",
-   "website": "https://wandosbar.com/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 6,
-   "error": ""
-  },
-  {
    "name": "Waunakee Public Library",
    "kind": "library",
    "website": "https://www.waunakeepubliclibrary.org/",
@@ -296,26 +304,6 @@
     "ai"
    ],
    "raw_events": 6,
-   "error": ""
-  },
-  {
-   "name": "Gamma Ray Bar",
-   "kind": "bar",
-   "website": "https://gammaray.bar",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 5,
-   "error": ""
-  },
-  {
-   "name": "Imagination Center",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 5,
    "error": ""
   },
   {
@@ -330,13 +318,15 @@
    "error": ""
   },
   {
-   "name": "Pinney Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
+   "name": "Bridge Lakepoint Waunona Neighborhood Center",
+   "kind": "community",
+   "website": "https://www.blwcenter.org/",
    "feeds": [
-    "ai"
+    "squarespace",
+    "jsonld",
+    "jsonld"
    ],
-   "raw_events": 5,
+   "raw_events": 4,
    "error": ""
   },
   {
@@ -360,9 +350,9 @@
    "error": ""
   },
   {
-   "name": "Laurel Tavern",
+   "name": "Gamma Ray Bar",
    "kind": "bar",
-   "website": "http://www.thelaureltavern.com",
+   "website": "https://gammaray.bar",
    "feeds": [
     "ai"
    ],
@@ -377,20 +367,6 @@
     "ai"
    ],
    "raw_events": 4,
-   "error": ""
-  },
-  {
-   "name": "Barrymore Theatre",
-   "kind": "venue",
-   "website": "https://barrymorelive.com/",
-   "feeds": [
-    "tribe",
-    "jsonld",
-    "jsonld",
-    "jsonld",
-    "jsonld"
-   ],
-   "raw_events": 3,
    "error": ""
   },
   {
@@ -425,19 +401,9 @@
    "error": ""
   },
   {
-   "name": "Monkeyshines Bar & Grill",
+   "name": "Laurel Tavern",
    "kind": "bar",
-   "website": "http://www.monkeyshinesbarandgrill.com/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 3,
-   "error": ""
-  },
-  {
-   "name": "Monroe Street Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/monroe-street",
+   "website": "http://www.thelaureltavern.com",
    "feeds": [
     "ai"
    ],
@@ -488,6 +454,30 @@
    "error": ""
   },
   {
+   "name": "Barrymore Theatre",
+   "kind": "venue",
+   "website": "https://barrymorelive.com/",
+   "feeds": [
+    "tribe",
+    "jsonld",
+    "jsonld",
+    "jsonld",
+    "jsonld"
+   ],
+   "raw_events": 2,
+   "error": ""
+  },
+  {
+   "name": "Central Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/central",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 2,
+   "error": ""
+  },
+  {
    "name": "Centro",
    "kind": "community",
    "website": "https://www.micentro.org/",
@@ -519,6 +509,16 @@
    "error": ""
   },
   {
+   "name": "Monkeyshines Bar & Grill",
+   "kind": "bar",
+   "website": "http://www.monkeyshinesbarandgrill.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 2,
+   "error": ""
+  },
+  {
    "name": "Orpheum Theatre",
    "kind": "venue",
    "website": "https://madisonorpheum.com/",
@@ -532,6 +532,16 @@
    "name": "Oscar Rennebohm Library",
    "kind": "library",
    "website": "https://library.edgewood.edu/home",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 2,
+   "error": ""
+  },
+  {
+   "name": "Sequoya Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/sequoya",
    "feeds": [
     "ai"
    ],
@@ -562,41 +572,11 @@
    "error": ""
   },
   {
-   "name": "Alicia Ashman Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 1,
-   "error": ""
-  },
-  {
    "name": "Art House 360",
    "kind": "venue",
    "website": "https://www.arthouse360.com/",
    "feeds": [
     "jsonld"
-   ],
-   "raw_events": 1,
-   "error": ""
-  },
-  {
-   "name": "Central Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/central",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 1,
-   "error": ""
-  },
-  {
-   "name": "Crucible",
-   "kind": "bar",
-   "website": "https://www.cruciblemadison.com/",
-   "feeds": [
-    "ai"
    ],
    "raw_events": 1,
    "error": ""
@@ -672,12 +652,22 @@
    "error": ""
   },
   {
+   "name": "Wando's Bar & Grill",
+   "kind": "bar",
+   "website": "https://wandosbar.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 1,
+   "error": ""
+  },
+  {
    "name": "Aftershock Classic Arcade",
    "kind": "bar",
    "website": "https://www.aftershockclassicarcade.com/",
    "feeds": [],
    "raw_events": 0,
-   "error": ""
+   "error": "ai: ConnectionError: HTTPSConnectionPool(host='aftershockclassicarcade.com', port=443): Max retries exceeded with url: /events/ (Caused by NewConnectionError(\"HTTPSConnection(host='aftershockclassicar; ai: ConnectionError: HTTPSConnectionPool(host='aftershockclassicarcade.com', port=443): Max retries exceeded with url: /specials/ (Caused by NewConnectionError(\"HTTPSConnection(host='aftershockclassic"
   },
   {
    "name": "Alice Good",
@@ -949,6 +939,14 @@
    "error": ""
   },
   {
+   "name": "Crucible",
+   "kind": "bar",
+   "website": "https://www.cruciblemadison.com/",
+   "feeds": [],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
    "name": "D'Vino",
    "kind": "bar",
    "website": "https://www.dvinomadison.com/",
@@ -1074,7 +1072,7 @@
    "website": "https://www.garthsbrewbar.com/",
    "feeds": [],
    "raw_events": 0,
-   "error": ""
+   "error": "ai: ConnectTimeout: HTTPSConnectionPool(host='www.garthsbrewbar.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.garthsbrewbar.com', port=443"
   },
   {
    "name": "Gates & Brovi",
@@ -1403,7 +1401,7 @@
    "website": "https://www.library.wisc.edu/memorial/",
    "feeds": [],
    "raw_events": 0,
-   "error": ""
+   "error": "ai: ConnectTimeout: HTTPSConnectionPool(host='www.library.wisc.edu', port=443): Max retries exceeded with url: /memorial/workshops-events/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.lib; ai: ConnectTimeout: HTTPSConnectionPool(host='www.library.wisc.edu', port=443): Max retries exceeded with url: /music/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.library.wisc.edu', port"
   },
   {
    "name": "Mercies",
@@ -1647,7 +1645,7 @@
    "website": "https://redroostermadison.com/",
    "feeds": [],
    "raw_events": 0,
-   "error": ""
+   "error": "ai: ConnectionError: HTTPSConnectionPool(host='redroostermadison.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='redroostermadison.com', port=443"
   },
   {
    "name": "Right Bauer Brewing",
@@ -1689,7 +1687,7 @@
    "website": "https://www.shamrockbarandgrille.com/",
    "feeds": [],
    "raw_events": 0,
-   "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+   "error": "SSLError: HTTPSConnectionPool(host='www.shamrockbarandgrille.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in v"
   },
   {
    "name": "Slow Food UW Student Cafe",
@@ -1702,7 +1700,7 @@
   {
    "name": "Starbucks",
    "kind": "cafe",
-   "website": "https://www.starbucks.com/store-locator/store/12525/university-north-blackhawk-3515-university-avenue-madison-wi-537052140-us",
+   "website": "https://www.starbucks.com/store-locator/store/16482/capitol-square-main-mlk-1-e-main-st-madison-wi-537033373-us",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1710,7 +1708,7 @@
   {
    "name": "Starbucks",
    "kind": "cafe",
-   "website": "https://www.starbucks.com/store-locator/store/16482/capitol-square-main-mlk-1-e-main-st-madison-wi-537033373-us",
+   "website": "https://www.starbucks.com/store-locator/store/12525/university-north-blackhawk-3515-university-avenue-madison-wi-537052140-us",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -2120,7 +2118,7 @@
     "tribe"
    ],
    "raw_events": 0,
-   "error": ""
+   "error": "tribe: ConnectTimeout: HTTPSConnectionPool(host='www.youngshakespeareplayers.org', port=443): Max retries exceeded with url: /wp-json/tribe/events/v1/events?per_page=50&start_date=2026-11-20&end_date=; ai: ConnectTimeout: HTTPSConnectionPool(host='www.youngshakespeareplayers.org', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.youngshakespearepl"
   }
  ]
 }
