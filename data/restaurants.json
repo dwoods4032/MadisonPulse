@@ -1,6 +1,6 @@
 {
  "generated_at": "2026-11-16T23:06:19-06:00",
- "count": 501,
+ "count": 499,
  "with_hours": 245,
  "with_website": 249,
  "restaurants": [
@@ -1918,28 +1918,6 @@
    "address": "",
    "lat": 43.072872,
    "lon": -89.380441,
-   "website": "",
-   "menu": "",
-   "hours": null,
-   "bar": false,
-   "website_ok": null
-  },
-  {
-   "group": "american",
-   "dinner": true,
-   "alcohol": null,
-   "alcohol_src": "",
-   "id": "osm:way/97601631",
-   "name": "Captain Bill's",
-   "cuisine": "seafood",
-   "fast": false,
-   "price": 40,
-   "vibes": [
-    "date"
-   ],
-   "address": "",
-   "lat": 43.104235,
-   "lon": -89.484781,
    "website": "",
    "menu": "",
    "hours": null,
@@ -6218,29 +6196,6 @@
    ],
    "bar": false,
    "website_ok": null
-  },
-  {
-   "group": "american",
-   "dinner": true,
-   "alcohol": null,
-   "alcohol_src": "",
-   "id": "osm:node/2969012433",
-   "name": "Harvest Grains",
-   "cuisine": "soup, salad, sandwich",
-   "fast": false,
-   "price": 16,
-   "vibes": [
-    "cheap",
-    "chill"
-   ],
-   "address": "",
-   "lat": 43.071885,
-   "lon": -89.408126,
-   "website": "https://union.wisc.edu/harvestgrains.htm",
-   "menu": "",
-   "hours": null,
-   "bar": false,
-   "website_ok": false
   },
   {
    "group": "med",

@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-11-20T13:09:12-06:00",
- "total_events": 341,
- "in_more_than_one_source": 12,
+ "generated_at": "2026-11-20T22:00:09-06:00",
+ "total_events": 347,
+ "in_more_than_one_source": 14,
  "sources": {
   "AI page reading": {
-   "events": 112,
-   "unique_events": 104,
+   "events": 118,
+   "unique_events": 108,
    "overlap": {
     "Isthmus": 3,
-    "Ticketmaster": 6,
+    "Ticketmaster": 8,
     "Venue websites": 0
    },
-   "venues": 34,
+   "venues": 35,
    "unique_venues": [
     "Alicia Ashman Library",
     "Below Deck Concession Stand",
@@ -30,6 +30,7 @@
     "Overture Center for the Arts",
     "Pinney Library",
     "Reindahl Park Pavillion",
+    "Sequoya Library",
     "State Line Distillery",
     "Sun Prairie Public Library",
     "The Kickback",
@@ -42,8 +43,8 @@
    ]
   },
   "Isthmus": {
-   "events": 143,
-   "unique_events": 137,
+   "events": 142,
+   "unique_events": 136,
    "overlap": {
     "AI page reading": 3,
     "Ticketmaster": 2,
@@ -126,25 +127,26 @@
    ]
   },
   "Ticketmaster": {
-   "events": 42,
-   "unique_events": 34,
+   "events": 43,
+   "unique_events": 33,
    "overlap": {
-    "AI page reading": 6,
+    "AI page reading": 8,
     "Isthmus": 2,
     "Venue websites": 1
    },
-   "venues": 10,
+   "venues": 11,
    "unique_venues": [
     "Camp Randall",
     "Capitol Theater - Overture Center",
     "LaBahn Arena",
     "Legacy20 Arena at Deforest Yards",
-    "The Sylvee"
+    "The Sylvee",
+    "Veterans Memorial Coliseum at Alliant Energy Center"
    ]
   },
   "Venue websites": {
-   "events": 57,
-   "unique_events": 54,
+   "events": 59,
+   "unique_events": 56,
    "overlap": {
     "AI page reading": 0,
     "Isthmus": 2,

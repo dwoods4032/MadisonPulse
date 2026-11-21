@@ -425,8 +425,8 @@
   ]
  },
  "https://high-noon.com/calendar/": {
-  "hash": "eede6ceedf202ead7fbe519d26bd8768c5398e26",
-  "asked": "2026-11-20T13:06:44-06:00",
+  "hash": "80c94d638d5157e7511c343ecbc5e1a945a28c69",
+  "asked": "2026-11-20T21:58:47-06:00",
   "on": "2026-11-20",
   "events": [
    {
@@ -435,16 +435,16 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Doors 7:00 pm, show 8:00 pm. Tickets via Buy Tickets link.",
+    "description": "Doors 7:00 pm, show 8:00 pm at High Noon Saloon.",
     "category": "music"
    },
    {
     "title": "Music Con Brio",
     "date": "2026-11-21",
-    "start": "11:30",
+    "start": "12:00",
     "end": null,
     "price": 0,
-    "description": "Featuring 'Caravan' performing Modal Jazz with Music con Brio students. Doors 11:00 am. Free, donations at door.",
+    "description": "Featuring 'Caravan' performing Modal Jazz with Music con Brio students. Doors 11:30 am. Free, donations at door.",
     "category": "music"
    },
    {
@@ -453,7 +453,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents. Doors 7:00 pm.",
+    "description": "FPC Live presents a Talking Heads tribute. Doors 7:00 pm.",
     "category": "music"
    },
    {
@@ -526,34 +526,16 @@
  },
  "https://www.lazyoaflounge.com/specials": {
   "hash": "4a2d517e6293fd98262af8eca6d9f981c4e79283",
-  "asked": "2026-11-17T13:51:15-06:00",
-  "on": "2026-11-17",
+  "asked": "2026-11-20T21:58:47-06:00",
+  "on": "2026-11-20",
   "events": [
-   {
-    "title": "Taco Tuesday",
-    "date": "2026-11-17",
-    "start": null,
-    "end": null,
-    "price": null,
-    "description": "Weekly Taco Tuesday at Lazy Oaf Lounge; no times listed on the page.",
-    "category": "food"
-   },
    {
     "title": "Taco Tuesday",
     "date": "2026-11-24",
     "start": null,
     "end": null,
     "price": null,
-    "description": "Weekly Taco Tuesday at Lazy Oaf Lounge; no times listed on the page.",
-    "category": "food"
-   },
-   {
-    "title": "Taco Tuesday",
-    "date": "2026-12-01",
-    "start": null,
-    "end": null,
-    "price": null,
-    "description": "Weekly Taco Tuesday at Lazy Oaf Lounge; no times listed on the page.",
+    "description": "Weekly Taco Tuesday special at Lazy Oaf Lounge; no times listed on the page.",
     "category": "food"
    },
    {
@@ -562,7 +544,16 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Weekly Friday fish fry at Lazy Oaf Lounge; no times listed on the page.",
+    "description": "Weekly Friday fish fry special at Lazy Oaf Lounge; no times listed on the page.",
+    "category": "food"
+   },
+   {
+    "title": "Taco Tuesday",
+    "date": "2026-12-01",
+    "start": null,
+    "end": null,
+    "price": null,
+    "description": "Weekly Taco Tuesday special at Lazy Oaf Lounge; no times listed on the page.",
     "category": "food"
    },
    {
@@ -571,7 +562,16 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Weekly Friday fish fry at Lazy Oaf Lounge; no times listed on the page.",
+    "description": "Weekly Friday fish fry special at Lazy Oaf Lounge; no times listed on the page.",
+    "category": "food"
+   },
+   {
+    "title": "Friday Fish Fry",
+    "date": "2026-12-04",
+    "start": null,
+    "end": null,
+    "price": null,
+    "description": "Weekly Friday fish fry special at Lazy Oaf Lounge; no times listed on the page.",
     "category": "food"
    }
   ]
@@ -661,11 +661,11 @@
  },
  "https://wandosbar.com/madison-downtown-wando-s-events-happenings": {
   "hash": "923edb38abaf0d20fd1d796f9a5cf4e6e96c8477",
-  "asked": "2026-11-17T13:51:18-06:00",
-  "on": "2026-11-17",
+  "asked": "2026-11-20T21:58:51-06:00",
+  "on": "2026-11-20",
   "events": [
    {
-    "title": "Thanksgiving",
+    "title": "Thanksgiving Feast",
     "date": "2026-11-26",
     "start": "11:00",
     "end": "02:30",
@@ -688,26 +688,17 @@
   "events": []
  },
  "https://www.capitalbrewery.com/events-2/": {
-  "hash": "5a8a39ad1b57e6be9e6324968824498ec70cf213",
-  "asked": "2026-11-19T21:58:56-06:00",
-  "on": "2026-11-19",
+  "hash": "b133a0e7ea87fd21be3dc833e6eac9b2d06f81e2",
+  "asked": "2026-11-20T21:58:52-06:00",
+  "on": "2026-11-20",
   "events": [
-   {
-    "title": "LIVE MUSIC w/ Too Sick Charlie",
-    "date": "2026-11-20",
-    "start": "18:00",
-    "end": "21:00",
-    "price": null,
-    "description": "Live music with Too Sick Charlie at Capital Brewery.",
-    "category": "music"
-   },
    {
     "title": "Fresh Citrus & Pears Stop Event by Tree-Ripe Fruit Co.",
     "date": "2026-11-25",
     "start": "12:00",
     "end": "13:30",
     "price": null,
-    "description": "Stop event featuring fresh citrus and pears from Tree-Ripe Fruit Co. at Capital Brewery.",
+    "description": "Fresh citrus and pears stop event by Tree-Ripe Fruit Co. at Capital Brewery.",
     "category": "food"
    },
    {
@@ -725,7 +716,7 @@
     "start": "18:00",
     "end": "21:00",
     "price": null,
-    "description": "Live music with David Hecht at Capital Brewery.",
+    "description": "Live music with David Hecht at Capital Brewery. Dogs are not allowed when live music is performing.",
     "category": "music"
    }
   ]
@@ -971,35 +962,17 @@
   "events": []
  },
  "https://thekickback.bar/upcoming-events/": {
-  "hash": "87cc20dc9de55fdedee2ef5854626f8ffc83624e",
-  "asked": "2026-11-18T22:12:48-06:00",
-  "on": "2026-11-18",
+  "hash": "183c6f3cf6cffbf2bd64c615d6805648580e7b63",
+  "asked": "2026-11-20T21:59:02-06:00",
+  "on": "2026-11-20",
   "events": [
-   {
-    "title": "Friday Night Strikes",
-    "date": "2026-11-20",
-    "start": "19:00",
-    "end": null,
-    "price": null,
-    "description": "Craft beer and pinball night",
-    "category": "other"
-   },
-   {
-    "title": "Ultimate Super Smash Bros Tournament",
-    "date": "2026-11-20",
-    "start": "19:00",
-    "end": null,
-    "price": null,
-    "description": "Ultimate Super Smash Bros tournament on Switch 2",
-    "category": "other"
-   },
    {
     "title": "WanderLust Mobile Bookstore Pop-up",
     "date": "2026-11-22",
     "start": "15:00",
     "end": null,
     "price": null,
-    "description": "Pop-up visit from the WanderLust Mobile Bookstore",
+    "description": "Mobile bookstore pop-up at The Kickback",
     "category": "other"
    },
    {
@@ -1008,11 +981,11 @@
     "start": "15:00",
     "end": null,
     "price": null,
-    "description": "Fundraiser for Fetch WI Rescue with craft beer on the patio",
+    "description": "Craft beer fundraiser for Fetch WI Rescue with dogs on the patio",
     "category": "other"
    },
    {
-    "title": "Premier Trivia Tuesday!",
+    "title": "Premier Trivia Tuesday",
     "date": "2026-11-24",
     "start": "18:30",
     "end": null,
@@ -1026,11 +999,11 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Craft beer and pinball night",
+    "description": "Friday night craft beer and pinball event",
     "category": "other"
    },
    {
-    "title": "Premier Trivia Tuesday!",
+    "title": "Premier Trivia Tuesday",
     "date": "2026-12-01",
     "start": "18:30",
     "end": null,
@@ -1044,7 +1017,16 @@
     "start": "18:30",
     "end": null,
     "price": null,
-    "description": "Craft beer pinball league night featuring Guinness",
+    "description": "Pinball league night featuring Guinness and craft beer",
+    "category": "other"
+   },
+   {
+    "title": "Friday Night Strikes",
+    "date": "2026-12-04",
+    "start": "19:00",
+    "end": null,
+    "price": null,
+    "description": "Friday night craft beer and pinball event",
     "category": "other"
    }
   ]
@@ -1212,8 +1194,8 @@
   ]
  },
  "https://merciescoffeewi.com/": {
-  "hash": "52b7073e7c0319d5362c3208c48b9ce35268fe01",
-  "asked": "2026-11-20T13:07:17-06:00",
+  "hash": "df5874fee1b823779e94ea5c9a7328de2b9d04b5",
+  "asked": "2026-11-20T21:59:15-06:00",
   "on": "2026-11-20",
   "events": []
  },
@@ -1471,8 +1453,8 @@
   "events": []
  },
  "https://www.madisonpubliclibrary.org/spaces/events": {
-  "hash": "f7727f8c208408b69fff7e08417479a70196e24e",
-  "asked": "2026-11-20T13:07:53-06:00",
+  "hash": "18291b5a4cc9ccb4c180615c61a4917a99a1d887",
+  "asked": "2026-11-20T21:59:49-06:00",
   "on": "2026-11-20",
   "events": []
  },
@@ -1511,25 +1493,16 @@
   ]
  },
  "https://www.library.wisc.edu/music/": {
-  "hash": "c35ff73c89af79d05fd2b3791d5949c3798b653f",
-  "asked": "2026-11-19T21:59:46-06:00",
-  "on": "2026-11-19",
+  "hash": "2a37a6a51a7a050a9c2d16e67654deeb167fd3be",
+  "asked": "2026-11-20T21:59:43-06:00",
+  "on": "2026-11-20",
   "events": []
  },
  "https://www.sunprairiepubliclibrary.org/home-delivery-service": {
-  "hash": "e3ec83da64ad1ceb4b607393467b96d7fffceac9",
-  "asked": "2026-11-20T13:07:52-06:00",
+  "hash": "3ac79a602576a770e2f81d43d8520360d72a54de",
+  "asked": "2026-11-20T21:59:47-06:00",
   "on": "2026-11-20",
   "events": [
-   {
-    "title": "Dream Bus Mobile Library @ Fun Friday Stops",
-    "date": "2026-11-20",
-    "start": "14:45",
-    "end": "17:00",
-    "price": null,
-    "description": "Dream Bus mobile library stops for families, children, teens and adults.",
-    "category": "other"
-   },
    {
     "title": "Puppet Theatre Storytime",
     "date": "2026-11-21",
@@ -1545,7 +1518,7 @@
     "start": "13:00",
     "end": "15:00",
     "price": null,
-    "description": "Author event for teens and adults. Listed as full.",
+    "description": "Author event with TJ Klune for teens and adults. Listed as full.",
     "category": "other"
    },
    {
@@ -1564,6 +1537,15 @@
     "end": "11:30",
     "price": null,
     "description": "Introductory ancestry research session for adults.",
+    "category": "other"
+   },
+   {
+    "title": "Red Cross Blood Drive",
+    "date": "2026-11-25",
+    "start": "12:00",
+    "end": "17:00",
+    "price": null,
+    "description": "Red Cross blood drive for adults.",
     "category": "other"
    }
   ]
@@ -1634,61 +1616,24 @@
   ]
  },
  "https://www.madisonpubliclibrary.org/spaces/events/search": {
-  "hash": "7189a637d807fc5648f46f5476c084d7fc57f63b",
-  "asked": "2026-11-20T13:07:53-06:00",
+  "hash": "b896e3ddd38daf16efe01ac9711d6122e3c2d262",
+  "asked": "2026-11-20T21:59:59-06:00",
+  "on": "2026-11-20",
+  "events": []
+ },
+ "https://artlitlab.org/calendar": {
+  "hash": "2d2fd3369388405761e0367456b0f0de686c2ddb",
+  "asked": "2026-11-20T21:59:51-06:00",
   "on": "2026-11-20",
   "events": [
    {
-    "title": "Podcasting Kit Tutorial",
-    "date": "2026-11-21",
-    "start": "10:00",
-    "end": "12:00",
-    "price": null,
-    "description": "Demo of the Library Podcasting Kit covering basics of recording and sound editing.",
-    "category": "other"
-   },
-   {
-    "title": "Bilingual Storytime (ages 5 and under) / Hora de cuentos bilingües",
-    "date": "2026-11-23",
-    "start": "10:30",
-    "end": "11:15",
-    "price": null,
-    "description": "Read and play with children 5 and under in English and Spanish, with books, songs and playful activities.",
-    "category": "other"
-   }
-  ]
- },
- "https://artlitlab.org/calendar": {
-  "hash": "a6040298bf1f8168e9a31e757f960e541a3d5b2d",
-  "asked": "2026-11-18T22:13:34-06:00",
-  "on": "2026-11-18",
-  "events": [
-   {
-    "title": "Bridge Work: Processing Powers",
-    "date": "2026-11-19",
+    "title": "Auricle Presents: Lily Finnegan Quartet",
+    "date": "2026-11-20",
     "start": null,
     "end": null,
     "price": null,
-    "description": "Exhibition opening Nov 19, 2026, running through Jan 9, 2027.",
-    "category": "other"
-   },
-   {
-    "title": "Bridge Work: The Sound That Only I Can Hear",
-    "date": "2026-11-19",
-    "start": null,
-    "end": null,
-    "price": null,
-    "description": "Exhibition opening Nov 19, 2026, running through Jan 9, 2027.",
-    "category": "other"
-   },
-   {
-    "title": "Bridge Work: Family // History",
-    "date": "2026-11-19",
-    "start": null,
-    "end": null,
-    "price": null,
-    "description": "Exhibition opening Nov 19, 2026, running through Jan 9, 2027.",
-    "category": "other"
+    "description": "Auricle new music series performance by the Lily Finnegan Quartet.",
+    "category": "music"
    },
    {
     "title": "November Watershed Reading",
@@ -1696,7 +1641,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Literary reading listed on the calendar for Nov 21, 2026.",
+    "description": "Literary reading listed as the November Watershed Reading.",
     "category": "other"
    },
    {
@@ -1705,23 +1650,32 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Performance by the Ancora String Quartet on Nov 22, 2026.",
+    "description": "String quartet performance.",
     "category": "music"
+   },
+   {
+    "title": "Bridge Work: Madison Opening Reception",
+    "date": "2026-12-04",
+    "start": null,
+    "end": null,
+    "price": null,
+    "description": "Opening reception for the Bridge Work exhibition.",
+    "category": "other"
    }
   ]
  },
  "https://bartelltheatre.org/": {
-  "hash": "c5d79c99171e0befc79eb180dacdeeca033f678e",
-  "asked": "2026-11-20T13:08:02-06:00",
+  "hash": "989a00513073002f48fb8798514d7b5e72b352f2",
+  "asked": "2026-11-20T21:59:57-06:00",
   "on": "2026-11-20",
   "events": [
    {
     "title": "Romeo and Juliet",
-    "date": "2026-11-20",
-    "start": "19:30",
+    "date": "2026-11-21",
+    "start": "12:00",
     "end": null,
     "price": null,
-    "description": "Shakespeare's tragedy of two young lovers caught in the feud between the Capulets and Montagues. Listed as today at 7:30pm.",
+    "description": "Closing performance of Romeo and Juliet; tickets via the page's Tickets link.",
     "category": "theater"
    },
    {
@@ -1730,7 +1684,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Ticketed showcase concluding the six-week Saturday Scene Study class, on the Evjue Stage. Start time not listed.",
+    "description": "Ticketed showcase concluding the six-week Saturday Scene Study class, on the Evjue Stage.",
     "category": "theater"
    },
    {
@@ -1739,7 +1693,7 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Bartell Theatre production listed as coming soon for December 2026.",
+    "description": "Writers Block: December 2026, listed as coming soon.",
     "category": "theater"
    }
   ]
@@ -1905,13 +1859,13 @@
  },
  "https://rootedwi.org/get-involved/events-calendar/": {
   "hash": "fbc01e37c3e8a6694b2980c467671335af89c595",
-  "asked": "2026-11-17T13:52:07-06:00",
-  "on": "2026-11-17",
+  "asked": "2026-11-20T21:59:40-06:00",
+  "on": "2026-11-20",
   "events": []
  },
  "https://www.veronapubliclibrary.org/": {
-  "hash": "200e2909f2981978c8a8ec165b8f880ef490465f",
-  "asked": "2026-11-20T13:07:52-06:00",
+  "hash": "bd1cc466402f693201aeb0f8297658b3232cb5bd",
+  "asked": "2026-11-20T21:59:46-06:00",
   "on": "2026-11-20",
   "events": [
    {
@@ -1920,7 +1874,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Drop-in help with your device or app on Tuesdays.",
+    "description": "Drop-in help with your device or app at the library.",
     "category": "other"
    },
    {
@@ -1929,7 +1883,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Drop-in help with your device or app on Tuesdays.",
+    "description": "Drop-in help with your device or app at the library.",
     "category": "other"
    }
   ]
@@ -1959,8 +1913,8 @@
   "events": []
  },
  "https://high-noon.com/event/dogpark/": {
-  "hash": "caf5426749808b8ef7873a705a8d63fe50f799f3",
-  "asked": "2026-11-20T13:06:46-06:00",
+  "hash": "bcd1abedfa71d275b1391307f03dc8f0c050010c",
+  "asked": "2026-11-20T21:58:49-06:00",
   "on": "2026-11-20",
   "events": []
  },
@@ -2089,26 +2043,17 @@
   "events": []
  },
  "https://www.sunprairiepubliclibrary.org/art-committee-and-gallery-shows": {
-  "hash": "9a8841ac4f610cfce5f03a245abbbbd07e919bfd",
-  "asked": "2026-11-20T13:07:55-06:00",
+  "hash": "891ef3c6f30e4f52f88ed064770d4414ceca5f44",
+  "asked": "2026-11-20T21:59:50-06:00",
   "on": "2026-11-20",
   "events": [
-   {
-    "title": "Dream Bus Mobile Library @ Fun Friday Stops",
-    "date": "2026-11-20",
-    "start": "14:45",
-    "end": "17:00",
-    "price": null,
-    "description": "Dream Bus mobile library at Fun Friday stops. Ages: family, children 0-8, teens, adults.",
-    "category": "other"
-   },
    {
     "title": "Puppet Theatre Storytime",
     "date": "2026-11-21",
     "start": "10:00",
     "end": "10:30",
     "price": null,
-    "description": "Puppet theatre storytime for families and children ages 0-5.",
+    "description": "Puppet theatre storytime for family and children ages 0-5.",
     "category": "other"
    },
    {
@@ -2126,7 +2071,7 @@
     "start": "15:00",
     "end": "16:00",
     "price": null,
-    "description": "Urban SUN Black Voices Book Club for adults.",
+    "description": "Urban SUN book club for adults focused on Black voices.",
     "category": "other"
    },
    {
@@ -2135,7 +2080,16 @@
     "start": "10:00",
     "end": "11:30",
     "price": null,
-    "description": "Introductory ancestry research session for adults.",
+    "description": "Beginner session on ancestry research for adults.",
+    "category": "other"
+   },
+   {
+    "title": "Red Cross Blood Drive",
+    "date": "2026-11-25",
+    "start": "12:00",
+    "end": "17:00",
+    "price": null,
+    "description": "Red Cross blood drive at the library for adults.",
     "category": "other"
    }
   ]
@@ -2159,26 +2113,17 @@
   "events": []
  },
  "https://www.capitalbrewery.com/on-site-events/": {
-  "hash": "eda9ab5de3a97b37affa4709af0e4f386a7f2626",
-  "asked": "2026-11-19T21:58:59-06:00",
-  "on": "2026-11-19",
+  "hash": "6d7718df39e0f1e4ff4f53c9e6b14ee5ee6176ae",
+  "asked": "2026-11-20T21:58:55-06:00",
+  "on": "2026-11-20",
   "events": [
-   {
-    "title": "LIVE MUSIC w/ Too Sick Charlie",
-    "date": "2026-11-20",
-    "start": "18:00",
-    "end": "21:00",
-    "price": null,
-    "description": "Live music with Too Sick Charlie at Capital Brewery.",
-    "category": "music"
-   },
    {
     "title": "Fresh Citrus & Pears Stop Event by Tree-Ripe Fruit Co.",
     "date": "2026-11-25",
     "start": "12:00",
     "end": "13:30",
     "price": null,
-    "description": "Stop event with Tree-Ripe Fruit Co. featuring fresh citrus and pears.",
+    "description": "Fresh citrus and pears stop event by Tree-Ripe Fruit Co. at Capital Brewery.",
     "category": "food"
    },
    {
@@ -2309,26 +2254,17 @@
   ]
  },
  "https://www.waunakeepubliclibrary.org/": {
-  "hash": "b2676759a74e2ac42677fdabd0d04fe879573332",
-  "asked": "2026-11-20T13:07:54-06:00",
+  "hash": "0d939229ffe8a1040f23fe0b64fffcb8b4e23442",
+  "asked": "2026-11-20T21:59:47-06:00",
   "on": "2026-11-20",
   "events": [
    {
-    "title": "TACOS monthly meeting",
-    "date": "2026-11-20",
-    "start": "16:00",
-    "end": "17:00",
-    "price": null,
-    "description": "Monthly meeting for TACOS members (teen/preteen group), Board Room.",
-    "category": "other"
-   },
-   {
-    "title": "Friends of the Library Annual Holiday Craft Fair, Book Sale, Bake Sale, Container Raffle",
+    "title": "Friends of the Library Annual Holiday Craft Fair, Book Sale, Bake Sale, Container Raffle, and More!",
     "date": "2026-11-21",
     "start": "09:00",
     "end": "14:00",
     "price": null,
-    "description": "Friends of the Waunakee Library holiday craft fair with book sale, bake sale and container raffle. Offsite.",
+    "description": "Friends of the Waunakee Library holiday craft fair, book sale, bake sale and container raffle. Offsite event.",
     "category": "other"
    },
    {
@@ -2337,16 +2273,16 @@
     "start": "10:00",
     "end": "11:30",
     "price": null,
-    "description": "Open indoor play time for kids birth to pre-K (suggested ages 0-5), Community Hall. No registration required.",
+    "description": "Open indoor play time for kids, suggested ages 0-5. No registration required.",
     "category": "other"
    },
    {
-    "title": "Maker Monday with Lyon Road Art Academy: Figure Drawing for Kids",
+    "title": "Maker Monday with Lyon Road Art Academy",
     "date": "2026-11-23",
     "start": "15:30",
     "end": "16:30",
     "price": null,
-    "description": "Kids figure drawing inspired by Keith Haring, led by local artist Cole Melvin. Registration required.",
+    "description": "Figure drawing for kids inspired by Keith Haring, guided by local artist Cole Melvin. Registration required.",
     "category": "other"
    },
    {
@@ -2355,7 +2291,7 @@
     "start": "14:00",
     "end": "15:00",
     "price": null,
-    "description": "Teens and preteens (grades 5 and up) make personalized buttons with the button maker. Storytime Room.",
+    "description": "Teens and preteens (grades 5 and up) make personalized buttons with the button maker.",
     "category": "other"
    },
    {
@@ -2364,7 +2300,16 @@
     "start": "18:00",
     "end": "19:30",
     "price": null,
-    "description": "Adult beginner watercolor program, rescheduled from 11/10. Registration required; currently a waitlist.",
+    "description": "Adult beginner watercolor program, rescheduled from 11/10. Registration required; currently waitlisted.",
+    "category": "other"
+   },
+   {
+    "title": "Open Art Studio",
+    "date": "2026-11-25",
+    "start": "15:30",
+    "end": "16:30",
+    "price": null,
+    "description": "Drop-in self-directed art program for grades K-4. No registration required.",
     "category": "other"
    }
   ]

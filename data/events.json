@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-20T13:09:12-06:00",
+ "generated_at": "2026-11-20T22:00:09-06:00",
  "window": {
-  "from": "2026-11-20T07:06-06:00",
-  "to": "2026-12-04T13:06-06:00"
+  "from": "2026-11-20T15:58-06:00",
+  "to": "2026-12-04T21:58-06:00"
  },
- "count": 341,
+ "count": 347,
  "events": [
   {
    "id": "0ccb63a887a9",
@@ -28,30 +28,6 @@
     "AI page reading"
    ],
    "link_ok": true
-  },
-  {
-   "id": "be5ed88dec07",
-   "title": "Black Film Festival",
-   "start": "2026-11-20T14:30-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "film",
-   "price": null,
-   "description": "",
-   "url": "",
-   "image": "",
-   "venue": "Location not listed",
-   "venue_id": "cal:unknown",
-   "venue_kind": "venue",
-   "address": "",
-   "lat": null,
-   "lon": null,
-   "source": "extra",
-   "via": "Isthmus",
-   "sources": [
-    "Isthmus"
-   ],
-   "link_ok": null
   },
   {
    "id": "d384b293c36f",
@@ -608,29 +584,6 @@
    "link_ok": true
   },
   {
-   "id": "32e8a7ab4fa6",
-   "title": "LIVE MUSIC w/ Too Sick Charlie",
-   "start": "2026-11-20T18:00-06:00",
-   "end": "2026-11-20T21:00-06:00",
-   "all_day": false,
-   "category": "music",
-   "price": null,
-   "description": "Live music with Too Sick Charlie at Capital Brewery.",
-   "url": "https://www.capital-brewery.com/",
-   "image": "",
-   "venue": "Capital Brewery",
-   "venue_id": "osm:way/97601507",
-   "venue_kind": "brewery",
-   "address": "7734 Terrace Avenue",
-   "lat": 43.0948896,
-   "lon": -89.5165789,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "7bf5d8a5b8f6",
    "title": "English Conversation Time",
    "start": "2026-11-20T18:00-06:00",
@@ -1064,29 +1017,6 @@
    "link_ok": null
   },
   {
-   "id": "84afda4a5d91",
-   "title": "Bingo Loco - Name That Song",
-   "start": "2026-11-20T19:00-06:00",
-   "end": "2026-11-20T20:00-06:00",
-   "all_day": false,
-   "category": "bingo",
-   "price": 40.0,
-   "description": "Doors 7:00PM / Show 8PM Seated show $35ADV / $40DOS",
-   "url": "https://www.theatwoodmusichall.com/shows/2026-11-20",
-   "image": "https://images.squarespace-cdn.com/content/v1/62cacf3906240b03a9e7209f/1789502016863-EP261K2WBP70KMDHDJ89/Madison+Name+That+Song+Fri%2C+Nov+20th_Pos-LineUp.png",
-   "venue": "Atwood Music Hall",
-   "venue_id": "osm:way/440518288",
-   "venue_kind": "venue",
-   "address": "1925 Winnebago Street",
-   "lat": 43.0909399,
-   "lon": -89.3556544,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "b91e2a90b9f4",
    "title": "Brian Simpson",
    "start": "2026-11-20T19:00-06:00",
@@ -1179,29 +1109,6 @@
    "via": "Isthmus",
    "sources": [
     "Isthmus"
-   ],
-   "link_ok": null
-  },
-  {
-   "id": "7e730b9b6427",
-   "title": "Wisconsin Badgers Hockey vs. Penn State Nittany Lions Mens Hockey",
-   "start": "2026-11-20T19:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "sports",
-   "price": null,
-   "description": "Hockey / College",
-   "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAevvN",
-   "image": "https://s1.ticketm.net/dam/a/267/aed721a8-9e5f-4096-bfac-2e30dc1c7267_RETINA_PORTRAIT_16_9.jpg",
-   "venue": "Kohl Center",
-   "venue_id": "tm:Z6r9jZaaee",
-   "venue_kind": "venue",
-   "address": "601 W. Dayton St.",
-   "lat": 43.016399,
-   "lon": -89.420097,
-   "source": "ticketmaster",
-   "sources": [
-    "Ticketmaster"
    ],
    "link_ok": null
   },
@@ -1400,75 +1307,6 @@
    "link_ok": null
   },
   {
-   "id": "e3e33b654f1f",
-   "title": "Penn State @ Wisconsin",
-   "start": "2026-11-20T19:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "",
-   "url": "https://statestreetbrats.com/event/penn-state-wisconsin-20261120/",
-   "image": "",
-   "venue": "State Street Brats",
-   "venue_id": "osm:way/886357869",
-   "venue_kind": "bar",
-   "address": "603 State Street",
-   "lat": 43.0746889,
-   "lon": -89.395998,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "2e1749d7c1e1",
-   "title": "Friday Night Strikes",
-   "start": "2026-11-20T19:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "trivia",
-   "price": null,
-   "description": "Craft beer and pinball night",
-   "url": "https://thekickback.bar/",
-   "image": "",
-   "venue": "The Kickback",
-   "venue_id": "osm:node/12292190391",
-   "venue_kind": "bar",
-   "address": "7622 Lisa Lane",
-   "lat": 43.1092621,
-   "lon": -89.5123266,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "38d989921da9",
-   "title": "Ultimate Super Smash Bros Tournament",
-   "start": "2026-11-20T19:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "trivia",
-   "price": null,
-   "description": "Ultimate Super Smash Bros tournament on Switch 2",
-   "url": "https://thekickback.bar/",
-   "image": "",
-   "venue": "The Kickback",
-   "venue_id": "osm:node/12292190391",
-   "venue_kind": "bar",
-   "address": "7622 Lisa Lane",
-   "lat": 43.1092621,
-   "lon": -89.5123266,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "6c509d8a5d0d",
    "title": "Après Ski",
    "start": "2026-11-20T19:00-06:00",
@@ -1636,52 +1474,6 @@
     "Isthmus"
    ],
    "link_ok": null
-  },
-  {
-   "id": "a37cca6031ca",
-   "title": "Madison Capitols vs. Lincoln Stars",
-   "start": "2026-11-20T19:05-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "sports",
-   "price": null,
-   "description": "Hockey / Ice Hockey",
-   "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvFGA",
-   "image": "https://s1.ticketm.net/dam/c/61c/37e6dc36-b80c-45a5-9bc5-960c7a98161c_106321_RETINA_PORTRAIT_16_9.jpg",
-   "venue": "Legacy20 Arena at Deforest Yards",
-   "venue_id": "tm:Z7r9jZak-N",
-   "venue_kind": "venue",
-   "address": "6251 Monticello Drive",
-   "lat": 43.233799,
-   "lon": -89.331802,
-   "source": "ticketmaster",
-   "sources": [
-    "Ticketmaster"
-   ],
-   "link_ok": null
-  },
-  {
-   "id": "d923afb9fe7d",
-   "title": "Romeo and Juliet",
-   "start": "2026-11-20T19:30-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "theater",
-   "price": null,
-   "description": "Shakespeare's tragedy of two young lovers caught in the feud between the Capulets and Montagues. Listed as today at 7:30pm.",
-   "url": "https://bartelltheatre.org/",
-   "image": "",
-   "venue": "Bartell Theatre",
-   "venue_id": "osm:way/265137656",
-   "venue_kind": "venue",
-   "address": "113 East Mifflin Street",
-   "lat": 43.0765271,
-   "lon": -89.3833565,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
   },
   {
    "id": "c7f2f7b2ae7f",
@@ -2540,7 +2332,7 @@
    "all_day": true,
    "category": "other",
    "price": null,
-   "description": "Literary reading listed on the calendar for Nov 21, 2026.",
+   "description": "Literary reading listed as the November Watershed Reading.",
    "url": "https://artlitlab.org/",
    "image": "",
    "venue": "Arts + Literature Laboratory",
@@ -2563,7 +2355,7 @@
    "all_day": true,
    "category": "theater",
    "price": null,
-   "description": "Ticketed showcase concluding the six-week Saturday Scene Study class, on the Evjue Stage. Start time not listed.",
+   "description": "Ticketed showcase concluding the six-week Saturday Scene Study class, on the Evjue Stage.",
    "url": "https://bartelltheatre.org/",
    "image": "",
    "venue": "Bartell Theatre",
@@ -2694,14 +2486,14 @@
    "link_ok": true
   },
   {
-   "id": "f42845cc775d",
-   "title": "Friends of the Library Annual Holiday Craft Fair, Book Sale, Bake Sale, Container Raffle",
+   "id": "4291d81335de",
+   "title": "Friends of the Library Annual Holiday Craft Fair, Book Sale, Bake Sale, Container Raffle, and More!",
    "start": "2026-11-21T09:00-06:00",
    "end": "2026-11-21T14:00-06:00",
    "all_day": false,
    "category": "bingo",
    "price": null,
-   "description": "Friends of the Waunakee Library holiday craft fair with book sale, bake sale and container raffle. Offsite.",
+   "description": "Friends of the Waunakee Library holiday craft fair, book sale, bake sale and container raffle. Offsite event.",
    "url": "https://www.waunakeepubliclibrary.org/",
    "image": "",
    "venue": "Waunakee Public Library",
@@ -2817,7 +2609,7 @@
    "all_day": false,
    "category": "theater",
    "price": null,
-   "description": "Open indoor play time for kids birth to pre-K (suggested ages 0-5), Community Hall. No registration required.",
+   "description": "Open indoor play time for kids, suggested ages 0-5. No registration required.",
    "url": "https://www.waunakeepubliclibrary.org/",
    "image": "",
    "venue": "Waunakee Public Library",
@@ -2826,6 +2618,52 @@
    "address": "201 North Madison Street",
    "lat": 43.1940495,
    "lon": -89.450474,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "fe8e80230e79",
+   "title": "Cardboard Community Building with Artist-in-Residence, Carrie Breunig",
+   "start": "2026-11-21T10:30-06:00",
+   "end": "2026-11-21T12:00-06:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Help build the paper-mache cardboard city on wheels, or build your own cardboard world to take home. Studio, Pinney Library.",
+   "url": "https://www.madisonpubliclibrary.org/locations/pinney-library",
+   "image": "",
+   "venue": "Pinney Library",
+   "venue_id": "osm:node/7234376294",
+   "venue_kind": "library",
+   "address": "516 Cottage Grove Road",
+   "lat": 43.0841729,
+   "lon": -89.3176486,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "e75184836e0b",
+   "title": "Cardboard Community Building with Artist-in-Residence, Carrie Breunig",
+   "start": "2026-11-21T10:30-06:00",
+   "end": "2026-11-21T12:00-06:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Help build the paper-mache cardboard city on wheels, or build your own cardboard world to take home. Studio, Pinney Library.",
+   "url": "https://www.madisonpubliclibrary.org/sequoya",
+   "image": "",
+   "venue": "Sequoya Library",
+   "venue_id": "osm:node/1473488018",
+   "venue_kind": "library",
+   "address": "4340 Tokay Boulevard",
+   "lat": 43.0537698,
+   "lon": -89.4505289,
    "source": "ai",
    "sources": [
     "AI page reading"
@@ -2903,14 +2741,60 @@
    "link_ok": true
   },
   {
-   "id": "e5f4c7b34843",
+   "id": "b87507ee3f92",
+   "title": "Wisconsin @ Purdue",
+   "start": "2026-11-21T11:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "",
+   "url": "https://statestreetbrats.com/event/wisconsin-purdue-20261121/",
+   "image": "",
+   "venue": "State Street Brats",
+   "venue_id": "osm:way/886357869",
+   "venue_kind": "bar",
+   "address": "603 State Street",
+   "lat": 43.0746889,
+   "lon": -89.395998,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "b788d3367038",
+   "title": "Romeo and Juliet",
+   "start": "2026-11-21T12:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "theater",
+   "price": null,
+   "description": "Closing performance of Romeo and Juliet; tickets via the page's Tickets link.",
+   "url": "https://bartelltheatre.org/",
+   "image": "",
+   "venue": "Bartell Theatre",
+   "venue_id": "osm:way/265137656",
+   "venue_kind": "venue",
+   "address": "113 East Mifflin Street",
+   "lat": 43.0765271,
+   "lon": -89.3833565,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "3e841d0bd078",
    "title": "Music Con Brio",
-   "start": "2026-11-21T11:30-06:00",
+   "start": "2026-11-21T12:00-06:00",
    "end": null,
    "all_day": false,
    "category": "music",
    "price": 0.0,
-   "description": "Featuring 'Caravan' performing Modal Jazz with Music con Brio students. Doors 11:00 am. Free, donations at door.",
+   "description": "Featuring 'Caravan' performing Modal Jazz with Music con Brio students. Doors 11:30 am. Free, donations at door.",
    "url": "https://www.high-noon.com/",
    "image": "",
    "venue": "High Noon Saloon",
@@ -2982,7 +2866,7 @@
    "all_day": false,
    "category": "other",
    "price": null,
-   "description": "Author event for teens and adults. Listed as full.",
+   "description": "Author event with TJ Klune for teens and adults. Listed as full.",
    "url": "https://www.sunprairiepubliclibrary.org/",
    "image": "",
    "venue": "Sun Prairie Public Library",
@@ -2998,8 +2882,8 @@
    "link_ok": true
   },
   {
-   "id": "cf2f595175be",
-   "title": "[FULL] Beginning Cross-Stitch",
+   "id": "246e47dd9dd1",
+   "title": "Beginning Cross-Stitch",
    "start": "2026-11-21T14:00-06:00",
    "end": "2026-11-21T15:30-06:00",
    "all_day": false,
@@ -3141,29 +3025,6 @@
    "link_ok": null
   },
   {
-   "id": "bd9353d483db",
-   "title": "[FULL] Beginning Cross-Stitch",
-   "start": "2026-11-21T14:00-06:00",
-   "end": "2026-11-21T15:30-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Beginning cross-stitch class in the Meeting Room. Listed as full.",
-   "url": "https://www.madisonpubliclibrary.org/locations/imagination-center",
-   "image": "",
-   "venue": "Imagination Center",
-   "venue_id": "osm:way/1562302805",
-   "venue_kind": "library",
-   "address": "1814 Parkside Drive",
-   "lat": 43.1240118,
-   "lon": -89.3168809,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "a1b1fbab81ac",
    "title": "Wisconsin Badgers Womens Hockey vs. Bemidji State Beavers Womens Hockey",
    "start": "2026-11-21T14:00-06:00",
@@ -3211,8 +3072,8 @@
    "link_ok": null
   },
   {
-   "id": "d9e2128265c3",
-   "title": "[FULL] Beginning Cross-Stitch",
+   "id": "58588d209a21",
+   "title": "Beginning Cross-Stitch",
    "start": "2026-11-21T14:00-06:00",
    "end": "2026-11-21T15:30-06:00",
    "all_day": false,
@@ -3258,8 +3119,8 @@
    "link_ok": null
   },
   {
-   "id": "4e514a16b41c",
-   "title": "[FULL] Beginning Cross-Stitch",
+   "id": "5fc24b640dae",
+   "title": "Beginning Cross-Stitch",
    "start": "2026-11-21T14:00-06:00",
    "end": "2026-11-21T15:30-06:00",
    "all_day": false,
@@ -3993,7 +3854,7 @@
    "all_day": true,
    "category": "music",
    "price": null,
-   "description": "Performance by the Ancora String Quartet on Nov 22, 2026.",
+   "description": "String quartet performance.",
    "url": "https://artlitlab.org/",
    "image": "",
    "venue": "Arts + Literature Laboratory",
@@ -4417,7 +4278,7 @@
    "all_day": false,
    "category": "other",
    "price": null,
-   "description": "Pop-up visit from the WanderLust Mobile Bookstore",
+   "description": "Mobile bookstore pop-up at The Kickback",
    "url": "https://thekickback.bar/",
    "image": "",
    "venue": "The Kickback",
@@ -4440,7 +4301,7 @@
    "all_day": false,
    "category": "other",
    "price": null,
-   "description": "Fundraiser for Fetch WI Rescue with craft beer on the patio",
+   "description": "Craft beer fundraiser for Fetch WI Rescue with dogs on the patio",
    "url": "https://thekickback.bar/",
    "image": "",
    "venue": "The Kickback",
@@ -4859,7 +4720,7 @@
    "all_day": true,
    "category": "food",
    "price": null,
-   "description": "Weekly Taco Tuesday at Lazy Oaf Lounge; no times listed on the page.",
+   "description": "Weekly Taco Tuesday special at Lazy Oaf Lounge; no times listed on the page.",
    "url": "https://www.lazyoaflounge.com/",
    "image": "",
    "venue": "Lazy Oaf Lounge",
@@ -4928,7 +4789,7 @@
    "all_day": true,
    "category": "other",
    "price": null,
-   "description": "Drop-in help with your device or app on Tuesdays.",
+   "description": "Drop-in help with your device or app at the library.",
    "url": "https://www.veronapubliclibrary.org/",
    "image": "",
    "venue": "Verona Public Library",
@@ -4990,6 +4851,52 @@
    "link_ok": true
   },
   {
+   "id": "19beddaf636b",
+   "title": "Intro to Filmmaking with Nate",
+   "start": "2026-11-24T18:00-06:00",
+   "end": "2026-11-24T19:30-06:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Introductory filmmaking session with Nate in Pavilion 1.",
+   "url": "https://www.madisonpubliclibrary.org/locations/imagination-center",
+   "image": "",
+   "venue": "Imagination Center",
+   "venue_id": "osm:way/1562302805",
+   "venue_kind": "library",
+   "address": "1814 Parkside Drive",
+   "lat": 43.1240118,
+   "lon": -89.3168809,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "69b8a3fb333f",
+   "title": "Intro to Filmmaking with Nate",
+   "start": "2026-11-24T18:00-06:00",
+   "end": "2026-11-24T19:30-06:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Introductory filmmaking session with Nate in Pavilion 1.",
+   "url": "https://www.madisonpubliclibrary.org/sequoya",
+   "image": "",
+   "venue": "Sequoya Library",
+   "venue_id": "osm:node/1473488018",
+   "venue_kind": "library",
+   "address": "4340 Tokay Boulevard",
+   "lat": 43.0537698,
+   "lon": -89.4505289,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "e1028c66ce3c",
    "title": "Watercolors for Beginners: Blustery Leaves",
    "start": "2026-11-24T18:00-06:00",
@@ -4997,7 +4904,7 @@
    "all_day": false,
    "category": "other",
    "price": null,
-   "description": "Adult beginner watercolor program, rescheduled from 11/10. Registration required; currently a waitlist.",
+   "description": "Adult beginner watercolor program, rescheduled from 11/10. Registration required; currently waitlisted.",
    "url": "https://www.waunakeepubliclibrary.org/",
    "image": "",
    "venue": "Waunakee Public Library",
@@ -5060,7 +4967,7 @@
   },
   {
    "id": "214c5dd87688",
-   "title": "Premier Trivia Tuesday!",
+   "title": "Premier Trivia Tuesday",
    "start": "2026-11-24T18:30-06:00",
    "end": null,
    "all_day": false,
@@ -5227,7 +5134,7 @@
    "all_day": false,
    "category": "food",
    "price": null,
-   "description": "Stop event featuring fresh citrus and pears from Tree-Ripe Fruit Co. at Capital Brewery.",
+   "description": "Fresh citrus and pears stop event by Tree-Ripe Fruit Co. at Capital Brewery.",
    "url": "https://www.capital-brewery.com/",
    "image": "",
    "venue": "Capital Brewery",
@@ -5543,8 +5450,8 @@
    "link_ok": true
   },
   {
-   "id": "9cf08fe0ef3b",
-   "title": "Thanksgiving",
+   "id": "cede029ec4da",
+   "title": "Thanksgiving Feast",
    "start": "2026-11-26T11:00-06:00",
    "end": "2026-11-27T02:30-06:00",
    "all_day": false,
@@ -5667,7 +5574,7 @@
    "all_day": true,
    "category": "food",
    "price": null,
-   "description": "Weekly Friday fish fry at Lazy Oaf Lounge; no times listed on the page.",
+   "description": "Weekly Friday fish fry special at Lazy Oaf Lounge; no times listed on the page.",
    "url": "https://www.lazyoaflounge.com/",
    "image": "",
    "venue": "Lazy Oaf Lounge",
@@ -5925,7 +5832,7 @@
    "all_day": false,
    "category": "music",
    "price": null,
-   "description": "Live music with David Hecht at Capital Brewery.",
+   "description": "Live music with David Hecht at Capital Brewery. Dogs are not allowed when live music is performing.",
    "url": "https://www.capital-brewery.com/",
    "image": "",
    "venue": "Capital Brewery",
@@ -6137,7 +6044,7 @@
    "all_day": false,
    "category": "trivia",
    "price": null,
-   "description": "Craft beer and pinball night",
+   "description": "Friday night craft beer and pinball event",
    "url": "https://thekickback.bar/",
    "image": "",
    "venue": "The Kickback",
@@ -7251,7 +7158,7 @@
    "all_day": true,
    "category": "food",
    "price": null,
-   "description": "Weekly Taco Tuesday at Lazy Oaf Lounge; no times listed on the page.",
+   "description": "Weekly Taco Tuesday special at Lazy Oaf Lounge; no times listed on the page.",
    "url": "https://www.lazyoaflounge.com/",
    "image": "",
    "venue": "Lazy Oaf Lounge",
@@ -7297,7 +7204,7 @@
    "all_day": true,
    "category": "other",
    "price": null,
-   "description": "Drop-in help with your device or app on Tuesdays.",
+   "description": "Drop-in help with your device or app at the library.",
    "url": "https://www.veronapubliclibrary.org/",
    "image": "",
    "venue": "Verona Public Library",
@@ -7360,7 +7267,7 @@
   },
   {
    "id": "a3e2b83db451",
-   "title": "Premier Trivia Tuesday!",
+   "title": "Premier Trivia Tuesday",
    "start": "2026-12-01T18:30-06:00",
    "end": null,
    "all_day": false,
@@ -7596,7 +7503,7 @@
    "all_day": false,
    "category": "trivia",
    "price": null,
-   "description": "Craft beer pinball league night featuring Guinness",
+   "description": "Pinball league night featuring Guinness and craft beer",
    "url": "https://thekickback.bar/",
    "image": "",
    "venue": "The Kickback",
@@ -7849,7 +7756,7 @@
    "all_day": false,
    "category": "theater",
    "price": null,
-   "description": "Bartell Theatre production listed as coming soon for December 2026.",
+   "description": "Writers Block: December 2026, listed as coming soon.",
    "url": "https://bartelltheatre.org/",
    "image": "",
    "venue": "Bartell Theatre",
@@ -8008,6 +7915,52 @@
    "link_ok": null
   },
   {
+   "id": "2463e4c902eb",
+   "title": "Bridge Work: Madison Opening Reception",
+   "start": "2026-12-04T00:00-06:00",
+   "end": null,
+   "all_day": true,
+   "category": "other",
+   "price": null,
+   "description": "Opening reception for the Bridge Work exhibition.",
+   "url": "https://artlitlab.org/",
+   "image": "",
+   "venue": "Arts + Literature Laboratory",
+   "venue_id": "osm:node/10815180247",
+   "venue_kind": "venue",
+   "address": "111 South Livingston Street",
+   "lat": 43.0804026,
+   "lon": -89.3734803,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "c5e4423ec841",
+   "title": "Friday Fish Fry",
+   "start": "2026-12-04T00:00-06:00",
+   "end": null,
+   "all_day": true,
+   "category": "food",
+   "price": null,
+   "description": "Weekly Friday fish fry special at Lazy Oaf Lounge; no times listed on the page.",
+   "url": "https://www.lazyoaflounge.com/",
+   "image": "",
+   "venue": "Lazy Oaf Lounge",
+   "venue_id": "osm:node/1743291684",
+   "venue_kind": "bar",
+   "address": "1617 North Stoughton Road",
+   "lat": 43.1199361,
+   "lon": -89.3244342,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "b054f49c8579",
    "title": "Reggae Night - DJ Sneaky Gator",
    "start": "2026-12-04T02:00-06:00",
@@ -8029,6 +7982,192 @@
     "Venue websites"
    ],
    "link_ok": true
+  },
+  {
+   "id": "63615a0a7f6e",
+   "title": "Magic Rob EVERY Friday – tableside magic and family FUN!",
+   "start": "2026-12-04T18:00-06:00",
+   "end": "2026-12-04T20:00-06:00",
+   "all_day": false,
+   "category": "food",
+   "price": 0.0,
+   "description": "Madison’s Magic Rob provides FREE, family-friendly tableside and waiting area entertainment from 6-8pm EVERY FRIDAY. You never know when he’ll magically appear… be ready! Enjoy all-day Fish Fry Every Friday!",
+   "url": "https://thelonegirl.com/event/magic-rob-every-friday-tableside-2-2-2-3-2-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2/",
+   "image": "https://thelonegirl.com/wp-content/uploads/2023/08/Magic-Rob-Inside.jpg",
+   "venue": "Lone Girl Tap Room And Pizza Company",
+   "venue_id": "osm:node/12641566168",
+   "venue_kind": "bar",
+   "address": "1817 East Washington Avenue",
+   "lat": 43.0907077,
+   "lon": -89.3608921,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "4e985beb73a7",
+   "title": "Live Music: Yard Dogs",
+   "start": "2026-12-04T18:30-06:00",
+   "end": "2026-12-04T21:00-06:00",
+   "all_day": false,
+   "category": "music",
+   "price": null,
+   "description": "Formed in 2018, The Yard Dogs are a Madison-area cover band built on a shared passion for great music. What began as an online call for musicians evolved into a dedicated five-member group known for high-energy performances and an eclectic sound.",
+   "url": "https://onesocialmadison.com/event/live-music-yard-dogs/",
+   "image": "",
+   "venue": "One Social Bar",
+   "venue_id": "osm:node/13312456631",
+   "venue_kind": "bar",
+   "address": "",
+   "lat": 43.0738511,
+   "lon": -89.378883,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "da56398f6194",
+   "title": "Christmas Carol Cocktail Experience",
+   "start": "2026-12-04T19:00-06:00",
+   "end": "2026-12-05T20:00-06:00",
+   "all_day": false,
+   "category": "music",
+   "price": null,
+   "description": "Friday Shows: 6pm, 8pm, 10pm (shows end at 11:30pm) Saturday Shows: 12pm, 2pm, 4pm, 6pm, 8pm, 10pm (shows end at 11:30pm)",
+   "url": "https://www.theatwoodmusichall.com/shows/2026-12-45",
+   "image": "https://images.squarespace-cdn.com/content/v1/62cacf3906240b03a9e7209f/20bdca2c-b6fe-47b6-9386-80ffc62e35c5/christmas+carol+cocktail.jpg",
+   "venue": "Atwood Music Hall",
+   "venue_id": "osm:way/440518288",
+   "venue_kind": "venue",
+   "address": "1925 Winnebago Street",
+   "lat": 43.0909399,
+   "lon": -89.3556544,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "65ddcada7eed",
+   "title": "Friday Night Strikes",
+   "start": "2026-12-04T19:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "trivia",
+   "price": null,
+   "description": "Friday night craft beer and pinball event",
+   "url": "https://thekickback.bar/",
+   "image": "",
+   "venue": "The Kickback",
+   "venue_id": "osm:node/12292190391",
+   "venue_kind": "bar",
+   "address": "7622 Lisa Lane",
+   "lat": 43.1092621,
+   "lon": -89.5123266,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "e1aa14a6d960",
+   "title": "Steely Dane",
+   "start": "2026-12-04T19:30-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "music",
+   "price": null,
+   "description": "",
+   "url": "https://www.ticketmaster.com/steely-dane-madison-wisconsin-12-04-2026/event/0700651B9E4D25D4",
+   "image": "https://s1.ticketm.net/dam/e/25b/f543c109-9ba7-43d1-811d-80fd8bbdc25b_RETINA_PORTRAIT_16_9.jpg",
+   "venue": "Orpheum Theatre",
+   "venue_id": "osm:way/102371335",
+   "venue_kind": "venue",
+   "address": "216 State Street",
+   "lat": 43.0751836,
+   "lon": -89.3887291,
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster",
+    "AI page reading"
+   ],
+   "link_ok": null
+  },
+  {
+   "id": "409ed621a1b5",
+   "title": "AMA Partzilla Arenacross: Track Walk Experience",
+   "start": "2026-12-04T19:30-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "",
+   "url": "https://www.ticketmaster.com/ama-partzilla-arenacross-track-walk-experience-madison-wisconsin-12-04-2026/event/0700654D835B204F",
+   "image": "https://s1.ticketm.net/dam/e/069/49a47ba9-0898-409f-8038-0cd4bf40d069_RETINA_PORTRAIT_16_9.jpg",
+   "venue": "Veterans Memorial Coliseum at Alliant Energy Center",
+   "venue_id": "tm:KovZpZAF6nvA",
+   "venue_kind": "venue",
+   "address": "1919 Alliant Energy Center Way ",
+   "lat": 43.0469591,
+   "lon": -89.3733638,
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster"
+   ],
+   "link_ok": null
+  },
+  {
+   "id": "6f728d57e476",
+   "title": "Lowboy",
+   "start": "2026-12-04T20:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "music",
+   "price": null,
+   "description": "With Charlieboy and Dad Bods. Doors 7pm.",
+   "url": "https://gammaray.bar",
+   "image": "",
+   "venue": "Gamma Ray Bar",
+   "venue_id": "osm:node/12156142686",
+   "venue_kind": "bar",
+   "address": "121 West Main Street",
+   "lat": 43.072436,
+   "lon": -89.3848247,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "814034fe01f5",
+   "title": "Varsity Mac + Scorched Waves W/ Velvet Blue & In Ropes",
+   "start": "2026-12-04T20:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "music",
+   "price": null,
+   "description": "Rock / Alternative Rock",
+   "url": "https://www.ticketmaster.com/varsity-mac-scorched-waves-w-velvet-madison-wisconsin-12-04-2026/event/07006536C59A4F83",
+   "image": "https://s1.ticketm.net/dam/e/155/9a57715b-5e22-4da3-971a-ba02292e7155_RETINA_PORTRAIT_16_9.jpg",
+   "venue": "High Noon Saloon",
+   "venue_id": "osm:node/1348850872",
+   "venue_kind": "bar",
+   "address": "701 E Washington Ave",
+   "lat": 43.0797191,
+   "lon": -89.3762962,
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster",
+    "AI page reading"
+   ],
+   "link_ok": null
   }
  ]
 }
