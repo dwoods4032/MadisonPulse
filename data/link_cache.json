@@ -3054,40 +3054,10 @@
   "why": "",
   "checked": "2026-11-16T23:11:45.779517-06:00"
  },
- "https://barrymorelive.com/event/flannel-fest-2/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-20T22:00:10.095052-06:00"
- },
- "https://www.madisoncomedy.com/event/briansimpson26/2026-11-20/1/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-20T22:00:10.095074-06:00"
- },
- "https://www.cafecoda.club/events-1/vzsiav3m9zmaag4lx827ulsv0zptk0": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-20T22:00:10.095081-06:00"
- },
- "https://www.ticketmaster.com/left-lane-cruiser-20-watt-tombstone-madison-wisconsin-11-20-2026/event/0700653DEC33A54D": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-20T22:00:12.342933-06:00"
- },
- "https://www.ticketmaster.com/the-jayhawks-sanctuary-park-tour-madison-wisconsin-11-20-2026/event/070064D4F23488F5": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-20T22:00:12.342961-06:00"
- },
- "https://www.cafecoda.club/events-1/cool-school-1-mwk5m-6mm75-4gl5k-x3bxx-2l3ky-wk7lh-m59ge-aep6w-pnxbz-mebby": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-14T11:09:19.242833-06:00"
- },
  "https://www.workingdraftbeer.com/events/20269/11/21/yoga-on-tap-with-the-local-movement": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-14T11:09:19.242861-06:00"
+  "checked": "2026-11-21T11:59:42.330877-06:00"
  },
  "https://www.ticketmaster.com/event/Z7r9jZ1AAvt3_": {
   "ok": null,
@@ -3148,11 +3118,6 @@
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
   "checked": "2026-11-15T11:44:39.526438-06:00"
- },
- "https://www.karben4.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-15T20:45:11.588240-06:00"
  },
  "https://www.ticketmaster.com/event/Z7r9jZ1AA7eow": {
   "ok": null,
@@ -3444,11 +3409,6 @@
   "why": "",
   "checked": "2026-11-17T22:21:49.753396-06:00"
  },
- "https://www.theblackcenter.org/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-18T13:27:09.711719-06:00"
- },
  "https://www.cafecoda.club/events-1/tango-class-2-3-pm-social-3-5-pm-2aden-s34kk-erc3e-ldek9": {
   "ok": true,
   "why": "",
@@ -3473,26 +3433,6 @@
   "ok": true,
   "why": "",
   "checked": "2026-11-19T13:31:15.656862-06:00"
- },
- "https://thelonegirl.com/event/magic-rob-every-friday-tableside-2-2-2-3-2-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-19T13:31:15.656875-06:00"
- },
- "https://onesocialmadison.com/event/live-music-bree-morgan-2/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-19T13:31:15.656880-06:00"
- },
- "https://thelonegirl.com/event/ryan-mauer-wine-walk-after-party-2-2/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-19T13:31:15.656885-06:00"
- },
- "https://www.cafecoda.club/events-1/illxstmamidj": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-19T13:31:15.656889-06:00"
  },
  "https://www.waunakeepubliclibrary.org/": {
   "ok": true,
@@ -3594,21 +3534,6 @@
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
   "checked": "2026-11-19T22:00:14.502413-06:00"
  },
- "https://imaginary-factory.com/": {
-  "ok": null,
-  "why": "robots.txt asks bots not to visit",
-  "checked": "2026-11-20T13:09:12.910650-06:00"
- },
- "https://barrymorelive.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-20T13:09:12.967020-06:00"
- },
- "https://www.arthouse360.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-20T13:09:14.468584-06:00"
- },
  "https://www.northstreetcabaret.com/": {
   "ok": null,
   "why": "robots.txt asks bots not to visit",
@@ -3653,16 +3578,6 @@
   "ok": true,
   "why": "",
   "checked": "2026-11-20T13:09:18.779930-06:00"
- },
- "https://www.madisonpubliclibrary.org/sequoya": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-20T22:00:12.342968-06:00"
- },
- "https://statestreetbrats.com/event/wisconsin-purdue-20261121/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-20T22:00:12.342973-06:00"
  },
  "https://thelonegirl.com/event/magic-rob-every-friday-tableside-2-2-2-3-2-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2/": {
   "ok": true,
@@ -3768,5 +3683,45 @@
   "ok": true,
   "why": "",
   "checked": "2026-11-20T22:00:59.866531-06:00"
+ },
+ "https://statestreetbrats.com/event/bucks-76ers-20261121/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-21T11:59:42.330900-06:00"
+ },
+ "https://communicationmadison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-21T11:59:42.392985-06:00"
+ },
+ "https://www.fivenightclubmadison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-21T11:59:42.393015-06:00"
+ },
+ "https://www.madisoncomedy.com/event/briansimpson26/2026-11-21/1/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-21T11:59:42.393032-06:00"
+ },
+ "http://madwoofs.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-21T11:59:42.987981-06:00"
+ },
+ "http://www.fitchburgwi.gov/822/Library": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-21T11:59:42.988006-06:00"
+ },
+ "https://www.motherfools.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-21T11:59:42.988015-06:00"
+ },
+ "https://www.cafecoda.club/events-1/cool-school-1-mwk5m-6mm75-4gl5k-x3bxx-2l3ky-wk7lh-m59ge-aep6w-pnxbz-apa4f": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-21T11:59:42.988022-06:00"
  }
 }

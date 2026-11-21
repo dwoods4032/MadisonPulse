@@ -80,35 +80,26 @@
   "events": []
  },
  "https://gammaray.bar/shows/": {
-  "hash": "da1b8e8db87e47c4b3d62f75c37f083c00b429a5",
-  "asked": "2026-11-20T13:06:40-06:00",
-  "on": "2026-11-20",
+  "hash": "d9cba3870e6a2145da767fffc6b0f2a4e041007f",
+  "asked": "2026-11-21T11:58:00-06:00",
+  "on": "2026-11-21",
   "events": [
    {
-    "title": "Gridlock Album Release",
-    "date": "2026-11-20",
-    "start": "20:00",
-    "end": null,
-    "price": null,
-    "description": "Album release show with Totally Cashed, M545, A Casual Ruckus and Party Vultures. Doors 7pm.",
-    "category": "music"
-   },
-   {
-    "title": "New Wave Ren Faire ft. Educational Davis",
+    "title": "New Wave Ren Faire ft. Educational Davis // Lavish Waste // Poison Widow // Yakuza Jacuzzi",
     "date": "2026-11-21",
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "With Lavish Waste, Poison Widow and Yakuza Jacuzzi. Doors 6pm.",
+    "description": "Show with doors at 6pm.",
     "category": "music"
    },
    {
-    "title": "Clean Plate Club",
+    "title": "Clean Plate Club // Becca Murray & The Wildflowers // AuroNova",
     "date": "2026-11-22",
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "With Becca Murray & The Wildflowers and AuroNova. Doors 6pm.",
+    "description": "Show with doors at 6pm.",
     "category": "music"
    },
    {
@@ -117,16 +108,16 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Doors 7pm.",
+    "description": "Show with doors at 7pm.",
     "category": "music"
    },
    {
-    "title": "Lowboy",
+    "title": "Lowboy // Charlieboy // Dad Bods",
     "date": "2026-12-04",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "With Charlieboy and Dad Bods. Doors 7pm.",
+    "description": "Show with doors at 7pm.",
     "category": "music"
    }
   ]
@@ -365,8 +356,8 @@
  },
  "https://www.lazyoaflounge.com/events": {
   "hash": "f1633ae9ec881a81a0957829b59bff725fb9f324",
-  "asked": "2026-11-17T22:20:27-06:00",
-  "on": "2026-11-17",
+  "asked": "2026-11-21T11:58:01-06:00",
+  "on": "2026-11-21",
   "events": [
    {
     "title": "Trivia Night",
@@ -378,40 +369,13 @@
     "category": "trivia"
    },
    {
-    "title": "Trivia Night",
-    "date": "2026-11-30",
-    "start": "19:00",
-    "end": "21:00",
-    "price": 0,
-    "description": "Test your knowledge with friends. Free to play, great prizes.",
-    "category": "trivia"
-   },
-   {
-    "title": "Karaoke Night",
-    "date": "2026-11-19",
-    "start": "20:00",
-    "end": "00:00",
-    "price": null,
-    "description": "Sing your heart out or dress up for a themed celebration.",
-    "category": "karaoke"
-   },
-   {
     "title": "Karaoke Night",
     "date": "2026-11-26",
     "start": "20:00",
     "end": "00:00",
     "price": null,
-    "description": "Sing your heart out or dress up for a themed celebration.",
+    "description": "Sing your heart out or dress up for lively themed celebrations.",
     "category": "karaoke"
-   },
-   {
-    "title": "Music Bingo",
-    "date": "2026-11-18",
-    "start": "18:30",
-    "end": null,
-    "price": null,
-    "description": "Weekly music bingo night.",
-    "category": "bingo"
    },
    {
     "title": "Music Bingo",
@@ -421,30 +385,48 @@
     "price": null,
     "description": "Weekly music bingo night.",
     "category": "bingo"
+   },
+   {
+    "title": "Trivia Night",
+    "date": "2026-11-30",
+    "start": "19:00",
+    "end": "21:00",
+    "price": 0,
+    "description": "Test your knowledge with friends. Free to play, great prizes.",
+    "category": "trivia"
+   },
+   {
+    "title": "Music Bingo",
+    "date": "2026-12-02",
+    "start": "18:30",
+    "end": null,
+    "price": null,
+    "description": "Weekly music bingo night.",
+    "category": "bingo"
+   },
+   {
+    "title": "Karaoke Night",
+    "date": "2026-12-03",
+    "start": "20:00",
+    "end": "00:00",
+    "price": null,
+    "description": "Sing your heart out or dress up for lively themed celebrations.",
+    "category": "karaoke"
    }
   ]
  },
  "https://high-noon.com/calendar/": {
-  "hash": "80c94d638d5157e7511c343ecbc5e1a945a28c69",
-  "asked": "2026-11-20T21:58:47-06:00",
-  "on": "2026-11-20",
+  "hash": "54aeafc3d06079bcfcd9215b6c1e6f1a755fd4d4",
+  "asked": "2026-11-21T11:58:03-06:00",
+  "on": "2026-11-21",
   "events": [
    {
-    "title": "Left Lane Cruiser, 20 Watt Tombstone & Electromag",
-    "date": "2026-11-20",
-    "start": "20:00",
-    "end": null,
-    "price": null,
-    "description": "Doors 7:00 pm, show 8:00 pm at High Noon Saloon.",
-    "category": "music"
-   },
-   {
-    "title": "Music Con Brio",
+    "title": "Music Con Brio: Caravan (Modal Jazz)",
     "date": "2026-11-21",
     "start": "12:00",
     "end": null,
     "price": 0,
-    "description": "Featuring 'Caravan' performing Modal Jazz with Music con Brio students. Doors 11:30 am. Free, donations at door.",
+    "description": "Caravan performing modal jazz with Music con Brio students. Doors 11:30 am.",
     "category": "music"
    },
    {
@@ -453,7 +435,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents a Talking Heads tribute. Doors 7:00 pm.",
+    "description": "Talking Heads tribute show presented by FPC Live. Doors 7:00 pm.",
     "category": "music"
    },
    {
@@ -462,7 +444,7 @@
     "start": "11:00",
     "end": null,
     "price": null,
-    "description": "Doors 10:15 am, show 11:00 am.",
+    "description": "Show at High Noon Saloon. Doors 10:15 am.",
     "category": "music"
    },
    {
@@ -471,7 +453,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents. Doors 7:00 pm.",
+    "description": "FPC Live show. Doors 7:00 pm.",
     "category": "music"
    },
    {
@@ -480,7 +462,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Featuring Joseph Huber Band, Dig Deep, and Kevin Troestler, plus Artist At Large Sheilagh Dandy Lion. Doors 7:00 pm.",
+    "description": "Featuring Joseph Huber Band, Dig Deep, Kevin Troestler, and Artist At Large Sheilagh Dandy Lion. Doors 7:00 pm.",
     "category": "music"
    },
    {
@@ -498,7 +480,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents. Doors 7:00 pm.",
+    "description": "FPC Live show. Doors 7:00 pm.",
     "category": "music"
    },
    {
@@ -507,7 +489,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "With Velvet Blue and In Ropes. FPC Live presents. Doors 7:00 pm.",
+    "description": "With Velvet Blue and In Ropes. FPC Live show. Doors 7:00 pm.",
     "category": "music"
    }
   ]
@@ -519,9 +501,9 @@
   "events": []
  },
  "https://www.roxxybar.com/madison-events/": {
-  "hash": "f36e823006da9cc39ec56eed8c23731e7401f3ac",
-  "asked": "2026-11-20T13:06:45-06:00",
-  "on": "2026-11-20",
+  "hash": "737598d7889c46db07392b9eff5f4e5817d6edcb",
+  "asked": "2026-11-21T11:58:03-06:00",
+  "on": "2026-11-21",
   "events": []
  },
  "https://www.lazyoaflounge.com/specials": {
@@ -583,54 +565,54 @@
   "events": []
  },
  "https://www.harmonybarandgrill.com/madison-atwood-the-harmony-bar-and-grill-happy-hours-specials": {
-  "hash": "294b0afdaaec1ac6d054da524b3ed27edc087069",
-  "asked": "2026-11-18T13:25:18-06:00",
-  "on": "2026-11-18",
+  "hash": "c8de849414fc4798033e49a99e1dd5661d53c8ef",
+  "asked": "2026-11-21T11:58:04-06:00",
+  "on": "2026-11-21",
   "events": [
    {
-    "title": "Friday Fish Fry",
-    "date": "2026-11-20",
-    "start": "11:00",
-    "end": "22:00",
-    "price": null,
-    "description": "Friday fish fry special at Harmony Bar and Grill.",
-    "category": "food"
-   },
-   {
-    "title": "David Landau Kids Show",
+    "title": "David Landau Kids Show!",
     "date": "2026-11-23",
     "start": "17:30",
     "end": "18:30",
     "price": 5.0,
-    "description": "Weekly Monday kids show with David Landau.",
+    "description": "Kids show with David Landau, every Monday, $5.00.",
     "category": "music"
    },
    {
-    "title": "David Landau Kids Show",
+    "title": "David Landau Kids Show!",
     "date": "2026-11-30",
     "start": "17:30",
     "end": "18:30",
     "price": 5.0,
-    "description": "Weekly Monday kids show with David Landau.",
+    "description": "Kids show with David Landau, every Monday, $5.00.",
     "category": "music"
    },
    {
-    "title": "Mixed Mic",
+    "title": "Mixed Mic!",
     "date": "2026-11-24",
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Mixed mic listed on the page for Tuesday, November 24th; the page describes it as held the first Tuesday of the month.",
+    "description": "Mixed mic listed for Tuesday, November 24.",
     "category": "open_mic"
    },
    {
-    "title": "Mixed Mic",
+    "title": "Mixed Mic!",
     "date": "2026-12-01",
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Mixed mic on the first Tuesday of the month.",
+    "description": "Mixed mic, held the first Tuesday of the month.",
     "category": "open_mic"
+   },
+   {
+    "title": "Friday Fish Fry!",
+    "date": "2026-11-27",
+    "start": "11:00",
+    "end": "22:00",
+    "price": null,
+    "description": "Friday fish fry at Harmony Bar and Grill.",
+    "category": "food"
    }
   ]
  },
@@ -902,8 +884,8 @@
  },
  "https://www.garthsbrewbar.com/": {
   "hash": "cc8d8eafdd76964ab5afa272b19306092ae68ff2",
-  "asked": "2026-11-17T22:20:33-06:00",
-  "on": "2026-11-17",
+  "asked": "2026-11-21T11:58:07-06:00",
+  "on": "2026-11-21",
   "events": []
  },
  "https://www.statelinedistillery.com/cocktail-lounge/events": {
@@ -951,8 +933,8 @@
  },
  "https://www.youngbloodbeerco.com/": {
   "hash": "83a1f0d585808418d93aea6afa5495330bf1ad85",
-  "asked": "2026-11-17T22:20:36-06:00",
-  "on": "2026-11-17",
+  "asked": "2026-11-21T11:58:09-06:00",
+  "on": "2026-11-21",
   "events": []
  },
  "https://yaharabay.com/pages/event-space": {
@@ -962,9 +944,9 @@
   "events": []
  },
  "https://thekickback.bar/upcoming-events/": {
-  "hash": "183c6f3cf6cffbf2bd64c615d6805648580e7b63",
-  "asked": "2026-11-20T21:59:02-06:00",
-  "on": "2026-11-20",
+  "hash": "627039d8c436c290c9138c41dd7bedcba9a87a7b",
+  "asked": "2026-11-21T11:58:14-06:00",
+  "on": "2026-11-21",
   "events": [
    {
     "title": "WanderLust Mobile Bookstore Pop-up",
@@ -972,7 +954,7 @@
     "start": "15:00",
     "end": null,
     "price": null,
-    "description": "Mobile bookstore pop-up at The Kickback",
+    "description": "Mobile bookstore pop-up at The Kickback.",
     "category": "other"
    },
    {
@@ -981,16 +963,16 @@
     "start": "15:00",
     "end": null,
     "price": null,
-    "description": "Craft beer fundraiser for Fetch WI Rescue with dogs on the patio",
+    "description": "Dogs on the patio with Fetch WI Rescue; craft beer fundraiser.",
     "category": "other"
    },
    {
-    "title": "Premier Trivia Tuesday",
+    "title": "Premier Trivia Tuesday!",
     "date": "2026-11-24",
     "start": "18:30",
     "end": null,
     "price": null,
-    "description": "Tuesday trivia night",
+    "description": "Tuesday trivia night.",
     "category": "trivia"
    },
    {
@@ -999,16 +981,16 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Friday night craft beer and pinball event",
+    "description": "Friday night event with craft beer and pinball.",
     "category": "other"
    },
    {
-    "title": "Premier Trivia Tuesday",
+    "title": "Premier Trivia Tuesday!",
     "date": "2026-12-01",
     "start": "18:30",
     "end": null,
     "price": null,
-    "description": "Tuesday trivia night",
+    "description": "Tuesday trivia night.",
     "category": "trivia"
    },
    {
@@ -1017,17 +999,17 @@
     "start": "18:30",
     "end": null,
     "price": null,
-    "description": "Pinball league night featuring Guinness and craft beer",
+    "description": "Pinball league night featuring Guinness and craft beer.",
     "category": "other"
    },
    {
-    "title": "Friday Night Strikes",
-    "date": "2026-12-04",
-    "start": "19:00",
+    "title": "Ultimate @ the Kickback SUMMIT QUALIFIER",
+    "date": "2026-12-05",
+    "start": "13:00",
     "end": null,
     "price": null,
-    "description": "Friday night craft beer and pinball event",
-    "category": "other"
+    "description": "Ultimate Super Smash Bros tournament, summit qualifier.",
+    "category": "sports"
    }
   ]
  },
@@ -1143,8 +1125,8 @@
  },
  "https://colectivo.com/pages/on-the-square": {
   "hash": "3ae5f26864a3bf3596a39c57df708278495ce5df",
-  "asked": "2026-11-17T22:20:42-06:00",
-  "on": "2026-11-17",
+  "asked": "2026-11-21T11:58:16-06:00",
+  "on": "2026-11-21",
   "events": []
  },
  "https://union.wisc.edu/events-and-activities": {
@@ -1161,8 +1143,8 @@
  },
  "https://colectivo.com/pages/monroe-street": {
   "hash": "9892b266187b17da7f1159e8259f5ca702113a62",
-  "asked": "2026-11-17T22:20:44-06:00",
-  "on": "2026-11-17",
+  "asked": "2026-11-21T11:58:18-06:00",
+  "on": "2026-11-21",
   "events": []
  },
  "https://colectivo.com/pages/madison-cafes": {
@@ -1377,26 +1359,17 @@
   ]
  },
  "https://www.cityofmadison.com/parks/events": {
-  "hash": "6bedbeca2e22cbd03ae3e84aa84f9f3001fd709c",
-  "asked": "2026-11-18T22:13:25-06:00",
-  "on": "2026-11-18",
+  "hash": "0a07fb09e0f9eaefe09b1a023c7142a83361f0b5",
+  "asked": "2026-11-21T11:58:54-06:00",
+  "on": "2026-11-21",
   "events": [
-   {
-    "title": "Warner Family Fun Night",
-    "date": "2026-11-20",
-    "start": "17:30",
-    "end": "19:30",
-    "price": null,
-    "description": "Family fun night at Warner Park Community Recreation Center, 1625 Northport Drive.",
-    "category": "other"
-   },
    {
     "title": "Bird & Nature Adventures | Starkweather Creek Area",
     "date": "2026-11-21",
     "start": "10:00",
     "end": "11:30",
     "price": null,
-    "description": "Nature outing starting outside Goodman Community Center by the bike path, 214 Waubesa St.",
+    "description": "Bird and nature walk at Goodman Community Center (outside by bike path), 214 Waubesa St.",
     "category": "other"
    },
    {
@@ -1432,7 +1405,7 @@
     "start": "10:00",
     "end": "11:30",
     "price": null,
-    "description": "Nature outing at Aldo Leopold Nature Center, 330 Femrite Drive.",
+    "description": "Bird and nature walk at Aldo Leopold Nature Center, 330 Femrite Drive.",
     "category": "other"
    },
    {
@@ -1441,7 +1414,16 @@
     "start": "18:00",
     "end": "19:30",
     "price": null,
-    "description": "Public meeting on Yahara Hills improvements at Yahara Hills Golf Course Clubhouse, 7051 Millpond Road.",
+    "description": "Public meeting on Yahara Hills improvements at the Yahara Hills Golf Course Clubhouse, 7051 Millpond Road.",
+    "category": "other"
+   },
+   {
+    "title": "HolidayFest Arts & Crafts Fair",
+    "date": "2026-12-05",
+    "start": "09:00",
+    "end": "15:00",
+    "price": null,
+    "description": "Arts and crafts fair at Warner Park Community Recreation Center, 1625 Northport Drive.",
     "category": "other"
    }
   ]
@@ -1453,9 +1435,9 @@
   "events": []
  },
  "https://www.madisonpubliclibrary.org/spaces/events": {
-  "hash": "18291b5a4cc9ccb4c180615c61a4917a99a1d887",
-  "asked": "2026-11-20T21:59:49-06:00",
-  "on": "2026-11-20",
+  "hash": "655cfaab27fff24877d515789aa9c341ea97715f",
+  "asked": "2026-11-21T11:59:03-06:00",
+  "on": "2026-11-21",
   "events": []
  },
  "https://ebling.library.wisc.edu/ebling-library-classes-events/": {
@@ -1493,27 +1475,18 @@
   ]
  },
  "https://www.library.wisc.edu/music/": {
-  "hash": "2a37a6a51a7a050a9c2d16e67654deeb167fd3be",
-  "asked": "2026-11-20T21:59:43-06:00",
-  "on": "2026-11-20",
+  "hash": "22ccf1163994dbd58d42f20055e92e5858db9543",
+  "asked": "2026-11-21T11:58:57-06:00",
+  "on": "2026-11-21",
   "events": []
  },
  "https://www.sunprairiepubliclibrary.org/home-delivery-service": {
-  "hash": "3ac79a602576a770e2f81d43d8520360d72a54de",
-  "asked": "2026-11-20T21:59:47-06:00",
-  "on": "2026-11-20",
+  "hash": "83734377297da3df4aa2af56b39ae30ff53b35d7",
+  "asked": "2026-11-21T11:59:00-06:00",
+  "on": "2026-11-21",
   "events": [
    {
-    "title": "Puppet Theatre Storytime",
-    "date": "2026-11-21",
-    "start": "10:00",
-    "end": "10:30",
-    "price": null,
-    "description": "Puppet theatre storytime for family and children ages 0-5.",
-    "category": "other"
-   },
-   {
-    "title": "Author Event: TJ Klune (FULL)",
+    "title": "Author Event: TJ Klune *FULL*",
     "date": "2026-11-21",
     "start": "13:00",
     "end": "15:00",
@@ -1536,7 +1509,7 @@
     "start": "10:00",
     "end": "11:30",
     "price": null,
-    "description": "Introductory ancestry research session for adults.",
+    "description": "Beginner ancestry research session for adults.",
     "category": "other"
    },
    {
@@ -1616,32 +1589,23 @@
   ]
  },
  "https://www.madisonpubliclibrary.org/spaces/events/search": {
-  "hash": "b896e3ddd38daf16efe01ac9711d6122e3c2d262",
-  "asked": "2026-11-20T21:59:59-06:00",
-  "on": "2026-11-20",
+  "hash": "6dbf72251bfb99070e13caf4279542b07f6b174f",
+  "asked": "2026-11-21T11:59:10-06:00",
+  "on": "2026-11-21",
   "events": []
  },
  "https://artlitlab.org/calendar": {
-  "hash": "2d2fd3369388405761e0367456b0f0de686c2ddb",
-  "asked": "2026-11-20T21:59:51-06:00",
-  "on": "2026-11-20",
+  "hash": "a6040298bf1f8168e9a31e757f960e541a3d5b2d",
+  "asked": "2026-11-21T11:59:07-06:00",
+  "on": "2026-11-21",
   "events": [
-   {
-    "title": "Auricle Presents: Lily Finnegan Quartet",
-    "date": "2026-11-20",
-    "start": null,
-    "end": null,
-    "price": null,
-    "description": "Auricle new music series performance by the Lily Finnegan Quartet.",
-    "category": "music"
-   },
    {
     "title": "November Watershed Reading",
     "date": "2026-11-21",
     "start": null,
     "end": null,
     "price": null,
-    "description": "Literary reading listed as the November Watershed Reading.",
+    "description": "Watershed Reading at Arts + Literature Laboratory; no time listed.",
     "category": "other"
    },
    {
@@ -1650,7 +1614,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "String quartet performance.",
+    "description": "Performance by the Ancora String Quartet; no time listed.",
     "category": "music"
    },
    {
@@ -1659,32 +1623,32 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Opening reception for the Bridge Work exhibition.",
+    "description": "Opening reception for the Bridge Work exhibition; no time listed.",
     "category": "other"
    }
   ]
  },
  "https://bartelltheatre.org/": {
-  "hash": "989a00513073002f48fb8798514d7b5e72b352f2",
-  "asked": "2026-11-20T21:59:57-06:00",
-  "on": "2026-11-20",
+  "hash": "b0cf8a91570b87b4abe9641e7967a820d0c36999",
+  "asked": "2026-11-21T11:59:15-06:00",
+  "on": "2026-11-21",
   "events": [
-   {
-    "title": "Romeo and Juliet",
-    "date": "2026-11-21",
-    "start": "12:00",
-    "end": null,
-    "price": null,
-    "description": "Closing performance of Romeo and Juliet; tickets via the page's Tickets link.",
-    "category": "theater"
-   },
    {
     "title": "Saturday Scene Study Showcase",
     "date": "2026-11-21",
     "start": null,
     "end": null,
     "price": null,
-    "description": "Ticketed showcase concluding the six-week Saturday Scene Study class, on the Evjue Stage.",
+    "description": "Ticketed showcase closing the six-week scene study class, on the Evjue Stage.",
+    "category": "theater"
+   },
+   {
+    "title": "Romeo and Juliet",
+    "date": "2026-11-21",
+    "start": "12:00",
+    "end": null,
+    "price": null,
+    "description": "Shakespeare's tragedy of two young lovers caught in feuding Capulet and Montague families.",
     "category": "theater"
    },
    {
@@ -1693,7 +1657,25 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Writers Block: December 2026, listed as coming soon.",
+    "description": "Performance listed on the Bartell Theatre schedule.",
+    "category": "theater"
+   },
+   {
+    "title": "Under A Rest",
+    "date": "2026-12-05",
+    "start": "13:00",
+    "end": null,
+    "price": null,
+    "description": "Performance listed on the Bartell Theatre schedule.",
+    "category": "theater"
+   },
+   {
+    "title": "Pitches & Notes",
+    "date": "2026-12-05",
+    "start": "19:30",
+    "end": null,
+    "price": null,
+    "description": "Performance listed on the Bartell Theatre schedule.",
     "category": "theater"
    }
   ]
@@ -1745,17 +1727,17 @@
   ]
  },
  "https://www.overture.org/tickets-events/": {
-  "hash": "b12505ea884f6e46db69bde1653bde244a320757",
-  "asked": "2026-11-18T13:26:40-06:00",
-  "on": "2026-11-18",
+  "hash": "98e540e0cf8cec62dfa341aa17e20f44f29e8b8c",
+  "asked": "2026-11-21T11:59:18-06:00",
+  "on": "2026-11-21",
   "events": [
    {
     "title": "Beni Daiko",
     "date": "2026-11-21",
-    "start": null,
+    "start": "13:00",
     "end": null,
     "price": null,
-    "description": "Multiple showtimes listed at Overture Center.",
+    "description": "Performance at Overture Center, 1:00 PM.",
     "category": "music"
    },
    {
@@ -1764,7 +1746,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Multiple showtimes listed at Overture Center.",
+    "description": "Performance at Overture Center with multiple showtimes.",
     "category": "music"
    },
    {
@@ -1773,7 +1755,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Multiple showtimes listed at Overture Center.",
+    "description": "Performance at Overture Center with multiple showtimes.",
     "category": "music"
    }
   ]
@@ -1902,20 +1884,20 @@
  },
  "https://comebackintavern.com/events/": {
   "hash": "31d87c3411648855f79e5de9d2d3cb1b51c195e6",
-  "asked": "2026-11-16T15:02:01-06:00",
-  "on": "2026-11-16",
+  "asked": "2026-11-21T11:58:01-06:00",
+  "on": "2026-11-21",
   "events": []
  },
  "https://comebackintavern.com/events/category/events/": {
   "hash": "c47f0cb54889b41f9e1f43c5239935df27cba668",
-  "asked": "2026-11-16T15:02:02-06:00",
-  "on": "2026-11-16",
+  "asked": "2026-11-21T11:58:03-06:00",
+  "on": "2026-11-21",
   "events": []
  },
  "https://high-noon.com/event/dogpark/": {
-  "hash": "bcd1abedfa71d275b1391307f03dc8f0c050010c",
-  "asked": "2026-11-20T21:58:49-06:00",
-  "on": "2026-11-20",
+  "hash": "77362219058d5b7274498dcb106925ccd5a1a2e0",
+  "asked": "2026-11-21T11:58:05-06:00",
+  "on": "2026-11-21",
   "events": []
  },
  "https://thekickback.bar/premier-trivia-tuesday-nov-3/": {
@@ -2043,26 +2025,17 @@
   "events": []
  },
  "https://www.sunprairiepubliclibrary.org/art-committee-and-gallery-shows": {
-  "hash": "891ef3c6f30e4f52f88ed064770d4414ceca5f44",
-  "asked": "2026-11-20T21:59:50-06:00",
-  "on": "2026-11-20",
+  "hash": "1234d9bcdf72dd952d1bd6598c21e4612600a29f",
+  "asked": "2026-11-21T11:59:03-06:00",
+  "on": "2026-11-21",
   "events": [
    {
-    "title": "Puppet Theatre Storytime",
-    "date": "2026-11-21",
-    "start": "10:00",
-    "end": "10:30",
-    "price": null,
-    "description": "Puppet theatre storytime for family and children ages 0-5.",
-    "category": "other"
-   },
-   {
-    "title": "Author Event: TJ Klune (FULL)",
+    "title": "Author Event: TJ Klune",
     "date": "2026-11-21",
     "start": "13:00",
     "end": "15:00",
     "price": null,
-    "description": "Author event with TJ Klune for teens and adults. Listed as full.",
+    "description": "Author event for teens and adults. Listed as FULL.",
     "category": "other"
    },
    {
@@ -2071,7 +2044,7 @@
     "start": "15:00",
     "end": "16:00",
     "price": null,
-    "description": "Urban SUN book club for adults focused on Black voices.",
+    "description": "Book club for adults.",
     "category": "other"
    },
    {
@@ -2080,7 +2053,7 @@
     "start": "10:00",
     "end": "11:30",
     "price": null,
-    "description": "Beginner session on ancestry research for adults.",
+    "description": "Beginner ancestry research session for adults.",
     "category": "other"
    },
    {
@@ -2089,7 +2062,7 @@
     "start": "12:00",
     "end": "17:00",
     "price": null,
-    "description": "Red Cross blood drive at the library for adults.",
+    "description": "Community blood drive for adults.",
     "category": "other"
    }
   ]
@@ -2153,9 +2126,9 @@
   "events": []
  },
  "https://wandosbar.com/madison-downtown-wando-s-gameday-specials": {
-  "hash": "b1c4cd3a82b54ef2dc6a6019aee1989d07512dfb",
-  "asked": "2026-11-20T13:06:50-06:00",
-  "on": "2026-11-20",
+  "hash": "abae097b0cb5e5a77bab5827097a1170e2ab335b",
+  "asked": "2026-11-21T11:58:08-06:00",
+  "on": "2026-11-21",
   "events": []
  },
  "https://thekickback.bar/premier-trivia-tuesday-nov-17/": {
@@ -2254,9 +2227,9 @@
   ]
  },
  "https://www.waunakeepubliclibrary.org/": {
-  "hash": "0d939229ffe8a1040f23fe0b64fffcb8b4e23442",
-  "asked": "2026-11-20T21:59:47-06:00",
-  "on": "2026-11-20",
+  "hash": "31e38f01f3c67feecbcee8d312806f6aa04cc649",
+  "asked": "2026-11-21T11:59:01-06:00",
+  "on": "2026-11-21",
   "events": [
    {
     "title": "Friends of the Library Annual Holiday Craft Fair, Book Sale, Bake Sale, Container Raffle, and More!",
@@ -2268,21 +2241,12 @@
     "category": "other"
    },
    {
-    "title": "The Young & the Restless",
-    "date": "2026-11-21",
-    "start": "10:00",
-    "end": "11:30",
-    "price": null,
-    "description": "Open indoor play time for kids, suggested ages 0-5. No registration required.",
-    "category": "other"
-   },
-   {
     "title": "Maker Monday with Lyon Road Art Academy",
     "date": "2026-11-23",
     "start": "15:30",
     "end": "16:30",
     "price": null,
-    "description": "Figure drawing for kids inspired by Keith Haring, guided by local artist Cole Melvin. Registration required.",
+    "description": "Kids' figure drawing session inspired by Keith Haring, led by local artist Cole Melvin. Registration required.",
     "category": "other"
    },
    {
@@ -2291,7 +2255,7 @@
     "start": "14:00",
     "end": "15:00",
     "price": null,
-    "description": "Teens and preteens (grades 5 and up) make personalized buttons with the button maker.",
+    "description": "For teens and preteens (grades 5 and up) to make personalized buttons with the button maker. Registration not stated.",
     "category": "other"
    },
    {
@@ -2300,7 +2264,7 @@
     "start": "18:00",
     "end": "19:30",
     "price": null,
-    "description": "Adult beginner watercolor program, rescheduled from 11/10. Registration required; currently waitlisted.",
+    "description": "Adult beginner watercolor class in the Community Hall. Rescheduled from 11/10; currently on waitlist. Registration required.",
     "category": "other"
    },
    {
@@ -2309,7 +2273,7 @@
     "start": "15:30",
     "end": "16:30",
     "price": null,
-    "description": "Drop-in self-directed art program for grades K-4. No registration required.",
+    "description": "Drop-in art program for grades K-4 to create with a variety of art materials. No registration required.",
     "category": "other"
    }
   ]
@@ -2319,5 +2283,245 @@
   "asked": "2026-11-18T22:13:15-06:00",
   "on": "2026-11-18",
   "events": []
+ },
+ "https://www.motherfools.com/": {
+  "hash": "e20e7cef9e6bad524c0413dc77809122daf0f9cd",
+  "asked": "2026-11-21T11:58:29-06:00",
+  "on": "2026-11-21",
+  "events": [
+   {
+    "title": "Mad City Story Slam: Surprise",
+    "date": "2026-12-04",
+    "start": "19:00",
+    "end": null,
+    "price": null,
+    "description": "Share a 5-minute true, personal story at the mic, or come to listen. Theme: moments that surprised us and unexpected twists. Sign-up starts at 6:30.",
+    "category": "other"
+   }
+  ]
+ },
+ "http://www.fitchburgwi.gov/Calendar.aspx?EID=19916": {
+  "hash": "4f143eac9095121bf0a01a71190322e0e101333e",
+  "asked": "2026-11-21T11:59:00-06:00",
+  "on": "2026-11-21",
+  "events": []
+ },
+ "http://www.fitchburgwi.gov/calendar.aspx?CID=24": {
+  "hash": "7b6303aa4b751045e159d8f278925dd02a057ae7",
+  "asked": "2026-11-21T11:59:00-06:00",
+  "on": "2026-11-21",
+  "events": []
+ },
+ "http://www.fitchburgwi.gov/Calendar.aspx?EID=19968": {
+  "hash": "cf26c7065bfca32dd1faba92fe484b9e8da6a809",
+  "asked": "2026-11-21T11:59:14-06:00",
+  "on": "2026-11-21",
+  "events": [
+   {
+    "title": "¡A Comer!",
+    "date": "2026-11-23",
+    "start": "10:30",
+    "end": "12:30",
+    "price": null,
+    "description": "Spanish-language group at the Fitchburg Senior Center",
+    "category": "food"
+   },
+   {
+    "title": "Tuesday Indoor Pickleball",
+    "date": "2026-11-24",
+    "start": "10:00",
+    "end": "14:00",
+    "price": null,
+    "description": "Indoor pickleball at the Fitchburg Senior Center",
+    "category": "sports"
+   },
+   {
+    "title": "Healthy Mind, Healthy Life",
+    "date": "2026-11-24",
+    "start": "10:30",
+    "end": "12:00",
+    "price": null,
+    "description": "Senior Center activity",
+    "category": "other"
+   },
+   {
+    "title": "FItchburg Ukelele Network!",
+    "date": "2026-11-24",
+    "start": "13:00",
+    "end": "14:30",
+    "price": null,
+    "description": "Ukulele group at the Fitchburg Senior Center",
+    "category": "music"
+   },
+   {
+    "title": "Open Mic!",
+    "date": "2026-11-25",
+    "start": "11:45",
+    "end": "12:45",
+    "price": null,
+    "description": "Open mic at the Fitchburg Senior Center",
+    "category": "open_mic"
+   },
+   {
+    "title": "Sticks & Hooks: Calling all Yarnies!!",
+    "date": "2026-11-25",
+    "start": "13:00",
+    "end": "15:00",
+    "price": null,
+    "description": "Knitting and crochet group at the Senior Center",
+    "category": "other"
+   },
+   {
+    "title": "Tai Chi",
+    "date": "2026-11-26",
+    "start": "10:00",
+    "end": "11:00",
+    "price": null,
+    "description": "Tai Chi class at the Senior Center",
+    "category": "other"
+   },
+   {
+    "title": "¡A Comer!",
+    "date": "2026-11-26",
+    "start": "10:30",
+    "end": "12:30",
+    "price": null,
+    "description": "Spanish-language group at the Fitchburg Senior Center",
+    "category": "food"
+   },
+   {
+    "title": "¡A Jugar! (BINGO)",
+    "date": "2026-11-26",
+    "start": "12:30",
+    "end": "13:30",
+    "price": null,
+    "description": "Spanish-language bingo at the Senior Center",
+    "category": "bingo"
+   },
+   {
+    "title": "Mesa de Conversación: A Friendly Spanish Conversation Group",
+    "date": "2026-11-26",
+    "start": "13:30",
+    "end": "14:30",
+    "price": null,
+    "description": "Friendly Spanish conversation group at the Senior Center",
+    "category": "other"
+   },
+   {
+    "title": "Informal Writing Group",
+    "date": "2026-11-27",
+    "start": "11:00",
+    "end": "12:30",
+    "price": null,
+    "description": "Writing group at the Senior Center",
+    "category": "other"
+   },
+   {
+    "title": "¡A Comer!",
+    "date": "2026-11-30",
+    "start": "10:30",
+    "end": "12:30",
+    "price": null,
+    "description": "Spanish-language group at the Fitchburg Senior Center",
+    "category": "food"
+   },
+   {
+    "title": "Tuesday Indoor Pickleball",
+    "date": "2026-12-01",
+    "start": "10:00",
+    "end": "14:00",
+    "price": null,
+    "description": "Indoor pickleball at the Fitchburg Senior Center",
+    "category": "sports"
+   },
+   {
+    "title": "FItchburg Ukelele Network!",
+    "date": "2026-12-01",
+    "start": "13:00",
+    "end": "14:30",
+    "price": null,
+    "description": "Ukulele group at the Fitchburg Senior Center",
+    "category": "music"
+   },
+   {
+    "title": "Tai Chi",
+    "date": "2026-12-03",
+    "start": "10:00",
+    "end": "11:00",
+    "price": null,
+    "description": "Tai Chi class at the Senior Center",
+    "category": "other"
+   },
+   {
+    "title": "¡A Comer!",
+    "date": "2026-12-03",
+    "start": "10:30",
+    "end": "12:30",
+    "price": null,
+    "description": "Spanish-language group at the Fitchburg Senior Center",
+    "category": "food"
+   },
+   {
+    "title": "¡A Jugar! (BINGO)",
+    "date": "2026-12-03",
+    "start": "12:30",
+    "end": "13:30",
+    "price": null,
+    "description": "Spanish-language bingo at the Senior Center",
+    "category": "bingo"
+   },
+   {
+    "title": "Informal Writing Group",
+    "date": "2026-12-04",
+    "start": "11:00",
+    "end": "12:30",
+    "price": null,
+    "description": "Writing group at the Senior Center",
+    "category": "other"
+   }
+  ]
+ },
+ "http://www.fitchburgwi.gov/calendar.aspx?CID=22": {
+  "hash": "f0eb97cd534efb818c3dc2e1a7beac2405b2e691",
+  "asked": "2026-11-21T11:59:16-06:00",
+  "on": "2026-11-21",
+  "events": [
+   {
+    "title": "Saturday Storytime",
+    "date": "2026-11-21",
+    "start": "10:30",
+    "end": "11:00",
+    "price": null,
+    "description": "30-minute storytime with stories, songs, and movement for ages 2-5.",
+    "category": "other"
+   },
+   {
+    "title": "Preschool Storytime",
+    "date": "2026-11-30",
+    "start": "09:30",
+    "end": "10:00",
+    "price": null,
+    "description": "30-minute preschool storytime with stories, songs, and movement for ages 2-5.",
+    "category": "other"
+   },
+   {
+    "title": "Preschool Storytime",
+    "date": "2026-11-30",
+    "start": "11:00",
+    "end": "11:30",
+    "price": null,
+    "description": "30-minute preschool storytime with stories, songs, and movement for ages 2-5.",
+    "category": "other"
+   },
+   {
+    "title": "Movie and Hot Cocoa",
+    "date": "2026-11-30",
+    "start": "18:00",
+    "end": "19:30",
+    "price": null,
+    "description": "Movie screening with hot cocoa at the library, listed for children.",
+    "category": "film"
+   }
+  ]
  }
 }

@@ -1211,5 +1211,37 @@
  "wings arena at deforest yards": null,
  "uw memorial union-shannon hall": null,
  "audio for the arts": null,
- "the loft at 132, sun prairie": null
+ "the loft at 132, sun prairie": null,
+ "picnic point entrance": null,
+ "sun prairie library": {
+  "lat": 43.175773,
+  "lon": -89.23545,
+  "address": "1350 Linnerud Drive",
+  "city": "Sun Prairie"
+ },
+ "bank of sun prairie stadium at ashley field, sun prairie": {
+  "lat": 43.182058,
+  "lon": -89.219157,
+  "address": "152 Kroncke Drive",
+  "city": "Sun Prairie"
+ },
+ "elizabeth link peace park": {
+  "lat": 43.075181,
+  "lon": -89.392501,
+  "address": "",
+  "city": "Madison"
+ },
+ "colonial club, sun prairie": null,
+ "four winds farm, fitchburg": {
+  "lat": 42.959911,
+  "lon": -89.439655,
+  "address": "",
+  "city": "Fitchburg"
+ },
+ "mt. zion baptist church": {
+  "lat": 43.044115,
+  "lon": -89.390994,
+  "address": "",
+  "city": "Madison"
+ }
 }

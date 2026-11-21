@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-20T22:00:09-06:00",
+ "generated_at": "2026-11-21T11:59:41-06:00",
  "venues_checked": 237,
  "venues_with_events": 61,
- "venues_with_feeds": 83,
- "events": 347,
- "filtered_out": 156,
+ "venues_with_feeds": 84,
+ "events": 310,
+ "filtered_out": 162,
  "venues": [
   {
    "name": "AI page reading",
@@ -13,12 +13,12 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 164,
+   "raw_events": 171,
    "error": "",
-   "calls": 23,
-   "tokens_in": 52595,
-   "tokens_out": 20182,
-   "est_cost_usd": 0.0154
+   "calls": 34,
+   "tokens_in": 65887,
+   "tokens_out": 27768,
+   "est_cost_usd": 0.0205
   },
   {
    "name": "Isthmus calendar",
@@ -27,8 +27,8 @@
    "feeds": [
     "calendar"
    ],
-   "raw_events": 145,
-   "error": "used today's copy (read once a day)"
+   "raw_events": 121,
+   "error": ""
   },
   {
    "name": "Bayview Community Center",
@@ -38,7 +38,7 @@
     "tribe",
     "jsonld"
    ],
-   "raw_events": 81,
+   "raw_events": 75,
    "error": ""
   },
   {
@@ -48,7 +48,7 @@
    "feeds": [
     "ticketmaster"
    ],
-   "raw_events": 44,
+   "raw_events": 42,
    "error": ""
   },
   {
@@ -64,6 +64,17 @@
    ],
    "raw_events": 37,
    "error": ""
+  },
+  {
+   "name": "E.D. Locke Public Library",
+   "kind": "library",
+   "website": "https://www.mcfarlandlibrary.org/home",
+   "feeds": [
+    "ical",
+    "ical"
+   ],
+   "raw_events": 32,
+   "error": "ical: ConnectionError: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //www.mcfarlandlibrary.org/calendar/month (Caused by NameResolutionError(\"HTTPSConnection(host='https"
   },
   {
    "name": "Working Draft Beer Company",
@@ -94,15 +105,14 @@
    "error": ""
   },
   {
-   "name": "E.D. Locke Public Library",
-   "kind": "library",
-   "website": "https://www.mcfarlandlibrary.org/home",
+   "name": "Fitchburg Senior Center",
+   "kind": "community",
+   "website": "http://www.fitchburgwi.gov/621/Senior-Center",
    "feeds": [
-    "ical",
-    "ical"
+    "ai"
    ],
-   "raw_events": 29,
-   "error": "ical: ConnectionError: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //www.mcfarlandlibrary.org/calendar/month (Caused by NameResolutionError(\"HTTPSConnection(host='https"
+   "raw_events": 18,
+   "error": ""
   },
   {
    "name": "Cafe CODA",
@@ -115,7 +125,7 @@
     "jsonld",
     "jsonld"
    ],
-   "raw_events": 19,
+   "raw_events": 16,
    "error": ""
   },
   {
@@ -126,20 +136,6 @@
     "ai"
    ],
    "raw_events": 14,
-   "error": ""
-  },
-  {
-   "name": "Lone Girl Tap Room And Pizza Company",
-   "kind": "bar",
-   "website": "https://thelonegirl.com",
-   "feeds": [
-    "tribe",
-    "jsonld",
-    "jsonld",
-    "jsonld",
-    "jsonld"
-   ],
-   "raw_events": 13,
    "error": ""
   },
   {
@@ -157,6 +153,20 @@
    "error": ""
   },
   {
+   "name": "Lone Girl Tap Room And Pizza Company",
+   "kind": "bar",
+   "website": "https://thelonegirl.com",
+   "feeds": [
+    "tribe",
+    "jsonld",
+    "jsonld",
+    "jsonld",
+    "jsonld"
+   ],
+   "raw_events": 11,
+   "error": ""
+  },
+  {
    "name": "Gib's Bar",
    "kind": "bar",
    "website": "https://www.gibs.bar/",
@@ -167,23 +177,13 @@
    "error": ""
   },
   {
-   "name": "Sun Prairie Public Library",
-   "kind": "library",
-   "website": "https://www.sunprairiepubliclibrary.org/",
+   "name": "Lazy Oaf Lounge",
+   "kind": "bar",
+   "website": "https://www.lazyoaflounge.com/",
    "feeds": [
     "ai"
    ],
    "raw_events": 10,
-   "error": ""
-  },
-  {
-   "name": "High Noon Saloon",
-   "kind": "bar",
-   "website": "https://www.high-noon.com/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 9,
    "error": ""
   },
   {
@@ -197,9 +197,9 @@
    "error": ""
   },
   {
-   "name": "Lazy Oaf Lounge",
+   "name": "High Noon Saloon",
    "kind": "bar",
-   "website": "https://www.lazyoaflounge.com/",
+   "website": "https://www.high-noon.com/",
    "feeds": [
     "ai"
    ],
@@ -207,39 +207,19 @@
    "error": ""
   },
   {
-   "name": "Imagination Center",
+   "name": "Sun Prairie Public Library",
    "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
+   "website": "https://www.sunprairiepubliclibrary.org/",
    "feeds": [
     "ai"
    ],
-   "raw_events": 7,
+   "raw_events": 8,
    "error": ""
   },
   {
    "name": "Reindahl Park Pavillion",
    "kind": "community",
    "website": "https://www.cityofmadison.com/parks/find-a-park/reindahl/pavilion-at-the-imagination-center",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 7,
-   "error": ""
-  },
-  {
-   "name": "Sequoya Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/sequoya",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 7,
-   "error": ""
-  },
-  {
-   "name": "The Kickback",
-   "kind": "bar",
-   "website": "https://thekickback.bar/",
    "feeds": [
     "ai"
    ],
@@ -267,9 +247,19 @@
    "error": ""
   },
   {
-   "name": "Pinney Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
+   "name": "Children's Theater of Madison",
+   "kind": "venue",
+   "website": "https://ctmtheater.org/",
+   "feeds": [
+    "tribe"
+   ],
+   "raw_events": 6,
+   "error": ""
+  },
+  {
+   "name": "The Kickback",
+   "kind": "bar",
+   "website": "https://thekickback.bar/",
    "feeds": [
     "ai"
    ],
@@ -287,19 +277,9 @@
    "error": ""
   },
   {
-   "name": "Waunakee Public Library",
+   "name": "Imagination Center",
    "kind": "library",
-   "website": "https://www.waunakeepubliclibrary.org/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 6,
-   "error": ""
-  },
-  {
-   "name": "Gamma Ray Bar",
-   "kind": "bar",
-   "website": "https://gammaray.bar",
+   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
    "feeds": [
     "ai"
    ],
@@ -307,12 +287,21 @@
    "error": ""
   },
   {
-   "name": "One Social Bar",
-   "kind": "bar",
-   "website": "https://onesocialmadison.com/vendor/one-social-bar/",
+   "name": "Pinney Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
    "feeds": [
-    "tribe",
-    "jsonld"
+    "ai"
+   ],
+   "raw_events": 5,
+   "error": ""
+  },
+  {
+   "name": "Waunakee Public Library",
+   "kind": "library",
+   "website": "https://www.waunakeepubliclibrary.org/",
+   "feeds": [
+    "ai"
    ],
    "raw_events": 5,
    "error": ""
@@ -340,19 +329,29 @@
    "error": ""
   },
   {
-   "name": "Children's Theater of Madison",
-   "kind": "venue",
-   "website": "https://ctmtheater.org/",
+   "name": "Crystal Corner Bar",
+   "kind": "bar",
+   "website": "https://thecrystalcornerbar.com/",
    "feeds": [
-    "tribe"
+    "ai"
    ],
    "raw_events": 4,
    "error": ""
   },
   {
-   "name": "Crystal Corner Bar",
+   "name": "Fitchburg Public Library",
+   "kind": "library",
+   "website": "http://www.fitchburgwi.gov/822/Library",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 4,
+   "error": ""
+  },
+  {
+   "name": "Gamma Ray Bar",
    "kind": "bar",
-   "website": "https://thecrystalcornerbar.com/",
+   "website": "https://gammaray.bar",
    "feeds": [
     "ai"
    ],
@@ -365,6 +364,17 @@
    "website": "https://www.madisonpubliclibrary.org/monroe-street",
    "feeds": [
     "ai"
+   ],
+   "raw_events": 4,
+   "error": ""
+  },
+  {
+   "name": "One Social Bar",
+   "kind": "bar",
+   "website": "https://onesocialmadison.com/vendor/one-social-bar/",
+   "feeds": [
+    "tribe",
+    "jsonld"
    ],
    "raw_events": 4,
    "error": ""
@@ -395,17 +405,6 @@
    "website": "https://www.mymonona.com/1395/Below-Deck-Concession-Stand",
    "feeds": [
     "ai"
-   ],
-   "raw_events": 3,
-   "error": ""
-  },
-  {
-   "name": "Come Back Inn",
-   "kind": "bar",
-   "website": "https://comebackintavern.com/",
-   "feeds": [
-    "tribe",
-    "jsonld"
    ],
    "raw_events": 3,
    "error": ""
@@ -483,16 +482,6 @@
     "jsonld",
     "jsonld",
     "jsonld"
-   ],
-   "raw_events": 2,
-   "error": ""
-  },
-  {
-   "name": "Central Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/central",
-   "feeds": [
-    "ai"
    ],
    "raw_events": 2,
    "error": ""
@@ -582,6 +571,16 @@
    "error": ""
   },
   {
+   "name": "Central Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/central",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 1,
+   "error": ""
+  },
+  {
    "name": "Doundrins Distilling",
    "kind": "brewery",
    "website": "https://doundrinsdistilling.com/",
@@ -622,19 +621,9 @@
    "error": ""
   },
   {
-   "name": "Karben4 Brewing",
-   "kind": "brewery",
-   "website": "https://www.karben4.com/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 1,
-   "error": ""
-  },
-  {
-   "name": "Lakeside Street Coffee House",
+   "name": "Mother Fool's",
    "kind": "cafe",
-   "website": "https://lakesidestcoffeehouse.com/",
+   "website": "https://www.motherfools.com/",
    "feeds": [
     "ai"
    ],
@@ -647,6 +636,16 @@
    "website": "https://www.quiveysgrove.com/stable-grill",
    "feeds": [
     "jsonld"
+   ],
+   "raw_events": 1,
+   "error": ""
+  },
+  {
+   "name": "Sequoya Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/sequoya",
+   "feeds": [
+    "ai"
    ],
    "raw_events": 1,
    "error": ""
@@ -913,6 +912,17 @@
    "error": ""
   },
   {
+   "name": "Come Back Inn",
+   "kind": "bar",
+   "website": "https://comebackintavern.com/",
+   "feeds": [
+    "tribe",
+    "jsonld"
+   ],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
    "name": "Communication",
    "kind": "venue",
    "website": "https://communicationmadison.com/",
@@ -1037,22 +1047,6 @@
    "feeds": [],
    "raw_events": 0,
    "error": "site unreachable"
-  },
-  {
-   "name": "Fitchburg Public Library",
-   "kind": "library",
-   "website": "http://www.fitchburgwi.gov/822/Library",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Fitchburg Senior Center",
-   "kind": "community",
-   "website": "http://www.fitchburgwi.gov/621/Senior-Center",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
   },
   {
    "name": "Flynn Hall",
@@ -1256,9 +1250,25 @@
    "error": ""
   },
   {
+   "name": "Karben4 Brewing",
+   "kind": "brewery",
+   "website": "https://www.karben4.com/",
+   "feeds": [],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
    "name": "Kehl School of Dance",
    "kind": "venue",
    "website": "https://www.kehldance.com/",
+   "feeds": [],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
+   "name": "Lakeside Street Coffee House",
+   "kind": "cafe",
+   "website": "https://lakesidestcoffeehouse.com/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1479,14 +1489,6 @@
    "name": "Monroe Street Arts Center",
    "kind": "venue",
    "website": "https://www.monroestreetarts.org/",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Mother Fool's",
-   "kind": "cafe",
-   "website": "https://www.motherfools.com/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
