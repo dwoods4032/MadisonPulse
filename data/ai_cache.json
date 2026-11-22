@@ -13,8 +13,8 @@
  },
  "https://thecrystalcornerbar.com/Calendar.htm": {
   "hash": "39ad3ef516a6dffff9337e6ae71f6c90c40d413f",
-  "asked": "2026-11-18T13:25:06-06:00",
-  "on": "2026-11-18",
+  "asked": "2026-11-21T21:10:33-06:00",
+  "on": "2026-11-21",
   "events": [
    {
     "title": "Cash Box Kings",
@@ -22,16 +22,25 @@
     "start": "20:00",
     "end": null,
     "price": 15,
-    "description": "Blues band, described by Living Blues as one of the best blues bands in the land.",
+    "description": "Blues band, described as one of the best blues bands in the land",
     "category": "music"
    },
    {
-    "title": "The Mersey Brothers featuring Sean Michael Dargan (New Wave Rock - Eighties Alt Rock Night)",
+    "title": "The Mersey Brothers featuring Sean Michael Dargan",
     "date": "2026-11-28",
     "start": "20:00",
     "end": null,
     "price": 10,
-    "description": "New wave rock and eighties alt rock night.",
+    "description": "New Wave Rock - Eighties Alt Rock Night",
+    "category": "music"
+   },
+   {
+    "title": "Clean Room, Big Slide, The Scratch-Offs",
+    "date": "2026-12-05",
+    "start": "21:00",
+    "end": null,
+    "price": 10,
+    "description": "Skate Punk / Stoner Rock / Dream Pop / Alt Country show",
     "category": "music"
    }
   ]
@@ -124,8 +133,8 @@
  },
  "https://www.thecrystalcornerbar.com/Calendar.htm": {
   "hash": "39ad3ef516a6dffff9337e6ae71f6c90c40d413f",
-  "asked": "2026-11-18T13:25:08-06:00",
-  "on": "2026-11-18",
+  "asked": "2026-11-21T21:10:36-06:00",
+  "on": "2026-11-21",
   "events": [
    {
     "title": "Cash Box Kings",
@@ -133,16 +142,25 @@
     "start": "20:00",
     "end": null,
     "price": 15,
-    "description": "Blues band, described as one of the best blues bands in the land.",
+    "description": "Blues band, described by Living Blues as one of the best blues bands in the land.",
     "category": "music"
    },
    {
-    "title": "The Mersey Brothers featuring Sean Michael Dargan",
+    "title": "New Wave Rock - Eighties Alt Rock Night: The Mersey Brothers featuring Sean Michael Dargan",
     "date": "2026-11-28",
     "start": "20:00",
     "end": null,
     "price": 10,
-    "description": "New Wave Rock, Eighties Alt Rock Night.",
+    "description": "Eighties alt rock night with The Mersey Brothers featuring Sean Michael Dargan.",
+    "category": "music"
+   },
+   {
+    "title": "Clean Room, Big Slide, The Scratch-Offs",
+    "date": "2026-12-05",
+    "start": "21:00",
+    "end": null,
+    "price": 10,
+    "description": "Skate punk, stoner rock, dream pop and alt country lineup.",
     "category": "music"
    }
   ]
@@ -782,20 +800,10 @@
   "events": []
  },
  "https://www.karben4.com/events": {
-  "hash": "d1adf74ab50b41874ded8e6a90ac00d757298eb2",
-  "asked": "2026-11-18T13:25:29-06:00",
-  "on": "2026-11-18",
-  "events": [
-   {
-    "title": "Community Bingo Night w/ Brown Paws Rescue",
-    "date": "2026-11-20",
-    "start": "18:30",
-    "end": null,
-    "price": null,
-    "description": "Bingo with special cards celebrating Brown Paws Rescue's anniversary; meet adoptable pups and raise money for the rescue.",
-    "category": "bingo"
-   }
-  ]
+  "hash": "8b9e07034c39502348448524a0223ba5e76fc706",
+  "asked": "2026-11-21T21:10:42-06:00",
+  "on": "2026-11-21",
+  "events": []
  },
  "https://oldsugardistillery.com/private-events/": {
   "hash": "84cba732ced6ecb8f6a0b7047c48ae7e951eb5de",
@@ -890,8 +898,8 @@
  },
  "https://www.statelinedistillery.com/cocktail-lounge/events": {
   "hash": "b7b1ac5c7b3d010903b5ba8e88f685097be848af",
-  "asked": "2026-11-18T13:25:31-06:00",
-  "on": "2026-11-18",
+  "asked": "2026-11-21T21:10:45-06:00",
+  "on": "2026-11-21",
   "events": [
    {
     "title": "Bear in the Forest Show",
@@ -899,8 +907,8 @@
     "start": "18:00",
     "end": "21:00",
     "price": null,
-    "description": "Show at State Line Distillery cocktail lounge.",
-    "category": "other"
+    "description": "Show at State Line Distillery Cocktail Lounge.",
+    "category": "music"
    },
    {
     "title": "Theo Maynard Pop Up Print Sale",
@@ -908,7 +916,7 @@
     "start": "16:00",
     "end": "20:00",
     "price": null,
-    "description": "Pop-up print sale featuring Theo Maynard.",
+    "description": "Pop-up print sale.",
     "category": "other"
    },
    {
@@ -917,7 +925,7 @@
     "start": "12:00",
     "end": "17:00",
     "price": null,
-    "description": "Black Friday pub crawl with Maker's Market.",
+    "description": "Black Friday maker's market and pub crawl.",
     "category": "other"
    },
    {
@@ -928,6 +936,24 @@
     "price": null,
     "description": "Board game speed dating event.",
     "category": "other"
+   },
+   {
+    "title": "Fetch Paws + Pours",
+    "date": "2026-12-05",
+    "start": "15:00",
+    "end": "17:00",
+    "price": null,
+    "description": "Afternoon event pairing dogs (Fetch Paws) with drinks.",
+    "category": "other"
+   },
+   {
+    "title": "Worms for Sale Show",
+    "date": "2026-12-05",
+    "start": "19:00",
+    "end": "21:00",
+    "price": null,
+    "description": "Show at State Line Distillery Cocktail Lounge.",
+    "category": "music"
    }
   ]
  },
@@ -1060,26 +1086,17 @@
   ]
  },
  "https://www.mymonona.com/1587/Special-Events": {
-  "hash": "74af120490fcb574d4978fea5dfcafaaacc63a83",
-  "asked": "2026-11-19T21:59:02-06:00",
-  "on": "2026-11-19",
+  "hash": "0488f0378d42f4a050dc3aaa90bd33f1bef0660b",
+  "asked": "2026-11-21T21:10:48-06:00",
+  "on": "2026-11-21",
   "events": [
-   {
-    "title": "45th Annual Holiday House Bazaar",
-    "date": "2026-11-21",
-    "start": null,
-    "end": null,
-    "price": null,
-    "description": "45th Annual Holiday House Bazaar, listed on the Monona Special Events calendar.",
-    "category": "other"
-   },
    {
     "title": "45th Annual Holiday House Bazaar",
     "date": "2026-11-22",
     "start": null,
     "end": null,
     "price": null,
-    "description": "45th Annual Holiday House Bazaar, listed on the Monona Special Events calendar.",
+    "description": "Annual Holiday House Bazaar, listed on the Monona Special Events calendar.",
     "category": "other"
    },
    {
@@ -1089,6 +1106,15 @@
     "end": null,
     "price": null,
     "description": "Opening day of the Lake Ridge Bank River Rink.",
+    "category": "other"
+   },
+   {
+    "title": "Light the Ice Ceremony - Rescheduled",
+    "date": "2026-12-05",
+    "start": null,
+    "end": null,
+    "price": null,
+    "description": "Light the Ice Ceremony, rescheduled per the City of Monona listing.",
     "category": "other"
    }
   ]
@@ -1176,9 +1202,9 @@
   ]
  },
  "https://merciescoffeewi.com/": {
-  "hash": "df5874fee1b823779e94ea5c9a7328de2b9d04b5",
-  "asked": "2026-11-20T21:59:15-06:00",
-  "on": "2026-11-20",
+  "hash": "cc4992b115401248faba20c6e1c0bf170900ef43",
+  "asked": "2026-11-21T21:11:03-06:00",
+  "on": "2026-11-21",
   "events": []
  },
  "https://motherfools.com/event/20261106/mad-city-story-slam-rebellion": {
@@ -1435,8 +1461,8 @@
   "events": []
  },
  "https://www.madisonpubliclibrary.org/spaces/events": {
-  "hash": "655cfaab27fff24877d515789aa9c341ea97715f",
-  "asked": "2026-11-21T11:59:03-06:00",
+  "hash": "8b989fd2ff00aa7111ebafcabd2cd13a6f40b832",
+  "asked": "2026-11-21T21:11:43-06:00",
   "on": "2026-11-21",
   "events": []
  },
@@ -1481,26 +1507,17 @@
   "events": []
  },
  "https://www.sunprairiepubliclibrary.org/home-delivery-service": {
-  "hash": "83734377297da3df4aa2af56b39ae30ff53b35d7",
-  "asked": "2026-11-21T11:59:00-06:00",
+  "hash": "80bffb535632f8de581c02f4d347b23a78a63e22",
+  "asked": "2026-11-21T21:11:36-06:00",
   "on": "2026-11-21",
   "events": [
-   {
-    "title": "Author Event: TJ Klune *FULL*",
-    "date": "2026-11-21",
-    "start": "13:00",
-    "end": "15:00",
-    "price": null,
-    "description": "Author event with TJ Klune for teens and adults. Listed as full.",
-    "category": "other"
-   },
    {
     "title": "Urban SUN: Black Voices Book Club",
     "date": "2026-11-22",
     "start": "15:00",
     "end": "16:00",
     "price": null,
-    "description": "Book club for adults.",
+    "description": "Book club for adults at Sun Prairie Public Library.",
     "category": "other"
    },
    {
@@ -1509,7 +1526,7 @@
     "start": "10:00",
     "end": "11:30",
     "price": null,
-    "description": "Beginner ancestry research session for adults.",
+    "description": "Beginner ancestry research session for adults at Sun Prairie Public Library.",
     "category": "other"
    },
    {
@@ -1518,7 +1535,16 @@
     "start": "12:00",
     "end": "17:00",
     "price": null,
-    "description": "Red Cross blood drive for adults.",
+    "description": "Red Cross blood drive for adults at Sun Prairie Public Library.",
+    "category": "other"
+   },
+   {
+    "title": "Teen Creativity Club",
+    "date": "2026-12-01",
+    "start": "16:00",
+    "end": "18:00",
+    "price": null,
+    "description": "Creativity club for teens at Sun Prairie Public Library.",
     "category": "other"
    }
   ]
@@ -1589,10 +1615,38 @@
   ]
  },
  "https://www.madisonpubliclibrary.org/spaces/events/search": {
-  "hash": "6dbf72251bfb99070e13caf4279542b07f6b174f",
-  "asked": "2026-11-21T11:59:10-06:00",
+  "hash": "b034aaf0c4b30cf444949c5426855403637fdc78",
+  "asked": "2026-11-21T21:11:44-06:00",
   "on": "2026-11-21",
-  "events": []
+  "events": [
+   {
+    "title": "Children's International Story Hour",
+    "date": "2026-11-23",
+    "start": "16:00",
+    "end": "17:00",
+    "price": null,
+    "description": "Children's international story hour in the Youth Program Room, presented with UW-Madison's Institute for Regional and International Studies and Wisconsin Public Libraries.",
+    "category": "other"
+   },
+   {
+    "title": "Naturalist-in-Residence: Gratitude for the Earth, A Seasonal Reflection Gathering",
+    "date": "2026-11-23",
+    "start": "18:00",
+    "end": "19:30",
+    "price": null,
+    "description": "Evening of reflection before Thanksgiving honoring gifts from the natural world, with poetry, storytelling and journaling in Community Room B.",
+    "category": "other"
+   },
+   {
+    "title": "Pen Pals Writing Group",
+    "date": "2026-11-23",
+    "start": "18:30",
+    "end": "20:30",
+    "price": null,
+    "description": "Writing group in Community Room A for people working on fiction or other writing projects and seeking writing companions.",
+    "category": "other"
+   }
+  ]
  },
  "https://artlitlab.org/calendar": {
   "hash": "a6040298bf1f8168e9a31e757f960e541a3d5b2d",
@@ -1629,53 +1683,35 @@
   ]
  },
  "https://bartelltheatre.org/": {
-  "hash": "b0cf8a91570b87b4abe9641e7967a820d0c36999",
-  "asked": "2026-11-21T11:59:15-06:00",
+  "hash": "5c46cac8b91a4ef0f3c1643276a72a9782a6e997",
+  "asked": "2026-11-21T21:11:45-06:00",
   "on": "2026-11-21",
   "events": [
-   {
-    "title": "Saturday Scene Study Showcase",
-    "date": "2026-11-21",
-    "start": null,
-    "end": null,
-    "price": null,
-    "description": "Ticketed showcase closing the six-week scene study class, on the Evjue Stage.",
-    "category": "theater"
-   },
-   {
-    "title": "Romeo and Juliet",
-    "date": "2026-11-21",
-    "start": "12:00",
-    "end": null,
-    "price": null,
-    "description": "Shakespeare's tragedy of two young lovers caught in feuding Capulet and Montague families.",
-    "category": "theater"
-   },
    {
     "title": "Writers Block: December 2026",
     "date": "2026-12-03",
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Performance listed on the Bartell Theatre schedule.",
-    "category": "theater"
+    "description": "Songwriters in the Round: three artists in an intimate, all-acoustic show, the season finale.",
+    "category": "music"
    },
    {
-    "title": "Under A Rest",
+    "title": "Under A-Rest Winter Concert",
     "date": "2026-12-05",
     "start": "13:00",
     "end": null,
     "price": null,
-    "description": "Performance listed on the Bartell Theatre schedule.",
-    "category": "theater"
+    "description": "Winter holiday concert by the UW-Madison mixed-voice a cappella group Under A-Rest.",
+    "category": "music"
    },
    {
-    "title": "Pitches & Notes",
+    "title": "OPERATION: EDELWEISS (a panto)",
     "date": "2026-12-05",
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "Performance listed on the Bartell Theatre schedule.",
+    "description": "A panto performed at Bartell Theatre.",
     "category": "theater"
    }
   ]
@@ -1727,26 +1763,17 @@
   ]
  },
  "https://www.overture.org/tickets-events/": {
-  "hash": "98e540e0cf8cec62dfa341aa17e20f44f29e8b8c",
-  "asked": "2026-11-21T11:59:18-06:00",
+  "hash": "ed9f2f3c4ae93895d8f20234a701f52029b17c01",
+  "asked": "2026-11-21T21:11:50-06:00",
   "on": "2026-11-21",
   "events": [
-   {
-    "title": "Beni Daiko",
-    "date": "2026-11-21",
-    "start": "13:00",
-    "end": null,
-    "price": null,
-    "description": "Performance at Overture Center, 1:00 PM.",
-    "category": "music"
-   },
    {
     "title": "Cash Box Kings",
     "date": "2026-11-27",
     "start": null,
     "end": null,
     "price": null,
-    "description": "Performance at Overture Center with multiple showtimes.",
+    "description": "Multiple showtimes listed on Overture's events page.",
     "category": "music"
    },
    {
@@ -1755,7 +1782,16 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Performance at Overture Center with multiple showtimes.",
+    "description": "Multiple showtimes listed on Overture's events page.",
+    "category": "music"
+   },
+   {
+    "title": "Yid Vicious",
+    "date": "2026-12-05",
+    "start": null,
+    "end": null,
+    "price": null,
+    "description": "Multiple showtimes listed on Overture's events page.",
     "category": "music"
    }
   ]
@@ -1895,10 +1931,20 @@
   "events": []
  },
  "https://high-noon.com/event/dogpark/": {
-  "hash": "77362219058d5b7274498dcb106925ccd5a1a2e0",
-  "asked": "2026-11-21T11:58:05-06:00",
+  "hash": "8157c7f822dc00b6e5236e520e28a7a9932f2bff",
+  "asked": "2026-11-21T21:10:38-06:00",
   "on": "2026-11-21",
-  "events": []
+  "events": [
+   {
+    "title": "Varsity Mac + Scorched Waves with Velvet Blue and In Ropes",
+    "date": "2026-12-04",
+    "start": "20:00",
+    "end": null,
+    "price": null,
+    "description": "FPC Live presents Varsity Mac and Scorched Waves, with Velvet Blue and In Ropes. Doors 7:00 pm, show 8:00 pm. 18+ unless accompanied by a parent or guardian is not stated for this show.",
+    "category": "music"
+   }
+  ]
  },
  "https://thekickback.bar/premier-trivia-tuesday-nov-3/": {
   "hash": "25992f3a707c36f4ebbe1a9a479acec37b4b7959",
@@ -2025,26 +2071,17 @@
   "events": []
  },
  "https://www.sunprairiepubliclibrary.org/art-committee-and-gallery-shows": {
-  "hash": "1234d9bcdf72dd952d1bd6598c21e4612600a29f",
-  "asked": "2026-11-21T11:59:03-06:00",
+  "hash": "f052968ff517c8c316dab8db0a7393c2d48a2d80",
+  "asked": "2026-11-21T21:11:38-06:00",
   "on": "2026-11-21",
   "events": [
-   {
-    "title": "Author Event: TJ Klune",
-    "date": "2026-11-21",
-    "start": "13:00",
-    "end": "15:00",
-    "price": null,
-    "description": "Author event for teens and adults. Listed as FULL.",
-    "category": "other"
-   },
    {
     "title": "Urban SUN: Black Voices Book Club",
     "date": "2026-11-22",
     "start": "15:00",
     "end": "16:00",
     "price": null,
-    "description": "Book club for adults.",
+    "description": "Book club for adults at Sun Prairie Public Library.",
     "category": "other"
    },
    {
@@ -2053,7 +2090,7 @@
     "start": "10:00",
     "end": "11:30",
     "price": null,
-    "description": "Beginner ancestry research session for adults.",
+    "description": "Beginner ancestry research session for adults at Sun Prairie Public Library.",
     "category": "other"
    },
    {
@@ -2062,7 +2099,16 @@
     "start": "12:00",
     "end": "17:00",
     "price": null,
-    "description": "Community blood drive for adults.",
+    "description": "Red Cross blood drive at Sun Prairie Public Library, for adults.",
+    "category": "other"
+   },
+   {
+    "title": "Teen Creativity Club",
+    "date": "2026-12-01",
+    "start": "16:00",
+    "end": "18:00",
+    "price": null,
+    "description": "Creativity club for teens at Sun Prairie Public Library.",
     "category": "other"
    }
   ]
@@ -2227,26 +2273,17 @@
   ]
  },
  "https://www.waunakeepubliclibrary.org/": {
-  "hash": "31e38f01f3c67feecbcee8d312806f6aa04cc649",
-  "asked": "2026-11-21T11:59:01-06:00",
+  "hash": "c8fb876227e63a384f8acbb1b491a47473e2a8e9",
+  "asked": "2026-11-21T21:11:37-06:00",
   "on": "2026-11-21",
   "events": [
-   {
-    "title": "Friends of the Library Annual Holiday Craft Fair, Book Sale, Bake Sale, Container Raffle, and More!",
-    "date": "2026-11-21",
-    "start": "09:00",
-    "end": "14:00",
-    "price": null,
-    "description": "Friends of the Waunakee Library holiday craft fair, book sale, bake sale and container raffle. Offsite event.",
-    "category": "other"
-   },
    {
     "title": "Maker Monday with Lyon Road Art Academy",
     "date": "2026-11-23",
     "start": "15:30",
     "end": "16:30",
     "price": null,
-    "description": "Kids' figure drawing session inspired by Keith Haring, led by local artist Cole Melvin. Registration required.",
+    "description": "Kids and school-age figure drawing session inspired by Keith Haring; students build a miniature model. Registration required.",
     "category": "other"
    },
    {
@@ -2255,7 +2292,7 @@
     "start": "14:00",
     "end": "15:00",
     "price": null,
-    "description": "For teens and preteens (grades 5 and up) to make personalized buttons with the button maker. Registration not stated.",
+    "description": "Teens and preteens (grades 5 and up) make personalized buttons with the button maker.",
     "category": "other"
    },
    {
@@ -2264,7 +2301,7 @@
     "start": "18:00",
     "end": "19:30",
     "price": null,
-    "description": "Adult beginner watercolor class in the Community Hall. Rescheduled from 11/10; currently on waitlist. Registration required.",
+    "description": "Adult beginner watercolor class (rescheduled from 11/10). Registration required; currently full.",
     "category": "other"
    },
    {
@@ -2273,7 +2310,7 @@
     "start": "15:30",
     "end": "16:30",
     "price": null,
-    "description": "Drop-in art program for grades K-4 to create with a variety of art materials. No registration required.",
+    "description": "Drop-in self-directed art program for grades K-4 using a variety of art materials. No registration required; smocks recommended.",
     "category": "other"
    }
   ]
@@ -2301,20 +2338,20 @@
   ]
  },
  "http://www.fitchburgwi.gov/Calendar.aspx?EID=19916": {
-  "hash": "4f143eac9095121bf0a01a71190322e0e101333e",
-  "asked": "2026-11-21T11:59:00-06:00",
+  "hash": "b6319941bfbc7fd32449ae2ff35e0b9b6307ffb5",
+  "asked": "2026-11-21T21:11:31-06:00",
   "on": "2026-11-21",
   "events": []
  },
  "http://www.fitchburgwi.gov/calendar.aspx?CID=24": {
-  "hash": "7b6303aa4b751045e159d8f278925dd02a057ae7",
-  "asked": "2026-11-21T11:59:00-06:00",
+  "hash": "9f3bd60910aef64e25692bbc4c6c9a8f33e1c026",
+  "asked": "2026-11-21T21:11:31-06:00",
   "on": "2026-11-21",
   "events": []
  },
  "http://www.fitchburgwi.gov/Calendar.aspx?EID=19968": {
-  "hash": "cf26c7065bfca32dd1faba92fe484b9e8da6a809",
-  "asked": "2026-11-21T11:59:14-06:00",
+  "hash": "facfdc0ba14ed86d9ea1ed965b2dd929157d66c1",
+  "asked": "2026-11-21T21:11:39-06:00",
   "on": "2026-11-21",
   "events": [
    {
@@ -2323,7 +2360,7 @@
     "start": "10:30",
     "end": "12:30",
     "price": null,
-    "description": "Spanish-language group at the Fitchburg Senior Center",
+    "description": "Senior Center activity listed as ¡A Comer! (Spanish-language program).",
     "category": "food"
    },
    {
@@ -2332,7 +2369,7 @@
     "start": "10:00",
     "end": "14:00",
     "price": null,
-    "description": "Indoor pickleball at the Fitchburg Senior Center",
+    "description": "Indoor pickleball at the Fitchburg Senior Center.",
     "category": "sports"
    },
    {
@@ -2341,7 +2378,7 @@
     "start": "10:30",
     "end": "12:00",
     "price": null,
-    "description": "Senior Center activity",
+    "description": "Senior Center activity, Healthy Mind, Healthy Life.",
     "category": "other"
    },
    {
@@ -2350,8 +2387,8 @@
     "start": "13:00",
     "end": "14:30",
     "price": null,
-    "description": "Ukulele group at the Fitchburg Senior Center",
-    "category": "music"
+    "description": "Ukulele network meeting at the Senior Center.",
+    "category": "other"
    },
    {
     "title": "Open Mic!",
@@ -2359,7 +2396,7 @@
     "start": "11:45",
     "end": "12:45",
     "price": null,
-    "description": "Open mic at the Fitchburg Senior Center",
+    "description": "Open mic at the Senior Center.",
     "category": "open_mic"
    },
    {
@@ -2368,7 +2405,7 @@
     "start": "13:00",
     "end": "15:00",
     "price": null,
-    "description": "Knitting and crochet group at the Senior Center",
+    "description": "Knitting and crochet group for yarn enthusiasts.",
     "category": "other"
    },
    {
@@ -2377,7 +2414,7 @@
     "start": "10:00",
     "end": "11:00",
     "price": null,
-    "description": "Tai Chi class at the Senior Center",
+    "description": "Tai Chi class at the Senior Center.",
     "category": "other"
    },
    {
@@ -2386,7 +2423,7 @@
     "start": "10:30",
     "end": "12:30",
     "price": null,
-    "description": "Spanish-language group at the Fitchburg Senior Center",
+    "description": "Senior Center activity listed as ¡A Comer! (Spanish-language program).",
     "category": "food"
    },
    {
@@ -2395,7 +2432,7 @@
     "start": "12:30",
     "end": "13:30",
     "price": null,
-    "description": "Spanish-language bingo at the Senior Center",
+    "description": "Spanish-language bingo at the Senior Center.",
     "category": "bingo"
    },
    {
@@ -2404,7 +2441,7 @@
     "start": "13:30",
     "end": "14:30",
     "price": null,
-    "description": "Friendly Spanish conversation group at the Senior Center",
+    "description": "Friendly Spanish conversation group.",
     "category": "other"
    },
    {
@@ -2413,7 +2450,7 @@
     "start": "11:00",
     "end": "12:30",
     "price": null,
-    "description": "Writing group at the Senior Center",
+    "description": "Informal writing group at the Senior Center.",
     "category": "other"
    },
    {
@@ -2422,7 +2459,7 @@
     "start": "10:30",
     "end": "12:30",
     "price": null,
-    "description": "Spanish-language group at the Fitchburg Senior Center",
+    "description": "Senior Center activity listed as ¡A Comer! (Spanish-language program).",
     "category": "food"
    },
    {
@@ -2431,7 +2468,7 @@
     "start": "10:00",
     "end": "14:00",
     "price": null,
-    "description": "Indoor pickleball at the Fitchburg Senior Center",
+    "description": "Indoor pickleball at the Fitchburg Senior Center.",
     "category": "sports"
    },
    {
@@ -2440,8 +2477,8 @@
     "start": "13:00",
     "end": "14:30",
     "price": null,
-    "description": "Ukulele group at the Fitchburg Senior Center",
-    "category": "music"
+    "description": "Ukulele network meeting at the Senior Center.",
+    "category": "other"
    },
    {
     "title": "Tai Chi",
@@ -2449,7 +2486,7 @@
     "start": "10:00",
     "end": "11:00",
     "price": null,
-    "description": "Tai Chi class at the Senior Center",
+    "description": "Tai Chi class at the Senior Center.",
     "category": "other"
    },
    {
@@ -2458,7 +2495,7 @@
     "start": "10:30",
     "end": "12:30",
     "price": null,
-    "description": "Spanish-language group at the Fitchburg Senior Center",
+    "description": "Senior Center activity listed as ¡A Comer! (Spanish-language program).",
     "category": "food"
    },
    {
@@ -2467,7 +2504,7 @@
     "start": "12:30",
     "end": "13:30",
     "price": null,
-    "description": "Spanish-language bingo at the Senior Center",
+    "description": "Spanish-language bingo at the Senior Center.",
     "category": "bingo"
    },
    {
@@ -2476,14 +2513,14 @@
     "start": "11:00",
     "end": "12:30",
     "price": null,
-    "description": "Writing group at the Senior Center",
+    "description": "Informal writing group at the Senior Center.",
     "category": "other"
    }
   ]
  },
  "http://www.fitchburgwi.gov/calendar.aspx?CID=22": {
-  "hash": "f0eb97cd534efb818c3dc2e1a7beac2405b2e691",
-  "asked": "2026-11-21T11:59:16-06:00",
+  "hash": "f83d0f264d565002973d0407a676106f6ef8b040",
+  "asked": "2026-11-21T21:11:35-06:00",
   "on": "2026-11-21",
   "events": [
    {
@@ -2519,7 +2556,7 @@
     "start": "18:00",
     "end": "19:30",
     "price": null,
-    "description": "Movie screening with hot cocoa at the library, listed for children.",
+    "description": "Movie screening with hot cocoa at the library, listed under Library - Kids.",
     "category": "film"
    }
   ]

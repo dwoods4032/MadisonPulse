@@ -1,19 +1,20 @@
 {
- "generated_at": "2026-11-21T11:59:41-06:00",
- "total_events": 310,
+ "generated_at": "2026-11-21T21:12:01-06:00",
+ "total_events": 297,
  "in_more_than_one_source": 15,
  "sources": {
   "AI page reading": {
-   "events": 108,
-   "unique_events": 98,
+   "events": 114,
+   "unique_events": 104,
    "overlap": {
     "Isthmus": 4,
     "Ticketmaster": 7,
     "Venue websites": 0
    },
-   "venues": 34,
+   "venues": 35,
    "unique_venues": [
     "Alicia Ashman Library",
+    "Bartell Theatre",
     "Below Deck Concession Stand",
     "Capital Brewery",
     "Centro",
@@ -31,6 +32,7 @@
     "Overture Center for the Arts",
     "Pinney Library",
     "Reindahl Park Pavillion",
+    "Sequoya Library",
     "Sun Prairie Public Library",
     "The Kickback",
     "The Malt House",
@@ -42,19 +44,17 @@
    ]
   },
   "Isthmus": {
-   "events": 121,
-   "unique_events": 113,
+   "events": 99,
+   "unique_events": 91,
    "overlap": {
     "AI page reading": 4,
     "Ticketmaster": 4,
     "Venue websites": 1
    },
-   "venues": 77,
+   "venues": 68,
    "unique_venues": [
     "American Players Theatre",
     "Atlas Improv Company",
-    "Bank of Sun Prairie Stadium at Ashley Field",
-    "Bethel Lutheran Church",
     "Bierock",
     "Bowl-A-Vard Lanes",
     "Brix Cider",
@@ -64,7 +64,6 @@
     "DoubleTree by Hilton Madison East",
     "Driftless Historium",
     "Edgewood High School",
-    "Edgewood University-The Stream",
     "Elizabeth Link Peace Park",
     "Essen Haus",
     "FIVE Nightclub",
@@ -85,18 +84,15 @@
     "Lola's Hi/Lo Lounge",
     "Louisianne's",
     "Madison College-Truax",
-    "Meadowridge Library",
     "Mt. Zion Baptist Church",
     "Muso",
     "Overture Center-Playhouse",
     "Paddy Mac's Pub",
     "PhotoMidwest",
-    "Picnic Point Entrance",
     "Red Mouse",
     "Skip's After Market",
     "Sotto",
     "Stoughton Opera House",
-    "Sun Prairie Library",
     "The Atwood",
     "The Bur Oak",
     "The Fharmacy Public House",
@@ -105,20 +101,18 @@
     "The Rigby",
     "UW Cinematheque",
     "UW Hamel Music Center-Mead Witter Hall",
-    "UW Lathrop Hall-H'Doubler Performance Space",
     "UW Memorial Union-Shannon Hall",
     "UW Vilas Hall-Mitchell Theatre",
     "Wil-Mar Center",
     "Wings Arena at DeForest Yards",
     "Wisconsin Masonic Center",
-    "Wisconsin Veterans Museum",
     "Woof's",
     "Yahara Bay Distillers"
    ]
   },
   "Ticketmaster": {
-   "events": 41,
-   "unique_events": 30,
+   "events": 42,
+   "unique_events": 31,
    "overlap": {
     "AI page reading": 7,
     "Isthmus": 4,
@@ -133,8 +127,8 @@
    ]
   },
   "Venue websites": {
-   "events": 56,
-   "unique_events": 54,
+   "events": 58,
+   "unique_events": 56,
    "overlap": {
     "AI page reading": 0,
     "Isthmus": 1,
