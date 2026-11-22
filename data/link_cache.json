@@ -74,11 +74,6 @@
   "why": "",
   "checked": "2026-11-18T13:27:09.711687-06:00"
  },
- "https://lakesidestcoffeehouse.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-18T13:27:10.967486-06:00"
- },
  "https://www.1847stammhouse.com/menus": {
   "ok": true,
   "why": "",
@@ -3054,60 +3049,10 @@
   "why": "",
   "checked": "2026-11-16T23:11:45.779517-06:00"
  },
- "https://www.theatwoodmusichall.com/shows/2026-11-21": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-21T21:12:01.742188-06:00"
- },
- "https://www.cafecoda.club/events-1/thaddeus-tukes": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-21T21:12:01.763833-06:00"
- },
- "https://www.ticketmaster.com/nurse-john-against-medical-advice-tour-madison-wisconsin-11-21-2026/event/070064A1F83F9F9A": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-21T21:12:04.230433-06:00"
- },
- "https://www.gibs.bar/event-calendar/2026/11/21/dj-dudley-noon": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-21T21:12:04.230459-06:00"
- },
- "https://www.ticketmaster.com/houses-in-motion-talking-heads-tribute-madison-wisconsin-11-21-2026/event/070065287BFF1542": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-21T21:12:04.230467-06:00"
- },
- "https://www.ticketmaster.com/rod-tuffcurls-the-bench-press-madison-wisconsin-11-21-2026/event/07006522CADA4F02": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-21T21:12:05.368550-06:00"
- },
- "https://www.ticketmaster.com/slow-pulp-madison-wisconsin-11-21-2026/event/070064A5D83A7F56": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-21T21:12:05.368577-06:00"
- },
- "https://www.ticketmaster.com/nurse-john-against-medical-advice-tour-madison-wisconsin-11-21-2026/event/0700650591872EB1": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-15T11:44:39.526368-06:00"
- },
  "https://www.ticketmaster.com/madfiddle-madison-wisconsin-11-22-2026/event/0700650E2F3EE375": {
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-15T11:44:39.526438-06:00"
- },
- "https://www.ticketmaster.com/event/Z7r9jZ1AA7eow": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-15T20:45:11.588246-06:00"
- },
- "https://www.ticketmaster.com/event/Z7r9jZ1AAvtfZ": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-15T20:45:11.588251-06:00"
+  "checked": "2026-11-22T12:32:19.952252-06:00"
  },
  "https://www.workingdraftbeer.com/events/2026/11/29/meat-raffle-sunday-nov-29th": {
   "ok": true,
@@ -3138,11 +3083,6 @@
   "ok": true,
   "why": "",
   "checked": "2026-11-16T23:11:43.823005-06:00"
- },
- "https://www.cafecoda.club/events-1/sext-saturday-dj-ironmike-tdp-hosted-by-april-k": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-16T23:11:44.192593-06:00"
  },
  "https://www.mymonona.com/1395/Below-Deck-Concession-Stand": {
   "ok": true,
@@ -3509,21 +3449,6 @@
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
   "checked": "2026-11-19T22:00:14.502413-06:00"
  },
- "https://www.northstreetcabaret.com/": {
-  "ok": null,
-  "why": "robots.txt asks bots not to visit",
-  "checked": "2026-11-20T13:09:14.468592-06:00"
- },
- "https://www.madisoncomedy.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-20T13:09:14.468599-06:00"
- },
- "https://cafecoda.club": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-20T13:09:14.468604-06:00"
- },
  "https://www.madisonpubliclibrary.org/about/ashman.html": {
   "ok": true,
   "why": "",
@@ -3659,26 +3584,6 @@
   "why": "",
   "checked": "2026-11-20T22:00:59.866531-06:00"
  },
- "https://communicationmadison.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-21T11:59:42.392985-06:00"
- },
- "https://www.fivenightclubmadison.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-21T11:59:42.393015-06:00"
- },
- "https://www.madisoncomedy.com/event/briansimpson26/2026-11-21/1/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-21T11:59:42.393032-06:00"
- },
- "http://madwoofs.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-21T11:59:42.987981-06:00"
- },
  "http://www.fitchburgwi.gov/822/Library": {
   "ok": true,
   "why": "",
@@ -3693,11 +3598,6 @@
   "ok": true,
   "why": "",
   "checked": "2026-11-21T11:59:42.988022-06:00"
- },
- "https://statestreetbrats.com/event/chicago-st-marquette-20261122/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-21T21:12:05.368584-06:00"
  },
  "https://www.madisonpubliclibrary.org/sequoya": {
   "ok": true,
@@ -3748,5 +3648,25 @@
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
   "checked": "2026-11-21T21:12:19.004554-06:00"
+ },
+ "https://statestreetbrats.com/event/michigan-st-wisconsin-20261122/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-22T12:32:19.952280-06:00"
+ },
+ "https://www.madisonpubliclibrary.org/central": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-22T12:32:19.952289-06:00"
+ },
+ "https://thelonegirl.com/event/no-bingo/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-22T12:32:20.491991-06:00"
+ },
+ "https://thelonegirl.com/event/santa-brunch-2025-2-2/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-22T12:32:22.059377-06:00"
  }
 }

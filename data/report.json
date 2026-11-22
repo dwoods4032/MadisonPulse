@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-21T21:12:01-06:00",
+ "generated_at": "2026-11-22T12:32:19-06:00",
  "venues_checked": 237,
  "venues_with_events": 62,
- "venues_with_feeds": 84,
- "events": 297,
- "filtered_out": 161,
+ "venues_with_feeds": 85,
+ "events": 201,
+ "filtered_out": 152,
  "venues": [
   {
    "name": "AI page reading",
@@ -13,22 +13,12 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 176,
+   "raw_events": 166,
    "error": "",
-   "calls": 22,
-   "tokens_in": 50221,
-   "tokens_out": 21686,
-   "est_cost_usd": 0.0159
-  },
-  {
-   "name": "Isthmus calendar",
-   "kind": "source",
-   "website": "https://isthmus.com/search/event/calendar-of-events/calendar.ics",
-   "feeds": [
-    "calendar"
-   ],
-   "raw_events": 121,
-   "error": "used today's copy (read once a day)"
+   "calls": 18,
+   "tokens_in": 35023,
+   "tokens_out": 11823,
+   "est_cost_usd": 0.0094
   },
   {
    "name": "Bayview Community Center",
@@ -48,7 +38,7 @@
    "feeds": [
     "ticketmaster"
    ],
-   "raw_events": 44,
+   "raw_events": 37,
    "error": ""
   },
   {
@@ -62,7 +52,7 @@
     "squarespace",
     "jsonld"
    ],
-   "raw_events": 37,
+   "raw_events": 36,
    "error": ""
   },
   {
@@ -76,7 +66,7 @@
     "jsonld",
     "jsonld"
    ],
-   "raw_events": 31,
+   "raw_events": 30,
    "error": ""
   },
   {
@@ -115,6 +105,30 @@
    "error": ""
   },
   {
+   "name": "Harmony Bar & Grill",
+   "kind": "bar",
+   "website": "https://www.harmonybarandgrill.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 14,
+   "error": ""
+  },
+  {
+   "name": "Lone Girl Tap Room And Pizza Company",
+   "kind": "bar",
+   "website": "https://thelonegirl.com",
+   "feeds": [
+    "tribe",
+    "jsonld",
+    "jsonld",
+    "jsonld",
+    "jsonld"
+   ],
+   "raw_events": 14,
+   "error": ""
+  },
+  {
    "name": "Cafe CODA",
    "kind": "bar",
    "website": "https://cafecoda.club",
@@ -125,17 +139,7 @@
     "jsonld",
     "jsonld"
    ],
-   "raw_events": 15,
-   "error": ""
-  },
-  {
-   "name": "Harmony Bar & Grill",
-   "kind": "bar",
-   "website": "https://www.harmonybarandgrill.com/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 14,
+   "raw_events": 13,
    "error": ""
   },
   {
@@ -150,20 +154,6 @@
     "jsonld"
    ],
    "raw_events": 12,
-   "error": ""
-  },
-  {
-   "name": "Lone Girl Tap Room And Pizza Company",
-   "kind": "bar",
-   "website": "https://thelonegirl.com",
-   "feeds": [
-    "tribe",
-    "jsonld",
-    "jsonld",
-    "jsonld",
-    "jsonld"
-   ],
-   "raw_events": 11,
    "error": ""
   },
   {
@@ -187,13 +177,23 @@
    "error": ""
   },
   {
-   "name": "High Noon Saloon",
+   "name": "Children's Theater of Madison",
+   "kind": "venue",
+   "website": "https://ctmtheater.org/",
+   "feeds": [
+    "tribe"
+   ],
+   "raw_events": 8,
+   "error": ""
+  },
+  {
+   "name": "Crucible",
    "kind": "bar",
-   "website": "https://www.high-noon.com/",
+   "website": "https://www.cruciblemadison.com/",
    "feeds": [
     "ai"
    ],
-   "raw_events": 9,
+   "raw_events": 8,
    "error": ""
   },
   {
@@ -207,36 +207,6 @@
    "error": ""
   },
   {
-   "name": "Arts + Literature Laboratory",
-   "kind": "venue",
-   "website": "https://artlitlab.org/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 7,
-   "error": ""
-  },
-  {
-   "name": "Pinney Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 7,
-   "error": ""
-  },
-  {
-   "name": "Reindahl Park Pavillion",
-   "kind": "community",
-   "website": "https://www.cityofmadison.com/parks/find-a-park/reindahl/pavilion-at-the-imagination-center",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 7,
-   "error": ""
-  },
-  {
    "name": "The Kickback",
    "kind": "bar",
    "website": "https://thekickback.bar/",
@@ -247,13 +217,13 @@
    "error": ""
   },
   {
-   "name": "Veterans Memorial Park",
-   "kind": "veterans",
-   "website": "https://www.cityofmadison.com/parks/find-a-park/park.cfm?id=1364",
+   "name": "Arts + Literature Laboratory",
+   "kind": "venue",
+   "website": "https://artlitlab.org/",
    "feeds": [
     "ai"
    ],
-   "raw_events": 7,
+   "raw_events": 6,
    "error": ""
   },
   {
@@ -262,16 +232,6 @@
    "website": "https://www.capital-brewery.com/",
    "feeds": [
     "ai"
-   ],
-   "raw_events": 6,
-   "error": ""
-  },
-  {
-   "name": "Children's Theater of Madison",
-   "kind": "venue",
-   "website": "https://ctmtheater.org/",
-   "feeds": [
-    "tribe"
    ],
    "raw_events": 6,
    "error": ""
@@ -287,9 +247,9 @@
    "error": ""
   },
   {
-   "name": "State Line Distillery",
-   "kind": "brewery",
-   "website": "https://www.statelinedistillery.com/",
+   "name": "High Noon Saloon",
+   "kind": "bar",
+   "website": "https://www.high-noon.com/",
    "feeds": [
     "ai"
    ],
@@ -307,9 +267,9 @@
    "error": ""
   },
   {
-   "name": "Imagination Center",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
+   "name": "Reindahl Park Pavillion",
+   "kind": "community",
+   "website": "https://www.cityofmadison.com/parks/find-a-park/reindahl/pavilion-at-the-imagination-center",
    "feeds": [
     "ai"
    ],
@@ -317,9 +277,19 @@
    "error": ""
   },
   {
-   "name": "Sequoya Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/sequoya",
+   "name": "State Line Distillery",
+   "kind": "brewery",
+   "website": "https://www.statelinedistillery.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 5,
+   "error": ""
+  },
+  {
+   "name": "Veterans Memorial Park",
+   "kind": "veterans",
+   "website": "https://www.cityofmadison.com/parks/find-a-park/park.cfm?id=1364",
    "feeds": [
     "ai"
    ],
@@ -334,26 +304,6 @@
     "squarespace",
     "jsonld",
     "jsonld"
-   ],
-   "raw_events": 4,
-   "error": ""
-  },
-  {
-   "name": "Fitchburg Public Library",
-   "kind": "library",
-   "website": "http://www.fitchburgwi.gov/822/Library",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 4,
-   "error": ""
-  },
-  {
-   "name": "Gamma Ray Bar",
-   "kind": "bar",
-   "website": "https://gammaray.bar",
-   "feeds": [
-    "ai"
    ],
    "raw_events": 4,
    "error": ""
@@ -400,9 +350,9 @@
    "error": ""
   },
   {
-   "name": "Below Deck Concession Stand",
-   "kind": "cafe",
-   "website": "https://www.mymonona.com/1395/Below-Deck-Concession-Stand",
+   "name": "Central Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/central",
    "feeds": [
     "ai"
    ],
@@ -421,6 +371,36 @@
    "error": ""
   },
   {
+   "name": "Fitchburg Public Library",
+   "kind": "library",
+   "website": "http://www.fitchburgwi.gov/822/Library",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 3,
+   "error": ""
+  },
+  {
+   "name": "Gamma Ray Bar",
+   "kind": "bar",
+   "website": "https://gammaray.bar",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 3,
+   "error": ""
+  },
+  {
+   "name": "Imagination Center",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 3,
+   "error": ""
+  },
+  {
    "name": "Monroe Street Library",
    "kind": "library",
    "website": "https://www.madisonpubliclibrary.org/monroe-street",
@@ -434,6 +414,26 @@
    "name": "Overture Center for the Arts",
    "kind": "venue",
    "website": "http://overturecenter.com",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 3,
+   "error": ""
+  },
+  {
+   "name": "Pinney Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 3,
+   "error": ""
+  },
+  {
+   "name": "Sequoya Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/sequoya",
    "feeds": [
     "ai"
    ],
@@ -483,6 +483,16 @@
     "jsonld",
     "jsonld",
     "jsonld"
+   ],
+   "raw_events": 2,
+   "error": ""
+  },
+  {
+   "name": "Below Deck Concession Stand",
+   "kind": "cafe",
+   "website": "https://www.mymonona.com/1395/Below-Deck-Concession-Stand",
+   "feeds": [
+    "ai"
    ],
    "raw_events": 2,
    "error": ""
@@ -577,16 +587,6 @@
    "website": "https://www.arthouse360.com/",
    "feeds": [
     "jsonld"
-   ],
-   "raw_events": 1,
-   "error": ""
-  },
-  {
-   "name": "Central Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/central",
-   "feeds": [
-    "ai"
    ],
    "raw_events": 1,
    "error": ""
@@ -949,14 +949,6 @@
    "error": ""
   },
   {
-   "name": "Crucible",
-   "kind": "bar",
-   "website": "https://www.cruciblemadison.com/",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
    "name": "D'Vino",
    "kind": "bar",
    "website": "https://www.dvinomadison.com/",
@@ -1234,6 +1226,16 @@
    "error": ""
   },
   {
+   "name": "Isthmus calendar",
+   "kind": "source",
+   "website": "https://isthmus.com/search/event/calendar-of-events/calendar.ics",
+   "feeds": [
+    "calendar"
+   ],
+   "raw_events": 0,
+   "error": "could not connect (ReadTimeout)"
+  },
+  {
    "name": "Java Cat",
    "kind": "cafe",
    "website": "https://javacatmadison.com/",
@@ -1360,7 +1362,7 @@
   {
    "name": "Madison Chocolate Company",
    "kind": "cafe",
-   "website": "https://madisonchocolate.com",
+   "website": "https://www.madisonchocolatecompany.com",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1368,7 +1370,7 @@
   {
    "name": "Madison Chocolate Company",
    "kind": "cafe",
-   "website": "https://www.madisonchocolatecompany.com",
+   "website": "https://madisonchocolate.com",
    "feeds": [],
    "raw_events": 0,
    "error": ""
