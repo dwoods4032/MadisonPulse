@@ -224,17 +224,17 @@
   "events": []
  },
  "https://www.harmonybarandgrill.com/madison-atwood-the-harmony-bar-and-grill-events": {
-  "hash": "3c005c99a85706ec65576f200da59b49e986d38f",
-  "asked": "2026-11-22T12:30:51-06:00",
+  "hash": "05e11c2a70e738c0be92d53a794bc866c9c1b4de",
+  "asked": "2026-11-22T21:44:05-06:00",
   "on": "2026-11-22",
   "events": [
    {
     "title": "The Cajun Strangers",
     "date": "2026-11-22",
-    "start": "16:00",
-    "end": null,
+    "start": "17:00",
+    "end": "19:30",
     "price": 10,
-    "description": "Award-winning Madison band playing traditional Cajun dance music. $10 suggested donation.",
+    "description": "Madison award-winning band playing traditional Cajun dance music. $10 suggested donation.",
     "category": "music"
    },
    {
@@ -243,7 +243,7 @@
     "start": "17:30",
     "end": "18:30",
     "price": 5,
-    "description": "Kids music show with David Landau, with the kid menu available. $5 cover.",
+    "description": "Kids music show with David Landau. Kid menu available. $5 cover.",
     "category": "music"
    },
    {
@@ -252,7 +252,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Bluegrass-inspired band with traditional and original material. This month joined by TBD. No cover.",
+    "description": "Bluegrass-inspired band from Madison. This month joined by TBD. No cover.",
     "category": "music"
    },
    {
@@ -261,7 +261,7 @@
     "start": "20:00",
     "end": "22:30",
     "price": 15,
-    "description": "1980s new wave and synth-pop party show. 10th annual fundraiser for Second Harvest Food Bank. $15 suggested donation.",
+    "description": "1980s new wave and synth-pop party. 10th annual fundraiser for Second Harvest Food Bank. $15 suggested donation.",
     "category": "music"
    },
    {
@@ -279,7 +279,7 @@
     "start": "19:00",
     "end": "21:00",
     "price": null,
-    "description": "Open mic hosted by Max. Sign-up at 6:30, performances from 7pm. Bring your guitar.",
+    "description": "Open mic hosted by Max. Sign-up at 6:30, performances start at 7pm. Bring your guitar.",
     "category": "open_mic"
    },
    {
@@ -297,7 +297,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Acoustic duo Jenny Lupien and Jayme Poster playing original and classic cover songs. No cover.",
+    "description": "Acoustic duo Jenny Lupien and Jayme Poster playing original and classic covers. No cover.",
     "category": "music"
    },
    {
@@ -306,7 +306,7 @@
     "start": "21:00",
     "end": "00:00",
     "price": 10,
-    "description": "Double bill of Dolt (energetic indie harmonies) and Marengo (Madison indie pop-rock). $10 cover, 21+.",
+    "description": "Double bill: Dolt (energetic indie harmonies) and Marengo (Madison indie pop-rock). $10 cover, 21+.",
     "category": "music"
    },
    {
@@ -315,7 +315,7 @@
     "start": "16:00",
     "end": "19:00",
     "price": 15,
-    "description": "Madison Americana duo Mary Gaines and Chris Wagoner, with guest David Cox. $15 suggested donation.",
+    "description": "Madison husband-and-wife Americana duo Mary Gaines and Chris Wagoner, with guest David Cox. $15 suggested donation.",
     "category": "music"
    }
   ]
@@ -961,35 +961,17 @@
   "events": []
  },
  "https://thekickback.bar/upcoming-events/": {
-  "hash": "627039d8c436c290c9138c41dd7bedcba9a87a7b",
-  "asked": "2026-11-21T11:58:14-06:00",
-  "on": "2026-11-21",
+  "hash": "5375d995ea61ac3f8c42c1ec5de9b5ef431aed93",
+  "asked": "2026-11-22T21:44:11-06:00",
+  "on": "2026-11-22",
   "events": [
-   {
-    "title": "WanderLust Mobile Bookstore Pop-up",
-    "date": "2026-11-22",
-    "start": "15:00",
-    "end": null,
-    "price": null,
-    "description": "Mobile bookstore pop-up at The Kickback.",
-    "category": "other"
-   },
-   {
-    "title": "Pups on the Patio: Fetch WI Rescue",
-    "date": "2026-11-22",
-    "start": "15:00",
-    "end": null,
-    "price": null,
-    "description": "Dogs on the patio with Fetch WI Rescue; craft beer fundraiser.",
-    "category": "other"
-   },
    {
     "title": "Premier Trivia Tuesday!",
     "date": "2026-11-24",
     "start": "18:30",
     "end": null,
     "price": null,
-    "description": "Tuesday trivia night.",
+    "description": "Tuesday Trivia at The Kickback",
     "category": "trivia"
    },
    {
@@ -997,8 +979,8 @@
     "date": "2026-11-27",
     "start": "19:00",
     "end": null,
+    "description": "Craft beer and pinball night",
     "price": null,
-    "description": "Friday night event with craft beer and pinball.",
     "category": "other"
    },
    {
@@ -1007,7 +989,7 @@
     "start": "18:30",
     "end": null,
     "price": null,
-    "description": "Tuesday trivia night.",
+    "description": "Tuesday Trivia at The Kickback",
     "category": "trivia"
    },
    {
@@ -1016,7 +998,7 @@
     "start": "18:30",
     "end": null,
     "price": null,
-    "description": "Pinball league night featuring Guinness and craft beer.",
+    "description": "Pinball league night with Guinness and craft beer",
     "category": "other"
    },
    {
@@ -1025,8 +1007,17 @@
     "start": "13:00",
     "end": null,
     "price": null,
-    "description": "Ultimate Super Smash Bros tournament, summit qualifier.",
+    "description": "Ultimate Super Smash Bros tournament qualifier",
     "category": "sports"
+   },
+   {
+    "title": "Drag Bingo w/ Cynthia Mooseknuckle",
+    "date": "2026-12-06",
+    "start": "13:00",
+    "end": null,
+    "price": null,
+    "description": "Drag bingo with Cynthia Mooseknuckle, New Glarus Brewing Co. featured",
+    "category": "bingo"
    }
   ]
  },
@@ -1077,35 +1068,26 @@
   ]
  },
  "https://www.mymonona.com/1587/Special-Events": {
-  "hash": "0488f0378d42f4a050dc3aaa90bd33f1bef0660b",
-  "asked": "2026-11-21T21:10:48-06:00",
-  "on": "2026-11-21",
+  "hash": "5f04e9ee1060b9b001de75030f02b91249ba329f",
+  "asked": "2026-11-22T21:44:15-06:00",
+  "on": "2026-11-22",
   "events": [
-   {
-    "title": "45th Annual Holiday House Bazaar",
-    "date": "2026-11-22",
-    "start": null,
-    "end": null,
-    "price": null,
-    "description": "Annual Holiday House Bazaar, listed on the Monona Special Events calendar.",
-    "category": "other"
-   },
    {
     "title": "Opening Day of Lake Ridge Bank River Rink",
     "date": "2026-12-01",
     "start": null,
     "end": null,
     "price": null,
-    "description": "Opening day of the Lake Ridge Bank River Rink.",
+    "description": "Opening day of the Lake Ridge Bank River Rink, per the City of Monona Special Events calendar.",
     "category": "other"
    },
    {
-    "title": "Light the Ice Ceremony - Rescheduled",
+    "title": "Light the Ice Ceremony (Rescheduled)",
     "date": "2026-12-05",
     "start": null,
     "end": null,
     "price": null,
-    "description": "Light the Ice Ceremony, rescheduled per the City of Monona listing.",
+    "description": "Rescheduled Light the Ice Ceremony, per the City of Monona Special Events calendar.",
     "category": "other"
    }
   ]
@@ -1193,8 +1175,8 @@
   ]
  },
  "https://merciescoffeewi.com/": {
-  "hash": "eb7af8e80f83f0c2f4b5225fae6b205b85e8a49d",
-  "asked": "2026-11-22T12:31:16-06:00",
+  "hash": "13f820e43a5916dc47b005d322bf2ab0a1c6f338",
+  "asked": "2026-11-22T21:44:31-06:00",
   "on": "2026-11-22",
   "events": []
  },
@@ -1434,9 +1416,9 @@
   "events": []
  },
  "https://www.madisonpubliclibrary.org/spaces/events": {
-  "hash": "8b989fd2ff00aa7111ebafcabd2cd13a6f40b832",
-  "asked": "2026-11-21T21:11:43-06:00",
-  "on": "2026-11-21",
+  "hash": "136a48b9ef95982f75086b75c108267e36f2b5fd",
+  "asked": "2026-11-22T21:45:05-06:00",
+  "on": "2026-11-22",
   "events": []
  },
  "https://ebling.library.wisc.edu/ebling-library-classes-events/": {
@@ -1480,26 +1462,17 @@
   "events": []
  },
  "https://www.sunprairiepubliclibrary.org/home-delivery-service": {
-  "hash": "80bffb535632f8de581c02f4d347b23a78a63e22",
-  "asked": "2026-11-21T21:11:36-06:00",
-  "on": "2026-11-21",
+  "hash": "481cd2cea0529b3ab316ac45126237919503f076",
+  "asked": "2026-11-22T21:45:01-06:00",
+  "on": "2026-11-22",
   "events": [
-   {
-    "title": "Urban SUN: Black Voices Book Club",
-    "date": "2026-11-22",
-    "start": "15:00",
-    "end": "16:00",
-    "price": null,
-    "description": "Book club for adults at Sun Prairie Public Library.",
-    "category": "other"
-   },
    {
     "title": "Ancestry Research for Beginners",
     "date": "2026-11-24",
     "start": "10:00",
     "end": "11:30",
     "price": null,
-    "description": "Beginner ancestry research session for adults at Sun Prairie Public Library.",
+    "description": "Ancestry research class for adults at Sun Prairie Public Library.",
     "category": "other"
    },
    {
@@ -1508,7 +1481,7 @@
     "start": "12:00",
     "end": "17:00",
     "price": null,
-    "description": "Red Cross blood drive for adults at Sun Prairie Public Library.",
+    "description": "Red Cross blood drive at Sun Prairie Public Library, listed for adults.",
     "category": "other"
    },
    {
@@ -1518,6 +1491,15 @@
     "end": "18:00",
     "price": null,
     "description": "Creativity club for teens at Sun Prairie Public Library.",
+    "category": "other"
+   },
+   {
+    "title": "Mystery Book Club",
+    "date": "2026-12-02",
+    "start": "13:30",
+    "end": "14:30",
+    "price": null,
+    "description": "Mystery book club for adults at Sun Prairie Public Library.",
     "category": "other"
    }
   ]
@@ -1886,8 +1868,8 @@
   "events": []
  },
  "https://high-noon.com/event/dogpark/": {
-  "hash": "6ee302328a396c5e75fe315320766bed05e85678",
-  "asked": "2026-11-22T12:30:50-06:00",
+  "hash": "c043cea6946ed19450543bd9e7804dccff0c7477",
+  "asked": "2026-11-22T21:44:03-06:00",
   "on": "2026-11-22",
   "events": []
  },
@@ -2089,26 +2071,17 @@
   "events": []
  },
  "https://www.sunprairiepubliclibrary.org/art-committee-and-gallery-shows": {
-  "hash": "f052968ff517c8c316dab8db0a7393c2d48a2d80",
-  "asked": "2026-11-21T21:11:38-06:00",
-  "on": "2026-11-21",
+  "hash": "d122d1eefe20ad45f7ab6841298e325effb48800",
+  "asked": "2026-11-22T21:45:04-06:00",
+  "on": "2026-11-22",
   "events": [
-   {
-    "title": "Urban SUN: Black Voices Book Club",
-    "date": "2026-11-22",
-    "start": "15:00",
-    "end": "16:00",
-    "price": null,
-    "description": "Book club for adults at Sun Prairie Public Library.",
-    "category": "other"
-   },
    {
     "title": "Ancestry Research for Beginners",
     "date": "2026-11-24",
     "start": "10:00",
     "end": "11:30",
     "price": null,
-    "description": "Beginner ancestry research session for adults at Sun Prairie Public Library.",
+    "description": "Ancestry research class for adults at Sun Prairie Public Library.",
     "category": "other"
    },
    {
@@ -2117,7 +2090,7 @@
     "start": "12:00",
     "end": "17:00",
     "price": null,
-    "description": "Red Cross blood drive at Sun Prairie Public Library, for adults.",
+    "description": "Red Cross blood drive at Sun Prairie Public Library, open to adults.",
     "category": "other"
    },
    {
@@ -2127,6 +2100,15 @@
     "end": "18:00",
     "price": null,
     "description": "Creativity club for teens at Sun Prairie Public Library.",
+    "category": "other"
+   },
+   {
+    "title": "Mystery Book Club",
+    "date": "2026-12-02",
+    "start": "13:30",
+    "end": "14:30",
+    "price": null,
+    "description": "Mystery book club for adults at Sun Prairie Public Library.",
     "category": "other"
    }
   ]
@@ -2340,9 +2322,9 @@
   "events": []
  },
  "https://www.motherfools.com/": {
-  "hash": "e20e7cef9e6bad524c0413dc77809122daf0f9cd",
-  "asked": "2026-11-21T11:58:29-06:00",
-  "on": "2026-11-21",
+  "hash": "b6390a4ba398bee5d3752d741f9c2f021dd03984",
+  "asked": "2026-11-22T21:44:31-06:00",
+  "on": "2026-11-22",
   "events": [
    {
     "title": "Mad City Story Slam: Surprise",
@@ -2350,7 +2332,7 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Share a 5-minute true, personal story at the mic, or come to listen. Theme: moments that surprised us and unexpected twists. Sign-up starts at 6:30.",
+    "description": "Share a 5-minute true, personal story at the mic, or come to listen. Sign-up starts at 6:30. Theme: moments that surprised us and twists we didn't expect.",
     "category": "other"
    }
   ]

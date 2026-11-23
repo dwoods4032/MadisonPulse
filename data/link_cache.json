@@ -3049,35 +3049,20 @@
   "why": "",
   "checked": "2026-11-16T23:11:45.779517-06:00"
  },
- "https://www.ticketmaster.com/madfiddle-madison-wisconsin-11-22-2026/event/0700650E2F3EE375": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-22T12:32:19.952252-06:00"
- },
- "https://www.workingdraftbeer.com/events/2026/11/29/meat-raffle-sunday-nov-29th": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-15T20:45:11.588256-06:00"
- },
  "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-madison-wisconsin-11-22-2026/event/070064EE89E21E1C": {
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-15T20:45:12.765575-06:00"
- },
- "https://www.theatwoodmusichall.com/shows/2026-11-22": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-15T20:45:12.765600-06:00"
+  "checked": "2026-11-22T21:45:33.157415-06:00"
  },
  "https://www.ticketmaster.com/the-record-companygive-it-back-to-madison-wisconsin-11-22-2026/event/070064CBBE2353FE": {
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-15T20:45:13.924676-06:00"
+  "checked": "2026-11-22T21:45:33.157443-06:00"
  },
  "https://www.ticketmaster.com/the-gringos-madison-wisconsin-11-22-2026/event/070064D7FDF08815": {
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-15T20:45:15.083316-06:00"
+  "checked": "2026-11-22T21:45:33.157453-06:00"
  },
  "https://www.veronawi.gov/941/Community-Center": {
   "ok": true,
@@ -3088,11 +3073,6 @@
   "ok": true,
   "why": "",
   "checked": "2026-11-16T23:11:43.823027-06:00"
- },
- "https://www.sunprairiepubliclibrary.org/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-17T22:21:47.858812-06:00"
  },
  "https://iwcmadison.com/": {
   "ok": true,
@@ -3143,11 +3123,6 @@
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
   "checked": "2026-11-18T22:13:53.920408-06:00"
- },
- "https://bstonline.org/event/stage-test-2026-a-program-of-works-in-development/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-19T22:00:12.954820-06:00"
  },
  "https://wandosbar.com/": {
   "ok": true,
@@ -3242,52 +3217,52 @@
  "https://bayviewfoundation.org/event/zumba/2026-11-24/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-15T20:45:15.083342-06:00"
+  "checked": "2026-11-22T21:45:33.157516-06:00"
  },
  "https://ctmtheater.org/event/pigeon-holiday-2026-1/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-15T20:45:15.083349-06:00"
+  "checked": "2026-11-22T21:45:33.157576-06:00"
  },
  "https://ctmtheater.org/event/pigeon-holiday-2026-2/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-15T20:45:15.083354-06:00"
+  "checked": "2026-11-22T21:45:33.817311-06:00"
  },
  "https://www.ticketmaster.com/event/Z7r9jZ1A7x_7d": {
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-15T20:45:16.232507-06:00"
+  "checked": "2026-11-22T21:45:34.299250-06:00"
  },
  "https://ctmtheater.org/event/the-pigeon-gets-a-big-time-holiday-extravaganza/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-15T20:45:16.232531-06:00"
+  "checked": "2026-11-22T21:45:37.313568-06:00"
  },
  "https://www.ticketmaster.com/event/Z7r9jZ1AAvtfe": {
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-15T20:45:17.367322-06:00"
+  "checked": "2026-11-22T21:45:37.313592-06:00"
  },
  "https://ctmtheater.org/event/the-pigeon-gets-a-big-time-holiday-extravaganza-2/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-15T20:45:17.367347-06:00"
+  "checked": "2026-11-22T21:45:37.313599-06:00"
  },
  "https://www.ticketmaster.com/event/Z7r9jZ1AAevvJ": {
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-15T20:45:18.559214-06:00"
+  "checked": "2026-11-22T21:45:37.313605-06:00"
  },
  "https://www.ticketmaster.com/event/Z7r9jZ1A70Z-o": {
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-15T20:45:19.684580-06:00"
+  "checked": "2026-11-22T21:45:37.711303-06:00"
  },
  "https://www.fullmilebeercompany.com/events/2026/11/29-karaoke": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-15T20:45:19.684602-06:00"
+  "checked": "2026-11-22T21:45:37.711326-06:00"
  },
  "https://www.veronapubliclibrary.org/": {
   "ok": true,
@@ -3358,11 +3333,6 @@
   "ok": null,
   "why": "ReadTimeout",
   "checked": "2026-11-19T13:31:33.821623-06:00"
- },
- "https://thelonegirl.com/event/sunday-bingo-lone-girl-brewing-2-2-2-2/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-19T13:31:33.821653-06:00"
  },
  "https://thelonegirl.com/event/meat-raffle-126-2/": {
   "ok": null,
@@ -3649,11 +3619,6 @@
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
   "checked": "2026-11-21T21:12:19.004554-06:00"
  },
- "https://statestreetbrats.com/event/michigan-st-wisconsin-20261122/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-22T12:32:19.952280-06:00"
- },
  "https://www.madisonpubliclibrary.org/central": {
   "ok": true,
   "why": "",
@@ -3668,5 +3633,90 @@
   "ok": true,
   "why": "",
   "checked": "2026-11-22T12:32:22.059377-06:00"
+ },
+ "https://www.mickeysmadison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-22T21:45:33.157461-06:00"
+ },
+ "https://www.fivenightclubmadison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-22T21:45:33.157468-06:00"
+ },
+ "https://www.madisoncomedy.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-22T21:45:33.157483-06:00"
+ },
+ "https://statestreetbrats.com/event/bucks-raptors-20261123/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-22T21:45:33.157494-06:00"
+ },
+ "https://neighborhoodhousemadison.org": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-22T21:45:33.157506-06:00"
+ },
+ "https://www.publicparkingbar.com": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-22T21:45:33.157526-06:00"
+ },
+ "https://www.workingdraftbeer.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-22T21:45:33.157534-06:00"
+ },
+ "https://cafecoda.club": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-22T21:45:33.157542-06:00"
+ },
+ "https://communicationmadison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-22T21:45:33.157547-06:00"
+ },
+ "https://madisonlocalmotive.com": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-22T21:45:33.157552-06:00"
+ },
+ "https://javacatmadison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-22T21:45:33.157558-06:00"
+ },
+ "https://www.settledownmadison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-22T21:45:33.157568-06:00"
+ },
+ "https://ctmtheater.org/event/the-pigeon-gets-a-big-time-holiday-extravaganza-6/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-22T21:45:39.050490-06:00"
+ },
+ "https://thelonegirl.com/event/meat-raffle-126/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-22T21:45:39.050512-06:00"
+ },
+ "https://www.ticketmaster.com/event/Z7r9jZ1AAvFGF": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-11-22T21:45:39.050519-06:00"
+ },
+ "https://ctmtheater.org/event/the-pigeon-gets-a-big-time-holiday-extravaganza-7/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-22T21:45:40.821689-06:00"
+ },
+ "https://www.ticketmaster.com/anthony-gomes-madison-wisconsin-12-06-2026/event/070064E6D77D338E": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-11-22T21:45:40.821730-06:00"
  }
 }

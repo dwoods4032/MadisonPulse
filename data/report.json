@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-22T12:32:19-06:00",
+ "generated_at": "2026-11-22T21:45:30-06:00",
  "venues_checked": 237,
  "venues_with_events": 62,
  "venues_with_feeds": 85,
- "events": 201,
- "filtered_out": 152,
+ "events": 357,
+ "filtered_out": 179,
  "venues": [
   {
    "name": "AI page reading",
@@ -13,12 +13,22 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 166,
+   "raw_events": 178,
    "error": "",
-   "calls": 18,
-   "tokens_in": 35023,
-   "tokens_out": 11823,
-   "est_cost_usd": 0.0094
+   "calls": 10,
+   "tokens_in": 23740,
+   "tokens_out": 8374,
+   "est_cost_usd": 0.0066
+  },
+  {
+   "name": "Isthmus calendar",
+   "kind": "source",
+   "website": "https://isthmus.com/search/event/calendar-of-events/calendar.ics",
+   "feeds": [
+    "calendar"
+   ],
+   "raw_events": 173,
+   "error": ""
   },
   {
    "name": "Bayview Community Center",
@@ -38,7 +48,7 @@
    "feeds": [
     "ticketmaster"
    ],
-   "raw_events": 37,
+   "raw_events": 38,
    "error": ""
   },
   {
@@ -52,7 +62,7 @@
     "squarespace",
     "jsonld"
    ],
-   "raw_events": 36,
+   "raw_events": 35,
    "error": ""
   },
   {
@@ -91,7 +101,7 @@
     "jsonld",
     "jsonld"
    ],
-   "raw_events": 30,
+   "raw_events": 28,
    "error": ""
   },
   {
@@ -111,7 +121,7 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 14,
+   "raw_events": 15,
    "error": ""
   },
   {
@@ -207,9 +217,9 @@
    "error": ""
   },
   {
-   "name": "The Kickback",
+   "name": "High Noon Saloon",
    "kind": "bar",
-   "website": "https://thekickback.bar/",
+   "website": "https://www.high-noon.com/",
    "feeds": [
     "ai"
    ],
@@ -217,9 +227,9 @@
    "error": ""
   },
   {
-   "name": "Arts + Literature Laboratory",
-   "kind": "venue",
-   "website": "https://artlitlab.org/",
+   "name": "Alicia Ashman Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
    "feeds": [
     "ai"
    ],
@@ -247,9 +257,39 @@
    "error": ""
   },
   {
-   "name": "High Noon Saloon",
+   "name": "Imagination Center",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 6,
+   "error": ""
+  },
+  {
+   "name": "Monroe Street Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/monroe-street",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 6,
+   "error": ""
+  },
+  {
+   "name": "Pinney Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 6,
+   "error": ""
+  },
+  {
+   "name": "The Kickback",
    "kind": "bar",
-   "website": "https://www.high-noon.com/",
+   "website": "https://thekickback.bar/",
    "feeds": [
     "ai"
    ],
@@ -264,6 +304,16 @@
     "ai"
    ],
    "raw_events": 6,
+   "error": ""
+  },
+  {
+   "name": "Arts + Literature Laboratory",
+   "kind": "venue",
+   "website": "https://artlitlab.org/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 5,
    "error": ""
   },
   {
@@ -330,16 +380,6 @@
    "error": ""
   },
   {
-   "name": "Alicia Ashman Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 3,
-   "error": ""
-  },
-  {
    "name": "Bartell Theatre",
    "kind": "venue",
    "website": "https://bartelltheatre.org/",
@@ -355,17 +395,6 @@
    "website": "https://www.madisonpubliclibrary.org/central",
    "feeds": [
     "ai"
-   ],
-   "raw_events": 3,
-   "error": ""
-  },
-  {
-   "name": "Come Back Inn",
-   "kind": "bar",
-   "website": "https://comebackintavern.com/",
-   "feeds": [
-    "tribe",
-    "jsonld"
    ],
    "raw_events": 3,
    "error": ""
@@ -391,39 +420,9 @@
    "error": ""
   },
   {
-   "name": "Imagination Center",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 3,
-   "error": ""
-  },
-  {
-   "name": "Monroe Street Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/monroe-street",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 3,
-   "error": ""
-  },
-  {
    "name": "Overture Center for the Arts",
    "kind": "venue",
    "website": "http://overturecenter.com",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 3,
-   "error": ""
-  },
-  {
-   "name": "Pinney Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
    "feeds": [
     "ai"
    ],
@@ -923,6 +922,17 @@
    "error": ""
   },
   {
+   "name": "Come Back Inn",
+   "kind": "bar",
+   "website": "https://comebackintavern.com/",
+   "feeds": [
+    "tribe",
+    "jsonld"
+   ],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
    "name": "Communication",
    "kind": "venue",
    "website": "https://communicationmadison.com/",
@@ -1226,16 +1236,6 @@
    "error": ""
   },
   {
-   "name": "Isthmus calendar",
-   "kind": "source",
-   "website": "https://isthmus.com/search/event/calendar-of-events/calendar.ics",
-   "feeds": [
-    "calendar"
-   ],
-   "raw_events": 0,
-   "error": "could not connect (ReadTimeout)"
-  },
-  {
    "name": "Java Cat",
    "kind": "cafe",
    "website": "https://javacatmadison.com/",
@@ -1362,7 +1362,7 @@
   {
    "name": "Madison Chocolate Company",
    "kind": "cafe",
-   "website": "https://www.madisonchocolatecompany.com",
+   "website": "https://madisonchocolate.com",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1370,7 +1370,7 @@
   {
    "name": "Madison Chocolate Company",
    "kind": "cafe",
-   "website": "https://madisonchocolate.com",
+   "website": "https://www.madisonchocolatecompany.com",
    "feeds": [],
    "raw_events": 0,
    "error": ""

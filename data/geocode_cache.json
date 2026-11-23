@@ -1243,5 +1243,17 @@
   "lon": -89.390994,
   "address": "",
   "city": "Madison"
+ },
+ "hop haus brewing company, fitchburg": {
+  "lat": 43.005003,
+  "lon": -89.458772,
+  "address": "2975 Sub-Zero Parkway",
+  "city": "Fitchburg"
+ },
+ "100state": {
+  "lat": 43.074876,
+  "lon": -89.386901,
+  "address": "100 State Street",
+  "city": "Madison"
  }
 }
