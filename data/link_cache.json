@@ -3049,21 +3049,6 @@
   "why": "",
   "checked": "2026-11-16T23:11:45.779517-06:00"
  },
- "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-madison-wisconsin-11-22-2026/event/070064EE89E21E1C": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-22T21:45:33.157415-06:00"
- },
- "https://www.ticketmaster.com/the-record-companygive-it-back-to-madison-wisconsin-11-22-2026/event/070064CBBE2353FE": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-22T21:45:33.157443-06:00"
- },
- "https://www.ticketmaster.com/the-gringos-madison-wisconsin-11-22-2026/event/070064D7FDF08815": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-22T21:45:33.157453-06:00"
- },
  "https://www.veronawi.gov/941/Community-Center": {
   "ok": true,
   "why": "",
@@ -3267,12 +3252,12 @@
  "https://www.veronapubliclibrary.org/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-16T15:04:03.732227-06:00"
+  "checked": "2026-11-23T16:40:30.488097-06:00"
  },
  "https://doundrinsdistilling.com/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-16T15:04:09.931999-06:00"
+  "checked": "2026-11-23T16:40:31.058662-06:00"
  },
  "https://www.cruciblemadison.com/": {
   "ok": true,
@@ -3333,11 +3318,6 @@
   "ok": null,
   "why": "ReadTimeout",
   "checked": "2026-11-19T13:31:33.821623-06:00"
- },
- "https://thelonegirl.com/event/meat-raffle-126-2/": {
-  "ok": null,
-  "why": "ReadTimeout",
-  "checked": "2026-11-19T13:31:33.821659-06:00"
  },
  "http://malthousetavern.com/": {
   "ok": true,
@@ -3419,11 +3399,6 @@
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
   "checked": "2026-11-19T22:00:14.502413-06:00"
  },
- "https://www.madisonpubliclibrary.org/about/ashman.html": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-20T13:09:14.468610-06:00"
- },
  "https://www.madisonpubliclibrary.org/locations/imagination-center": {
   "ok": true,
   "why": "",
@@ -3438,11 +3413,6 @@
   "ok": true,
   "why": "",
   "checked": "2026-11-20T13:09:18.779879-06:00"
- },
- "https://www.micentro.org/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-20T13:09:18.779918-06:00"
  },
  "https://www.cafecoda.club/events-1/reggae-night-dj-sneaky-gator-8gnpe-lan8j": {
   "ok": true,
@@ -3569,11 +3539,6 @@
   "why": "",
   "checked": "2026-11-21T11:59:42.988022-06:00"
  },
- "https://www.madisonpubliclibrary.org/sequoya": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-21T21:12:05.368590-06:00"
- },
  "https://www.workingdraftbeer.com/events/2026/12/5/holiday-wreath-workshop-w-allen-centennial-garden-125-1230pm": {
   "ok": true,
   "why": "",
@@ -3618,11 +3583,6 @@
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
   "checked": "2026-11-21T21:12:19.004554-06:00"
- },
- "https://www.madisonpubliclibrary.org/central": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-22T12:32:19.952289-06:00"
  },
  "https://thelonegirl.com/event/no-bingo/": {
   "ok": true,
@@ -3718,5 +3678,35 @@
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
   "checked": "2026-11-22T21:45:40.821730-06:00"
+ },
+ "https://www.dvinomadison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-23T16:40:30.375731-06:00"
+ },
+ "https://statestreetbrats.com/event/wisconsin-penn-state-20261124/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-23T16:40:31.058702-06:00"
+ },
+ "https://www.youngbloodbeerco.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-23T16:40:31.058710-06:00"
+ },
+ "https://www.cafecoda.club/events-1/all-black-affair-afrovibe-soiree": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-23T16:40:31.058716-06:00"
+ },
+ "https://www.ticketmaster.com/almost-friday-presents-free-beer-christmas-madison-wisconsin-12-01-2026/event/0700657797F1284C": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-11-23T16:40:31.058722-06:00"
+ },
+ "https://www.karben4.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-23T16:40:31.058728-06:00"
  }
 }

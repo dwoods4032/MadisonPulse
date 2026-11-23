@@ -1,30 +1,30 @@
 {
- "generated_at": "2026-11-22T21:45:30-06:00",
- "total_events": 357,
- "in_more_than_one_source": 9,
+ "generated_at": "2026-11-23T16:40:30-06:00",
+ "total_events": 356,
+ "in_more_than_one_source": 7,
  "sources": {
   "AI page reading": {
-   "events": 116,
-   "unique_events": 108,
+   "events": 115,
+   "unique_events": 109,
    "overlap": {
     "Isthmus": 2,
-    "Ticketmaster": 6,
+    "Ticketmaster": 4,
     "Venue websites": 0
    },
-   "venues": 36,
+   "venues": 35,
    "unique_venues": [
-    "Alicia Ashman Library",
+    "Aftershock Classic Arcade",
     "Arts + Literature Laboratory",
     "Bartell Theatre",
     "Below Deck Concession Stand",
     "Capital Brewery",
-    "Central Library",
-    "Centro",
     "Crystal Corner Bar",
+    "D'Vino",
     "Fitchburg Public Library",
     "Flight Wine & Bourbon Bar",
     "Imagination Center",
     "Italian Workmen's Club",
+    "Karben4 Brewing",
     "Laurel Tavern",
     "Lazy Oaf Lounge",
     "Monkeyshines Bar & Grill",
@@ -34,7 +34,6 @@
     "Overture Center for the Arts",
     "Pinney Library",
     "Reindahl Park Pavillion",
-    "Sequoya Library",
     "State Line Distillery",
     "Verona Community Center",
     "Verona Public Library",
@@ -44,14 +43,14 @@
    ]
   },
   "Isthmus": {
-   "events": 160,
-   "unique_events": 158,
+   "events": 159,
+   "unique_events": 157,
    "overlap": {
     "AI page reading": 2,
     "Ticketmaster": 0,
     "Venue websites": 0
    },
-   "venues": 73,
+   "venues": 74,
    "unique_venues": [
     "100state",
     "Argus BarGrille",
@@ -102,44 +101,44 @@
     "Shambhala Meditation Center",
     "Slowpoke Lounge & Cabaret",
     "Starkweather Brewing Company",
-    "Stoughton Opera House",
+    "Tasting Room",
     "The Bur Oak",
     "The Mill",
     "The Neighborhood House",
     "The Perch",
     "The Rigby",
     "UW Hamel Music Center-Collins Recital Hall",
-    "UW Social Sciences Building",
     "UW Weeks Hall",
     "Up North Pub",
+    "VFW Post 7591-Cottage Grove Road",
     "Vilas Park",
     "Vintage Brewing Company Capitol East",
     "Wil-Mar Center",
+    "Young Blood Beer Company",
     "Zafferano Ristorante"
    ]
   },
   "Ticketmaster": {
-   "events": 36,
+   "events": 34,
    "unique_events": 29,
    "overlap": {
-    "AI page reading": 6,
+    "AI page reading": 4,
     "Isthmus": 0,
     "Venue websites": 1
    },
-   "venues": 11,
+   "venues": 10,
    "unique_venues": [
     "Camp Randall",
     "Capitol Theater - Overture Center",
     "LaBahn Arena",
     "Legacy20 Arena at Deforest Yards",
     "Majestic",
-    "The Sylvee",
     "Veterans Memorial Coliseum at Alliant Energy Center"
    ]
   },
   "Venue websites": {
-   "events": 54,
-   "unique_events": 53,
+   "events": 55,
+   "unique_events": 54,
    "overlap": {
     "AI page reading": 0,
     "Isthmus": 0,
