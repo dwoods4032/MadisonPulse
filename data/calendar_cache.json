@@ -1,271 +1,7 @@
 {
  "Isthmus calendar": {
-  "on": "2026-11-23",
+  "on": "2026-11-24",
   "events": [
-   {
-    "title": "Ced Ba'etch'",
-    "start": "2026-11-23T17:00:00-06:00",
-    "end": "2026-11-23T19:00:00-06:00",
-    "allday": false,
-    "location": "The Perch",
-    "desc": "5 pm Mondays. Free."
-   },
-   {
-    "title": "Ced Ba'etch'",
-    "start": "2026-11-30T17:00:00-06:00",
-    "end": "2026-11-30T19:00:00-06:00",
-    "allday": false,
-    "location": "The Perch",
-    "desc": "5 pm Mondays. Free."
-   },
-   {
-    "title": "Barrier Free Trivia Night",
-    "start": "2026-11-23T17:00:00-06:00",
-    "end": "2026-11-23T20:30:00-06:00",
-    "allday": false,
-    "location": "Hop Haus Brewing Company, Fitchburg",
-    "desc": "Access to Independence contest with considerations for folks with disabilities. $20. RSVP."
-   },
-   {
-    "title": "Dairyland Dancers",
-    "start": "2026-11-23T17:00:00-06:00",
-    "end": "2026-11-23T21:00:00-06:00",
-    "allday": false,
-    "location": "Five Nightclub",
-    "desc": "Open dance, 6-9 pm Mondays. Donations (beginner lesson 5 pm)."
-   },
-   {
-    "title": "Dairyland Dancers",
-    "start": "2026-11-30T17:00:00-06:00",
-    "end": "2026-11-30T21:00:00-06:00",
-    "allday": false,
-    "location": "Five Nightclub",
-    "desc": "Open dance, 6-9 pm Mondays. Donations (beginner lesson 5 pm)."
-   },
-   {
-    "title": "Creative Recovery Lab",
-    "start": "2026-11-23T17:30:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Garver Feed Mill",
-    "desc": "uHuman arts-inspired peer support meeting on recovery from grief, trauma, addictive behaviors or other adversity, facilitated by Morgan D. Stewart. Free. RSVP (click through for link to virtual option"
-   },
-   {
-    "title": "David Landau",
-    "start": "2026-11-23T17:30:00-06:00",
-    "end": "2026-11-23T18:15:00-06:00",
-    "allday": false,
-    "location": "Harmony Bar and Grill",
-    "desc": "Family concert, 5:30 pm Mondays. $5."
-   },
-   {
-    "title": "David Landau",
-    "start": "2026-11-30T17:30:00-06:00",
-    "end": "2026-11-30T18:15:00-06:00",
-    "allday": false,
-    "location": "Harmony Bar and Grill",
-    "desc": "Family concert, 5:30 pm Mondays. $5."
-   },
-   {
-    "title": "AI Build Night: Future of Healthcare",
-    "start": "2026-11-23T17:30:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "100state",
-    "desc": "Worldwide Studios workshop & networking. Free, but RSVP."
-   },
-   {
-    "title": "Language Models",
-    "start": "2026-11-23T18:00:00-06:00",
-    "end": "2026-11-23T20:59:00-06:00",
-    "allday": false,
-    "location": "Lola's Hi/Lo Lounge",
-    "desc": "Free."
-   },
-   {
-    "title": "Olbrich Park-North Parcel Public Meeting",
-    "start": "2026-11-23T18:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "",
-    "desc": "Madison Parks discussing initial design plans, on Zoom. RSVP for link."
-   },
-   {
-    "title": "CANCELED: Liz Glazer",
-    "start": "2026-11-23T18:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Comedy on State",
-    "desc": "$30."
-   },
-   {
-    "title": "Dan Plourde",
-    "start": "2026-11-23T18:00:00-06:00",
-    "end": "2026-11-23T21:00:00-06:00",
-    "allday": false,
-    "location": "Up North Pub",
-    "desc": "Free."
-   },
-   {
-    "title": "Madison Police Civilian Oversight Board Listening Session",
-    "start": "2026-11-23T18:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "",
-    "desc": "Discussing independent police monitor hiring process, on Zoom. RSVP for link."
-   },
-   {
-    "title": "Trans Social Night",
-    "start": "2026-11-23T18:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Crucible",
-    "desc": "Free."
-   },
-   {
-    "title": "MMSD Board of Education",
-    "start": "2026-11-23T18:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Madison Metropolitan School District Doyle Administration Building",
-    "desc": ""
-   },
-   {
-    "title": "Open Studio Night",
-    "start": "2026-11-23T18:30:00-06:00",
-    "end": "2026-11-23T20:30:00-06:00",
-    "allday": false,
-    "location": "Neighborhood House",
-    "desc": "6:30-8:30 pm Mondays. Free."
-   },
-   {
-    "title": "Open Studio Night",
-    "start": "2026-11-30T18:30:00-06:00",
-    "end": "2026-11-30T20:30:00-06:00",
-    "allday": false,
-    "location": "Neighborhood House",
-    "desc": "6:30-8:30 pm Mondays. Free."
-   },
-   {
-    "title": "Lego Night",
-    "start": "2026-11-23T18:30:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Working Draft Beer Company",
-    "desc": "Free building session, 6:30 pm Mondays."
-   },
-   {
-    "title": "Lego Night",
-    "start": "2026-11-30T18:30:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Working Draft Beer Company",
-    "desc": "Free building session, 6:30 pm Mondays."
-   },
-   {
-    "title": "Trivia",
-    "start": "2026-11-23T19:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Vintage Brewing Company Capitol East",
-    "desc": "Hosted by Premier Trivia, 7 pm Mondays. Free."
-   },
-   {
-    "title": "Trivia",
-    "start": "2026-11-30T19:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Vintage Brewing Company Capitol East",
-    "desc": "Hosted by Premier Trivia, 7 pm Mondays. Free."
-   },
-   {
-    "title": "Turbo Trivia",
-    "start": "2026-11-23T19:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Headquarters, Oregon",
-    "desc": "Hosted by America's Pub Quiz, 7 pm Mondays. Free. RSVP: 608-291-0750."
-   },
-   {
-    "title": "Turbo Trivia",
-    "start": "2026-11-30T19:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Headquarters, Oregon",
-    "desc": "Hosted by America's Pub Quiz, 7 pm Mondays. Free. RSVP: 608-291-0750."
-   },
-   {
-    "title": "Bluegrass Jam",
-    "start": "2026-11-23T19:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Muskellounge and Sporting Club",
-    "desc": "Hosted by Southern Wisconsin Bluegrass Music Association, 7 pm Mondays, Muskellounge."
-   },
-   {
-    "title": "Bluegrass Jam",
-    "start": "2026-11-30T19:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Muskellounge and Sporting Club",
-    "desc": "Hosted by Southern Wisconsin Bluegrass Music Association, 7 pm Mondays, Muskellounge."
-   },
-   {
-    "title": "Bingo",
-    "start": "2026-11-23T19:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Mickey's Tavern",
-    "desc": "7 pm Mondays. Free."
-   },
-   {
-    "title": "Bingo",
-    "start": "2026-11-30T19:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Mickey's Tavern",
-    "desc": "7 pm Mondays. Free."
-   },
-   {
-    "title": "Open Mic with Dylan Harris",
-    "start": "2026-11-23T19:30:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Slowpoke Lounge & Cabaret, Spring Green",
-    "desc": "Free."
-   },
-   {
-    "title": "Conor Nelson",
-    "start": "2026-11-23T19:30:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "UW Hamel Music Center-Collins Recital Hall",
-    "desc": "UW Mead Witter School of Music Faculty Artist Series. $20."
-   },
-   {
-    "title": "Medieval Dance Practice",
-    "start": "2026-11-23T19:30:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Wil-Mar Center",
-    "desc": "Society for Creative Anachronism session, 7:30-9 pm fourth Mondays, Wil-Mar Center. Free."
-   },
-   {
-    "title": "Slug Rug, Dicot",
-    "start": "2026-11-23T20:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Gamma Ray Bar",
-    "desc": ""
-   },
-   {
-    "title": "RSVP for United Way of Dane County Community Celebration",
-    "start": "2026-11-24T00:00:00-06:00",
-    "end": "2026-11-25T00:00:00-06:00",
-    "allday": true,
-    "location": "Monona Terrace",
-    "desc": "Annual fundraiser lunch, 11:30 am, 12/8. $33.85. RSVP by 11/24."
-   },
    {
     "title": "Holiday Market",
     "start": "2026-11-24T09:00:00-06:00",
@@ -371,14 +107,6 @@
     "desc": "Agrace Grief Support Center fundraiser thrift boutique, 10 am-5 pm Tuesdays-Saturdays, 10/28-11/28, East Towne Mall. Closed on Thanksgiving."
    },
    {
-    "title": "Madison Board Games & Beer",
-    "start": "2026-11-24T17:00:00-06:00",
-    "end": "2026-11-24T21:00:00-06:00",
-    "allday": false,
-    "location": "Starkweather Brewing Company",
-    "desc": "Board games/card playing session, 5 pm third and fourth Tuesdays. Free."
-   },
-   {
     "title": "Dungeons & Dragons",
     "start": "2026-11-24T17:00:00-06:00",
     "end": "2026-11-24T21:00:00-06:00",
@@ -387,12 +115,12 @@
     "desc": "Game play for all skill levels. Free."
    },
    {
-    "title": "Children's African Story Hour",
-    "start": "2026-11-24T17:30:00-06:00",
-    "end": null,
+    "title": "Madison Board Games & Beer",
+    "start": "2026-11-24T17:00:00-06:00",
+    "end": "2026-11-24T21:00:00-06:00",
     "allday": false,
-    "location": "Eagle Heights Community Center",
-    "desc": "UW African Studies Program storybook reading, activities and food, 5:30 pm last Tuesdays. Free."
+    "location": "Starkweather Brewing Company",
+    "desc": "Board games/card playing session, 5 pm third and fourth Tuesdays. Free."
    },
    {
     "title": "Jerry Fitzpatrick",
@@ -411,12 +139,12 @@
     "desc": "5:30 pm Tuesdays. Free."
    },
    {
-    "title": "Neil Knutson",
-    "start": "2026-11-24T18:00:00-06:00",
-    "end": "2026-11-24T21:00:00-06:00",
+    "title": "Children's African Story Hour",
+    "start": "2026-11-24T17:30:00-06:00",
+    "end": null,
     "allday": false,
-    "location": "Up North Pub",
-    "desc": ""
+    "location": "Eagle Heights Community Center",
+    "desc": "UW African Studies Program storybook reading, activities and food, 5:30 pm last Tuesdays. Free."
    },
    {
     "title": "Brazilian Choro Jam",
@@ -435,6 +163,14 @@
     "desc": "Underdog Pet Rescue discussion with trainer Jorge Melara, 6 pm fourth Tuesdays, on Zoom. Click through for link."
    },
    {
+    "title": "Neil Knutson",
+    "start": "2026-11-24T18:00:00-06:00",
+    "end": "2026-11-24T21:00:00-06:00",
+    "allday": false,
+    "location": "Up North Pub",
+    "desc": ""
+   },
+   {
     "title": "Madison West Coast Swing Club",
     "start": "2026-11-24T18:15:00-06:00",
     "end": "2026-11-24T21:00:00-06:00",
@@ -451,44 +187,12 @@
     "desc": "Lesson 6:15 pm, open dance, 7-9 pm Tuesdays. $10."
    },
    {
-    "title": "Saber Combat Club",
+    "title": "Taproom Trivia",
     "start": "2026-11-24T18:30:00-06:00",
     "end": null,
     "allday": false,
-    "location": "Vilas Park",
-    "desc": "The Saber Legion Madison chapter sparring session, 6:30 pm Tuesdays, Vilas Park (by the tennis courts). Free/donations."
-   },
-   {
-    "title": "Saber Combat Club",
-    "start": "2026-12-01T18:30:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Vilas Park",
-    "desc": "The Saber Legion Madison chapter sparring session, 6:30 pm Tuesdays, Vilas Park (by the tennis courts). Free/donations."
-   },
-   {
-    "title": "Quizmaster Trivia",
-    "start": "2026-11-24T18:30:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Lake Louie Brewing/Wisconsin Brewing Co., Verona",
-    "desc": "6:30 pm Tuesdays. Free/donations."
-   },
-   {
-    "title": "Quizmaster Trivia",
-    "start": "2026-12-01T18:30:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Lake Louie Brewing/Wisconsin Brewing Co., Verona",
-    "desc": "6:30 pm Tuesdays. Free/donations."
-   },
-   {
-    "title": "Madison Common Council",
-    "start": "2026-11-24T18:30:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "",
-    "desc": "Meeting, online only. Zoom and webcast options available; click through for info."
+    "location": "Public Parking",
+    "desc": "Hosted by Brews and Q's. Free."
    },
    {
     "title": "DJ Tamel",
@@ -499,44 +203,52 @@
     "desc": ""
    },
    {
-    "title": "Trivia",
+    "title": "Saber Combat Club",
     "start": "2026-11-24T18:30:00-06:00",
     "end": null,
     "allday": false,
-    "location": "The Kickback, Middleton",
-    "desc": "Hosted by Premier Trivia, 6:30 pm Tuesdays. Free."
+    "location": "Vilas Park",
+    "desc": "The Saber Legion Madison chapter sparring session, 6:30 pm Tuesdays, Vilas Park (by the tennis courts). Free/donations."
    },
    {
-    "title": "Trivia",
+    "title": "Saber Combat Club",
     "start": "2026-12-01T18:30:00-06:00",
     "end": null,
     "allday": false,
-    "location": "The Kickback, Middleton",
-    "desc": "Hosted by Premier Trivia, 6:30 pm Tuesdays. Free."
+    "location": "Vilas Park",
+    "desc": "The Saber Legion Madison chapter sparring session, 6:30 pm Tuesdays, Vilas Park (by the tennis courts). Free/donations."
    },
    {
-    "title": "Open Mic with Sam Sturtevant",
+    "title": "Quizmaster Trivia",
     "start": "2026-11-24T18:30:00-06:00",
     "end": null,
     "allday": false,
-    "location": "Locker Room Sports Bar",
-    "desc": "6:30 pm Tuesdays, Locker Room. Free."
+    "location": "Lake Louie Brewing/Wisconsin Brewing Co., Verona",
+    "desc": "6:30 pm Tuesdays. Free/donations."
    },
    {
-    "title": "Open Mic with Sam Sturtevant",
+    "title": "Quizmaster Trivia",
     "start": "2026-12-01T18:30:00-06:00",
     "end": null,
     "allday": false,
-    "location": "Locker Room Sports Bar",
-    "desc": "6:30 pm Tuesdays, Locker Room. Free."
+    "location": "Lake Louie Brewing/Wisconsin Brewing Co., Verona",
+    "desc": "6:30 pm Tuesdays. Free/donations."
    },
    {
-    "title": "Bigtooth",
+    "title": "Bingo",
     "start": "2026-11-24T18:30:00-06:00",
-    "end": "2026-11-24T20:30:00-06:00",
+    "end": null,
     "allday": false,
-    "location": "Harmony Bar and Grill",
-    "desc": "Bluegrass, 6:30 pm fourth Tuesdays. Free."
+    "location": "Working Draft Beer Company",
+    "desc": "6:30 pm Tuesdays. Free."
+   },
+   {
+    "title": "Bingo",
+    "start": "2026-12-01T18:30:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Working Draft Beer Company",
+    "desc": "6:30 pm Tuesdays. Free."
    },
    {
     "title": "Capital City Toastmasters",
@@ -547,28 +259,52 @@
     "desc": "Public speaking/leadership skills club, second Tuesdays, Fitchburg Community Center; and fourth Tuesdays, Fitchburg Library."
    },
    {
-    "title": "Taproom Trivia",
+    "title": "Open Mic with Sam Sturtevant",
     "start": "2026-11-24T18:30:00-06:00",
     "end": null,
     "allday": false,
-    "location": "Public Parking",
-    "desc": "Hosted by Brews and Q's. Free."
+    "location": "Locker Room Sports Bar",
+    "desc": "6:30 pm Tuesdays, Locker Room. Free."
    },
    {
-    "title": "Bingo",
-    "start": "2026-11-24T18:30:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Working Draft Beer Company",
-    "desc": "6:30 pm Tuesdays. Free."
-   },
-   {
-    "title": "Bingo",
+    "title": "Open Mic with Sam Sturtevant",
     "start": "2026-12-01T18:30:00-06:00",
     "end": null,
     "allday": false,
-    "location": "Working Draft Beer Company",
-    "desc": "6:30 pm Tuesdays. Free."
+    "location": "Locker Room Sports Bar",
+    "desc": "6:30 pm Tuesdays, Locker Room. Free."
+   },
+   {
+    "title": "Madison Common Council",
+    "start": "2026-11-24T18:30:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "",
+    "desc": "Meeting, online only. Zoom and webcast options available; click through for info."
+   },
+   {
+    "title": "Trivia",
+    "start": "2026-11-24T18:30:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "The Kickback, Middleton",
+    "desc": "Hosted by Premier Trivia, 6:30 pm Tuesdays. Free."
+   },
+   {
+    "title": "Trivia",
+    "start": "2026-12-01T18:30:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "The Kickback, Middleton",
+    "desc": "Hosted by Premier Trivia, 6:30 pm Tuesdays. Free."
+   },
+   {
+    "title": "Bigtooth",
+    "start": "2026-11-24T18:30:00-06:00",
+    "end": "2026-11-24T20:30:00-06:00",
+    "allday": false,
+    "location": "Harmony Bar and Grill",
+    "desc": "Bluegrass, 6:30 pm fourth Tuesdays. Free."
    },
    {
     "title": "Taproom Trivia",
@@ -591,22 +327,6 @@
     "start": "2026-11-24T19:00:00-06:00",
     "end": null,
     "allday": false,
-    "location": "The Rigby",
-    "desc": "7 pm Tuesdays. Free."
-   },
-   {
-    "title": "Trivia",
-    "start": "2026-12-01T19:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "The Rigby",
-    "desc": "7 pm Tuesdays. Free."
-   },
-   {
-    "title": "Trivia",
-    "start": "2026-11-24T19:00:00-06:00",
-    "end": null,
-    "allday": false,
     "location": "Liberty Station American Tavern",
     "desc": "7 pm Tuesdays. Free."
    },
@@ -619,52 +339,12 @@
     "desc": "7 pm Tuesdays. Free."
    },
    {
-    "title": "Bingo",
-    "start": "2026-11-24T19:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Vintage Brewing Company Capitol East",
-    "desc": "7 pm Tuesdays. Free."
-   },
-   {
-    "title": "Bingo",
-    "start": "2026-12-01T19:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Vintage Brewing Company Capitol East",
-    "desc": "7 pm Tuesdays. Free."
-   },
-   {
-    "title": "Bluegrass Jam",
-    "start": "2026-11-24T19:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Goodman Community Center-Brassworks",
-    "desc": "Southern Wisconsin Bluegrass Music Association, 7 pm Tuesdays (skips fifth weeks); click through for hosts. Donations."
-   },
-   {
-    "title": "Bluegrass Jam",
-    "start": "2026-12-01T19:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Goodman Community Center-Brassworks",
-    "desc": "Southern Wisconsin Bluegrass Music Association, 7 pm Tuesdays (skips fifth weeks); click through for hosts. Donations."
-   },
-   {
     "title": "Trivia",
     "start": "2026-11-24T19:00:00-06:00",
     "end": null,
     "allday": false,
-    "location": "The Green Room Public House",
-    "desc": "7 pm Tuesdays. Free."
-   },
-   {
-    "title": "Trivia",
-    "start": "2026-12-01T19:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "The Green Room Public House",
-    "desc": "7 pm Tuesdays. Free."
+    "location": "Mickey's Tavern",
+    "desc": "7 pm second and fourth Tuesdays. Free."
    },
    {
     "title": "Django Jazz Jam",
@@ -683,6 +363,22 @@
     "desc": "7 pm Tuesdays. Free."
    },
    {
+    "title": "Bluegrass Jam",
+    "start": "2026-11-24T19:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Goodman Community Center-Brassworks",
+    "desc": "Southern Wisconsin Bluegrass Music Association, 7 pm Tuesdays (skips fifth weeks); click through for hosts. Donations."
+   },
+   {
+    "title": "Bluegrass Jam",
+    "start": "2026-12-01T19:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Goodman Community Center-Brassworks",
+    "desc": "Southern Wisconsin Bluegrass Music Association, 7 pm Tuesdays (skips fifth weeks); click through for hosts. Donations."
+   },
+   {
     "title": "TrainCar Trivia",
     "start": "2026-11-24T19:00:00-06:00",
     "end": null,
@@ -699,36 +395,20 @@
     "desc": "Hosted by Chris Calogero, 7 pm Tuesdays. Free."
    },
    {
-    "title": "Zen Meditation & Chanting",
+    "title": "Trivia",
     "start": "2026-11-24T19:00:00-06:00",
     "end": null,
     "allday": false,
-    "location": "Shambhala Meditation Center",
-    "desc": "Madison Rinzai Zen Community, 7 pm Tuesdays. Donations."
+    "location": "The Rigby",
+    "desc": "7 pm Tuesdays. Free."
    },
    {
-    "title": "Zen Meditation & Chanting",
+    "title": "Trivia",
     "start": "2026-12-01T19:00:00-06:00",
     "end": null,
     "allday": false,
-    "location": "Shambhala Meditation Center",
-    "desc": "Madison Rinzai Zen Community, 7 pm Tuesdays. Donations."
-   },
-   {
-    "title": "Charlie Painter & Aaron Brenton",
-    "start": "2026-11-24T19:00:00-06:00",
-    "end": "2026-11-24T22:00:00-06:00",
-    "allday": false,
-    "location": "Tasting Room, Monona",
-    "desc": "Jazz. Free."
-   },
-   {
-    "title": "Slipjig",
-    "start": "2026-11-24T19:00:00-06:00",
-    "end": "2026-11-24T21:00:00-06:00",
-    "allday": false,
-    "location": "Malt House",
-    "desc": "Celtic, fourth Tuesdays (usually)."
+    "location": "The Rigby",
+    "desc": "7 pm Tuesdays. Free."
    },
    {
     "title": "Tango Tuesday",
@@ -747,6 +427,70 @@
     "desc": "Lessons/practice 7 pm, open dance 8:30-10:30 pm Tuesdays, Cafe Coda. $10."
    },
    {
+    "title": "Charlie Painter & Aaron Brenton",
+    "start": "2026-11-24T19:00:00-06:00",
+    "end": "2026-11-24T22:00:00-06:00",
+    "allday": false,
+    "location": "Tasting Room, Monona",
+    "desc": "Jazz. Free."
+   },
+   {
+    "title": "Madison Gem & Mineral Club",
+    "start": "2026-11-24T19:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "UW Weeks Hall",
+    "desc": "Fourth Tuesdays, Room AB20. No meetings August & December."
+   },
+   {
+    "title": "Bingo",
+    "start": "2026-11-24T19:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Vintage Brewing Company Capitol East",
+    "desc": "7 pm Tuesdays. Free."
+   },
+   {
+    "title": "Bingo",
+    "start": "2026-12-01T19:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Vintage Brewing Company Capitol East",
+    "desc": "7 pm Tuesdays. Free."
+   },
+   {
+    "title": "Trivia",
+    "start": "2026-11-24T19:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "The Green Room Public House",
+    "desc": "7 pm Tuesdays. Free."
+   },
+   {
+    "title": "Trivia",
+    "start": "2026-12-01T19:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "The Green Room Public House",
+    "desc": "7 pm Tuesdays. Free."
+   },
+   {
+    "title": "Zen Meditation & Chanting",
+    "start": "2026-11-24T19:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Shambhala Meditation Center",
+    "desc": "Madison Rinzai Zen Community, 7 pm Tuesdays. Donations."
+   },
+   {
+    "title": "Zen Meditation & Chanting",
+    "start": "2026-12-01T19:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Shambhala Meditation Center",
+    "desc": "Madison Rinzai Zen Community, 7 pm Tuesdays. Donations."
+   },
+   {
     "title": "Knit Night",
     "start": "2026-11-24T19:00:00-06:00",
     "end": null,
@@ -763,60 +507,12 @@
     "desc": "Fiber arts social, 7-8:30 pm Tuesdays. Free."
    },
    {
-    "title": "Madison Gem & Mineral Club",
+    "title": "Slipjig",
     "start": "2026-11-24T19:00:00-06:00",
-    "end": null,
+    "end": "2026-11-24T21:00:00-06:00",
     "allday": false,
-    "location": "UW Weeks Hall",
-    "desc": "Fourth Tuesdays, Room AB20. No meetings August & December."
-   },
-   {
-    "title": "Trivia",
-    "start": "2026-11-24T19:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Mickey's Tavern",
-    "desc": "7 pm second and fourth Tuesdays. Free."
-   },
-   {
-    "title": "Madison Contra Dance",
-    "start": "2026-11-24T19:30:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Wil-Mar Center",
-    "desc": "7:30-9:30 pm Tuesdays, Wil-Mar Center. Donations."
-   },
-   {
-    "title": "Madison Contra Dance",
-    "start": "2026-12-01T19:30:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Wil-Mar Center",
-    "desc": "7:30-9:30 pm Tuesdays, Wil-Mar Center. Donations."
-   },
-   {
-    "title": "Disc-Ho Ho HO!",
-    "start": "2026-11-24T19:30:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "The Bur Oak",
-    "desc": "Dance Fabulous presents \"A Holiday Variety Burlesque Cabaret Spectacular,\" 7:30 pm, 11/24 & 27 and 1 and 7:30 pm, 11/28. $30."
-   },
-   {
-    "title": "Disc-Ho Ho HO!",
-    "start": "2026-11-27T19:30:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "The Bur Oak",
-    "desc": "Dance Fabulous presents \"A Holiday Variety Burlesque Cabaret Spectacular,\" 7:30 pm, 11/24 & 27 and 1 and 7:30 pm, 11/28. $30."
-   },
-   {
-    "title": "Disc-Ho Ho HO!",
-    "start": "2026-11-28T13:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "The Bur Oak",
-    "desc": "Dance Fabulous presents \"A Holiday Variety Burlesque Cabaret Spectacular,\" 7:30 pm, 11/24 & 27 and 1 and 7:30 pm, 11/28. $30."
+    "location": "Malt House",
+    "desc": "Celtic, fourth Tuesdays (usually)."
    },
    {
     "title": "Maybe Happy Ending",
@@ -891,6 +587,46 @@
     "desc": "Lesson 7:30 pm, open dance 8:30 pm. $10."
    },
    {
+    "title": "Madison Contra Dance",
+    "start": "2026-11-24T19:30:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Wil-Mar Center",
+    "desc": "7:30-9:30 pm Tuesdays, Wil-Mar Center. Donations."
+   },
+   {
+    "title": "Madison Contra Dance",
+    "start": "2026-12-01T19:30:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Wil-Mar Center",
+    "desc": "7:30-9:30 pm Tuesdays, Wil-Mar Center. Donations."
+   },
+   {
+    "title": "Disc-Ho Ho HO!",
+    "start": "2026-11-24T19:30:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "The Bur Oak",
+    "desc": "Dance Fabulous presents \"A Holiday Variety Burlesque Cabaret Spectacular,\" 7:30 pm, 11/24 & 27 and 1 and 7:30 pm, 11/28. $30."
+   },
+   {
+    "title": "Disc-Ho Ho HO!",
+    "start": "2026-11-27T19:30:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "The Bur Oak",
+    "desc": "Dance Fabulous presents \"A Holiday Variety Burlesque Cabaret Spectacular,\" 7:30 pm, 11/24 & 27 and 1 and 7:30 pm, 11/28. $30."
+   },
+   {
+    "title": "Disc-Ho Ho HO!",
+    "start": "2026-11-28T13:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "The Bur Oak",
+    "desc": "Dance Fabulous presents \"A Holiday Variety Burlesque Cabaret Spectacular,\" 7:30 pm, 11/24 & 27 and 1 and 7:30 pm, 11/28. $30."
+   },
+   {
     "title": "Rabin String Quartet",
     "start": "2026-11-24T19:30:00-06:00",
     "end": null,
@@ -899,22 +635,6 @@
     "desc": "Mead Witter School of Music student recital. Free."
    },
    {
-    "title": "Open Mic",
-    "start": "2026-11-24T20:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Madison's",
-    "desc": "8 pm Tuesdays. Free."
-   },
-   {
-    "title": "Open Mic",
-    "start": "2026-12-01T20:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Madison's",
-    "desc": "8 pm Tuesdays. Free."
-   },
-   {
     "title": "Argus Underground Open Mic",
     "start": "2026-11-24T20:00:00-06:00",
     "end": null,
@@ -928,6 +648,22 @@
     "end": null,
     "allday": false,
     "location": "Argus BarGrille",
+    "desc": "8 pm Tuesdays. Free."
+   },
+   {
+    "title": "Open Mic",
+    "start": "2026-11-24T20:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Madison's",
+    "desc": "8 pm Tuesdays. Free."
+   },
+   {
+    "title": "Open Mic",
+    "start": "2026-12-01T20:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Madison's",
     "desc": "8 pm Tuesdays. Free."
    },
    {
@@ -971,6 +707,22 @@
     "desc": "Advent season lecture series, 10 am Tuesdays, 12/1-15, Holy Wisdom Monastery; or 6:30 pm Wednesdays, 12/2-16, virtual. $37. RSVP by 11/25."
    },
    {
+    "title": "Meditation",
+    "start": "2026-11-25T12:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Kadampa Meditation Center Madison",
+    "desc": "Noon Wednesdays. $5."
+   },
+   {
+    "title": "Meditation",
+    "start": "2026-12-02T12:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Kadampa Meditation Center Madison",
+    "desc": "Noon Wednesdays. $5."
+   },
+   {
     "title": "Walk-in Meals",
     "start": "2026-11-25T12:00:00-06:00",
     "end": null,
@@ -995,22 +747,6 @@
     "desc": "Free meal, noon, Wednesday-Thursday, Neighborhood House."
    },
    {
-    "title": "Meditation",
-    "start": "2026-11-25T12:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Kadampa Meditation Center Madison",
-    "desc": "Noon Wednesdays. $5."
-   },
-   {
-    "title": "Meditation",
-    "start": "2026-12-02T12:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Kadampa Meditation Center Madison",
-    "desc": "Noon Wednesdays. $5."
-   },
-   {
     "title": "Capitol Walkers",
     "start": "2026-11-25T12:15:00-06:00",
     "end": null,
@@ -1027,6 +763,14 @@
     "desc": "Foundation for Black Women's Wellness group walk, 12:15 pm Wednesdays, from Capitol Rotunda. Free. RSVP."
    },
    {
+    "title": "Parkinson's Support Groups",
+    "start": "2026-11-25T13:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "The Courtyard at Fitchburg, Fitchburg",
+    "desc": "Concurrent meetings for Parkinson's and Parkinsonism group and Parkinson's Care Partners group, 1 pm fourth Wednesdays. RSVP: tanyas@seniorhelpers.com."
+   },
+   {
     "title": "Bluegrass Jam",
     "start": "2026-11-25T13:00:00-06:00",
     "end": "2026-11-25T15:00:00-06:00",
@@ -1041,14 +785,6 @@
     "allday": false,
     "location": "Harmony Bar and Grill",
     "desc": "1 pm Wednesdays. Free."
-   },
-   {
-    "title": "Parkinson's Support Groups",
-    "start": "2026-11-25T13:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "The Courtyard at Fitchburg, Fitchburg",
-    "desc": "Concurrent meetings for Parkinson's and Parkinsonism group and Parkinson's Care Partners group, 1 pm fourth Wednesdays. RSVP: tanyas@seniorhelpers.com."
    },
    {
     "title": "Madison Public Farmers' Market",
@@ -1115,6 +851,14 @@
     "desc": "Holiday light displays & activities, entry from 4:30-7:30 pm Fridays-Sundays, 11/20-12/20, Vilas Zoo (closing time is 8 pm), plus 11/25 and 12/21-23. $12 (free ages 3 & under)."
    },
    {
+    "title": "Jen Hammer",
+    "start": "2026-11-27T17:00:00-06:00",
+    "end": "2026-11-27T21:00:00-06:00",
+    "allday": false,
+    "location": "Madison Enterprise Center-Common Wealth Gallery",
+    "desc": "\"Peace City: Reflections & Crowds,\" 5-9 pm, 11/25 & 27.\n\nWHEN\nNovember 25 & 27, 2026\n5–9 p.m.\n\nWHERE\nCommon Wealth Gallery\n100 S. Baldwin Street, Floor 3\nMadison, Wisconsin\n\nARTIST\nJen Hammer\n\nWITH\nTK"
+   },
+   {
     "title": "Madison Song Circle",
     "start": "2026-11-25T17:00:00-06:00",
     "end": "2026-11-25T19:00:00-06:00",
@@ -1129,14 +873,6 @@
     "allday": false,
     "location": "Muso",
     "desc": "5 pm Wednesdays. Free."
-   },
-   {
-    "title": "Jen Hammer",
-    "start": "2026-11-27T17:00:00-06:00",
-    "end": "2026-11-27T21:00:00-06:00",
-    "allday": false,
-    "location": "Madison Enterprise Center-Common Wealth Gallery",
-    "desc": "\"Peace City: Reflections & Crowds,\" 5-9 pm, 11/25 & 27.\n\nWHEN\nNovember 25 & 27, 2026\n5–9 p.m.\n\nWHERE\nCommon Wealth Gallery\n100 S. Baldwin Street, Floor 3\nMadison, Wisconsin\n\nARTIST\nJen Hammer\n\nWITH\nTK"
    },
    {
     "title": "Tom Waselchuk & Doug Brown",
@@ -1187,6 +923,22 @@
     "desc": "All paces and identities welcome, 3-4 mile routes, second and fourth Wednesday."
    },
    {
+    "title": "Borris",
+    "start": "2026-11-25T18:00:00-06:00",
+    "end": "2026-11-25T20:00:00-06:00",
+    "allday": false,
+    "location": "Zafferano Ristorante, Fitchburg",
+    "desc": "Piano, 6 pm Wednesdays."
+   },
+   {
+    "title": "Borris",
+    "start": "2026-12-02T18:00:00-06:00",
+    "end": "2026-12-02T20:00:00-06:00",
+    "allday": false,
+    "location": "Zafferano Ristorante, Fitchburg",
+    "desc": "Piano, 6 pm Wednesdays."
+   },
+   {
     "title": "Britton Rea & Sarah Krahn",
     "start": "2026-11-25T18:00:00-06:00",
     "end": "2026-11-25T21:00:00-06:00",
@@ -1235,6 +987,22 @@
     "desc": "vs. Northeastern."
    },
    {
+    "title": "Trivia",
+    "start": "2026-11-25T18:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Java Cat",
+    "desc": "Hosted by Premier Trivia, 6 pm Wednesdays. Free."
+   },
+   {
+    "title": "Trivia",
+    "start": "2026-12-02T18:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Java Cat",
+    "desc": "Hosted by Premier Trivia, 6 pm Wednesdays. Free."
+   },
+   {
     "title": "MoonHouse",
     "start": "2026-11-25T18:00:00-06:00",
     "end": "2026-11-25T21:00:00-06:00",
@@ -1243,76 +1011,12 @@
     "desc": "Free."
    },
    {
-    "title": "Trivia",
-    "start": "2026-11-25T18:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Java Cat",
-    "desc": "Hosted by Premier Trivia, 6 pm Wednesdays. Free."
-   },
-   {
-    "title": "Trivia",
-    "start": "2026-12-02T18:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Java Cat",
-    "desc": "Hosted by Premier Trivia, 6 pm Wednesdays. Free."
-   },
-   {
-    "title": "Borris",
-    "start": "2026-11-25T18:00:00-06:00",
-    "end": "2026-11-25T20:00:00-06:00",
-    "allday": false,
-    "location": "Zafferano Ristorante, Fitchburg",
-    "desc": "Piano, 6 pm Wednesdays."
-   },
-   {
-    "title": "Borris",
-    "start": "2026-12-02T18:00:00-06:00",
-    "end": "2026-12-02T20:00:00-06:00",
-    "allday": false,
-    "location": "Zafferano Ristorante, Fitchburg",
-    "desc": "Piano, 6 pm Wednesdays."
-   },
-   {
     "title": "Tinnitus Peer Discussion Group",
     "start": "2026-11-25T18:30:00-06:00",
     "end": null,
     "allday": false,
     "location": "",
     "desc": "6:30 pm fourth Wednesdays, on Zoom. RSVP for link: dholmenihearu@gmail.com."
-   },
-   {
-    "title": "Trivia",
-    "start": "2026-11-25T18:30:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Working Draft Beer Company",
-    "desc": "6:30 pm Wednesdays, Working Draft. Free."
-   },
-   {
-    "title": "Trivia",
-    "start": "2026-12-02T18:30:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Working Draft Beer Company",
-    "desc": "6:30 pm Wednesdays, Working Draft. Free."
-   },
-   {
-    "title": "Loving Kindness",
-    "start": "2026-11-25T18:30:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Joyful Path Meditation & Healing Center",
-    "desc": "Meditation group, 6:30 pm Wednesdays, Joyful Path. Donations."
-   },
-   {
-    "title": "Loving Kindness",
-    "start": "2026-12-02T18:30:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Joyful Path Meditation & Healing Center",
-    "desc": "Meditation group, 6:30 pm Wednesdays, Joyful Path. Donations."
    },
    {
     "title": "Northern Comfort",
@@ -1369,6 +1073,302 @@
     "allday": false,
     "location": "Main Street Music, Brooklyn",
     "desc": "6:30 pm Wednesdays. Free."
+   },
+   {
+    "title": "Loving Kindness",
+    "start": "2026-11-25T18:30:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Joyful Path Meditation & Healing Center",
+    "desc": "Meditation group, 6:30 pm Wednesdays, Joyful Path. Donations."
+   },
+   {
+    "title": "Loving Kindness",
+    "start": "2026-12-02T18:30:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Joyful Path Meditation & Healing Center",
+    "desc": "Meditation group, 6:30 pm Wednesdays, Joyful Path. Donations."
+   },
+   {
+    "title": "Trivia",
+    "start": "2026-11-25T18:30:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Working Draft Beer Company",
+    "desc": "6:30 pm Wednesdays, Working Draft. Free."
+   },
+   {
+    "title": "Trivia",
+    "start": "2026-12-02T18:30:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Working Draft Beer Company",
+    "desc": "6:30 pm Wednesdays, Working Draft. Free."
+   },
+   {
+    "title": "Zen Meditation Practice",
+    "start": "2026-11-25T19:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Quarry Arts Building",
+    "desc": "Tōmyōji Temple session, 7 pm Wednesdays or 10:30 am Sundays, Quarry Arts Building. Donations."
+   },
+   {
+    "title": "Zen Meditation Practice",
+    "start": "2026-12-02T19:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Quarry Arts Building",
+    "desc": "Tōmyōji Temple session, 7 pm Wednesdays or 10:30 am Sundays, Quarry Arts Building. Donations."
+   },
+   {
+    "title": "Jeopardy! Bar League",
+    "start": "2026-11-25T19:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Buffalo Wild Wings - Monona",
+    "desc": "TimePlay trivia, 7 pm Wednesdays. Free."
+   },
+   {
+    "title": "Jeopardy! Bar League",
+    "start": "2026-12-02T19:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Buffalo Wild Wings - Monona",
+    "desc": "TimePlay trivia, 7 pm Wednesdays. Free."
+   },
+   {
+    "title": "The Grazers",
+    "start": "2026-11-25T19:00:00-06:00",
+    "end": "2026-11-25T21:00:00-06:00",
+    "allday": false,
+    "location": "Malt House",
+    "desc": "Fourth Wednesdays (usually). Free."
+   },
+   {
+    "title": "Queer & Trans Open Mic",
+    "start": "2026-11-25T19:00:00-06:00",
+    "end": "2026-11-25T21:00:00-06:00",
+    "allday": false,
+    "location": "A Room of One's Own",
+    "desc": ""
+   },
+   {
+    "title": "Trivia",
+    "start": "2026-11-25T19:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Edgewater Hotel-Boathouse",
+    "desc": "7 pm Wednesdays. Free."
+   },
+   {
+    "title": "Trivia",
+    "start": "2026-12-02T19:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Edgewater Hotel-Boathouse",
+    "desc": "7 pm Wednesdays. Free."
+   },
+   {
+    "title": "Trivia",
+    "start": "2026-11-25T19:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Cardinal Bar",
+    "desc": "Hosted by Premier Trivia, 7 pm Wednesdays. Free"
+   },
+   {
+    "title": "Trivia",
+    "start": "2026-12-02T19:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Cardinal Bar",
+    "desc": "Hosted by Premier Trivia, 7 pm Wednesdays. Free"
+   },
+   {
+    "title": "Trivia",
+    "start": "2026-11-25T19:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Starkweather Brewing Company",
+    "desc": "Hosted by Dream Day Entertainment,7 pm Wednesdays. Free."
+   },
+   {
+    "title": "Trivia",
+    "start": "2026-12-02T19:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Starkweather Brewing Company",
+    "desc": "Hosted by Dream Day Entertainment,7 pm Wednesdays. Free."
+   },
+   {
+    "title": "DJ Vilas Park Sniper",
+    "start": "2026-11-25T19:00:00-06:00",
+    "end": "2026-11-25T22:59:00-06:00",
+    "allday": false,
+    "location": "Lola's Hi/Lo Lounge",
+    "desc": "Free."
+   },
+   {
+    "title": "DJ Vilas Park Sniper",
+    "start": "2026-12-05T21:00:00-06:00",
+    "end": "2026-12-06T00:59:00-06:00",
+    "allday": false,
+    "location": "Lola's Hi/Lo Lounge",
+    "desc": "Free."
+   },
+   {
+    "title": "Trivia",
+    "start": "2026-11-25T19:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Brass Ring, The",
+    "desc": "7 pm Wednesdays-Thursdays, The Brass Ring, using Discord app (can play from home; signup for lottery begins on Fridays)."
+   },
+   {
+    "title": "Trivia",
+    "start": "2026-12-02T19:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Brass Ring, The",
+    "desc": "7 pm Wednesdays-Thursdays, The Brass Ring, using Discord app (can play from home; signup for lottery begins on Fridays)."
+   },
+   {
+    "title": "Trivia",
+    "start": "2026-12-03T19:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Brass Ring, The",
+    "desc": "7 pm Wednesdays-Thursdays, The Brass Ring, using Discord app (can play from home; signup for lottery begins on Fridays)."
+   },
+   {
+    "title": "Jumptown Swing Dance",
+    "start": "2026-11-25T19:30:00-06:00",
+    "end": "2026-11-25T22:00:00-06:00",
+    "allday": false,
+    "location": "Cafe Coda",
+    "desc": "Ages 18+, 7:30-10 pm Wednesdays. $10."
+   },
+   {
+    "title": "Jumptown Swing Dance",
+    "start": "2026-12-02T19:30:00-06:00",
+    "end": "2026-12-02T22:00:00-06:00",
+    "allday": false,
+    "location": "Cafe Coda",
+    "desc": "Ages 18+, 7:30-10 pm Wednesdays. $10."
+   },
+   {
+    "title": "Meditation",
+    "start": "2026-11-25T19:30:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Diamond Way Buddhist Center",
+    "desc": "Talk on Buddhist subject followed by a guided meditation, 7:30 pm Sundays & Wednesdays. Free."
+   },
+   {
+    "title": "Meditation",
+    "start": "2026-11-29T19:30:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Diamond Way Buddhist Center",
+    "desc": "Talk on Buddhist subject followed by a guided meditation, 7:30 pm Sundays & Wednesdays. Free."
+   },
+   {
+    "title": "Meditation",
+    "start": "2026-12-02T19:30:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Diamond Way Buddhist Center",
+    "desc": "Talk on Buddhist subject followed by a guided meditation, 7:30 pm Sundays & Wednesdays. Free."
+   },
+   {
+    "title": "Meditation",
+    "start": "2026-12-06T19:30:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Diamond Way Buddhist Center",
+    "desc": "Talk on Buddhist subject followed by a guided meditation, 7:30 pm Sundays & Wednesdays. Free."
+   },
+   {
+    "title": "Max Capacity & the Sellouts",
+    "start": "2026-11-25T20:00:00-06:00",
+    "end": "2026-11-25T22:30:00-06:00",
+    "allday": false,
+    "location": "Harmony Bar and Grill",
+    "desc": "'80s, Second Harvest Foodbank benefit. $15 donation."
+   },
+   {
+    "title": "Finding North",
+    "start": "2026-11-25T20:00:00-06:00",
+    "end": "2026-11-25T23:00:00-06:00",
+    "allday": false,
+    "location": "Lone Girl Brewing Company, Waunakee",
+    "desc": "Free."
+   },
+   {
+    "title": "Tin Más, Latin Pride Orquesta, DJ Francis Medrano",
+    "start": "2026-11-25T20:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Majestic Theatre",
+    "desc": "Latin Music Fest."
+   },
+   {
+    "title": "Eli Gray & the Steel Hearts, Marengo",
+    "start": "2026-11-25T20:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "The Bur Oak",
+    "desc": "$10 ($7 adv.)."
+   },
+   {
+    "title": "Jim Ripp, Josh Dupont",
+    "start": "2026-11-25T20:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Ivory Room",
+    "desc": "Dueling pianos."
+   },
+   {
+    "title": "Holiday Trash/Recycling Collection",
+    "start": "2026-11-26T00:00:00-06:00",
+    "end": "2026-11-28T00:00:00-06:00",
+    "allday": true,
+    "location": "",
+    "desc": "No pickup on Thanksgiving, 11/26 (Thursday pickup on Wednesday, 11/25) or 11/27 (Friday pickup on Monday, 11/30). cityofmadison.com/streets. East: 608-246-4532. West: 608-266-4681."
+   },
+   {
+    "title": "Birdie Derby",
+    "start": "2026-11-26T08:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "",
+    "desc": "Annual 10K run & 5K run/walk fundraiser for Active Youth Wisconsin (for Grants 4 Schools program), starting 8-9 am, 11/26, Fitchburg Business Park. $50 ($45-$35 adv.)."
+   },
+   {
+    "title": "Turkey Trot",
+    "start": "2026-11-26T08:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "",
+    "desc": "Brown Paws Rescue fundraiser, 8 am, 11/26, Body Shop Training Studio, Evansville. Free/donations."
+   },
+   {
+    "title": "Turkey Trot",
+    "start": "2026-11-26T08:15:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Alliant Energy Center",
+    "desc": "United Cerebral Palsy of Greater Dane County fundraiser 5K runs, 8:30 am, 11/26, Alliant Energy Center (registration 7 am; kids' dash 8:15 am)."
+   },
+   {
+    "title": "Thanksgiving Day Dash",
+    "start": "2026-11-26T09:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Cherokee Park",
+    "desc": "5K run/walk, 9 am, 11/26, from Cherokee Park. Free (or $20 with hat; profits donated to The River Food Pantry)."
    }
   ]
  }

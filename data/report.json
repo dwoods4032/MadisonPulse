@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-23T16:40:30-06:00",
- "venues_checked": 237,
- "venues_with_events": 63,
- "venues_with_feeds": 85,
- "events": 356,
- "filtered_out": 182,
+ "generated_at": "2026-11-24T01:09:03-06:00",
+ "venues_checked": 234,
+ "venues_with_events": 64,
+ "venues_with_feeds": 86,
+ "events": 354,
+ "filtered_out": 152,
  "venues": [
   {
    "name": "AI page reading",
@@ -13,12 +13,12 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 175,
+   "raw_events": 174,
    "error": "",
-   "calls": 81,
-   "tokens_in": 135390,
-   "tokens_out": 38374,
-   "est_cost_usd": 0.0327
+   "calls": 25,
+   "tokens_in": 43045,
+   "tokens_out": 18922,
+   "est_cost_usd": 0.0138
   },
   {
    "name": "Isthmus calendar",
@@ -33,12 +33,26 @@
   {
    "name": "Bayview Community Center",
    "kind": "community",
-   "website": "https://www.bayviewfoundation.org",
+   "website": "https://bayviewfoundation.org",
    "feeds": [
     "tribe",
     "jsonld"
    ],
-   "raw_events": 83,
+   "raw_events": 90,
+   "error": ""
+  },
+  {
+   "name": "Comedy Club on State",
+   "kind": "venue",
+   "website": "https://www.madisoncomedy.com/",
+   "feeds": [
+    "tribe",
+    "jsonld",
+    "jsonld",
+    "jsonld",
+    "jsonld"
+   ],
+   "raw_events": 72,
    "error": ""
   },
   {
@@ -66,31 +80,6 @@
    "error": ""
   },
   {
-   "name": "E.D. Locke Public Library",
-   "kind": "library",
-   "website": "https://www.mcfarlandlibrary.org/home",
-   "feeds": [
-    "ical",
-    "ical"
-   ],
-   "raw_events": 32,
-   "error": "ical: ConnectionError: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //www.mcfarlandlibrary.org/calendar/month (Caused by NameResolutionError(\"HTTPSConnection(host='https"
-  },
-  {
-   "name": "Comedy Club on State",
-   "kind": "venue",
-   "website": "https://www.madisoncomedy.com/",
-   "feeds": [
-    "tribe",
-    "jsonld",
-    "jsonld",
-    "jsonld",
-    "jsonld"
-   ],
-   "raw_events": 30,
-   "error": ""
-  },
-  {
    "name": "Working Draft Beer Company",
    "kind": "brewery",
    "website": "https://www.workingdraftbeer.com/",
@@ -105,19 +94,9 @@
    "error": ""
   },
   {
-   "name": "Fitchburg Senior Center",
-   "kind": "community",
-   "website": "http://www.fitchburgwi.gov/621/Senior-Center",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 18,
-   "error": ""
-  },
-  {
    "name": "Cafe CODA",
    "kind": "bar",
-   "website": "https://cafecoda.club",
+   "website": "https://www.cafecoda.club",
    "feeds": [
     "squarespace",
     "jsonld",
@@ -167,13 +146,13 @@
    "error": ""
   },
   {
-   "name": "Gib's Bar",
-   "kind": "bar",
-   "website": "https://www.gibs.bar/",
+   "name": "Fitchburg Senior Center",
+   "kind": "community",
+   "website": "https://www.fitchburgwi.gov/621/Senior-Center",
    "feeds": [
-    "squarespace"
+    "ai"
    ],
-   "raw_events": 10,
+   "raw_events": 11,
    "error": ""
   },
   {
@@ -182,6 +161,28 @@
    "website": "https://www.lazyoaflounge.com/",
    "feeds": [
     "ai"
+   ],
+   "raw_events": 11,
+   "error": ""
+  },
+  {
+   "name": "E.D. Locke Public Library",
+   "kind": "library",
+   "website": "https://www.mcfarlandlibrary.org/home",
+   "feeds": [
+    "ical",
+    "ical",
+    "ai"
+   ],
+   "raw_events": 10,
+   "error": "ical: ConnectionError: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //www.mcfarlandlibrary.org/calendar/month (Caused by NameResolutionError(\"HTTPSConnection(host='https"
+  },
+  {
+   "name": "Gib's Bar",
+   "kind": "bar",
+   "website": "https://www.gibs.bar/",
+   "feeds": [
+    "squarespace"
    ],
    "raw_events": 10,
    "error": ""
@@ -197,9 +198,9 @@
    "error": ""
   },
   {
-   "name": "Crucible",
-   "kind": "bar",
-   "website": "https://www.cruciblemadison.com/",
+   "name": "Sun Prairie Public Library",
+   "kind": "library",
+   "website": "https://www.sunprairiepubliclibrary.org/",
    "feeds": [
     "ai"
    ],
@@ -207,9 +208,9 @@
    "error": ""
   },
   {
-   "name": "Sun Prairie Public Library",
-   "kind": "library",
-   "website": "https://www.sunprairiepubliclibrary.org/",
+   "name": "The Kickback",
+   "kind": "bar",
+   "website": "https://thekickback.bar/",
    "feeds": [
     "ai"
    ],
@@ -249,17 +250,7 @@
   {
    "name": "High Noon Saloon",
    "kind": "bar",
-   "website": "https://www.high-noon.com/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 6,
-   "error": ""
-  },
-  {
-   "name": "The Kickback",
-   "kind": "bar",
-   "website": "https://thekickback.bar/",
+   "website": "https://high-noon.com/",
    "feeds": [
     "ai"
    ],
@@ -277,42 +268,12 @@
    "error": ""
   },
   {
-   "name": "Imagination Center",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 5,
-   "error": ""
-  },
-  {
-   "name": "Monroe Street Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/monroe-street",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 5,
-   "error": ""
-  },
-  {
    "name": "One Social Bar",
    "kind": "bar",
    "website": "https://onesocialmadison.com/vendor/one-social-bar/",
    "feeds": [
     "tribe",
     "jsonld"
-   ],
-   "raw_events": 5,
-   "error": ""
-  },
-  {
-   "name": "Pinney Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
-   "feeds": [
-    "ai"
    ],
    "raw_events": 5,
    "error": ""
@@ -328,6 +289,36 @@
    "error": ""
   },
   {
+   "name": "Alicia Ashman Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 4,
+   "error": ""
+  },
+  {
+   "name": "Central Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/central",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 4,
+   "error": ""
+  },
+  {
+   "name": "Imagination Center",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 4,
+   "error": ""
+  },
+  {
    "name": "Laurel Tavern",
    "kind": "bar",
    "website": "http://www.thelaureltavern.com",
@@ -338,9 +329,29 @@
    "error": ""
   },
   {
-   "name": "Reindahl Park Pavillion",
-   "kind": "community",
-   "website": "https://www.cityofmadison.com/parks/find-a-park/reindahl/pavilion-at-the-imagination-center",
+   "name": "Monroe Street Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/monroe-street",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 4,
+   "error": ""
+  },
+  {
+   "name": "Pinney Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 4,
+   "error": ""
+  },
+  {
+   "name": "Sequoya Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/sequoya",
    "feeds": [
     "ai"
    ],
@@ -355,36 +366,6 @@
     "ai"
    ],
    "raw_events": 4,
-   "error": ""
-  },
-  {
-   "name": "Veterans Memorial Park",
-   "kind": "veterans",
-   "website": "https://www.cityofmadison.com/parks/find-a-park/park.cfm?id=1364",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 4,
-   "error": ""
-  },
-  {
-   "name": "Waunakee Public Library",
-   "kind": "library",
-   "website": "https://www.waunakeepubliclibrary.org/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 4,
-   "error": ""
-  },
-  {
-   "name": "Alicia Ashman Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 3,
    "error": ""
   },
   {
@@ -409,17 +390,6 @@
    "error": ""
   },
   {
-   "name": "D'Vino",
-   "kind": "bar",
-   "website": "https://www.dvinomadison.com/",
-   "feeds": [
-    "squarespace",
-    "ai"
-   ],
-   "raw_events": 3,
-   "error": ""
-  },
-  {
    "name": "Doundrins Distilling",
    "kind": "brewery",
    "website": "https://doundrinsdistilling.com/",
@@ -432,7 +402,7 @@
   {
    "name": "Fitchburg Public Library",
    "kind": "library",
-   "website": "http://www.fitchburgwi.gov/822/Library",
+   "website": "https://www.fitchburgwi.gov/822/Library",
    "feeds": [
     "ai"
    ],
@@ -470,6 +440,16 @@
    "error": ""
   },
   {
+   "name": "Reindahl Park Pavillion",
+   "kind": "community",
+   "website": "https://www.cityofmadison.com/parks/find-a-park/reindahl/pavilion-at-the-imagination-center",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 3,
+   "error": ""
+  },
+  {
    "name": "State Street Brats",
    "kind": "bar",
    "website": "https://statestreetbrats.com/",
@@ -488,6 +468,16 @@
    "feeds": [
     "squarespace",
     "jsonld"
+   ],
+   "raw_events": 3,
+   "error": ""
+  },
+  {
+   "name": "Veterans Memorial Park",
+   "kind": "veterans",
+   "website": "https://www.cityofmadison.com/parks/find-a-park/park.cfm?id=1364",
+   "feeds": [
+    "ai"
    ],
    "raw_events": 3,
    "error": ""
@@ -527,13 +517,12 @@
    "error": ""
   },
   {
-   "name": "Bridge Lakepoint Waunona Neighborhood Center",
-   "kind": "community",
-   "website": "https://www.blwcenter.org/",
+   "name": "D'Vino",
+   "kind": "bar",
+   "website": "https://www.dvinomadison.com/",
    "feeds": [
     "squarespace",
-    "jsonld",
-    "jsonld"
+    "ai"
    ],
    "raw_events": 2,
    "error": ""
@@ -569,6 +558,16 @@
    "error": ""
   },
   {
+   "name": "Mother Fool's",
+   "kind": "cafe",
+   "website": "https://www.motherfools.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 2,
+   "error": ""
+  },
+  {
    "name": "Orpheum Theatre",
    "kind": "venue",
    "website": "https://madisonorpheum.com/",
@@ -584,7 +583,6 @@
    "website": "https://www.veracourt.org/",
    "feeds": [
     "squarespace",
-    "jsonld",
     "jsonld",
     "jsonld"
    ],
@@ -607,6 +605,27 @@
    "website": "https://www.arthouse360.com/",
    "feeds": [
     "jsonld"
+   ],
+   "raw_events": 1,
+   "error": ""
+  },
+  {
+   "name": "Bridge Lakepoint Waunona Neighborhood Center",
+   "kind": "community",
+   "website": "https://www.blwcenter.org/",
+   "feeds": [
+    "squarespace",
+    "jsonld"
+   ],
+   "raw_events": 1,
+   "error": ""
+  },
+  {
+   "name": "Crucible",
+   "kind": "bar",
+   "website": "https://www.cruciblemadison.com/",
+   "feeds": [
+    "ai"
    ],
    "raw_events": 1,
    "error": ""
@@ -645,16 +664,6 @@
    "name": "Karben4 Brewing",
    "kind": "brewery",
    "website": "https://www.karben4.com/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 1,
-   "error": ""
-  },
-  {
-   "name": "Mother Fool's",
-   "kind": "cafe",
-   "website": "https://www.motherfools.com/",
    "feeds": [
     "ai"
    ],
@@ -718,8 +727,7 @@
    "kind": "community",
    "website": "https://rootedwi.org/badger-rock-neighborhood-center/",
    "feeds": [
-    "tribe",
-    "jsonld"
+    "tribe"
    ],
    "raw_events": 0,
    "error": ""
@@ -735,7 +743,7 @@
   {
    "name": "Barnwood Events",
    "kind": "venue",
-   "website": "https://www.barnwoodeventswi.com/",
+   "website": "https://barnwoodeventswi.com/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -775,7 +783,7 @@
   {
    "name": "Barriques - University",
    "kind": "cafe",
-   "website": "https://www.barriquesmarket.com/our-cafes/university/",
+   "website": "https://barriquesmarket.com/our-cafes/university/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -821,14 +829,6 @@
    "error": ""
   },
   {
-   "name": "Brink Lounge",
-   "kind": "bar",
-   "website": "https://www.thebrinklounge.com/",
-   "feeds": [],
-   "raw_events": 0,
-   "error": "ConnectionError: HTTPSConnectionPool(host='www.thebrinklounge.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.thebrinklounge.com', port=443)"
-  },
-  {
    "name": "Broken Board Coffee",
    "kind": "cafe",
    "website": "https://www.brokenboardcoffee.com/",
@@ -867,14 +867,6 @@
    "feeds": [],
    "raw_events": 0,
    "error": "PermissionError: robots.txt disallows https://www.facebook.com/cargocoffeeeast/"
-  },
-  {
-   "name": "Central Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/central",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
   },
   {
    "name": "Centro",
@@ -921,7 +913,7 @@
   {
    "name": "Colectivo Coffee",
    "kind": "cafe",
-   "website": "https://colectivo.com/pages/on-the-square",
+   "website": "https://colectivocoffee.com/cafes/monroe-street",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -929,7 +921,7 @@
   {
    "name": "Colectivo Coffee",
    "kind": "cafe",
-   "website": "https://colectivocoffee.com/cafes/monroe-street",
+   "website": "https://colectivo.com/pages/on-the-square",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -945,7 +937,7 @@
   {
    "name": "Communication",
    "kind": "venue",
-   "website": "https://communicationmadison.com/",
+   "website": "https://www.communicationmadison.com/",
    "feeds": [
     "squarespace"
    ],
@@ -963,7 +955,7 @@
   {
    "name": "Crescendo Espresso Bar",
    "kind": "cafe",
-   "website": "http://crescendomadison.com/",
+   "website": "https://crescendomadison.com/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1037,7 +1029,7 @@
   {
    "name": "Fair Trade Coffeehouse",
    "kind": "cafe",
-   "website": "https://www.fairtradecoffeehouse.com/",
+   "website": "https://fairtradecoffeehouse.com/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1097,7 +1089,7 @@
   {
    "name": "Grace Coffee",
    "kind": "cafe",
-   "website": "http://www.gracecoffeewi.com",
+   "website": "https://www.gracecoffeewi.com",
    "feeds": [
     "squarespace"
    ],
@@ -1254,7 +1246,7 @@
   {
    "name": "Kehl School of Dance",
    "kind": "venue",
-   "website": "https://www.kehldance.com/",
+   "website": "https://kehldance.com/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1274,14 +1266,6 @@
    "feeds": [],
    "raw_events": 0,
    "error": ""
-  },
-  {
-   "name": "LeC's Patisserie & Tea House",
-   "kind": "cafe",
-   "website": "https://lecsmadison.com/",
-   "feeds": [],
-   "raw_events": 0,
-   "error": "ConnectionError: HTTPSConnectionPool(host='lecsmadison.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='lecsmadison.com', port=443): Failed to re"
   },
   {
    "name": "Ledger Coffee Roasters",
@@ -1328,14 +1312,6 @@
    "error": ""
   },
   {
-   "name": "Loxley",
-   "kind": "venue",
-   "website": "https://www.loxleyvenue.com/",
-   "feeds": [],
-   "raw_events": 0,
-   "error": "ConnectionError: HTTPSConnectionPool(host='www.loxleyvenue.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.loxleyvenue.com', port=443): Fail"
-  },
-  {
    "name": "Lucky's Bar and Grille",
    "kind": "bar",
    "website": "http://luckysbarandgrille.com/waunakee",
@@ -1354,7 +1330,7 @@
   {
    "name": "Madison Chocolate Company",
    "kind": "cafe",
-   "website": "https://www.madisonchocolatecompany.com",
+   "website": "https://madisonchocolate.com",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1362,15 +1338,7 @@
   {
    "name": "Madison Chocolate Company",
    "kind": "cafe",
-   "website": "https://madisonchocolate.com",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Madison Tap",
-   "kind": "bar",
-   "website": "https://madison-tap.com/",
+   "website": "https://www.madisonchocolatecompany.com",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1378,7 +1346,7 @@
   {
    "name": "Madison Youth Arts (MYArts)",
    "kind": "venue",
-   "website": "https://www.madisonyoutharts.org/",
+   "website": "https://madisonyoutharts.org/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1386,7 +1354,7 @@
   {
    "name": "Masjid Us-Sunnah",
    "kind": "community",
-   "website": "https://madisonmuslims.org/",
+   "website": "https://www.madisonmuslims.org/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1532,7 +1500,7 @@
   {
    "name": "Ohio Tavern",
    "kind": "bar",
-   "website": "https://theohiotavern.com/",
+   "website": "https://www.theohiotavern.com/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1572,7 +1540,7 @@
   {
    "name": "Parched Eagle Taproom",
    "kind": "bar",
-   "website": "http://parchedeaglebrewpub.com/",
+   "website": "https://parchedeaglebrewpub.com/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1592,6 +1560,14 @@
    "feeds": [],
    "raw_events": 0,
    "error": ""
+  },
+  {
+   "name": "Poindexter Coffee",
+   "kind": "cafe",
+   "website": "https://www.hilton.com/en/hotels/msngmgu-graduate-madison/dining/",
+   "feeds": [],
+   "raw_events": 0,
+   "error": "site unreachable"
   },
   {
    "name": "Prairie Fire",
@@ -1652,9 +1628,9 @@
    "error": "SSLError: HTTPSConnectionPool(host='rightbauerbrewing.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate ve"
   },
   {
-   "name": "Rotunda Cafe",
+   "name": "Roll Play",
    "kind": "cafe",
-   "website": "https://www.rotundacafeatwood.com/",
+   "website": "https://www.rollplay.shop/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1663,14 +1639,6 @@
    "name": "Roxxy",
    "kind": "bar",
    "website": "https://www.roxxybar.com/location/madison/",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Sequoya Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/sequoya",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1800,14 +1768,6 @@
   {
    "name": "Starbucks",
    "kind": "cafe",
-   "website": "https://www.starbucks.com",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Starbucks",
-   "kind": "cafe",
    "website": "https://www.starbucks.com/store-locator/store/1030659/rimrock-beltline-2157-rimrock-rd-madison-wi-537131443-us",
    "feeds": [],
    "raw_events": 0,
@@ -1825,6 +1785,14 @@
    "name": "Starbucks",
    "kind": "cafe",
    "website": "https://www.starbucks.com/store-locator/store/17653/state-lake-661-state-street-madison-wi-537031049-us",
+   "feeds": [],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
+   "name": "Starbucks",
+   "kind": "cafe",
+   "website": "https://www.starbucks.com",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1848,7 +1816,7 @@
   {
    "name": "Tati Co",
    "kind": "cafe",
-   "website": "https://tatimarketplace.com",
+   "website": "https://www.tatimarketplace.com",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1906,7 +1874,7 @@
   {
    "name": "The Neighborhood House",
    "kind": "community",
-   "website": "https://neighborhoodhousemadison.org",
+   "website": "https://www.neighborhoodhousemadison.org",
    "feeds": [
     "squarespace",
     "ical"
@@ -1925,7 +1893,7 @@
   {
    "name": "The Robin Room",
    "kind": "bar",
-   "website": "http://www.robinroombar.com/",
+   "website": "https://www.robinroombar.com/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1967,15 +1935,15 @@
   {
    "name": "Tip Top Tavern",
    "kind": "bar",
-   "website": "http://www.thetiptoptavern.com",
+   "website": "https://www.thetiptoptavern.com",
    "feeds": [],
    "raw_events": 0,
-   "error": "PermissionError: robots.txt disallows http://www.thetiptoptavern.com"
+   "error": "PermissionError: robots.txt disallows https://www.thetiptoptavern.com"
   },
   {
    "name": "Tipsy Cow",
    "kind": "bar",
-   "website": "https://www.tipsycowmadison.com/",
+   "website": "https://tipsycowmadison.com/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -2027,7 +1995,7 @@
   {
    "name": "Wake n Bakery",
    "kind": "cafe",
-   "website": "https://www.wakenbakery.net/locations/madison/",
+   "website": "https://wakenbakery.net/locations/madison/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -2041,6 +2009,14 @@
    "error": ""
   },
   {
+   "name": "Waunakee Public Library",
+   "kind": "library",
+   "website": "https://www.waunakeepubliclibrary.org/",
+   "feeds": [],
+   "raw_events": 0,
+   "error": "site unreachable"
+  },
+  {
    "name": "Waunakee Village Center",
    "kind": "community",
    "website": "https://www.vil.waunakee.wi.us/187/Village-Center",
@@ -2051,7 +2027,7 @@
   {
    "name": "Whisky Jack's Saloon",
    "kind": "bar",
-   "website": "https://www.whiskeyjacksmadtown.com/",
+   "website": "https://whiskeyjacksmadtown.com/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -2059,7 +2035,7 @@
   {
    "name": "Wil-Mar Neighborhood Center",
    "kind": "community",
-   "website": "https://www.wil-mar.org/",
+   "website": "https://wil-mar.org/",
    "feeds": [
     "squarespace"
    ],
@@ -2093,7 +2069,7 @@
   {
    "name": "Woof's",
    "kind": "bar",
-   "website": "http://madwoofs.com/",
+   "website": "https://madwoofs.com/",
    "feeds": [],
    "raw_events": 0,
    "error": ""

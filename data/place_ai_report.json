@@ -1,13 +1,13 @@
 {
  "venue": {
   "what": "venue",
-  "to_check": 3,
+  "to_check": 2,
   "answered": 0,
-  "no_page": 3,
+  "no_page": 2,
   "skipped_site": 0,
   "api_errors": {},
   "key_present": true,
-  "at": "2026-11-23T16:38:29.521309-06:00"
+  "at": "2026-11-24T01:04:20.049587-06:00"
  },
  "restaurant": {
   "what": "restaurant",
@@ -17,7 +17,7 @@
   "skipped_site": 0,
   "api_errors": {},
   "key_present": true,
-  "at": "2026-11-23T16:38:35.897063-06:00"
+  "at": "2026-11-24T01:04:29.467235-06:00"
  },
  "activity": {
   "what": "activity",
@@ -27,6 +27,6 @@
   "skipped_site": 0,
   "api_errors": {},
   "key_present": true,
-  "at": "2026-11-23T16:38:42.186097-06:00"
+  "at": "2026-11-24T01:04:35.609923-06:00"
  }
 }

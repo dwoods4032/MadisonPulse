@@ -15009,7 +15009,6 @@
    "lat": 43.129099,
    "lon": -89.303849,
    "website": "https://www.viettownmadison.com/",
-   "menu": "https://www.viettownmadison.com/category/all-products",
    "hours": [
     [
      [
@@ -15026,7 +15025,8 @@
    ],
    "bar": false,
    "menu_src": "OpenStreetMap tag",
-   "website_ok": true
+   "website_ok": true,
+   "menu_broken": "https://www.viettownmadison.com/category/all-products"
   },
   {
    "group": "italian",

@@ -1256,5 +1256,11 @@
   "address": "100 State Street",
   "city": "Madison"
  },
- "tasting room, monona": null
+ "tasting room, monona": null,
+ "cherokee park": {
+  "lat": 43.155997,
+  "lon": -89.374588,
+  "address": "",
+  "city": "Madison"
+ }
 }
