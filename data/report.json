@@ -1,25 +1,11 @@
 {
- "generated_at": "2026-11-24T01:09:03-06:00",
+ "generated_at": "2026-11-24T15:12:38-06:00",
  "venues_checked": 234,
- "venues_with_events": 64,
- "venues_with_feeds": 86,
- "events": 354,
- "filtered_out": 152,
+ "venues_with_events": 61,
+ "venues_with_feeds": 84,
+ "events": 364,
+ "filtered_out": 168,
  "venues": [
-  {
-   "name": "AI page reading",
-   "kind": "source",
-   "website": "",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 174,
-   "error": "",
-   "calls": 25,
-   "tokens_in": 43045,
-   "tokens_out": 18922,
-   "est_cost_usd": 0.0138
-  },
   {
    "name": "Isthmus calendar",
    "kind": "source",
@@ -28,7 +14,21 @@
     "calendar"
    ],
    "raw_events": 171,
-   "error": ""
+   "error": "used today's copy (read once a day)"
+  },
+  {
+   "name": "AI page reading",
+   "kind": "source",
+   "website": "",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 167,
+   "error": "",
+   "calls": 23,
+   "tokens_in": 48748,
+   "tokens_out": 17824,
+   "est_cost_usd": 0.0138
   },
   {
    "name": "Bayview Community Center",
@@ -38,7 +38,7 @@
     "tribe",
     "jsonld"
    ],
-   "raw_events": 90,
+   "raw_events": 82,
    "error": ""
   },
   {
@@ -80,6 +80,17 @@
    "error": ""
   },
   {
+   "name": "E.D. Locke Public Library",
+   "kind": "library",
+   "website": "https://www.mcfarlandlibrary.org/home",
+   "feeds": [
+    "ical",
+    "ical"
+   ],
+   "raw_events": 33,
+   "error": "ical: ConnectionError: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //www.mcfarlandlibrary.org/calendar/month (Caused by NameResolutionError(\"HTTPSConnection(host='https"
+  },
+  {
    "name": "Working Draft Beer Company",
    "kind": "brewery",
    "website": "https://www.workingdraftbeer.com/",
@@ -104,7 +115,7 @@
     "jsonld",
     "jsonld"
    ],
-   "raw_events": 15,
+   "raw_events": 16,
    "error": ""
   },
   {
@@ -127,6 +138,16 @@
     "jsonld",
     "jsonld",
     "jsonld"
+   ],
+   "raw_events": 12,
+   "error": ""
+  },
+  {
+   "name": "Crucible",
+   "kind": "bar",
+   "website": "https://www.cruciblemadison.com/",
+   "feeds": [
+    "ai"
    ],
    "raw_events": 12,
    "error": ""
@@ -156,28 +177,6 @@
    "error": ""
   },
   {
-   "name": "Lazy Oaf Lounge",
-   "kind": "bar",
-   "website": "https://www.lazyoaflounge.com/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 11,
-   "error": ""
-  },
-  {
-   "name": "E.D. Locke Public Library",
-   "kind": "library",
-   "website": "https://www.mcfarlandlibrary.org/home",
-   "feeds": [
-    "ical",
-    "ical",
-    "ai"
-   ],
-   "raw_events": 10,
-   "error": "ical: ConnectionError: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //www.mcfarlandlibrary.org/calendar/month (Caused by NameResolutionError(\"HTTPSConnection(host='https"
-  },
-  {
    "name": "Gib's Bar",
    "kind": "bar",
    "website": "https://www.gibs.bar/",
@@ -185,6 +184,26 @@
     "squarespace"
    ],
    "raw_events": 10,
+   "error": ""
+  },
+  {
+   "name": "Lazy Oaf Lounge",
+   "kind": "bar",
+   "website": "https://www.lazyoaflounge.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 10,
+   "error": ""
+  },
+  {
+   "name": "Arts + Literature Laboratory",
+   "kind": "venue",
+   "website": "https://artlitlab.org/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 8,
    "error": ""
   },
   {
@@ -228,16 +247,6 @@
    "error": ""
   },
   {
-   "name": "Arts + Literature Laboratory",
-   "kind": "venue",
-   "website": "https://artlitlab.org/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 6,
-   "error": ""
-  },
-  {
    "name": "Capital Brewery",
    "kind": "brewery",
    "website": "https://www.capital-brewery.com/",
@@ -258,13 +267,23 @@
    "error": ""
   },
   {
-   "name": "Verona Community Center",
-   "kind": "community",
-   "website": "https://www.veronawi.gov/941/Community-Center",
+   "name": "Imagination Center",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
    "feeds": [
     "ai"
    ],
-   "raw_events": 6,
+   "raw_events": 5,
+   "error": ""
+  },
+  {
+   "name": "Monroe Street Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/monroe-street",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 5,
    "error": ""
   },
   {
@@ -274,6 +293,16 @@
    "feeds": [
     "tribe",
     "jsonld"
+   ],
+   "raw_events": 5,
+   "error": ""
+  },
+  {
+   "name": "Pinney Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
+   "feeds": [
+    "ai"
    ],
    "raw_events": 5,
    "error": ""
@@ -289,33 +318,13 @@
    "error": ""
   },
   {
-   "name": "Alicia Ashman Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
+   "name": "Verona Community Center",
+   "kind": "community",
+   "website": "https://www.veronawi.gov/941/Community-Center",
    "feeds": [
     "ai"
    ],
-   "raw_events": 4,
-   "error": ""
-  },
-  {
-   "name": "Central Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/central",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 4,
-   "error": ""
-  },
-  {
-   "name": "Imagination Center",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 4,
+   "raw_events": 5,
    "error": ""
   },
   {
@@ -329,43 +338,13 @@
    "error": ""
   },
   {
-   "name": "Monroe Street Library",
+   "name": "Alicia Ashman Library",
    "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/monroe-street",
+   "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
    "feeds": [
     "ai"
    ],
-   "raw_events": 4,
-   "error": ""
-  },
-  {
-   "name": "Pinney Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 4,
-   "error": ""
-  },
-  {
-   "name": "Sequoya Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/sequoya",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 4,
-   "error": ""
-  },
-  {
-   "name": "The Malt House",
-   "kind": "bar",
-   "website": "http://malthousetavern.com/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 4,
+   "raw_events": 3,
    "error": ""
   },
   {
@@ -374,17 +353,6 @@
    "website": "https://bartelltheatre.org/",
    "feeds": [
     "ai"
-   ],
-   "raw_events": 3,
-   "error": ""
-  },
-  {
-   "name": "Come Back Inn",
-   "kind": "bar",
-   "website": "https://comebackintavern.com/",
-   "feeds": [
-    "tribe",
-    "jsonld"
    ],
    "raw_events": 3,
    "error": ""
@@ -473,6 +441,16 @@
    "error": ""
   },
   {
+   "name": "The Malt House",
+   "kind": "bar",
+   "website": "http://malthousetavern.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 3,
+   "error": ""
+  },
+  {
    "name": "Veterans Memorial Park",
    "kind": "veterans",
    "website": "https://www.cityofmadison.com/parks/find-a-park/park.cfm?id=1364",
@@ -517,6 +495,16 @@
    "error": ""
   },
   {
+   "name": "Central Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/central",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 2,
+   "error": ""
+  },
+  {
    "name": "D'Vino",
    "kind": "bar",
    "website": "https://www.dvinomadison.com/",
@@ -533,16 +521,6 @@
    "website": "https://www.fullmilebeercompany.com/",
    "feeds": [
     "squarespace"
-   ],
-   "raw_events": 2,
-   "error": ""
-  },
-  {
-   "name": "Gamma Ray Bar",
-   "kind": "bar",
-   "website": "https://gammaray.bar",
-   "feeds": [
-    "ai"
    ],
    "raw_events": 2,
    "error": ""
@@ -590,16 +568,6 @@
    "error": ""
   },
   {
-   "name": "Verona Public Library",
-   "kind": "library",
-   "website": "https://www.veronapubliclibrary.org/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 2,
-   "error": ""
-  },
-  {
    "name": "Art House 360",
    "kind": "venue",
    "website": "https://www.arthouse360.com/",
@@ -621,9 +589,9 @@
    "error": ""
   },
   {
-   "name": "Crucible",
+   "name": "Gamma Ray Bar",
    "kind": "bar",
-   "website": "https://www.cruciblemadison.com/",
+   "website": "https://gammaray.bar",
    "feeds": [
     "ai"
    ],
@@ -913,7 +881,7 @@
   {
    "name": "Colectivo Coffee",
    "kind": "cafe",
-   "website": "https://colectivocoffee.com/cafes/monroe-street",
+   "website": "https://colectivo.com/pages/on-the-square",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -921,7 +889,7 @@
   {
    "name": "Colectivo Coffee",
    "kind": "cafe",
-   "website": "https://colectivo.com/pages/on-the-square",
+   "website": "https://colectivocoffee.com/cafes/monroe-street",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -931,6 +899,17 @@
    "kind": "cafe",
    "website": "https://colectivo.com/pages/madison-cafes",
    "feeds": [],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
+   "name": "Come Back Inn",
+   "kind": "bar",
+   "website": "https://comebackintavern.com/",
+   "feeds": [
+    "tribe",
+    "jsonld"
+   ],
    "raw_events": 0,
    "error": ""
   },
@@ -1644,6 +1623,14 @@
    "error": ""
   },
   {
+   "name": "Sequoya Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/sequoya",
+   "feeds": [],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
    "name": "Settle Down Tavern",
    "kind": "bar",
    "website": "https://www.settledownmadison.com/",
@@ -1768,6 +1755,14 @@
   {
    "name": "Starbucks",
    "kind": "cafe",
+   "website": "https://www.starbucks.com",
+   "feeds": [],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
+   "name": "Starbucks",
+   "kind": "cafe",
    "website": "https://www.starbucks.com/store-locator/store/1030659/rimrock-beltline-2157-rimrock-rd-madison-wi-537131443-us",
    "feeds": [],
    "raw_events": 0,
@@ -1785,14 +1780,6 @@
    "name": "Starbucks",
    "kind": "cafe",
    "website": "https://www.starbucks.com/store-locator/store/17653/state-lake-661-state-street-madison-wi-537031049-us",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Starbucks",
-   "kind": "cafe",
-   "website": "https://www.starbucks.com",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1981,6 +1968,14 @@
     "squarespace",
     "squarespace"
    ],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
+   "name": "Verona Public Library",
+   "kind": "library",
+   "website": "https://www.veronapubliclibrary.org/",
+   "feeds": [],
    "raw_events": 0,
    "error": ""
   },

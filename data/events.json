@@ -1,196 +1,11 @@
 {
- "generated_at": "2026-11-24T01:09:03-06:00",
+ "generated_at": "2026-11-24T15:12:38-06:00",
  "window": {
-  "from": "2026-11-23T19:04-06:00",
-  "to": "2026-12-08T01:04-06:00"
+  "from": "2026-11-24T09:11-06:00",
+  "to": "2026-12-08T15:11-06:00"
  },
- "count": 354,
+ "count": 364,
  "events": [
-  {
-   "id": "61d62b7600a0",
-   "title": "Trivia Night",
-   "start": "2026-11-23T19:00-06:00",
-   "end": "2026-11-23T21:00-06:00",
-   "all_day": false,
-   "category": "trivia",
-   "price": 0.0,
-   "description": "Test your knowledge with friends. Free to play, great prizes.",
-   "url": "https://www.lazyoaflounge.com/",
-   "image": "",
-   "venue": "Lazy Oaf Lounge",
-   "venue_id": "osm:node/1743291684",
-   "venue_kind": "bar",
-   "address": "1617 North Stoughton Road",
-   "lat": 43.1199361,
-   "lon": -89.3244342,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "2944e2ade58b",
-   "title": "Slug Rug w/ Dicot",
-   "start": "2026-11-23T20:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "music",
-   "price": null,
-   "description": "Show at 8pm, doors 7pm.",
-   "url": "https://gammaray.bar",
-   "image": "",
-   "venue": "Gamma Ray Bar",
-   "venue_id": "osm:node/12156142686",
-   "venue_kind": "bar",
-   "address": "121 West Main Street",
-   "lat": 43.072436,
-   "lon": -89.3848247,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "06f9b6c1ed9c",
-   "title": "Colorado St @ Arizona",
-   "start": "2026-11-23T22:30-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "",
-   "url": "https://statestreetbrats.com/event/colorado-st-arizona-20261123/",
-   "image": "",
-   "venue": "State Street Brats",
-   "venue_id": "osm:way/886357869",
-   "venue_kind": "bar",
-   "address": "603 State Street",
-   "lat": 43.0746889,
-   "lon": -89.395998,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "e700a9309df9",
-   "title": "Taco Tuesday",
-   "start": "2026-11-24T00:00-06:00",
-   "end": null,
-   "all_day": true,
-   "category": "food",
-   "price": null,
-   "description": "Weekly Taco Tuesday special at Lazy Oaf Lounge.",
-   "url": "https://www.lazyoaflounge.com/",
-   "image": "",
-   "venue": "Lazy Oaf Lounge",
-   "venue_id": "osm:node/1743291684",
-   "venue_kind": "bar",
-   "address": "1617 North Stoughton Road",
-   "lat": 43.1199361,
-   "lon": -89.3244342,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "1bf12fde7205",
-   "title": "Tuesday Music: Dollar Bill and The Bucks",
-   "start": "2026-11-24T00:00-06:00",
-   "end": null,
-   "all_day": true,
-   "category": "music",
-   "price": null,
-   "description": "Honky tonk, 4th Tuesday music night",
-   "url": "http://malthousetavern.com/",
-   "image": "",
-   "venue": "The Malt House",
-   "venue_id": "osm:way/592859743",
-   "venue_kind": "bar",
-   "address": "2609 East Washington Avenue",
-   "lat": 43.1005011,
-   "lon": -89.3482198,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "d900400e8de5",
-   "title": "Adult Volleyball: Tuesday Women's Intermediate",
-   "start": "2026-11-24T00:00-06:00",
-   "end": null,
-   "all_day": true,
-   "category": "sports",
-   "price": null,
-   "description": "Adult volleyball league, 12 teams, 2026-27 season. Game times are in the linked schedule. Cancelled if Verona schools close or afterschool activities are cancelled.",
-   "url": "https://www.veronawi.gov/941/Community-Center",
-   "image": "",
-   "venue": "Verona Community Center",
-   "venue_id": "osm:way/675800916",
-   "venue_kind": "community",
-   "address": "130 North Franklin Street",
-   "lat": 42.9935325,
-   "lon": -89.5330812,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "e02e9127c5d9",
-   "title": "Technology Tuesdays",
-   "start": "2026-11-24T00:00-06:00",
-   "end": null,
-   "all_day": true,
-   "category": "other",
-   "price": null,
-   "description": "Drop-in help with your device or app on Tuesdays.",
-   "url": "https://www.veronapubliclibrary.org/",
-   "image": "",
-   "venue": "Verona Public Library",
-   "venue_id": "osm:way/104542099",
-   "venue_kind": "library",
-   "address": "500 Silent Street",
-   "lat": 42.9974113,
-   "lon": -89.5280271,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "7cab61896990",
-   "title": "Holiday Market",
-   "start": "2026-11-24T09:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "",
-   "url": "",
-   "image": "",
-   "venue": "River Arts on Water",
-   "venue_id": "cal:river-arts-on-water",
-   "venue_kind": "venue",
-   "address": "",
-   "lat": null,
-   "lon": null,
-   "source": "extra",
-   "via": "Isthmus",
-   "sources": [
-    "Isthmus"
-   ],
-   "link_ok": null
-  },
   {
    "id": "b1f99bbdf25d",
    "title": "Holiday Pop-up Shop",
@@ -311,6 +126,29 @@
    "link_ok": true
   },
   {
+   "id": "c7810fb9ffd2",
+   "title": "Intro to Filmmaking with Nate",
+   "start": "2026-11-24T18:00-06:00",
+   "end": "2026-11-24T19:30-06:00",
+   "all_day": false,
+   "category": "film",
+   "price": null,
+   "description": "Introductory filmmaking session at Imagination Center Library, Pavilion 1, for people who want to learn to make movies.",
+   "url": "https://www.madisonpubliclibrary.org/central",
+   "image": "",
+   "venue": "Central Library",
+   "venue_id": "osm:way/102316433",
+   "venue_kind": "library",
+   "address": "201 West Mifflin Street",
+   "lat": 43.0736214,
+   "lon": -89.3875186,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "2855c2194f40",
    "title": "Trivia Tuesdays",
    "start": "2026-11-24T18:00-06:00",
@@ -327,6 +165,29 @@
    "address": "4893 Lacy Road",
    "lat": 43.0112712,
    "lon": -89.3736621,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "19beddaf636b",
+   "title": "Intro to Filmmaking with Nate",
+   "start": "2026-11-24T18:00-06:00",
+   "end": "2026-11-24T19:30-06:00",
+   "all_day": false,
+   "category": "film",
+   "price": null,
+   "description": "Introductory filmmaking session at Imagination Center Library, Pavilion 1, for people who want to learn to make movies.",
+   "url": "https://www.madisonpubliclibrary.org/locations/imagination-center",
+   "image": "",
+   "venue": "Imagination Center",
+   "venue_id": "osm:way/1562302805",
+   "venue_kind": "library",
+   "address": "1814 Parkside Drive",
+   "lat": 43.1240118,
+   "lon": -89.3168809,
    "source": "ai",
    "sources": [
     "AI page reading"
@@ -358,6 +219,29 @@
    "link_ok": null
   },
   {
+   "id": "7bb47e949f1d",
+   "title": "Intro to Filmmaking with Nate",
+   "start": "2026-11-24T18:00-06:00",
+   "end": "2026-11-24T19:30-06:00",
+   "all_day": false,
+   "category": "film",
+   "price": null,
+   "description": "Introductory filmmaking session at Imagination Center Library, Pavilion 1, for people who want to learn to make movies.",
+   "url": "https://www.madisonpubliclibrary.org/monroe-street",
+   "image": "",
+   "venue": "Monroe Street Library",
+   "venue_id": "osm:way/241508509",
+   "venue_kind": "library",
+   "address": "1705 Monroe Street",
+   "lat": 43.0659388,
+   "lon": -89.4152059,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "d3665cb65654",
    "title": "Brazilian Choro Jam",
    "start": "2026-11-24T18:00-06:00",
@@ -380,6 +264,29 @@
     "Isthmus"
    ],
    "link_ok": null
+  },
+  {
+   "id": "d590423d7e0e",
+   "title": "Intro to Filmmaking with Nate",
+   "start": "2026-11-24T18:00-06:00",
+   "end": "2026-11-24T19:30-06:00",
+   "all_day": false,
+   "category": "film",
+   "price": null,
+   "description": "Introductory filmmaking session at Imagination Center Library, Pavilion 1, for people who want to learn to make movies.",
+   "url": "https://www.madisonpubliclibrary.org/locations/pinney-library",
+   "image": "",
+   "venue": "Pinney Library",
+   "venue_id": "osm:node/7234376294",
+   "venue_kind": "library",
+   "address": "516 Cottage Grove Road",
+   "lat": 43.0841729,
+   "lon": -89.3176486,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
   },
   {
    "id": "92f19b53e6bb",
@@ -812,6 +719,29 @@
    "city": "Madison",
    "sources": [
     "Isthmus"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "a14532678d07",
+   "title": "Lucid Tuesdays: Friendsgiving",
+   "start": "2026-11-24T19:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "music",
+   "price": 5.0,
+   "description": "21+. Free walking taco bar, bring a dish to pass if you like. Open decks 8-9pm.",
+   "url": "https://www.cruciblemadison.com/",
+   "image": "",
+   "venue": "Crucible",
+   "venue_id": "osm:node/6519071395",
+   "venue_kind": "bar",
+   "address": "3116 Commercial Avenue",
+   "lat": 43.1071484,
+   "lon": -89.3359941,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
    ],
    "link_ok": true
   },
@@ -1995,6 +1925,29 @@
    "link_ok": null
   },
   {
+   "id": "7bd5a150330c",
+   "title": "Crucible Karaoke",
+   "start": "2026-11-25T18:30-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "karaoke",
+   "price": 0.0,
+   "description": "21+. Doors 6pm, singing starts 6:30pm. Powered by Songbooks Online, Show ID SPIKE.",
+   "url": "https://www.cruciblemadison.com/",
+   "image": "",
+   "venue": "Crucible",
+   "venue_id": "osm:node/6519071395",
+   "venue_kind": "bar",
+   "address": "3116 Commercial Avenue",
+   "lat": 43.1071484,
+   "lon": -89.3359941,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "8c1d6275d8f5",
    "title": "Loving Kindness",
    "start": "2026-11-25T18:30-06:00",
@@ -2026,7 +1979,7 @@
    "all_day": false,
    "category": "bingo",
    "price": null,
-   "description": "Weekly music bingo night.",
+   "description": "Weekly music bingo at Lazy Oaf Lounge.",
    "url": "https://www.lazyoaflounge.com/",
    "image": "",
    "venue": "Lazy Oaf Lounge",
@@ -2863,7 +2816,7 @@
    "all_day": false,
    "category": "other",
    "price": 0.0,
-   "description": "Online Write-In via Zoom using the Pomodoro method, with check-in and check-out. Registration is free.",
+   "description": "Zoom write-in using the Pomodoro method, with check-in and check-out. Registration is free.",
    "url": "https://artlitlab.org/",
    "image": "",
    "venue": "Arts + Literature Laboratory",
@@ -2955,7 +2908,7 @@
    "all_day": false,
    "category": "karaoke",
    "price": null,
-   "description": "Sing your heart out or dress up for lively themed celebrations.",
+   "description": "Sing your heart out or dress up for a lively themed celebration.",
    "url": "https://www.lazyoaflounge.com/",
    "image": "",
    "venue": "Lazy Oaf Lounge",
@@ -3141,7 +3094,7 @@
    "all_day": false,
    "category": "other",
    "price": null,
-   "description": "Black Friday maker's market and pub crawl at State Line Distillery.",
+   "description": "Maker's Market Black Friday pub crawl at State Line Distillery.",
    "url": "https://www.statelinedistillery.com/",
    "image": "",
    "venue": "State Line Distillery",
@@ -3227,6 +3180,29 @@
    "link_ok": null
   },
   {
+   "id": "614a4881f426",
+   "title": "The Rocky Horror Picture Show Matinee",
+   "start": "2026-11-27T14:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "film",
+   "price": 8.0,
+   "description": "18+. Daytime screening with Velvet Darkness shadow cast. Doors 1pm. $13 under 21.",
+   "url": "https://www.cruciblemadison.com/",
+   "image": "",
+   "venue": "Crucible",
+   "venue_id": "osm:node/6519071395",
+   "venue_kind": "bar",
+   "address": "3116 Commercial Avenue",
+   "lat": 43.1071484,
+   "lon": -89.3359941,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "41e3f3e6d498",
    "title": "2026 Black Friday Deals",
    "start": "2026-11-27T15:00-06:00",
@@ -3279,7 +3255,7 @@
    "start": "2026-11-27T17:00-06:00",
    "end": "2026-11-27T21:00-06:00",
    "all_day": false,
-   "category": "music",
+   "category": "other",
    "price": null,
    "description": "",
    "url": "",
@@ -3536,9 +3512,9 @@
    "start": "2026-11-27T20:30-06:00",
    "end": null,
    "all_day": false,
-   "category": "music",
-   "price": 12.0,
-   "description": "21+ monthly fetish/BDSM event with DJ Spike and DJ psych0tron. $12 in fetish gear, $20 in street clothes. No pictures or recordings allowed.",
+   "category": "other",
+   "price": null,
+   "description": "21+. Monthly event. No pictures or recordings of any kind allowed, including selfies.",
    "url": "https://www.cruciblemadison.com/",
    "image": "",
    "venue": "Crucible",
@@ -3623,14 +3599,14 @@
    "link_ok": true
   },
   {
-   "id": "240a89e5da64",
-   "title": "Wisconsin Chamber Orchestra Presents A Charlie Brown Christmas – 2 Shows!",
+   "id": "4a215cef432c",
+   "title": "A Charlie Brown Christmas – 2 Shows! (Wisconsin Chamber Orchestra, featuring Mr. Chair)",
    "start": "2026-11-28T00:00-06:00",
    "end": null,
    "all_day": true,
    "category": "music",
    "price": null,
-   "description": "Wisconsin Chamber Orchestra with Mr. Chair; two shows listed, times not given.",
+   "description": "Wisconsin Chamber Orchestra presents A Charlie Brown Christmas, featuring Mr. Chair; two shows listed, times not stated.",
    "url": "https://madisonorpheum.com/",
    "image": "",
    "venue": "Orpheum Theatre",
@@ -3996,6 +3972,29 @@
    "link_ok": true
   },
   {
+   "id": "4753964bd2b3",
+   "title": "Massacre, Cardiac Arrest, Bray Road, Maax, and more",
+   "start": "2026-11-28T18:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "music",
+   "price": 25.0,
+   "description": "18+. Final RK Metal Promotions show in Madison. $25 advance, $30 day of show. Also Ruin Dweller and The Faith Hill Have Eyes.",
+   "url": "https://www.cruciblemadison.com/",
+   "image": "",
+   "venue": "Crucible",
+   "venue_id": "osm:node/6519071395",
+   "venue_kind": "bar",
+   "address": "3116 Commercial Avenue",
+   "lat": 43.1071484,
+   "lon": -89.3359941,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "bf0dc220200c",
    "title": "Wisconsin Badgers Hockey vs. Canisius Golden Griffins Hockey",
    "start": "2026-11-28T18:00-06:00",
@@ -4279,7 +4278,7 @@
    "all_day": false,
    "category": "other",
    "price": 0.0,
-   "description": "Online Write-In via Zoom using the Pomodoro method, with check-in and check-out. Registration is free.",
+   "description": "Zoom write-in using the Pomodoro method, with check-in and check-out. Registration is free.",
    "url": "https://artlitlab.org/",
    "image": "",
    "venue": "Arts + Literature Laboratory",
@@ -4295,14 +4294,14 @@
    "link_ok": true
   },
   {
-   "id": "6d5bed5229aa",
-   "title": "In-Person Write-In on the Ellen Kort Mezzanine",
+   "id": "762de97fc7d1",
+   "title": "In-Person Write-In (Ellen Kort Mezzanine)",
    "start": "2026-11-29T10:30-06:00",
    "end": "2026-11-29T12:30-06:00",
    "all_day": false,
    "category": "other",
    "price": 0.0,
-   "description": "Monthly in-person write-in at ArtLitLab using the Pomodoro method, followed by group sharing with 'recall' feedback. Registration is free.",
+   "description": "Last-Sunday in-person write-in at ArtLitLab using the Pomodoro method, followed by group sharing with 'recall' feedback. Registration is free.",
    "url": "https://artlitlab.org/",
    "image": "",
    "venue": "Arts + Literature Laboratory",
@@ -4383,6 +4382,29 @@
    "source": "scraped",
    "sources": [
     "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "2107a7f248e9",
+   "title": "Dark Holiday Bazaar",
+   "start": "2026-11-29T13:00-06:00",
+   "end": "2026-11-29T17:00-06:00",
+   "all_day": false,
+   "category": "other",
+   "price": 5.0,
+   "description": "All ages. 5th annual holiday bazaar. $5 at the door, under 12 free.",
+   "url": "https://www.cruciblemadison.com/",
+   "image": "",
+   "venue": "Crucible",
+   "venue_id": "osm:node/6519071395",
+   "venue_kind": "bar",
+   "address": "3116 Commercial Avenue",
+   "lat": 43.1071484,
+   "lon": -89.3359941,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
    ],
    "link_ok": true
   },
@@ -4721,7 +4743,7 @@
    "all_day": false,
    "category": "trivia",
    "price": 0.0,
-   "description": "Test your knowledge with friends. Free to play, great prizes.",
+   "description": "Test your knowledge with friends. Free to play, with great prizes.",
    "url": "https://www.lazyoaflounge.com/",
    "image": "",
    "venue": "Lazy Oaf Lounge",
@@ -4868,29 +4890,6 @@
    "address": "130 North Franklin Street",
    "lat": 42.9935325,
    "lon": -89.5330812,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "f3a9d70f847e",
-   "title": "Technology Tuesdays",
-   "start": "2026-12-01T00:00-06:00",
-   "end": null,
-   "all_day": true,
-   "category": "other",
-   "price": null,
-   "description": "Drop-in help with your device or app on Tuesdays.",
-   "url": "https://www.veronapubliclibrary.org/",
-   "image": "",
-   "venue": "Verona Public Library",
-   "venue_id": "osm:way/104542099",
-   "venue_kind": "library",
-   "address": "500 Silent Street",
-   "lat": 42.9974113,
-   "lon": -89.5280271,
    "source": "ai",
    "sources": [
     "AI page reading"
@@ -5883,14 +5882,37 @@
    "link_ok": null
   },
   {
-   "id": "dc45e245af4d",
-   "title": "Mystery Book Club",
+   "id": "299e116b916b",
+   "title": "Crucible Karaoke",
    "start": "2026-12-02T18:30-06:00",
    "end": null,
    "all_day": false,
+   "category": "karaoke",
+   "price": 0.0,
+   "description": "21+. Doors 6pm, singing starts 6:30pm. Powered by Songbooks Online, Show ID SPIKE.",
+   "url": "https://www.cruciblemadison.com/",
+   "image": "",
+   "venue": "Crucible",
+   "venue_id": "osm:node/6519071395",
+   "venue_kind": "bar",
+   "address": "3116 Commercial Avenue",
+   "lat": 43.1071484,
+   "lon": -89.3359941,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "dc45e245af4d",
+   "title": "Mystery Book Club",
+   "start": "2026-12-02T18:30-06:00",
+   "end": "2026-12-02T19:30-06:00",
+   "all_day": false,
    "category": "other",
    "price": null,
-   "description": "Monthly mystery book club in the Library Community Room. December's book: Death of a Spy by M.C. Beaton.",
+   "description": "Event Description Join us on the first Wednesday of the month at 6:30 PM for mystery book discussions! We meet in the library community room. December's selection is _Death of a Spy_ by M.C. Beaton. Limited copies are available in the library. For general book club support, go here [/book-club-suppo",
    "url": "https://www.mcfarlandlibrary.org/home",
    "image": "",
    "venue": "E.D. Locke Public Library",
@@ -5899,9 +5921,9 @@
    "address": "5920 Milwaukee Street",
    "lat": 43.0136038,
    "lon": -89.2883391,
-   "source": "ai",
+   "source": "scraped",
    "sources": [
-    "AI page reading"
+    "Venue websites"
    ],
    "link_ok": true
   },
@@ -5983,7 +6005,7 @@
    "all_day": false,
    "category": "bingo",
    "price": null,
-   "description": "Weekly music bingo night.",
+   "description": "Weekly music bingo at Lazy Oaf Lounge.",
    "url": "https://www.lazyoaflounge.com/",
    "image": "",
    "venue": "Lazy Oaf Lounge",
@@ -6069,6 +6091,29 @@
     "Isthmus"
    ],
    "link_ok": null
+  },
+  {
+   "id": "1ab1911b564a",
+   "title": "Dance Wisconsin Preview: The Nutcracker",
+   "start": "2026-12-02T18:30-06:00",
+   "end": "2026-12-02T19:30-06:00",
+   "all_day": false,
+   "category": "dance",
+   "price": null,
+   "description": "Dance Wisconsin preview of The Nutcracker at Sun Prairie Public Library, for families and children ages 0-8.",
+   "url": "https://www.sunprairiepubliclibrary.org/",
+   "image": "",
+   "venue": "Sun Prairie Public Library",
+   "venue_id": "osm:way/600866560",
+   "venue_kind": "library",
+   "address": "1350 Linnerud Drive",
+   "lat": 43.1757782,
+   "lon": -89.2353415,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
   },
   {
    "id": "35eb284d46c6",
@@ -6413,7 +6458,7 @@
    "all_day": false,
    "category": "other",
    "price": 0.0,
-   "description": "Online Write-In via Zoom using the Pomodoro method, with check-in and check-out. Registration is free.",
+   "description": "Zoom write-in using the Pomodoro method, with check-in and check-out. Registration is free.",
    "url": "https://artlitlab.org/",
    "image": "",
    "venue": "Arts + Literature Laboratory",
@@ -6521,14 +6566,14 @@
    "link_ok": true
   },
   {
-   "id": "bbf85226e9a8",
-   "title": "Virtual Author Visit: Helen Scheuerer",
+   "id": "e403d1807c4a",
+   "title": "Virtual Author Talks with Library Speakers Consortium",
    "start": "2026-12-03T18:00-06:00",
    "end": "2026-12-03T19:00-06:00",
    "all_day": false,
    "category": "other",
    "price": null,
-   "description": "Virtual conversation with fantasy author Helen Scheuerer about her novel Kiss of the Black Flame.",
+   "description": "Event Description We are excited to offer a new virtual program to our patrons! The Library Speakers Consortium hosts virtual author talks over a variety of genres. Each month, there will be at least two talks available for you to attend. Register for each talk, submit questions for the Q&A, and per",
    "url": "https://www.mcfarlandlibrary.org/home",
    "image": "",
    "venue": "E.D. Locke Public Library",
@@ -6537,9 +6582,9 @@
    "address": "5920 Milwaukee Street",
    "lat": 43.0136038,
    "lon": -89.2883391,
-   "source": "ai",
+   "source": "scraped",
    "sources": [
-    "AI page reading"
+    "Venue websites"
    ],
    "link_ok": true
   },
@@ -6660,6 +6705,29 @@
    "link_ok": true
   },
   {
+   "id": "aa0d3634721f",
+   "title": "Brand Spankin' Newbie Night",
+   "start": "2026-12-03T19:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "theater",
+   "price": 10.0,
+   "description": "21+. Burlesque showcase of new performers, presented by Cherry Popper. Doors 6:30pm.",
+   "url": "https://www.cruciblemadison.com/",
+   "image": "",
+   "venue": "Crucible",
+   "venue_id": "osm:node/6519071395",
+   "venue_kind": "bar",
+   "address": "3116 Commercial Avenue",
+   "lat": 43.1071484,
+   "lon": -89.3359941,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "35752b0c3eef",
    "title": "Brian Regan",
    "start": "2026-12-03T20:00-06:00",
@@ -6738,7 +6806,7 @@
    "all_day": false,
    "category": "karaoke",
    "price": null,
-   "description": "Sing your heart out or dress up for lively themed celebrations.",
+   "description": "Sing your heart out or dress up for a lively themed celebration.",
    "url": "https://www.lazyoaflounge.com/",
    "image": "",
    "venue": "Lazy Oaf Lounge",
@@ -6747,6 +6815,29 @@
    "address": "1617 North Stoughton Road",
    "lat": 43.1199361,
    "lon": -89.3244342,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "b0851a004f27",
+   "title": "Insidious: The Feast of St. Krampus Party",
+   "start": "2026-12-03T21:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "dance",
+   "price": 5.0,
+   "description": "21+. Mid-week Krampus dance party presented by EBM Worldwide and Crucible.",
+   "url": "https://www.cruciblemadison.com/",
+   "image": "",
+   "venue": "Crucible",
+   "venue_id": "osm:node/6519071395",
+   "venue_kind": "bar",
+   "address": "3116 Commercial Avenue",
+   "lat": 43.1071484,
+   "lon": -89.3359941,
    "source": "ai",
    "sources": [
     "AI page reading"
@@ -6784,7 +6875,7 @@
    "all_day": true,
    "category": "other",
    "price": null,
-   "description": "Opening reception for the Bridge Work exhibition at Arts + Literature Laboratory.",
+   "description": "Opening reception for the Bridge Work exhibition.",
    "url": "https://artlitlab.org/",
    "image": "",
    "venue": "Arts + Literature Laboratory",
@@ -7050,32 +7141,10 @@
    "lon": -89.3887291,
    "source": "ticketmaster",
    "sources": [
-    "Ticketmaster"
-   ],
-   "link_ok": null
-  },
-  {
-   "id": "052f07a0fe00",
-   "title": "94.9 WOLX Presents Steely Dane",
-   "start": "2026-12-04T19:30-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "music",
-   "price": null,
-   "description": "Doors 6:30 pm, show 7:30 pm.",
-   "url": "https://madisonorpheum.com/",
-   "image": "",
-   "venue": "Orpheum Theatre",
-   "venue_id": "osm:way/102371335",
-   "venue_kind": "venue",
-   "address": "216 State Street",
-   "lat": 43.0751836,
-   "lon": -89.3887291,
-   "source": "ai",
-   "sources": [
+    "Ticketmaster",
     "AI page reading"
    ],
-   "link_ok": true
+   "link_ok": null
   },
   {
    "id": "409ed621a1b5",
@@ -7099,6 +7168,29 @@
     "Ticketmaster"
    ],
    "link_ok": null
+  },
+  {
+   "id": "9c7af1cf92fc",
+   "title": "Crucible Winter Spectacular",
+   "start": "2026-12-04T20:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "theater",
+   "price": 20.0,
+   "description": "21+. End-of-year variety show with burlesque, aerial, vocal and fire performance. Headliners Dalia Fatale and Tila von Twirl. Doors 7pm, cocktail hour before show. $20 listed, $25 at the door.",
+   "url": "https://www.cruciblemadison.com/",
+   "image": "",
+   "venue": "Crucible",
+   "venue_id": "osm:node/6519071395",
+   "venue_kind": "bar",
+   "address": "3116 Commercial Avenue",
+   "lat": 43.1071484,
+   "lon": -89.3359941,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
   },
   {
    "id": "d74326af5934",
@@ -7148,6 +7240,29 @@
    "link_ok": null
   },
   {
+   "id": "22f9fe27f2ff",
+   "title": "FPC Live Presents: Varsity Mac + Scorched Waves with Velvet Blue and In Ropes",
+   "start": "2026-12-04T20:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "music",
+   "price": null,
+   "description": "Doors 7:00 pm, show 8:00 pm at High Noon Saloon. 18+ unless accompanied by a parent or legal guardian.",
+   "url": "https://high-noon.com/",
+   "image": "",
+   "venue": "High Noon Saloon",
+   "venue_id": "osm:node/1348850872",
+   "venue_kind": "bar",
+   "address": "701 E Washington Ave",
+   "lat": 43.0797191,
+   "lon": -89.3762962,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "f959d8613949",
    "title": "Trevor Wallace",
    "start": "2026-12-04T21:30-06:00",
@@ -7167,6 +7282,29 @@
    "source": "scraped",
    "sources": [
     "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "b2a4666afe4f",
+   "title": "Monsters of Poetry",
+   "start": "2026-12-05T00:00-06:00",
+   "end": null,
+   "all_day": true,
+   "category": "open_mic",
+   "price": null,
+   "description": "Poetry event listed on the Arts + Literature Laboratory calendar.",
+   "url": "https://artlitlab.org/",
+   "image": "",
+   "venue": "Arts + Literature Laboratory",
+   "venue_id": "osm:node/10815180247",
+   "venue_kind": "venue",
+   "address": "111 South Livingston Street",
+   "lat": 43.0804026,
+   "lon": -89.3734803,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
    ],
    "link_ok": true
   },
@@ -7210,29 +7348,6 @@
    "address": "300 Progress Drive",
    "lat": 43.0773194,
    "lon": -89.2058376,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "0d500cd76629",
-   "title": "Conversaciones en Español",
-   "start": "2026-12-05T00:00-06:00",
-   "end": null,
-   "all_day": true,
-   "category": "other",
-   "price": null,
-   "description": "Informal one-hour conversation in Spanish for attendees with at least basic Spanish. Not a teaching class.",
-   "url": "https://www.mcfarlandlibrary.org/home",
-   "image": "",
-   "venue": "E.D. Locke Public Library",
-   "venue_id": "osm:way/386578862",
-   "venue_kind": "library",
-   "address": "5920 Milwaukee Street",
-   "lat": 43.0136038,
-   "lon": -89.2883391,
    "source": "ai",
    "sources": [
     "AI page reading"
@@ -7286,14 +7401,14 @@
    "link_ok": true
   },
   {
-   "id": "46999fda8b37",
-   "title": "Friends of McFarland Library Used Book Sale",
+   "id": "7c931e24975e",
+   "title": "Friends Used Book Sale",
    "start": "2026-12-05T09:00-06:00",
    "end": "2026-12-05T16:00-06:00",
    "all_day": false,
    "category": "other",
-   "price": null,
-   "description": "Used books and DVDs sale by the Friends of McFarland Library.",
+   "price": 4.0,
+   "description": "Event Description Find great bargains on fabulous used books & DVDs at the Friends of McFarland Library [https://www.mcfarlandlibrary.org/friends-mcfarland-library] Used Book Sale! On Thursday, December 3, Friday, December 4, and Saturday, December 5, visit the library's community room to shop the s",
    "url": "https://www.mcfarlandlibrary.org/home",
    "image": "",
    "venue": "E.D. Locke Public Library",
@@ -7302,9 +7417,9 @@
    "address": "5920 Milwaukee Street",
    "lat": 43.0136038,
    "lon": -89.2883391,
-   "source": "ai",
+   "source": "scraped",
    "sources": [
-    "AI page reading"
+    "Venue websites"
    ],
    "link_ok": true
   },
@@ -7418,6 +7533,52 @@
    "address": "1224 Williamson Street",
    "lat": 43.0839938,
    "lon": -89.3638172,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "c9c949dda717",
+   "title": "Craftpalooza",
+   "start": "2026-12-05T10:00-06:00",
+   "end": "2026-12-05T12:00-06:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Event Description Stop by the library during the Winter in the Village event for crafting opportunities for all ages. Children can create different festive crafts at stations around the children's library. Teens and Adults will have Take and Make craft kits they can pick up during the event - while ",
+   "url": "https://www.mcfarlandlibrary.org/home",
+   "image": "",
+   "venue": "E.D. Locke Public Library",
+   "venue_id": "osm:way/386578862",
+   "venue_kind": "library",
+   "address": "5920 Milwaukee Street",
+   "lat": 43.0136038,
+   "lon": -89.2883391,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "bc264d27b962",
+   "title": "Conversaciones en Espanol",
+   "start": "2026-12-05T11:00-06:00",
+   "end": "2026-12-05T12:00-06:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Event Description Join us the first and third Saturdays of the month for an hour-long informal conversation in Spanish. Each meeting will have a number of suggested topics to discuss and attendees should have at least a basic ability to carry out simple conversations in Spanish. This is not a teachi",
+   "url": "https://www.mcfarlandlibrary.org/home",
+   "image": "",
+   "venue": "E.D. Locke Public Library",
+   "venue_id": "osm:way/386578862",
+   "venue_kind": "library",
+   "address": "5920 Milwaukee Street",
+   "lat": 43.0136038,
+   "lon": -89.2883391,
    "source": "scraped",
    "sources": [
     "Venue websites"
@@ -7771,6 +7932,29 @@
    "link_ok": true
   },
   {
+   "id": "335fa6ac3c67",
+   "title": "Leather + Lace: KrampusNacht",
+   "start": "2026-12-05T20:30-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "dance",
+   "price": 8.0,
+   "description": "21+. Hard dance beats with tag-team sets hosted by Apollo Marquez. $8 if dressed up, $25 otherwise.",
+   "url": "https://www.cruciblemadison.com/",
+   "image": "",
+   "venue": "Crucible",
+   "venue_id": "osm:node/6519071395",
+   "venue_kind": "bar",
+   "address": "3116 Commercial Avenue",
+   "lat": 43.1071484,
+   "lon": -89.3359941,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
    "id": "361bbdc04e97",
    "title": "Clean Room, Big Slide, The Scratch-Offs",
    "start": "2026-12-05T21:00-06:00",
@@ -7940,7 +8124,7 @@
    "all_day": false,
    "category": "other",
    "price": 0.0,
-   "description": "Online Write-In via Zoom using the Pomodoro method, with check-in and check-out. Registration is free.",
+   "description": "Zoom write-in using the Pomodoro method, with check-in and check-out. Registration is free.",
    "url": "https://artlitlab.org/",
    "image": "",
    "venue": "Arts + Literature Laboratory",
@@ -8323,6 +8507,52 @@
    "source": "scraped",
    "sources": [
     "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "4913988f5b88",
+   "title": "Trivia Night",
+   "start": "2026-12-07T19:00-06:00",
+   "end": "2026-12-07T21:00-06:00",
+   "all_day": false,
+   "category": "trivia",
+   "price": 0.0,
+   "description": "Test your knowledge with friends. Free to play, with great prizes.",
+   "url": "https://www.lazyoaflounge.com/",
+   "image": "",
+   "venue": "Lazy Oaf Lounge",
+   "venue_id": "osm:node/1743291684",
+   "venue_kind": "bar",
+   "address": "1617 North Stoughton Road",
+   "lat": 43.1199361,
+   "lon": -89.3244342,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "f13fa054df7b",
+   "title": "Falconbridge Players: Conscience",
+   "start": "2026-12-08T00:00-06:00",
+   "end": null,
+   "all_day": true,
+   "category": "theater",
+   "price": null,
+   "description": "Performance by Falconbridge Players titled Conscience.",
+   "url": "https://artlitlab.org/",
+   "image": "",
+   "venue": "Arts + Literature Laboratory",
+   "venue_id": "osm:node/10815180247",
+   "venue_kind": "venue",
+   "address": "111 South Livingston Street",
+   "lat": 43.0804026,
+   "lon": -89.3734803,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
    ],
    "link_ok": true
   },

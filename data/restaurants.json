@@ -15024,9 +15024,10 @@
     ]
    ],
    "bar": false,
-   "menu_src": "OpenStreetMap tag",
+   "menu_src": "restaurant homepage",
    "website_ok": true,
-   "menu_broken": "https://www.viettownmadison.com/category/all-products"
+   "menu_broken": "https://www.viettownmadison.com/category/all-products",
+   "menu": "https://skiplinow.com/shop/286936z"
   },
   {
    "group": "italian",

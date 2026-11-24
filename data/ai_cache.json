@@ -439,26 +439,26 @@
  },
  "https://www.lazyoaflounge.com/events": {
   "hash": "f1633ae9ec881a81a0957829b59bff725fb9f324",
-  "asked": "2026-11-21T11:58:01-06:00",
-  "on": "2026-11-21",
+  "asked": "2026-11-24T15:11:21-06:00",
+  "on": "2026-11-24",
   "events": [
    {
     "title": "Trivia Night",
-    "date": "2026-11-23",
+    "date": "2026-11-30",
     "start": "19:00",
     "end": "21:00",
     "price": 0,
-    "description": "Test your knowledge with friends. Free to play, great prizes.",
+    "description": "Test your knowledge with friends. Free to play, with great prizes.",
     "category": "trivia"
    },
    {
-    "title": "Karaoke Night",
-    "date": "2026-11-26",
-    "start": "20:00",
-    "end": "00:00",
-    "price": null,
-    "description": "Sing your heart out or dress up for lively themed celebrations.",
-    "category": "karaoke"
+    "title": "Trivia Night",
+    "date": "2026-12-07",
+    "start": "19:00",
+    "end": "21:00",
+    "price": 0,
+    "description": "Test your knowledge with friends. Free to play, with great prizes.",
+    "category": "trivia"
    },
    {
     "title": "Music Bingo",
@@ -466,17 +466,8 @@
     "start": "18:30",
     "end": null,
     "price": null,
-    "description": "Weekly music bingo night.",
+    "description": "Weekly music bingo at Lazy Oaf Lounge.",
     "category": "bingo"
-   },
-   {
-    "title": "Trivia Night",
-    "date": "2026-11-30",
-    "start": "19:00",
-    "end": "21:00",
-    "price": 0,
-    "description": "Test your knowledge with friends. Free to play, great prizes.",
-    "category": "trivia"
    },
    {
     "title": "Music Bingo",
@@ -484,8 +475,17 @@
     "start": "18:30",
     "end": null,
     "price": null,
-    "description": "Weekly music bingo night.",
+    "description": "Weekly music bingo at Lazy Oaf Lounge.",
     "category": "bingo"
+   },
+   {
+    "title": "Karaoke Night",
+    "date": "2026-11-26",
+    "start": "20:00",
+    "end": "00:00",
+    "price": null,
+    "description": "Sing your heart out or dress up for a lively themed celebration.",
+    "category": "karaoke"
    },
    {
     "title": "Karaoke Night",
@@ -493,7 +493,7 @@
     "start": "20:00",
     "end": "00:00",
     "price": null,
-    "description": "Sing your heart out or dress up for lively themed celebrations.",
+    "description": "Sing your heart out or dress up for a lively themed celebration.",
     "category": "karaoke"
    }
   ]
@@ -976,13 +976,13 @@
  },
  "https://www.garthsbrewbar.com/": {
   "hash": "cc8d8eafdd76964ab5afa272b19306092ae68ff2",
-  "asked": "2026-11-21T11:58:07-06:00",
-  "on": "2026-11-21",
+  "asked": "2026-11-24T15:11:26-06:00",
+  "on": "2026-11-24",
   "events": []
  },
  "https://www.statelinedistillery.com/cocktail-lounge/events": {
-  "hash": "fc40b6f1b3d59e00160753eff8a0f6e063243c9b",
-  "asked": "2026-11-24T01:05:28-06:00",
+  "hash": "b6f33e4e6c7b9ee32a368c7acc17929df5464ec6",
+  "asked": "2026-11-24T15:11:29-06:00",
   "on": "2026-11-24",
   "events": [
    {
@@ -991,7 +991,7 @@
     "start": "12:00",
     "end": "17:00",
     "price": null,
-    "description": "Black Friday maker's market and pub crawl at State Line Distillery.",
+    "description": "Maker's Market Black Friday pub crawl at State Line Distillery.",
     "category": "other"
    },
    {
@@ -1034,8 +1034,8 @@
  },
  "https://www.youngbloodbeerco.com/": {
   "hash": "83a1f0d585808418d93aea6afa5495330bf1ad85",
-  "asked": "2026-11-21T11:58:09-06:00",
-  "on": "2026-11-21",
+  "asked": "2026-11-24T15:11:28-06:00",
+  "on": "2026-11-24",
   "events": []
  },
  "https://yaharabay.com/pages/event-space": {
@@ -1208,8 +1208,8 @@
  },
  "https://colectivo.com/pages/on-the-square": {
   "hash": "3ae5f26864a3bf3596a39c57df708278495ce5df",
-  "asked": "2026-11-21T11:58:16-06:00",
-  "on": "2026-11-21",
+  "asked": "2026-11-24T15:11:35-06:00",
+  "on": "2026-11-24",
   "events": []
  },
  "https://union.wisc.edu/events-and-activities": {
@@ -1226,8 +1226,8 @@
  },
  "https://colectivo.com/pages/monroe-street": {
   "hash": "9892b266187b17da7f1159e8259f5ca702113a62",
-  "asked": "2026-11-21T11:58:18-06:00",
-  "on": "2026-11-21",
+  "asked": "2026-11-24T15:11:37-06:00",
+  "on": "2026-11-24",
   "events": []
  },
  "https://colectivo.com/pages/madison-cafes": {
@@ -1249,8 +1249,8 @@
   "events": []
  },
  "https://merciescoffeewi.com/": {
-  "hash": "046f041d79a1c8fefbf247a3d593541fd1a7829f",
-  "asked": "2026-11-24T01:06:25-06:00",
+  "hash": "b1b3d3b85b28ee33273f53323e0e0f4b30780b4a",
+  "asked": "2026-11-24T15:11:46-06:00",
   "on": "2026-11-24",
   "events": []
  },
@@ -1444,38 +1444,10 @@
   "events": []
  },
  "https://www.madisonpubliclibrary.org/spaces/events": {
-  "hash": "ab594a999c0ea36750506e62264379d6d364a643",
-  "asked": "2026-11-24T01:07:55-06:00",
+  "hash": "50f901e0a1b395eec5711dfc4bc37fedd686b994",
+  "asked": "2026-11-24T15:12:19-06:00",
   "on": "2026-11-24",
-  "events": [
-   {
-    "title": "Red Cross Blood Drive",
-    "date": "2026-11-25",
-    "start": "11:30",
-    "end": "16:00",
-    "price": null,
-    "description": "Red Cross blood drive in the Meeting Room.",
-    "category": "other"
-   },
-   {
-    "title": "Toddler Time",
-    "date": "2026-11-30",
-    "start": "10:30",
-    "end": "11:15",
-    "price": null,
-    "description": "Toddler program in the Meeting Room.",
-    "category": "other"
-   },
-   {
-    "title": "Baby Time",
-    "date": "2026-11-30",
-    "start": "11:30",
-    "end": "12:15",
-    "price": null,
-    "description": "Baby program in the Meeting Room.",
-    "category": "other"
-   }
-  ]
+  "events": []
  },
  "https://ebling.library.wisc.edu/ebling-library-classes-events/": {
   "hash": "7d255d815b8d0d84a73f7be122c15c647822abad",
@@ -1518,26 +1490,17 @@
   "events": []
  },
  "https://www.sunprairiepubliclibrary.org/home-delivery-service": {
-  "hash": "481cd2cea0529b3ab316ac45126237919503f076",
-  "asked": "2026-11-22T21:45:01-06:00",
-  "on": "2026-11-22",
+  "hash": "b26b4ad183f33e1ab9b043e03804501e1ec2399f",
+  "asked": "2026-11-24T15:12:15-06:00",
+  "on": "2026-11-24",
   "events": [
-   {
-    "title": "Ancestry Research for Beginners",
-    "date": "2026-11-24",
-    "start": "10:00",
-    "end": "11:30",
-    "price": null,
-    "description": "Ancestry research class for adults at Sun Prairie Public Library.",
-    "category": "other"
-   },
    {
     "title": "Red Cross Blood Drive",
     "date": "2026-11-25",
     "start": "12:00",
     "end": "17:00",
     "price": null,
-    "description": "Red Cross blood drive at Sun Prairie Public Library, listed for adults.",
+    "description": "Red Cross Blood Drive at Sun Prairie Public Library, for adults.",
     "category": "other"
    },
    {
@@ -1546,7 +1509,7 @@
     "start": "16:00",
     "end": "18:00",
     "price": null,
-    "description": "Creativity club for teens at Sun Prairie Public Library.",
+    "description": "Teen Creativity Club at Sun Prairie Public Library, for teens.",
     "category": "other"
    },
    {
@@ -1555,8 +1518,17 @@
     "start": "13:30",
     "end": "14:30",
     "price": null,
-    "description": "Mystery book club for adults at Sun Prairie Public Library.",
+    "description": "Mystery Book Club at Sun Prairie Public Library, for adults.",
     "category": "other"
+   },
+   {
+    "title": "Dance Wisconsin Preview: The Nutcracker",
+    "date": "2026-12-02",
+    "start": "18:30",
+    "end": "19:30",
+    "price": null,
+    "description": "Dance Wisconsin preview of The Nutcracker at Sun Prairie Public Library, for families and children ages 0-8.",
+    "category": "dance"
    }
   ]
  },
@@ -1635,25 +1607,15 @@
   ]
  },
  "https://www.madisonpubliclibrary.org/spaces/events/search": {
-  "hash": "50231cfe928399c4dcbc87bb30808bcb4d08eeb2",
-  "asked": "2026-11-24T01:08:06-06:00",
+  "hash": "921ea3f82934c8e1fb6adb60d211dda9d18e7b37",
+  "asked": "2026-11-24T15:12:25-06:00",
   "on": "2026-11-24",
-  "events": [
-   {
-    "title": "Red Cross Blood Drive",
-    "date": "2026-11-25",
-    "start": "11:30",
-    "end": "16:00",
-    "price": null,
-    "description": "Blood drive hosted with the American Red Cross in the Meeting Room.",
-    "category": "other"
-   }
-  ]
+  "events": []
  },
  "https://artlitlab.org/calendar": {
-  "hash": "3714ed4ee921324d6106db96c0c4b149254d3515",
-  "asked": "2026-11-23T16:40:06-06:00",
-  "on": "2026-11-23",
+  "hash": "52e2db207f6e57dd596e849c9c6771cab7d7fb02",
+  "asked": "2026-11-24T15:12:18-06:00",
+  "on": "2026-11-24",
   "events": [
    {
     "title": "Bridge Work: Madison Opening Reception",
@@ -1661,8 +1623,26 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Opening reception for the Bridge Work exhibition at Arts + Literature Laboratory.",
+    "description": "Opening reception for the Bridge Work exhibition.",
     "category": "other"
+   },
+   {
+    "title": "Monsters of Poetry",
+    "date": "2026-12-05",
+    "start": null,
+    "end": null,
+    "price": null,
+    "description": "Poetry event listed on the Arts + Literature Laboratory calendar.",
+    "category": "other"
+   },
+   {
+    "title": "Falconbridge Players: Conscience",
+    "date": "2026-12-08",
+    "start": null,
+    "end": null,
+    "price": null,
+    "description": "Performance by Falconbridge Players titled Conscience.",
+    "category": "theater"
    }
   ]
  },
@@ -1713,26 +1693,26 @@
   "events": []
  },
  "https://madisonorpheum.com/calendar/": {
-  "hash": "18ca188446f553aca1fd648387d1dc89878a19f9",
-  "asked": "2026-11-23T16:40:15-06:00",
-  "on": "2026-11-23",
+  "hash": "fe1e9675c8f6ca822386ee3e3398c7e182858ce1",
+  "asked": "2026-11-24T15:12:28-06:00",
+  "on": "2026-11-24",
   "events": [
    {
-    "title": "Wisconsin Chamber Orchestra Presents A Charlie Brown Christmas – 2 Shows!",
+    "title": "A Charlie Brown Christmas – 2 Shows! (Wisconsin Chamber Orchestra, featuring Mr. Chair)",
     "date": "2026-11-28",
     "start": null,
     "end": null,
     "price": null,
-    "description": "Wisconsin Chamber Orchestra with Mr. Chair; two shows listed, times not given.",
+    "description": "Wisconsin Chamber Orchestra presents A Charlie Brown Christmas, featuring Mr. Chair; two shows listed, times not stated.",
     "category": "music"
    },
    {
-    "title": "94.9 WOLX Presents Steely Dane",
+    "title": "Steely Dane (94.9 WOLX Presents)",
     "date": "2026-12-04",
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "Doors 6:30 pm, show 7:30 pm.",
+    "description": "94.9 WOLX presents Steely Dane. Doors 6:30 pm.",
     "category": "music"
    }
   ]
@@ -1772,9 +1752,9 @@
   ]
  },
  "https://artlitlab.org/events/write-ins": {
-  "hash": "68806713c070a3c08803a4a17bb25cad0d9d2c6d",
-  "asked": "2026-11-23T16:40:11-06:00",
-  "on": "2026-11-23",
+  "hash": "6210adc3de4fc79c738094a150fdaefec53d7b85",
+  "asked": "2026-11-24T15:12:23-06:00",
+  "on": "2026-11-24",
   "events": [
    {
     "title": "Online Write-In",
@@ -1782,7 +1762,16 @@
     "start": "10:00",
     "end": null,
     "price": 0,
-    "description": "Online Write-In via Zoom using the Pomodoro method, with check-in and check-out. Registration is free.",
+    "description": "Zoom write-in using the Pomodoro method, with check-in and check-out. Registration is free.",
+    "category": "other"
+   },
+   {
+    "title": "In-Person Write-In (Ellen Kort Mezzanine)",
+    "date": "2026-11-29",
+    "start": "10:30",
+    "end": "12:30",
+    "price": 0,
+    "description": "Last-Sunday in-person write-in at ArtLitLab using the Pomodoro method, followed by group sharing with 'recall' feedback. Registration is free.",
     "category": "other"
    },
    {
@@ -1791,16 +1780,7 @@
     "start": "09:00",
     "end": null,
     "price": 0,
-    "description": "Online Write-In via Zoom using the Pomodoro method, with check-in and check-out. Registration is free.",
-    "category": "other"
-   },
-   {
-    "title": "In-Person Write-In on the Ellen Kort Mezzanine",
-    "date": "2026-11-29",
-    "start": "10:30",
-    "end": "12:30",
-    "price": 0,
-    "description": "Monthly in-person write-in at ArtLitLab using the Pomodoro method, followed by group sharing with 'recall' feedback. Registration is free.",
+    "description": "Zoom write-in using the Pomodoro method, with check-in and check-out. Registration is free.",
     "category": "other"
    },
    {
@@ -1809,7 +1789,7 @@
     "start": "10:00",
     "end": null,
     "price": 0,
-    "description": "Online Write-In via Zoom using the Pomodoro method, with check-in and check-out. Registration is free.",
+    "description": "Zoom write-in using the Pomodoro method, with check-in and check-out. Registration is free.",
     "category": "other"
    },
    {
@@ -1818,7 +1798,7 @@
     "start": "09:00",
     "end": null,
     "price": 0,
-    "description": "Online Write-In via Zoom using the Pomodoro method, with check-in and check-out. Registration is free.",
+    "description": "Zoom write-in using the Pomodoro method, with check-in and check-out. Registration is free.",
     "category": "other"
    }
   ]
@@ -1848,29 +1828,10 @@
   "events": []
  },
  "https://www.veronapubliclibrary.org/": {
-  "hash": "b2ebca3cd468ebc4915fa034381d52df772cc3c9",
-  "asked": "2026-11-23T16:40:01-06:00",
-  "on": "2026-11-23",
-  "events": [
-   {
-    "title": "Technology Tuesdays",
-    "date": "2026-11-24",
-    "start": null,
-    "end": null,
-    "price": null,
-    "description": "Drop-in help with your device or app on Tuesdays.",
-    "category": "other"
-   },
-   {
-    "title": "Technology Tuesdays",
-    "date": "2026-12-01",
-    "start": null,
-    "end": null,
-    "price": null,
-    "description": "Drop-in help with your device or app on Tuesdays.",
-    "category": "other"
-   }
-  ]
+  "hash": "bf0b861e4083d98ebf459664662c601f33b4ace0",
+  "asked": "2026-11-24T15:12:14-06:00",
+  "on": "2026-11-24",
+  "events": []
  },
  "https://www.waunakee.gov/calendar.aspx?CID=25": {
   "hash": "10b0b775a70da8b692bb389801268857e4364d44",
@@ -1886,28 +1847,28 @@
  },
  "https://comebackintavern.com/events/": {
   "hash": "31d87c3411648855f79e5de9d2d3cb1b51c195e6",
-  "asked": "2026-11-21T11:58:01-06:00",
-  "on": "2026-11-21",
+  "asked": "2026-11-24T15:11:20-06:00",
+  "on": "2026-11-24",
   "events": []
  },
  "https://comebackintavern.com/events/category/events/": {
   "hash": "c47f0cb54889b41f9e1f43c5239935df27cba668",
-  "asked": "2026-11-21T11:58:03-06:00",
-  "on": "2026-11-21",
+  "asked": "2026-11-24T15:11:21-06:00",
+  "on": "2026-11-24",
   "events": []
  },
  "https://high-noon.com/event/dogpark/": {
-  "hash": "338bf62577e953d025d79fa3341c504239ff5b71",
-  "asked": "2026-11-24T01:05:10-06:00",
+  "hash": "595c2ecf442e457dce7f30ca6d113943418bfd34",
+  "asked": "2026-11-24T15:11:23-06:00",
   "on": "2026-11-24",
   "events": [
    {
-    "title": "Daisy Grenade with Boyish",
-    "date": "2026-12-03",
+    "title": "FPC Live Presents: Varsity Mac + Scorched Waves with Velvet Blue and In Ropes",
+    "date": "2026-12-04",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents Daisy Grenade with Boyish at High Noon Saloon. Doors 7:00 pm, show 8:00 pm.",
+    "description": "Doors 7:00 pm, show 8:00 pm at High Noon Saloon. 18+ unless accompanied by a parent or legal guardian.",
     "category": "music"
    }
   ]
@@ -1954,10 +1915,110 @@
   ]
  },
  "https://www.cruciblemadison.com/calendar": {
-  "hash": "98665767bccacb882481972b26938446a5c9ad94",
-  "asked": "2026-11-24T01:04:56-06:00",
+  "hash": "b2f3d4d8f338d2b85d00dced60ab07656e34ead6",
+  "asked": "2026-11-24T15:11:24-06:00",
   "on": "2026-11-24",
-  "events": []
+  "events": [
+   {
+    "title": "Lucid Tuesdays: Friendsgiving",
+    "date": "2026-11-24",
+    "start": "19:00",
+    "end": null,
+    "price": 5,
+    "description": "21+. Free walking taco bar, bring a dish to pass if you like. Open decks 8-9pm.",
+    "category": "music"
+   },
+   {
+    "title": "Crucible Karaoke",
+    "date": "2026-11-25",
+    "start": "18:30",
+    "end": null,
+    "price": 0,
+    "description": "21+. Doors 6pm, singing starts 6:30pm. Powered by Songbooks Online, Show ID SPIKE.",
+    "category": "karaoke"
+   },
+   {
+    "title": "The Rocky Horror Picture Show Matinee",
+    "date": "2026-11-27",
+    "start": "14:00",
+    "end": null,
+    "price": 8,
+    "description": "18+. Daytime screening with Velvet Darkness shadow cast. Doors 1pm. $13 under 21.",
+    "category": "film"
+   },
+   {
+    "title": "Deviance",
+    "date": "2026-11-27",
+    "start": "20:30",
+    "end": null,
+    "price": null,
+    "description": "21+. Monthly event. No pictures or recordings of any kind allowed, including selfies.",
+    "category": "other"
+   },
+   {
+    "title": "Massacre, Cardiac Arrest, Bray Road, Maax, and more",
+    "date": "2026-11-28",
+    "start": "18:00",
+    "end": null,
+    "price": 25,
+    "description": "18+. Final RK Metal Promotions show in Madison. $25 advance, $30 day of show. Also Ruin Dweller and The Faith Hill Have Eyes.",
+    "category": "music"
+   },
+   {
+    "title": "Dark Holiday Bazaar",
+    "date": "2026-11-29",
+    "start": "13:00",
+    "end": "17:00",
+    "price": 5,
+    "description": "All ages. 5th annual holiday bazaar. $5 at the door, under 12 free.",
+    "category": "other"
+   },
+   {
+    "title": "Crucible Karaoke",
+    "date": "2026-12-02",
+    "start": "18:30",
+    "end": null,
+    "price": 0,
+    "description": "21+. Doors 6pm, singing starts 6:30pm. Powered by Songbooks Online, Show ID SPIKE.",
+    "category": "karaoke"
+   },
+   {
+    "title": "Brand Spankin' Newbie Night",
+    "date": "2026-12-03",
+    "start": "19:00",
+    "end": null,
+    "price": 10,
+    "description": "21+. Burlesque showcase of new performers, presented by Cherry Popper. Doors 6:30pm.",
+    "category": "other"
+   },
+   {
+    "title": "Insidious: The Feast of St. Krampus Party",
+    "date": "2026-12-03",
+    "start": "21:00",
+    "end": null,
+    "price": 5,
+    "description": "21+. Mid-week Krampus dance party presented by EBM Worldwide and Crucible.",
+    "category": "dance"
+   },
+   {
+    "title": "Crucible Winter Spectacular",
+    "date": "2026-12-04",
+    "start": "20:00",
+    "end": null,
+    "price": 20,
+    "description": "21+. End-of-year variety show with burlesque, aerial, vocal and fire performance. Headliners Dalia Fatale and Tila von Twirl. Doors 7pm, cocktail hour before show. $20 listed, $25 at the door.",
+    "category": "other"
+   },
+   {
+    "title": "Leather + Lace: KrampusNacht",
+    "date": "2026-12-05",
+    "start": "20:30",
+    "end": null,
+    "price": 8,
+    "description": "21+. Hard dance beats with tag-team sets hosted by Apollo Marquez. $8 if dressed up, $25 otherwise.",
+    "category": "dance"
+   }
+  ]
  },
  "https://www.cruciblemadison.com/events/2026-11/full-moon-burlesque-kink": {
   "hash": "c6668627882d311413ea017986885845c6cc331b",
@@ -2037,26 +2098,17 @@
   "events": []
  },
  "https://www.sunprairiepubliclibrary.org/art-committee-and-gallery-shows": {
-  "hash": "d122d1eefe20ad45f7ab6841298e325effb48800",
-  "asked": "2026-11-22T21:45:04-06:00",
-  "on": "2026-11-22",
+  "hash": "67f3db3bb747f3883f1a4bea695322b36bdc1a8e",
+  "asked": "2026-11-24T15:12:18-06:00",
+  "on": "2026-11-24",
   "events": [
-   {
-    "title": "Ancestry Research for Beginners",
-    "date": "2026-11-24",
-    "start": "10:00",
-    "end": "11:30",
-    "price": null,
-    "description": "Ancestry research class for adults at Sun Prairie Public Library.",
-    "category": "other"
-   },
    {
     "title": "Red Cross Blood Drive",
     "date": "2026-11-25",
     "start": "12:00",
     "end": "17:00",
     "price": null,
-    "description": "Red Cross blood drive at Sun Prairie Public Library, open to adults.",
+    "description": "Red Cross Blood Drive at Sun Prairie Public Library. Age group: adults.",
     "category": "other"
    },
    {
@@ -2065,7 +2117,7 @@
     "start": "16:00",
     "end": "18:00",
     "price": null,
-    "description": "Creativity club for teens at Sun Prairie Public Library.",
+    "description": "Teen Creativity Club at Sun Prairie Public Library. Age group: teens.",
     "category": "other"
    },
    {
@@ -2074,8 +2126,17 @@
     "start": "13:30",
     "end": "14:30",
     "price": null,
-    "description": "Mystery book club for adults at Sun Prairie Public Library.",
+    "description": "Mystery Book Club at Sun Prairie Public Library. Age group: adults.",
     "category": "other"
+   },
+   {
+    "title": "Dance Wisconsin Preview: The Nutcracker",
+    "date": "2026-12-02",
+    "start": "18:30",
+    "end": "19:30",
+    "price": null,
+    "description": "Dance Wisconsin preview of The Nutcracker at Sun Prairie Public Library. Age groups: family, children ages 0-8.",
+    "category": "dance"
    }
   ]
  },
@@ -2743,8 +2804,8 @@
   ]
  },
  "https://www.fitchburgwi.gov/m/calendar/event/detail/19917": {
-  "hash": "9d3ae914afc613cfb49e9e8a31a92252e81d40d6",
-  "asked": "2026-11-24T01:07:34-06:00",
+  "hash": "1d6ddecdc752f2404887d7132c228f30e14603a5",
+  "asked": "2026-11-24T15:12:15-06:00",
   "on": "2026-11-24",
   "events": []
  },
@@ -2789,8 +2850,8 @@
   ]
  },
  "https://madisonorpheum.com/event/kenny-g/": {
-  "hash": "a4547ef7e0811e143329afed20aa2c022233e415",
-  "asked": "2026-11-24T01:08:44-06:00",
+  "hash": "7022c76a987c64fec6ece17ce6b91e63f6f5b664",
+  "asked": "2026-11-24T15:12:30-06:00",
   "on": "2026-11-24",
   "events": []
  }
