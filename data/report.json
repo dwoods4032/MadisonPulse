@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-24T23:27:32-06:00",
+ "generated_at": "2026-11-25T14:30:25-06:00",
  "venues_checked": 234,
- "venues_with_events": 62,
+ "venues_with_events": 63,
  "venues_with_feeds": 85,
- "events": 364,
- "filtered_out": 142,
+ "events": 368,
+ "filtered_out": 162,
  "venues": [
   {
    "name": "Isthmus calendar",
@@ -13,8 +13,8 @@
    "feeds": [
     "calendar"
    ],
-   "raw_events": 171,
-   "error": "used today's copy (read once a day)"
+   "raw_events": 175,
+   "error": ""
   },
   {
    "name": "AI page reading",
@@ -23,12 +23,12 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 170,
+   "raw_events": 157,
    "error": "",
-   "calls": 15,
-   "tokens_in": 38055,
-   "tokens_out": 14519,
-   "est_cost_usd": 0.0111
+   "calls": 29,
+   "tokens_in": 57092,
+   "tokens_out": 21934,
+   "est_cost_usd": 0.0167
   },
   {
    "name": "Bayview Community Center",
@@ -38,7 +38,7 @@
     "tribe",
     "jsonld"
    ],
-   "raw_events": 82,
+   "raw_events": 84,
    "error": ""
   },
   {
@@ -56,16 +56,6 @@
    "error": ""
   },
   {
-   "name": "Ticketmaster",
-   "kind": "source",
-   "website": "",
-   "feeds": [
-    "ticketmaster"
-   ],
-   "raw_events": 36,
-   "error": ""
-  },
-  {
    "name": "Atwood Music Hall",
    "kind": "venue",
    "website": "https://www.theatwoodmusichall.com/",
@@ -76,8 +66,29 @@
     "squarespace",
     "jsonld"
    ],
-   "raw_events": 35,
+   "raw_events": 36,
    "error": ""
+  },
+  {
+   "name": "Ticketmaster",
+   "kind": "source",
+   "website": "",
+   "feeds": [
+    "ticketmaster"
+   ],
+   "raw_events": 36,
+   "error": ""
+  },
+  {
+   "name": "E.D. Locke Public Library",
+   "kind": "library",
+   "website": "https://www.mcfarlandlibrary.org/home",
+   "feeds": [
+    "ical",
+    "ical"
+   ],
+   "raw_events": 33,
+   "error": "ical: ConnectionError: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //www.mcfarlandlibrary.org/calendar/month (Caused by NameResolutionError(\"HTTPSConnection(host='https"
   },
   {
    "name": "Working Draft Beer Company",
@@ -90,7 +101,7 @@
     "jsonld",
     "jsonld"
    ],
-   "raw_events": 28,
+   "raw_events": 32,
    "error": ""
   },
   {
@@ -114,7 +125,21 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 15,
+   "raw_events": 13,
+   "error": ""
+  },
+  {
+   "name": "Lone Girl Tap Room And Pizza Company",
+   "kind": "bar",
+   "website": "https://thelonegirl.com",
+   "feeds": [
+    "tribe",
+    "jsonld",
+    "jsonld",
+    "jsonld",
+    "jsonld"
+   ],
+   "raw_events": 13,
    "error": ""
   },
   {
@@ -138,34 +163,8 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 12,
-   "error": ""
-  },
-  {
-   "name": "Lone Girl Tap Room And Pizza Company",
-   "kind": "bar",
-   "website": "https://thelonegirl.com",
-   "feeds": [
-    "tribe",
-    "jsonld",
-    "jsonld",
-    "jsonld",
-    "jsonld"
-   ],
-   "raw_events": 12,
-   "error": ""
-  },
-  {
-   "name": "E.D. Locke Public Library",
-   "kind": "library",
-   "website": "https://www.mcfarlandlibrary.org/home",
-   "feeds": [
-    "ical",
-    "ical",
-    "ai"
-   ],
    "raw_events": 11,
-   "error": "ical: ConnectionError: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //www.mcfarlandlibrary.org/calendar/month (Caused by NameResolutionError(\"HTTPSConnection(host='https"
+   "error": ""
   },
   {
    "name": "Gib's Bar",
@@ -185,16 +184,6 @@
     "ai"
    ],
    "raw_events": 10,
-   "error": ""
-  },
-  {
-   "name": "Fitchburg Senior Center",
-   "kind": "community",
-   "website": "https://www.fitchburgwi.gov/621/Senior-Center",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 9,
    "error": ""
   },
   {
@@ -218,9 +207,9 @@
    "error": ""
   },
   {
-   "name": "Sun Prairie Public Library",
-   "kind": "library",
-   "website": "https://www.sunprairiepubliclibrary.org/",
+   "name": "Fitchburg Senior Center",
+   "kind": "community",
+   "website": "https://www.fitchburgwi.gov/621/Senior-Center",
    "feeds": [
     "ai"
    ],
@@ -228,13 +217,13 @@
    "error": ""
   },
   {
-   "name": "Capital Brewery",
-   "kind": "brewery",
-   "website": "https://www.capital-brewery.com/",
+   "name": "Sun Prairie Public Library",
+   "kind": "library",
+   "website": "https://www.sunprairiepubliclibrary.org/",
    "feeds": [
     "ai"
    ],
-   "raw_events": 6,
+   "raw_events": 8,
    "error": ""
   },
   {
@@ -268,12 +257,42 @@
    "error": ""
   },
   {
+   "name": "Imagination Center",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 5,
+   "error": ""
+  },
+  {
    "name": "One Social Bar",
    "kind": "bar",
    "website": "https://onesocialmadison.com/vendor/one-social-bar/",
    "feeds": [
     "tribe",
     "jsonld"
+   ],
+   "raw_events": 5,
+   "error": ""
+  },
+  {
+   "name": "Pinney Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 5,
+   "error": ""
+  },
+  {
+   "name": "Sequoya Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/sequoya",
+   "feeds": [
+    "ai"
    ],
    "raw_events": 5,
    "error": ""
@@ -289,19 +308,9 @@
    "error": ""
   },
   {
-   "name": "Verona Community Center",
-   "kind": "community",
-   "website": "https://www.veronawi.gov/941/Community-Center",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 5,
-   "error": ""
-  },
-  {
-   "name": "Imagination Center",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
+   "name": "Capital Brewery",
+   "kind": "brewery",
+   "website": "https://www.capital-brewery.com/",
    "feeds": [
     "ai"
    ],
@@ -319,9 +328,9 @@
    "error": ""
   },
   {
-   "name": "Pinney Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
+   "name": "Verona Community Center",
+   "kind": "community",
+   "website": "https://www.veronawi.gov/941/Community-Center",
    "feeds": [
     "ai"
    ],
@@ -329,21 +338,12 @@
    "error": ""
   },
   {
-   "name": "Sequoya Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/sequoya",
+   "name": "Come Back Inn",
+   "kind": "bar",
+   "website": "https://comebackintavern.com/",
    "feeds": [
-    "ai"
-   ],
-   "raw_events": 4,
-   "error": ""
-  },
-  {
-   "name": "Alicia Ashman Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
-   "feeds": [
-    "ai"
+    "tribe",
+    "jsonld"
    ],
    "raw_events": 3,
    "error": ""
@@ -369,9 +369,9 @@
    "error": ""
   },
   {
-   "name": "Flight Wine & Bourbon Bar",
+   "name": "Gamma Ray Bar",
    "kind": "bar",
-   "website": "https://flightwi.com/",
+   "website": "https://gammaray.bar",
    "feeds": [
     "ai"
    ],
@@ -462,6 +462,16 @@
    "error": ""
   },
   {
+   "name": "Alicia Ashman Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 2,
+   "error": ""
+  },
+  {
    "name": "Barrymore Theatre",
    "kind": "venue",
    "website": "https://barrymorelive.com/",
@@ -496,11 +506,31 @@
    "error": ""
   },
   {
+   "name": "Central Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/central",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 2,
+   "error": ""
+  },
+  {
    "name": "D'Vino",
    "kind": "bar",
    "website": "https://www.dvinomadison.com/",
    "feeds": [
     "squarespace",
+    "ai"
+   ],
+   "raw_events": 2,
+   "error": ""
+  },
+  {
+   "name": "Flight Wine & Bourbon Bar",
+   "kind": "bar",
+   "website": "https://flightwi.com/",
+   "feeds": [
     "ai"
    ],
    "raw_events": 2,
@@ -520,6 +550,16 @@
    "name": "Monkeyshines Bar & Grill",
    "kind": "bar",
    "website": "http://www.monkeyshinesbarandgrill.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 2,
+   "error": ""
+  },
+  {
+   "name": "Monroe Street Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/monroe-street",
    "feeds": [
     "ai"
    ],
@@ -580,26 +620,6 @@
    "error": ""
   },
   {
-   "name": "Central Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/central",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 1,
-   "error": ""
-  },
-  {
-   "name": "Gamma Ray Bar",
-   "kind": "bar",
-   "website": "https://gammaray.bar",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 1,
-   "error": ""
-  },
-  {
    "name": "Goodman Community Center",
    "kind": "community",
    "website": "https://www.goodmancenter.org/",
@@ -615,16 +635,6 @@
    "website": "https://www.goodmancenter.org/",
    "feeds": [
     "jsonld"
-   ],
-   "raw_events": 1,
-   "error": ""
-  },
-  {
-   "name": "Italian Workmen's Club",
-   "kind": "community",
-   "website": "https://iwcmadison.com/",
-   "feeds": [
-    "ai"
    ],
    "raw_events": 1,
    "error": ""
@@ -640,9 +650,9 @@
    "error": ""
   },
   {
-   "name": "Monroe Street Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/monroe-street",
+   "name": "Madison Youth Arts (MYArts)",
+   "kind": "venue",
+   "website": "https://madisonyoutharts.org/",
    "feeds": [
     "ai"
    ],
@@ -900,7 +910,7 @@
   {
    "name": "Colectivo Coffee",
    "kind": "cafe",
-   "website": "https://colectivo.com/pages/madison-cafes",
+   "website": "https://colectivocoffee.com/cafes/monroe-street",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -908,19 +918,8 @@
   {
    "name": "Colectivo Coffee",
    "kind": "cafe",
-   "website": "https://colectivocoffee.com/cafes/monroe-street",
+   "website": "https://colectivo.com/pages/madison-cafes",
    "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Come Back Inn",
-   "kind": "bar",
-   "website": "https://comebackintavern.com/",
-   "feeds": [
-    "tribe",
-    "jsonld"
-   ],
    "raw_events": 0,
    "error": ""
   },
@@ -1218,6 +1217,14 @@
    "error": ""
   },
   {
+   "name": "Italian Workmen's Club",
+   "kind": "community",
+   "website": "https://iwcmadison.com/",
+   "feeds": [],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
    "name": "Java Cat",
    "kind": "cafe",
    "website": "https://javacatmadison.com/",
@@ -1329,14 +1336,6 @@
    "name": "Madison Chocolate Company",
    "kind": "cafe",
    "website": "https://www.madisonchocolatecompany.com",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Madison Youth Arts (MYArts)",
-   "kind": "venue",
-   "website": "https://madisonyoutharts.org/",
    "feeds": [],
    "raw_events": 0,
    "error": ""

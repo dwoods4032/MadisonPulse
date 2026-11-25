@@ -1262,5 +1262,36 @@
   "lon": -89.374588,
   "address": "",
   "city": "Madison"
- }
+ },
+ "village park, waunakee": {
+  "lat": 43.189401,
+  "lon": -89.448877,
+  "address": "400",
+  "city": "Waunakee"
+ },
+ "droster park": {
+  "lat": 43.077396,
+  "lon": -89.285414,
+  "address": "5629",
+  "city": "Madison"
+ },
+ "lakeview lutheran church": {
+  "lat": 43.136953,
+  "lon": -89.377466,
+  "address": "Northport Drive",
+  "city": "Madison"
+ },
+ "luke house": {
+  "lat": 43.082228,
+  "lon": -89.366736,
+  "address": "310 South Ingersoll Street",
+  "city": "Madison"
+ },
+ "edgewater hotel": {
+  "lat": 43.079322,
+  "lon": -89.39002,
+  "address": "1001 Langdon Street",
+  "city": "Madison"
+ },
+ "chief's tavern": null
 }

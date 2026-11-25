@@ -68,26 +68,17 @@
   ]
  },
  "https://thecrystalcornerbar.com/Calendar.htm": {
-  "hash": "57a587ec76be3a718287114276a86808fce3aa47",
-  "asked": "2026-11-24T23:26:13-06:00",
-  "on": "2026-11-24",
+  "hash": "22d661c686ae7695d4a2fc64948fd9e15da89b0e",
+  "asked": "2026-11-25T14:28:41-06:00",
+  "on": "2026-11-25",
   "events": [
-   {
-    "title": "The Trophy Husbands",
-    "date": "2026-11-24",
-    "start": "20:00",
-    "end": null,
-    "price": null,
-    "description": "Live music, 8:00 PM",
-    "category": "music"
-   },
    {
     "title": "New Wave Rock - Eighties Alt Rock Night: The Mersey Brothers featuring Sean Michael Dargan",
     "date": "2026-11-28",
     "start": "20:00",
     "end": null,
     "price": 10,
-    "description": "Eighties alt rock night with The Mersey Brothers featuring Sean Michael Dargan",
+    "description": "Eighties alt rock night with The Mersey Brothers featuring Sean Michael Dargan.",
     "category": "music"
    },
    {
@@ -96,8 +87,26 @@
     "start": "21:00",
     "end": null,
     "price": 10,
-    "description": "Skate punk / stoner rock / dream pop / alt country bill",
+    "description": "Skate punk, stoner rock, dream pop and alt country bill.",
     "category": "music"
+   },
+   {
+    "title": "Free pool until 7PM",
+    "date": "2026-11-30",
+    "start": null,
+    "end": "19:00",
+    "price": 0,
+    "description": "Weekly free pool until 7PM on Mondays.",
+    "category": "other"
+   },
+   {
+    "title": "Free pool until 7PM",
+    "date": "2026-12-07",
+    "start": null,
+    "end": "19:00",
+    "price": 0,
+    "description": "Weekly free pool until 7PM on Mondays.",
+    "category": "other"
    }
   ]
  },
@@ -154,17 +163,26 @@
   "events": []
  },
  "https://gammaray.bar/shows/": {
-  "hash": "93a1cce75b310774199247cd800ad729efa57d9b",
-  "asked": "2026-11-24T01:04:55-06:00",
-  "on": "2026-11-24",
+  "hash": "6a6c84a42724c4f8bd79b3261ef16a76ff1a2863",
+  "asked": "2026-11-25T14:28:41-06:00",
+  "on": "2026-11-25",
   "events": [
    {
-    "title": "Slug Rug w/ Dicot",
-    "date": "2026-11-23",
+    "title": "Critterthing // The Stinkeyes // Blasfemme // Demigloom",
+    "date": "2026-11-27",
+    "start": "19:00",
+    "end": null,
+    "price": null,
+    "description": "Doors 6:30pm",
+    "category": "music"
+   },
+   {
+    "title": "Yarnells w/ The Ingenious Whittlers",
+    "date": "2026-11-28",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Show at 8pm, doors 7pm.",
+    "description": "Doors 7pm",
     "category": "music"
    },
    {
@@ -173,25 +191,16 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Show at 8pm, doors 7pm.",
+    "description": "Doors 7pm",
     "category": "music"
    }
   ]
  },
  "https://www.thecrystalcornerbar.com/Calendar.htm": {
-  "hash": "57a587ec76be3a718287114276a86808fce3aa47",
-  "asked": "2026-11-24T23:26:16-06:00",
-  "on": "2026-11-24",
+  "hash": "22d661c686ae7695d4a2fc64948fd9e15da89b0e",
+  "asked": "2026-11-25T14:28:44-06:00",
+  "on": "2026-11-25",
   "events": [
-   {
-    "title": "The Trophy Husbands",
-    "date": "2026-11-24",
-    "start": "20:00",
-    "end": null,
-    "price": null,
-    "description": "Live music at 8:00 PM.",
-    "category": "music"
-   },
    {
     "title": "New Wave Rock - Eighties Alt Rock Night: The Mersey Brothers featuring Sean Michael Dargan",
     "date": "2026-11-28",
@@ -280,26 +289,17 @@
   "events": []
  },
  "https://www.harmonybarandgrill.com/madison-atwood-the-harmony-bar-and-grill-events": {
-  "hash": "e6ff640b4b095d2e4bd5a52d14cc875436fd938f",
-  "asked": "2026-11-24T01:04:57-06:00",
-  "on": "2026-11-24",
+  "hash": "63bbdab37eb1a8d6ede1e20ddaa35aea81dd106b",
+  "asked": "2026-11-25T14:28:45-06:00",
+  "on": "2026-11-25",
   "events": [
-   {
-    "title": "Bigtooth",
-    "date": "2026-11-24",
-    "start": "18:30",
-    "end": "20:30",
-    "price": 0,
-    "description": "Bluegrass-inspired original and traditional music; no cover.",
-    "category": "music"
-   },
    {
     "title": "Max Capacity & the Sellouts",
     "date": "2026-11-25",
     "start": "20:00",
     "end": "22:30",
     "price": 15,
-    "description": "1980s new wave party and 10th annual fundraiser for Second Harvest Food Bank; $15 suggested donation.",
+    "description": "1980s new wave party and 10th annual Second Harvest Food Bank fundraiser; $15 suggested donation.",
     "category": "music"
    },
    {
@@ -308,7 +308,7 @@
     "start": "20:00",
     "end": "22:30",
     "price": 0,
-    "description": "Madison Americana quartet with bluegrass, folk and roots music; no cover.",
+    "description": "Madison Americana quartet playing bluegrass, folk, blues and roots music. No cover.",
     "category": "music"
    },
    {
@@ -317,7 +317,7 @@
     "start": "17:30",
     "end": "18:30",
     "price": 5,
-    "description": "Kids music show for the whole family; $5 cover.",
+    "description": "Kids music show with David Landau; kid menu available. $5 cover.",
     "category": "music"
    },
    {
@@ -326,7 +326,7 @@
     "start": "19:00",
     "end": "21:00",
     "price": null,
-    "description": "Open mic hosted by Max; sign-up at 6:30, performances start at 7pm.",
+    "description": "Open mic hosted by Max; sign-up at 6:30, performances from 7pm. Bring your guitar.",
     "category": "open_mic"
    },
    {
@@ -335,7 +335,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Trivia hosted by Paul; free, held the 1st and 3rd Wednesday of the month.",
+    "description": "Trivia hosted by Paul, held the 1st and 3rd Wednesday of the month. Free.",
     "category": "trivia"
    },
    {
@@ -344,16 +344,16 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Acoustic duo Jenny Lupien & Jayme Poster playing original and classic covers; no cover.",
+    "description": "Acoustic duo Jenny Lupien & Jayme Poster playing original and cover songs. No cover.",
     "category": "music"
    },
    {
-    "title": "Dolt/Marengo",
+    "title": "Dolt / Marengo",
     "date": "2026-12-05",
     "start": "21:00",
     "end": "00:00",
     "price": 10,
-    "description": "Double bill of indie bands Dolt and Marengo; $10 cover, 21+.",
+    "description": "Double bill of indie-pop band Dolt and Madison indie pop-rock band Marengo. 21+, $10 cover.",
     "category": "music"
    },
    {
@@ -362,7 +362,7 @@
     "start": "16:00",
     "end": "19:00",
     "price": 15,
-    "description": "Madison Americana duo Mary Gaines and Chris Wagoner with guest David Cox; $15 suggested donation.",
+    "description": "Madison Americana duo Mary Gaines and Chris Wagoner with special guest David Cox. $15 suggested donation.",
     "category": "music"
    },
    {
@@ -371,7 +371,16 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Solo acoustic blues and Americana performance on vintage guitars; no cover.",
+    "description": "Solo performance of early acoustic and electric blues and Americana with stories between songs. No cover.",
+    "category": "music"
+   },
+   {
+    "title": "Annie & the Oakies",
+    "date": "2026-12-09",
+    "start": "18:30",
+    "end": "20:30",
+    "price": 0,
+    "description": "Classic bluegrass band formed by former Oak Street Ramblers members. No cover.",
     "category": "music"
    }
   ]
@@ -481,54 +490,63 @@
   ]
  },
  "https://high-noon.com/calendar/": {
-  "hash": "423acb678d3d717cb1136c02225039dc415f6f58",
-  "asked": "2026-11-24T23:26:16-06:00",
-  "on": "2026-11-24",
+  "hash": "8e9c63535c565ae16255facd6a53472a2bea6919",
+  "asked": "2026-11-25T14:28:44-06:00",
+  "on": "2026-11-25",
   "events": [
    {
-    "title": "FPC LIVE PRESENTS: Bluegrass Black Friday",
+    "title": "Bluegrass Black Friday",
     "date": "2026-11-27",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "Featuring Joseph Huber Band, Dig Deep, and Kevin Troestler, with Artist At Large Sheilagh Dandy Lion. Doors 7:00 pm.",
+    "description": "FPC Live. Featuring Joseph Huber Band, Dig Deep, Kevin Troestler, and Artist At Large Sheilagh Dandy Lion. Doors 7:00 pm.",
     "category": "music"
    },
    {
-    "title": "94.9 WOLX Presents: The Last Waltz and Beyond",
+    "title": "The Last Waltz and Beyond",
     "date": "2026-11-28",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "A Madison musician's tribute to The Band. Doors 7:00 pm.",
+    "description": "94.9 WOLX presents a Madison musician's tribute to The Band. Doors 7:00 pm.",
     "category": "music"
    },
    {
-    "title": "FPC LIVE PRESENTS: Daisy Grenade",
+    "title": "Daisy Grenade with Boyish",
     "date": "2026-12-03",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "With Boyish. Doors 7:00 pm.",
+    "description": "FPC Live show with Boyish. Doors 7:00 pm.",
     "category": "music"
    },
    {
-    "title": "FPC LIVE PRESENTS: Varsity Mac + Scorched Waves",
+    "title": "Varsity Mac + Scorched Waves",
     "date": "2026-12-04",
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "With Velvet Blue and In Ropes. Doors 7:00 pm.",
+    "description": "FPC Live show with Velvet Blue and In Ropes. Doors 7:00 pm.",
     "category": "music"
    },
    {
-    "title": "FPC LIVE PRESENTS: Anthony Gomes",
+    "title": "Anthony Gomes",
     "date": "2026-12-06",
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Doors 6:00 pm.",
+    "description": "FPC Live show. Doors 6:00 pm.",
     "category": "music"
+   },
+   {
+    "title": "Nerd Nite",
+    "date": "2026-12-09",
+    "start": "19:00",
+    "end": null,
+    "price": 0,
+    "description": "FPC Live presents Nerd Nite, a free show. Doors 6:00 pm.",
+    "category": "other"
    }
   ]
  },
@@ -540,8 +558,8 @@
  },
  "https://www.roxxybar.com/madison-events/": {
   "hash": "b7539d094776b830c78ef525b781b8a13d7730cf",
-  "asked": "2026-11-22T12:30:49-06:00",
-  "on": "2026-11-22",
+  "asked": "2026-11-25T14:28:43-06:00",
+  "on": "2026-11-25",
   "events": []
  },
  "https://www.lazyoaflounge.com/specials": {
@@ -603,35 +621,17 @@
   "events": []
  },
  "https://www.harmonybarandgrill.com/madison-atwood-the-harmony-bar-and-grill-happy-hours-specials": {
-  "hash": "8fe683b937874cd6eb3fde4dd789c56806a24ead",
-  "asked": "2026-11-24T01:05:01-06:00",
-  "on": "2026-11-24",
+  "hash": "97f8c0424250ba29ac754acda4793500b0292661",
+  "asked": "2026-11-25T14:28:50-06:00",
+  "on": "2026-11-25",
   "events": [
-   {
-    "title": "Mixed Mic",
-    "date": "2026-11-24",
-    "start": "19:00",
-    "end": null,
-    "price": null,
-    "description": "Mixed Mic listed on the Tuesday, November 24 specials.",
-    "category": "open_mic"
-   },
-   {
-    "title": "Mixed Mic",
-    "date": "2026-12-01",
-    "start": "19:00",
-    "end": null,
-    "price": null,
-    "description": "Every first Tuesday of the month; first Tuesday of December.",
-    "category": "open_mic"
-   },
    {
     "title": "Friday Fish Fry",
     "date": "2026-11-27",
     "start": "11:00",
     "end": "22:00",
     "price": null,
-    "description": "Friday Fish Fry.",
+    "description": "Friday fish fry special at The Harmony Bar and Grill.",
     "category": "food"
    },
    {
@@ -640,7 +640,7 @@
     "start": "17:30",
     "end": "18:30",
     "price": 5.0,
-    "description": "Every Monday kids show with David Landau.",
+    "description": "Weekly kids show featuring David Landau, every Monday.",
     "category": "music"
    },
    {
@@ -649,8 +649,17 @@
     "start": "17:30",
     "end": "18:30",
     "price": 5.0,
-    "description": "Every Monday kids show with David Landau.",
+    "description": "Weekly kids show featuring David Landau, every Monday.",
     "category": "music"
+   },
+   {
+    "title": "Mixed Mic",
+    "date": "2026-12-01",
+    "start": "19:00",
+    "end": null,
+    "price": null,
+    "description": "Mixed mic night, held the first Tuesday of each month.",
+    "category": "open_mic"
    }
   ]
  },
@@ -681,8 +690,8 @@
  },
  "https://wandosbar.com/madison-downtown-wando-s-events-happenings": {
   "hash": "3c335623b8c57f9a0586583f22c9a56c8e810824",
-  "asked": "2026-11-22T12:30:53-06:00",
-  "on": "2026-11-22",
+  "asked": "2026-11-25T14:28:50-06:00",
+  "on": "2026-11-25",
   "events": [
    {
     "title": "Thanksgiving",
@@ -690,7 +699,7 @@
     "start": "11:00",
     "end": "02:30",
     "price": null,
-    "description": "Thanksgiving Day celebratory feast at Wando's, bring family and friends.",
+    "description": "Thanksgiving Day celebratory feast at Wando's, for friends and family.",
     "category": "food"
    }
   ]
@@ -708,19 +717,10 @@
   "events": []
  },
  "https://www.capitalbrewery.com/events-2/": {
-  "hash": "b133a0e7ea87fd21be3dc833e6eac9b2d06f81e2",
-  "asked": "2026-11-24T01:05:27-06:00",
-  "on": "2026-11-24",
+  "hash": "39fe36a7f3e3de400febb466a6d16c25c4cb5a0e",
+  "asked": "2026-11-25T14:28:50-06:00",
+  "on": "2026-11-25",
   "events": [
-   {
-    "title": "Fresh Citrus & Pears Stop Event by Tree-Ripe Fruit Co.",
-    "date": "2026-11-25",
-    "start": "12:00",
-    "end": "13:30",
-    "price": null,
-    "description": "Stop event with Tree-Ripe Fruit Co. featuring fresh citrus and pears.",
-    "category": "food"
-   },
    {
     "title": "2026 Black Friday Deals",
     "date": "2026-11-27",
@@ -736,7 +736,7 @@
     "start": "18:00",
     "end": "21:00",
     "price": null,
-    "description": "Live music with David Hecht.",
+    "description": "Live music with David Hecht at Capital Brewery.",
     "category": "music"
    }
   ]
@@ -1094,9 +1094,9 @@
   "events": []
  },
  "https://barriquesmarket.com/pages/events": {
-  "hash": "f1d8407b773b712507930e015974be77a139c3b2",
-  "asked": "2026-11-23T16:39:06-06:00",
-  "on": "2026-11-23",
+  "hash": "8982757f1bea0d4d390c5241829834e7157131ba",
+  "asked": "2026-11-25T14:28:52-06:00",
+  "on": "2026-11-25",
   "events": []
  },
  "https://www.ancoracafes.com/monona-drive/": {
@@ -1201,9 +1201,9 @@
   "events": []
  },
  "https://barriquesmarket.com/pages/tastings-events": {
-  "hash": "cd96f9245c23fc2d2525b833ecab4ef0f206be98",
-  "asked": "2026-11-23T16:39:13-06:00",
-  "on": "2026-11-23",
+  "hash": "7a2edf789e1e2625cec2f1c0794d2f90f49deedc",
+  "asked": "2026-11-25T14:28:59-06:00",
+  "on": "2026-11-25",
   "events": []
  },
  "https://colectivo.com/pages/monroe-street": {
@@ -1231,9 +1231,9 @@
   "events": []
  },
  "https://merciescoffeewi.com/": {
-  "hash": "1339acc19c4add510ab23fd9bb837d12b69a13f5",
-  "asked": "2026-11-24T23:26:42-06:00",
-  "on": "2026-11-24",
+  "hash": "47f2e2174f1f8a88fd5a74ad9b9764df85e5ff9d",
+  "asked": "2026-11-25T14:29:13-06:00",
+  "on": "2026-11-25",
   "events": []
  },
  "https://motherfools.com/event/20261106/mad-city-story-slam-rebellion": {
@@ -1426,9 +1426,9 @@
   "events": []
  },
  "https://www.madisonpubliclibrary.org/spaces/events": {
-  "hash": "f8b6a3a450b9e91f84703fd2bb7639da7ef78f56",
-  "asked": "2026-11-24T23:27:18-06:00",
-  "on": "2026-11-24",
+  "hash": "269abb681804517180838c7ef2a7bbca9ef7f10d",
+  "asked": "2026-11-25T14:29:50-06:00",
+  "on": "2026-11-25",
   "events": []
  },
  "https://ebling.library.wisc.edu/ebling-library-classes-events/": {
@@ -1466,9 +1466,9 @@
   ]
  },
  "https://www.library.wisc.edu/music/": {
-  "hash": "c35ff73c89af79d05fd2b3791d5949c3798b653f",
-  "asked": "2026-11-23T16:39:58-06:00",
-  "on": "2026-11-23",
+  "hash": "2a37a6a51a7a050a9c2d16e67654deeb167fd3be",
+  "asked": "2026-11-25T14:29:41-06:00",
+  "on": "2026-11-25",
   "events": []
  },
  "https://www.sunprairiepubliclibrary.org/home-delivery-service": {
@@ -1589,10 +1589,29 @@
   ]
  },
  "https://www.madisonpubliclibrary.org/spaces/events/search": {
-  "hash": "ce1f47fded7e6d2be5e6203c4759d56a00813eaf",
-  "asked": "2026-11-24T23:27:22-06:00",
-  "on": "2026-11-24",
-  "events": []
+  "hash": "adaafec267d834beaaf01a454696e5525669d4ed",
+  "asked": "2026-11-25T14:29:51-06:00",
+  "on": "2026-11-25",
+  "events": [
+   {
+    "title": "Stories & Songs with Junebug",
+    "date": "2026-11-28",
+    "start": "10:30",
+    "end": "11:00",
+    "price": null,
+    "description": "Music and movement storytime for ages birth-5 led by teacher Junko Yamauchi Stewart, in the Youth Program Room.",
+    "category": "other"
+   },
+   {
+    "title": "Future of STEM",
+    "date": "2026-11-28",
+    "start": "11:30",
+    "end": "12:30",
+    "price": 0,
+    "description": "Free STEM classes for kids to explore science, technology, engineering and math, in the Youth Program Room.",
+    "category": "other"
+   }
+  ]
  },
  "https://artlitlab.org/calendar": {
   "hash": "52e2db207f6e57dd596e849c9c6771cab7d7fb02",
@@ -1691,9 +1710,9 @@
   ]
  },
  "https://www.overture.org/tickets-events/": {
-  "hash": "ed9f2f3c4ae93895d8f20234a701f52029b17c01",
-  "asked": "2026-11-24T23:27:23-06:00",
-  "on": "2026-11-24",
+  "hash": "beeed65e7a6575c1750b9375ad02debe1120b84f",
+  "asked": "2026-11-25T14:29:57-06:00",
+  "on": "2026-11-25",
   "events": [
    {
     "title": "Cash Box Kings",
@@ -1701,7 +1720,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Multiple showtimes listed at Overture Center.",
+    "description": "Multiple showtimes at Overture Center.",
     "category": "music"
    },
    {
@@ -1710,7 +1729,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Multiple showtimes listed at Overture Center.",
+    "description": "Multiple showtimes at Overture Center.",
     "category": "music"
    },
    {
@@ -1719,7 +1738,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Multiple showtimes listed at Overture Center.",
+    "description": "Multiple showtimes at Overture Center.",
     "category": "music"
    }
   ]
@@ -1777,10 +1796,20 @@
   ]
  },
  "https://madisonyoutharts.org/upcoming-events/": {
-  "hash": "b0d9d279d8fde19e2148ce4961e8c4fd94d5c149",
-  "asked": "2026-11-23T16:40:13-06:00",
-  "on": "2026-11-23",
-  "events": []
+  "hash": "e98367ea7c89a4187ba5bb283f24192993c8c1cb",
+  "asked": "2026-11-25T14:29:54-06:00",
+  "on": "2026-11-25",
+  "events": [
+   {
+    "title": "Black Box Bandstand",
+    "date": "2026-12-05",
+    "start": "18:00",
+    "end": null,
+    "price": 10,
+    "description": "Live music at Sunrise Theater with Clandestino (rock and pop en español) and Bon Scorpion (classic heavy metal). Doors 5:30 PM. $10 online, $20 at door; free for 18 and younger. Raffle with $300 in prizes.",
+    "category": "music"
+   }
+  ]
  },
  "https://madisonyoutharts.org/upcoming-events/news/": {
   "hash": "d5f0a03c7b9473c6f2850a66cb87b3229e3f6e73",
@@ -1801,9 +1830,9 @@
   "events": []
  },
  "https://www.veronapubliclibrary.org/": {
-  "hash": "91b1227ca42d66b5addda701252b328b23012125",
-  "asked": "2026-11-24T23:27:08-06:00",
-  "on": "2026-11-24",
+  "hash": "8a229a9ba8e7e5c6eea7bd57239564c6c3ae739c",
+  "asked": "2026-11-25T14:29:43-06:00",
+  "on": "2026-11-25",
   "events": []
  },
  "https://www.waunakee.gov/calendar.aspx?CID=25": {
@@ -1831,9 +1860,9 @@
   "events": []
  },
  "https://high-noon.com/event/dogpark/": {
-  "hash": "8c7548cdbaa95987ecc8ccf79d27948c951112e0",
-  "asked": "2026-11-24T23:26:19-06:00",
-  "on": "2026-11-24",
+  "hash": "d5303807e94fb1b4a0b7b92c2b3d90e93c74e0e5",
+  "asked": "2026-11-25T14:28:47-06:00",
+  "on": "2026-11-25",
   "events": [
    {
     "title": "Daisy Grenade with Boyish",
@@ -1841,7 +1870,7 @@
     "start": "20:00",
     "end": null,
     "price": null,
-    "description": "FPC Live presents Daisy Grenade with Boyish at High Noon Saloon. Doors 7:00 pm, show 8:00 pm. Listed as low tix.",
+    "description": "FPC Live presents Daisy Grenade with Boyish at High Noon Saloon. Doors 7:00 pm, show 8:00 pm.",
     "category": "music"
    }
   ]
@@ -2132,19 +2161,10 @@
   "events": []
  },
  "https://www.capitalbrewery.com/on-site-events/": {
-  "hash": "6d7718df39e0f1e4ff4f53c9e6b14ee5ee6176ae",
-  "asked": "2026-11-24T01:05:30-06:00",
-  "on": "2026-11-24",
+  "hash": "4eb85163a76204d639a8b748d50c08ba22ea1fcd",
+  "asked": "2026-11-25T14:28:53-06:00",
+  "on": "2026-11-25",
   "events": [
-   {
-    "title": "Fresh Citrus & Pears Stop Event by Tree-Ripe Fruit Co.",
-    "date": "2026-11-25",
-    "start": "12:00",
-    "end": "13:30",
-    "price": null,
-    "description": "Fresh citrus and pears stop event by Tree-Ripe Fruit Co. at Capital Brewery.",
-    "category": "food"
-   },
    {
     "title": "2026 Black Friday Deals",
     "date": "2026-11-27",
@@ -2172,9 +2192,9 @@
   "events": []
  },
  "https://wandosbar.com/madison-downtown-wando-s-gameday-specials": {
-  "hash": "88ac87fbd7d5da947358e82f9e5935c2e5028253",
-  "asked": "2026-11-22T12:30:55-06:00",
-  "on": "2026-11-22",
+  "hash": "8428621cbf65139fb1bedaf60d7099fded8a310d",
+  "asked": "2026-11-25T14:28:52-06:00",
+  "on": "2026-11-25",
   "events": []
  },
  "https://thekickback.bar/premier-trivia-tuesday-nov-17/": {
@@ -2353,8 +2373,8 @@
  },
  "https://www.waltzingmatildasmadison.com/": {
   "hash": "463900bf295932f1e71ce15aa1f3233a8e54ca7c",
-  "asked": "2026-11-22T12:31:32-06:00",
-  "on": "2026-11-22",
+  "asked": "2026-11-25T14:29:28-06:00",
+  "on": "2026-11-25",
   "events": []
  },
  "https://www.motherfools.com/": {
@@ -2671,44 +2691,17 @@
   ]
  },
  "https://www.fitchburgwi.gov/m/calendar?cat=25,42,26,43,27": {
-  "hash": "33c5fb92e2163041f83989fed23e6e064175ed6c",
-  "asked": "2026-11-24T01:07:24-06:00",
-  "on": "2026-11-24",
+  "hash": "b86fefae3d93a4947d427d6c6a16375ac978a6f2",
+  "asked": "2026-11-25T14:29:34-06:00",
+  "on": "2026-11-25",
   "events": [
    {
-    "title": "Tuesday Indoor Pickleball",
-    "date": "2026-11-24",
-    "start": "10:00",
-    "end": "14:00",
-    "price": null,
-    "description": "Indoor pickleball at the Fitchburg Senior Center.",
-    "category": "sports"
-   },
-   {
-    "title": "Healthy Mind, Healthy Life",
-    "date": "2026-11-24",
-    "start": "10:30",
-    "end": "12:00",
-    "price": null,
-    "description": "Senior Center activity session.",
-    "category": "other"
-   },
-   {
-    "title": "Fitchburg Ukulele Network",
-    "date": "2026-11-24",
-    "start": "13:00",
-    "end": "14:30",
-    "price": null,
-    "description": "Ukulele group meeting at the Senior Center.",
-    "category": "other"
-   },
-   {
-    "title": "Open Mic",
+    "title": "Open Mic!",
     "date": "2026-11-25",
     "start": "11:45",
     "end": "12:45",
     "price": null,
-    "description": "Open mic at the Senior Center.",
+    "description": "Open mic at the Fitchburg Senior Center.",
     "category": "open_mic"
    },
    {
@@ -2717,7 +2710,7 @@
     "start": "13:00",
     "end": "15:00",
     "price": null,
-    "description": "Knitting and crochet group for all yarn crafters.",
+    "description": "Knitting and crochet group at the Senior Center.",
     "category": "other"
    },
    {
@@ -2726,7 +2719,7 @@
     "start": "10:00",
     "end": "11:00",
     "price": null,
-    "description": "Tai Chi class at the Senior Center.",
+    "description": "Tai Chi session at the Senior Center.",
     "category": "other"
    },
    {
@@ -2735,7 +2728,7 @@
     "start": "10:30",
     "end": "12:30",
     "price": null,
-    "description": "Community gathering with a meal at the Senior Center.",
+    "description": "Lunch program at the Senior Center (Spanish-language).",
     "category": "food"
    },
    {
@@ -2753,7 +2746,7 @@
     "start": "13:30",
     "end": "14:30",
     "price": null,
-    "description": "Friendly Spanish conversation group.",
+    "description": "Friendly Spanish conversation group at the Senior Center.",
     "category": "other"
    },
    {
@@ -2771,15 +2764,15 @@
     "start": "10:30",
     "end": "12:30",
     "price": null,
-    "description": "Community gathering with a meal at the Senior Center.",
+    "description": "Lunch program at the Senior Center (Spanish-language).",
     "category": "food"
    }
   ]
  },
  "https://www.fitchburgwi.gov/m/calendar/event/detail/19917": {
-  "hash": "1d6ddecdc752f2404887d7132c228f30e14603a5",
-  "asked": "2026-11-24T15:12:15-06:00",
-  "on": "2026-11-24",
+  "hash": "6da4c0d82328fc60485dbf49a9d8e9c0f3b0f50d",
+  "asked": "2026-11-25T14:29:43-06:00",
+  "on": "2026-11-25",
   "events": []
  },
  "https://www.fitchburgwi.gov/m/calendar?cat=24": {
@@ -2826,6 +2819,12 @@
   "hash": "7022c76a987c64fec6ece17ce6b91e63f6f5b664",
   "asked": "2026-11-24T15:12:30-06:00",
   "on": "2026-11-24",
+  "events": []
+ },
+ "https://indiecoffee.net/index.html": {
+  "hash": "5f6a29e8bcff3ea93f09beefad44bf04b548ecc2",
+  "asked": "2026-11-25T14:29:05-06:00",
+  "on": "2026-11-25",
   "events": []
  }
 }
