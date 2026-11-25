@@ -1,41 +1,38 @@
 {
- "generated_at": "2026-11-24T15:12:38-06:00",
+ "generated_at": "2026-11-24T23:27:32-06:00",
  "total_events": 364,
- "in_more_than_one_source": 9,
+ "in_more_than_one_source": 7,
  "sources": {
   "AI page reading": {
-   "events": 115,
-   "unique_events": 108,
+   "events": 114,
+   "unique_events": 110,
    "overlap": {
     "Isthmus": 2,
-    "Ticketmaster": 5,
+    "Ticketmaster": 2,
     "Venue websites": 0
    },
-   "venues": 35,
+   "venues": 32,
    "unique_venues": [
     "Aftershock Classic Arcade",
     "Arts + Literature Laboratory",
     "Bartell Theatre",
     "Below Deck Concession Stand",
     "Capital Brewery",
-    "Central Library",
     "Crucible",
     "Crystal Corner Bar",
     "D'Vino",
+    "E.D. Locke Public Library",
     "Fitchburg Public Library",
     "Flight Wine & Bourbon Bar",
     "Gamma Ray Bar",
-    "Imagination Center",
     "Italian Workmen's Club",
     "Karben4 Brewing",
     "Laurel Tavern",
     "Lazy Oaf Lounge",
     "Monkeyshines Bar & Grill",
-    "Monroe Street Library",
     "Mother Fool's",
     "Oscar Rennebohm Library",
     "Overture Center for the Arts",
-    "Pinney Library",
     "Reindahl Park Pavillion",
     "State Line Distillery",
     "Sun Prairie Public Library",
@@ -45,12 +42,12 @@
    ]
   },
   "Isthmus": {
-   "events": 160,
-   "unique_events": 157,
+   "events": 159,
+   "unique_events": 155,
    "overlap": {
     "AI page reading": 2,
     "Ticketmaster": 0,
-    "Venue websites": 1
+    "Venue websites": 2
    },
    "venues": 71,
    "unique_venues": [
@@ -121,9 +118,9 @@
   },
   "Ticketmaster": {
    "events": 34,
-   "unique_events": 28,
+   "unique_events": 31,
    "overlap": {
-    "AI page reading": 5,
+    "AI page reading": 2,
     "Isthmus": 0,
     "Venue websites": 1
    },
@@ -138,19 +135,18 @@
   },
   "Venue websites": {
    "events": 64,
-   "unique_events": 62,
+   "unique_events": 61,
    "overlap": {
     "AI page reading": 0,
-    "Isthmus": 1,
+    "Isthmus": 2,
     "Ticketmaster": 1
    },
-   "venues": 14,
+   "venues": 13,
    "unique_venues": [
     "Atwood Music Hall",
     "Bayview Community Center",
     "Children's Theater of Madison",
     "Comedy Club on State",
-    "E.D. Locke Public Library",
     "Full Mile Beer Company & Kitchen",
     "Gib's Bar",
     "Lone Girl Tap Room And Pizza Company",
