@@ -594,7 +594,7 @@
    ],
    "bar": false,
    "menu_src": "restaurant homepage",
-   "image": "https://ehc-west-0-bucket.s3.us-west-2.amazonaws.com/web/documents/asiankitchenmadison/open_graph_image/",
+   "image": "https://imagedelivery.net/9lr8zq_Jvl7h6OFWqEi9IA/6fffd8de-b04a-417d-2057-683f22c80200/public",
    "website_ok": true
   },
   {
@@ -644,8 +644,8 @@
   {
    "group": "latin",
    "dinner": true,
-   "alcohol": null,
-   "alcohol_src": "",
+   "alcohol": true,
+   "alcohol_src": "menu/homepage keywords",
    "id": "osm:node/12953949646",
    "name": "Aztec Taqueria",
    "cuisine": "mexican",
@@ -6133,7 +6133,7 @@
    "hours": null,
    "bar": false,
    "menu_src": "restaurant homepage",
-   "image": "https://ehc-west-0-bucket.s3.us-west-2.amazonaws.com/web/documents/happywokwi/open_graph_image/",
+   "image": "https://imagedelivery.net/9lr8zq_Jvl7h6OFWqEi9IA/e5793f2a-6e5e-4f31-2227-c85ddf223a00/public",
    "website_ok": true
   },
   {
@@ -10924,7 +10924,7 @@
    "hours": null,
    "bar": false,
    "menu_src": "restaurant homepage",
-   "image": "https://ehc-west-0-bucket.s3.us-west-2.amazonaws.com/web/documents/pokeitupmadison/open_graph_image/",
+   "image": "https://imagedelivery.net/9lr8zq_Jvl7h6OFWqEi9IA/ea61438f-d221-42af-2c7b-2eb229b97f00/public",
    "website_ok": true
   },
   {
@@ -13495,7 +13495,7 @@
    ],
    "bar": true,
    "menu_src": "OpenStreetMap tag",
-   "image": "https://static.spotapps.co/website_images/ab_websites/253077_website_v1/social.jpg",
+   "image": "https://static.spotapps.co/website_images/ab_websites/253077_website_v2/social.jpg",
    "website_ok": true
   },
   {
@@ -14225,7 +14225,7 @@
    "lat": 43.071829,
    "lon": -89.395609,
    "website": "https://www.thegritty.com/",
-   "menu": "",
+   "menu": "https://www.thegritty.com/menus/",
    "hours": [
     [
      [
@@ -14261,7 +14261,8 @@
    ],
    "bar": false,
    "image": "https://images.getbento.com/accounts/e4822fbaf7aad9e143030840d27381a3/media/images/44557NG.logo.png?w=1200&fit=fill&auto=compress,format&cs=origin&h=600&bg=fff&pad=100",
-   "website_ok": true
+   "website_ok": true,
+   "menu_src": "restaurant homepage"
   },
   {
    "group": "american",
@@ -14856,7 +14857,7 @@
    ],
    "bar": true,
    "menu_src": "restaurant homepage",
-   "image": "https://www.umamimadison.com/uploads/8/4/7/2/8472758/umami-happy-hour_orig.png",
+   "image": "https://www.umamimadison.com/uploads/8/4/7/2/8472758/published/we-re-hiiring-line-cooks.jpg?1794514002",
    "website_ok": true
   },
   {
@@ -15027,7 +15028,8 @@
    "menu_src": "restaurant homepage",
    "website_ok": true,
    "menu_broken": "https://www.viettownmadison.com/category/all-products",
-   "menu": "https://skiplinow.com/shop/286936z"
+   "menu": "https://skiplinow.com/shop/286936z",
+   "image": "https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQdcPSNt584jiaUa-6CEaKtbLJLEhhwKscO0MjOKbqDHoS49OCvC2A27DFujCztj8_MtHft_zxgGr2AUPfFzUqBxd4ACucLHx2Zt2tgjtEJQSRrlkfczeMAKx6nN5UnukWCCAl5oIKa8dTLBbLZcjtNYZMbJLnZjAnDZnVQH_JRlG3YjZaGYFheQUDqv2lc=w16383"
   },
   {
    "group": "italian",
@@ -15115,9 +15117,10 @@
    "hours": null,
    "bar": false,
    "menu_src": "restaurant homepage",
-   "image": "http://wearytravelerfreehouse.com/wp-content/uploads/2018/02/cropped-DSC_0068.jpg",
+   "image": "https://irp.cdn-website.com/216cf164/dms3rep/multi/WTF-LOGO%28500-x-500-px%29.png",
    "menu_broken": "https://wearytravelerfreehouse.com/weary-traveler-catering-menu/",
-   "website_ok": true
+   "website_ok": true,
+   "menu": "https://www.wearytravelerfreehouse.com/menu"
   },
   {
    "group": "american",
@@ -15558,8 +15561,8 @@
   {
    "group": "italian",
    "dinner": true,
-   "alcohol": null,
-   "alcohol_src": "",
+   "alcohol": false,
+   "alcohol_src": "AI website check",
    "id": "osm:node/2484210263",
    "name": "Zoe's Pizzeria",
    "cuisine": "pizza, italian",
@@ -15582,5 +15585,5 @@
    "website_ok": true
   }
  ],
- "with_menu": 174
+ "with_menu": 175
 }

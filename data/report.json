@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-25T23:04:11-06:00",
+ "generated_at": "2026-11-26T14:15:13-06:00",
  "venues_checked": 234,
- "venues_with_events": 63,
- "venues_with_feeds": 85,
- "events": 365,
- "filtered_out": 144,
+ "venues_with_events": 60,
+ "venues_with_feeds": 83,
+ "events": 343,
+ "filtered_out": 172,
  "venues": [
   {
    "name": "Isthmus calendar",
@@ -13,8 +13,8 @@
    "feeds": [
     "calendar"
    ],
-   "raw_events": 175,
-   "error": "used today's copy (read once a day)"
+   "raw_events": 161,
+   "error": ""
   },
   {
    "name": "AI page reading",
@@ -23,12 +23,12 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 169,
+   "raw_events": 158,
    "error": "",
-   "calls": 14,
-   "tokens_in": 27509,
-   "tokens_out": 8823,
-   "est_cost_usd": 0.0072
+   "calls": 9,
+   "tokens_in": 25499,
+   "tokens_out": 6789,
+   "est_cost_usd": 0.0059
   },
   {
    "name": "Bayview Community Center",
@@ -38,7 +38,7 @@
     "tribe",
     "jsonld"
    ],
-   "raw_events": 84,
+   "raw_events": 82,
    "error": ""
   },
   {
@@ -70,13 +70,24 @@
    "error": ""
   },
   {
+   "name": "E.D. Locke Public Library",
+   "kind": "library",
+   "website": "https://www.mcfarlandlibrary.org/home",
+   "feeds": [
+    "ical",
+    "ical"
+   ],
+   "raw_events": 34,
+   "error": "ical: ConnectionError: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //www.mcfarlandlibrary.org/calendar/month (Caused by NameResolutionError(\"HTTPSConnection(host='https"
+  },
+  {
    "name": "Ticketmaster",
    "kind": "source",
    "website": "",
    "feeds": [
     "ticketmaster"
    ],
-   "raw_events": 35,
+   "raw_events": 34,
    "error": ""
   },
   {
@@ -104,7 +115,7 @@
     "jsonld",
     "jsonld"
    ],
-   "raw_events": 23,
+   "raw_events": 20,
    "error": ""
   },
   {
@@ -113,20 +124,6 @@
    "website": "https://www.harmonybarandgrill.com/",
    "feeds": [
     "ai"
-   ],
-   "raw_events": 14,
-   "error": ""
-  },
-  {
-   "name": "Lone Girl Tap Room And Pizza Company",
-   "kind": "bar",
-   "website": "https://thelonegirl.com",
-   "feeds": [
-    "tribe",
-    "jsonld",
-    "jsonld",
-    "jsonld",
-    "jsonld"
    ],
    "raw_events": 13,
    "error": ""
@@ -146,26 +143,28 @@
    "error": ""
   },
   {
+   "name": "Lone Girl Tap Room And Pizza Company",
+   "kind": "bar",
+   "website": "https://thelonegirl.com",
+   "feeds": [
+    "tribe",
+    "jsonld",
+    "jsonld",
+    "jsonld",
+    "jsonld"
+   ],
+   "raw_events": 11,
+   "error": ""
+  },
+  {
    "name": "Crucible",
    "kind": "bar",
    "website": "https://www.cruciblemadison.com/",
    "feeds": [
     "ai"
    ],
-   "raw_events": 11,
+   "raw_events": 10,
    "error": ""
-  },
-  {
-   "name": "E.D. Locke Public Library",
-   "kind": "library",
-   "website": "https://www.mcfarlandlibrary.org/home",
-   "feeds": [
-    "ical",
-    "ical",
-    "ai"
-   ],
-   "raw_events": 11,
-   "error": "ical: ConnectionError: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //www.mcfarlandlibrary.org/calendar/month (Caused by NameResolutionError(\"HTTPSConnection(host='https"
   },
   {
    "name": "Gib's Bar",
@@ -184,7 +183,7 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 10,
+   "raw_events": 9,
    "error": ""
   },
   {
@@ -208,16 +207,6 @@
    "error": ""
   },
   {
-   "name": "Fitchburg Senior Center",
-   "kind": "community",
-   "website": "https://www.fitchburgwi.gov/621/Senior-Center",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 8,
-   "error": ""
-  },
-  {
    "name": "Sun Prairie Public Library",
    "kind": "library",
    "website": "https://www.sunprairiepubliclibrary.org/",
@@ -231,6 +220,36 @@
    "name": "Alicia Ashman Library",
    "kind": "library",
    "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 7,
+   "error": ""
+  },
+  {
+   "name": "Monroe Street Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/monroe-street",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 7,
+   "error": ""
+  },
+  {
+   "name": "Pinney Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 7,
+   "error": ""
+  },
+  {
+   "name": "Sequoya Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/sequoya",
    "feeds": [
     "ai"
    ],
@@ -299,6 +318,16 @@
    "error": ""
   },
   {
+   "name": "Central Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/central",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 4,
+   "error": ""
+  },
+  {
    "name": "Imagination Center",
    "kind": "library",
    "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
@@ -319,41 +348,14 @@
    "error": ""
   },
   {
-   "name": "Monroe Street Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/monroe-street",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 4,
-   "error": ""
-  },
-  {
-   "name": "Pinney Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 4,
-   "error": ""
-  },
-  {
-   "name": "Verona Community Center",
-   "kind": "community",
-   "website": "https://www.veronawi.gov/941/Community-Center",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 4,
-   "error": ""
-  },
-  {
-   "name": "Come Back Inn",
-   "kind": "bar",
-   "website": "https://comebackintavern.com/",
+   "name": "Barrymore Theatre",
+   "kind": "venue",
+   "website": "https://barrymorelive.com/",
    "feeds": [
     "tribe",
+    "jsonld",
+    "jsonld",
+    "jsonld",
     "jsonld"
    ],
    "raw_events": 3,
@@ -363,16 +365,6 @@
    "name": "Doundrins Distilling",
    "kind": "brewery",
    "website": "https://doundrinsdistilling.com/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 3,
-   "error": ""
-  },
-  {
-   "name": "Fitchburg Public Library",
-   "kind": "library",
-   "website": "https://www.fitchburgwi.gov/822/Library",
    "feeds": [
     "ai"
    ],
@@ -453,6 +445,16 @@
    "error": ""
   },
   {
+   "name": "Verona Community Center",
+   "kind": "community",
+   "website": "https://www.veronawi.gov/941/Community-Center",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 3,
+   "error": ""
+  },
+  {
    "name": "Veterans Memorial Park",
    "kind": "veterans",
    "website": "https://www.cityofmadison.com/parks/find-a-park/park.cfm?id=1364",
@@ -468,20 +470,6 @@
    "website": "https://www.aftershockclassicarcade.com/",
    "feeds": [
     "ai"
-   ],
-   "raw_events": 2,
-   "error": ""
-  },
-  {
-   "name": "Barrymore Theatre",
-   "kind": "venue",
-   "website": "https://barrymorelive.com/",
-   "feeds": [
-    "tribe",
-    "jsonld",
-    "jsonld",
-    "jsonld",
-    "jsonld"
    ],
    "raw_events": 2,
    "error": ""
@@ -601,16 +589,6 @@
    "error": ""
   },
   {
-   "name": "Central Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/central",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 1,
-   "error": ""
-  },
-  {
    "name": "Goodman Community Center",
    "kind": "community",
    "website": "https://www.goodmancenter.org/",
@@ -656,16 +634,6 @@
    "website": "https://www.quiveysgrove.com/stable-grill",
    "feeds": [
     "jsonld"
-   ],
-   "raw_events": 1,
-   "error": ""
-  },
-  {
-   "name": "Sequoya Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/sequoya",
-   "feeds": [
-    "ai"
    ],
    "raw_events": 1,
    "error": ""
@@ -800,7 +768,7 @@
    "website": "https://bowlavard.com/",
    "feeds": [],
    "raw_events": 0,
-   "error": ""
+   "error": "ai: ReadTimeout: HTTPSConnectionPool(host='letsbowl.com', port=443): Read timed out. (read timeout=15)"
   },
   {
    "name": "Bradbury's Coffee",
@@ -925,6 +893,17 @@
    "error": ""
   },
   {
+   "name": "Come Back Inn",
+   "kind": "bar",
+   "website": "https://comebackintavern.com/",
+   "feeds": [
+    "tribe",
+    "jsonld"
+   ],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
    "name": "Communication",
    "kind": "venue",
    "website": "https://www.communicationmadison.com/",
@@ -1031,6 +1010,22 @@
    "feeds": [],
    "raw_events": 0,
    "error": "site unreachable"
+  },
+  {
+   "name": "Fitchburg Public Library",
+   "kind": "library",
+   "website": "https://www.fitchburgwi.gov/822/Library",
+   "feeds": [],
+   "raw_events": 0,
+   "error": "ai: ReadTimeout: HTTPSConnectionPool(host='www.fitchburgwi.gov', port=443): Read timed out. (read timeout=15); ai: ReadTimeout: HTTPSConnectionPool(host='www.fitchburgwi.gov', port=443): Read timed out. (read timeout=15)"
+  },
+  {
+   "name": "Fitchburg Senior Center",
+   "kind": "community",
+   "website": "https://www.fitchburgwi.gov/621/Senior-Center",
+   "feeds": [],
+   "raw_events": 0,
+   "error": "ai: ReadTimeout: HTTPSConnectionPool(host='www.fitchburgwi.gov', port=443): Read timed out. (read timeout=15); ai: ReadTimeout: HTTPSConnectionPool(host='www.fitchburgwi.gov', port=443): Read timed out. (read timeout=15)"
   },
   {
    "name": "Flynn Hall",
@@ -1662,7 +1657,7 @@
   {
    "name": "Starbucks",
    "kind": "cafe",
-   "website": "https://www.starbucks.com/store-locator/store/12525/university-north-blackhawk-3515-university-avenue-madison-wi-537052140-us",
+   "website": "https://www.starbucks.com/store-locator/store/16482/capitol-square-main-mlk-1-e-main-st-madison-wi-537033373-us",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1678,7 +1673,7 @@
   {
    "name": "Starbucks",
    "kind": "cafe",
-   "website": "https://www.starbucks.com/store-locator/store/16482/capitol-square-main-mlk-1-e-main-st-madison-wi-537033373-us",
+   "website": "https://www.starbucks.com/store-locator/store/1010275/greenway-boulevard-8230-greenway-boulevard-middleton-wi-535623579-us",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1686,7 +1681,7 @@
   {
    "name": "Starbucks",
    "kind": "cafe",
-   "website": "https://www.starbucks.com/store-locator/store/1010275/greenway-boulevard-8230-greenway-boulevard-middleton-wi-535623579-us",
+   "website": "https://www.starbucks.com/store-locator/store/12525/university-north-blackhawk-3515-university-avenue-madison-wi-537052140-us",
    "feeds": [],
    "raw_events": 0,
    "error": ""

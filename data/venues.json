@@ -117,7 +117,7 @@
    "instagram": "",
    "feeds": [],
    "alcohol_src": "OpenStreetMap tag or name/type rule",
-   "image": "https://thebadgertavern.com/wp-content/uploads/2023/07/bt_png-02.png"
+   "image": "https://i0.wp.com/thebadgertavern.com/wp-content/uploads/2023/07/bt_png-02.png?fit=1200%2C1200&ssl=1"
   },
   {
    "id": "osm:way/674325031",
@@ -2055,7 +2055,8 @@
    "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "alcohol_src": "OpenStreetMap tag or name/type rule"
+   "alcohol_src": "OpenStreetMap tag or name/type rule",
+   "image": "https://thedoubleubar.com/images/game-night-hero.jpg"
   },
   {
    "id": "osm:node/558602318",
@@ -6561,10 +6562,11 @@
    "lon": -89.3556544,
    "website": "https://www.theatwoodmusichall.com/",
    "facebook": "",
-   "alcohol": null,
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "image": "http://static1.squarespace.com/static/62cacf3906240b03a9e7209f/t/62cacf9b8f354d0bb091ba94/1657458587714/AMH-logo-2021_horz-rgb.jpg?format=1500w"
+   "image": "http://static1.squarespace.com/static/62cacf3906240b03a9e7209f/t/62cacf9b8f354d0bb091ba94/1657458587714/AMH-logo-2021_horz-rgb.jpg?format=1500w",
+   "alcohol_src": "menu/homepage keywords"
   },
   {
    "id": "osm:way/385639193",
@@ -6636,9 +6638,10 @@
    "lon": -89.292489,
    "website": "https://bowlavard.com/",
    "facebook": "",
-   "alcohol": null,
+   "alcohol": true,
    "instagram": "",
-   "feeds": []
+   "feeds": [],
+   "alcohol_src": "AI website check"
   },
   {
    "id": "osm:way/385639211",
@@ -6708,10 +6711,11 @@
    "lon": -89.3882204,
    "website": "https://www.madisoncomedy.com/",
    "facebook": "",
-   "alcohol": null,
+   "alcohol": true,
    "instagram": "",
    "feeds": [],
-   "image": "https://www.madisoncomedy.com/wp-content/uploads/UpcomingShowsGreen.png"
+   "image": "https://www.madisoncomedy.com/wp-content/uploads/UpcomingShowsGreen.png",
+   "alcohol_src": "AI website check"
   },
   {
    "id": "osm:way/648491905",

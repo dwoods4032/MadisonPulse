@@ -203,7 +203,8 @@
    "hours": null,
    "bar": false,
    "alcohol": true,
-   "alcohol_src": "OpenStreetMap tag or name/type rule"
+   "alcohol_src": "OpenStreetMap tag or name/type rule",
+   "image": "https://letsbowl.com/wp-content/uploads/2026/11/bowlavardmeta.jpg"
   },
   {
    "id": "osm:way/438200040",
@@ -468,7 +469,7 @@
    "bar": false,
    "alcohol": true,
    "alcohol_src": "OpenStreetMap tag or name/type rule",
-   "image": "https://static.spotapps.co/website_images/ab_websites/253077_website_v1/social.jpg"
+   "image": "https://static.spotapps.co/website_images/ab_websites/253077_website_v2/social.jpg"
   },
   {
    "id": "osm:node/5642132121",

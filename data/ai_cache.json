@@ -289,19 +289,10 @@
   "events": []
  },
  "https://www.harmonybarandgrill.com/madison-atwood-the-harmony-bar-and-grill-events": {
-  "hash": "63bbdab37eb1a8d6ede1e20ddaa35aea81dd106b",
-  "asked": "2026-11-25T14:28:45-06:00",
-  "on": "2026-11-25",
+  "hash": "6ba9940763d1ae40a2b7566b267b9966a6ec5e3f",
+  "asked": "2026-11-26T14:13:18-06:00",
+  "on": "2026-11-26",
   "events": [
-   {
-    "title": "Max Capacity & the Sellouts",
-    "date": "2026-11-25",
-    "start": "20:00",
-    "end": "22:30",
-    "price": 15,
-    "description": "1980s new wave party and 10th annual Second Harvest Food Bank fundraiser; $15 suggested donation.",
-    "category": "music"
-   },
    {
     "title": "Ham n' Eggers",
     "date": "2026-11-28",
@@ -317,7 +308,7 @@
     "start": "17:30",
     "end": "18:30",
     "price": 5,
-    "description": "Kids music show with David Landau; kid menu available. $5 cover.",
+    "description": "Kids music show with David Landau, with the kid menu available.",
     "category": "music"
    },
    {
@@ -326,7 +317,7 @@
     "start": "19:00",
     "end": "21:00",
     "price": null,
-    "description": "Open mic hosted by Max; sign-up at 6:30, performances from 7pm. Bring your guitar.",
+    "description": "Open mic hosted by Max. Sign-up at 6:30, performances from 7pm.",
     "category": "open_mic"
    },
    {
@@ -335,7 +326,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Trivia hosted by Paul, held the 1st and 3rd Wednesday of the month. Free.",
+    "description": "Trivia hosted by Paul. Free. Held the 1st and 3rd Wednesday of the month.",
     "category": "trivia"
    },
    {
@@ -344,7 +335,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Acoustic duo Jenny Lupien & Jayme Poster playing original and cover songs. No cover.",
+    "description": "Acoustic duo Jenny Lupien and Jayme Poster playing original and cover songs. No cover.",
     "category": "music"
    },
    {
@@ -353,16 +344,16 @@
     "start": "21:00",
     "end": "00:00",
     "price": 10,
-    "description": "Double bill of indie-pop band Dolt and Madison indie pop-rock band Marengo. 21+, $10 cover.",
+    "description": "Indie bands Dolt and Marengo. 21+.",
     "category": "music"
    },
    {
-    "title": "Gaines & Wagoner",
+    "title": "Gaines & Wagoner with special guest David Cox",
     "date": "2026-12-06",
     "start": "16:00",
     "end": "19:00",
     "price": 15,
-    "description": "Madison Americana duo Mary Gaines and Chris Wagoner with special guest David Cox. $15 suggested donation.",
+    "description": "Madison Americana duo Mary Gaines and Chris Wagoner with guest David Cox. $15 suggested donation.",
     "category": "music"
    },
    {
@@ -371,7 +362,7 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Solo performance of early acoustic and electric blues and Americana with stories between songs. No cover.",
+    "description": "Solo performer playing Golden Age blues and Americana on vintage guitars. No cover.",
     "category": "music"
    },
    {
@@ -380,7 +371,16 @@
     "start": "18:30",
     "end": "20:30",
     "price": 0,
-    "description": "Classic bluegrass band formed by former Oak Street Ramblers members. No cover.",
+    "description": "Bluegrass band formed by former members of the Oak Street Ramblers. No cover.",
+    "category": "music"
+   },
+   {
+    "title": "Richard Wiegel",
+    "date": "2026-12-10",
+    "start": "18:30",
+    "end": "20:30",
+    "price": 0,
+    "description": "Wisconsin musician playing country blues and Piedmont fingerpicking, with songs from his solo and band work. No cover.",
     "category": "music"
    }
   ]
@@ -1231,9 +1231,9 @@
   "events": []
  },
  "https://merciescoffeewi.com/": {
-  "hash": "13360fcf13c008ae50b75e87c551f77a70e46f85",
-  "asked": "2026-11-25T23:03:22-06:00",
-  "on": "2026-11-25",
+  "hash": "d64faf223880a5d1aef844c81a6d80b988fc5458",
+  "asked": "2026-11-26T14:13:42-06:00",
+  "on": "2026-11-26",
   "events": []
  },
  "https://motherfools.com/event/20261106/mad-city-story-slam-rebellion": {
@@ -1426,9 +1426,9 @@
   "events": []
  },
  "https://www.madisonpubliclibrary.org/spaces/events": {
-  "hash": "34ee33e54cfa8ad49623139a8e7f6f76b132d45b",
-  "asked": "2026-11-25T23:03:54-06:00",
-  "on": "2026-11-25",
+  "hash": "047ebcf04ab85a4052e655263335ec843a92c091",
+  "asked": "2026-11-26T14:14:16-06:00",
+  "on": "2026-11-26",
   "events": []
  },
  "https://ebling.library.wisc.edu/ebling-library-classes-events/": {
@@ -1466,9 +1466,9 @@
   ]
  },
  "https://www.library.wisc.edu/music/": {
-  "hash": "2a37a6a51a7a050a9c2d16e67654deeb167fd3be",
-  "asked": "2026-11-25T14:29:41-06:00",
-  "on": "2026-11-25",
+  "hash": "22ccf1163994dbd58d42f20055e92e5858db9543",
+  "asked": "2026-11-26T14:14:10-06:00",
+  "on": "2026-11-26",
   "events": []
  },
  "https://www.sunprairiepubliclibrary.org/home-delivery-service": {
@@ -1589,17 +1589,44 @@
   ]
  },
  "https://www.madisonpubliclibrary.org/spaces/events/search": {
-  "hash": "0b0e51e782ee5936629e9dceecc1f0de1a2cdde4",
-  "asked": "2026-11-25T23:03:55-06:00",
-  "on": "2026-11-25",
+  "hash": "feee8d92f139d0a982a4a6b4be265999fe0553b0",
+  "asked": "2026-11-26T14:14:16-06:00",
+  "on": "2026-11-26",
   "events": [
    {
-    "title": "Bilingual Storytime (ages 5 and under) / Hora de cuentos bilingües (para los niños de 0 a 5 años)",
+    "title": "Toddler Time",
     "date": "2026-11-30",
     "start": "10:30",
     "end": "11:15",
     "price": null,
-    "description": "READ and PLAY together with children 5 & under in English & Spanish, with books, songs and playful experiences. Community Room, Imagination Center Library.",
+    "description": "Short storytime with rhymes, songs and movement for little ones, then play time with other children and caregivers.",
+    "category": "other"
+   },
+   {
+    "title": "Baby Time",
+    "date": "2026-11-30",
+    "start": "11:30",
+    "end": "12:15",
+    "price": null,
+    "description": "Short storytime with rhymes, songs and bounces for babies, then play time with other babies and caregivers.",
+    "category": "other"
+   },
+   {
+    "title": "Chair Yoga at Alicia Ashman",
+    "date": "2026-11-30",
+    "start": "13:15",
+    "end": "14:00",
+    "price": null,
+    "description": "Chair yoga with instructor Sarah Dimick of Zen Ed, a safe and accessible yoga class for all ages.",
+    "category": "other"
+   },
+   {
+    "title": "Chair Yoga at Alicia Ashman",
+    "date": "2026-12-07",
+    "start": "13:15",
+    "end": "14:00",
+    "price": null,
+    "description": "Chair yoga with instructor Sarah Dimick of Zen Ed, a safe and accessible yoga class for all ages. Listed as a Monday session.",
     "category": "other"
    }
   ]
@@ -1851,9 +1878,9 @@
   "events": []
  },
  "https://high-noon.com/event/dogpark/": {
-  "hash": "693800cba6c9bd02c9292897036cf14f82c2c8b0",
-  "asked": "2026-11-25T23:02:56-06:00",
-  "on": "2026-11-25",
+  "hash": "75dd253547f6f705e9bc0dcc082a72a9ce6559f2",
+  "asked": "2026-11-26T14:13:18-06:00",
+  "on": "2026-11-26",
   "events": []
  },
  "https://thekickback.bar/premier-trivia-tuesday-nov-3/": {
@@ -2173,9 +2200,9 @@
   "events": []
  },
  "https://wandosbar.com/madison-downtown-wando-s-gameday-specials": {
-  "hash": "8428621cbf65139fb1bedaf60d7099fded8a310d",
-  "asked": "2026-11-25T14:28:52-06:00",
-  "on": "2026-11-25",
+  "hash": "feb57306152aeaaeeb70e982bf3cec9da17c832b",
+  "asked": "2026-11-26T14:13:21-06:00",
+  "on": "2026-11-26",
   "events": []
  },
  "https://thekickback.bar/premier-trivia-tuesday-nov-17/": {

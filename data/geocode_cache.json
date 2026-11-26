@@ -1293,5 +1293,17 @@
   "address": "1001 Langdon Street",
   "city": "Madison"
  },
- "chief's tavern": null
+ "chief's tavern": null,
+ "st. dunstan's episcopal church": {
+  "lat": 43.089658,
+  "lon": -89.487011,
+  "address": "Saint Dunstan Drive",
+  "city": "Madison"
+ },
+ "aldo leopold nature center, monona": {
+  "lat": 43.054479,
+  "lon": -89.320883,
+  "address": "330 Femrite Drive",
+  "city": "Monona"
+ }
 }

@@ -1,32 +1,120 @@
 {
  "venue": {
   "what": "venue",
-  "to_check": 2,
-  "answered": 0,
+  "to_check": 19,
+  "answered": 17,
   "no_page": 2,
   "skipped_site": 0,
   "api_errors": {},
+  "by_keywords": 1,
+  "samples": [
+   {
+    "place": "Barrymore Theatre",
+    "reply": "{\"alcohol\": \"unknown\"}",
+    "stop": "end_turn"
+   },
+   {
+    "place": "Arts + Literature Laboratory",
+    "reply": "{\"alcohol\": \"unknown\"}",
+    "stop": "end_turn"
+   },
+   {
+    "place": "Children's Theater of Madison",
+    "reply": "{\"alcohol\": \"unknown\"}",
+    "stop": "end_turn"
+   },
+   {
+    "place": "Comedy Club on State",
+    "reply": "{\"alcohol\": \"yes\"}",
+    "stop": "end_turn"
+   },
+   {
+    "place": "Broom Street Theater",
+    "reply": "{\"alcohol\": \"unknown\"}",
+    "stop": "end_turn"
+   },
+   {
+    "place": "Bartell Theatre",
+    "reply": "{\"alcohol\": \"unknown\"}",
+    "stop": "end_turn"
+   }
+  ],
   "key_present": true,
-  "at": "2026-11-25T23:02:35.841322-06:00"
+  "at": "2026-11-26T14:10:40.605838-06:00"
  },
  "restaurant": {
   "what": "restaurant",
-  "to_check": 34,
-  "answered": 0,
-  "no_page": 34,
+  "to_check": 108,
+  "answered": 72,
+  "no_page": 36,
   "skipped_site": 0,
   "api_errors": {},
+  "samples": [
+   {
+    "place": "5 Star Korean BBQ",
+    "reply": "{\"group\": \"asian\", \"alcohol\": \"unknown\"}",
+    "stop": "end_turn"
+   },
+   {
+    "place": "Bandung Indonesian Restaurant",
+    "reply": "{\"group\": \"asian\", \"alcohol\": \"unknown\"}",
+    "stop": "end_turn"
+   },
+   {
+    "place": "Asian Kitchen",
+    "reply": "{\"group\": \"asian\", \"alcohol\": \"unknown\"}",
+    "stop": "end_turn"
+   },
+   {
+    "place": "Buck & Honey's",
+    "reply": "{\"group\": \"sushi\", \"alcohol\": \"unknown\"}",
+    "stop": "end_turn"
+   },
+   {
+    "place": "Banzo",
+    "reply": "{\"group\": \"med\", \"alcohol\": \"unknown\"}",
+    "stop": "end_turn"
+   },
+   {
+    "place": "Burracho's",
+    "reply": "{\"group\": \"latin\", \"alcohol\": \"unknown\"}",
+    "stop": "end_turn"
+   }
+  ],
+  "by_keywords": 1,
   "key_present": true,
-  "at": "2026-11-25T23:02:44.838104-06:00"
+  "at": "2026-11-26T14:13:03.568862-06:00"
  },
  "activity": {
   "what": "activity",
-  "to_check": 4,
-  "answered": 0,
+  "to_check": 8,
+  "answered": 4,
   "no_page": 4,
   "skipped_site": 0,
   "api_errors": {},
+  "samples": [
+   {
+    "place": "Chuck E. Cheese",
+    "reply": "{\"alcohol\": \"unknown\"}",
+    "stop": "end_turn"
+   },
+   {
+    "place": "Marcus Palace Cinema",
+    "reply": "{\"alcohol\": \"unknown\"}",
+    "stop": "end_turn"
+   },
+   {
+    "place": "Marcus Point Cinema",
+    "reply": "{\"alcohol\": \"unknown\"}",
+    "stop": "end_turn"
+   },
+   {
+    "place": "Auditorium",
+    "reply": "{\"alcohol\": \"unknown\"}",
+    "stop": "end_turn"
+   }
+  ],
   "key_present": true,
-  "at": "2026-11-25T23:02:47.917223-06:00"
+  "at": "2026-11-26T14:13:07.299140-06:00"
  }
 }

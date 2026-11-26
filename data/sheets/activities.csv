@@ -2,7 +2,7 @@ name,type,weight,est. price per person,typical minutes,serves alcohol,alcohol in
 Aftershock Classic Arcade,Arcade,1.0,15,75,yes,OpenStreetMap tag or name/type rule,Willy St,1444 East Washington Avenue,https://www.aftershockclassicarcade.com/,,,43.08978,-89.363228,OpenStreetMap,osm:node/6431684446
 AMC Fitchburg 18,Movie,1.0,14,150,,,Outside the named areas,6091 McKee Road,https://www.amctheatres.com/movie-theatres/madison/amc-fitchburg-18,,,43.014339,-89.466215,OpenStreetMap,osm:way/370277876
 Auditorium,Movie,1.0,14,150,,,Downtown,,https://cinema.wisc.edu/,,,43.074056,-89.398608,OpenStreetMap,osm:way/783129314
-Bowl-A-Vard Lanes,Bowling,1.0,20,90,yes,OpenStreetMap tag or name/type rule,Outside the named areas,,https://bowlavard.com/,,,43.126454,-89.292489,OpenStreetMap,osm:way/105672048
+Bowl-A-Vard Lanes,Bowling,1.0,20,90,yes,OpenStreetMap tag or name/type rule,Outside the named areas,,https://bowlavard.com/,https://letsbowl.com/wp-content/uploads/2026/11/bowlavardmeta.jpg,,43.126454,-89.292489,OpenStreetMap,osm:way/105672048
 Castlecade,Arcade,1.0,15,75,,,East side,,,,,43.12565,-89.304317,OpenStreetMap,osm:way/1135060528
 Chuck E. Cheese,Arcade,1.0,15,75,,,West side,438 Grand Canyon Drive,https://locations.chuckecheese.com/us/wi/madison/438-grand-canyon-dr.,https://www.chuckecheese.com/wp-content/uploads/2025/09/CEC_Logo-01.png,,43.058536,-89.497288,OpenStreetMap,osm:way/105823620
 Dave & Buster's,Arcade,1.0,15,75,,,West side,,,,,43.055364,-89.505936,OpenStreetMap,osm:node/5425792364
@@ -22,7 +22,7 @@ Rossi's Pizza,Arcade,1.0,15,75,,,East side,4503 Monona Drive,https://rossispizza
 Schwoegler's Entertainment Center,Bowling,1.0,20,90,yes,OpenStreetMap tag or name/type rule,West side,444 Grand Canyon Drive,,,,43.057805,-89.497471,OpenStreetMap,osm:way/105823610
 Sky Zone,Trampoline park,1.0,20,75,no,OpenStreetMap tag or name/type rule,South side,2134 West Beltline Highway,https://www.skyzone.com/madison,,,43.036644,-89.414802,OpenStreetMap,osm:node/5457526617
 Spartan Bowl,Bowling,1.0,20,90,yes,OpenStreetMap tag or name/type rule,Outside the named areas,,,,,43.01281,-89.301953,OpenStreetMap,osm:way/106497401
-Tanner's Bar & Grill,Darts,1.0,10,75,yes,OpenStreetMap tag or name/type rule,Middleton,2259 Deming Way,https://tannersbarandgrill.com/,https://static.spotapps.co/website_images/ab_websites/253077_website_v1/social.jpg,"Mon,Tue,Wed,Thu 11:00-23:00; Fri,Sat 11:00-24:00; Sun 11:00-22:00",43.098053,-89.519275,OpenStreetMap,osm:way/90922863
+Tanner's Bar & Grill,Darts,1.0,10,75,yes,OpenStreetMap tag or name/type rule,Middleton,2259 Deming Way,https://tannersbarandgrill.com/,https://static.spotapps.co/website_images/ab_websites/253077_website_v2/social.jpg,"Mon,Tue,Wed,Thu 11:00-23:00; Fri,Sat 11:00-24:00; Sun 11:00-22:00",43.098053,-89.519275,OpenStreetMap,osm:way/90922863
 Ten Pin Alley,Bowling,1.0,20,90,yes,OpenStreetMap tag or name/type rule,Outside the named areas,,https://www.tenpinalleys.com/,https://irp.cdn-website.com/83ca9041/dms3rep/multi/opt/AdobeStock_623021486-1920w.jpeg,,43.007992,-89.481423,OpenStreetMap,osm:way/107655171
 The Marquee,Movie,1.0,14,150,,,Downtown,,https://union.wisc.edu/marquee.htm,,,43.071771,-89.407826,OpenStreetMap,osm:node/2969024345
 The Sport Bowl,Bowling,1.0,20,90,yes,OpenStreetMap tag or name/type rule,Middleton,,,,,43.096686,-89.499731,OpenStreetMap,osm:way/97601589

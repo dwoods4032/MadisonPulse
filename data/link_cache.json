@@ -1894,11 +1894,6 @@
   "why": "",
   "checked": "2026-11-25T23:04:28.962016-06:00"
  },
- "https://wearytravelerfreehouse.com/weary-traveler-catering-menu/": {
-  "ok": false,
-  "why": "HTTP 404 from nginx",
-  "checked": "2026-11-25T23:04:28.962021-06:00"
- },
  "https://www.wearytravelerfreehouse.com/": {
   "ok": true,
   "why": "",
@@ -3054,26 +3049,6 @@
   "why": "",
   "checked": "2026-11-25T14:30:25.659284-06:00"
  },
- "https://www.madisoncomedy.com/event/thanksgiving26/2026-11-25/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-25T23:04:11.695133-06:00"
- },
- "https://www.cafecoda.club/events-1/jumptown-swing-pdfmn-59jkp-yjsp4-fbnmd-mlydx-t82hk-cxh26-yjmcz-24589-r35gr-bj2kg-w8zz3-rycxr-9jdhz-9zrws-lb23r-s8kwh-z37e3": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-25T23:04:11.695160-06:00"
- },
- "https://www.cafecoda.club/events-1/karaoke-nabjl-22c3f-gw57n-2m79c-a47wx-jblcs-4bcsl-mkd7s-ctsf4-p4hcx-t4n3x-xd9mh-c5tsy-cpczx-w6dsr-l2pex-rcndw-8e8pb": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-25T23:04:12.643565-06:00"
- },
- "https://www.ticketmaster.com/latin-music-fest-2026-ages-18-madison-wisconsin-11-25-2026/event/0700654C8CA71E70": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-25T23:04:12.810287-06:00"
- },
  "https://wandosbar.com/": {
   "ok": true,
   "why": "",
@@ -3257,62 +3232,47 @@
  "http://www.monkeyshinesbarandgrill.com/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-19T13:31:09.924650-06:00"
+  "checked": "2026-11-26T14:15:14.710389-06:00"
  },
  "https://bartelltheatre.org/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-19T13:31:15.656862-06:00"
+  "checked": "2026-11-26T14:15:20.105988-06:00"
  },
  "https://thecrystalcornerbar.com/": {
-  "ok": null,
-  "why": "ReadTimeout",
-  "checked": "2026-11-19T13:31:33.821623-06:00"
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-26T14:15:18.258640-06:00"
  },
  "http://malthousetavern.com/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-19T13:31:33.821664-06:00"
- },
- "https://onesocialmadison.com/event/packers-watch-party-5/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-19T13:31:33.821669-06:00"
- },
- "https://thelonegirl.com/event/drinksgiving-with-live-music-by-finding-north-2-2-2/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-19T13:31:33.821679-06:00"
+  "checked": "2026-11-26T14:15:18.258651-06:00"
  },
  "https://thelonegirl.com/event/badger-shuttle-from-the-lone-girl-1127/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-19T13:31:33.821683-06:00"
+  "checked": "2026-11-26T14:15:18.258584-06:00"
  },
  "https://thelonegirl.com/event/magic-rob-every-friday-tableside-2-2-2-3-2-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-19T13:31:34.997674-06:00"
+  "checked": "2026-11-26T14:15:18.258611-06:00"
  },
  "https://thelonegirl.com/event/sunday-bingo-lone-girl-brewing-2-2-2-2-2/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-19T13:31:36.966077-06:00"
+  "checked": "2026-11-26T14:15:18.258646-06:00"
  },
  "https://thelonegirl.com/event/lone-girl-brewing-wednesday-trivia-2-2-2/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-19T13:31:38.851101-06:00"
+  "checked": "2026-11-26T14:15:20.105955-06:00"
  },
  "https://www.madisoncomedy.com/event/mic-on-state/2026-12-02/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-19T13:31:38.851126-06:00"
- },
- "https://thelonegirl.com/event/no-trivia/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-19T22:00:12.954849-06:00"
+  "checked": "2026-11-26T14:15:20.105981-06:00"
  },
  "https://www.quiveysgrove.com/event-details": {
   "ok": true,
@@ -3524,26 +3484,6 @@
   "why": "",
   "checked": "2026-11-22T12:32:22.059377-06:00"
  },
- "https://www.mickeysmadison.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-22T21:45:33.157461-06:00"
- },
- "https://www.workingdraftbeer.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-22T21:45:33.157534-06:00"
- },
- "https://javacatmadison.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-22T21:45:33.157558-06:00"
- },
- "https://www.settledownmadison.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-22T21:45:33.157568-06:00"
- },
  "https://ctmtheater.org/event/the-pigeon-gets-a-big-time-holiday-extravaganza-6/": {
   "ok": true,
   "why": "",
@@ -3574,11 +3514,6 @@
   "why": "",
   "checked": "2026-11-23T16:40:30.375731-06:00"
  },
- "https://www.youngbloodbeerco.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-23T16:40:31.058710-06:00"
- },
  "https://www.cafecoda.club/events-1/all-black-affair-afrovibe-soiree": {
   "ok": true,
   "why": "",
@@ -3593,11 +3528,6 @@
   "ok": true,
   "why": "",
   "checked": "2026-11-23T16:40:31.058728-06:00"
- },
- "https://thebrassringmadison.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-24T01:09:05.718162-06:00"
  },
  "https://www.madisoncomedy.com/event/thanksgiving26/2026-11-26/": {
   "ok": true,
@@ -3618,11 +3548,6 @@
   "ok": true,
   "why": "",
   "checked": "2026-11-24T01:09:07.905328-06:00"
- },
- "https://www.fitchburgwi.gov/822/Library": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-24T01:09:07.905354-06:00"
  },
  "https://www.madisoncomedy.com/event/trevor-wallace26/2026-12-03/2/": {
   "ok": true,
@@ -3673,11 +3598,6 @@
   "ok": true,
   "why": "",
   "checked": "2026-11-24T23:27:36.057109-06:00"
- },
- "https://www.cafecoda.club/events-1/gabriel-wade-arun-lthr-quintet-3ys8a": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-24T23:27:36.057114-06:00"
  },
  "https://bayviewfoundation.org/event/zumba/2026-12-08/": {
   "ok": true,
@@ -3748,5 +3668,30 @@
   "ok": true,
   "why": "",
   "checked": "2026-11-25T23:04:15.775002-06:00"
+ },
+ "https://www.northstreetcabaret.com/": {
+  "ok": null,
+  "why": "robots.txt asks bots not to visit",
+  "checked": "2026-11-26T14:15:18.258619-06:00"
+ },
+ "https://www.cafecoda.club": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-26T14:15:18.258625-06:00"
+ },
+ "https://www.arthouse360.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-26T14:15:18.258630-06:00"
+ },
+ "https://www.communicationmadison.com/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-26T14:15:18.258635-06:00"
+ },
+ "https://www.wearytravelerfreehouse.com/menu": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-26T14:15:20.105993-06:00"
  }
 }
