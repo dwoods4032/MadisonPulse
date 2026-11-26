@@ -717,8 +717,8 @@
   "events": []
  },
  "https://www.capitalbrewery.com/events-2/": {
-  "hash": "39fe36a7f3e3de400febb466a6d16c25c4cb5a0e",
-  "asked": "2026-11-25T14:28:50-06:00",
+  "hash": "3e817e291fcb7569d0441b41ef75008470459217",
+  "asked": "2026-11-25T23:03:00-06:00",
   "on": "2026-11-25",
   "events": [
    {
@@ -1135,8 +1135,8 @@
  },
  "https://www.mymonona.com/1587/Special-Events": {
   "hash": "5f04e9ee1060b9b001de75030f02b91249ba329f",
-  "asked": "2026-11-22T21:44:15-06:00",
-  "on": "2026-11-22",
+  "asked": "2026-11-25T23:03:05-06:00",
+  "on": "2026-11-25",
   "events": [
    {
     "title": "Opening Day of Lake Ridge Bank River Rink",
@@ -1144,16 +1144,16 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Opening day of the Lake Ridge Bank River Rink, per the City of Monona Special Events calendar.",
+    "description": "Opening day of the Lake Ridge Bank River Rink, listed on the Monona Special Events calendar.",
     "category": "other"
    },
    {
-    "title": "Light the Ice Ceremony (Rescheduled)",
+    "title": "Light the Ice Ceremony - Rescheduled",
     "date": "2026-12-05",
     "start": null,
     "end": null,
     "price": null,
-    "description": "Rescheduled Light the Ice Ceremony, per the City of Monona Special Events calendar.",
+    "description": "Light the Ice Ceremony, rescheduled, listed on the Monona Special Events calendar.",
     "category": "other"
    }
   ]
@@ -1231,8 +1231,8 @@
   "events": []
  },
  "https://merciescoffeewi.com/": {
-  "hash": "47f2e2174f1f8a88fd5a74ad9b9764df85e5ff9d",
-  "asked": "2026-11-25T14:29:13-06:00",
+  "hash": "13360fcf13c008ae50b75e87c551f77a70e46f85",
+  "asked": "2026-11-25T23:03:22-06:00",
   "on": "2026-11-25",
   "events": []
  },
@@ -1426,8 +1426,8 @@
   "events": []
  },
  "https://www.madisonpubliclibrary.org/spaces/events": {
-  "hash": "269abb681804517180838c7ef2a7bbca9ef7f10d",
-  "asked": "2026-11-25T14:29:50-06:00",
+  "hash": "34ee33e54cfa8ad49623139a8e7f6f76b132d45b",
+  "asked": "2026-11-25T23:03:54-06:00",
   "on": "2026-11-25",
   "events": []
  },
@@ -1472,26 +1472,17 @@
   "events": []
  },
  "https://www.sunprairiepubliclibrary.org/home-delivery-service": {
-  "hash": "b26b4ad183f33e1ab9b043e03804501e1ec2399f",
-  "asked": "2026-11-24T15:12:15-06:00",
-  "on": "2026-11-24",
+  "hash": "bc10cae391e5c3dc1b7d4733ad9046ee4e8989c3",
+  "asked": "2026-11-25T23:03:50-06:00",
+  "on": "2026-11-25",
   "events": [
-   {
-    "title": "Red Cross Blood Drive",
-    "date": "2026-11-25",
-    "start": "12:00",
-    "end": "17:00",
-    "price": null,
-    "description": "Red Cross Blood Drive at Sun Prairie Public Library, for adults.",
-    "category": "other"
-   },
    {
     "title": "Teen Creativity Club",
     "date": "2026-12-01",
     "start": "16:00",
     "end": "18:00",
     "price": null,
-    "description": "Teen Creativity Club at Sun Prairie Public Library, for teens.",
+    "description": "Creativity club for teens at Sun Prairie Public Library.",
     "category": "other"
    },
    {
@@ -1500,7 +1491,7 @@
     "start": "13:30",
     "end": "14:30",
     "price": null,
-    "description": "Mystery Book Club at Sun Prairie Public Library, for adults.",
+    "description": "Adult mystery book club at Sun Prairie Public Library.",
     "category": "other"
    },
    {
@@ -1509,8 +1500,17 @@
     "start": "18:30",
     "end": "19:30",
     "price": null,
-    "description": "Dance Wisconsin preview of The Nutcracker at Sun Prairie Public Library, for families and children ages 0-8.",
+    "description": "Preview of The Nutcracker by Dance Wisconsin, for families and young children.",
     "category": "dance"
+   },
+   {
+    "title": "Mystery Book Club",
+    "date": "2026-12-02",
+    "start": "19:00",
+    "end": "20:00",
+    "price": null,
+    "description": "Evening adult mystery book club at Sun Prairie Public Library.",
+    "category": "other"
    }
   ]
  },
@@ -1589,26 +1589,17 @@
   ]
  },
  "https://www.madisonpubliclibrary.org/spaces/events/search": {
-  "hash": "adaafec267d834beaaf01a454696e5525669d4ed",
-  "asked": "2026-11-25T14:29:51-06:00",
+  "hash": "0b0e51e782ee5936629e9dceecc1f0de1a2cdde4",
+  "asked": "2026-11-25T23:03:55-06:00",
   "on": "2026-11-25",
   "events": [
    {
-    "title": "Stories & Songs with Junebug",
-    "date": "2026-11-28",
+    "title": "Bilingual Storytime (ages 5 and under) / Hora de cuentos bilingües (para los niños de 0 a 5 años)",
+    "date": "2026-11-30",
     "start": "10:30",
-    "end": "11:00",
+    "end": "11:15",
     "price": null,
-    "description": "Music and movement storytime for ages birth-5 led by teacher Junko Yamauchi Stewart, in the Youth Program Room.",
-    "category": "other"
-   },
-   {
-    "title": "Future of STEM",
-    "date": "2026-11-28",
-    "start": "11:30",
-    "end": "12:30",
-    "price": 0,
-    "description": "Free STEM classes for kids to explore science, technology, engineering and math, in the Youth Program Room.",
+    "description": "READ and PLAY together with children 5 & under in English & Spanish, with books, songs and playful experiences. Community Room, Imagination Center Library.",
     "category": "other"
    }
   ]
@@ -1648,17 +1639,17 @@
   ]
  },
  "https://bartelltheatre.org/": {
-  "hash": "5c46cac8b91a4ef0f3c1643276a72a9782a6e997",
-  "asked": "2026-11-24T23:27:20-06:00",
-  "on": "2026-11-24",
+  "hash": "1ec525fe2f56e0b4f158ed806010d4393656957f",
+  "asked": "2026-11-25T23:03:59-06:00",
+  "on": "2026-11-25",
   "events": [
    {
-    "title": "Under A Rest winter concert",
+    "title": "Under A Rest Winter Concert",
     "date": "2026-12-03",
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Winter concert by the UW-Madison a cappella group Under A-Rest, with holiday music.",
+    "description": "Winter concert by the UW-Madison a cappella group Under A-Rest, with holiday spirit and songs from their repertoire.",
     "category": "music"
    },
    {
@@ -1667,7 +1658,7 @@
     "start": "19:30",
     "end": null,
     "price": null,
-    "description": "Panto performance at Bartell Theatre.",
+    "description": "Panto performance at the Bartell Theatre.",
     "category": "theater"
    }
   ]
@@ -1710,8 +1701,8 @@
   ]
  },
  "https://www.overture.org/tickets-events/": {
-  "hash": "beeed65e7a6575c1750b9375ad02debe1120b84f",
-  "asked": "2026-11-25T14:29:57-06:00",
+  "hash": "931e5fe93d2088c0be3e28f868e465703f9c1b69",
+  "asked": "2026-11-25T23:04:02-06:00",
   "on": "2026-11-25",
   "events": [
    {
@@ -1830,8 +1821,8 @@
   "events": []
  },
  "https://www.veronapubliclibrary.org/": {
-  "hash": "8a229a9ba8e7e5c6eea7bd57239564c6c3ae739c",
-  "asked": "2026-11-25T14:29:43-06:00",
+  "hash": "142836144da901c9666695a7597ac9c75922deee",
+  "asked": "2026-11-25T23:03:48-06:00",
   "on": "2026-11-25",
   "events": []
  },
@@ -1860,20 +1851,10 @@
   "events": []
  },
  "https://high-noon.com/event/dogpark/": {
-  "hash": "d5303807e94fb1b4a0b7b92c2b3d90e93c74e0e5",
-  "asked": "2026-11-25T14:28:47-06:00",
+  "hash": "693800cba6c9bd02c9292897036cf14f82c2c8b0",
+  "asked": "2026-11-25T23:02:56-06:00",
   "on": "2026-11-25",
-  "events": [
-   {
-    "title": "Daisy Grenade with Boyish",
-    "date": "2026-12-03",
-    "start": "20:00",
-    "end": null,
-    "price": null,
-    "description": "FPC Live presents Daisy Grenade with Boyish at High Noon Saloon. Doors 7:00 pm, show 8:00 pm.",
-    "category": "music"
-   }
-  ]
+  "events": []
  },
  "https://thekickback.bar/premier-trivia-tuesday-nov-3/": {
   "hash": "25992f3a707c36f4ebbe1a9a479acec37b4b7959",
@@ -2100,19 +2081,10 @@
   "events": []
  },
  "https://www.sunprairiepubliclibrary.org/art-committee-and-gallery-shows": {
-  "hash": "67f3db3bb747f3883f1a4bea695322b36bdc1a8e",
-  "asked": "2026-11-24T15:12:18-06:00",
-  "on": "2026-11-24",
+  "hash": "22350db37c90ec7eaa22955fcb7871adeb8e002b",
+  "asked": "2026-11-25T23:03:53-06:00",
+  "on": "2026-11-25",
   "events": [
-   {
-    "title": "Red Cross Blood Drive",
-    "date": "2026-11-25",
-    "start": "12:00",
-    "end": "17:00",
-    "price": null,
-    "description": "Red Cross Blood Drive at Sun Prairie Public Library. Age group: adults.",
-    "category": "other"
-   },
    {
     "title": "Teen Creativity Club",
     "date": "2026-12-01",
@@ -2137,8 +2109,17 @@
     "start": "18:30",
     "end": "19:30",
     "price": null,
-    "description": "Dance Wisconsin preview of The Nutcracker at Sun Prairie Public Library. Age groups: family, children ages 0-8.",
+    "description": "Dance Wisconsin preview of The Nutcracker at Sun Prairie Public Library. Age group: family and children.",
     "category": "dance"
+   },
+   {
+    "title": "Mystery Book Club",
+    "date": "2026-12-02",
+    "start": "19:00",
+    "end": "20:00",
+    "price": null,
+    "description": "Mystery Book Club evening session at Sun Prairie Public Library. Age group: adults.",
+    "category": "other"
    }
   ]
  },
@@ -2161,8 +2142,8 @@
   "events": []
  },
  "https://www.capitalbrewery.com/on-site-events/": {
-  "hash": "4eb85163a76204d639a8b748d50c08ba22ea1fcd",
-  "asked": "2026-11-25T14:28:53-06:00",
+  "hash": "ebb5a1f734d0a0601ce172b23e9381257f7f099f",
+  "asked": "2026-11-25T23:03:02-06:00",
   "on": "2026-11-25",
   "events": [
    {

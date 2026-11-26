@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-25T14:30:25-06:00",
+ "generated_at": "2026-11-25T23:04:11-06:00",
  "window": {
-  "from": "2026-11-25T08:28-06:00",
-  "to": "2026-12-09T14:28-06:00"
+  "from": "2026-11-25T17:02-06:00",
+  "to": "2026-12-09T23:02-06:00"
  },
- "count": 368,
+ "count": 365,
  "events": [
   {
    "id": "6c8b406d4dc6",
@@ -51,54 +51,6 @@
     "Venue websites"
    ],
    "link_ok": true
-  },
-  {
-   "id": "e7bed0868944",
-   "title": "Holiday Market",
-   "start": "2026-11-25T09:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "",
-   "url": "",
-   "image": "",
-   "venue": "River Arts on Water",
-   "venue_id": "cal:river-arts-on-water",
-   "venue_kind": "venue",
-   "address": "",
-   "lat": null,
-   "lon": null,
-   "source": "extra",
-   "via": "Isthmus",
-   "sources": [
-    "Isthmus"
-   ],
-   "link_ok": null
-  },
-  {
-   "id": "dd5e8693b7e5",
-   "title": "Holiday Pop-up Shop",
-   "start": "2026-11-25T10:00-06:00",
-   "end": "2026-11-25T17:00-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "",
-   "url": "",
-   "image": "",
-   "venue": "East Towne Mall",
-   "venue_id": "cal:east-towne-mall",
-   "venue_kind": "venue",
-   "address": "89 East Towne Mall",
-   "lat": 43.125232,
-   "lon": -89.305199,
-   "source": "extra",
-   "via": "Isthmus",
-   "sources": [
-    "Isthmus"
-   ],
-   "link_ok": null
   },
   {
    "id": "c0ee55fccf47",
@@ -368,29 +320,6 @@
     "Isthmus"
    ],
    "link_ok": true
-  },
-  {
-   "id": "5246c5422f2f",
-   "title": "Wisconsin Badgers Mens Basketball vs. Northeastern Huskies Mens Basketball",
-   "start": "2026-11-25T18:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "sports",
-   "price": null,
-   "description": "Basketball / College",
-   "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ9a0",
-   "image": "https://s1.ticketm.net/dam/a/8d2/8c0ae06b-7a6f-4ab8-9747-05509c79f8d2_1260851_RETINA_PORTRAIT_16_9.jpg",
-   "venue": "Kohl Center",
-   "venue_id": "tm:Z6r9jZaaee",
-   "venue_kind": "venue",
-   "address": "601 W. Dayton St.",
-   "lat": 43.016399,
-   "lon": -89.420097,
-   "source": "ticketmaster",
-   "sources": [
-    "Ticketmaster"
-   ],
-   "link_ok": null
   },
   {
    "id": "c9aff1f3608b",
@@ -898,29 +827,6 @@
    "link_ok": null
   },
   {
-   "id": "0c10e5c57894",
-   "title": "Nets @ Bucks",
-   "start": "2026-11-25T19:00-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "sports",
-   "price": null,
-   "description": "",
-   "url": "https://statestreetbrats.com/event/nets-bucks-20261125/",
-   "image": "",
-   "venue": "State Street Brats",
-   "venue_id": "osm:way/886357869",
-   "venue_kind": "bar",
-   "address": "603 State Street",
-   "lat": 43.0746889,
-   "lon": -89.395998,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "4c95043c22b9",
    "title": "Trivia",
    "start": "2026-11-25T19:00-06:00",
@@ -991,29 +897,6 @@
     "Isthmus"
    ],
    "link_ok": true
-  },
-  {
-   "id": "dd7184590d53",
-   "title": "Maybe Happy Ending (Touring)",
-   "start": "2026-11-25T19:30-06:00",
-   "end": null,
-   "all_day": false,
-   "category": "theater",
-   "price": null,
-   "description": "Theatre / Musical",
-   "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Z-f",
-   "image": "https://s1.ticketm.net/dam/a/08c/d1e24c70-f2ba-4047-a393-788cdd21c08c_RETINA_PORTRAIT_16_9.jpg",
-   "venue": "Capitol Theater - Overture Center",
-   "venue_id": "tm:ZFr9jZ7AFd",
-   "venue_kind": "venue",
-   "address": "201 State Street",
-   "lat": 43.079498,
-   "lon": -89.377602,
-   "source": "ticketmaster",
-   "sources": [
-    "Ticketmaster"
-   ],
-   "link_ok": null
   },
   {
    "id": "2fe2c397e963",
@@ -1950,7 +1833,7 @@
    "end": "2026-11-27T17:00-06:00",
    "all_day": false,
    "category": "food",
-   "price": 0.0,
+   "price": null,
    "description": "",
    "url": "",
    "image": "",
@@ -2308,7 +2191,7 @@
    "start": "2026-11-27T17:00-06:00",
    "end": "2026-11-27T21:00-06:00",
    "all_day": false,
-   "category": "music",
+   "category": "other",
    "price": null,
    "description": "",
    "url": "",
@@ -2708,6 +2591,29 @@
     "Isthmus"
    ],
    "link_ok": null
+  },
+  {
+   "id": "1346bb096c9d",
+   "title": "Minnesota @ Wisconsin",
+   "start": "2026-11-27T18:30-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "",
+   "url": "https://statestreetbrats.com/event/minnesota-wisconsin-20261127/",
+   "image": "",
+   "venue": "State Street Brats",
+   "venue_id": "osm:way/886357869",
+   "venue_kind": "bar",
+   "address": "603 State Street",
+   "lat": 43.0746889,
+   "lon": -89.395998,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
   },
   {
    "id": "4521e98bcd63",
@@ -3371,144 +3277,6 @@
    "link_ok": true
   },
   {
-   "id": "459f93132ed8",
-   "title": "Stories & Songs with Junebug",
-   "start": "2026-11-28T10:30-06:00",
-   "end": "2026-11-28T11:00-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Music and movement storytime for ages birth-5 led by teacher Junko Yamauchi Stewart, in the Youth Program Room.",
-   "url": "https://www.madisonpubliclibrary.org/central",
-   "image": "",
-   "venue": "Central Library",
-   "venue_id": "osm:way/102316433",
-   "venue_kind": "library",
-   "address": "201 West Mifflin Street",
-   "lat": 43.0736214,
-   "lon": -89.3875186,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "457ef35541be",
-   "title": "Stories & Songs with Junebug",
-   "start": "2026-11-28T10:30-06:00",
-   "end": "2026-11-28T11:00-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Music and movement storytime for ages birth-5 led by teacher Junko Yamauchi Stewart, in the Youth Program Room.",
-   "url": "https://www.madisonpubliclibrary.org/monroe-street",
-   "image": "",
-   "venue": "Monroe Street Library",
-   "venue_id": "osm:way/241508509",
-   "venue_kind": "library",
-   "address": "1705 Monroe Street",
-   "lat": 43.0659388,
-   "lon": -89.4152059,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "09d2356e3bb9",
-   "title": "Stories & Songs with Junebug",
-   "start": "2026-11-28T10:30-06:00",
-   "end": "2026-11-28T11:00-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Music and movement storytime for ages birth-5 led by teacher Junko Yamauchi Stewart, in the Youth Program Room.",
-   "url": "https://www.madisonpubliclibrary.org/locations/pinney-library",
-   "image": "",
-   "venue": "Pinney Library",
-   "venue_id": "osm:node/7234376294",
-   "venue_kind": "library",
-   "address": "516 Cottage Grove Road",
-   "lat": 43.0841729,
-   "lon": -89.3176486,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "58bef802cf62",
-   "title": "Future of STEM",
-   "start": "2026-11-28T11:30-06:00",
-   "end": "2026-11-28T12:30-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": 0.0,
-   "description": "Free STEM classes for kids to explore science, technology, engineering and math, in the Youth Program Room.",
-   "url": "https://www.madisonpubliclibrary.org/central",
-   "image": "",
-   "venue": "Central Library",
-   "venue_id": "osm:way/102316433",
-   "venue_kind": "library",
-   "address": "201 West Mifflin Street",
-   "lat": 43.0736214,
-   "lon": -89.3875186,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "62891f544078",
-   "title": "Future of STEM",
-   "start": "2026-11-28T11:30-06:00",
-   "end": "2026-11-28T12:30-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": 0.0,
-   "description": "Free STEM classes for kids to explore science, technology, engineering and math, in the Youth Program Room.",
-   "url": "https://www.madisonpubliclibrary.org/monroe-street",
-   "image": "",
-   "venue": "Monroe Street Library",
-   "venue_id": "osm:way/241508509",
-   "venue_kind": "library",
-   "address": "1705 Monroe Street",
-   "lat": 43.0659388,
-   "lon": -89.4152059,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "4563d8f72efa",
-   "title": "Future of STEM",
-   "start": "2026-11-28T11:30-06:00",
-   "end": "2026-11-28T12:30-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": 0.0,
-   "description": "Free STEM classes for kids to explore science, technology, engineering and math, in the Youth Program Room.",
-   "url": "https://www.madisonpubliclibrary.org/locations/pinney-library",
-   "image": "",
-   "venue": "Pinney Library",
-   "venue_id": "osm:node/7234376294",
-   "venue_kind": "library",
-   "address": "516 Cottage Grove Road",
-   "lat": 43.0841729,
-   "lon": -89.3176486,
-   "source": "ai",
-   "sources": [
-    "AI page reading"
-   ],
-   "link_ok": true
-  },
-  {
    "id": "460918954cda",
    "title": "The Pigeon Gets A Big Time Holiday Extravaganza",
    "start": "2026-11-28T13:00-06:00",
@@ -4087,6 +3855,29 @@
    "sources": [
     "Venue websites",
     "Isthmus"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "64e0ee2c68d9",
+   "title": "Showtime Saturday: Thanksgiving Throwdown - DJ Iron Mike",
+   "start": "2026-11-28T23:00-06:00",
+   "end": "2026-11-29T02:00-06:00",
+   "all_day": false,
+   "category": "music",
+   "price": null,
+   "description": "SHOWTIME SATURDAY NIGHT - DJ Iron Mike Ladies, fellas, and everyone ready for a good time... it's time to turn up the heat! Join us for a Thanksgiving Throw down, with DJ IronMikeTDP taking over the decks and bringing the beats to keep the party going all night long! We're talking great music, irres",
+   "url": "https://www.cafecoda.club/events-1/sext-saturday-dj-ironmike-tdp-hosted-by-april-k-8jkxc",
+   "image": "https://images.squarespace-cdn.com/content/v1/6914abebeed4305fd5ea6ea5/1795638247558-T5D7LWCIB2E8JGWJVSQY/Editable+Flyer+Duplicate+%281%29.png",
+   "venue": "Cafe CODA",
+   "venue_id": "osm:way/385639191",
+   "venue_kind": "bar",
+   "address": "1224 Williamson Street",
+   "lat": 43.0839938,
+   "lon": -89.3638172,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
    ],
    "link_ok": true
   },
@@ -4706,7 +4497,7 @@
    "all_day": true,
    "category": "food",
    "price": null,
-   "description": "Opening day of the Lake Ridge Bank River Rink, per the City of Monona Special Events calendar.",
+   "description": "Opening day of the Lake Ridge Bank River Rink, listed on the Monona Special Events calendar.",
    "url": "https://www.mymonona.com/1395/Below-Deck-Concession-Stand",
    "image": "",
    "venue": "Below Deck Concession Stand",
@@ -5245,11 +5036,11 @@
    "id": "dc45e245af4d",
    "title": "Mystery Book Club",
    "start": "2026-12-02T18:30-06:00",
-   "end": "2026-12-02T19:30-06:00",
+   "end": null,
    "all_day": false,
    "category": "other",
    "price": null,
-   "description": "Event Description Join us on the first Wednesday of the month at 6:30 PM for mystery book discussions! We meet in the library community room. December's selection is _Death of a Spy_ by M.C. Beaton. Limited copies are available in the library. For general book club support, go here [/book-club-suppo",
+   "description": "Monthly mystery book club in the Library Community Room. December's book: Death of a Spy by M.C. Beaton.",
    "url": "https://www.mcfarlandlibrary.org/home",
    "image": "",
    "venue": "E.D. Locke Public Library",
@@ -5258,9 +5049,9 @@
    "address": "5920 Milwaukee Street",
    "lat": 43.0136038,
    "lon": -89.2883391,
-   "source": "scraped",
+   "source": "ai",
    "sources": [
-    "Venue websites"
+    "AI page reading"
    ],
    "link_ok": true
   },
@@ -5413,7 +5204,7 @@
    "all_day": false,
    "category": "dance",
    "price": null,
-   "description": "Dance Wisconsin preview of The Nutcracker at Sun Prairie Public Library, for families and children ages 0-8.",
+   "description": "Preview of The Nutcracker by Dance Wisconsin, for families and young children.",
    "url": "https://www.sunprairiepubliclibrary.org/",
    "image": "",
    "venue": "Sun Prairie Public Library",
@@ -5619,6 +5410,29 @@
     "Isthmus"
    ],
    "link_ok": null
+  },
+  {
+   "id": "2c8475f4c982",
+   "title": "Mystery Book Club",
+   "start": "2026-12-02T19:00-06:00",
+   "end": "2026-12-02T20:00-06:00",
+   "all_day": false,
+   "category": "other",
+   "price": null,
+   "description": "Evening adult mystery book club at Sun Prairie Public Library.",
+   "url": "https://www.sunprairiepubliclibrary.org/",
+   "image": "",
+   "venue": "Sun Prairie Public Library",
+   "venue_id": "osm:way/600866560",
+   "venue_kind": "library",
+   "address": "1350 Linnerud Drive",
+   "lat": 43.1757782,
+   "lon": -89.2353415,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
   },
   {
    "id": "194853c7e0e5",
@@ -5927,14 +5741,14 @@
    "link_ok": true
   },
   {
-   "id": "e403d1807c4a",
-   "title": "Virtual Author Talks with Library Speakers Consortium",
+   "id": "bbf85226e9a8",
+   "title": "Virtual Author Visit: Helen Scheuerer",
    "start": "2026-12-03T18:00-06:00",
    "end": "2026-12-03T19:00-06:00",
    "all_day": false,
    "category": "other",
    "price": null,
-   "description": "Event Description We are excited to offer a new virtual program to our patrons! The Library Speakers Consortium hosts virtual author talks over a variety of genres. Each month, there will be at least two talks available for you to attend. Register for each talk, submit questions for the Q&A, and per",
+   "description": "Virtual conversation with fantasy author Helen Scheuerer about her novel Kiss of the Black Flame.",
    "url": "https://www.mcfarlandlibrary.org/home",
    "image": "",
    "venue": "E.D. Locke Public Library",
@@ -5943,9 +5757,9 @@
    "address": "5920 Milwaukee Street",
    "lat": 43.0136038,
    "lon": -89.2883391,
-   "source": "scraped",
+   "source": "ai",
    "sources": [
-    "Venue websites"
+    "AI page reading"
    ],
    "link_ok": true
   },
@@ -5997,13 +5811,13 @@
   },
   {
    "id": "88296985372a",
-   "title": "Under A Rest winter concert",
+   "title": "Under A Rest Winter Concert",
    "start": "2026-12-03T19:00-06:00",
    "end": null,
    "all_day": false,
    "category": "music",
    "price": null,
-   "description": "Winter concert by the UW-Madison a cappella group Under A-Rest, with holiday music.",
+   "description": "Winter concert by the UW-Madison a cappella group Under A-Rest, with holiday spirit and songs from their repertoire.",
    "url": "https://bartelltheatre.org/",
    "image": "",
    "venue": "Bartell Theatre",
@@ -7009,13 +6823,13 @@
   },
   {
    "id": "103e4680aecd",
-   "title": "Light the Ice Ceremony (Rescheduled)",
+   "title": "Light the Ice Ceremony - Rescheduled",
    "start": "2026-12-05T00:00-06:00",
    "end": null,
    "all_day": true,
    "category": "food",
    "price": null,
-   "description": "Rescheduled Light the Ice Ceremony, per the City of Monona Special Events calendar.",
+   "description": "Light the Ice Ceremony, rescheduled, listed on the Monona Special Events calendar.",
    "url": "https://www.mymonona.com/1395/Below-Deck-Concession-Stand",
    "image": "",
    "venue": "Below Deck Concession Stand",
@@ -7047,6 +6861,29 @@
    "address": "300 Progress Drive",
    "lat": 43.0773194,
    "lon": -89.2058376,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "0d500cd76629",
+   "title": "Conversaciones en Español",
+   "start": "2026-12-05T00:00-06:00",
+   "end": null,
+   "all_day": true,
+   "category": "other",
+   "price": null,
+   "description": "Informal one-hour conversation in Spanish for attendees with at least basic Spanish. Not a teaching class.",
+   "url": "https://www.mcfarlandlibrary.org/home",
+   "image": "",
+   "venue": "E.D. Locke Public Library",
+   "venue_id": "osm:way/386578862",
+   "venue_kind": "library",
+   "address": "5920 Milwaukee Street",
+   "lat": 43.0136038,
+   "lon": -89.2883391,
    "source": "ai",
    "sources": [
     "AI page reading"
@@ -7100,14 +6937,14 @@
    "link_ok": true
   },
   {
-   "id": "7c931e24975e",
-   "title": "Friends Used Book Sale",
+   "id": "46999fda8b37",
+   "title": "Friends of McFarland Library Used Book Sale",
    "start": "2026-12-05T09:00-06:00",
    "end": "2026-12-05T16:00-06:00",
    "all_day": false,
    "category": "other",
-   "price": 4.0,
-   "description": "Event Description Find great bargains on fabulous used books & DVDs at the Friends of McFarland Library [https://www.mcfarlandlibrary.org/friends-mcfarland-library] Used Book Sale! On Thursday, December 3, Friday, December 4, and Saturday, December 5, visit the library's community room to shop the s",
+   "price": null,
+   "description": "Used books and DVDs sale by the Friends of McFarland Library.",
    "url": "https://www.mcfarlandlibrary.org/home",
    "image": "",
    "venue": "E.D. Locke Public Library",
@@ -7116,9 +6953,9 @@
    "address": "5920 Milwaukee Street",
    "lat": 43.0136038,
    "lon": -89.2883391,
-   "source": "scraped",
+   "source": "ai",
    "sources": [
-    "Venue websites"
+    "AI page reading"
    ],
    "link_ok": true
   },
@@ -7232,52 +7069,6 @@
    "address": "1224 Williamson Street",
    "lat": 43.0839938,
    "lon": -89.3638172,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "c9c949dda717",
-   "title": "Craftpalooza",
-   "start": "2026-12-05T10:00-06:00",
-   "end": "2026-12-05T12:00-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Event Description Stop by the library during the Winter in the Village event for crafting opportunities for all ages. Children can create different festive crafts at stations around the children's library. Teens and Adults will have Take and Make craft kits they can pick up during the event - while ",
-   "url": "https://www.mcfarlandlibrary.org/home",
-   "image": "",
-   "venue": "E.D. Locke Public Library",
-   "venue_id": "osm:way/386578862",
-   "venue_kind": "library",
-   "address": "5920 Milwaukee Street",
-   "lat": 43.0136038,
-   "lon": -89.2883391,
-   "source": "scraped",
-   "sources": [
-    "Venue websites"
-   ],
-   "link_ok": true
-  },
-  {
-   "id": "bc264d27b962",
-   "title": "Conversaciones en Espanol",
-   "start": "2026-12-05T11:00-06:00",
-   "end": "2026-12-05T12:00-06:00",
-   "all_day": false,
-   "category": "other",
-   "price": null,
-   "description": "Event Description Join us the first and third Saturdays of the month for an hour-long informal conversation in Spanish. Each meeting will have a number of suggested topics to discuss and attendees should have at least a basic ability to carry out simple conversations in Spanish. This is not a teachi",
-   "url": "https://www.mcfarlandlibrary.org/home",
-   "image": "",
-   "venue": "E.D. Locke Public Library",
-   "venue_id": "osm:way/386578862",
-   "venue_kind": "library",
-   "address": "5920 Milwaukee Street",
-   "lat": 43.0136038,
-   "lon": -89.2883391,
    "source": "scraped",
    "sources": [
     "Venue websites"
@@ -7665,7 +7456,7 @@
    "all_day": false,
    "category": "theater",
    "price": null,
-   "description": "Panto performance at Bartell Theatre.",
+   "description": "Panto performance at the Bartell Theatre.",
    "url": "https://bartelltheatre.org/",
    "image": "",
    "venue": "Bartell Theatre",
@@ -8681,6 +8472,144 @@
     "Isthmus"
    ],
    "link_ok": null
+  },
+  {
+   "id": "8a5a63b94375",
+   "title": "Annie & the Oakies",
+   "start": "2026-12-09T18:30-06:00",
+   "end": "2026-12-09T20:30-06:00",
+   "all_day": false,
+   "category": "music",
+   "price": 0.0,
+   "description": "Classic bluegrass band formed by former Oak Street Ramblers members. No cover.",
+   "url": "https://www.harmonybarandgrill.com/",
+   "image": "",
+   "venue": "Harmony Bar & Grill",
+   "venue_id": "osm:way/345773988",
+   "venue_kind": "bar",
+   "address": "2201 Atwood Avenue",
+   "lat": 43.0930561,
+   "lon": -89.3492054,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "ea82c0530a4c",
+   "title": "Trivia Nights • Every Wednesday at The Lone Girl with King Trivia",
+   "start": "2026-12-09T18:30-06:00",
+   "end": "2026-12-09T20:30-06:00",
+   "all_day": false,
+   "category": "trivia",
+   "price": 0.0,
+   "description": "PUB TRIVIA with King Trivia every Wednesday night at LG-Waunakee at 6:30PM! Free to Play! Grab your crew. Let the bragging rights begin. Drink Up. Dig In. Have Fun. Repeat weekly. Through the end of December, join the Lone Girl Trivia Challenge for even more chances to win cool prizes!",
+   "url": "https://thelonegirl.com/event/lone-girl-brewing-wednesday-trivia-2-2-2-2/",
+   "image": "https://thelonegirl.com/wp-content/uploads/2026/04/Lone-Girl-Social-Square.jpg",
+   "venue": "Lone Girl Tap Room And Pizza Company",
+   "venue_id": "osm:node/12641566168",
+   "venue_kind": "bar",
+   "address": "1817 East Washington Avenue",
+   "lat": 43.0907077,
+   "lon": -89.3608921,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "f6c4ba841031",
+   "title": "Nerd Nite",
+   "start": "2026-12-09T19:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "music",
+   "price": 0.0,
+   "description": "FPC Live presents Nerd Nite, a free show. Doors 6:00 pm.",
+   "url": "https://high-noon.com/",
+   "image": "",
+   "venue": "High Noon Saloon",
+   "venue_id": "osm:node/1348850872",
+   "venue_kind": "bar",
+   "address": "701 E Washington Ave",
+   "lat": 43.0797191,
+   "lon": -89.3762962,
+   "source": "ai",
+   "sources": [
+    "AI page reading"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "af84e8fc88ed",
+   "title": "Imminence - Axis Mundi Tour: North America 2026",
+   "start": "2026-12-09T19:00-06:00",
+   "end": null,
+   "all_day": false,
+   "category": "music",
+   "price": null,
+   "description": "Metal / Nu-Metal",
+   "url": "https://www.ticketmaster.com/imminence-axis-mundi-tour-north-america-madison-wisconsin-12-09-2026/event/070064CBBD62536C",
+   "image": "https://s1.ticketm.net/dam/a/516/cd386496-e3e1-4219-8dd3-4761d3e20516_RETINA_PORTRAIT_16_9.jpg",
+   "venue": "The Sylvee",
+   "venue_id": "osm:node/6431700291",
+   "venue_kind": "venue",
+   "address": "",
+   "lat": 43.080559,
+   "lon": -89.3742549,
+   "source": "ticketmaster",
+   "sources": [
+    "Ticketmaster"
+   ],
+   "link_ok": null
+  },
+  {
+   "id": "dcb66f05c4b7",
+   "title": "Jumptown Swing",
+   "start": "2026-12-09T19:30-06:00",
+   "end": "2026-12-09T22:00-06:00",
+   "all_day": false,
+   "category": "food",
+   "price": null,
+   "description": "Neither snow nor rain nor sleet nor flurries nor gloom of night stays these dancers from Jumptown's weekly Wednesday Social at Cafe Coda! New to Swing dancing? No problem! There's a beginner-friendly 6-count Lindy lesson at 7:30 pm! Then stay for the social and a flurry of dancing with your cool new",
+   "url": "https://www.cafecoda.club/events-1/jumptown-swing-pdfmn-59jkp-yjsp4-fbnmd-mlydx-t82hk-cxh26-yjmcz-24589-r35gr-bj2kg-w8zz3-rycxr-9jdhz-9zrws-lb23r-s8kwh-z37e3-mx8w4-s4n9s",
+   "image": "https://images.squarespace-cdn.com/content/v1/6914abebeed4305fd5ea6ea5/1791993152176-P6JRMYXMBRV7T8R6ZPY3/swing+dance+1.jpg",
+   "venue": "Cafe CODA",
+   "venue_id": "osm:way/385639191",
+   "venue_kind": "bar",
+   "address": "1224 Williamson Street",
+   "lat": 43.0839938,
+   "lon": -89.3638172,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
+  },
+  {
+   "id": "6e836ed36ee6",
+   "title": "Mic on State",
+   "start": "2026-12-09T20:00-06:00",
+   "end": "2026-12-09T22:30-06:00",
+   "all_day": false,
+   "category": "comedy",
+   "price": null,
+   "description": "Click HERE to sign up! One of the largest open mics in the country, the Mic on State takes place every Wednesday at Comedy on State! Doors open to the […] \\n",
+   "url": "https://www.madisoncomedy.com/event/mic-on-state/2026-12-09/",
+   "image": "https://www.madisoncomedy.com/wp-content/uploads/MicOnState.web_.png",
+   "venue": "Comedy Club on State",
+   "venue_id": "osm:node/5661434234",
+   "venue_kind": "venue",
+   "address": "",
+   "lat": 43.0749506,
+   "lon": -89.3882204,
+   "source": "scraped",
+   "sources": [
+    "Venue websites"
+   ],
+   "link_ok": true
   }
  ]
 }

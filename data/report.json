@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-25T14:30:25-06:00",
+ "generated_at": "2026-11-25T23:04:11-06:00",
  "venues_checked": 234,
  "venues_with_events": 63,
  "venues_with_feeds": 85,
- "events": 368,
- "filtered_out": 162,
+ "events": 365,
+ "filtered_out": 144,
  "venues": [
   {
    "name": "Isthmus calendar",
@@ -14,7 +14,7 @@
     "calendar"
    ],
    "raw_events": 175,
-   "error": ""
+   "error": "used today's copy (read once a day)"
   },
   {
    "name": "AI page reading",
@@ -23,12 +23,12 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 157,
+   "raw_events": 169,
    "error": "",
-   "calls": 29,
-   "tokens_in": 57092,
-   "tokens_out": 21934,
-   "est_cost_usd": 0.0167
+   "calls": 14,
+   "tokens_in": 27509,
+   "tokens_out": 8823,
+   "est_cost_usd": 0.0072
   },
   {
    "name": "Bayview Community Center",
@@ -76,19 +76,8 @@
    "feeds": [
     "ticketmaster"
    ],
-   "raw_events": 36,
+   "raw_events": 35,
    "error": ""
-  },
-  {
-   "name": "E.D. Locke Public Library",
-   "kind": "library",
-   "website": "https://www.mcfarlandlibrary.org/home",
-   "feeds": [
-    "ical",
-    "ical"
-   ],
-   "raw_events": 33,
-   "error": "ical: ConnectionError: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //www.mcfarlandlibrary.org/calendar/month (Caused by NameResolutionError(\"HTTPSConnection(host='https"
   },
   {
    "name": "Working Draft Beer Company",
@@ -115,7 +104,7 @@
     "jsonld",
     "jsonld"
    ],
-   "raw_events": 21,
+   "raw_events": 23,
    "error": ""
   },
   {
@@ -125,7 +114,7 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 13,
+   "raw_events": 14,
    "error": ""
   },
   {
@@ -165,6 +154,18 @@
    ],
    "raw_events": 11,
    "error": ""
+  },
+  {
+   "name": "E.D. Locke Public Library",
+   "kind": "library",
+   "website": "https://www.mcfarlandlibrary.org/home",
+   "feeds": [
+    "ical",
+    "ical",
+    "ai"
+   ],
+   "raw_events": 11,
+   "error": "ical: ConnectionError: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //www.mcfarlandlibrary.org/calendar/month (Caused by NameResolutionError(\"HTTPSConnection(host='https"
   },
   {
    "name": "Gib's Bar",
@@ -227,6 +228,16 @@
    "error": ""
   },
   {
+   "name": "Alicia Ashman Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 7,
+   "error": ""
+  },
+  {
    "name": "Crystal Corner Bar",
    "kind": "bar",
    "website": "https://thecrystalcornerbar.com/",
@@ -257,42 +268,12 @@
    "error": ""
   },
   {
-   "name": "Imagination Center",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 5,
-   "error": ""
-  },
-  {
    "name": "One Social Bar",
    "kind": "bar",
    "website": "https://onesocialmadison.com/vendor/one-social-bar/",
    "feeds": [
     "tribe",
     "jsonld"
-   ],
-   "raw_events": 5,
-   "error": ""
-  },
-  {
-   "name": "Pinney Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 5,
-   "error": ""
-  },
-  {
-   "name": "Sequoya Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/sequoya",
-   "feeds": [
-    "ai"
    ],
    "raw_events": 5,
    "error": ""
@@ -318,9 +299,39 @@
    "error": ""
   },
   {
+   "name": "Imagination Center",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 4,
+   "error": ""
+  },
+  {
    "name": "Laurel Tavern",
    "kind": "bar",
    "website": "http://www.thelaureltavern.com",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 4,
+   "error": ""
+  },
+  {
+   "name": "Monroe Street Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/monroe-street",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 4,
+   "error": ""
+  },
+  {
+   "name": "Pinney Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/locations/pinney-library",
    "feeds": [
     "ai"
    ],
@@ -462,16 +473,6 @@
    "error": ""
   },
   {
-   "name": "Alicia Ashman Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 2,
-   "error": ""
-  },
-  {
    "name": "Barrymore Theatre",
    "kind": "venue",
    "website": "https://barrymorelive.com/",
@@ -499,16 +500,6 @@
    "name": "Below Deck Concession Stand",
    "kind": "cafe",
    "website": "https://www.mymonona.com/1395/Below-Deck-Concession-Stand",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 2,
-   "error": ""
-  },
-  {
-   "name": "Central Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/central",
    "feeds": [
     "ai"
    ],
@@ -550,16 +541,6 @@
    "name": "Monkeyshines Bar & Grill",
    "kind": "bar",
    "website": "http://www.monkeyshinesbarandgrill.com/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 2,
-   "error": ""
-  },
-  {
-   "name": "Monroe Street Library",
-   "kind": "library",
-   "website": "https://www.madisonpubliclibrary.org/monroe-street",
    "feeds": [
     "ai"
    ],
@@ -620,6 +601,16 @@
    "error": ""
   },
   {
+   "name": "Central Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/central",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 1,
+   "error": ""
+  },
+  {
    "name": "Goodman Community Center",
    "kind": "community",
    "website": "https://www.goodmancenter.org/",
@@ -665,6 +656,16 @@
    "website": "https://www.quiveysgrove.com/stable-grill",
    "feeds": [
     "jsonld"
+   ],
+   "raw_events": 1,
+   "error": ""
+  },
+  {
+   "name": "Sequoya Library",
+   "kind": "library",
+   "website": "https://www.madisonpubliclibrary.org/sequoya",
+   "feeds": [
+    "ai"
    ],
    "raw_events": 1,
    "error": ""
@@ -1661,14 +1662,6 @@
   {
    "name": "Starbucks",
    "kind": "cafe",
-   "website": "https://www.starbucks.com/store-locator/store/16482/capitol-square-main-mlk-1-e-main-st-madison-wi-537033373-us",
-   "feeds": [],
-   "raw_events": 0,
-   "error": ""
-  },
-  {
-   "name": "Starbucks",
-   "kind": "cafe",
    "website": "https://www.starbucks.com/store-locator/store/12525/university-north-blackhawk-3515-university-avenue-madison-wi-537052140-us",
    "feeds": [],
    "raw_events": 0,
@@ -1678,6 +1671,14 @@
    "name": "Starbucks",
    "kind": "cafe",
    "website": "https://www.starbucks.com/store-locator/store/16495/south-gammon-mineral-point-434-gammon-place-3-madison-wi-537191090-us",
+   "feeds": [],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
+   "name": "Starbucks",
+   "kind": "cafe",
+   "website": "https://www.starbucks.com/store-locator/store/16482/capitol-square-main-mlk-1-e-main-st-madison-wi-537033373-us",
    "feeds": [],
    "raw_events": 0,
    "error": ""

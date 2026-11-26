@@ -1,26 +1,26 @@
 {
- "generated_at": "2026-11-25T14:30:25-06:00",
- "total_events": 368,
+ "generated_at": "2026-11-25T23:04:11-06:00",
+ "total_events": 365,
  "in_more_than_one_source": 12,
  "sources": {
   "AI page reading": {
-   "events": 112,
-   "unique_events": 105,
+   "events": 113,
+   "unique_events": 106,
    "overlap": {
     "Isthmus": 2,
     "Ticketmaster": 5,
     "Venue websites": 0
    },
-   "venues": 34,
+   "venues": 32,
    "unique_venues": [
     "Aftershock Classic Arcade",
     "Arts + Literature Laboratory",
     "Bartell Theatre",
     "Below Deck Concession Stand",
-    "Central Library",
     "Crystal Corner Bar",
     "D'Vino",
     "Doundrins Distilling",
+    "E.D. Locke Public Library",
     "Fitchburg Public Library",
     "Flight Wine & Bourbon Bar",
     "Karben4 Brewing",
@@ -28,11 +28,9 @@
     "Lazy Oaf Lounge",
     "Madison Youth Arts (MYArts)",
     "Monkeyshines Bar & Grill",
-    "Monroe Street Library",
     "Mother Fool's",
     "Oscar Rennebohm Library",
     "Overture Center for the Arts",
-    "Pinney Library",
     "Reindahl Park Pavillion",
     "State Line Distillery",
     "Sun Prairie Public Library",
@@ -43,8 +41,8 @@
    ]
   },
   "Isthmus": {
-   "events": 166,
-   "unique_events": 160,
+   "events": 164,
+   "unique_events": 158,
    "overlap": {
     "AI page reading": 2,
     "Ticketmaster": 0,
@@ -118,36 +116,36 @@
    ]
   },
   "Ticketmaster": {
-   "events": 34,
-   "unique_events": 28,
+   "events": 33,
+   "unique_events": 27,
    "overlap": {
     "AI page reading": 5,
     "Isthmus": 0,
     "Venue websites": 1
    },
-   "venues": 10,
+   "venues": 11,
    "unique_venues": [
     "Camp Randall",
     "Capitol Theater - Overture Center",
     "LaBahn Arena",
     "Legacy20 Arena at Deforest Yards",
+    "The Sylvee",
     "Veterans Memorial Coliseum at Alliant Energy Center"
    ]
   },
   "Venue websites": {
-   "events": 68,
-   "unique_events": 63,
+   "events": 67,
+   "unique_events": 62,
    "overlap": {
     "AI page reading": 0,
     "Isthmus": 4,
     "Ticketmaster": 1
    },
-   "venues": 14,
+   "venues": 13,
    "unique_venues": [
     "Atwood Music Hall",
     "Bayview Community Center",
     "Children's Theater of Madison",
-    "E.D. Locke Public Library",
     "Full Mile Beer Company & Kitchen",
     "Gib's Bar",
     "Lone Girl Tap Room And Pizza Company",
