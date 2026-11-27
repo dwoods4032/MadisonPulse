@@ -1,22 +1,102 @@
 {
  "Isthmus calendar": {
-  "on": "2026-11-26",
+  "on": "2026-11-27",
   "events": [
    {
-    "title": "Free Thanksgiving Meal",
-    "start": "2026-11-26T16:00:00-06:00",
-    "end": "2026-11-26T17:00:00-06:00",
+    "title": "The Rocky Horror Picture Show",
+    "start": "2026-11-27T14:00:00-06:00",
+    "end": null,
     "allday": false,
-    "location": "Luke House",
-    "desc": ""
+    "location": "Crucible",
+    "desc": "With the Velvet Darkness, midnight on 11/20 and 2 pm, 11/27. $8 ($13 ages 18-20)"
    },
    {
-    "title": "Rotary Lights",
-    "start": "2026-11-26T17:00:00-06:00",
-    "end": "2026-11-26T21:00:00-06:00",
+    "title": "Holiday Tree Lighting",
+    "start": "2026-11-27T15:00:00-06:00",
+    "end": "2026-11-27T18:00:00-06:00",
     "allday": false,
-    "location": "Village Park, Waunakee",
-    "desc": "Holiday light display, 5-9 pm, 11/22-12/31, Village Park, Waunakee. Free/donations."
+    "location": "Edgewater Hotel",
+    "desc": "Annual event, with kids' craft stations, entertainment. Free."
+   },
+   {
+    "title": "Better With Friends",
+    "start": "2026-11-27T15:30:00-06:00",
+    "end": "2026-11-27T18:30:00-06:00",
+    "allday": false,
+    "location": "Fairway Lounge, Fitchburg",
+    "desc": "Rock/country. Free."
+   },
+   {
+    "title": "Christmas in Paoli",
+    "start": "2026-11-27T16:00:00-06:00",
+    "end": "2026-11-27T20:00:00-06:00",
+    "allday": false,
+    "location": "",
+    "desc": "Artisans & makers, 11/27-12/20, throughout Paoli, at 4-8 pm Friday, 10 am-7 pm Saturday (shuttle available from Resurrection Lutheran Church, Verona), and 10 am-5 pm Sunday."
+   },
+   {
+    "title": "Christmas in Paoli",
+    "start": "2026-12-04T16:00:00-06:00",
+    "end": "2026-12-04T20:00:00-06:00",
+    "allday": false,
+    "location": "",
+    "desc": "Artisans & makers, 11/27-12/20, throughout Paoli, at 4-8 pm Friday, 10 am-7 pm Saturday (shuttle available from Resurrection Lutheran Church, Verona), and 10 am-5 pm Sunday."
+   },
+   {
+    "title": "Zoo Lights",
+    "start": "2026-11-27T16:30:00-06:00",
+    "end": "2026-11-27T19:30:00-06:00",
+    "allday": false,
+    "location": "Henry Vilas Zoo",
+    "desc": "Holiday light displays & activities, entry from 4:30-7:30 pm Fridays-Sundays, 11/20-12/20, Vilas Zoo (closing time is 8 pm), plus 11/25 and 12/21-23. $12 (free ages 3 & under)."
+   },
+   {
+    "title": "Zoo Lights",
+    "start": "2026-11-28T16:30:00-06:00",
+    "end": "2026-11-28T19:30:00-06:00",
+    "allday": false,
+    "location": "Henry Vilas Zoo",
+    "desc": "Holiday light displays & activities, entry from 4:30-7:30 pm Fridays-Sundays, 11/20-12/20, Vilas Zoo (closing time is 8 pm), plus 11/25 and 12/21-23. $12 (free ages 3 & under)."
+   },
+   {
+    "title": "Zoo Lights",
+    "start": "2026-11-29T16:30:00-06:00",
+    "end": "2026-11-29T19:30:00-06:00",
+    "allday": false,
+    "location": "Henry Vilas Zoo",
+    "desc": "Holiday light displays & activities, entry from 4:30-7:30 pm Fridays-Sundays, 11/20-12/20, Vilas Zoo (closing time is 8 pm), plus 11/25 and 12/21-23. $12 (free ages 3 & under)."
+   },
+   {
+    "title": "Zoo Lights",
+    "start": "2026-12-04T16:30:00-06:00",
+    "end": "2026-12-04T19:30:00-06:00",
+    "allday": false,
+    "location": "Henry Vilas Zoo",
+    "desc": "Holiday light displays & activities, entry from 4:30-7:30 pm Fridays-Sundays, 11/20-12/20, Vilas Zoo (closing time is 8 pm), plus 11/25 and 12/21-23. $12 (free ages 3 & under)."
+   },
+   {
+    "title": "Zoo Lights",
+    "start": "2026-12-05T16:30:00-06:00",
+    "end": "2026-12-05T19:30:00-06:00",
+    "allday": false,
+    "location": "Henry Vilas Zoo",
+    "desc": "Holiday light displays & activities, entry from 4:30-7:30 pm Fridays-Sundays, 11/20-12/20, Vilas Zoo (closing time is 8 pm), plus 11/25 and 12/21-23. $12 (free ages 3 & under)."
+   },
+   {
+    "title": "Zoo Lights",
+    "start": "2026-12-06T16:30:00-06:00",
+    "end": "2026-12-06T19:30:00-06:00",
+    "allday": false,
+    "location": "Henry Vilas Zoo",
+    "desc": "Holiday light displays & activities, entry from 4:30-7:30 pm Fridays-Sundays, 11/20-12/20, Vilas Zoo (closing time is 8 pm), plus 11/25 and 12/21-23. $12 (free ages 3 & under)."
+   },
+   {
+    "title": "Craft Breweries Turn 50",
+    "start": "2026-11-27T16:30:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Lake Louie Brewing/Wisconsin Brewing Co., Verona",
+    "desc": "History talk by brewmaster Kirby Nelson."
    },
    {
     "title": "Rotary Lights",
@@ -123,20 +203,476 @@
     "desc": "Holiday light display, 5-9 pm, 11/22-12/31, Village Park, Waunakee. Free/donations."
    },
    {
-    "title": "Charlie Painter & Aaron Brenton",
-    "start": "2026-11-26T18:30:00-06:00",
-    "end": "2026-11-26T20:30:00-06:00",
+    "title": "Rotary Lights",
+    "start": "2026-12-10T17:00:00-06:00",
+    "end": "2026-12-10T21:00:00-06:00",
     "allday": false,
-    "location": "The Green Room Public House",
-    "desc": "Jazz. Free/donations."
+    "location": "Village Park, Waunakee",
+    "desc": "Holiday light display, 5-9 pm, 11/22-12/31, Village Park, Waunakee. Free/donations."
    },
    {
-    "title": "DJ Frecuencia Infinita",
-    "start": "2026-11-26T22:00:00-06:00",
+    "title": "DJ Chuck Money",
+    "start": "2026-11-27T17:00:00-06:00",
+    "end": "2026-11-27T20:00:00-06:00",
+    "allday": false,
+    "location": "Lola's Hi/Lo Lounge",
+    "desc": "Soul/jazz."
+   },
+   {
+    "title": "DJ Chuck Money",
+    "start": "2026-12-04T17:00:00-06:00",
+    "end": "2026-12-04T20:00:00-06:00",
+    "allday": false,
+    "location": "Lola's Hi/Lo Lounge",
+    "desc": "Soul/jazz."
+   },
+   {
+    "title": "Jen Hammer",
+    "start": "2026-11-27T17:00:00-06:00",
+    "end": "2026-11-27T21:00:00-06:00",
+    "allday": false,
+    "location": "Madison Enterprise Center-Common Wealth Gallery",
+    "desc": "\"Peace City: Reflections & Crowds,\" 5-9 pm, 11/25 & 27.\n\nWHEN\nNovember 25 & 27, 2026\n5–9 p.m.\n\nWHERE\nCommon Wealth Gallery\n100 S. Baldwin Street, Floor 3\nMadison, Wisconsin\n\nARTIST\nJen Hammer\n\nWITH\nTK"
+   },
+   {
+    "title": "Ced Ba'etch'",
+    "start": "2026-11-27T17:00:00-06:00",
+    "end": "2026-11-27T19:00:00-06:00",
+    "allday": false,
+    "location": "Park Hotel-The Post",
+    "desc": "5 pm Fridays."
+   },
+   {
+    "title": "Ced Ba'etch'",
+    "start": "2026-12-04T17:00:00-06:00",
+    "end": "2026-12-04T19:00:00-06:00",
+    "allday": false,
+    "location": "Park Hotel-The Post",
+    "desc": "5 pm Fridays."
+   },
+   {
+    "title": "Marc Barnaby",
+    "start": "2026-11-27T17:00:00-06:00",
+    "end": "2026-11-27T20:00:00-06:00",
+    "allday": false,
+    "location": "The Mill, Paoli",
+    "desc": "Roots. Free."
+   },
+   {
+    "title": "Johnny Chimes",
+    "start": "2026-11-27T17:30:00-06:00",
+    "end": "2026-11-27T19:30:00-06:00",
+    "allday": false,
+    "location": "Louisianne's, Etc., Middleton",
+    "desc": "New Orleans piano, 5:30 pm Fridays. Free."
+   },
+   {
+    "title": "Johnny Chimes",
+    "start": "2026-12-04T17:30:00-06:00",
+    "end": "2026-12-04T19:30:00-06:00",
+    "allday": false,
+    "location": "Louisianne's, Etc., Middleton",
+    "desc": "New Orleans piano, 5:30 pm Fridays. Free."
+   },
+   {
+    "title": "Two County Lines",
+    "start": "2026-11-27T18:00:00-06:00",
+    "end": "2026-11-27T21:00:00-06:00",
+    "allday": false,
+    "location": "Lake Louie Brewing/Wisconsin Brewing Co., Verona",
+    "desc": "Free."
+   },
+   {
+    "title": "Bingo",
+    "start": "2026-11-27T18:00:00-06:00",
     "end": null,
     "allday": false,
-    "location": "Sotto",
-    "desc": "Latin, 10 pm Thursdays-Fridays. $5."
+    "location": "Hidden Cave Cidery, Middleton",
+    "desc": "Free."
+   },
+   {
+    "title": "English Conversation Time",
+    "start": "2026-11-27T18:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Christ Presbyterian Church",
+    "desc": "Informal gathering with international students, 6 pm Fridays. Free."
+   },
+   {
+    "title": "English Conversation Time",
+    "start": "2026-12-04T18:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Christ Presbyterian Church",
+    "desc": "Informal gathering with international students, 6 pm Fridays. Free."
+   },
+   {
+    "title": "Trivia",
+    "start": "2026-11-27T18:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "The Boneyard",
+    "desc": "Hosted by Premier Trivia, 6 pm Fridays. Free."
+   },
+   {
+    "title": "Trivia",
+    "start": "2026-12-04T18:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "The Boneyard",
+    "desc": "Hosted by Premier Trivia, 6 pm Fridays. Free."
+   },
+   {
+    "title": "David Hecht",
+    "start": "2026-11-27T18:00:00-06:00",
+    "end": "2026-11-27T21:00:00-06:00",
+    "allday": false,
+    "location": "Capital Brewery, Middleton",
+    "desc": "R&B/funk. Free."
+   },
+   {
+    "title": "UW Football",
+    "start": "2026-11-27T18:30:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Camp Randall Stadium",
+    "desc": "vs. Minnesota, 6:30 pm, Camp Randall; Badger Bash tailgate 4 pm, Union South."
+   },
+   {
+    "title": "Critterthing, The Stinkeyes, Blasfemme, Demigloom",
+    "start": "2026-11-27T18:30:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Gamma Ray Bar",
+    "desc": ""
+   },
+   {
+    "title": "Slow Revolution, Xander Anim",
+    "start": "2026-11-27T18:30:00-06:00",
+    "end": "2026-11-27T20:30:00-06:00",
+    "allday": false,
+    "location": "Cargo Coffee-East Washington",
+    "desc": "Free/donations."
+   },
+   {
+    "title": "Game Night",
+    "start": "2026-11-27T18:30:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Rock N Wool Winery, Poynette",
+    "desc": "Interactive games (via cell phone), 6:30 pm Fridays. Free."
+   },
+   {
+    "title": "Game Night",
+    "start": "2026-12-04T18:30:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Rock N Wool Winery, Poynette",
+    "desc": "Interactive games (via cell phone), 6:30 pm Fridays. Free."
+   },
+   {
+    "title": "Atlas Improv Company",
+    "start": "2026-11-27T19:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Atlas Improv Company",
+    "desc": "7 & 9 pm Fridays & Saturdays, 609 E. Washington Ave. $11 ($7 kids)."
+   },
+   {
+    "title": "Atlas Improv Company",
+    "start": "2026-11-28T19:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Atlas Improv Company",
+    "desc": "7 & 9 pm Fridays & Saturdays, 609 E. Washington Ave. $11 ($7 kids)."
+   },
+   {
+    "title": "Atlas Improv Company",
+    "start": "2026-12-04T19:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Atlas Improv Company",
+    "desc": "7 & 9 pm Fridays & Saturdays, 609 E. Washington Ave. $11 ($7 kids)."
+   },
+   {
+    "title": "Atlas Improv Company",
+    "start": "2026-12-05T19:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Atlas Improv Company",
+    "desc": "7 & 9 pm Fridays & Saturdays, 609 E. Washington Ave. $11 ($7 kids)."
+   },
+   {
+    "title": "Jackie Marie",
+    "start": "2026-11-27T19:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "VFW Post 7591-Cottage Grove Road",
+    "desc": "Country/vintage pop."
+   },
+   {
+    "title": "Tall Paul & the Naughy Cats",
+    "start": "2026-11-27T19:00:00-06:00",
+    "end": "2026-11-27T22:00:00-06:00",
+    "allday": false,
+    "location": "Hop Garden, Belleville",
+    "desc": "Blues/jazz."
+   },
+   {
+    "title": "2 For the Show",
+    "start": "2026-11-27T19:00:00-06:00",
+    "end": "2026-11-27T22:00:00-06:00",
+    "allday": false,
+    "location": "Chief's Tavern",
+    "desc": ""
+   },
+   {
+    "title": "Open Jam",
+    "start": "2026-11-27T19:00:00-06:00",
+    "end": "2026-11-27T21:00:00-06:00",
+    "allday": false,
+    "location": "Imaginary Tea, Waunakee",
+    "desc": "7 pm Fridays."
+   },
+   {
+    "title": "Open Jam",
+    "start": "2026-12-04T19:00:00-06:00",
+    "end": "2026-12-04T21:00:00-06:00",
+    "allday": false,
+    "location": "Imaginary Tea, Waunakee",
+    "desc": "7 pm Fridays."
+   },
+   {
+    "title": "Radiant Beings",
+    "start": "2026-11-27T19:00:00-06:00",
+    "end": "2026-11-27T22:00:00-06:00",
+    "allday": false,
+    "location": "Hop Garden Brewing & Tap Room, Evansville",
+    "desc": "Classic rock/Americana."
+   },
+   {
+    "title": "Tani Diakite & the Afrofunkstars",
+    "start": "2026-11-27T19:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Cafe Coda",
+    "desc": "Malian blues-funk. $15."
+   },
+   {
+    "title": "Kevin Bozeman, Calvin Evans, Amy Shanker, Greg Coleman",
+    "start": "2026-11-27T19:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Comedy on State",
+    "desc": "7 and 9:30 pm, 11/27-28. $42-$31."
+   },
+   {
+    "title": "Kevin Bozeman, Calvin Evans, Amy Shanker, Greg Coleman",
+    "start": "2026-11-27T21:30:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Comedy on State",
+    "desc": "7 and 9:30 pm, 11/27-28. $42-$31."
+   },
+   {
+    "title": "Kevin Bozeman, Calvin Evans, Amy Shanker, Greg Coleman",
+    "start": "2026-11-28T21:30:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Comedy on State",
+    "desc": "7 and 9:30 pm, 11/27-28. $42-$31."
+   },
+   {
+    "title": "Maybe Happy Ending",
+    "start": "2026-11-27T13:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Overture Center-Overture Hall",
+    "desc": "Touring Broadway production, 11/24-29, Overture Center-Overture Hall, at 7:30 pm Tuesday-Wednesday, 1 & 7:30 pm Friday, 2 & 7:30 pm Saturday and 1 & 6:30 pm Sunday."
+   },
+   {
+    "title": "Maybe Happy Ending",
+    "start": "2026-11-27T19:30:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Overture Center-Overture Hall",
+    "desc": "Touring Broadway production, 11/24-29, Overture Center-Overture Hall, at 7:30 pm Tuesday-Wednesday, 1 & 7:30 pm Friday, 2 & 7:30 pm Saturday and 1 & 6:30 pm Sunday."
+   },
+   {
+    "title": "Maybe Happy Ending",
+    "start": "2026-11-28T14:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Overture Center-Overture Hall",
+    "desc": "Touring Broadway production, 11/24-29, Overture Center-Overture Hall, at 7:30 pm Tuesday-Wednesday, 1 & 7:30 pm Friday, 2 & 7:30 pm Saturday and 1 & 6:30 pm Sunday."
+   },
+   {
+    "title": "Maybe Happy Ending",
+    "start": "2026-11-29T13:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Overture Center-Overture Hall",
+    "desc": "Touring Broadway production, 11/24-29, Overture Center-Overture Hall, at 7:30 pm Tuesday-Wednesday, 1 & 7:30 pm Friday, 2 & 7:30 pm Saturday and 1 & 6:30 pm Sunday."
+   },
+   {
+    "title": "Maybe Happy Ending",
+    "start": "2026-11-29T18:30:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Overture Center-Overture Hall",
+    "desc": "Touring Broadway production, 11/24-29, Overture Center-Overture Hall, at 7:30 pm Tuesday-Wednesday, 1 & 7:30 pm Friday, 2 & 7:30 pm Saturday and 1 & 6:30 pm Sunday."
+   },
+   {
+    "title": "Disc-Ho Ho HO!",
+    "start": "2026-11-27T19:30:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "The Bur Oak",
+    "desc": "Dance Fabulous presents \"A Holiday Variety Burlesque Cabaret Spectacular,\" 7:30 pm, 11/24 & 27 and 1 and 7:30 pm, 11/28. $30."
+   },
+   {
+    "title": "Disc-Ho Ho HO!",
+    "start": "2026-11-28T13:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "The Bur Oak",
+    "desc": "Dance Fabulous presents \"A Holiday Variety Burlesque Cabaret Spectacular,\" 7:30 pm, 11/24 & 27 and 1 and 7:30 pm, 11/28. $30."
+   },
+   {
+    "title": "Trivia",
+    "start": "2026-11-27T19:30:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Salvatore's Tomato Pies, Monona",
+    "desc": "Hosted by Premier Trivia, 7:30 pm Fridays. Free."
+   },
+   {
+    "title": "Trivia",
+    "start": "2026-12-04T19:30:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Salvatore's Tomato Pies, Monona",
+    "desc": "Hosted by Premier Trivia, 7:30 pm Fridays. Free."
+   },
+   {
+    "title": "What's His Name & the Obscure Guy",
+    "start": "2026-11-27T20:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Cafe Carpe, Fort Atkinson",
+    "desc": "$20."
+   },
+   {
+    "title": "Driveway Thriftdwellers with Brett Newski, Derek Pritzl, Shawndell Marks, Dan Plourde",
+    "start": "2026-11-27T20:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Majestic Theatre",
+    "desc": "\"Celebration of Tom Petty,\" annual event with guest performers."
+   },
+   {
+    "title": "Fareed Haque Trio",
+    "start": "2026-11-27T20:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "North Street Cabaret",
+    "desc": "BlueStem Jazz."
+   },
+   {
+    "title": "Steve Schultz Band",
+    "start": "2026-11-27T20:00:00-06:00",
+    "end": "2026-11-27T23:59:00-06:00",
+    "allday": false,
+    "location": "Essen Haus",
+    "desc": "Polka. Free."
+   },
+   {
+    "title": "Steve Schultz Band",
+    "start": "2026-11-28T20:00:00-06:00",
+    "end": "2026-11-28T23:59:00-06:00",
+    "allday": false,
+    "location": "Essen Haus",
+    "desc": "Polka. Free."
+   },
+   {
+    "title": "Joseph Huber Band, Dig Deep, Kevin Troestler, Sheilagh Dandy Lion",
+    "start": "2026-11-27T20:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "High Noon Saloon",
+    "desc": ""
+   },
+   {
+    "title": "DJs DCVIII",
+    "start": "2026-11-27T20:00:00-06:00",
+    "end": "2026-11-27T23:00:00-06:00",
+    "allday": false,
+    "location": "The Green Room Public House",
+    "desc": "Free/donations."
+   },
+   {
+    "title": "DJ Schnitzengruben",
+    "start": "2026-11-27T21:00:00-06:00",
+    "end": "2026-11-27T23:59:00-06:00",
+    "allday": false,
+    "location": "Lola's Hi/Lo Lounge",
+    "desc": "Free."
+   },
+   {
+    "title": "Atlas Improv Company",
+    "start": "2026-11-27T21:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Atlas Improv Company",
+    "desc": "7 & 9 pm Fridays & Saturdays, 609 E. Washington Ave. $11 ($7 kids)."
+   },
+   {
+    "title": "Atlas Improv Company",
+    "start": "2026-11-28T21:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Atlas Improv Company",
+    "desc": "7 & 9 pm Fridays & Saturdays, 609 E. Washington Ave. $11 ($7 kids)."
+   },
+   {
+    "title": "Atlas Improv Company",
+    "start": "2026-12-04T21:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Atlas Improv Company",
+    "desc": "7 & 9 pm Fridays & Saturdays, 609 E. Washington Ave. $11 ($7 kids)."
+   },
+   {
+    "title": "Atlas Improv Company",
+    "start": "2026-12-05T21:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Atlas Improv Company",
+    "desc": "7 & 9 pm Fridays & Saturdays, 609 E. Washington Ave. $11 ($7 kids)."
+   },
+   {
+    "title": "DJs psych0tron, Spike",
+    "start": "2026-11-27T21:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Crucible",
+    "desc": "\"Deviance,\" fetish/BDSM dance, 9 pm fourth Fridays. $20 ($12 dressed appropriately)."
+   },
+   {
+    "title": "Tom Kastle",
+    "start": "2026-11-27T21:45:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "",
+    "desc": "Midnight Cocktail Concert, on Zoom. Free. Click through for link."
+   },
+   {
+    "title": "DJs Lyriks, Eazy E, Kashka, Beatz",
+    "start": "2026-11-27T22:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Cafe Coda",
+    "desc": "Afrobeat dance party, 10 pm last Fridays (moves to 11:30 pm on 9/25). $20."
    },
    {
     "title": "DJ Frecuencia Infinita",
@@ -163,100 +699,44 @@
     "desc": "Latin, 10 pm Thursdays-Fridays. $5."
    },
    {
-    "title": "Downtown Holiday Open House",
-    "start": "2026-11-27T00:00:00-06:00",
-    "end": "2026-11-30T00:00:00-06:00",
-    "allday": true,
-    "location": "",
-    "desc": "Annual Madison Central Business Improvement District event, 11/27-29, at locations along State Street & the Capitol Square, with Santa visits noon-3 pm on 11/27 and 2-4 pm on 11/28, 127 State St."
+    "title": "DJ Frecuencia Infinita",
+    "start": "2026-12-10T22:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Sotto",
+    "desc": "Latin, 10 pm Thursdays-Fridays. $5."
    },
    {
-    "title": "RSVP for Holiday Ornaments",
-    "start": "2026-11-27T00:00:00-06:00",
-    "end": "2026-11-28T00:00:00-06:00",
+    "title": "RSVP for Macramé Holiday Ornaments",
+    "start": "2026-11-28T00:00:00-06:00",
+    "end": "2026-11-29T00:00:00-06:00",
+    "allday": true,
+    "location": "River Arts on Water, Prairie du Sac",
+    "desc": "Class by Julia Hardin, 9 am, 12/12. $120. RSVP by 11/28."
+   },
+   {
+    "title": "RSVP for Cozy Handmade Holidays",
+    "start": "2026-11-28T00:00:00-06:00",
+    "end": "2026-11-29T00:00:00-06:00",
     "allday": true,
     "location": "Monroe Street Arts Center",
-    "desc": "Workshop for ages 4-6, 3:30 pm ($35); ages 7-12, 5:30 pm ($50), 12/4. RSVP by 11/27."
+    "desc": "Class for ages 18 & up, 1 pm, 12/5. $60. RSVP by 11/28."
    },
    {
-    "title": "Winter Wonderland Crafts & Art Market",
-    "start": "2026-11-27T09:00:00-06:00",
-    "end": "2026-11-27T16:00:00-06:00",
-    "allday": false,
-    "location": "CountyLines Crossings, Brooklyn",
-    "desc": "9 am-4 pm on 11/20-21 and 27-28 and 9 am-2 pm, 11/22 & 29, CountyLines Crossings, Brooklyn."
-   },
-   {
-    "title": "Winter Wonderland Crafts & Art Market",
+    "title": "Art & Craft Fair",
     "start": "2026-11-28T09:00:00-06:00",
-    "end": "2026-11-28T16:00:00-06:00",
+    "end": "2026-11-28T15:00:00-06:00",
     "allday": false,
-    "location": "CountyLines Crossings, Brooklyn",
-    "desc": "9 am-4 pm on 11/20-21 and 27-28 and 9 am-2 pm, 11/22 & 29, CountyLines Crossings, Brooklyn."
+    "location": "VFW Post 7591-Cottage Grove Road",
+    "desc": "Annual event with 40-plus vendors, lunch, raffle. Free admission."
    },
    {
-    "title": "Winter Wonderland Crafts & Art Market",
-    "start": "2026-11-29T09:00:00-06:00",
-    "end": "2026-11-29T16:00:00-06:00",
+    "title": "Gentle Roots Yoga",
+    "start": "2026-11-28T09:00:00-06:00",
+    "end": null,
     "allday": false,
-    "location": "CountyLines Crossings, Brooklyn",
-    "desc": "9 am-4 pm on 11/20-21 and 27-28 and 9 am-2 pm, 11/22 & 29, CountyLines Crossings, Brooklyn."
-   },
-   {
-    "title": "Kids in the Rotunda",
-    "start": "2026-11-27T09:30:00-06:00",
-    "end": "2026-11-27T14:00:00-06:00",
-    "allday": false,
-    "location": "Overture Center-Rotunda Stage",
-    "desc": "Cash Box Kings, 9:30 am, 11 am & 1 pm. Free."
-   },
-   {
-    "title": "Holiday Pop-up Shop",
-    "start": "2026-11-27T10:00:00-06:00",
-    "end": "2026-11-27T17:00:00-06:00",
-    "allday": false,
-    "location": "East Towne Mall",
-    "desc": "Agrace Grief Support Center fundraiser thrift boutique, 10 am-5 pm Tuesdays-Saturdays, 10/28-11/28, East Towne Mall. Closed on Thanksgiving."
-   },
-   {
-    "title": "Holiday Pop-up Shop",
-    "start": "2026-11-28T10:00:00-06:00",
-    "end": "2026-11-28T17:00:00-06:00",
-    "allday": false,
-    "location": "East Towne Mall",
-    "desc": "Agrace Grief Support Center fundraiser thrift boutique, 10 am-5 pm Tuesdays-Saturdays, 10/28-11/28, East Towne Mall. Closed on Thanksgiving."
-   },
-   {
-    "title": "New Beginnings",
-    "start": "2026-11-27T10:00:00-06:00",
-    "end": "2026-11-27T12:00:00-06:00",
-    "allday": false,
-    "location": "Neighborhood House",
-    "desc": "Social for people with cognitive disabilities, 10 am-noon Wednesdays and Fridays, Neighborhood House. Free."
-   },
-   {
-    "title": "New Beginnings",
-    "start": "2026-12-02T10:00:00-06:00",
-    "end": "2026-12-02T12:00:00-06:00",
-    "allday": false,
-    "location": "Neighborhood House",
-    "desc": "Social for people with cognitive disabilities, 10 am-noon Wednesdays and Fridays, Neighborhood House. Free."
-   },
-   {
-    "title": "New Beginnings",
-    "start": "2026-12-04T10:00:00-06:00",
-    "end": "2026-12-04T12:00:00-06:00",
-    "allday": false,
-    "location": "Neighborhood House",
-    "desc": "Social for people with cognitive disabilities, 10 am-noon Wednesdays and Fridays, Neighborhood House. Free."
-   },
-   {
-    "title": "New Beginnings",
-    "start": "2026-12-09T10:00:00-06:00",
-    "end": "2026-12-09T12:00:00-06:00",
-    "allday": false,
-    "location": "Neighborhood House",
-    "desc": "Social for people with cognitive disabilities, 10 am-noon Wednesdays and Fridays, Neighborhood House. Free."
+    "location": "",
+    "desc": "National Alliance on Mental Illness-Dane County trauma informed restorative and yin yoga session led by Michelle Vande Hey, on Zoom. RSVP for link."
    },
    {
     "title": "Holiday Market",
@@ -339,668 +819,36 @@
     "desc": "Works by local artists, 9 am-4 pm Tuesday-Thursday and Saturday and 10 am-6 pm Friday, 11/20-1/9, River Arts on Water, Prairie du Sac (other times by appointment). Closed 11/26, 12/24-25, 1/1."
    },
    {
-    "title": "Stages of the Path",
-    "start": "2026-11-27T11:00:00-06:00",
+    "title": "Holiday Market",
+    "start": "2026-12-11T10:00:00-06:00",
     "end": null,
     "allday": false,
-    "location": "Kadampa Meditation Center Madison",
-    "desc": "Meditation class led by Gen Dorje, 11 am Fridays. $12."
-   },
-   {
-    "title": "Stages of the Path",
-    "start": "2026-12-04T11:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Kadampa Meditation Center Madison",
-    "desc": "Meditation class led by Gen Dorje, 11 am Fridays. $12."
-   },
-   {
-    "title": "Madison Makers Market",
-    "start": "2026-11-27T12:00:00-06:00",
-    "end": "2026-11-27T17:00:00-06:00",
-    "allday": false,
-    "location": "",
-    "desc": "Local makers and vendors pub crawl, noon-5 pm, at The Deliciouser, Giant Jones Brewing, Hotel Indigo, Imaginary Factory, Old Sugar Distillery, State LIne Distillery,  Vintage Brewing-Capitol East and "
-   },
-   {
-    "title": "Turning Wine Into Food",
-    "start": "2026-11-27T12:00:00-06:00",
-    "end": "2026-11-27T18:00:00-06:00",
-    "allday": false,
-    "location": "Rock N Wool Winery, Poynette",
-    "desc": "Free glass of wine with a donation to the Portage Food Pantry, last Fridays."
-   },
-   {
-    "title": "Santa on State",
-    "start": "2026-11-27T12:00:00-06:00",
-    "end": "2026-11-27T15:00:00-06:00",
-    "allday": false,
-    "location": "",
-    "desc": "Families welcome to visit Santa's workshop, noon-3 pm on 11/27, 2-4 pm on 11/28, and 3-6 pm, 12/5-6, 12-13 & 19, 127 State St. Free."
-   },
-   {
-    "title": "Santa on State",
-    "start": "2026-11-28T14:00:00-06:00",
-    "end": "2026-11-28T17:00:00-06:00",
-    "allday": false,
-    "location": "",
-    "desc": "Families welcome to visit Santa's workshop, noon-3 pm on 11/27, 2-4 pm on 11/28, and 3-6 pm, 12/5-6, 12-13 & 19, 127 State St. Free."
-   },
-   {
-    "title": "Santa on State",
-    "start": "2026-12-05T15:00:00-06:00",
-    "end": "2026-12-05T18:00:00-06:00",
-    "allday": false,
-    "location": "",
-    "desc": "Families welcome to visit Santa's workshop, noon-3 pm on 11/27, 2-4 pm on 11/28, and 3-6 pm, 12/5-6, 12-13 & 19, 127 State St. Free."
-   },
-   {
-    "title": "Santa on State",
-    "start": "2026-12-06T15:00:00-06:00",
-    "end": "2026-12-06T18:00:00-06:00",
-    "allday": false,
-    "location": "",
-    "desc": "Families welcome to visit Santa's workshop, noon-3 pm on 11/27, 2-4 pm on 11/28, and 3-6 pm, 12/5-6, 12-13 & 19, 127 State St. Free."
-   },
-   {
-    "title": "Maybe Happy Ending",
-    "start": "2026-11-27T13:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Overture Center-Overture Hall",
-    "desc": "Touring Broadway production, 11/24-29, Overture Center-Overture Hall, at 7:30 pm Tuesday-Wednesday, 1 & 7:30 pm Friday, 2 & 7:30 pm Saturday and 1 & 6:30 pm Sunday."
-   },
-   {
-    "title": "Maybe Happy Ending",
-    "start": "2026-11-27T19:30:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Overture Center-Overture Hall",
-    "desc": "Touring Broadway production, 11/24-29, Overture Center-Overture Hall, at 7:30 pm Tuesday-Wednesday, 1 & 7:30 pm Friday, 2 & 7:30 pm Saturday and 1 & 6:30 pm Sunday."
-   },
-   {
-    "title": "Maybe Happy Ending",
-    "start": "2026-11-28T14:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Overture Center-Overture Hall",
-    "desc": "Touring Broadway production, 11/24-29, Overture Center-Overture Hall, at 7:30 pm Tuesday-Wednesday, 1 & 7:30 pm Friday, 2 & 7:30 pm Saturday and 1 & 6:30 pm Sunday."
-   },
-   {
-    "title": "Maybe Happy Ending",
-    "start": "2026-11-29T13:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Overture Center-Overture Hall",
-    "desc": "Touring Broadway production, 11/24-29, Overture Center-Overture Hall, at 7:30 pm Tuesday-Wednesday, 1 & 7:30 pm Friday, 2 & 7:30 pm Saturday and 1 & 6:30 pm Sunday."
-   },
-   {
-    "title": "Maybe Happy Ending",
-    "start": "2026-11-29T18:30:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Overture Center-Overture Hall",
-    "desc": "Touring Broadway production, 11/24-29, Overture Center-Overture Hall, at 7:30 pm Tuesday-Wednesday, 1 & 7:30 pm Friday, 2 & 7:30 pm Saturday and 1 & 6:30 pm Sunday."
-   },
-   {
-    "title": "Black Friday Craft-In",
-    "start": "2026-11-27T13:00:00-06:00",
-    "end": "2026-11-27T15:00:00-06:00",
-    "allday": false,
-    "location": "St. Dunstan's Episcopal Church",
-    "desc": "Gift-making supplies for kids & adults. Free."
-   },
-   {
-    "title": "The Rocky Horror Picture Show",
-    "start": "2026-11-27T14:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Crucible",
-    "desc": "With the Velvet Darkness, midnight on 11/20 and 2 pm, 11/27. $8 ($13 ages 18-20)"
-   },
-   {
-    "title": "Holiday Tree Lighting",
-    "start": "2026-11-27T15:00:00-06:00",
-    "end": "2026-11-27T18:00:00-06:00",
-    "allday": false,
-    "location": "Edgewater Hotel",
-    "desc": "Annual event, with kids' craft stations, entertainment. Free."
-   },
-   {
-    "title": "Better With Friends",
-    "start": "2026-11-27T15:30:00-06:00",
-    "end": "2026-11-27T18:30:00-06:00",
-    "allday": false,
-    "location": "Fairway Lounge, Fitchburg",
-    "desc": "Rock/country. Free."
-   },
-   {
-    "title": "Christmas in Paoli",
-    "start": "2026-11-27T16:00:00-06:00",
-    "end": "2026-11-27T20:00:00-06:00",
-    "allday": false,
-    "location": "",
-    "desc": "Artisans & makers, 11/27-12/20, throughout Paoli, at 4-8 pm Friday, 10 am-7 pm Saturday (shuttle available from Resurrection Lutheran Church, Verona), and 10 am-5 pm Sunday."
-   },
-   {
-    "title": "Christmas in Paoli",
-    "start": "2026-12-04T16:00:00-06:00",
-    "end": "2026-12-04T20:00:00-06:00",
-    "allday": false,
-    "location": "",
-    "desc": "Artisans & makers, 11/27-12/20, throughout Paoli, at 4-8 pm Friday, 10 am-7 pm Saturday (shuttle available from Resurrection Lutheran Church, Verona), and 10 am-5 pm Sunday."
-   },
-   {
-    "title": "Zoo Lights",
-    "start": "2026-11-27T16:30:00-06:00",
-    "end": "2026-11-27T19:30:00-06:00",
-    "allday": false,
-    "location": "Henry Vilas Zoo",
-    "desc": "Holiday light displays & activities, entry from 4:30-7:30 pm Fridays-Sundays, 11/20-12/20, Vilas Zoo (closing time is 8 pm), plus 11/25 and 12/21-23. $12 (free ages 3 & under)."
-   },
-   {
-    "title": "Zoo Lights",
-    "start": "2026-11-28T16:30:00-06:00",
-    "end": "2026-11-28T19:30:00-06:00",
-    "allday": false,
-    "location": "Henry Vilas Zoo",
-    "desc": "Holiday light displays & activities, entry from 4:30-7:30 pm Fridays-Sundays, 11/20-12/20, Vilas Zoo (closing time is 8 pm), plus 11/25 and 12/21-23. $12 (free ages 3 & under)."
-   },
-   {
-    "title": "Zoo Lights",
-    "start": "2026-11-29T16:30:00-06:00",
-    "end": "2026-11-29T19:30:00-06:00",
-    "allday": false,
-    "location": "Henry Vilas Zoo",
-    "desc": "Holiday light displays & activities, entry from 4:30-7:30 pm Fridays-Sundays, 11/20-12/20, Vilas Zoo (closing time is 8 pm), plus 11/25 and 12/21-23. $12 (free ages 3 & under)."
-   },
-   {
-    "title": "Zoo Lights",
-    "start": "2026-12-04T16:30:00-06:00",
-    "end": "2026-12-04T19:30:00-06:00",
-    "allday": false,
-    "location": "Henry Vilas Zoo",
-    "desc": "Holiday light displays & activities, entry from 4:30-7:30 pm Fridays-Sundays, 11/20-12/20, Vilas Zoo (closing time is 8 pm), plus 11/25 and 12/21-23. $12 (free ages 3 & under)."
-   },
-   {
-    "title": "Zoo Lights",
-    "start": "2026-12-05T16:30:00-06:00",
-    "end": "2026-12-05T19:30:00-06:00",
-    "allday": false,
-    "location": "Henry Vilas Zoo",
-    "desc": "Holiday light displays & activities, entry from 4:30-7:30 pm Fridays-Sundays, 11/20-12/20, Vilas Zoo (closing time is 8 pm), plus 11/25 and 12/21-23. $12 (free ages 3 & under)."
-   },
-   {
-    "title": "Zoo Lights",
-    "start": "2026-12-06T16:30:00-06:00",
-    "end": "2026-12-06T19:30:00-06:00",
-    "allday": false,
-    "location": "Henry Vilas Zoo",
-    "desc": "Holiday light displays & activities, entry from 4:30-7:30 pm Fridays-Sundays, 11/20-12/20, Vilas Zoo (closing time is 8 pm), plus 11/25 and 12/21-23. $12 (free ages 3 & under)."
-   },
-   {
-    "title": "Craft Breweries Turn 50",
-    "start": "2026-11-27T16:30:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Lake Louie Brewing/Wisconsin Brewing Co., Verona",
-    "desc": "History talk by brewmaster Kirby Nelson."
-   },
-   {
-    "title": "Marc Barnaby",
-    "start": "2026-11-27T17:00:00-06:00",
-    "end": "2026-11-27T20:00:00-06:00",
-    "allday": false,
-    "location": "The Mill, Paoli",
-    "desc": "Roots. Free."
-   },
-   {
-    "title": "DJ Chuck Money",
-    "start": "2026-11-27T17:00:00-06:00",
-    "end": "2026-11-27T20:00:00-06:00",
-    "allday": false,
-    "location": "Lola's Hi/Lo Lounge",
-    "desc": "Soul/jazz."
-   },
-   {
-    "title": "DJ Chuck Money",
-    "start": "2026-12-04T17:00:00-06:00",
-    "end": "2026-12-04T20:00:00-06:00",
-    "allday": false,
-    "location": "Lola's Hi/Lo Lounge",
-    "desc": "Soul/jazz."
-   },
-   {
-    "title": "Jen Hammer",
-    "start": "2026-11-27T17:00:00-06:00",
-    "end": "2026-11-27T21:00:00-06:00",
-    "allday": false,
-    "location": "Madison Enterprise Center-Common Wealth Gallery",
-    "desc": "\"Peace City: Reflections & Crowds,\" 5-9 pm, 11/25 & 27.\n\nWHEN\nNovember 25 & 27, 2026\n5–9 p.m.\n\nWHERE\nCommon Wealth Gallery\n100 S. Baldwin Street, Floor 3\nMadison, Wisconsin\n\nARTIST\nJen Hammer\n\nWITH\nTK"
-   },
-   {
-    "title": "Ced Ba'etch'",
-    "start": "2026-11-27T17:00:00-06:00",
-    "end": "2026-11-27T19:00:00-06:00",
-    "allday": false,
-    "location": "Park Hotel-The Post",
-    "desc": "5 pm Fridays."
-   },
-   {
-    "title": "Ced Ba'etch'",
-    "start": "2026-12-04T17:00:00-06:00",
-    "end": "2026-12-04T19:00:00-06:00",
-    "allday": false,
-    "location": "Park Hotel-The Post",
-    "desc": "5 pm Fridays."
-   },
-   {
-    "title": "Johnny Chimes",
-    "start": "2026-11-27T17:30:00-06:00",
-    "end": "2026-11-27T19:30:00-06:00",
-    "allday": false,
-    "location": "Louisianne's, Etc., Middleton",
-    "desc": "New Orleans piano, 5:30 pm Fridays. Free."
-   },
-   {
-    "title": "Johnny Chimes",
-    "start": "2026-12-04T17:30:00-06:00",
-    "end": "2026-12-04T19:30:00-06:00",
-    "allday": false,
-    "location": "Louisianne's, Etc., Middleton",
-    "desc": "New Orleans piano, 5:30 pm Fridays. Free."
-   },
-   {
-    "title": "English Conversation Time",
-    "start": "2026-11-27T18:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Christ Presbyterian Church",
-    "desc": "Informal gathering with international students, 6 pm Fridays. Free."
-   },
-   {
-    "title": "English Conversation Time",
-    "start": "2026-12-04T18:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Christ Presbyterian Church",
-    "desc": "Informal gathering with international students, 6 pm Fridays. Free."
-   },
-   {
-    "title": "Trivia",
-    "start": "2026-11-27T18:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "The Boneyard",
-    "desc": "Hosted by Premier Trivia, 6 pm Fridays. Free."
-   },
-   {
-    "title": "Trivia",
-    "start": "2026-12-04T18:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "The Boneyard",
-    "desc": "Hosted by Premier Trivia, 6 pm Fridays. Free."
-   },
-   {
-    "title": "Bingo",
-    "start": "2026-11-27T18:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Hidden Cave Cidery, Middleton",
-    "desc": "Free."
-   },
-   {
-    "title": "David Hecht",
-    "start": "2026-11-27T18:00:00-06:00",
-    "end": "2026-11-27T21:00:00-06:00",
-    "allday": false,
-    "location": "Capital Brewery, Middleton",
-    "desc": "R&B/funk. Free."
-   },
-   {
-    "title": "Two County Lines",
-    "start": "2026-11-27T18:00:00-06:00",
-    "end": "2026-11-27T21:00:00-06:00",
-    "allday": false,
-    "location": "Lake Louie Brewing/Wisconsin Brewing Co., Verona",
-    "desc": "Free."
-   },
-   {
-    "title": "Critterthing, The Stinkeyes, Blasfemme, Demigloom",
-    "start": "2026-11-27T18:30:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Gamma Ray Bar",
-    "desc": ""
-   },
-   {
-    "title": "UW Football",
-    "start": "2026-11-27T18:30:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Camp Randall Stadium",
-    "desc": "vs. Minnesota, 6:30 pm, Camp Randall; Badger Bash tailgate 4 pm, Union South."
-   },
-   {
-    "title": "Game Night",
-    "start": "2026-11-27T18:30:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Rock N Wool Winery, Poynette",
-    "desc": "Interactive games (via cell phone), 6:30 pm Fridays. Free."
-   },
-   {
-    "title": "Game Night",
-    "start": "2026-12-04T18:30:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Rock N Wool Winery, Poynette",
-    "desc": "Interactive games (via cell phone), 6:30 pm Fridays. Free."
-   },
-   {
-    "title": "Slow Revolution, Xander Anim",
-    "start": "2026-11-27T18:30:00-06:00",
-    "end": "2026-11-27T20:30:00-06:00",
-    "allday": false,
-    "location": "Cargo Coffee-East Washington",
-    "desc": "Free/donations."
-   },
-   {
-    "title": "Jackie Marie",
-    "start": "2026-11-27T19:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "VFW Post 7591-Cottage Grove Road",
-    "desc": "Country/vintage pop."
-   },
-   {
-    "title": "Radiant Beings",
-    "start": "2026-11-27T19:00:00-06:00",
-    "end": "2026-11-27T22:00:00-06:00",
-    "allday": false,
-    "location": "Hop Garden Brewing & Tap Room, Evansville",
-    "desc": "Classic rock/Americana."
-   },
-   {
-    "title": "2 For the Show",
-    "start": "2026-11-27T19:00:00-06:00",
-    "end": "2026-11-27T22:00:00-06:00",
-    "allday": false,
-    "location": "Chief's Tavern",
-    "desc": ""
-   },
-   {
-    "title": "Kevin Bozeman, Calvin Evans, Amy Shanker, Greg Coleman",
-    "start": "2026-11-27T19:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Comedy on State",
-    "desc": "7 and 9:30 pm, 11/27-28. $42-$31."
-   },
-   {
-    "title": "Kevin Bozeman, Calvin Evans, Amy Shanker, Greg Coleman",
-    "start": "2026-11-27T21:30:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Comedy on State",
-    "desc": "7 and 9:30 pm, 11/27-28. $42-$31."
-   },
-   {
-    "title": "Kevin Bozeman, Calvin Evans, Amy Shanker, Greg Coleman",
-    "start": "2026-11-28T21:30:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Comedy on State",
-    "desc": "7 and 9:30 pm, 11/27-28. $42-$31."
-   },
-   {
-    "title": "Open Jam",
-    "start": "2026-11-27T19:00:00-06:00",
-    "end": "2026-11-27T21:00:00-06:00",
-    "allday": false,
-    "location": "Imaginary Tea, Waunakee",
-    "desc": "7 pm Fridays."
-   },
-   {
-    "title": "Open Jam",
-    "start": "2026-12-04T19:00:00-06:00",
-    "end": "2026-12-04T21:00:00-06:00",
-    "allday": false,
-    "location": "Imaginary Tea, Waunakee",
-    "desc": "7 pm Fridays."
-   },
-   {
-    "title": "Tall Paul & the Naughy Cats",
-    "start": "2026-11-27T19:00:00-06:00",
-    "end": "2026-11-27T22:00:00-06:00",
-    "allday": false,
-    "location": "Hop Garden, Belleville",
-    "desc": "Blues/jazz."
-   },
-   {
-    "title": "Tani Diakite & the Afrofunkstars",
-    "start": "2026-11-27T19:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Cafe Coda",
-    "desc": "Malian blues-funk. $15."
-   },
-   {
-    "title": "Atlas Improv Company",
-    "start": "2026-11-27T19:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Atlas Improv Company",
-    "desc": "7 & 9 pm Fridays & Saturdays, 609 E. Washington Ave. $11 ($7 kids)."
-   },
-   {
-    "title": "Atlas Improv Company",
-    "start": "2026-11-28T19:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Atlas Improv Company",
-    "desc": "7 & 9 pm Fridays & Saturdays, 609 E. Washington Ave. $11 ($7 kids)."
-   },
-   {
-    "title": "Atlas Improv Company",
-    "start": "2026-12-04T19:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Atlas Improv Company",
-    "desc": "7 & 9 pm Fridays & Saturdays, 609 E. Washington Ave. $11 ($7 kids)."
-   },
-   {
-    "title": "Atlas Improv Company",
-    "start": "2026-12-05T19:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Atlas Improv Company",
-    "desc": "7 & 9 pm Fridays & Saturdays, 609 E. Washington Ave. $11 ($7 kids)."
-   },
-   {
-    "title": "Disc-Ho Ho HO!",
-    "start": "2026-11-27T19:30:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "The Bur Oak",
-    "desc": "Dance Fabulous presents \"A Holiday Variety Burlesque Cabaret Spectacular,\" 7:30 pm, 11/24 & 27 and 1 and 7:30 pm, 11/28. $30."
-   },
-   {
-    "title": "Disc-Ho Ho HO!",
-    "start": "2026-11-28T13:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "The Bur Oak",
-    "desc": "Dance Fabulous presents \"A Holiday Variety Burlesque Cabaret Spectacular,\" 7:30 pm, 11/24 & 27 and 1 and 7:30 pm, 11/28. $30."
-   },
-   {
-    "title": "Trivia",
-    "start": "2026-11-27T19:30:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Salvatore's Tomato Pies, Monona",
-    "desc": "Hosted by Premier Trivia, 7:30 pm Fridays. Free."
-   },
-   {
-    "title": "Trivia",
-    "start": "2026-12-04T19:30:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Salvatore's Tomato Pies, Monona",
-    "desc": "Hosted by Premier Trivia, 7:30 pm Fridays. Free."
-   },
-   {
-    "title": "Driveway Thriftdwellers with Brett Newski, Derek Pritzl, Shawndell Marks, Dan Plourde",
-    "start": "2026-11-27T20:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Majestic Theatre",
-    "desc": "\"Celebration of Tom Petty,\" annual event with guest performers."
-   },
-   {
-    "title": "DJs DCVIII",
-    "start": "2026-11-27T20:00:00-06:00",
-    "end": "2026-11-27T23:00:00-06:00",
-    "allday": false,
-    "location": "The Green Room Public House",
-    "desc": "Free/donations."
-   },
-   {
-    "title": "Joseph Huber Band, Dig Deep, Kevin Troestler, Sheilagh Dandy Lion",
-    "start": "2026-11-27T20:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "High Noon Saloon",
-    "desc": ""
-   },
-   {
-    "title": "Fareed Haque Trio",
-    "start": "2026-11-27T20:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "North Street Cabaret",
-    "desc": "BlueStem Jazz."
-   },
-   {
-    "title": "Steve Schultz Band",
-    "start": "2026-11-27T20:00:00-06:00",
-    "end": "2026-11-27T23:59:00-06:00",
-    "allday": false,
-    "location": "Essen Haus",
-    "desc": "Polka. Free."
-   },
-   {
-    "title": "Steve Schultz Band",
-    "start": "2026-11-28T20:00:00-06:00",
-    "end": "2026-11-28T23:59:00-06:00",
-    "allday": false,
-    "location": "Essen Haus",
-    "desc": "Polka. Free."
-   },
-   {
-    "title": "What's His Name & the Obscure Guy",
-    "start": "2026-11-27T20:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Cafe Carpe, Fort Atkinson",
-    "desc": "$20."
-   },
-   {
-    "title": "DJs psych0tron, Spike",
-    "start": "2026-11-27T21:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Crucible",
-    "desc": "\"Deviance,\" fetish/BDSM dance, 9 pm fourth Fridays. $20 ($12 dressed appropriately)."
-   },
-   {
-    "title": "Atlas Improv Company",
-    "start": "2026-11-27T21:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Atlas Improv Company",
-    "desc": "7 & 9 pm Fridays & Saturdays, 609 E. Washington Ave. $11 ($7 kids)."
-   },
-   {
-    "title": "Atlas Improv Company",
-    "start": "2026-11-28T21:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Atlas Improv Company",
-    "desc": "7 & 9 pm Fridays & Saturdays, 609 E. Washington Ave. $11 ($7 kids)."
-   },
-   {
-    "title": "Atlas Improv Company",
-    "start": "2026-12-04T21:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Atlas Improv Company",
-    "desc": "7 & 9 pm Fridays & Saturdays, 609 E. Washington Ave. $11 ($7 kids)."
-   },
-   {
-    "title": "Atlas Improv Company",
-    "start": "2026-12-05T21:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Atlas Improv Company",
-    "desc": "7 & 9 pm Fridays & Saturdays, 609 E. Washington Ave. $11 ($7 kids)."
-   },
-   {
-    "title": "DJ Schnitzengruben",
-    "start": "2026-11-27T21:00:00-06:00",
-    "end": "2026-11-27T23:59:00-06:00",
-    "allday": false,
-    "location": "Lola's Hi/Lo Lounge",
-    "desc": "Free."
-   },
-   {
-    "title": "Tom Kastle",
-    "start": "2026-11-27T21:45:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "",
-    "desc": "Midnight Cocktail Concert, on Zoom. Free. Click through for link."
-   },
-   {
-    "title": "DJs Lyriks, Eazy E, Kashka, Beatz",
-    "start": "2026-11-27T22:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Cafe Coda",
-    "desc": "Afrobeat dance party, 10 pm last Fridays (moves to 11:30 pm on 9/25). $20."
-   },
-   {
-    "title": "RSVP for Cozy Handmade Holidays",
-    "start": "2026-11-28T00:00:00-06:00",
-    "end": "2026-11-29T00:00:00-06:00",
-    "allday": true,
-    "location": "Monroe Street Arts Center",
-    "desc": "Class for ages 18 & up, 1 pm, 12/5. $60. RSVP by 11/28."
-   },
-   {
-    "title": "RSVP for Macramé Holiday Ornaments",
-    "start": "2026-11-28T00:00:00-06:00",
-    "end": "2026-11-29T00:00:00-06:00",
-    "allday": true,
     "location": "River Arts on Water, Prairie du Sac",
-    "desc": "Class by Julia Hardin, 9 am, 12/12. $120. RSVP by 11/28."
+    "desc": "Works by local artists, 9 am-4 pm Tuesday-Thursday and Saturday and 10 am-6 pm Friday, 11/20-1/9, River Arts on Water, Prairie du Sac (other times by appointment). Closed 11/26, 12/24-25, 1/1."
    },
    {
-    "title": "Art & Craft Fair",
-    "start": "2026-11-28T09:00:00-06:00",
-    "end": "2026-11-28T15:00:00-06:00",
+    "title": "Winter Wonderland Crafts & Art Market",
+    "start": "2026-11-27T09:00:00-06:00",
+    "end": "2026-11-27T16:00:00-06:00",
     "allday": false,
-    "location": "VFW Post 7591-Cottage Grove Road",
-    "desc": "Annual event with 40-plus vendors, lunch, raffle. Free admission."
+    "location": "CountyLines Crossings, Brooklyn",
+    "desc": "9 am-4 pm on 11/20-21 and 27-28 and 9 am-2 pm, 11/22 & 29, CountyLines Crossings, Brooklyn."
    },
    {
-    "title": "Gentle Roots Yoga",
+    "title": "Winter Wonderland Crafts & Art Market",
     "start": "2026-11-28T09:00:00-06:00",
-    "end": null,
+    "end": "2026-11-28T16:00:00-06:00",
     "allday": false,
-    "location": "",
-    "desc": "National Alliance on Mental Illness-Dane County trauma informed restorative and yin yoga session led by Michelle Vande Hey, on Zoom. RSVP for link."
+    "location": "CountyLines Crossings, Brooklyn",
+    "desc": "9 am-4 pm on 11/20-21 and 27-28 and 9 am-2 pm, 11/22 & 29, CountyLines Crossings, Brooklyn."
+   },
+   {
+    "title": "Winter Wonderland Crafts & Art Market",
+    "start": "2026-11-29T09:00:00-06:00",
+    "end": "2026-11-29T16:00:00-06:00",
+    "allday": false,
+    "location": "CountyLines Crossings, Brooklyn",
+    "desc": "9 am-4 pm on 11/20-21 and 27-28 and 9 am-2 pm, 11/22 & 29, CountyLines Crossings, Brooklyn."
    },
    {
     "title": "Madison Card Show",
@@ -1019,30 +867,6 @@
     "desc": "Yo-yo expert Mark Hayward, 9:30 am, 11 am & 1 pm. Free."
    },
    {
-    "title": "Verona Crafty Fair",
-    "start": "2026-11-28T10:00:00-06:00",
-    "end": "2026-11-28T16:00:00-06:00",
-    "allday": false,
-    "location": "ART House 360, Verona",
-    "desc": ""
-   },
-   {
-    "title": "Cool School",
-    "start": "2026-11-28T10:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Cafe Coda",
-    "desc": "Youth open jam/improvisation workshop with Hanah Jon Taylor, 10 am Saturdays. Free."
-   },
-   {
-    "title": "Cool School",
-    "start": "2026-12-05T10:00:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Cafe Coda",
-    "desc": "Youth open jam/improvisation workshop with Hanah Jon Taylor, 10 am Saturdays. Free."
-   },
-   {
     "title": "Christmas in Paoli",
     "start": "2026-11-28T10:00:00-06:00",
     "end": "2026-11-28T19:00:00-06:00",
@@ -1059,12 +883,60 @@
     "desc": "Artisans & makers, 11/27-12/20, throughout Paoli, at 4-8 pm Friday, 10 am-7 pm Saturday (shuttle available from Resurrection Lutheran Church, Verona), and 10 am-5 pm Sunday."
    },
    {
-    "title": "Bird & Nature Adventure",
+    "title": "Madison Club Tours",
     "start": "2026-11-28T10:00:00-06:00",
     "end": null,
     "allday": false,
-    "location": "Aldo Leopold Nature Center, Monona",
-    "desc": "With Friends of Urban Nature, all ages. Free. RSVP."
+    "location": "Madison Club",
+    "desc": "6 pm first Tuesday and 10 am last Saturday (usually). Free."
+   },
+   {
+    "title": "Cool School",
+    "start": "2026-11-28T10:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Cafe Coda",
+    "desc": "Youth open jam/improvisation workshop with Hanah Jon Taylor, 10 am Saturdays. Free."
+   },
+   {
+    "title": "Cool School",
+    "start": "2026-12-05T10:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Cafe Coda",
+    "desc": "Youth open jam/improvisation workshop with Hanah Jon Taylor, 10 am Saturdays. Free."
+   },
+   {
+    "title": "Verona Crafty Fair",
+    "start": "2026-11-28T10:00:00-06:00",
+    "end": "2026-11-28T16:00:00-06:00",
+    "allday": false,
+    "location": "ART House 360, Verona",
+    "desc": ""
+   },
+   {
+    "title": "Santa's Helpers",
+    "start": "2026-11-28T10:00:00-06:00",
+    "end": "2026-11-28T15:00:00-06:00",
+    "allday": false,
+    "location": "Alliant Energy Center",
+    "desc": "Annual craft/vendor market, with raffle for Toys for Tots, kids' scavenger hunt. Free admission."
+   },
+   {
+    "title": "Holiday Pop-up Shop",
+    "start": "2026-11-27T10:00:00-06:00",
+    "end": "2026-11-27T17:00:00-06:00",
+    "allday": false,
+    "location": "East Towne Mall",
+    "desc": "Agrace Grief Support Center fundraiser thrift boutique, 10 am-5 pm Tuesdays-Saturdays, 10/28-11/28, East Towne Mall. Closed on Thanksgiving."
+   },
+   {
+    "title": "Holiday Pop-up Shop",
+    "start": "2026-11-28T10:00:00-06:00",
+    "end": "2026-11-28T17:00:00-06:00",
+    "allday": false,
+    "location": "East Towne Mall",
+    "desc": "Agrace Grief Support Center fundraiser thrift boutique, 10 am-5 pm Tuesdays-Saturdays, 10/28-11/28, East Towne Mall. Closed on Thanksgiving."
    },
    {
     "title": "Shop Small this Fall",
@@ -1075,20 +947,28 @@
     "desc": "Eastern Star scholarship fund benefit, 10 am-3 pm, 11/28, Dodger Bowl, Dodgeville, with craft vendors, raffle."
    },
    {
-    "title": "Madison Club Tours",
+    "title": "Bird & Nature Adventure",
     "start": "2026-11-28T10:00:00-06:00",
     "end": null,
     "allday": false,
-    "location": "Madison Club",
-    "desc": "6 pm first Tuesday and 10 am last Saturday (usually). Free."
+    "location": "Aldo Leopold Nature Center, Monona",
+    "desc": "With Friends of Urban Nature, all ages. Free. RSVP."
    },
    {
-    "title": "Santa's Helpers",
-    "start": "2026-11-28T10:00:00-06:00",
+    "title": "Open Sewing Studio",
+    "start": "2026-11-28T11:00:00-06:00",
     "end": "2026-11-28T15:00:00-06:00",
     "allday": false,
-    "location": "Alliant Energy Center",
-    "desc": "Annual craft/vendor market, with raffle for Toys for Tots, kids' scavenger hunt. Free admission."
+    "location": "Communication",
+    "desc": "11 am-3 pm fourth Saturdays. Free (basic supplies available)."
+   },
+   {
+    "title": "Art Market",
+    "start": "2026-11-28T11:00:00-06:00",
+    "end": "2026-11-28T16:00:00-06:00",
+    "allday": false,
+    "location": "",
+    "desc": "Local artists & makers, 11 am-4 pm, 11/28, Busse's Tavern."
    },
    {
     "title": "Santa Saturday",
@@ -1107,30 +987,6 @@
     "desc": "Downtown Sun Prairie visits, 11 am-1 pm, 11/28, Sun Prairie Flowers; noon-2 pm, 12/5, Asteria Ice Cream; 11 am-1 pm, 12/12, Crosse House; 11 am-1 pm, 12/19, Glass Nickel Pizza."
    },
    {
-    "title": "Art Market",
-    "start": "2026-11-28T11:00:00-06:00",
-    "end": "2026-11-28T16:00:00-06:00",
-    "allday": false,
-    "location": "",
-    "desc": "Local artists & makers, 11 am-4 pm, 11/28, Busse's Tavern."
-   },
-   {
-    "title": "Open Sewing Studio",
-    "start": "2026-11-28T11:00:00-06:00",
-    "end": "2026-11-28T15:00:00-06:00",
-    "allday": false,
-    "location": "Communication",
-    "desc": "11 am-3 pm fourth Saturdays. Free (basic supplies available)."
-   },
-   {
-    "title": "Made in Wisconsin Market",
-    "start": "2026-11-28T12:00:00-06:00",
-    "end": "2026-11-28T20:00:00-06:00",
-    "allday": false,
-    "location": "Garver Feed Mill",
-    "desc": "Regional makers, artists and vendors Free admission."
-   },
-   {
     "title": "Chris Elinchev",
     "start": "2026-11-28T12:00:00-06:00",
     "end": null,
@@ -1145,6 +1001,14 @@
     "allday": false,
     "location": "PhotoMidwest",
     "desc": "\"The Deer Hunters,\" 11/2-12/31, PhotoMidwest Studio Gallery (reception 7-9 pm, 11/5). Gallery hours: noon-4 pm Saturdays."
+   },
+   {
+    "title": "Made in Wisconsin Market",
+    "start": "2026-11-28T12:00:00-06:00",
+    "end": "2026-11-28T20:00:00-06:00",
+    "allday": false,
+    "location": "Garver Feed Mill",
+    "desc": "Regional makers, artists and vendors Free admission."
    },
    {
     "title": "The Pigeon Gets A Big Time Holiday Extravaganza!",
@@ -1227,14 +1091,6 @@
     "desc": "Classic rock. Free."
    },
    {
-    "title": "Bird & Nature Adventure",
-    "start": "2026-11-28T13:30:00-06:00",
-    "end": null,
-    "allday": false,
-    "location": "Pheasant Branch Conservancy, Middleton",
-    "desc": "With Friends of Urban Nature, all ages. Fourth Saturdays, click through for specific meeting location. Free."
-   },
-   {
     "title": "Sports for Active Seniors Hiking",
     "start": "2026-11-28T13:30:00-06:00",
     "end": null,
@@ -1243,20 +1099,12 @@
     "desc": "RSVP: getkidsoutside@gmail.com. 608-358-8314."
    },
    {
-    "title": "UW Women's Hockey",
-    "start": "2026-11-29T13:00:00-06:00",
+    "title": "Bird & Nature Adventure",
+    "start": "2026-11-28T13:30:00-06:00",
     "end": null,
     "allday": false,
-    "location": "LaBahn Arena",
-    "desc": "vs. Union College."
-   },
-   {
-    "title": "Bluegrass Jam with Down From the Hills",
-    "start": "2026-11-28T14:00:00-06:00",
-    "end": "2026-11-28T16:00:00-06:00",
-    "allday": false,
-    "location": "Brix Cider, Mount Horeb",
-    "desc": "2 pm fourth Saturdays. Free."
+    "location": "Pheasant Branch Conservancy, Middleton",
+    "desc": "With Friends of Urban Nature, all ages. Fourth Saturdays, click through for specific meeting location. Free."
    },
    {
     "title": "Bluegrass Jam",
@@ -1275,6 +1123,54 @@
     "desc": "2 pm second & fourth Saturdays."
    },
    {
+    "title": "UW Women's Hockey",
+    "start": "2026-11-29T13:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "LaBahn Arena",
+    "desc": "vs. Union College."
+   },
+   {
+    "title": "Santa on State",
+    "start": "2026-11-27T12:00:00-06:00",
+    "end": "2026-11-27T15:00:00-06:00",
+    "allday": false,
+    "location": "",
+    "desc": "Families welcome to visit Santa's workshop, noon-3 pm on 11/27, 2-4 pm on 11/28, and 3-6 pm, 12/5-6, 12-13 & 19, 127 State St. Free."
+   },
+   {
+    "title": "Santa on State",
+    "start": "2026-11-28T14:00:00-06:00",
+    "end": "2026-11-28T17:00:00-06:00",
+    "allday": false,
+    "location": "",
+    "desc": "Families welcome to visit Santa's workshop, noon-3 pm on 11/27, 2-4 pm on 11/28, and 3-6 pm, 12/5-6, 12-13 & 19, 127 State St. Free."
+   },
+   {
+    "title": "Santa on State",
+    "start": "2026-12-05T15:00:00-06:00",
+    "end": "2026-12-05T18:00:00-06:00",
+    "allday": false,
+    "location": "",
+    "desc": "Families welcome to visit Santa's workshop, noon-3 pm on 11/27, 2-4 pm on 11/28, and 3-6 pm, 12/5-6, 12-13 & 19, 127 State St. Free."
+   },
+   {
+    "title": "Santa on State",
+    "start": "2026-12-06T15:00:00-06:00",
+    "end": "2026-12-06T18:00:00-06:00",
+    "allday": false,
+    "location": "",
+    "desc": "Families welcome to visit Santa's workshop, noon-3 pm on 11/27, 2-4 pm on 11/28, and 3-6 pm, 12/5-6, 12-13 & 19, 127 State St. Free."
+   },
+   {
+    "title": "Bluegrass Jam with Down From the Hills",
+    "start": "2026-11-28T14:00:00-06:00",
+    "end": "2026-11-28T16:00:00-06:00",
+    "allday": false,
+    "location": "Brix Cider, Mount Horeb",
+    "desc": "2 pm fourth Saturdays. Free."
+   },
+   {
     "title": "Samtalä | Musicians in Dialogue",
     "start": "2026-11-28T14:30:00-06:00",
     "end": null,
@@ -1289,6 +1185,150 @@
     "allday": false,
     "location": "Orpheum Theater",
     "desc": "\"A Charlie Brown Christmas With Strings,\" with vocals by Madison Youth Choirs members, 3 & 7:30 pm. $70-$25."
+   },
+   {
+    "title": "Fire & Lights Parade",
+    "start": "2026-11-28T17:00:00-06:00",
+    "end": "2026-11-28T19:30:00-06:00",
+    "allday": false,
+    "location": "",
+    "desc": "Annual event, 11/28, Main Street and Sun Prairie Historical Library & Museum, with music by Sun Prairie Area Community Band 5 pm, Fusion Dance Academy and fire truck parade 6 pm, holiday tree lighting"
+   },
+   {
+    "title": "Pcaroldactyl",
+    "start": "2026-11-28T17:00:00-06:00",
+    "end": "2026-11-28T19:59:00-06:00",
+    "allday": false,
+    "location": "Lola's Hi/Lo Lounge",
+    "desc": "5 & 9 pm sets on 11/28. Free."
+   },
+   {
+    "title": "Pcaroldactyl",
+    "start": "2026-11-28T21:00:00-06:00",
+    "end": "2026-11-28T23:59:00-06:00",
+    "allday": false,
+    "location": "Lola's Hi/Lo Lounge",
+    "desc": "5 & 9 pm sets on 11/28. Free."
+   },
+   {
+    "title": "Charlie Painter Trio",
+    "start": "2026-11-28T17:00:00-06:00",
+    "end": "2026-11-28T20:00:00-06:00",
+    "allday": false,
+    "location": "Riley Tavern, Riley",
+    "desc": "Jazz."
+   },
+   {
+    "title": "Midnight Angel, The Salty Limes",
+    "start": "2026-11-28T17:30:00-06:00",
+    "end": "2026-11-28T22:00:00-06:00",
+    "allday": false,
+    "location": "Main Street Music, Brooklyn",
+    "desc": "$10."
+   },
+   {
+    "title": "Jim Erickson",
+    "start": "2026-11-28T17:30:00-06:00",
+    "end": "2026-11-28T20:30:00-06:00",
+    "allday": false,
+    "location": "Louisianne's, Etc., Middleton",
+    "desc": "Jazz, 5:30 pm Saturdays. Free. Closed on most holidays."
+   },
+   {
+    "title": "Jim Erickson",
+    "start": "2026-12-05T17:30:00-06:00",
+    "end": "2026-12-05T20:30:00-06:00",
+    "allday": false,
+    "location": "Louisianne's, Etc., Middleton",
+    "desc": "Jazz, 5:30 pm Saturdays. Free. Closed on most holidays."
+   },
+   {
+    "title": "Monkey Business Institute",
+    "start": "2026-11-28T17:30:00-06:00",
+    "end": "2026-11-28T20:00:00-06:00",
+    "allday": false,
+    "location": "Glass Nickel Pizza - Atwood Ave.",
+    "desc": "Improv, 5:30 pm (all ages, $12) & 8 pm (grownups, $18) Saturdays, Glass Nickel-Atwood."
+   },
+   {
+    "title": "Monkey Business Institute",
+    "start": "2026-12-05T17:30:00-06:00",
+    "end": "2026-12-05T20:00:00-06:00",
+    "allday": false,
+    "location": "Glass Nickel Pizza - Atwood Ave.",
+    "desc": "Improv, 5:30 pm (all ages, $12) & 8 pm (grownups, $18) Saturdays, Glass Nickel-Atwood."
+   },
+   {
+    "title": "Trivia",
+    "start": "2026-11-28T18:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Hidden Cave Cidery, Middleton",
+    "desc": "Hosted by Premier Trivia, 6 pm Saturdays. Free."
+   },
+   {
+    "title": "Trivia",
+    "start": "2026-12-05T18:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Hidden Cave Cidery, Middleton",
+    "desc": "Hosted by Premier Trivia, 6 pm Saturdays. Free."
+   },
+   {
+    "title": "Massacre, Cardiac Arrest, Bray Road, Maax, Ruin Dweller, The Faith Hills Have Eyes",
+    "start": "2026-11-28T18:00:00-06:00",
+    "end": "2026-11-28T23:30:00-06:00",
+    "allday": false,
+    "location": "Crucible",
+    "desc": "Metal. $30 ($26.50 adv.). Also: Bring nonperishable food donations for Second Harvest Foodbank."
+   },
+   {
+    "title": "David Hecht",
+    "start": "2026-11-28T18:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Bodihow Brewing Company, Oregon",
+    "desc": ""
+   },
+   {
+    "title": "UW Men's Hockey",
+    "start": "2026-11-29T17:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Kohl Center",
+    "desc": "vs. Canisius."
+   },
+   {
+    "title": "Dinner Detective",
+    "start": "2026-11-28T18:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "DoubleTree by Hilton Madison East",
+    "desc": "Interactive murder mystery dinner theater. $65.95 plus fees; advance tickets only."
+   },
+   {
+    "title": "Dinner Detective",
+    "start": "2026-12-05T18:00:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "DoubleTree by Hilton Madison East",
+    "desc": "Interactive murder mystery dinner theater. $65.95 plus fees; advance tickets only."
+   },
+   {
+    "title": "Anthony Cao",
+    "start": "2026-11-28T18:30:00-06:00",
+    "end": null,
+    "allday": false,
+    "location": "Ivory Room",
+    "desc": "Piano."
+   },
+   {
+    "title": "CeCe Erling, The Bridge",
+    "start": "2026-11-28T18:30:00-06:00",
+    "end": "2026-11-28T20:30:00-06:00",
+    "allday": false,
+    "location": "Cargo Coffee-East Washington",
+    "desc": "Free/donations."
    }
   ]
  }

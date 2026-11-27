@@ -2047,7 +2047,7 @@
  "https://www.capital-brewery.com/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T13:09:14.468542-06:00"
+  "checked": "2026-11-27T13:58:34.819533-06:00"
  },
  "https://www.caseys.com": {
   "ok": null,
@@ -3052,12 +3052,7 @@
  "https://www.workingdraftbeer.com/events/2026/11/27/makers-market": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T13:09:18.779924-06:00"
- },
- "https://www.ticketmaster.com/event/Z7r9jZ1A70Z-4": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-20T22:00:12.342979-06:00"
+  "checked": "2026-11-27T13:58:33.269921-06:00"
  },
  "https://www.ticketmaster.com/event/Z7r9jZ1A7OzG0": {
   "ok": null,
@@ -3189,11 +3184,6 @@
   "why": "",
   "checked": "2026-11-24T01:09:05.718179-06:00"
  },
- "https://www.cafecoda.club/events-1/karaoke-nabjl-22c3f-gw57n-2m79c-a47wx-jblcs-4bcsl-mkd7s-ctsf4-p4hcx-t4n3x-xd9mh-c5tsy-cpczx-w6dsr-tg854-3pze2-858ht": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-24T01:09:07.905362-06:00"
- },
  "https://www.turnkeymadison.com/working-menu": {
   "ok": true,
   "why": "",
@@ -3307,7 +3297,7 @@
  "https://www.cafecoda.club/events-1/reggae-night-dj-sneaky-gator-8gnpe-lan8j": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T13:09:18.779930-06:00"
+  "checked": "2026-11-27T13:58:34.819577-06:00"
  },
  "https://thelonegirl.com/event/magic-rob-every-friday-tableside-2-2-2-3-2-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2/": {
   "ok": true,
@@ -3524,11 +3514,6 @@
   "why": "",
   "checked": "2026-11-23T16:40:31.058728-06:00"
  },
- "https://www.madisoncomedy.com/event/thanksgiving26/2026-11-26/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-24T01:09:05.718174-06:00"
- },
  "https://www.madisoncomedy.com/event/thanksgiving26/2026-11-28/1/": {
   "ok": true,
   "why": "",
@@ -3634,11 +3619,6 @@
   "why": "",
   "checked": "2026-11-25T14:30:33.203071-06:00"
  },
- "https://statestreetbrats.com/event/minnesota-wisconsin-20261127/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-25T23:04:12.810312-06:00"
- },
  "https://www.cafecoda.club/events-1/sext-saturday-dj-ironmike-tdp-hosted-by-april-k-8jkxc": {
   "ok": true,
   "why": "",
@@ -3718,5 +3698,15 @@
   "ok": true,
   "why": "",
   "checked": "2026-11-26T23:04:40.480677-06:00"
+ },
+ "https://statestreetbrats.com/event/bucks-pistons-20261127/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-27T13:58:34.819564-06:00"
+ },
+ "https://www.cafecoda.club/events-1/night-of-the-improvisor-benefit-z75az": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-27T13:58:34.819571-06:00"
  }
 }

@@ -1,25 +1,11 @@
 {
- "generated_at": "2026-11-26T23:04:35-06:00",
+ "generated_at": "2026-11-27T13:58:32-06:00",
  "venues_checked": 234,
  "venues_with_events": 61,
  "venues_with_feeds": 83,
- "events": 352,
- "filtered_out": 136,
+ "events": 361,
+ "filtered_out": 150,
  "venues": [
-  {
-   "name": "AI page reading",
-   "kind": "source",
-   "website": "",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 164,
-   "error": "",
-   "calls": 55,
-   "tokens_in": 79435,
-   "tokens_out": 20441,
-   "est_cost_usd": 0.0182
-  },
   {
    "name": "Isthmus calendar",
    "kind": "source",
@@ -27,8 +13,22 @@
    "feeds": [
     "calendar"
    ],
-   "raw_events": 161,
-   "error": "used today's copy (read once a day)"
+   "raw_events": 166,
+   "error": ""
+  },
+  {
+   "name": "AI page reading",
+   "kind": "source",
+   "website": "",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 153,
+   "error": "",
+   "calls": 21,
+   "tokens_in": 32914,
+   "tokens_out": 9278,
+   "est_cost_usd": 0.0079
   },
   {
    "name": "Bayview Community Center",
@@ -38,7 +38,7 @@
     "tribe",
     "jsonld"
    ],
-   "raw_events": 82,
+   "raw_events": 81,
    "error": ""
   },
   {
@@ -52,7 +52,7 @@
     "jsonld",
     "jsonld"
    ],
-   "raw_events": 72,
+   "raw_events": 74,
    "error": ""
   },
   {
@@ -76,8 +76,19 @@
    "feeds": [
     "ticketmaster"
    ],
-   "raw_events": 36,
+   "raw_events": 35,
    "error": ""
+  },
+  {
+   "name": "E.D. Locke Public Library",
+   "kind": "library",
+   "website": "https://www.mcfarlandlibrary.org/home",
+   "feeds": [
+    "ical",
+    "ical"
+   ],
+   "raw_events": 34,
+   "error": "ical: ConnectionError: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //www.mcfarlandlibrary.org/calendar/month (Caused by NameResolutionError(\"HTTPSConnection(host='https"
   },
   {
    "name": "Working Draft Beer Company",
@@ -132,16 +143,14 @@
    "error": ""
   },
   {
-   "name": "E.D. Locke Public Library",
-   "kind": "library",
-   "website": "https://www.mcfarlandlibrary.org/home",
+   "name": "Crucible",
+   "kind": "bar",
+   "website": "https://www.cruciblemadison.com/",
    "feeds": [
-    "ical",
-    "ical",
     "ai"
    ],
-   "raw_events": 11,
-   "error": "ical: ConnectionError: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //www.mcfarlandlibrary.org/calendar/month (Caused by NameResolutionError(\"HTTPSConnection(host='https"
+   "raw_events": 12,
+   "error": ""
   },
   {
    "name": "Lone Girl Tap Room And Pizza Company",
@@ -158,16 +167,6 @@
    "error": ""
   },
   {
-   "name": "Crucible",
-   "kind": "bar",
-   "website": "https://www.cruciblemadison.com/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 10,
-   "error": ""
-  },
-  {
    "name": "Gib's Bar",
    "kind": "bar",
    "website": "https://www.gibs.bar/",
@@ -178,13 +177,13 @@
    "error": ""
   },
   {
-   "name": "Lazy Oaf Lounge",
-   "kind": "bar",
-   "website": "https://www.lazyoaflounge.com/",
+   "name": "Sun Prairie Public Library",
+   "kind": "library",
+   "website": "https://www.sunprairiepubliclibrary.org/",
    "feeds": [
     "ai"
    ],
-   "raw_events": 9,
+   "raw_events": 10,
    "error": ""
   },
   {
@@ -198,9 +197,9 @@
    "error": ""
   },
   {
-   "name": "Sun Prairie Public Library",
-   "kind": "library",
-   "website": "https://www.sunprairiepubliclibrary.org/",
+   "name": "Lazy Oaf Lounge",
+   "kind": "bar",
+   "website": "https://www.lazyoaflounge.com/",
    "feeds": [
     "ai"
    ],
@@ -218,9 +217,9 @@
    "error": ""
   },
   {
-   "name": "High Noon Saloon",
+   "name": "The Kickback",
    "kind": "bar",
-   "website": "https://high-noon.com/",
+   "website": "https://thekickback.bar/",
    "feeds": [
     "ai"
    ],
@@ -238,9 +237,9 @@
    "error": ""
   },
   {
-   "name": "The Kickback",
+   "name": "High Noon Saloon",
    "kind": "bar",
-   "website": "https://thekickback.bar/",
+   "website": "https://high-noon.com/",
    "feeds": [
     "ai"
    ],
@@ -312,16 +311,6 @@
    "name": "Imagination Center",
    "kind": "library",
    "website": "https://www.madisonpubliclibrary.org/locations/imagination-center",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 4,
-   "error": ""
-  },
-  {
-   "name": "Laurel Tavern",
-   "kind": "bar",
-   "website": "http://www.thelaureltavern.com",
    "feeds": [
     "ai"
    ],
@@ -424,9 +413,9 @@
    "error": ""
   },
   {
-   "name": "Monkeyshines Bar & Grill",
+   "name": "Laurel Tavern",
    "kind": "bar",
-   "website": "http://www.monkeyshinesbarandgrill.com/",
+   "website": "http://www.thelaureltavern.com",
    "feeds": [
     "ai"
    ],
@@ -437,16 +426,6 @@
    "name": "Oscar Rennebohm Library",
    "kind": "library",
    "website": "https://library.edgewood.edu/home",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 3,
-   "error": ""
-  },
-  {
-   "name": "Overture Center for the Arts",
-   "kind": "venue",
-   "website": "http://overturecenter.com",
    "feeds": [
     "ai"
    ],
@@ -558,6 +537,16 @@
    "error": ""
   },
   {
+   "name": "Monkeyshines Bar & Grill",
+   "kind": "bar",
+   "website": "http://www.monkeyshinesbarandgrill.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 2,
+   "error": ""
+  },
+  {
    "name": "Mother Fool's",
    "kind": "cafe",
    "website": "https://www.motherfools.com/",
@@ -571,6 +560,16 @@
    "name": "Orpheum Theatre",
    "kind": "venue",
    "website": "https://madisonorpheum.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 2,
+   "error": ""
+  },
+  {
+   "name": "Overture Center for the Arts",
+   "kind": "venue",
+   "website": "http://overturecenter.com",
    "feeds": [
     "ai"
    ],
@@ -1316,7 +1315,7 @@
   {
    "name": "Madison Chocolate Company",
    "kind": "cafe",
-   "website": "https://madisonchocolate.com",
+   "website": "https://www.madisonchocolatecompany.com",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1324,7 +1323,7 @@
   {
    "name": "Madison Chocolate Company",
    "kind": "cafe",
-   "website": "https://www.madisonchocolatecompany.com",
+   "website": "https://madisonchocolate.com",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1388,7 +1387,7 @@
   {
    "name": "Moka",
    "kind": "cafe",
-   "website": "https://www.mymokacoffee.com/",
+   "website": "https://mymokacoffee.com/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1396,7 +1395,7 @@
   {
    "name": "Moka",
    "kind": "cafe",
-   "website": "https://mymokacoffee.com/",
+   "website": "https://www.mymokacoffee.com/",
    "feeds": [],
    "raw_events": 0,
    "error": ""

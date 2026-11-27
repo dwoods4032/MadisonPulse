@@ -93,9 +93,9 @@
   ]
  },
  "https://www.doubletapbeercade.com/location/madison/": {
-  "hash": "ca0f8674ae4ce4e814e526310e3b7e4eec0e8b75",
-  "asked": "2026-11-26T23:03:11-06:00",
-  "on": "2026-11-26",
+  "hash": "3f5acd04079a8422d52cbb49dd575fe18941130d",
+  "asked": "2026-11-27T13:56:53-06:00",
+  "on": "2026-11-27",
   "events": []
  },
  "https://www.dexterspubmadison.com/fish-fry": {
@@ -574,25 +574,16 @@
  },
  "https://www.lazyoaflounge.com/specials": {
   "hash": "4a2d517e6293fd98262af8eca6d9f981c4e79283",
-  "asked": "2026-11-24T01:05:01-06:00",
-  "on": "2026-11-24",
+  "asked": "2026-11-27T13:56:59-06:00",
+  "on": "2026-11-27",
   "events": [
-   {
-    "title": "Taco Tuesday",
-    "date": "2026-11-24",
-    "start": null,
-    "end": null,
-    "price": null,
-    "description": "Weekly Taco Tuesday special at Lazy Oaf Lounge.",
-    "category": "food"
-   },
    {
     "title": "Taco Tuesday",
     "date": "2026-12-01",
     "start": null,
     "end": null,
     "price": null,
-    "description": "Weekly Taco Tuesday special at Lazy Oaf Lounge.",
+    "description": "Weekly Taco Tuesday special at Lazy Oaf Lounge; no time or price listed.",
     "category": "food"
    },
    {
@@ -601,7 +592,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Weekly Taco Tuesday special at Lazy Oaf Lounge.",
+    "description": "Weekly Taco Tuesday special at Lazy Oaf Lounge; no time or price listed.",
     "category": "food"
    },
    {
@@ -610,7 +601,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Weekly Friday fish fry at Lazy Oaf Lounge.",
+    "description": "Weekly Friday fish fry special at Lazy Oaf Lounge; no time or price listed.",
     "category": "food"
    },
    {
@@ -619,7 +610,16 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Weekly Friday fish fry at Lazy Oaf Lounge.",
+    "description": "Weekly Friday fish fry special at Lazy Oaf Lounge; no time or price listed.",
+    "category": "food"
+   },
+   {
+    "title": "Friday Fish Fry",
+    "date": "2026-12-11",
+    "start": null,
+    "end": null,
+    "price": null,
+    "description": "Weekly Friday fish fry special at Lazy Oaf Lounge; no time or price listed.",
     "category": "food"
    }
   ]
@@ -699,20 +699,10 @@
   ]
  },
  "https://wandosbar.com/madison-downtown-wando-s-events-happenings": {
-  "hash": "3c335623b8c57f9a0586583f22c9a56c8e810824",
-  "asked": "2026-11-25T14:28:50-06:00",
-  "on": "2026-11-25",
-  "events": [
-   {
-    "title": "Thanksgiving",
-    "date": "2026-11-26",
-    "start": "11:00",
-    "end": "02:30",
-    "price": null,
-    "description": "Thanksgiving Day celebratory feast at Wando's, for friends and family.",
-    "category": "food"
-   }
-  ]
+  "hash": "969820a5d66b6e583a005e08e32bf533d3c4e81b",
+  "asked": "2026-11-27T13:57:01-06:00",
+  "on": "2026-11-27",
+  "events": []
  },
  "https://tipsycowmadison.com/": {
   "hash": "b27fbdcf56b172bb5012f44d59314c6f8a76bd35",
@@ -1028,9 +1018,9 @@
   "events": []
  },
  "https://thekickback.bar/upcoming-events/": {
-  "hash": "94bdee530d3ea676633e418eaf6021bb8922dc48",
-  "asked": "2026-11-24T23:26:29-06:00",
-  "on": "2026-11-24",
+  "hash": "68c73a1f06d2c38fa3f07f75fe277e46da8ec26e",
+  "asked": "2026-11-27T13:57:09-06:00",
+  "on": "2026-11-27",
   "events": [
    {
     "title": "Friday Night Strikes",
@@ -1038,7 +1028,7 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Craft beer and pinball night.",
+    "description": "Craft beer and pinball night",
     "category": "other"
    },
    {
@@ -1047,7 +1037,7 @@
     "start": "18:30",
     "end": null,
     "price": null,
-    "description": "Tuesday trivia.",
+    "description": "Tuesday trivia night",
     "category": "trivia"
    },
    {
@@ -1056,7 +1046,7 @@
     "start": "18:30",
     "end": null,
     "price": null,
-    "description": "Craft beer, Guinness and pinball league night.",
+    "description": "Pinball league night with Guinness and craft beer",
     "category": "other"
    },
    {
@@ -1065,7 +1055,7 @@
     "start": "13:00",
     "end": null,
     "price": null,
-    "description": "Ultimate Super Smash Bros tournament, summit qualifier.",
+    "description": "Ultimate Super Smash Bros tournament, summit qualifier",
     "category": "sports"
    },
    {
@@ -1074,7 +1064,7 @@
     "start": "13:00",
     "end": null,
     "price": null,
-    "description": "Drag bingo hosted by Cynthia Mooseknuckle, with New Glarus Brewing Co.",
+    "description": "Drag bingo with Cynthia Mooseknuckle, with New Glarus Brewing Co.",
     "category": "bingo"
    },
    {
@@ -1083,8 +1073,26 @@
     "start": "18:30",
     "end": null,
     "price": null,
-    "description": "Tuesday trivia.",
+    "description": "Tuesday trivia night",
     "category": "trivia"
+   },
+   {
+    "title": "Belles & Chimes: Ladies' Pinball Night!",
+    "date": "2026-12-09",
+    "start": "18:30",
+    "end": null,
+    "price": null,
+    "description": "Ladies' pinball night with craft beer and match play",
+    "category": "other"
+   },
+   {
+    "title": "Friday Night Strikes",
+    "date": "2026-12-11",
+    "start": "19:00",
+    "end": null,
+    "price": null,
+    "description": "Craft beer and pinball night",
+    "category": "other"
    }
   ]
  },
@@ -1135,9 +1143,9 @@
   ]
  },
  "https://www.mymonona.com/1587/Special-Events": {
-  "hash": "5f04e9ee1060b9b001de75030f02b91249ba329f",
-  "asked": "2026-11-25T23:03:05-06:00",
-  "on": "2026-11-25",
+  "hash": "767403c421b8e22a7a018d0e2faed366ac25a309",
+  "asked": "2026-11-27T13:57:10-06:00",
+  "on": "2026-11-27",
   "events": [
    {
     "title": "Opening Day of Lake Ridge Bank River Rink",
@@ -1145,16 +1153,16 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Opening day of the Lake Ridge Bank River Rink, listed on the Monona Special Events calendar.",
+    "description": "Opening day of the Lake Ridge Bank River Rink in Monona.",
     "category": "other"
    },
    {
-    "title": "Light the Ice Ceremony - Rescheduled",
+    "title": "Light the Ice Ceremony (Rescheduled)",
     "date": "2026-12-05",
     "start": null,
     "end": null,
     "price": null,
-    "description": "Light the Ice Ceremony, rescheduled, listed on the Monona Special Events calendar.",
+    "description": "Light the Ice Ceremony at Lake Ridge Bank River Rink, rescheduled per the site's alert.",
     "category": "other"
    }
   ]
@@ -1178,9 +1186,9 @@
   "events": []
  },
  "https://www.mymonona.com/2781/Trivia-Nights": {
-  "hash": "bdf7cd9753613d133a5f997d37cc39c6261dfcea",
-  "asked": "2026-11-26T23:03:34-06:00",
-  "on": "2026-11-26",
+  "hash": "63c1592d7a76024a7708e08faa4b2d031240c8e0",
+  "asked": "2026-11-27T13:57:11-06:00",
+  "on": "2026-11-27",
   "events": []
  },
  "https://union.wisc.edu/host-your-event": {
@@ -1232,9 +1240,9 @@
   "events": []
  },
  "https://merciescoffeewi.com/": {
-  "hash": "a781db886358ea0fd622e2310381fe57d15d2351",
-  "asked": "2026-11-26T23:03:47-06:00",
-  "on": "2026-11-26",
+  "hash": "59e0afd5b6f142eb213f929ae3abed2597cf4b28",
+  "asked": "2026-11-27T13:57:25-06:00",
+  "on": "2026-11-27",
   "events": []
  },
  "https://motherfools.com/event/20261106/mad-city-story-slam-rebellion": {
@@ -1250,9 +1258,9 @@
   "events": []
  },
  "https://mymokacoffee.com/pages/events": {
-  "hash": "e986fb19daf3fdd4b49ced3db90904e2e0c857de",
-  "asked": "2026-11-26T23:03:46-06:00",
-  "on": "2026-11-26",
+  "hash": "26ecfcda470bc076125bfff1da6a4b2dc3d28c0c",
+  "asked": "2026-11-27T13:57:24-06:00",
+  "on": "2026-11-27",
   "events": []
  },
  "https://www.livsdrinks.com/events/": {
@@ -1286,9 +1294,9 @@
   "events": []
  },
  "https://wakenbakery.net/events/": {
-  "hash": "ba525b5bf448423c2028198c7a4adf68345fb7b1",
-  "asked": "2026-11-24T01:07:14-06:00",
-  "on": "2026-11-24",
+  "hash": "31a538631b3deac717fa93fb2c0e97e919137ac0",
+  "asked": "2026-11-27T13:57:41-06:00",
+  "on": "2026-11-27",
   "events": []
  },
  "https://thesowsearwi.com/blogs/news/autumn-2025-events-classes-at-the-sows-ear": {
@@ -1299,8 +1307,8 @@
  },
  "https://www.micentro.org/events": {
   "hash": "982f7b9db3cee9e0ea50da48704c7c51fd0c1370",
-  "asked": "2026-11-24T01:07:14-06:00",
-  "on": "2026-11-24",
+  "asked": "2026-11-27T13:57:46-06:00",
+  "on": "2026-11-27",
   "events": []
  },
  "https://www.madisonmuslims.org/events": {
@@ -1378,8 +1386,8 @@
  },
  "https://www.cityofmadison.com/parks/events": {
   "hash": "32f4d6bbffa5b71465403f8f7a31ba77669b0c7b",
-  "asked": "2026-11-24T01:07:35-06:00",
-  "on": "2026-11-24",
+  "asked": "2026-11-27T13:57:50-06:00",
+  "on": "2026-11-27",
   "events": [
    {
     "title": "Bird & Nature Adventures | Edna Taylor",
@@ -1405,7 +1413,16 @@
     "start": "09:00",
     "end": "15:00",
     "price": null,
-    "description": "Holiday arts and crafts fair at Warner Park Community Recreation Center, 1625 Northport Drive.",
+    "description": "Arts and crafts fair at Warner Park Community Recreation Center, 1625 Northport Drive.",
+    "category": "other"
+   },
+   {
+    "title": "Warner Family Fun Night",
+    "date": "2026-12-11",
+    "start": "17:30",
+    "end": "19:30",
+    "price": null,
+    "description": "Family fun night at Warner Park Community Recreation Center, 1625 Northport Drive.",
     "category": "other"
    }
   ]
@@ -1463,9 +1480,9 @@
   "events": []
  },
  "https://www.sunprairiepubliclibrary.org/home-delivery-service": {
-  "hash": "bc10cae391e5c3dc1b7d4733ad9046ee4e8989c3",
-  "asked": "2026-11-25T23:03:50-06:00",
-  "on": "2026-11-25",
+  "hash": "f806bb8e74647ec119b033a0a9a3d9889b595287",
+  "asked": "2026-11-27T13:57:56-06:00",
+  "on": "2026-11-27",
   "events": [
    {
     "title": "Teen Creativity Club",
@@ -1473,7 +1490,7 @@
     "start": "16:00",
     "end": "18:00",
     "price": null,
-    "description": "Creativity club for teens at Sun Prairie Public Library.",
+    "description": "Teen creativity club at Sun Prairie Public Library, ages teens.",
     "category": "other"
    },
    {
@@ -1491,7 +1508,7 @@
     "start": "18:30",
     "end": "19:30",
     "price": null,
-    "description": "Preview of The Nutcracker by Dance Wisconsin, for families and young children.",
+    "description": "Preview of The Nutcracker by Dance Wisconsin, family and children's event.",
     "category": "dance"
    },
    {
@@ -1501,6 +1518,15 @@
     "end": "20:00",
     "price": null,
     "description": "Evening adult mystery book club at Sun Prairie Public Library.",
+    "category": "other"
+   },
+   {
+    "title": "Homeschool Hangout",
+    "date": "2026-12-03",
+    "start": "10:00",
+    "end": "12:00",
+    "price": null,
+    "description": "Homeschool hangout for families, children and teens at Sun Prairie Public Library.",
     "category": "other"
    }
   ]
@@ -1719,26 +1745,17 @@
   ]
  },
  "https://www.overture.org/tickets-events/": {
-  "hash": "931e5fe93d2088c0be3e28f868e465703f9c1b69",
-  "asked": "2026-11-25T23:04:02-06:00",
-  "on": "2026-11-25",
+  "hash": "b6a7b79ed1fefac826ca109587269300a4267fcc",
+  "asked": "2026-11-27T13:58:07-06:00",
+  "on": "2026-11-27",
   "events": [
-   {
-    "title": "Cash Box Kings",
-    "date": "2026-11-27",
-    "start": null,
-    "end": null,
-    "price": null,
-    "description": "Multiple showtimes at Overture Center.",
-    "category": "music"
-   },
    {
     "title": "Mark Hayward",
     "date": "2026-11-28",
     "start": null,
     "end": null,
     "price": null,
-    "description": "Multiple showtimes at Overture Center.",
+    "description": "Overture event listed with multiple showtimes; no specific time given.",
     "category": "music"
    },
    {
@@ -1747,7 +1764,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Multiple showtimes at Overture Center.",
+    "description": "Overture event listed with multiple showtimes; no specific time given.",
     "category": "music"
    }
   ]
@@ -1839,9 +1856,9 @@
   "events": []
  },
  "https://www.veronapubliclibrary.org/": {
-  "hash": "142836144da901c9666695a7597ac9c75922deee",
-  "asked": "2026-11-25T23:03:48-06:00",
-  "on": "2026-11-25",
+  "hash": "07770d59746b909f3cbc52d20870b07edb0cd485",
+  "asked": "2026-11-27T13:57:54-06:00",
+  "on": "2026-11-27",
   "events": []
  },
  "https://www.waunakee.gov/calendar.aspx?CID=25": {
@@ -1869,20 +1886,10 @@
   "events": []
  },
  "https://high-noon.com/event/dogpark/": {
-  "hash": "23b1b7a7c540bb6d539a0655a243085a55cbc0c9",
-  "asked": "2026-11-26T23:03:21-06:00",
-  "on": "2026-11-26",
-  "events": [
-   {
-    "title": "Daisy Grenade with Boyish",
-    "date": "2026-12-03",
-    "start": "20:00",
-    "end": null,
-    "price": null,
-    "description": "FPC Live presents Daisy Grenade with Boyish at High Noon Saloon. Doors 7:00 pm, show 8:00 pm. Listed under Related Events on the Dogpark page.",
-    "category": "music"
-   }
-  ]
+  "hash": "c27f054d95d6799094e5e3fd1219b51d675cfcbb",
+  "asked": "2026-11-27T13:56:59-06:00",
+  "on": "2026-11-27",
+  "events": []
  },
  "https://thekickback.bar/premier-trivia-tuesday-nov-3/": {
   "hash": "25992f3a707c36f4ebbe1a9a479acec37b4b7959",
@@ -1926,35 +1933,17 @@
   ]
  },
  "https://www.cruciblemadison.com/calendar": {
-  "hash": "b2f3d4d8f338d2b85d00dced60ab07656e34ead6",
-  "asked": "2026-11-24T15:11:24-06:00",
-  "on": "2026-11-24",
+  "hash": "8d7c3de40d3542826aa4ee20a117cf4d25152cba",
+  "asked": "2026-11-27T13:57:00-06:00",
+  "on": "2026-11-27",
   "events": [
    {
-    "title": "Lucid Tuesdays: Friendsgiving",
-    "date": "2026-11-24",
-    "start": "19:00",
-    "end": null,
-    "price": 5,
-    "description": "21+. Free walking taco bar, bring a dish to pass if you like. Open decks 8-9pm.",
-    "category": "music"
-   },
-   {
-    "title": "Crucible Karaoke",
-    "date": "2026-11-25",
-    "start": "18:30",
-    "end": null,
-    "price": 0,
-    "description": "21+. Doors 6pm, singing starts 6:30pm. Powered by Songbooks Online, Show ID SPIKE.",
-    "category": "karaoke"
-   },
-   {
-    "title": "The Rocky Horror Picture Show Matinee",
+    "title": "The Rocky Horror Picture Show! (Matinee)",
     "date": "2026-11-27",
     "start": "14:00",
     "end": null,
     "price": 8,
-    "description": "18+. Daytime screening with Velvet Darkness shadow cast. Doors 1pm. $13 under 21.",
+    "description": "Daytime shadow-cast screening of Rocky Horror, doors 1:00 PM, $13 under 21. 18+.",
     "category": "film"
    },
    {
@@ -1963,7 +1952,7 @@
     "start": "20:30",
     "end": null,
     "price": null,
-    "description": "21+. Monthly event. No pictures or recordings of any kind allowed, including selfies.",
+    "description": "21+ monthly event. No pictures or recordings allowed.",
     "category": "other"
    },
    {
@@ -1972,7 +1961,7 @@
     "start": "18:00",
     "end": null,
     "price": 25,
-    "description": "18+. Final RK Metal Promotions show in Madison. $25 advance, $30 day of show. Also Ruin Dweller and The Faith Hill Have Eyes.",
+    "description": "Final RK Metal Promotions show in Madison. $25 advance, $30 day of show. 18+.",
     "category": "music"
    },
    {
@@ -1981,7 +1970,7 @@
     "start": "13:00",
     "end": "17:00",
     "price": 5,
-    "description": "All ages. 5th annual holiday bazaar. $5 at the door, under 12 free.",
+    "description": "Annual holiday bazaar, 5th year. $5 at the door, under 12 free. All ages.",
     "category": "other"
    },
    {
@@ -1989,17 +1978,17 @@
     "date": "2026-12-02",
     "start": "18:30",
     "end": null,
-    "price": 0,
-    "description": "21+. Doors 6pm, singing starts 6:30pm. Powered by Songbooks Online, Show ID SPIKE.",
+    "price": null,
+    "description": "Brain Monkeys Media karaoke, doors 6:00 PM, singing from 6:30. Show ID: SPIKE. 21+.",
     "category": "karaoke"
    },
    {
-    "title": "Brand Spankin' Newbie Night",
+    "title": "Brand Spankin Newbie Night",
     "date": "2026-12-03",
     "start": "19:00",
     "end": null,
     "price": 10,
-    "description": "21+. Burlesque showcase of new performers, presented by Cherry Popper. Doors 6:30pm.",
+    "description": "Burlesque showcase with brand new performers, presented by Cherry Popper. Doors 6:30 PM. 21+.",
     "category": "other"
    },
    {
@@ -2008,16 +1997,16 @@
     "start": "21:00",
     "end": null,
     "price": 5,
-    "description": "21+. Mid-week Krampus dance party presented by EBM Worldwide and Crucible.",
+    "description": "EBM Worldwide and Crucible mid-week Krampus dance party. $5 cover, 9 PM doors. 21+.",
     "category": "dance"
    },
    {
-    "title": "Crucible Winter Spectacular",
+    "title": "Crucible Winter Spectacular!",
     "date": "2026-12-04",
     "start": "20:00",
     "end": null,
     "price": 20,
-    "description": "21+. End-of-year variety show with burlesque, aerial, vocal and fire performance. Headliners Dalia Fatale and Tila von Twirl. Doors 7pm, cocktail hour before show. $20 listed, $25 at the door.",
+    "description": "End-of-year variety show with burlesque, aerial, vocal and fire acts. Headliners Dalia Fatale and Tila von Twirl. Doors 7:00 PM. 21+.",
     "category": "other"
    },
    {
@@ -2026,8 +2015,35 @@
     "start": "20:30",
     "end": null,
     "price": 8,
-    "description": "21+. Hard dance beats with tag-team sets hosted by Apollo Marquez. $8 if dressed up, $25 otherwise.",
+    "description": "Hard dance beats with tag-team DJ sets hosted by Apollo Marquez. $8 if dressed up, $25 otherwise. 21+.",
     "category": "dance"
+   },
+   {
+    "title": "Crucible Karaoke",
+    "date": "2026-12-09",
+    "start": "18:30",
+    "end": null,
+    "price": null,
+    "description": "Brain Monkeys Media karaoke, doors 6:00 PM, singing from 6:30. Show ID: SPIKE. 21+.",
+    "category": "karaoke"
+   },
+   {
+    "title": "Sensation: A Kinky UV Dance Party",
+    "date": "2026-12-10",
+    "start": "20:00",
+    "end": null,
+    "price": 10,
+    "description": "UV blacklight edition of Sensation with a UV body paint station. Doors 8:00 PM. 21+.",
+    "category": "dance"
+   },
+   {
+    "title": "Oh, My! A Stand-Up & Burlesque Variety Show",
+    "date": "2026-12-11",
+    "start": "19:00",
+    "end": null,
+    "price": 15,
+    "description": "Crucible Madison and Cheshire Cat Comedy show with Quinn James, Shawn Banks, Evan Pack, hosted by Sasha Rosser. $15 advance, $20 day of show, $10 cash with student ID. Doors 6:30 PM.",
+    "category": "comedy"
    }
   ]
  },
@@ -2109,9 +2125,9 @@
   "events": []
  },
  "https://www.sunprairiepubliclibrary.org/art-committee-and-gallery-shows": {
-  "hash": "22350db37c90ec7eaa22955fcb7871adeb8e002b",
-  "asked": "2026-11-25T23:03:53-06:00",
-  "on": "2026-11-25",
+  "hash": "dc08c364f9ccbacadc67c43b8b605bc47168aad7",
+  "asked": "2026-11-27T13:58:00-06:00",
+  "on": "2026-11-27",
   "events": [
    {
     "title": "Teen Creativity Club",
@@ -2119,7 +2135,7 @@
     "start": "16:00",
     "end": "18:00",
     "price": null,
-    "description": "Teen Creativity Club at Sun Prairie Public Library. Age group: teens.",
+    "description": "Creativity club for teens at Sun Prairie Public Library.",
     "category": "other"
    },
    {
@@ -2128,7 +2144,7 @@
     "start": "13:30",
     "end": "14:30",
     "price": null,
-    "description": "Mystery Book Club at Sun Prairie Public Library. Age group: adults.",
+    "description": "Mystery book club for adults at Sun Prairie Public Library.",
     "category": "other"
    },
    {
@@ -2137,7 +2153,7 @@
     "start": "18:30",
     "end": "19:30",
     "price": null,
-    "description": "Dance Wisconsin preview of The Nutcracker at Sun Prairie Public Library. Age group: family and children.",
+    "description": "Preview of The Nutcracker by Dance Wisconsin, for families and children.",
     "category": "dance"
    },
    {
@@ -2146,7 +2162,16 @@
     "start": "19:00",
     "end": "20:00",
     "price": null,
-    "description": "Mystery Book Club evening session at Sun Prairie Public Library. Age group: adults.",
+    "description": "Evening mystery book club for adults at Sun Prairie Public Library.",
+    "category": "other"
+   },
+   {
+    "title": "Homeschool Hangout",
+    "date": "2026-12-03",
+    "start": "10:00",
+    "end": "12:00",
+    "price": null,
+    "description": "Homeschool hangout for families, children and teens at Sun Prairie Public Library.",
     "category": "other"
    }
   ]
@@ -2201,9 +2226,9 @@
   "events": []
  },
  "https://wandosbar.com/madison-downtown-wando-s-gameday-specials": {
-  "hash": "feb57306152aeaaeeb70e982bf3cec9da17c832b",
-  "asked": "2026-11-26T14:13:21-06:00",
-  "on": "2026-11-26",
+  "hash": "1eff62d613de25ccd53ab45d494c1d05a80f2a49",
+  "asked": "2026-11-27T13:57:03-06:00",
+  "on": "2026-11-27",
   "events": []
  },
  "https://thekickback.bar/premier-trivia-tuesday-nov-17/": {
@@ -2619,8 +2644,8 @@
  },
  "https://www.cruciblemadison.com/events/2026-11/deviance": {
   "hash": "dc7332ed48f28267a16dee08927aafef0ffea1f3",
-  "asked": "2026-11-24T01:04:58-06:00",
-  "on": "2026-11-24",
+  "asked": "2026-11-27T13:57:03-06:00",
+  "on": "2026-11-27",
   "events": [
    {
     "title": "Deviance",
@@ -2628,7 +2653,7 @@
     "start": "20:30",
     "end": null,
     "price": null,
-    "description": "21+ monthly fetish/BDSM event with DJ Spike and DJ psych0tron. $12 in fetish gear, $20 in street clothes. No pictures or recordings allowed.",
+    "description": "21+ monthly fetish/BDSM event with DJ Spike and DJ psych0tron on the decks. Admission is $12 in fetish gear or $20 in street clothes.",
     "category": "music"
    }
   ]
@@ -2669,8 +2694,8 @@
  },
  "https://motherfools.com/event/20261204/mad-city-story-slam-surprise": {
   "hash": "e33eb9adb1bcec571cee214ea2346af0e828e332",
-  "asked": "2026-11-24T01:06:28-06:00",
-  "on": "2026-11-24",
+  "asked": "2026-11-27T13:57:25-06:00",
+  "on": "2026-11-27",
   "events": [
    {
     "title": "Mad City Story Slam: Surprise",
@@ -2678,15 +2703,15 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Share a 5-minute true, personal story at the mic, or come to listen. Theme: surprising moments and twists. Sign-up starts at 6:30.",
+    "description": "Share a 5-minute true, personal story at the mic, or come to listen. Theme: surprises and twists. Sign-up starts at 6:30.",
     "category": "open_mic"
    }
   ]
  },
  "https://www.motherfools.com/event/20261204/mad-city-story-slam-surprise": {
   "hash": "e33eb9adb1bcec571cee214ea2346af0e828e332",
-  "asked": "2026-11-24T01:06:30-06:00",
-  "on": "2026-11-24",
+  "asked": "2026-11-27T13:57:27-06:00",
+  "on": "2026-11-27",
   "events": [
    {
     "title": "Mad City Story Slam: Surprise",
@@ -2694,7 +2719,7 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Share a 5-minute true, personal story at the mic, or come to listen. Sign-up starts at 6:30pm.",
+    "description": "Monthly story slam: share a 5-minute true personal story at the mic, or come to listen. Sign-up starts at 6:30 pm. Theme: surprises and twists.",
     "category": "open_mic"
    }
   ]

@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-11-26T23:04:35-06:00",
- "total_events": 352,
- "in_more_than_one_source": 11,
+ "generated_at": "2026-11-27T13:58:32-06:00",
+ "total_events": 361,
+ "in_more_than_one_source": 12,
  "sources": {
   "AI page reading": {
-   "events": 114,
-   "unique_events": 108,
+   "events": 109,
+   "unique_events": 102,
    "overlap": {
-    "Isthmus": 1,
+    "Isthmus": 2,
     "Ticketmaster": 5,
     "Venue websites": 0
    },
-   "venues": 31,
+   "venues": 30,
    "unique_venues": [
     "Aftershock Classic Arcade",
     "Arts + Literature Laboratory",
@@ -20,7 +20,6 @@
     "Crystal Corner Bar",
     "D'Vino",
     "Doundrins Distilling",
-    "E.D. Locke Public Library",
     "Flight Wine & Bourbon Bar",
     "Grey Market",
     "Harmony Bar & Grill",
@@ -42,20 +41,21 @@
    ]
   },
   "Isthmus": {
-   "events": 151,
-   "unique_events": 147,
+   "events": 163,
+   "unique_events": 158,
    "overlap": {
-    "AI page reading": 1,
+    "AI page reading": 2,
     "Ticketmaster": 0,
     "Venue websites": 3
    },
-   "venues": 58,
+   "venues": 63,
    "unique_venues": [
     "Aldo Leopold Nature Center",
     "Alliant Energy Center",
     "Alliant Energy Center-Exhibition Hall",
     "Art House 360",
     "Atlas Improv Company",
+    "Bodihow Brewing Company",
     "Brix Cider",
     "Cafe Carpe",
     "Camp Randall Stadium",
@@ -64,19 +64,21 @@
     "Christ Presbyterian Church",
     "Communication",
     "CountyLines Crossings",
+    "DoubleTree by Hilton Madison East",
     "East Towne Mall",
     "Edgewater Hotel",
     "Essen Haus",
     "Fairway Lounge",
     "First Unitarian Society",
     "Garver Feed Mill",
+    "Glass Nickel Pizza - Atwood Ave.",
     "Green Room Public House",
     "Henry Vilas Zoo",
     "Hidden Cave Cidery",
     "Hop Garden",
     "Hop Garden Brewing & Tap Room",
     "Imaginary Tea",
-    "Kadampa Meditation Center Madison",
+    "Ivory Room",
     "Lake Louie Brewing/Wisconsin Brewing Co.",
     "Location not listed",
     "Lola's Hi/Lo Lounge",
@@ -84,17 +86,18 @@
     "Madison Club",
     "Madison Enterprise Center-Common Wealth Gallery",
     "Madison Youth Arts",
+    "Main Street Music",
     "Monroe Street Arts Center",
     "Muso",
     "Overture Center-Overture Hall",
     "Park Hotel-The Post",
     "Pheasant Branch Conservancy",
     "PhotoMidwest",
+    "Riley Tavern",
     "River Arts on Water",
     "Rock N Wool Winery",
     "Salvatore's Tomato Pies",
     "Sotto",
-    "St. Dunstan's Episcopal Church",
     "The Boneyard",
     "The Bur Oak",
     "The Mill",
@@ -104,8 +107,8 @@
    ]
   },
   "Ticketmaster": {
-   "events": 34,
-   "unique_events": 27,
+   "events": 33,
+   "unique_events": 26,
    "overlap": {
     "AI page reading": 5,
     "Isthmus": 0,
@@ -115,25 +118,25 @@
    "unique_venues": [
     "Camp Randall",
     "Capitol Theater - Overture Center",
-    "Kohl Center",
     "Legacy20 Arena at Deforest Yards",
     "The Sylvee",
     "Veterans Memorial Coliseum at Alliant Energy Center"
    ]
   },
   "Venue websites": {
-   "events": 64,
-   "unique_events": 59,
+   "events": 68,
+   "unique_events": 63,
    "overlap": {
     "AI page reading": 0,
     "Isthmus": 3,
     "Ticketmaster": 2
    },
-   "venues": 13,
+   "venues": 14,
    "unique_venues": [
     "Atwood Music Hall",
     "Bayview Community Center",
     "Children's Theater of Madison",
+    "E.D. Locke Public Library",
     "Full Mile Beer Company & Kitchen",
     "Gib's Bar",
     "Lone Girl Tap Room And Pizza Company",
