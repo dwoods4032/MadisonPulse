@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-11-26T14:15:13-06:00",
- "total_events": 343,
- "in_more_than_one_source": 10,
+ "generated_at": "2026-11-26T23:04:35-06:00",
+ "total_events": 352,
+ "in_more_than_one_source": 11,
  "sources": {
   "AI page reading": {
-   "events": 104,
-   "unique_events": 98,
+   "events": 114,
+   "unique_events": 108,
    "overlap": {
     "Isthmus": 1,
     "Ticketmaster": 5,
     "Venue websites": 0
    },
-   "venues": 30,
+   "venues": 31,
    "unique_venues": [
     "Aftershock Classic Arcade",
     "Arts + Literature Laboratory",
@@ -20,7 +20,9 @@
     "Crystal Corner Bar",
     "D'Vino",
     "Doundrins Distilling",
+    "E.D. Locke Public Library",
     "Flight Wine & Bourbon Bar",
+    "Grey Market",
     "Harmony Bar & Grill",
     "Karben4 Brewing",
     "Laurel Tavern",
@@ -36,19 +38,18 @@
     "The Kickback",
     "The Malt House",
     "Verona Community Center",
-    "Veterans Memorial Park",
-    "Wando's Bar & Grill"
+    "Veterans Memorial Park"
    ]
   },
   "Isthmus": {
-   "events": 152,
-   "unique_events": 148,
+   "events": 151,
+   "unique_events": 147,
    "overlap": {
     "AI page reading": 1,
     "Ticketmaster": 0,
     "Venue websites": 3
    },
-   "venues": 59,
+   "venues": 58,
    "unique_venues": [
     "Aldo Leopold Nature Center",
     "Alliant Energy Center",
@@ -80,7 +81,6 @@
     "Location not listed",
     "Lola's Hi/Lo Lounge",
     "Louisianne's",
-    "Luke House",
     "Madison Club",
     "Madison Enterprise Center-Common Wealth Gallery",
     "Madison Youth Arts",
@@ -104,12 +104,12 @@
    ]
   },
   "Ticketmaster": {
-   "events": 32,
-   "unique_events": 26,
+   "events": 34,
+   "unique_events": 27,
    "overlap": {
     "AI page reading": 5,
     "Isthmus": 0,
-    "Venue websites": 1
+    "Venue websites": 2
    },
    "venues": 11,
    "unique_venues": [
@@ -122,19 +122,18 @@
    ]
   },
   "Venue websites": {
-   "events": 65,
-   "unique_events": 61,
+   "events": 64,
+   "unique_events": 59,
    "overlap": {
     "AI page reading": 0,
     "Isthmus": 3,
-    "Ticketmaster": 1
+    "Ticketmaster": 2
    },
-   "venues": 14,
+   "venues": 13,
    "unique_venues": [
     "Atwood Music Hall",
     "Bayview Community Center",
     "Children's Theater of Madison",
-    "E.D. Locke Public Library",
     "Full Mile Beer Company & Kitchen",
     "Gib's Bar",
     "Lone Girl Tap Room And Pizza Company",

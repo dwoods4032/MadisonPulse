@@ -3049,11 +3049,6 @@
   "why": "",
   "checked": "2026-11-25T14:30:25.659284-06:00"
  },
- "https://wandosbar.com/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-19T22:00:11.617131-06:00"
- },
  "https://www.workingdraftbeer.com/events/2026/11/27/makers-market": {
   "ok": true,
   "why": "",
@@ -3277,37 +3272,37 @@
  "https://www.quiveysgrove.com/event-details": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-19T22:00:12.954858-06:00"
+  "checked": "2026-11-26T23:04:36.222594-06:00"
  },
  "https://thelonegirl.com/event/line-dancing-party-monthly-at-the-lone-girl-2/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-19T22:00:13.945258-06:00"
+  "checked": "2026-11-26T23:04:36.947459-06:00"
  },
  "https://onesocialmadison.com/event/trivia-with-king-trivia-4/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-19T22:00:14.502368-06:00"
+  "checked": "2026-11-26T23:04:38.576612-06:00"
  },
  "https://www.madisoncomedy.com/event/trevor-wallace26/2026-12-03/1/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-19T22:00:14.502393-06:00"
+  "checked": "2026-11-26T23:04:38.576641-06:00"
  },
  "https://barrymorelive.com/event/brian-regan/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-19T22:00:14.502401-06:00"
+  "checked": "2026-11-26T23:04:38.576650-06:00"
  },
  "https://www.cafecoda.club/events-1/night-of-the-improvisor-benefit": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-19T22:00:14.502407-06:00"
+  "checked": "2026-11-26T23:04:38.576658-06:00"
  },
  "https://www.ticketmaster.com/daisy-grenade-madison-wisconsin-12-03-2026/event/070064EA92141EBD": {
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-19T22:00:14.502413-06:00"
+  "checked": "2026-11-26T23:04:38.576665-06:00"
  },
  "https://www.cafecoda.club/events-1/reggae-night-dj-sneaky-gator-8gnpe-lan8j": {
   "ok": true,
@@ -3693,5 +3688,35 @@
   "ok": true,
   "why": "",
   "checked": "2026-11-26T14:15:20.105993-06:00"
+ },
+ "https://www.madisongreymarket.com": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-26T23:04:36.222570-06:00"
+ },
+ "https://onesocialmadison.com/event/trivia-with-king-trivia-5/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-26T23:04:40.480636-06:00"
+ },
+ "https://www.workingdraftbeer.com/events/2026/12/10/holiday-wreath-workshop-w-allen-centennial-garden-1210-630pm": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-26T23:04:40.480659-06:00"
+ },
+ "https://www.madisoncomedy.com/event/sam-morril26/2026-12-10/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-26T23:04:40.480666-06:00"
+ },
+ "https://www.ticketmaster.com/event/Z7r9jZ1AAeZvY": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-11-26T23:04:40.480672-06:00"
+ },
+ "https://barrymorelive.com/event/jordan-jensen/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-26T23:04:40.480677-06:00"
  }
 }
