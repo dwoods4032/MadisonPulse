@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-27T13:58:32-06:00",
+ "generated_at": "2026-11-27T22:45:42-06:00",
  "venues_checked": 234,
- "venues_with_events": 61,
- "venues_with_feeds": 83,
- "events": 361,
+ "venues_with_events": 60,
+ "venues_with_feeds": 82,
+ "events": 376,
  "filtered_out": 150,
  "venues": [
   {
@@ -14,7 +14,7 @@
     "calendar"
    ],
    "raw_events": 166,
-   "error": ""
+   "error": "used today's copy (read once a day)"
   },
   {
    "name": "AI page reading",
@@ -23,12 +23,12 @@
    "feeds": [
     "ai"
    ],
-   "raw_events": 153,
+   "raw_events": 160,
    "error": "",
-   "calls": 21,
-   "tokens_in": 32914,
-   "tokens_out": 9278,
-   "est_cost_usd": 0.0079
+   "calls": 14,
+   "tokens_in": 21538,
+   "tokens_out": 6446,
+   "est_cost_usd": 0.0054
   },
   {
    "name": "Bayview Community Center",
@@ -56,6 +56,16 @@
    "error": ""
   },
   {
+   "name": "Ticketmaster",
+   "kind": "source",
+   "website": "",
+   "feeds": [
+    "ticketmaster"
+   ],
+   "raw_events": 40,
+   "error": ""
+  },
+  {
    "name": "Atwood Music Hall",
    "kind": "venue",
    "website": "https://www.theatwoodmusichall.com/",
@@ -67,16 +77,6 @@
     "jsonld"
    ],
    "raw_events": 36,
-   "error": ""
-  },
-  {
-   "name": "Ticketmaster",
-   "kind": "source",
-   "website": "",
-   "feeds": [
-    "ticketmaster"
-   ],
-   "raw_events": 35,
    "error": ""
   },
   {
@@ -101,7 +101,7 @@
     "jsonld",
     "jsonld"
    ],
-   "raw_events": 32,
+   "raw_events": 30,
    "error": ""
   },
   {
@@ -115,7 +115,7 @@
     "jsonld",
     "jsonld"
    ],
-   "raw_events": 20,
+   "raw_events": 22,
    "error": ""
   },
   {
@@ -129,6 +129,16 @@
    "error": ""
   },
   {
+   "name": "Crucible",
+   "kind": "bar",
+   "website": "https://www.cruciblemadison.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 13,
+   "error": ""
+  },
+  {
    "name": "Broom Street Theater",
    "kind": "venue",
    "website": "https://bstonline.org/",
@@ -138,16 +148,6 @@
     "jsonld",
     "jsonld",
     "jsonld"
-   ],
-   "raw_events": 12,
-   "error": ""
-  },
-  {
-   "name": "Crucible",
-   "kind": "bar",
-   "website": "https://www.cruciblemadison.com/",
-   "feeds": [
-    "ai"
    ],
    "raw_events": 12,
    "error": ""
@@ -177,6 +177,16 @@
    "error": ""
   },
   {
+   "name": "Lazy Oaf Lounge",
+   "kind": "bar",
+   "website": "https://www.lazyoaflounge.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 10,
+   "error": ""
+  },
+  {
    "name": "Sun Prairie Public Library",
    "kind": "library",
    "website": "https://www.sunprairiepubliclibrary.org/",
@@ -184,6 +194,16 @@
     "ai"
    ],
    "raw_events": 10,
+   "error": ""
+  },
+  {
+   "name": "Arts + Literature Laboratory",
+   "kind": "venue",
+   "website": "https://artlitlab.org/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 9,
    "error": ""
   },
   {
@@ -197,19 +217,19 @@
    "error": ""
   },
   {
-   "name": "Lazy Oaf Lounge",
+   "name": "High Noon Saloon",
    "kind": "bar",
-   "website": "https://www.lazyoaflounge.com/",
+   "website": "https://high-noon.com/",
    "feeds": [
     "ai"
    ],
-   "raw_events": 8,
+   "raw_events": 7,
    "error": ""
   },
   {
-   "name": "Arts + Literature Laboratory",
-   "kind": "venue",
-   "website": "https://artlitlab.org/",
+   "name": "State Line Distillery",
+   "kind": "brewery",
+   "website": "https://www.statelinedistillery.com/",
    "feeds": [
     "ai"
    ],
@@ -237,32 +257,12 @@
    "error": ""
   },
   {
-   "name": "High Noon Saloon",
-   "kind": "bar",
-   "website": "https://high-noon.com/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 6,
-   "error": ""
-  },
-  {
    "name": "One Social Bar",
    "kind": "bar",
    "website": "https://onesocialmadison.com/vendor/one-social-bar/",
    "feeds": [
     "tribe",
     "jsonld"
-   ],
-   "raw_events": 5,
-   "error": ""
-  },
-  {
-   "name": "State Line Distillery",
-   "kind": "brewery",
-   "website": "https://www.statelinedistillery.com/",
-   "feeds": [
-    "ai"
    ],
    "raw_events": 5,
    "error": ""
@@ -281,16 +281,6 @@
    "name": "Alicia Ashman Library",
    "kind": "library",
    "website": "https://www.madisonpubliclibrary.org/about/ashman.html",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 4,
-   "error": ""
-  },
-  {
-   "name": "Capital Brewery",
-   "kind": "brewery",
-   "website": "https://www.capital-brewery.com/",
    "feeds": [
     "ai"
    ],
@@ -338,6 +328,16 @@
    "error": ""
   },
   {
+   "name": "Reindahl Park Pavillion",
+   "kind": "community",
+   "website": "https://www.cityofmadison.com/parks/find-a-park/reindahl/pavilion-at-the-imagination-center",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 4,
+   "error": ""
+  },
+  {
    "name": "Sequoya Library",
    "kind": "library",
    "website": "https://www.madisonpubliclibrary.org/sequoya",
@@ -351,6 +351,16 @@
    "name": "The Malt House",
    "kind": "bar",
    "website": "http://malthousetavern.com/",
+   "feeds": [
+    "ai"
+   ],
+   "raw_events": 4,
+   "error": ""
+  },
+  {
+   "name": "Veterans Memorial Park",
+   "kind": "veterans",
+   "website": "https://www.cityofmadison.com/parks/find-a-park/park.cfm?id=1364",
    "feeds": [
     "ai"
    ],
@@ -423,9 +433,9 @@
    "error": ""
   },
   {
-   "name": "Oscar Rennebohm Library",
-   "kind": "library",
-   "website": "https://library.edgewood.edu/home",
+   "name": "Orpheum Theatre",
+   "kind": "venue",
+   "website": "https://madisonorpheum.com/",
    "feeds": [
     "ai"
    ],
@@ -433,9 +443,9 @@
    "error": ""
   },
   {
-   "name": "Reindahl Park Pavillion",
-   "kind": "community",
-   "website": "https://www.cityofmadison.com/parks/find-a-park/reindahl/pavilion-at-the-imagination-center",
+   "name": "Oscar Rennebohm Library",
+   "kind": "library",
+   "website": "https://library.edgewood.edu/home",
    "feeds": [
     "ai"
    ],
@@ -461,16 +471,6 @@
    "feeds": [
     "squarespace",
     "jsonld"
-   ],
-   "raw_events": 3,
-   "error": ""
-  },
-  {
-   "name": "Veterans Memorial Park",
-   "kind": "veterans",
-   "website": "https://www.cityofmadison.com/parks/find-a-park/park.cfm?id=1364",
-   "feeds": [
-    "ai"
    ],
    "raw_events": 3,
    "error": ""
@@ -550,16 +550,6 @@
    "name": "Mother Fool's",
    "kind": "cafe",
    "website": "https://www.motherfools.com/",
-   "feeds": [
-    "ai"
-   ],
-   "raw_events": 2,
-   "error": ""
-  },
-  {
-   "name": "Orpheum Theatre",
-   "kind": "venue",
-   "website": "https://madisonorpheum.com/",
    "feeds": [
     "ai"
    ],
@@ -825,6 +815,14 @@
    "name": "Candy Cloud",
    "kind": "cafe",
    "website": "https://www.candycloudcompany.com/locations/madison",
+   "feeds": [],
+   "raw_events": 0,
+   "error": ""
+  },
+  {
+   "name": "Capital Brewery",
+   "kind": "brewery",
+   "website": "https://www.capital-brewery.com/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1315,7 +1313,7 @@
   {
    "name": "Madison Chocolate Company",
    "kind": "cafe",
-   "website": "https://www.madisonchocolatecompany.com",
+   "website": "https://madisonchocolate.com",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1323,7 +1321,7 @@
   {
    "name": "Madison Chocolate Company",
    "kind": "cafe",
-   "website": "https://madisonchocolate.com",
+   "website": "https://www.madisonchocolatecompany.com",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1387,7 +1385,7 @@
   {
    "name": "Moka",
    "kind": "cafe",
-   "website": "https://mymokacoffee.com/",
+   "website": "https://www.mymokacoffee.com/",
    "feeds": [],
    "raw_events": 0,
    "error": ""
@@ -1395,7 +1393,7 @@
   {
    "name": "Moka",
    "kind": "cafe",
-   "website": "https://www.mymokacoffee.com/",
+   "website": "https://mymokacoffee.com/",
    "feeds": [],
    "raw_events": 0,
    "error": ""

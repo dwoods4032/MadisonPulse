@@ -440,8 +440,8 @@
  },
  "https://www.lazyoaflounge.com/events": {
   "hash": "f1633ae9ec881a81a0957829b59bff725fb9f324",
-  "asked": "2026-11-24T15:11:21-06:00",
-  "on": "2026-11-24",
+  "asked": "2026-11-27T22:44:29-06:00",
+  "on": "2026-11-27",
   "events": [
    {
     "title": "Trivia Night",
@@ -449,7 +449,7 @@
     "start": "19:00",
     "end": "21:00",
     "price": 0,
-    "description": "Test your knowledge with friends. Free to play, with great prizes.",
+    "description": "Test your knowledge with friends. Free to play, great prizes.",
     "category": "trivia"
    },
    {
@@ -458,35 +458,8 @@
     "start": "19:00",
     "end": "21:00",
     "price": 0,
-    "description": "Test your knowledge with friends. Free to play, with great prizes.",
+    "description": "Test your knowledge with friends. Free to play, great prizes.",
     "category": "trivia"
-   },
-   {
-    "title": "Music Bingo",
-    "date": "2026-11-25",
-    "start": "18:30",
-    "end": null,
-    "price": null,
-    "description": "Weekly music bingo at Lazy Oaf Lounge.",
-    "category": "bingo"
-   },
-   {
-    "title": "Music Bingo",
-    "date": "2026-12-02",
-    "start": "18:30",
-    "end": null,
-    "price": null,
-    "description": "Weekly music bingo at Lazy Oaf Lounge.",
-    "category": "bingo"
-   },
-   {
-    "title": "Karaoke Night",
-    "date": "2026-11-26",
-    "start": "20:00",
-    "end": "00:00",
-    "price": null,
-    "description": "Sing your heart out or dress up for a lively themed celebration.",
-    "category": "karaoke"
    },
    {
     "title": "Karaoke Night",
@@ -496,6 +469,33 @@
     "price": null,
     "description": "Sing your heart out or dress up for a lively themed celebration.",
     "category": "karaoke"
+   },
+   {
+    "title": "Karaoke Night",
+    "date": "2026-12-10",
+    "start": "20:00",
+    "end": "00:00",
+    "price": null,
+    "description": "Sing your heart out or dress up for a lively themed celebration.",
+    "category": "karaoke"
+   },
+   {
+    "title": "Music Bingo",
+    "date": "2026-12-02",
+    "start": "18:30",
+    "end": null,
+    "price": null,
+    "description": "Weekly music bingo night.",
+    "category": "bingo"
+   },
+   {
+    "title": "Music Bingo",
+    "date": "2026-12-09",
+    "start": "18:30",
+    "end": null,
+    "price": null,
+    "description": "Weekly music bingo night.",
+    "category": "bingo"
    }
   ]
  },
@@ -717,29 +717,10 @@
   "events": []
  },
  "https://www.capitalbrewery.com/events-2/": {
-  "hash": "3e817e291fcb7569d0441b41ef75008470459217",
-  "asked": "2026-11-25T23:03:00-06:00",
-  "on": "2026-11-25",
-  "events": [
-   {
-    "title": "2026 Black Friday Deals",
-    "date": "2026-11-27",
-    "start": "15:00",
-    "end": "22:00",
-    "price": null,
-    "description": "Black Friday deals at Capital Brewery.",
-    "category": "other"
-   },
-   {
-    "title": "LIVE MUSIC w/ David Hecht",
-    "date": "2026-11-27",
-    "start": "18:00",
-    "end": "21:00",
-    "price": null,
-    "description": "Live music with David Hecht at Capital Brewery.",
-    "category": "music"
-   }
-  ]
+  "hash": "46de0dc7c2df9d39c88de3e34b678976328dee09",
+  "asked": "2026-11-27T22:44:34-06:00",
+  "on": "2026-11-27",
+  "events": []
  },
  "https://wandosbar.com/-events-happenings?source=header&spot_id=301&destination=events&promotion=nba_season": {
   "hash": "923edb38abaf0d20fd1d796f9a5cf4e6e96c8477",
@@ -949,14 +930,14 @@
  },
  "https://www.garthsbrewbar.com/": {
   "hash": "cc8d8eafdd76964ab5afa272b19306092ae68ff2",
-  "asked": "2026-11-24T15:11:26-06:00",
-  "on": "2026-11-24",
+  "asked": "2026-11-27T22:44:34-06:00",
+  "on": "2026-11-27",
   "events": []
  },
  "https://www.statelinedistillery.com/cocktail-lounge/events": {
   "hash": "b6f33e4e6c7b9ee32a368c7acc17929df5464ec6",
-  "asked": "2026-11-24T15:11:29-06:00",
-  "on": "2026-11-24",
+  "asked": "2026-11-27T22:44:38-06:00",
+  "on": "2026-11-27",
   "events": [
    {
     "title": "Maker's Market Black Friday Pub Crawl",
@@ -982,7 +963,7 @@
     "start": "15:00",
     "end": "17:00",
     "price": null,
-    "description": "Fetch Paws + Pours afternoon event.",
+    "description": "Fetch Paws + Pours event.",
     "category": "other"
    },
    {
@@ -992,7 +973,7 @@
     "end": "21:00",
     "price": null,
     "description": "Worms for Sale show.",
-    "category": "music"
+    "category": "other"
    },
    {
     "title": "Oracle-Prov Comedy Show",
@@ -1002,13 +983,31 @@
     "price": null,
     "description": "Oracle-Prov comedy show.",
     "category": "comedy"
+   },
+   {
+    "title": "Lochanside Show",
+    "date": "2026-12-11",
+    "start": "19:00",
+    "end": "21:00",
+    "price": null,
+    "description": "Lochanside show.",
+    "category": "other"
+   },
+   {
+    "title": "Ugly Sweater Party",
+    "date": "2026-12-11",
+    "start": "17:00",
+    "end": "21:00",
+    "price": null,
+    "description": "Ugly Sweater Party at State Line Distillery.",
+    "category": "other"
    }
   ]
  },
  "https://www.youngbloodbeerco.com/": {
   "hash": "83a1f0d585808418d93aea6afa5495330bf1ad85",
-  "asked": "2026-11-24T15:11:28-06:00",
-  "on": "2026-11-24",
+  "asked": "2026-11-27T22:44:36-06:00",
+  "on": "2026-11-27",
   "events": []
  },
  "https://yaharabay.com/pages/event-space": {
@@ -1018,26 +1017,17 @@
   "events": []
  },
  "https://thekickback.bar/upcoming-events/": {
-  "hash": "68c73a1f06d2c38fa3f07f75fe277e46da8ec26e",
-  "asked": "2026-11-27T13:57:09-06:00",
+  "hash": "ddd8a6a8caa123fa976ec3060dff9774da7bb8c6",
+  "asked": "2026-11-27T22:44:38-06:00",
   "on": "2026-11-27",
   "events": [
-   {
-    "title": "Friday Night Strikes",
-    "date": "2026-11-27",
-    "start": "19:00",
-    "end": null,
-    "price": null,
-    "description": "Craft beer and pinball night",
-    "category": "other"
-   },
    {
     "title": "Premier Trivia Tuesday!",
     "date": "2026-12-01",
     "start": "18:30",
     "end": null,
     "price": null,
-    "description": "Tuesday trivia night",
+    "description": "Tuesday trivia night at The Kickback.",
     "category": "trivia"
    },
    {
@@ -1046,7 +1036,7 @@
     "start": "18:30",
     "end": null,
     "price": null,
-    "description": "Pinball league night with Guinness and craft beer",
+    "description": "Craft beer pinball league night featuring Guinness.",
     "category": "other"
    },
    {
@@ -1055,7 +1045,7 @@
     "start": "13:00",
     "end": null,
     "price": null,
-    "description": "Ultimate Super Smash Bros tournament, summit qualifier",
+    "description": "Ultimate Super Smash Bros tournament, summit qualifier.",
     "category": "sports"
    },
    {
@@ -1064,7 +1054,7 @@
     "start": "13:00",
     "end": null,
     "price": null,
-    "description": "Drag bingo with Cynthia Mooseknuckle, with New Glarus Brewing Co.",
+    "description": "Drag bingo with Cynthia Mooseknuckle, sponsored by New Glarus Brewing Co.",
     "category": "bingo"
    },
    {
@@ -1073,7 +1063,7 @@
     "start": "18:30",
     "end": null,
     "price": null,
-    "description": "Tuesday trivia night",
+    "description": "Tuesday trivia night at The Kickback.",
     "category": "trivia"
    },
    {
@@ -1082,7 +1072,7 @@
     "start": "18:30",
     "end": null,
     "price": null,
-    "description": "Ladies' pinball night with craft beer and match play",
+    "description": "Ladies' pinball night with craft beer and match play.",
     "category": "other"
    },
    {
@@ -1091,7 +1081,7 @@
     "start": "19:00",
     "end": null,
     "price": null,
-    "description": "Craft beer and pinball night",
+    "description": "Friday night pinball event with craft beer.",
     "category": "other"
    }
   ]
@@ -1199,8 +1189,8 @@
  },
  "https://colectivo.com/pages/on-the-square": {
   "hash": "3ae5f26864a3bf3596a39c57df708278495ce5df",
-  "asked": "2026-11-24T15:11:35-06:00",
-  "on": "2026-11-24",
+  "asked": "2026-11-27T22:44:43-06:00",
+  "on": "2026-11-27",
   "events": []
  },
  "https://union.wisc.edu/events-and-activities": {
@@ -1217,8 +1207,8 @@
  },
  "https://colectivo.com/pages/monroe-street": {
   "hash": "9892b266187b17da7f1159e8259f5ca702113a62",
-  "asked": "2026-11-24T15:11:37-06:00",
-  "on": "2026-11-24",
+  "asked": "2026-11-27T22:44:45-06:00",
+  "on": "2026-11-27",
   "events": []
  },
  "https://colectivo.com/pages/madison-cafes": {
@@ -1650,8 +1640,8 @@
  },
  "https://artlitlab.org/calendar": {
   "hash": "52e2db207f6e57dd596e849c9c6771cab7d7fb02",
-  "asked": "2026-11-24T15:12:18-06:00",
-  "on": "2026-11-24",
+  "asked": "2026-11-27T22:45:26-06:00",
+  "on": "2026-11-27",
   "events": [
    {
     "title": "Bridge Work: Madison Opening Reception",
@@ -1659,7 +1649,7 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Opening reception for the Bridge Work exhibition.",
+    "description": "Opening reception for the Bridge Work exhibition at Arts + Literature Laboratory.",
     "category": "other"
    },
    {
@@ -1679,6 +1669,15 @@
     "price": null,
     "description": "Performance by Falconbridge Players titled Conscience.",
     "category": "theater"
+   },
+   {
+    "title": "Auricle Presents The Counterculture Collective",
+    "date": "2026-12-10",
+    "start": null,
+    "end": null,
+    "price": null,
+    "description": "Auricle New Music Series presents The Counterculture Collective.",
+    "category": "music"
    }
   ]
  },
@@ -1721,8 +1720,8 @@
  },
  "https://madisonorpheum.com/calendar/": {
   "hash": "fe1e9675c8f6ca822386ee3e3398c7e182858ce1",
-  "asked": "2026-11-24T15:12:28-06:00",
-  "on": "2026-11-24",
+  "asked": "2026-11-27T22:45:37-06:00",
+  "on": "2026-11-27",
   "events": [
    {
     "title": "A Charlie Brown Christmas – 2 Shows! (Wisconsin Chamber Orchestra, featuring Mr. Chair)",
@@ -1730,17 +1729,26 @@
     "start": null,
     "end": null,
     "price": null,
-    "description": "Wisconsin Chamber Orchestra presents A Charlie Brown Christmas, featuring Mr. Chair; two shows listed, times not stated.",
+    "description": "Wisconsin Chamber Orchestra presents A Charlie Brown Christmas with Mr. Chair; two shows listed, times not stated.",
     "category": "music"
    },
    {
-    "title": "Steely Dane (94.9 WOLX Presents)",
+    "title": "Steely Dane",
     "date": "2026-12-04",
     "start": "19:30",
     "end": null,
     "price": null,
     "description": "94.9 WOLX presents Steely Dane. Doors 6:30 pm.",
     "category": "music"
+   },
+   {
+    "title": "Sesame Street Live! Elmo's Got the Moves",
+    "date": "2026-12-11",
+    "start": "18:00",
+    "end": null,
+    "price": null,
+    "description": "FPC Live presents Sesame Street Live! Doors 5:00 pm.",
+    "category": "theater"
    }
   ]
  },
@@ -1771,52 +1779,52 @@
  },
  "https://artlitlab.org/events/write-ins": {
   "hash": "6210adc3de4fc79c738094a150fdaefec53d7b85",
-  "asked": "2026-11-24T15:12:23-06:00",
-  "on": "2026-11-24",
+  "asked": "2026-11-27T22:45:32-06:00",
+  "on": "2026-11-27",
   "events": [
    {
-    "title": "Online Write-In",
-    "date": "2026-11-26",
-    "start": "10:00",
-    "end": null,
-    "price": 0,
-    "description": "Zoom write-in using the Pomodoro method, with check-in and check-out. Registration is free.",
-    "category": "other"
-   },
-   {
-    "title": "In-Person Write-In (Ellen Kort Mezzanine)",
+    "title": "Write-In (In-Person) at ArtLitLab",
     "date": "2026-11-29",
     "start": "10:30",
     "end": "12:30",
     "price": 0,
-    "description": "Last-Sunday in-person write-in at ArtLitLab using the Pomodoro method, followed by group sharing with 'recall' feedback. Registration is free.",
+    "description": "Monthly in-person write-in on the Ellen Kort Mezzanine using the Pomodoro method, with group sharing and recall feedback. Registration is free.",
     "category": "other"
    },
    {
-    "title": "Online Write-In",
+    "title": "Online Write-In (Zoom)",
     "date": "2026-11-29",
     "start": "09:00",
     "end": null,
     "price": 0,
-    "description": "Zoom write-in using the Pomodoro method, with check-in and check-out. Registration is free.",
+    "description": "Online write-in via Zoom using the Pomodoro method, with a check-in and check-out. Registration is free.",
     "category": "other"
    },
    {
-    "title": "Online Write-In",
+    "title": "Online Write-In (Zoom)",
     "date": "2026-12-03",
     "start": "10:00",
     "end": null,
     "price": 0,
-    "description": "Zoom write-in using the Pomodoro method, with check-in and check-out. Registration is free.",
+    "description": "Online write-in via Zoom using the Pomodoro method, with a check-in and check-out. Registration is free.",
     "category": "other"
    },
    {
-    "title": "Online Write-In",
+    "title": "Online Write-In (Zoom)",
     "date": "2026-12-06",
     "start": "09:00",
     "end": null,
     "price": 0,
-    "description": "Zoom write-in using the Pomodoro method, with check-in and check-out. Registration is free.",
+    "description": "Online write-in via Zoom using the Pomodoro method, with a check-in and check-out. Registration is free.",
+    "category": "other"
+   },
+   {
+    "title": "Online Write-In (Zoom)",
+    "date": "2026-12-10",
+    "start": "10:00",
+    "end": null,
+    "price": 0,
+    "description": "Online write-in via Zoom using the Pomodoro method, with a check-in and check-out. Registration is free.",
     "category": "other"
    }
   ]
@@ -1886,10 +1894,20 @@
   "events": []
  },
  "https://high-noon.com/event/dogpark/": {
-  "hash": "c27f054d95d6799094e5e3fd1219b51d675cfcbb",
-  "asked": "2026-11-27T13:56:59-06:00",
+  "hash": "fcea0aa785f05c05fe7753a6b2322f3ac996faa2",
+  "asked": "2026-11-27T22:44:32-06:00",
   "on": "2026-11-27",
-  "events": []
+  "events": [
+   {
+    "title": "Daisy Grenade with Boyish",
+    "date": "2026-12-03",
+    "start": "20:00",
+    "end": null,
+    "price": null,
+    "description": "FPC Live presents Daisy Grenade with Boyish at High Noon Saloon. Doors 7:00 pm.",
+    "category": "music"
+   }
+  ]
  },
  "https://thekickback.bar/premier-trivia-tuesday-nov-3/": {
   "hash": "25992f3a707c36f4ebbe1a9a479acec37b4b7959",
@@ -2195,29 +2213,10 @@
   "events": []
  },
  "https://www.capitalbrewery.com/on-site-events/": {
-  "hash": "ebb5a1f734d0a0601ce172b23e9381257f7f099f",
-  "asked": "2026-11-25T23:03:02-06:00",
-  "on": "2026-11-25",
-  "events": [
-   {
-    "title": "2026 Black Friday Deals",
-    "date": "2026-11-27",
-    "start": "15:00",
-    "end": "22:00",
-    "price": null,
-    "description": "Black Friday deals at Capital Brewery.",
-    "category": "other"
-   },
-   {
-    "title": "LIVE MUSIC w/ David Hecht",
-    "date": "2026-11-27",
-    "start": "18:00",
-    "end": "21:00",
-    "price": null,
-    "description": "Live music with David Hecht at Capital Brewery.",
-    "category": "music"
-   }
-  ]
+  "hash": "e08ff0d287f2d7dd4b65f8ad3c690f3086a4a4f6",
+  "asked": "2026-11-27T22:44:37-06:00",
+  "on": "2026-11-27",
+  "events": []
  },
  "https://www.cruciblemadison.com/events/2026-11/words-nerds": {
   "hash": "912005ab2437da288b3e09a8675ed58e3d9721ee",
@@ -2851,8 +2850,8 @@
  },
  "https://madisonorpheum.com/event/kenny-g/": {
   "hash": "7022c76a987c64fec6ece17ce6b91e63f6f5b664",
-  "asked": "2026-11-24T15:12:30-06:00",
-  "on": "2026-11-24",
+  "asked": "2026-11-27T22:45:39-06:00",
+  "on": "2026-11-27",
   "events": []
  },
  "https://indiecoffee.net/index.html": {

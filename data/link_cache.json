@@ -2052,862 +2052,862 @@
  "https://www.caseys.com": {
   "ok": null,
   "why": "HTTP 403 from cloudflare (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-20T22:00:20.084231-06:00"
+  "checked": "2026-11-27T22:45:54.302071-06:00"
  },
  "https://www.ancoracafes.com": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:46.449889-06:00"
+  "checked": "2026-11-27T22:46:20.239142-06:00"
  },
  "https://eno-vino.com": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:20.084210-06:00"
+  "checked": "2026-11-27T22:45:54.302054-06:00"
  },
  "https://www.huhot.com/location/madison-wi": {
   "ok": false,
   "why": "HTTP 404 from nginx",
-  "checked": "2026-11-20T22:00:20.084203-06:00"
+  "checked": "2026-11-27T22:45:54.302049-06:00"
  },
  "http://www.blimpie.com": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:20.084236-06:00"
+  "checked": "2026-11-27T22:45:54.302076-06:00"
  },
  "https://www.gcfb.net": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:20.084264-06:00"
+  "checked": "2026-11-27T22:45:54.302096-06:00"
  },
  "http://www.gyrosexpressmadison.com/menu.aspx": {
   "ok": null,
   "why": "HTTP 429 from Vercel (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-20T22:00:20.084269-06:00"
+  "checked": "2026-11-27T22:45:54.302099-06:00"
  },
  "http://www.mandarinexpress.us": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:20.084274-06:00"
+  "checked": "2026-11-27T22:45:54.302102-06:00"
  },
  "https://itsjustwings.com/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:20.084260-06:00"
+  "checked": "2026-11-27T22:45:54.302092-06:00"
  },
  "https://www.bonefishgrill.com": {
   "ok": null,
   "why": "HTTP 403 from AkamaiGHost (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-20T22:00:20.084255-06:00"
+  "checked": "2026-11-27T22:45:54.302089-06:00"
  },
  "http://oldchicago.com": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:20.084240-06:00"
+  "checked": "2026-11-27T22:45:54.302079-06:00"
  },
  "https://teriyakimadness.com/locations/wi-west-madison": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:20.084245-06:00"
+  "checked": "2026-11-27T22:45:54.302083-06:00"
  },
  "http://hkcafemadison.com/": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:20.084250-06:00"
+  "checked": "2026-11-27T22:45:54.302086-06:00"
  },
  "https://happywok.menutoorder.com/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:20.084227-06:00"
+  "checked": "2026-11-27T22:45:54.302067-06:00"
  },
  "https://anointedmin.info": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:20.084217-06:00"
+  "checked": "2026-11-27T22:45:54.302059-06:00"
  },
  "https://www.minervaindiancuisine.com": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:20.084222-06:00"
+  "checked": "2026-11-27T22:45:54.302063-06:00"
  },
  "https://risingsonsmadisonwi.com/": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:46.449985-06:00"
+  "checked": "2026-11-27T22:46:20.239203-06:00"
  },
  "http://www.pizzapit.biz": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:20.084322-06:00"
+  "checked": "2026-11-27T22:45:54.302143-06:00"
  },
  "https://www.chinakitchen53705.com": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:20.084291-06:00"
+  "checked": "2026-11-27T22:45:54.302115-06:00"
  },
  "https://www.ginzamadisonwi.com/": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:20.084287-06:00"
+  "checked": "2026-11-27T22:45:54.302112-06:00"
  },
  "https://www.szechuangardenmadisonwi.com/?utm_source=bing&utm_medium=websiteurl&utm_campaign=search": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:20.084282-06:00"
+  "checked": "2026-11-27T22:45:54.302109-06:00"
  },
  "http://www.freshii.com/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:20.084278-06:00"
+  "checked": "2026-11-27T22:45:54.302106-06:00"
  },
  "http://pdrpizza.net": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:20.084295-06:00"
+  "checked": "2026-11-27T22:45:54.302119-06:00"
  },
  "https://www.caspiangrillmadison.com": {
   "ok": null,
   "why": "could not connect",
-  "checked": "2026-11-20T22:00:20.084303-06:00"
+  "checked": "2026-11-27T22:45:54.302126-06:00"
  },
  "http://www.karahisandbbq.com": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:20.084307-06:00"
+  "checked": "2026-11-27T22:45:54.302130-06:00"
  },
  "http://www.halalinternationalmadison.eat24hour.com": {
   "ok": null,
   "why": "could not connect",
-  "checked": "2026-11-20T22:00:20.084299-06:00"
+  "checked": "2026-11-27T22:45:54.302123-06:00"
  },
  "http://www.indiagardenrestaurant.com": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:20.084315-06:00"
+  "checked": "2026-11-27T22:45:54.302136-06:00"
  },
  "http://www.indiadarbar.com/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:20.084318-06:00"
+  "checked": "2026-11-27T22:45:54.302139-06:00"
  },
  "http://nilemadison.com": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:20.084311-06:00"
+  "checked": "2026-11-27T22:45:54.302133-06:00"
  },
  "http://www.takaramenu.com": {
   "ok": null,
   "why": "HTTP 403 from cloudflare (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-20T22:00:20.084326-06:00"
+  "checked": "2026-11-27T22:45:54.302146-06:00"
  },
  "http://www.vitense.com/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:20.538192-06:00"
+  "checked": "2026-11-27T22:45:54.302148-06:00"
  },
  "http://www.marrakeshrestaurant.net": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:46.449993-06:00"
+  "checked": "2026-11-27T22:46:20.239210-06:00"
  },
  "http://www.holdenpilates.com": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:20.538230-06:00"
+  "checked": "2026-11-27T22:45:54.302162-06:00"
  },
  "https://www.montalcinoristoranteitaliano.com": {
   "ok": null,
   "why": "HTTP 403 from cloudflare (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-20T22:00:46.450006-06:00"
+  "checked": "2026-11-27T22:46:20.239222-06:00"
  },
  "http://dumplinghaus.com": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:20.538234-06:00"
+  "checked": "2026-11-27T22:45:54.302165-06:00"
  },
  "http://www.picassosonline.com/": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:20.538225-06:00"
+  "checked": "2026-11-27T22:45:54.302158-06:00"
  },
  "http://byrdspub.com": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:20.538220-06:00"
+  "checked": "2026-11-27T22:45:54.302155-06:00"
  },
  "https://www.bpnn.org/prairie-kitchen.html": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:20.538213-06:00"
+  "checked": "2026-11-27T22:45:54.302151-06:00"
  },
  "http://www.novanta.biz/": {
-  "ok": false,
-  "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:46.450011-06:00"
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-27T22:46:20.239225-06:00"
  },
  "http://www.freiburgmadison.com": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:20.732287-06:00"
+  "checked": "2026-11-27T22:45:54.302185-06:00"
  },
  "http://www.bluephies.com/": {
   "ok": null,
   "why": "HTTP 403 from cloudflare (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-20T22:00:20.732279-06:00"
+  "checked": "2026-11-27T22:45:54.302182-06:00"
  },
  "http://www.evpcoffee.com": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:20.732270-06:00"
+  "checked": "2026-11-27T22:45:54.302179-06:00"
  },
  "https://dynasty2chinese.com": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:20.732263-06:00"
+  "checked": "2026-11-27T22:45:54.302175-06:00"
  },
  "http://www.benvenutos.com/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:20.732242-06:00"
+  "checked": "2026-11-27T22:45:54.302171-06:00"
  },
  "http://casadelsolrestaurant.com": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:43.796949-06:00"
+  "checked": "2026-11-27T22:46:17.625882-06:00"
  },
  "http://www.club-5.com": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:43.796942-06:00"
+  "checked": "2026-11-27T22:46:17.625876-06:00"
  },
  "https://www.catcafemad.com": {
   "ok": null,
   "why": "ReadTimeout",
-  "checked": "2026-11-20T22:00:43.153473-06:00"
+  "checked": "2026-11-27T22:46:17.351036-06:00"
  },
  "https://kettleblackkitchen.com": {
   "ok": null,
   "why": "HTTP 403 from cloudflare (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-20T22:00:20.732294-06:00"
+  "checked": "2026-11-27T22:45:54.302188-06:00"
  },
  "http://www.pizzapit.biz/page/locations/madison_monroe_st/menu.html": {
   "ok": false,
   "why": "HTTP 404 from Apache",
-  "checked": "2026-11-20T22:00:43.153498-06:00"
+  "checked": "2026-11-27T22:46:17.351060-06:00"
  },
  "http://www.campusbiryani.com": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:43.153510-06:00"
+  "checked": "2026-11-27T22:46:17.351070-06:00"
  },
  "http://www.pizzabellgrantline.net": {
   "ok": null,
   "why": "HTTP 403 from cloudflare (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-20T22:00:43.153505-06:00"
+  "checked": "2026-11-27T22:46:17.351065-06:00"
  },
  "http://www.madisoncuisine.org": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:43.796954-06:00"
+  "checked": "2026-11-27T22:46:17.625886-06:00"
  },
  "http://www.dunnbros.com": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:46.450024-06:00"
+  "checked": "2026-11-27T22:46:20.239236-06:00"
  },
  "http://www.huntbrotherspizza.com/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:46.450029-06:00"
+  "checked": "2026-11-27T22:46:20.239239-06:00"
  },
  "http://sunroomcafe.com": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:46.450034-06:00"
+  "checked": "2026-11-27T22:46:20.239243-06:00"
  },
  "https://kabulmadison.com": {
   "ok": null,
   "why": "could not connect",
-  "checked": "2026-11-20T22:00:46.450039-06:00"
+  "checked": "2026-11-27T22:46:20.239246-06:00"
  },
  "http://www.wiener-shop.com": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:43.796967-06:00"
+  "checked": "2026-11-27T22:46:17.625898-06:00"
  },
  "https://www.villagepizzamadison.com": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:43.796958-06:00"
+  "checked": "2026-11-27T22:46:17.625890-06:00"
  },
  "http://www.vietbistromadison.com": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:43.796971-06:00"
+  "checked": "2026-11-27T22:46:17.625902-06:00"
  },
  "http://asiansweetbakery.placeweb.site": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-20T22:00:43.796975-06:00"
+  "ok": false,
+  "why": "site no longer exists",
+  "checked": "2026-11-27T22:46:17.625906-06:00"
  },
  "http://www.delicaciesofasia.com": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:46.450047-06:00"
+  "checked": "2026-11-27T22:46:20.239253-06:00"
  },
  "http://www.fuguasian.com": {
   "ok": null,
   "why": "HTTP 429 from Vercel (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-20T22:00:46.450052-06:00"
+  "checked": "2026-11-27T22:46:20.239257-06:00"
  },
  "http://www.thebrickhousebbq.com": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:46.450056-06:00"
+  "checked": "2026-11-27T22:46:20.239261-06:00"
  },
  "https://slackjacks.com/": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:46.450067-06:00"
+  "checked": "2026-11-27T22:46:20.239271-06:00"
  },
  "http://tasteoftibet.net/": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:46.450059-06:00"
+  "checked": "2026-11-27T22:46:20.239265-06:00"
  },
  "http://dragoniwi.com": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:46.450063-06:00"
+  "checked": "2026-11-27T22:46:20.239268-06:00"
  },
  "http://www.casadelara.net": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:46.450071-06:00"
+  "checked": "2026-11-27T22:46:20.239274-06:00"
  },
  "https://himalchulirestaurant.com": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:46.450075-06:00"
+  "checked": "2026-11-27T22:46:20.239277-06:00"
  },
  "https://www.fourstarvideoheaven.com": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:46.450092-06:00"
+  "checked": "2026-11-27T22:46:20.239291-06:00"
  },
  "https://www.tuttopastastate.com": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:46.450083-06:00"
+  "checked": "2026-11-27T22:46:20.239285-06:00"
  },
  "http://www.taqueria3amigosmsn.com/39506": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:46.450088-06:00"
+  "checked": "2026-11-27T22:46:20.239288-06:00"
  },
  "https://www.breakfastalabrasa.com/?utm_source=bing&utm_medium=websiteurl&utm_campaign=search": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:43.796984-06:00"
+  "checked": "2026-11-27T22:46:17.625913-06:00"
  },
  "http://www.thefountainofmadison.com": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:46.450096-06:00"
+  "checked": "2026-11-27T22:46:20.239295-06:00"
  },
  "https://107state.com": {
   "ok": null,
   "why": "could not connect",
-  "checked": "2026-11-20T22:00:46.450100-06:00"
+  "checked": "2026-11-27T22:46:20.239298-06:00"
  },
  "http://wisconsinbrewingtaphaus.com": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:46.450104-06:00"
+  "checked": "2026-11-27T22:46:20.239302-06:00"
  },
  "https://www.ianspizza.com": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:46.450108-06:00"
+  "checked": "2026-11-27T22:46:20.239305-06:00"
  },
  "http://fiorecompanies.com/verex-plaza": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:46.450112-06:00"
+  "checked": "2026-11-27T22:46:20.239324-06:00"
  },
  "https://www.sassgc.com": {
   "ok": null,
   "why": "could not connect",
-  "checked": "2026-11-20T22:00:46.450116-06:00"
+  "checked": "2026-11-27T22:46:20.239330-06:00"
  },
  "https://www.letoile-restaurant.com": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:46.450119-06:00"
+  "checked": "2026-11-27T22:46:20.239334-06:00"
  },
  "http://oceangrillmadison.com/": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:43.796998-06:00"
+  "checked": "2026-11-27T22:46:17.625923-06:00"
  },
  "http://www.dluxmadison.com": {
   "ok": null,
   "why": "could not connect",
-  "checked": "2026-11-20T22:00:43.796993-06:00"
+  "checked": "2026-11-27T22:46:17.625920-06:00"
  },
  "http://www.elgritotaqueria.com": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:43.796989-06:00"
+  "checked": "2026-11-27T22:46:17.625917-06:00"
  },
  "http://www.chophouse411.com/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:43.797002-06:00"
+  "checked": "2026-11-27T22:46:17.625926-06:00"
  },
  "https://morrisramen.com": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-20T22:00:46.450124-06:00"
+  "ok": false,
+  "why": "HTTP 404 from cloudflare",
+  "checked": "2026-11-27T22:46:20.239338-06:00"
  },
  "http://www.tuttopastacucina.com/": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:46.450128-06:00"
+  "checked": "2026-11-27T22:46:20.239341-06:00"
  },
  "http://www.cucosmexicanfusion.com": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:46.450140-06:00"
+  "checked": "2026-11-27T22:46:20.239352-06:00"
  },
  "http://www.picklejarbbq.com": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:46.450143-06:00"
+  "checked": "2026-11-27T22:46:20.239355-06:00"
  },
  "http://mangomancooks.com": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:46.450147-06:00"
+  "checked": "2026-11-27T22:46:20.239359-06:00"
  },
  "http://www.blairbbq.com": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:46.450135-06:00"
+  "checked": "2026-11-27T22:46:20.239349-06:00"
  },
  "https://lakeviewbakerydeli.com": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:46.450150-06:00"
+  "checked": "2026-11-27T22:46:20.239362-06:00"
  },
  "https://www.vintagebrewingcompany.com/capitoleast": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:46.450154-06:00"
+  "checked": "2026-11-27T22:46:20.239365-06:00"
  },
  "https://tacolocal.com": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-20T22:00:46.450166-06:00"
+  "ok": false,
+  "why": "site no longer exists",
+  "checked": "2026-11-27T22:46:20.239375-06:00"
  },
  "http://www.undergroundfoodcollective.org": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:46.450170-06:00"
+  "checked": "2026-11-27T22:46:20.239378-06:00"
  },
  "https://www.eldoradogrillmadison.com": {
   "ok": null,
   "why": "could not connect",
-  "checked": "2026-11-20T22:00:59.866314-06:00"
+  "checked": "2026-11-27T22:46:32.968006-06:00"
  },
  "http://www.fuegosmadison.com/": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:46.450162-06:00"
+  "checked": "2026-11-27T22:46:20.239372-06:00"
  },
  "https://www.pokepokewi.com/?utm_source=bing&utm_medium=websiteurl&utm_campaign=search": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:46.450158-06:00"
+  "checked": "2026-11-27T22:46:20.239369-06:00"
  },
  "http://www.sheratonmadison.com": {
   "ok": null,
   "why": "HTTP 403 from AkamaiGHost (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-20T22:00:43.797006-06:00"
+  "checked": "2026-11-27T22:46:17.625930-06:00"
  },
  "http://www.lesdelicesdeawa.com": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:43.797011-06:00"
+  "checked": "2026-11-27T22:46:17.625933-06:00"
  },
  "https://www.burritodrive.com": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:59.866349-06:00"
+  "checked": "2026-11-27T22:46:32.968044-06:00"
  },
  "http://www.laroccaspizzeria.com/index2.htm": {
   "ok": false,
   "why": "HTTP 404 from Apache",
-  "checked": "2026-11-20T22:00:59.866355-06:00"
+  "checked": "2026-11-27T22:46:32.968050-06:00"
  },
  "https://www.surfaces.org/contact": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:43.797015-06:00"
+  "checked": "2026-11-27T22:46:17.625936-06:00"
  },
  "http://www.pizzaextreme.biz": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:43.797039-06:00"
+  "checked": "2026-11-27T22:46:17.625955-06:00"
  },
  "http://thepizzaovenmonona.com": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:43.797019-06:00"
+  "checked": "2026-11-27T22:46:17.625940-06:00"
  },
  "http://www.leeasian.com": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:43.797032-06:00"
+  "checked": "2026-11-27T22:46:17.625949-06:00"
  },
  "http://www.takeout.mishquiperu.com": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:43.797028-06:00"
+  "checked": "2026-11-27T22:46:17.625946-06:00"
  },
  "http://www.cuppajo.com": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:59.866428-06:00"
+  "checked": "2026-11-27T22:46:32.968111-06:00"
  },
  "http://www.angelosmonona.com/": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:43.797024-06:00"
+  "checked": "2026-11-27T22:46:17.625943-06:00"
  },
  "http://www.explorewisconsin.com": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:43.797035-06:00"
+  "checked": "2026-11-27T22:46:17.625952-06:00"
  },
  "http://www.donatos.com": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:43.797044-06:00"
+  "checked": "2026-11-27T22:46:17.625958-06:00"
  },
  "http://www.tjcinnamons.com": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:43.797056-06:00"
+  "checked": "2026-11-27T22:46:17.625967-06:00"
  },
  "http://www.hobartservice.com/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:43.797061-06:00"
+  "checked": "2026-11-27T22:46:17.625970-06:00"
  },
  "http://dejope.com/": {
   "ok": null,
   "why": "could not connect",
-  "checked": "2026-11-20T22:00:46.449860-06:00"
+  "checked": "2026-11-27T22:46:20.239116-06:00"
  },
  "https://www.bison-jacks.com": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:46.449896-06:00"
+  "checked": "2026-11-27T22:46:20.239148-06:00"
  },
  "http://thelube.com/locations/wisconsin/middleton/": {
   "ok": false,
   "why": "HTTP 404 from cloudflare",
-  "checked": "2026-11-20T22:00:46.449972-06:00"
+  "checked": "2026-11-27T22:46:20.239193-06:00"
  },
  "http://www.pointburgerbarmiddleton.com": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:46.449976-06:00"
+  "checked": "2026-11-27T22:46:20.239197-06:00"
  },
  "https://www.taigunoodles.com/menu": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:46.449960-06:00"
+  "checked": "2026-11-27T22:46:20.239183-06:00"
  },
  "http://soupfactoryetc.com/": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:46.449950-06:00"
+  "checked": "2026-11-27T22:46:20.239176-06:00"
  },
  "http://www.pokemiddleton.com": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:46.449980-06:00"
+  "checked": "2026-11-27T22:46:20.239200-06:00"
  },
  "http://www.rolypoly.com": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:46.449968-06:00"
+  "checked": "2026-11-27T22:46:20.239190-06:00"
  },
  "http://foodspot.com/fitzgeralds": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:46.449906-06:00"
+  "checked": "2026-11-27T22:46:20.239157-06:00"
  },
  "https://www.redspizzamiddleton.com/?utm_source=organic_bing&utm_medium=bing_pw": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:46.449933-06:00"
+  "checked": "2026-11-27T22:46:20.239166-06:00"
  },
  "https://www.tucumafood.com": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:46.449912-06:00"
+  "checked": "2026-11-27T22:46:20.239162-06:00"
  },
  "https://my-sisters-kitchen.com": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:46.449946-06:00"
+  "checked": "2026-11-27T22:46:20.239173-06:00"
  },
  "https://www.vinsanto.us": {
   "ok": null,
   "why": "could not connect",
-  "checked": "2026-11-20T22:00:46.449940-06:00"
+  "checked": "2026-11-27T22:46:20.239170-06:00"
  },
  "http://www.tapasrias.com": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:46.450002-06:00"
+  "checked": "2026-11-27T22:46:20.239218-06:00"
  },
  "http://www.roryscuisine.com/": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:46.450020-06:00"
+  "checked": "2026-11-27T22:46:20.239232-06:00"
  },
  "https://www.rockyrococo.com": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:46.450015-06:00"
+  "checked": "2026-11-27T22:46:20.239229-06:00"
  },
  "http://lalosmadison.com": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:46.449997-06:00"
+  "checked": "2026-11-27T22:46:20.239214-06:00"
  },
  "http://www.lataguara-madison.com": {
   "ok": null,
   "why": "HTTP 403 from cloudflare (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-20T22:00:46.450131-06:00"
+  "checked": "2026-11-27T22:46:20.239345-06:00"
  },
  "https://forkandspooncafe.com": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:59.866341-06:00"
+  "checked": "2026-11-27T22:46:32.968039-06:00"
  },
  "http://www.jollybobs.com": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:59.866360-06:00"
+  "checked": "2026-11-27T22:46:32.968054-06:00"
  },
  "http://www.mikemasseymusic.com/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:59.866369-06:00"
+  "checked": "2026-11-27T22:46:32.968063-06:00"
  },
  "http://jamericarestaurant.com": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:59.866364-06:00"
+  "checked": "2026-11-27T22:46:32.968058-06:00"
  },
  "http://doughboysmadison.com/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:59.866382-06:00"
+  "checked": "2026-11-27T22:46:32.968074-06:00"
  },
  "http://www.kavanaughsesquire.club": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:59.866373-06:00"
+  "checked": "2026-11-27T22:46:32.968067-06:00"
  },
  "http://rockyrococo.com/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:59.866378-06:00"
+  "checked": "2026-11-27T22:46:32.968071-06:00"
  },
  "http://4and20bakery.com": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:59.866386-06:00"
+  "checked": "2026-11-27T22:46:32.968078-06:00"
  },
  "http://www.magicwokmadison.com": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:59.866396-06:00"
+  "checked": "2026-11-27T22:46:32.968086-06:00"
  },
  "http://monsoonsiam-wi.com": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:59.866391-06:00"
+  "checked": "2026-11-27T22:46:32.968082-06:00"
  },
  "http://ahanmadison.com": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:59.866406-06:00"
+  "checked": "2026-11-27T22:46:32.968093-06:00"
  },
  "http://dobhanrestaurant.com": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:59.866401-06:00"
+  "checked": "2026-11-27T22:46:32.968089-06:00"
  },
  "http://www.jjfishchicken.com/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:59.866411-06:00"
+  "checked": "2026-11-27T22:46:32.968097-06:00"
  },
  "https://www.chesterschicken.com/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:59.866441-06:00"
+  "checked": "2026-11-27T22:46:32.968122-06:00"
  },
  "https://thesportspub.com": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:59.866416-06:00"
+  "checked": "2026-11-27T22:46:32.968101-06:00"
  },
  "http://www.omindianfusioncuisine.com": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:59.866420-06:00"
+  "checked": "2026-11-27T22:46:32.968105-06:00"
  },
  "http://www.pedrosmadison.com": {
   "ok": null,
   "why": "HTTP 403 from cloudflare (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-20T22:00:59.866424-06:00"
+  "checked": "2026-11-27T22:46:32.968108-06:00"
  },
  "http://www.theredlionmadison.com": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:59.866433-06:00"
+  "checked": "2026-11-27T22:46:32.968116-06:00"
  },
  "https://www.meltedmadison.com": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:59.866471-06:00"
+  "checked": "2026-11-27T22:46:32.968146-06:00"
  },
  "http://www.babesmadison.com/": {
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-20T22:00:59.866453-06:00"
+  "checked": "2026-11-27T22:46:32.968133-06:00"
  },
  "http://foodspot.com": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:59.866467-06:00"
+  "checked": "2026-11-27T22:46:32.968142-06:00"
  },
  "http://ordertaqueriasaborqueretano.com": {
   "ok": null,
   "why": "robots.txt asks bots not to visit",
-  "checked": "2026-11-20T22:00:59.866458-06:00"
+  "checked": "2026-11-27T22:46:32.968136-06:00"
  },
  "http://la-hispana-grocery.edan.io": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:59.866462-06:00"
+  "checked": "2026-11-27T22:46:32.968139-06:00"
  },
  "http://www.unos.com": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:59.866449-06:00"
+  "checked": "2026-11-27T22:46:32.968129-06:00"
  },
  "https://modpizza.com": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:59.866445-06:00"
+  "checked": "2026-11-27T22:46:32.968125-06:00"
  },
  "https://daveshotchicken.olo.com/menu/daves-hot-chicken-madison-east/": {
   "ok": null,
   "why": "robots.txt asks bots not to visit",
-  "checked": "2026-11-20T22:00:59.866502-06:00"
+  "checked": "2026-11-27T22:46:32.968170-06:00"
  },
  "https://www.arodstexmex.com": {
   "ok": null,
   "why": "HTTP 403 from cloudflare (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-20T22:00:59.866484-06:00"
+  "checked": "2026-11-27T22:46:32.968157-06:00"
  },
  "http://www.fazolis.com/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:59.866479-06:00"
+  "checked": "2026-11-27T22:46:32.968153-06:00"
  },
  "https://www.house-of-flavas.business.site": {
   "ok": null,
   "why": "could not connect",
-  "checked": "2026-11-20T22:00:59.866488-06:00"
+  "checked": "2026-11-27T22:46:32.968160-06:00"
  },
  "https://www.taquerialabonitawi.com/?utm_source=bing&utm_medium=websiteurl&utm_campaign=search": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:59.866492-06:00"
+  "checked": "2026-11-27T22:46:32.968163-06:00"
  },
  "https://order.myguestaccount.com/menu/4204": {
   "ok": false,
   "why": "HTTP 404 from cloudflare",
-  "checked": "2026-11-20T22:00:59.866497-06:00"
+  "checked": "2026-11-27T22:46:32.968167-06:00"
  },
  "http://www.5anddiner.com": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:59.866510-06:00"
+  "checked": "2026-11-27T22:46:32.968177-06:00"
  },
  "https://www.huhot.com/location/sun-prairie-wi/": {
   "ok": false,
   "why": "HTTP 404 from nginx",
-  "checked": "2026-11-20T22:00:59.866506-06:00"
+  "checked": "2026-11-27T22:46:32.968174-06:00"
  },
  "http://cloud9grille.com/": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:59.866514-06:00"
+  "checked": "2026-11-27T22:46:32.968180-06:00"
  },
  "http://cottagegrovefire.org": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:01:10.065164-06:00"
+  "checked": "2026-11-27T22:46:43.386142-06:00"
  },
  "http://villagecafewf.com": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:01:10.065169-06:00"
+  "checked": "2026-11-27T22:46:43.386147-06:00"
  },
  "http://www.tonys.com": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:59.866518-06:00"
+  "checked": "2026-11-27T22:46:32.968184-06:00"
  },
  "http://willietys.com": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:59.866535-06:00"
+  "checked": "2026-11-27T22:46:32.968199-06:00"
  },
  "https://www.myrosatis.com": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:01:10.065157-06:00"
+  "checked": "2026-11-27T22:46:43.386136-06:00"
  },
  "http://www.thegritty.com": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:01:10.065150-06:00"
+  "checked": "2026-11-27T22:46:43.386131-06:00"
  },
  "http://www.marketstreetdiner.com/": {
   "ok": null,
   "why": "could not connect",
-  "checked": "2026-11-20T22:01:10.065117-06:00"
+  "checked": "2026-11-27T22:46:43.386101-06:00"
  },
  "https://glassnickelpizza.com/location/sun-prairie/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:59.866527-06:00"
+  "checked": "2026-11-27T22:46:32.968192-06:00"
  },
  "https://tasteofafrica.holisacenterprise.com/": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:59.866522-06:00"
+  "checked": "2026-11-27T22:46:32.968188-06:00"
  },
  "https://www.alchemymadison.com/menus.html": {
   "ok": true,
@@ -3049,30 +3049,15 @@
   "why": "",
   "checked": "2026-11-25T14:30:25.659284-06:00"
  },
- "https://www.workingdraftbeer.com/events/2026/11/27/makers-market": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-27T13:58:33.269921-06:00"
- },
- "https://www.ticketmaster.com/event/Z7r9jZ1A7OzG0": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-20T22:00:16.744588-06:00"
- },
- "https://www.ticketmaster.com/event/Z7r9jZ1A70Z-K": {
-  "ok": null,
-  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-20T22:00:16.744612-06:00"
- },
  "https://www.ticketmaster.com/bluegrass-black-friday-madison-wisconsin-11-27-2026/event/0700650BA9213ED9": {
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-20T22:00:16.744620-06:00"
+  "checked": "2026-11-27T22:45:43.286513-06:00"
  },
  "https://www.ticketmaster.com/9th-annual-celebration-of-tom-petty-madison-wisconsin-11-27-2026/event/07006529A5D2767F": {
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-20T22:00:16.744630-06:00"
+  "checked": "2026-11-27T22:45:45.470535-06:00"
  },
  "https://www.ticketmaster.com/event/Z7r9jZ1A70Z-3": {
   "ok": null,
@@ -3204,11 +3189,6 @@
   "why": "",
   "checked": "2026-11-24T23:27:36.057095-06:00"
  },
- "https://www.cafecoda.club/events-1/tani-diakite-and-afrofunkstarks-2m2he-l9nje-t7e27-a45p2": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-25T23:04:13.668132-06:00"
- },
  "https://www.ticketmaster.com/event/Z7r9jZ1AA7eoS": {
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
@@ -3302,107 +3282,107 @@
  "https://thelonegirl.com/event/magic-rob-every-friday-tableside-2-2-2-3-2-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:16.744638-06:00"
+  "checked": "2026-11-27T22:45:45.630559-06:00"
  },
  "https://onesocialmadison.com/event/live-music-yard-dogs/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:16.744655-06:00"
+  "checked": "2026-11-27T22:45:46.017566-06:00"
  },
  "https://www.theatwoodmusichall.com/shows/2026-12-45": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:16.744661-06:00"
+  "checked": "2026-11-27T22:45:46.017593-06:00"
  },
  "https://www.ticketmaster.com/steely-dane-madison-wisconsin-12-04-2026/event/0700651B9E4D25D4": {
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-20T22:00:17.865053-06:00"
+  "checked": "2026-11-27T22:45:47.639871-06:00"
  },
  "https://www.ticketmaster.com/ama-partzilla-arenacross-track-walk-experience-madison-wisconsin-12-04-2026/event/0700654D835B204F": {
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-20T22:00:18.989868-06:00"
+  "checked": "2026-11-27T22:45:47.639898-06:00"
  },
  "https://www.ticketmaster.com/varsity-mac-scorched-waves-w-velvet-madison-wisconsin-12-04-2026/event/07006536C59A4F83": {
   "ok": null,
   "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
-  "checked": "2026-11-20T22:00:20.084180-06:00"
+  "checked": "2026-11-27T22:45:47.639904-06:00"
  },
  "http://www.bahnthai.741.com": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:20.538239-06:00"
+  "checked": "2026-11-27T22:45:54.302168-06:00"
  },
  "http://rockysmadison.com/": {
   "ok": null,
   "why": "could not connect",
-  "checked": "2026-11-20T22:00:43.796903-06:00"
+  "checked": "2026-11-27T22:46:17.625851-06:00"
  },
  "http://www.bigredssteaks.com/": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:43.796963-06:00"
+  "checked": "2026-11-27T22:46:17.625895-06:00"
  },
  "http://www.8seasonsgrille.com": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:43.796979-06:00"
+  "checked": "2026-11-27T22:46:17.625909-06:00"
  },
  "https://themeltdown.com/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:43.797048-06:00"
+  "checked": "2026-11-27T22:46:17.625961-06:00"
  },
  "https://www.bandaburrito.com/": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:43.797053-06:00"
+  "checked": "2026-11-27T22:46:17.625965-06:00"
  },
  "http://www.freskamediterraneangrill.com": {
   "ok": null,
   "why": "could not connect",
-  "checked": "2026-11-20T22:00:46.449902-06:00"
+  "checked": "2026-11-27T22:46:20.239152-06:00"
  },
  "http://k-peppers.com": {
   "ok": null,
   "why": "TooManyRedirects",
-  "checked": "2026-11-20T22:00:46.449955-06:00"
+  "checked": "2026-11-27T22:46:20.239179-06:00"
  },
  "http://www.foodspot.com/clients/wi/middleton/tuttopastatrattoria": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:46.449964-06:00"
+  "checked": "2026-11-27T22:46:20.239186-06:00"
  },
  "https://www.orderchinawokmiddleton.com/?utm_source=bing&utm_medium=websiteurl&utm_campaign=search": {
   "ok": null,
   "why": "could not connect",
-  "checked": "2026-11-20T22:00:46.449989-06:00"
+  "checked": "2026-11-27T22:46:20.239206-06:00"
  },
  "http://osakamadison.com": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:46.450043-06:00"
+  "checked": "2026-11-27T22:46:20.239249-06:00"
  },
  "http://getsomeburritos.com/": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:46.450079-06:00"
+  "checked": "2026-11-27T22:46:20.239281-06:00"
  },
  "http://locations.buffet.com/WI/MADISON/0188/": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:59.866437-06:00"
+  "checked": "2026-11-27T22:46:32.968119-06:00"
  },
  "http://www.papabearsbbqmadison.com/": {
   "ok": false,
   "why": "site no longer exists",
-  "checked": "2026-11-20T22:00:59.866475-06:00"
+  "checked": "2026-11-27T22:46:32.968149-06:00"
  },
  "https://www.mealsbycassoulet.com": {
   "ok": true,
   "why": "",
-  "checked": "2026-11-20T22:00:59.866531-06:00"
+  "checked": "2026-11-27T22:46:32.968195-06:00"
  },
  "https://www.motherfools.com/": {
   "ok": true,
@@ -3699,14 +3679,94 @@
   "why": "",
   "checked": "2026-11-26T23:04:40.480677-06:00"
  },
- "https://statestreetbrats.com/event/bucks-pistons-20261127/": {
-  "ok": true,
-  "why": "",
-  "checked": "2026-11-27T13:58:34.819564-06:00"
- },
  "https://www.cafecoda.club/events-1/night-of-the-improvisor-benefit-z75az": {
   "ok": true,
   "why": "",
   "checked": "2026-11-27T13:58:34.819571-06:00"
+ },
+ "https://statestreetbrats.com/event/thunder-bucks-20261128/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-27T22:45:45.630533-06:00"
+ },
+ "https://www.cafecoda.club/events-1/deep-house-music-dj-wayne-wonder-3bs82": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-27T22:45:47.639909-06:00"
+ },
+ "https://www.cafecoda.club/events-1/playin-the-standards-a-jam-session-hosted-by-janni-hora-kkkd4-egamd": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-27T22:45:47.639913-06:00"
+ },
+ "https://www.cafecoda.club/events-1/duke-tumatoe": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-27T22:45:47.639916-06:00"
+ },
+ "https://www.cafecoda.club/events-1/doug-white-quartet-1-6gly7-eypa9-yt6pe-ccaaa": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-27T22:45:47.639920-06:00"
+ },
+ "https://www.ticketmaster.com/event/Z7r9jZ1AAvtfd": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-11-27T22:45:48.722353-06:00"
+ },
+ "https://thelonegirl.com/event/magic-rob-every-friday-tableside-2-2-2-3-2-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-27T22:45:48.722379-06:00"
+ },
+ "https://www.ticketmaster.com/elmos-got-the-moves-madison-wisconsin-12-11-2026/event/07006493C2DD54F0": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-11-27T22:45:49.811059-06:00"
+ },
+ "https://onesocialmadison.com/event/live-music-mountain-music-for-flatlanders-3/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-27T22:45:49.811088-06:00"
+ },
+ "https://www.theatwoodmusichall.com/shows/2026-12-11": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-27T22:45:49.811094-06:00"
+ },
+ "https://www.madisoncomedy.com/event/sam-morril26/2026-12-11/1/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-27T22:45:49.811099-06:00"
+ },
+ "https://www.ticketmaster.com/event/Z7r9jZ1AAvFGa": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-11-27T22:45:50.897407-06:00"
+ },
+ "https://www.cafecoda.club/events-1/fiesta-latina-dance-party-fundraiser-orquesta-salsoul-cumbiamigos": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-27T22:45:50.897431-06:00"
+ },
+ "https://www.ticketmaster.com/creepfunk-christmas-w-steez-modern-joey-madison-wisconsin-12-11-2026/event/07006553D1BA6957": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-11-27T22:45:52.025424-06:00"
+ },
+ "https://www.ticketmaster.com/event/Z7r9jZ1AAeZvI": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-11-27T22:45:53.162903-06:00"
+ },
+ "https://www.ticketmaster.com/gasolina-party-ages-18-madison-wisconsin-12-11-2026/event/07006557A70A6286": {
+  "ok": null,
+  "why": "HTTP 403 (the site refused the request; often a block on cloud servers)",
+  "checked": "2026-11-27T22:45:54.302017-06:00"
+ },
+ "https://www.madisoncomedy.com/event/sam-morril26/2026-12-11/2/": {
+  "ok": true,
+  "why": "",
+  "checked": "2026-11-27T22:45:54.302044-06:00"
  }
 }

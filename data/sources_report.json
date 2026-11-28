@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-11-27T13:58:32-06:00",
- "total_events": 361,
- "in_more_than_one_source": 12,
+ "generated_at": "2026-11-27T22:45:42-06:00",
+ "total_events": 376,
+ "in_more_than_one_source": 10,
  "sources": {
   "AI page reading": {
-   "events": 109,
-   "unique_events": 102,
+   "events": 116,
+   "unique_events": 110,
    "overlap": {
-    "Isthmus": 2,
+    "Isthmus": 1,
     "Ticketmaster": 5,
     "Venue websites": 0
    },
-   "venues": 30,
+   "venues": 29,
    "unique_venues": [
     "Aftershock Classic Arcade",
     "Arts + Literature Laboratory",
@@ -41,12 +41,12 @@
    ]
   },
   "Isthmus": {
-   "events": 163,
-   "unique_events": 158,
+   "events": 157,
+   "unique_events": 154,
    "overlap": {
-    "AI page reading": 2,
+    "AI page reading": 1,
     "Ticketmaster": 0,
-    "Venue websites": 3
+    "Venue websites": 2
    },
    "venues": 63,
    "unique_venues": [
@@ -59,6 +59,7 @@
     "Brix Cider",
     "Cafe Carpe",
     "Camp Randall Stadium",
+    "Capital Brewery",
     "Cargo Coffee-East Washington",
     "Chief's Tavern",
     "Christ Presbyterian Church",
@@ -107,16 +108,15 @@
    ]
   },
   "Ticketmaster": {
-   "events": 33,
-   "unique_events": 26,
+   "events": 37,
+   "unique_events": 30,
    "overlap": {
     "AI page reading": 5,
     "Isthmus": 0,
     "Venue websites": 2
    },
-   "venues": 11,
+   "venues": 10,
    "unique_venues": [
-    "Camp Randall",
     "Capitol Theater - Overture Center",
     "Legacy20 Arena at Deforest Yards",
     "The Sylvee",
@@ -124,11 +124,11 @@
    ]
   },
   "Venue websites": {
-   "events": 68,
-   "unique_events": 63,
+   "events": 76,
+   "unique_events": 72,
    "overlap": {
     "AI page reading": 0,
-    "Isthmus": 3,
+    "Isthmus": 2,
     "Ticketmaster": 2
    },
    "venues": 14,
